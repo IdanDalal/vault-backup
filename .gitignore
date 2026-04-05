@@ -1,0 +1,9 @@
+.obsidian/workspace.json
+cat > ~/vault/.gitignore << 'EOF'
+.obsidian/workspace-mobile.json
+cat > ~/vault/.gitignore << 'EOF'
+.obsidian/workspace.json
+cat > ~/vault/.gitignore << 'EOF'
+.trash
+.DS_Store
+.vault-config/logs/
