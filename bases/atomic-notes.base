@@ -1,0 +1,53 @@
+filters:
+  and:
+    - file.inFolder("atomic-notes")
+    - file.ext == "md"
+formulas:
+  age_days: ((now() - file.ctime) / 86400000).round(0)
+  has_source: if(source, "🔗", "")
+  link_count: file.links.length
+  backlink_count: file.backlinks.length
+  connections: file.links.length + file.backlinks.length
+properties:
+  formula.age_days:
+    displayName: Age (days)
+  formula.has_source:
+    displayName: Src
+  formula.connections:
+    displayName: Connections
+  formula.link_count:
+    displayName: → Links
+  formula.backlink_count:
+    displayName: ← Backlinks
+views:
+  - type: table
+    name: All Notes
+    order:
+      - file.name
+      - created
+      - tags
+      - formula.has_source
+      - formula.connections
+      - formula.age_days
+  - type: table
+    name: Most Connected
+    groupBy:
+      property: formula.connections
+      direction: DESC
+    order:
+      - file.name
+      - formula.connections
+      - formula.link_count
+      - formula.backlink_count
+      - tags
+  - type: table
+    name: Orphans
+    filters:
+      and:
+        - file.links.length == 0
+        - file.backlinks.length == 0
+    order:
+      - file.name
+      - created
+      - tags
+      - formula.age_days

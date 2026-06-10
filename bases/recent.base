@@ -1,0 +1,56 @@
+filters:
+  and:
+    - file.mtime > now() - "30d"
+    - file.ext == "md"
+    - not:
+        - file.inFolder(".vault-config")
+        - file.inFolder(".obsidian")
+        - file.inFolder(".git")
+formulas:
+  last_modified: file.mtime.relative()
+  modified_date: file.mtime.format("YYYY-MM-DD")
+  location: file.folder
+  word_estimate: (file.size / 5).round(0)
+properties:
+  formula.last_modified:
+    displayName: Modified
+  formula.modified_date:
+    displayName: Date
+  formula.location:
+    displayName: Location
+  formula.word_estimate:
+    displayName: ~Words
+views:
+  - type: cards
+    name: Recent Activity
+    order:
+      - file.name
+      - formula.last_modified
+      - formula.location
+      - type
+      - author
+  - type: table
+    name: By Date
+    groupBy:
+      property: formula.modified_date
+      direction: DESC
+    order:
+      - file.name
+      - formula.modified_date
+      - formula.location
+      - type
+      - author
+      - formula.word_estimate
+  - type: table
+    name: By Author
+    filters:
+      not:
+        - file.inFolder("telos")
+    groupBy:
+      property: author
+      direction: ASC
+    order:
+      - file.name
+      - formula.last_modified
+      - formula.location
+      - type

@@ -1,0 +1,57 @@
+{
+  "source": {
+    "name": "Claude Code GitHub Releases",
+    "url": "https://api.github.com/repos/anthropics/claude-code/releases",
+    "type": "github_api",
+    "enabled": true
+  },
+  "fetched_at": "2026-01-24T14:58:04.623550",
+  "data": {
+    "success": true,
+    "releases": [
+      {
+        "tag": "v2.1.19",
+        "name": "v2.1.19",
+        "published": "2026-01-23T21:56:32Z",
+        "body": "## What's changed\n\n- Added env var `CLAUDE_CODE_ENABLE_TASKS`, set to `false` to keep the old system temporarily\n- Added shorthand `$0`, `$1`, etc. for accessing individual arguments in custom commands\n- Fixed crashes on processors without AVX instruction support\n- Fixed dangling Claude Code processes when terminal is closed by catching EIO errors from `process.exit()` and using SIGKILL as fallback\n- Fixed `/rename` and `/tag` not updating the correct session when resuming from a different direc",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.19"
+      },
+      {
+        "tag": "v2.1.17",
+        "name": "v2.1.17",
+        "published": "2026-01-22T21:46:31Z",
+        "body": "## What's changed\n\n- Fixed crashes on processors without AVX instruction support\n",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.17"
+      },
+      {
+        "tag": "v2.1.16",
+        "name": "v2.1.16",
+        "published": "2026-01-22T20:09:21Z",
+        "body": "## What's changed\n\n- Added new task management system, including new capabilities like dependency tracking\n- [VSCode] Added native plugin management support\n- [VSCode] Added ability for OAuth users to browse and resume remote Claude sessions from the Sessions dialog\n- Fixed out-of-memory crashes when resuming sessions with heavy subagent usage\n- Fixed an issue where the \"context remaining\" warning was not hidden after running `/compact`\n- Fixed session titles on the resume screen not respecting ",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.16"
+      },
+      {
+        "tag": "v2.1.15",
+        "name": "v2.1.15",
+        "published": "2026-01-21T22:01:11Z",
+        "body": "## What's changed\n\n- Added deprecation notification for npm installations - run `claude install` or see https://docs.anthropic.com/en/docs/claude-code/getting-started for more options\n- Improved UI rendering performance with React Compiler\n- Fixed the \"Context left until auto-compact\" warning not disappearing after running `/compact`\n- Fixed MCP stdio server timeout not killing child process, which could cause UI freezes\n",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.15"
+      },
+      {
+        "tag": "v2.1.14",
+        "name": "v2.1.14",
+        "published": "2026-01-20T23:09:30Z",
+        "body": "## What's changed\n\n- Added history-based autocomplete in bash mode (`!`) - type a partial command and press Tab to complete from your bash command history\n- Added search to installed plugins list - type to filter by name or description\n- Added support for pinning plugins to specific git commit SHAs, allowing marketplace entries to install exact versions\n- Fixed a regression where the context window blocking limit was calculated too aggressively, blocking users at ~65% context usage instead of th",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.14"
+      }
+    ],
+    "count": 5,
+    "latest": {
+      "tag": "v2.1.19",
+      "name": "v2.1.19",
+      "published": "2026-01-23T21:56:32Z",
+      "body": "## What's changed\n\n- Added env var `CLAUDE_CODE_ENABLE_TASKS`, set to `false` to keep the old system temporarily\n- Added shorthand `$0`, `$1`, etc. for accessing individual arguments in custom commands\n- Fixed crashes on processors without AVX instruction support\n- Fixed dangling Claude Code processes when terminal is closed by catching EIO errors from `process.exit()` and using SIGKILL as fallback\n- Fixed `/rename` and `/tag` not updating the correct session when resuming from a different direc",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.19"
+    }
+  }
+}

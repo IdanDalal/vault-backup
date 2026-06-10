@@ -1,0 +1,35 @@
+# Vault write deny list — Layer 2 enforcement (ADR-004)
+# One glob per line. Lines starting with # are comments.
+# Paths are matched against the resolved absolute path of any
+# Edit/Write tool target, or against write-shaped Bash command targets.
+#
+# Layer 1 (Unix group + setpriv) is the kernel-enforced backstop.
+# Layer 3 (settings.json permissions.deny) is advisory only.
+# This file IS the source of truth for Layer 2.
+
+# The atomic-notes invariant — Idi types every character himself.
+/home/jep/vault/atomic-notes/**
+
+# Vault configuration and audit logs — only updated via deploy + the hook itself.
+/home/jep/vault/.vault-config/**
+
+# Git internals — never touch directly; use git commands.
+/home/jep/vault/.git/**
+
+# Obsidian internals — managed by the app, not by Claude.
+/home/jep/vault/.obsidian/**
+
+# TELOS identity context — Idi's self-description, jep reads only.
+/home/jep/vault/telos/**
+
+# The user-side wrapper for Layer 1 — defending the defense mechanism.
+/home/jep/bin/claude-vault
+
+# The root-side helper for Layer 1 (belt + suspenders — it's also root-owned).
+/usr/local/bin/claude-vault-helper
+
+# The sudoers rule — changing this would break Layer 1 or open a hole.
+/etc/sudoers.d/claude-vault
+
+# The hook script itself — same reason.
+/home/jep/.claude/hooks/vault-write-guard.sh

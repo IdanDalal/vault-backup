@@ -1,0 +1,20 @@
+{
+  "github_releases": {
+    "name": "Claude Code GitHub Releases",
+    "url": "https://api.github.com/repos/anthropics/claude-code/releases",
+    "type": "github_api",
+    "enabled": true
+  },
+  "anthropic_blog": {
+    "name": "Anthropic Engineering Blog",
+    "url": "https://www.anthropic.com/engineering",
+    "type": "web_scrape",
+    "enabled": true
+  },
+  "claude_docs": {
+    "name": "Claude Code Documentation",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "type": "web_scrape",
+    "enabled": true
+  }
+}

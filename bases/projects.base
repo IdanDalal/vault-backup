@@ -1,0 +1,56 @@
+filters:
+  and:
+    - type == "project"
+    - file.ext == "md"
+formulas:
+  last_touched: file.mtime.relative()
+  days_until_due: if(due, ((date(due) - today()) / 86400000).round(0), "")
+  is_overdue: if(due, date(due) < today() && status != "done", false)
+  overdue_flag: if(due, if(date(due) < today() && status != "done", "⚠️ OVERDUE", ""), "")
+  task_links: file.backlinks.length
+properties:
+  formula.last_touched:
+    displayName: Last Touched
+  formula.days_until_due:
+    displayName: Days Left
+  formula.task_links:
+    displayName: Tasks
+views:
+  - type: table
+    name: Active Projects
+    filters:
+      and:
+        - status == "active"
+    groupBy:
+      property: priority
+      direction: ASC
+    order:
+      - file.name
+      - priority
+      - due
+      - formula.days_until_due
+      - formula.overdue_flag
+      - area
+      - formula.last_touched
+  - type: table
+    name: All Projects
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - priority
+      - due
+      - area
+      - formula.last_touched
+  - type: table
+    name: Paused
+    filters:
+      and:
+        - status == "paused"
+    order:
+      - file.name
+      - priority
+      - area
+      - formula.last_touched

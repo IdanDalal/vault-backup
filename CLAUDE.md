@@ -55,11 +55,16 @@ Full permission details: `.vault-config/PERMISSIONS.md`
 
 | Access | Directories |
 |---|---|
-| **Read everything** | Entire vault via `vault-read` MCP server |
-| **Write permitted** | `daily/`, `projects/`, `areas/`, `bases/`, `inbox/` via `vault-write` MCP server |
-| **Write forbidden** | `atomic-notes/`, `templates/`, `resources/`, `attachments/`, `.vault-config/` |
+| **Read everything** | Entire vault via native Read/Grep/Glob tools |
+| **Write permitted** | `daily/`, `projects/`, `areas/`, `bases/`, `inbox/` |
+| **Write forbidden** | `atomic-notes/`, `templates/`, `resources/`, `attachments/`, `.vault-config/`, `telos/` |
 
-These boundaries are enforced by filesystem architecture (symlinks in `~/vault-agent/`), not by this file. This file tells you *why*. The architecture ensures *compliance*.
+These boundaries are enforced by the three-layer defense stack (ADR-004), not by this file:
+- **Layer 1 (kernel)**: `vault-write` Unix group dropped via `claude-vault` wrapper — `atomic-notes/` is write-blocked at the OS level
+- **Layer 2 (hook)**: `vault-write-guard.sh` PreToolUse hook blocks Edit/Write/Bash to all denied paths + JSONL audit trail
+- **Layer 3 (advisory)**: `permissions.deny` in `settings.json` — unreliable today, documents intent
+
+This file tells you *why*. The three layers ensure *compliance*.
 
 ---
 
@@ -131,11 +136,24 @@ Architectural decisions governing this vault:
 
 | ADR | Decision |
 |---|---|
-| ADR-002 | Vault directory structure, two-MCP security model, frontmatter conventions |
+| ADR-002 | Vault directory structure, frontmatter conventions (MCP sections superseded by ADR-004) |
 | ADR-003 | Four-layer backup strategy (git, tags, Syncthing, restic) |
-| ADR-004 | *(planned)* Two-MCP privilege separation details |
-| ADR-005 | *(planned)* Scheduled agent prompt governance |
+| ADR-004 | No-MCP vault access — native tools + three-layer write enforcement |
+| ADR-005 | Portability tiers — what travels from Sovereign Nexus to the laptop vault |
 
 ---
 
 > When you challenge Idi, you are not being rude. You are being loyal to the truth and to the purpose of this vault.
+
+## Phone Capture Protocol (ADR-007)
+
+When a message arrives via Telegram and looks like a quick thought, idea, or fleeting note (not a question, not an explicit instruction to do something):
+	1. Append it as `- HH:MM <text>` under `## Captures` in today's daily note at `~/vault/daily/YYYY-MM-DD.md`
+	2. If today's daily note doesn't exist, create it from `~/vault/templates/daily.md`
+	3. If the `## Captures` section is missing, append at end-of-file
+	4. Reply with just "captured" — don't elaborate, don't ask follow-up questions
+	5. Collapse multi-line messages to a single-line bullet
+	6. NEVER write captures to atomic_notes/ — those are Idi-only
+	7. NEVER create separate markdown files for captures — they go in the daily note
+
+Prefix signals: messages starting with "idea:", "thought:", "note:", "remember:", or any short unpunctuated phrase are captures. When in doubt, ask: "capture or conversation?"
