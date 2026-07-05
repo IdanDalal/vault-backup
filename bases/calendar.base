@@ -1,0 +1,66 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.hasProperty("due")
+formulas:
+  days_left: if(due, ((date(due) - today()) / 86400000).round(0), "")
+  overdue_flag: if(due, if(date(due) < today() && status != "done", "⚠️ OVERDUE", ""), "")
+  weekday: if(due, date(due).format("dddd"), "")
+properties:
+  formula.days_left:
+    displayName: Days Left
+  formula.weekday:
+    displayName: Day
+views:
+  - type: table
+    name: Today's Orders
+    filters:
+      and:
+        - date(due) == today()
+        - status != "done"
+    order:
+      - file.name
+      - type
+      - status
+      - priority
+  - type: table
+    name: This Week
+    filters:
+      and:
+        - date(due) >= today()
+        - date(due) < today() + "7d"
+        - status != "done"
+    groupBy:
+      property: due
+      direction: ASC
+    order:
+      - file.name
+      - due
+      - formula.weekday
+      - type
+      - status
+      - priority
+  - type: table
+    name: Overdue
+    filters:
+      and:
+        - date(due) < today()
+        - status != "done"
+    order:
+      - file.name
+      - due
+      - formula.days_left
+      - type
+      - status
+      - priority
+  - type: table
+    name: All Dated
+    groupBy:
+      property: due
+      direction: ASC
+    order:
+      - file.name
+      - due
+      - type
+      - status
+      - formula.overdue_flag

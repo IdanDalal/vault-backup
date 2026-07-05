@@ -39,13 +39,14 @@ Purpose: externalize administrative load so Idi governs (Master/General) while j
 
 | Channel | Direction | Status |
 |---|---|---|
-| Capture hook (`c:` via Telegram → daily note) | Soldier → vault | **Built** (ADR-007), dormant |
-| Daily digest | Emissary → Master | Designed; needs schedule |
-| Health/sleep log (evening numbers → frontmatter → base) | Body → ledger | Daily template fields exist; needs the evening channel |
-| Calendar (orders for future selves) | General → Soldiers | **Absent — the keystone.** "Biophysical contract where attention commits time." |
-| Routing lens (modified Eisenhower) | inbox → calendar/kanban | Absent. Dated → calendar column; undated → kanban by priority. A lens, never a maintained file. |
-| Weekly Loop Review (SELF-MAX zones 6–7) | Environment → Master | **The new ritual. The piece whose absence killed every prior system.** |
-| Atomic-note staging (drip) | Corpus/dumps → Master's hand | New; governed below |
+| Capture hook (`c:` via Telegram → daily note) | Soldier → vault | **Built** (ADR-007) |
+| Daily digest | Emissary → Master | **LIVE 2026-06-10** — daily 09:03, full digest to `daily/digests/`, compact version to Telegram. Harness cron (renews weekly); durable home = `.vault-config/prompts/`, draft staged in `inbox/`. |
+| Evening ping (3 numbers: sleep / energy / drift-or-win line) | Emissary → Soldier → ledger | **LIVE 2026-06-10** — daily 21:53 via Telegram. Reply lands as captures; morning digest lifts numbers into frontmatter. |
+| Health/sleep device data (Pixel 8 Pro + Pixel Watch 2 / Fitbit) | Body → ledger | Evening ping = daily signal. Device history = periodic **Google Takeout / Fitbit export dumped into `inbox/`**; jep parses into ledger + base (parser gets built against the first real export). Exports in, never cloud APIs. |
+| Calendar (orders for future selves) | General → Soldiers | **LIVE 2026-06-10** — `bases/calendar.base` (Today's Orders / This Week / Overdue / All Dated). An order = any note with `due:` frontmatter + status enum. |
+| Routing lens (modified Eisenhower) | inbox → calendar/kanban | **Active with the calendar:** dated dumps → jep creates a `type: task` note with `due:`; undated → kanban by `priority`. A lens, never a maintained file. |
+| Weekly Loop Review (SELF-MAX zones 6–7) | Environment → Master | **The new ritual. The piece whose absence killed every prior system.** Cadence: pick the weekly 30-min slot. |
+| Atomic-note staging (drip) | Corpus/dumps → Master's hand | Dormant — wake with **"stage one"** |
 
 ## The Loop (from SELF-MAX, stripped and generalized)
 
@@ -68,9 +69,16 @@ Substrate is local markdown/JSONL under git + nightly tags + Syncthing + restic 
 
 ---
 
-## Dormant switches — say the word and it goes live
+## Switches
 
-- **"wake the digest"** → schedule the morning digest.
-- **"wake the evening ping"** → schedule the evening 3-numbers prompt (Telegram).
-- **"calendar"** → pick the substrate (plan-section in daily note vs. dedicated file) and the routing lens activates with it.
-- **"stage one"** → first atomic-note candidate appears in `inbox/`, with context, awaiting your hands.
+- ~~"wake the digest"~~ → **LIVE** (daily 09:03)
+- ~~"wake the evening ping"~~ → **LIVE** (daily 21:53)
+- ~~"calendar"~~ → **LIVE** (`bases/calendar.base`; substrate = `due:` frontmatter notes)
+- ~~"stage one"~~ → **STAGED 2026-06-10**: candidate #1 = the Telescope × Bowstring second atomic note (substance fully crystallized in `inbox/seed-telescope-x-bowstring.md`, carving shape appended). Next: **"stage two"** after it's typed.
+- ~~Loop Review slot~~ → **SUNDAY MORNING** (Idi's call 2026-06-10: Thu/Fri party nights make Sunday the felt week boundary — and the Hebrew calendar agrees). Prep packet lands 09:17 Sundays; the 30-min sitting follows at his pace.
+
+## Maintenance log
+
+- **2026-06-10 — backup layer found dead and repaired.** Crontab still pointed at `/home/idan/*` (nonexistent since the home-dir rename); autocommit, nightly tags, and backup-health had been silent since 2026-04-06. Fixed paths → `/home/jep`. `.gitignore` was corrupted (botched heredoc) → rewritten; `inbox/CORPUS-June-2026/` (446MB backup dump) excluded from git. Catch-up commit `3f7a52f`: 75 files, **including the first-ever commit of `telos/`**.
+- **2026-06-10 (later) — runner BUILT, restic INSTALLED, drip STARTED.** `~/bin/run-agent.sh` created and tested end-to-end (fail-safe SKIP without a blessed prompt; full sudo→setpriv→headless-claude chain verified). Cron lines live for morning-digest / evening-ping / loop-review — all skipping silently until Idi saves the three prompt files into `.vault-config/prompts/` (the placement IS the approval; full instructions in `inbox/standing-prompts-draft.md`). Restic 0.19.0 installed to `~/bin` (had never been installed); weekly cron Sunday 02:47, self-gated on `~/.config/restic/env` existing — template at `~/.config/restic/env.template`, credentials are Idi's hand. Loop Review slot locked: **Sunday morning**, prep packet 09:17.
+- **Remaining open:** (1) Idi fills restic `env` + runs `restic init` once. (2) Idi saves the 3 prompts → tells jep → jep deletes the interim harness jobs (else everything arrives twice). (3) Candidate #1 awaits carving. (4) Cron-level runner logs go to `~/.local/state/vault-agent/` (the write-guard rightly blocks jep from aiming redirects at `.vault-config/logs/`; the runner itself logs there at runtime, like autocommit — move the redirects if you want them unified).

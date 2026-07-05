@@ -149,7 +149,7 @@ Architectural decisions governing this vault:
 
 When a message arrives via Telegram and looks like a quick thought, idea, or fleeting note (not a question, not an explicit instruction to do something):
 	1. Append it as `- HH:MM <text>` under `## Captures` in today's daily note at `~/vault/daily/YYYY-MM-DD.md`
-	2. If today's daily note doesn't exist, create it from `~/vault/templates/daily.md`
+	2. If today's daily note doesn't exist, create it from `~/vault/templates/daily-note.tpl.md`
 	3. If the `## Captures` section is missing, append at end-of-file
 	4. Reply with just "captured" — don't elaborate, don't ask follow-up questions
 	5. Collapse multi-line messages to a single-line bullet

@@ -1,0 +1,1 @@
+Send one short Telegram message to chat 6139758667: "🌙 Evening ledger — three numbers: sleep last night (hrs — the watch knows), energy today (1–5), and one line: drift or win? Anything else: prefix with c: to capture." Then stop; replies are handled by the capture protocol (ADR-007).

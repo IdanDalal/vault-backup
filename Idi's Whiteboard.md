@@ -18,3 +18,5 @@
 18. Strawman
 19. Gaslight
 20. Cherry-pick
+
+! sed -i '1s/^[[:space:]]*//' ~/vault/.vault-config/scripts/{autocommit,nightly-tag,backup-health}.sh

@@ -48,3 +48,40 @@
 {"ts":"2026-06-09T22:24:44Z","tool":"Write","path":"/home/jep/vault/projects/emissary-maintenance.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
 {"ts":"2026-06-09T22:25:06Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/time-attention-system-project.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
 {"ts":"2026-06-10T13:31:23Z","tool":"Write","path":"/home/jep/vault/.gitignore","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:32:17Z","tool":"Write","path":"/home/jep/vault/bases/calendar.base","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:33:17Z","tool":"Edit","path":"/home/jep/vault/projects/emissary-maintenance.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:33:28Z","tool":"Edit","path":"/home/jep/vault/projects/emissary-maintenance.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:33:38Z","tool":"Write","path":"/home/jep/vault/inbox/standing-prompts-draft.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:33:58Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/time-attention-system-project.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:52:40Z","tool":"Write","path":"/home/jep/bin/run-agent.sh","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:54:42Z","tool":"Bash","path":"crontab -l > /tmp/cron.new && grep -q '^PATH=' /tmp/cron.new || sed -i '1i PATH=/home/jep/bin:/usr/bin:/bin' /tmp/cron.new
+cat >> /tmp/cron.new << 'EOF'
+3 9 * * * /home/jep/bin/run-agent.sh morning-digest >> /home/jep/vault/.vault-config/logs/cron-runner.log 2>&1
+53 21 * * * /home/jep/bin/run-agent.sh evening-ping >> /home/jep/vault/.vault-config/logs/cron-runner.log 2>&1
+17 9 * * 0 /home/jep/bin/run-agent.sh loop-review >> /home/jep/vault/.vault-config/logs/cron-runner.log 2>&1
+47 2 * * 0 [ -f /home/jep/.config/restic/env ] && /home/jep/vault/.vault-config/scripts/restic-backup.sh >> /home/jep/vault/.vault-config/logs/restic.log 2>&1
+EOF
+crontab /tmp/cron.new && crontab -l","decision":"deny","reason":"write-shaped-bash","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:55:38Z","tool":"Edit","path":"/home/jep/vault/inbox/seed-telescope-x-bowstring.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:56:00Z","tool":"Edit","path":"/home/jep/vault/inbox/standing-prompts-draft.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:56:04Z","tool":"Edit","path":"/home/jep/vault/projects/emissary-maintenance.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:56:26Z","tool":"Edit","path":"/home/jep/vault/projects/emissary-maintenance.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T13:56:38Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/time-attention-system-project.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T16:04:39Z","tool":"Edit","path":"/home/jep/vault/inbox/seed-telescope-x-bowstring.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T16:04:50Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/time-attention-system-project.md","decision":"allow","reason":"not-denied","session":"27175457-509c-4665-9456-4292927e8f60"}
+{"ts":"2026-06-10T22:13:30Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"fc922356-7ae2-4c58-8de7-d78b4002c4ca"}
+{"ts":"2026-06-10T22:13:54Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"fc922356-7ae2-4c58-8de7-d78b4002c4ca"}
+{"ts":"2026-06-10T22:53:46Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-a-first-session.md","decision":"allow","reason":"not-denied","session":"fc922356-7ae2-4c58-8de7-d78b4002c4ca"}
+{"ts":"2026-06-10T23:24:48Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"fc922356-7ae2-4c58-8de7-d78b4002c4ca"}
+{"ts":"2026-06-23T07:49:38Z","tool":"Bash","path":"set -e
+BK=$(ls -t /tmp/crontab.backup.* | head -1)
+echo "using backup: $BK ($(wc -l < $BK) lines)"
+rm -f /home/jep/.local/state/vault-agent/cron-runner.log /home/jep/vault/.vault-config/logs/agent-__cron_probe__.log
+# install original + a run-agent SKIP probe (nonexistent prompt => sends nothing) firing every minute
+{ cat "$BK"; echo "* * * * * /home/jep/bin/run-agent.sh __cron_probe__ >> /home/jep/.local/state/vault-agent/cron-runner.log 2>&1"; } | crontab -
+echo "installed run-agent SKIP probe at $(date '+%H:%M:%S'); waiting for next tick..."","decision":"deny","reason":"write-shaped-bash","session":"515dd861-9285-43a5-92de-d5b093f8bb7f"}
+{"ts":"2026-06-23T08:12:18Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/vault-scheduled-agents-live.md","decision":"allow","reason":"not-denied","session":"515dd861-9285-43a5-92de-d5b093f8bb7f"}
+{"ts":"2026-06-23T08:12:33Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"515dd861-9285-43a5-92de-d5b093f8bb7f"}
+{"ts":"2026-06-28T14:38:36Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/vault-scheduled-agents-live.md","decision":"allow","reason":"not-denied","session":"515dd861-9285-43a5-92de-d5b093f8bb7f"}
+{"ts":"2026-06-29T06:01:41Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-06-29.md","decision":"allow","reason":"not-denied","session":"1aa58611-2933-43b1-8214-50ab81488079"}
+{"ts":"2026-06-30T06:01:14Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-06-30.md","decision":"allow","reason":"not-denied","session":"7c46cb88-69ea-49fb-8c97-52f042c7bed2"}

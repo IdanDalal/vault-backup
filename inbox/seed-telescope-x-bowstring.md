@@ -35,3 +35,29 @@ Answers 1 (Commander DOES prep) and 3 (will TURNS OFF doing): one will deployed 
 
 ## RESOLUTION (Idi, same session — from another note already in his pile)
 Idi treats his mind as an **LLM**: **TRAINING** = do/act/think to prepare (= the Commander, setting initial conditions). **INFERENCE** = let go of preparation and deploy what's prepared so far (= the Soldier, present, one forward pass at a time). So the "two wills" are one mechanism in two modes: *the will to train* and *the will to stop training and trust inference.* The **Flame** = running inference while pretending to still train, OR refusing to stop training because it doesn't trust the weights. This dissolves the seam — Commander-doing is *training*, Soldier-presence is *inference*, and the will that "turns off doing" is the will to stop training and deploy.
+
+---
+
+## ★ STAGED — atomic-note candidate #1 (2026-06-10, "stage one" switch flipped)
+
+This seed is the first item in the drip. Everything above is already crystallized — your three answers, the resolved knot, the LLM-modes resolution. Nothing left to think through; what remains is the carve. Estimated 20–30 minutes at the keyboard, into `atomic-notes/`, your hands only.
+
+**A shape the material itself suggests (use, bend, or discard):**
+1. The three figures as you originally drew them — Telescope, Sun, Flame.
+2. Commander/Soldier and what makes the Soldier's trust *real* (your vacation answer).
+3. The hinge: same faculty, two states — servant when bound, Flame the moment it thinks it's you.
+4. Training and inference — the two wills dissolved into one mechanism with two modes.
+
+**One open decision for the carve:** the corpus holds TWO divergent versions of the original "The Telescope, The Sun, And The Flame" (flagged in `_CORPUS-MAP/forks-for-your-eyes.txt`). This second note can supersede the fork instead of you reconciling it — write the note that is true *now*, and the old versions become history rather than a conflict.
+
+When it's typed, say **"stage two"** and the next candidate surfaces. One at a time.
+
+---
+
+## ★ RESTRAINT — Idi's crystallization while reading this seed (2026-06-10, verbatim)
+
+> I had a MASSIVE crystalization while reading seed-telescope-x-bowstring.md and reflecting on the atomic note I'm about to drop: RESTRAINT. More specifically — Daniel Schmachtenberger's repeated and deeply profound quote: "I've never encountered any description of WISDOM that didn't involve RESTRAINT". I think the key to resolving ALL the tension in the note is restraint: when to STOP. When to NOT do something.
+
+*(jep, one structural line only: this names the hinge from the other side — "bound" and "restrained" are the same state seen from outside and inside. The will that "turns it off" now has its name. Yours to carve.)*
+
+
