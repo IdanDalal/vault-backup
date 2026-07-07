@@ -17,3 +17,6 @@
 {"ts":"2026-07-06T17:08:41Z","tool":"Write","path":"/home/jep/vault/inbox/P4C-research.md","decision":"allow","reason":"not-denied","session":"3a0e3825-06db-4fe6-8739-61f35db9267e"}
 {"ts":"2026-07-06T17:08:54Z","tool":"Edit","path":"/home/jep/vault/projects/lesson-one-field-guide.md","decision":"allow","reason":"not-denied","session":"3a0e3825-06db-4fe6-8739-61f35db9267e"}
 {"ts":"2026-07-07T06:01:30Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-07-07.md","decision":"allow","reason":"not-denied","session":"2fc539bc-fff4-4d55-aee8-1cbe4baab7cf"}
+{"ts":"2026-07-07T13:42:48Z","tool":"Edit","path":"/home/jep/vault/projects/lesson-one-field-guide.md","decision":"allow","reason":"not-denied","session":"3a0e3825-06db-4fe6-8739-61f35db9267e"}
+{"ts":"2026-07-07T13:42:59Z","tool":"Edit","path":"/home/jep/vault/projects/lesson-one-field-guide.md","decision":"allow","reason":"not-denied","session":"3a0e3825-06db-4fe6-8739-61f35db9267e"}
+{"ts":"2026-07-07T13:43:09Z","tool":"Edit","path":"/home/jep/vault/projects/lesson-one-field-guide.md","decision":"allow","reason":"not-denied","session":"3a0e3825-06db-4fe6-8739-61f35db9267e"}

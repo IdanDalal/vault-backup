@@ -13,13 +13,17 @@ tags:
 > [!important] The only metric
 > **Session one succeeds if the kid wants a session two.** Laughing beats covering material. Confidence before grades. ~40 minutes, never 60 — end while it's still fun.
 
-## The bag
+## The bag (photo: [[SUPPLIES.jpg]])
 
-- [ ] NEW notebook — given away in minute one
-- [ ] Pencils + erasers
-- [ ] ABC stickers
+- [ ] ONE English-ruled notebook (from the 5-pack) — given away in minute one
+- [ ] Staedtler pencil + colored pencils + eraser + the googly-eye sharpener
+- [ ] Tabletop whiteboard + marker + wiper
+- [ ] Letter stamps (A–Z + ink pad)
+- [ ] Sticker sets: alphabet · animals · word-stickers (HELLO, ENJOY, LOVE…)
 - [ ] Word card in pocket (never on the table)
 - [ ] Phone: anything you'll play cued OFFLINE — otherwise phone stays away
+
+**Division of labor between the two surfaces:** the **whiteboard is for trying** — wipeable, zero-stakes, where errors cost nothing; the **notebook is for crowning** — permanent, theirs, where a word goes only once it has landed. Try on the board, win in the book.
 
 ## Framing (read twice before knocking)
 
@@ -33,7 +37,7 @@ tags:
 ### 1 · Minute one (at the door)
 
 "Hello!" — the lesson has already started. Names, smiles, sit down. No syllabus speech.
-**Give the notebook:** *"This is yours. You keep it."* They own something from minute one — page one of a second brain they'll build for life. Stickers can personalize the cover, their choice.
+**Give the notebook:** *"This is yours. You keep it."* They own something from minute one — page one of a second brain they'll build for life. Then the ownership ritual: they put **their own name in English on the cover** — stamped with the letter stamps or spelled in alphabet stickers, their choice, you spell it out loud together. Their name is the first English word they own.
 
 ### 2 · Treasure hunt (5–10 min)
 
@@ -50,6 +54,10 @@ The revelation lands by itself: ==you already speak some English.== Never state 
 ### 4 · Game (5–8 min)
 
 Movement-based: you say a word, they point / touch / act it. Bodies, not paper.
+Kit variants: **stamp race** (you say a word they know, they build it in stamps before the "ink dries"); **animal-sticker hunt** (you say *lion / duck / crab*, they find and slap it — the sticker sheet is a pocket vocabulary zoo); word-stickers (HELLO, LOVE, ENJOY) are environmental print they've seen all their lives — hunting where they've met each one is a treasure hunt in itself.
+
+> [!warning] Sticker guard
+> Stickers celebrate moments; they are never points, prizes, or a scoreboard. The moment stickers become currency, the lesson becomes a game economy — the dead-tracker pattern, kid-sized.
 
 ### 5 · End on a win (2 min)
 
