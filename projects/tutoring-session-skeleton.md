@@ -68,5 +68,5 @@ Constraints: **positive-only** — struggles live in the private log, never the 
 
 ## Next artifacts (both fully determined by this note)
 
-- [ ] First-contact baseline game, per student — the cousin's son (hobby-English everywhere) baselines differently from near-zero
+- [x] First-contact baseline — superseded by the universal adaptive instrument: [[tutoring-universal-baseline]] (one ladder for any student at any level; per-student content loads via "the bag")
 - [ ] Session-log / tracker template: introduced · retrieved hit/miss · method — feeds the ladder, the n=1 experiments, and the parent note
