@@ -1,0 +1,588 @@
+<title>First-Contact Simulation — UAB</title>
+<style>
+  :root {
+    --ground: #F2F4F0;
+    --panel: #FBFCFA;
+    --panel-2: #EDF1EC;
+    --ink: #232B26;
+    --muted: #66716A;
+    --accent: #2F6B54;
+    --accent-ink: #FFFFFF;
+    --line: #D9DFD8;
+    --g10: #3F8E5F;
+    --g7: #A8862E;
+    --g4: #C06B32;
+    --g1: #B04038;
+    --g10-bg: #3F8E5F14;
+    --g7-bg: #A8862E14;
+    --g4-bg: #C06B3214;
+    --g1-bg: #B0403814;
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #151A17;
+      --panel: #1C221E;
+      --panel-2: #222A25;
+      --ink: #E4E8E2;
+      --muted: #93A097;
+      --accent: #7BC4A0;
+      --accent-ink: #10231B;
+      --line: #2B332D;
+      --g10: #62B384;
+      --g7: #C9A94F;
+      --g4: #D68A54;
+      --g1: #CC6A61;
+      --g10-bg: #62B3841A;
+      --g7-bg: #C9A94F1A;
+      --g4-bg: #D68A541A;
+      --g1-bg: #CC6A611A;
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #F2F4F0; --panel: #FBFCFA; --panel-2: #EDF1EC; --ink: #232B26;
+    --muted: #66716A; --accent: #2F6B54; --accent-ink: #FFFFFF; --line: #D9DFD8;
+    --g10: #3F8E5F; --g7: #A8862E; --g4: #C06B32; --g1: #B04038;
+    --g10-bg: #3F8E5F14; --g7-bg: #A8862E14; --g4-bg: #C06B3214; --g1-bg: #B0403814;
+  }
+  :root[data-theme="dark"] {
+    --ground: #151A17; --panel: #1C221E; --panel-2: #222A25; --ink: #E4E8E2;
+    --muted: #93A097; --accent: #7BC4A0; --accent-ink: #10231B; --line: #2B332D;
+    --g10: #62B384; --g7: #C9A94F; --g4: #D68A54; --g1: #CC6A61;
+    --g10-bg: #62B3841A; --g7-bg: #C9A94F1A; --g4-bg: #D68A541A; --g1-bg: #CC6A611A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground); color: var(--ink);
+    font-family: var(--sans); font-size: 15.5px; line-height: 1.55;
+    margin: 0; padding: 0 20px 80px;
+  }
+  .wrap { max-width: 1020px; margin: 0 auto; }
+  a { color: var(--accent); }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  header.masthead { padding: 44px 0 10px; border-bottom: 3px double var(--line); }
+  .eyebrow {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 10px;
+  }
+  h1 {
+    font-family: var(--serif); font-weight: 600; font-size: clamp(30px, 4.5vw, 44px);
+    line-height: 1.12; margin: 0 0 12px; text-wrap: balance;
+  }
+  .standfirst { color: var(--muted); max-width: 62ch; margin: 0 0 18px; }
+  .params { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--mono); font-size: 12px; color: var(--muted); padding: 10px 0 18px; }
+  .params b { color: var(--ink); font-weight: 600; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; padding: 14px 0 22px; }
+  .legend .item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+
+  nav.beats {
+    position: sticky; top: 0; z-index: 5; background: var(--ground);
+    border-bottom: 1px solid var(--line); padding: 8px 0; margin-bottom: 8px;
+    overflow-x: auto; white-space: nowrap;
+  }
+  nav.beats a {
+    font-family: var(--mono); font-size: 11.5px; text-decoration: none;
+    color: var(--muted); padding: 5px 9px; border-radius: 3px; margin-right: 2px;
+  }
+  nav.beats a:hover { color: var(--accent); background: var(--panel-2); }
+
+  section.block { display: grid; grid-template-columns: 96px 1fr; gap: 0 22px; padding: 34px 0 8px; border-bottom: 1px solid var(--line); }
+  .gutter { font-family: var(--mono); font-size: 12px; color: var(--muted); padding-top: 6px; }
+  .gutter .bnum { display: block; font-size: 22px; color: var(--accent); font-weight: 600; margin-bottom: 2px; }
+  .gutter .t { display: block; letter-spacing: 0.04em; }
+  .body h2 { font-family: var(--serif); font-size: 24px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+  .body h3 { font-size: 13px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 22px 0 10px; font-weight: 600; }
+  .rung { font-family: var(--mono); font-size: 11.5px; color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+  .body p { max-width: 68ch; }
+
+  .say {
+    border-left: 3px solid var(--accent); background: var(--panel);
+    padding: 12px 16px; margin: 12px 0; max-width: 68ch;
+  }
+  .say .who { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
+  .say q, .say em.line { font-family: var(--serif); font-style: italic; font-size: 16.5px; }
+  .say .aside { color: var(--muted); font-size: 13px; display: block; margin-top: 6px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+  .chips span {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em;
+    background: var(--panel-2); border: 1px solid var(--line);
+    padding: 3px 9px; border-radius: 999px; color: var(--ink);
+  }
+
+  .branches { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0 20px; }
+  @media (max-width: 760px) { .branches { grid-template-columns: 1fr; } section.block { grid-template-columns: 1fr; } .gutter { display: flex; gap: 14px; align-items: baseline; padding-bottom: 4px; } }
+  .branch { background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--line); padding: 12px 14px 10px; font-size: 14px; }
+  .branch.b10 { border-top-color: var(--g10); background: linear-gradient(var(--g10-bg), transparent 55%), var(--panel); }
+  .branch.b7  { border-top-color: var(--g7);  background: linear-gradient(var(--g7-bg),  transparent 55%), var(--panel); }
+  .branch.b4  { border-top-color: var(--g4);  background: linear-gradient(var(--g4-bg),  transparent 55%), var(--panel); }
+  .branch.b1  { border-top-color: var(--g1);  background: linear-gradient(var(--g1-bg),  transparent 55%), var(--panel); }
+  .bhead { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .badge {
+    font-family: var(--mono); font-weight: 700; font-size: 13px; color: #fff;
+    min-width: 26px; height: 22px; display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 3px; padding: 0 4px; font-variant-numeric: tabular-nums;
+  }
+  .b10 .badge { background: var(--g10); } .b7 .badge { background: var(--g7); }
+  .b4 .badge { background: var(--g4); } .b1 .badge { background: var(--g1); }
+  @media (prefers-color-scheme: dark) { .badge { color: #10231B; } }
+  :root[data-theme="dark"] .badge { color: #10231B; }
+  :root[data-theme="light"] .badge { color: #fff; }
+  .blabel { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+  .branch .kid { font-family: var(--serif); font-style: italic; font-size: 15.5px; margin: 0 0 8px; }
+  .branch p { margin: 0 0 7px; }
+  .branch strong { font-weight: 650; }
+  .branch .next { font-family: var(--mono); font-size: 12px; color: var(--accent); margin: 6px 0 2px; }
+
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .tablewrap { overflow-x: auto; margin: 12px 0 8px; }
+  th { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); text-align: left; padding: 8px 12px 8px 0; border-bottom: 2px solid var(--line); }
+  td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.f { font-family: var(--mono); font-size: 12.5px; white-space: nowrap; }
+  td.when { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
+
+  .callout { background: var(--panel-2); border: 1px solid var(--line); padding: 12px 16px; margin: 14px 0; max-width: 74ch; font-size: 14px; }
+  .callout .ct { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
+  .callout.warn .ct { color: var(--g4); }
+  .callout.warn { border-left: 3px solid var(--g4); }
+
+  ul.tight { margin: 6px 0; padding-left: 20px; } ul.tight li { margin-bottom: 5px; max-width: 66ch; }
+  .hebrew { direction: rtl; unicode-bidi: isolate; font-style: normal; }
+
+  pre.sheet {
+    background: var(--panel); border: 1px solid var(--line); padding: 16px;
+    font-family: var(--mono); font-size: 12.5px; line-height: 1.6;
+    overflow-x: auto; max-width: 100%;
+  }
+  .interrupt { border-left: 3px solid var(--g1); background: var(--panel); padding: 12px 16px; margin: 0 0 12px; font-size: 14px; }
+  .interrupt b:first-child { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--g1); }
+  footer { padding-top: 28px; color: var(--muted); font-size: 12.5px; font-family: var(--mono); }
+  @media (prefers-reduced-motion: no-preference) { nav.beats a { transition: background 120ms, color 120ms; } }
+</style>
+
+<div class="wrap">
+<header class="masthead">
+  <p class="eyebrow">Tutoring · Universal Adaptive Baseline · Session One</p>
+  <h1>The First 45 Minutes, Simulated</h1>
+  <p class="standfirst">A branching walkthrough of first contact with any student — from the files on your phone the night before, through every rung of the ladder with graded kid-response paths, to the moment you return to Claude carrying real data. The instrument is <code>tutoring-universal-baseline.md</code>; this is its flight simulator.</p>
+  <div class="params">
+    <span>DURATION <b>45 min</b></span><span>STUDENT <b>any, ages ~8–12</b></span><span>ASSUMED LEVEL <b>none — the ladder finds it</b></span><span>SUCCESS METRIC <b>she wants a session two</b></span><span>SCORING <b>in your head; on paper only after she's gone</b></span>
+  </div>
+  <div class="legend">
+    <span class="item"><span class="badge" style="background:var(--g10)">10</span> as planned</span>
+    <span class="item"><span class="badge" style="background:var(--g7)">7</span> workable wobble</span>
+    <span class="item"><span class="badge" style="background:var(--g4)">4</span> off-script, recoverable</span>
+    <span class="item"><span class="badge" style="background:var(--g1)">1</span> edge of chaos</span>
+    <span class="item" style="color:var(--muted)">Every branch ends in a playable next move — there is no losing path, only data.</span>
+  </div>
+</header>
+
+<nav class="beats" aria-label="Beats">
+  <a href="#b0">0 Loadout</a><a href="#b1">1 Door</a><a href="#b2">2 Treasure hunt</a><a href="#b3">3 IT2 probe</a><a href="#b4">4 Receptive</a><a href="#b5">5 Productive</a><a href="#b6">6 Chunks</a><a href="#b7">7 Literacy</a><a href="#b8">8 The fork</a><a href="#b9">9 End on a win</a><a href="#interrupts">⚠ Interrupts</a><a href="#after">After</a><a href="#return">→ Back to Claude</a>
+</nav>
+
+<!-- ============ BEAT 0 ============ -->
+<section class="block" id="b0">
+  <div class="gutter"><span class="bnum">0</span><span class="t">T−1 day<br>→ T−30 min</span></div>
+  <div class="body">
+    <h2>Loadout — what's on the phone, and when you actually read it</h2>
+    <h3>Reading schedule</h3>
+    <div class="tablewrap"><table>
+      <tr><th>File</th><th>When</th><th>Which part</th><th>Why</th></tr>
+      <tr><td class="f">tutoring-universal-baseline.md</td><td class="when">night before</td><td>full read, once</td><td>Load the whole instrument into your head. It runs from memory tomorrow.</td></tr>
+      <tr><td class="f">tutoring-universal-baseline.md</td><td class="when">T−30 min</td><td>ladder tables + ground rules only</td><td>Refresh the pass bars (A1 ≥7/8, A2 ≥6/8…) — the only numbers worth holding.</td></tr>
+      <tr><td class="f">tutoring-a-first-session.md</td><td class="when">night before</td><td>§ Risk analysis only</td><td>The playbook generalizes: silent period, attention collapse, sirens, boundaries.</td></tr>
+      <tr><td class="f">student note (cousin / sisters)</td><td class="when">T−30 min</td><td>domain &amp; exposure hints</td><td>Loads the bag, never the rung. Which screenshots, which props, which world.</td></tr>
+      <tr><td class="f">tutoring-session-tracker.md</td><td class="when">after only</td><td>—</td><td>Deliberately unread before. It's the landing strip, not the flight plan.</td></tr>
+      <tr><td class="f">this simulation</td><td class="when">night before</td><td>once, then closed</td><td>Re-reading it day-of over-scripts you. The A rule stands: script the first 5 minutes, the rest has a shape.</td></tr>
+    </table></div>
+    <h3>Phone state at the door</h3>
+    <ul class="tight">
+      <li>Her-territory screenshots &amp; clips saved <b>locally</b> — cued, tested, no buffering, no ads.</li>
+      <li>Notifications silenced; emergency alerts on. The phone appears only as a prop player.</li>
+      <li>No notes app open, ever, in front of her. The scoring sheet lives in your head until she's gone.</li>
+    </ul>
+    <h3>The bag (physical)</h3>
+    <ul class="tight">
+      <li>Drawing supplies · small TPR props · letter cards · the "secret message" sentence strip written with <em>her name</em> in it.</li>
+      <li>Domain load per student — the cousin's son gets his games' vocabulary; each sister gets her own world. 9 and 12 do not share a bag.</li>
+    </ul>
+    <div class="callout"><span class="ct">Rule zero</span>Whatever the parents told you about level — you heard it, you smiled, and everyone still starts at rung zero. Reports chose the props in this bag. Nothing else.</div>
+  </div>
+</section>
+
+<!-- ============ BEAT 1 ============ -->
+<section class="block" id="b1">
+  <div class="gutter"><span class="bnum">1</span><span class="t">0:00–0:03</span></div>
+  <div class="body">
+    <h2>The door</h2>
+    <p class="rung">No rung — the lesson has already started</p>
+    <div class="say"><span class="who">You say</span><q>Hello, Noa!</q> <span class="aside">English at the door, warm and unremarkable — then straight into Hebrew small talk. No syllabus speech, no "so, we're going to learn English." You came to hang out.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>comfort level</span><span>eye contact</span><span>greeting reflex</span><span>who's hovering (parent dynamics)</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">as planned</span></div>
+        <p class="kid">"Hello!" — echoed back, maybe shy, maybe grinning.</p>
+        <p><strong>You do:</strong> nothing special. Sit down wherever she leads.</p>
+        <p><strong>You note:</strong> greeting reflex exists — one A3 chunk already banked.</p>
+        <p class="next">→ Beat 2, on schedule.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">wobble</span></div>
+        <p class="kid">Silent smile, half-hides behind the parent.</p>
+        <p><strong>You do:</strong> slow everything down. Two minutes of Hebrew with the parent while she orbits. Zero English pressure.</p>
+        <p><strong>You note:</strong> possible silent period — normal, plan for pointing/acting answers all session.</p>
+        <p class="next">→ Beat 2, gently, via her stuff ("what's that poster?").</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">off-script</span></div>
+        <p class="kid"><span class="hebrew">"אמא מכריחה אותי"</span> — mom is making me do this.</p>
+        <p><strong>You do:</strong> drop the word "lesson" from your vocabulary permanently. <em>"Good — me neither. I came to see your room / hear about Minecraft."</em> Mean it.</p>
+        <p><strong>You note:</strong> arrangement pressure. The only KPI today is that she asks when you're coming back.</p>
+        <p class="next">→ Beat 2 disguised as pure snooping around her interests.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">chaos edge</span></div>
+        <p class="kid">Won't come out of her room.</p>
+        <p><strong>You do:</strong> don't force it, don't negotiate through the door. Coffee with the parent, 10 relaxed minutes, leave warmly.</p>
+        <p><strong>You note:</strong> environment intel from the parent chat (prep signal only!). Reschedule with a hook: "next time I'm bringing something for her."</p>
+        <p class="next">→ Session one hasn't failed; it just hasn't started. Return to Claude anyway — this is data.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 2 ============ -->
+<section class="block" id="b2">
+  <div class="gutter"><span class="bnum">2</span><span class="t">0:03–0:11</span></div>
+  <div class="body">
+    <h2>A0 — the treasure hunt</h2>
+    <p class="rung">Track A · Rung 0 · no pass bar — this rung exists for rapport and the revelation</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">מה אתה הכי אוהב לעשות? אם לא הייתי פה עכשיו — מה היית עושה?</q> <span class="aside">What do you love doing most? If I weren't here, what would you be doing? — then hunt the English already hiding inside the answer: pizza, OK, bye, internet, GG, craft, gol…</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>which domain lights her up</span><span>loanwords she owns</span><span>pronunciation habits</span><span>does the revelation land</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">as planned</span></div>
+        <p class="kid">Names a world instantly — Minecraft, drawing, football — and lights up talking about it.</p>
+        <p><strong>You do:</strong> hunt inside it. <em>"You already say craft. And OK. And gol. Who taught you English? Nobody? You stole it yourself."</em> Watch the eyes widen.</p>
+        <p><strong>You note:</strong> every owned word — this list is cohort S0. And the domain: it's your content mine for months.</p>
+        <p class="next">→ Beat 3 if her domain is media/games; else Beat 4.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">wobble</span></div>
+        <p class="kid"><span class="hebrew">"לא יודעת"</span> — shrug. I don't know.</p>
+        <p><strong>You do:</strong> hunt the room instead — phone, computer, pizza box, brand logos on her shirt. Or "what did you do yesterday?" Concrete beats abstract.</p>
+        <p><strong>You note:</strong> shy or genuinely undecided — the room hunt reveals the same inventory, just slower.</p>
+        <p class="next">→ Beat 4; keep probing for the domain all session, it'll surface.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">off-script</span></div>
+        <p class="kid">Answers, but the domain is English-free — playing with the cat, cooking with grandma.</p>
+        <p><strong>You do:</strong> respect the domain (cat = <em>cat!</em> first inventory word from her own world), then widen to house objects and logos.</p>
+        <p><strong>You note:</strong> low-exposure environment, whatever the parents claimed. Bag's media props may be dead weight today.</p>
+        <p class="next">→ Beat 4; skip Beat 3 unless media surfaces later.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">chaos edge</span></div>
+        <p class="kid">Monosyllables. Arms crossed. The talking approach is dead on arrival.</p>
+        <p><strong>You do:</strong> stop talking, start doing. Pull paper, start drawing something badly, wait. Kids can't resist correcting a bad drawing.</p>
+        <p><strong>You note:</strong> verbal-first doesn't fit this kid — that's baseline data about learning style, not failure.</p>
+        <p class="next">→ Ladder pauses. Rapport is the only rung. Beats 4–7 may wait for session two entirely.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 3 ============ -->
+<section class="block" id="b3">
+  <div class="gutter"><span class="bnum">3</span><span class="t">sidecar<br>~5 min</span></div>
+  <div class="body">
+    <h2>The It-Takes-Two probe</h2>
+    <p class="rung">Conditional — runs the moment her media territory surfaces</p>
+    <p>The single highest-information probe in the session, because it separates the three cases that "he plays in English all day" collapses together: absorbed <b>meaning</b>, absorbed <b>sounds</b>, absorbed <b>nothing</b>. Your neighbor played an entire fully-voiced game and asked if there were more levels after the story's emphatic ending. Assume nothing.</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">ספר לי מה קורה במשחק — מי הדמות? מה היא רוצה?</q> <span class="aside">Tell me the game's story — who's the character, what do they want? Then the cued screenshot: "what does it say here?" / "what did she just say?"</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>plot detail = meaning absorbed</span><span>confidence vs accuracy gap</span><span>decoding vs guessing from icons</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">stealth fluent</span></div>
+        <p class="kid">Tells the plot with detail AND reads the screenshot text, translating on the fly.</p>
+        <p><strong>You do:</strong> hide your surprise; keep it a conversation about the game.</p>
+        <p><strong>You note:</strong> expect a high climb. Touch A1–A3 briefly anyway (never skip rungs, just walk them fast) and budget real time for A4.</p>
+        <p class="next">→ Beats 4–6 at double speed, then Beat 8 = keep climbing.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">meaning, no text</span></div>
+        <p class="kid">Rich plot summary in Hebrew — but the on-screen sentence is a wall.</p>
+        <p><strong>You do:</strong> nothing visible. <em>"So YOU'RE the one who has to tell me what happens next season."</em></p>
+        <p><strong>You note:</strong> comprehension through audio/visuals, literacy gap likely — Track B just became the interesting track.</p>
+        <p class="next">→ Beat 4 normally; give Beat 7 full attention.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">the IT2 case</span></div>
+        <p class="kid">Plays daily — but the "story" is <span class="hebrew">"יורים באנשים"</span> (you shoot people). No characters, no wants, no narrative.</p>
+        <p><strong>You do:</strong> stay warm; the game is still your best content mine even if nothing came through it yet.</p>
+        <p><strong>You note:</strong> <b>exposure without absorption confirmed.</b> Treat comprehension as near-zero regardless of hours logged. The parents' report is now formally retired.</p>
+        <p class="next">→ Beat 4 with zero assumptions, exactly as the ladder intends.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">defenses up</span></div>
+        <p class="kid"><span class="hebrew">"למה אתה בודק אותי?"</span> — why are you testing me? (The 12-year-old, most likely.)</p>
+        <p><strong>You do:</strong> drop the probe instantly. <em>"Testing? I'm terrible at this game — show me how you play."</em> Genuine interest only; the data arrives on its own while she shows off.</p>
+        <p><strong>You note:</strong> assessment-radar is active — every remaining rung needs a thicker disguise.</p>
+        <p class="next">→ Beats 4–6 dressed as games she runs, not games you run.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 4 ============ -->
+<section class="block" id="b4">
+  <div class="gutter"><span class="bnum">4</span><span class="t">0:11–0:16</span></div>
+  <div class="body">
+    <h2>A1 — receptive (her body answers)</h2>
+    <p class="rung">Track A · Rung 1 · clean pass: ≥7 of 8 instant</p>
+    <div class="say"><span class="who">You say</span><q>Jump! … Touch something red. … Give me the pencil.</q> <span class="aside">Simon Says / floor-is-lava skin. Eight commands. Deliver them <b>deadpan, hands still</b> — your gestures are an answer key she will read if you leak it.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>latency: instant / processing / guessing</span><span>is she reading your hands or your words</span><span>which semantic fields respond (colors? verbs? objects?)</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">as planned</span></div>
+        <p class="kid">Seven or eight instant, giggling, wants harder ones.</p>
+        <p><strong>You do:</strong> give her one absurd command as a reward ("touch your nose with the pencil!") and move on while it's fun.</p>
+        <p><strong>You note:</strong> A1 clean; which fields were instant vs slow.</p>
+        <p class="next">→ Beat 5.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">reading you</span></div>
+        <p class="kid">Four to six right — but her eyes are on your hands and face, mining hints.</p>
+        <p><strong>You do:</strong> smile, hands behind back, re-run three commands. Count only the clean ones.</p>
+        <p><strong>You note:</strong> strong pragmatic intelligence, thinner vocabulary than it first appears. Frontier is forming here.</p>
+        <p class="next">→ One more same-rung probe, then Beat 5 or mark frontier.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">frontier found</span></div>
+        <p class="kid">One to three right; does random funny actions to keep the game alive.</p>
+        <p><strong>You do:</strong> keep it a game — end on the two she DOES know, land the win loudly.</p>
+        <p><strong>You note:</strong> A1 frontier. That's not bad news; that's the baseline doing its job.</p>
+        <p class="next">→ Skip Beats 5–6, go to Beat 7 (literacy is orthogonal — always run it).</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">shame flicker</span></div>
+        <p class="kid">Freezes on the first command. Face falls. She knows she doesn't know.</p>
+        <p><strong>You do:</strong> flip roles that second: <em>"Wait — YOU command ME."</em> She orders in Hebrew, you act it out and echo the English word each time. She's laughing at you within a minute.</p>
+        <p><strong>You note:</strong> A1 at zero, and — more important — shame is nearby. Every future miss needs a soft floor.</p>
+        <p class="next">→ Beat 7 via the role-flip game; skip 5–6 today.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 5 ============ -->
+<section class="block" id="b5">
+  <div class="gutter"><span class="bnum">5</span><span class="t">0:16–0:21</span></div>
+  <div class="body">
+    <h2>A2 — productive (she's the teacher now)</h2>
+    <p class="rung">Track A · Rung 2 · clean pass: ≥6 of 8 named unprompted</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">עכשיו את המורה. תלמדי אותי מילים באנגלית שאת יודעת.</q> <span class="aside">Now YOU'RE the teacher — teach me English words you know. Then point-and-name around the room. Get "taught" enthusiastically; mispronounce something so she corrects you.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>unprompted vs prompted</span><span>inventory beyond the treasure hunt</span><span>pronunciation fossils</span><span>which domains produce</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">as planned</span></div>
+        <p class="kid">Streams words you never hunted — school leftovers, YouTube absorbs, song lyrics.</p>
+        <p><strong>You do:</strong> keep her going until she runs dry. Every word is S0 inventory.</p>
+        <p><strong>You note:</strong> the real inventory (memorize it — write nothing). Domains that produce.</p>
+        <p class="next">→ Beat 6.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">the echo signal</span></div>
+        <p class="kid">Reproduces exactly the words from the treasure hunt, twenty minutes ago — and nothing else.</p>
+        <p><strong>You do:</strong> celebrate it: she's teaching you words she "stole" an hour into knowing you.</p>
+        <p><strong>You note:</strong> ⭐ short-loop retention is strong — the single best predictor for how her cohorts will behave on the ladder. Small inventory, fast learner. Great combination.</p>
+        <p class="next">→ Beat 6, expectations calibrated.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">receptive &gt; productive</span></div>
+        <p class="kid">Understood everything in Beat 4, but now: <span class="hebrew">"אני יודעת מה זה, אני לא זוכרת איך אומרים"</span> — I know what it is, I can't say it.</p>
+        <p><strong>You do:</strong> no pushing. Offer first sounds ("ca—?") as a game, accept pointing.</p>
+        <p><strong>You note:</strong> classic receptive-over-productive profile — a clean, common, useful baseline. Frontier between A1 and A2.</p>
+        <p class="next">→ Beat 7; A3 probes only if energy allows.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">role refusal</span></div>
+        <p class="kid">Being "the teacher" mortifies her. Shuts down.</p>
+        <p><strong>You do:</strong> hand the teacher role to a stuffed animal, or start "forgetting" words yourself — <em>"the... uh... what's the red fruit called? Apple? no..."</em> — production disguised as correcting an idiot.</p>
+        <p><strong>You note:</strong> performance pressure is the enemy; all future production probes go through play, never spotlight.</p>
+        <p class="next">→ Beat 7.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 6 ============ -->
+<section class="block" id="b6">
+  <div class="gutter"><span class="bnum">6</span><span class="t">0:21–0:26</span></div>
+  <div class="body">
+    <h2>A3 — chunks &amp; patterns</h2>
+    <p class="rung">Track A · Rung 3 · clean pass: ≥4 of 5 exchanges land</p>
+    <div class="say"><span class="who">You say (via puppet, or "secret agent interview" for the older ones)</span><q>Hello! What's your name? … How are you? … I like pizza. What do you like?</q> <span class="aside">Plus one two-step instruction buried in play ("take the pencil and put it on the chair"). The puppet gets things adorably wrong so she can be smarter than it.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>formula vs comprehension</span><span>can she recombine ("I like…" + her word)</span><span>echo behavior</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">as planned</span></div>
+        <p class="kid">Answers all — and recombines: "I like pizza and cat!"</p>
+        <p><strong>You do:</strong> feed the recombination — <em>"and football?"</em> — watch her build.</p>
+        <p><strong>You note:</strong> novel combination = grammar seeds present, A4 is live.</p>
+        <p class="next">→ Beat 7 quickly, then Beat 8 = keep climbing.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">partial chunks</span></div>
+        <p class="kid">"What's your name" lands; "how are you" gets a blank stare.</p>
+        <p><strong>You do:</strong> teach nothing yet — just map which formulas exist and move on.</p>
+        <p><strong>You note:</strong> the chunk inventory, formula by formula. Typical school-exposure shape.</p>
+        <p class="next">→ Beat 7. A3 is the frontier; the map of it is the prize.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">the echo trap</span></div>
+        <p class="kid">"What's your name?" → "What's your name?" — echoed back, perfect accent, zero comprehension.</p>
+        <p><strong>You do:</strong> smile, answer the "question" ("I'm Idan!") and try one more with the puppet answering first as a model.</p>
+        <p><strong>You note:</strong> echo ≠ comprehension — the miniature It-Takes-Two, at rung three. Frontier here; beautiful accent is a red herring.</p>
+        <p class="next">→ Beat 7.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">too old for this</span></div>
+        <p class="kid">The puppet gets THE look. (Twelve. Obviously.)</p>
+        <p><strong>You do:</strong> puppet dies instantly, no ceremony. Same probes reskinned: WhatsApp-style roleplay, "spy interview," or you both voice her game's characters.</p>
+        <p><strong>You note:</strong> disguise register for this kid = older. Applies to every future session.</p>
+        <p class="next">→ Rerun the two lost probes in the new skin, then Beat 7.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 7 ============ -->
+<section class="block" id="b7">
+  <div class="gutter"><span class="bnum">7</span><span class="t">0:26–0:32</span></div>
+  <div class="body">
+    <h2>Track B — literacy (always runs, whatever happened above)</h2>
+    <p class="rung">B1 letters ≥5 of 6 · B2 decode 2 of 3 CVC · B3 one sentence read with meaning</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">יש הודעה סודית מוחבאת בחדר... אבל היא בקוד.</q> <span class="aside">There's a secret message hidden in the room — but it's in code. Letter hunt on packaging/keyboard first (B1), "crack the code" on cat/dog/sun (B2), then the planted sentence strip with her name in it (B3).</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>letter–sound mapping vs letter names</span><span>b/d mirror confusion</span><span>RTL habits leaking in (she reads Hebrew right-to-left)</span><span>reaction to the sentence's MEANING</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">as planned</span></div>
+        <p class="kid">Letters, blends the code words, reads "Noa likes Minecraft" — and cracks up / protests the content.</p>
+        <p><strong>You do:</strong> let the laugh land; the reaction IS the pass (meaning arrived, plus decoding).</p>
+        <p><strong>You note:</strong> B3 clean. Reading is a usable channel from session two.</p>
+        <p class="next">→ Beat 8.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">letters, no blend</span></div>
+        <p class="kid">Names letters confidently (school, keyboard) — but c-a-t stays three separate sounds.</p>
+        <p><strong>You do:</strong> one playful blend attempt together, then out — no drilling today.</p>
+        <p><strong>You note:</strong> B1 clean, B2 frontier. The most common profile in Israeli kids this age.</p>
+        <p class="next">→ Beat 8.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">logo literacy</span></div>
+        <p class="kid">Knows the letters in her name and brand logos. The rest is noise.</p>
+        <p><strong>You do:</strong> treat her-name letters as treasure ("you own five letters already"), end the hunt on those.</p>
+        <p><strong>You note:</strong> B1 frontier, mapped precisely — which letters exist and which don't.</p>
+        <p class="next">→ Beat 8.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">school scar</span></div>
+        <p class="kid"><span class="hebrew">"קריאה זה משעמם"</span> — flat voice, shoulders drop. This smells like school to her.</p>
+        <p><strong>You do:</strong> stop mid-word. <em>"You're right, boring. Hey — "</em> and pivot to anything oral. Never revisit reading through this door again.</p>
+        <p><strong>You note:</strong> ⚠ scar tissue around reading — a finding that shapes MONTHS of plan (literacy will enter later, sideways, through her own domain). Oral tracks carry everything for now.</p>
+        <p class="next">→ Beat 8, oral-only fork.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 8 ============ -->
+<section class="block" id="b8">
+  <div class="gutter"><span class="bnum">8</span><span class="t">0:32–0:42</span></div>
+  <div class="body">
+    <h2>The fork — convert or keep climbing</h2>
+    <p class="rung">Frontier found → conversion to teaching · Frontier not found → A4 generative</p>
+    <p><b>If the frontier is mapped</b> (the near-zero and middle kids): session one converts into a miniature of the skeleton's blocks 3–5 — teach 5–7 workhorse words <em>from her own treasure hunt</em> plus one wow-word, TPR-style, then a quick movement game with them. These are the first real tracker entries, born on her territory.</p>
+    <p><b>If she's still climbing</b> (the stealth-fluent kid): A4 — her game's screenshot, <em>"what's happening here?"</em>, a real 4–6 turn mini-conversation. Clean pass: 3+ multi-word utterances she composed herself.</p>
+    <h3>You're watching</h3>
+    <div class="chips"><span>energy curve (35 min in)</span><span>does she ask for more</span><span>novel composition vs formulas</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">converted &amp; hungry</span></div>
+        <p class="kid">Eats the new words, demands more.</p>
+        <p><strong>You do:</strong> cap at 5–7 anyway. Cognitive-load rule beats enthusiasm — leave her hungry for session two.</p>
+        <p><strong>You note:</strong> first cohort S1, its method, her appetite.</p>
+        <p class="next">→ Beat 9.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">tank empty</span></div>
+        <p class="kid">Attention visibly dips — fidgeting, drifting.</p>
+        <p><strong>You do:</strong> movement-only version — no new sitting content. Or skip teaching entirely; the ladder already earned its keep today.</p>
+        <p><strong>You note:</strong> her true attention budget (it calibrates every future session plan).</p>
+        <p class="next">→ Beat 9, a few minutes early. Early is fine.</p></div>
+      <div class="branch b4"><div class="bhead"><span class="badge">4</span><span class="blabel">grid loses to kid</span></div>
+        <p class="kid">Wants to replay an earlier game instead of anything new.</p>
+        <p><strong>You do:</strong> let her win. Reps of A0/A1 words are retrieval, and retrieval is the whole church.</p>
+        <p><strong>You note:</strong> which game she chose — that's her preferred channel announcing itself. First n=1 data point.</p>
+        <p class="next">→ Beat 9. Teaching debuts in session two.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">still climbing at time</span></div>
+        <p class="kid">(The stealth-fluent case) — A4 is flowing, frontier nowhere in sight, and it's 0:42.</p>
+        <p><strong>You do:</strong> stop climbing. End on the conversational high. Do NOT rush the remaining rungs into three minutes.</p>
+        <p><strong>You note:</strong> "ceiling not reached — spillover to session two." A baseline that takes a session and a half beats a rushed one. (Chaos-colored only because your plan, not the kid, got overrun.)</p>
+        <p class="next">→ Beat 9; session two opens where the ladder stopped.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 9 ============ -->
+<section class="block" id="b9">
+  <div class="gutter"><span class="bnum">9</span><span class="t">0:42–0:45</span></div>
+  <div class="body">
+    <h2>End on a win</h2>
+    <p class="rung">Never end on the hard thing — return to something she owns, then out</p>
+    <div class="say"><span class="who">You say</span><q>Bye! See you!</q> <span class="aside">…and one specific praise, Hebrew fine: not "you were great" but "the way you figured out <em>jump</em> before I finished the word — that." If a parent is in earshot, say one positive sentence to them IN FRONT of her.</span></div>
+    <h3>Branches</h3>
+    <div class="branches">
+      <div class="branch b10"><div class="bhead"><span class="badge">10</span><span class="blabel">the KPI</span></div>
+        <p class="kid">"Bye!!" — unprompted, in English. Or better: <span class="hebrew">"מתי אתה בא שוב?"</span> — when are you coming back?</p>
+        <p><strong>You do:</strong> answer with a hook: <em>"Tuesday. I'm bringing the secret-message game."</em></p>
+        <p class="next">→ Session two is sold. Walk out. Start the 10-minute clock.</p></div>
+      <div class="branch b7"><div class="bhead"><span class="badge">7</span><span class="blabel">neutral exit</span></div>
+        <p class="kid">Waves, pleasant, noncommittal.</p>
+        <p><strong>You do:</strong> plant the hook anyway, aimed at the moment she lit up most today.</p>
+        <p class="next">→ Fine. Warmth compounds; judge after session two, not one.</p></div>
+      <div class="branch b1"><div class="bhead"><span class="badge">1</span><span class="blabel">relieved it's over</span></div>
+        <p class="kid">Visible relief. Gone before you stand up.</p>
+        <p><strong>You do:</strong> exit gracefully, zero guilt-tripping, warm goodbye to the parent.</p>
+        <p><strong>You note:</strong> honestly, in the sheet — then we redesign session two around whatever moment DID work. There's always one.</p>
+        <p class="next">→ The scoring sheet matters MORE on this branch, not less.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERRUPTS ============ -->
+<section class="block" id="interrupts">
+  <div class="gutter"><span class="bnum">⚠</span><span class="t">any beat</span></div>
+  <div class="body">
+    <h2>Global interrupts — cut in at any beat, override everything</h2>
+    <div class="interrupt"><b>Siren.</b> Session pauses calmly, shelter together. Shelter time is neighbor time; English optional. Her sense of safety outranks the lesson, always — and how you behave in the stairwell IS the relationship being built.</div>
+    <div class="interrupt"><b>Tears / frustration.</b> Switch activity immediately, return to a past win, never end on the hard thing. The beat you were in is abandoned without ceremony and without comment.</div>
+    <div class="interrupt"><b>Parent hovering, correcting, answering for her.</b> Give the parent a job: <span class="hebrew">"תרשמי כל מילה באנגלית שאת שומעת ממנה"</span> — "write down every English word you hear her say." The hoverer becomes your scribe; the kid gets an audience instead of a judge; you get a second inventory list.</div>
+    <div class="interrupt"><b>Sibling wants in</b> (live risk at the sisters'). Don't eject them — assign a role ("you're the judge of who jumps better"), finish the beat, and note it: the together-vs-separate decision just got real data.</div>
+    <div class="interrupt"><b>You blank on the plan.</b> Default move, always ready: "teach me something." It's A2, it's rapport, and it buys 5 minutes while the shape comes back to you.</div>
+  </div>
+</section>
+
+<!-- ============ AFTER ============ -->
+<section class="block" id="after">
+  <div class="gutter"><span class="bnum">→</span><span class="t">T+10 min<br>T+evening</span></div>
+  <div class="body">
+    <h2>After she's gone — the data is only in your head, and it's evaporating</h2>
+    <h3>T+10 minutes · the scoring sheet (from memory, ≤10 min, verbatim quotes first)</h3>
+    <pre class="sheet">Student:            Date:            Session length:
+Track A — highest clean rung:        frontier + what broke:
+Track B — highest clean rung:        frontier + what broke:
+It-Takes-Two probe:   meaning / sounds-only / nothing / not run
+Inventory — words she OWNS (list every one):
+Domains that lit her up:
+Wow-word candidates from her territory:
+Surprises (either direction):
+First teaching chunk for session two (5–7 + 1 wow):
+BEAT GRADES (circle nearest branch per beat):
+  B1: 10 7 4 1   B2: 10 7 4 1   B3: 10 7 4 1 —   B4: 10 7 4 1
+  B5: 10 7 4 1   B6: 10 7 4 1   B7: 10 7 4 1     B8: 10 7 4 1
+  B9: 10 7 4 1   Interrupts fired: ____________
+Verbatim kid quotes (write these FIRST, they fade fastest):</pre>
+    <div class="callout"><span class="ct">Why quotes first</span>Rung results survive an hour in memory; her exact words don't. And her exact words are where the surprises live.</div>
+    <h3>T+evening · two small acts</h3>
+    <ul class="tight">
+      <li><b>Create the tracker</b> — copy the template from <code>tutoring-session-tracker.md</code> into <code>tutoring-tracker-&lt;student&gt;.md</code>; the inventory becomes cohort S0 at the 1-month rung.</li>
+      <li><b>Send parent note #1</b>, leading with discovery: <span class="hebrew">"היום גיליתי שנועה כבר יודעת 14 מילים באנגלית — היא לא למדה אותן, היא גנבה אותן בעצמה 🙂"</span> — "today I discovered Noa already knows 14 English words — nobody taught her, she stole them herself." Then 🎁: one teach-prompt from what she owned today. No 🆕 yet — nothing was formally taught, and that's correct for a baseline day.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ RETURN ============ -->
+<section class="block" id="return" style="border-bottom:none">
+  <div class="gutter"><span class="bnum">✓</span><span class="t">T+1–2 days</span></div>
+  <div class="body">
+    <h2>Back to Claude — the debrief package</h2>
+    <p>This is the moment the whole system was built for: simulation meets reality, and v1 becomes v1.1. Bring:</p>
+    <ul class="tight">
+      <li><b>The filled scoring sheet</b> — including the circled beat grades, so we can diff reality against this simulation branch by branch.</li>
+      <li><b>Timing truth</b> — which beats ran long, which evaporated. (My prediction to falsify: the treasure hunt runs long on every kid, and A3 runs short.)</li>
+      <li><b>Grid-vs-kid moments</b> — every place you abandoned the plan, and whether you're glad you did.</li>
+      <li><b>The 10-minute claim</b> — did the scoring sheet actually take ≤10 minutes from memory? If not, the sheet is over-specified and we cut it.</li>
+      <li><b>One thing no branch predicted</b> — there will be at least one. That's the most valuable line in the whole debrief.</li>
+    </ul>
+    <div class="callout"><span class="ct">What we do with it</span>Recalibrate pass bars if they mis-sorted her · adjust beat timings to observed reality · add the unpredicted branch to this simulation · seed session two from the "first teaching chunk" line · and if the It-Takes-Two probe surprised us in either direction, the student note gets rewritten before the parents' next report can.</div>
+  </div>
+</section>
+
+<footer>
+  UAB v1 · sources: tutoring-universal-baseline.md · tutoring-session-skeleton.md · tutoring-session-tracker.md · risk playbook inherited from tutoring-a-first-session.md · private working document
+</footer>
+</div>
