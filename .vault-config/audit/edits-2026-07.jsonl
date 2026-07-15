@@ -29,3 +29,4 @@
 {"ts":"2026-07-15T10:09:43Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-session-skeleton.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-15T10:09:46Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-15T10:36:55Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/3f7c58ec-60c1-419a-96b0-b793895bbe79/scratchpad/uab-first-contact-sim.html","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-15T12:50:18Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-heblish-test-scripts.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}

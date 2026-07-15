@@ -1,6 +1,6 @@
 ---
 type: project
-created: 2026-07-13
+created: 2026-07-15
 status: active
 author: jep
 tags:
@@ -11,7 +11,7 @@ tags:
 
 Steady-state session structure for all students: [[tutoring-sisters-9-12]], [[tutoring-cousin-son-9]], and [[tutoring-a-first-session|A]] (paused). Session **one** is different — it follows the first-contact plan (treasure hunt, baseline; see the per-student notes). The skeleton takes over from session two onward.
 
-Decided 2026-07-13, brainstormed from solveeverything.org's Learning-Gain-per-Hour and retention-floor ideas. **Adopted:** baseline before session one, retention floors as a spacing ladder, n=1 method experiments via logging, parental transparency as product. **Rejected:** always-on AI tutoring (conflicts with AI-restraint principle), visible metrics/dashboards around the kid (conflicts with no-scorekeeping).
+Decided 2026-07-15, brainstormed from solveeverything.org's Learning-Gain-per-Hour and retention-floor ideas. **Adopted:** baseline before session one, retention floors as a spacing ladder, n=1 method experiments via logging, parental transparency as product. **Rejected:** always-on AI tutoring (conflicts with AI-restraint principle), visible metrics/dashboards around the kid (conflicts with no-scorekeeping).
 
 ## The six blocks (~45 min)
 
@@ -50,7 +50,7 @@ WhatsApp format, filled from the session log in ≤3 min:
 > 🎁 **She can teach you** — scripted 2-min prompt where the kid teaches the parent (retrieval-by-teaching: high effort for her, delight for them, zero homework dynamic)
 > 🔭 **Coming up** — occasional; next milestone or capstone date
 
-Cadence (decided 2026-07-13):
+Cadence (decided 2026-07-15):
 
 - **2x/week:** micro-note after each session (win + teach-prompt only); full ledger/milestone note weekly.
 - **1x/week:** full note per session, sent a day or two **after** the session so the teach-prompt fires mid-gap.
