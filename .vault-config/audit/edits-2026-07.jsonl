@@ -30,3 +30,11 @@
 {"ts":"2026-07-15T10:09:46Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-15T10:36:55Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/3f7c58ec-60c1-419a-96b0-b793895bbe79/scratchpad/uab-first-contact-sim.html","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-15T12:50:18Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-heblish-test-scripts.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:10:52Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/bakeoff.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:11:13Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/README.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:11:41Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:11:49Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-cousin-son-9.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:11:55Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-former-neighbor-3kids.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:12:05Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:12:08Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-20T12:12:16Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
