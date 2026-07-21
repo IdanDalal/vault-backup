@@ -38,3 +38,5 @@
 {"ts":"2026-07-20T12:12:05Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-20T12:12:08Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-20T12:12:16Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-21T06:01:45Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-07-21.md","decision":"allow","reason":"not-denied","session":"2189f03a-2701-4636-a5b8-ce83ab24f4a8"}
+{"ts":"2026-07-21T06:01:48Z","tool":"Edit","path":"/home/jep/vault/daily/digests/2026-07-21.md","decision":"allow","reason":"not-denied","session":"2189f03a-2701-4636-a5b8-ce83ab24f4a8"}
