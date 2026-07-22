@@ -26,15 +26,14 @@ Judged against [[tutoring-heblish-test-scripts]]. **No single winner: the lesson
 
 `lesson-transcribe.py` (this folder): diarize once with community-1, transcribe with **both** models, emit one `LESSON.md` with the two transcripts side by side. Where they agree, trust it; where they diverge, that moment gets a human read — divergences cluster exactly at the interesting places (code-switches, mumbles, whispers).
 
-## Open item — the VAD pass
+## VAD decision — resolved 2026-07-22 (`results-vad`)
 
-Not yet run:
+Both sides of the trade confirmed by the VAD pass:
 
-```
-python bakeoff.py --audio-dir clips --out results-vad --vad
-```
+- **Silence fabrications: eliminated.** ivrit produced zero text across the silent minute (clean jump 06:44 → 08:19); stock likewise invented no sentences there.
+- **Whispers: killed.** The whispered «one, two, three» and «I can hear you» vanished from both engines; even the audible "And now we whisper" lead-in got mangled.
 
-Decision it feeds: VAD (an is-anyone-speaking filter) should kill the silence fabrications (finding 5), but it may also swallow *whispered* speech — and finding 4 shows whispers carry real data. Check clip 4's whisper section in `results-vad`: if the whispers survive, lesson transcription defaults to VAD on; if they die, VAD stays off and silence-zone text gets treated as suspect by timestamp instead.
+**Ruling: VAD stays OFF for lessons.** Whispers are real lesson data (secret-message games, shy kids, puppet voices) and their loss is silent — nothing marks where they died. Silence fabrication is the more manageable failure because it's detectable after the fact, two ways: (1) transcript segments that overlap **no** diarization turn are auto-flagged ⚠ in `LESSON.md` as probable hallucinations (pyannote hears silence even when Whisper invents text over it); (2) fabrications that land on real mumble-turns slip past the flag, but the two engines invent *different* fiction — cross-engine divergence in a low-speech stretch is near-certain fabrication. Filter at read time, not record time.
 
 ## Audio hygiene rule (important, standing)
 

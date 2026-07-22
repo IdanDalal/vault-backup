@@ -15,8 +15,11 @@ because the vault's backup layers make deletion impossible. Transcripts go in
 the vault; audio gets deleted after extraction. This script prints a deletion
 reminder and offers --delete-audio to do it in the same run.
 
-VAD is off pending the whisper-survival check (VERDICT.md, open item). If the
-results-vad pass shows whispers survive, run with --vad.
+VAD is OFF by design (VERDICT.md, resolved 2026-07-22): the VAD pass proved it
+kills whispered speech in both engines, and whispers are real lesson data.
+Silence hallucinations are handled at read time instead: segments overlapping
+no diarization turn are flagged as probable fabrications, and the rest are
+caught by cross-engine divergence. --vad remains available for experiments.
 """
 
 import argparse
@@ -59,8 +62,10 @@ def main():
 
         doc = [f"# Lesson transcript — {clip.name}\n",
                f"Diarization: {n_spk} speakers, {len(turns)} turns. "
-               "Reminder: transcripts cannot assess pronunciation (engines "
-               "auto-correct it), and text over silent stretches is suspect.\n"]
+               "Reminders: transcripts cannot assess pronunciation (engines "
+               "auto-correct it); ⚠ lines overlap no detected speech and are "
+               "probably invented; where the two engines diverge over a quiet "
+               "stretch, trust neither.\n"]
 
         for name in ENGINES:
             spec = MODELS[name]
@@ -69,7 +74,11 @@ def main():
             segs = transcribe_fw(spec["repo"], wav, spec["language"], args.vad)
             segs = assign_speakers(segs, turns)
             body = "\n".join(
-                f"[{fmt_ts(s['start'])}] {s['speaker']}: {s['text']}" for s in segs
+                f"[{fmt_ts(s['start'])}] "
+                + ("⚠ no speech detected here — probable hallucination: "
+                   if s["speaker"] == "?" else f"{s['speaker']}: ")
+                + s["text"]
+                for s in segs
             )
             doc.append(f"## {name}\n\n{body}\n")
             print(f"  {len(segs)} segments, {time.time()-t0:.0f}s")
