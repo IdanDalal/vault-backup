@@ -6,8 +6,10 @@ diarizes each file once with pyannote community-1, merges speakers into
 the transcripts, and writes per-clip side-by-side markdown for human review.
 
 Usage:
-    python bakeoff.py --audio-dir ./clips --out ./results --hf-token hf_xxx
-    (or set HF_TOKEN in the environment)
+    python bakeoff.py --audio-dir clips --out results
+
+No Hugging Face account or token needed: diarization uses the ungated
+community mirror of pyannote community-1 (anonymous download, CC-BY-4.0).
 
 Notes:
 - VAD filtering is OFF by default on purpose: clip 5 contains a full minute
@@ -46,7 +48,10 @@ MODELS = {
     },
 }
 
-DIARIZATION_REPO = "pyannote/speaker-diarization-community-1"
+# Ungated community mirror of pyannote/speaker-diarization-community-1
+# (the official repo is gated behind a signup form; the mirror is the same
+# CC-BY-4.0 weights, anonymously downloadable — verified gated:false)
+DIARIZATION_REPO = "pyannote-community/speaker-diarization-community-1"
 
 
 def fmt_ts(seconds):
@@ -151,15 +156,12 @@ def main():
     ap.add_argument("--out", default=Path("results"), type=Path)
     ap.add_argument("--models", default=",".join(MODELS),
                     help="comma-separated subset of: " + ", ".join(MODELS))
-    ap.add_argument("--hf-token", default=os.environ.get("HF_TOKEN"))
+    ap.add_argument("--hf-token", default=os.environ.get("HF_TOKEN"),
+                    help="not needed (mirror is ungated); accepted just in case")
     ap.add_argument("--vad", action="store_true",
                     help="enable VAD filtering (off by default; see docstring)")
     ap.add_argument("--no-diarization", action="store_true")
     args = ap.parse_args()
-
-    if not args.hf_token and not args.no_diarization:
-        sys.exit("Need --hf-token (or HF_TOKEN env) for pyannote, "
-                 "or pass --no-diarization.")
 
     clips = sorted(
         p for p in args.audio_dir.iterdir()
