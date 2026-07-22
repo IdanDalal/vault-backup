@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""lesson-transcribe — the production pipeline chosen by the bake-off (see VERDICT.md).
+
+Diarizes each recording once (pyannote community-1, ungated mirror), transcribes
+with BOTH engines (stock large-v3 + ivrit-turbo), and writes one LESSON.md per
+recording with the two transcripts side by side. Where the engines agree, trust
+it; where they diverge, read that moment carefully — divergences cluster at
+code-switches, mumbles, and whispers, which is exactly the UAB-relevant stuff.
+
+Usage (on the 4090 PC, venv active):
+    python lesson-transcribe.py --audio-dir <folder with lesson audio>
+
+Audio hygiene: lesson audio must live OUTSIDE the vault (vault-agent/inbox/...),
+because the vault's backup layers make deletion impossible. Transcripts go in
+the vault; audio gets deleted after extraction. This script prints a deletion
+reminder and offers --delete-audio to do it in the same run.
+
+VAD is off pending the whisper-survival check (VERDICT.md, open item). If the
+results-vad pass shows whispers survive, run with --vad.
+"""
+
+import argparse
+import time
+from pathlib import Path
+
+from bakeoff import (MODELS, assign_speakers, diarize, fmt_ts, normalize,
+                     transcribe_fw)
+
+ENGINES = ["stock-large-v3", "ivrit-turbo"]  # both, per VERDICT.md
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--audio-dir", required=True, type=Path)
+    ap.add_argument("--out", default=Path("transcripts"), type=Path)
+    ap.add_argument("--vad", action="store_true",
+                    help="enable VAD (only after the whisper-survival check passes)")
+    ap.add_argument("--delete-audio", action="store_true",
+                    help="delete each source recording after its transcript is written")
+    args = ap.parse_args()
+
+    clips = sorted(
+        p for p in args.audio_dir.iterdir()
+        if p.suffix.lower() in {".m4a", ".wav", ".mp3", ".ogg", ".flac"}
+    )
+    if not clips:
+        raise SystemExit(f"No audio files in {args.audio_dir}")
+
+    wav_dir = args.out / "_wav"
+    wav_dir.mkdir(parents=True, exist_ok=True)
+
+    for clip in clips:
+        print(f"\n=== {clip.name} ===")
+        wav = normalize(clip, wav_dir)
+
+        print("  diarizing...")
+        turns = diarize(wav, token=None)
+        n_spk = len({t["speaker"] for t in turns})
+
+        doc = [f"# Lesson transcript — {clip.name}\n",
+               f"Diarization: {n_spk} speakers, {len(turns)} turns. "
+               "Reminder: transcripts cannot assess pronunciation (engines "
+               "auto-correct it), and text over silent stretches is suspect.\n"]
+
+        for name in ENGINES:
+            spec = MODELS[name]
+            print(f"  transcribing with {name}...")
+            t0 = time.time()
+            segs = transcribe_fw(spec["repo"], wav, spec["language"], args.vad)
+            segs = assign_speakers(segs, turns)
+            body = "\n".join(
+                f"[{fmt_ts(s['start'])}] {s['speaker']}: {s['text']}" for s in segs
+            )
+            doc.append(f"## {name}\n\n{body}\n")
+            print(f"  {len(segs)} segments, {time.time()-t0:.0f}s")
+
+        out_md = args.out / f"{clip.stem.replace(' ', '_')}.LESSON.md"
+        out_md.write_text("\n".join(doc), encoding="utf-8")
+        print(f"  -> {out_md}")
+
+        if args.delete_audio:
+            clip.unlink()
+            wav.unlink()
+            print(f"  deleted {clip.name} (and its wav)")
+
+    if not args.delete_audio:
+        print("\nExtract-then-delete rule: once the tracker entries are pulled "
+              "from these transcripts, delete the recordings (and transcripts/_wav):")
+        for clip in clips:
+            print(f"  {clip}")
+    else:
+        # the wav copies of undeleted runs may still linger from earlier passes
+        print("\nSource recordings deleted. Check transcripts/_wav for leftovers.")
+
+
+if __name__ == "__main__":
+    main()

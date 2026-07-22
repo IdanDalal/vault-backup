@@ -118,13 +118,31 @@ def transcribe_hf(repo, wav, language, vad):
     return out
 
 
+def load_wav(wav):
+    """Decode our 16 kHz mono PCM16 wav with the stdlib — bypasses torchcodec,
+    whose Windows DLLs need an FFmpeg 'full-shared' build most installs lack."""
+    import wave
+
+    import numpy as np
+    import torch
+
+    with wave.open(str(wav), "rb") as w:
+        assert w.getnchannels() == 1 and w.getsampwidth() == 2, \
+            "expected the 16k mono PCM16 wav produced by normalize()"
+        sample_rate = w.getframerate()
+        frames = w.readframes(w.getnframes())
+    audio = np.frombuffer(frames, dtype=np.int16).astype(np.float32) / 32768.0
+    return {"waveform": torch.from_numpy(audio).unsqueeze(0),
+            "sample_rate": sample_rate}
+
+
 def diarize(wav, token):
     import torch
     from pyannote.audio import Pipeline
 
     pipe = Pipeline.from_pretrained(DIARIZATION_REPO, token=token)
     pipe.to(torch.device("cuda"))
-    annotation = pipe(str(wav))
+    annotation = pipe(load_wav(wav))
     # exclusive mode (one active speaker at a time) aligns cleanest with STT
     if hasattr(annotation, "exclusive_speaker_diarization"):
         annotation = annotation.exclusive_speaker_diarization

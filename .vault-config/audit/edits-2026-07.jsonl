@@ -49,3 +49,8 @@
 {"ts":"2026-07-22T10:03:02Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-22T10:03:12Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/idan-anonymous-downloads.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-22T10:03:13Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-22T10:34:56Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/bakeoff.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-22T10:54:20Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/VERDICT.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-22T10:54:38Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcribe.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-22T10:54:52Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-22T10:54:56Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
