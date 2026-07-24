@@ -1,0 +1,131 @@
+filters:
+  and:
+    - file.inFolder("projects/Cash/companies")
+    - 'file.ext == "md"'
+
+formulas:
+  total_target: 'pct + earmark_pct'
+  usd: 'if(this.total_usd && this.total_usd > 0, ((pct + earmark_pct) / 100 * this.total_usd).round(0), "")'
+  market_value: 'if(shares > 0 && last_price > 0, (shares * last_price).round(0), "")'
+  actual_pct: 'if(this.portfolio_value && this.portfolio_value > 0 && shares > 0 && last_price > 0, (shares * last_price / this.portfolio_value * 100).round(1), "")'
+  drift: 'if(this.portfolio_value && this.portfolio_value > 0 && shares > 0 && last_price > 0, ((shares * last_price / this.portfolio_value * 100) - (pct + earmark_pct)).round(1), "")'
+
+properties:
+  ticker:
+    displayName: "Ticker"
+  company:
+    displayName: "Company"
+  tier:
+    displayName: "Tier"
+  layer:
+    displayName: "Layer"
+  pct:
+    displayName: "Base %"
+  earmark_pct:
+    displayName: "Earmark %"
+  earmark_for:
+    displayName: "Earmark for"
+  conviction:
+    displayName: "Conviction"
+  cut_reason:
+    displayName: "Why cut"
+  reentry_trigger:
+    displayName: "Re-entry trigger"
+  shares:
+    displayName: "Shares"
+  last_price:
+    displayName: "Last price $"
+  formula.total_target:
+    displayName: "Target %"
+  formula.usd:
+    displayName: "$"
+  formula.market_value:
+    displayName: "Market value $"
+  formula.actual_pct:
+    displayName: "Actual %"
+  formula.drift:
+    displayName: "Drift"
+
+views:
+  - type: table
+    name: "Allocation"
+    filters:
+      and:
+        - 'status == "active"'
+    groupBy:
+      property: tier
+      direction: ASC
+    order:
+      - file.name
+      - company
+      - layer
+      - pct
+      - earmark_pct
+      - earmark_for
+      - formula.total_target
+      - conviction
+    summaries:
+      pct: Sum
+      earmark_pct: Sum
+      formula.total_target: Sum
+
+  - type: table
+    name: "Dollars"
+    filters:
+      and:
+        - 'status == "active"'
+    groupBy:
+      property: tier
+      direction: ASC
+    order:
+      - file.name
+      - company
+      - formula.total_target
+      - formula.usd
+      - conviction
+    summaries:
+      formula.total_target: Sum
+      formula.usd: Sum
+
+  - type: table
+    name: "IPO War Room"
+    filters:
+      and:
+        - 'earmark_pct > 0'
+    order:
+      - file.name
+      - company
+      - pct
+      - earmark_pct
+      - earmark_for
+      - conviction
+    summaries:
+      earmark_pct: Sum
+
+  - type: table
+    name: "Drift"
+    filters:
+      and:
+        - 'status == "active"'
+    order:
+      - file.name
+      - formula.total_target
+      - shares
+      - last_price
+      - formula.market_value
+      - formula.actual_pct
+      - formula.drift
+    summaries:
+      formula.market_value: Sum
+
+  - type: table
+    name: "The Bench"
+    filters:
+      and:
+        - 'status == "bench"'
+    order:
+      - file.name
+      - company
+      - layer
+      - cut_reason
+      - reentry_trigger

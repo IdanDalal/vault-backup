@@ -1,0 +1,110 @@
+filters:
+  and:
+    - file.inFolder("projects/Cash/transactions")
+    - '!file.name.startsWith("_")'
+
+formulas:
+  effective_rate: 'if(type == "fx" && usd_in > 0, ((nis_out + fee_nis) / usd_in).round(4), "")'
+  cost_usd: 'if(shares > 0 && price_usd > 0, (shares * price_usd + fee_usd).round(2), "")'
+
+properties:
+  date:
+    displayName: "Date"
+  type:
+    displayName: "Type"
+  ticker:
+    displayName: "Ticker"
+  nis_out:
+    displayName: "₪ out"
+  usd_in:
+    displayName: "$ in"
+  fee_nis:
+    displayName: "Fee ₪"
+  fee_usd:
+    displayName: "Fee $"
+  shares:
+    displayName: "Shares"
+  price_usd:
+    displayName: "Price $"
+  note:
+    displayName: "Note"
+  formula.effective_rate:
+    displayName: "Effective ₪/$"
+  formula.cost_usd:
+    displayName: "Total cost $"
+
+views:
+  - type: table
+    name: "All Transactions"
+    order:
+      - date
+      - type
+      - ticker
+      - nis_out
+      - usd_in
+      - fee_nis
+      - fee_usd
+      - shares
+      - price_usd
+      - formula.effective_rate
+      - formula.cost_usd
+      - note
+    summaries:
+      nis_out: Sum
+      usd_in: Sum
+      fee_nis: Sum
+      fee_usd: Sum
+      formula.cost_usd: Sum
+
+  - type: table
+    name: "FX"
+    filters:
+      and:
+        - 'type == "fx"'
+    order:
+      - date
+      - nis_out
+      - usd_in
+      - fee_nis
+      - formula.effective_rate
+      - note
+    summaries:
+      nis_out: Sum
+      usd_in: Sum
+      fee_nis: Sum
+      formula.effective_rate: Average
+
+  - type: table
+    name: "Buys"
+    filters:
+      and:
+        - 'type == "buy"'
+    groupBy:
+      property: ticker
+      direction: ASC
+    order:
+      - date
+      - ticker
+      - shares
+      - price_usd
+      - fee_usd
+      - formula.cost_usd
+    summaries:
+      shares: Sum
+      fee_usd: Sum
+      formula.cost_usd: Sum
+
+  - type: table
+    name: "Dividends"
+    filters:
+      and:
+        - 'type == "dividend"'
+    order:
+      - date
+      - ticker
+      - usd_in
+      - fee_usd
+      - note
+    summaries:
+      usd_in: Sum
+      fee_usd: Sum

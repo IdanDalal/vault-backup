@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cash — Mom</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface: #fcfcfb; --page: #f9f9f7;
+    --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --hairline: #e1e0d9; --border: rgba(11,11,11,0.10);
+    --t1: #2a78d6; --t1-light: #86b6ef;
+    --t2: #eb6834; --t3: #1baf7a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface: #1a1a19; --page: #0d0d0d;
+      --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+      --hairline: #2c2c2a; --border: rgba(255,255,255,0.10);
+      --t1: #3987e5; --t1-light: #1c5cab;
+      --t2: #d95926; --t3: #199e70;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--page); color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 16px; display: flex; justify-content: center;
+  }
+  main { width: 100%; max-width: 640px; }
+  header h1 { font-size: 1.5rem; margin-bottom: 2px; }
+  header p { color: var(--ink-2); font-size: 0.9rem; margin-bottom: 16px; }
+  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+  .tile-v { font-size: 1.25rem; font-weight: 700; }
+  .tile-l { font-size: 0.75rem; color: var(--muted); }
+  .compbar { display: flex; gap: 2px; height: 14px; border-radius: 4px; overflow: hidden; margin-bottom: 8px; }
+  .compbar .seg { display: block; height: 100%; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-bottom: 20px; font-size: 0.85rem; color: var(--ink-2); }
+  .chip { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 3px; display: inline-block; flex: none; }
+  .t1 { background: var(--t1); } .t2 { background: var(--t2); } .t3 { background: var(--t3); }
+  .earm.t1 { background: var(--t1-light); }
+  section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 14px 6px; margin-bottom: 14px; }
+  h2 { font-size: 1rem; display: flex; align-items: center; gap: 8px; padding-bottom: 10px; border-bottom: 1px solid var(--hairline); }
+  .h2-pct { margin-left: auto; color: var(--muted); font-weight: 500; }
+  .row { padding: 10px 0; border-bottom: 1px solid var(--hairline); }
+  .row:last-child { border-bottom: 0; }
+  .row-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .tick { font-weight: 700; }
+  .comp { color: var(--ink-2); font-size: 0.85rem; }
+  .nums { margin-left: auto; font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+  .badge { font-size: 0.7rem; color: var(--ink-2); border: 1px solid var(--border); border-radius: 999px; padding: 1px 7px; white-space: nowrap; }
+  .bar { display: flex; gap: 2px; height: 8px; margin: 6px 0 4px; }
+  .bar .seg { display: block; height: 100%; border-radius: 0 4px 4px 0; }
+  .bar .seg:first-child { border-radius: 4px 0 0 4px; }
+  .bar .seg:only-child { border-radius: 4px; }
+  .conv { font-size: 0.8rem; color: var(--muted); }
+  .note { color: var(--ink-2); font-size: 0.85rem; margin-bottom: 14px; }
+  footer { color: var(--muted); font-size: 0.75rem; text-align: center; padding: 10px 0 20px; }
+  code { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; font-size: 0.85em; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Cash — Mom</h1>
+    <p>MAGNA MOBSTA, extended — high-conviction, long-term, exponential technologies</p>
+  </header>
+  
+      <div class="tiles">
+        <div class="tile"><div class="tile-v">19</div><div class="tile-l">positions</div></div>
+        <div class="tile"><div class="tile-v">66/20/14</div><div class="tile-l">tier split %</div></div>
+        <div class="tile"><div class="tile-v">—</div><div class="tile-l">total invested</div></div>
+      </div>
+  <div class="compbar"><span class="seg t1" style="width:66%"></span><span class="seg t2" style="width:20%"></span><span class="seg t3" style="width:14%"></span></div>
+  <div class="legend"><span class="chip"><span class="dot t1"></span>The Core · 66%</span><span class="chip"><span class="dot t2"></span>Silicon Backbone · 20%</span><span class="chip"><span class="dot t3"></span>Adjacent Exponentials · 14%</span></div>
+  <p class="note">Dollar amounts appear once <code>total_usd</code> is set in <code>Mom.md</code> and this page is rebuilt.</p>
+  
+      <section>
+        <h2><span class="dot t1"></span>Tier 1 — The Core <span class="h2-pct">66%</span></h2>
+        
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">MSFT</span>
+          <span class="comp">Microsoft</span>
+          <span class="badge">+3% → OpenAI</span>
+          <span class="nums"><b>11%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:72.73%"></span><span class="seg earm t1" style="width:27.27%"></span></div>
+        <div class="conv">Cloud + OpenAI stake; placeholder converts at OpenAI IPO (possibly 2027)</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">GOOGL</span>
+          <span class="comp">Alphabet</span>
+          <span class="badge">+2% → Anthropic</span>
+          <span class="nums"><b>10%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:72.73%"></span><span class="seg earm t1" style="width:18.18%"></span></div>
+        <div class="conv">Full-stack (TPUs → models); Anthropic stakeholder; converts at ~Oct 2026 IPO</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">AMZN</span>
+          <span class="comp">Amazon</span>
+          <span class="badge">+2% → Anthropic</span>
+          <span class="nums"><b>9%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:63.64%"></span><span class="seg earm t1" style="width:18.18%"></span></div>
+        <div class="conv">AWS + Anthropic's largest backer; converts at ~Oct 2026 IPO</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">NVDA</span>
+          <span class="comp">Nvidia</span>
+          
+          <span class="nums"><b>9%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:81.82%"></span></div>
+        <div class="conv">The recursive core: chips + networking + software</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">AAPL</span>
+          <span class="comp">Apple</span>
+          
+          <span class="nums"><b>6%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:54.55%"></span></div>
+        <div class="conv">Weakest AI story in the core, strongest balance sheet + devices moat</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">AVGO</span>
+          <span class="comp">Broadcom</span>
+          
+          <span class="nums"><b>6%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:54.55%"></span></div>
+        <div class="conv">Custom AI silicon + networking chips — everyone else's Nvidia</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">META</span>
+          <span class="comp">Meta</span>
+          
+          <span class="nums"><b>6%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:54.55%"></span></div>
+        <div class="conv">Open-weights lab + ad machine printing cash for compute</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">SPCX</span>
+          <span class="comp">SpaceX</span>
+          
+          <span class="nums"><b>5%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:45.45%"></span></div>
+        <div class="conv">Bought below IPO price ($135); space + orbital compute optionality</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">TSLA</span>
+          <span class="comp">Tesla</span>
+          
+          <span class="nums"><b>4%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t1" style="width:36.36%"></span></div>
+        <div class="conv">Lowest core conviction: autonomy upside real, valuation demands it</div>
+      </div>
+      </section>
+      <section>
+        <h2><span class="dot t2"></span>Tier 2 — Silicon Backbone <span class="h2-pct">20%</span></h2>
+        
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">TSM</span>
+          <span class="comp">TSMC</span>
+          
+          <span class="nums"><b>6%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t2" style="width:54.55%"></span></div>
+        <div class="conv">Makes ~90% of everything above; the single most load-bearing company</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">ASML</span>
+          <span class="comp">ASML</span>
+          
+          <span class="nums"><b>4%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t2" style="width:36.36%"></span></div>
+        <div class="conv">EUV lithography monopoly; sells the machines TSM can't do without</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">SKHY</span>
+          <span class="comp">SK Hynix</span>
+          
+          <span class="nums"><b>4%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t2" style="width:36.36%"></span></div>
+        <div class="conv">HBM leader (~63%); US-listed July 2026 — the timing thesis in one ticker</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">AMD</span>
+          <span class="comp">AMD</span>
+          
+          <span class="nums"><b>3%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t2" style="width:27.27%"></span></div>
+        <div class="conv">The hedge on NVDA's throne</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">MU</span>
+          <span class="comp">Micron</span>
+          
+          <span class="nums"><b>3%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t2" style="width:27.27%"></span></div>
+        <div class="conv">HBM #2, capacity sold out; US champion</div>
+      </div>
+      </section>
+      <section>
+        <h2><span class="dot t3"></span>Tier 3 — Adjacent Exponentials <span class="h2-pct">14%</span></h2>
+        
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">LLY</span>
+          <span class="comp">Eli Lilly</span>
+          
+          <span class="nums"><b>4%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t3" style="width:36.36%"></span></div>
+        <div class="conv">The non-AI exponential: 60% of GLP-1 and widening</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">CEG</span>
+          <span class="comp">Constellation Energy</span>
+          
+          <span class="nums"><b>3%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t3" style="width:27.27%"></span></div>
+        <div class="conv">Largest US nuclear fleet; sells the constraint</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">GEV</span>
+          <span class="comp">GE Vernova</span>
+          
+          <span class="nums"><b>3%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t3" style="width:27.27%"></span></div>
+        <div class="conv">Turbines sold out into the 2030s</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">PLTR</span>
+          <span class="comp">Palantir</span>
+          
+          <span class="nums"><b>2%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t3" style="width:18.18%"></span></div>
+        <div class="conv">Elite fundamentals, brutal multiple — sized so valuation risk can't hurt the whole</div>
+      </div>
+      <div class="row">
+        <div class="row-head">
+          <span class="tick">VRT</span>
+          <span class="comp">Vertiv</span>
+          
+          <span class="nums"><b>2%</b> · —</span>
+        </div>
+        <div class="bar"><span class="seg t3" style="width:18.18%"></span></div>
+        <div class="conv">Power + cooling for every AI rack</div>
+      </div>
+      </section>
+  <footer>Locked 2026-07-24 · rebuilt 2026-07-24 · lighter bar segments are IPO earmarks (convert at the OpenAI / Anthropic listings)</footer>
+</main>
+</body>
+</html>
