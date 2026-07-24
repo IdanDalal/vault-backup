@@ -1,5 +1,5 @@
 ---
-total_usd: 0
+total_usd:
 portfolio_value: 0
 tags:
   - cash
