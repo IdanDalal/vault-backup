@@ -1,57 +1,54 @@
 filters:
   and:
     - file.inFolder("projects/Cash/companies")
-    - 'file.ext == "md"'
-
+    - file.ext == "md"
 formulas:
-  total_target: 'pct + earmark_pct'
-  usd: 'if(this.total_usd && this.total_usd > 0, ((pct + earmark_pct) / 100 * this.total_usd).round(0), "")'
-  market_value: 'if(shares > 0 && last_price > 0, (shares * last_price).round(0), "")'
-  actual_pct: 'if(this.portfolio_value && this.portfolio_value > 0 && shares > 0 && last_price > 0, (shares * last_price / this.portfolio_value * 100).round(1), "")'
-  drift: 'if(this.portfolio_value && this.portfolio_value > 0 && shares > 0 && last_price > 0, ((shares * last_price / this.portfolio_value * 100) - (pct + earmark_pct)).round(1), "")'
-
+  total_target: pct + earmark_pct
+  usd: if(this.total_usd && this.total_usd > 0, ((pct + earmark_pct) / 100 * this.total_usd).round(0), "")
+  market_value: if(shares > 0 && last_price > 0, (shares * last_price).round(0), "")
+  actual_pct: if(this.portfolio_value && this.portfolio_value > 0 && shares > 0 && last_price > 0, (shares * last_price / this.portfolio_value * 100).round(1), "")
+  drift: if(this.portfolio_value && this.portfolio_value > 0 && shares > 0 && last_price > 0, ((shares * last_price / this.portfolio_value * 100) - (pct + earmark_pct)).round(1), "")
 properties:
   ticker:
-    displayName: "Ticker"
+    displayName: Ticker
   company:
-    displayName: "Company"
+    displayName: Company
   tier:
-    displayName: "Tier"
+    displayName: Tier
   layer:
-    displayName: "Layer"
+    displayName: Layer
   pct:
-    displayName: "Base %"
+    displayName: Base %
   earmark_pct:
-    displayName: "Earmark %"
+    displayName: Earmark %
   earmark_for:
-    displayName: "Earmark for"
+    displayName: Earmark for
   conviction:
-    displayName: "Conviction"
+    displayName: Conviction
   cut_reason:
-    displayName: "Why cut"
+    displayName: Why cut
   reentry_trigger:
-    displayName: "Re-entry trigger"
+    displayName: Re-entry trigger
   shares:
-    displayName: "Shares"
+    displayName: Shares
   last_price:
-    displayName: "Last price $"
+    displayName: Last price $
   formula.total_target:
-    displayName: "Target %"
+    displayName: Target %
   formula.usd:
-    displayName: "$"
+    displayName: $
   formula.market_value:
-    displayName: "Market value $"
+    displayName: Market value $
   formula.actual_pct:
-    displayName: "Actual %"
+    displayName: Actual %
   formula.drift:
-    displayName: "Drift"
-
+    displayName: Drift
 views:
   - type: table
-    name: "Allocation"
+    name: Allocation
     filters:
       and:
-        - 'status == "active"'
+        - status == "active"
     groupBy:
       property: tier
       direction: ASC
@@ -68,12 +65,11 @@ views:
       pct: Sum
       earmark_pct: Sum
       formula.total_target: Sum
-
   - type: table
-    name: "Dollars"
+    name: Dollars
     filters:
       and:
-        - 'status == "active"'
+        - status == "active"
     groupBy:
       property: tier
       direction: ASC
@@ -86,12 +82,11 @@ views:
     summaries:
       formula.total_target: Sum
       formula.usd: Sum
-
   - type: table
-    name: "IPO War Room"
+    name: IPO War Room
     filters:
       and:
-        - 'earmark_pct > 0'
+        - earmark_pct > 0
     order:
       - file.name
       - company
@@ -101,12 +96,11 @@ views:
       - conviction
     summaries:
       earmark_pct: Sum
-
   - type: table
-    name: "Drift"
+    name: Drift
     filters:
       and:
-        - 'status == "active"'
+        - status == "active"
     order:
       - file.name
       - formula.total_target
@@ -117,12 +111,11 @@ views:
       - formula.drift
     summaries:
       formula.market_value: Sum
-
   - type: table
-    name: "The Bench"
+    name: The Bench
     filters:
       and:
-        - 'status == "bench"'
+        - status == "bench"
     order:
       - file.name
       - company
