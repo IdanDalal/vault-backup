@@ -20,9 +20,15 @@ Two daughters of Mom's housekeeper, ages 9 and 12, who would massively benefit f
 
 ---
 
-## First session: Thursday 2026-07-24 — both girls together (2-on-1)
+## First session: ~~Thursday 2026-07-24~~ → **Monday 2026-07-27, 09:00** — both girls together (2-on-1)
 
-**The open decision resolved itself by logistics** — their mom is bringing both on Thursday. So session one runs 2-on-1, and it doubles as the data source for the real together-vs-separate call (see decision rule at the bottom). The instrument is still [[tutoring-universal-baseline]] — one ladder, two climbers, two scoring sheets.
+**Rescheduled 2026-07-24:** Idi was sick; the session moved to Monday morning. Two consequences worth carrying: a 09:00 summer start means the first minutes may be fog rather than shyness (don't read sleep as level), and the cancellation is a usable opening — an apology mimed in English is the morning's first TPR.
+
+**The open decision resolved itself by logistics** — their mom is bringing both. So session one runs 2-on-1, and it doubles as the data source for the real together-vs-separate call (see decision rule at the bottom). The instrument is still [[tutoring-universal-baseline]] — one ladder, two climbers, two scoring sheets.
+
+**Beat-by-beat walkthrough:** `vault-agent/projects/sisters-first-contact-sim.html` — the 2-on-1 first-contact simulation, mapping each beat's four possible directions (opening / divergence / failure-state / undercurrent) with the next move for each. Read the night before, then close it.
+
+**Prep dependencies to close with their mom before Monday:** the girls' names including Latin spelling (the two secret-message strips need them), where the session happens (their home vs. Idi's mother's home changes what the bag must carry), and whether mom stays.
 
 ### Adaptations to the UAB
 
@@ -40,9 +46,9 @@ Two daughters of Mom's housekeeper, ages 9 and 12, who would massively benefit f
 - **The 12-year-old's assessment radar, doubled:** being out-climbed by a little sister is the nightmare scenario. Never let their rungs be visibly compared; praise is individual, specific, and never relative ("that jump-command was instant" — not "you're faster than her").
 - **Never end either girl's track on a miss** (UAB rule), and end the *session* on a joint win — both teaching you something together.
 - **Mom will ask "who's better?"** Prepared answer: different doors, both walked through them — then one specific win per girl. Separate ledgers in the parent notes (skeleton rule), sent as separate messages even to the same phone.
-- **No recording on Thursday.** The bake-off isn't validated and the transparency/consent conversation hasn't happened — and with the housekeeper power dynamic, consent must be genuinely refusable, which takes an unhurried conversation, not a doorstep ask. Hand-filled scoring sheets are enough for session one.
+- **No recording on Monday.** The bake-off isn't validated and the transparency/consent conversation hasn't happened — and with the housekeeper power dynamic, consent must be genuinely refusable, which takes an unhurried conversation, not a doorstep ask. Hand-filled scoring sheets are enough for session one.
 
-### Together-vs-separate — decision rule (apply to Thursday's data)
+### Together-vs-separate — decision rule (apply to Monday's data)
 
 - Frontiers **≤1 rung apart** on both tracks → together is viable, possibly better: they co-regulate fear, and co-teacher structure works.
 - Frontiers **≥2 rungs apart** on either track → recommend separate sessions to mom, framed as "each gets my full attention" — never as levels.

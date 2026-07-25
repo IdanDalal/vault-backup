@@ -1,0 +1,620 @@
+<title>Two Sisters, One Room — First Contact</title>
+<style>
+  :root {
+    --ground: #F2F4F0;
+    --panel: #FBFCFA;
+    --panel-2: #EDF1EC;
+    --ink: #232B26;
+    --muted: #66716A;
+    --accent: #2F6B54;
+    --line: #D9DFD8;
+    --open: #3F8E5F;
+    --div:  #2E6B7E;
+    --fail: #B04038;
+    --under:#6B4E8E;
+    --gold: #A8862E;
+    --open-bg: #3F8E5F14;
+    --div-bg:  #2E6B7E14;
+    --fail-bg: #B0403814;
+    --under-bg:#6B4E8E14;
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #151A17; --panel: #1C221E; --panel-2: #222A25; --ink: #E4E8E2;
+      --muted: #93A097; --accent: #7BC4A0; --line: #2B332D;
+      --open: #62B384; --div: #6FB3C4; --fail: #CC6A61; --under: #A98BC9; --gold: #C9A94F;
+      --open-bg: #62B3841A; --div-bg: #6FB3C41A; --fail-bg: #CC6A611A; --under-bg: #A98BC91A;
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #F2F4F0; --panel: #FBFCFA; --panel-2: #EDF1EC; --ink: #232B26;
+    --muted: #66716A; --accent: #2F6B54; --line: #D9DFD8;
+    --open: #3F8E5F; --div: #2E6B7E; --fail: #B04038; --under: #6B4E8E; --gold: #A8862E;
+    --open-bg: #3F8E5F14; --div-bg: #2E6B7E14; --fail-bg: #B0403814; --under-bg: #6B4E8E14;
+  }
+  :root[data-theme="dark"] {
+    --ground: #151A17; --panel: #1C221E; --panel-2: #222A25; --ink: #E4E8E2;
+    --muted: #93A097; --accent: #7BC4A0; --line: #2B332D;
+    --open: #62B384; --div: #6FB3C4; --fail: #CC6A61; --under: #A98BC9; --gold: #C9A94F;
+    --open-bg: #62B3841A; --div-bg: #6FB3C41A; --fail-bg: #CC6A611A; --under-bg: #A98BC91A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground); color: var(--ink);
+    font-family: var(--sans); font-size: 15.5px; line-height: 1.55;
+    margin: 0; padding: 0 20px 80px;
+  }
+  .wrap { max-width: 1020px; margin: 0 auto; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  header.masthead { padding: 44px 0 10px; border-bottom: 3px double var(--line); }
+  .eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(30px, 4.5vw, 44px); line-height: 1.12; margin: 0 0 12px; text-wrap: balance; }
+  .standfirst { color: var(--muted); max-width: 64ch; margin: 0 0 18px; }
+  .params { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--mono); font-size: 12px; color: var(--muted); padding: 10px 0 18px; }
+  .params b { color: var(--ink); font-weight: 600; }
+
+  .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 10px; padding: 16px 0 6px; }
+  .lg { border-left: 3px solid var(--line); padding: 4px 0 4px 12px; font-size: 13.5px; color: var(--muted); }
+  .lg b { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 2px; }
+  .lg.o { border-color: var(--open); } .lg.o b { color: var(--open); }
+  .lg.d { border-color: var(--div); }  .lg.d b { color: var(--div); }
+  .lg.f { border-color: var(--fail); } .lg.f b { color: var(--fail); }
+  .lg.u { border-color: var(--under);} .lg.u b { color: var(--under); }
+
+  nav.beats { position: sticky; top: 0; z-index: 5; background: var(--ground); border-bottom: 1px solid var(--line); padding: 8px 0; margin-bottom: 8px; overflow-x: auto; white-space: nowrap; }
+  nav.beats a { font-family: var(--mono); font-size: 11.5px; text-decoration: none; color: var(--muted); padding: 5px 9px; border-radius: 3px; margin-right: 2px; }
+  nav.beats a:hover { color: var(--accent); background: var(--panel-2); }
+
+  section.block { display: grid; grid-template-columns: 96px 1fr; gap: 0 22px; padding: 34px 0 8px; border-bottom: 1px solid var(--line); }
+  .gutter { font-family: var(--mono); font-size: 12px; color: var(--muted); padding-top: 6px; }
+  .gutter .bnum { display: block; font-size: 22px; color: var(--accent); font-weight: 600; margin-bottom: 2px; }
+  .body h2 { font-family: var(--serif); font-size: 24px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+  .body h3 { font-size: 13px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 22px 0 10px; font-weight: 600; }
+  .rung { font-family: var(--mono); font-size: 11.5px; color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+  .body p { max-width: 68ch; }
+
+  .say { border-left: 3px solid var(--accent); background: var(--panel); padding: 12px 16px; margin: 12px 0; max-width: 68ch; }
+  .say .who { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
+  .say q { font-family: var(--serif); font-style: italic; font-size: 16.5px; }
+  .say .aside { color: var(--muted); font-size: 13px; display: block; margin-top: 6px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+  .chips span { font-family: var(--mono); font-size: 11px; background: var(--panel-2); border: 1px solid var(--line); padding: 3px 9px; border-radius: 999px; color: var(--ink); }
+
+  .dirs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0 20px; }
+  @media (max-width: 760px) { .dirs { grid-template-columns: 1fr; } section.block { grid-template-columns: 1fr; } .gutter { display: flex; gap: 14px; align-items: baseline; padding-bottom: 4px; } }
+  .dir { background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--line); padding: 12px 14px 10px; font-size: 14px; }
+  .dir.o { border-top-color: var(--open);  background: linear-gradient(var(--open-bg),  transparent 55%), var(--panel); }
+  .dir.d { border-top-color: var(--div);   background: linear-gradient(var(--div-bg),   transparent 55%), var(--panel); }
+  .dir.f { border-top-color: var(--fail);  background: linear-gradient(var(--fail-bg),  transparent 55%), var(--panel); }
+  .dir.u { border-top-color: var(--under); background: linear-gradient(var(--under-bg), transparent 55%), var(--panel); }
+  .dhead { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; flex-wrap: wrap; }
+  .glyph { font-family: var(--mono); font-size: 13px; }
+  .dir.o .glyph { color: var(--open); } .dir.d .glyph { color: var(--div); }
+  .dir.f .glyph { color: var(--fail); } .dir.u .glyph { color: var(--under); }
+  .dname { font-family: var(--serif); font-size: 17px; font-weight: 600; }
+  .dclass { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-left: auto; }
+  .dir .tell { font-family: var(--serif); font-style: italic; font-size: 15.5px; margin: 0 0 8px; color: var(--ink); }
+  .dir p { margin: 0 0 7px; }
+  .dir strong { font-weight: 650; }
+  .dir .next { font-family: var(--mono); font-size: 12px; color: var(--accent); margin: 7px 0 2px; }
+
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .tablewrap { overflow-x: auto; margin: 12px 0 8px; }
+  th { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); text-align: left; padding: 8px 12px 8px 0; border-bottom: 2px solid var(--line); }
+  td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.f2 { font-family: var(--mono); font-size: 12.5px; white-space: nowrap; }
+  td.when { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
+
+  .callout { background: var(--panel-2); border: 1px solid var(--line); padding: 12px 16px; margin: 14px 0; max-width: 74ch; font-size: 14px; }
+  .callout .ct { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
+  .callout.warn { border-left: 3px solid var(--gold); } .callout.warn .ct { color: var(--gold); }
+  .callout.hard { border-left: 3px solid var(--fail); } .callout.hard .ct { color: var(--fail); }
+
+  ul.tight { margin: 6px 0; padding-left: 20px; } ul.tight li { margin-bottom: 5px; max-width: 68ch; }
+  .hebrew { direction: rtl; unicode-bidi: isolate; font-style: normal; }
+
+  .five { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); padding: 16px 18px; margin: 22px 0 6px; }
+  .five ol { margin: 8px 0 0; padding-left: 20px; }
+  .five li { margin-bottom: 7px; max-width: 68ch; }
+  .five li b { font-family: var(--serif); font-size: 16px; }
+
+  pre.sheet { background: var(--panel); border: 1px solid var(--line); padding: 16px; font-family: var(--mono); font-size: 12.5px; line-height: 1.6; overflow-x: auto; max-width: 100%; }
+  .interrupt { border-left: 3px solid var(--fail); background: var(--panel); padding: 12px 16px; margin: 0 0 12px; font-size: 14px; }
+  .interrupt b:first-child { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--fail); }
+  footer { padding-top: 28px; color: var(--muted); font-size: 12.5px; font-family: var(--mono); }
+</style>
+
+<div class="wrap">
+<header class="masthead">
+  <p class="eyebrow">Tutoring · UAB · Session One · 2-on-1 · Monday 2026-07-27, 09:00</p>
+  <h1>Two Sisters, One Room</h1>
+  <p class="standfirst">The first 45 minutes with the nine and the twelve — mapped not as a scale from smooth to chaotic, but as the set of <em>directions</em> each moment can open into. Every beat has an opening, a divergence, a failure-state and an undercurrent. None of them is the bad one. The skill is naming which one you're standing in, fast, and having the next move already in your hands.</p>
+  <div class="params">
+    <span>DURATION <b>45 min</b></span><span>CLIMBERS <b>two, ages 9 &amp; 12</b></span><span>INSTRUMENT <b>UAB — one ladder, two sheets</b></span><span>RECORDING <b>none</b></span><span>SUCCESS <b>both want a session two</b></span><span>SECOND PRIZE <b>the together-vs-separate call</b></span>
+  </div>
+  <div class="legend">
+    <span class="lg o"><b>◆ Opening</b>The moment expands. Something became possible that wasn't before — take it and don't look back at the plan.</span>
+    <span class="lg d"><b>◈ Divergence</b>The sisters split. Two sessions are now running in one room, and your job is to keep both invisible to the other.</span>
+    <span class="lg f"><b>▲ Failure-state</b>A specific way this beat dies. Named so you recognize it in two seconds, with the exit already written.</span>
+    <span class="lg u"><b>● Undercurrent</b>Something real and quiet surfaces — about them, about the family, about you. Usually the most valuable thing that happens.</span>
+  </div>
+</header>
+
+<nav class="beats" aria-label="Beats">
+  <a href="#five">★ The five</a><a href="#b0">0 Loadout</a><a href="#b1">1 Door</a><a href="#b2">2 Microphone</a><a href="#b3">3 Hunt ×2</a><a href="#b4">4 IT2</a><a href="#b5">5 A1 bodies</a><a href="#b6">6 A2 teachers</a><a href="#b7">7 A3 chunks</a><a href="#b8">8 Track B</a><a href="#b9">9 Fork</a><a href="#b10">10 Joint win</a><a href="#interrupts">⚠ Interrupts</a><a href="#after">After</a><a href="#consent">Consent talk</a><a href="#return">→ Back to Claude</a>
+</nav>
+
+<!-- ============ THE FIVE ============ -->
+<section class="block" id="five" style="padding-top:22px">
+  <div class="gutter"><span class="bnum">★</span><span>if you<br>remember<br>nothing else</span></div>
+  <div class="body">
+    <div class="five">
+      <ol>
+        <li><b>Two sheets, one game.</b> Never two visible tests in one room. Every probe is a shared game; the scoring happens behind your eyes and lands on paper after they leave.</li>
+        <li><b>Name every question.</b> «דנה — jump.» The single most predictable failure of the morning is the twelve answering for the nine, and a name in front of the verb prevents most of it.</li>
+        <li><b>The gap is the engine, not the hazard.</b> The second the older one out-climbs her sister, promote her to co-teacher. Her English commands are A2/A3 data; the younger gets receptive reps; nobody gets compared.</li>
+        <li><b>Back off a rung faster than you would alone.</b> A miss in front of a sibling costs more than a lost data point ever will.</li>
+        <li><b>End on a joint win.</b> Something they do together, that neither could do alone. Then one specific, individual, non-comparative praise each — out loud, in front of their mother.</li>
+      </ol>
+    </div>
+    <div class="callout warn"><span class="ct">Shorthand used in this file</span>“The twelve” and “the nine.” Their real names go in before Monday — including the Latin spelling, because two secret-message strips depend on it (Beat 8). Ask their mom, not them; asking a kid to spell her own name in English at minute one is a test disguised as nothing at all.</div>
+  </div>
+</section>
+
+<!-- ============ BEAT 0 ============ -->
+<section class="block" id="b0">
+  <div class="gutter"><span class="bnum">0</span><span>Sun night<br>→ 08:30</span></div>
+  <div class="body">
+    <h2>Loadout — two bags, three unknowns, one debt</h2>
+    <h3>Resolve before Monday (all three are cheap, and all three change the session)</h3>
+    <div class="tablewrap"><table>
+      <tr><th>Unknown</th><th>Why it matters</th><th>How to close it</th></tr>
+      <tr><td class="f2">Their names<br>+ Latin spelling</td><td>Name-addressed probes are the whole turn-taking system; the B3 strips must say <em>their</em> names, spelled right, or the punchline dies.</td><td class="when">Ask mom, Sunday</td></tr>
+      <tr><td class="f2">Where</td><td>Their home = their territory, room to hunt, their stuff on the walls. Your mother's home = foreign ground, no props, and the bag carries their entire world alone.</td><td class="when">Ask mom, Sunday</td></tr>
+      <tr><td class="f2">Does mom stay</td><td>Decides whether Beat 1 has an audience, whether the hovering interrupt is live, and whether the consent conversation can happen at 09:45.</td><td class="when">Ask mom, Sunday</td></tr>
+    </table></div>
+    <h3>The bag — doubled</h3>
+    <ul class="tight">
+      <li><b>Two domain loads.</b> Nine and twelve do not live in the same world; if you carry one bag you have declared whose world this session belongs to. If you have no domain intel yet, carry breadth: drawing supplies, a football, a phone with three offline clips from three different worlds.</li>
+      <li><b>The microphone.</b> Choose the object tonight — something with weight and zero play value. A wooden spoon, a stone, a real (dead) microphone if you own one. Not a toy. Beat 2 explains why.</li>
+      <li><b>Two sentence strips</b>, two names, hidden in two places. <span class="hebrew">"יש שתי הודעות סודיות בחדר"</span> — two secrets, one each, no sharing.</li>
+      <li><b>Letter cards, TPR props, paper.</b> Paper is the universal escape hatch: every dead beat in this file exits through drawing.</li>
+      <li><b>Phone:</b> silenced, offline-cued, appears only as a prop player. <b>No recorder. Not once, not "just for me."</b></li>
+    </ul>
+    <h3>The reschedule debt — spend it</h3>
+    <p>You cancelled Thursday because you were sick. That is not a blemish on the first contact; it is a free opening move. You owe them a story and you can pay it in English at the door: <em>"I was sick. Sick! I was — "</em> and mime it, badly, until one of them laughs. First TPR of the morning, first English they process for meaning, and it arrives as an apology rather than a test.</p>
+    <div class="callout hard"><span class="ct">Non-negotiable</span>If you are still contagious Monday morning, cancel again. Their mother cleans houses for a living; a sick child costs her a working day. A second reschedule costs you nothing that a third session doesn't repay.</div>
+  </div>
+</section>
+
+<!-- ============ BEAT 1 ============ -->
+<section class="block" id="b1">
+  <div class="gutter"><span class="bnum">1</span><span>09:00–09:03</span></div>
+  <div class="body">
+    <h2>The door</h2>
+    <p class="rung">No rung — but the whole relationship is decided in ninety seconds</p>
+    <div class="say"><span class="who">You say</span><q>Hello, ⟨name⟩! Hello, ⟨name⟩!</q> <span class="aside">Two hellos, two names, two seconds apart. Then Hebrew, immediately, and nothing that resembles a syllabus. You came to hang out; the ladder is disguised as the morning.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>who speaks first</span><span>who stands behind whom</span><span>greeting reflex — each</span><span>morning energy</span><span>where their mother's eyes are</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Two doors, both open</span><span class="dclass">opening</span></div>
+        <p class="tell">Both answer. Maybe shy, maybe grinning — but two separate voices exist in the room.</p>
+        <p><strong>Do:</strong> nothing clever. Sit where they lead. Let the first three minutes be genuinely aimless.</p>
+        <p><strong>Bank:</strong> one A3 greeting chunk each, before the ladder officially started.</p>
+        <p class="next">→ Beat 2, on time.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">One voice for two</span><span class="dclass">divergence</span></div>
+        <p class="tell">The twelve answers both hellos. The nine lets her. Nobody finds this strange except you.</p>
+        <p><strong>Do:</strong> do not correct it — you'd be scolding a helpful child in her first minute. Let it stand; the microphone at Beat 2 fixes it retroactively, as a game rule rather than a rebuke.</p>
+        <p><strong>Read:</strong> the spokesperson pattern is real and will recur under pressure all morning. Note where it holds and where it breaks.</p>
+        <p class="next">→ Beat 2, and the prop just became load-bearing.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">The morning fog</span><span class="dclass">failure-state</span></div>
+        <p class="tell">09:00, summer, no school. They were asleep forty minutes ago. Flat faces, one-word answers, bodies still offline.</p>
+        <p><strong>The trap:</strong> reading sleep as shyness, or worse, as level. A foggy nine looks exactly like a near-zero nine for about ten minutes.</p>
+        <p><strong>Do:</strong> invert the plan — bodies before mouths. Run A1 (Beat 5) <em>first</em>, as a wake-up game, then come back to the hunt. The ladder's order is a convenience, not a law.</p>
+        <p class="next">→ Beat 5 early; Beat 3 lands at 09:12 with two awake kids.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">The boss's son</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">Excessive politeness. Shoes lined up. A glance at their mother before every answer.</p>
+        <p><strong>What it is:</strong> their mother works for your mother, and children read employment weather perfectly. You are not a stranger to them — you are a stranger with rank.</p>
+        <p><strong>Do:</strong> transfer territory in the first minute. They choose the room, the table, the chair; one of them carries the bag. Ask <em>them</em> for something — a glass of water, where to sit. Being asked for help is the fastest known solvent for rank.</p>
+        <p><strong>Carry it:</strong> this weather sits under every beat today. Any moment that starts feeling like a performance for the employer's son needs an immediate switch to play.</p>
+        <p class="next">→ Beat 2, deliberately silly.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 2 ============ -->
+<section class="block" id="b2">
+  <div class="gutter"><span class="bnum">2</span><span>09:03–09:06</span></div>
+  <div class="body">
+    <h2>The microphone — a rule sold as a toy, three minutes before it's needed</h2>
+    <p class="rung">The only structural addition the 2-on-1 format requires</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">חוק אחד היום: מי שמחזיק את זה — מדבר. אני גם. תבדקו אותי.</q> <span class="aside">One rule today: whoever holds this, talks. Me too — test me. Then break it yourself on purpose within thirty seconds and let them bust you. A rule you're subject to is a game; a rule only they're subject to is discipline.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>who reaches for it first</span><span>does the nine accept it when offered</span><span>does the twelve enjoy or resent it</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">They make it theirs</span><span class="dclass">opening</span></div>
+        <p class="tell">Instant adoption. Within a minute they're inventing amendments — "and you can't hold it twice in a row."</p>
+        <p><strong>Do:</strong> accept every amendment, immediately, with ceremony. It's now their rule and they'll police it for you all morning.</p>
+        <p class="next">→ Beat 3, with turn-taking solved for free.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">The muzzle reading</span><span class="dclass">divergence</span></div>
+        <p class="tell">The twelve's face flickers. She understands exactly what this is for, and it's for her.</p>
+        <p><strong>Do:</strong> give her the bigger job before she can resent the small one — she is the rule-keeper. She holds the microphone <em>between</em> turns and hands it out, including to you. Authority instead of restriction, same effect.</p>
+        <p><strong>Read:</strong> high social intelligence, and an assessment radar that is already warm. Thicken every disguise from here.</p>
+        <p class="next">→ Beat 3, with her as co-host rather than subject.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">The prop becomes the prize</span><span class="dclass">failure-state</span></div>
+        <p class="tell">They're fighting over the object. The rule has produced the exact conflict it was meant to prevent.</p>
+        <p><strong>Do:</strong> kill it instantly, no ceremony, no lesson attached. Replace with a position rule — one chair is the answering chair, or the answerer stands. Positions can't be grabbed out of a hand.</p>
+        <p><strong>Learn:</strong> objects are contested between siblings; roles aren't. Every future prop for these two should be a role.</p>
+        <p class="next">→ Beat 3 with the chair rule; never mention the spoon again.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">She won't take it</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">You offer it to the nine. She doesn't take it, or takes it and says nothing into a silence that gets long.</p>
+        <p><strong>Do:</strong> rescue instantly and make holding it enough — <em>"you're holding it, so you get to point instead of talk."</em> Pointing is a legal answer all morning.</p>
+        <p><strong>Read:</strong> possible silent period, or a smaller sister used to not being the one who talks. Both mean the same thing today: her body answers, not her mouth. Every probe from here needs a non-verbal channel.</p>
+        <p class="next">→ Beat 3, all questions to her answerable by hand.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 3 ============ -->
+<section class="block" id="b3">
+  <div class="gutter"><span class="bnum">3</span><span>09:06–09:18<br><b>hard cap</b></span></div>
+  <div class="body">
+    <h2>A0 — the treasure hunt, twice, without repeating yourself</h2>
+    <p class="rung">Track A · Rung 0 · no pass bar — this is rapport, inventory, and one revelation</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">אם לא הייתי פה עכשיו — מה הייתן עושות?</q> <span class="aside">If I weren't here right now, what would you two be doing? — then hunt the English already living inside the answer: pizza, OK, bye, level, story, gol, TikTok, craft. Each girl's own world, one at a time, microphone honored.</span></div>
+    <div class="callout warn"><span class="ct">The one-shot problem</span>“You already speak English and nobody taught you” is a revelation you can detonate <b>once</b> in a room. The second girl cannot receive the same surprise nine minutes later — she watched it land on her sister. So don't repeat it. Convert: count both inventories together, out loud, into one number. <em>"Between the two of you — twenty-six English words. In this room. Right now."</em> A shared number nobody can be compared inside.</div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>two domains or one</span><span>owned words per girl</span><span>who lights up talking, who lights up listening</span><span>pronunciation habits</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Two separate worlds</span><span class="dclass">opening</span></div>
+        <p class="tell">Different shows, different games, different obsessions. They interrupt each other to correct the details.</p>
+        <p><strong>Do:</strong> mine both, fully. This is the best possible outcome — two content veins, months deep, and no shared ground to compete over.</p>
+        <p><strong>Bank:</strong> two S0 inventories, two wow-word candidate lists, two bags for session two.</p>
+        <p class="next">→ Beat 4 if either world is media; else Beat 5.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">One world, two ranks</span><span class="dclass">divergence</span></div>
+        <p class="tell">Same show, same game — and the twelve owns the vocabulary of it. The nine's answers are her sister's answers.</p>
+        <p><strong>Do:</strong> split the world into two jobs instead of splitting the girls. The twelve tells the <em>story</em>; the nine <em>names</em> what's on screen. Same territory, two non-overlapping tasks, two clean data streams.</p>
+        <p><strong>Gift:</strong> one bag serves both forever. <strong>Hazard:</strong> the younger will always be second in this domain — so find her a private one before session three.</p>
+        <p class="next">→ Beat 4, run as two roles on one screenshot.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">The hunt eats the session</span><span class="dclass">failure-state</span></div>
+        <p class="tell">09:18 and they're still talking. It's going beautifully. This is the predicted failure — with one kid it ran long; with two it can swallow everything.</p>
+        <p><strong>Do:</strong> stop at the cap anyway, mid-glory. Cut from the <em>middle</em> rungs later, never from the hunt itself: A3 is the cheapest thing to lose, Track B the most expensive.</p>
+        <p><strong>Console yourself:</strong> a hunt that overruns is rapport being built at maximum rate. That is the actual product; the rungs are bookkeeping.</p>
+        <p class="next">→ Beat 5 directly, A3 pre-emptively shortened.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">"She likes what I like"</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">The nine's every answer routes through her sister. Not shyness — she genuinely may not have a separate answer yet.</p>
+        <p><strong>Do:</strong> ask her something her sister structurally cannot know. What did you dream about? What's in your pocket? What's the worst food in the world? A question with no expert in the room.</p>
+        <p><strong>Read:</strong> the identity gap is bigger than the English gap. Weigh this heavily in the together-vs-separate call — separate sessions may be worth more to her socially than pedagogically.</p>
+        <p class="next">→ Beat 4 or 5, with one question per beat reserved for her alone.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 4 ============ -->
+<section class="block" id="b4">
+  <div class="gutter"><span class="bnum">4</span><span>sidecar<br>~5 min</span></div>
+  <div class="body">
+    <h2>The It-Takes-Two probe — the highest-information five minutes available</h2>
+    <p class="rung">Conditional — fires the moment either girl's media territory surfaces</p>
+    <p>“Their shows are in English” collapses three different children into one sentence: absorbed <b>meaning</b>, absorbed <b>sound</b>, absorbed <b>nothing</b>. Your neighbour finished an entire voiced game and asked whether there were more levels. Assume nothing; ask for the story.</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">ספרי לי מה קורה שם — מי הדמות, מה היא רוצה?</q> <span class="aside">Tell me what happens — who's the character, what do they want? Then the cued screenshot: what does it say here? Ask each girl about her own world; never let one answer for the other's.</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">The story arrives</span><span class="dclass">opening</span></div>
+        <p class="tell">Plot, motives, what happens next season — and she reads the screen text, translating as she goes.</p>
+        <p><strong>Do:</strong> hide the surprise entirely; stay a fan asking a fan. Walk A1–A3 fast (never skip — walk) and budget real time for A4.</p>
+        <p><strong>Read:</strong> stealth fluency. The parents' report, whatever it said, is now retired in the other direction.</p>
+        <p class="next">→ Beats 5–7 at double speed; the fork will say "keep climbing."</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">Split verdict</span><span class="dclass">divergence</span></div>
+        <p class="tell">One tells you the story. The other watched the same hours and got sound without meaning.</p>
+        <p><strong>Why it matters more than any rung:</strong> this single divergence predicts the entire shape of teaching them together — same input, different extraction. It is the strongest evidence the together-vs-separate call will get all morning.</p>
+        <p><strong>Do:</strong> never say it aloud, in any form, to anyone in the room.</p>
+        <p class="next">→ Beat 5, and pre-weight the decision rule toward separate.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">"Why are you checking me?"</span><span class="dclass">failure-state</span></div>
+        <p class="tell">The twelve, almost certainly. The probe smelled like an exam because it is one.</p>
+        <p><strong>Do:</strong> drop it inside one second. <em>"Checking? I'm terrible at this game — show me how you play."</em> Then genuinely lose to her. The data arrives anyway, through the back, while she's teaching you.</p>
+        <p><strong>Learn:</strong> radar confirmed active. Every remaining probe today gets a thicker disguise, and the word “exercise” never appears.</p>
+        <p class="next">→ Beats 5–7 dressed as games <em>she</em> runs.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">Hours, no absorption</span><span class="dclass">undercurrent</span></div>
+        <p class="tell"><span class="hebrew">"בא נלחמים"</span> — you fight. No characters, no wants, no story. Daily play, zero narrative.</p>
+        <p><strong>Do:</strong> stay warm — the game is still the best content mine in the building, even if nothing has come through it yet.</p>
+        <p><strong>Read:</strong> exposure without absorption, confirmed on your own students. Treat comprehension as zero regardless of logged hours, and let the ladder do its job with no assumptions at all.</p>
+        <p class="next">→ Beat 5, from rung zero, no shortcuts.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 5 ============ -->
+<section class="block" id="b5">
+  <div class="gutter"><span class="bnum">5</span><span>09:18–09:24</span></div>
+  <div class="body">
+    <h2>A1 — receptive: the rung where the gap usually shows itself</h2>
+    <p class="rung">Track A · Rung 1 · clean pass: ≥7 of 8 instant, <em>per girl</em></p>
+    <div class="say"><span class="who">You say</span><q>⟨name⟩ — jump! ⟨name⟩ — touch something red. Both — give me the pencil!</q> <span class="aside">Simon Says, name-addressed, deadpan, hands still. Your gestures are an answer key and they will both read it if you leak it. Alternate girls; slip in the occasional "both" so it stays a game and not a queue.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>latency per girl: instant / processing / guessing</span><span>eyes on your words or on her sister</span><span>which semantic fields land</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Both bodies answer</span><span class="dclass">opening</span></div>
+        <p class="tell">Instant, both, giggling, demanding harder ones.</p>
+        <p><strong>Do:</strong> one absurd command each as dessert — <em>"touch your nose with your elbow"</em> — then leave while it's still fun. Always leave a rung one command early.</p>
+        <p class="next">→ Beat 6.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">The gap opens — promote her</span><span class="dclass">divergence</span></div>
+        <p class="tell">The twelve is instant. The nine is watching, half a beat behind, guessing from her sister's motion.</p>
+        <p><strong>Do, immediately, before anyone names it:</strong> hand the commands to the twelve. She's the caller now, in English; you and the nine both obey. Her production is A2/A3 data arriving free; her sister gets receptive reps with no spotlight; the gap has become the mechanism instead of the wound.</p>
+        <p><strong>Watch:</strong> the twelve's command vocabulary and her willingness to improvise beyond your model — that's the real A2 reading.</p>
+        <p class="next">→ Beat 6 already half-running.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">Copy-cat contamination</span><span class="dclass">failure-state</span></div>
+        <p class="tell">The nine is right every time — a fifth of a second after her sister moves. The data is worthless and you nearly recorded it as a pass.</p>
+        <p><strong>Do:</strong> separate the channel without explaining. Back-to-back for "a harder level," or the non-answering girl becomes the judge who closes her eyes and rules on speed. Then re-run three commands, count only those.</p>
+        <p><strong>Never say:</strong> "don't copy your sister." That sentence converts a game into a test and a sister into an obstacle.</p>
+        <p class="next">→ Beat 6, with a clean A1 reading for both.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">The freeze in front of her sister</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">One of them stops. Face closes. She knows she doesn't know, and there's a witness who shares her surname.</p>
+        <p><strong>Do:</strong> flip roles that second — <em>"wait. YOU command ME."</em> She orders in Hebrew, you perform it wrong, she's laughing inside a minute. End her rung on something she owns and switch tracks.</p>
+        <p><strong>Read:</strong> shame is nearby, and with an audience it's cheaper to trigger than you'd think. Every future miss for this girl needs a soft floor already in place before the probe starts.</p>
+        <p class="next">→ Beat 8 (literacy is orthogonal — always run it) or Beat 6 via role-flip.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 6 ============ -->
+<section class="block" id="b6">
+  <div class="gutter"><span class="bnum">6</span><span>09:24–09:29</span></div>
+  <div class="body">
+    <h2>A2 — productive: two teachers, one student, and the student is you</h2>
+    <p class="rung">Track A · Rung 2 · clean pass: ≥6 unprompted, per girl</p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">עכשיו שתיכן המורות שלי. כל אחת מלמדת אותי מילים שהשנייה לא אמרה.</q> <span class="aside">Now you're both my teachers — each of you teaches me words the other one didn't say. The rivalry channel gets pointed at coverage instead of comparison. Then mispronounce something badly so they can correct you together.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>unprompted vs prompted</span><span>inventory beyond the hunt</span><span>who corrects whom — and how it lands</span><span>pronunciation fossils</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">The coverage race</span><span class="dclass">opening</span></div>
+        <p class="tell">They're mining each other's silences for words the other missed. School leftovers, lyrics, YouTube residue, brand names.</p>
+        <p><strong>Do:</strong> keep them going until both run dry, then act devastated that the lesson is over. Every word is S0 inventory — memorize, write nothing.</p>
+        <p class="next">→ Beat 7.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">One dries up first</span><span class="dclass">divergence</span></div>
+        <p class="tell">One is still producing; the other stopped three words ago and knows the count is visible.</p>
+        <p><strong>Do:</strong> change the axis before the silence hardens. <em>"Now teach me a Hebrew word I don't know."</em> Guaranteed win, no English required, and it's still teaching — then drift back. Or hand her the slang question: what do you say that adults don't understand?</p>
+        <p><strong>Read:</strong> the productive gap is real but the receptive one may not be. Check it against Beat 5 before concluding anything.</p>
+        <p class="next">→ Beat 7, both ending on production.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">It becomes a score</span><span class="dclass">failure-state</span></div>
+        <p class="tell">Someone starts counting. "I said more." The design forbade exactly this and it happened anyway.</p>
+        <p><strong>Do:</strong> merge the teams instantly. It's now the two of them against you: can they teach you fifteen words before you forget the first one? Pretend to forget constantly. One list, one number, one shared enemy — you.</p>
+        <p><strong>Rule you just proved:</strong> anything countable between siblings becomes a score. No future activity with these two produces two visible numbers.</p>
+        <p class="next">→ Beat 7, competition externalized.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">The correction reflex</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">One sister corrects the other's word — and you watch how the corrected one takes it.</p>
+        <p><strong>What you're seeing:</strong> the co-teaching feasibility test, run for free. Correction received as help = the co-teacher structure will carry months. Correction received as humiliation = it can't be used at all, and the case for separate sessions just got its strongest evidence.</p>
+        <p><strong>Do:</strong> whatever happens, model the alternative once — take a correction from each of them with visible delight.</p>
+        <p class="next">→ Beat 7.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 7 ============ -->
+<section class="block" id="b7">
+  <div class="gutter"><span class="bnum">7</span><span>09:29–09:34</span></div>
+  <div class="body">
+    <h2>A3 — chunks: two registers in one room</h2>
+    <p class="rung">Track A · Rung 3 · clean pass: ≥4 of 5 exchanges land</p>
+    <div class="say"><span class="who">You say</span><q>Hello! What's your name? … How are you? … I like pizza. What do you like?</q> <span class="aside">Plus one two-step instruction buried in play ("take the pencil and put it on the chair"). Nine gets a puppet that's adorably wrong. Twelve gets an interview, a WhatsApp roleplay, or her own characters' voices — never the puppet.</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Recombination live</span><span class="dclass">opening</span></div>
+        <p class="tell">"I like pizza and cat!" — a sentence nobody taught, built in front of you.</p>
+        <p><strong>Do:</strong> feed it. <em>"And football? And your sister?"</em> Watch how far the pattern stretches before it snaps; the snapping point is the actual reading.</p>
+        <p><strong>Read:</strong> grammar seeds present, A4 is live for that girl.</p>
+        <p class="next">→ Beat 8 quickly; the fork will say climb.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">Two skins, one game</span><span class="dclass">divergence</span></div>
+        <p class="tell">The puppet gets a delighted answer from one and a withering look from the other.</p>
+        <p><strong>Do:</strong> run both skins simultaneously and let them touch. The twelve interviews you as a journalist; the nine's puppet keeps interrupting the interview with stupid questions. Same probes, two registers, one scene — and the twelve gets to be the adult in the room, which is the currency she actually wants.</p>
+        <p><strong>Learn:</strong> disguise register per girl, locked in for every future session.</p>
+        <p class="next">→ Beat 8.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">The echo, doubled</span><span class="dclass">failure-state</span></div>
+        <p class="tell">"What's your name?" → "What's your name?" — perfect accent, zero comprehension. Then the second girl echoes the echo.</p>
+        <p><strong>Do:</strong> answer the "question" cheerfully ("I'm Idan!"), let the puppet model a real answer, then ask the <em>second</em> girl first next time — reverse the order so no one has a template to copy.</p>
+        <p><strong>Remember:</strong> a beautiful accent is a red herring. Echo is sound without meaning — the It-Takes-Two case, miniaturized to one sentence.</p>
+        <p class="next">→ Beat 8; A3 is the frontier and the map of it is the prize.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">The rule breaks under pressure</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">The microphone held all morning — and now, on the hardest rung, the twelve answers for her sister again.</p>
+        <p><strong>Do:</strong> nothing corrective. She's protecting her, and protecting her is the older-sister job description.</p>
+        <p><strong>Read — this is important:</strong> the rule holds while stakes are low and fails exactly where the data matters most. That is a structural argument, not a behavioural one, and it belongs in Monday night's debrief verbatim.</p>
+        <p class="next">→ Beat 8, with the decision rule already leaning.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 8 ============ -->
+<section class="block" id="b8">
+  <div class="gutter"><span class="bnum">8</span><span>09:34–09:39</span></div>
+  <div class="body">
+    <h2>Track B — two secret messages, two names, no sharing</h2>
+    <p class="rung">B1 letters ≥5 of 6 · B2 decode 2 of 3 CVC · B3 one sentence read with meaning · <b>always runs, whatever happened above</b></p>
+    <div class="say"><span class="who">You say (Hebrew)</span><q class="hebrew">יש שתי הודעות סודיות מוחבאות פה. אחת לכל אחת — ואסור לעזור אחת לשנייה.</q> <span class="aside">Two secret messages hidden here, one each, and no helping — the no-helping clause is what makes it a game and also what protects the data. Letter hunt on packaging first, then the code words, then each girl's planted strip with her own name in it.</span></div>
+    <h3>You're watching</h3>
+    <div class="chips"><span>letter names vs letter sounds</span><span>b/d mirror flips</span><span>right-to-left habits leaking in</span><span>reaction to the sentence's meaning — that reaction IS the pass</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Both crack their own</span><span class="dclass">opening</span></div>
+        <p class="tell">Blending, then reading, then protesting the content — <em>"I don't like ⟨X⟩!"</em></p>
+        <p><strong>Do:</strong> let the protest land; the objection is the proof that meaning arrived. Written English is now a live channel from session two for both.</p>
+        <p class="next">→ Beat 9.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">The inversion</span><span class="dclass">divergence</span></div>
+        <p class="tell">The nine decodes and the twelve can't. Track B has flipped the age order.</p>
+        <p><strong>Do:</strong> separate the stations <em>immediately</em> — this is the one moment in the morning where side-by-side is intolerable. Give the twelve a private, plausible job (decorating her strip, choosing the next game, being the timer) while the nine finishes hers, then run the twelve's letters alone.</p>
+        <p><strong>Read:</strong> oral and literacy are genuinely orthogonal, now proven inside one family. And the twelve just showed you where her shame lives — protect that address for months.</p>
+        <p class="next">→ Beat 9, parallel stations already running.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">School scar</span><span class="dclass">failure-state</span></div>
+        <p class="tell"><span class="hebrew">"קריאה זה משעמם"</span> — flat voice, dropped shoulders. This smells like school and school has history here.</p>
+        <p><strong>Do:</strong> stop mid-word. <em>"You're right. Boring. Hey —"</em> and pivot to anything oral, physical, absurd. Never re-enter reading through that door again.</p>
+        <p><strong>Read:</strong> scar tissue — a finding that shapes months. Literacy returns later, sideways, through her own territory: song lyrics, game menus, a chat with you.</p>
+        <p class="next">→ Beat 9, oral-only.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">The name effect</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">She reaches her own name in Latin letters and something changes in her face. Most kids have seen their name in English maybe twice.</p>
+        <p><strong>Do:</strong> give it away — she keeps the strip. It's the first English object she owns, and it will be on a wall or in a pocket by tonight.</p>
+        <p><strong>Bank:</strong> her name's letters are five letters she now owns. That's the entire B1 rung, arriving as a gift instead of a test.</p>
+        <p class="next">→ Beat 9.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 9 ============ -->
+<section class="block" id="b9">
+  <div class="gutter"><span class="bnum">9</span><span>09:39–09:44</span></div>
+  <div class="body">
+    <h2>The fork — convert, climb, or split</h2>
+    <p class="rung">Frontiers found → teach · frontiers unfound → A4 · frontiers far apart → parallel stations, and the decision is already made</p>
+    <p><b>Converting</b> means session one becomes a miniature of the skeleton's middle: 5–7 workhorse words drawn from <em>their own</em> hunts plus one wow-word each, TPR-style, then a movement game that mixes them. Born on their territory, these are the first tracker entries. <b>Climbing</b> means A4: a screenshot from a world they own, <em>"what's happening here?"</em>, and a real conversation you'd have anyway.</p>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Joint conversion</span><span class="dclass">opening</span></div>
+        <p class="tell">Both frontiers mapped, energy still high, and they want the new words.</p>
+        <p><strong>Do:</strong> one shared set of 5–7, drawn from both hunts so each girl sees her own world in the list. One wow-word each, private, hers. Cap it there even against protest — cognitive load beats enthusiasm, and hungry is how you want them at 09:45.</p>
+        <p class="next">→ Beat 10, cohort S1 born.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">Two rungs apart</span><span class="dclass">divergence</span></div>
+        <p class="tell">The frontiers are far enough apart that no shared activity fits both.</p>
+        <p><strong>Do:</strong> parallel stations now — one draws and decorates while the other converses; swap at three minutes. Nobody waits, nobody watches, both are busy.</p>
+        <p><strong>Decision:</strong> per the rule, this is the separate-sessions case. Frame it to mom as <em>"each gets my full attention"</em> — never as levels, never with a comparison inside it, and weigh the girls' own preference heavily if they voice one.</p>
+        <p class="next">→ Beat 10, and the recommendation is written tonight.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">The tank empties</span><span class="dclass">failure-state</span></div>
+        <p class="tell">09:36, two kids, no breakfast worth the name, forty minutes of concentration spent. Fidgeting, drifting, one lying on the floor.</p>
+        <p><strong>Do:</strong> movement-only version, or nothing at all. The ladder already earned its keep this morning; teaching can wait for a session that starts at an hour humans chose.</p>
+        <p><strong>Bank:</strong> their true attention budget at 09:00 — which quietly determines every future session's start time.</p>
+        <p class="next">→ Beat 10, early. Early is a feature.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">The KPI arrives before you do</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">One of them asks when you're coming back — at 09:41, mid-activity.</p>
+        <p><strong>Do:</strong> stop climbing. That was the whole objective and it's in hand; anything after it is risk with no upside. Answer with a hook: <em>"Thursday. I'm bringing the secret-message game and it's harder."</em></p>
+        <p class="next">→ Beat 10, immediately, on the high.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEAT 10 ============ -->
+<section class="block" id="b10">
+  <div class="gutter"><span class="bnum">10</span><span>09:44–09:45</span></div>
+  <div class="body">
+    <h2>End on a joint win</h2>
+    <p class="rung">Something neither could do alone — then two separate, specific, non-comparative goodbyes</p>
+    <div class="say"><span class="who">You say</span><q>Bye! See you!</q> <span class="aside">Then one precise praise each, Hebrew is fine: never "you were great," always "the way you got <em>jump</em> before I finished the word — that." And if their mother is within earshot, one positive sentence about each girl, out loud, in front of her.</span></div>
+    <h3>Directions</h3>
+    <div class="dirs">
+      <div class="dir o"><div class="dhead"><span class="glyph">◆</span><span class="dname">Both ask for the next one</span><span class="dclass">opening</span></div>
+        <p class="tell"><span class="hebrew">"מתי אתה בא שוב?"</span> — from both, or a "bye!" in English nobody prompted.</p>
+        <p><strong>Do:</strong> name a day and name the hook. Then leave; the ten-minute clock starts at the door.</p>
+        <p class="next">→ Session two is sold. Both ledgers open.</p></div>
+      <div class="dir d"><div class="dhead"><span class="glyph">◈</span><span class="dname">One wants more, one is done</span><span class="dclass">divergence</span></div>
+        <p class="tell">One is already asking about next time; the other has left the room.</p>
+        <p><strong>Read:</strong> the cleanest separate-sessions signal available, and it costs nothing to act on — different formats can be offered as preference rather than as levels, which is the only framing that protects both girls.</p>
+        <p><strong>Do:</strong> send the hook to the one who left, via her sister, in front of her mother. <em>"Tell her I'm bringing the thing she liked."</em></p>
+        <p class="next">→ Two different session-two designs tonight.</p></div>
+      <div class="dir f"><div class="dhead"><span class="glyph">▲</span><span class="dname">Relief</span><span class="dclass">failure-state</span></div>
+        <p class="tell">Visible relief that it's over. Gone before you stand up.</p>
+        <p><strong>Do:</strong> exit warm, zero guilt-tripping, a genuine thank-you to their mother. No repair attempts in the doorway — they read as pressure.</p>
+        <p><strong>Then:</strong> fill the sheet honestly and find the one moment that <em>did</em> work. There is always one, and session two gets rebuilt entirely around it.</p>
+        <p class="next">→ The sheet matters more on this branch, not less.</p></div>
+      <div class="dir u"><div class="dhead"><span class="glyph">●</span><span class="dname">"So who's better?"</span><span class="dclass">undercurrent</span></div>
+        <p class="tell">Their mother asks, warmly, in front of both girls. She's not being careless — she's asking the only question the school system taught her to ask.</p>
+        <p><strong>Say:</strong> different doors, and both of them walked through — then one specific win per girl, in the same breath, same length, same warmth. Then change the subject to something the girls choose.</p>
+        <p><strong>Note:</strong> that question will come back every month. The answer is the same every month, and the parent notes go out as two separate messages for exactly this reason.</p>
+        <p class="next">→ Out. Clock running.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERRUPTS ============ -->
+<section class="block" id="interrupts">
+  <div class="gutter"><span class="bnum">⚠</span><span>any beat</span></div>
+  <div class="body">
+    <h2>Global interrupts — they cut in anywhere and outrank everything</h2>
+    <div class="interrupt"><b>Siren.</b> Calm pause, shelter together, English optional. How you behave in that stairwell is the relationship being built; the lesson is not the thing at risk.</div>
+    <div class="interrupt"><b>Tears, from either.</b> Abandon the beat without ceremony or comment, return to a past win, switch tracks. Never end on the hard thing. With a sibling watching, do it faster.</div>
+    <div class="interrupt"><b>Their mother corrects, translates, or answers for them.</b> Don't assign her a job — she's at work in a house that employs her, and instructions from you carry weight you don't want them to carry. Invite instead: <span class="hebrew">"בא לך לשמוע כמה מילים באנגלית הן כבר יודעות? תספרי איתי."</span> — want to hear how many English words they already know? Count with me. She becomes an audience, the girls get pride instead of a judge, and you get a second inventory.</div>
+    <div class="interrupt"><b>One girl leaves the room.</b> Let her. Keep playing loudly with the one who stayed — nothing pulls a nine-year-old back like a game she's missing. Do not go after her, and do not comment when she returns.</div>
+    <div class="interrupt"><b>Phones come out.</b> Not a discipline problem — a door. <em>"Show me what you're watching."</em> That is Beat 4 arriving on its own terms, and it's better data than anything you planned.</div>
+    <div class="interrupt"><b>You blank on the plan.</b> Default move, always loaded: "teach me something." It's A2, it's rapport, it's free, and it buys five minutes while the shape comes back.</div>
+  </div>
+</section>
+
+<!-- ============ AFTER ============ -->
+<section class="block" id="after">
+  <div class="gutter"><span class="bnum">→</span><span>09:55<br>evening</span></div>
+  <div class="body">
+    <h2>After they've gone — two sheets, ten minutes, quotes first</h2>
+    <p>Everything you know right now lives in one head and is already evaporating. Rung results survive an hour; their exact words don't — and their exact words are where the surprises are.</p>
+    <pre class="sheet">GIRL: ______ (age __)          Date: 2026-07-27      Length: ____
+Track A — highest clean rung: ____   frontier + what broke: ______________
+Track B — highest clean rung: ____   frontier + what broke: ______________
+It-Takes-Two:  meaning / sounds-only / nothing / not run
+Words she OWNS (every one):
+Domain that lit her up:              Wow-word candidates:
+Surprises (either direction):
+Session-two chunk (5–7 + 1 wow):
+Verbatim quotes (WRITE THESE FIRST):
+
+--- 2-ON-1 SHEET (once, not per girl) -------------------------------
+Which DIRECTION did each beat take?  (◆ opening / ◈ divergence / ▲ failure / ● undercurrent)
+  B1 ___  B2 ___  B3 ___  B4 ___  B5 ___  B6 ___  B7 ___  B8 ___  B9 ___  B10 ___
+Microphone rule: held / broke where: ______________________________
+Spokesperson events (12 answering for 9):  count ___  where ___
+Correction between them — received as help or as injury?  ______
+Frontier distance:  Track A ___ rungs   Track B ___ rungs
+Girls' own preference about together vs separate (any signal):
+One thing no direction on this page predicted:</pre>
+    <div class="callout"><span class="ct">The decision, computed</span><b>≤1 rung apart on both tracks</b> → together is viable and probably better: they co-regulate fear and the co-teacher structure pays. <b>≥2 rungs apart on either track</b> → recommend separate, framed as full attention, never as levels. <b>Override:</b> the correction reflex (Beat 6 ●) and the girls' own stated preference outrank the arithmetic.</div>
+    <h3>Evening — three small acts</h3>
+    <ul class="tight">
+      <li><b>Two trackers</b>, one per girl, from the template in <code>tutoring-session-tracker.md</code>. Each inventory becomes her own cohort S0.</li>
+      <li><b>Two parent notes, two messages</b> — even to the same phone. Each leads with what that girl <em>has</em>: <span class="hebrew">"היום גיליתי ש⟨שם⟩ כבר יודעת 14 מילים באנגלית — אף אחד לא לימד אותה, היא גנבה אותן לבד 🙂"</span> No 🆕 section yet; nothing was formally taught today and that's exactly right for a baseline.</li>
+      <li><b>Update the sisters' note</b> with the real data — it currently contains a plan for a Thursday that never happened.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ CONSENT ============ -->
+<section class="block" id="consent">
+  <div class="gutter"><span class="bnum">◎</span><span>optional<br>09:45+</span></div>
+  <div class="body">
+    <h2>The side quest — the recording conversation, if the moment is unhurried</h2>
+    <p>The transcription pipeline is built, tested and waiting on exactly one thing: consent that was genuinely free to refuse. Monday is the first chance — but only if their mother has time to sit, and only after a session that went well enough that the ask isn't leaning on anything.</p>
+    <ul class="tight">
+      <li><b>Say what it's for:</b> you record so you can hear afterwards what you missed while teaching, and so the words each girl owns get written down accurately rather than from memory.</li>
+      <li><b>Say where it goes:</b> your computer at home, never online, never anywhere else, deleted once the words are extracted. No account, no cloud, no company.</li>
+      <li><b>Make "no" free — and prove it:</b> <em>"if it's not comfortable, say no and nothing changes. The lessons are the same either way."</em> Then stop talking. If the answer is anything other than a clear, easy yes, treat it as no and never raise it again.</li>
+      <li><b>Ask the girls too, separately.</b> They're 9 and 12; being recorded is theirs to refuse independent of their mother, and asking them is also the most respectful thing they'll experience all week.</li>
+    </ul>
+    <div class="callout hard"><span class="ct">The power dynamic, stated plainly</span>Their mother is employed by your mother, and you are teaching her children for free. Every one of those facts makes "no" more expensive for her to say. That is precisely why the offer must be made in a way that costs nothing to decline — and why a hesitant yes is not a yes. If in doubt: don't record. Hand-filled sheets carried session one; they can carry session two.</div>
+  </div>
+</section>
+
+<!-- ============ RETURN ============ -->
+<section class="block" id="return" style="border-bottom:none">
+  <div class="gutter"><span class="bnum">✓</span><span>Mon night /<br>Tue</span></div>
+  <div class="body">
+    <h2>Back to Claude — the debrief, and the predictions to falsify</h2>
+    <p>This is the moment the whole system was built for: the first collision between the design and two actual children. Bring the two sheets, the 2-on-1 sheet, and the quotes. Then check these five predictions — every one of them is written to be <em>wrong</em>, and a wrong one is worth more than a right one.</p>
+    <div class="tablewrap"><table>
+      <tr><th>#</th><th>Prediction</th><th>What it means if false</th></tr>
+      <tr><td class="f2">1</td><td>The twelve answers for the nine at least once in the first ten minutes, microphone notwithstanding.</td><td>The prop is stronger than expected — reuse it for the neighbour's three boys without modification.</td></tr>
+      <tr><td class="f2">2</td><td>The gap first becomes visible at A1, not during the hunt.</td><td>If it shows in A0, the difference is exposure and interest, not ability — a different teaching problem entirely.</td></tr>
+      <tr><td class="f2">3</td><td>The treasure hunt overruns its 12-minute cap.</td><td>If it doesn't, the domain intel was thin — the bag needs more of their world before session two.</td></tr>
+      <tr><td class="f2">4</td><td>Track B is closer between them than Track A.</td><td>If literacy is the wider gap, reading gets split into separate stations permanently.</td></tr>
+      <tr><td class="f2">5</td><td>The 09:00 start costs the first five minutes to fog.</td><td>If they're sharp at 09:00, morning slots are a resource — and E's boys can be scheduled the same way.</td></tr>
+    </table></div>
+    <div class="callout"><span class="ct">What we do with it</span>Recalibrate the pass bars if they mis-sorted either girl · retime the beats against what actually happened · fold the unpredicted direction into this file · compute the together-vs-separate call and write mom's message · seed two session-twos from the two "first chunk" lines · and carry every 2-on-1 lesson straight into the E and Z plans, where the same structure has to survive three brothers instead of two sisters.</div>
+  </div>
+</section>
+
+<footer>
+  UAB v1 · 2-on-1 variant · sources: tutoring-universal-baseline.md · tutoring-sisters-9-12.md · tutoring-session-skeleton.md · tutoring-session-tracker.md · risk playbook from tutoring-a-first-session.md · recording policy from tutoring-bakeoff/VERDICT.md · private working document
+</footer>
+</div>

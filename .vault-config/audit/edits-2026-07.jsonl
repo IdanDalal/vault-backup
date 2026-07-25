@@ -71,3 +71,11 @@
 {"ts":"2026-07-24T14:59:14Z","tool":"Write","path":"/home/jep/vault/projects/Cash/dashboard/build.py","decision":"allow","reason":"not-denied","session":"a19319d3-14d8-41ae-b80f-02758ef36852"}
 {"ts":"2026-07-24T14:59:51Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/cash-portfolio-project.md","decision":"allow","reason":"not-denied","session":"a19319d3-14d8-41ae-b80f-02758ef36852"}
 {"ts":"2026-07-24T14:59:58Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"a19319d3-14d8-41ae-b80f-02758ef36852"}
+{"ts":"2026-07-25T14:13:11Z","tool":"Write","path":"/home/jep/vault/projects/sisters-first-contact-sim.html","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:13:55Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-former-neighbor-3kids.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:14:05Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:14:09Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:14:13Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:14:19Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:14:34Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-25T14:14:40Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
