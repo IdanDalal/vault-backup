@@ -56,7 +56,24 @@ ABC stamps (names on the notebook covers at minute four — the whole B1 rung ar
 - **A1 is natively multiplayer.** Simon Says with name-addressed commands ("דנה — jump! מאיה — touch something red!") produces clean per-girl receptive data while feeling like one shared game.
 - **A2 role-reversal as a team:** "you two are the teachers now — each of you teach me words the other one didn't." The rivalry channel becomes coverage, not comparison.
 - **The gap is an asset — promote the older to co-teacher.** When (likely: *if*) the 12-year-old's rung outpaces her sister's, have her deliver English instructions to the 9-year-old. Her production is A2/A3 data; the younger gets receptive reps; the age gap converts from hazard to engine.
-- **Parallel stations when frontiers diverge hard:** one girl gets the drawing task (bag supplies; e.g. decorating the "secret message" strip) while the other gets the conversational rungs; then swap. A4 with a 12-year-old is just genuine conversation about her territory — quietest possible probe with a sibling in the room.
+- **Parallel stations arrive free via the notebooks** (see A3 below): two private written correspondences run side by side with no audience and nothing to compare. When frontiers diverge harder, one girl stamps/decorates while the other takes the conversational rungs, then swap. A4 with a 12-year-old is just genuine conversation about her territory — quietest possible probe with a sibling in the room.
+
+### A3 and Track B, redesigned 2026-07-26 (Idi: the previous versions were "too game-y and artificial")
+
+Both the puppet and the planted secret-message strips are cut. Two replacements, each doing the work of the thing it replaced plus part of the other's:
+
+**A3 — the notebook that only speaks English.** Page one of each notebook is pre-written before they arrive: `HELLO! WHAT IS YOUR NAME?` Hand it over — *"your notebook already wrote you something"* — she answers **out loud**, and Idi takes the notebook, writes the next line where she can watch, and hands it back. A correspondence rather than an interview: the *object* is asking, which is what the puppet was for, without a puppet and without a voice. Chain runs `HI K!` → `I AM FROM AUSTRALIA.` → `HOW ARE YOU?` → `I LIKE PIZZA. WHAT DO YOU LIKE?` → `LOOK UNDER THE TABLE.` — that last line carries **B3, comprehension proven by her feet** rather than by explanation, which is why the strips are no longer needed for it.
+- **Rule of the world:** the notebook doesn't read Hebrew. A Hebrew answer gets a look at the page, a wait, and a shrug — *"she didn't understand."* It understands English, **pointing, and drawing**, so a non-verbal channel always stays legal and nobody can get stuck.
+- **Structural payoff:** two notebooks = two private correspondences running at once. That's the parallel station the 2-on-1 format needs, arriving free, with no audience and nothing to compare.
+- **If the fiction is refused** (*"you're the one writing it"*) — agree instantly and drop it, keep the mechanism. It becomes passing notes, which suits a twelve-year-old better anyway. Never defend a fiction.
+- **If she writes back into it**, Track B has jumped a rung unasked — and a question left on the last page becomes between-session correspondence.
+
+**Track B — the room is already English.** Idi has planted 6+ items carrying English text beside where they'll sit: *Coffee, July, Business, Lasagna, Australia/Melbourne*, and more. Opening: <span dir="rtl">"יש פה יותר מעשר מילים באנגלית. ספרתי."</span> Everything found joins the **same one-column board tally** from the treasure hunt, so the number keeps climbing. This is the literacy twin of the A0 hunt — Beat 3 finds English inside their speech, this finds it inside their room — and unlike the strips it isn't a staged test, because the claim is true.
+- **Recognition ≠ reading.** These are mostly loanwords on familiar packaging; saying COFFEE off a coffee bag is memory, not decoding. To read B2 honestly, **strip the context**: write the word on the whiteboard in his own hand, no logo, then ask. If it dies there it was recognition. Never announce the check.
+- **Ladder:** find it (pointing — anyone wins) → read it off the board (decoding) → stamp it into the notebook (letters, and she keeps the trophy).
+- **The punchline, and it's true:** *"I hid six. You found eleven. The rest I didn't put there — they live here."* English isn't a subject that visits; it's already in the room they sit in every Monday.
+- **Caution:** anything sitting somewhere it obviously wouldn't normally sit reads as staged to a twelve-year-old. Move odd items to where they belong; the kitchen is a legitimate expansion if the hunt stalls.
+- **This is also the dissolve activity** — hunting the house for English and writing it down is unbounded, theirs, and self-running with Idi out of the room.
 
 ### Risks specific to 2-on-1 (on top of the inherited playbook)
 
