@@ -35,3 +35,7 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Human-in-the-Loop Overrides**, and full **Parental Transparency** regarding what is being taught.
 
+Amazing! Here are some clarifications and notes:
+1. The sisters finished school and summer camp last week, and are coming with their mom here tomorrow morning (Monday) because that's when she works here (09:00-~11:00). They've been here several times already in the last few months, they always sit in the living room and either sink into their phones (most of the time) or whisper\draw\play together. Once I even noticed them dancing while their phones were playing some social media video of a specific song & dance combo, and they were mimicking and repeating it.
+2. I used /btw to tell you their mom agreed to the recording, so I'm planning to ask for theirs and then record the entire lesson. You and I are on the exact same page here: I do not want to ever violate anyone's privacy, and I have no malicious intents. I only need your help communicating transparency, maintaining data hygiene, and extracting only the annonymized signal (valuable data) we want from the identified noise (raw recording).  
+3. I'll ask their mom for the official Latin spelling before starting the lesson.
