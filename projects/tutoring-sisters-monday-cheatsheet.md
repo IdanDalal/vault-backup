@@ -9,6 +9,7 @@ tags:
 
 # Monday 09:00 — cheat sheet
 
+**Monday 2026-08-03** (07-27 didn't happen — date misunderstanding; confirm with mom directly)
 K & D · 9 & 12 · **your living room** · mom works 09:00–11:00 · ~45 min **then dissolve**
 **Win = both want a session two.** Second prize = the together-vs-separate call.
 Full version: `vault-agent/projects/sisters-first-contact-sim.html` · plan: [[tutoring-sisters-9-12]]
@@ -37,7 +38,7 @@ Ask the girls at the table, before pressing anything. Then **stop talking**.
 - **Visible, on the table.** "Stop" is honoured instantly, no question asked.
 - **Off and in your hand when you leave the room.** Never left running — that's the line.
 - **Never shared with anyone, including mom.**
-- After: → `vault-agent/inbox/TUTORING/2026-07-27-sisters/` (**never `vault/`**) → 4090 box, both engines, VAD off → extract → names to initials → **delete raw same night**, write the date down.
+- After: → `vault-agent/inbox/TUTORING/2026-08-03-sisters/` (**never `vault/`**) → 4090 box, both engines, VAD off → extract → names to initials → **delete raw same night**, write the date down.
 
 ## Beats
 

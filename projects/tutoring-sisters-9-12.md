@@ -20,9 +20,9 @@ Two daughters of Mom's housekeeper, ages 9 and 12, who would massively benefit f
 
 ---
 
-## First session: ~~Thursday 2026-07-24~~ → **Monday 2026-07-27, 09:00** — both girls together (2-on-1)
+## First session: ~~Thursday 2026-07-24~~ → ~~Monday 2026-07-27~~ → **Monday 2026-08-03, 09:00** — both girls together (2-on-1)
 
-**Rescheduled 2026-07-24:** Idi was sick; the session moved to Monday morning. Two consequences worth carrying: a 09:00 summer start means the first minutes may be fog rather than shyness (don't read sleep as level), and the cancellation is a usable opening — an apology mimed in English is the morning's first TPR.
+**Rescheduled twice.** 2026-07-24: Idi was sick. 2026-07-27: the girls didn't come — a misunderstanding on Idi's side about which Monday. Consequences worth carrying: a 09:00 summer start means the first minutes may be fog rather than shyness (don't read sleep as level); the two cancellations are a usable opening — an apology mimed in English is the morning's first TPR; and **the planted English items in the living room have now sat there for over a week**, which is better than staged, not worse (they've had time to become furniture). Confirm the date with their mother directly this time, not through an assumption.
 
 **The open decision resolved itself by logistics** — their mom is bringing both. So session one runs 2-on-1, and it doubles as the data source for the real together-vs-separate call (see decision rule at the bottom). The instrument is still [[tutoring-universal-baseline]] — one ladder, two climbers, two scoring sheets.
 
@@ -87,7 +87,7 @@ Both the puppet and the planted secret-message strips are cut. Two replacements,
     - **Visible device on the table**, off the moment the session ends, off and *in his hand* when he leaves the room, off for anything that isn't the lesson. "Stop" is honoured instantly from either girl, no question asked.
     - **The file is never shared with anyone, including their mother** — she consented to a lesson being recorded, not to receiving audio of her daughters.
     - **The temptation, named:** the best data of the morning is what they say to each other after he leaves, and leaving the recorder running would capture it. That is the line between recording a lesson he's in and surveilling two children in his living room. No.
-    - **Chain:** raw audio → `vault-agent/inbox/TUTORING/2026-07-27-sisters/` (**never inside `vault/`** — git + offsite backups make it undeletable, which would break the promise made at the table) → transcribe on the 4090 box, both engines, VAD off → extract inventories/rungs/quotes → names become initials in anything entering `vault/` → **raw audio and full transcript deleted the same night**, deletion date written into this note. Monday is also the first validation of `lesson-transcribe.py` on a real 9-year-old.
+    - **Chain:** raw audio → `vault-agent/inbox/TUTORING/2026-08-03-sisters/` (**never inside `vault/`** — git + offsite backups make it undeletable, which would break the promise made at the table) → transcribe on the 4090 box, both engines, VAD off → extract inventories/rungs/quotes → names become initials in anything entering `vault/` → **raw audio and full transcript deleted the same night**, deletion date written into this note. Monday is also the first validation of `lesson-transcribe.py` on a real 9-year-old.
 
 ### Together-vs-separate — decision rule (apply to Monday's data)
 

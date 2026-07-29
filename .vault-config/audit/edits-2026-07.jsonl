@@ -92,3 +92,12 @@
 {"ts":"2026-07-26T15:58:54Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-26T15:59:02Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-07-27T06:02:17Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-07-27.md","decision":"allow","reason":"not-denied","session":"71d16d7b-f499-4c30-9881-beef5777130e"}
+{"ts":"2026-07-29T15:17:03Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/3f7c58ec-60c1-419a-96b0-b793895bbe79/scratchpad/vtt2txt.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:16Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:17Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:23Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-monday-cheatsheet.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:24Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-monday-cheatsheet.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:29Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:30Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:35Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-07-29T15:21:36Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}

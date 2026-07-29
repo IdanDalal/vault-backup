@@ -44,7 +44,14 @@ It's Wednesday. The sisters didn't show on Monday due to a misunderstanding on m
 		2. It only transmits English. There's no Hebrew TTS either. If you don't understand English, you can't benefit.
 		3. It's screenless. The students' attention is only distracted by the ears, not the eyes.
 		4. It's "finite"/"non-infinite". I'm not sure how to articulate this point - due to being screenless, it can't hold your attention after it stops talking the way YouTube videos have "Coming up" and "Recommend" and "Related", or any app with a feed has "bottomless"/"infinite" scrolling. There's a natural stopping point to the interaction, and it's only a few seconds after it started.
-		5. It has potential. My mind is bursting with possibilities of what we could do with it. It's a combination of emergence and curiosity
+		5. It has potential. My mind is bursting with possibilities of what we could do with it. It's a combinatorial explosion of emergence and curiosity. It could offer students things they never imagined before.
+	Disadvantages:
+			1. It's AI. I might be biased because I'm imagining what doing this without AI (you) would be like, and I'm projecting that feeling into people learning without AI and my imagination says that just like how I feel MASSIVELY empowered now that I have AI, the students will feel the same. Let's research and discuss this further.
+			2. Friction will be a feature, not a bug. It's a product I've been using for over two years and know well. It's a bumpy ride, but I personally found the benefits FAR outweigh the inconveniences. 
+			3. It will introduce a layer between the students and I. We already have this with the whiteboard, notebooks, stamps, etc. One more product to take attention away from me is the last thing the students need. We need to limit and leverage it, rather than setting it off like a bomb and seeing what happens.
+			4. It's on the cloud. We need to verify deal-breakers like privacy, security, and restrictions. This should probably be chronologically and priority-wise the first thing.
 
-watch this video https://www.youtube.com/watch?v=0HqUYpGQIfs (or read the transcript)
-https://www.youtube.com/watch?v=YRk7xGpD8dI
+That's all I got for now. You should start by watch these videos(or read the transcripts):
+1. Emergence - https://www.youtube.com/watch?v=0HqUYpGQIfs
+2. Curiosity - https://www.youtube.com/watch?v=YRk7xGpD8dI
+Then send agents to research if anyone else is doing what we're doing or warning against it or something. Then we'll continue talking.
