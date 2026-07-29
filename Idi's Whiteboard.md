@@ -35,3 +35,5 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Human-in-the-Loop Overrides**, and full **Parental Transparency** regarding what is being taught.
 
+It's Wednesday. The sisters didn't show on Monday due to a misunderstanding on my part. They'll be here the following Monday (August 3rd). I have some huge ideas to brainstorm with you:
+1. Emergent learning - watch this video https://www.youtube.com/watch?v=0HqUYpGQIfs (or read the transcript) and help me align our process more towards emergence rather than structure. 
