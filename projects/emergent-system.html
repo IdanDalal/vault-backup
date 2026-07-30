@@ -1,0 +1,730 @@
+<title>Blocks &amp; Rules — the emergent system</title>
+<style>
+  :root {
+    --ground: #F2F4F0;
+    --panel: #FBFCFA;
+    --panel-2: #EDF1EC;
+    --ink: #232B26;
+    --muted: #66716A;
+    --accent: #2F6B54;
+    --line: #D9DFD8;
+    --c1: #6B7280;
+    --c2: #2E6B7E;
+    --c3: #B04038;
+    --c4: #3F8E5F;
+    --gold: #A8862E;
+    --under: #6B4E8E;
+    --c1-bg: #6B728014;
+    --c2-bg: #2E6B7E14;
+    --c3-bg: #B0403814;
+    --c4-bg: #3F8E5F14;
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #151A17; --panel: #1C221E; --panel-2: #222A25; --ink: #E4E8E2;
+      --muted: #93A097; --accent: #7BC4A0; --line: #2B332D;
+      --c1: #9AA3A8; --c2: #6FB3C4; --c3: #CC6A61; --c4: #62B384;
+      --gold: #C9A94F; --under: #A98BC9;
+      --c1-bg: #9AA3A81A; --c2-bg: #6FB3C41A; --c3-bg: #CC6A611A; --c4-bg: #62B3841A;
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #F2F4F0; --panel: #FBFCFA; --panel-2: #EDF1EC; --ink: #232B26;
+    --muted: #66716A; --accent: #2F6B54; --line: #D9DFD8;
+    --c1: #6B7280; --c2: #2E6B7E; --c3: #B04038; --c4: #3F8E5F; --gold: #A8862E; --under: #6B4E8E;
+    --c1-bg: #6B728014; --c2-bg: #2E6B7E14; --c3-bg: #B0403814; --c4-bg: #3F8E5F14;
+  }
+  :root[data-theme="dark"] {
+    --ground: #151A17; --panel: #1C221E; --panel-2: #222A25; --ink: #E4E8E2;
+    --muted: #93A097; --accent: #7BC4A0; --line: #2B332D;
+    --c1: #9AA3A8; --c2: #6FB3C4; --c3: #CC6A61; --c4: #62B384; --gold: #C9A94F; --under: #A98BC9;
+    --c1-bg: #9AA3A81A; --c2-bg: #6FB3C41A; --c3-bg: #CC6A611A; --c4-bg: #62B3841A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground); color: var(--ink);
+    font-family: var(--sans); font-size: 15.5px; line-height: 1.55;
+    margin: 0; padding: 0 20px 80px;
+  }
+  .wrap { max-width: 1020px; margin: 0 auto; }
+  a { color: var(--accent); }
+
+  header.masthead { padding: 44px 0 10px; border-bottom: 3px double var(--line); }
+  .eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(30px, 4.5vw, 44px); line-height: 1.12; margin: 0 0 12px; text-wrap: balance; }
+  .standfirst { color: var(--muted); max-width: 66ch; margin: 0 0 18px; }
+  .params { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--mono); font-size: 12px; color: var(--muted); padding: 10px 0 18px; }
+  .params b { color: var(--ink); font-weight: 600; }
+
+  nav.beats { position: sticky; top: 0; z-index: 5; background: var(--ground); border-bottom: 1px solid var(--line); padding: 8px 0; margin-bottom: 8px; overflow-x: auto; white-space: nowrap; }
+  nav.beats a { font-family: var(--mono); font-size: 11.5px; text-decoration: none; color: var(--muted); padding: 5px 9px; border-radius: 3px; margin-right: 2px; }
+  nav.beats a:hover { color: var(--accent); background: var(--panel-2); }
+
+  section.block { display: grid; grid-template-columns: 96px 1fr; gap: 0 22px; padding: 34px 0 8px; border-bottom: 1px solid var(--line); }
+  .gutter { font-family: var(--mono); font-size: 12px; color: var(--muted); padding-top: 6px; }
+  .gutter .bnum { display: block; font-size: 22px; color: var(--accent); font-weight: 600; margin-bottom: 2px; }
+  .body h2 { font-family: var(--serif); font-size: 24px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+  .body h3 { font-size: 13px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 24px 0 10px; font-weight: 600; }
+  .body p { max-width: 68ch; }
+  @media (max-width: 760px) { section.block { grid-template-columns: 1fr; } .gutter { display: flex; gap: 14px; align-items: baseline; padding-bottom: 4px; } .classes, .cards { grid-template-columns: 1fr !important; } }
+
+  .say { border-left: 3px solid var(--accent); background: var(--panel); padding: 12px 16px; margin: 12px 0; max-width: 68ch; }
+  .say .who { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
+  .say q { font-family: var(--serif); font-style: italic; font-size: 16.5px; }
+  .say .aside { color: var(--muted); font-size: 13px; display: block; margin-top: 6px; }
+
+  .classes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 14px 0 20px; }
+  .cl { background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--line); padding: 13px 15px 11px; font-size: 14px; }
+  .cl.k1 { border-top-color: var(--c1); background: linear-gradient(var(--c1-bg), transparent 55%), var(--panel); }
+  .cl.k2 { border-top-color: var(--c2); background: linear-gradient(var(--c2-bg), transparent 55%), var(--panel); }
+  .cl.k3 { border-top-color: var(--c3); background: linear-gradient(var(--c3-bg), transparent 55%), var(--panel); }
+  .cl.k4 { border-top-color: var(--c4); background: linear-gradient(var(--c4-bg), transparent 55%), var(--panel); }
+  .cl .ch { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; flex-wrap: wrap; }
+  .cl .cn { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .cl.k1 .cn { color: var(--c1); } .cl.k2 .cn { color: var(--c2); }
+  .cl.k3 .cn { color: var(--c3); } .cl.k4 .cn { color: var(--c4); }
+  .cl .cname { font-family: var(--serif); font-size: 17.5px; font-weight: 600; }
+  .cl .tell { font-family: var(--serif); font-style: italic; font-size: 15.5px; margin: 0 0 8px; }
+  .cl p { margin: 0 0 7px; max-width: none; }
+  .cl .move { font-family: var(--mono); font-size: 12.5px; color: var(--accent); margin: 8px 0 0; padding-top: 7px; border-top: 1px dotted var(--line); }
+
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .tablewrap { overflow-x: auto; margin: 12px 0 8px; }
+  th { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); text-align: left; padding: 8px 12px 8px 0; border-bottom: 2px solid var(--line); }
+  td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.f2 { font-family: var(--mono); font-size: 12.5px; }
+  td.rn { font-family: var(--mono); font-size: 12px; color: var(--accent); white-space: nowrap; }
+
+  .callout { background: var(--panel-2); border: 1px solid var(--line); padding: 12px 16px; margin: 14px 0; max-width: 74ch; font-size: 14px; }
+  .callout .ct { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
+  .callout.warn { border-left: 3px solid var(--gold); } .callout.warn .ct { color: var(--gold); }
+  .callout.hard { border-left: 3px solid var(--c3); } .callout.hard .ct { color: var(--c3); }
+  .callout.good { border-left: 3px solid var(--c4); } .callout.good .ct { color: var(--c4); }
+  .callout p { max-width: none; }
+
+  .rules { margin: 12px 0 6px; }
+  .rule { display: grid; grid-template-columns: 52px 1fr; gap: 0 14px; padding: 11px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; }
+  .rule .rid { font-family: var(--mono); font-size: 12.5px; color: var(--accent); padding-top: 2px; }
+  .rule .rt { font-family: var(--serif); font-size: 17px; font-weight: 600; display: block; margin-bottom: 3px; }
+  .rule p { margin: 0; max-width: 70ch; }
+  .rule.hardrule .rid { color: var(--c3); }
+
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0 8px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); padding: 12px 14px; font-size: 14px; }
+  .card .cname2 { font-family: var(--serif); font-size: 16.5px; font-weight: 600; display: block; margin-bottom: 5px; }
+  .card p { margin: 0 0 6px; max-width: none; }
+  .card ul { margin: 6px 0 0; padding-left: 18px; } .card li { margin-bottom: 4px; }
+  .card.void { border-left-color: var(--under); }
+  .card.ff { border-left-color: var(--gold); }
+  .card.split { border-left-color: var(--c2); }
+
+  ul.tight { margin: 6px 0; padding-left: 20px; } ul.tight li { margin-bottom: 5px; max-width: 68ch; }
+  ol.tight { margin: 6px 0; padding-left: 20px; } ol.tight li { margin-bottom: 6px; max-width: 68ch; }
+  .hebrew { direction: rtl; unicode-bidi: isolate; font-style: normal; }
+  .en { font-family: var(--mono); letter-spacing: 0.04em; }
+
+  .five { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); padding: 16px 18px; margin: 18px 0 6px; }
+  .five ol { margin: 8px 0 0; padding-left: 20px; }
+  .five li { margin-bottom: 8px; max-width: 68ch; }
+  .five li b { font-family: var(--serif); font-size: 16.5px; }
+
+  .ladder { margin: 12px 0; }
+  .lr { display: grid; grid-template-columns: 44px 1fr; gap: 0 14px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; }
+  .lr .lid { font-family: var(--mono); font-size: 13px; color: var(--accent); font-weight: 600; }
+  .lr b { font-family: var(--serif); font-size: 16px; }
+  .lr p { margin: 3px 0 0; max-width: 70ch; }
+  .lr.top { background: var(--c4-bg); }
+
+  .pending { border: 1px dashed var(--gold); background: var(--panel); padding: 14px 16px; margin: 12px 0; font-size: 14px; color: var(--muted); }
+  .pending b { color: var(--gold); font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; display: block; margin-bottom: 5px; }
+  footer { padding-top: 28px; color: var(--muted); font-size: 12.5px; font-family: var(--mono); }
+</style>
+
+<div class="wrap">
+<header class="masthead">
+  <p class="eyebrow">Tutoring · system document · v1 · 2026-07-30</p>
+  <h1>Blocks &amp; Rules</h1>
+  <p class="standfirst">This is not a lesson plan and it contains no sequence. It is an inventory of building blocks, a short list of rules about what happens when blocks touch, and a four-state controller for reading the room while it runs. You invent the rules; the session invents the consequences. Everything here is decided <em>before</em> the students arrive, which is what buys you the right to decide nothing while they're there.</p>
+  <div class="params">
+    <span>REPLACES <b>nothing — sits above the sim</b></span>
+    <span>FIRST RUN <b>Mon 2026-08-03, 09:00</b></span>
+    <span>STUDENTS <b>K &amp; D, 9 &amp; 12</b></span>
+    <span>ALSO GOVERNS <b>E · Z · O</b></span>
+    <span>PREP <b>maximal</b></span>
+    <span>RUNTIME <b>minimal</b></span>
+  </div>
+</header>
+
+<nav class="beats" aria-label="Sections">
+  <a href="#thesis">★ Thesis</a><a href="#controller">1 Controller</a><a href="#blocks">2 Blocks</a><a href="#omni">3 Omni-tools</a><a href="#rules">4 Rules</a><a href="#traps">5 Traps</a><a href="#gap">6 Track C</a><a href="#unwrap">7 Unwrapping</a><a href="#strands">8 Strands &amp; 5 Rs</a><a href="#dosage">9 Dosage</a><a href="#control">10 Control problem</a><a href="#loop">11 The loop</a><a href="#fail">12 Failure modes</a><a href="#open">Open</a>
+</nav>
+
+<!-- ============ THESIS ============ -->
+<section class="block" id="thesis" style="padding-top:22px">
+  <div class="gutter"><span class="bnum">★</span><span>if you<br>read one<br>section</span></div>
+  <div class="body">
+    <h2>The thesis, in six lines</h2>
+    <div class="five">
+      <ol>
+        <li><b>Build the blocks, not the set.</b> You design what exists and what the rules are. You do not design what happens. Chess's inventors never had to invent its strategies — the rules generated them for free, and could not have been talked out of doing so.</li>
+        <li><b>Minimal at runtime, maximal at prep.</b> Emergence is not permission to arrive empty-handed. You give up control <em>during</em>, which is exactly why everything must be decided <em>before</em>. Your own words: move the work as early as possible so that when the time comes, all that's left is to see what happens.</li>
+        <li><b>Invisible scaffolding, not a visible syllabus.</b> The evidence is unambiguous that <em>unassisted</em> discovery loses to explicit teaching and <em>assisted</em> discovery beats it. The scaffold isn't the compromise — it's the thing that flips the sign. The students must never see it; you must never be without it.</li>
+        <li><b>The gap is the engine, and it needs a floor.</b> Curiosity, productive failure and desirable difficulty all fail below a threshold of prior knowledge. The loanword hunt manufactures that floor. It is not a warm-up; it is the precondition for everything after it.</li>
+        <li><b>Wrong guesses are the product, not the waste.</b> Guess-then-feedback beats study-then-test, in foreign vocabulary specifically. Confident errors correct better than tentative ones. The one hard constraint: <strong>no guess leaves the room unanswered.</strong></li>
+        <li><b>Let it misbehave, then nerf it.</b> Every rule you write to prevent a problem you haven't had yet costs you the emergence you were trying to protect. The microphone rule is the worked example. Legislate nothing in advance.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 1 CONTROLLER ============ -->
+<section class="block" id="controller">
+  <div class="gutter"><span class="bnum">1</span><span>mid-session<br>the only<br>thing you<br>consult</span></div>
+  <div class="body">
+    <h2>The controller — four states of a room</h2>
+    <p>Wolfram sorted every rule-set he could enumerate into four classes of behaviour. They transfer. At any moment your living room is in one of these four states, you can identify which in about two seconds, and each has exactly one move. This replaces the question <em>"am I on beat six?"</em>, which you should never ask again.</p>
+
+    <div class="classes">
+      <div class="cl k1">
+        <div class="ch"><span class="cn">Class 1</span><span class="cname">Flat</span></div>
+        <p class="tell">Homogeneous, unchanging, nothing surprising anyone.</p>
+        <p><b>Tell:</b> you are doing most of the talking. Answers are short, correct, and polite. Nobody has said anything you didn't expect. The room is <em>pleasant</em>.</p>
+        <p><b>Why it's dangerous:</b> it reads as a session going fine. It is the state a nervous tutor produces by working harder.</p>
+        <p class="move">MOVE → add a block. A new object, a new person, a new category of word. Do <em>not</em> add energy — your effort is what's flattening it.</p>
+      </div>
+
+      <div class="cl k2">
+        <div class="ch"><span class="cn">Class 2</span><span class="cname">Repetitive</span></div>
+        <p class="tell">Predictable oscillation. Call, response, call, response.</p>
+        <p><b>Tell:</b> they have worked out the shape of the game and are performing it correctly. You can predict the next thirty seconds. Data still arrives, but it's the same data arriving again.</p>
+        <p><b>Why it's dangerous:</b> it looks like mastery and feels like a well-run lesson. It's compliance.</p>
+        <p class="move">MOVE → change a rule. Reverse who asks. Change what counts as a find. Break your own pattern — get the pronunciation right for once.</p>
+      </div>
+
+      <div class="cl k3">
+        <div class="ch"><span class="cn">Class 3</span><span class="cname">Chaotic</span></div>
+        <p class="tell">Maximum noise, maximum unpredictability, zero structure.</p>
+        <p><b>Tell:</b> everyone talking, topics jumping, giggling, phones surfacing, nothing landing twice. Loud and warm and going nowhere.</p>
+        <p><b>Why it's dangerous:</b> this is the state that feels most like success while producing nothing. It is the same state as the phone in their hands — an agent rewarded only by curiosity, parked in front of static forever.</p>
+        <p class="move">MOVE → remove a block <em>and</em> add a constraint. Fewer objects on the table, one rule, one target. Subtract.</p>
+      </div>
+
+      <div class="cl k4">
+        <div class="ch"><span class="cn">Class 4</span><span class="cname">Organized</span></div>
+        <p class="tell">A mix of order and randomness. The only interesting one.</p>
+        <p><b>Tell:</b> they generate things you did not plan, and the things have structure you did not impose. You are surprised but not lost. They build on each other rather than on you.</p>
+        <p><b>Why it's fragile:</b> almost every instinct you have — to document it, to praise it, to steer it somewhere useful — collapses it back to class 2.</p>
+        <p class="move">MOVE → none. Stop talking. Do not narrate it, do not praise it into self-consciousness, do not write it down until later.</p>
+      </div>
+    </div>
+
+    <div class="callout"><span class="ct">How to use it</span><p>These are not a ladder and you will not stay in one. A good forty-five minutes passes through all four. The controller isn't there to keep you in class 4 — it's there so that when the room changes state you make the <em>opposite</em> move to the intuitive one. Flat rooms make you want to try harder; the fix is to add a block and shut up. Chaotic rooms make you want to add structure by talking; the fix is to take something off the table.</p></div>
+
+    <div class="callout good"><span class="ct">The phase transition — watch for the boil</span><p>Water is unremarkable from 1° to 99° and then does something else entirely. The equivalent here: <strong>the moment a student stops collecting words and starts combining them.</strong> Two known words joined into a thing she was never given. It cannot be scheduled and it cannot be forced — it can only be noticed and fed. If it happens, everything else on this page is subordinate to it for as long as it lasts.</p></div>
+
+    <div class="callout warn"><span class="ct">The two-bit problem</span><p>With two bits you have genuinely seen every possible string — the system is too small for anything to emerge. A session that has gone flat is usually not short of effort, it's short of <em>blocks</em>. The remedy in the source material is exact: add more blocks, or allow bigger combinations of the blocks you have. Both are on the table below.</p></div>
+  </div>
+</section>
+
+<!-- ============ 2 BLOCKS ============ -->
+<section class="block" id="blocks">
+  <div class="gutter"><span class="bnum">2</span><span>the<br>inventory</span></div>
+  <div class="body">
+    <h2>The blocks</h2>
+    <p>A block is anything that can be combined with another thing. The rules in §4 describe what happens when two of these touch. Nothing here has a scheduled moment.</p>
+
+    <h3>Physical</h3>
+    <div class="tablewrap"><table>
+      <tr><th>Block</th><th>Combines with</th><th>Notes</th></tr>
+      <tr><td class="f2">Sealed packages<br><em>(new)</em></td><td>hands, English on packaging, choice</td><td>Everything below is still wrapped. That is now an asset — see §7. The packaging is itself covered in English and is disposable, so it can be cut up, boarded, or stamped.</td></tr>
+      <tr><td class="f2">ABC stamps + ink</td><td>notebooks, board words, names, packaging</td><td>Letters as objects you can pick up and arrange. The whole B1 rung arrives as a craft. Also the only block that makes a <em>keepable</em> artifact.</td></tr>
+      <tr><td class="f2">Notebooks (≥2)</td><td>him, each girl, time between sessions</td><td>Two notebooks = two private channels running at once = the parallel station, free. The only block that survives to next week.</td></tr>
+      <tr><td class="f2">Whiteboard</td><td>every other block</td><td>The accumulator. One column, always. Everything found by anyone joins the same number.</td></tr>
+      <tr><td class="f2">SteelSeries disc</td><td>the hunt, a caller's role</td><td>Free words in it: <span class="en">disc, plastic, logo, cover, wireless</span>. Loot, or a token for whose turn it is. Never a muzzle.</td></tr>
+      <tr><td class="f2">The room itself</td><td>the hunt, Track B</td><td>Coffee · July · Business · Lasagna · Australia/Melbourne · +. Planted 2026-07-25 and now eight days settled — they read as furniture, which is strictly better than staged.</td></tr>
+      <tr><td class="f2">His phone</td><td>their phones, IT2 probe</td><td>Offline clips only. Silenced. Nothing on it that isn't the session.</td></tr>
+      <tr><td class="f2">Their phones</td><td>everything</td><td><strong>A block, not an interruption.</strong> The single richest source of English they own and the honest engagement meter. Never confiscated, never rule-bound.</td></tr>
+      <tr><td class="f2">Paper + drawing</td><td>any dead beat</td><td>The universal escape hatch and a confirmed pre-existing behaviour of theirs.</td></tr>
+      <tr><td class="f2">Food / drink</td><td>rank</td><td>Not a prop. In your house with their mother working in it, hospitality is the fastest available inversion of who is above whom.</td></tr>
+      <tr><td class="f2">The recorder</td><td>—</td><td>Visible, announced, assent taken at the table. Off and in your hand when you leave. Protocol unchanged in the sim file.</td></tr>
+    </table></div>
+
+    <h3>Linguistic</h3>
+    <ul class="tight">
+      <li><b>Words they already own.</b> The board's column. This inventory <em>grows during the session</em>, which makes it the only block that changes size while you're using it.</li>
+      <li><b>Words you own.</b> Constrained, deliberately: see §3 — which words you choose says who you are, and that is half the point of choosing them.</li>
+      <li><b>Letters.</b> Physically manipulable via the stamps. Distinct from words, and combinable into them.</li>
+      <li><b>Sounds English has and Hebrew doesn't.</b> A block they cannot yet pick up, which makes it the most interesting kind.</li>
+      <li><b>The traps.</b> §5. Prepared in advance, deployed opportunistically, never in sequence.</li>
+    </ul>
+
+    <h3>Human</h3>
+    <ul class="tight">
+      <li><b>You.</b> Also the single most disruptive block in the room; most of the rules in §4 are about limiting your own interference.</li>
+      <li><b>K, and Daniel.</b> Two blocks, and — critically — <b>the pair-bond itself is a third.</b> They arrive as a closed system that already works. Almost every instinct to separate them for cleaner data is wrong.</li>
+      <li><b>Their mother, passing through.</b> A block. Not an interruption to be weathered — an event to be used, once, briefly, by invitation and never by assignment.</li>
+    </ul>
+
+    <h3>Moves — the blocks you carry in your hands</h3>
+    <p>These combine with everything and cost nothing to hold.</p>
+    <div class="tablewrap"><table>
+      <tr><th>Move</th><th>What it does</th></tr>
+      <tr><td class="f2">Name + verb</td><td><span class="hebrew">«D — jump.»</span> The entire turn-taking system, invisible, no rule required.</td></tr>
+      <tr><td class="f2">Confident mispronunciation</td><td>Invites correction. Correcting a confident adult is a guess with stakes, which is why it sticks. Vary it — sometimes be right.</td></tr>
+      <tr><td class="f2">Ask something you don't know</td><td>The only questions that aren't tests. Their world, their phone, their words.</td></tr>
+      <tr><td class="f2">Reverse the role</td><td>"Now you're the teacher." Pushed output, and the effect is largest for the weaker student.</td></tr>
+      <tr><td class="f2">Write instead of speak</td><td>Removes the audience. A written wrong answer costs less than a spoken one in front of a sibling.</td></tr>
+      <tr><td class="f2">Point / draw</td><td>Always-legal answers. Guarantees no dead ends anywhere in the system.</td></tr>
+      <tr><td class="f2">Strip the context</td><td>Rewrite a found word on the board in your own hand, no logo. Separates reading from recognition. Never announced.</td></tr>
+      <tr><td class="f2">Bait a wrong guess</td><td>§5. The engine.</td></tr>
+      <tr><td class="f2">Stew</td><td>Hold the gap open. The move you currently never make.</td></tr>
+      <tr><td class="f2">Hand over</td><td>Give them something unfinished that runs without you.</td></tr>
+      <tr><td class="f2">Elicit</td><td><em>"How would you say that again?"</em> Produces roughly <b>43%</b> of learner self-repairs against a recast's negligible share. When you actually want a fix, this is the move. §8.</td></tr>
+      <tr><td class="f2">Photograph the board</td><td>One photo, thirty seconds, reopened next session. Recycle + long-gap review + retrieval practice + Reggio revisiting, all at once. §8.</td></tr>
+      <tr><td class="f2">Leave</td><td>Mid-momentum, hands still moving. The most underrated block on the list.</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ============ 3 OMNI-TOOLS ============ -->
+<section class="block" id="omni">
+  <div class="gutter"><span class="bnum">3</span><span>the<br>selection<br>test</span></div>
+  <div class="body">
+    <h2>Omni-tools — every block does several things at once</h2>
+    <p>The best scene in a film develops character, advances plot and drops lore in the same ninety seconds. The test for anything entering this system is the same: <strong>a block that does one thing doesn't earn its place on the table.</strong> This is the selection rule that keeps the system from bloating into class 3, and it's also how you decide what to cut when it does.</p>
+
+    <div class="callout"><span class="ct">Worked example — the loanword hunt</span>
+    <p>Not a warm-up with side benefits. Twelve jobs, running simultaneously:</p>
+    <ol class="tight">
+      <li>Teaches them they already know twenty-six English words.</li>
+      <li><b>Measures</b> how many they know — the A0 baseline, taken without a test existing.</li>
+      <li>Hands over the transferable strategy: <em>when you meet an English word you don't know, check whether it already lives in Hebrew.</em> The strategy keeps working after you leave; the twenty-six words don't.</li>
+      <li>Builds familiarity in both directions — <b>your</b> words say who you are rather than being frequency-ranked filler, and <b>their</b> words say who they are rather than being whatever's easy.</li>
+      <li><b>Manufactures the knowledge floor</b> that curiosity, productive failure and desirable difficulty all require. A true blank slate cannot feel a gap. Ten minutes of mining creates the jaw the missing tooth needs.</li>
+      <li>Produces the board's first column — the accumulating artifact every later beat joins, so nothing afterwards has to introduce itself.</li>
+      <li>Establishes the frame the entire method runs on: <b>English is found, not given.</b> Everything after inherits that.</li>
+      <li>Yields live pronunciation data that no transcript can give you — both engines auto-correct children's mispronunciations, so this has to be caught by ear, in the room, or not at all.</li>
+      <li>Creates a joint win with no comparison possible. One column, two contributors, one number.</li>
+      <li><b>Seeds next session's trap inventory.</b> The words they get slightly wrong — meaning drifted, register off, Hebrew-inflected — are exactly the baits for §5. The system generates its own future material.</li>
+      <li>It is <b>exportable</b> — they can run it without you, in any room, which makes it the natural carrier for Track C (§6).</li>
+      <li>It's genuinely open. You don't know what they'll find, which means it can produce class-4 behaviour rather than merely permitting it.</li>
+    </ol>
+    </div>
+
+    <p>Apply the same audit to anything you're tempted to add. If you can't name three jobs, it's a class-3 contribution — one more interesting thing competing for the same attention — and the seductive-details literature says it will cost you retention on everything around it.</p>
+  </div>
+</section>
+
+<!-- ============ 4 RULES ============ -->
+<section class="block" id="rules">
+  <div class="gutter"><span class="bnum">4</span><span>what<br>happens<br>when blocks<br>touch</span></div>
+  <div class="body">
+    <h2>The rules</h2>
+    <p>Two sets, and the split between them <em>is</em> the invisible-scaffolding thesis made concrete. Rules of the world are experienced by the students — they are the physics of the room and they are allowed to be strange. Rules of the operator are never visible to anyone but you.</p>
+
+    <h3>Rules of the world — they feel these</h3>
+    <div class="rules">
+      <div class="rule"><span class="rid">W1</span><div><span class="rt">Found English goes on the board. One column.</span><p>Anything anyone finds, from any source, in any beat. Never two columns, never two numbers — anything countable between siblings becomes a score whether you intend it or not.</p></div></div>
+      <div class="rule"><span class="rid">W2</span><div><span class="rt">Some objects only understand English.</span><p>The notebook is the first. The rule is discovered by behaviour rather than announced as a fiction — you write English into it, and a Hebrew answer simply gets a look at the page, a wait, and a shrug. It understands English, pointing and drawing, so a legal answer always exists. If anyone calls it, agree instantly and keep the mechanism.</p></div></div>
+      <div class="rule"><span class="rid">W3</span><div><span class="rt">Pointing and drawing always count.</span><p>Guarantees the system has no dead ends. Any question in this room can be answered by someone with no English at all.</p></div></div>
+      <div class="rule"><span class="rid">W4</span><div><span class="rt">Nobody is compared to anybody.</span><p>Not by you, not by the board, not by the artifacts. Praise is specific and individual: <em>"the way you got</em> jump <em>before I finished the word"</em> — never <em>"faster than your sister."</em></p></div></div>
+      <div class="rule"><span class="rid">W5</span><div><span class="rt">Wrong guesses are the interesting part.</span><p>Stated by demonstration, never by reassurance. You guess wrong out loud, often, and enjoy it visibly. A room where being wrong is safe is a room where a nine-year-old will speak.</p></div></div>
+    </div>
+
+    <h3>Rules of the operator — nobody sees these</h3>
+    <div class="rules">
+      <div class="rule"><span class="rid">O1</span><div><span class="rt">Name in front of the verb.</span><p>The whole turn-taking apparatus. No token, no rule, no policing.</p></div></div>
+      <div class="rule hardrule"><span class="rid">O2</span><div><span class="rt">Every guess gets its answer before you leave the room.</span><p><strong>The one hard constraint in this document.</strong> The pretesting effect collapses without feedback — large with immediate, smaller with delayed, and at zero with none, where it may simply entrench the error. Open <em>tasks</em> may go home with them. Open <em>questions</em> may not.</p></div></div>
+      <div class="rule"><span class="rid">O3</span><div><span class="rt">Copying → change the geometry, never issue a rule.</span><p>Back-to-back "for a harder level", or she closes her eyes and judges. Never <em>"don't copy your sister."</em></p></div></div>
+      <div class="rule"><span class="rid">O4</span><div><span class="rt">Back off a rung faster than one-on-one. Never end a track on a miss.</span><p>A miss in front of a sibling costs more than any data point is worth.</p></div></div>
+      <div class="rule"><span class="rid">O5</span><div><span class="rt">Nerf after. Legislate nothing before.</span><p>Every pre-emptive rule is an attempt to control emergence, and it is hard to control emergent behaviour without killing it. Wait for the misbehaviour, then adjust. §10.</p></div></div>
+      <div class="rule"><span class="rid">O6</span><div><span class="rt">Leave while it's still working.</span><p>Mid-momentum, not during a lull. The dissolve is not an exit strategy, it's the last design move of the session.</p></div></div>
+      <div class="rule"><span class="rid">O7</span><div><span class="rt">Guidance is a dial, set per student, per track.</span><p>Guidance helps novices and actively harms the more advanced — the same scaffold that reduces load for K adds load for E. §8. There is no single correct amount of structure for the practice; there is a correct amount for each person in front of you.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5 TRAPS ============ -->
+<section class="block" id="traps">
+  <div class="gutter"><span class="bnum">5</span><span>the<br>engine</span></div>
+  <div class="body">
+    <h2>Traps — advancing the frontier with their own correct thinking</h2>
+    <p>A trap is a question whose <em>correct generalization produces a wrong answer</em>. That is the entire mechanism, and it's also the safety property: the student's wrong answer is <strong>evidence that her pattern-matching is working properly</strong>. Nobody is stupid for saying <span class="en">ananas</span>. She is stupid for nothing — English is the one being weird.</p>
+
+    <div class="callout hard"><span class="ct">The line that keeps this safe</span><p>Bait things <b>nobody could be expected to know.</b> Never bait something you taught her. A trap on new ground is a game; the identical move applied to last week's vocabulary is a test with a costume on, and she will feel the difference immediately.</p></div>
+
+    <h3>The four kinds</h3>
+    <div class="cards">
+      <div class="card">
+        <span class="cname2">The Outlier</span>
+        <p>The pattern holds across every language she's heard of — and English is the exception.</p>
+        <p><span class="hebrew">אננס</span> <span class="en">ananas</span> in Hebrew, Russian, French, German, Arabic, Turkish… and <span class="en">PINEAPPLE</span> in English. You remember it precisely <em>because</em> it broke the pattern. That's the effect, reproduced deliberately.</p>
+        <p><b>Bait:</b> "Easy one. In all these languages it's the same word — what's the English?"</p>
+      </div>
+      <div class="card void">
+        <span class="cname2">The Void</span>
+        <p>One language has a thing the other simply does not have.</p>
+        <p><span class="hebrew">את</span> — the direct-object marker — has no English equivalent at all. It is, as you put it, redundant noise, and realising a language can contain obligatory noise is a genuinely large idea for a twelve-year-old. Runs both directions: English has <span class="en">a / an / the</span>, and Hebrew has no present-tense <em>to be</em>, so <span class="hebrew">אני מורה</span> is literally <span class="en">"I teacher."</span></p>
+        <p><b>Bait:</b> "How do you say <span class="hebrew">את</span> in English?" — and let them hunt for a word that isn't there.</p>
+      </div>
+      <div class="card ff">
+        <span class="cname2">The False Friend</span>
+        <p>She owns the word already, and what she owns is wrong.</p>
+        <p>The Heblish loanword whose meaning has narrowed, shifted or drifted. These are the most valuable traps you have, because the confident error is <em>already installed</em> — and confident errors, once corrected, stick better than tentative ones.</p>
+        <p><b>Source:</b> the hunt itself generates these. Every word they produce slightly off is a bait for the following session.</p>
+      </div>
+      <div class="card split">
+        <span class="cname2">The Split</span>
+        <p>One word on one side becomes several on the other.</p>
+        <p>A single Hebrew word fanning out into distinct English words, or the reverse. Forces the question <em>"which one, and how would I know?"</em> — which is the first genuinely grammatical question a beginner ever asks.</p>
+        <p><b>Bait:</b> give the Hebrew, ask for the English, accept the first answer, then produce a sentence where it's wrong.</p>
+      </div>
+    </div>
+
+    <h3>The stewing protocol</h3>
+    <p>This is the move you currently never make, and it's step two of the three the curiosity research names. Opening a gap you already do well. Refusing to close it, you don't do at all.</p>
+    <ol class="tight">
+      <li><b>Frame it as easy.</b> "Here's an easy one." The confidence is the point — it's what makes the error a confident one.</li>
+      <li><b>Take the wrong guess. Do not correct it.</b> Do not wince, do not hedge, do not say "close."</li>
+      <li><b>Ask why.</b> <span class="hebrew">«למה חשבת ככה?»</span> Attention on the reasoning is what converts the correction into retention — the fix alone doesn't do it.</li>
+      <li><b>Take more guesses.</b> Let the sister in. Let them argue. Two wrong answers are better than one.</li>
+      <li><b>Follow what they open.</b> A guess is a new block arriving unplanned. This is where the class-4 behaviour actually lives, and it's the reason stewing beats a quick reveal even when the reveal is fun.</li>
+      <li><b>Close it. Before you leave the room.</b> Rule O2. Not optional, not next week.</li>
+      <li><b>Board it.</b> It joins the same column as everything else.</li>
+    </ol>
+
+    <div class="callout warn"><span class="ct">Two calibrations</span><p><b>Stewing has a floor too.</b> Sinha &amp; Kapur's meta-analysis found productive failure weaker in primary-school children specifically, because they often lack the knowledge to fail productively rather than pointlessly. Stew longer with the twelve-year-old than with the nine-year-old, and stew about things adjacent to what's already on the board rather than about open ground.<br><br><b>Vary the bait or it dies.</b> Novelty effects fade reliably once the punchline is foreseeable. The mechanism runs on genuine prediction error, so the "easy question" has to sometimes actually be easy.</p></div>
+
+    <h3>Is this defensible? Four literatures say yes, and one adds a condition you already meet</h3>
+    <div class="callout good"><span class="ct">Convergent support</span>
+    <ul class="tight">
+      <li><b>Contrasting cases</b> — Schwartz &amp; Bransford, "A Time For Telling" (1998): learners who compare contrasting cases <em>before</em> being told the principle showed better transfer a week later than learners told first. Generating the distinction <b>prepares</b> the telling.</li>
+      <li><b>Productive failure</b> — struggling before instruction beats instruction-first for conceptual understanding and transfer, replicated across domains.</li>
+      <li><b>Expectancy violation</b> — Stahl &amp; Feigenson, <em>Science</em> 2015: children learn new information delivered right after a surprising, expectation-violating event, and not after an unsurprising one. Surprise opens a window. (Studied in much younger children; the extrapolation to 9–12 is reasonable, not tested.)</li>
+      <li><b>RULEX category learning</b> — and here's the condition: exception-learning improves when exceptions arrive <b>after</b> exposure to rule-followers, not cold. The cognitive literature does <em>not</em> endorse "teach the exception first."</li>
+    </ul>
+    <p><b>Your method already satisfies it.</b> You don't teach the exception cold — you make the child voice the rule herself ("cognates carry across languages, so it should be <em>ananas</em>"), and only then does the exception land. Rule activated, then violated. That sequencing is exactly what RULEX requires, and you arrived at it without knowing the literature existed.</p></div>
+
+    <div class="callout warn"><span class="ct">What this is NOT</span><p>This is not the Contrastive Analysis Hypothesis (Lado 1957), which claimed you could predict learner difficulty from a grammar diff and was dismantled — it overpredicts (not every difference is hard) and underpredicts (many real errors are intralingual overgeneralizations with no L1 source). What survives is the <b>weak, diagnostic</b> use: explain an error after it appears, and use contrast as a <em>noticing device</em>. That's what you're doing. Note that contrastive analysis fares best specifically in <b>phonology</b>, which is where you should lean on it hardest.</p>
+    <p>And running the whole thing in Hebrew is fine. Guy Cook's <em>Translation in Language Teaching</em> documents that the case against L1 use was asserted ideologically by the Direct Method tradition and never actually demonstrated; Cenoz &amp; Gorter's pedagogical translanguaging now endorses planned, purposeful use of the full repertoire. The condition is <b>planned and purposeful</b>, coexisting with real English-only stretches — not Hebrew by default.</p></div>
+
+    <div class="callout hard"><span class="ct">The one real risk: proportion, not mechanism</span><p>No evidence was found that highlighting a contrast <em>induces</em> the error it flags. The genuine risk is opportunity cost — the vivid memorable exception crowding out the mundane frequency-driven rule errors that Error Analysis says actually dominate real learner output. <b>A few anchors per session, never the whole method.</b> Don't mistake memorable for representative.</p></div>
+
+    <h3>The inventory</h3>
+    <p>Twenty-six baits, researched and flagged. Where a wrong guess is predicted, that's the point.</p>
+
+    <div class="tablewrap"><table>
+      <tr><th>#</th><th>Bait</th><th>Expected wrong guess</th><th>What it teaches</th></tr>
+      <tr><td class="rn">1 · outlier</td><td>"In French <span class="en">ananas</span>, Spanish <span class="en">ananás</span>, German <span class="en">Ananas</span>. What does English call it?"</td><td><span class="en">"Ananas!"</span></td><td>English alone repurposed an existing word — <span class="en">pineapple</span> originally meant <em>pine cone</em>. Every other language took Tupi <em>nanas</em>.</td></tr>
+      <tr><td class="rn">2 · outlier</td><td>"Spanish calls Saturday <span class="en">sábado</span>. German calls it <span class="en">Samstag</span>. Guess where those come from."</td><td>Doesn't connect it — then assumes English matches</td><td><b>Possibly better than the pineapple.</b> <span class="hebrew">שבת</span> is the root of <em>sábado, sabato, subbota, szombat, Sávvato</em> — and German <em>Samstag</em>. English named the day after a Roman god instead. Half of Europe uses a word she says every Friday night.</td></tr>
+      <tr><td class="rn">3 · outlier</td><td>"In English this bird is named after a country. In Hebrew it's named after a country too — which one?"</td><td><span class="en">"Turkey!"</span></td><td><span class="hebrew">הודו</span> = India. French <em>dinde</em> (<em>poule d'Inde</em>), Turkish <em>hindi</em>. Everyone blames somewhere else; nobody agrees. Columbus-era confusion, fossilized.</td></tr>
+      <tr><td class="rn">4 · false friend</td><td>"If I go to a wedding in a <span class="hebrew">סמוקינג</span>, what am I wearing?"</td><td>Something to do with cigarettes</td><td>Tuxedo. A pseudo-anglicism shared with French, Russian, Italian, German — Hebrew inherited the whole European mistake.</td></tr>
+      <tr><td class="rn">5 · false friend</td><td>"If a story is <span class="hebrew">אקטואלי</span> — is it (a) real, or (b) in the news right now?"</td><td>"Real / actual"</td><td>Current, topical. Same false-friend family as French <em>actuel</em>, German <em>aktuell</em>, Russian <em>aktual'nyy</em>.</td></tr>
+      <tr><td class="rn">6 · false friend</td><td>"Does <span class="hebrew">פנצ'ר</span> only mean a flat tyre, or can anything be one?"</td><td>"Only tyres"</td><td>Any mishap. Loanwords broaden once adopted. <em>(single-source)</em></td></tr>
+      <tr><td class="rn">7 · false friend</td><td>"If someone says you're <span class="hebrew">סימפטי</span> — do they feel sorry for you?"</td><td>"Yes, they pity me"</td><td>Nice, likeable. <em>(Inferred from the French/German/Spanish/Russian pattern — <b>check with a native speaker before using</b>.)</em></td></tr>
+      <tr><td class="rn">8 · void</td><td>"In <span class="hebrew">ראיתי את הכלב</span> — what does <span class="hebrew">את</span> mean in English?"</td><td>Tries to translate it: "the"? "it"?</td><td>Nothing. It doesn't exist. Some grammar words simply don't survive translation — <b>your example, and the largest idea in the list.</b></td></tr>
+      <tr><td class="rn">9 · void</td><td>"How do you say <span class="hebrew">אני מורה</span> properly in English?"</td><td><span class="en">"I teacher"</span></td><td>English never drops <em>to be</em>; Hebrew always drops it in the present.</td></tr>
+      <tr><td class="rn">10 · void</td><td>"Say <span class="en">'I have ___ dog'</span> in English."</td><td><span class="en">"I have dog"</span></td><td>Hebrew has no indefinite article at all.</td></tr>
+      <tr><td class="rn">11 · void</td><td>"Translate <span class="hebrew">הספר הטוב</span> word for word — how many <span class="en">the</span>'s?"</td><td><span class="en">"The book the good"</span></td><td>Hebrew doubles the article onto adjectives; English marks the noun only.</td></tr>
+      <tr><td class="rn">12 · void</td><td>"How do you say <span class="hebrew">לא רוצה</span> — <span class="en">'I no want'</span>, or something else?"</td><td><span class="en">"I no want"</span></td><td>Do-support. English needs a dummy auxiliary for negatives and questions; Hebrew just adds <span class="hebrew">לא</span>.</td></tr>
+      <tr><td class="rn">13 · void</td><td>"Does the English verb change if a girl does it instead of a boy?"</td><td>Assumes it must, somewhere</td><td>It doesn't. <b>A rare case where English is simpler</b> — worth spending, because it's a gift rather than a hurdle.</td></tr>
+      <tr><td class="rn">14 · void</td><td>"How do you say <span class="hebrew">כבר ראיתי את הסרט</span>?"</td><td><span class="en">"I see the movie already"</span></td><td>The present perfect. English has an entire tense for "past event, still relevant" that Hebrew's aspect system doesn't mark.</td></tr>
+      <tr><td class="rn">15 · void</td><td>"Right now, this second — how do you say <span class="hebrew">אני כותב</span>?"</td><td><span class="en">"I write"</span></td><td>English forces habitual vs. in-progress; one Hebrew participle covers both.</td></tr>
+      <tr><td class="rn">16 · void</td><td>"Can you just say <span class="en">'Raining'</span> in English, the way Hebrew drops the subject?"</td><td>"Sure"</td><td>Strict SVO, subject almost always obligatory.</td></tr>
+      <tr><td class="rn">17 · void</td><td>"Say <span class="hebrew">ספר המורה</span> word for word in English."</td><td><span class="en">"The book the teacher"</span></td><td>The construct state. English uses <span class="en">'s</span> or <span class="en">of</span>; Hebrew juxtaposes and reshapes the first noun.</td></tr>
+      <tr><td class="rn">18 · sound</td><td>"Say <span class="en">think</span>. What's the first sound?"</td><td><span class="en">"sink"</span> or <span class="en">"tink"</span></td><td>θ/ð don't exist in Hebrew's inventory. <b>Not sloppiness — a missing phoneme.</b> Say that out loud; it removes the shame entirely.</td></tr>
+      <tr><td class="rn">19 · sound</td><td>"Say <span class="en">wine</span> and <span class="en">vine</span>. Same word or different?"</td><td>Produces both identically</td><td>Hebrew's <span class="hebrew">ו</span> is only /v/. The /w/–/v/ contrast is close to inaudible to a Hebrew ear.</td></tr>
+      <tr><td class="rn">20 · sound</td><td>"Is a small boat a <span class="en">ship</span> or a <span class="en">sheep</span>?" — said with the same vowel</td><td>Can't hear a difference</td><td>Five Hebrew vowels, no tense/lax split. The funniest one on the list and the most useful.</td></tr>
+      <tr><td class="rn">21 · sound</td><td>"Say <span class="en">sing</span>. Hebrew doesn't have this sound at all — what happens?"</td><td>Adds a hard g: <span class="en">"sing-g"</span></td><td>/ŋ/ is absent from Hebrew. English itself is inconsistent about keeping the g (<em>finger</em> vs. <em>singer</em>), which is a bonus fact.</td></tr>
+      <tr><td class="rn">22 · spelling</td><td>"How do you think <span class="en">ghoti</span> is pronounced?"</td><td>Something with a hard g</td><td><span class="en">fish</span>. Roughly a quarter of English words are irregularly spelled, and they're concentrated in the ~400 most frequent — so a beginner meets the exceptions <b>immediately</b>, not later.</td></tr>
+      <tr><td class="rn">23 · spelling</td><td>"Why does <span class="en">knight</span> have a silent k?"</td><td>Assumes it's decorative or random</td><td>Fossils. English used to say them and never removed the letters.</td></tr>
+      <tr><td class="rn">24 · spelling</td><td>"Hebrew hides its vowels and trusts you to guess. English writes them — can you trust them?"</td><td>Assumes written = spoken</td><td>Two opposite philosophies of writing sound. Hebrew omits and trusts; English writes and lies.</td></tr>
+      <tr><td class="rn">25 · outlier</td><td>"Americans say <span class="en">eggplant</span>. Europe uses an Arabic word. What does Hebrew use?"</td><td>Guesses it matches one side</td><td><span class="hebrew">חציל</span> — a third tradition. <b>Weaker trap, kept deliberately:</b> it shows that sometimes nobody agrees, which stops the pattern itself from becoming too neat.</td></tr>
+      <tr><td class="rn">26 · dialect</td><td>"If someone in Israel offers you <span class="hebrew">צ'יפס</span>, what do you get?"</td><td>Bagged crisps, from American media</td><td>Chips = fries. Hebrew inherited the British sense; her YouTube will contradict it.</td></tr>
+    </table></div>
+
+    <div class="callout"><span class="ct">Two negative findings, reported</span><p><span class="hebrew">אקשן</span> and <span class="hebrew">טרנד</span> transferred cleanly and mean roughly what they mean in English. They are not traps — don't waste them. Likewise <b>butterfly</b> was checked and rejected: European languages don't converge with each other (<em>vlinder</em>, <em>Schmetterling</em>, <em>papillon</em>, <em>farfalla</em>) so there's no pattern for English to break, and Hebrew's <span class="hebrew">פרפר</span> is unrelated to all of them. Interesting trivia, invalid bait.</p></div>
+  </div>
+</section>
+
+<!-- ============ 6 TRACK C ============ -->
+<section class="block" id="gap">
+  <div class="gutter"><span class="bnum">6</span><span>the third<br>track</span></div>
+  <div class="body">
+    <h2>Track C — gappetite</h2>
+    <p>Tracks A and B measure English. This one doesn't measure English at all — it measures <strong>tolerance for, and appetite for, an unresolved gap.</strong> It is orthogonal to both, it moves faster than either, and it's the thing you actually said you want them to leave with: the state, recreated in their own time, after you've gone.</p>
+
+    <div class="ladder">
+      <div class="lr"><span class="lid">C0</span><div><b>Bail</b><p>Not-knowing is a threat. Exits immediately — to Hebrew, to a shrug, to the phone, or to <em>"I don't know"</em> used as a closing move rather than an opening one.</p></div></div>
+      <div class="lr"><span class="lid">C1</span><div><b>Guesses when asked</b><p>Will produce a guess if invited and if the room is safe. Tolerates being wrong when someone else takes responsibility for the risk.</p></div></div>
+      <div class="lr"><span class="lid">C2</span><div><b>Guesses unprompted</b><p>Volunteers a wrong answer nobody asked for. This is the first real rung — she has decided the guess is worth more than the safety.</p></div></div>
+      <div class="lr"><span class="lid">C3</span><div><b>Generates her own gap</b><p>Asks a question she didn't have to ask. Notices something is missing and says so. The gap now originates inside her rather than being handed to her.</p></div></div>
+      <div class="lr top"><span class="lid">C4</span><div><b>The export</b><p>Carries a gap across time without you. Returns to an unresolved thing later, unprompted. Opens gaps when you aren't in the room. <strong>This is the objective.</strong></p></div></div>
+    </div>
+
+    <h3>What you actually write on the sheet</h3>
+    <ul class="tight">
+      <li><b>Seconds tolerated</b> before bailing out of a not-knowing. A crude number, but it moves.</li>
+      <li><b>Unprompted guesses</b> — count.</li>
+      <li><b>Unrequired questions</b> — count. The highest-value number on the page.</li>
+      <li><b>Did she re-open anything</b> that had been left hanging?</li>
+      <li><b>Did she correct you?</b> Correcting an adult is a guess with stakes attached, so it reads roughly a rung above an ordinary guess.</li>
+    </ul>
+
+    <h3>How it's fed</h3>
+    <p>A gap becomes curiosity or anxiety depending on how it's <em>appraised</em> — the same missing information is a delicious puzzle or a threat depending on whether the room is safe. Which means Track C is fed almost entirely by things that aren't about English: rule W4 (no comparison), rule W5 (your own visible wrongness), and trap design in which being wrong is proof the brain is working. You cannot instruct someone into C2. You can only build a room where C2 costs nothing.</p>
+
+    <h3>How it's exported</h3>
+    <p>C4 is what the dissolve is <em>for</em>. The unfinished artifact, the question left on the notebook's last page, the hunt they can run in any room without you — those are the vehicles. Note the distinction rule O2 draws: an open <em>task</em> is the export; an open <em>question</em> is an unpaid debt.</p>
+
+    <div class="callout hard"><span class="ct">The trap in this track</span><p>Track C is closer to <em>felt</em> learning than A or B are — and felt learning and actual learning were <b>anti</b>-correlated in a randomized trial with identical content. A session where C soars while A and B stay flat is precisely the seductive failure this whole document is trying to avoid. Keep the three columns physically separate on the sheet and never let a good C reading stand in for the others.</p></div>
+  </div>
+</section>
+
+<!-- ============ 7 UNWRAPPING ============ -->
+<section class="block" id="unwrap">
+  <div class="gutter"><span class="bnum">7</span><span>minute<br>zero</span></div>
+  <div class="body">
+    <h2>The unwrapping</h2>
+    <p>The supplies are still sealed. That was an accident of the cancellation and it's worth more than the plan it replaces.</p>
+
+    <div class="say"><span class="who">opening</span><q class="hebrew">תעזרו לי לפתוח את הדברים האלה — ותבחרו מה שבא לכן.</q><span class="aside">Help me open these, and take whichever ones you like.</span></div>
+
+    <p>This does more jobs than the pre-written notebook it replaces:</p>
+    <ul class="tight">
+      <li><b>It's a real task with a real outcome</b>, not a lesson wearing a costume. Nothing is being assessed and both of them can tell.</li>
+      <li><b>It gives you something to do with your hands beside them</b> rather than in front of them. Joining the unit instead of convening a session — in your house, with their mother working in it, that distinction carries the whole first five minutes.</li>
+      <li><b>Packaging is covered in English.</b> The hunt arrives inside the unwrapping, unannounced, before anyone has been told there's a hunt. First column on the board before minute six, from a source neither of them can experience as a test.</li>
+      <li><b>Choosing is autonomy at minute one</b> — and it's free data. Which notebook, which colour, who chooses first, who defers.</li>
+      <li><b>The objects become theirs before any demand is made of them.</b> Ownership precedes obligation, in that order, deliberately.</li>
+      <li><b>It's genuinely unpredictable.</b> You do not know what they'll pick or what they'll do with the wrappers. That's the property you're optimizing for.</li>
+    </ul>
+
+    <div class="callout warn"><span class="ct">What you lose, honestly</span><p>The pre-written <span class="en">HELLO! WHAT IS YOUR NAME?</span> gave the notebook a character instantly, in one move, guaranteed. A notebook unwrapped in front of them cannot already contain writing — so rule W2 now has to be established <em>by demonstration</em>: you write English into it, in front of her, and simply don't respond to Hebrew written back. A rule discovered beats a rule announced, and it's much more aligned with everything else here. But it is slower, it is not guaranteed to land in session one, and if it doesn't land you've lost the A3 chunk work for the morning. Accept that trade knowingly, and don't rescue it by explaining the fiction out loud — an explained fiction is dead.</p></div>
+
+    <div class="callout"><span class="ct">Free move</span><p>The wrappers are disposable, which makes them the only English in the room you're allowed to <b>cut up</b>. Words can be torn out and stuck to the board, stamped over, or kept. Nothing else on the table has that property.</p></div>
+  </div>
+</section>
+
+<!-- ============ 8 STRANDS ============ -->
+<section class="block" id="strands">
+  <div class="gutter"><span class="bnum">8</span><span>the prep-side<br>skeleton</span></div>
+  <div class="body">
+    <h2>The four strands &amp; the five Rs</h2>
+    <p>Two frameworks at different altitudes. The 5 Rs is a moment-to-moment move set for handling language as it emerges. The Four Strands is a time-accounting audit run over weeks. They don't compete, and neither one sequences content — which is why both survive contact with this system.</p>
+
+    <h3>The five Rs — verbatim, and what each one is physically</h3>
+    <p>From <em>Teaching Unplugged</em> (Meddings &amp; Thornbury 2009), p. 60, as quoted by Thornbury himself.</p>
+    <div class="tablewrap"><table>
+      <tr><th>R</th><th>His words</th><th>What you physically do</th></tr>
+      <tr><td class="rn">Retrieve</td><td>"Retrieve what the learner has just said. Otherwise it will just remain as linguistic <em>noise</em>."</td><td>Write down the phrase she actually used — <b>not a corrected version</b> — on a pad or the board, in real time, without interrupting. This is your tally column, and the "not corrected" part matters: the raw utterance is the data.</td></tr>
+      <tr><td class="rn">Repeat</td><td>"Repeat it yourself; have other learners repeat it — even drill it! Drilling something has the effect of making it stand out."</td><td>Say it back. Get the sister to say it. Perceptual salience is the whole job — this is Schmidt's noticing, delivered by volume rather than by explanation.</td></tr>
+      <tr><td class="rn">Recast</td><td>"Reformulate the learners' interlanguage into a more target-like form. <b>This is not the same as correction.</b> It is simply a way of indicating 'I know what you're trying to say; this is how I would say it'."</td><td>Say the good version back, conversationally, with no metalinguistic comment. <em>"Ah — she <b>has been</b> studying for three years."</em> Never <em>"no, not 'is studying since'."</em></td></tr>
+      <tr><td class="rn">Report</td><td>"Ask learners to report what they said and heard in group work… knowing that they may have to report encourages learners to pay attention."</td><td>With two sisters: <em>"what did she just tell you?"</em> The accountability is the mechanism — they listen to each other harder because reporting is coming.</td></tr>
+      <tr><td class="rn">Recycle</td><td>"Encourage learners to use the emergent items in new contexts… asking for an example of their own, or learners creating a dialogue that embeds several of the new expressions."</td><td>Make them generate, not recognize. Later in the session, and in later sessions.</td></tr>
+    </table></div>
+    <div class="callout warn"><span class="ct">Two things not in the source</span><p><b>Report as a tense/person workout</b> — reporting speech does force backshift and pronoun changes in English, but Thornbury nowhere says this is the design intent. Treat it as a bonus you may choose to exploit, not a documented function.<br><br><b>Recycle has no interval.</b> Thornbury never specifies same-lesson, next-lesson or weeks-later. That's a hole in the framework, not a gap in the research — and §9's Cepeda numbers are the obvious thing to fill it with.</p></div>
+
+    <div class="callout hard"><span class="ct">The evidentiary tier, stated plainly</span><p><b>The 5 Rs is a practitioner heuristic, not a validated framework.</b> When challenged in the comments of his own blog to produce evidence, Thornbury cited the general focus-on-form and corrective-feedback literature — Ellis, Lightbown &amp; Spada, DeKeyser, Norris &amp; Ortega — none of which tests the 5 Rs as a package. Wikipedia's entry on Dogme states flatly that research evidence is limited. Named critics: Gill, Christensen, Maley, Nguyen &amp; Bui. Use the moves; don't cite the sequence.</p></div>
+
+    <div class="callout hard"><span class="ct">And the beginner threshold, for the third independent time</span><p>A 2021 study on Dogme's effect on speaking and willingness to communicate found it boosted speaking <b>only for advanced learners</b> — intermediate and upper-intermediate learners did <em>better</em> with conventional communicative teaching. Add that to Thornbury's own concession and the Alfieri meta-analysis, and the pattern is now unambiguous. The loanword hunt isn't a nice opening. It's the thing standing between this design and a documented failure mode.</p></div>
+
+    <h3>The recast problem — a real hit on R3</h3>
+    <p>Lyster &amp; Ranta 1997, four immersion classrooms, 18.3 hours of transcribed interaction. Recasts were <b>the most-used feedback type (~55%)</b> and among the least effective: of 375 recasts, 18% produced repair and <b>69% produced no uptake at all</b> — learners can't tell a corrective recast from ordinary conversational paraphrase.</p>
+    <div class="tablewrap"><table>
+      <tr><th>Feedback type</th><th>Share of learner self-repairs</th></tr>
+      <tr><td class="f2">Elicitation — <em>"how would you say that again?"</em></td><td>43%</td></tr>
+      <tr><td class="f2">Metalinguistic clue</td><td>26%</td></tr>
+      <tr><td class="f2">Clarification request</td><td>20%</td></tr>
+      <tr><td class="f2">Repetition</td><td>11%</td></tr>
+      <tr><td class="f2">Recast</td><td>negligible</td></tr>
+    </table></div>
+    <p><b>Consequence for this system:</b> recast is the right default because it costs nothing socially and never interrupts — keep it as the ambient move. But when you actually want her to notice and fix something, <b>elicit instead.</b> Ask her to say it again. That's a two-word change to your behaviour with the largest evidence gap behind it of anything in this section.</p>
+    <p>On timing: the field has no consensus for face-to-face oral feedback, and delays past 24 hours show no advantage either way. The one finding that applies to your students specifically is that <b>immediate feedback helps low-proficiency learners more</b> — which converges with rule O2 and argues against any delayed-correction dogma.</p>
+
+    <h3>The four strands — Nation's actual conditions</h3>
+    <p>From the primary text (Nation 2007, <em>Innovation in Language Learning and Teaching</em> 1(1)). The conditions are strict and they're the useful part; the labels alone are worthless.</p>
+    <div class="tablewrap"><table>
+      <tr><th>Strand</th><th>The binding condition</th><th>Here</th></tr>
+      <tr><td class="f2"><b>Meaning-focused input</b><br>listening, reading</td><td><b>95–98% of running words already known</b> — "only 5 or preferably only 1 or 2 words per hundred should be unknown." Plus: interested in it, able to infer the rest, large quantity.</td><td>Your Hebrew narration doesn't count. This is the strand hardest to serve with two near-zero beginners, and the honest answer is that it barely runs until the column is much longer.</td></tr>
+      <tr><td class="f2"><b>Meaning-focused output</b><br>speaking, writing</td><td>Same five conditions mirrored. Grounded in Swain — noticing, hypothesis-testing, metalinguistic reflection.</td><td>Role reversal, the notebook correspondence, the hunt. This strand is already over-served, which is fine.</td></tr>
+      <tr><td class="f2"><b>Language-focused learning</b><br>deliberate study</td><td>Deliberate attention; deep processing; <b>spaced repeated attention</b>; features must be simple and not developmentally out of reach; and they must <b>also appear in the other three strands</b>. Explicit cap: <b>no more than a quarter of total time.</b></td><td>The stamps, the strip-the-context probe, the traps. Note the last condition — a trap about a word that never appears anywhere else is off-strand.</td></tr>
+      <tr><td class="f2"><b>Fluency development</b></td><td><b>Zero unfamiliar language.</b> Not "little" — none. Plus pressure to go faster. Nation's own test: "If the activity involves unknown vocabulary, it is not a fluency activity. If the focus is on language features, it is not a fluency activity. If there is no push to go faster, it is not a fluency activity."</td><td><b>You have no fluency strand at all.</b> See below.</td></tr>
+    </table></div>
+
+    <div class="callout hard"><span class="ct">The missing quarter</span><p>Nation, verbatim: <em>"In most language courses not enough attention is given to fluency development, possibly because it does not involve the learning of new language items and thus is not seen as moving the learners forward."</em> An emergent design is <b>structurally worse</b> at this than a textbook course, because every instinct in it pushes toward the edge of what the student can do — and fluency work requires deliberately staying well inside it, with nothing new allowed. Nothing in this document currently produces a single minute of strand four.</p>
+    <p><b>The fix is small and it's already in your hands.</b> Nation's <b>4/3/2</b>: the same short talk delivered three times to three listeners, in four minutes, then three, then two. The shrinking clock forces automatization — and it raised grammatical accuracy and complexity, not just speed. A child-scale version: she tells you the same thing twice, then once more faster, with <em>nothing new permitted</em>. Two sisters is the ideal configuration for this, because the second listener is free.</p>
+    <p>And on beginners specifically, Nation is explicit that fluency work belongs <b>from day one</b>, not after some proficiency threshold — via Crabbe &amp; Nation's "survival vocabulary," a small set of high-frequency phrases drilled to genuine fluency immediately. Palmer, 1925: <em>"Memorize perfectly the largest number of common and useful word groups."</em></p></div>
+
+    <h3>Does Nation permit a no-syllabus design? He says so himself.</h3>
+    <p>Closing paragraph of the primary text: <em>"Within the constraints of the four strands… it is possible to make innovative changes such as… <b>having a negotiated syllabus</b>… By following the guidelines described here, it is possible to ensure that innovation does not result in misbalanced courses."</em></p>
+    <p>The Four Strands is an <b>audit</b>, not a syllabus. You classify what happened after the fact and check the running balance. Nation also says the audit window can be <b>two weeks or a month</b> — so you never need to hit quarters inside forty-five minutes, which is what would have made it incompatible.</p>
+    <div class="callout warn"><span class="ct">Three honest frictions</span><p><b>1.</b> The 95–98% threshold was built for <em>chosen texts</em>. You cannot audit live unscripted talk with a nine-year-old for word-frequency coverage. That condition is unusable here as written, and pretending otherwise would be theatre.<br><br><b>2.</b> The 25%-each split is, in Nation's own word, <b>"an arbitrary decision."</b> Treat it as a check against neglect, not a target.<br><br><b>3.</b> Nation explicitly rejects varying the strand balance by proficiency — <em>"I am not in favour of this."</em> That doesn't conflict with rule O7, which is about how much <em>scaffolding</em> to remove, not which strand to run. But don't cite Nation in support of O7; he'd decline.</p></div>
+
+    <h3>Reggio documentation — the move you're missing</h3>
+    <p>Reggio-inspired pedagogical documentation is photographs and transcribed child talk, arranged into panels, posted — and then, critically, <b>revisited with the children after an incubation period of about a week</b>, so they re-examine their own thinking. The record isn't a memory aid; it's the mechanism that decides what happens next.</p>
+    <div class="callout good"><span class="ct">Photograph the board</span><p>Then bring it back next session. That single move does four jobs at once: it's Recycle, it's the long-gap review §9 says is load-bearing for year-scale retention, it's retrieval practice with a peer-reviewed child-specific evidence base, and it's Reggio's revisiting — the girls looking at their own column from a week ago and finding they can still read it. It costs one photo and thirty seconds.</p></div>
+    <p>Cautions from the same literature, which apply directly: early documentation is typically cluttered and over-decorated; it easily degrades into raw data legible only to its maker; and it's a practised skill rather than a format you adopt intact. The evidence tier is qualitative and interpretive — real practitioner literature, not RCTs.</p>
+
+    <h3>What this changes, concretely</h3>
+    <ol class="tight">
+      <li><b>Add a fluency pocket.</b> Five minutes, nothing new allowed, a push to go faster. It is the one strand at zero and the one Nation says everybody skips.</li>
+      <li><b>Elicit instead of recasting</b> when you actually want a repair. Recast stays as the ambient default.</li>
+      <li><b>Photograph the board</b> and reopen it next session.</li>
+      <li><b>Audit the strands monthly, never per session.</b> Four tallies at the bottom of the debrief sheet.</li>
+      <li><b>Retrieve the raw utterance</b>, uncorrected, when you board it. The corrected version destroys the data.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 9 DOSAGE ============ -->
+<section class="block" id="dosage">
+  <div class="gutter"><span class="bnum">9</span><span>the thing<br>outside<br>your control</span></div>
+  <div class="body">
+    <h2>Dosage</h2>
+    <p>You assumed this was outside your control and therefore not worth thinking about. It is the highest-leverage variable in the entire practice, and it is partly negotiable. Here is what the evidence does and doesn't say.</p>
+
+    <h3>The benchmark you will not hit</h3>
+    <p>Nickow, Oreopoulos &amp; Quan's meta-analysis (96 RCTs, published in <em>AERJ</em> 2024) puts tutoring at roughly <b>0.288 SD</b> pooled — a large effect by education standards. The EEF's one-to-one tuition entry: <b>+5 months' additional progress</b>, high evidence security. But "high-dosage" as the field defines it means <b>3+ sessions a week, 30–60 minutes, 10+ weeks, 60+ total hours</b>, and the moderators are unkind: effects are larger for trained tutors than volunteers, larger in school than after, larger 1:1 than group, larger in early grades. Treat 3×/week as the ceiling that shows you what good looks like, not a floor to fight for.</p>
+    <div class="callout warn"><span class="ct">Honesty about that number</span><p>The "below 3×/week effects weaken" line is repeated across practitioner briefs, but the researching agent could not trace it to an actual dose-response regression rather than brief-writers citing each other. Treat the threshold as a convention, not a measurement. Separately, three different pooled effect sizes for the same meta-analysis appeared across sources (0.37 / 0.29 / 0.288) — the existence and rough size of the effect is solid; the decimal isn't.</p></div>
+
+    <h3>Two literatures that appear to disagree, and don't</h3>
+    <div class="tablewrap"><table>
+      <tr><th>Finding</th><th>What it measures</th></tr>
+      <tr><td class="f2"><b>Concentration wins.</b> Serrano &amp; Muñoz 2007 — identical 110 total hours delivered over 7 months / 3–4 months / 5 weeks. The intensive group gained significantly more. Serrano's 2011 review reports the pattern holding across roughly a dozen comparable studies. The Quebec intensive-ESL programme beats drip-fed "core ESL" on listening, reading, oral fluency and attitude.</td><td>End-of-programme <b>proficiency</b>, tested right after instruction stops.</td></tr>
+      <tr><td class="f2"><b>Spacing wins.</b> Bloom &amp; Shuell 1981 — French vocabulary, massed vs. distributed. Immediate test: <em>identical</em>. Four days later: the distributed group recalled <b>~35% more</b>. The spacing effect generally is one of the most replicated findings in cognitive psychology.</td><td><b>Retention</b> of discrete items after a delay.</td></tr>
+    </table></div>
+    <p>They measure different outcomes, so they don't collide. Concentration builds momentum and fluency inside a fixed programme; spacing is what makes a specific word still be there next month. <strong>Your goal is the second one</strong> — you are not compressing a syllabus, you are trying to make vocabulary survive gaps — so the spacing logic governs.</p>
+
+    <h3>The interval, and the thing it tells you to change</h3>
+    <p>Cepeda, Vul, Rohrer, Wixted &amp; Pashler 2008 (N &gt; 1,350, retention tested out to a year): <b>optimal gap ≈ 10–20% of the retention interval you want</b>, and the ratio tightens as the target lengthens.</p>
+    <div class="tablewrap"><table>
+      <tr><th>Want it to survive</th><th>Optimal gap between exposures</th></tr>
+      <tr><td class="f2">One month</td><td>~3–6 days</td></tr>
+      <tr><td class="f2">One year</td><td>~18–37 days (3–5 weeks)</td></tr>
+    </table></div>
+    <div class="callout good"><span class="ct">The actionable consequence</span><p>A 7-day gap is close to optimal for a <b>5–10 week</b> retention target. So weekly sessions are well matched to "remember this for a month or two" — and <b>structurally under-spaced for "remember this next year."</b> The fix isn't more frequency; it's <b>layering a long-gap review</b>: every session should touch something from roughly a month ago, not only last week's cohort. Your existing spacing ladder and limbo list are the right machinery; this says the 3–5 week rung is the one that's load-bearing for durable retention and the one most likely to get skipped in favour of fresh material.</p></div>
+
+    <h3>Session length — leave it alone</h3>
+    <p>No RCT compares 45×1/week against 15×3/week for child L2 home tutoring. Forty-five minutes sits inside the plausible band for ages 9–12 in every source found; the sources arguing for shorter-and-more-frequent are ESL-company marketing blogs, not research. The one real datum on the other side is Ignite Reading — 15-minute daily sessions, Johns Hopkins-evaluated across 13 districts, outperforming comparators at equal or lower total minutes — but that's L1 reading instruction in schools, vendor-published, and doesn't transfer cleanly.</p>
+    <p><b>The evidence neither indicts nor vindicates 45 minutes, which means it gives you nothing to override the parent-optics concern with.</b> Keep the format. Spend the negotiating capital on frequency, which is the better-evidenced lever.</p>
+
+    <h3>The floor, and an arithmetic you should look at directly</h3>
+    <p>Nobody has published what 1×45min/week produces for a beginner child over six months — the tutoring literature is built almost entirely around ≥3×/week programmes. The closest real-world analogue is Canadian core ESL at about an hour a week for years, which is the documented <em>weak baseline</em> that intensive programmes are shown to beat: students plateau at low proficiency after many years. Not zero. Not a target either.</p>
+    <div class="callout hard"><span class="ct">The number worth sitting with</span><p>CEFR guided-learning-hour estimates put <b>A1 → A2 at roughly 100–200 hours.</b> At 45 minutes a week with no session ever missed, that is <b>2.5–5 years per sub-level.</b> Biweekly roughly doubles it. This is an extrapolation from a benchmark rather than a finding about your setup, and it does not account for their school English — but it is the right order of magnitude, and it should change what you promise a parent, what you promise yourself, and how much any single session's design can possibly matter relative to how often you show up.</p></div>
+
+    <h3>Irregularity</h3>
+    <ul class="tight">
+      <li><b>No study isolates irregularity</b> from the lost hours it causes. The honest position is that its main measured cost is simply the sessions that don't happen.</li>
+      <li>Spacing theory predicts an <em>additional</em> cost that hasn't been measured: clustered sessions land on still-strong memory and add little, while the long gaps let items decay to the point of needing full re-teaching. Same total hours, less return. Reasoned inference, not a finding.</li>
+      <li><b>One thing is in your favour and is supported:</b> consistency of <em>tutor identity</em> — the same person every time — independently helps. You are one volunteer across the whole relationship. That's a distinct variable from schedule regularity; don't conflate them, and don't let it excuse the schedule.</li>
+    </ul>
+
+    <h3>The between-session channel is the real multiplier</h3>
+    <div class="callout good"><span class="ct">You reinvented this one too</span><p><b>Dialogue journals</b> — Staton 1987, Peyton &amp; Reed 1990 — are a decades-old, established TESOL practice: a private, ongoing written correspondence between tutor and student, explicitly designed as low-stakes between-contact practice. That is the notebook, exactly, including the part where it runs on its own between sessions. It is not a charming device you invented; it's a named pedagogy with a literature, and that literature says it belongs at the centre of the design rather than at the edge.</p></div>
+    <ul class="tight">
+      <li><b>Retrieval practice in children's word learning is peer-reviewed and child-specific</b>: the number of sessions in which a child retrieves a word positively predicts post-training retention. Brief, low-cost retrieval opportunities are genuinely additive.</li>
+      <li><b>Parental involvement</b> (2025 systematic review): quality matters more than presence, and it's constrained by the parents' own English. Hebrew-speaking parents can't teach English vocabulary — but a parent note that says <em>what to ask</em> («תבקשי ממנה לספר לך את המילה החדשה») requires no English at all. Your parent note is already the correct instrument; this says to make the ask concrete rather than informational.</li>
+      <li>Nobody has tested small-daily against large-weekly at constant total for child L2 homework. Combining Cepeda with the retrieval literature predicts small-daily wins, because a beginner's new vocabulary decays over days.</li>
+    </ul>
+
+    <h3>The ask</h3>
+    <ol class="tight">
+      <li><b>Weekly is the floor to ask for</b>, not biweekly. A 7-day gap sits near the optimum for the retention horizon a beginner actually has; 14 days pushes past it, so more of each session gets spent re-teaching what decayed.</li>
+      <li><b>Don't negotiate session length.</b> No evidence supports lengthening, and none supports overriding the optics concern by shortening.</li>
+      <li><b>Ask for a committed cadence, not a committed calendar slot.</b> What matters is the regularity of the <em>gap</em>, not which day it lands on.</li>
+      <li><b>Make the notebook part of the ask, explicitly.</b> "Two or three sentences in the notebook between sessions." It costs the family no scheduling, and it's the piece with the cleanest evidence behind it.</li>
+      <li><b>When a family can only offer less</b> — decouple contact-with-a-person from contact-with-the-material. Run the notebook and parent note on a fixed weekly rhythm <em>regardless of whether a live session happened that week</em>. That's the one lever that doesn't require their calendar.</li>
+      <li><b>What to refuse:</b> "whenever we're free" with nothing else running. Not the irregular sessions — the irregular sessions plus no independent rhythm.</li>
+      <li><b>Don't oversell.</b> Asked whether biweekly will work, the honest answer is that no study measures it, more frequent is better for retention, and the notebook runs weekly either way.</li>
+    </ol>
+    <div class="callout warn"><span class="ct">What this does to the rest of this document</span><p>If frequency dominates, then the marginal value of perfecting any single session's design is lower than the marginal value of one more session per month. Both are worth doing. Only one of them is worth doing <em>first</em> — and it's the conversation with the mother, not the next revision of this file.</p></div>
+  </div>
+</section>
+
+<!-- ============ 10 CONTROL PROBLEM ============ -->
+<section class="block" id="control">
+  <div class="gutter"><span class="bnum">10</span><span>when it<br>misbehaves</span></div>
+  <div class="body">
+    <h2>The control problem</h2>
+    <p>If you want unexpected outcomes, you don't get to choose which unexpected outcomes. Emergent misbehaviour is not a sign the design failed — it's the cost of the design working. The discipline is that you deal with it <em>after</em> it emerges. Nerf and buff; never pre-legislate.</p>
+
+    <div class="callout hard"><span class="ct">The worked failure</span><p>The microphone rule. A global constraint written to prevent a turn-taking problem that had not yet happened, which would have converted a casual conversation into a structured lesson from minute one. It was cut on instinct before it ever ran. That instinct is now rule O5, and it generalizes: <b>the cost of a preventive rule is paid every minute; the benefit is paid only in the minutes where the problem would have occurred.</b></p></div>
+
+    <div class="tablewrap"><table>
+      <tr><th>Misbehaviour</th><th>The nerf</th></tr>
+      <tr><td class="f2">One girl dominates every answer</td><td>Promote her — caller, co-teacher, judge. A role, never a restriction. Restricting the strong one punishes the behaviour you want more of.</td></tr>
+      <tr><td class="f2">Phones come out</td><td>Use the block. <em>"Show me what you're watching."</em> The phone is a door and an honest engagement meter. Never a confiscation.</td></tr>
+      <tr><td class="f2">They start keeping score against each other</td><td>Merge the teams instantly — the two of them versus you. Removes the comparison without naming it.</td></tr>
+      <tr><td class="f2">The fiction gets called</td><td>Agree, drop the fiction, keep the mechanism. Never defend a fiction; the defence is what makes it childish.</td></tr>
+      <tr><td class="f2">A trap lands as humiliation</td><td>Close it in one second, take the blame yourself, be visibly wrong about something immediately after. Then don't bait that student again this session.</td></tr>
+      <tr><td class="f2">Room goes chaotic</td><td>Remove a block. Not a lecture, not a rule — take an object off the table.</td></tr>
+      <tr><td class="f2">A rule you wrote is being gamed</td><td>Good. That's class-4 behaviour. Adjust the rule between sessions, not during.</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ============ 11 LOOP ============ -->
+<section class="block" id="loop">
+  <div class="gutter"><span class="bnum">11</span><span>the real<br>design<br>tool</span></div>
+  <div class="body">
+    <h2>The iteration loop</h2>
+    <p>Some systems can't be shortcut — there is no formula that tells you the state at step 1,000 without running the first 999. You cannot predict this session. You can only run it and look. That reframes what your artifacts are <em>for</em>: the sim file was never a prediction, it was a rehearsal of responses, and this document is not a plan, it's a rule-set. <strong>The debrief is where the design actually happens.</strong></p>
+
+    <h3>The evolutionary discipline</h3>
+    <p>Small variations on the current best version, one at a time, keep what survives. If you change five things between sessions you will learn nothing about any of them — and you will have spent a real child's real hour to learn nothing.</p>
+
+    <h3>What the debrief logs, beyond the existing sheets</h3>
+    <ul class="tight">
+      <li><b>The class trace.</b> Which of the four states the room was in, roughly by minute. This is the single most useful new number, because it makes the shape of the session comparable across sessions.</li>
+      <li><b>Blocks that never fired.</b> A block unused across three sessions should come off the table — the system is too large, and oversized systems drift to class 3.</li>
+      <li><b>Rules that got tested</b>, and what happened when they were.</li>
+      <li><b>Traps: baited, guessed, closed.</b> Any trap baited and not closed is a rule-O2 violation and gets written down as one.</li>
+      <li><b>Track C observables</b>, per girl.</li>
+      <li><b>One thing nothing predicted.</b> If there's nothing in this field, the room was probably class 1 or 2 the whole time and you didn't notice.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 12 FAILURE MODES ============ -->
+<section class="block" id="fail">
+  <div class="gutter"><span class="bnum">12</span><span>the six<br>ways this<br>goes wrong</span></div>
+  <div class="body">
+    <h2>Failure modes</h2>
+    <div class="tablewrap"><table>
+      <tr><th>Mode</th><th>How you'd catch it</th></tr>
+      <tr><td class="f2"><b>Seductive detail</b><br>the device eats the content</td><td>Ask whether the curiosity points at <em>the language</em> or at <em>the object</em>. <span class="en">LOOK UNDER THE TABLE</span> passes — resolving it requires reading it. A notebook that develops a personality and a backstory does not. This effect is meta-analytically confirmed and it's worst when the seductive material comes early.</td></tr>
+      <tr><td class="f2"><b>Habituation</b><br>the punchline becomes foreseeable</td><td>Can they predict what you'll do next? Then it has stopped working, however much they still enjoy it. Fix: sometimes be right, sometimes make the easy question genuinely easy.</td></tr>
+      <tr><td class="f2"><b>Fun mistaken for learning</b></td><td>Felt learning and actual learning ran <em>anti</em>-correlated in a randomized trial. Track two numbers: did she come back, and did the words survive. Never let the first stand in for the second.</td></tr>
+      <tr><td class="f2"><b>Track C mistaken for A or B</b></td><td>Separate columns on the sheet. A soaring C with flat A and B is a real result and a real warning at the same time.</td></tr>
+      <tr><td class="f2"><b>Operating below the floor</b></td><td>Traps, stewing and difficulty all backfire beneath a threshold of prior knowledge. If the hunt hasn't produced a substantial column yet, you are below the floor and every technique in §5 is currently working against you.</td></tr>
+      <tr><td class="f2"><b>"Emergent" as permission not to prepare</b></td><td>The most likely failure, and the hardest to see from inside. Test: was every block on the table before they arrived, and could you name each rule without reading it? If not, this isn't emergence — it's improvisation with a philosophy attached.</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<!-- ============ OPEN ============ -->
+<section class="block" id="open">
+  <div class="gutter"><span class="bnum">?</span><span>open</span></div>
+  <div class="body">
+    <h2>Open questions</h2>
+    <ul class="tight">
+      <li><b>Which name maps to which age</b> — K / Daniel ↔ 9 / 12. Still unrecorded; beats that depend on age still say "the twelve" and "the nine".</li>
+      <li><b>Both spellings</b>, confirmed with their mother rather than with them.</li>
+      <li><b>The date</b>, confirmed directly this time.</li>
+      <li><b>Verify <span class="hebrew">סימפטי</span> with a native speaker</b> before baiting trap #7 — it's inferred from the European pattern, not directly sourced.</li>
+      <li><b>Whether the sim file's beats 7 and 8 get patched</b> — they're stale, and §7 here supersedes beat 7's premise entirely.</li>
+      <li><b>The frequency conversation with their mother</b> — per §9, higher-leverage than any further revision of this file.</li>
+    </ul>
+    <div class="callout warn"><span class="ct">On "until perfection"</span><p>This document cannot be finished in advance, and trying is the one failure mode it can't detect from inside. It is computationally irreducible — you have to run it. Get it good enough to run on the third of August, run it, and then let the debrief do what no amount of pre-polish can. A version 2 built from forty-five minutes of real data will be worth more than a version 1.9 built from another week of this.</p></div>
+  </div>
+</section>
+
+<footer>
+  vault-agent/projects/emergent-system.html · v1 · 2026-07-30 · jep<br>
+  companions: sisters-first-contact-sim.html (beat rehearsal) · vault/projects/tutoring-sisters-monday-cheatsheet.md (phone) · vault/projects/tutoring-sisters-9-12.md (plan)
+</footer>
+</div>

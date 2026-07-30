@@ -26,6 +26,8 @@ Two daughters of Mom's housekeeper, ages 9 and 12, who would massively benefit f
 
 **The open decision resolved itself by logistics** — their mom is bringing both. So session one runs 2-on-1, and it doubles as the data source for the real together-vs-separate call (see decision rule at the bottom). The instrument is still [[tutoring-universal-baseline]] — one ladder, two climbers, two scoring sheets.
 
+**System document (2026-07-30):** `vault-agent/projects/emergent-system.html` — blocks, rules and the four-state controller, with no sequence at all. It sits *above* the beat walkthrough and supersedes it wherever they disagree; in particular the supplies are now **unwrapped with the girls** rather than pre-written, so the notebook's English-only rule is established by demonstration instead of arriving as a fiction.
+
 **Beat-by-beat walkthrough:** `vault-agent/projects/sisters-first-contact-sim.html` — the 2-on-1 first-contact simulation, mapping each beat's four possible directions (opening / divergence / failure-state / undercurrent) with the next move for each. Read the night before, then close it.
 
 ### The setting, resolved 2026-07-25
