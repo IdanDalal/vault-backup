@@ -35,23 +35,7 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Human-in-the-Loop Overrides**, and full **Parental Transparency** regarding what is being taught.
 
-It's Wednesday. The sisters didn't show on Monday due to a misunderstanding on my part. They'll be here the following Monday (August 3rd). I have some huge ideas to brainstorm with you:
-1. Emergent learning -  help me align our process more towards emergence rather than structure. Inspirations, "sparks", "seeds", etc. THESE are our tools. Things that happen inside the students' mind. I believe emergent conversations are an EXTREMELY underrated tool for learning, and ESPECIALLY for learning A LANGUAGE! I believe by deconstructing our goals, methods, biases, and more, we can have the most minimalist skeleton of a "lesson plan" I feel the urge to "stick to" while delivering maximum value and effective learning gain per hour to students. Elements, rules, edges, nodes - we can identify them and use them.
-2. Curiosity -  help me align our process more towards curiosity rather than utility. Gaps, incentives, wrong answers, etc. THESE are ALSO are tools. We best leverage them to complement the emergence discussed above. I believe students would be better served by appealing not only to their utility (as most teachers do), but also to their curiosity (as few teachers do). We already have some of this in our foundation, and I believe we should expand on it MUCH more.
-3. Meta Ray-Bans - I'm of two minds about this one, and would appreciate your input. I have a pair of Meta Ray-Ban Wayfarer smart glasses (gen 1), and I was thinking we might have students put them on and use them. I've only thought of a few advantages and disadvantages.
-	Advantages:
-		1. It only receives English. The glasses only work after you say "Hey Meta" and then something in English. It has no Hebrew STT model so it only responds with either hallucinated nonsense or "Sorry, don't understand".
-		2. It only transmits English. There's no Hebrew TTS either. If you don't understand English, you can't benefit.
-		3. It's screenless. The students' attention is only distracted by the ears, not the eyes.
-		4. It's "finite"/"non-infinite". I'm not sure how to articulate this point - due to being screenless, it can't hold your attention after it stops talking the way YouTube videos have "Coming up" and "Recommend" and "Related", or any app with a feed has "bottomless"/"infinite" scrolling. There's a natural stopping point to the interaction, and it's only a few seconds after it started.
-		5. It has potential. My mind is bursting with possibilities of what we could do with it. It's a combinatorial explosion of emergence and curiosity. It could offer students things they never imagined before.
-	Disadvantages:
-			1. It's AI. I might be biased because I'm imagining what doing this without AI (you) would be like, and I'm projecting that feeling into people learning without AI and my imagination says that just like how I feel MASSIVELY empowered now that I have AI, the students will feel the same. Let's research and discuss this further.
-			2. Friction will be a feature, not a bug. It's a product I've been using for over two years and know well. It's a bumpy ride, but I personally found the benefits FAR outweigh the inconveniences. 
-			3. It will introduce a layer between the students and I. We already have this with the whiteboard, notebooks, stamps, etc. One more product to take attention away from me is the last thing the students need. We need to limit and leverage it, rather than setting it off like a bomb and seeing what happens.
-			4. It's on the cloud. We need to verify deal-breakers like privacy, security, and restrictions. This should probably be chronologically and priority-wise the first thing.
-
-That's all I got for now. You should start by watch these videos(or read the transcripts):
-1. Emergence - https://www.youtube.com/watch?v=0HqUYpGQIfs
-2. Curiosity - https://www.youtube.com/watch?v=YRk7xGpD8dI
-Then send agents to research if anyone else is doing what we're doing or warning against it or something. Then we'll continue talking.
+Wow! Lots to say:
+1. I agree that we need a new emergence-based artifact that might be (much) longer. No scripts or outcomes, just blocks and rules. I ESPECIALLY love this line: "Flat → add block. Repetitive → change rule. Chaotic → remove block + add constraint. Class 4 → let it run." and the perspective of allowing misbehavior and correcting rather than preventing it.
+2. The physical supplies I bought are still wrapped, so I want to change your determined-appearing "the notebook comes with English text inside" to my emergent-appearing vision of "help me open these things I bought and then choose whichever ones you like"
+3. The framing of wrong guesses being the fun part is a core component of my vision. I want to expand on this as the way of advancing the students' frontier by "using their weaknesses against them"
