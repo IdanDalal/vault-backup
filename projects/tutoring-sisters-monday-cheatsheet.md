@@ -9,23 +9,58 @@ tags:
 
 # Monday 09:00 — cheat sheet
 
-**Monday 2026-08-03** (07-27 didn't happen — date misunderstanding; confirm with mom directly)
-K & D · 9 & 12 · **your living room** · mom works 09:00–11:00 · ~45 min **then dissolve**
-**Win = both want a session two.** Second prize = the together-vs-separate call.
-Full version: `vault-agent/projects/sisters-first-contact-sim.html` · plan: [[tutoring-sisters-9-12]]
+**Monday 2026-08-03** · K & D · 9 & 12 · **your living room** · mom works 09:00–11:00 · ~45 min **then dissolve**
+Everything is still wrapped. That is the plan now, not a problem.
+Full system: `vault-agent/projects/emergent-system.html` · plan: [[tutoring-sisters-9-12]]
+
+---
+
+## Read this once, at the alarm
+
+**Win = both girls want a session two.** That's it. That is the entire success condition for Monday.
+
+Everything else on this page — the tracks, the traps, the ladders — is instrumentation. Instrumentation is for *after*. If you get nothing on paper and both girls ask when you're coming back, the morning was a success and the data will be there next week.
+
+**You cannot fail at this in one hour.** There is no version of Monday where two kids are worse at English than they were on Sunday. The floor is "a nice man came over and we messed around with stamps." The floor is fine. Everything above the floor is upside.
+
+**You are not performing this document.** You wrote it so you could stop holding it. It's on the table, not in your head — glance at the four boxes below if the room goes strange, and otherwise leave it alone.
+
+---
+
+## The only thing to consult mid-session
+
+Not *"which beat am I on."* Never ask that again. Ask **what state is the room in** — two seconds, then make the move. Each move is the *opposite* of the intuitive one.
+
+| | Tell | Move |
+|---|---|---|
+| **1 · Flat** | You're doing most of the talking. Answers short, correct, polite. Nothing surprising. Room is *pleasant*. | **Add a block.** A new object, a new person, a new kind of word. **Not more energy** — your effort is what's flattening it. |
+| **2 · Repetitive** | They've worked out the shape of the game and are performing it correctly. You can predict the next 30 seconds. | **Change a rule.** Reverse who asks. Change what counts. Break your own pattern — get the pronunciation *right* for once. |
+| **3 · Chaotic** | Everyone talking, topics jumping, giggling, phones out, nothing landing twice. Loud, warm, going nowhere. | **Remove a block AND add a constraint.** Fewer objects on the table. One rule. One target. Subtract. |
+| **4 · Organized** | They generate things you didn't plan, with structure you didn't impose. Surprised but not lost. They build on each other, not on you. | **None. Stop talking.** Don't narrate it, don't praise it into self-consciousness, don't write it down until later. |
+
+A good 45 minutes passes through all four. Class 1 and class 3 both feel fine from the inside — that's why you check.
+
+**Watch for the boil:** the moment a girl stops *collecting* words and starts *combining* them. Two known words joined into something nobody gave her. If that happens, everything else on this page is subordinate to it for as long as it lasts.
+
+---
 
 ## Standing rules
 
 - **Join the unit. Never convene.** No sitting-them-down, no "let's start." Arrive with objects in your hands.
 - **Name in front of the verb.** «D — jump.» That is the whole turn-taking system. No rule, no prop.
-- **Copying → change the geometry**, don't issue a rule: back-to-back "for a harder level", or she closes her eyes and judges. Never *"don't copy your sister."*
-- **Board: ONE column.** Never two visible numbers. Anything countable between siblings becomes a score.
-- **Two sheets, one game.** Scoring stays behind your eyes; paper after they leave.
-- **Back off a rung faster than 1-on-1.** Never end either track on a miss.
-- **Gap opens → promote the older to caller/co-teacher immediately**, before anyone names it.
-- **Praise: specific, individual, never relative.** "The way you got *jump* before I finished the word" — never "faster than her."
+- **Board: ONE column.** Never two numbers. Anything countable between siblings becomes a score whether you mean it or not.
+- **Nobody is compared to anybody.** Praise specific and individual: *"the way you got jump before I finished the word"* — never *"faster than her."*
+- **Copying → change the geometry**, never issue a rule: back-to-back "for a harder level," or she closes her eyes and judges. Never *"don't copy your sister."*
+- **Pointing and drawing always count.** That's what guarantees no dead ends anywhere.
+- **Be wrong out loud, often, and enjoy it.** This is how "wrong is safe" gets stated. Never by reassuring them.
+- **Back off a rung faster than 1-on-1. Never end on a miss.**
+- **Gap shows → promote the older to caller/co-teacher immediately**, before anyone names it.
 - **Blank? "Teach me something."** Always loaded.
+- **Every guess gets its answer before you leave.** Open *tasks* go home with them. Open *questions* don't. ← the one hard rule
+- **Leave while it's still working.** Mid-momentum, not during a lull.
 - **Mom walks through** → invite, never assign: «בא לך לשמוע כמה מילים באנגלית הן כבר יודעות? תראי את הלוח.» Then let her go back to work. If she needs the room, you move — cheerfully, instantly.
+
+---
 
 ## Recording
 
@@ -35,97 +70,149 @@ Ask the girls at the table, before pressing anything. Then **stop talking**.
 
 - **One "no" = off for both.** A recorder records everyone in the room.
 - **A hesitant yes is a no.** Free lessons + your mother is her employer.
-- **Visible, on the table.** "Stop" is honoured instantly, no question asked.
-- **Off and in your hand when you leave the room.** Never left running — that's the line.
+- **Visible, on the table.** "Stop" honoured instantly, no question asked.
+- **Off and in your hand when you leave.** Never left running — that's the line.
 - **Never shared with anyone, including mom.**
-- After: → `vault-agent/inbox/TUTORING/2026-08-03-sisters/` (**never `vault/`**) → 4090 box, both engines, VAD off → extract → names to initials → **delete raw same night**, write the date down.
+- After → `vault-agent/inbox/TUTORING/2026-08-03-sisters/` (**never `vault/`**) → 4090 box, both engines, VAD off → extract → names to initials → **delete raw same night**, write the date down.
 
-## Beats
+---
 
-**0 · before they arrive**
-Confirm both spellings with mom. Out and reachable: stamps + ink · 2 notebooks (**page 1 pre-written**) · whiteboard + markers · the disc · phone with offline clips · paper · recorder · something to eat/drink. Planted English items in place and **not looking planted** — anything odd where it sits, move it where it belongs.
+## The first ten minutes — the only part with an order
 
-**1 · 09:00 Join** — "Hello K! Hello D!" → straight to Hebrew.
-Give twice before taking once: drink, then the notebooks. Sit at their height, phone-adjacent. Pay the sick debt in English: *"I was sick. Sick!"* + bad mime until one laughs.
+The opening is fixed *because* you're nervous at the start and can't improvise there. After minute ten the table above takes over.
+
+**0 · Before they arrive**
+Confirm both spellings with mom. On the table, **still sealed**: stamps + ink, notebooks, whiteboard + markers, the disc. Loose and reachable: paper, recorder, something to eat and drink. Planted English items in place and **not looking planted** — anything odd where it sits, move it where it belongs. (They've sat 8 days. They read as furniture now, which is better than staged.)
+
+**1 · 09:00 · Join**
+"Hello K! Hello D!" → straight to Hebrew. Give twice before taking once: drink first. Sit at their height, phone-adjacent. Pay the sick debt in English: *"I was sick. Sick!"* + bad mime until one laughs.
 ▲ Never convene at the table — in your house that reads as the employer's son giving instructions.
-● Politeness / glances toward mom = employment weather → hand over territory, ask *them* for something.
+● Politeness or glances toward mom = employment weather → hand over territory, ask *them* for something.
 
-**2 · 09:04 Notebooks + stamps** (B1 as a craft)
-«קניתי לכל אחת מחברת. תחתימו את השם שלכן על הכריכה — באנגלית.» Then push the stamps to the middle and get out of the way.
+**2 · 09:03 · The unwrapping**
+
+> «תעזרו לי לפתוח את הדברים האלה — ותבחרו מה שבא לכן.»
+
+Then get out of the way. This is a real task with a real outcome, and both of them can tell nothing is being assessed.
+- **The wrappers are covered in English.** The hunt arrives inside the unwrapping, before anyone's been told there's a hunt. First words on the board by minute six from a source that cannot feel like a test.
+- **Wrappers are the only English in the room you're allowed to cut up.** Tear words out, stick them on the board, stamp over them.
+- Free data: which notebook, which colour, who picks first, who defers.
+- Ownership before obligation. The objects are theirs before you ask them for anything.
+
+**3 · 09:08 · Names on the covers, in English** (letters as a craft)
+«תחתימו את השם שלכן על הכריכה — באנגלית.» Push the stamps to the middle, get out of the way.
 Watch: letters by name or by shape-match · which she hunts for · mirror flips · who takes the ink.
 ▲ Letter blank forming → don't help her find it, change the task: *"these are a mess — help me put them in order."* Nobody failed.
-● **She stamps a different name** (nickname / gamertag / her own spelling) → adopt it completely, forever. Best thing that can happen here.
+● **She stamps a different name** (nickname, gamertag, her own spelling) → adopt it completely, forever. Best thing that can happen here.
 
-**3 · 09:10 Treasure hunt** (A0, soft cap ~10 min)
-«אם לא הייתן פה עכשיו — איפה הייתן, ומה הייתן עושות?» ← *you*, not *I*. In your living room the old phrasing harvests "phones, this sofa."
-Opening move — spend the observation: «ראיתי אתכן פעם רוקדות פה — מה השיר?» Then hunt the English in the lyrics.
-Every word goes on the board, one column. **The revelation detonates once, jointly:** *"between the two of you — twenty-six English words, in this room, right now."*
-▲ "Nothing, we'd be on the phone" → take it literally: *"show me what you last watched."* That's Beat 4 arriving early.
-● Her every answer routes through her sister → ask something her sister can't know (dream, pocket, worst food).
+**Then stop following an order.** Read the room, pick from below.
 
-**4 · sidecar ~5 min · It-Takes-Two**
+---
+
+## Stations — a menu, not a sequence
+
+**The hunt** — *default when the room is flat, and the highest-value thing on the list*
+«אם לא הייתן פה עכשיו — איפה הייתן, ומה הייתן עושות?» ← *you*, not *I*.
+Opening move, spend the observation: «ראיתי אתכן פעם רוקדות פה — מה השיר?» then hunt the English in the lyrics. Everything found joins the one column. **The revelation detonates once, jointly:** *"between the two of you — twenty-six English words, in this room, right now."*
+▲ "Nothing, we'd be on the phone" → take it literally: *"show me what you last watched."* That's the next station arriving early.
+
+**The room is already English**
+«יש פה יותר מעשר מילים באנגלית. ספרתי.» Planted: Coffee · July · Business · Lasagna · Australia/Melbourne.
+**Recognition ≠ reading.** She can say COFFEE off a package she's seen a thousand times. To test decoding, **strip the context**: rewrite the word on the board in your own hand, no logo, then ask. Never announce the check.
+Ladder: **find it** (point — anyone wins) → **read it off the board** → **stamp it into your notebook**.
+Punchline, and it's true: «שמתי פה שש. מצאתן אחת-עשרה. את השאר לא שמתי אני — הן פשוט גרות פה.»
+◆ They leave the sofa and hunt the house → let it run. **This is your dissolve activity.**
+
+**Bodies** — *fastest recovery when anything dies*
+"⟨name⟩ — jump! ⟨name⟩ — touch something red. Both — give me the pencil!" Deadpan, hands still, no gesture leaks.
+◈ Gap shows → hand the commands to the older; she calls in English, you and the younger both obey.
+● Freeze in front of her sister → *"wait — YOU command ME,"* perform it wrong, end on something she owns.
+
+**Two teachers**
+«עכשיו שתיכן המורות שלי. כל אחת מלמדת אותי מילים שהשנייה לא אמרה.» Then mispronounce badly so they correct you together.
+▲ Someone starts counting → merge the teams instantly: the two of them vs. you.
+● **Watch how a correction between them lands.** Help = co-teaching carries for months. Injury = it can't be used at all, and that's the together-or-separate decision made for you.
+
+**The notebook that only speaks English**
+No pre-written page any more — **the rule is established by demonstration.** You write English into it in front of her, she answers **out loud**, you write the next line where she can watch, hand it back. A correspondence, not an interview, and the object is asking, not you.
+Chain: `HI K!` → `I AM FROM AUSTRALIA.` → `HOW ARE YOU?` → `I LIKE PIZZA. WHAT DO YOU LIKE?` → `LOOK UNDER THE TABLE.` ← comprehension proven by her feet, not her explanation.
+Hebrew answer → look at the page, wait, shrug: «היא לא הבינה.» It understands English, **pointing and drawing** — so a legal answer always exists.
+**Two notebooks = two private correspondences**, running in parallel, no audience, nothing to compare.
+◆ She writes back into it → leave a question on the last page for between sessions.
+▲ *"You're the one writing it"* → agree instantly, drop the fiction, keep the mechanism: now it's passing notes, which suits a twelve-year-old better anyway. **Never defend a fiction.**
+⚠ Slower than the pre-written version and may not land today. If it doesn't, you've lost one station, not the morning.
+
+**It-Takes-Two probe** (~5 min, sidecar)
 «ספרי לי מה קורה שם — מי הדמות, מה היא רוצה?» then: what does it say here?
 Sorts: absorbed **meaning** / absorbed **sound** / absorbed **nothing**. Never let one answer for the other's world.
-◈ **Split verdict** (one got the story, one got sound) = strongest evidence of the morning for separate sessions. Say it aloud to no one.
+◈ **Split verdict** = the strongest evidence of the morning for separate sessions. Say it aloud to no one.
 ▲ "Why are you checking me?" → drop it in one second: *"I'm terrible at this — show me,"* then genuinely lose.
 
-**5 · 09:20 A1 bodies** — clean pass ≥7/8 instant, **per girl**
-"⟨name⟩ — jump! ⟨name⟩ — touch something red. Both — give me the pencil!" Deadpan, hands still, no gesture leaks.
-◈ Gap shows → hand the commands to the older; she calls in English, you and the younger both obey. (Disc = caller's token if a visible "whose go" helps.)
-▲ Right every time, a fifth of a second late → change geometry, re-run three, count only those.
-● Freeze in front of her sister → *"wait — YOU command ME"*, perform it wrong, end on something she owns.
+---
 
-**6 · 09:26 A2 two teachers** — ≥6 unprompted, per girl
-«עכשיו שתיכן המורות שלי. כל אחת מלמדת אותי מילים שהשנייה לא אמרה.» Then mispronounce badly so they correct you together.
-▲ Someone starts counting → merge the teams instantly: the two of them vs. you, can they teach you fifteen before you forget the first.
-● **Watch how a correction between them lands.** Help = co-teaching carries months. Injury = it can't be used at all, and that's the decision.
+## Traps — use one or two, not six
 
-**7 · 09:31 The notebook that only speaks English** (A3 chunks + B3)
-Pre-written on page 1 of each: `HELLO! WHAT IS YOUR NAME?`
-Hand it over: «המחברת שלך כבר כתבה לך משהו.» She answers **out loud** → you take it, write the next line where she can watch, hand it back. A correspondence, not an interview — and the object is asking, not you.
-Chain: `HI K!` → `I AM FROM AUSTRALIA.` → `HOW ARE YOU?` → `I LIKE PIZZA. WHAT DO YOU LIKE?` → `LOOK UNDER THE TABLE.` ← **B3: comprehension proven by her feet, not her explanation.**
-Rule of the world: **it doesn't read Hebrew.** Hebrew answer → look at the page, wait, shrug: «היא לא הבינה.» It understands English, **pointing, and drawing** — so there is always a legal answer.
-**Two notebooks = two private correspondences.** That's the parallel station, arriving free, with no audience and nothing to compare.
-◆ She writes back into it → Track B jumps a rung; leave a question on the last page for between sessions.
-▲ *"You're the one writing it"* → agree instantly, drop the fiction, keep the mechanism: now it's passing notes, which suits a twelve-year-old better anyway. **Never defend a fiction.**
-● She answers in Hebrew and looks at you to translate → she's cast you as interpreter. Give her pointing/drawing and let her win.
+A trap is a question where **thinking correctly produces the wrong answer.** That's the safety property: her wrong answer is proof her pattern-matching works. She's stupid for nothing — English is the one being weird.
 
-**8 · 09:36 The room is already English** (B1 + B2)
-«יש פה יותר מעשר מילים באנגלית. ספרתי.» Everything found goes on the **same board column** — the number keeps climbing from Beat 3.
-Planted: Coffee · July · Business · Lasagna · Australia/Melbourne · +
-**Recognition ≠ reading.** She can say COFFEE off a package she's seen a thousand times. To test decoding, **strip the context**: write the word on the board in your own hand, no logo, then ask. If it dies there, it was memory. Never announce the check.
-Ladder: **find it** (point — anyone wins) → **read it off the board** (decode) → **stamp it into your notebook** (letters, and she keeps it).
-Punchline at the end, and it's true: «שמתי פה שש. מצאתן אחת-עשרה. את השאר לא שמתי אני — הן פשוט גרות פה.»
-◆ They leave the sofa and hunt the house → let it run. **This is your dissolve activity.**
-● She fixates on one word (MELBOURNE, LASAGNA — spelling that doesn't match sound) → drop everything, answer properly. That's her wow-word.
+**Bait only things nobody could know. Never bait something you taught her.**
 
-**9 · 09:42 Fork** — not *whether to teach*. Only: one more rung, or stop.
-Clock isn't the constraint (they're here till 11:00) — **fuel is.** The tank you don't spend is what they run on without you.
-◆ Still leaning in → **one** more rung (A4: screenshot from her world, "what's happening here?"), other girl stationed on stamps beside you. Then stop anyway.
-▲ Empty at 09:38 → dissolve now, no visible disappointment.
-● "When are you coming back?" → **stop climbing.** That was the objective. Hook: *"Thursday — I'm bringing the harder version."*
+1. **Ananas.** "Easy one. Hebrew, Russian, French, German, Arabic, Turkish — all the same word. What's the English?" → PINEAPPLE.
+2. **Shabbat.** "Spanish calls Saturday *sábado*. German says *Samstag*. Guess where those come from." → שבת. Half of Europe named the day after a word she says every Friday night; English named it after a Roman god. **Possibly stronger than the pineapple.**
+3. **את.** "In «ראיתי את הכלב» — what does את mean in English?" → nothing. It doesn't exist. Some words don't survive translation. **The largest idea on the list.**
+4. **הודו.** "In English this bird is named after a country. In Hebrew too — which one?" → they'll say Turkey; it's India. Everyone blames somewhere else and nobody agrees.
+5. **צ'יפס.** "If someone in Israel offers you צ'יפס, what do you get?" → she'll say crisps from American media. Chips = fries here.
+6. **אני מורה.** "How do you say that properly in English?" → *"I teacher."* English never drops *to be*.
 
-**10 · 09:45 The dissolve** — no goodbye, no door, no ceremony
-1. **09:44 sell session two inside the activity**, while they're still holding something.
-2. **Hand over the unfinished thing** — keep hunting the house for English and writing it in the notebook · stamp a message for each other · copy the board list in their own handwriting. Must be theirs, genuinely unfinished, doable without you.
-3. The sentence that makes leaving not a rejection: «אני חוזר עוד קצת לראות מה יצא — אל תראו לי עד שזה גמור.»
-4. **Stop the recorder out loud, take it with you.**
-5. **Leave mid-momentum**, hands still moving. Not during a lull.
-6. **~10:20 re-enter for two minutes** — look at what they made, one specific non-comparative sentence each, go. That's the goodbye you skipped, and mom is likeliest to overhear it.
-◆ They barely notice you left = target state. Don't linger admiring it.
-◈ One follows you → she's your session-two girl. Two honest minutes, then a job with a deadline: *"finish it and come get me."*
-▲ Stamps stop and phones come out in eleven seconds → don't rescue, don't sit back down, don't apologise. Hand over **earlier** next time. Note it verbatim.
-● You hear English from the other room after you've gone → highest-value signal of the morning, and you are not recording it. Ear only, straight to the sheet.
+**Stewing — the move you never make:**
+① frame it as easy → ② take the wrong guess and **do not correct it** (no wince, no "close") → ③ **«למה חשבת ככה?»** ← the retention is in the *why*, not the fix → ④ take more guesses, let the sister in, let them argue → ⑤ follow whatever they open, that's where the good stuff lives → ⑥ **close it before you leave** → ⑦ board it.
+
+Stew longer with the twelve than the nine. Stew about things next to what's already on the board, not open ground.
+
+**When you actually want a correction: elicit, don't recast.** *"How would you say that again?"* Recasting (just saying it right back) is the most-used correction move in the world and produces almost no repairs — kids can't tell it apart from ordinary paraphrase. Eliciting produces ~43%. Two words, biggest single upgrade available to you.
+
+---
 
 ## Interrupts
 
-**Siren** → shelter together, English optional. **Tears** → abandon the beat, no comment, return to a past win. **One leaves** → let her; play loudly with the one who stayed; no comment when she returns. **Phones out** → a door and an honest engagement meter: *"show me what you're watching."* **"Stop recording"** → instantly, no face, offer to delete in front of her.
+**Siren** → shelter together, English optional. **Tears** → abandon the station, no comment, return to a past win. **One leaves** → let her; play loudly with the one who stayed; no comment when she returns. **Phones out** → a door and an honest engagement meter: *"show me what you're watching."* **"Stop recording"** → instantly, no face, offer to delete in front of her.
+
+---
+
+## The dissolve — no goodbye, no door, no ceremony
+
+Clock isn't the constraint (they're there till 11:00) — **fuel is.** The tank you don't spend is what they run on without you.
+
+1. **~09:44 sell session two inside the activity**, while they're still holding something.
+2. **Hand over the unfinished thing** — keep hunting the house for English and writing it in the notebook · stamp a message for each other · copy the board list in their own handwriting. Must be theirs, genuinely unfinished, doable without you.
+3. The sentence that makes leaving not a rejection: «אני חוזר עוד קצת לראות מה יצא — אל תראו לי עד שזה גמור.»
+4. **Photograph the whiteboard** before you go. Thirty seconds. You reopen it next session and they discover they can still read their own column.
+5. **Stop the recorder out loud, take it with you.**
+6. **Leave mid-momentum**, hands still moving. Not during a lull.
+7. **~10:20 re-enter for two minutes** — look at what they made, one specific non-comparative sentence each, go. That's the goodbye you skipped, and mom is likeliest to overhear it.
+
+◆ They barely notice you left = target state. Don't linger admiring it.
+◈ One follows you → she's your session-two girl. Two honest minutes, then a job with a deadline: *"finish it and come get me."*
+▲ Stamps stop and phones out in eleven seconds → don't rescue, don't sit back down, don't apologise. Hand over **earlier** next time. Note it verbatim.
+● You hear English from the other room after you've gone → highest-value signal of the morning, and you are not recording it. Ear only, straight to the sheet.
+
+---
+
+## Before you leave the house: the ask
+
+Higher leverage than anything else on this page. **Frequency beats session design.** One extra session a month is worth more than another revision of the system.
+
+To mom, in person, once the girls are happy: **a fixed weekly slot, same day, same time.** Not "whenever they're free." If a week gets missed, the notebook still runs — that costs her nothing to schedule.
+
+---
 
 ## After — first ten minutes, quotes first
 
-Per girl: highest clean rung A + B · frontier & what broke · IT2 verdict (meaning/sound/nothing) · every word she owns · domain that lit her up · English name she chose · session-two chunk · **verbatim quotes**.
-Once: direction each beat took · spokesperson events (count + where) · did turn-taking ever need a prop · correction = help or injury · frontier distance per track · board total · **dissolve: handed over at ___, kept going ___ min** · recording assent/start/stop/deleted · one thing nothing predicted.
+**Per girl:** highest clean rung A + B · frontier & what broke · IT2 verdict (meaning/sound/nothing) · every word she owns · domain that lit her up · English name she chose · session-two chunk · **verbatim quotes, uncorrected**.
 
-**Decision:** ≤1 rung apart on both tracks → together. ≥2 on either → separate, framed as *"each gets my full attention"*, never as levels. **Override:** the correction reflex and the girls' own preference beat the arithmetic.
+**Track C (gappetite) — keep this column physically separate, never let a good C stand in for A/B:** seconds she tolerated not-knowing · unprompted guesses · **unrequired questions** ← highest-value number on the page · did she re-open anything left hanging · did she correct you.
 
-Evening: two trackers · **two parent notes as two separate messages** · close the recording loop · update [[tutoring-sisters-9-12]].
+**Once:** which class the room was in and when it changed · which blocks never got used · spokesperson events · did turn-taking ever need a prop · correction = help or injury · board total · **dissolve: handed over at ___, kept going ___ min** · recording assent/start/stop/deleted · **one thing nothing predicted**.
+
+**Decision:** ≤1 rung apart on both tracks → together. ≥2 on either → separate, framed as *"each gets my full attention,"* never as levels. **Override:** the correction reflex and the girls' own preference beat the arithmetic.
+
+**Evening:** two trackers · **two parent notes as two separate messages** · close the recording loop · update [[tutoring-sisters-9-12]].
