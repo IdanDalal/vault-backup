@@ -49,3 +49,5 @@ Wow! Lots to say:
 11. I haven't given any thought to "dosage" (weekly hours) because it's out of my control so I assumed I'll come over "whenever the students are free this week", and now I regret it after reading your findings. We should research this and discuss whether or not we should "encourage"\"prefer" a certain "weekly hour floor" or something to make sure we're not having impactless infrequent lessons.
 12. I believe the loanword hunt is a way to manufacture the prior knowledge needed to pass the beginner threshold, like you suggested\asked. I believe we have everything required to be effective, and that we're almost ready.
 Let's proceed with creating the new artifact containing what's accumulated across this session. Let's continue researching, brainstorming, and refining it until perfection.
+
+It's Sunday, August 9th. I've been spending most of my time between our conversations with my family, because my sister, brother, and brother-in-law are visiting Israel for a few weeks and we've been doing things together every day. I can't seem to find the time - and more importantly, the energy - to work on becoming a tutor.
