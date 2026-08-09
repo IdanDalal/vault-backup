@@ -8,3 +8,4 @@
 {"ts":"2026-08-08T06:03:47Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-08.md","decision":"allow","reason":"not-denied","session":"5690c6c8-1e61-48b4-980c-d122db1a303f"}
 {"ts":"2026-08-09T06:02:31Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-09.md","decision":"allow","reason":"not-denied","session":"eab4b61b-e7e7-4a51-ab38-d4b2b4bd42e2"}
 {"ts":"2026-08-09T06:21:17Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-09-loop-review.md","decision":"allow","reason":"not-denied","session":"072c9568-299d-4206-841b-9bb46700fabc"}
+{"ts":"2026-08-09T08:10:20Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/3f7c58ec-60c1-419a-96b0-b793895bbe79/scratchpad/vtt2txt.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
