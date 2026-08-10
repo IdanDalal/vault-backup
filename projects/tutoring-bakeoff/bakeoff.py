@@ -64,14 +64,16 @@ def normalize(src, wav_dir):
     dst = wav_dir / (src.stem + ".wav")
     if not dst.exists():
         subprocess.run(
+            # -map 0:a:0 is explicit because phone recordings carry extra data
+            # tracks (Pixel writes three 'mett' streams); take the audio only.
             ["ffmpeg", "-y", "-v", "error", "-i", str(src),
-             "-ac", "1", "-ar", "16000", str(dst)],
+             "-map", "0:a:0", "-ac", "1", "-ar", "16000", str(dst)],
             check=True,
         )
     return dst
 
 
-def transcribe_fw(repo, wav, language, vad):
+def transcribe_fw(repo, wav, language, vad, condition=True):
     from faster_whisper import WhisperModel
 
     model = WhisperModel(repo, device="cuda", compute_type="float16")
@@ -80,6 +82,13 @@ def transcribe_fw(repo, wav, language, vad):
         language=language,
         vad_filter=vad,
         word_timestamps=False,
+        # Whisper feeds each 30s window its own previous output as context. On the
+        # bake-off's short clips that only helped. On a 46-minute lesson with long
+        # off-mic stretches it is the standard cause of repetition loops: one bad
+        # window becomes the prompt for the next and the model recites it forever.
+        # Default stays True (what VERDICT.md validated); pass condition=False on
+        # long recordings.
+        condition_on_previous_text=condition,
     )
     out = [{"start": s.start, "end": s.end, "text": s.text.strip()} for s in segments]
     del model

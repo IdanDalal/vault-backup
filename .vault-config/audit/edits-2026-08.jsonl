@@ -25,3 +25,7 @@
 {"ts":"2026-08-09T16:17:26Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-sisters-9-12.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-08-09T16:17:59Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-08-10T06:03:02Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-10.md","decision":"allow","reason":"not-denied","session":"f4de82cd-80ab-4ba8-8192-2b26daa7cdd7"}
+{"ts":"2026-08-10T10:24:42Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/bakeoff.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-08-10T10:24:45Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/bakeoff.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-08-10T10:24:56Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcribe.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-08-10T10:24:56Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcribe.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}

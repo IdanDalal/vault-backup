@@ -40,6 +40,10 @@ def main():
                     help="enable VAD (only after the whisper-survival check passes)")
     ap.add_argument("--delete-audio", action="store_true",
                     help="delete each source recording after its transcript is written")
+    ap.add_argument("--no-condition", action="store_true",
+                    help="disable condition_on_previous_text. Use on any recording "
+                         "longer than ~10 min: it removes the feedback path that "
+                         "turns one bad window into a repetition loop.")
     args = ap.parse_args()
 
     clips = sorted(
@@ -71,7 +75,8 @@ def main():
             spec = MODELS[name]
             print(f"  transcribing with {name}...")
             t0 = time.time()
-            segs = transcribe_fw(spec["repo"], wav, spec["language"], args.vad)
+            segs = transcribe_fw(spec["repo"], wav, spec["language"], args.vad,
+                                 condition=not args.no_condition)
             segs = assign_speakers(segs, turns)
             body = "\n".join(
                 f"[{fmt_ts(s['start'])}] "

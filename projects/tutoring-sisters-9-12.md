@@ -35,7 +35,7 @@ Two daughters of Mom's housekeeper, ages 9 and 12, who would massively benefit f
 - **Home ground — Idi's house**, not theirs. Their mother works here Mondays **09:00–11:00**; the girls come with her. She's present in the building but *working*, not sitting in.
 - **They already know this room.** They've been here several times over the last few months and have a default behaviour: living room, phones (most of the time), otherwise whispering, drawing, playing together. Idi once watched them copy a social-media dance from a phone, song playing, repeating until they had it — **documented evidence they will voluntarily imitate English sound with no teacher present.** That observation is the treasure hunt's opening move.
 - **Consequence for the format:** they are a closed unit that already exists in this room. Session one joins the unit rather than convening a lesson; there is no "door scene," and convening at the table reads as the employer's son giving instructions.
-- **Names: K and Daniel** (spelling assumed, Idi confirms with mom before writing the strips). Which name maps to which age isn't recorded yet.
+- **Names: K and D** (spelling assumed, Idi confirms with mom before writing the strips). Which name maps to which age isn't recorded yet.
 - **The session is ~45 min inside a 2-hour visit** — so it must **dissolve**, not end (see below).
 - School and summer camp both finished the week of 2026-07-20: week one of vacation, no homework pressure, and probably under-stimulated — which makes Idi the interesting thing that happened, and makes the phone the default competitor.
 
