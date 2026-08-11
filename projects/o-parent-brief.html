@@ -1,0 +1,1415 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<meta charset="utf-8">
+<title>O, גיל 9 — איך אני מלמד</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* ─────────────────────────────────────────────────────────────
+     Palette — per DESIGN.md. Cool drafting ground, one ink-blue signal.
+     Light is the default; dark is a mode, not the look.
+     ───────────────────────────────────────────────────────────── */
+  :root {
+    --ground:        #E6E9EF;
+    --ground-raised: #F2F4F8;
+    --ink:           #14171C;
+    --ink-soft:      #4A5260;
+    --rule:          #C2C8D4;
+    --signal:        #2B4ACB;
+    --warn:          #C9721F;
+    --good:          #1F7A5C;
+    --bad:           #B3261E;
+
+    --font-display: "Avenir Next Condensed", "DIN Alternate", "Arial Narrow", "Helvetica Neue", "Heebo", "Assistant", "Arial Hebrew", "Noto Sans Hebrew", sans-serif;
+    --font-body:    Charter, "Iowan Old Style", "Source Serif 4", Georgia, serif;
+    --font-data:    "SF Mono", "Cascadia Mono", "Roboto Mono", "DejaVu Sans Mono", monospace;
+
+    --dur-micro: 120ms;
+    --dur-std:   180ms;
+    --ease-out:    cubic-bezier(0.165, 0.84, 0.44, 1);
+    --ease-move:   cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    --rail: 3.25rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #171A20; --ground-raised: #21252D; --ink: #E6E9EF;
+      --ink-soft: #9AA3B2; --rule: #333A46; --signal: #7C93F0;
+      --warn: #E09A4E; --good: #4FAE8A; --bad: #E0685E;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #171A20; --ground-raised: #21252D; --ink: #E6E9EF;
+    --ink-soft: #9AA3B2; --rule: #333A46; --signal: #7C93F0;
+    --warn: #E09A4E; --good: #4FAE8A; --bad: #E0685E;
+  }
+
+  /* Hebrew gets its own body face — the serif stack above has no Hebrew.
+     Deliberate fallback beats accidental fallback. */
+  :root[data-lang="he"] {
+    --font-body: "Assistant", "Heebo", "Noto Sans Hebrew", "Arial Hebrew", "David Libre", system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    text-wrap: pretty;
+    overflow-x: hidden;
+  }
+
+  /* Language switching. Only one language's nodes are in flow at a time,
+     so bidi never has to reconcile two directions in one block. */
+  x-he, x-en { display: contents; }
+  x-en { display: none; }                          /* Hebrew is the no-JS default */
+  :root[data-lang="en"] x-en { display: contents; }
+  :root[data-lang="en"] x-he { display: none; }
+  .lat { unicode-bidi: isolate; direction: ltr; }
+
+  /* ── shell ───────────────────────────────────────────────── */
+  .wrap {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding-inline: clamp(0.9rem, 3vw, 2rem);
+    padding-inline-start: calc(var(--rail) + clamp(0.9rem, 3vw, 2rem));
+    padding-block-end: 6rem;
+  }
+  @media (max-width: 640px) { :root { --rail: 1.6rem; } }
+
+  h1, h2, h3, h4, .eyebrow, .num, th, .chip, .btn, .tag, .lead-in {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+  h1 {
+    font-size: clamp(1.9rem, 5.2vw, 3.25rem);
+    line-height: 1.04;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.5rem;
+  }
+  h2 {
+    font-size: clamp(1.35rem, 3vw, 1.95rem);
+    line-height: 1.12;
+    font-weight: 600;
+    margin: 0 0 0.35rem;
+  }
+  h3 {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    margin: 1.75rem 0 0.5rem;
+  }
+  h4 {
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    font-weight: 600;
+    margin: 1.25rem 0 0.4rem;
+  }
+  :root[data-lang="he"] h4,
+  :root[data-lang="he"] .eyebrow { text-transform: none; letter-spacing: 0.01em; }
+  p { max-width: 68ch; margin: 0 0 0.9rem; }
+  ul, ol { max-width: 68ch; padding-inline-start: 1.15rem; margin: 0 0 0.9rem; }
+  li { margin-bottom: 0.4rem; }
+  strong { font-weight: 700; }
+  em { font-style: italic; color: var(--ink-soft); }
+  a { color: var(--signal); text-underline-offset: 0.15em; }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--signal);
+    font-weight: 600;
+    margin: 0 0 0.6rem;
+  }
+  .dim { color: var(--ink-soft); }
+  .data { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+
+  :focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* ── masthead ────────────────────────────────────────────── */
+  header.masthead { padding-block: clamp(2rem, 6vw, 4rem) 1.25rem; }
+  .standfirst { font-size: 1.15rem; color: var(--ink-soft); max-width: 62ch; }
+  .params {
+    display: flex; flex-wrap: wrap; gap: 0.35rem 1.5rem;
+    font-family: var(--font-data); font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-soft);
+    border-block: 1px solid var(--rule);
+    padding-block: 0.7rem;
+    margin-block-start: 1.5rem;
+  }
+  .params b { color: var(--ink); font-weight: 600; }
+
+  /* ── controls ────────────────────────────────────────────── */
+  .controls {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+    padding-block: 0.5rem;
+    background: color-mix(in oklab, var(--ground) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-block-end: 1px solid var(--rule);
+  }
+  .btn {
+    appearance: none;
+    min-height: 44px;
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    padding-inline: 0.7rem;
+    font-size: 0.8rem; font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+    background: var(--ground-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color var(--dur-micro) var(--ease-out),
+                border-color var(--dur-micro) var(--ease-out),
+                transform var(--dur-micro) var(--ease-out);
+  }
+  .btn:hover { color: var(--ink); border-color: color-mix(in oklab, var(--signal) 45%, var(--rule)); }
+  .btn:active { transform: scale(0.98); }
+  .btn[aria-pressed="true"] { color: var(--signal); border-color: var(--signal); }
+  .controls .spacer { flex: 1; }
+  .toc {
+    display: flex; gap: 0.15rem; overflow-x: auto; scrollbar-width: none;
+    max-width: 100%;
+  }
+  .toc::-webkit-scrollbar { display: none; }
+  .toc a {
+    font-family: var(--font-display);
+    font-size: 0.75rem; letter-spacing: 0.05em;
+    color: var(--ink-soft); text-decoration: none;
+    white-space: nowrap;
+    padding: 0.55rem 0.5rem;
+    border-radius: 3px;
+  }
+  .toc a:hover { color: var(--signal); background: var(--ground-raised); }
+  .toc a[aria-current="true"] { color: var(--signal); }
+
+  /* ── the ruler rail: hairline + real ticks at section boundaries ── */
+  .rail {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-start: 0;
+    width: var(--rail);
+    pointer-events: none;
+    z-index: 10;
+  }
+  .rail .spine {
+    position: absolute; inset-block: 0;
+    inset-inline-end: 0.75rem;
+    width: 1px; background: var(--rule);
+  }
+  .rail .tick {
+    position: absolute;
+    inset-inline-end: 0.75rem;
+    width: 0.55rem; height: 1px;
+    background: var(--rule);
+    transform-origin: right center;
+  }
+  :root[data-lang="he"] .rail .tick { transform-origin: left center; }
+  .rail .tick span {
+    position: absolute;
+    inset-inline-end: 0.85rem;
+    top: -0.62em;
+    font-family: var(--font-data);
+    font-size: 0.62rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-soft);
+    opacity: 0.75;
+  }
+  .rail .marker {
+    position: absolute;
+    inset-inline-end: 0.55rem;
+    top: 0;
+    width: 0.5rem; height: 0.5rem;
+    background: var(--signal);
+    border-radius: 50%;
+  }
+  @supports (animation-timeline: scroll()) {
+    .rail .marker {
+      animation: railmove linear both;
+      animation-timeline: scroll(root block);
+    }
+    @keyframes railmove { from { transform: translateY(0); } to { transform: translateY(calc(100vh - 0.5rem)); } }
+  }
+  @supports not (animation-timeline: scroll()) { .rail .marker { display: none; } }
+  @media (max-width: 640px) { .rail .tick span { display: none; } }
+
+  /* ── sections ────────────────────────────────────────────── */
+  section {
+    padding-block: clamp(2rem, 5vw, 3.5rem) 0;
+    border-block-start: 1px solid var(--rule);
+    scroll-margin-top: 4rem;
+  }
+  section > .sec-head { margin-bottom: 1.25rem; }
+  .sec-num {
+    font-family: var(--font-data);
+    font-size: 0.72rem;
+    color: var(--signal);
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  .cols { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1.5rem; }
+  .c-main { grid-column: span 7; }
+  .c-side { grid-column: span 5; }
+  .c-full { grid-column: 1 / -1; }
+  @media (max-width: 900px) { .c-main, .c-side { grid-column: 1 / -1; } }
+
+  /* Depth without shadows: light-source-consistent border. */
+  .panel {
+    background: var(--ground-raised);
+    border: 1px solid var(--rule);
+    border-block-start-color: color-mix(in oklab, var(--rule) 55%, var(--ground-raised));
+    border-block-end-color: color-mix(in oklab, var(--rule) 80%, var(--ink));
+    border-radius: 4px;
+    padding: 1.1rem 1.25rem;
+  }
+  .panel h3:first-child, .panel h4:first-child { margin-top: 0; }
+  .panel + .panel { margin-top: 0.9rem; }
+
+  .note {
+    border-inline-start: 2px solid var(--signal);
+    padding-inline-start: 0.9rem;
+    margin: 1.1rem 0;
+    color: var(--ink-soft);
+  }
+  .note.warn { border-inline-start-color: var(--warn); }
+  .note.good { border-inline-start-color: var(--good); }
+  .note p:last-child { margin-bottom: 0; }
+
+  /* ── tables ──────────────────────────────────────────────── */
+  .scroller { overflow-x: auto; margin: 0.75rem 0 1rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 0.95rem; }
+  th, td {
+    text-align: start;
+    padding: 0.5rem 0.7rem;
+    border-block-end: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  thead th {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--ink-soft); font-weight: 600;
+    border-block-end: 1px solid var(--ink-soft);
+    white-space: nowrap;
+  }
+  :root[data-lang="he"] thead th { text-transform: none; letter-spacing: 0.01em; }
+  tbody tr:last-child th, tbody tr:last-child td { border-block-end: none; }
+  th[scope="row"] {
+    font-family: var(--font-data); font-size: 0.82rem;
+    color: var(--signal); white-space: nowrap; font-weight: 600;
+  }
+  td .data { font-size: 0.88rem; }
+
+  /* ── the tally (section 02) ──────────────────────────────── */
+  .hunt { display: grid; grid-template-columns: 1fr minmax(11rem, 15rem); gap: 1.5rem; align-items: start; }
+  @media (max-width: 760px) { .hunt { grid-template-columns: 1fr; } }
+  .chipset { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.5rem; }
+  .chip {
+    appearance: none;
+    min-height: 44px;
+    padding-inline: 0.65rem;
+    font-family: var(--font-data);
+    font-size: 0.85rem;
+    letter-spacing: 0.01em;
+    direction: ltr;
+    color: var(--ink-soft);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color var(--dur-micro) var(--ease-out),
+                border-color var(--dur-micro) var(--ease-out),
+                background-color var(--dur-micro) var(--ease-out),
+                transform var(--dur-micro) var(--ease-out);
+  }
+  .chip:hover { border-color: color-mix(in oklab, var(--signal) 40%, var(--rule)); color: var(--ink); }
+  .chip:active { transform: scale(0.97); }
+  .chip[aria-pressed="true"] {
+    color: var(--signal);
+    border-color: var(--signal);
+    background: color-mix(in oklab, var(--signal) 9%, var(--ground));
+  }
+  .board {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--ground-raised);
+    padding: 0.9rem 1rem;
+    position: sticky; top: 4rem;
+  }
+  .board .count {
+    font-family: var(--font-data);
+    font-variant-numeric: tabular-nums;
+    font-size: clamp(2.2rem, 7vw, 3.1rem);
+    line-height: 1;
+    color: var(--signal);
+    display: block;
+  }
+  .board .count-label { font-family: var(--font-display); font-size: 0.8rem; color: var(--ink-soft); }
+  .board ol {
+    list-style: none; padding: 0; margin: 0.8rem 0 0;
+    max-height: 13rem; overflow-y: auto;
+    font-family: var(--font-data); font-size: 0.78rem;
+    direction: ltr; text-align: left;
+    border-top: 1px solid var(--rule); padding-top: 0.5rem;
+  }
+  .board ol li { margin: 0 0 0.15rem; color: var(--ink-soft); }
+  .board ol li::before { content: counter(list-item) ".  "; color: var(--rule); }
+  .board ol:empty { display: none; }
+
+  /* ── projector (section 05) ──────────────────────────────── */
+  .fields { display: flex; flex-wrap: wrap; gap: 1rem 1.75rem; align-items: flex-end; margin-bottom: 1.25rem; }
+  .field { display: flex; flex-direction: column; gap: 0.3rem; }
+  .field > span { font-family: var(--font-display); font-size: 0.75rem; color: var(--ink-soft); letter-spacing: 0.05em; }
+  .field input[type="date"] {
+    min-height: 44px;
+    font-family: var(--font-data); font-size: 0.9rem;
+    color: var(--ink);
+    background: var(--ground-raised);
+    border: 1px solid var(--rule); border-radius: 3px;
+    padding-inline: 0.6rem;
+    color-scheme: light dark;
+  }
+  .seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+  .seg .btn { border: none; border-radius: 0; background: transparent; }
+  .seg .btn + .btn { border-inline-start: 1px solid var(--rule); }
+  .seg .btn[aria-pressed="true"] { background: color-mix(in oklab, var(--signal) 10%, var(--ground-raised)); }
+
+  figure.chart { margin: 0; }
+  figure.chart figcaption {
+    font-size: 0.78rem; color: var(--ink-soft);
+    margin-top: 0.5rem; max-width: 62ch;
+  }
+  .chartbox { position: relative; }
+  svg.plot { display: block; width: 100%; height: auto; touch-action: pan-y; }
+  svg.plot text { font-family: var(--font-data); font-size: 10px; fill: var(--ink-soft); }
+  svg.plot .band { fill: var(--signal); opacity: 0.16; }
+  svg.plot .mid { fill: none; stroke: var(--signal); stroke-width: 2; stroke-linecap: round; }
+  svg.plot .grid { stroke: var(--rule); stroke-width: 1; }
+  svg.plot .axis { stroke: var(--ink-soft); stroke-width: 1; }
+  svg.plot .corridor { fill: var(--ink-soft); opacity: 0.09; }
+  svg.plot .corridor-line { stroke: var(--ink-soft); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.6; }
+  svg.plot .cross { stroke: var(--signal); stroke-width: 1; opacity: 0.7; }
+  svg.plot .dot { fill: var(--signal); stroke: var(--ground-raised); stroke-width: 2; }
+  .tip {
+    position: absolute; pointer-events: none;
+    background: var(--ground-raised);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.4rem 0.55rem;
+    font-family: var(--font-data); font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity var(--dur-micro) var(--ease-out);
+    z-index: 5;
+  }
+  .tip[data-on="1"] { opacity: 1; }
+
+  .ledger { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin-top: 1rem; }
+  .ledger .cell { border: 1px solid var(--rule); border-radius: 3px; padding: 0.6rem 0.7rem; background: var(--ground-raised); }
+  .ledger .cell .k { font-family: var(--font-display); font-size: 0.72rem; color: var(--ink-soft); display: block; letter-spacing: 0.04em; }
+  .ledger .cell .v { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-size: 0.95rem; color: var(--ink); }
+
+  /* ── parent-note sample ──────────────────────────────────── */
+  .msg {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--ground-raised);
+    padding: 0.9rem 1rem;
+    max-width: 34rem;
+    font-size: 0.95rem;
+  }
+  .msg p { margin: 0 0 0.6rem; max-width: none; }
+  .msg p:last-child { margin-bottom: 0; }
+  .msg .lead-in { font-size: 0.75rem; letter-spacing: 0.06em; color: var(--ink-soft); display: block; }
+
+  .tag {
+    display: inline-block;
+    font-size: 0.68rem; letter-spacing: 0.06em;
+    padding: 0.15rem 0.4rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    vertical-align: 0.1em;
+  }
+  .tag.good { color: var(--good); }
+  .tag.warn { color: var(--warn); }
+  .tag.sig  { color: var(--signal); }
+
+  .ask { counter-reset: ask; list-style: none; padding: 0; max-width: 62ch; }
+  .ask li {
+    counter-increment: ask;
+    display: grid; grid-template-columns: 1.9rem 1fr; gap: 0.5rem;
+    padding-block: 0.55rem;
+    border-block-end: 1px solid var(--rule);
+  }
+  .ask li::before {
+    content: counter(ask, decimal-leading-zero);
+    font-family: var(--font-data); font-size: 0.78rem; color: var(--signal);
+    padding-top: 0.2em;
+  }
+
+  footer.end { padding-block: 2.5rem 0; border-block-start: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.85rem; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+  }
+
+  /* ── print ───────────────────────────────────────────────── */
+  @media print {
+    :root { --ground: #fff; --ground-raised: #fff; --ink: #000; --ink-soft: #333; --rule: #999; --signal: #123; }
+    .controls, .rail, .tip { display: none !important; }
+    .wrap { padding-inline-start: 0; max-width: none; }
+    body { font-size: 10.5pt; }
+    section { break-inside: auto; page-break-inside: auto; border-top: 1px solid #999; }
+    .panel, .board, table, figure.chart, .msg { break-inside: avoid; page-break-inside: avoid; }
+    .board { position: static; }
+    h1, h2 { break-after: avoid; }
+    a { color: #000; text-decoration: none; }
+  }
+</style>
+
+<div class="rail" aria-hidden="true">
+  <div class="spine"></div>
+  <div class="marker"></div>
+</div>
+
+<div class="wrap">
+
+  <div class="controls">
+    <button class="btn" id="lang-he" aria-pressed="true" data-lang-set="he">עברית</button>
+    <button class="btn" id="lang-en" aria-pressed="false" data-lang-set="en">English</button>
+    <nav class="toc" aria-label="sections"></nav>
+    <span class="spacer"></span>
+    <button class="btn" id="theme" aria-label="theme">◐</button>
+    <button class="btn" id="print"><x-he>הדפסה</x-he><x-en>Print</x-en></button>
+  </div>
+
+  <header class="masthead">
+    <p class="eyebrow">
+      <x-he>לקראת המפגש · 12 באוגוסט 2026</x-he>
+      <x-en>Before the visit · 12 August 2026</x-en>
+    </p>
+    <h1>
+      <x-he>O, גיל 9 — איך אני מלמד, ומה אני מבטיח</x-he>
+      <x-en>O, age 9 — how I teach, and what I promise</x-en>
+    </h1>
+    <p class="standfirst">
+      <x-he>מסמך אחד לשיחה אחת: מה אני חושב שקורה אצל ילד שגדל מוקף אנגלית, איך אני בודק אם זה נכון, מה קורה בשיעור עצמו, מה לא יקרה בו אף פעם — ומה כבר בנוי ועובד לפני שO נכנס לחדר.</x-he>
+      <x-en>One document for one conversation: what I think is happening inside a kid who grew up surrounded by English, how I check whether that's true, what a session actually contains, what will never happen in one — and what is already built and running before O walks in.</x-en>
+    </p>
+    <div class="params">
+      <span><x-he>תלמיד</x-he><x-en>Student</x-en> <b>O · 9</b></span>
+      <span><x-he>שיעור</x-he><x-en>Session</x-en> <b class="data">~45 <x-he>דק׳</x-he><x-en>min</x-en></b></span>
+      <span><x-he>תדירות</x-he><x-en>Frequency</x-en> <b><x-he>שבועי, יום ושעה קבועים</x-he><x-en>Weekly, fixed day and hour</x-en></b></span>
+      <span><x-he>מקום</x-he><x-en>Place</x-en> <b><x-he>אצלכם בבית</x-he><x-en>Your home</x-en></b></span>
+      <span><x-he>עלות</x-he><x-en>Cost</x-en> <b><x-he>אין</x-he><x-en>None</x-en></b></span>
+      <span><x-he>מלמד</x-he><x-en>Teacher</x-en> <b>עידן</b></span>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════ 01 -->
+  <section id="s1">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <h2><x-he>ההנחה שאני מתחיל ממנה</x-he><x-en>The premise I start from</x-en></h2>
+    </div>
+    <div class="cols">
+      <div class="c-main">
+        <p>
+          <x-he>אנגלית אצל O היא לא מקצוע שמגיע לביקור פעם בשבוע. היא כבר בפנים — במשחקים, בסרטונים, בשמות של דברים שהוא אוהב. הדלת פתוחה עוד לפני שנכנסתי.</x-he>
+          <x-en>English is not a subject that visits O once a week. It is already inside — in the games, the videos, the names of things he loves. The door is open before I arrive.</x-en>
+        </p>
+        <p>
+          <x-he><strong>אבל חשיפה היא לא הבנה, ואת ההבדל הזה אני לא מנחש.</strong> יש לי דוגמה שמלווה אותי: שכן, מבוגר, עם עבודה שיש בה אנגלית, שיחק עם הבן שלו משחק שלם מההתחלה עד הסוף — ובסוף שאל אם יש עוד שלבים. הסיום של המשחק, שנאמר במפורש באנגלית, פשוט לא הגיע אליו. שנים של חשיפה, ואפס משמעות שנקלטה.</x-he>
+          <x-en><strong>But exposure is not comprehension, and I don't guess at the difference.</strong> One example stays with me: an adult neighbour, with English in his job, played an entire game with his son start to finish — then asked afterwards whether there were more levels. The game's explicit, spoken-in-English ending never reached him. Years of exposure, zero absorbed meaning.</x-en>
+        </p>
+        <p>
+          <x-he>לכן השיעור הראשון הוא לא שיעור. הוא <strong>מדידה</strong> — עטופה במשחק, כך שO לא ירגיש שנבדק אפילו לרגע אחד. ואני לא מתחיל מ״הרמה שלו״ כפי שמישהו מדווח עליה. דיווחי רמה — שלכם, שלו, של בית הספר — הם מידע מצוין לגבי <em>מה להביא בתיק</em>, ואפס מידע לגבי מאיפה מתחילים. כולם מתחילים משלב אפס, ומטפסים מהר.</x-he>
+          <x-en>So session one is not a lesson. It is a <strong>measurement</strong> — wrapped in play, so that O never feels tested for a single moment. And I don't start from "his level" as anyone reports it. Level reports — yours, his, the school's — are excellent information about <em>what to pack in the bag</em>, and zero information about where to start. Everyone starts at rung zero, and climbs fast.</x-en>
+        </p>
+      </div>
+      <div class="c-side">
+        <div class="panel">
+          <h4><x-he>שלוש תוצאות אפשריות, ורק בדיקה מפרידה ביניהן</x-he><x-en>Three possible states, and only a probe separates them</x-en></h4>
+          <p class="dim" style="font-size:0.92rem">
+            <x-he>״הוא משחק באנגלית כל היום״ יכול להסתיר שלושה מצבים שונים לגמרי:</x-he>
+            <x-en>"He plays in English all day" can hide three completely different states:</x-en>
+          </p>
+          <ol style="font-size:0.92rem">
+            <li><x-he><strong>משמעות נקלטה</strong> — הוא מבין מה נאמר.</x-he><x-en><strong>Meaning absorbed</strong> — he understands what is said.</x-en></li>
+            <li><x-he><strong>צלילים בלי משמעות</strong> — הוא מזהה ומחקה, בלי לדעת מה זה אומר.</x-he><x-en><strong>Sound without meaning</strong> — he recognises and imitates, without knowing what it means.</x-en></li>
+            <li><x-he><strong>כלום</strong> — האנגלית עברה לידו.</x-he><x-en><strong>Nothing</strong> — the English went past him.</x-en></li>
+          </ol>
+          <p class="dim" style="font-size:0.92rem;margin-bottom:0">
+            <x-he>שלושתם נראים אותו דבר מבחוץ. הבדיקה: הוא מספר לי בעברית מה קורה במשחק שלו — מי הדמות, מה היא רוצה — ואז אני מראה לו רגע מתוכו ושואל מה נאמר שם. זה גם הרגע הכי מקרב בשיעור, כי אני לוקח את העולם שלו ברצינות.</x-he>
+            <x-en>All three look identical from outside. The probe: he tells me in Hebrew what happens in his game — who the character is, what they want — then I show him a moment from it and ask what was said. It is also the most connective moment of the session, because I'm taking his world seriously.</x-en>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 02 -->
+  <section id="s2">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <h2><x-he>הציד — תעשי אותו עכשיו, בעצמך</x-he><x-en>The treasure hunt — run it yourself, now</x-en></h2>
+    </div>
+    <p>
+      <x-he>זה הדבר הראשון שקורה בשיעור, בערך בדקה השמינית, וO הוא זה שסופר. <strong>לחצי על כל מילה שאת בטוחה ששמעת את O אומר</strong> — בעברית שוטפת, בלי לחשוב על זה כאנגלית. המספר בצד הוא שלו.</x-he>
+      <x-en>This is the first thing that happens in a session, around minute eight, and O does the counting. <strong>Tap every word you're sure you've heard O say</strong> — inside fluent Hebrew, without thinking of it as English. The number beside you is his.</x-en>
+    </p>
+    <div class="hunt">
+      <div>
+        <h4><x-he>יומיום</x-he><x-en>Everyday</x-en></h4>
+        <div class="chipset" data-group="everyday"></div>
+        <h4><x-he>מסכים ומשחקים</x-he><x-en>Screens and games</x-en></h4>
+        <div class="chipset" data-group="screens"></div>
+        <h4><x-he>אוכל</x-he><x-en>Food</x-en></h4>
+        <div class="chipset" data-group="food"></div>
+        <h4><x-he>ספורט וגוף</x-he><x-en>Sport and body</x-en></h4>
+        <div class="chipset" data-group="sport"></div>
+        <p class="dim" style="font-size:0.9rem;margin-top:1rem">
+          <x-he>אפשר להוסיף כל מילה שחסרה כאן — משחק מסוים, ערוץ, שם של דמות.</x-he>
+          <x-en>Add anything missing here — a specific game, a channel, a character's name.</x-en>
+        </p>
+        <form id="addword" style="display:flex;gap:0.4rem;flex-wrap:wrap">
+          <input type="text" id="addword-input" style="min-height:44px;padding-inline:0.6rem;border:1px solid var(--rule);border-radius:3px;background:var(--ground-raised);color:var(--ink);font-family:var(--font-data);direction:ltr" placeholder="another word…" aria-label="add a word">
+          <button class="btn" type="submit"><x-he>הוספה</x-he><x-en>Add</x-en></button>
+        </form>
+      </div>
+      <div class="board" aria-live="polite">
+        <span class="count data" id="hunt-count">0</span>
+        <span class="count-label">
+          <x-he>מילים באנגלית שO כבר מחזיק</x-he>
+          <x-en>English words O already owns</x-en>
+        </span>
+        <ol id="hunt-list"></ol>
+      </div>
+    </div>
+    <div class="note">
+      <p>
+        <x-he><strong>ההערה שהופכת את זה מטריק לכלי:</strong> לזהות מילה בדיבור זה לא לקרוא אותה, ולהגיד ״לוֹד״ מול מסך טעינה זה לא בהכרח לדעת מה זה. המספר הזה הוא הפתיחה, לא האבחון. בשיעור אני בודק את ההפרש בין השניים — ואת זה אני עושה בלי להכריז עליו, כדי שהוא לא ירגיש מבחן.</x-he>
+        <x-en><strong>The note that turns this from a trick into an instrument:</strong> recognising a word in speech is not reading it, and saying "load" at a loading screen is not necessarily knowing what it means. This number is the opening, not the diagnosis. In the session I measure the gap between the two — and I never announce that I'm doing it, so it never feels like a test.</x-en>
+      </p>
+    </div>
+    <p>
+      <x-he>מה שהמספר כן עושה: הוא הופך את המשפט ״אני לא יודע אנגלית״ לשקר גלוי, בתוך שתי דקות, כשהילד עצמו הביא את הראיות. אצל ילד שהתחביבים שלו רוויים אנגלית, זה בדרך כלל הרגע החזק ביותר של השיעור הראשון — ולכן אני מריץ אותו פעם אחת בלבד, ומיד הופך את המילים שלו לחומר הלימוד.</x-he>
+      <x-en>What the number does do: it turns "I don't know English" into a visible falsehood, inside two minutes, with the child himself supplying the evidence. For a kid whose hobbies are saturated in English this is usually the strongest moment of session one — which is why I run it exactly once, and immediately turn his own words into the teaching material.</x-en>
+    </p>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 03 -->
+  <section id="s3">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <h2><x-he>הסולם — איך מוצאים רמה בלי מבחן</x-he><x-en>The ladder — finding a level without a test</x-en></h2>
+    </div>
+    <p>
+      <x-he>אני עובד עם מכשיר אחד שמתאים לכל תלמיד: מתחילים במקום שבו ההצלחה מובטחת, מטפסים כל עוד מצליחים, והמקום שבו ההצלחה נעצרת <strong>הוא</strong> הרמה. אין ציון, אין דף, אין שאלות. כל שלב עטוף במשחק אחר.</x-he>
+      <x-en>I use one instrument that fits any student: start where success is guaranteed, climb while he succeeds, and the point where success stops <strong>is</strong> the level. No score, no worksheet, no quiz. Every rung is wrapped in a different game.</x-en>
+    </p>
+    <p>
+      <x-he>שני מסלולים רצים במקביל, כי אצל ילדים הם לא קשורים זה לזה: יש ילדים שמדברים יפה ולא מזהים אות, ויש ההפך. אם מסלול אחד נתקע, השני ממשיך.</x-he>
+      <x-en>Two tracks run in parallel, because in children they are unrelated: some speak well and can't recognise a letter, and the reverse exists too. If one track stalls, the other keeps going.</x-en>
+    </p>
+
+    <h3><x-he>מסלול א׳ — דיבור והבנה</x-he><x-en>Track A — speaking and understanding</x-en></h3>
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col"><x-he>שלב</x-he><x-en>Rung</x-en></th>
+            <th scope="col"><x-he>מה נבדק</x-he><x-en>What's probed</x-en></th>
+            <th scope="col"><x-he>איך זה נראה לילד</x-he><x-en>What the child sees</x-en></th>
+            <th scope="col"><x-he>עובר</x-he><x-en>Pass</x-en></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">A0</th>
+            <td><x-he>מילים באנגלית שכבר חיות בעברית שלו, ומהעולם שלו</x-he><x-en>English already living inside his Hebrew, plus his own domain</x-en></td>
+            <td><x-he>הציד מסעיף 02 — הוא מגלה שהוא כבר יודע</x-he><x-en>The hunt from section 02 — he discovers he already knows</x-en></td>
+            <td class="dim"><x-he>אין רף — זה שלב של קשר וגילוי</x-he><x-en>No bar — this rung is rapport and revelation</x-en></td>
+          </tr>
+          <tr>
+            <th scope="row">A1</th>
+            <td><x-he>הבנת הוראות: ״jump״, ״touch something red״</x-he><x-en>Receptive: "jump", "touch something red"</x-en></td>
+            <td><x-he>סיימון אומר / הרצפה היא לבה — הגוף עונה, לא הפה</x-he><x-en>Simon Says / the floor is lava — his body answers, not his mouth</x-en></td>
+            <td class="data">7 / 8</td>
+          </tr>
+          <tr>
+            <th scope="row">A2</th>
+            <td><x-he>הפקה: לתת שם באנגלית לחפצים ולפעולות</x-he><x-en>Productive: naming objects and actions</x-en></td>
+            <td><x-he>הוא המורה — ״תלמד אותי מילים שאתה יודע״</x-he><x-en>Role reversal — "teach me the words you know"</x-en></td>
+            <td class="data">6 / 8</td>
+          </tr>
+          <tr>
+            <th scope="row">A3</th>
+            <td><x-he>משפטים שלמים: ״what's your name?״, ״I like ___״</x-he><x-en>Chunks: "what's your name?", "I like ___"</x-en></td>
+            <td><x-he>התכתבות במחברת שמדברת רק אנגלית</x-he><x-en>A written correspondence with a notebook that only speaks English</x-en></td>
+            <td class="data">4 / 5</td>
+          </tr>
+          <tr>
+            <th scope="row">A4</th>
+            <td><x-he>שיחה: לתאר, לספר, להחזיק ארבעה־שישה תורות</x-he><x-en>Generative: describe, retell, hold 4–6 turns</x-en></td>
+            <td><x-he>רכילות על דמויות מהמשחק שלו</x-he><x-en>Gossip about characters from his own game</x-en></td>
+            <td class="data"><x-he>3 משפטים שהוא הרכיב לבד</x-he><x-en>3 utterances he composed himself</x-en></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><x-he>מסלול ב׳ — אותיות וקריאה</x-he><x-en>Track B — letters and reading</x-en></h3>
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col"><x-he>שלב</x-he><x-en>Rung</x-en></th>
+            <th scope="col"><x-he>מה נבדק</x-he><x-en>What's probed</x-en></th>
+            <th scope="col"><x-he>איך זה נראה לילד</x-he><x-en>What the child sees</x-en></th>
+            <th scope="col"><x-he>עובר</x-he><x-en>Pass</x-en></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">B1</th>
+            <td><x-he>שש אותיות, כולל אלה שבשם שלו</x-he><x-en>Six letters, including the ones in his own name</x-en></td>
+            <td><x-he>חותמות — הוא מחתים את שמו על כריכת המחברת</x-he><x-en>Letter stamps — he stamps his name onto his notebook cover</x-en></td>
+            <td class="data">5 / 6</td>
+          </tr>
+          <tr>
+            <th scope="row">B2</th>
+            <td><x-he>לפענח מילים קצרות</x-he><x-en>Decoding short words</x-en></td>
+            <td><x-he>״לפצח את הקוד״ — עבודת ריגול</x-he><x-en>"Crack the code" — spy work</x-en></td>
+            <td class="data">2 / 3</td>
+          </tr>
+          <tr>
+            <th scope="row">B3</th>
+            <td><x-he>משפט אחד, עם משמעות אמיתית</x-he><x-en>One sentence, with real meaning</x-en></td>
+            <td><x-he>הודעה סודית שמדברת עליו — והוא מגיב לתוכן</x-he><x-en>A secret message about him — and he reacts to the content</x-en></td>
+            <td class="dim"><x-he>הוא מגיב לתוכן, לא רק מבטא</x-he><x-en>Reacts to content, not just pronounces</x-en></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="cols">
+      <div class="c-main">
+        <div class="note good">
+          <p>
+            <x-he><strong>שני החוקים שמגנים עליו:</strong> אחרי שתי החמצות ברצף אני עוצר — זאת הרמה, ואין מה להוכיח מעבר לה. ואז יורדים שלב אחד אחורה למשהו שהוא כבר יודע, ומסיימים שם. <strong>מסלול לא נגמר על כישלון, אף פעם.</strong></x-he>
+            <x-en><strong>The two rules that protect him:</strong> after two consecutive misses I stop — that is the level, and there is nothing to prove beyond it. Then we step back one rung to something he owns, and land there. <strong>A track never ends on a miss. Ever.</strong></x-en>
+          </p>
+        </div>
+      </div>
+      <div class="c-side">
+        <div class="note warn">
+          <p>
+            <x-he><strong>הסיכון בגיל תשע עם ילד חזק:</strong> הוא יריח שבודקים אותו. התרופה היא שהשלבים הגבוהים הם הכי דמויי־שיחה — וברגע שזה מתחיל להריח כמו מבחן, אני זונח את הסולם ופשוט מדבר איתו. הנתונים של A4 מגיעים מעצמם בשיחה טובה.</x-he>
+            <x-en><strong>The risk with a strong nine-year-old:</strong> he'll sense he's being assessed. The antidote is that the upper rungs are the most conversation-like — and the moment it smells like a quiz, I drop the ladder and just talk to him. A4 data arrives on its own inside a good conversation.</x-en>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 04 -->
+  <section id="s4">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <h2><x-he>מה קורה בשיעור רגיל</x-he><x-en>What a normal session contains</x-en></h2>
+    </div>
+    <p>
+      <x-he>מהשיעור השני והלאה יש מבנה קבוע. הוא לא סד — ילד שנדלק על משהו גובר על המבנה, ואני רושם מה באמת קרה — אבל בלי מבנה שיעור הופך לשיחה נעימה בלי הצטברות.</x-he>
+      <x-en>From session two onward there is a fixed structure. It isn't a cage — a kid who catches fire on something beats the grid, and I log what actually happened — but without structure a session becomes a pleasant chat that doesn't accumulate.</x-en>
+    </p>
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col"><x-he>חלק</x-he><x-en>Block</x-en></th>
+            <th scope="col"><x-he>זמן</x-he><x-en>Time</x-en></th>
+            <th scope="col"><x-he>מה קורה</x-he><x-en>What happens</x-en></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">1</th><td><x-he>שלום</x-he><x-en>Hello</x-en></td><td class="data">3′</td><td><x-he>כניסה חמה, באנגלית. השיעור כבר התחיל.</x-he><x-en>A warm way in, in English. The lesson has already started.</x-en></td></tr>
+          <tr><th scope="row">2</th><td><x-he>חימום שליפה</x-he><x-en>Retrieval warm-up</x-en></td><td class="data">8–10′</td><td><x-he>משחק שמחזיר מילים שהגיע מועדן לפי לוח הזמנים. משוב מיידי על כל ניסיון; החמצה לא נדונה — המילה פשוט יורדת שלב וחוזרת מוקדם יותר.</x-he><x-en>A game that recalls the words due today. Immediate feedback on every attempt; a miss is never dwelt on — the word simply drops a rung and returns sooner.</x-en></td></tr>
+          <tr><th scope="row">3</th><td><x-he>חומר חדש</x-he><x-en>New material</x-en></td><td class="data">12′</td><td><x-he>5–7 מילים־עבודה מהעולם שלו, ועוד ״מילת וואו״ אחת כקינוח. שליטה לפני כמות.</x-he><x-en>5–7 workhorse words from his own world, plus one "wow word" as dessert. Mastery before volume.</x-en></td></tr>
+          <tr><th scope="row">4</th><td><x-he>משחק תנועה</x-he><x-en>Movement game</x-en></td><td class="data">8′</td><td><x-he>גוף, לא דף. מערבב חדש עם ישן, ומשמש גם כהפסקת ריכוז.</x-he><x-en>Bodies, not paper. Mixes new with old, and doubles as the concentration break.</x-en></td></tr>
+          <tr><th scope="row">5</th><td><x-he>סיפור</x-he><x-en>Story</x-en></td><td class="data">10′</td><td><x-he>סיפור שממחזר את אוצר המילים. לאורך חודשים הוא עובר ממאזין למספר.</x-he><x-en>A story recycling the vocabulary. Over months he shifts from listener to co-teller.</x-en></td></tr>
+          <tr><th scope="row">6</th><td><x-he>ביי</x-he><x-en>Goodbye</x-en></td><td class="data">3′</td><td><x-he>יציאה טובה, ומשפט אחד: ״מה אני יודע להגיד עכשיו שלא ידעתי לפני שעה״.</x-he><x-en>A good way out, and one line: "what I can say now that I couldn't an hour ago."</x-en></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cols">
+      <div class="c-main">
+        <h4><x-he>שני משטחים, שני תפקידים</x-he><x-en>Two surfaces, two jobs</x-en></h4>
+        <p>
+          <x-he><strong>הלוח המחיק הוא למקום שבו מנסים</strong> — טעות שם לא עולה כלום, היא נמחקת. <strong>המחברת היא להכתרה</strong> — קבועה, שלו, ומילה נכנסת אליה רק אחרי שהיא כבר נחתה. מנסים על הלוח, מנצחים בספר.</x-he>
+          <x-en><strong>The whiteboard is for trying</strong> — an error there costs nothing, it wipes away. <strong>The notebook is for crowning</strong> — permanent, his, and a word enters it only once it has landed. Try on the board, win in the book.</x-en>
+        </p>
+      </div>
+      <div class="c-side">
+        <h4><x-he>קצב</x-he><x-en>Rhythm</x-en></h4>
+        <p class="dim">
+          <x-he>עשר דקות לפעילות, לכל היותר. פעילות שמתה נזרקת בלי טקס. כשמשהו מתנדנד — חוזרים לניצחון ישן. ומסיימים בזמן שעוד כיף, לא כשנגמר האוויר.</x-he>
+          <x-en>Ten minutes per activity, maximum. A dead activity is dropped without ceremony. When anything wobbles — return to an old win. And we stop while it's still fun, not when the air runs out.</x-en>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 05 -->
+  <section id="s5">
+    <div class="sec-head">
+      <span class="sec-num">05</span>
+      <h2><x-he>איך זה נראה על לוח שנה</x-he><x-en>What this looks like on a calendar</x-en></h2>
+    </div>
+    <p>
+      <x-he>ההצטברות לא מגיעה מהשיעור — היא מגיעה מכך שמילה חוזרת בדיוק לפני שהיא נשכחת. כל קבוצת מילים חוזרת בפער שהולך וגדל: שיעור הבא, שבועיים, חודש, שלושה חודשים. מילה שנשמטת חוזרת מוקדם יותר. זה כל הסוד, והוא לא סוד — הוא לוח זמנים.</x-he>
+      <x-en>Accumulation doesn't come from the session — it comes from a word returning just before it's forgotten. Each group of words comes back at widening gaps: next session, two weeks, one month, three months. A word that slips returns sooner. That's the whole trick, and it isn't a trick — it's a schedule.</x-en>
+    </p>
+    <p>
+      <x-he><strong>בחרי תדירות ותאריך התחלה, והדף יחשב את הלוח.</strong> המספרים כאן הם הקצב שהשיטה מניחה, לא הבטחה — ילד אמיתי לא צועד על גרף.</x-he>
+      <x-en><strong>Choose a frequency and a start date, and the page computes the schedule.</strong> These figures are the rate the method assumes, not a promise — a real child does not walk along a graph.</x-en>
+    </p>
+
+    <div class="fields">
+      <label class="field">
+        <span><x-he>שיעור ראשון</x-he><x-en>First session</x-en></span>
+        <input type="date" id="startdate" value="2026-08-16">
+      </label>
+      <div class="field">
+        <span><x-he>תדירות</x-he><x-en>Frequency</x-en></span>
+        <div class="seg" role="group">
+          <button class="btn" data-freq="1" aria-pressed="true"><x-he>פעם בשבוע</x-he><x-en>Once a week</x-en></button>
+          <button class="btn" data-freq="2" aria-pressed="false"><x-he>פעמיים בשבוע</x-he><x-en>Twice a week</x-en></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div class="c-main">
+        <figure class="chart">
+          <div class="chartbox">
+            <svg class="plot" id="plot" viewBox="0 0 640 300" role="img" preserveAspectRatio="xMidYMid meet"
+                 aria-label="Projected cumulative vocabulary over six months"></svg>
+            <div class="tip" id="tip"></div>
+          </div>
+          <figcaption id="plot-cap"></figcaption>
+        </figure>
+      </div>
+      <div class="c-side">
+        <h4><x-he>המילים של השיעור הראשון — מתי הן חוזרות</x-he><x-en>Session one's words — when they come back</x-en></h4>
+        <div class="scroller">
+          <table id="ladder">
+            <thead>
+              <tr>
+                <th scope="col"><x-he>חזרה</x-he><x-en>Return</x-en></th>
+                <th scope="col"><x-he>תאריך</x-he><x-en>Date</x-en></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="ledger" id="ledger"></div>
+      </div>
+    </div>
+    <div class="note">
+      <p>
+        <x-he><strong>למה תדירות חשובה יותר מתוכן:</strong> פעם בשבוע פירושה שהחזרה הראשונה נופלת שבוע אחרי, בדיוק על החלק התלול של עקומת השכחה. לכן אצל תלמיד שבועי הדוח להורה נושא תפקיד אמיתי — הוא מכניס רגע שליפה אחד באמצע השבוע, בלי לקרוא לזה שיעורי בית.</x-he>
+        <x-en><strong>Why frequency matters more than lesson design:</strong> once a week means the first recall lands seven days later, on the steepest part of the forgetting curve. That is why the parent note carries real weight for a weekly student — it inserts one retrieval event mid-gap, without calling it homework.</x-en>
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 06 -->
+  <section id="s6">
+    <div class="sec-head">
+      <span class="sec-num">06</span>
+      <h2><x-he>מה לא יקרה כאן</x-he><x-en>What will not happen here</x-en></h2>
+    </div>
+    <div class="cols">
+      <div class="c-main">
+        <div class="panel">
+          <h4><x-he>אין ציונים, ואין לוח ניקוד</x-he><x-en>No grades, no scoreboard</x-en></h4>
+          <p><x-he>לא מבחן, לא ציון, לא כוכבים שנספרים. מדבקות חוגגות רגע — הן לא מטבע ולא פרס. ברגע שיש נקודות, יש כלכלה, ואז הילד לומד בשביל המטבע.</x-he><x-en>No test, no mark, no stars that add up. Stickers celebrate a moment — they are never currency or a prize. The moment there are points there is an economy, and the child learns for the coin.</x-en></p>
+        </div>
+        <div class="panel">
+          <h4><x-he>הקושי לא מגיע אליכם</x-he><x-en>The struggles don't reach you</x-en></h4>
+          <p><x-he>מה שקשה לו נשאר ביומן הפרטי שלי — שם הוא מייצר את התוכנית לשיעור הבא. הדוח שאת מקבלת הוא חיובי בלבד, לא מתוך יפייפוי אלא כי דוח שמתאר קשיים הופך אצל ההורה ללחץ, והלחץ חוזר לילד ומכבה את הדלת שנפתחה.</x-he><x-en>What is hard for him stays in my private log — where it generates the next session's plan. The note you receive is positive-only; not out of prettification, but because a note describing struggles becomes pressure in a parent's hands, and pressure returns to the child and closes the door that opened.</x-en></p>
+        </div>
+        <div class="panel">
+          <h4><x-he>O לא מדבר עם בינה מלאכותית</x-he><x-en>O never talks to an AI</x-en></h4>
+          <p><x-he>אני משתמש בכלים כאלה לבנות את השיטה, להכין שיעורים ולנתח מה עבד — אחרי שהשיעור נגמר. הם לעולם לא בחדר, אין מסך בין הפנים שלנו, וO לא לומד מצ׳אטבוט. הוא לומד מאדם.</x-he><x-en>I use such tools to build the method, prepare sessions, and analyse what worked — after the session ends. They are never in the room, there is no screen between our faces, and O does not learn from a chatbot. He learns from a person.</x-en></p>
+        </div>
+        <div class="panel">
+          <h4><x-he>אין שיעורי בית כפויים</x-he><x-en>No imposed homework</x-en></h4>
+          <p><x-he>מה שהולך הביתה זה משהו שהוא רוצה לסיים, ובקשה אחת קטנה אליכם: לתת לו ללמד אתכם משהו. ילד שמלמד — שולף, וזאת החזרה הכי חזקה שיש.</x-he><x-en>What goes home is something he wants to finish, plus one small request to you: let him teach you something. A child who teaches is retrieving, and that's the strongest form of practice there is.</x-en></p>
+        </div>
+      </div>
+      <div class="c-side">
+        <div class="panel">
+          <h4><x-he>המדד היחיד לשיעור הראשון</x-he><x-en>The only metric for session one</x-en></h4>
+          <p>
+            <x-he><strong>שהוא ירצה שיעור שני.</strong> לא כמה מילים כוסו, לא כמה הספקנו. אם הוא צחק ורוצה שאחזור — הצלחתי. ילד שרוצה לחזור ילמד שנתיים; ילד שכיסה חומר מצוין ולא רוצה לחזור לא ילמד כלום.</x-he>
+            <x-en><strong>That he wants a session two.</strong> Not how many words were covered, not how much ground we made. If he laughed and wants me back — it worked. A child who wants to return will learn for two years; a child who covered material beautifully and doesn't want to return will learn nothing.</x-en>
+          </p>
+        </div>
+        <div class="panel">
+          <h4><x-he>את בטווח שמיעה, הדלת פתוחה</x-he><x-en>You're in earshot, the door stays open</x-en></h4>
+          <p><x-he>אני לא סוגר דלת עם ילד. את מוזמנת להיכנס, לשמוע, להצטרף לרגע. ואם באמצע את עוברת — אני אזמין אותך להסתכל על הלוח, לא אבקש ממך לבדוק אותו.</x-he><x-en>I don't close a door with a child. You're welcome to walk in, listen, join for a moment. And if you pass through mid-session, I'll invite you to look at the board — I won't ask you to test him.</x-en></p>
+        </div>
+        <div class="panel">
+          <h4><x-he>למה בחינם</x-he><x-en>Why it's free</x-en></h4>
+          <p><x-he>כי אני בונה שיטה, וO מקבל שיעורים אמיתיים בזמן שאני לומד ללמד. זאת עסקה הוגנת ואני מעדיף להגיד אותה בקול: אני מרוויח מהשיעורים האלה ניסיון ונתונים על מה שעובד. אין התחייבות, ואפשר להפסיק בכל רגע בלי הסבר.</x-he><x-en>Because I'm building a method, and O gets real lessons while I learn to teach. It's a fair trade and I'd rather say it out loud: I gain experience and evidence about what works. There's no commitment, and you can stop at any point without explaining.</x-en></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 07 -->
+  <section id="s7">
+    <div class="sec-head">
+      <span class="sec-num">07</span>
+      <h2><x-he>הקלטה — הבקשה, במלואה</x-he><x-en>Recording — the request, in full</x-en></h2>
+    </div>
+    <div class="cols">
+      <div class="c-main">
+        <p>
+          <x-he>אני מבקש להקליט את השיעור. הסיבה פשוטה: בזמן ששיחקתי איתו אני מפספס חצי ממה שהוא אמר, ואת רשימת המילים שהוא כבר מחזיק אני רוצה לכתוב נכון ולא מהזיכרון. אני מאזין אחר כך, מוציא את המילים ואת מה שעבד, וזהו.</x-he>
+          <x-en>I'd like to record the session. The reason is plain: while playing with him I miss half of what he says, and I want the list of words he already owns written down accurately rather than from memory. I listen afterwards, extract the words and what worked, and that's it.</x-en>
+        </p>
+        <h4><x-he>ההתחייבות, מילה במילה</x-he><x-en>The commitment, word for word</x-en></h4>
+        <ul>
+          <li><x-he><strong>אף אחד חוץ ממני לא שומע את זה.</strong> לא נשלח לאף אחד, לא מועלה לשום מקום, לא מושמע לאף אדם — כולל לא לכם. הקלטתם שיעור, לא נתתם לי אודיו של הילד שלכם להעביר הלאה.</x-he><x-en><strong>Nobody but me hears it.</strong> It is not sent to anyone, not uploaded anywhere, not played to any person — including you. You consented to a lesson being recorded, not to handing me audio of your child to pass on.</x-en></li>
+          <li><x-he><strong>אני מוחק אחרי שהוצאתי את מה שצריך.</strong> מה שנשאר זה טקסט: רשימת מילים, שלבים, ומשפטים שאמר. ההקלטה עצמה נמחקת.</x-he><x-en><strong>I delete it once I've extracted what I need.</strong> What remains is text: a word list, rungs, and sentences he said. The recording itself is deleted.</x-en></li>
+          <li><x-he><strong>העיבוד רץ אצלי במחשב, לא בענן.</strong> התמלול נעשה על כרטיס מסך בבית — הקובץ לא עולה לשום שירות ולא יוצא מהמחשב.</x-he><x-en><strong>Processing runs on my own machine, not in a cloud.</strong> Transcription happens on a GPU at home — the file is not uploaded to any service and never leaves the computer.</x-en></li>
+          <li><x-he><strong>המכשיר גלוי על השולחן</strong>, נכבה ברגע שהשיעור נגמר, ואם O אומר ״תפסיק להקליט״ — זה נעצר מיד, בלי שאלה ובלי הבעת פנים.</x-he><x-en><strong>The device sits visible on the table</strong>, goes off the moment the session ends, and if O says "stop recording" it stops instantly — no question, no expression.</x-en></li>
+          <li><x-he><strong>אני שואל גם את O בעצמו</strong>, לפני שנלחץ משהו. זה הקול שלו; ההסכמה שלכם הכרחית ולא מספיקה. ״לא״ שלו מבטל, גם אם אמרתם כן.</x-he><x-en><strong>I ask O himself</strong>, before anything is pressed. It's his voice; your consent is necessary and not sufficient. His "no" ends it, even if you said yes.</x-en></li>
+          <li><x-he><strong>סירוב לא עולה כלום.</strong> אין הקלטה — יש שיעור, בדיוק אותו שיעור. אני פשוט אכתוב פחות מדויק.</x-he><x-en><strong>Refusing costs nothing.</strong> No recording means the same session, unchanged. I'll simply write it down less accurately.</x-en></li>
+        </ul>
+      </div>
+      <div class="c-side">
+        <div class="panel">
+          <h4><x-he>תקדים</x-he><x-en>Precedent</x-en></h4>
+          <p>
+            <x-he>ביום שני, ה־10 באוגוסט, העברתי שיעור ראשון לשתי אחיות בנות 9 ו־12. שאלתי את שתיהן ואת אמא שלהן — כל השלוש הסכימו מיד, בלי היסוס ובלי דרמה. אותו נוסח, אותה התחייבות, אותו נוהל שכתוב כאן.</x-he>
+            <x-en>On Monday 10 August I ran a first session with two sisters, aged 9 and 12. I asked both girls and their mother — all three agreed immediately, without hesitation and without drama. Same wording, same commitment, same protocol written here.</x-en>
+          </p>
+        </div>
+        <div class="panel">
+          <h4><x-he>מה ההקלטה לא תעשה</x-he><x-en>What the recording can't do</x-en></h4>
+          <p>
+            <x-he>תמלול לא מסוגל לשפוט מבטא — מנועי התמלול ״מתקנים״ הגייה שגויה למילה שהם מצפים לה. בדקתי את זה במיוחד. לכן כל תצפית על הגייה נעשית חיה, בחדר, או בכלל לא. ההקלטה משמשת לתוכן: מילים, משפטים, מה הצחיק אותו.</x-he>
+            <x-en>A transcript cannot judge pronunciation — the engines silently "correct" a mispronunciation into the word they expect. I tested this specifically. So every pronunciation observation happens live, in the room, or not at all. The recording is for content: words, sentences, what made him laugh.</x-en>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 08 -->
+  <section id="s8">
+    <div class="sec-head">
+      <span class="sec-num">08</span>
+      <h2><x-he>מה כבר קיים</x-he><x-en>What already exists</x-en></h2>
+    </div>
+    <p>
+      <x-he>אני לא מתחיל את זה עם O. השיטה, הערכה והנהלים נבנו לאורך החודשיים האחרונים, ורצו כבר על ילדים אמיתיים.</x-he>
+      <x-en>I'm not starting this with O. The method, the kit and the protocols were built over the past two months, and have already run with real children.</x-en>
+    </p>
+    <div class="cols">
+      <div class="c-main">
+        <h4><x-he>מסמכים</x-he><x-en>Documents</x-en></h4>
+        <ul>
+          <li><x-he><strong>מדריך שיעור ראשון</strong> — התיק, המסגור, חמש הדקות הראשונות מילה במילה, ופלייבוק סיכונים: מה עושים כשילד שותק, כשהריכוז קורס, כשיש דמעות, כשנשמעת אזעקה.</x-he><x-en><strong>Lesson-one field guide</strong> — the bag, the framing, the first five minutes scripted word for word, and a risk playbook: what to do when a child goes silent, when attention collapses, when there are tears, when a siren sounds.</x-en></li>
+          <li><x-he><strong>מכשיר הבסיס האוניברסלי</strong> — הסולם מסעיף 03, עם קריטריוני מעבר ומנגנון טיפוס.</x-he><x-en><strong>The universal baseline instrument</strong> — the ladder from section 03, with pass criteria and climb mechanics.</x-en></li>
+          <li><x-he><strong>שלד השיעור</strong> — ששת החלקים, סולם החזרות, ופורמט הדוח להורה. בנוי על מחקר בשליפה מרווחת אצל ילדי יסודי.</x-he><x-en><strong>The session skeleton</strong> — the six blocks, the retention ladder, and the parent-note format. Built on spaced-retrieval research with primary-school children.</x-en></li>
+          <li><x-he><strong>יומן מעקב</strong> — קבוצות מילים, מה מועד לחזרה, ואילו שיטות לימוד באמת מחזיקות אצל הילד הזה. שלוש דקות אחרי כל שיעור.</x-he><x-en><strong>The tracker</strong> — word cohorts, what's due for recall, and which teaching methods actually hold for this particular child. Three minutes after each session.</x-en></li>
+        </ul>
+        <h4><x-he>התיק</x-he><x-en>The kit</x-en></h4>
+        <p class="dim">
+          <x-he>מחברת אנגלית שנמסרת בדקה הראשונה ונשארת שלו · עפרונות וצבעים · לוח מחיק קטן · חותמות אותיות A–Z · מדבקות אלפבית וחיות · טלפון עם קטעים טעונים מראש, בלי אינטרנט בחדר.</x-he>
+          <x-en>An English notebook, handed over in minute one and kept · pencils and colours · a small whiteboard · A–Z letter stamps · alphabet and animal stickers · a phone with clips cued offline, so no internet enters the room.</x-en>
+        </p>
+      </div>
+      <div class="c-side">
+        <h4><x-he>מי כבר בפנים</x-he><x-en>Who's already in</x-en></h4>
+        <div class="scroller">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col"><x-he>תלמיד</x-he><x-en>Student</x-en></th>
+                <th scope="col"><x-he>סטטוס</x-he><x-en>Status</x-en></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><x-he>שתי אחיות, 9 ו־12</x-he><x-en>Two sisters, 9 and 12</x-en></td>
+                <td><span class="tag good"><x-he>רץ</x-he><x-en>running</x-en></span> <span class="dim"><x-he>שיעור ראשון 10.8, ~45 דק׳, שתיהן יחד</x-he><x-en>first session 10 Aug, ~45 min, both together</x-en></span></td>
+              </tr>
+              <tr>
+                <td><x-he>מבוגרת — שיפור מצגות בעבודה</x-he><x-en>An adult — presentation fluency at work</x-en></td>
+                <td><span class="tag sig"><x-he>בתור</x-he><x-en>queued</x-en></span></td>
+              </tr>
+              <tr>
+                <td><x-he>ילד בן 11</x-he><x-en>A boy of 11</x-en></td>
+                <td><span class="tag sig"><x-he>בתור</x-he><x-en>queued</x-en></span></td>
+              </tr>
+              <tr>
+                <td><x-he>O</x-he><x-en>O</x-en></td>
+                <td><span class="tag warn"><x-he>ממתין לך</x-he><x-en>waiting on you</x-en></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="note">
+          <p>
+            <x-he>הבדל אחד חשוב לטובתו של O: האחיות לומדות שתיים יחד, מה שמכניס השוואה בין אחיות לתוך החדר וגובה מחיר. <strong>O לומד אחד על אחד</strong> — אין קהל, אין השוואה, וטעות לא עולה כלום חברתית.</x-he>
+            <x-en>One difference in O's favour: the sisters learn two-on-one, which brings sibling comparison into the room and charges a price for it. <strong>O learns one-on-one</strong> — no audience, no comparison, and a mistake costs nothing socially.</x-en>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 09 -->
+  <section id="s9">
+    <div class="sec-head">
+      <span class="sec-num">09</span>
+      <h2><x-he>מה תקבלי אחרי כל שיעור</x-he><x-en>What you get after every session</x-en></h2>
+    </div>
+    <div class="cols">
+      <div class="c-main">
+        <p>
+          <x-he>הודעת וואטסאפ קצרה. שלוש שורות ולפעמים רביעית. היא לא דוח התקדמות ולא תעודה — היא הקבלה שלך על שירות חינמי, והדרך שלי לוודא שאת רואה התקדמות שקשה לראות מבחוץ.</x-he>
+          <x-en>A short WhatsApp message. Three lines, sometimes four. It is not a progress report and not a report card — it's your receipt for a free service, and my way of making sure you can see progress that is otherwise invisible.</x-en>
+        </p>
+        <div class="msg">
+          <p><span class="lead-in"><x-he>הרגע של היום</x-he><x-en>Today's win</x-en></span>
+            <x-he>O הסביר לי באנגלית מה עושים ב־<span class="lat">boss fight</span>, ובאמצע תיקן לי מילה.</x-he>
+            <x-en>O explained a <span class="lat">boss fight</span> to me in English, and corrected one of my words halfway through.</x-en>
+          </p>
+          <p><span class="lead-in"><x-he>חדש היום</x-he><x-en>New this session</x-en></span>
+            <span class="lat data">shield · heal · sharp · trade · empty</span> <x-he>+ מילת וואו:</x-he><x-en>+ wow word:</x-en> <span class="lat data">ambush</span> <x-he>· סה״כ מצטבר: 34</x-he><x-en>· running total: 34</x-en>
+          </p>
+          <p><span class="lead-in"><x-he>הוא יכול ללמד אותך</x-he><x-en>He can teach you</x-en></span>
+            <x-he>שאלי אותו איך אומרים ״מארב״ באנגלית — ותני לו להסביר לך למה זה לא אותו דבר כמו ״הפתעה״. שתי דקות, לא יותר.</x-he>
+            <x-en>Ask him how to say "ambush" in English — and let him explain why it isn't the same as "surprise". Two minutes, no more.</x-en>
+          </p>
+        </div>
+        <p class="dim" style="margin-top:0.9rem">
+          <x-he>השורה השלישית היא לא נימוס. ילד שמלמד מבצע שליפה מהזיכרון, וזה בדיוק הרגע שהמילה עוברת מ״שמעתי״ ל״שלי״. אצל תלמיד שבועי היא נופלת בדיוק באמצע החור.</x-he>
+          <x-en>The third line isn't a courtesy. A child who teaches performs a retrieval, which is precisely when a word moves from "heard it" to "mine". For a weekly student it lands exactly in the middle of the gap.</x-en>
+        </p>
+      </div>
+      <div class="c-side">
+        <div class="panel">
+          <h4><x-he>אבני דרך</x-he><x-en>Milestones</x-en></h4>
+          <p class="dim">
+            <x-he>סביב 100–150 מילים המבנה משתנה: הסיפור בולע את חלקי הלימוד, וO עובר ממאזין למספר. אחרי כשלושה חודשים אני מריץ שוב את אותו סולם מסעיף 03 — אותו מכשיר בדיוק — וההפרש בין המדידות הוא התשובה האמיתית לשאלה ״זה עובד?״.</x-he>
+            <x-en>Around 100–150 words the structure changes: the story swallows the teaching blocks, and O moves from listener to teller. At about three months I re-run the same ladder from section 03 — the identical instrument — and the difference between the two measurements is the real answer to "is this working?".</x-en>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════ 10 -->
+  <section id="s10">
+    <div class="sec-head">
+      <span class="sec-num">10</span>
+      <h2><x-he>מה אני צריך ממך</x-he><x-en>What I need from you</x-en></h2>
+    </div>
+    <ol class="ask">
+      <li><x-he><strong>יום ושעה קבועים, שבועי.</strong> תדירות מנצחת תכנון שיעורים. שבוע שמתפספס לא שובר כלום — המחברת ממשיכה לרוץ — אבל משבצת קבועה שווה יותר מכל דבר אחר שאבקש.</x-he><x-en><strong>A fixed day and hour, weekly.</strong> Frequency beats lesson design. A missed week breaks nothing — the notebook keeps running — but a standing slot is worth more than anything else I'll ask for.</x-en></li>
+      <li><x-he><strong>איך כותבים את השם שלו באנגלית</strong>, ואיך <em>הוא</em> אוהב שקוראים לו. השם שלו הוא המילה הראשונה שהוא יחתים על המחברת, ואם הוא בוחר איות משלו — זה האיות, לתמיד.</x-he><x-en><strong>How his name is spelled in English</strong>, and what <em>he</em> likes to be called. His name is the first word he stamps onto the notebook, and if he picks his own spelling — that's the spelling, permanently.</x-en></li>
+      <li><x-he><strong>שמות מדויקים של מה שהוא אוהב</strong> — איזה משחקים בדיוק, איזה ערוצי יוטיוב, איזו סדרה. לא ״משחקים במחשב״ אלא השם. מזה נבנה אוצר המילים של השיעורים הראשונים, וזה מה שאני שם בתיק.</x-he><x-en><strong>Exact names of what he loves</strong> — which games precisely, which YouTube channels, which show. Not "computer games" but the name. That's what the first sessions' vocabulary is built from, and what goes in the bag.</x-en></li>
+      <li><x-he><strong>שתי שאלות שרק את יכולה לענות עליהן:</strong> כשהוא משחק, הוא קורא את הטקסט על המסך או מדלג עליו? והאם הוא מקליד למישהו בצ׳אט באנגלית?</x-he><x-en><strong>Two questions only you can answer:</strong> when he plays, does he read the on-screen text or skip past it? And does he type to anyone in English chat?</x-en></li>
+      <li><x-he><strong>תשובה על ההקלטה</strong> — כן או לא, שתיהן בסדר גמור. אני אשאל גם אותו.</x-he><x-en><strong>An answer on recording</strong> — yes or no, both are entirely fine. I'll ask him too.</x-en></li>
+      <li><x-he><strong>דבר אחד שהוא כבר מצוין בו</strong>, כל דבר, לאו דווקא לימודי. שם מתחיל השיעור הראשון.</x-he><x-en><strong>One thing he's already excellent at</strong> — anything, not necessarily academic. That's where session one starts.</x-en></li>
+    </ol>
+    <div class="note good">
+      <p>
+        <x-he>ומה שלא צריך ממך: לתרגל איתו, לבדוק אותו, לשאול אותו מה למד, או לדאוג שיהיה מוכן. הוא צריך להיכנס לחדר בלי שום דבר להוכיח.</x-he>
+        <x-en>And what I don't need: for you to practise with him, test him, ask him what he learned, or make sure he's prepared. He needs to walk into the room with nothing to prove.</x-en>
+      </p>
+    </div>
+  </section>
+
+  <footer class="end">
+    <p>
+      <x-he>עידן · המסמך הזה נכתב לפני המפגש ב־12 באוגוסט 2026, ומסכם את מה שכבר עובד. כל דבר כאן פתוח לשינוי חוץ משורה אחת: O צריך לרצות שיעור שני.</x-he>
+      <x-en>Idan · Written before the visit on 12 August 2026, summarising what already runs. Everything here is open to change except one line: O has to want a session two.</x-en>
+    </p>
+  </footer>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const root = document.documentElement;
+  const LS = "o-brief-v1";
+  const state = Object.assign(
+    { lang: "he", theme: "auto", freq: 1, start: "2026-08-16", picked: [], extra: [] },
+    (() => { try { return JSON.parse(localStorage.getItem(LS)) || {}; } catch (e) { return {}; } })()
+  );
+  const save = () => { try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {} };
+  const t = (he, en) => (state.lang === "he" ? he : en);
+
+  /* ── language ─────────────────────────────────────────── */
+  function applyLang() {
+    root.setAttribute("data-lang", state.lang);
+    root.setAttribute("lang", state.lang);
+    root.setAttribute("dir", state.lang === "he" ? "rtl" : "ltr");
+    document.querySelectorAll("[data-lang-set]").forEach(b =>
+      b.setAttribute("aria-pressed", String(b.dataset.langSet === state.lang)));
+    buildToc();
+    renderProjection();
+    renderHunt();
+  }
+  document.querySelectorAll("[data-lang-set]").forEach(b =>
+    b.addEventListener("click", () => { state.lang = b.dataset.langSet; save(); applyLang(); }));
+
+  /* ── theme ────────────────────────────────────────────── */
+  function applyTheme() {
+    if (state.theme === "auto") root.removeAttribute("data-theme");
+    else root.setAttribute("data-theme", state.theme);
+  }
+  document.getElementById("theme").addEventListener("click", () => {
+    state.theme = state.theme === "auto" ? "light" : state.theme === "light" ? "dark" : "auto";
+    save(); applyTheme();
+  });
+  document.getElementById("print").addEventListener("click", () => window.print());
+
+  /* ── table of contents + rail ticks ───────────────────── */
+  const SECTIONS = [
+    ["s1", "ההנחה", "Premise"],
+    ["s2", "הציד", "Hunt"],
+    ["s3", "הסולם", "Ladder"],
+    ["s4", "השיעור", "Session"],
+    ["s5", "לוח שנה", "Calendar"],
+    ["s6", "מה לא", "Never"],
+    ["s7", "הקלטה", "Recording"],
+    ["s8", "מה קיים", "Built"],
+    ["s9", "הדוח", "The note"],
+    ["s10", "הבקשה", "The ask"]
+  ];
+  const toc = document.querySelector(".toc");
+  function buildToc() {
+    toc.textContent = "";
+    SECTIONS.forEach(([id, he, en], i) => {
+      const a = document.createElement("a");
+      a.href = "#" + id;
+      a.textContent = String(i + 1).padStart(2, "0") + " " + t(he, en);
+      a.dataset.for = id;
+      toc.appendChild(a);
+    });
+  }
+
+  /* Ticks encode real document structure: one tick per section, placed at
+     that section's fractional position in the document. */
+  function placeTicks() {
+    const rail = document.querySelector(".rail");
+    rail.querySelectorAll(".tick").forEach(n => n.remove());
+    /* The marker travels 0 → 100vh across the whole scroll, so a tick belongs at
+       the section's fraction of *scrollable* distance, not of document height. */
+    const travel = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    SECTIONS.forEach(([id], i) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const frac = Math.min(0.985, el.offsetTop / travel);
+      const tick = document.createElement("div");
+      tick.className = "tick";
+      tick.style.top = (frac * 100) + "vh";
+      const s = document.createElement("span");
+      s.textContent = String(i + 1).padStart(2, "0");
+      tick.appendChild(s);
+      rail.appendChild(tick);
+    });
+  }
+
+  const seen = new Map();
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => seen.set(e.target.id, e.intersectionRatio));
+    let best = null, bestR = 0;
+    seen.forEach((r, id) => { if (r > bestR) { bestR = r; best = id; } });
+    toc.querySelectorAll("a").forEach(a =>
+      a.setAttribute("aria-current", String(a.dataset.for === best)));
+  }, { threshold: [0, 0.15, 0.4, 0.75, 1] });
+  SECTIONS.forEach(([id]) => { const el = document.getElementById(id); if (el) io.observe(el); });
+
+  /* ── 02 · the treasure hunt tally ─────────────────────── */
+  const WORDS = {
+    everyday: ["ok", "bye", "hello", "telephone", "internet", "computer", "click", "mouse", "screen", "wifi", "battery", "charger", "message", "video", "radio", "taxi", "bus", "jeans", "shampoo", "doctor"],
+    screens: ["game", "level", "boss", "skin", "server", "online", "download", "update", "avatar", "chat", "player", "team", "map", "start", "stop", "channel", "like", "share", "stream", "trailer", "season", "episode", "robot", "monster", "zombie", "alien", "rocket", "laser"],
+    food: ["pizza", "chips", "hamburger", "sandwich", "ketchup", "cola", "chocolate", "banana", "popcorn", "cake", "toast", "salad"],
+    sport: ["goal", "penalty", "foul", "coach", "champion", "medal", "basketball", "football", "scooter", "skateboard", "jump", "run", "stop"]
+  };
+  const huntCount = document.getElementById("hunt-count");
+  const huntList = document.getElementById("hunt-list");
+
+  function renderHunt() {
+    document.querySelectorAll(".chipset").forEach(box => {
+      const group = box.dataset.group;
+      const list = WORDS[group].concat(group === "everyday" ? state.extra : []);
+      box.textContent = "";
+      list.forEach(w => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "chip";
+        b.textContent = w;
+        b.setAttribute("aria-pressed", String(state.picked.includes(w)));
+        b.addEventListener("click", () => {
+          const i = state.picked.indexOf(w);
+          if (i === -1) state.picked.push(w); else state.picked.splice(i, 1);
+          b.setAttribute("aria-pressed", String(i === -1));
+          save(); tally();
+        });
+        box.appendChild(b);
+      });
+    });
+    tally();
+  }
+  function tally() {
+    huntCount.textContent = state.picked.length;
+    huntList.textContent = "";
+    state.picked.forEach(w => {
+      const li = document.createElement("li");
+      li.textContent = w;
+      huntList.appendChild(li);
+    });
+  }
+  document.getElementById("addword").addEventListener("submit", e => {
+    e.preventDefault();
+    const input = document.getElementById("addword-input");
+    const w = input.value.trim().toLowerCase();
+    if (!w) return;
+    if (!state.extra.includes(w) && !WORDS.everyday.includes(w)) state.extra.push(w);
+    if (!state.picked.includes(w)) state.picked.push(w);
+    input.value = "";
+    save(); renderHunt();
+  });
+
+  /* ── 05 · the projector ───────────────────────────────── */
+  /* Rates and rungs come from the method notes, not from thin air:
+     2×/week → 10–14 new words per week, rungs next-session / 2wk / 1mo / 3mo.
+     1×/week →  5–7  new words per week, rungs 1wk / 1mo / 3mo. */
+  const MODEL = {
+    1: { lo: 5, hi: 7, perWeek: 1, rungs: [
+          { d: 7,  he: "שבוע", en: "1 week" },
+          { d: 30, he: "חודש", en: "1 month" },
+          { d: 90, he: "שלושה חודשים", en: "3 months" } ] },
+    2: { lo: 10, hi: 14, perWeek: 2, rungs: [
+          { d: 3,  he: "השיעור הבא", en: "next session" },
+          { d: 14, he: "שבועיים", en: "2 weeks" },
+          { d: 30, he: "חודש", en: "1 month" },
+          { d: 90, he: "שלושה חודשים", en: "3 months" } ] }
+  };
+  const startInput = document.getElementById("startdate");
+  startInput.value = state.start;
+  startInput.addEventListener("change", () => { state.start = startInput.value; save(); renderProjection(); });
+  document.querySelectorAll("[data-freq]").forEach(b =>
+    b.addEventListener("click", () => {
+      state.freq = Number(b.dataset.freq);
+      document.querySelectorAll("[data-freq]").forEach(x =>
+        x.setAttribute("aria-pressed", String(Number(x.dataset.freq) === state.freq)));
+      save(); renderProjection();
+    }));
+
+  const dayMs = 86400000;
+  const parseDate = s => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const fmt = d => d.toLocaleDateString(state.lang === "he" ? "he-IL" : "en-GB",
+    { day: "numeric", month: "short", year: "numeric" });
+
+  function sessionDates(start, freq, days) {
+    const out = [];
+    let cur = new Date(start), i = 0;
+    while ((cur - start) / dayMs <= days) {
+      out.push(new Date(cur));
+      cur = new Date(cur.getTime() + (freq === 2 ? (i % 2 === 0 ? 3 : 4) : 7) * dayMs);
+      i++;
+    }
+    return out;
+  }
+  const firstOnOrAfter = (dates, target) => dates.find(d => d >= target) || null;
+
+  function renderProjection() {
+    const m = MODEL[state.freq];
+    const start = parseDate(state.start);
+    const dates = sessionDates(start, state.freq, 200);
+
+    /* retention ladder for the first cohort */
+    const tbody = document.querySelector("#ladder tbody");
+    tbody.textContent = "";
+    m.rungs.forEach(r => {
+      const target = new Date(start.getTime() + r.d * dayMs);
+      const hit = firstOnOrAfter(dates.slice(1), target) || target;
+      const tr = document.createElement("tr");
+      const th = document.createElement("th");
+      th.scope = "row"; th.textContent = t(r.he, r.en);
+      const td = document.createElement("td");
+      td.className = "data"; td.textContent = fmt(hit);
+      tr.append(th, td); tbody.append(tr);
+    });
+
+    /* derived milestones */
+    const mid = (m.lo + m.hi) / 2;
+    const wkTo = n => Math.ceil(n / mid);
+    const corridorIn = wkTo(100), corridorOut = wkTo(150);
+    const audit = new Date(start.getTime() + 90 * dayMs);
+    const ledger = document.getElementById("ledger");
+    ledger.textContent = "";
+    [
+      [t("מילים חדשות בשבוע", "New words per week"), m.lo + "–" + m.hi],
+      [t("אחרי 3 חודשים", "At 3 months"), Math.round(m.lo * 13) + "–" + Math.round(m.hi * 13)],
+      [t("מעבר למבנה סיפור", "Story-spine transition"), t("שבוע ", "week ") + corridorIn + "–" + corridorOut],
+      [t("מדידה חוזרת", "Re-measurement"), fmt(audit)]
+    ].forEach(([k, v]) => {
+      const cell = document.createElement("div");
+      cell.className = "cell";
+      const ks = document.createElement("span"); ks.className = "k"; ks.textContent = k;
+      const vs = document.createElement("span"); vs.className = "v"; vs.textContent = v;
+      cell.append(ks, vs); ledger.append(cell);
+    });
+
+    drawPlot(m, start);
+    document.getElementById("plot-cap").textContent = t(
+      "אוצר מילים מצטבר לאורך חצי שנה. הרצועה היא הטווח שהשיטה מניחה (" + m.lo + "–" + m.hi +
+      " מילים חדשות בשבוע), הקו הוא האמצע, והפס האופקי הוא המסדרון 100–150 שבו מבנה השיעור משתנה. הזיזי את הסמן על הגרף.",
+      "Cumulative vocabulary over six months. The band is the rate the method assumes (" + m.lo + "–" + m.hi +
+      " new words per week), the line is its midpoint, and the horizontal strip is the 100–150 corridor where the session structure changes. Move the pointer across the plot."
+    );
+  }
+
+  /* One series, one accent: a band with its midpoint line. No legend needed —
+     the caption names it. Grid and axis stay recessive. */
+  const W = 640, H = 300, PAD = { t: 14, r: 16, b: 28, l: 40 };
+  const WEEKS = 26;
+
+  function drawPlot(m, start) {
+    const svg = document.getElementById("plot");
+    const ns = "http://www.w3.org/2000/svg";
+    svg.textContent = "";
+    const rtl = state.lang === "he";
+    const padL = rtl ? PAD.r : PAD.l, padR = rtl ? PAD.l : PAD.r;
+    const iw = W - padL - padR, ih = H - PAD.t - PAD.b;
+    const yMax = Math.ceil((m.hi * WEEKS) / 50) * 50;
+    const x = w => rtl ? padL + iw - (w / WEEKS) * iw : padL + (w / WEEKS) * iw;
+    const y = v => PAD.t + ih - (v / yMax) * ih;
+
+    const el = (name, attrs, text) => {
+      const n = document.createElementNS(ns, name);
+      for (const k in attrs) n.setAttribute(k, attrs[k]);
+      if (text != null) n.textContent = text;
+      svg.appendChild(n);
+      return n;
+    };
+
+    /* corridor where the structure changes */
+    el("rect", { class: "corridor", x: Math.min(x(0), x(WEEKS)), y: y(150),
+                 width: iw, height: Math.max(0, y(100) - y(150)) });
+    el("line", { class: "corridor-line", x1: x(0), x2: x(WEEKS), y1: y(100), y2: y(100) });
+    el("line", { class: "corridor-line", x1: x(0), x2: x(WEEKS), y1: y(150), y2: y(150) });
+
+    /* grid + y labels */
+    for (let v = 0; v <= yMax; v += 50) {
+      el("line", { class: "grid", x1: x(0), x2: x(WEEKS), y1: y(v), y2: y(v),
+                   opacity: v === 0 ? 0 : 0.55 });
+      el("text", { x: rtl ? padL + iw + 6 : padL - 8, y: y(v) + 3,
+                   "text-anchor": rtl ? "start" : "end" }, String(v));
+    }
+    /* x axis + labels, in months */
+    el("line", { class: "axis", x1: x(0), x2: x(WEEKS), y1: y(0), y2: y(0) });
+    for (let mo = 0; mo <= 6; mo++) {
+      const w = mo * (WEEKS / 6);
+      el("line", { class: "axis", x1: x(w), x2: x(w), y1: y(0), y2: y(0) + 4 });
+      el("text", { x: x(w), y: H - 10, "text-anchor": "middle" },
+         mo === 0 ? (state.lang === "he" ? "התחלה" : "start") : mo + (state.lang === "he" ? " ח׳" : "mo"));
+    }
+
+    /* the band */
+    let up = "", down = "";
+    for (let w = 0; w <= WEEKS; w++) {
+      up += (w === 0 ? "M" : "L") + x(w).toFixed(1) + "," + y(m.hi * w).toFixed(1);
+    }
+    for (let w = WEEKS; w >= 0; w--) {
+      down += "L" + x(w).toFixed(1) + "," + y(m.lo * w).toFixed(1);
+    }
+    el("path", { class: "band", d: up + down + "Z" });
+
+    let midp = "";
+    const mid = (m.lo + m.hi) / 2;
+    for (let w = 0; w <= WEEKS; w++) {
+      midp += (w === 0 ? "M" : "L") + x(w).toFixed(1) + "," + y(mid * w).toFixed(1);
+    }
+    el("path", { class: "mid", d: midp });
+
+    /* direct label on the endpoint only — never a number on every point */
+    const endLabel = Math.round(m.lo * WEEKS) + "–" + Math.round(m.hi * WEEKS);
+    el("text", { x: x(WEEKS), y: y(mid * WEEKS) - 10,
+                 "text-anchor": rtl ? "start" : "end", "font-weight": "600" }, endLabel);
+
+    /* hover layer */
+    const cross = el("line", { class: "cross", x1: 0, x2: 0, y1: PAD.t, y2: y(0), opacity: 0 });
+    const dot = el("circle", { class: "dot", r: 4, cx: 0, cy: 0, opacity: 0 });
+    const hit = el("rect", { x: Math.min(x(0), x(WEEKS)), y: PAD.t, width: iw, height: ih,
+                             fill: "transparent", "pointer-events": "all" });
+    const tip = document.getElementById("tip");
+
+    const move = ev => {
+      const r = svg.getBoundingClientRect();
+      const px = ((ev.clientX - r.left) / r.width) * W;
+      let w = rtl ? (padL + iw - px) / iw * WEEKS : (px - padL) / iw * WEEKS;
+      w = Math.max(0, Math.min(WEEKS, Math.round(w)));
+      const lo = Math.round(m.lo * w), hi = Math.round(m.hi * w);
+      cross.setAttribute("x1", x(w)); cross.setAttribute("x2", x(w));
+      cross.setAttribute("opacity", 1);
+      dot.setAttribute("cx", x(w)); dot.setAttribute("cy", y(mid * w));
+      dot.setAttribute("opacity", 1);
+      const when = new Date(start.getTime() + w * 7 * dayMs);
+      tip.textContent = (state.lang === "he"
+        ? "שבוע " + w + " · " + lo + "–" + hi + " מילים · " + fmt(when)
+        : "week " + w + " · " + lo + "–" + hi + " words · " + fmt(when));
+      tip.dataset.on = "1";
+      const left = (x(w) / W) * r.width;
+      tip.style.left = Math.max(4, Math.min(r.width - tip.offsetWidth - 4, left - tip.offsetWidth / 2)) + "px";
+      tip.style.top = Math.max(0, (y(mid * w) / H) * r.height - tip.offsetHeight - 10) + "px";
+    };
+    const leave = () => {
+      cross.setAttribute("opacity", 0);
+      dot.setAttribute("opacity", 0);
+      tip.dataset.on = "0";
+    };
+    hit.addEventListener("pointermove", move);
+    hit.addEventListener("pointerdown", move);
+    hit.addEventListener("pointerleave", leave);
+  }
+
+  /* ── boot ─────────────────────────────────────────────── */
+  document.querySelectorAll("[data-freq]").forEach(x =>
+    x.setAttribute("aria-pressed", String(Number(x.dataset.freq) === state.freq)));
+  applyTheme();
+  applyLang();
+  placeTicks();
+  window.addEventListener("resize", () => { placeTicks(); renderProjection(); });
+  window.addEventListener("load", placeTicks);
+})();
+</script>
