@@ -56,4 +56,5 @@ It's Sunday, August 9th. A week since the previous message. K and Daniel still h
 3. Kzzr15cEg3o - "Why Too Much Efficiency Makes Us Fragile with Olivier Hamant | TGS 230": Robustness > Performance, Standard Deviation > Mean, Circularty+Cooporation+Robustness, Improv, and many more topics we can research to align our process with our goals.
 Send agents to read the transcripts and separate signal from noise, so you and I can tie everything together and come up with actionable steps.
 
-I just saw Anthropic's tip to install this "/plugin install frontend-design@claude-plugins-official", so I did. Does that mean anything for the HTML files you generate for me? Or is it just for interactive apps and large projects?
+! curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+! sudo apt-get install -y nodejs

@@ -59,7 +59,7 @@
   .params b { color: var(--ink); font-weight: 600; }
 
   .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 10px; padding: 16px 0 6px; }
-  .lg { border-left: 3px solid var(--line); padding: 4px 0 4px 12px; font-size: 13.5px; color: var(--muted); }
+  .lg { border-left: 2px solid var(--line); padding: 4px 0 4px 12px; font-size: 13.5px; color: var(--muted); }
   .lg b { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 2px; }
   .lg.o { border-color: var(--open); } .lg.o b { color: var(--open); }
   .lg.d { border-color: var(--div); }  .lg.d b { color: var(--div); }
@@ -78,7 +78,7 @@
   .rung { font-family: var(--mono); font-size: 11.5px; color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
   .body p { max-width: 68ch; }
 
-  .say { border-left: 3px solid var(--accent); background: var(--panel); padding: 12px 16px; margin: 12px 0; max-width: 68ch; }
+  .say { border-left: 1px solid var(--line); background: var(--panel); padding: 12px 16px; margin: 12px 0; max-width: 68ch; }
   .say .who { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
   .say q { font-family: var(--serif); font-style: italic; font-size: 16.5px; }
   .say .aside { color: var(--muted); font-size: 13px; display: block; margin-top: 6px; }
@@ -88,7 +88,7 @@
 
   .dirs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0 20px; }
   @media (max-width: 760px) { .dirs { grid-template-columns: 1fr; } section.block { grid-template-columns: 1fr; } .gutter { display: flex; gap: 14px; align-items: baseline; padding-bottom: 4px; } }
-  .dir { background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--line); padding: 12px 14px 10px; font-size: 14px; }
+  .dir { background: var(--panel); border: 1px solid var(--line); border-top: 2px solid var(--line); padding: 12px 14px 10px; font-size: 14px; }
   .dir.o { border-top-color: var(--open);  background: linear-gradient(var(--open-bg),  transparent 55%), var(--panel); }
   .dir.d { border-top-color: var(--div);   background: linear-gradient(var(--div-bg),   transparent 55%), var(--panel); }
   .dir.f { border-top-color: var(--fail);  background: linear-gradient(var(--fail-bg),  transparent 55%), var(--panel); }
@@ -113,14 +113,14 @@
 
   .callout { background: var(--panel-2); border: 1px solid var(--line); padding: 12px 16px; margin: 14px 0; max-width: 74ch; font-size: 14px; }
   .callout .ct { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 4px; }
-  .callout.warn { border-left: 3px solid var(--gold); } .callout.warn .ct { color: var(--gold); }
-  .callout.hard { border-left: 3px solid var(--fail); } .callout.hard .ct { color: var(--fail); }
+  .callout.warn { border-color: var(--gold); } .callout.warn .ct { color: var(--gold); }
+  .callout.hard { border-color: var(--fail); } .callout.hard .ct { color: var(--fail); }
 
-  .opt { border: 1px solid var(--line); border-left: 3px solid var(--line); background: var(--panel); padding: 11px 14px; margin: 0 0 10px; font-size: 14px; max-width: 76ch; }
+  .opt { border: 1px solid var(--line); background: var(--panel); padding: 11px 14px; margin: 0 0 10px; font-size: 14px; max-width: 76ch; }
   .opt .on { font-family: var(--serif); font-size: 16.5px; font-weight: 600; }
   .opt .tag { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-left: 8px; }
   .opt p { margin: 6px 0 0; }
-  .opt.pick { border-left-color: var(--gold); } .opt.pick .tag { color: var(--gold); }
+  .opt.pick { border-color: var(--gold); } .opt.pick .tag { color: var(--gold); }
 
   .strips { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 8px; margin: 10px 0 6px; }
   .strip { font-family: var(--mono); font-size: 13.5px; background: var(--panel-2); border: 1px dashed var(--line); padding: 10px 12px; letter-spacing: 0.06em; }
@@ -129,13 +129,13 @@
   ul.tight { margin: 6px 0; padding-left: 20px; } ul.tight li { margin-bottom: 5px; max-width: 68ch; }
   .hebrew { direction: rtl; unicode-bidi: isolate; font-style: normal; }
 
-  .five { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); padding: 16px 18px; margin: 22px 0 6px; }
+  .five { background: var(--panel-2); border: 1px solid var(--accent); padding: 16px 18px; margin: 22px 0 6px; }
   .five ol { margin: 8px 0 0; padding-left: 20px; }
   .five li { margin-bottom: 7px; max-width: 68ch; }
   .five li b { font-family: var(--serif); font-size: 16px; }
 
   pre.sheet { background: var(--panel); border: 1px solid var(--line); padding: 16px; font-family: var(--mono); font-size: 12.5px; line-height: 1.6; overflow-x: auto; max-width: 100%; }
-  .interrupt { border-left: 3px solid var(--fail); background: var(--panel); padding: 12px 16px; margin: 0 0 12px; font-size: 14px; }
+  .interrupt { border: 1px solid var(--fail); background: var(--panel); padding: 12px 16px; margin: 0 0 12px; font-size: 14px; }
   .interrupt b:first-child { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--fail); }
   footer { padding-top: 28px; color: var(--muted); font-size: 12.5px; font-family: var(--mono); }
 </style>
