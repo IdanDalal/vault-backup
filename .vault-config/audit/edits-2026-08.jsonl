@@ -35,3 +35,4 @@
 {"ts":"2026-08-11T07:35:08Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcribe.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-08-11T07:35:10Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcribe.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
 {"ts":"2026-08-11T07:35:15Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcribe.py","decision":"allow","reason":"not-denied","session":"3f7c58ec-60c1-419a-96b0-b793895bbe79"}
+{"ts":"2026-08-11T14:29:31Z","tool":"Write","path":"/home/jep/DESIGN.md","decision":"allow","reason":"not-denied","session":"deb4b2f8-8fb9-4c8b-9218-f6cff84f52cc"}
