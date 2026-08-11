@@ -73,7 +73,7 @@ def normalize(src, wav_dir):
     return dst
 
 
-def transcribe_fw(repo, wav, language, vad, condition=True):
+def transcribe_fw(repo, wav, language, vad, condition=True, prompt=None):
     from faster_whisper import WhisperModel
 
     model = WhisperModel(repo, device="cuda", compute_type="float16")
@@ -82,6 +82,10 @@ def transcribe_fw(repo, wav, language, vad, condition=True):
         language=language,
         vad_filter=vad,
         word_timestamps=False,
+        # Seeds the decoder with vocabulary we know is in the room (planted words,
+        # names, trap answers). Whisper weights its output toward the prompt, which
+        # is the only lever that makes English islands survive a Hebrew-locked pass.
+        initial_prompt=prompt,
         # Whisper feeds each 30s window its own previous output as context. On the
         # bake-off's short clips that only helped. On a 46-minute lesson with long
         # off-mic stretches it is the standard cause of repetition loops: one bad
@@ -145,13 +149,17 @@ def load_wav(wav):
             "sample_rate": sample_rate}
 
 
-def diarize(wav, token):
+def diarize(wav, token, num_speakers=None):
     import torch
     from pyannote.audio import Pipeline
 
     pipe = Pipeline.from_pretrained(DIARIZATION_REPO, token=token)
     pipe.to(torch.device("cuda"))
-    annotation = pipe(load_wav(wav))
+    # Left unconstrained, clustering merged two sisters (9 and 12, same household,
+    # overlapping speech) into a single label on the 2026-08-10 lesson: 2 speakers
+    # found where 3 were present. Telling it the count forces the split.
+    kwargs = {"num_speakers": num_speakers} if num_speakers else {}
+    annotation = pipe(load_wav(wav), **kwargs)
     # exclusive mode (one active speaker at a time) aligns cleanest with STT
     if hasattr(annotation, "exclusive_speaker_diarization"):
         annotation = annotation.exclusive_speaker_diarization

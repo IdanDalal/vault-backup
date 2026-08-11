@@ -44,6 +44,14 @@ def main():
                     help="disable condition_on_previous_text. Use on any recording "
                          "longer than ~10 min: it removes the feedback path that "
                          "turns one bad window into a repetition loop.")
+    ap.add_argument("--speakers", type=int, default=None,
+                    help="how many people were in the room. Unconstrained clustering "
+                         "merged two sisters into one label on 2026-08-10; pass the "
+                         "true count (tutor included) to force the split.")
+    ap.add_argument("--prompt", default=None,
+                    help="vocabulary seed for both engines: planted words, student "
+                         "names, expected English. Without it, a Hebrew-locked pass "
+                         "renders English islands as Hebrew noise.")
     args = ap.parse_args()
 
     clips = sorted(
@@ -61,8 +69,10 @@ def main():
         wav = normalize(clip, wav_dir)
 
         print("  diarizing...")
-        turns = diarize(wav, token=None)
+        turns = diarize(wav, token=None, num_speakers=args.speakers)
         n_spk = len({t["speaker"] for t in turns})
+        if args.speakers and n_spk != args.speakers:
+            print(f"  WARNING: asked for {args.speakers} speakers, got {n_spk}")
 
         doc = [f"# Lesson transcript — {clip.name}\n",
                f"Diarization: {n_spk} speakers, {len(turns)} turns. "
@@ -76,7 +86,8 @@ def main():
             print(f"  transcribing with {name}...")
             t0 = time.time()
             segs = transcribe_fw(spec["repo"], wav, spec["language"], args.vad,
-                                 condition=not args.no_condition)
+                                 condition=not args.no_condition,
+                                 prompt=args.prompt)
             segs = assign_speakers(segs, turns)
             body = "\n".join(
                 f"[{fmt_ts(s['start'])}] "
