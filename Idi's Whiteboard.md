@@ -56,5 +56,7 @@ It's Sunday, August 9th. A week since the previous message. K and Daniel still h
 3. Kzzr15cEg3o - "Why Too Much Efficiency Makes Us Fragile with Olivier Hamant | TGS 230": Robustness > Performance, Standard Deviation > Mean, Circularty+Cooporation+Robustness, Improv, and many more topics we can research to align our process with our goals.
 Send agents to read the transcripts and separate signal from noise, so you and I can tie everything together and come up with actionable steps.
 
-! curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
-! sudo apt-get install -y nodejs
+Excellent start! Notes and additions:
+1. The sentence "Casual conversation is a great way to simultaneously make and measure progress" should be paraphrased into a core tenet of our philosophy.
+2. We're building a system with a profound focus on self-improving data-loops. I'm a part of this system, so are you, so are the students, the tools we choose to use, the concepts we adopt, etc. They all circularly improve each other in a virtuous cycle. Each session all but guarantees an improved next session, based on the fact that you and I will analyze, examine, and learn from it before the next session occurs.
+3. Curiosity > Utility. This might be worthy of your input in a debate, but for now I am acting based on my  observations and they all unilaterally point to everyone from parents to students to teachers valuing the utility of knowing English (your future self will thank you if you do and blame you if you don't) over the potential to change perspective to intrinsic curiosity-driven motivations. I'm struggling to 
