@@ -70,3 +70,17 @@ Excellent start! Notes and additions:
 11. The very first sentence "one document for one conversation" is redundant. I don't want to go though every example of you including such counter-productive words in the file, so I'll try a simple general rule: dense, concise, keyword-heavy sentences instead of paragraphs of stories. Less "LLM-speak" like the plague of em-dashes and "It's not X, it's Y" (the first sentence of section 01).
 
 That's enough for now. Considering all that, generate a new version of the file.
+
+
+Excellent progress! Some more notes and additions:
+1. Add the Dörnyei and Norton sources.
+2. I had an idea for our reframing issue regarding traps and disguises: puzzles. If I present someone with a puzzle, they trust me to withhold truth from them in order to avoid spoiling the puzzle. That could help our approach to the nuance between total transparency and deception.
+3. MORE colors. More animations. More effects. More cards to click and flip. Maybe a carousel or something like that. Impressive stuff like 3D, typography and calligraphy art, perspective illusions, and more. Send agents to websites like these https://www.awwwards.com/websites/web-interactive/ for inspirations and to see first-hand what's possible.
+4. Section 02 (The loop) - more emphasis on circularity and virtuous cycles: first, add yourself. Second, explain how every element improves both with use and over time. highlight the process itself is going through the same process.
+5. Section 04 (The ladder) - collapsable examples and explanations (right now I have to explain from memory what the B2 code is).
+6. Present our tools as blocks with infinite combinations - the whiteboard, stamps, stickers, etc. are not products I purchased with a specific goal in mind - and the file should reflect that.
+7. Add some (NOT TOO MANY!) emojis where appropriate.
+8. Section 09 (The sources) - make each card flippable by a click and the other side contains a brief description of what we learned from it.
+
+That's enough for now. Considering all that, generate a new version of the file.
+mkdir -p ~/.render && cd ~/.render && npm init -y && npm i playwright && npx playwright install chromium
