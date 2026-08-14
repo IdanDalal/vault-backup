@@ -120,3 +120,8 @@ And here's the log:
 19 verbose exit 1
 20 verbose code 1
 21 error A complete log of this run can be found in: /home/jep/.npm/_logs/2026-08-12T14_30_23_143Z-debug-0.log
+
+Let's tackle these issues: your CLAUDE.md is outdated, my TELOS is too far removed from our English tutoring day-to-day grind, and I keep oscillating between different "modes"/"parts"/"internal family members" between/while talking to you. Send agents to read the transcripts of these two long videos:
+1. https://www.youtube.com/watch?v=e1snsuY4lTI
+2. https://www.youtube.com/watch?v=Wgg88I_F8N4
+and to research their topics (IFS and Also, send some agents to dig deep into my TELOS folder. Once you have all the prerequesite data in-context, we can brainstorm on how to improve our collaboration. 
