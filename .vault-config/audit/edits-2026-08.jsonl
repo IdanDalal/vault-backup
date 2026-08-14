@@ -107,3 +107,5 @@
 {"ts":"2026-08-12T15:19:39Z","tool":"Edit","path":"/home/jep/vault/projects/o-parent-brief.html","decision":"allow","reason":"not-denied","session":"929257ff-0dbf-4f93-9f2c-8a5b22970030"}
 {"ts":"2026-08-12T15:19:42Z","tool":"Edit","path":"/home/jep/vault/projects/o-parent-brief.html","decision":"allow","reason":"not-denied","session":"929257ff-0dbf-4f93-9f2c-8a5b22970030"}
 {"ts":"2026-08-14T06:03:40Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-14.md","decision":"allow","reason":"not-denied","session":"55522785-7dad-4ab1-b65b-f4182dd318bc"}
+{"ts":"2026-08-14T09:47:19Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-14T09:47:36Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
