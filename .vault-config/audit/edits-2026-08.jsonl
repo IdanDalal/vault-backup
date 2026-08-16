@@ -115,3 +115,16 @@
 {"ts":"2026-08-14T10:52:13Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/vault-agent-symlink-alias.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
 {"ts":"2026-08-14T10:52:24Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
 {"ts":"2026-08-14T10:53:45Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-operating-principles.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-16T07:33:44Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/ef7c4c7f-11b4-4acd-a355-7a8b61c5d390/scratchpad/extract.py","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:33:46Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/ef7c4c7f-11b4-4acd-a355-7a8b61c5d390/scratchpad/extract.py","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:34:12Z","tool":"Edit","path":"/tmp/claude-1000/-home-jep/ef7c4c7f-11b4-4acd-a355-7a8b61c5d390/scratchpad/extract.py","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:43:01Z","tool":"Write","path":"/home/jep/CLAUDE.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:43:03Z","tool":"Edit","path":"/home/jep/vault/CLAUDE.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:43:10Z","tool":"Edit","path":"/home/jep/vault/CLAUDE.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:43:16Z","tool":"Edit","path":"/home/jep/vault/CLAUDE.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-16T07:53:20Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/13_Aug_at_9-00.DISTILLED.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-16T07:53:22Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/13_Aug_at_9-00.DISTILLED.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-16T07:53:28Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/13_Aug_at_9-00.DISTILLED.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-16T07:53:33Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/13_Aug_at_9-00.DISTILLED.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-16T07:53:42Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-16T07:53:48Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}

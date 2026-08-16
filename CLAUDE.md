@@ -115,7 +115,29 @@ When running as a scheduled agent (via `run-agent.sh` and cron), additional cons
 - **No external network calls** — no fetching URLs, no API calls, no web searches
 - **If the prompt is ambiguous, do nothing and log the ambiguity** — unattended agents must fail safe, not fail creative
 
+Lessons encoded from the 2026-08-16 transcript audit (19 cron runs examined):
+
+- **Report deltas only.** A null or unchanged finding already reported in a prior digest gets at most one line with its counter — or nothing. The zero-`due:` null was restated 27 consecutive times; a report that repeats itself trains its reader to skim it.
+- **Telegram compact message: 12 lines maximum, hard cap.** Count lines before sending and cut to fit. The cap was broken in 16 of 19 audited runs, including a 66-line two-part "compact" message.
+- **Absence of evidence inside the vault is not a finding of failure.** Label priors as priors. Verify before declaring a ritual dead or a backup layer recovered — both overclaims happened and both needed public retraction.
+- **No end-of-run essay.** Cron transcripts have no reader; ~8,400 words of final summaries were written to no one. Final chat summary: one line.
+- **The Telegram bot is single-instance.** A scheduled send during a live `--channels` session collides. On send failure: log, retry once at end of run, stop.
+- **Sandbox-rejected Bash constructs** are listed in `~/CLAUDE.md` (which loads in these sessions). Don't rediscover them by trial: ~45 tool calls were wasted on them across the audited runs.
+
 ---
+
+## Tutoring Project (active since 2026-07)
+
+The vault's dominant active project: real English tutoring with real students. Before doing any tutoring work, read `projects/tutoring-operating-principles.md`; the sibling `tutoring-*` files hold the session skeleton, tracker, and per-student briefs.
+
+Media governance (several students are minors; recording runs under a consent protocol):
+
+- Raw session media — audio, photos, transcripts of students — lives in `~/vault-agent/tutoring-data/`, which is real storage OUTSIDE this vault. It must never be placed anywhere under `vault/`: git autocommit makes vault content effectively undeletable, which directly violates the extract-then-delete-forever consent rule. This exact breach happened (raw audio + photos committed via `inbox/TUTORING/`) and took days to surface.
+- Extract what the vault needs (distilled notes, principles, tracker updates), then the raw media gets deleted from staging — deletion only after a verified copy exists in `tutoring-data/` (`readlink -f` both paths first; `vault-agent` is a symlink alias).
+
+## Identity Priming (TELOS)
+
+`telos/` is Idi's identity context. When a task touches priorities, motivation, project direction, or how Idi works, read `telos/TELOS.md` first and follow its index deeper as needed. Caveats: it is a frozen snapshot of January 2026 that predates the tutoring era — where its self-portrait conflicts with the vault's current activity, trust the current activity. Write access remains forbidden: Idi hand-edits TELOS, always.
 
 ## Backup Awareness
 
@@ -153,7 +175,7 @@ When a message arrives via Telegram and looks like a quick thought, idea, or fle
 	3. If the `## Captures` section is missing, append at end-of-file
 	4. Reply with just "captured" — don't elaborate, don't ask follow-up questions
 	5. Collapse multi-line messages to a single-line bullet
-	6. NEVER write captures to atomic_notes/ — those are Idi-only
+	6. NEVER write captures to atomic-notes/ — those are Idi-only
 	7. NEVER create separate markdown files for captures — they go in the daily note
 
 Prefix signals: messages starting with "idea:", "thought:", "note:", "remember:", or any short unpunctuated phrase are captures. When in doubt, ask: "capture or conversation?"
