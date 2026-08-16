@@ -121,9 +121,11 @@ And here's the log:
 20 verbose code 1
 21 error A complete log of this run can be found in: /home/jep/.npm/_logs/2026-08-12T14_30_23_143Z-debug-0.log
 
-I want a cheat sheet for tomorrow. It should include everything you suggested (experiments #2 and #4), as well as help me achieve the following two goals:
-1. Act as the storyteller and a character in the story simultaniously. I feel like I'm overwhelmed by playing a character in the story of the lesson, which causes me to forget\neglect my duties as the storyteller.
-2. Recruit K and D to my side against my own bad habbits. I'm wondering if it's possible and desireable to make my self-improvement into a concious "game" of sorts, by telling them about the recording and your analysis and that I'm closing my own gaps and if they catch me repeating mistakes they can call me out and we smile and I thank them and it's all positive.
+We made some great progress. I want a cheat sheet for tomorrow to remember as much of it as possible. It should include everything you suggested (experiments #2 and #4), as well as
+  help me achieve the following two goals:
+  1. Act as the storyteller and a character in the story simultaniously. I feel like I'm overwhelmed by playing a character in the story of the lesson, which causes me to forget\neglect my duties as the storyteller.
+  2. Recruit K and D to my side against my own bad habbits. I'm wondering if it's possible and desireable to make my self-improvement into a concious "game" of sorts, by telling them about the recording and your analysis and that I'm closing my own gaps and if they catch me repeating mistakes they can call me out and we smile and I thank them and it's all positive.
+
 
 Great results! My notes:
 1. Evening ping must go.
