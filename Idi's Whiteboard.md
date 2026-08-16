@@ -121,12 +121,48 @@ And here's the log:
 20 verbose code 1
 21 error A complete log of this run can be found in: /home/jep/.npm/_logs/2026-08-12T14_30_23_143Z-debug-0.log
 
-Excellent work!
-First: all this administrative security is becoming the exact thing I set out avoid - a mental black hole that sucks my attention and energy. I was under the assumption that we created a system where it would be smooth, quick, and easy for me to give you messy private data to clean and anonymize. I was obviously wrong. I want to tackle this, but not right now in the middle of a conversation where I'm preparing for tomorrow's lesson (It's Sunday, the girls are coming tomorrow morning). Generate a prompt for me to copy-paste into a new conversation with you that will end with a clean data pipeline.
-Now for the actual lesson:
-1. Thematic neighborhoods > Semantic neighborhood. I like the idea, am attracted to it, and inspired by it.
-2. Trivial choices matter. Same as above.
-3. I'm struck by how effective your dissection of my words feels. It's an AMAZING start, and I think you can help me even more. Be more descriptive and more prescriptive. Like "You say נכון too often. It happens in ??? situations and ??? might be the reason and ??? could work better and maybe try ???".
-4. Regarding your open questions - their mom and I briefly discussed how the 2-on-1 in the first lesson was suboptimal and we should separate to 1-on-1 for better results. K is 9, D is 12. K wanted to erase the board (and she did, after I photographed it) because of what seems to me a "closure habit" of leaving things clean, and nothing else.
 
 
+Great results! My notes:
+1. Evening ping must go.
+2. Morning digest must be rewritten.
+Regarding the part naming:
+3. Manager = Boss. The word has many connotations in different contexts. I prefer one-syllable words. It feels like the right direction. It's like "someone above interacting with someone below".
+4. Firefighter = Soldier/Fighter/Combatant/etc. It's like "someone interacting with an enemy/opponent/rival/competitor".
+5. Exile = Stranger. One of the most influential stories I've ever consumed is Albert Camus' The Stranger. First, in book form, a few years ago, and then, in film form, a few weeks ago. Both times I indetified with Mersault, and now I have the words to articulate why: I have a "Stranger" part.
+
+
+Rebuild my private-data pipeline end to end. Read the memory files
+  vault-agent-symlink-alias and tutoring-project first — they hold the full
+  history. Current state: handling messy private data (lesson recordings,
+  transcripts, photos) costs me attention and has produced near-misses. I
+  want the admin to disappear.
+ 
+  The end state, which is the ONLY workflow I should ever have to do:
+  1. I drop raw files into ONE folder.
+  2. I say "process the tutoring data".
+  3. You transcribe, distill, and anonymize into the vault, and the raw
+     material never touches git, Syncthing, or restic. Path confusion must
+     be physically impossible, and the system must prove it.
+     
+  Work items — investigate, propose a plan, get my approval, then execute:
+  - Fix or replace the ~/vault-agent symlink structure so paths meant to be
+    outside the vault actually are. Pick where the real landing zone lives.
+  - History cleanup, my decision after you lay out the options with their
+    Syncthing/restic implications: session-2 full transcript in vault git
+    commit c3c8094 (tag-pinned); session-1 transcript 10_Aug_at_9-10.LESSON.md
+    still in the vault working tree AND git; session-1 raw audio in
+    vault/inbox/TUTORING/, committed and tag-pinned.
+  - Guardrails so this can never recur: .gitignore rules and a pre-commit
+    check that blocks student-data patterns from entering the vault.
+  - Build the drop-folder + one-command flow (script or skill). Dry-run it
+    on dummy data and show me the dry-run before it ever sees real files.
+  - Update CLAUDE.md and memory so every future session knows the new
+    pipeline and treats the old paths as dead.
+  - Finish with a one-paragraph "how I use it" card.
+
+  Constraints: I'm not a developer, so one short "what this is and why"
+  paragraph before any new tool or command. Before any delete, show me
+  readlink -f on both paths plus git status, and where surviving copies
+  live. My deletion standard: I delete once my use is finished; elapsed
+  time was never the trigger. 
