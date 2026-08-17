@@ -135,3 +135,6 @@
 {"ts":"2026-08-17T13:34:03Z","tool":"Write","path":"/home/jep/staging/morning-digest.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
 {"ts":"2026-08-17T13:34:03Z","tool":"Write","path":"/home/jep/staging/morning-digest.model","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
 {"ts":"2026-08-17T13:35:40Z","tool":"Write","path":"/home/jep/vault/inbox/parts-registry-draft.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-17T14:04:19Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/0ca2b818-0afd-4c88-9432-473be5708c55/scratchpad/talkstats3.py","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-17T14:06:00Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/17_Aug_at_8-57.DISTILLED.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
+{"ts":"2026-08-17T14:06:14Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
