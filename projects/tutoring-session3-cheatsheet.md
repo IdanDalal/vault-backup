@@ -68,9 +68,8 @@ Build ONE scene on the board, English lines, act it out together:
 Then flip roles: "עכשיו את השדרנית." She says the lines, you react big.
 - Each target word: she says it ≥3 times out loud across the scene.
 
-### D3. Sentence game (app) with new rules (~7 min)
-Say: "היום יש חוק חדש: בוחרים רק מילים שמסתדרות ביחד. או — מצב 'מצאי את השטות': אני בוחר בכוונה מילים מוזרות ואת תופסת מה לא הגיוני."
-- Her choice which mode (that's a sprinkle).
+### D3. Translate Song Lyrics
+- Her choice which song (that's a sprinkle).
 
 ### D4. Squishy time = English time (~7 min, this is the conversion)
 Say: "מביאים סקווישי אחד לשולחן. מדברים עליו באנגלית עם שני משפטים מהלוח."
