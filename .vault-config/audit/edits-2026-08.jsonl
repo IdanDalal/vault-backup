@@ -131,3 +131,7 @@
 {"ts":"2026-08-16T13:04:09Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-session3-cheatsheet.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
 {"ts":"2026-08-17T05:19:03Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-session3-cheatsheet.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
 {"ts":"2026-08-17T06:02:42Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-17.md","decision":"allow","reason":"not-denied","session":"40e23bb1-37dd-48ea-8b7e-fc20fdf70e75"}
+{"ts":"2026-08-17T13:33:54Z","tool":"Edit","path":"/home/jep/bin/run-agent.sh","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-17T13:34:03Z","tool":"Write","path":"/home/jep/staging/morning-digest.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-17T13:34:03Z","tool":"Write","path":"/home/jep/staging/morning-digest.model","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-17T13:35:40Z","tool":"Write","path":"/home/jep/vault/inbox/parts-registry-draft.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
