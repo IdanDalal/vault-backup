@@ -133,7 +133,8 @@ Great results! My notes:
 Regarding the part naming:
 3. Manager = Boss. The word has many connotations in different contexts. I prefer one-syllable words. It feels like the right direction. It's like "someone above interacting with someone below".
 4. Firefighter = Soldier/Fighter/Combatant/etc. It's like "someone interacting with an enemy/opponent/rival/competitor".
-5. Exile = Stranger. One of the most influential stories I've ever consumed is Albert Camus' The Stranger. First, in book form, a few years ago, and then, in film form, a few weeks ago. Both times I indetified with Mersault, and now I have the words to articulate why: I have a "Stranger" part.
+5. Exile = Stranger. One of the most influential stories I've ever consumed is Albert Camus' The Stranger. First, in book form, a few years ago, and then, in film form, a few weeks ago. Both times I indetified with Mersault, and now I have the words to articulate why: I have a "Stranger" part. It's like someone interacting with a group they're not a part of.
+I thought I could generate the text describing the parts myself, but I'm too enveloped by them that I struggle to find the words. I need your help. Maybe ask me questions, suggest suggestions, assume assumptions, predict predictions, and guess guesses. I'll read all of it and try again.
 
 
 Rebuild my private-data pipeline end to end. Read the memory files
