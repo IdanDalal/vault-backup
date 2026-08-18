@@ -6,3 +6,28 @@
 .pytest_cache/
 inbox/CORPUS-June-2026/
 bunx
+# --- student-data guardrails (2026-08-18 pipeline rebuild) ---
+# raw session media never enters git; pre-commit hook is the second layer
+*.m4a
+*.wav
+*.mp3
+*.aac
+*.ogg
+*.flac
+*.opus
+*.amr
+*.3gp
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.LESSON.md
+PXL_*
+IMG_*
+VID_*
+WhatsApp Audio*
+WhatsApp Video*
+WhatsApp Image*
+inbox/TUTORING/20*/
+_COMMIT-BLOCKED.md

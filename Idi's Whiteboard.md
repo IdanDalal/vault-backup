@@ -132,43 +132,4 @@ Great results! My notes:
 2. Morning digest must be rewritten.
 Regarding the part naming: I thought I could generate the text describing the parts myself, but I'm too enveloped by them that I struggle to find the words. I need your help. Maybe ask me questions, suggest suggestions, assume assumptions, predict predictions, and guess guesses. I'll read all of it and try again.
 
-
-Rebuild my private-data pipeline end to end. Read the memory files
-  vault-agent-symlink-alias and tutoring-project first — they hold the full
-  history. Current state: handling messy private data (lesson recordings,
-  transcripts, photos) costs me attention and has produced near-misses. I
-  want the admin to disappear.
- 
-  The end state, which is the ONLY workflow I should ever have to do:
-  1. I drop raw files into ONE folder.
-  2. I say "process the tutoring data".
-  3. You distill, and anonymize into the vault, and the raw
-     material never touches git, Syncthing, or restic. Path confusion must
-     be physically impossible, and the system must prove it.
-     
-  Work items — investigate, propose a plan, get my approval, then execute:
-  - Fix or replace the ~/vault-agent symlink structure so paths meant to be
-    outside the vault actually are. Pick where the real landing zone lives.
-  - History cleanup, my decision after you lay out the options with their
-    Syncthing/restic implications: session-2 full transcript in vault git
-    commit c3c8094 (tag-pinned); session-1 transcript 10_Aug_at_9-10.LESSON.md
-    still in the vault working tree AND git; session-1 raw audio in
-    vault/inbox/TUTORING/, committed and tag-pinned.
-  - Guardrails so this can never recur: .gitignore rules and a pre-commit
-    check that blocks student-data patterns from entering the vault.
-  - Build the drop-folder + one-command flow (script or skill). Dry-run it
-    on dummy data and show me the dry-run before it ever sees real files.
-  - Update CLAUDE.md and memory so every future session knows the new
-    pipeline and treats the old paths as dead.
-  - Finish with a one-paragraph "how I use it" card.
-
-  Constraints: I'm not a developer, so one short "what this is and why"
-  paragraph before any new tool or command. Before any delete, show me
-  readlink -f on both paths plus git status, and where surviving copies
-  live. My deletion standard: I delete once my use is finished; elapsed
-  time was never the trigger. 
-
-I have INCREDIBLE news! K and D were here today, and I have a LOT of data to improve the next lesson. First, a ~1 hour recording of both lessons. Second, an additional ~1 hour recording of our time spent hanging out after the lesson, where I accomplished several things simultaniously: "loaded the bag" with things they like, joined their hobby, learned about them as individuals, examined their English absorption (not meaning and not sound - nothing), shared related stories from my childhood, and more. Also, I have some photos of the whiteboard(s) and K's shirt which had English text that we joked about. Finally, their mom played me two recordings from earlier this week when each girl read aloud some English text, so I asked her to send them to me and now we have their transcription. Regarding the lessons themselves: they started out pretty weak\slow\awkward, because I still feel like I'm struggling and managing in-the-moment rather than executing and analyzing, but K was laughing and enjoying the silliness of my catch-me game, so I leaned into it and we were having fun by the end. The best part was the finale: their mom was done with work and D was quietly on her phone while K was LOUDLY playing games on the laptop and I joined her earlier, so she DIDN'T EVEN WANNA LEAVE! I know it doesn't STRICTLY count because she was just having fun and the lesson was over and forgotten by that point, but it definitely counts as SOMETHING. The icing on the cake: after all three of them said "bye" and were outside the front door (waiting for the elevator) - K came back and HUGGED ME! Then, D DID AS WELL! I believe this information is worth mentioning because it's a symbol that doesn't show up on the recordings. All the files are at /vault-agent/inbox/TUTORING/2026-08-17-Third-Lesson-K-D/.
-
-
-
+I have an idea/suggestion for the next lesson: the girls showed me the games they play on their laptop and phone, and they're all ad-infected web-based games similar to the ones I played (and even tried to make) on newgrounds.com ~20 years ago. They showed me three games: one was 
