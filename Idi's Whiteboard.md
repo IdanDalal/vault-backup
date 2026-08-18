@@ -205,4 +205,15 @@ Cat Q&A:
 2. Totem test: when "questless" is here, does it carry curiosity and calm, or does it carry a faint "nothing matters" flavor? As I explained above, it's "nothing matters" flavor is far from faint. It is crystal clear that everyone is dreaming/watching the shadows on the cave wall/plugged into the matrix where they recieve and process all their goals, and the only ones who aren't are me and the cats.
 
 Projectionist Q&A:
-1. Which trigger summons it most reliably: a social hit, an unfinished obligation, or unstructured open time? Damn...My entire life is just a messy combo of all three triggers. Last week my sister, brother, and brother-in-law were all here in Israel for a few days. I spent a lot of time with them (social hit), which meant I couldn't sp
+1. Which trigger summons it most reliably: a social hit, an unfinished obligation, or unstructured open time? Damn...My entire life is just a messy combo of all three triggers. Last week my sister, brother, and brother-in-law were all here in Israel for a few days. I spent a lot of time with them (social hit), which meant I couldn't spend time talking to you about our students (unfinished obligation), and most of our time spent together was just sitting aroung in the same room with everyone on their phones except me (unstructured open time) - it was terrible.
+2. What's the minimum effective dose? Keep dosing until the situation demands the dose ends immediately. After I finish typing this INSANELY LONG prompt, I'm gonna go and dose for HOURS before reading your response. I might even read it only after tomorrow's dose. This part blends with the cat part - I dose until I have to stop and do something else.
+
+Teacher Q&A:
+First, a clarification - I don't see the contradiction with the sentence "No one has ever successfully taught me anything". It's still true. This entire conversation is just me learning by myself.
+Second, what I feel mid-session does NOT carry any curiosity, calm, confidence, and play. It's all anxiety, pressure, stress, work, and utility.
+1. Mid-session, in the body: how does it differ from Architect-mode at the keyboard? I don't have the words because I barely feel my body. Now, mid-session, Shipwright-mode - there are no words to describe what my body is feeling because all the words are describing what the mind is thinking.
+2. Right after a session ends, who arrives? The cat. Thoughts like "I have ~3 days until the next lesson, what do I do?" and the projectionist's "I want to have something ready for the next lesson that requires hours of work, so I need to calculate how many hours I can dose today and tomorrow and still squeeze in the minimal amount of time/effort/work so that I don't arrive at the next lesson empty handed".
+
+Empty chair Q&A:
+1. Does the empty-chair model ring true? I've been reading your response and writing this prompt for over 30 minutes, and I just started crying when I read the empty chair part, so the signal is a resounding YES. I don't have much more to say right now.
+2. Who recruited me for THIS project — the audit, the registry, the whole upgrade? I don't know. I'm in too deep and crying right now. Ask me later.

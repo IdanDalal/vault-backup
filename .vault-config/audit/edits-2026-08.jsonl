@@ -139,3 +139,6 @@
 {"ts":"2026-08-17T14:06:00Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/17_Aug_at_8-57.DISTILLED.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
 {"ts":"2026-08-17T14:06:14Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-project.md","decision":"allow","reason":"not-denied","session":"0ca2b818-0afd-4c88-9432-473be5708c55"}
 {"ts":"2026-08-18T06:03:15Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-18.md","decision":"allow","reason":"not-denied","session":"f2d3268d-c839-465d-ad0e-fb37a6eac211"}
+{"ts":"2026-08-18T10:56:37Z","tool":"Write","path":"/home/jep/vault/projects/parts-registry.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-18T10:56:52Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/parts-registry-project.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
+{"ts":"2026-08-18T10:56:55Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"ef7c4c7f-11b4-4acd-a355-7a8b61c5d390"}
