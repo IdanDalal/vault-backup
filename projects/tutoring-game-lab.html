@@ -1,0 +1,178 @@
+<!-- type: lesson-tool | created: 2026-08-18 | author: jep | project: tutoring
+     Session-4 candidate: a Flappy-style game the girls remake by editing the
+     CHANGE ME block. One file, no internet, runs in any browser (phone too). -->
+<title>GAME LAB</title>
+<style>
+  * { margin: 0; padding: 0; }
+  html, body { height: 100%; overflow: hidden; background: #000; }
+  canvas { display: block; }
+  .screen {
+    position: fixed; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 18px; text-align: center;
+    font-family: system-ui, sans-serif; color: #fff;
+    text-shadow: 0 2px 8px rgba(0,0,0,.45); user-select: none;
+  }
+  .screen.hidden { display: none; }
+  .big   { font-size: clamp(40px, 9vw, 84px); font-weight: 800; letter-spacing: 2px; }
+  .mid   { font-size: clamp(20px, 4vw, 34px); font-weight: 600; }
+  .emoji { font-size: clamp(60px, 14vw, 120px); animation: bob 1.2s ease-in-out infinite; }
+  @keyframes bob { 50% { transform: translateY(-16px); } }
+  button {
+    font: 700 clamp(20px, 4vw, 30px) system-ui, sans-serif; color: #fff;
+    background: #e0483e; border: none; border-radius: 14px;
+    padding: 14px 34px; cursor: pointer; box-shadow: 0 4px 0 rgba(0,0,0,.3);
+  }
+  button:active { transform: translateY(3px); box-shadow: none; }
+  #score {
+    position: fixed; top: 14px; left: 0; right: 0; text-align: center;
+    font: 800 46px system-ui, sans-serif; color: #fff;
+    text-shadow: 0 2px 6px rgba(0,0,0,.5); user-select: none;
+  }
+</style>
+
+<canvas id="sky"></canvas>
+<div id="score"></div>
+
+<div class="screen" id="startScreen">
+  <div class="big"  id="gameName"></div>
+  <div class="emoji" id="startEmoji"></div>
+  <div class="mid"  id="startText"></div>
+</div>
+
+<div class="screen hidden" id="loseScreen">
+  <div class="big" id="loseText"></div>
+  <div class="mid" id="loseScore"></div>
+  <button id="againButton"></button>
+</div>
+
+<script>
+// ==================================================
+//   ⭐ CHANGE ME! change a word, save, refresh ⭐
+// ==================================================
+const GAME = {
+  name:   "IDI'S GAME",       // give it a name!
+  player: "🛩️",               // any emoji you like
+  sky:    "skyblue",          // try: pink, gold, black, orange...
+  walls:  "green",            // try: purple, red, brown...
+  jump:   9,                  // how strong?
+  speed:  4,                  // how fast?
+  hole:   175,                // big hole = relaxed, small hole = tricky
+  start:  "WAIT... TAP TO START",
+  lose:   "WRONG MOVE!",
+  again:  "TRY AGAIN",
+};
+// ==================================================
+//   the engine (about 100 lines — that's the whole game)
+// ==================================================
+const canvas = document.getElementById("sky");
+const pen = canvas.getContext("2d");
+let W, H, dpr;
+function fitScreen() {
+  dpr = window.devicePixelRatio || 1;
+  W = window.innerWidth; H = window.innerHeight;
+  canvas.width = W * dpr; canvas.height = H * dpr;
+  canvas.style.width = W + "px"; canvas.style.height = H + "px";
+  pen.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+fitScreen();
+window.addEventListener("resize", fitScreen);
+
+const GRAVITY = 0.45, WALL_WIDTH = 74, PLAYER_X = () => W * 0.28;
+let state = "start", playerY, fallSpeed, walls, score, frame;
+let best = Number(localStorage.getItem("gamelab-best") || 0);
+const clouds = [0, 1, 2, 3].map(i => ({ x: (i + 0.3) * 260, y: 40 + i * 55, s: 0.3 + i * 0.12 }));
+
+document.getElementById("gameName").textContent = GAME.name;
+document.getElementById("startEmoji").textContent = GAME.player;
+document.getElementById("startText").textContent = GAME.start;
+document.getElementById("loseText").textContent = GAME.lose;
+document.getElementById("againButton").textContent = GAME.again;
+
+function reset() {
+  playerY = H / 2; fallSpeed = 0; walls = []; score = 0; frame = 0;
+  document.getElementById("score").textContent = "";
+}
+reset();
+
+function flap() {
+  if (state === "start") {
+    state = "play";
+    document.getElementById("startScreen").classList.add("hidden");
+  }
+  if (state === "play") fallSpeed = -GAME.jump;
+}
+window.addEventListener("pointerdown", e => { if (state !== "lose") flap(); });
+window.addEventListener("keydown", e => {
+  if (e.code === "Space" || e.code === "ArrowUp") { e.preventDefault(); if (state !== "lose") flap(); }
+});
+document.getElementById("againButton").addEventListener("click", e => {
+  e.stopPropagation(); reset(); state = "start";
+  document.getElementById("loseScreen").classList.add("hidden");
+  document.getElementById("startScreen").classList.remove("hidden");
+});
+
+function die() {
+  state = "lose";
+  best = Math.max(best, score);
+  localStorage.setItem("gamelab-best", best);
+  document.getElementById("loseScore").textContent = score + "  ·  BEST: " + best;
+  document.getElementById("loseScreen").classList.remove("hidden");
+}
+
+function step() {
+  if (state === "play") {
+    frame++;
+    fallSpeed += GRAVITY;
+    playerY += fallSpeed;
+    if (playerY < 18) { playerY = 18; fallSpeed = 0; }
+    if (playerY > H - 40) die();                      // the ground!
+
+    const last = walls[walls.length - 1];
+    if (!last || last.x < W - 250) {
+      const middle = 120 + Math.random() * (H - 280);
+      walls.push({ x: W, top: middle - GAME.hole / 2, bottom: middle + GAME.hole / 2, passed: false });
+    }
+    for (const wall of walls) {
+      wall.x -= GAME.speed;
+      if (!wall.passed && wall.x + WALL_WIDTH < PLAYER_X()) {
+        wall.passed = true; score++;
+        document.getElementById("score").textContent = score;
+      }
+      const hitsWall = PLAYER_X() + 16 > wall.x && PLAYER_X() - 16 < wall.x + WALL_WIDTH;
+      if (hitsWall && (playerY - 14 < wall.top || playerY + 14 > wall.bottom)) die();
+    }
+    walls = walls.filter(w => w.x > -WALL_WIDTH);
+  }
+
+  // ---- drawing ----
+  pen.fillStyle = "#000"; pen.fillRect(0, 0, W, H);   // backdrop if sky color is misspelled
+  pen.fillStyle = GAME.sky; pen.fillRect(0, 0, W, H);
+  pen.fillStyle = "rgba(255,255,255,.75)";
+  for (const c of clouds) {
+    c.x -= c.s; if (c.x < -90) c.x = W + 90;
+    pen.beginPath();
+    pen.ellipse(c.x, c.y, 46, 18, 0, 0, 7);
+    pen.ellipse(c.x + 30, c.y - 10, 30, 15, 0, 0, 7);
+    pen.fill();
+  }
+  pen.fillStyle = GAME.walls;
+  for (const wall of walls) {
+    pen.fillRect(wall.x, 0, WALL_WIDTH, wall.top);
+    pen.fillRect(wall.x, wall.bottom, WALL_WIDTH, H - wall.bottom);
+    pen.fillRect(wall.x - 5, wall.top - 22, WALL_WIDTH + 10, 22);
+    pen.fillRect(wall.x - 5, wall.bottom, WALL_WIDTH + 10, 22);
+  }
+  pen.fillStyle = "#8a6a3b"; pen.fillRect(0, H - 26, W, 26);   // the ground
+  pen.fillStyle = "#5ea34e"; pen.fillRect(0, H - 26, W, 7);
+
+  pen.save();
+  pen.translate(PLAYER_X(), playerY);
+  pen.rotate(Math.max(-0.5, Math.min(1.1, fallSpeed * 0.06)));
+  pen.font = "40px system-ui"; pen.textAlign = "center"; pen.textBaseline = "middle";
+  pen.fillText(GAME.player, 0, 0);
+  pen.restore();
+
+  requestAnimationFrame(step);
+}
+step();
+</script>
