@@ -132,8 +132,9 @@ The vault's dominant active project: real English tutoring with real students. B
 
 Media governance (several students are minors; recording runs under a consent protocol):
 
-- Raw session media — audio, photos, transcripts of students — lives in `~/vault-agent/tutoring-data/`, which is real storage OUTSIDE this vault. It must never be placed anywhere under `vault/`: git autocommit makes vault content effectively undeletable, which directly violates the extract-then-delete-forever consent rule. This exact breach happened (raw audio + photos committed via `inbox/TUTORING/`) and took days to surface.
-- Extract what the vault needs (distilled notes, principles, tracker updates), then the raw media gets deleted from staging — deletion only after a verified copy exists in `tutoring-data/` (`readlink -f` both paths first; `vault-agent` is a symlink alias).
+- Raw session media — audio, photos, transcripts of students — lives ONLY in `~/tutoring-data/` (drop/ + sessions/), real storage outside this vault, outside git, outside every sync/backup layer. It must never be placed anywhere under `vault/`: git autocommit makes vault content effectively undeletable, which directly violates the extract-then-delete-forever consent rule. The 2026-04→08 breach (raw audio, photos, and full transcripts committed and pushed to GitHub via the `~/vault-agent` symlink alias) was purged from git history on 2026-08-18; `~/vault-agent` is now a dead tombstone file.
+- Pipeline (2026-08-18): Idan drops raw files into `~/tutoring-data/drop/` and says "process the tutoring data" → the `process-tutoring` skill verifies isolation, sorts into `~/tutoring-data/sessions/`, and distills initials-only notes into the vault. Raw deletion is Idan's, triggered by his use being finished, never by elapsed time.
+- Enforcement: vault `.gitignore` blocks media/`*.LESSON.md`/camera files; a pre-commit hook (`core.hooksPath` → `~/tutoring-data/tools/hooks/pre-commit`) refuses commits containing media, transcripts, oversized files, or student names in session-record areas (`lesson-transcripts/`, new `inbox/` files) — names come from `~/tutoring-data/blocklist.txt`, which never enters the vault. A refused commit writes `_COMMIT-BLOCKED.md` at vault root (gitignored) and blocks the 30-min autocommit too, on purpose: the vault stops committing rather than leaking.
 
 ## Identity Priming (TELOS)
 
@@ -143,12 +144,12 @@ Media governance (several students are minors; recording runs under a consent pr
 
 Every file you write is captured by the backup system (ADR-003):
 
-- **L1**: Git autocommit every 30 minutes — your writes become commits
+- **L1**: Git autocommit every 30 minutes — your writes become commits, pushed to the private GitHub remote `IdanDalal/vault-backup`
 - **L2**: Nightly snapshot tags — named daily restore points
-- **L3**: Syncthing — real-time sync to desktop and phone
-- **L4**: Restic — weekly encrypted offsite to Backblaze B2
+- **L3**: Syncthing — configured for `~/vault` but currently has ZERO peer devices, so nothing actually syncs (verified 2026-08-18)
+- **L4**: Restic — NEVER ACTIVATED: `~/.config/restic/env` was never created from the template, so no offsite snapshots exist (verified 2026-08-18)
 
-This means mistakes are reversible. It also means **every write is auditable**. `git log` shows what you wrote and when. Act accordingly.
+This means mistakes are reversible via L1/L2, and **every write is auditable**: `git log` shows what you wrote and when. It also means the real backup layers are git + GitHub, so anything committed here lives on GitHub's servers. Act accordingly. If L3/L4 are ever activated, their scope must stay `~/vault` only — never `~/tutoring-data`.
 
 ---
 

@@ -9,7 +9,7 @@ tags:
 
 # Heblish Bake-off — run on the 4090 PC
 
-Scores the transcription candidates against the five clips recorded 2026-07-16 (scripts + ground truth: [[tutoring-heblish-test-scripts]]). This folder syncs via Syncthing; the audio lives in `vault-agent/inbox/TUTORING/` on the laptop — copy the five `.m4a` files to a `clips/` folder next to this script on the PC.
+Scores the transcription candidates against the five clips recorded 2026-07-16 (scripts + ground truth: [[tutoring-heblish-test-scripts]]). The audio lives in `~/tutoring-data/sessions/` on the laptop (outside vault/git/backups; pipeline rebuild 2026-08-18) — copy `.m4a` files to a `clips/` folder next to this script on the PC when re-running.
 
 ## Contenders
 

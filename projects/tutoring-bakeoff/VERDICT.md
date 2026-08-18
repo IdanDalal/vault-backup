@@ -37,7 +37,7 @@ Both sides of the trade confirmed by the VAD pass:
 
 ## Audio hygiene rule (important, standing)
 
-**Student lesson audio must never be placed inside `vault/`.** The vault is git-autocommitted every 30 minutes, snapshotted nightly, and backed up offsite weekly — anything that lands here is effectively *undeletable*, which directly violates the extract-then-delete-forever rule for lesson recordings. Audio stays in `vault-agent/inbox/TUTORING/` (outside all backup layers); only transcripts (text) enter the vault. The test clips currently in `clips/` are already in git history — tolerable for consented sister-test audio, but the pattern stops here.
+**Student lesson audio must never be placed inside `vault/`.** The vault is git-autocommitted every 30 minutes, snapshotted nightly, and backed up offsite weekly — anything that lands here is effectively *undeletable*, which directly violates the extract-then-delete-forever rule for lesson recordings. Audio stays in `~/tutoring-data/` (outside all backup layers; pipeline rebuild 2026-08-18 — `vault-agent` paths are dead); only distilled text enters the vault. The test clips that were in `clips/` were purged from git history 2026-08-18 and moved to `~/tutoring-data/sessions/2026-07-16-heblish-clips/`.
 
 ## Standing caveat
 
