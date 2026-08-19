@@ -167,3 +167,4 @@
 {"ts":"2026-08-18T16:05:48Z","tool":"Edit","path":"/tmp/claude-1000/-home-jep/38cf3a97-f328-4445-9e40-00febe7abb8d/scratchpad/probe-game.mjs","decision":"allow","reason":"not-denied","session":"38cf3a97-f328-4445-9e40-00febe7abb8d"}
 {"ts":"2026-08-18T16:07:25Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"38cf3a97-f328-4445-9e40-00febe7abb8d"}
 {"ts":"2026-08-19T06:03:05Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-19.md","decision":"allow","reason":"not-denied","session":"c40fbe38-8c68-48a7-9763-03389f028b02"}
+{"ts":"2026-08-19T09:59:34Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"38cf3a97-f328-4445-9e40-00febe7abb8d"}

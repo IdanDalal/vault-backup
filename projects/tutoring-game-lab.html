@@ -1,37 +1,50 @@
 <!-- type: lesson-tool | created: 2026-08-18 | author: jep | project: tutoring
-     Session-4 candidate: a Flappy-style game the girls remake by editing the
-     CHANGE ME block. One file, no internet, runs in any browser (phone too). -->
+     Session-4 candidate: a zigzag sky game the girls remake by editing the
+     CHANGE ME blocks. One file, no internet, runs in any browser (phone too). -->
 <title>GAME LAB</title>
 <style>
-  * { margin: 0; padding: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { height: 100%; overflow: hidden; background: #000; }
   canvas { display: block; }
   .screen {
     position: fixed; inset: 0; display: flex; flex-direction: column;
-    align-items: center; justify-content: center; gap: 18px; text-align: center;
+    align-items: center; justify-content: center; gap: 16px; text-align: center;
     font-family: system-ui, sans-serif; color: #fff;
-    text-shadow: 0 2px 8px rgba(0,0,0,.45); user-select: none;
+    text-shadow: 0 2px 10px rgba(0,0,0,.45); user-select: none;
   }
   .screen.hidden { display: none; }
-  .big   { font-size: clamp(40px, 9vw, 84px); font-weight: 800; letter-spacing: 2px; }
-  .mid   { font-size: clamp(20px, 4vw, 34px); font-weight: 600; }
-  .emoji { font-size: clamp(60px, 14vw, 120px); animation: bob 1.2s ease-in-out infinite; }
-  @keyframes bob { 50% { transform: translateY(-16px); } }
+  .big   { font-size: clamp(38px, 8vw, 78px); font-weight: 800; letter-spacing: 2px; }
+  .mid   { font-size: clamp(18px, 3.5vw, 30px); font-weight: 600; }
+  .tag   {
+    font: 700 clamp(13px, 2vw, 16px) ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: 1px; background: rgba(255,255,255,.92); color: #1c2333;
+    padding: 5px 12px; border-radius: 999px; text-shadow: none;
+  }
+  .emoji { font-size: clamp(56px, 13vw, 110px); animation: bob 1.2s ease-in-out infinite; }
+  @keyframes bob { 50% { transform: translateY(-14px); } }
   button {
-    font: 700 clamp(20px, 4vw, 30px) system-ui, sans-serif; color: #fff;
+    font: 700 clamp(20px, 4vw, 28px) system-ui, sans-serif; color: #fff;
     background: #e0483e; border: none; border-radius: 14px;
-    padding: 14px 34px; cursor: pointer; box-shadow: 0 4px 0 rgba(0,0,0,.3);
+    padding: 13px 32px; cursor: pointer; box-shadow: 0 4px 0 rgba(0,0,0,.3);
   }
   button:active { transform: translateY(3px); box-shadow: none; }
-  #score {
-    position: fixed; top: 14px; left: 0; right: 0; text-align: center;
-    font: 800 46px system-ui, sans-serif; color: #fff;
-    text-shadow: 0 2px 6px rgba(0,0,0,.5); user-select: none;
+  #wordBox {
+    font: 800 clamp(26px, 5vw, 40px) ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: 6px; text-transform: uppercase; text-align: center;
+    width: min(70vw, 420px); padding: 12px 8px; border-radius: 14px;
+    border: 4px solid rgba(255,255,255,.85); background: rgba(10,16,34,.55); color: #fff;
+    outline: none;
   }
+  #wordBox.wrong { animation: shake .3s; border-color: #e0483e; }
+  @keyframes shake { 25% { transform: translateX(-9px); } 75% { transform: translateX(9px); } }
+  #bar { width: min(60vw, 380px); height: 20px; border-radius: 999px;
+         background: rgba(255,255,255,.25); overflow: hidden; }
+  #barFill { height: 100%; background: #ffd166; border-radius: 999px; width: 0%;
+             transition: width .8s ease; }
+  #hearts { font-size: clamp(24px, 5vw, 38px); letter-spacing: 6px; }
 </style>
 
-<canvas id="sky"></canvas>
-<div id="score"></div>
+<canvas id="skyCanvas"></canvas>
 
 <div class="screen" id="startScreen">
   <div class="big"  id="gameName"></div>
@@ -39,9 +52,19 @@
   <div class="mid"  id="startText"></div>
 </div>
 
-<div class="screen hidden" id="loseScreen">
-  <div class="big" id="loseText"></div>
-  <div class="mid" id="loseScore"></div>
+<div class="screen hidden" id="gateScreen">
+  <div id="hearts"></div>
+  <div class="mid" id="gateTitle"></div>
+  <div class="tag" id="gateWordShow"></div>
+  <input id="wordBox" autocomplete="off" spellcheck="false">
+  <button id="goButton">GO!</button>
+</div>
+
+<div class="screen hidden" id="endScreen">
+  <div class="big" id="endTitle"></div>
+  <div id="bar"><div id="barFill"></div></div>
+  <div class="mid" id="endStats"></div>
+  <div class="tag hidden" id="endWords"></div>
   <button id="againButton"></button>
 </div>
 
@@ -52,20 +75,38 @@
 const GAME = {
   name:   "IDI'S GAME",       // give it a name!
   player: "🛩️",               // any emoji you like
-  sky:    "skyblue",          // try: pink, gold, black, orange...
-  walls:  "green",            // try: purple, red, brown...
-  jump:   9,                  // how strong?
+  world:  "garden",           // garden · city · candy
+  sky:    "magic",            // magic = one whole day, sunrise to sunrise! or one color: pink, black, gold...
+  move:   "zigzag",           // zigzag = hold to go up! · float = tap tap tap!
   speed:  4,                  // how fast?
   hole:   175,                // big hole = relaxed, small hole = tricky
-  start:  "WAIT... TAP TO START",
-  lose:   "WRONG MOVE!",
-  again:  "TRY AGAIN",
+  trail:  "white",            // the line you draw in the sky
 };
 // ==================================================
-//   the engine (about 100 lines — that's the whole game)
+//   🌶️ MORE TO CHANGE (when you are ready)
 // ==================================================
-const canvas = document.getElementById("sky");
+const MORE = {
+  mode:   "level",            // level = finish one day, with hearts · free = play forever
+  level:  20,                 // how long is the day?
+  lives:  3,                  // how many hearts?
+  jump:   9,                  // float mode: how strong is one tap?
+  words:  ["RIGHT", "WAIT", "AGAIN", "TOGETHER"],   // your words fly in the sky — catch them!
+  labels: "on",               // on = everything tells you its English name · off = quiet sky
+  start:  "WAIT... HOLD TO FLY",
+  win:    "YOU MADE IT TO SUNRISE!",
+  lose:   "WRONG MOVE!",
+  again:  "TRY AGAIN",
+  gate:   "WRITE IT TO FLY AGAIN",
+};
+// ==================================================
+//   the engine. the map:  [SKY] sun, moon, stars, day and night
+//   [WORLD] hills, ground, the three worlds and their obstacles
+//   [FLIGHT] the player, the trail, holding and tapping
+//   [WORDS] flying words, the word gate  [LOOP] one frame of the game
+// ==================================================
+const canvas = document.getElementById("skyCanvas");
 const pen = canvas.getContext("2d");
+const $ = id => document.getElementById(id);
 let W, H, dpr;
 function fitScreen() {
   dpr = window.devicePixelRatio || 1;
@@ -77,100 +118,576 @@ function fitScreen() {
 fitScreen();
 window.addEventListener("resize", fitScreen);
 
-const GRAVITY = 0.45, WALL_WIDTH = 74, PLAYER_X = () => W * 0.28;
-let state = "start", playerY, fallSpeed, walls, score, frame;
-let best = Number(localStorage.getItem("gamelab-best") || 0);
-const clouds = [0, 1, 2, 3].map(i => ({ x: (i + 0.3) * 260, y: 40 + i * 55, s: 0.3 + i * 0.12 }));
+const lerp = (a, b, k) => a + (b - a) * k;
+const mixc = (c1, c2, k) => [0, 1, 2].map(i => Math.round(lerp(c1[i], c2[i], k)));
+const rgb = (c, a = 1) => `rgba(${c[0]},${c[1]},${c[2]},${a})`;
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 
-document.getElementById("gameName").textContent = GAME.name;
-document.getElementById("startEmoji").textContent = GAME.player;
-document.getElementById("startText").textContent = GAME.start;
-document.getElementById("loseText").textContent = GAME.lose;
-document.getElementById("againButton").textContent = GAME.again;
+const WALL_W = 78, SPACING = 280, GRAVITY = 0.45, PLAYER_R = 13;
+const PLAYER_X = () => Math.min(W * 0.28, 320);
+const GROUND = () => H - 30;
+
+let state = "start";        // start · play · gate · end
+let playerY, fallSpeed, walls, tokens, trail, particles, flyer;
+let score, passed, spawned, lives, collected, gateIdx, gateWord;
+let frame = 0, scroll = 0, skyT = 0, grace = 0, shake = 0, won = false, pressing = false, keyHeld = false;
+let best = 0;
+try { best = Number(localStorage.getItem("gl-best-" + GAME.name) || 0); } catch (e) {}
+
+const stars = Array.from({ length: 70 }, () => ({ x: Math.random(), y: Math.random() * 0.62, r: 0.6 + Math.random() * 1.4, tw: Math.random() * 7 }));
+const clouds = Array.from({ length: 5 }, (_, i) => ({ x: Math.random(), y: 0.06 + Math.random() * 0.3, s: 0.25 + Math.random() * 0.35, k: 0.8 + Math.random() * 0.5 }));
+
+// ---------------- [SKY] ----------------
+// the day is a journey: 0 sunrise → .25 noon → .5 sunset → .75 night → 1 sunrise
+const SKY = [
+  { t: 0.00, top: [ 47,  60, 112], mid: [231, 137, 125], low: [255, 214, 160], light: 0.55 },
+  { t: 0.25, top: [ 62, 156, 217], mid: [142, 204, 236], low: [215, 238, 248], light: 1.00 },
+  { t: 0.50, top: [ 83,  65, 123], mid: [231, 107, 107], low: [255, 180, 108], light: 0.60 },
+  { t: 0.75, top: [ 10,  17,  46], mid: [ 25,  34,  78], low: [ 42,  58, 100], light: 0.14 },
+  { t: 1.00, top: [ 47,  60, 112], mid: [231, 137, 125], low: [255, 214, 160], light: 0.55 },
+];
+function skyAt(t) {
+  t = ((t % 1) + 1) % 1;
+  let a = SKY[0], b = SKY[1];
+  for (let i = 0; i < SKY.length - 1; i++)
+    if (t >= SKY[i].t && t <= SKY[i + 1].t) { a = SKY[i]; b = SKY[i + 1]; }
+  const k = (t - a.t) / (b.t - a.t || 1);
+  return { top: mixc(a.top, b.top, k), mid: mixc(a.mid, b.mid, k),
+           low: mixc(a.low, b.low, k), light: lerp(a.light, b.light, k) };
+}
+function drawSky() {
+  const solid = GAME.sky !== "magic";
+  if (solid) {
+    pen.fillStyle = "#000"; pen.fillRect(0, 0, W, H);      // shows through if the color word is misspelled
+    pen.fillStyle = GAME.sky; pen.fillRect(0, 0, W, H);
+    return { top: [0,0,0], mid: [0,0,0], low: [120,120,140], light: 0.8 };
+  }
+  const s = skyAt(skyT);
+  const g = pen.createLinearGradient(0, 0, 0, GROUND());
+  g.addColorStop(0, rgb(s.top)); g.addColorStop(0.55, rgb(s.mid)); g.addColorStop(1, rgb(s.low));
+  pen.fillStyle = g; pen.fillRect(0, 0, W, H);
+
+  // stars, deepest at night
+  const starA = clamp(1 - Math.abs(skyT - 0.75) * 5, 0, 1);
+  if (starA > 0) {
+    for (const st of stars) {
+      pen.globalAlpha = starA * (0.45 + 0.55 * Math.abs(Math.sin(frame * 0.03 + st.tw)));
+      pen.fillStyle = "#fff";
+      pen.beginPath(); pen.arc(st.x * W, st.y * H, st.r, 0, 7); pen.fill();
+    }
+    pen.globalAlpha = 1;
+    if (labelsOn() && starA > 0.6) label("stars", stars[3].x * W, stars[3].y * H, 16);
+  }
+  // the sun rides the morning half, the moon rides the night half
+  const t = ((skyT % 1) + 1) % 1;
+  if (t < 0.56) {
+    const k = clamp(t / 0.5, 0, 1);
+    const sx = W * (0.12 + 0.76 * k), sy = GROUND() - Math.sin(k * Math.PI) * H * 0.6 - 18;
+    const glow = pen.createRadialGradient(sx, sy, 4, sx, sy, 90);
+    glow.addColorStop(0, "rgba(255,214,120,.9)"); glow.addColorStop(1, "rgba(255,214,120,0)");
+    pen.fillStyle = glow; pen.beginPath(); pen.arc(sx, sy, 90, 0, 7); pen.fill();
+    pen.fillStyle = "#FFD166"; pen.beginPath(); pen.arc(sx, sy, 26, 0, 7); pen.fill();
+    if (labelsOn()) label("sun", sx, sy - 40, 0);
+  }
+  if (t > 0.52) {
+    const k = clamp((t - 0.52) / 0.48, 0, 1);
+    const mx = W * (0.12 + 0.76 * k), my = GROUND() - Math.sin(k * Math.PI) * H * 0.6 - 18;
+    pen.fillStyle = "#EDEFF7"; pen.beginPath(); pen.arc(mx, my, 22, 0, 7); pen.fill();
+    pen.fillStyle = rgb(s.top, 0.85); pen.beginPath(); pen.arc(mx + 9, my - 6, 18, 0, 7); pen.fill();
+    if (labelsOn()) label("moon", mx, my - 38, 0);
+  }
+  return s;
+}
+
+// ---------------- [WORLD] ----------------
+const WORLDS = {
+  garden: { ground: "#7BAE58", dirt: "#8a6a3b", bottomName: "flower", topName: "vine" },
+  city:   { ground: "#9aa3ad", dirt: "#5d646d", bottomName: "building", topName: "crane" },
+  candy:  { ground: "#F2A7C3", dirt: "#D77FA8", bottomName: "lollipop", topName: "candy cane" },
+};
+const world = () => WORLDS[GAME.world] || WORLDS.garden;
+
+function drawHills(s) {
+  const shade = k => rgb(mixc(s.low, [18, 24, 42], k), 1);
+  for (const [factor, dark, amp, base] of [[0.18, 0.45, 60, 0.72], [0.4, 0.62, 90, 0.84]]) {
+    pen.fillStyle = shade(dark);
+    pen.beginPath(); pen.moveTo(0, H);
+    for (let x = 0; x <= W + 20; x += 20) {
+      const wx = x + scroll * factor;
+      let y;
+      if (GAME.world === "city") {
+        const b = Math.floor(wx / 90);
+        y = H * base - 40 - (Math.abs(Math.sin(b * 12.9898) * 43758.5453) % 1) * amp;
+      } else {
+        y = H * base - (Math.sin(wx * 0.004) * 0.6 + Math.sin(wx * 0.009 + 2) * 0.4) * amp - 30;
+      }
+      pen.lineTo(x, y);
+    }
+    pen.lineTo(W, H); pen.closePath(); pen.fill();
+    if (GAME.world === "city" && s.light < 0.45) {         // windows wake up at night
+      pen.fillStyle = `rgba(255,209,102,${(0.45 - s.light) * 1.6})`;
+      for (let x = 10; x < W; x += 34) {
+        const wx = x + scroll * factor;
+        const b = Math.floor(wx / 90);
+        const top = H * base - 40 - (Math.abs(Math.sin(b * 12.9898) * 43758.5453) % 1) * amp;
+        if ((Math.floor(wx / 34) % 3) !== 0) pen.fillRect(x, top + 18 + (b % 3) * 14, 5, 7);
+      }
+    }
+  }
+}
+function drawGround(s) {
+  const wd = world();
+  pen.fillStyle = wd.dirt; pen.fillRect(0, GROUND(), W, H - GROUND());
+  pen.fillStyle = wd.ground; pen.fillRect(0, GROUND(), W, 9);
+  pen.globalAlpha = clamp(s.light + 0.25, 0.35, 1); pen.fillStyle = "rgba(0,0,0,.18)";
+  pen.fillRect(0, GROUND(), W, H - GROUND()); pen.globalAlpha = 1;
+  if (labelsOn()) label("ground", 90, GROUND() + 15, 0);
+}
+function drawClouds(s) {
+  pen.fillStyle = rgb(mixc([255, 255, 255], s.top, 0.25), 0.85 * clamp(s.light + 0.25, 0.35, 1));
+  let first = true;
+  for (const c of clouds) {
+    c.x -= (c.s * 0.001);
+    if (c.x < -0.12) c.x = 1.1;
+    const cx = c.x * W, cy = c.y * H, k = c.k;
+    pen.beginPath();
+    pen.ellipse(cx, cy, 46 * k, 17 * k, 0, 0, 7);
+    pen.ellipse(cx + 30 * k, cy - 9 * k, 30 * k, 14 * k, 0, 0, 7);
+    pen.ellipse(cx - 28 * k, cy - 5 * k, 24 * k, 11 * k, 0, 0, 7);
+    pen.fill();
+    if (labelsOn() && first) { label("cloud", cx, cy - 30 * k, 0); first = false; }
+  }
+}
+
+// visiting flyers: planes and birds by day, balloons at golden hours, a shooting star at night
+function updateFlyer(s) {
+  if (!flyer && Math.random() < 0.004 && state === "play") {
+    const t = ((skyT % 1) + 1) % 1;
+    const kind = t > 0.6 && t < 0.92 ? "star"
+               : (t < 0.08 || (t > 0.42 && t < 0.6)) ? "balloon"
+               : Math.random() < 0.5 ? "plane" : "birds";
+    flyer = { kind, x: W + 80, y: H * (0.1 + Math.random() * 0.25), life: 0 };
+    if (kind === "star") { flyer.x = W * (0.3 + Math.random() * 0.5); flyer.y = H * 0.08; }
+  }
+  if (!flyer) return;
+  flyer.life++;
+  const f = flyer;
+  if (f.kind === "star") {
+    f.x += 7; f.y += 3.5;
+    pen.strokeStyle = "rgba(255,255,255,.85)"; pen.lineWidth = 2.5;
+    pen.beginPath(); pen.moveTo(f.x - 42, f.y - 21); pen.lineTo(f.x, f.y); pen.stroke();
+    pen.fillStyle = "#fff"; pen.beginPath(); pen.arc(f.x, f.y, 3.4, 0, 7); pen.fill();
+    if (labelsOn()) label("star", f.x, f.y - 22, 0);
+    if (f.life > 60) flyer = null;
+  } else if (f.kind === "balloon") {
+    f.x -= 0.8; f.y += Math.sin(f.life * 0.02) * 0.3;
+    pen.fillStyle = "#E76F51"; pen.beginPath(); pen.arc(f.x, f.y, 22, 0, 7); pen.fill();
+    pen.fillStyle = "#F4A261"; pen.beginPath(); pen.arc(f.x - 7, f.y - 4, 14, 0, 7); pen.fill();
+    pen.strokeStyle = "rgba(60,40,20,.7)"; pen.lineWidth = 1.5;
+    pen.beginPath(); pen.moveTo(f.x - 10, f.y + 18); pen.lineTo(f.x - 6, f.y + 34);
+    pen.moveTo(f.x + 10, f.y + 18); pen.lineTo(f.x + 6, f.y + 34); pen.stroke();
+    pen.fillStyle = "#7f5539"; pen.fillRect(f.x - 8, f.y + 34, 16, 11);
+    if (labelsOn()) label("balloon", f.x, f.y - 34, 0);
+    if (f.x < -60) flyer = null;
+  } else if (f.kind === "plane") {
+    f.x -= 3.2; f.y += Math.sin(f.life * 0.05) * 0.4;
+    pen.save(); pen.translate(f.x, f.y);
+    pen.fillStyle = "#F5F7FA";
+    pen.beginPath(); pen.moveTo(-26, 0); pen.lineTo(22, -7); pen.lineTo(22, 7); pen.closePath(); pen.fill();
+    pen.fillStyle = "#D7DEE8";
+    pen.beginPath(); pen.moveTo(2, -3); pen.lineTo(16, -18); pen.lineTo(12, 0); pen.closePath(); pen.fill();
+    pen.restore();
+    if (labelsOn()) label("plane", f.x, f.y - 24, 0);
+    if (f.x < -60) flyer = null;
+  } else {
+    f.x -= 1.6;
+    pen.strokeStyle = "rgba(30,36,52,.8)"; pen.lineWidth = 2;
+    for (let i = 0; i < 4; i++) {
+      const bx = f.x + i * 26 + (i % 2) * 8, by = f.y + (i % 2) * 12;
+      const flapK = Math.sin(frame * 0.25 + i) * 6;
+      pen.beginPath(); pen.moveTo(bx - 8, by - flapK * 0.5);
+      pen.quadraticCurveTo(bx, by - 6 - flapK, bx + 8, by - flapK * 0.5); pen.stroke();
+    }
+    if (labelsOn()) label("birds", f.x + 30, f.y - 24, 0);
+    if (f.x < -140) flyer = null;
+  }
+}
+
+// --- the three worlds' obstacles: how they look and where they truly are ---
+function hitRects(wall) {
+  const x = wall.x, t = wall.top, b = wall.bottom;
+  if (GAME.world === "city") return [
+    { x: x, y: b, w: WALL_W, h: H - b },
+    { x: x + 34, y: 0, w: 10, h: t - 24 },
+    { x: x - 8, y: t - 26, w: WALL_W + 16, h: 26 },
+  ];
+  if (GAME.world === "candy") return [
+    { x: x + 8, y: b + 58, w: WALL_W - 16, h: H - b - 58 },
+    { x: x - 4, y: b, w: WALL_W + 8, h: 66 },
+    { x: x + 22, y: 0, w: 34, h: t - 34 },
+    { x: x + 6, y: t - 40, w: WALL_W - 12, h: 40 },
+  ];
+  return [                                              // garden
+    { x: x + 24, y: b + 52, w: 30, h: H - b - 52 },
+    { x: x - 4, y: b, w: WALL_W + 8, h: 62 },
+    { x: x + 24, y: 0, w: 30, h: t - 44 },
+    { x: x + 9, y: t - 48, w: 60, h: 48 },
+  ];
+}
+function drawWall(wall, s) {
+  const x = wall.x, t = wall.top, b = wall.bottom, cx = x + WALL_W / 2;
+  const dim = clamp(s.light + 0.35, 0.45, 1);
+  pen.save(); pen.globalAlpha = 1;
+  if (GAME.world === "city") {
+    // below: a building with windows · above: a crane holding a steel beam
+    pen.fillStyle = "#6B7683"; pen.fillRect(x, b, WALL_W, H - b);
+    pen.fillStyle = "#59636F"; pen.fillRect(x - 5, b, WALL_W + 10, 12);
+    pen.fillStyle = s.light < 0.45 ? "#FFD166" : "#B9C3CE";
+    for (let wy = b + 22; wy < H - 20; wy += 26)
+      for (let wx = x + 10; wx < x + WALL_W - 12; wx += 22) pen.fillRect(wx, wy, 11, 14);
+    pen.fillStyle = "#8B95A1"; pen.fillRect(x + 34, 0, 10, t - 24);
+    for (let sy = 12; sy < t - 30; sy += 22) {
+      pen.strokeStyle = "#7A8492"; pen.lineWidth = 3;
+      pen.beginPath(); pen.moveTo(x + 34, sy); pen.lineTo(x + 44, sy + 16); pen.stroke();
+    }
+    pen.fillStyle = "#E0483E"; pen.fillRect(x - 8, t - 26, WALL_W + 16, 26);
+    pen.fillStyle = "#fff";
+    pen.fillRect(x - 8 + 14, t - 26, 14, 26); pen.fillRect(x - 8 + 46, t - 26, 14, 26); pen.fillRect(x - 8 + 78, t - 26, 14, 26);
+  } else if (GAME.world === "candy") {
+    // below: a lollipop on a marshmallow tower · above: a striped candy cane
+    const pastel = ["#FBD1DE", "#CDEBF7", "#FDF3C6"];
+    for (let i = 0, y = H; y > b + 58; y -= 30, i++) {
+      pen.fillStyle = pastel[i % 3];
+      pen.beginPath(); pen.roundRect(x + 8, y - 32, WALL_W - 16, 32, 12); pen.fill();
+    }
+    pen.fillStyle = "#F45B9C"; pen.beginPath(); pen.arc(cx, b + 33, 37, 0, 7); pen.fill();
+    pen.strokeStyle = "#fff"; pen.lineWidth = 7;
+    pen.beginPath(); pen.arc(cx, b + 33, 22, 0.4, 4.2); pen.stroke();
+    pen.beginPath(); pen.arc(cx, b + 33, 9, 2.6, 6.6); pen.stroke();
+    pen.fillStyle = "#fff"; pen.beginPath(); pen.roundRect(x + 22, 0, 34, t - 30, 8); pen.fill();
+    pen.save(); pen.beginPath(); pen.roundRect(x + 22, 0, 34, t - 30, 8); pen.clip();
+    pen.strokeStyle = "#E0483E"; pen.lineWidth = 11;
+    for (let sy = -20; sy < t + 20; sy += 30) {
+      pen.beginPath(); pen.moveTo(x + 10, sy); pen.lineTo(x + 70, sy + 24); pen.stroke();
+    }
+    pen.restore();
+    pen.fillStyle = "#E0483E"; pen.beginPath(); pen.roundRect(x + 6, t - 40, WALL_W - 12, 40, 18); pen.fill();
+    pen.fillStyle = "#fff"; pen.beginPath(); pen.roundRect(x + 6, t - 40, WALL_W - 12, 16, 8); pen.fill();
+  } else {
+    // garden — below: a sunflower · above: a leafy vine with a bee at its tip
+    pen.fillStyle = "#4E8F45"; pen.fillRect(x + 26, b + 52, 26, H - b - 52);
+    pen.fillStyle = "#5FA653";
+    for (let ly = b + 90, side = 1; ly < H - 20; ly += 46, side *= -1) {
+      pen.beginPath(); pen.ellipse(cx + side * 27, ly, 24, 10, side * 0.5, 0, 7); pen.fill();
+    }
+    pen.fillStyle = "#F6AE2D";
+    for (let i = 0; i < 10; i++) {
+      const a = i / 10 * Math.PI * 2 + 0.3;
+      pen.beginPath(); pen.ellipse(cx + Math.cos(a) * 30, b + 31 + Math.sin(a) * 30, 15, 8, a, 0, 7); pen.fill();
+    }
+    pen.fillStyle = "#7f5539"; pen.beginPath(); pen.arc(cx, b + 31, 19, 0, 7); pen.fill();
+    pen.fillStyle = "#4E8F45"; pen.fillRect(x + 30, 0, 18, t - 44);
+    pen.fillStyle = "#5FA653";
+    for (let ly = 30, side = 1; ly < t - 56; ly += 40, side *= -1) {
+      pen.beginPath(); pen.ellipse(x + 39 + side * 22, ly, 20, 9, side * 0.5, 0, 7); pen.fill();
+    }
+    const bee = { x: x + 39, y: t - 22 };
+    pen.fillStyle = "rgba(255,255,255,.8)";
+    pen.beginPath(); pen.ellipse(bee.x - 6, bee.y - 13, 8, 5, -0.6, 0, 7);
+    pen.ellipse(bee.x + 6, bee.y - 13, 8, 5, 0.6, 0, 7); pen.fill();
+    pen.fillStyle = "#F6AE2D"; pen.beginPath(); pen.ellipse(bee.x, bee.y, 13, 10, 0, 0, 7); pen.fill();
+    pen.fillStyle = "#2b2b2b";
+    pen.beginPath(); pen.ellipse(bee.x - 4, bee.y, 3, 10, 0, 0, 7); pen.fill();
+    pen.beginPath(); pen.ellipse(bee.x + 5, bee.y, 3, 9, 0, 0, 7); pen.fill();
+  }
+  pen.globalAlpha = 1 - dim ? 1 : 1;
+  pen.restore();
+  // night dims the obstacles too
+  if (s.light < 0.5 && GAME.sky === "magic") {
+    pen.fillStyle = `rgba(10,14,30,${(0.5 - s.light) * 0.55})`;
+    for (const r of hitRects(wall)) pen.fillRect(r.x, r.y, r.w, r.h);
+  }
+}
+
+// ---------------- [WORDS] flying words to catch ----------------
+function drawToken(tk) {
+  tk.bob = Math.sin(frame * 0.07 + tk.seed) * 7;
+  const y = tk.y + tk.bob;
+  pen.font = "800 17px ui-monospace, Menlo, Consolas, monospace";
+  const w = pen.measureText(tk.word).width + 26;
+  pen.fillStyle = "rgba(255,255,255,.94)";
+  pen.beginPath(); pen.roundRect(tk.x - w / 2, y - 17, w, 34, 999); pen.fill();
+  pen.fillStyle = "#E0483E";
+  pen.beginPath(); pen.arc(tk.x - w / 2, y, 5, 0, 7); pen.fill();
+  pen.fillStyle = "#1c2333"; pen.textAlign = "center"; pen.textBaseline = "middle";
+  pen.fillText(tk.word, tk.x + 4, y + 1);
+}
+
+// ---------------- [FLIGHT] ----------------
+function press(isTap) {
+  if (state === "start") {
+    state = "play"; $("startScreen").classList.add("hidden");
+  }
+  if (state === "play" && GAME.move !== "zigzag" && isTap) fallSpeed = -MORE.jump;
+}
+window.addEventListener("pointerdown", e => {
+  if (e.target.closest("button") || e.target.closest("input")) return;
+  pressing = true; if (state === "start" || state === "play") press(true);
+});
+window.addEventListener("pointerup", () => pressing = false);
+window.addEventListener("pointercancel", () => pressing = false);
+window.addEventListener("keydown", e => {
+  if (state === "gate") return;                          // the keyboard belongs to the word box
+  if (e.code === "Space" || e.code === "ArrowUp") {
+    e.preventDefault(); keyHeld = true; if (!e.repeat) press(true);
+  }
+});
+window.addEventListener("keyup", e => {
+  if (e.code === "Space" || e.code === "ArrowUp") keyHeld = false;
+});
+
+// ---------------- screens & state ----------------
+$("gameName").textContent = GAME.name;
+$("startEmoji").textContent = GAME.player;
+$("startText").textContent = MORE.start;
+$("gateTitle").textContent = MORE.gate;
+$("goButton").textContent = "GO!";
 
 function reset() {
-  playerY = H / 2; fallSpeed = 0; walls = []; score = 0; frame = 0;
-  document.getElementById("score").textContent = "";
+  playerY = H / 2; fallSpeed = 0; walls = []; tokens = []; trail = []; particles = [];
+  flyer = null; score = 0; passed = 0; spawned = 0; gateIdx = 0; collected = [];
+  lives = MORE.lives; skyT = 0; grace = 0; shake = 0; won = false; frame = 0; scroll = 0;
 }
 reset();
 
-function flap() {
-  if (state === "start") {
-    state = "play";
-    document.getElementById("startScreen").classList.add("hidden");
-  }
-  if (state === "play") fallSpeed = -GAME.jump;
+function burst(x, y, color, n, spread = 5) {
+  for (let i = 0; i < n; i++) particles.push({
+    x, y, vx: (Math.random() - 0.5) * spread * 2, vy: (Math.random() - 0.7) * spread * 2,
+    life: 40 + Math.random() * 30, color, r: 2 + Math.random() * 3.5,
+  });
 }
-window.addEventListener("pointerdown", e => { if (state !== "lose") flap(); });
-window.addEventListener("keydown", e => {
-  if (e.code === "Space" || e.code === "ArrowUp") { e.preventDefault(); if (state !== "lose") flap(); }
-});
-document.getElementById("againButton").addEventListener("click", e => {
-  e.stopPropagation(); reset(); state = "start";
-  document.getElementById("loseScreen").classList.add("hidden");
-  document.getElementById("startScreen").classList.remove("hidden");
+
+function openGate() {
+  state = "gate"; walls = []; tokens = []; fallSpeed = 0;
+  gateWord = MORE.words[gateIdx % MORE.words.length] || "";
+  gateIdx++;
+  $("hearts").textContent = "❤️".repeat(lives) + "🖤".repeat(Math.max(0, MORE.lives - lives));
+  $("gateWordShow").textContent = gateWord;
+  $("wordBox").value = "";
+  $("gateScreen").classList.remove("hidden");
+  setTimeout(() => $("wordBox").focus(), 60);
+}
+function closeGate() {
+  $("gateScreen").classList.add("hidden");
+  playerY = H / 2; fallSpeed = 0; grace = 100; state = "play";
+}
+function tryGate() {
+  if ($("wordBox").value.trim().toUpperCase() === gateWord.toUpperCase()) {
+    burst(PLAYER_X(), H / 2, "#FFD166", 24); closeGate();
+  } else {
+    $("wordBox").classList.add("wrong");
+    setTimeout(() => { $("wordBox").classList.remove("wrong"); $("wordBox").select(); }, 320);
+  }
+}
+$("goButton").addEventListener("click", tryGate);
+$("wordBox").addEventListener("keydown", e => { if (e.key === "Enter") tryGate(); });
+
+function endGame(didWin) {
+  state = "end"; won = didWin;
+  best = Math.max(best, score);
+  try { localStorage.setItem("gl-best-" + GAME.name, best); } catch (e) {}
+  const isLevel = MORE.mode === "level";
+  $("endTitle").textContent = didWin ? MORE.win : MORE.lose;
+  $("bar").style.display = isLevel ? "" : "none";
+  const pct = didWin ? 100 : Math.round(passed / MORE.level * 100);
+  $("endStats").textContent = isLevel
+    ? pct + "%  ·  " + score + " POINTS  ·  BEST: " + best
+    : score + "  ·  BEST: " + best;
+  if (collected.length) {
+    $("endWords").textContent = "CAUGHT: " + collected.join(" · ");
+    $("endWords").classList.remove("hidden");
+  } else $("endWords").classList.add("hidden");
+  $("againButton").textContent = MORE.again;
+  $("endScreen").classList.remove("hidden");
+  setTimeout(() => { $("barFill").style.width = pct + "%"; }, 80);
+  if (didWin) for (let i = 0; i < 5; i++)
+    burst(W * (0.15 + 0.175 * i), H * 0.15, ["#FFD166", "#F45B9C", "#5FA653", "#4EA8DE", "#E0483E"][i], 26, 7);
+}
+$("againButton").addEventListener("click", () => {
+  reset(); state = "start";
+  $("endScreen").classList.add("hidden"); $("barFill").style.width = "0%";
+  $("startScreen").classList.remove("hidden");
 });
 
 function die() {
-  state = "lose";
-  best = Math.max(best, score);
-  localStorage.setItem("gamelab-best", best);
-  document.getElementById("loseScore").textContent = score + "  ·  BEST: " + best;
-  document.getElementById("loseScreen").classList.remove("hidden");
+  if (grace > 0) return;
+  burst(PLAYER_X(), playerY, "#fff", 30, 6); shake = 13;
+  if (MORE.mode === "level" && lives > 1 && MORE.words.length) { lives--; openGate(); }
+  else { lives = 0; endGame(false); }
 }
 
-function step() {
-  if (state === "play") {
-    frame++;
-    fallSpeed += GRAVITY;
-    playerY += fallSpeed;
-    if (playerY < 18) { playerY = 18; fallSpeed = 0; }
-    if (playerY > H - 40) die();                      // the ground!
+// ---------------- labels: the world says its own names ----------------
+const labelsOn = () => MORE.labels === "on";
+function label(text, x, y, bobSeed) {
+  const bob = Math.sin(frame * 0.045 + bobSeed) * 3.5;
+  y += bob;
+  pen.save();
+  pen.font = "700 12px ui-monospace, Menlo, Consolas, monospace";
+  const w = pen.measureText(text).width + 18;
+  const night = GAME.sky === "magic" && Math.abs(((skyT % 1) + 1) % 1 - 0.75) < 0.13;
+  pen.fillStyle = night ? "rgba(20,26,48,.8)" : "rgba(255,255,255,.82)";
+  pen.strokeStyle = night ? "rgba(255,255,255,.5)" : "rgba(28,35,51,.35)";
+  pen.lineWidth = 1;
+  pen.beginPath(); pen.roundRect(x - w / 2, y - 11, w, 22, 999); pen.fill(); pen.stroke();
+  pen.fillStyle = night ? "#fff" : "#1c2333";
+  pen.textAlign = "center"; pen.textBaseline = "middle";
+  pen.fillText(text, x, y + 1);
+  pen.restore();
+}
 
-    const last = walls[walls.length - 1];
-    if (!last || last.x < W - 250) {
-      const middle = 120 + Math.random() * (H - 280);
-      walls.push({ x: W, top: middle - GAME.hole / 2, bottom: middle + GAME.hole / 2, passed: false });
+// ---------------- [LOOP] one frame ----------------
+function step() {
+  frame++;
+  const held = pressing || keyHeld;
+
+  if (state === "play") {
+    scroll += GAME.speed;
+    if (GAME.move === "zigzag") {
+      const target = held ? -GAME.speed * 1.15 : GAME.speed * 1.15;   // 45° up or 45° down
+      fallSpeed += (target - fallSpeed) * 0.3;
+    } else {
+      fallSpeed += GRAVITY;
+    }
+    playerY += fallSpeed;
+    if (playerY < 22) { playerY = 22; fallSpeed = Math.max(0, fallSpeed); }
+    if (playerY > GROUND() - 12) { if (grace > 0) { playerY = GROUND() - 12; } else die(); }
+
+    const canSpawn = MORE.mode !== "level" || spawned < MORE.level;
+    const lastWall = walls[walls.length - 1];
+    if (canSpawn && (!lastWall || lastWall.x < W - SPACING)) {
+      const middle = 130 + Math.random() * (H - 320);
+      walls.push({ x: W + 20, top: middle - GAME.hole / 2, bottom: middle + GAME.hole / 2, passed: false });
+      spawned++;
+      if (MORE.words.length && spawned % 3 === 1)
+        tokens.push({ x: W + 20 + SPACING / 2, y: clamp(middle + (Math.random() - 0.5) * 120, 70, GROUND() - 60),
+                      word: MORE.words[(Math.ceil(spawned / 3) - 1) % MORE.words.length], seed: Math.random() * 7 });
     }
     for (const wall of walls) {
       wall.x -= GAME.speed;
-      if (!wall.passed && wall.x + WALL_WIDTH < PLAYER_X()) {
-        wall.passed = true; score++;
-        document.getElementById("score").textContent = score;
+      if (!wall.passed && wall.x + WALL_W < PLAYER_X()) {
+        wall.passed = true; passed++; score++;
+        if (MORE.mode === "level" && passed >= MORE.level) { endGame(true); }
       }
-      const hitsWall = PLAYER_X() + 16 > wall.x && PLAYER_X() - 16 < wall.x + WALL_WIDTH;
-      if (hitsWall && (playerY - 14 < wall.top || playerY + 14 > wall.bottom)) die();
+      if (grace <= 0) for (const r of hitRects(wall)) {
+        const nx = clamp(PLAYER_X(), r.x, r.x + r.w), ny = clamp(playerY, r.y, r.y + r.h);
+        if ((PLAYER_X() - nx) ** 2 + (playerY - ny) ** 2 < PLAYER_R ** 2) { die(); break; }
+      }
+      if (state !== "play") break;
     }
-    walls = walls.filter(w => w.x > -WALL_WIDTH);
+    walls = walls.filter(w => w.x > -WALL_W - 20);
+    for (const tk of tokens) {
+      tk.x -= GAME.speed;
+      if (!tk.got && Math.hypot(tk.x - PLAYER_X(), tk.y - playerY) < 46) {
+        tk.got = true; score += 5; collected.push(tk.word);
+        burst(tk.x, tk.y, "#FFD166", 18, 4);
+      }
+    }
+    tokens = tokens.filter(tk => tk.x > -160 && !tk.got);
+    if (grace > 0) grace--;
+    trail.push({ x: PLAYER_X(), y: playerY, turn: false });
+    if (trail.length > 1 && GAME.move === "zigzag") {
+      const a = trail[trail.length - 2];
+      if (Math.sign(playerY - a.y) !== Math.sign(a.dy || 0) && a.dy !== undefined) a.turn = true;
+      trail[trail.length - 1].dy = playerY - a.y;
+    }
+    if (trail.length > 130) trail.shift();
   }
+  for (const p of trail) if (state === "play") p.x -= GAME.speed;
 
-  // ---- drawing ----
-  pen.fillStyle = "#000"; pen.fillRect(0, 0, W, H);   // backdrop if sky color is misspelled
-  pen.fillStyle = GAME.sky; pen.fillRect(0, 0, W, H);
-  pen.fillStyle = "rgba(255,255,255,.75)";
-  for (const c of clouds) {
-    c.x -= c.s; if (c.x < -90) c.x = W + 90;
-    pen.beginPath();
-    pen.ellipse(c.x, c.y, 46, 18, 0, 0, 7);
-    pen.ellipse(c.x + 30, c.y - 10, 30, 15, 0, 0, 7);
-    pen.fill();
-  }
-  pen.fillStyle = GAME.walls;
-  for (const wall of walls) {
-    pen.fillRect(wall.x, 0, WALL_WIDTH, wall.top);
-    pen.fillRect(wall.x, wall.bottom, WALL_WIDTH, H - wall.bottom);
-    pen.fillRect(wall.x - 5, wall.top - 22, WALL_WIDTH + 10, 22);
-    pen.fillRect(wall.x - 5, wall.bottom, WALL_WIDTH + 10, 22);
-  }
-  pen.fillStyle = "#8a6a3b"; pen.fillRect(0, H - 26, W, 26);   // the ground
-  pen.fillStyle = "#5ea34e"; pen.fillRect(0, H - 26, W, 7);
-
+  // ---- draw ----
   pen.save();
-  pen.translate(PLAYER_X(), playerY);
-  pen.rotate(Math.max(-0.5, Math.min(1.1, fallSpeed * 0.06)));
-  pen.font = "40px system-ui"; pen.textAlign = "center"; pen.textBaseline = "middle";
-  pen.fillText(GAME.player, 0, 0);
+  if (shake > 0) { pen.translate((Math.random() - 0.5) * shake, (Math.random() - 0.5) * shake); shake *= 0.86; if (shake < 0.5) shake = 0; }
+
+  const s = drawSky();
+  if (GAME.sky === "magic") drawHills(s);
+  drawClouds(s);
+  updateFlyer(s);
+  let labeledWall = false;
+  for (const wall of walls) {
+    drawWall(wall, s);
+    if (labelsOn() && !labeledWall && wall.x + WALL_W > PLAYER_X() - 30) {
+      label(world().bottomName, wall.x + WALL_W / 2, wall.bottom + 74, 1);
+      label(world().topName, wall.x + WALL_W / 2, Math.max(26, wall.top - 62), 2);
+      labeledWall = true;
+    }
+  }
+  for (const tk of tokens) drawToken(tk);
+  drawGround(s);
+
+  if (trail.length > 1) {
+    for (const [lw, alpha] of [[8, 0.22], [3, 0.95]]) {
+      pen.strokeStyle = GAME.trail; pen.globalAlpha = alpha; pen.lineWidth = lw;
+      pen.lineJoin = "round"; pen.lineCap = "round";
+      pen.beginPath(); pen.moveTo(trail[0].x, trail[0].y);
+      for (const p of trail) pen.lineTo(p.x, p.y);
+      pen.stroke();
+    }
+    pen.fillStyle = GAME.trail;
+    for (const p of trail) if (p.turn) { pen.beginPath(); pen.arc(p.x, p.y, 4, 0, 7); pen.fill(); }
+    pen.globalAlpha = 1;
+    if (labelsOn() && state === "play" && trail.length > 40) label("trail", trail[8].x, trail[8].y - 22, 3);
+  }
+
+  if (state !== "end" || won) {
+    pen.save();
+    pen.translate(PLAYER_X(), playerY);
+    pen.rotate(GAME.move === "zigzag" ? clamp(fallSpeed * 0.09, -0.7, 0.7) : clamp(fallSpeed * 0.06, -0.5, 1.1));
+    if (grace > 0) pen.globalAlpha = 0.45 + 0.45 * Math.sin(frame * 0.35);
+    pen.font = "40px system-ui"; pen.textAlign = "center"; pen.textBaseline = "middle";
+    pen.fillText(GAME.player, 0, 0);
+    pen.restore();
+    if (labelsOn() && state === "play") label("me!", PLAYER_X(), playerY - 38, 4);
+  }
+
+  particles = particles.filter(p => p.life > 0);
+  for (const p of particles) {
+    p.life--; p.x += p.vx; p.y += p.vy; p.vy += 0.16;
+    pen.globalAlpha = clamp(p.life / 40, 0, 1);
+    pen.fillStyle = p.color;
+    pen.beginPath(); pen.arc(p.x, p.y, p.r, 0, 7); pen.fill();
+  }
+  pen.globalAlpha = 1;
+
+  // HUD
+  if (state === "play" || state === "gate") {
+    pen.font = "800 44px system-ui"; pen.textAlign = "center"; pen.textBaseline = "top";
+    pen.fillStyle = "rgba(255,255,255,.95)";
+    pen.shadowColor = "rgba(0,0,0,.4)"; pen.shadowBlur = 8;
+    pen.fillText(score, W / 2, 14);
+    pen.shadowBlur = 0;
+    if (MORE.mode === "level") {
+      const bw = Math.min(W * 0.24, 220);
+      pen.fillStyle = "rgba(255,255,255,.3)";
+      pen.beginPath(); pen.roundRect(16, 22, bw, 12, 999); pen.fill();
+      pen.fillStyle = "#FFD166";
+      pen.beginPath(); pen.roundRect(16, 22, Math.max(10, bw * passed / MORE.level), 12, 999); pen.fill();
+      pen.beginPath(); pen.arc(16 + Math.max(10, bw * passed / MORE.level), 28, 9, 0, 7); pen.fill();
+      pen.font = "700 13px ui-monospace, Menlo, monospace"; pen.textAlign = "left";
+      pen.fillStyle = "rgba(255,255,255,.95)";
+      pen.fillText((MORE.level - passed) + " TO GO", 16, 42);
+      pen.textAlign = "right"; pen.font = "26px system-ui";
+      pen.fillText("❤️".repeat(lives), W - 14, 16);
+    }
+  }
   pen.restore();
+
+  // the sky clock
+  if (GAME.sky === "magic") {
+    if (MORE.mode === "level") {
+      const target = won ? 1 : passed / MORE.level;
+      if (state === "play" || state === "end") skyT += (target - skyT) * (won ? 0.03 : 0.012);
+    } else if (state === "play") skyT = (skyT + 0.00028) % 1;
+  }
 
   requestAnimationFrame(step);
 }
