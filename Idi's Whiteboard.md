@@ -37,6 +37,7 @@ These customized agents will generate millions of bespoke explanations and pract
 
 MASSIVE improvement! Great work! Let's iterate further:
 1. technically, is not perfect. I had several instances where nothing would spawn and I just fly through an empty sky. Also, it doesn't feel "fair", meaning that there are obstacles with a very low "entry-point"/"gap" followed immidetly by obstacles with a very high one, creating a difficulty spike.
-2. It looks better. It looks great. It can look much better. Varied clouds, more background detail and depth, more movement and dynamic elements like maybe the ground is the ocean and its' waves move, more particles and animations, and more fancy/advanced HTML magic. Send agents to research more online and find games that create out-of-distribution experiences rather than slop-copies.
+2. It looks better. It looks great. It can look much better. Varied clouds, more background detail and depth, more movement and dynamic elements like maybe the ground is the ocean and its' waves move, more particles and animations, more things interacting on the horizon, and more fancy/advanced HTML magic. Send agents to research more online and find games that create out-of-distribution experiences rather than slop-copies.
 3. What about audio? Is it possible and desirable to add sound effects and music? Is it possible and desirable to have options and make it all customizable?
-4. Artistically,
+4. The floating words/labels should move around more, circling the object. Also, there should be more of them - EVERY object should have one - including the hearts that represent lives.
+5. Forcing the player to type an English word on failure is a WONDERFUL idea! Reminds of "The Typing of the Dead" video game I played decades ago. We should lean into that, starting with you suggesting more/complementary mechanisms and us deciding whether or not to add them.
