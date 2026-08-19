@@ -16,9 +16,9 @@
   .big   { font-size: clamp(38px, 8vw, 78px); font-weight: 800; letter-spacing: 2px; }
   .mid   { font-size: clamp(18px, 3.5vw, 30px); font-weight: 600; }
   .tag   {
-    font: 700 clamp(13px, 2vw, 16px) ui-monospace, Menlo, Consolas, monospace;
+    font: 700 clamp(15px, 2.4vw, 20px) ui-monospace, Menlo, Consolas, monospace;
     letter-spacing: 1px; background: rgba(255,255,255,.92); color: #1c2333;
-    padding: 5px 12px; border-radius: 999px; text-shadow: none;
+    padding: 6px 14px; border-radius: 999px; text-shadow: none;
   }
   .emoji { font-size: clamp(56px, 13vw, 110px); animation: bob 1.2s ease-in-out infinite; }
   @keyframes bob { 50% { transform: translateY(-14px); } }
@@ -28,6 +28,7 @@
     padding: 13px 32px; cursor: pointer; box-shadow: 0 4px 0 rgba(0,0,0,.3);
   }
   button:active { transform: translateY(3px); box-shadow: none; }
+  .mini { font-size: clamp(15px, 2.5vw, 18px); padding: 8px 18px; background: #3D6EA5; }
   #wordBox {
     font: 800 clamp(26px, 5vw, 40px) ui-monospace, Menlo, Consolas, monospace;
     letter-spacing: 6px; text-transform: uppercase; text-align: center;
@@ -56,6 +57,7 @@
   <div id="hearts"></div>
   <div class="mid" id="gateTitle"></div>
   <div class="tag" id="gateWordShow"></div>
+  <button id="sayButton" class="mini">🔊 SAY IT AGAIN</button>
   <input id="wordBox" autocomplete="off" spellcheck="false">
   <button id="goButton">GO!</button>
 </div>
@@ -65,6 +67,7 @@
   <div id="bar"><div id="barFill"></div></div>
   <div class="mid" id="endStats"></div>
   <div class="tag hidden" id="endWords"></div>
+  <div class="tag hidden" id="endPass"></div>
   <button id="againButton"></button>
 </div>
 
@@ -95,6 +98,9 @@ const MORE = {
   labels: "on",               // on = everything tells you its English name · off = quiet sky
   sound:  "on",               // on · off — blips and chimes
   music:  "party",            // calm · party · off
+  listen: "on",               // on = the gate SAYS the word, write what you hear · off = it shows the word
+  storm:  "on",               // on = a word storm hits in the middle of the day
+  password: "on",             // on = finishing a day sets a password for next time
   start:  "READY? HOLD TO FLY",
   win:    "YOU DID IT! DANCE!",
   lose:   "OH NO... WRONG!",
@@ -102,11 +108,27 @@ const MORE = {
   gate:   "WRITE IT TO FLY AGAIN",
 };
 // ==================================================
-//   the engine. the map:  [SOUND] blips, chimes, calm & party music
-//   [SKY] sun, moon, stars, rays, one whole day  [WORLD] hills, floors,
-//   waves, windmills, boats, trains, petals, fireflies  [WALLS] the three
-//   worlds' obstacles  [FLIGHT] holding, tapping, the trail  [WORDS] flying
-//   words & the word gate  [LABELS] everything says its name  [LOOP] one frame
+//   📖 THE WORD BOOK — what each emoji is called.
+//   your emoji missing? add it to the book!
+// ==================================================
+const WORD_BOOK = {
+  "🛩️": "plane", "✈️": "plane", "🐤": "chick", "🐦": "bird", "🦋": "butterfly",
+  "🧸": "teddy bear", "🐝": "bee", "🚀": "rocket", "🦄": "unicorn", "🐬": "dolphin",
+  "🐱": "cat", "🐶": "dog", "🐢": "turtle", "🐸": "frog", "🦆": "duck",
+  "🐧": "penguin", "👻": "ghost", "🤖": "robot", "🐟": "fish", "🦈": "shark",
+  "🍓": "strawberry", "🍩": "donut", "🧁": "cupcake", "🍭": "lollipop", "⭐": "star",
+  "❤️": "heart", "🔥": "fire", "⚡": "lightning", "🎈": "balloon", "🦅": "eagle",
+  "🐉": "dragon", "🐙": "octopus", "🥚": "egg", "🌸": "blossom", "🍕": "pizza",
+};
+const playerName = () => WORD_BOOK[GAME.player] || "me!";
+// ==================================================
+//   the engine. the map:  [SOUND] blips, chimes, calm & party music, the
+//   world's own noises  [SKY] sun, moon, stars, rays, one whole day
+//   [WORLD] hills, floors, waves, windmills, boats, trains, petals,
+//   fireflies, wind gusts  [WALLS] the three worlds' obstacles
+//   [FLIGHT] holding, tapping, the trail  [WORDS] flying words, the word
+//   gate, the STORM, the sunrise BONUS, the PASSWORD  [LABELS] everything
+//   says its name  [LOOP] one frame of the game
 // ==================================================
 const canvas = document.getElementById("skyCanvas");
 const pen = canvas.getContext("2d");
@@ -132,21 +154,40 @@ const WALL_W = 78, SPACING = 280, GRAVITY = 0.45, PLAYER_R = 13;
 const PLAYER_X = () => Math.min(W * 0.28, 320);
 const GROUND = () => H - 30;
 
-let state = "start";        // start · play · gate · end
+let state = "start";        // start · play · gate · storm · bonus · password · end
 let playerY, fallSpeed, walls, tokens, trail, particles, ambient, flyer, train, boat;
-let score, passed, spawned, lives, collected, gateIdx, gateWord, lastMiddle;
-let frame = 0, scroll = 0, skyT = 0, grace = 0, shake = 0, freeze = 0;
-let won = false, pressing = false, keyHeld = false, scorePunch = 1, playerPunch = 1;
+let score, passed, spawned, lives, collected, gateIdx, gateWord, lastMiddle, runSeed;
+let frame = 0, scroll = 0, skyT = 0, grace = 0, shake = 0, freeze = 0, gust = 0, nextGust = 700;
+let won = false, pressing = false, keyHeld = false, scorePunch = 1, playerPunch = 1, passStreak = 0;
+let gateTries = 0, spokenGate = false, stormDone = false, stormLeft = 0;
+let bonusIdx = 0, bonusEarned = 0, bonusTimer = null, celebrated = false;
 let best = 0;
 try { best = Number(localStorage.getItem("gl-best-" + GAME.name) || 0); } catch (e) {}
 
 const stars = Array.from({ length: 70 }, () => ({ x: Math.random(), y: Math.random() * 0.62, r: 0.6 + Math.random() * 1.4, tw: Math.random() * 7 }));
-// three cloud shapes: 0 = puffy, 1 = long streak, 2 = little wisp — plus one near, fast, big one
+// three cloud shapes, varied sizes and speeds — a few drift the other way (high wind)
 const clouds = Array.from({ length: 7 }, (_, i) => ({
   x: Math.random(), y: 0.05 + Math.random() * 0.32, type: i % 3,
-  k: 0.6 + Math.random() * 0.7, s: 0.2 + Math.random() * 0.3, a: 0.55 + Math.random() * 0.35, near: false,
+  k: 0.6 + Math.random() * 0.7, s: 0.2 + Math.random() * 0.4, a: 0.5 + Math.random() * 0.4,
+  dir: Math.random() < 0.15 ? -0.35 : 1, near: false,
 }));
-clouds.push({ x: Math.random(), y: 0.1 + Math.random() * 0.2, type: 0, k: 1.9, s: 1.1, a: 0.95, near: true });
+clouds.push({ x: Math.random(), y: 0.1 + Math.random() * 0.2, type: 0, k: 1.9, s: 1.1, a: 0.95, dir: 1, near: true });
+
+const FLOWER_COLS = [[246, 174, 45], [242, 143, 59], [244, 201, 93], [247, 143, 179], [238, 108, 77]];
+const LOLLI_COLS  = ["#F45B9C", "#9B5DE5", "#38B6FF", "#FF6B6B"];
+const GRAYS       = [[107, 118, 131], [119, 130, 143], [95, 105, 117]];
+
+// film grain, painted once — one texture kills the "flat vector" look everywhere
+const grain = document.createElement("canvas");
+grain.width = grain.height = 160;
+{
+  const g2 = grain.getContext("2d"), id = g2.createImageData(160, 160);
+  for (let i = 0; i < id.data.length; i += 4) {
+    const v = 96 + Math.random() * 64;
+    id.data[i] = id.data[i + 1] = id.data[i + 2] = v; id.data[i + 3] = 255;
+  }
+  g2.putImageData(id, 0, 0);
+}
 
 // ---------------- [SOUND] ----------------
 let AC = null, sfxBus, musBus, noiseBuf, echo;
@@ -169,14 +210,20 @@ function audioUp() {                       // built on the first tap — browser
     setInterval(schedule, 25);                              // the music clock
   } catch (e) { AC = null; }
 }
-function tone(freq, dur, type = "square", vol = 0.6, slideTo = 0, at = 0, bus = null) {
+function tone(freq, dur, type = "square", vol = 0.6, slideTo = 0, at = 0, bus = null, pan = 0) {
   if (!AC || MORE.sound === "off" && !bus) return;
   try {
     const t = AC.currentTime + at, o = AC.createOscillator(), g = AC.createGain();
     o.type = type; o.frequency.setValueAtTime(freq * (0.97 + Math.random() * 0.06), t);
     if (slideTo) o.frequency.exponentialRampToValueAtTime(slideTo, t + dur);
     g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.001, t + dur);
-    o.connect(g); g.connect(bus || sfxBus); o.start(t); o.stop(t + dur + 0.02);
+    o.connect(g);
+    let out = g;
+    if (pan && AC.createStereoPanner) {                    // the sound sits where the thing is
+      const pn = AC.createStereoPanner(); pn.pan.value = clamp(pan, -0.9, 0.9);
+      g.connect(pn); out = pn;
+    }
+    out.connect(bus || sfxBus); o.start(t); o.stop(t + dur + 0.02);
   } catch (e) {}
 }
 function thud(dur = 0.35, from = 1100, to = 120, vol = 0.7) {
@@ -192,10 +239,46 @@ function thud(dur = 0.35, from = 1100, to = 120, vol = 0.7) {
 }
 const sfx = {
   flap:  () => tone(190, 0.14, "square", 0.25, 640),
+  pass:  () => tone(330 * Math.pow(1.0595, Math.min(passStreak, 12)), 0.07, "triangle", 0.16),
   catch: () => { tone(988, 0.07, "square", 0.4); tone(1319, 0.24, "square", 0.4, 0, 0.07); },
   crash: () => thud(),
   gateOk:() => [523, 659, 784].forEach((f, i) => tone(f, 0.34, "triangle", 0.5, 0, i * 0.1)),
+  heartUp:() => { tone(659, 0.14, "triangle", 0.5); tone(988, 0.36, "triangle", 0.5, 0, 0.12); },
   win:   () => [523, 523, 784, 1047].forEach((f, i) => { tone(f, i === 3 ? 0.8 : 0.16, "square", 0.4, 0, i * 0.14); tone(f / 2, i === 3 ? 0.8 : 0.16, "square", 0.2, 0, i * 0.14); }),
+  chirp: (pan = 0) => {                    // birdsong: swoop and rise syllables in little phrases
+    let at = 0;
+    const n = 2 + Math.floor(Math.random() * 3);
+    for (let i = 0; i < n; i++) {
+      const up = Math.random() < 0.5;
+      tone(up ? 1740 : 2500, 0.12, "sine", 0.08, up ? 2100 : 1850, at, null, pan);
+      at += 0.2 + Math.random() * 0.15;
+    }
+  },
+  cricket: (pan = 0) => { for (let i = 0; i < 3; i++) tone(4650 + Math.random() * 200, 0.035, "triangle", 0.05, 0, i * 0.05, null, pan); },
+  horn:  (pan = 0.7) => [311, 370, 466].forEach(f => tone(f, 1.6, "sawtooth", 0.045, 0, 0, null, pan)),   // the lonesome minor triad
+  sparkle:() => [2093, 1568, 1319].forEach((f, i) => tone(f, 0.07, "triangle", 0.12, 0, i * 0.06)),
+  wave: () => {                            // a slow swell of filtered noise rolling in
+    if (!AC || MORE.sound === "off") return;
+    try {
+      const t = AC.currentTime, s2 = AC.createBufferSource(), f = AC.createBiquadFilter(), g = AC.createGain();
+      s2.buffer = noiseBuf; s2.loop = true; f.type = "lowpass";
+      f.frequency.setValueAtTime(400, t); f.frequency.linearRampToValueAtTime(2800, t + 2); f.frequency.linearRampToValueAtTime(350, t + 4.4);
+      g.gain.setValueAtTime(0.001, t); g.gain.linearRampToValueAtTime(0.06, t + 2); g.gain.linearRampToValueAtTime(0.001, t + 4.5);
+      s2.connect(f); f.connect(g); g.connect(sfxBus); s2.start(t); s2.stop(t + 4.6);
+    } catch (e) {}
+  },
+  whoosh:(vol = 0.2) => {
+    if (!AC || MORE.sound === "off") return;
+    try {
+      const t = AC.currentTime, s = AC.createBufferSource(), f = AC.createBiquadFilter(), g = AC.createGain();
+      s.buffer = noiseBuf; s.loop = true; f.type = "bandpass";
+      f.frequency.setValueAtTime(250, t); f.frequency.linearRampToValueAtTime(900, t + 0.5);
+      f.frequency.linearRampToValueAtTime(200, t + 1.1);
+      g.gain.setValueAtTime(0.001, t); g.gain.linearRampToValueAtTime(vol, t + 0.35);
+      g.gain.linearRampToValueAtTime(0.001, t + 1.2);
+      s.connect(f); f.connect(g); g.connect(sfxBus); s.start(t); s.stop(t + 1.25);
+    } catch (e) {}
+  },
 };
 // generative music: a lookahead scheduler so notes never drift or stutter
 let nextNote = 0, stepN = 0;
@@ -209,7 +292,7 @@ function mnote(freq, dur, type, vol, at, useEcho) {
   } catch (e) {}
 }
 function schedule() {
-  if (!AC || MORE.music === "off" || state === "start") return;
+  if (!AC || MORE.music === "off" || state === "start" || state === "password") return;
   const ahead = AC.currentTime + 0.12;
   if (nextNote < AC.currentTime) nextNote = AC.currentTime;
   while (nextNote < ahead) {
@@ -294,7 +377,7 @@ function drawSky() {
     }
     pen.restore(); pen.globalAlpha = 1;
     pen.fillStyle = "#FFD166"; pen.beginPath(); pen.arc(sx, sy, 26, 0, 7); pen.fill();
-    if (labelsOn()) label("sun", sx, sy, 0, 52, 22);
+    if (labelsOn()) label("sun", sx, sy, 0, 58, 26);
   }
   if (t > 0.52) {
     const k = clamp((t - 0.52) / 0.48, 0, 1);
@@ -302,7 +385,7 @@ function drawSky() {
     moonPos = { x: mx, y: my };
     pen.fillStyle = "#EDEFF7"; pen.beginPath(); pen.arc(mx, my, 22, 0, 7); pen.fill();
     pen.fillStyle = rgb(skyAt(skyT).top, 0.85); pen.beginPath(); pen.arc(mx + 9, my - 6, 18, 0, 7); pen.fill();
-    if (labelsOn()) label("moon", mx, my, 17, 46, 20);
+    if (labelsOn()) label("moon", mx, my, 17, 52, 24);
   }
   return s;
 }
@@ -315,17 +398,22 @@ const WORLDS = {
 };
 const world = () => WORLDS[GAME.world] || WORLDS.garden;
 const floorKind = () => GAME.floor === "auto" ? world().floor : GAME.floor;
+const gustK = () => gust > 0 ? 5 * Math.sin((1 - gust / 130) * Math.PI) : 0;
 
 function hillYat(x, factor, amp, base) {
-  const wx = x + scroll * factor;
+  const wx = x + scroll * factor + runSeed * 3;
   if (GAME.world === "city")
     return H * base - 40 - hash(Math.floor(wx / 90)) * amp;
-  return H * base - (Math.sin(wx * 0.004) * 0.6 + Math.sin(wx * 0.009 + 2) * 0.4) * amp - 30;
+  return H * base - (Math.sin(wx * 0.004 + runSeed) * 0.6 + Math.sin(wx * 0.009 + 2 + runSeed) * 0.4) * amp - 30;
 }
 function drawHills(s) {
   const layers = [[0.18, 0.72, 60, 0.7], [0.4, 0.45, 90, 0.84]];   // [scroll, haze, amp, base]
   for (const [factor, haze, amp, base] of layers) {
-    pen.fillStyle = rgb(mixc(world().hill, s.mid, haze));           // atmospheric haze: far = more sky
+    const hc = mixc(world().hill, s.mid, haze);                     // atmospheric haze: far = more sky
+    const hg = pen.createLinearGradient(0, H * base - amp - 40, 0, H);
+    hg.addColorStop(0, rgb(mixc(hc, [255, 255, 255], 0.14)));       // ridge catches the light
+    hg.addColorStop(1, rgb(mixc(hc, [10, 14, 30], 0.3)));
+    pen.fillStyle = hg;
     pen.beginPath(); pen.moveTo(0, H);
     for (let x = 0; x <= W + 20; x += 20) pen.lineTo(x, hillYat(x, factor, amp, base));
     pen.lineTo(W, H); pen.closePath(); pen.fill();
@@ -338,7 +426,6 @@ function drawHills(s) {
       }
     }
   }
-  // rim light on the near ridge at golden hours
   const gold = clamp(1 - Math.abs(((skyT % 1) + 1) % 1 - 0.5) * 8, 0, 1) + clamp(1 - (((skyT % 1) + 1) % 1) * 10, 0, 1);
   if (gold > 0 && GAME.sky === "magic") {
     pen.strokeStyle = `rgba(255,205,130,${0.5 * gold})`; pen.lineWidth = 2;
@@ -353,23 +440,23 @@ function drawHills(s) {
   // horizon life: a windmill turns on the ridge (candy world gets a peppermint one)
   if (GAME.world !== "city") {
     const period = W + 700;
-    const mx = ((-scroll * 0.4) % period + period) % period - 200;
+    const mx = ((-scroll * 0.4 + runSeed * 5) % period + period) % period - 200;
     if (mx > -80 && mx < W + 80) {
       const my = hillYat(mx, 0.4, 90, 0.84);
       const candy = GAME.world === "candy";
       pen.fillStyle = rgb(mixc(candy ? [240, 240, 245] : [120, 96, 70], s.mid, 0.35));
       pen.beginPath(); pen.moveTo(mx - 7, my); pen.lineTo(mx - 3, my - 52); pen.lineTo(mx + 3, my - 52); pen.lineTo(mx + 7, my); pen.closePath(); pen.fill();
-      pen.save(); pen.translate(mx, my - 52); pen.rotate(frame * 0.01);
+      pen.save(); pen.translate(mx, my - 52); pen.rotate(frame * (0.007 + (runSeed % 7) * 0.0015) * (gust > 0 ? 2.2 : 1));
       for (let i = 0; i < 4; i++) {
         pen.rotate(Math.PI / 2);
         pen.fillStyle = candy ? (i % 2 ? "#E86A8A" : "#F5F0F0") : rgb(mixc([200, 190, 170], s.mid, 0.3));
         pen.beginPath(); pen.moveTo(0, 0); pen.lineTo(-4, -34); pen.lineTo(5, -34); pen.closePath(); pen.fill();
       }
       pen.restore();
-      if (labelsOn()) label("windmill", mx, my - 52, 6, 44, 18);
+      if (labelsOn()) label("windmill", mx, my - 52, 6, 50, 22);
     }
   } else {
-    if (!train && Math.random() < 0.002 && state === "play") train = { x: W + 100, cars: 5 };
+    if (!train && Math.random() < 0.002 && state === "play") { train = { x: W + 100, cars: 4 + Math.floor(Math.random() * 3) }; sfx.horn(0.8); }
     if (train) {
       train.x -= 2.6;
       const ty = hillYat(0, 0.18, 60, 0.7) + 4;
@@ -406,6 +493,13 @@ function drawFloor(s) {
       x === 0 ? pen.moveTo(x, y) : pen.lineTo(x, y);
     }
     pen.stroke();
+    const og = pen.createLinearGradient(0, top, 0, H);      // water darkens with depth
+    og.addColorStop(0, "rgba(10,30,60,0)"); og.addColorStop(1, "rgba(6,18,40,.5)");
+    pen.fillStyle = og; pen.fillRect(0, top, W, H - top);
+    for (let i = 0; i < 4; i++) {                           // stray glints flicker in place
+      pen.fillStyle = `rgba(255,255,255,${0.12 + 0.3 * Math.abs(Math.sin(frame * 0.04 + i * 2.2))})`;
+      pen.fillRect((hash(i + 9) * W + i * 37) % W, top + 6 + hash(i + 3) * 14, 6 + hash(i) * 8, 1.5);
+    }
     const lum = sunPos || moonPos;                          // the glitter path
     if (lum && GAME.sky === "magic") {
       pen.save(); pen.globalCompositeOperation = "lighter";
@@ -445,10 +539,18 @@ function drawFloor(s) {
   } else {
     pen.fillStyle = "#8a6a3b"; pen.fillRect(0, GROUND(), W, H - GROUND());
     pen.fillStyle = "#5ea34e"; pen.fillRect(0, GROUND(), W, 9);
-    pen.strokeStyle = "#4E8F45"; pen.lineWidth = 2;
-    for (let x = -((scroll * 1.2) % 26); x < W; x += 26) {
-      const swy = Math.sin(frame * 0.05 + x) * 2;           // grass leans in the wind
-      pen.beginPath(); pen.moveTo(x, GROUND() + 2); pen.quadraticCurveTo(x + 2 + swy, GROUND() - 6, x + 4 + swy, GROUND() - 9); pen.stroke();
+    // grass in tufts, dark stroke under light stroke — reads as depth, leans with the wind
+    for (const [wd2, colr] of [[3, "#3F7A38"], [1.7, "#5FA653"]]) {
+      pen.strokeStyle = colr; pen.lineWidth = wd2;
+      for (let x = -((scroll * 1.2) % 40); x < W; x += 40) {
+        const wind = Math.sin(frame * 0.05 + x * 0.3) * (2 + gustK());
+        for (let i = 0; i < 4; i++) {
+          const bx = x + i * 3.5, hh = 8 + hash(x * 7 + i) * 11;
+          pen.beginPath(); pen.moveTo(bx, GROUND() + 3);
+          pen.quadraticCurveTo(bx + 2 + wind, GROUND() - hh * 0.6, bx + 4 + wind + (wd2 > 2 ? -1 : 0), GROUND() - hh);
+          pen.stroke();
+        }
+      }
     }
   }
   pen.globalAlpha = 1 - dim; pen.fillStyle = "rgba(8,10,24,.8)";
@@ -457,29 +559,41 @@ function drawFloor(s) {
 }
 
 function drawClouds(s) {
-  const tint = rgb(mixc([255, 255, 255], s.top, 0.25));
-  let i = 0;
+  // real cumulus: lobed tops, a flat base, gradient shading, a shaded underside,
+  // and a golden-hour rim light along the sun side
+  const gold = clamp(1 - Math.abs(((skyT % 1) + 1) % 1 - 0.5) * 8, 0, 1) + clamp(1 - (((skyT % 1) + 1) % 1) * 10, 0, 1);
   for (const c of clouds) {
-    c.x -= c.s * (c.near ? 0.004 : 0.001) + (state === "play" ? GAME.speed * (c.near ? 0.0012 : 0.0004) : 0);
+    c.x -= (c.s * (c.near ? 0.004 : 0.001) + (state === "play" ? GAME.speed * (c.near ? 0.0012 : 0.0004) : 0) + (gust > 0 ? 0.0015 : 0)) * c.dir;
     if (c.x < -0.18) c.x = 1.15;
+    if (c.x > 1.18) c.x = -0.15;
     const cx = c.x * W, cy = c.y * H, k = c.k;
-    pen.fillStyle = tint; pen.globalAlpha = c.a * clamp(s.light + 0.25, 0.35, 1);
+    const lobes = c.type === 0 ? [[-34, -4, 20], [-12, -15, 28], [14, -10, 24], [34, -2, 16]]
+                : c.type === 1 ? [[-46, -2, 13], [-14, -8, 17], [16, -6, 15], [44, -1, 11]]
+                : [[-10, -4, 11], [8, -8, 13]];
+    const w2 = c.type === 1 ? 58 : c.type === 0 ? 52 : 22;
+    pen.globalAlpha = c.a * clamp(s.light + 0.3, 0.4, 1);
+    const g = pen.createLinearGradient(0, cy - 44 * k, 0, cy + 10 * k);
+    g.addColorStop(0, rgb(mixc([255, 255, 255], s.top, 0.06)));
+    g.addColorStop(1, rgb(mixc([203, 200, 222], s.mid, 0.45)));
+    pen.fillStyle = g;
     pen.beginPath();
-    if (c.type === 0) {
-      pen.ellipse(cx, cy, 46 * k, 17 * k, 0, 0, 7);
-      pen.ellipse(cx + 30 * k, cy - 9 * k, 30 * k, 14 * k, 0, 0, 7);
-      pen.ellipse(cx - 28 * k, cy - 5 * k, 24 * k, 11 * k, 0, 0, 7);
-    } else if (c.type === 1) {
-      pen.ellipse(cx, cy, 70 * k, 8 * k, 0, 0, 7);
-      pen.ellipse(cx + 40 * k, cy + 6 * k, 40 * k, 5 * k, 0, 0, 7);
-    } else {
-      pen.ellipse(cx, cy, 22 * k, 8 * k, 0, 0, 7);
-      pen.ellipse(cx + 14 * k, cy - 5 * k, 13 * k, 6 * k, 0, 0, 7);
+    for (const [lx, ly, r] of lobes) { pen.moveTo(cx + (lx + r) * k, cy + ly * k); pen.arc(cx + lx * k, cy + ly * k, r * k, 0, 7); }
+    pen.rect(cx - w2 * k, cy - 5 * k, w2 * 2 * k, 11 * k);   // the flat base
+    pen.fill();
+    pen.fillStyle = rgb(mixc([158, 155, 184], s.mid, 0.5), 0.32);   // underside lumps
+    pen.beginPath();
+    for (const [lx, ly, r] of lobes) { pen.moveTo(cx + (lx + r * 0.5) * k, cy + 2 * k); pen.arc(cx + lx * k, cy + 2 * k, r * 0.5 * k, 0, 7); }
+    pen.fill();
+    if (gold > 0.15 && GAME.sky === "magic") {
+      pen.strokeStyle = `rgba(255,224,170,${0.7 * gold})`; pen.lineWidth = 2.2;
+      for (const [lx, ly, r] of lobes) {
+        pen.beginPath(); pen.arc(cx + lx * k, cy + ly * k, r * k, Math.PI * 1.06, Math.PI * 1.94); pen.stroke();
+      }
     }
-    pen.fill(); pen.globalAlpha = 1;
-    if (labelsOn()) label("cloud", cx, cy, 20 + i, 60 * k, 24 * k);
-    i++;
+    pen.globalAlpha = 1;
   }
+  const nc = clouds[clouds.length - 1];                     // one label, on the big near cloud
+  if (labelsOn()) label("cloud", nc.x * W, nc.y * H, 20, 70 * nc.k * 0.6, 30);
 }
 
 // petals by day in the garden, fireflies at night, sugar sparkles over candyland
@@ -492,14 +606,15 @@ function updateAmbient(s) {
   else if (GAME.world === "candy") want = "sparkles";
   if (want !== "none" && ambient.length < 18 && frame % 10 === 0)
     ambient.push({ kind: want, x: Math.random() * W * 1.2, y: want === "petals" ? -12 : Math.random() * H * 0.7,
-                   ph: Math.random() * 7, sp: 0.4 + Math.random() * 0.8, ang: Math.random() * 7, r: 3 + Math.random() * 4 });
+                   ph: Math.random() * 7, sp: 0.4 + Math.random() * 0.8, ang: Math.random() * 7, r: 3 + Math.random() * 4,
+                   hue: Math.random() });
   ambient = ambient.filter(p => p.kind === want && p.y < H + 20 && p.x > -30);
   for (const p of ambient) {
     if (p.kind === "petals") {
-      p.y += p.sp; p.x += Math.sin(frame * 0.02 + p.ph) * 0.8 - 0.4 - (state === "play" ? GAME.speed * 0.25 : 0);
+      p.y += p.sp; p.x += Math.sin(frame * 0.02 + p.ph) * 0.8 - 0.4 - (state === "play" ? GAME.speed * 0.25 : 0) - (gust > 0 ? 1.2 : 0);
       p.ang += 0.03;
       pen.save(); pen.translate(p.x, p.y); pen.rotate(p.ang);
-      pen.fillStyle = "rgba(247,183,210,.85)";
+      pen.fillStyle = p.hue < 0.5 ? "rgba(247,183,210,.85)" : "rgba(250,205,160,.85)";
       pen.beginPath(); pen.ellipse(0, 0, p.r + 2, p.r * 0.6, 0, 0, 7); pen.fill(); pen.restore();
     } else if (p.kind === "fireflies") {
       p.ang += (Math.random() - 0.5) * 0.3;
@@ -528,8 +643,9 @@ function updateFlyer(s) {
     const kind = t > 0.6 && t < 0.92 ? "star"
                : (t < 0.08 || (t > 0.42 && t < 0.6)) ? "balloon"
                : Math.random() < 0.5 ? "plane" : "birds";
-    flyer = { kind, x: W + 80, y: H * (0.1 + Math.random() * 0.25), life: 0 };
-    if (kind === "star") { flyer.x = W * (0.3 + Math.random() * 0.5); flyer.y = H * 0.08; }
+    flyer = { kind, x: W + 80, y: H * (0.1 + Math.random() * 0.25), life: 0, hue: Math.random() };
+    if (kind === "star") { flyer.x = W * (0.3 + Math.random() * 0.5); flyer.y = H * 0.08; sfx.sparkle(); }
+    if (kind === "balloon") sfx.whoosh(0.08);
   }
   if (!flyer) return;
   flyer.life++;
@@ -539,17 +655,18 @@ function updateFlyer(s) {
     pen.strokeStyle = "rgba(255,255,255,.85)"; pen.lineWidth = 2.5;
     pen.beginPath(); pen.moveTo(f.x - 42, f.y - 21); pen.lineTo(f.x, f.y); pen.stroke();
     pen.fillStyle = "#fff"; pen.beginPath(); pen.arc(f.x, f.y, 3.4, 0, 7); pen.fill();
-    if (labelsOn()) label("star", f.x, f.y, 12, 34, 16);
+    if (labelsOn()) label("star", f.x, f.y, 12, 38, 18);
     if (f.life > 60) flyer = null;
   } else if (f.kind === "balloon") {
     f.x -= 0.8; f.y += Math.sin(f.life * 0.02) * 0.3;
-    pen.fillStyle = "#E76F51"; pen.beginPath(); pen.arc(f.x, f.y, 22, 0, 7); pen.fill();
-    pen.fillStyle = "#F4A261"; pen.beginPath(); pen.arc(f.x - 7, f.y - 4, 14, 0, 7); pen.fill();
+    const cols = f.hue < 0.33 ? ["#E76F51", "#F4A261"] : f.hue < 0.66 ? ["#5B8ED6", "#9BC0F0"] : ["#B95BD6", "#DFA7F0"];
+    pen.fillStyle = cols[0]; pen.beginPath(); pen.arc(f.x, f.y, 22, 0, 7); pen.fill();
+    pen.fillStyle = cols[1]; pen.beginPath(); pen.arc(f.x - 7, f.y - 4, 14, 0, 7); pen.fill();
     pen.strokeStyle = "rgba(60,40,20,.7)"; pen.lineWidth = 1.5;
     pen.beginPath(); pen.moveTo(f.x - 10, f.y + 18); pen.lineTo(f.x - 6, f.y + 34);
     pen.moveTo(f.x + 10, f.y + 18); pen.lineTo(f.x + 6, f.y + 34); pen.stroke();
     pen.fillStyle = "#7f5539"; pen.fillRect(f.x - 8, f.y + 34, 16, 11);
-    if (labelsOn()) label("balloon", f.x, f.y, 13, 44, 30);
+    if (labelsOn()) label("balloon", f.x, f.y, 13, 48, 34);
     if (f.x < -60) flyer = null;
   } else if (f.kind === "plane") {
     f.x -= 3.2; f.y += Math.sin(f.life * 0.05) * 0.4;
@@ -559,10 +676,11 @@ function updateFlyer(s) {
     pen.fillStyle = "#D7DEE8";
     pen.beginPath(); pen.moveTo(2, -3); pen.lineTo(16, -18); pen.lineTo(12, 0); pen.closePath(); pen.fill();
     pen.restore();
-    if (labelsOn()) label("plane", f.x, f.y, 14, 40, 18);
+    if (labelsOn()) label("plane", f.x, f.y, 14, 44, 20);
     if (f.x < -60) flyer = null;
   } else {
     f.x -= 1.6;
+    if (frame % 80 === 0 && Math.random() < 0.6) sfx.chirp(f.x / W * 2 - 1);
     pen.strokeStyle = "rgba(30,36,52,.8)"; pen.lineWidth = 2;
     for (let i = 0; i < 4; i++) {
       const bx = f.x + i * 26 + (i % 2) * 8, by = f.y + (i % 2) * 12;
@@ -570,7 +688,7 @@ function updateFlyer(s) {
       pen.beginPath(); pen.moveTo(bx - 8, by - flapK * 0.5);
       pen.quadraticCurveTo(bx, by - 6 - flapK, bx + 8, by - flapK * 0.5); pen.stroke();
     }
-    if (labelsOn()) label("birds", f.x + 30, f.y, 15, 50, 20);
+    if (labelsOn()) label("birds", f.x + 30, f.y, 15, 54, 22);
     if (f.x < -140) flyer = null;
   }
 }
@@ -597,11 +715,15 @@ function hitRects(wall) {
   ];
 }
 function drawWall(wall, s) {
-  const x = wall.x, t = wall.top, b = wall.bottom, cx = x + WALL_W / 2;
+  const x = wall.x, t = wall.top, b = wall.bottom, cx = x + WALL_W / 2, v = wall.v || 0;
   const sway = Math.sin(frame * 0.03 + wall.x * 0.02) * 2;   // idle micro-motion
   pen.save();
   if (GAME.world === "city") {
-    pen.fillStyle = "#6B7683"; pen.fillRect(x, b, WALL_W, H - b);
+    const gc = GRAYS[Math.floor(v * 3)];
+    const bg = pen.createLinearGradient(x, 0, x + WALL_W, 0);   // one lit face, one shaded face
+    bg.addColorStop(0, rgb(mixc(gc, [255, 255, 255], 0.12)));
+    bg.addColorStop(1, rgb(mixc(gc, [10, 14, 30], 0.22)));
+    pen.fillStyle = bg; pen.fillRect(x, b, WALL_W, H - b);
     pen.fillStyle = "#59636F"; pen.fillRect(x - 5, b, WALL_W + 10, 12);
     pen.fillStyle = s.light < 0.45 ? "#FFD166" : "#B9C3CE";
     for (let wy = b + 22; wy < H - 20; wy += 26)
@@ -617,21 +739,23 @@ function drawWall(wall, s) {
   } else if (GAME.world === "candy") {
     const pastel = ["#FBD1DE", "#CDEBF7", "#FDF3C6"];
     for (let i = 0, y = H; y > b + 58; y -= 30, i++) {
-      pen.fillStyle = pastel[i % 3];
+      pen.fillStyle = pastel[(i + Math.floor(v * 3)) % 3];
       pen.beginPath(); pen.roundRect(x + 8, y - 32, WALL_W - 16, 32, 12); pen.fill();
     }
-    pen.fillStyle = "#F45B9C"; pen.beginPath(); pen.arc(cx + sway * 0.5, b + 33, 37, 0, 7); pen.fill();
+    pen.fillStyle = LOLLI_COLS[Math.floor(v * LOLLI_COLS.length)];
+    pen.beginPath(); pen.arc(cx + sway * 0.5, b + 33, 37, 0, 7); pen.fill();
     pen.strokeStyle = "#fff"; pen.lineWidth = 7;
     pen.beginPath(); pen.arc(cx + sway * 0.5, b + 33, 22, 0.4, 4.2); pen.stroke();
     pen.beginPath(); pen.arc(cx + sway * 0.5, b + 33, 9, 2.6, 6.6); pen.stroke();
+    const stripe = v < 0.25 ? "#3E9F5C" : "#E0483E";        // sometimes a mint cane
     pen.fillStyle = "#fff"; pen.beginPath(); pen.roundRect(x + 22, 0, 34, t - 30, 8); pen.fill();
     pen.save(); pen.beginPath(); pen.roundRect(x + 22, 0, 34, t - 30, 8); pen.clip();
-    pen.strokeStyle = "#E0483E"; pen.lineWidth = 11;
+    pen.strokeStyle = stripe; pen.lineWidth = 11;
     for (let sy = -20; sy < t + 20; sy += 30) {
       pen.beginPath(); pen.moveTo(x + 10, sy + frame * 0.1 % 30); pen.lineTo(x + 70, sy + 24 + frame * 0.1 % 30); pen.stroke();
     }
     pen.restore();
-    pen.fillStyle = "#E0483E"; pen.beginPath(); pen.roundRect(x + 6, t - 40, WALL_W - 12, 40, 18); pen.fill();
+    pen.fillStyle = stripe; pen.beginPath(); pen.roundRect(x + 6, t - 40, WALL_W - 12, 40, 18); pen.fill();
     pen.fillStyle = "#fff"; pen.beginPath(); pen.roundRect(x + 6, t - 40, WALL_W - 12, 16, 8); pen.fill();
   } else {
     pen.fillStyle = "#4E8F45"; pen.fillRect(x + 26, b + 52, 26, H - b - 52);
@@ -640,9 +764,10 @@ function drawWall(wall, s) {
       pen.beginPath(); pen.ellipse(cx + side * 27 + sway, ly, 24, 10, side * 0.5 + sway * 0.04, 0, 7); pen.fill();
     }
     pen.save(); pen.translate(cx, b + 31); pen.rotate(sway * 0.03);
-    pen.fillStyle = "#F6AE2D";
+    const fc = FLOWER_COLS[Math.floor(v * FLOWER_COLS.length)];
     for (let i = 0; i < 10; i++) {
       const a = i / 10 * Math.PI * 2 + 0.3;
+      pen.fillStyle = Math.sin(a) > 0.15 ? rgb(mixc(fc, [70, 35, 80], 0.3)) : rgb(fc);   // shadow-side petals darker
       pen.beginPath(); pen.ellipse(Math.cos(a) * 30, Math.sin(a) * 30, 15, 8, a, 0, 7); pen.fill();
     }
     pen.fillStyle = "#7f5539"; pen.beginPath(); pen.arc(0, 0, 19, 0, 7); pen.fill();
@@ -668,7 +793,7 @@ function drawWall(wall, s) {
   }
 }
 
-// ---------------- [WORDS] flying words to catch ----------------
+// ---------------- [WORDS] flying words, the gate, the storm, the bonus, the password ----------------
 function drawToken(tk) {
   tk.bob = Math.sin(frame * 0.07 + tk.seed) * 7;
   const y = tk.y + tk.bob;
@@ -681,6 +806,117 @@ function drawToken(tk) {
   pen.fillStyle = "#1c2333"; pen.textAlign = "center"; pen.textBaseline = "middle";
   pen.fillText(tk.word, tk.x + 4, y + 1);
 }
+
+function sayWord(w) {
+  try {
+    if (!("speechSynthesis" in window)) return false;
+    const u = new SpeechSynthesisUtterance(w.toLowerCase());
+    u.lang = "en-US"; u.rate = 0.75; u.pitch = 1.05;
+    const v = speechSynthesis.getVoices().find(v => v.lang && v.lang.startsWith("en"));
+    if (v) u.voice = v;
+    speechSynthesis.cancel(); speechSynthesis.speak(u);
+    return true;
+  } catch (e) { return false; }
+}
+const pickWord = () => MORE.words[Math.floor(Math.random() * MORE.words.length)] || "";
+const heartsStr = () => "❤️".repeat(lives) + "🖤".repeat(Math.max(0, MORE.lives - lives));
+
+function showGateScreen(title, sub) {
+  $("gateTitle").textContent = title; $("hearts").textContent = sub;
+  $("gateScreen").classList.remove("hidden");
+}
+function hideGateScreen() { $("gateScreen").classList.add("hidden"); }
+function presentWord(word, speak) {
+  gateTries = 0;
+  spokenGate = speak && sayWord(word);
+  $("sayButton").style.display = spokenGate ? "" : "none";
+  $("gateWordShow").textContent = spokenGate ? "👂 . . . ?" : word;   // write what you HEARD
+  $("wordBox").style.display = ""; $("wordBox").value = "";
+  setTimeout(() => $("wordBox").focus(), 60);
+}
+$("sayButton").addEventListener("click", () => { sayWord(gateWord); $("wordBox").focus(); });
+
+function openGate() {
+  state = "gate"; walls = []; tokens = []; fallSpeed = 0;
+  spawned = passed;                       // refund cleared walls, or the day can never finish
+  gateWord = MORE.words[gateIdx % MORE.words.length] || "";
+  gateIdx++;
+  showGateScreen(MORE.gate, heartsStr());
+  presentWord(gateWord, MORE.listen === "on");
+}
+function closeGate() {
+  hideGateScreen();
+  playerY = H / 2; fallSpeed = 0; grace = 100; trail = []; state = "play";
+}
+function openStorm() {
+  state = "storm"; walls = []; tokens = []; fallSpeed = 0;
+  spawned = passed; stormDone = true; stormLeft = 2;
+  sfx.whoosh(0.3);
+  gateWord = pickWord();
+  showGateScreen("A STORM! WRITE TO BLOW IT AWAY!", heartsStr());
+  presentWord(gateWord, MORE.listen === "on");
+}
+function startBonus() {
+  state = "bonus"; celebrated = true; bonusIdx = 0; bonusEarned = 0;
+  sfx.win();
+  for (let i = 0; i < 5; i++)
+    burst(W * (0.15 + 0.175 * i), H * 0.15, ["#FFD166", "#F45B9C", "#5FA653", "#4EA8DE", "#E0483E"][i], 26, 7);
+  showGateScreen("BONUS! REMEMBER YOUR WORDS!", "⭐ +0");
+  bonusShow();
+}
+function bonusShow() {                    // the word appears, then hides — write it from memory
+  $("sayButton").style.display = "none";
+  $("gateWordShow").textContent = collected[bonusIdx];
+  $("wordBox").style.display = "none";
+  clearTimeout(bonusTimer);
+  bonusTimer = setTimeout(() => {
+    $("gateWordShow").textContent = "? ? ?";
+    $("wordBox").style.display = ""; $("wordBox").value = ""; $("wordBox").focus();
+    gateTries = 0;
+  }, 2000);
+}
+function askPassword() {
+  state = "password";
+  $("startScreen").classList.add("hidden");
+  showGateScreen("PSSST... LAST TIME'S PASSWORD?", "🔑");
+  $("sayButton").style.display = "none";
+  $("gateWordShow").textContent = "? ? ?";
+  $("wordBox").style.display = ""; $("wordBox").value = ""; gateTries = 0;
+  setTimeout(() => $("wordBox").focus(), 60);
+}
+function tryGate() {
+  const target = (state === "bonus" ? collected[bonusIdx] : gateWord) || "";
+  if ($("wordBox").value.trim().toUpperCase() === target.toUpperCase()) {
+    if (state === "gate") { burst(PLAYER_X(), H / 2, "#FFD166", 24); sfx.gateOk(); closeGate(); }
+    else if (state === "storm") {
+      stormLeft--;
+      if (stormLeft > 0) { sfx.gateOk(); gateWord = pickWord(); presentWord(gateWord, MORE.listen === "on"); }
+      else {
+        if (lives < MORE.lives) { lives++; sfx.heartUp(); } else sfx.gateOk();
+        sfx.whoosh(0.25); burst(W / 2, H * 0.3, "#BFD7EA", 40, 8);
+        closeGate();
+      }
+    }
+    else if (state === "bonus") {
+      bonusEarned += 10; score += 10; sfx.catch();
+      $("hearts").textContent = "⭐ +" + bonusEarned;
+      bonusIdx++;
+      if (bonusIdx < collected.length) bonusShow();
+      else { hideGateScreen(); showEnd(true); }
+    }
+    else if (state === "password") {
+      sfx.gateOk(); hideGateScreen();
+      $("startScreen").classList.remove("hidden"); state = "start";
+    }
+  } else {
+    gateTries++;
+    $("wordBox").classList.add("wrong");
+    setTimeout(() => { $("wordBox").classList.remove("wrong"); $("wordBox").select(); }, 320);
+    if (gateTries >= 2) $("gateWordShow").textContent = target;   // kindness: reveal it, she copies it
+  }
+}
+$("goButton").addEventListener("click", tryGate);
+$("wordBox").addEventListener("keydown", e => { if (e.key === "Enter") tryGate(); });
 
 // ---------------- [FLIGHT] ----------------
 function press(isTap) {
@@ -700,7 +936,7 @@ window.addEventListener("pointerdown", e => {
 window.addEventListener("pointerup", () => { pressing = false; if (AC && AC.state !== "running") AC.resume(); });
 window.addEventListener("pointercancel", () => pressing = false);
 window.addEventListener("keydown", e => {
-  if (state === "gate") return;                          // the keyboard belongs to the word box
+  if (state === "gate" || state === "storm" || state === "bonus" || state === "password") return;
   if (e.code === "Space" || e.code === "ArrowUp") {
     e.preventDefault(); keyHeld = true; if (!e.repeat) press(true);
   }
@@ -713,14 +949,16 @@ window.addEventListener("keyup", e => {
 $("gameName").textContent = GAME.name;
 $("startEmoji").textContent = GAME.player;
 $("startText").textContent = MORE.start;
-$("gateTitle").textContent = MORE.gate;
 $("goButton").textContent = "GO!";
 
 function reset() {
   playerY = H / 2; fallSpeed = 0; walls = []; tokens = []; trail = []; particles = []; ambient = [];
   flyer = null; train = null; boat = null; score = 0; passed = 0; spawned = 0; gateIdx = 0; collected = [];
   lives = MORE.lives; skyT = 0; grace = 0; shake = 0; freeze = 0; won = false; frame = 0; scroll = 0;
-  lastMiddle = H / 2; scorePunch = 1; playerPunch = 1;
+  lastMiddle = H / 2; runSeed = Math.random() * 1000; scorePunch = 1; playerPunch = 1;
+  gust = 0; nextGust = 700; passStreak = 0; stormDone = false; stormLeft = 0;
+  bonusIdx = 0; bonusEarned = 0; celebrated = false; gateTries = 0;
+  clearTimeout(bonusTimer);
 }
 reset();
 
@@ -731,52 +969,37 @@ function burst(x, y, color, n, spread = 5) {
   });
 }
 
-function openGate() {
-  state = "gate"; walls = []; tokens = []; fallSpeed = 0;
-  spawned = passed;                       // refund cleared walls, or the day can never finish
-  gateWord = MORE.words[gateIdx % MORE.words.length] || "";
-  gateIdx++;
-  $("hearts").textContent = "❤️".repeat(lives) + "🖤".repeat(Math.max(0, MORE.lives - lives));
-  $("gateWordShow").textContent = gateWord;
-  $("wordBox").value = "";
-  $("gateScreen").classList.remove("hidden");
-  setTimeout(() => $("wordBox").focus(), 60);
-}
-function closeGate() {
-  $("gateScreen").classList.add("hidden");
-  playerY = H / 2; fallSpeed = 0; grace = 100; trail = []; state = "play";
-}
-function tryGate() {
-  if ($("wordBox").value.trim().toUpperCase() === gateWord.toUpperCase()) {
-    burst(PLAYER_X(), H / 2, "#FFD166", 24); sfx.gateOk(); closeGate();
-  } else {
-    $("wordBox").classList.add("wrong");
-    setTimeout(() => { $("wordBox").classList.remove("wrong"); $("wordBox").select(); }, 320);
-  }
-}
-$("goButton").addEventListener("click", tryGate);
-$("wordBox").addEventListener("keydown", e => { if (e.key === "Enter") tryGate(); });
-
 function endGame(didWin) {
-  state = "end"; won = didWin; tokens = [];
+  tokens = [];
+  if (didWin && collected.length) { startBonus(); return; }   // sunrise bonus round first
+  showEnd(didWin);
+}
+function showEnd(didWin) {
+  state = "end"; won = didWin;
   best = Math.max(best, score);
   try { localStorage.setItem("gl-best-" + GAME.name, best); } catch (e) {}
   const isLevel = MORE.mode === "level";
   $("endTitle").textContent = didWin ? MORE.win : MORE.lose;
   $("bar").style.display = isLevel ? "" : "none";
   const pct = didWin ? 100 : Math.round(passed / MORE.level * 100);
-  $("endStats").textContent = isLevel
+  $("endStats").textContent = (isLevel
     ? pct + "%  ·  " + score + " POINTS  ·  BEST: " + best
-    : score + "  ·  BEST: " + best;
+    : score + "  ·  BEST: " + best) + (bonusEarned ? "  ·  BONUS +" + bonusEarned : "");
   if (collected.length) {
     $("endWords").textContent = "CAUGHT: " + collected.join(" · ");
     $("endWords").classList.remove("hidden");
   } else $("endWords").classList.add("hidden");
+  if (didWin && MORE.password === "on" && MORE.words.length) {
+    const pw = collected[0] || pickWord();
+    try { localStorage.setItem("gl-pass-" + GAME.name, JSON.stringify({ w: pw, t: Date.now() })); } catch (e) {}
+    $("endPass").textContent = "🔑 PASSWORD FOR NEXT TIME: " + pw;
+    $("endPass").classList.remove("hidden");
+  } else $("endPass").classList.add("hidden");
   $("againButton").textContent = MORE.again;
   $("endScreen").classList.remove("hidden");
   setTimeout(() => { $("barFill").style.width = pct + "%"; }, 80);
   if (didWin) {
-    sfx.win();
+    if (!celebrated) sfx.win();
     for (let i = 0; i < 5; i++)
       burst(W * (0.15 + 0.175 * i), H * 0.15, ["#FFD166", "#F45B9C", "#5FA653", "#4EA8DE", "#E0483E"][i], 26, 7);
   }
@@ -789,25 +1012,36 @@ $("againButton").addEventListener("click", () => {
 
 function die() {
   if (grace > 0) return;
-  burst(PLAYER_X(), playerY, "#fff", 30, 6); shake = 13; freeze = 4; sfx.crash();
+  burst(PLAYER_X(), playerY, "#fff", 30, 6); shake = 13; freeze = 4; passStreak = 0; sfx.crash();
   if (MORE.mode === "level" && lives > 1 && MORE.words.length) { lives--; openGate(); }
   else { lives = 0; endGame(false); }
 }
 
+// the password from last time guards the door (only if enough hours have passed)
+try {
+  if (MORE.password === "on" && MORE.words.length) {
+    const raw = localStorage.getItem("gl-pass-" + GAME.name);
+    if (raw) {
+      const p = JSON.parse(raw);
+      if (p.w && Date.now() - p.t > 6 * 3600 * 1000) { gateWord = p.w; askPassword(); }
+    }
+  }
+} catch (e) {}
+
 // ---------------- [LABELS] everything says its own name ----------------
 const labelsOn = () => MORE.labels === "on";
-function label(text, ax, ay, seed, rx = 32, ry = 14) {
-  const a = frame * 0.014 + seed * 1.7;                    // each label slowly circles its thing
+function label(text, ax, ay, seed, rx = 36, ry = 15) {
+  const a = frame * 0.006 + seed * 1.7;                    // each label slowly circles its thing
   const x = ax + Math.cos(a) * rx, y = ay + Math.sin(a) * ry;
   pen.save();
-  pen.font = "700 11px ui-monospace, Menlo, Consolas, monospace";
-  const w = pen.measureText(text).width + 16;
+  pen.font = "700 14px ui-monospace, Menlo, Consolas, monospace";
+  const w = pen.measureText(text).width + 20;
   const night = GAME.sky === "magic" && Math.abs(((skyT % 1) + 1) % 1 - 0.75) < 0.13;
-  pen.globalAlpha = 0.85;
+  pen.globalAlpha = 0.88;
   pen.fillStyle = night ? "rgba(20,26,48,.85)" : "rgba(255,255,255,.85)";
   pen.strokeStyle = night ? "rgba(255,255,255,.5)" : "rgba(28,35,51,.35)";
   pen.lineWidth = 1;
-  pen.beginPath(); pen.roundRect(x - w / 2, y - 10, w, 20, 999); pen.fill(); pen.stroke();
+  pen.beginPath(); pen.roundRect(x - w / 2, y - 12, w, 24, 999); pen.fill(); pen.stroke();
   pen.fillStyle = night ? "#fff" : "#1c2333";
   pen.textAlign = "center"; pen.textBaseline = "middle";
   pen.fillText(text, x, y + 1);
@@ -823,6 +1057,13 @@ function step() {
 
   if (state === "play") {
     scroll += GAME.speed;
+    if (--nextGust <= 0) { gust = 130; nextGust = 700 + Math.random() * 600; sfx.whoosh(0.13); }
+    if (gust > 0) gust--;
+    if (frame % 170 === 0 && GAME.sky === "magic") {        // night crickets sing in the grass
+      const tt = ((skyT % 1) + 1) % 1;
+      if (tt > 0.62 && tt < 0.9 && Math.random() < 0.75) sfx.cricket(Math.random() * 1.2 - 0.6);
+    }
+    if (floorKind() === "ocean" && frame % 560 === 200) sfx.wave();
     if (GAME.move === "zigzag") {
       const target = held ? -GAME.speed * 1.15 : GAME.speed * 1.15;   // 45° up or 45° down
       fallSpeed += (target - fallSpeed) * 0.3;
@@ -843,7 +1084,7 @@ function step() {
       const lo = Math.max(130, lastMiddle - reach), hi = Math.min(H - 190, lastMiddle + reach);
       const middle = lo + Math.random() * (hi - lo);
       lastMiddle = middle;
-      walls.push({ x: W + 20, top: middle - GAME.hole / 2, bottom: middle + GAME.hole / 2, passed: false });
+      walls.push({ x: W + 20, top: middle - GAME.hole / 2, bottom: middle + GAME.hole / 2, passed: false, v: Math.random() });
       spawned++;
       if (MORE.words.length && spawned % 3 === 1)
         tokens.push({ x: W + 20 + SPACING / 2, y: clamp(middle + (Math.random() - 0.5) * 120, 70, GROUND() - 60),
@@ -852,9 +1093,11 @@ function step() {
     for (const wall of walls) {
       wall.x -= GAME.speed;
       if (!wall.passed && wall.x + WALL_W < PLAYER_X()) {
-        wall.passed = true; passed++; score++; scorePunch = 1.5;
+        wall.passed = true; passed++; score++; scorePunch = 1.5; passStreak++; sfx.pass();
         if (MORE.mode === "level" && passed >= MORE.level) { endGame(true); }
+        else if (MORE.mode === "level" && MORE.storm === "on" && !stormDone && MORE.words.length && passed === Math.ceil(MORE.level / 2)) openStorm();
       }
+      if (state !== "play") break;
       if (grace <= 0) for (const r of hitRects(wall)) {
         const nx = clamp(PLAYER_X(), r.x, r.x + r.w), ny = clamp(playerY, r.y, r.y + r.h);
         if ((PLAYER_X() - nx) ** 2 + (playerY - ny) ** 2 < PLAYER_R ** 2) { die(); break; }
@@ -891,17 +1134,24 @@ function step() {
   drawClouds(s);
   updateFlyer(s);
   updateAmbient(s);
-  let wi = 0;
+  let labeledWall = false;
   for (const wall of walls) {
     drawWall(wall, s);
-    if (labelsOn()) {
-      label(world().bottomName, wall.x + WALL_W / 2, wall.bottom + 66, 30 + wi, 40, 16);
-      label(world().topName, wall.x + WALL_W / 2, Math.max(30, wall.top - 56), 40 + wi, 40, 16);
+    if (labelsOn() && !labeledWall && wall.x + WALL_W > PLAYER_X() - 30) {
+      label(world().bottomName, wall.x + WALL_W / 2, wall.bottom + 66, 1, 44, 18);
+      label(world().topName, wall.x + WALL_W / 2, Math.max(30, wall.top - 56), 2, 44, 18);
+      labeledWall = true;
     }
-    wi++;
   }
   for (const tk of tokens) drawToken(tk);
   drawFloor(s);
+
+  // a soft contact shadow on the ground far below the flyer
+  if ((state === "play" || state === "gate" || state === "storm") && floorKind() !== "ocean") {
+    const hf = clamp((GROUND() - playerY) / GROUND(), 0, 1);
+    pen.fillStyle = `rgba(20,12,34,${0.28 * (1 - hf * 0.75)})`;
+    pen.beginPath(); pen.ellipse(PLAYER_X(), GROUND() + 8, 24 * (1 - hf * 0.55), 5, 0, 0, 7); pen.fill();
+  }
 
   if (trail.length > 1) {
     for (const [lw, alpha] of [[8, 0.22], [3, 0.95]]) {
@@ -928,7 +1178,7 @@ function step() {
     pen.font = "40px system-ui"; pen.textAlign = "center"; pen.textBaseline = "middle";
     pen.fillText(GAME.player, 0, 0);
     pen.restore();
-    if (labelsOn() && state === "play") label("me!", PLAYER_X(), playerY, 4, 40, 26);
+    if (labelsOn() && state === "play") label(playerName(), PLAYER_X(), playerY, 4, 46, 30);
   }
 
   particles = particles.filter(p => p.life > 0);
@@ -940,8 +1190,25 @@ function step() {
   }
   pen.globalAlpha = 1;
 
+  if (state === "storm") {                                 // the storm darkens the world and rains
+    pen.fillStyle = "rgba(18,24,46,.45)"; pen.fillRect(0, 0, W, H);
+    pen.strokeStyle = "rgba(200,215,255,.55)"; pen.lineWidth = 1.5;
+    for (let i = 0; i < 70; i++) {
+      const rx2 = (hash(i) * W + frame * 7) % W, ry2 = (hash(i + 50) * H + frame * 13) % H;
+      pen.beginPath(); pen.moveTo(rx2, ry2); pen.lineTo(rx2 - 5, ry2 + 15); pen.stroke();
+    }
+  }
+
+  // film grain + vignette: the finishing wash over the whole picture
+  pen.save(); pen.globalAlpha = 0.06; pen.globalCompositeOperation = "overlay";
+  for (let gx = 0; gx < W; gx += 160) for (let gy = 0; gy < H; gy += 160) pen.drawImage(grain, gx, gy);
+  pen.restore();
+  const vg = pen.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.45, W / 2, H / 2, Math.max(W, H) * 0.75);
+  vg.addColorStop(0, "rgba(20,16,40,0)"); vg.addColorStop(1, "rgba(20,16,40,.17)");
+  pen.fillStyle = vg; pen.fillRect(0, 0, W, H);
+
   // HUD — labeled like everything else
-  if (state === "play" || state === "gate") {
+  if (state === "play" || state === "gate" || state === "storm") {
     scorePunch += (1 - scorePunch) * 0.12;
     pen.font = "800 " + Math.round(44 * scorePunch) + "px system-ui";
     pen.textAlign = "center"; pen.textBaseline = "top";
@@ -949,7 +1216,7 @@ function step() {
     pen.shadowColor = "rgba(0,0,0,.4)"; pen.shadowBlur = 8;
     pen.fillText(score, W / 2, 14);
     pen.shadowBlur = 0;
-    if (labelsOn()) label("score", W / 2, 78, 18, 34, 10);
+    if (labelsOn()) label("score", W / 2, 78, 18, 38, 12);
     if (MORE.mode === "level") {
       const bw = Math.min(W * 0.24, 220);
       pen.fillStyle = "rgba(255,255,255,.3)";
@@ -960,10 +1227,10 @@ function step() {
       pen.font = "700 13px ui-monospace, Menlo, monospace"; pen.textAlign = "left";
       pen.fillStyle = "rgba(255,255,255,.95)";
       pen.fillText((MORE.level - passed) + " TO GO", 16, 42);
-      if (labelsOn()) label("the day", 16 + bw / 2, 66, 19, 26, 9);
+      if (labelsOn()) label("the day", 16 + bw / 2, 66, 19, 30, 10);
       pen.textAlign = "right"; pen.font = "26px system-ui";
       pen.fillText("❤️".repeat(lives), W - 14, 16);
-      if (labelsOn()) label("lives", W - 20 - lives * 16, 62, 21, 26, 9);
+      if (labelsOn()) label("lives", W - 20 - lives * 16, 62, 21, 30, 10);
     }
   }
   pen.restore();
