@@ -468,8 +468,32 @@ function drawSky() {
     const k = clamp((t - 0.52) / 0.48, 0, 1);
     const mx = W * (0.12 + 0.76 * k), my = GROUND() - Math.sin(k * Math.PI) * H * 0.6 - 18;
     moonPos = { x: mx, y: my };
-    pen.fillStyle = "#EDEFF7"; pen.beginPath(); pen.arc(mx, my, 22, 0, 7); pen.fill();
-    pen.fillStyle = rgb(skyAt(skyT).top, 0.85); pen.beginPath(); pen.arc(mx + 9, my - 6, 18, 0, 7); pen.fill();
+    const R = 22;
+    pen.save(); pen.globalCompositeOperation = "lighter";     // two stacked halos, moonlight hue
+    for (const [hr, ha] of [[95, 0.10], [42, 0.16]]) {
+      const hg = pen.createRadialGradient(mx, my, R * 0.5, mx, my, hr);
+      hg.addColorStop(0, `rgba(214,224,255,${ha})`); hg.addColorStop(1, "rgba(214,224,255,0)");
+      pen.fillStyle = hg; pen.beginPath(); pen.arc(mx, my, hr, 0, 7); pen.fill();
+    }
+    pen.restore();
+    const mg2 = pen.createRadialGradient(mx - R * 0.4, my - R * 0.4, 2, mx, my, R * 1.1);
+    mg2.addColorStop(0, "#F7F8EF"); mg2.addColorStop(1, "#C9CFE4");   // ivory disc, cool at the limb
+    pen.fillStyle = mg2; pen.beginPath(); pen.arc(mx, my, R, 0, 7); pen.fill();
+    pen.save(); pen.beginPath(); pen.arc(mx, my, R, 0, 7); pen.clip();
+    // craters: one big, two medium, two small, clustered toward the shadow side
+    pen.fillStyle = "rgba(154,162,192,.55)";
+    for (const [cx2, cy2, cr] of [[7, 4, 6], [-2, 11, 3.6], [12, -6, 3.2], [2, -2, 1.8], [9, 12, 1.6]]) {
+      pen.beginPath(); pen.arc(mx + cx2, my + cy2, cr, 0, 7); pen.fill();
+    }
+    pen.strokeStyle = "rgba(255,255,255,.5)"; pen.lineWidth = 1.1;    // each crater catches light on the sunward lip
+    for (const [cx2, cy2, cr] of [[7, 4, 6], [-2, 11, 3.6], [12, -6, 3.2]]) {
+      pen.beginPath(); pen.arc(mx + cx2, my + cy2, cr, Math.PI * 0.7, Math.PI * 1.5); pen.stroke();
+    }
+    pen.fillStyle = rgb(mixc(s.top, [30, 38, 80], 0.4), 0.5);         // terminator: sky-hued, never gray
+    pen.beginPath(); pen.arc(mx + R * 0.75, my, R * 0.95, 0, 7); pen.fill();
+    pen.restore();
+    pen.strokeStyle = "rgba(240,244,255,.8)"; pen.lineWidth = 1.6;    // rim light on the lit limb
+    pen.beginPath(); pen.arc(mx, my, R - 0.8, Math.PI * 0.6, Math.PI * 1.45); pen.stroke();
     if (labelsOn()) label("moon", mx, my, 17, 52, 24);
   }
   return s;
@@ -489,7 +513,9 @@ function hillYat(x, factor, amp, base) {
   const wx = x + scroll * factor + runSeed * 3;
   if (GAME.world === "city")
     return H * base - 40 - hash(Math.floor(wx / 90)) * amp;
-  return H * base - (Math.sin(wx * 0.004 + runSeed) * 0.6 + Math.sin(wx * 0.009 + 2 + runSeed) * 0.4) * amp - 30;
+  // three octaves + a phase warp: crests lean, no two bumps repeat
+  const t = wx * 0.004 + runSeed + 0.45 * Math.sin(wx * 0.0017 + runSeed * 2);
+  return H * base - (Math.sin(t) * 0.5 + Math.sin(t * 2.3 + 2) * 0.32 + Math.sin(t * 5.1 + 5) * 0.14) * amp - 30;
 }
 function drawHills(s) {
   const layers = [[0.08, 0.85, 40, 0.62], [0.18, 0.72, 60, 0.7], [0.4, 0.45, 90, 0.84]];   // [scroll, haze, amp, base]
@@ -502,12 +528,48 @@ function drawHills(s) {
     pen.beginPath(); pen.moveTo(0, H);
     for (let x = 0; x <= W + 20; x += 20) pen.lineTo(x, hillYat(x, factor, amp, base));
     pen.lineTo(W, H); pen.closePath(); pen.fill();
+    if (GAME.world !== "city" && factor > 0.1) {
+      // shrub clusters riding the nearer ridges — detail lives close, far hills stay plain
+      const dk = rgb(mixc(mixc(hc, [16, 36, 22], 0.5), s.mid, haze * (factor > 0.3 ? 0.5 : 0.85)));
+      const pitch = factor > 0.3 ? 330 : 260, drift = scroll * factor + runSeed * 3;
+      const off = ((drift % pitch) + pitch) % pitch;
+      pen.fillStyle = dk;
+      for (let sx2 = -off - pitch; sx2 < W + pitch; sx2 += pitch) {
+        const id = Math.round((sx2 + drift) / pitch);
+        if (hash(id * 13) < (factor > 0.3 ? 0.3 : 0.5)) continue;   // some slots stay empty, more so far away
+        const bx = sx2 + hash(id * 7) * pitch * 0.4;
+        const sc2 = (factor > 0.3 ? 1 : 0.55) * (0.7 + hash(id * 3) * 0.6);
+        const lobes2 = 2 + Math.floor(hash(id * 5) * 2);
+        pen.beginPath();
+        for (let j = 0; j <= lobes2; j++) {
+          const lx2 = bx + (j - lobes2 / 2) * 13 * sc2;
+          const ly2 = hillYat(lx2, factor, amp, base) + 3;
+          const lr = (j === Math.floor(lobes2 / 2) ? 11 : 7 + hash(id + j) * 3) * sc2;
+          pen.moveTo(lx2 + lr, ly2); pen.ellipse(lx2, ly2, lr, lr * 0.62, 0, 0, 7);
+        }
+        pen.fill();
+      }
+    }
     if (GAME.world === "city" && s.light < 0.45 && factor > 0.1) {
-      pen.fillStyle = `rgba(255,209,102,${(0.45 - s.light) * 1.6})`;
+      // lit windows cluster by building and by floor; a few rooftop masts break the flat line
+      const glow = (0.45 - s.light) * 1.6;
       for (let x = 10; x < W; x += 34) {
-        const wx = x + scroll * factor, b = Math.floor(wx / 90);
-        if ((Math.floor(wx / 34) % 3) !== 0)
+        const wx = x + scroll * factor, b = Math.floor(wx / 90), c = Math.floor(wx / 34);
+        if (hash(b * 97 + c * 7) < 0.28 + hash(b) * 0.35) {
+          pen.fillStyle = hash(c * 11) < 0.25 ? `rgba(255,233,176,${glow})` : `rgba(255,209,102,${glow * 0.85})`;
           pen.fillRect(x, H * base - 40 - hash(b) * amp + 18 + (b % 3) * 14, 5, 7);
+        }
+      }
+      pen.strokeStyle = rgb(mixc(hc, [10, 14, 30], 0.4)); pen.lineWidth = 2;
+      for (let b = Math.floor(scroll * factor / 90) - 1, n = 0; n < Math.ceil(W / 90) + 2; b++, n++) {
+        if (hash(b * 17) < 0.72) continue;
+        const ax = b * 90 + 45 - scroll * factor, ay = H * base - 40 - hash(b) * amp;
+        if (ax < -10 || ax > W + 10) continue;
+        pen.beginPath(); pen.moveTo(ax, ay); pen.lineTo(ax, ay - 11 - hash(b + 1) * 8); pen.stroke();
+        if (s.light < 0.3) {                                        // red beacon after dark
+          pen.fillStyle = `rgba(255,77,94,${0.4 + 0.5 * Math.abs(Math.sin(frame * 0.05 + b))})`;
+          pen.beginPath(); pen.arc(ax, ay - 12 - hash(b + 1) * 8, 1.6, 0, 7); pen.fill();
+        }
       }
     }
   }
@@ -537,6 +599,8 @@ function drawHills(s) {
     const mx = ((-scroll * 0.4 + runSeed * 5) % period + period) % period - 200;
     if (mx > -90 && mx < W + 90) {
       const my = hillYat(mx, 0.4, 90, 0.84);
+      pen.fillStyle = "rgba(18,14,32,.16)";                   // contact shadow roots it to the ridge
+      pen.beginPath(); pen.ellipse(mx, my + 2, GAME.world === "candy" ? 30 : 26, 4.5, 0, 0, 7); pen.fill();
       if (GAME.world === "candy") {
         const tiers = [[46, "#F2A7C3"], [36, "#FDF6F0"], [26, "#F2A7C3"]];
         let ty2 = my;
@@ -572,15 +636,41 @@ function drawHills(s) {
     if (train) {
       train.x -= 2.6;
       const ty = hillYat(0, 0.18, 60, 0.7) + 4;
-      for (let i = 0; i < train.cars; i++) {
-        pen.fillStyle = rgb(mixc([70, 76, 92], s.mid, 0.4));
-        pen.fillRect(train.x + i * 34, ty - 12, 30, 12);
-        pen.fillStyle = s.light < 0.5 ? "#FFD166" : rgb(mixc([200, 205, 215], s.mid, 0.4));
-        pen.fillRect(train.x + i * 34 + 4, ty - 9, 5, 4); pen.fillRect(train.x + i * 34 + 14, ty - 9, 5, 4);
+      const dark = rgb(mixc([52, 46, 62], s.mid, 0.35)), wheelC = rgb(mixc([30, 26, 38], s.mid, 0.3));
+      // the locomotive leads: boiler, cab, flared chimney, dome, driver wheels
+      const ex = train.x;
+      pen.fillStyle = dark;
+      pen.fillRect(ex + 2, ty - 10, 20, 10);                          // boiler
+      pen.beginPath(); pen.roundRect(ex + 20, ty - 16, 10, 16, 2); pen.fill();   // cab
+      pen.fillRect(ex + 5, ty - 15, 3, 6); pen.fillRect(ex + 4, ty - 16, 5, 2);  // chimney + flare
+      pen.beginPath(); pen.arc(ex + 14, ty - 10, 2.5, Math.PI, 0); pen.fill();   // dome
+      pen.fillStyle = wheelC;
+      for (const wx2 of [6, 12, 18, 25]) { pen.beginPath(); pen.arc(ex + wx2, ty - 1, 2.6, 0, 7); pen.fill(); }
+      if (s.light < 0.5) {                                            // cab glow + firebox at dusk
+        pen.fillStyle = "#FFB347"; pen.fillRect(ex + 22, ty - 13, 4, 4);
+        pen.fillStyle = "rgba(255,140,50,.4)"; pen.fillRect(ex + 20, ty - 2, 6, 2);
       }
-      if (frame % 14 === 0) particles.push({ x: train.x + 4, y: ty - 16, vx: 0.2, vy: -0.7, life: 60, color: "rgba(220,220,225,.7)", r: 4, drag: true });
+      for (let i = 1; i < train.cars; i++) {                          // tender first, then carriages
+        const cx3 = train.x + 30 + i * 34;
+        pen.fillStyle = dark;
+        pen.beginPath(); pen.roundRect(cx3, ty - (i === 1 ? 9 : 12), 30, i === 1 ? 9 : 12, 2); pen.fill();
+        pen.fillStyle = wheelC;
+        for (const wx2 of [6, 24]) { pen.beginPath(); pen.arc(cx3 + wx2, ty - 1, 2.2, 0, 7); pen.fill(); }
+        if (i > 1) {
+          pen.fillStyle = s.light < 0.5 ? "rgba(255,209,102,.85)" : rgb(mixc([205, 210, 220], s.mid, 0.4));
+          pen.fillRect(cx3 + 4, ty - 9, 5, 4); pen.fillRect(cx3 + 13, ty - 9, 5, 4); pen.fillRect(cx3 + 22, ty - 9, 5, 4);
+        }
+      }
+      // smoke: a puff chain growing and fading as it trails behind
+      let pr = 2.6, px2 = ex + 6, py2 = ty - 19;
+      for (let p2 = 0; p2 < 5; p2++) {
+        const wob2 = Math.sin(frame * 0.04 + p2 * 2) * 1.5;
+        pen.fillStyle = `rgba(232,229,222,${0.55 * (1 - p2 / 5.5)})`;
+        pen.beginPath(); pen.arc(px2 + wob2, py2, pr, 0, 7); pen.fill();
+        px2 += pr * 1.9 + 2; py2 -= pr * 1.1; pr *= 1.32;
+      }
       if (labelsOn()) label("train", train.x + 60, ty - 30, 7);
-      if (train.x < -train.cars * 34 - 60) train = null;
+      if (train.x < -train.cars * 34 - 90) train = null;
     }
   }
 }
@@ -629,10 +719,31 @@ function drawFloor(s) {
     if (boat.x > W + 80) { boat.x = -60; }
     const by = top - 2 + Math.sin(frame * 0.035) * 2.5;
     pen.save(); pen.translate(boat.x, by); pen.rotate(Math.sin(frame * 0.035) * 0.05);
-    pen.fillStyle = "#7f5539"; pen.beginPath();
-    pen.moveTo(-20, 0); pen.lineTo(20, 0); pen.lineTo(12, 9); pen.lineTo(-12, 9); pen.closePath(); pen.fill();
-    pen.fillStyle = "rgba(255,255,255,.92)";
-    pen.beginPath(); pen.moveTo(0, -2); pen.lineTo(0, -26); pen.lineTo(16, -4); pen.closePath(); pen.fill();
+    pen.scale(-boat.dir, 1);                                // bow leads the way
+    const sailC = rgb(mixc([245, 240, 230], s.mid, 0.18));
+    pen.fillStyle = rgb(mixc([192, 57, 43], s.mid, 0.25));  // hull: smiling sheer, raked bow, upright transom
+    pen.beginPath(); pen.moveTo(-20, -4);
+    pen.quadraticCurveTo(0, 0, 15, -3); pen.lineTo(13, 5);
+    pen.quadraticCurveTo(0, 8, -16, 3); pen.closePath(); pen.fill();
+    pen.fillStyle = "rgba(10,26,52,.45)";                   // dark underbody at the waterline
+    pen.beginPath(); pen.moveTo(-17, 2); pen.quadraticCurveTo(0, 6, 13, 3);
+    pen.lineTo(13, 5); pen.quadraticCurveTo(0, 8, -16, 3); pen.closePath(); pen.fill();
+    pen.strokeStyle = "rgba(60,32,24,.6)"; pen.lineWidth = 1.2;   // mast
+    pen.beginPath(); pen.moveTo(-4, -4); pen.lineTo(-4, -34); pen.stroke();
+    pen.fillStyle = sailC;                                  // mainsail, leech bowed by the wind
+    pen.beginPath(); pen.moveTo(-4, -33); pen.quadraticCurveTo(9, -22, 13, -5);
+    pen.lineTo(-4, -5); pen.closePath(); pen.fill();
+    pen.fillStyle = rgb(mixc([228, 217, 196], s.mid, 0.22));      // jib, a shade deeper
+    pen.beginPath(); pen.moveTo(-6, -30); pen.quadraticCurveTo(-15, -18, -18, -5);
+    pen.lineTo(-7, -5); pen.closePath(); pen.fill();
+    pen.fillStyle = "#E0483E";                              // masthead flag, the one accent
+    pen.beginPath(); pen.moveTo(-4, -34); pen.lineTo(2, -32); pen.lineTo(-4, -30); pen.closePath(); pen.fill();
+    pen.fillStyle = sailC;                                  // broken reflection, fading with depth
+    for (const [ry3, rw3, ra3] of [[10, 15, 0.3], [14, 10, 0.18], [18, 6, 0.09]]) {
+      pen.globalAlpha = ra3;
+      pen.fillRect(-rw3 / 2 + Math.sin(frame * 0.03 + ry3) * 4, ry3, rw3, 2);
+    }
+    pen.globalAlpha = 1;
     pen.restore();
     if (labelsOn()) { label("boat", boat.x, by - 30, 8); label("waves", W * 0.3, top + 16, 9); }
   } else if (kind === "road") {
@@ -805,22 +916,61 @@ function updateFlyer(s) {
     if (f.life > 60) flyer = null;
   } else if (f.kind === "balloon") {
     f.x -= 0.8; f.y += Math.sin(f.life * 0.02) * 0.3;
-    const cols = f.hue < 0.33 ? ["#E76F51", "#F4A261"] : f.hue < 0.66 ? ["#5B8ED6", "#9BC0F0"] : ["#B95BD6", "#DFA7F0"];
-    pen.fillStyle = cols[0]; pen.beginPath(); pen.arc(f.x, f.y, 22, 0, 7); pen.fill();
-    pen.fillStyle = cols[1]; pen.beginPath(); pen.arc(f.x - 7, f.y - 4, 14, 0, 7); pen.fill();
-    pen.strokeStyle = "rgba(60,40,20,.7)"; pen.lineWidth = 1.5;
-    pen.beginPath(); pen.moveTo(f.x - 10, f.y + 18); pen.lineTo(f.x - 6, f.y + 34);
-    pen.moveTo(f.x + 10, f.y + 18); pen.lineTo(f.x + 6, f.y + 34); pen.stroke();
-    pen.fillStyle = "#7f5539"; pen.fillRect(f.x - 8, f.y + 34, 16, 11);
+    const cols = f.hue < 0.33 ? ["#E76F51", "#F6E7C8", "#8C3B2A"] : f.hue < 0.66 ? ["#5B8ED6", "#EAF0F8", "#31517E"] : ["#B95BD6", "#F3E3F8", "#6E3583"];
+    const sway2 = Math.sin(f.life * 0.015) * 0.06;
+    pen.save(); pen.translate(f.x, f.y); pen.rotate(sway2);
+    const env = () => {                                     // teardrop envelope: round crown, tapered skirt
+      pen.beginPath(); pen.moveTo(0, -26);
+      pen.bezierCurveTo(20, -26, 24, -8, 13, 12);
+      pen.quadraticCurveTo(9, 19, 6, 21); pen.lineTo(-6, 21);
+      pen.quadraticCurveTo(-9, 19, -13, 12);
+      pen.bezierCurveTo(-24, -8, -20, -26, 0, -26); pen.closePath();
+    };
+    env(); pen.fillStyle = cols[0]; pen.fill();
+    pen.save(); env(); pen.clip();
+    pen.fillStyle = cols[1];                                // alternating gores, seams curved like meridians
+    for (const gx of [-14, 0, 14]) {
+      pen.beginPath(); pen.moveTo(gx * 0.35, -26);
+      pen.bezierCurveTo(gx + 6, -18, gx + 5, 2, gx * 0.5, 21);
+      pen.lineTo(gx * 0.3 - 4, 21);
+      pen.bezierCurveTo(gx - 1, 2, gx - 2, -18, gx * 0.35 - 3, -26);
+      pen.closePath(); pen.fill();
+    }
+    pen.fillStyle = rgb(mixc([20, 26, 60], s.mid, 0.35), 0.30);   // shaded half, hued by the sky
+    pen.beginPath(); pen.moveTo(0, -27); pen.bezierCurveTo(26, -27, 26, -6, 14, 22);
+    pen.lineTo(3, 22); pen.bezierCurveTo(6, -4, 4, -18, 0, -27); pen.closePath(); pen.fill();
+    pen.fillStyle = "rgba(255,246,225,.5)";                 // crown highlight, sun side
+    pen.beginPath(); pen.ellipse(-8, -16, 7, 10, 0.5, 0, 7); pen.fill();
+    pen.fillStyle = cols[2];                                // skirt band
+    pen.beginPath(); pen.moveTo(-7, 17); pen.lineTo(7, 17); pen.lineTo(6, 22); pen.lineTo(-6, 22); pen.closePath(); pen.fill();
+    pen.restore();
+    pen.strokeStyle = "rgba(74,52,28,.8)"; pen.lineWidth = 1.3;   // splayed ropes
+    pen.beginPath(); pen.moveTo(-6, 21); pen.lineTo(-4, 32); pen.moveTo(6, 21); pen.lineTo(4, 32); pen.stroke();
+    const bg2 = pen.createLinearGradient(-6, 0, 6, 0);      // wicker basket: lit face into shade
+    bg2.addColorStop(0, "#9A7248"); bg2.addColorStop(1, "#6B4B2A");
+    pen.fillStyle = bg2;
+    pen.beginPath(); pen.roundRect(-6, 32, 12, 9, 2); pen.fill();
+    pen.strokeStyle = "rgba(50,33,16,.5)"; pen.lineWidth = 0.8;   // weave lines
+    pen.beginPath(); pen.moveTo(-6, 35); pen.lineTo(6, 35); pen.moveTo(-6, 38); pen.lineTo(6, 38); pen.stroke();
+    pen.fillStyle = "#4A3118"; pen.fillRect(-6.5, 31, 13, 1.6);   // basket rim
+    pen.restore();
     if (labelsOn()) label("balloon", f.x, f.y, 13, 48, 34);
     if (f.x < -60) flyer = null;
   } else if (f.kind === "plane") {
     f.x -= 3.2; f.y += Math.sin(f.life * 0.05) * 0.4;
     pen.save(); pen.translate(f.x, f.y);
-    pen.fillStyle = "#F5F7FA";
-    pen.beginPath(); pen.moveTo(-26, 0); pen.lineTo(22, -7); pen.lineTo(22, 7); pen.closePath(); pen.fill();
-    pen.fillStyle = "#D7DEE8";
-    pen.beginPath(); pen.moveTo(2, -3); pen.lineTo(16, -18); pen.lineTo(12, 0); pen.closePath(); pen.fill();
+    pen.fillStyle = rgb(mixc([245, 247, 250], s.mid, 0.12));  // capsule fuselage, nose left
+    pen.beginPath(); pen.roundRect(-24, -4.5, 42, 9, 4.5); pen.fill();
+    pen.fillStyle = rgb(mixc([215, 222, 232], s.mid, 0.2));   // belly shade
+    pen.beginPath(); pen.roundRect(-24, 0, 42, 4.5, 4); pen.fill();
+    pen.fillStyle = rgb(mixc([232, 236, 242], s.mid, 0.15));  // tail fin + tailplane
+    pen.beginPath(); pen.moveTo(12, -3); pen.lineTo(19, -13); pen.lineTo(18, -3); pen.closePath(); pen.fill();
+    pen.beginPath(); pen.moveTo(12, -1); pen.lineTo(20, 2); pen.lineTo(13, 3); pen.closePath(); pen.fill();
+    pen.fillStyle = rgb(mixc([200, 208, 220], s.mid, 0.2));   // swept wing
+    pen.beginPath(); pen.moveTo(-6, -1); pen.lineTo(6, 9); pen.lineTo(11, 9); pen.lineTo(1, -1); pen.closePath(); pen.fill();
+    pen.fillStyle = "#4A6B8C";                                // cockpit + a strip of windows
+    pen.beginPath(); pen.moveTo(-23, -3.5); pen.quadraticCurveTo(-18, -4.5, -17, -1); pen.lineTo(-21, -1); pen.closePath(); pen.fill();
+    for (let wx3 = -13; wx3 < 8; wx3 += 5) pen.fillRect(wx3, -3, 2.2, 2.2);
     pen.restore();
     if (labelsOn()) label("plane", f.x, f.y, 14, 44, 20);
     if (f.x < -60) flyer = null;
@@ -865,20 +1015,53 @@ function drawWall(wall, s) {
   const sway = Math.sin(frame * 0.03 + wall.x * 0.02) * 2;   // idle micro-motion
   pen.save();
   if (GAME.world === "city") {
-    const gc = GRAYS[Math.floor(v * 3)];
+    const gc = mixc(GRAYS[Math.floor(v * 3)], s.mid, 0.18);     // facade breathes with the sky
     const bg = pen.createLinearGradient(x, 0, x + WALL_W, 0);   // one lit face, one shaded face
     bg.addColorStop(0, rgb(mixc(gc, [255, 255, 255], 0.12)));
-    bg.addColorStop(1, rgb(mixc(gc, [10, 14, 30], 0.22)));
+    bg.addColorStop(1, rgb(mixc(gc, [22, 28, 50], 0.26)));
     pen.fillStyle = bg; pen.fillRect(x, b, WALL_W, H - b);
-    pen.fillStyle = "#59636F"; pen.fillRect(x - 5, b, WALL_W + 10, 12);
-    pen.fillStyle = s.light < 0.45 ? "#FFD166" : "#B9C3CE";
-    for (let wy = b + 22; wy < H - 20; wy += 26)
-      for (let wx = x + 10; wx < x + WALL_W - 12; wx += 22) pen.fillRect(wx, wy, 11, 14);
-    pen.fillStyle = "#8B95A1"; pen.fillRect(x + 34, 0, 10, t - 24);
-    for (let sy = 12; sy < t - 30; sy += 22) {
-      pen.strokeStyle = "#7A8492"; pen.lineWidth = 3;
-      pen.beginPath(); pen.moveTo(x + 34, sy); pen.lineTo(x + 44, sy + 16); pen.stroke();
+    // windows: at night whole floors go dark, lit rooms run in clusters; by day glass with drawn blinds
+    const night = s.light < 0.45;
+    let fi = 0;
+    for (let wy = b + 22; wy < H - 20; wy += 26, fi++) {
+      const fr = hash(v * 100 + fi * 3);
+      let ci = 0, lit = fr < 0.15;
+      for (let wx = x + 10; wx < x + WALL_W - 12; wx += 22, ci++) {
+        if (fr >= 0.15 && fr < 0.5) lit = false;
+        else if (fr >= 0.5) lit = lit ? hash(v * 77 + fi * 9 + ci) < 0.7 : hash(v * 77 + fi * 9 + ci) < 0.22;
+        if (night) pen.fillStyle = lit
+          ? (hash(v * 31 + fi + ci) < 0.2 ? "#FFE9B0" : "#FFD166")
+          : rgb(mixc(gc, [235, 240, 255], 0.18));               // unlit rooms still leak a little light
+        else pen.fillStyle = hash(v * 31 + fi * 5 + ci) < 0.15 ? rgb(mixc(gc, [235, 240, 255], 0.3)) : "#B9C3CE";
+        pen.fillRect(wx, wy, 11, 14);
+      }
     }
+    // rooftop furniture, one piece per building
+    const rx2 = x + WALL_W * 0.6;
+    pen.strokeStyle = "#4A525E"; pen.fillStyle = "#6B7683"; pen.lineWidth = 2;
+    if (v < 0.35) {                                             // water tower on splayed legs
+      pen.beginPath(); pen.moveTo(rx2 - 5, b); pen.lineTo(rx2 - 4, b - 7); pen.moveTo(rx2 + 5, b); pen.lineTo(rx2 + 4, b - 7); pen.stroke();
+      pen.fillRect(rx2 - 6, b - 17, 12, 10);
+      pen.beginPath(); pen.moveTo(rx2 - 8, b - 17); pen.lineTo(rx2, b - 23); pen.lineTo(rx2 + 8, b - 17); pen.closePath(); pen.fill();
+    } else if (v < 0.7) {                                       // AC pair + whip antenna
+      pen.fillRect(rx2 - 10, b - 6, 8, 6); pen.fillRect(rx2, b - 5, 7, 5);
+      pen.beginPath(); pen.moveTo(x + 14, b); pen.lineTo(x + 14, b - 14); pen.stroke();
+    } else {                                                    // antenna mast with cross-arms
+      pen.beginPath(); pen.moveTo(rx2, b); pen.lineTo(rx2, b - 18);
+      pen.moveTo(rx2 - 5, b - 9); pen.lineTo(rx2 + 5, b - 9);
+      pen.moveTo(rx2 - 3, b - 14); pen.lineTo(rx2 + 3, b - 14); pen.stroke();
+    }
+    pen.fillStyle = "#59636F"; pen.fillRect(x - 5, b, WALL_W + 10, 12);   // parapet
+    // the crane: a latticed mast, cables, and the striped spreader bar
+    pen.fillStyle = "#8B95A1"; pen.fillRect(x + 34, 0, 10, t - 24);
+    pen.strokeStyle = "#7A8492"; pen.lineWidth = 2;
+    for (let sy = 12; sy < t - 30; sy += 22) {
+      pen.beginPath(); pen.moveTo(x + 34, sy); pen.lineTo(x + 44, sy + 16);
+      pen.moveTo(x + 44, sy); pen.lineTo(x + 34, sy + 16); pen.stroke();
+    }
+    pen.strokeStyle = "rgba(70,76,90,.8)"; pen.lineWidth = 1.4;
+    pen.beginPath(); pen.moveTo(x + 39, t - 24); pen.lineTo(x - 4 + sway, t - 26);
+    pen.moveTo(x + 39, t - 24); pen.lineTo(x + WALL_W + 4 + sway, t - 26); pen.stroke();
     pen.fillStyle = "#E0483E"; pen.fillRect(x - 8 + sway, t - 26, WALL_W + 16, 26);
     pen.fillStyle = "#fff";
     pen.fillRect(x + 6 + sway, t - 26, 14, 26); pen.fillRect(x + 38 + sway, t - 26, 14, 26); pen.fillRect(x + 70 + sway, t - 26, 14, 26);
