@@ -27,9 +27,10 @@ K_MORE = '''const MORE = {
   labels: "on",               // on = everything tells you its English name · off = quiet sky
   sound:  "on",               // on · off — blips and chimes
   music:  "calm",             // calm · party · off
-  listen: "on",               // on = the gate SAYS the word, write what you hear · off = it shows the word
+  listen: "picture",          // picture = a picture shows the word, write its name · on = it SAYS it · off = it shows the word
   storm:  "on",               // on = a word storm hits in the middle of the day
   password: "on",             // on = finishing a day sets a password for next time
+  fx:     "on",               // on = butterflies + magic glow · off = plain (if the phone is slow)
   start:  "WAIT... HOLD TO FLY",
   win:    "WELL DONE!",
   lose:   "CAUGHT YOU!",
@@ -58,9 +59,10 @@ D_MORE = '''const MORE = {
   labels: "on",               // on = everything tells you its English name · off = quiet sky
   sound:  "on",               // on · off — blips and chimes
   music:  "party",            // calm · party · off
-  listen: "on",               // on = the gate SAYS the word, write what you hear · off = it shows the word
+  listen: "picture",          // picture = a picture shows the word, write its name · on = it SAYS it · off = it shows the word
   storm:  "on",               // on = a word storm hits in the middle of the day
   password: "on",             // on = finishing a day sets a password for next time
+  fx:     "on",               // on = butterflies + magic glow · off = plain (if the phone is slow)
   start:  "READY? HOLD TO FLY",
   win:    "YOU DID IT! DANCE!",
   lose:   "OH NO... WRONG!",

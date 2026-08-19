@@ -37,6 +37,11 @@
     outline: none;
   }
   #wordBox.wrong { animation: shake .3s; border-color: #bb3a31; }
+  #gateWordShow.picBig {
+    background: transparent; color: #fff; padding: 0;
+    font-size: clamp(64px, 14vw, 120px); line-height: 1.1;
+    text-shadow: 0 6px 22px rgba(0,0,0,.35);
+  }
   @keyframes shake { 25% { transform: translateX(-9px); } 75% { transform: translateX(9px); } }
   #bar { width: min(60vw, 380px); height: 20px; border-radius: 999px;
          background: rgba(255,255,255,.25); overflow: hidden; }
@@ -57,6 +62,7 @@
   <div id="hearts"></div>
   <div class="mid" id="gateTitle"></div>
   <div class="tag" id="gateWordShow"></div>
+  <div class="tag hidden" id="gateHint"></div>
   <button id="sayButton" class="mini">🔊 SAY IT AGAIN</button>
   <input id="wordBox" autocomplete="off" spellcheck="false">
   <button id="goButton">GO!</button>
@@ -98,9 +104,10 @@ const MORE = {
   labels: "on",               // on = everything tells you its English name · off = quiet sky
   sound:  "on",               // on · off — blips and chimes
   music:  "calm",             // calm · party · off
-  listen: "on",               // on = the gate SAYS the word, write what you hear · off = it shows the word
+  listen: "picture",          // picture = a picture shows the word, write its name · on = it SAYS it · off = it shows the word
   storm:  "on",               // on = a word storm hits in the middle of the day
   password: "on",             // on = finishing a day sets a password for next time
+  fx:     "on",               // on = butterflies + magic glow · off = plain (if the phone is slow)
   start:  "WAIT... HOLD TO FLY",
   win:    "YOU MADE IT TO SUNRISE!",
   lose:   "WRONG MOVE!",
@@ -121,6 +128,20 @@ const WORD_BOOK = {
   "🐉": "dragon", "🐙": "octopus", "🥚": "egg", "🌸": "blossom", "🍕": "pizza",
 };
 const playerName = () => WORD_BOOK[GAME.player] || "me!";
+// ==================================================
+//   🖼️ THE PICTURE BOOK — the gate shows the picture,
+//   you write its word. new word? give it a picture!
+// ==================================================
+const PICTURE_BOOK = {
+  RIGHT: "✅", WRONG: "❌", WAIT: "⏳", AGAIN: "🔁", TOGETHER: "🤝",
+  FLOUR: "🌾", FLOWER: "🌸", OLIVE: "🫒", OIL: "🫗", BOUNCY: "🦘", SOFT: "🪶",
+};
+function pictureFor(word) {
+  const up = (word || "").toUpperCase();
+  if (PICTURE_BOOK[up]) return PICTURE_BOOK[up];
+  for (const k in WORD_BOOK) if (WORD_BOOK[k].toUpperCase() === up) return k;   // the word book read backwards
+  return null;
+}
 // ==================================================
 //   the engine. the map:  [SOUND] blips, chimes, calm & party music, the
 //   world's own noises  [SKY] sun, moon, stars, rays, one whole day
@@ -369,6 +390,28 @@ function skyAt(t) {
            low: mixc(a.low, b.low, k), light: lerp(a.light, b.light, k) };
 }
 let sunPos = null, moonPos = null;
+// god rays live on a small canvas, repainted every few frames and stretched
+// across the screen — the upscale is the blur, and the blit costs nothing
+const rayCv = document.createElement("canvas"); rayCv.width = rayCv.height = 256;
+let rayStamp = -9;
+function paintRays() {
+  const g = rayCv.getContext("2d");
+  g.setTransform(1, 0, 0, 1, 0, 0);
+  g.clearRect(0, 0, 256, 256); g.translate(128, 128);
+  for (let i = 0; i < 9; i++) {
+    const a = i / 9 * Math.PI * 2 + frame * 0.0008;
+    const breathe = 0.75 + 0.25 * Math.sin(frame * 0.02 + i * 2);
+    const rg = g.createLinearGradient(0, 0, Math.cos(a) * 126, Math.sin(a) * 126);
+    rg.addColorStop(0, `rgba(255,233,184,${0.12 * breathe})`);
+    rg.addColorStop(0.6, `rgba(255,233,184,${0.04 * breathe})`);
+    rg.addColorStop(1, "rgba(255,233,184,0)");
+    g.fillStyle = rg;
+    g.beginPath(); g.moveTo(0, 0);
+    g.lineTo(Math.cos(a - 0.06) * 128, Math.sin(a - 0.06) * 128);
+    g.lineTo(Math.cos(a + 0.06) * 128, Math.sin(a + 0.06) * 128);
+    g.closePath(); g.fill();
+  }
+}
 function drawSky() {
   sunPos = moonPos = null;
   if (GAME.sky !== "magic") {
@@ -402,21 +445,9 @@ function drawSky() {
     pen.fillStyle = glow; pen.beginPath(); pen.arc(sx, sy, 110, 0, 7); pen.fill();
     const lowSun = Math.sin(k * Math.PI) < 0.45;            // god rays when the sun is low
     if (lowSun) {
-      const L = Math.max(W, H) * 1.6;                       // rays run past the screen edge,
-      for (let i = 0; i < 7; i++) {                         // fading along their length — no cutoff
-        const a = i / 7 * Math.PI * 2 + frame * 0.0008;
-        const ex = sx + Math.cos(a) * L, ey = sy + Math.sin(a) * L;
-        const rg2 = pen.createLinearGradient(sx, sy, ex, ey);
-        rg2.addColorStop(0, "rgba(255,233,184,.11)");
-        rg2.addColorStop(0.6, "rgba(255,233,184,.035)");
-        rg2.addColorStop(1, "rgba(255,233,184,0)");
-        pen.fillStyle = rg2;
-        pen.globalAlpha = 0.75 + 0.25 * Math.sin(frame * 0.02 + i * 2);
-        pen.beginPath(); pen.moveTo(sx, sy);
-        pen.lineTo(sx + Math.cos(a - 0.05) * L, sy + Math.sin(a - 0.05) * L);
-        pen.lineTo(sx + Math.cos(a + 0.05) * L, sy + Math.sin(a + 0.05) * L);
-        pen.closePath(); pen.fill();
-      }
+      if (frame - rayStamp > 4) { paintRays(); rayStamp = frame; }
+      const L = Math.max(W, H) * 1.6;                       // rays run past the screen edge
+      pen.drawImage(rayCv, sx - L, sy - L, L * 2, L * 2);
     }
     pen.restore(); pen.globalAlpha = 1;
     pen.fillStyle = "#FFD166"; pen.beginPath(); pen.arc(sx, sy, 26, 0, 7); pen.fill();
@@ -718,6 +749,39 @@ function updateAmbient(s) {
   if (labelsOn() && ambient.length > 3) label(want, ambient[0].x, ambient[0].y, 11);
 }
 
+// procedural butterflies: wings fold on |sin|, the hindwing lags half a beat,
+// the body dips on every downstroke — garden daylight only
+let flies = [];
+function updateButterflies(s) {
+  const t = ((skyT % 1) + 1) % 1;
+  const daytime = GAME.sky !== "magic" || t < 0.58;
+  if (MORE.fx === "on" && GAME.world === "garden" && daytime && flies.length < 3 && frame % 90 === 0)
+    flies.push({ x: W + 30, y: H * (0.18 + Math.random() * 0.45), ph: Math.random() * 7,
+                 wob: Math.random() * 7, sc: 0.55 + Math.random() * 0.5, hue: Math.random() });
+  flies = flies.filter(f => f.x > -40);
+  for (const f of flies) {
+    f.ph += 0.24;
+    const fold = Math.abs(Math.sin(f.ph)), fold2 = Math.abs(Math.sin(f.ph - 0.55));
+    f.x -= 0.5 + (state === "play" ? GAME.speed * 0.18 : 0) + gustK() * 0.3;
+    f.y += (0.55 - fold) * 1.3 + Math.sin(frame * 0.013 + f.wob) * 0.5;   // lifts on the stroke
+    const cols = f.hue < 0.55 ? ["#E78A2E", "#C25E1E"] : f.hue < 0.8 ? ["#8FB4EE", "#5B7EC9"] : ["#EE9AC4", "#C9699C"];
+    pen.save(); pen.translate(f.x, f.y); pen.scale(f.sc, f.sc);
+    pen.rotate(Math.sin(frame * 0.02 + f.wob) * 0.18);
+    for (const side of [-1, 1]) {
+      pen.fillStyle = cols[0];
+      pen.beginPath(); pen.ellipse(side * 7 * fold, -3, 8.5 * fold, 6, side * -0.5, 0, 7); pen.fill();
+      pen.fillStyle = cols[1];
+      pen.beginPath(); pen.ellipse(side * 5.5 * fold2, 4, 6 * fold2, 5, side * 0.4, 0, 7); pen.fill();
+    }
+    pen.fillStyle = "#3A2B1E"; pen.beginPath(); pen.ellipse(0, 0, 1.8, 7, 0, 0, 7); pen.fill();
+    pen.strokeStyle = "#3A2B1E"; pen.lineWidth = 1;
+    pen.beginPath(); pen.moveTo(0, -6); pen.lineTo(-3.5, -11); pen.moveTo(0, -6); pen.lineTo(3.5, -11); pen.stroke();
+    pen.restore();
+  }
+  if (labelsOn() && flies.length && playerName() !== "butterfly")   // one label instance per word
+    label("butterfly", flies[0].x, flies[0].y - 20, 22, 40, 16);
+}
+
 // visiting flyers: planes and birds by day, balloons at golden hours, a shooting star at night
 function updateFlyer(s) {
   if (!flyer && Math.random() < 0.009 && state === "play") {
@@ -893,14 +957,16 @@ function drawWall(wall, s) {
 function drawToken(tk) {
   tk.bob = Math.sin(frame * 0.07 + tk.seed) * 7;
   const y = tk.y + tk.bob;
+  const pic = pictureFor(tk.word);        // the pair flies together: picture and word
+  const text = pic ? pic + " " + tk.word : tk.word;
   pen.font = "800 17px ui-monospace, Menlo, Consolas, monospace";
-  const w = pen.measureText(tk.word).width + 26;
+  const w = pen.measureText(text).width + 26;
   pen.fillStyle = "rgba(255,255,255,.94)";
   pen.beginPath(); pen.roundRect(tk.x - w / 2, y - 17, w, 34, 999); pen.fill();
   pen.fillStyle = "#E0483E";
   pen.beginPath(); pen.arc(tk.x - w / 2, y, 5, 0, 7); pen.fill();
   pen.fillStyle = "#1c2333"; pen.textAlign = "center"; pen.textBaseline = "middle";
-  pen.fillText(tk.word, tk.x + 4, y + 1);
+  pen.fillText(text, tk.x + 4, y + 1);
 }
 
 let voiceCache = null;
@@ -938,11 +1004,22 @@ function showGateScreen(title, sub) {
   $("gateScreen").classList.remove("hidden");
 }
 function hideGateScreen() { $("gateScreen").classList.add("hidden"); }
-function presentWord(word, listenMode) {
+function setGateShow(text, big) {
+  $("gateWordShow").textContent = text;
+  $("gateWordShow").classList.toggle("picBig", !!big);
+}
+function gateSkeleton(word, tries) {      // rung by rung: blanks, then the first letter, then the word
+  if (tries >= 2) return word;
+  return word.split("").map((ch, i) => i === 0 && tries >= 1 ? ch : "_").join(" ");
+}
+function presentWord(word) {
   gateTries = 0;                          // nothing auto-plays: SHE presses the button to hear it
-  spokenGate = listenMode && "speechSynthesis" in window;
+  const pic = MORE.listen === "picture" ? pictureFor(word) : null;
+  spokenGate = !pic && MORE.listen === "on" && "speechSynthesis" in window;
   $("sayButton").style.display = spokenGate ? "" : "none";
-  $("gateWordShow").textContent = spokenGate ? "👂 . . . ?" : word;   // write what you HEARD
+  $("gateHint").classList.toggle("hidden", !pic);
+  if (pic) { setGateShow(pic, true); $("gateHint").textContent = gateSkeleton(word, 0); }
+  else setGateShow(spokenGate ? "👂 . . . ?" : word);   // write what you HEARD
   $("wordBox").style.display = ""; $("wordBox").value = "";
   setTimeout(() => $("wordBox").focus(), 60);
 }
@@ -954,7 +1031,7 @@ function openGate() {
   gateWord = MORE.words[gateIdx % MORE.words.length] || "";
   gateIdx++;
   showGateScreen(MORE.gate, heartsStr());
-  presentWord(gateWord, MORE.listen === "on");
+  presentWord(gateWord);
 }
 function closeGate() {
   hideGateScreen();
@@ -966,7 +1043,7 @@ function openStorm() {
   sfx.whoosh(0.3);
   gateWord = pickWord();
   showGateScreen("A STORM! WRITE TO BLOW IT AWAY!", heartsStr());
-  presentWord(gateWord, MORE.listen === "on");
+  presentWord(gateWord);
 }
 let bonusStage = "intro", rainbow = 0;
 function startBonus() {
@@ -976,16 +1053,16 @@ function startBonus() {
     burst(W * (0.15 + 0.175 * i), H * 0.15, ["#FFD166", "#F45B9C", "#5FA653", "#4EA8DE", "#E0483E"][i], 26, 7);
   // a breath before the round: she presses GO when she's ready
   showGateScreen("BONUS! REMEMBER YOUR WORDS!", "⭐ " + collected.length + " WORDS");
-  $("gateWordShow").textContent = "READY?";
+  setGateShow("READY?"); $("gateHint").classList.add("hidden");
   $("wordBox").style.display = "none"; $("sayButton").style.display = "none";
 }
 function bonusShow() {                    // the word appears, then hides — write it from memory
-  $("sayButton").style.display = "none";
-  $("gateWordShow").textContent = collected[bonusIdx];
+  $("sayButton").style.display = "none"; $("gateHint").classList.add("hidden");
+  setGateShow(collected[bonusIdx]);
   $("wordBox").style.display = "none";
   clearTimeout(bonusTimer);
   bonusTimer = setTimeout(() => {
-    $("gateWordShow").textContent = "? ? ?";
+    setGateShow("? ? ?");
     $("wordBox").style.display = ""; $("wordBox").value = ""; $("wordBox").focus();
     gateTries = 0;
   }, 2000);
@@ -994,8 +1071,8 @@ function askPassword() {
   state = "password";
   $("startScreen").classList.add("hidden");
   showGateScreen("PSSST... LAST TIME'S PASSWORD?", "🔑");
-  $("sayButton").style.display = "none";
-  $("gateWordShow").textContent = "? ? ?";
+  $("sayButton").style.display = "none"; $("gateHint").classList.add("hidden");
+  setGateShow("? ? ?");
   $("wordBox").style.display = ""; $("wordBox").value = ""; gateTries = 0;
   setTimeout(() => $("wordBox").focus(), 60);
 }
@@ -1029,7 +1106,9 @@ function tryGate() {
     gateTries++;
     $("wordBox").classList.add("wrong");
     setTimeout(() => { $("wordBox").classList.remove("wrong"); $("wordBox").select(); }, 320);
-    if (gateTries >= 2) $("gateWordShow").textContent = target;   // kindness: reveal it, she copies it
+    const pic = state !== "bonus" && MORE.listen === "picture" && pictureFor(target);
+    if (pic) $("gateHint").textContent = gateSkeleton(target, gateTries);   // the ladder climbs
+    else if (gateTries >= 2) setGateShow(target);   // kindness: reveal it, she copies it
   }
 }
 $("goButton").addEventListener("click", tryGate);
@@ -1078,6 +1157,56 @@ function reset() {
   clearTimeout(bonusTimer);
 }
 reset();
+
+// hit-stop chromatic aberration: the frozen frame splits into a red ghost and
+// a cyan ghost, re-added a few pixels apart, healing as the freeze thaws
+const abSnap = document.createElement("canvas"), abR = document.createElement("canvas"), abC = document.createElement("canvas");
+let abAmt = 0;
+function hitStop(n, amt) {
+  freeze = n; abAmt = MORE.fx === "on" ? amt : 0;
+  if (abAmt) {
+    abSnap.width = canvas.width; abSnap.height = canvas.height;
+    abSnap.getContext("2d").drawImage(canvas, 0, 0);
+  }
+}
+function aberrate(px) {
+  for (const [cv, tint] of [[abR, "#f00"], [abC, "#0ff"]]) {
+    cv.width = canvas.width; cv.height = canvas.height;
+    const g = cv.getContext("2d");
+    g.drawImage(abSnap, 0, 0);
+    g.globalCompositeOperation = "multiply";
+    g.fillStyle = tint; g.fillRect(0, 0, cv.width, cv.height);
+  }
+  pen.save(); pen.setTransform(1, 0, 0, 1, 0, 0);
+  pen.fillStyle = "#000"; pen.fillRect(0, 0, canvas.width, canvas.height);
+  pen.drawImage(abR, -px * dpr, 0);
+  pen.globalCompositeOperation = "lighter";
+  pen.drawImage(abC, px * dpr, 0);
+  pen.restore();
+}
+
+// palette-tinted bloom: squash the frame small, square it so only the bright
+// survives, tint it with the hour's color, add it back over everything
+const bloomA = document.createElement("canvas"), bloomB = document.createElement("canvas");
+function applyBloom(s) {
+  const bw = Math.max(2, W >> 2), bh = Math.max(2, H >> 2);
+  const sw = Math.max(2, W >> 4), sh = Math.max(2, H >> 4);
+  if (bloomA.width !== bw || bloomA.height !== bh) { bloomA.width = bw; bloomA.height = bh; }
+  if (bloomB.width !== sw || bloomB.height !== sh) { bloomB.width = sw; bloomB.height = sh; }
+  const ga = bloomA.getContext("2d"), gb = bloomB.getContext("2d");
+  ga.drawImage(canvas, 0, 0, bw, bh);
+  gb.globalCompositeOperation = "source-over";
+  gb.drawImage(bloomA, 0, 0, sw, sh);
+  gb.globalCompositeOperation = "multiply";
+  gb.drawImage(bloomB, 0, 0);
+  gb.fillStyle = rgb(mixc(s.low, [255, 255, 255], 0.45));
+  gb.fillRect(0, 0, sw, sh);
+  pen.save();
+  pen.globalCompositeOperation = "lighter";
+  pen.globalAlpha = 0.11 + 0.13 * (1 - s.light);
+  pen.drawImage(bloomB, 0, 0, W, H);
+  pen.restore(); pen.globalAlpha = 1;
+}
 
 function burst(x, y, color, n, spread = 5) {
   for (let i = 0; i < n; i++) particles.push({
@@ -1129,7 +1258,7 @@ $("againButton").addEventListener("click", () => {
 
 function die() {
   if (grace > 0) return;
-  burst(PLAYER_X(), playerY, "#fff", 30, 6); shake = 13; freeze = 4; passStreak = 0; sfx.crash();
+  burst(PLAYER_X(), playerY, "#fff", 30, 6); shake = 13; hitStop(4, 7); passStreak = 0; sfx.crash();
   if (MORE.mode === "level" && lives > 1 && MORE.words.length) { lives--; openGate(); }
   else { lives = 0; endGame(false); }
 }
@@ -1170,7 +1299,12 @@ function step() {
   frame++;
   const held = pressing || keyHeld;
 
-  if (freeze > 0) { freeze--; requestAnimationFrame(step); return; }   // hit-stop: the world blinks
+  if (freeze > 0) {                                        // hit-stop: the world blinks and splits
+    if (abAmt > 0) aberrate(abAmt * Math.min(freeze, 4) / 4);
+    freeze--;
+    if (freeze === 0) abAmt = 0;
+    requestAnimationFrame(step); return;
+  }
 
   if (state === "play") {
     scroll += GAME.speed;
@@ -1227,7 +1361,7 @@ function step() {
       if (!tk.got && Math.hypot(tk.x - PLAYER_X(), tk.y - playerY) < 46) {
         tk.got = true; score += 5; collected.push(tk.word);
         burst(tk.x, tk.y, "#FFD166", 18, 4);
-        scorePunch = 1.8; playerPunch = 1.35; freeze = 2; sfx.catch();
+        scorePunch = 1.8; playerPunch = 1.35; hitStop(2, 4); sfx.catch();
       }
     }
     tokens = tokens.filter(tk => tk.x > -160 && !tk.got);
@@ -1270,6 +1404,7 @@ function step() {
   drawClouds(s);
   updateFlyer(s);
   updateAmbient(s);
+  updateButterflies(s);
   let labeledWall = false;
   for (const wall of walls) {
     drawWall(wall, s);
@@ -1345,7 +1480,8 @@ function step() {
     }
   }
 
-  // the finishing washes: blurred foreground, split toning, film grain, vignette
+  // the finishing washes: bloom, blurred foreground, split toning, film grain, vignette
+  if (MORE.fx === "on") applyBloom(s);
   if (GAME.world === "garden" && fgStrip) pen.drawImage(fgStrip, 0, H - 96);   // out-of-focus blades
   pen.save(); pen.globalCompositeOperation = "overlay";    // warm highlights up top, cool shadows below
   const tg = pen.createLinearGradient(0, 0, 0, H);
