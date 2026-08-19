@@ -35,8 +35,13 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-BRAVO! A significant improvement! I just completed a level and it was great. Let's continue iterating:
+BRAVO! A significant improvement! I just completed a level and it was great. This is slowly turning into my imagined vision. Let's continue iterating:
 1. In v2 there was only one instance of every word - that was better than seeing the word "cloud" 7 times at any moment.
 2. Make the labels text bigger and make them move slower.
-3. The visuals: it seems like there are more layers and objects and effects, but the layers/objects/effects themselves are still "slop-quality". Is it a limitation of the HTML architerture, or can you use more compute to refine them and add detail?
-4. Regardless of the answer to the above question, you should send a few more agents to research RECENT (2026) games to grasp the state of today's frontier where AI-generated cod
+3. The visuals: it seems like there are more layers and objects and effects, but the layers/objects/effects themselves are still "slop-quality". Is it a limitation of the HTML architerture, or can you use more compute to refine them and add detail? The clouds, for example, are "kindergarden-drawing" level.
+4. Regardless of the answer to the above question, you should send a few more agents to research RECENT (2026) games to grasp the state of today's frontier where AI-generated code creates better visuals than entire human teams in 2023 (which is where your references came from). Browser-based games today can do 3D, physics, and much more than the simple solid/gradient colors we currently use, the basic hills+sky background, and the minimalist green lines that are supposed to represent grass.
+5. Is it possible to inject more randomness for variety and diversity's sake? Like alternating colors of obstacles, alternating speed and direction of clouds, etc.
+6. The label above the player character should be the text that describes the selected emoji, not "me!".
+7. Both soundtracks and all soundeffects sound nice. Maybe we can add more like when the player passes an obstacle, or when two things in the background interact? Which leads me to the next point:
+8. Maybe objects in the background can move and interact and make sounds? birds chirping, planes beeping, etc.
+9. Regarding the menu you suggested: I think a+b+c+e would be excellent additions right now, with d being a great feature for the future or the next game or something. I'm not sure d fits in right now because I think it's too much to ask from a player to both maintain the emoji from crashing and also typing at the same time.
