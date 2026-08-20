@@ -1,7 +1,10 @@
 # type: lesson-tool | created: 2026-08-19 | author: jep | project: tutoring
-# Regenerates tutoring-game-K.html and tutoring-game-D.html from tutoring-game-lab.html,
-# swapping only the GAME/MORE config blocks (per-girl session-loaded defaults).
+# Refreshes tutoring-game-K.html and tutoring-game-D.html with the engine from
+# tutoring-game-lab.html. Each girl's existing GAME/MORE blocks and <title> are
+# PRESERVED from her current file — her customizations survive every engine update.
+# The embedded blocks below are first-run seeds, used only if her file doesn't exist.
 # Run: python3 ~/vault/projects/tutoring-game-copies.py
+import os
 import re
 
 master = open("/home/jep/vault/projects/tutoring-game-lab.html").read()
@@ -72,13 +75,26 @@ D_MORE = '''const MORE = {
 
 game_re = re.compile(r"const GAME = \{.*?\};", re.S)
 more_re = re.compile(r"const MORE = \{.*?\};", re.S)
+title_re = re.compile(r"<title>.*?</title>", re.S)
 
-for initial, g, m in (("K", K_GAME, K_MORE), ("D", D_GAME, D_MORE)):
+for initial, seed_g, seed_m in (("K", K_GAME, K_MORE), ("D", D_GAME, D_MORE)):
+    path = f"/home/jep/vault/projects/tutoring-game-{initial}.html"
+    g, m, title, source = seed_g, seed_m, f"<title>GAME LAB {initial}</title>", "seed defaults"
+    if os.path.exists(path):
+        current = open(path).read()
+        got_g, got_m, got_t = game_re.search(current), more_re.search(current), title_re.search(current)
+        if got_g and got_m:
+            g, m, source = got_g.group(0), got_m.group(0), "her current file"
+            if got_t:
+                title = got_t.group(0)
+        else:
+            print(f"WARNING: {path} exists but its GAME/MORE blocks are unreadable — NOT touching it.")
+            print("         Fix the blocks by hand (a missing }; usually) and rerun.")
+            continue
     out = game_re.sub(lambda _: g, master, count=1)
     out = more_re.sub(lambda _: m, out, count=1)
-    out = out.replace("<title>GAME LAB</title>", f"<title>GAME LAB {initial}</title>")
+    out = title_re.sub(lambda _: title, out, count=1)
     out = out.replace("Session-4 candidate: a zigzag sky game the girls remake",
-                      f"{initial}'s copy, defaults loaded from her sessions. A zigzag sky game she remakes")
-    path = f"/home/jep/vault/projects/tutoring-game-{initial}.html"
+                      f"{initial}'s copy. A zigzag sky game she remakes")
     open(path, "w").write(out)
-    print(path, len(out), "bytes")
+    print(f"{path}  {len(out)} bytes  (config kept from {source})")

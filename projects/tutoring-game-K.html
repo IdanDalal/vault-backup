@@ -1,10 +1,16 @@
 <!-- type: lesson-tool | created: 2026-08-18 | author: jep | project: tutoring
-     K's copy, defaults loaded from her sessions. A zigzag sky game she remakes by editing the
+     K's copy. A zigzag sky game she remakes by editing the
      CHANGE ME blocks. One file, no internet, runs in any browser (phone too). -->
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover">
 <title>GAME LAB K</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { height: 100%; overflow: hidden; background: #000; }
+  html, body {
+    height: 100%; overflow: hidden; background: #000;
+    touch-action: none; overscroll-behavior: none; -webkit-tap-highlight-color: transparent;
+  }
   canvas { display: block; }
   .screen {
     position: fixed; inset: 0; display: flex; flex-direction: column;
@@ -156,7 +162,7 @@ const pen = canvas.getContext("2d");
 const $ = id => document.getElementById(id);
 let W, H, dpr;
 function fitScreen() {
-  dpr = window.devicePixelRatio || 1;
+  dpr = Math.min(window.devicePixelRatio || 1, 2);   // phones report 3-4; drawing that many pixels melts them
   W = window.innerWidth; H = window.innerHeight;
   canvas.width = W * dpr; canvas.height = H * dpr;
   canvas.style.width = W + "px"; canvas.style.height = H + "px";
@@ -1478,8 +1484,16 @@ function label(text, ax, ay, seed, rx = 36, ry = 15) {
 }
 
 // ---------------- [LOOP] one frame ----------------
+// a phone that can't hold ~36fps loses the fancy effects automatically (this run only — nothing is saved)
+let perfPrev = 0, perfSlow = 0, fxDropped = false;
 function step() {
   frame++;
+  const perfNow = performance.now();
+  if (perfPrev && state === "play" && !fxDropped) {
+    perfSlow += (perfNow - perfPrev > 28) ? 1 : (perfSlow > 0 ? -1 : 0);
+    if (perfSlow > 40) { fxDropped = true; MORE.fx = "off"; }
+  }
+  perfPrev = perfNow;
   const held = pressing || keyHeld;
 
   if (freeze > 0) {                                        // hit-stop: the world blinks and splits

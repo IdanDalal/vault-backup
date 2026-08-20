@@ -35,4 +35,10 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-Lesson #4 with K & D was GREAT! The game was a huge success, with some expected hits and misses. Let's start with you sending agents to see the two huge (~20MB) photos and read the huge (430KB, ~7,000 lines) transcription in /tutoring-data/drop/. Also, check the current state of the two game files the girls and I edited slightly. While you're catching up, I'll be writing my next prompt, detailing focus points, decisions, ideas, and plans.
+Wonderful! Let's get to work:
+1. I turned the "password" setting to "off" in both files and sent them to the mom. When I tried to play the games on my phone it looked and ran terrible: emojis are displayed as gibberish characters and the speed/framerate (fps, not the speed setting) is excruciatingly slow. If it only happens on my phone, no big deal, but if it's the same on theirs, that means they'll be coming back with complaints and disappointment, rather than stories and high scores.
+2. Update tutoring-game-copies.py to preserve existing per-student blocks and swap only engine code.
+3. Let's take the middle path. I agree that first-name-in-a-game-title severity is low.
+4. Where should we draw the words from? maybe the two identical recordings the mom sent me? Maybe the most frequent words we said in Hebrew throughout all 4 lessons? Regardless, all the v9 fixes you suggested are exactly on point. Local same-keyboard co-op will be the next conversation's focus.
+5. Solid plan for session #5, but it might change over the next few days.
+6. process the tutoring data for both this lesson and the undistilled session 1.
