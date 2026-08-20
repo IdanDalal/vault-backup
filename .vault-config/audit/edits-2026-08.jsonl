@@ -272,3 +272,4 @@
 {"ts":"2026-08-19T15:40:25Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"803e9f10-aa40-4bca-b614-de14f8445abb"}
 {"ts":"2026-08-19T15:41:32Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"803e9f10-aa40-4bca-b614-de14f8445abb"}
 {"ts":"2026-08-19T15:44:59Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/game-lab-project.md","decision":"allow","reason":"not-denied","session":"803e9f10-aa40-4bca-b614-de14f8445abb"}
+{"ts":"2026-08-20T06:03:31Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-20.md","decision":"allow","reason":"not-denied","session":"8b631e02-97f7-43c0-9f7e-42784a8b8f30"}
