@@ -105,8 +105,12 @@ Session-2 baseline: 73–74% tutor share of words; "נכון" ×62–72 (~30 as 
 5. "Recasts don't work" — **overstated for 1-on-1**: dyadic recasts are salient and effective; they're the fallback, not the ban.
 6. "Kids will prefer what works" — **no**: expect them to *report* loving the choice moments while the structured loops do the teaching. Don't let self-report redesign the lesson alone.
 
+7. "Talk share falls through sentence-level technique" — session 4 falsified the sufficiency claim: two sessions of technique left the share at 72–75%; one role change (co-player inside a game the kids own) dropped it to 46%. Technique moved the counts (נכון ~20/hr), the role moved the ratio. Caveat: the freed airtime became Hebrew game-commanding; converting it to English production is its own job.
+8. "Kids will resist the learning mechanic" — D requested level mode (typing gates) for her home copy, unprompted. What they push back on is difficulty framing. Negotiate difficulty; keep the mechanic.
+9. "Pacing can be managed in the moment" — six hand-pain signals in session 4 produced zero breaks, with the tutor noticing on tape twice. Pacing rules must live in the tool (forced micro-break in-game), like the נכון fix lived in a game.
+
 ## Open questions
 
-- Mother's motive for mandating 1-on-1 (also externally settles together-vs-separate).
-- Which sister is 9 vs 12 — session 2 consistent with D older, K younger; unconfirmed.
-- K's board-erasing impulse (closure habit? error-hiding? indifference?) — watch next session.
+- ~~Mother's motive for mandating 1-on-1~~, ~~which sister is 9 vs 12~~, ~~K's erasing impulse~~ — all three resolved 2026-08-16 (K=9, D=12; erasing = harmless closure habit). New wrinkle 2026-08-20: session 4 ran both girls together for 2h42m and blew past the shift window; whether the 1-on-1 mandate still stands needs an explicit check with mom.
+- Read-aloud clip attribution (slow=K, fast=D presumed) — unconfirmed.
+- Home play (post session 4): does it actually happen, and does D's level-mode copy generate typed-word evidence by Mon 2026-08-25?

@@ -160,9 +160,9 @@ function pictureFor(word) {
 const canvas = document.getElementById("skyCanvas");
 const pen = canvas.getContext("2d");
 const $ = id => document.getElementById(id);
-let W, H, dpr;
+let W, H, dpr, dprCap = 2;
 function fitScreen() {
-  dpr = Math.min(window.devicePixelRatio || 1, 2);   // phones report 3-4; drawing that many pixels melts them
+  dpr = Math.min(window.devicePixelRatio || 1, dprCap);   // phones report 3-4; drawing that many pixels melts them
   W = window.innerWidth; H = window.innerHeight;
   canvas.width = W * dpr; canvas.height = H * dpr;
   canvas.style.width = W + "px"; canvas.style.height = H + "px";
@@ -1491,7 +1491,7 @@ function step() {
   const perfNow = performance.now();
   if (perfPrev && state === "play" && !fxDropped) {
     perfSlow += (perfNow - perfPrev > 28) ? 1 : (perfSlow > 0 ? -1 : 0);
-    if (perfSlow > 40) { fxDropped = true; MORE.fx = "off"; }
+    if (perfSlow > 40) { fxDropped = true; MORE.fx = "off"; dprCap = 1; fitScreen(); }
   }
   perfPrev = perfNow;
   const held = pressing || keyHeld;
