@@ -1,8 +1,10 @@
 # type: lesson-tool | created: 2026-08-19 | author: jep | project: tutoring
-# Refreshes tutoring-game-K.html and tutoring-game-D.html with the engine from
+# Refreshes ~/tutoring-data/games/tutoring-game-{K,D}.html with the engine from
 # tutoring-game-lab.html. Each girl's existing GAME/MORE blocks and <title> are
 # PRESERVED from her current file — her customizations survive every engine update.
 # The embedded blocks below are first-run seeds, used only if her file doesn't exist.
+# Per-student copies live OUTSIDE the vault (untracked, initials-only rule);
+# WhatsApp-ready name-titled copies: python3 ~/tutoring-data/tools/make_send_copies.py
 # Run: python3 ~/vault/projects/tutoring-game-copies.py
 import os
 import re
@@ -78,7 +80,7 @@ more_re = re.compile(r"const MORE = \{.*?\};", re.S)
 title_re = re.compile(r"<title>.*?</title>", re.S)
 
 for initial, seed_g, seed_m in (("K", K_GAME, K_MORE), ("D", D_GAME, D_MORE)):
-    path = f"/home/jep/vault/projects/tutoring-game-{initial}.html"
+    path = f"/home/jep/tutoring-data/games/tutoring-game-{initial}.html"
     g, m, title, source = seed_g, seed_m, f"<title>GAME LAB {initial}</title>", "seed defaults"
     if os.path.exists(path):
         current = open(path).read()
