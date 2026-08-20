@@ -35,4 +35,4 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-Lesson #4 with the girls was GREAT! The game was a huge success, with some expected hits and misses.
+Lesson #4 with K & D was GREAT! The game was a huge success, with some expected hits and misses. Let's start with you sending agents to see the two huge (~20MB) photos and read the huge (430KB, ~7,000 lines) transcription in /tutoring-data/drop/. Also, check the current state of the two game files the girls and I edited slightly. While you're catching up, I'll be writing my next prompt, detailing focus points, decisions, ideas, and plans.
