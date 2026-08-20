@@ -1,7 +1,7 @@
 <!-- type: lesson-tool | created: 2026-08-18 | author: jep | project: tutoring
-     D's copy, defaults loaded from her sessions. A zigzag sky game she remakes by editing the
+     K's copy, defaults loaded from her sessions. A zigzag sky game she remakes by editing the
      CHANGE ME blocks. One file, no internet, runs in any browser (phone too). -->
-<title>GAME LAB D</title>
+<title>GAME LAB K</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { height: 100%; overflow: hidden; background: #000; }
@@ -79,40 +79,40 @@
 
 <script>
 // ==================================================
-//    ⭐ CHANGE ME! change a word, save, refresh ⭐
+//   ⭐ CHANGE ME! change a word, save, refresh ⭐
 // ==================================================
 const GAME = {
-  name:   "Super game of❤️‍🔥❤️‍🔥 d😚",      // give it a name!
-  player: "🦩💗",               // any emoji you like
-  world:  "candy",            // garden · city · candy
-  sky:    "pink",            // magic = one whole day, sunrise to sunrise! or one color: pink, black, gold...
+  name:   "K'S SKY GARDEN",   // give it a name!
+  player: "🦋",               // any emoji you like
+  world:  "city",           // garden · city · candy
+  sky:    "magic",            // magic = one whole day, sunrise to sunrise! or one color: pink, black, gold...
   move:   "zigzag",           // zigzag = hold to go up! · float = tap tap tap!
-  speed:  5.5,                // how fast?
-  hole:   180,                // big hole = relaxed, small hole = tricky
-  trail:  "purple",          // the line you draw in the sky
-  floor:  "ocean",            // auto · grass · ocean · road · candy
+  speed:  5.6,                // how fast?
+  hole:   190,                // big hole = relaxed, small hole = tricky
+  trail:  "red",              // the line you draw in the sky
+  floor:  "ocean",             // auto · grass · ocean · road · candy
 };
 // ==================================================
 //   🌶️ MORE TO CHANGE (when you are ready)
 // ==================================================
 const MORE = {
-  mode:   "level",            // level = finish one day, with hearts · free = play forever
-  level:  20,                 // how long is the day?
-  lives:  3,                  // how many hearts?
+  mode:   "free",            // level = finish one day, with hearts · free = play forever
+  level:  15,                 // how long is the day?
+  lives:  4,                  // how many hearts?
   jump:   9,                  // float mode: how strong is one tap?
-  words:  ["AGAIN", "WRONG", "WAIT", "TOGETHER", "BOUNCY", "SOFT"],   // your words fly in the sky — catch them!
+  words:  ["FLOUR", "FLOWER", "OLIVE", "OIL", "RIGHT", "WAIT"],   // your words fly in the sky — catch them!
   labels: "on",               // on = everything tells you its English name · off = quiet sky
   sound:  "on",               // on · off — blips and chimes
-  music:  "calm",            // calm · party · offx 
+  music:  "party",             // calm · party · off
   listen: "picture",          // picture = a picture shows the word, write its name · on = it SAYS it · off = it shows the word
   storm:  "on",               // on = a word storm hits in the middle of the day
-  password: "on",             // on = finishing a day sets a password for next time
+  password: "off",             // on = finishing a day sets a password for next time
   fx:     "on",               // on = butterflies + magic glow · off = plain (if the phone is slow)
-  start:  "READY? HOLD TO FLY",
-  win:    "YOU DID IT! DANCE!",
-  lose:   "OH NO... WRONG!",
-  again:  "DANCE AGAIN",
-  gate:   "WRITE IT TO FLY AGAIN",
+  start:  "WAIT... HOLD TO FLY",
+  win:    "WELL DONE!",
+  lose:   "CAUGHT YOU!",
+  again:  "ONE MORE",
+  gate:   "WRITE IT!",
 };
 // ==================================================
 //   📖 THE WORD BOOK — what each emoji is called.
