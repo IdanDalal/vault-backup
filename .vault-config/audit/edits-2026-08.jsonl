@@ -313,3 +313,4 @@
 {"ts":"2026-08-21T09:51:42Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/allocation.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
 {"ts":"2026-08-21T09:54:00Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/30ba2b07-114a-4c5a-9967-6ffffa33301d/scratchpad/probe_dash.mjs","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
 {"ts":"2026-08-21T09:54:30Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/cash-portfolio-project.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T10:27:32Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/20_Aug_at_8-50.DISTILLED.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
