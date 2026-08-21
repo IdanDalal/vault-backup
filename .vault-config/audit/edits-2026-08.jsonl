@@ -345,3 +345,7 @@
 {"ts":"2026-08-21T13:23:06Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/895a89d7-7311-4c14-bd32-3aa1db547b88/scratchpad/gravecrawl/play5.mjs","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
 {"ts":"2026-08-21T13:36:26Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-brief.md","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
 {"ts":"2026-08-21T13:36:55Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-collab-research.md","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
+{"ts":"2026-08-21T14:48:43Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-verbs.md","decision":"allow","reason":"not-denied","session":"4b8621e6-99d4-4098-9963-7a52291b9db6"}
+{"ts":"2026-08-21T14:48:48Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-brief.md","decision":"allow","reason":"not-denied","session":"4b8621e6-99d4-4098-9963-7a52291b9db6"}
+{"ts":"2026-08-21T14:48:56Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-game-3d-project.md","decision":"allow","reason":"not-denied","session":"4b8621e6-99d4-4098-9963-7a52291b9db6"}
+{"ts":"2026-08-21T14:49:01Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"4b8621e6-99d4-4098-9963-7a52291b9db6"}

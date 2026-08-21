@@ -35,10 +35,8 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-Option A is approved. Here are the items you listed:
-1. Not a great start...I don't understand what you mean. Is it the "X" number I mentioned? aka the total amount of money that represents our 100%? aka the amount currently in Google? If so, right now the answer is 18,736.85$.
-2. I bought 55 shares of Google for 334.87$ on 29/01/26.
-3. 40,000 NIS.
-4. I have a bank account in "ONE ZERO" - an Israeli digital bank/app that allows em to click buttons on my phone and trade on the NASDAQ without even understanding why I need a broker.
-5. I have no idea what any of that means.
-6. So far the only transaction was the one I detailed above in #2.
+Excellent results! My decisions:
+1. As soon as I started reading your analysis of the 2-second variant of the word catching I realized I was wrong. Your examples (missing letters, unscrable, etc.) are much better, and we should absolutely keep the no-timers rule.
+2. Full "sentences-spawn-objects" magic sounds PERFECT!
+3. It's Friday night now. We're gonna be building Saturday and Sunday. I'm gonna continue prompting you sparsely throughout the day unless you think we're gonna need to push our 5-hour limits or do a "/goal"-type thing because this is an ambitious project. Either way, I want the game read
+4. 

@@ -8,6 +8,8 @@ status: todo
 
 # 3D Game Brief ("the Roblox/Minecraft answer") — start in a fresh conversation
 
+Design layer: verb thesis v2 + full mechanics research digest now in [[tutoring-game-3d-verbs]] (2026-08-21; Customize/Collect/Combine/Create, catch ritual, word economy, co-op, build-scope ladder).
+
 Goal: a 3D blocky world for K & D, same delivery constraints as GAME LAB: ONE self-contained HTML file, opens from file:// (WhatsApp → phone Chrome + old Linux laptop), zero network/assets, kid-editable CHANGE ME block, touch + keyboard, English mechanics woven in. Real networked multiplayer is out of scope, permanently.
 
 ## Verdict from the 2026-08-21 feasibility research
