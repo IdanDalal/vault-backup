@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 0
-last_price: 0
+last_price: 163.08
 conviction: "HBM leader (~63%); US-listed July 2026 \u2014 the timing thesis in one ticker"
 cut_reason: ""
 reentry_trigger: ""

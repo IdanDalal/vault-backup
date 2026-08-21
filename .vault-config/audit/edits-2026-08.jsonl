@@ -297,3 +297,19 @@
 {"ts":"2026-08-20T16:10:48Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
 {"ts":"2026-08-20T16:11:16Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/10_Aug_at_9-10.DISTILLED.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
 {"ts":"2026-08-21T06:02:11Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-21.md","decision":"allow","reason":"not-denied","session":"af06e673-256e-4cf5-9abc-7cf4a1cc8907"}
+{"ts":"2026-08-21T09:46:38Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/30ba2b07-114a-4c5a-9967-6ffffa33301d/scratchpad/fetch_prices.py","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:47:16Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/30ba2b07-114a-4c5a-9967-6ffffa33301d/scratchpad/fetch_prices.py","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:12Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/Idi.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:13Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/Mom.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:16Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/Mom.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:17Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/Money.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:18Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/companies/GOOGL.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:21Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/companies/GOOGL.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:25Z","tool":"Write","path":"/home/jep/vault/projects/Cash/transactions/2026-01-29 buy GOOGL.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:49:58Z","tool":"Write","path":"/home/jep/vault/projects/Cash/dashboard/update_prices.py","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:50:47Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/30ba2b07-114a-4c5a-9967-6ffffa33301d/scratchpad/transition_math.py","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:51:30Z","tool":"Write","path":"/home/jep/vault/projects/Cash/transition.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:51:34Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/Cash Hub.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:51:42Z","tool":"Edit","path":"/home/jep/vault/projects/Cash/allocation.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:54:00Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/30ba2b07-114a-4c5a-9967-6ffffa33301d/scratchpad/probe_dash.mjs","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
+{"ts":"2026-08-21T09:54:30Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/cash-portfolio-project.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}

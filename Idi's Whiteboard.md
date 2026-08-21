@@ -35,10 +35,10 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-Wonderful! Let's get to work:
-1. I turned the "password" setting to "off" in both files and sent them to the mom. When I tried to play the games on my phone it looked and ran terrible: emojis are displayed as gibberish characters and the speed/framerate (fps, not the speed setting) is excruciatingly slow. If it only happens on my phone, no big deal, but if it's the same on theirs, that means they'll be coming back with complaints and disappointment, rather than stories and high scores.
-2. Update tutoring-game-copies.py to preserve existing per-student blocks and swap only engine code.
-3. Let's take the middle path. I agree that first-name-in-a-game-title severity is low.
-4. Where should we draw the words from? maybe the two identical recordings the mom sent me? Maybe the most frequent words we said in Hebrew throughout all 4 lessons? Regardless, all the v9 fixes you suggested are exactly on point. Local same-keyboard co-op will be the next conversation's focus.
-5. Solid plan for session #5, but it might change over the next few days.
-6. process the tutoring data for both this lesson and the undistilled session 1.
+Option A is approved. Here are the items you listed:
+1. Not a great start...I don't understand what you mean. Is it the "X" number I mentioned? aka the total amount of money that represents our 100%? aka the amount currently in Google? If so, right now the answer is 18,736.85$.
+2. I bought 55 shares of Google for 334.87$ on 29/01/26.
+3. 40,000 NIS.
+4. I have a bank account in "ONE ZERO" - an Israeli digital bank/app that allows em to click buttons on my phone and trade on the NASDAQ without even understanding why I need a broker.
+5. I have no idea what any of that means.
+6. So far the only transaction was the one I detailed above in #2.

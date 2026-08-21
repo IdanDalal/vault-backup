@@ -30,9 +30,10 @@ Six casualties kept warm, each with a re-entry trigger — when its news matches
 
 ## Standing next steps
 
-- [ ] Set `total_usd` in [[Idi]] and [[Mom]]
+- [x] Set `total_usd` in [[Idi]] and [[Mom]] *(2026-08-21 — Mom's is provisional until her ₪→$ conversion)*
+- [ ] Execute [[transition]] — the sell/buy worksheet at live prices (checklist inside)
 - [ ] Log the first FX conversion in [[Money]]
-- [ ] As purchases happen: update `shares` / `last_price` in company notes, log buys in the ledger
+- [ ] As purchases happen: update `shares` in company notes, log buys in the ledger; `python3 dashboard/update_prices.py` refreshes every `last_price` + drift automatically
 - [ ] **~Sep 2026:** Anthropic IPO war-room conversation (convert GOOGL −2, AMZN −2)
 - [ ] **When OpenAI's S-1 goes public:** OpenAI war-room conversation (convert MSFT −3)
 - [ ] Rebuild + resend Mom's dashboard after any change

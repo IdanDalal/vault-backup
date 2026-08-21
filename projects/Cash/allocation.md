@@ -70,3 +70,4 @@ Eliminated with reasons, in case conditions change:
 ## Decision log
 
 - **2026-07-24** — Allocation locked after research + bracket tournament (this conversation). Entry context: SPCX at ~$123 (below $135 IPO), SKHY listed two weeks prior, memory supercycle running, Anthropic IPO ~3 months out.
+- **2026-08-21** — Real numbers entered: Idi $18,736.85 (55 GOOGL @ $334.87 from 2026-01-29), Mom ₪40,000 (~$13,390 provisional). Live prices wired in (`dashboard/update_prices.py`), first ledger entry logged, [[transition]] worksheet built. Broker: ONE ZERO (fractional shares, per Ynet — pending in-app confirmation).
