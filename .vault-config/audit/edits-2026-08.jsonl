@@ -329,3 +329,4 @@
 {"ts":"2026-08-21T10:39:58Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-brief.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
 {"ts":"2026-08-21T10:40:15Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/game-lab-project.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
 {"ts":"2026-08-21T12:29:21Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/895a89d7-7311-4c14-bd32-3aa1db547b88/scratchpad/anubis_solve.py","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
+{"ts":"2026-08-21T12:34:25Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-collab-research.md","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
