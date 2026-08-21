@@ -343,3 +343,5 @@
 {"ts":"2026-08-21T13:17:53Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/895a89d7-7311-4c14-bd32-3aa1db547b88/scratchpad/gravecrawl/play3.mjs","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
 {"ts":"2026-08-21T13:20:30Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/895a89d7-7311-4c14-bd32-3aa1db547b88/scratchpad/gravecrawl/play4.mjs","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
 {"ts":"2026-08-21T13:23:06Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/895a89d7-7311-4c14-bd32-3aa1db547b88/scratchpad/gravecrawl/play5.mjs","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
+{"ts":"2026-08-21T13:36:26Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-brief.md","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
+{"ts":"2026-08-21T13:36:55Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-collab-research.md","decision":"allow","reason":"not-denied","session":"895a89d7-7311-4c14-bd32-3aa1db547b88"}
