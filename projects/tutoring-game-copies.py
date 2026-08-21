@@ -20,7 +20,7 @@ K_GAME = '''const GAME = {
   speed:  3.5,                // how fast?
   hole:   190,                // big hole = relaxed, small hole = tricky
   trail:  "red",              // the line you draw in the sky
-  floor:  "auto",             // auto · grass · ocean · road · candy
+  floor:  "auto",             // auto · grass · ocean · road · candy · icecream
 };'''
 
 K_MORE = '''const MORE = {
@@ -52,7 +52,7 @@ D_GAME = '''const GAME = {
   speed:  4.5,                // how fast?
   hole:   165,                // big hole = relaxed, small hole = tricky
   trail:  "hotpink",          // the line you draw in the sky
-  floor:  "auto",             // auto · grass · ocean · road · candy
+  floor:  "auto",             // auto · grass · ocean · road · candy · icecream
 };'''
 
 D_MORE = '''const MORE = {

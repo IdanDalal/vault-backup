@@ -314,3 +314,17 @@
 {"ts":"2026-08-21T09:54:00Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/30ba2b07-114a-4c5a-9967-6ffffa33301d/scratchpad/probe_dash.mjs","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
 {"ts":"2026-08-21T09:54:30Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/cash-portfolio-project.md","decision":"allow","reason":"not-denied","session":"30ba2b07-114a-4c5a-9967-6ffffa33301d"}
 {"ts":"2026-08-21T10:27:32Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/20_Aug_at_8-50.DISTILLED.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:34:56Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:35:03Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:35:20Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:35:50Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:36:25Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:36:36Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:36:38Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:36:44Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:36:47Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:37:03Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:37:11Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-lab.html","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:37:48Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/296e4d04-61eb-47e6-a3e8-f05be187e524/scratchpad/probe/storm-probe.mjs","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:39:58Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-brief.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T10:40:15Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/game-lab-project.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}

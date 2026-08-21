@@ -91,7 +91,7 @@ const GAME = {
   name:   "IDI'S GAME",       // give it a name!
   player: "🛩️",               // any emoji you like
   world:  "city",           // garden · city · candy
-  floor:  "ocean",             // auto · grass · ocean · road · candy
+  floor:  "ocean",             // auto · grass · ocean · road · candy · icecream
   sky:    "magic",            // magic = one whole day, sunrise to sunrise! or one color: pink, black, gold...
   move:   "zigzag",           // zigzag = hold to go up! · float = tap tap tap!
   speed:  7,                  // how fast?
@@ -189,6 +189,9 @@ let frame = 0, scroll = 0, skyT = 0, grace = 0, shake = 0, freeze = 0, gust = 0,
 let won = false, pressing = false, keyHeld = false, scorePunch = 1, playerPunch = 1, passStreak = 0;
 let gateTries = 0, spokenGate = false, stormDone = false, stormLeft = 0;
 let bonusIdx = 0, bonusEarned = 0, bonusTimer = null, celebrated = false;
+// storm state: one intensity dial (stormS) that every tempest effect reads
+let stormS = 0, stormPend = 0, stormWind = 0, windT = 0, sunBack = 0, twistX = 0;
+let rainDrops = [], splashes = [], boltPts = null, boltLife = 0, boltFlash = 0, sheetFlash = 0, nextBolt = 240;
 let best = 0;
 try { best = Number(localStorage.getItem("gl-best-" + GAME.name) || 0); } catch (e) {}
 
@@ -252,14 +255,23 @@ function makeFg() {
 makeFg();
 
 // ---------------- [SOUND] ----------------
-let AC = null, sfxBus, musBus, noiseBuf, echo;
+let AC = null, sfxBus, musBus, scBus, noiseBuf, echo;
 function audioUp() {                       // built on the first tap — browsers require a human gesture
   if (AC || MORE.sound === "off" && MORE.music === "off") return;
   try {
     AC = new (window.AudioContext || window.webkitAudioContext)();
-    const master = AC.createGain(); master.gain.value = 0.5; master.connect(AC.destination);
+    // two-stage master: a gentle glue compressor into a hard limiter — loud without clipping
+    const glue = AC.createDynamicsCompressor();
+    glue.threshold.value = -24; glue.knee.value = 30; glue.ratio.value = 4;
+    glue.attack.value = 0.01; glue.release.value = 0.25;
+    const limiter = AC.createDynamicsCompressor();
+    limiter.threshold.value = -6; limiter.knee.value = 0; limiter.ratio.value = 20;
+    limiter.attack.value = 0.001; limiter.release.value = 0.1;
+    glue.connect(limiter); limiter.connect(AC.destination);
+    const master = AC.createGain(); master.gain.value = 0.7; master.connect(glue);
     sfxBus = AC.createGain(); sfxBus.gain.value = 0.4; sfxBus.connect(master);
     musBus = AC.createGain(); musBus.gain.value = 0.17; musBus.connect(master);
+    scBus = AC.createGain(); scBus.gain.value = 1; scBus.connect(musBus);   // melodic bus the kick ducks
     echo = AC.createDelay(1); echo.delayTime.value = 0.34;
     const fb = AC.createGain(); fb.gain.value = 0.34;
     echo.connect(fb); fb.connect(echo); echo.connect(musBus);
@@ -341,6 +353,26 @@ const sfx = {
       s.connect(f); f.connect(g); g.connect(sfxBus); s.start(t); s.stop(t + 1.25);
     } catch (e) {}
   },
+  thunder:(delay = 0.8) => {               // a crack, then the rumble rolls away downhill
+    if (!AC || MORE.sound === "off") return;
+    try {
+      const t = AC.currentTime + delay;
+      const c = AC.createBufferSource(), cf = AC.createBiquadFilter(), cg = AC.createGain();
+      c.buffer = noiseBuf; cf.type = "highpass"; cf.frequency.value = 1200;
+      cg.gain.setValueAtTime(0.6, t); cg.gain.exponentialRampToValueAtTime(0.001, t + 0.07);
+      c.connect(cf); cf.connect(cg); cg.connect(sfxBus); c.start(t); c.stop(t + 0.1);
+      const r = AC.createBufferSource(), rf = AC.createBiquadFilter(), rg = AC.createGain();
+      r.buffer = noiseBuf; r.loop = true; rf.type = "lowpass";
+      rf.frequency.setValueAtTime(400, t); rf.frequency.exponentialRampToValueAtTime(65, t + 3);
+      rg.gain.setValueAtTime(0.001, t); rg.gain.linearRampToValueAtTime(0.8, t + 0.06);
+      rg.gain.linearRampToValueAtTime(0.4, t + 0.8); rg.gain.linearRampToValueAtTime(0.6, t + 1.3);
+      rg.gain.exponentialRampToValueAtTime(0.001, t + 3.6);
+      r.connect(rf); rf.connect(rg); rg.connect(sfxBus); r.start(t); r.stop(t + 3.7);
+    } catch (e) {}
+  },
+  sunChime:() => [523, 659, 784, 1047].forEach((f, i) => {   // the sun comes back
+    tone(f, 1.2, "triangle", 0.3, 0, i * 0.09); tone(f * 3, 0.4, "sine", 0.07, 0, i * 0.09);
+  }),
 };
 // generative music: a lookahead scheduler so notes never drift or stutter
 let nextNote = 0, stepN = 0;
@@ -350,27 +382,74 @@ function mnote(freq, dur, type, vol, at, useEcho) {
     const o = AC.createOscillator(), g = AC.createGain();
     o.type = type; o.frequency.value = freq;
     g.gain.setValueAtTime(vol, at); g.gain.exponentialRampToValueAtTime(0.001, at + dur);
-    o.connect(g); g.connect(useEcho ? echo : musBus); o.start(at); o.stop(at + dur + 0.05);
+    o.connect(g); g.connect(useEcho ? echo : scBus); o.start(at); o.stop(at + dur + 0.05);
   } catch (e) {}
 }
+// the party drum kit — every hit is oscillators and noise, nothing sampled
+function kick(t) {
+  try {
+    const o = AC.createOscillator(), g = AC.createGain();
+    o.type = "sine";
+    o.frequency.setValueAtTime(160, t); o.frequency.exponentialRampToValueAtTime(50, t + 0.045);
+    g.gain.setValueAtTime(1, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
+    o.connect(g); g.connect(musBus); o.start(t); o.stop(t + 0.32);
+    const s = AC.createBufferSource(), f = AC.createBiquadFilter(), cg = AC.createGain();
+    s.buffer = noiseBuf; f.type = "highpass"; f.frequency.value = 4000;   // the click that survives phone speakers
+    cg.gain.setValueAtTime(0.35, t); cg.gain.exponentialRampToValueAtTime(0.001, t + 0.006);
+    s.connect(f); f.connect(cg); cg.connect(musBus); s.start(t); s.stop(t + 0.01);
+    const d = scBus.gain;                                   // sidechain pump: everything melodic ducks
+    d.cancelScheduledValues(t); d.setValueAtTime(1, t);
+    d.linearRampToValueAtTime(0.2, t + 0.015); d.setTargetAtTime(1, t + 0.03, 0.09);
+  } catch (e) {}
+}
+function clap(t) {
+  try {
+    const s = AC.createBufferSource(), f = AC.createBiquadFilter(), g = AC.createGain();
+    s.buffer = noiseBuf; f.type = "bandpass"; f.frequency.value = 1400; f.Q.value = 1.6;
+    g.gain.setValueAtTime(0.7, t); g.gain.linearRampToValueAtTime(0.1, t + 0.008);
+    g.gain.setValueAtTime(0.7, t + 0.01); g.gain.linearRampToValueAtTime(0.15, t + 0.018);
+    g.gain.setValueAtTime(0.8, t + 0.02); g.gain.exponentialRampToValueAtTime(0.001, t + 0.16);
+    s.connect(f); f.connect(g); g.connect(musBus); s.start(t); s.stop(t + 0.18);
+  } catch (e) {}
+}
+function hat(t, vol, dec) {
+  try {
+    const s = AC.createBufferSource(), f = AC.createBiquadFilter(), g = AC.createGain();
+    s.buffer = noiseBuf; f.type = "highpass"; f.frequency.value = 7500;
+    g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.001, t + dec);
+    s.connect(f); f.connect(g); g.connect(musBus); s.start(t); s.stop(t + dec + 0.02);
+  } catch (e) {}
+}
+function acid(t, freq) {                                    // sawtooth bass with a snapping filter
+  try {
+    const o = AC.createOscillator(), f = AC.createBiquadFilter(), g = AC.createGain();
+    o.type = "sawtooth"; o.frequency.value = freq;
+    f.type = "lowpass"; f.Q.value = 10;
+    f.frequency.setValueAtTime(1400, t); f.frequency.exponentialRampToValueAtTime(360, t + 0.12);
+    g.gain.setValueAtTime(0.4, t); g.gain.setTargetAtTime(0, t + 0.09, 0.02);
+    o.connect(f); f.connect(g); g.connect(scBus); o.start(t); o.stop(t + 0.25);
+  } catch (e) {}
+}
+const BASSLINE = [55, 55, 41.2, 49];                        // A · A · E · G, one root per bar
 function schedule() {
   if (!AC || MORE.music === "off" || state === "start" || state === "password") return;
   const ahead = AC.currentTime + 0.12;
   if (nextNote < AC.currentTime) nextNote = AC.currentTime;
   while (nextNote < ahead) {
-    if (MORE.music === "party") {
-      const s = stepN % 8;                                  // 110 BPM, eight 8th-notes per bar
-      if (s === 0 || s === 4) tone(150, 0.12, "sine", 0.9, 50, nextNote - AC.currentTime, musBus);
-      try {                                                 // hat: a whisper of filtered noise
-        const src = AC.createBufferSource(), f = AC.createBiquadFilter(), g = AC.createGain();
-        src.buffer = noiseBuf; f.type = "highpass"; f.frequency.value = 6000;
-        g.gain.setValueAtTime(s % 2 ? 0.12 : 0.2, nextNote); g.gain.exponentialRampToValueAtTime(0.001, nextNote + 0.04);
-        src.connect(f); f.connect(g); g.connect(musBus); src.start(nextNote); src.stop(nextNote + 0.05);
-      } catch (e) {}
-      mnote([65, 65, 49, 55][Math.floor(stepN / 8) % 4], 0.22, "square", s % 4 === 2 ? 0.25 : 0.16, nextNote, false);
-      if (Math.random() < 0.3) mnote(PENTA[Math.floor(Math.random() * 6)] * 2, 0.15, "triangle", 0.2, nextNote, true);
-      nextNote += 60 / 110 / 2; stepN++;
+    if (MORE.music === "party") {                           // 140 BPM, sixteen 16ths per bar, real kit
+      if (musBus.gain.value !== 0.34) musBus.gain.value = 0.34;
+      const t = nextNote, s = stepN % 16, bar = Math.floor(stepN / 16);
+      if (s % 4 === 0) kick(t);                             // four on the floor
+      if (s === 4 || s === 12) clap(t);                     // claps on 2 and 4
+      if (s % 4 === 2) hat(t, 0.15 + Math.random() * 0.2, 0.045);   // offbeat hats
+      else if (Math.random() < 0.1) hat(t, 0.08, 0.03);     // ghost tick
+      if (s === 15 && bar % 2 === 1) hat(t, 0.4, 0.25);     // open hat lifts into the next bar
+      if (s % 4 === 2) acid(t, BASSLINE[bar % 4] * (s === 10 ? 2 : 1));   // offbeat bass rides the pump
+      if (s % 2 === 0 && Math.random() < 0.35)              // sparkle lead over the top
+        mnote(PENTA[(s / 2 * 3 + bar) % 6] * 2, 0.14, "square", 0.15, t, true);
+      nextNote += 60 / 140 / 4; stepN++;
     } else {                                                // calm: pentatonic rain, any two notes agree
+      if (musBus && musBus.gain.value !== 0.17) musBus.gain.value = 0.17;
       if (Math.random() < 0.75) mnote(PENTA[Math.floor(Math.random() * 6)], 2.2, "triangle", 0.32, nextNote, true);
       if (stepN % 6 === 0) mnote(stepN % 12 ? 65.4 : 55, 4, "sine", 0.18, nextNote, false);
       nextNote += 1.2 + Math.random() * 1.6; stepN++;
@@ -765,6 +844,23 @@ function drawFloor(s) {
       pen.fillStyle = ["#FDF3C6", "#CDEBF7", "#fff"][Math.floor(hash(x + 1) * 3)];
       pen.fillRect(-4, -1.5, 8, 3); pen.restore();
     }
+  } else if (kind === "icecream") {
+    // vanilla cream under a melting strawberry topping — D asked for this one
+    pen.fillStyle = "#F7E8C9"; pen.fillRect(0, GROUND(), W, H - GROUND());
+    pen.fillStyle = "#F6C9D8"; pen.fillRect(0, GROUND(), W, 6);
+    for (let x = -((scroll * 1.2) % 52); x < W + 52; x += 52) {          // the drips
+      pen.beginPath(); pen.arc(x + 26, GROUND() + 6, 9, 0, Math.PI); pen.fill();
+    }
+    for (let x = -((scroll * 1.2) % 34); x < W; x += 34) {               // rainbow sprinkles
+      pen.save(); pen.translate(x + 8, GROUND() + 16 + hash(x + 2) * 10); pen.rotate(hash(x) * 3);
+      pen.fillStyle = ["#E0483E", "#4EA8DE", "#5FA653", "#F4A93C"][Math.floor(hash(x + 1) * 4)];
+      pen.fillRect(-3.5, -1.2, 7, 2.4); pen.restore();
+    }
+    const chx = W - ((scroll * 1.2 + 60) % (W + 120));                   // a cherry rolls past
+    pen.fillStyle = "#D8353F"; pen.beginPath(); pen.arc(chx, GROUND() + 13, 6, 0, 7); pen.fill();
+    pen.fillStyle = "rgba(255,255,255,.5)"; pen.beginPath(); pen.arc(chx - 2, GROUND() + 11, 1.8, 0, 7); pen.fill();
+    pen.strokeStyle = "#5FA653"; pen.lineWidth = 1.5;
+    pen.beginPath(); pen.moveTo(chx, GROUND() + 7); pen.quadraticCurveTo(chx + 4, GROUND() + 2, chx + 7, GROUND() + 1); pen.stroke();
   } else {
     pen.fillStyle = "#8a6a3b"; pen.fillRect(0, GROUND(), W, H - GROUND());
     pen.fillStyle = "#5ea34e"; pen.fillRect(0, GROUND(), W, 9);
@@ -1275,8 +1371,8 @@ function tryGate() {
       if (stormLeft > 0) { sfx.gateOk(); gateWord = pickWord(); presentWord(gateWord, MORE.listen === "on"); }
       else {
         if (lives < MORE.lives) { lives++; sfx.heartUp(); } else sfx.gateOk();
-        sfx.whoosh(0.25); burst(W / 2, H * 0.3, "#BFD7EA", 40, 8);
-        rainbow = 650;                    // the sky says thank you
+        sfx.whoosh(0.25); sfx.sunChime(); burst(W / 2, H * 0.3, "#BFD7EA", 40, 8);
+        rainbow = 650; sunBack = 100;     // the sky says thank you
         closeGate();
       }
     }
@@ -1343,6 +1439,8 @@ function reset() {
   lastMiddle = H / 2; runSeed = Math.random() * 1000; scorePunch = 1; playerPunch = 1;
   gust = 0; nextGust = 700; passStreak = 0; stormDone = false; stormLeft = 0;
   bonusIdx = 0; bonusEarned = 0; celebrated = false; gateTries = 0; rainbow = 0;
+  stormS = 0; stormPend = 0; stormWind = 0; sunBack = 0; twistX = W * 0.8;
+  rainDrops = []; splashes = []; boltPts = null; boltLife = 0; boltFlash = 0; sheetFlash = 0; nextBolt = 240;
   clearTimeout(bonusTimer);
 }
 reset();
@@ -1483,6 +1581,136 @@ function label(text, ax, ay, seed, rx = 36, ry = 15) {
   pen.restore();
 }
 
+// ---------------- [STORM] the tempest: wind-true rain, lightning, a twister ----------------
+const RAIN_L = [                                           // far · mid · near — depth sells the sheet
+  { n: 70, vy: 9,  len: 8,  lw: 1,   a: 0.18, wk: 0.55 },
+  { n: 50, vy: 14, len: 16, lw: 1.3, a: 0.30, wk: 0.80 },
+  { n: 30, vy: 22, len: 30, lw: 2,   a: 0.45, wk: 1.00 },
+];
+function genBolt() {                                       // a jagged walk from cloud to ground
+  const trunk = [[W * (0.15 + Math.random() * 0.7), H * 0.04]];
+  let bx = trunk[0][0];
+  for (let y = H * 0.04; y < GROUND() - 30; y += 12 + Math.random() * 14) {
+    bx += (Math.random() - 0.5) * 30 + (trunk[0][0] - bx) * 0.04;
+    trunk.push([bx, y]);
+  }
+  const branches = [];
+  for (let b = 0; b < 2; b++) {
+    const i0 = 3 + Math.floor(Math.random() * trunk.length * 0.5), dir = Math.random() < 0.5 ? -1 : 1;
+    let [px2, py2] = trunk[Math.min(i0, trunk.length - 1)];
+    const br = [[px2, py2]];
+    for (let j = 0, jn = 4 + Math.random() * 4; j < jn; j++) {
+      px2 += dir * (8 + Math.random() * 14); py2 += 10 + Math.random() * 12;
+      br.push([px2, py2]);
+    }
+    branches.push(br);
+  }
+  return { trunk, branches };
+}
+function strokePts(pts, wdt, col) {
+  pen.strokeStyle = col; pen.lineWidth = wdt;
+  pen.beginPath(); pen.moveTo(pts[0][0], pts[0][1]);
+  for (let i = 1; i < pts.length; i++) pen.lineTo(pts[i][0], pts[i][1]);
+  pen.stroke();
+}
+function drawStorm() {
+  const fxOn = MORE.fx === "on";
+  // ONE wind that every drop obeys — the lean IS the velocity, so it can never fall the wrong way
+  windT += 1 / 60;
+  const wT = stormS * (2.4 + 1.5 * Math.sin(windT * 0.9) + Math.sin(windT * 0.23 + 1.7));
+  stormWind += (wT - stormWind) * 0.03;
+
+  pen.fillStyle = `rgba(24,26,44,${0.5 * stormS})`; pen.fillRect(0, 0, W, H);   // dark + gray, one wash
+
+  if (fxOn && stormS > 0.5) {                              // the twister churns off to the side
+    const k2 = (stormS - 0.5) * 2, TH = H * 0.42;
+    twistX = clamp(twistX + Math.sin(windT * 0.13) * 0.4 + stormWind * 0.06, W * 0.45, W * 0.95);
+    for (let i = 0; i < 12; i++) {
+      const hh = (i / 11) * TH, r = 12 + Math.pow(i / 11, 1.4) * 95;
+      const ax = twistX + Math.sin(windT * 2.2 + hh * 0.02) * (6 + hh * 0.09);
+      pen.fillStyle = `rgba(60,64,84,${(0.13 + 0.03 * (i % 2)) * k2})`;
+      pen.beginPath(); pen.ellipse(ax, GROUND() - hh, r, r * 0.28, 0, 0, 7); pen.fill();
+    }
+    for (let i = 0; i < 5; i++) {                          // dust boiling at the foot
+      const dr = 10 + ((frame * 1.4 + i * 23) % 34);
+      pen.fillStyle = `rgba(120,105,85,${0.1 * k2 * (1 - dr / 44)})`;
+      pen.beginPath(); pen.ellipse(twistX + (hash(i) - 0.5) * 50, GROUND() - 4, dr, dr * 0.3, 0, 0, 7); pen.fill();
+    }
+    for (let i = 0; i < 14; i++) {                         // leaves caught in the spin
+      const th = frame * 0.09 + i * 2.7, hh = (i * 37 + frame * 1.1) % TH;
+      const r = (12 + Math.pow(hh / TH, 1.4) * 95) * 1.15, dep = Math.sin(th);
+      pen.fillStyle = `rgba(190,200,215,${(dep > 0 ? 0.4 : 0.18) * k2})`;
+      pen.fillRect((twistX + Math.cos(th) * r) | 0, (GROUND() - hh + dep * r * 0.28) | 0, 2 + dep, 2 + dep);
+    }
+  }
+
+  RAIN_L.forEach((L, li) => {                              // rain, batched: one stroke per layer
+    if (!fxOn && li !== 1) return;                         // weak phones keep the mid layer only
+    const want = Math.round(L.n * stormS * (fxOn ? 1 : 0.6) * Math.min(1.4, W / 960));
+    const pool = rainDrops[li] || (rainDrops[li] = []);
+    while (pool.length < want)
+      pool.push({ x: Math.random() * (W + 200) - 100, y: Math.random() * H - H, g: GROUND() + Math.random() * 16 - 6 });
+    if (pool.length > want) pool.length = want;
+    const vx = stormWind * L.wk, vy = L.vy, k2 = L.len / Math.hypot(vx, vy);
+    pen.strokeStyle = `rgba(185,200,225,${L.a})`; pen.lineWidth = L.lw;
+    pen.beginPath();
+    for (const dr of pool) {
+      dr.x += vx; dr.y += vy;
+      if (dr.y > dr.g) {
+        if (fxOn && li > 0 && splashes.length < 24 && Math.random() < 0.4) splashes.push({ x: dr.x, y: dr.g, age: 0 });
+        dr.y = -20 - Math.random() * 60; dr.x = Math.random() * (W + 200) - 100;
+        continue;
+      }
+      pen.moveTo(dr.x, dr.y); pen.lineTo(dr.x - vx * k2, dr.y - vy * k2);
+    }
+    pen.stroke();
+  });
+  if (splashes.length) {                                   // each drop kicks up two little ticks
+    pen.strokeStyle = "rgba(200,215,235,.7)"; pen.lineWidth = 1.5;
+    pen.beginPath();
+    for (const sp of splashes) {
+      const sl = 3 + sp.age * 1.5;
+      pen.moveTo(sp.x - sl, sp.y - sl); pen.lineTo(sp.x - sl * 0.4, sp.y);
+      pen.moveTo(sp.x + sl, sp.y - sl); pen.lineTo(sp.x + sl * 0.4, sp.y);
+      sp.age++;
+    }
+    pen.stroke();
+    splashes = splashes.filter(sp => sp.age < 3);
+  }
+
+  if (stormS > 0.4 && --nextBolt <= 0) {                   // the sky charges up
+    nextBolt = 200 + Math.random() * 320;
+    sfx.thunder(0.4 + Math.random() * 1.6);
+    if (Math.random() < 0.55) sheetFlash = 1;              // 55% distant sheet, 45% full bolt
+    else { boltPts = genBolt(); boltLife = 11; boltFlash = 0.65; }
+  }
+  if (sheetFlash > 0.02) {                                 // lightning behind the clouds
+    pen.fillStyle = `rgba(185,200,255,${0.2 * sheetFlash * stormS})`;
+    pen.fillRect(0, 0, W, H * 0.45);
+    sheetFlash *= 0.8;
+    if (Math.random() < 0.25 && sheetFlash > 0.15) sheetFlash = Math.min(1, sheetFlash + 0.35);
+  }
+  if (boltLife > 0) {                                      // glow from layered strokes, never shadowBlur
+    pen.save(); pen.globalAlpha = (boltLife / 11) * (0.6 + Math.random() * 0.4);
+    pen.lineJoin = pen.lineCap = "round";
+    if (fxOn) {
+      pen.globalCompositeOperation = "lighter";
+      strokePts(boltPts.trunk, 12, "rgba(130,165,255,.15)");
+      strokePts(boltPts.trunk, 4.5, "rgba(165,200,255,.45)");
+      pen.globalCompositeOperation = "source-over";
+    }
+    strokePts(boltPts.trunk, 1.8, "rgba(255,255,255,.95)");
+    for (const br of boltPts.branches) strokePts(br, 1.2, "rgba(255,255,255,.8)");
+    pen.restore();
+    boltLife--;
+  }
+  if (boltFlash > 0.02) {                                  // the whole sky blinks white
+    pen.fillStyle = `rgba(210,225,255,${boltFlash * stormS})`;
+    pen.fillRect(0, 0, W, H);
+    boltFlash *= 0.65;
+  }
+}
+
 // ---------------- [LOOP] one frame ----------------
 // a phone that can't hold ~36fps loses the fancy effects automatically (this run only — nothing is saved)
 let perfPrev = 0, perfSlow = 0, fxDropped = false;
@@ -1543,7 +1771,9 @@ function step() {
       if (!wall.passed && wall.x + WALL_W < PLAYER_X()) {
         wall.passed = true; passed++; score++; scorePunch = 1.5; passStreak++; sfx.pass();
         if (MORE.mode === "level" && passed >= MORE.level) { endGame(true); }
-        else if (MORE.mode === "level" && MORE.storm === "on" && !stormDone && MORE.words.length && passed === Math.ceil(MORE.level / 2)) openStorm();
+        else if (MORE.mode === "level" && MORE.storm === "on" && !stormDone && MORE.words.length && passed === Math.ceil(MORE.level / 2)) {
+          stormDone = true; stormPend = 240; sfx.thunder(0.2);   // ~4s of flying into the rising storm first
+        }
       }
       if (state !== "play") break;
       if (grace <= 0) for (const r of hitRects(wall)) {
@@ -1668,13 +1898,16 @@ function step() {
   }
   pen.globalAlpha = 1;
 
-  if (state === "storm") {                                 // the storm darkens the world and rains
-    pen.fillStyle = "rgba(18,24,46,.45)"; pen.fillRect(0, 0, W, H);
-    pen.strokeStyle = "rgba(200,215,255,.55)"; pen.lineWidth = 1.5;
-    for (let i = 0; i < 70; i++) {
-      const rx2 = (hash(i) * W + frame * 7) % W, ry2 = (hash(i + 50) * H + frame * 13) % H;
-      pen.beginPath(); pen.moveTo(rx2, ry2); pen.lineTo(rx2 - 5, ry2 + 15); pen.stroke();
-    }
+  // the tempest dial: ramps up while she still flies, eases when a word lands, dies with the sun's return
+  if (stormPend > 0 && state === "play" && --stormPend === 0) openStorm();
+  const sTgt = stormPend > 0 ? 1 : state === "storm" ? (stormLeft > 1 ? 1 : 0.55) : 0;
+  stormS += (sTgt - stormS) * (sTgt > stormS ? 0.014 : 0.02);
+  if (stormS < 0.004) stormS = 0;
+  if (stormS > 0) drawStorm();
+  if (sunBack > 0) {                                       // golden wash as the sky says thank you
+    pen.fillStyle = `rgba(255,220,140,${0.2 * Math.sin((sunBack / 100) * Math.PI)})`;
+    pen.fillRect(0, 0, W, H);
+    sunBack--;
   }
 
   // the finishing washes: bloom, blurred foreground, split toning, film grain, vignette
