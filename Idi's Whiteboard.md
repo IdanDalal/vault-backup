@@ -38,5 +38,5 @@ These customized agents will generate millions of bespoke explanations and pract
 Excellent results! My decisions:
 1. As soon as I started reading your analysis of the 2-second variant of the word catching I realized I was wrong. Your examples (missing letters, unscrable, etc.) are much better, and we should absolutely keep the no-timers rule.
 2. Full "sentences-spawn-objects" magic sounds PERFECT!
-3. It's Friday night now. We're gonna be building Saturday and Sunday. I'm gonna continue prompting you sparsely throughout the day unless you think we're gonna need to push our 5-hour limits or do a "/goal"-type thing because this is an ambitious project. Either way, I want the game read
-4. 
+3. It's Friday night now. We're gonna be building Saturday and Sunday. I'm gonna continue prompting you sparsely throughout the day unless you think we're gonna need to push our 5-hour limits or do a "/goal"-type thing because this is an ambitious project. Either way, I want the game ready for Monday morning. The 2D game was ready for Thursday morning, so I believe we can do it.
+4. You mentioned hotseat co-op (which sounds AWESOME!), so let's go with one shared world that they can both exist in together. The personalization happens in the world, not at the world's level.

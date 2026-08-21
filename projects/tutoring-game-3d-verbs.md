@@ -111,12 +111,12 @@ Crystallize's strongest experimental finding: forced two-player collaboration pr
 - **Slice C:** story spots (skeleton retell → book ceremony) + titles/trails/pet + twin-look + spaced-word doors.
 - Smoke-test gate from [[tutoring-game-3d-brief]] still applies before any of this.
 
-## Open decisions for Idan
+## Decisions — RESOLVED by Idan 2026-08-21 (Friday night)
 
-1. **Catch final form:** untimed type-to-catch + cloze recapture (recommended) OR additionally an opt-in speed "challenge mode" for D alone. Evidence says the timer buys nothing pedagogically; D's competitiveness might still enjoy an opt-in. My lean: skip it in v1, revisit on observed demand.
-2. **Sentence consequences scope:** spawn-table (~20–40 nouns, recommended) OR notice-board-only for v1 if session A overruns.
-3. **Monday target:** Slice A playable (ambitious) OR dictation-reprobe lesson as planned with a 5-minute island teaser. Depends on build days available Thu–Sun.
-4. **One shared island or two:** shared world + hotseat co-op (recommended; Crystallize evidence, one laptop anyway) OR per-girl islands like the 2D game's per-girl copies. Shared island changes the world-code design (one code, two avatars).
+1. **Catch is untimed, permanently.** The 2-second variant is withdrawn; no-timers rule reaffirmed as absolute. Recapture depth comes from cloze/unscramble/memory-typing, no speed modes at all (opt-in challenge mode for D also skipped).
+2. **Spawn-table magic is IN for v1.** Sentences act on the world (spawn/tint/scale/ability).
+3. **Build weekend: Sat 2026-08-22 + Sun 2026-08-23, game ready Monday 2026-08-25 morning** for lesson 5. Idan prompts sparsely; each prompt kicks off one long autonomous slice. Must-have = Slices A+B; Slice C ships minimally (one story skeleton + book ceremony) if time runs short.
+4. **One shared world.** Both avatars exist in the same island, hotseat co-op, one world code carrying two avatars + shared garden/album. Idan's framing: personalization happens IN the world, at avatar/base level, with a single shared world identity.
 
 ## Source-quality caveats (carry when citing)
 
