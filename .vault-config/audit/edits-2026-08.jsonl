@@ -296,3 +296,4 @@
 {"ts":"2026-08-20T16:10:44Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
 {"ts":"2026-08-20T16:10:48Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
 {"ts":"2026-08-20T16:11:16Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-bakeoff/lesson-transcripts/10_Aug_at_9-10.DISTILLED.md","decision":"allow","reason":"not-denied","session":"296e4d04-61eb-47e6-a3e8-f05be187e524"}
+{"ts":"2026-08-21T06:02:11Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-21.md","decision":"allow","reason":"not-denied","session":"af06e673-256e-4cf5-9abc-7cf4a1cc8907"}
