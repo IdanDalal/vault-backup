@@ -25,7 +25,22 @@ Idan's first human playtest of the complete A+B+C build. Companion to [[tutoring
 - Rate budget: Idan authorizes pushing limits hard through Sunday; game must be ready Monday 2026-08-25 morning.
 - Verification ritual unchanged: every visual change passes the screenshot gauntlet vs the calibration anchors before claiming quality; sky/fog/exposure/materials = one owner per pass.
 
-## Build-session checkpoint (Sat 2026-08-22 ~13:10, session hit usage limit mid-pass-5)
+## Session 2 checkpoint (Sat 2026-08-22 afternoon) — ALL PASSES COMPLETE, all probes green
+
+Build: `~/game3d/island.html` **1056KB**, gauntlet + slicec3d + setcomplete3d + persist3d all green, zero console errors, zero network requests.
+
+Playtest-2 notes (Idan, 3 screenshots) all fixed:
+1. Floating rectangle word sprites → **troika SDF 3D word cards**: lowercase word on a cream rounded card with band-colored rim, perspective-correct, yaw-faces player, scale-fades inside 3m. Font = embedded Andika subset (SIL, beginning-reader letterforms), 34KB, blob-URL loaded, `useWorker:false` — offline-verified by smoke test before wiring.
+2. Story circle on a tree → placement scan now rejects any 5×5 ring column where `surfaceY != world.heights` (something grown/built there); same nudge logic added to signposts.
+3. Tags visible through walls → every text sprite in the game replaced: name tags/bubbles/structure labels are now **yaw-only billboard planes with depth testing** (text3d.js); signposts + notice board + garden stakes are troika text on real boards/planks, double-faced.
+
+Capitalization ruleset ENFORCED (digest 4/4): catch slots + prompt lowercase, "Caught!" chrome via CSS small-caps, gift toast lowercase, cards/stakes lowercase, signposts Title Case, sentences/books sentence case, bot names capitalized.
+
+MengTo research: 4 agent digests distilled into [[tutoring-game-3d-mengto-digest]] (licensing map + applied-now list + ranked v9 queue). Applied same-day: adaptive resolution governor (replaces the 2-step rescue ladder, recovers upward), split-tone grade, lamp glow sprites + flicker, grass root-AO ramp, butterfly spook. Study sources preserved at `~/game3d/ref/mengto/` (49MB).
+
+REMAINING before Monday: Idan's Sunday human playtest on the real laptop (SwiftShader probe fps is meaningless; governor is the net — watch it settle), fixes from that, final vault copy of the master. v9 queue top pick: weather system — "It is raining." making real rain is the no-dead-sentences law at its best.
+
+## Session-1 checkpoint (Sat 2026-08-22 ~13:10, superseded by the above)
 
 DONE + gauntlet-verified (all flows green, zero console errors, build 889KB):
 - Pass 1 — island 128×128 (Y=40), all landmarks proportional (`BASE/PEAK/LIGHTHOUSE/GARDEN/BENCH/BOARD/SHELF` derive from `W`), seed bumped 20260828 to orphan old-layout saves, probes rewritten on new `__PROBE.landmarks()` API (gauntlet3d + slicec3d + persist3d + setcomplete3d).
