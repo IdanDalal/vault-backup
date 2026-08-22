@@ -104,6 +104,10 @@ Crystallize's strongest experimental finding: forced two-player collaboration pr
 9. Grow-or-pause stakes everywhere (garden, base, cards); recapture upgrades, no loss paths.
 10. Content refresh every 2–3 sessions (collection-novelty decay is measured and real).
 
+## Build status (Sat 2026-08-23)
+
+All three slices BUILT and probe-verified in `~/game3d/island.html` (853KB, one file, offline). Slice A: island/walk/build/catch/garden/avatars/bots/save. Slice B: sentence table (6 frames, POS-typed slots), spawn-table magic (19 voxel props, adjective tints/scales/auras, verb powers incl. real flight), garden growth on use, signposts, curator bot Marina, gift words, set rewards (titles/trails/lighthouse banners). Slice C: story circle campfire (3 skeletons, retell-then-vary, hero cohesion), read-aloud performance ritual (Space-advanced, act-out props), library shelf + bound books, free-story mode unlocked after 2 books, 12-min day cycle. **New design law (Idan, 2026-08-22): no valid sentence may ever produce nothing** — "The X is Y" reaches world targets first (the actual sun/sea/clouds change), then props, then spawns; playful toast as final fallback. Verification: 8-shot art gauntlet + flow probes + reload persistence, all green (`~/render-tools/gauntlet3d.mjs`, `slicec3d.mjs`, `persist3d.mjs`). Remaining before Monday: Idan's human playtest Sunday, fixes from it, final vault copy of the master.
+
 ## Build-scope ladder (maps to the brief's 2+0.5 session estimate)
 
 - **Slice A (target for lesson 5, Mon 2026-08-25):** island + walk/jump + place/break + avatar palette/hair + word pickups with the full catch ritual + word garden planting. Playable, magical, Collect-complete.
