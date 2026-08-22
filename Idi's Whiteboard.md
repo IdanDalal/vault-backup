@@ -35,19 +35,7 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-WOW! Functionally, it's pretty much ready right now. I caught some words, flew around, spawned some objects, and told a story. All systems working and feeling great. I think for the rest of this session we're just gonna polish and refine what we have. I'll start with some notes:
-1. The signs next to the word-flowers look wrong. The stick/brown cylinder is too wide/big and clips through the sign and text.
-2. Can more things cast shadows?
-3. Can we increase asset quality, geometric detail, and model complexity? Things like the fire in the story circle is emberassingly low quality: one red block and one identical yellow block clipping throgh each other while bouncing up and down.
-4. Can we do a thorough animation/motion pass? The dog/cat, for example, sort of shrinks and grows back. Perhaps it should move around instead? It might make the island more chaotic and entertaining.
-5. Can we learn/transfer anything from our 2D game to make this one look better? You might have already done that, so I'm just making sure.
-6. I realize it's one HTML file, but since it's already accomplishing so much beyond what I imagined a single HTML file could do, I want to understand the limits. Research whether or not we can apply things like anti-aliasing (the UI is so smooth that the aliased 3D really stands out), tessallation (might improve the totally flat ground), parallax mapping, ambient occlusion, volumetrics, reflections, motion blur, depth of field, lens flare, godrays, and other such techniques?
-7. Variety, diversity, and heterogeneity. The entire concept of LEGO is that there are many types of bricks. Minecraft is inspired by lego, and our game is inspired by both. Why, then, do we only have single-digit numbers of options for things like blades of grass, flowers, trees, etc? We need more shapes, more colors, more objects, etc.
-8. Floating words shrink until they disappear when I get close to them.
-9. Birds are too few, too small, fly too fast, and animated in a weird way.
-10. I spawned a dog and a house by making sentences, and now they're just stuck there forever with no way for me to interact with them in any way? If I'm missing/misunderstanding something, tell me. If not, let's fix it. 
-11. The "bob" hairstyle clips through the head/face.
-12. I saw a video about "beautiful skyboxes in video games" many years ago and I forgot most of it, but I remember it saying how relatively "cheap"/"easy" it is to make a stunning skybox, compared to an actual level/3D space. Do some research to see what kind of skybox we can create in 2026. I'm imagining an illusory mix of 2D and 3D with more clouds, a relatively quick day-night cycle, and more layers.
-13. Can we have more dynamic objects that make the world feel like it exists independently of the player? Things like planes in the sky and boats on the water?
-14. The weather system sounds awesome and we should definitely add it.
-One last idea/suggestion: just like with the 2D game, I'm curious as to whether or not it'll be an improvement to add little floating text labels to every object in the 3D game (with the same rule that only one instance/copy of each word is displayed at once). Maybe we should make it toggleable with a deticated keyboard button.
+INCREDIBLE! We're progressing so fast and producing such great results, let's keep going. Here's the next batch of notes:
+1. The labels work, but they're so sparse that I need to actively look for them, and barely see one or two at a time. In attached screenshot #1 I can see only a single label - "cat" - while most objects are unlabled (tree, fireplace, sky, bird, etc).
+2. Also in the same screenshot, the story circle is clipping through the terrain. Let's give it a central and fixed location.
+3. Make the base more organized and separated into distinct parts. Maybe do 
