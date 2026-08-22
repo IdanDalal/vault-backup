@@ -25,7 +25,16 @@ Idan's first human playtest of the complete A+B+C build. Companion to [[tutoring
 - Rate budget: Idan authorizes pushing limits hard through Sunday; game must be ready Monday 2026-08-25 morning.
 - Verification ritual unchanged: every visual change passes the screenshot gauntlet vs the calibration anchors before claiming quality; sky/fog/exposure/materials = one owner per pass.
 
-## Session 2 checkpoint (Sat 2026-08-22 afternoon) — ALL PASSES COMPLETE, all probes green
+## Session 3 checkpoint (Sat 2026-08-22 evening) — playtest-3 polish, all 4 probes green, build 1021KB
+
+Idan's 14 playtest-3 notes, all addressed (labels idea included):
+1 stake slimmed/declipped · 2 dolls+birds cast shadows, ~2Hz shadow refresh for movers · 3 campfire rebuilt (5 layered flame cones + coals + glow halo + flicker) · 4 creatures WANDER (species speeds/gaits, home radius, follow-after-petting) · 5 2D-game transfers ported: speak() TTS (word voiced on catch + tap-a-word in book), perfect-catch streaks · 6 MSAA×4 on the post target (first thing the governor sheds), capability rundown delivered · 7 variety: 4 flower archetypes ×8 colors, grass tufts, 5 tree species (oak/tall/umbrella/birch/sakura, new block ids 10/11, atlas rows 4→5), rocks/pebbles/bushes scatter · 8 cards never vanish (excited-bob "notice" + gentle shrink floor) · 9 birds 6×, bigger, slower, bank+flap/glide properly · 10 E = "say hi" pet interaction → hop + hearts + follow (dogs 20s) · 11 bob hair de-clipped · 12 SKYBOX: layered shader dome (procedural stars 2 classes + twinkle, 2 drifting fbm cloud layers, sun/moon disc), full day-night cycle ~5.7min (day 58%, kid-friendly teal night, twilight crossfades in skyLook/lerpLook) · 13 sailboats circling + dolphin arcs near player + all prior ambient life · 14 weather: rain/snow camera-anchored pools + cloudy, damped intensity channels, auto-cycle ~2-4min, fog/sun/cloud-coverage coupling, looping rain-noise bed (SFX.rain) · L toggles world word labels (one instance per word, nearest, smooth-tracked; sun/sea/cloud/mountain/bird/tree/flower + spawned props).
+
+**Incident (cost ~90 min): three@0.185 shadow-sampler corruption.** npm had installed three ^0.185.1; r185's reworked shadow path + ANGLE produced order-dependent GL_INVALID_OPERATION (texture-format/sampler mismatch) that silently skipped shadow-receiving draws — island terrain vanished, worst at night. Console WARNINGS (not errors) held the smoking gun; probes only captured errors. Fixes: billboard stars/clouds replaced with in-dome shader layers (better skybox anyway), then root cause killed by **pinning three@0.160.1** + rebundling vendor (troika compatible). LESSONS: pin exact three version; probe scripts should surface console.warn too; sprite-through-HalfFloat-RT artifacts on this stack.
+
+New probe hooks: `__PROBE.sky(c)`, `__PROBE.weather('clear|cloudy|rain|snow')`. Probe caveat: SwiftShader ~2-4fps → gameTime runs ~0.4× wall clock; use waitForFunction on gameTime, never wall-clock sleeps, for AI/wander tests.
+
+## Session 2 checkpoint (Sat 2026-08-22 afternoon) — superseded above
 
 Build: `~/game3d/island.html` **1056KB**, gauntlet + slicec3d + setcomplete3d + persist3d all green, zero console errors, zero network requests.
 
