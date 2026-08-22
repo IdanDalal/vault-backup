@@ -591,3 +591,16 @@
 {"ts":"2026-08-22T11:17:44Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-mengto-digest.md","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
 {"ts":"2026-08-22T11:18:01Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-playtest1.md","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
 {"ts":"2026-08-22T11:18:22Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-game-3d-project.md","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:26:48Z","tool":"Edit","path":"/home/jep/game3d/src/craft.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:26:53Z","tool":"Edit","path":"/home/jep/game3d/src/words.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:26:54Z","tool":"Edit","path":"/home/jep/game3d/src/player.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:27:12Z","tool":"Edit","path":"/home/jep/game3d/src/nature.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:27:22Z","tool":"Edit","path":"/home/jep/game3d/src/nature.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:27:38Z","tool":"Edit","path":"/home/jep/game3d/src/player.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:27:41Z","tool":"Edit","path":"/home/jep/game3d/src/nature.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:27:44Z","tool":"Edit","path":"/home/jep/game3d/src/main.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:28:02Z","tool":"Edit","path":"/home/jep/game3d/src/main.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:28:05Z","tool":"Edit","path":"/home/jep/game3d/src/main.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:28:54Z","tool":"Edit","path":"/home/jep/game3d/src/text3d.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:29:52Z","tool":"Edit","path":"/home/jep/game3d/src/story.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
+{"ts":"2026-08-22T12:29:59Z","tool":"Edit","path":"/home/jep/game3d/src/story.js","decision":"allow","reason":"not-denied","session":"3212a774-7b02-4f53-9bc7-a8f8f57f8b0a"}
