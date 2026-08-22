@@ -25,7 +25,26 @@ Idan's first human playtest of the complete A+B+C build. Companion to [[tutoring
 - Rate budget: Idan authorizes pushing limits hard through Sunday; game must be ready Monday 2026-08-25 morning.
 - Verification ritual unchanged: every visual change passes the screenshot gauntlet vs the calibration anchors before claiming quality; sky/fog/exposure/materials = one owner per pass.
 
-## Session 5 checkpoint (Sat 2026-08-22 late night) — idan's 9-point batch, MID-FLIGHT, build 1108KB, zero console errors
+## Session 6 checkpoint (Sun 2026-08-23 overnight) — 9-point batch FINISHED + production rampage, ALL 4 PROBES GREEN, build 1142KB
+
+Idan authorized an overnight fleet run. Four research agents (visuals / audio / UI / rigless animation) → digests distilled in [[tutoring-game-3d-production-digest]] (applied vs queued, ranked). Everything below is probe-verified on the final build (gauntlet problems:[], persist pass, setcomplete beach+trail, slicec pass earlier).
+
+Finished from the session-5 REMAINING list:
+- Asset pass complete: bookcase rebuilt (back panel/crown/decor books/pot plant/reading rugs), dolls upgraded (eye whites+pupils, smile, blush, fringe, sleeves, hands, shoes) AND animated (pivot-group arm/leg swing — genuinely reads as walking), snake = continuous S-curve chain w/ raised head + tongue, boat = real sloop (planked hull, raked bow, bellied mainsail+jib, pennant), bed/door/house upgraded (pillow/blanket/headboard; arched door w/ knob+step; roof slabs/chimney/windows/flower boxes), garden PLANT_STAGES[1] in the new petal language, sentence table (turned legs, cloth runner, ink+quill), notice board (shingle roof + pins), earn-flow hair-style ↻ button restored.
+- Creature life: auto-tagged legs (hip pivots, trot phase), blinks, tail wag (happy vs lazy), asymmetric wingbeats (birds/dragon/props). Zero per-creature code — rules read the parts table.
+- Two RENDER BUGS killed: (1) additive glow SPRITES → yaw-billboard planes (sprite-through-HalfFloat-RT slab artifact, session-3 lesson finally applied to lamps + campfire glow; crystal/lava blocks now glow too); (2) trees swallowing lamp posts (genTrees runs last; added 5×5 canopy clearance check vs wood/lamp/plank surface).
+- Underwater dive is a real place now: teal murk (sky dome hidden, fog+background+grade override), water surface visible from below (DoubleSide), kelp tuft forest (instanced, sway), splash SFX + bubbles on entry/exit. Wreck + treasure beam reads great.
+- Visual pass: golden-hour keyframes, fog discipline, foam contour lines + water sparkles + fake caustics, poor-man's bloom, baked rim catch-lights + contact shadows, denser/lighter grass, lighter canopy, continuous plaza wall, glow blocks face-shaded, puffy clouds, shadow floor lifted (uLift .032, amb .61).
+- Audio pass: convolver reverb (generated IR) + full mix numbers + composed calm music (drone/pads/weighted sprinkles, night thinning) + gusty wind + wave-cycle surf + FM birdsong + material footsteps + splash + premium ticks. Verified: ctx running, drone up, zero errors through calm→party→off.
+- UI pass: settleIn/tilePop/button-physics kit, sticker emoji, title screen (gradient storybook logo, god rays, motes, vignette — looks like a shipped game), achievement-only confetti. Calm-by-default laws in the digest note.
+
+For the MORNING session (idan's plan: polish + pedagogy day):
+1. Real-laptop playtest FIRST (SwiftShader fps meaningless; governor is the net). Watch: earned-color grey start feel (EARN dials in CHANGE_ME), muted-mode dawn darkness, water sparkle strength at dusk, party music level, journal ticker vs toast overlap bottom-left.
+2. Pedagogy deep-dive queue: word-set curriculum fit (YLE), sky/wonder word difficulty ladder, journal sentence quality as reading material, earn-flow wording, gift-word choices, co-op roles in 3D (R7 reader=rescuer), session-6 lesson plan integration.
+3. Tech leftovers (all optional, ranked in the digest): pad voice-leading, height fog, prop rim light, head look-at + notice-player, serpentine snake motion, sparkle-to-journal flight.
+4. Files: master ~/game3d/island.html 1142KB; screenshots/ has b*/w*/d*/e*/p*/gauntlet2 sets from tonight.
+
+## Session 5 checkpoint (Sat 2026-08-22 late night) — idan's 9-point batch, superseded by session 6 above, build 1108KB, zero console errors
 
 Idan's nine notes this round: 1 sound/music · 2 flashlight · 3 "nothing given, everything earned" (blank-slate identity typing, grey→color world, earned night/rain) · 4 on-screen journal/chronicle · 5 wonder words (unicorn etc.) · 6 wonder words placed high/deep · 7 flower still bad · 8 asset-quality pass everywhere · 9 island redesign again.
 
