@@ -25,6 +25,21 @@ Idan's first human playtest of the complete A+B+C build. Companion to [[tutoring
 - Rate budget: Idan authorizes pushing limits hard through Sunday; game must be ready Monday 2026-08-25 morning.
 - Verification ritual unchanged: every visual change passes the screenshot gauntlet vs the calibration anchors before claiming quality; sky/fog/exposure/materials = one owner per pass.
 
+## Build-session checkpoint (Sat 2026-08-22 ~13:10, session hit usage limit mid-pass-5)
+
+DONE + gauntlet-verified (all flows green, zero console errors, build 889KB):
+- Pass 1 — island 128×128 (Y=40), all landmarks proportional (`BASE/PEAK/LIGHTHOUSE/GARDEN/BENCH/BOARD/SHELF` derive from `W`), seed bumped 20260828 to orphan old-layout saves, probes rewritten on new `__PROBE.landmarks()` API (gauntlet3d + slicec3d + persist3d + setcomplete3d).
+- Pass 2 — light/atmosphere: static shadow map (PCFSoft 2048, autoUpdate=false, stale-marking on edits/props/sun-swing; the `updateProjectionMatrix()` trap cost one cycle), warm-cool vertical gradient + cool-hue shadows + baked lamp BFS light in mesher, grade+vignette post pass (scene→HalfFloat RT→ACES+lift/contrast/sat/warm-tint/vignette shader), fog-toward-sun glow, light budget rebalanced sun-heavy then lifted (ambient .58/hemi 1.16/sun 1.38; grade lift .024).
+- Pass 3 — water shader: noise normals, fresnel→sky (tuned down from milky first cut), sun glint, shore foam from aDist attribute, sine bob; skirt shares material; sea-tint law now rewrites both meshes' color attributes.
+- Pass 4 — nature.js: instanced grass blades (~20k, wind-shader begin_vertex injection) + geometry daisies/tulips with instanceColor tint (sprite-halo bug dead, sprites deleted), sculpted `parts:` props for cat/dog/bird/fish/snake/sheep/horse/apple/flower/tree (flatShading spheres/capsules/cones, breathes squash-stretch), garden plants rebuilt in same style, fireflies (dawn/dusk pulse, garden+campfire), 3 lissajous birds (flap-glide, banking), 4 butterflies, "big"-adjective growIn bug fixed (target scale was clobbered), rescue ladder rung 3 sheds post+shadows+70% grass.
+- SwiftShader probe fps 21→7 (software renderer, expected); real-laptop check = Idan's Sunday playtest, rescue ladder is the net.
+
+IN FLIGHT — Pass 5 (text law + capitalization), materials ready, nothing wired yet:
+- troika-three-text installed in ~/game3d (npm); Andika subset at scratchpad `andika-sub.ttf` NOT durable — regenerate: `npm i subset-font`, subset U+0020-007E+quotes from google/fonts ofl/andika (33.7KB); base64-embed → blob URL → `font:` param; `configureTextBuilder({useWorker:false})`; re-export troika from vendor/entry.js and re-run esbuild → vendor/three.iife.js.
+- Plan per digest 2 matrix: word cards + garden stakes + signposts + board lines = troika 3D text (capHeight ≥15cm, dark+white outline); bot tags/bubbles + structure labels ("sentence table" etc.) = yaw-only billboard planes replacing ALL screen-aligned sprites; then capitalization sweep (catch slots/prompt/gift-toast lowercase, "Caught!" chrome smallcaps via CSS, everything else already conformant).
+- Canvas-planes-with-anisotropy is the sanctioned fallback if troika misbehaves offline.
+- After pass 5: full gauntlet + slicec + setcomplete + persist + a phone-tier sanity thought, then vault master copy.
+
 ## Research digests
 
 ### Digest 4/4 first: Capitalization ruleset (agent returned 2026-08-22; evidence-graded)
