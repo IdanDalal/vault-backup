@@ -35,4 +35,11 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-WOW! Functionally, it's pretty much ready right now. 
+WOW! Functionally, it's pretty much ready right now. I caught some words, flew around, spawned some objects, and told a story. All systems working and feeling great. I think for the rest of this session we're just gonna polish and refine what we have. I'll start with some notes:
+1. The signs next to the word-flowers look wrong. The stick/brown cylinder is too wide/big and clips through the sign and text.
+2. Can more things cast shadows?
+3. Can we increase asset quality, geometric detail, and model complexity? Things like the fire in the story circle is emberassingly low quality: one red block and one identical yellow block clipping throgh each other while bouncing up and down.
+4. Can we do a thorough animation/motion pass? The dog/cat, for example, sort of shrinks and grows back. Perhaps it should move around instead? It might make the island more chaotic and entertaining.
+5. Can we learn/transfer anything from our 2D game to make this one look better? You might have already done that, so I'm just making sure.
+6. I realize it's one HTML file, but since it's already accomplishing so much beyond what I imagined a single HTML file could do, I want to understand the limits. Research whether or not we can apply things like anti-aliasing (the UI is so smooth that the aliased 3D really stands out), tessallation (might improve the totally flat ground), parallax mapping, ambient occlusion, volumetrics, reflections, motion blur, depth of field, godrays, and other such techniques?
+7. Variety, diversity, and heterogeneity. The entire concept of LEGO is that there are many types of bricks. Minecraft is inspired by lego, and our game is inspired by both. Why, then, do we only have single-digit numbers of options for things like blades of grass, flowers, trees, etc? We need more shapes, more colors, more
