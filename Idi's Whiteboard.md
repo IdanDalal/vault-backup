@@ -35,11 +35,6 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-WOW! Spectacular results! That response took 73-minutes  - absolutely astounding! Let's continue this hot streak! We have mechanically and technically reached most of my goals, let's do the same for pedagogy. First, I'll address the five things that need my word:
-1. Keep the tagline.
-2. This entire sentence is incompehensible to me (probably because I forgot what YLE means): "First Words YLE fit (walk/run/jump/music Starters; build/light Movers-ish; break/swap outside YLE, chosen for mechanics)"
-3. Sing/dance placements are fine. "fire" is fine where it is
-4. The "hi" greeting should grow into more creature words, including "sit", "eat", and more.
-5. Just like point #2 above, this entire sentence is incompehensible to me: "the story clearing now refuses random word spawns so nothing shadows the campfire interaction."
-
-Next, send a research agent fleet to gather knowledge about educational gaming, incentive structures, language absorption, potential risks/externalities, existing precedents/examples, and more. Then we'll brainstorm how to improve the learning experience just like we did to the gaming experience. We have a SOLID game, now let's make sure it's TEACHING as well as entertaining.
+Great results! Regarding your proposal slate:
+A. I thought about this several times and forgot to mention it because I kept finding other things. I realize presenting a written word and asking a student to look at it and type it barely teaches. I agree with your suggestion.
+B. Another excellent suggestion. Let's improve on it a
