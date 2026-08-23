@@ -31,6 +31,7 @@ Words in the game that lessons already touched: **cat, red, sun** for sure (sess
 - **Catching is a duel now**: player portrait VS the word, attack rings, a dramatic finish. Expect delight; it's untimed like everything.
 - **N opens Island Magic**: every earned wonder (dragon, rainbow, stars, music, even color itself) has an on/off switch. Everything is their choice.
 - **Boats appear** only after catching "boat"; every menu has a red ✕; pause shows island stats.
+- **Idi and Mom live on the island now.** The garden keeper who gives the gift words and cheers every catch is Idi; Mom wanders the plaza saying proud things. The room and the world match.
 
 ## During play — the loose rules
 
@@ -59,7 +60,7 @@ Words in the game that lessons already touched: **cat, red, sun** for sure (sess
 
 ## If they ask to take the game home
 
-Say yes — we're ready. `word-world-K.html` and `word-world-D.html` are staged in the games folder; send each girl her own file (WhatsApp/drive, it's one file, works offline). Their home play logs every attempt into the save; ask them to paste their world code at the next session and I'll read the evidence log from it. Home rules to give them: it never needs daily play, and nothing is ever lost by staying away.
+Say yes, with one caveat. `word-world-K.html` and `word-world-D.html` are staged in the games folder; send each girl HER OWN file (the filename is what keeps their saves separate, even on a shared computer — don't rename the files). **Best on a PC/laptop.** On phones, typing now works everywhere (the keyboard pops up for every typing screen, English layout needed) but walking around the island still needs a real keyboard — phone-friendly controls are the next build. Their home play logs every attempt into the save; ask them to paste their world code at the next session and I'll read the evidence log from it. Home rules to give them: it never needs daily play, and nothing is ever lost by staying away.
 
 ## Paper trail
 

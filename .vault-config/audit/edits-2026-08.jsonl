@@ -1108,3 +1108,9 @@
 {"ts":"2026-08-23T19:28:43Z","tool":"Edit","path":"/home/jep/game3d/src/core.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
 {"ts":"2026-08-23T19:28:51Z","tool":"Edit","path":"/home/jep/game3d/src/main.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
 {"ts":"2026-08-23T19:28:52Z","tool":"Edit","path":"/home/jep/game3d/src/main.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T19:30:04Z","tool":"Edit","path":"/home/jep/game3d/src/words.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T19:42:06Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-session9-checkpoint.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T19:42:08Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-session9-checkpoint.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T19:42:15Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-lesson-cheatsheet-2026-08-25.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T19:42:21Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-lesson-cheatsheet-2026-08-25.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T19:42:31Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-game-3d-project.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}

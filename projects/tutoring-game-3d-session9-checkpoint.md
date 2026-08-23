@@ -28,6 +28,15 @@ Same-day follow-up to [[tutoring-game-3d-session8-checkpoint]]. Idan approved th
 - TTS ruling: no Chrome robot voice, ever; the viable future path is build-time generation of ~60 tiny per-word clips baked into the file (~600KB, needs a gating check on any local TTS model per the anonymous-downloads law). Audio8-TTS-Preview-0.1b in-browser: out of scope by ~200x file size.
 - persist3d probe updated (read the catch word from state, no longer from removed DOM data attributes).
 
+## Late-night fixes (Idan's PC/phone test, ~22:30)
+
+1. **NPCs mirror the room**: curator is now **Idi** (keeps the garden, gives the gift words, does the praising), the one friend bot is **Mom** (wanders the plaza with proud chat lines); third NPC removed. Bot list is data-driven in CHANGE_ME.FRIEND_BOTS.
+2. **Word placement spread**: random words now keep ≥8 blocks from each other (relaxing to 4.5 only in tight biomes) and ≥6.5 from every anchored word/station — no more "door" sitting between spawn and "walk", no clusters beside empty fields.
+3. **Per-file saves**: all file:// pages share one localStorage origin, so the two home copies shared state on one PC (Idan caught it). Save key now derives from the FILENAME (`island-save:word-world-K` etc.) — each girl's file keeps her own island even on a shared computer. Why two files at all: identity + save separation; contents are identical.
+4. **Android typing bridge**: a hidden input summons the soft keyboard on touch devices whenever a typing surface opens (title flow, catches, pet, ignite) and replays its text as the key events the game already listens to; tapping the panel also summons it. Desktop untouched. HONEST LIMIT: phones can now type through every panel, but the 3D world still has no touch movement/look/E controls — real phone play needs a virtual-joystick session; home copies are PC-first for now.
+
+Home copies refreshed with the final build (1236KB); all 13 probe suites green (tmp-s9b covers the four fixes; tmp-s8g made deterministic — its pet-reopen step was timing-flaky, the game was correct).
+
 ## Next session candidates
 
-Meaning-conditional catch clusters (several cards near one creature, only the matching word catches); more gold frame variety; word audio clips (gating check first); book styling for owned words; re-copy home files after Monday's session feedback.
+Touch controls for real phone play (virtual joystick + look drag + tap-to-interact — the big one); meaning-conditional catch clusters; more gold frame variety; word audio clips (gating check first); book styling for owned words.
