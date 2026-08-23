@@ -850,3 +850,5 @@
 {"ts":"2026-08-22T21:46:07Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-production-digest.md","decision":"allow","reason":"not-denied","session":"85369ea6-2680-4ef0-8cc9-526b358a61a8"}
 {"ts":"2026-08-22T21:46:37Z","tool":"Edit","path":"/home/jep/vault/projects/tutoring-game-3d-playtest1.md","decision":"allow","reason":"not-denied","session":"85369ea6-2680-4ef0-8cc9-526b358a61a8"}
 {"ts":"2026-08-22T21:46:53Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-game-3d-project.md","decision":"allow","reason":"not-denied","session":"85369ea6-2680-4ef0-8cc9-526b358a61a8"}
+{"ts":"2026-08-23T06:03:47Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-23.md","decision":"allow","reason":"not-denied","session":"0e15f3f4-bed0-43dc-8407-87051f099d97"}
+{"ts":"2026-08-23T06:20:47Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-23-loop-review.md","decision":"allow","reason":"not-denied","session":"70b6f6c5-2006-4409-8e52-5cfff1fe175e"}
