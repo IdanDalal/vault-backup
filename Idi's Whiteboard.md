@@ -37,4 +37,14 @@ These customized agents will generate millions of bespoke explanations and pract
 
 Great results! Regarding your proposal slate:
 A. I thought about this several times and forgot to mention it because I kept finding other things. I realize presenting a written word and asking a student to look at it and type it barely teaches. I agree with your suggestion.
-B. Another excellent suggestion. Let's improve on it a
+B. Another excellent suggestion. Let's improve on it a bit: we can have "levels" for words. Meaning, they first appear as "bronze level" where the mechanism is what it is now. After being caught, they spawn in a different place at "silver level" and catching them involves a slightly harder mechanism (something like typing the word twice - once normally and once backwards). After the silver level is caught, the "gold level" spawns and in order to catch it and "own" the word permenantly, the player must use it in a sentence (I'm not sure about how to do this, so it can be something else if we think of something better). I just had another idea: between lessons, the garden "wilts" and needs "water" in the form of re-typing the words to change them back from a "wilted state" to an "owned state".
+C. Also a good suggestion. We tried an offline voice text-to-speech solution and the default chrome robotic voice is barely legible. If there's an alternative, let's pursue it. If not, nevermind. I saw something today that I'm unsure of it's relevance: a 0.1b parameter TTS model released - Audio8-TTS-Preview-0.1b. Is that in any way relevant or is it insanely, ridiculously out-of-scope for a single HTML file?
+Regarding the no-code moves for tomorrow: can we incentivize/encourage D-teaches-K behaviour?
+
+Regarding your open questions:
+1. Answered above.
+2. As mentioned above: skip default chrome voice. Only try a high quality solution, if available/possible.
+3. Per-girl invisible difficulty profiles sound great. Can we set it up so that when the player's name starts with "K" there are different rules than when it starts with "D"? If either of them notices, I'll instantly tell the truth and explain that you and I agree that one difficulty level for age 9 and 12 is not fair/effective/representative, and since we can't/won't create two different games (like we did with the 2D game), this is the best solution. If they disagree, we trash the whole thing at once.
+4. If any existing words in the game were covered in previous lessons, we should do the 2-min cold probe. If there's no overlap, we should start the tradition next time with the words that are actually in the game.
+
+Two gaps we need to focus on: 1. meaning-conditional moments - lean into the sentences and stories. 2. Home play - what if they love the game and want me to send it to them? We need to be ready for that 
