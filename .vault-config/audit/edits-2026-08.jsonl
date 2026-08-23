@@ -1055,3 +1055,13 @@
 {"ts":"2026-08-23T11:48:18Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-3d-session8-checkpoint.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
 {"ts":"2026-08-23T11:48:31Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-game-3d-project.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
 {"ts":"2026-08-23T11:48:44Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:45:06Z","tool":"Edit","path":"/home/jep/game3d/src/config.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:45:08Z","tool":"Edit","path":"/home/jep/game3d/src/config.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:45:11Z","tool":"Edit","path":"/home/jep/game3d/src/craft.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:45:17Z","tool":"Edit","path":"/home/jep/game3d/src/craft.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:45:27Z","tool":"Edit","path":"/home/jep/game3d/src/craft.js","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:45:28Z","tool":"Edit","path":"/home/jep/game3d/src/style.css","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:50:05Z","tool":"Edit","path":"/home/jep/render-tools/tmp-s8b.mjs","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:53:06Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-pedagogy-research-digests.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:54:07Z","tool":"Write","path":"/home/jep/vault/projects/tutoring-game-pedagogy-research.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
+{"ts":"2026-08-23T12:54:16Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/tutoring-game-3d-project.md","decision":"allow","reason":"not-denied","session":"cf6d079d-dd8b-4c01-9a35-de14db9b77ff"}
