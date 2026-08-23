@@ -53,3 +53,5 @@ EXTRAORDINARY! Pretty much everything you touched has been elevated and enhanced
 15. We still have some unacceptably low quality assets.  Dragon, mermaid, shell, and many more.
 16. Grass: the "few large blades" look is subotimal. Look for performance-light alternatives, or replace with something else, or remove.
 17. There should be no boats or planes until the words "boat" and "plane" are caught. After the words are caught, there should be quite a few of them - I'd like to say "a lot" but I'm worried it'll hurt performance.
+
+
