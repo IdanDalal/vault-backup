@@ -35,7 +35,7 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
-Read this file to get caught up. Then, let's continue refining and polishing the game. I just did another playtest and it was wonderful! Fixing the few issues I encountered and adding everything from your tech leftovers/queue will be even better. After that, we're gonna spend the day diving into the pedagogical aspects. Here are my issues:
+Process these files to get caught up. Then, let's continue refining and polishing the game. I just did another playtest and it was wonderful! Fixing the few issues I encountered and adding everything from your tech leftovers/queue will be even better. After that, we're gonna spend the day diving into the pedagogical aspects. Here are my issues:
 1. Walking speed - if it's trivial, add a walking speed adjustment option. I'm thinking something funny and empowering, like having the + button increase the speed and the - button reducing it, with EXTREME limits (impractically slow and impossibly fast) so the player must tweak it to their liking rather than maxing out the slider withou any consideration.
 2. Main menu - start with the name: "Word World" sounds good, I think. Change the tag line to something funny a 9-year-old can understand (suggest a few options and I'll iterate on them). Change "Dress Up" to "Change" (I was originally thinking of "Customize", but since it's the first thing, it should be easy and free). There are several fonts and capitalization styles, giving the impression of a placeholder mess - class it up. Under certain conditions, the left-moving flyover shot of the island shows some kind of a bubble-like visual artifact around/above the island, and I think it's a visual glitch.
 3. The "N" key doesn't show me the sky magic menu, it acts as if I pressed "B" and shows the pause menu.
@@ -50,4 +50,6 @@ Read this file to get caught up. Then, let's continue refining and polishing the
 12. Most (all?) of the light blocks are yellow. Colorful lights (neon-style) could change the entire atmosphere from a natualistic island simulation to an artificial themepark experience.
 13. In attached screenshot #1, a rock is on a tree.
 14. In attached screenshot #2, the label "book" is both wrong/inaccurate and impractically displayed. It should be "bookshelf" or "books", I think.
-15. In attached screenshot #3, the "Our House" sign is all kinds of wrong: several shades of brown, text on the stick, awkward placement, not self-explanatory (if it's one of the first things the player sees, the5/6 what? what o)
+15. In attached screenshot #3, the "Our House" sign is all kinds of wrong: several shades of brown, text on the stick, awkward placement, not self-explanatory (if it's one of the first things the player sees, the sign provides a question instead of an answer - 5/6 what?)
+16. In attached screenshot #4 the "word garden" sign is even worse than "Our House". terrible color choice, floating pieces, lower case text, poles clipping through neighbor blocks, and more.
+17. 
