@@ -25,6 +25,34 @@ Idan's first human playtest of the complete A+B+C build. Companion to [[tutoring
 - Rate budget: Idan authorizes pushing limits hard through Sunday; game must be ready Monday 2026-08-25 morning.
 - Verification ritual unchanged: every visual change passes the screenshot gauntlet vs the calibration anchors before claiming quality; sky/fog/exposure/materials = one owner per pass.
 
+## Session 7 checkpoint (Sun 2026-08-23 morning) — playtest-6 16-point batch + FULL tech queue, ALL 4 PROBES GREEN, build 1180KB
+
+Idan's 16 morning notes all addressed, plus every applied-queue item from [[tutoring-game-3d-production-digest]]. Probe-verified (gauntlet/slicec/setcomplete/persist all green, zero console errors); s7 screenshot set in `~/game3d/screenshots/s7/`.
+
+Game renamed **Word World** (CHANGE_ME.GAME_NAME + TAG_LINE; island keeps its own name on the small title line). Title screen typography unified; tagline default "the island where words come true", alternatives pending Idan.
+
+BUBBLE ARTIFACT ROOT CAUSE: the r380 sky-dome sphere sat at world origin, the island's corner; the off-center flyover camera saw the dome's horizon band displaced into a giant pale faceted dome over the island. Fix: the sky dome now rides the camera every frame. Diagnosed by bisection (sunCol blackout, cloud-layer kill, big-mesh hides, raycast through dome pixels).
+
+KEY BUG FIXES: N-key opened pause (skypanel close listener registered AFTER the open listener, so one keydown opened+closed the panel and the pointer-lock exit auto-paused; close listeners now register first, the same trap guarded in the new pet panel via an open-timestamp swallow) · story "The Little House" line 3 now "The house has a {adj} door." · rock-on-tree (rock scatter accepted canopy surfaceY; now requires ground blocks) · "book" label buried in the shelf → "books" floating before the top shelf · layout-proof typing everywhere via keyLetter(e): e.code KeyA-Z fallback means a Hebrew keyboard still types English (prime suspect for Idan's dead earn-flow typing) · earn flow re-entry skips completed identity steps (never re-asks the name) · localStorage 'island-save-bak' guards saves that contain earned identities.
+
+EARNED-ACTIONS DOCTRINE (EARN.actions dial): new 8-word **First Words** set anchored around the plaza: walk run jump build break light music swap. walk = no movement, spawns 2m BEHIND spawn (the opening joke, welcome toast points backward); run = 2.1 crawl speed until caught; jump = pathetic 7.0 hop (still climbs 1 block, no softlocks); build/break gate clicks; light gates F; music gates M and all music (catching it starts calm); swap gates P. Locked attempts show a throttled "catch the word X" nudge. run/jump moved out of meadow/forest; replacements sing + dance with real "I can" powers (birds answer, creatures dance). Probes bypass via __ACTFREE in __PROBE.start (start(who,{keepLocks:true}) preserves gates). 50 words total; garden grown to 6×9 plots.
+
+GUIDANCE (note 5): #quest checklist top-left ("catch these first!"), priority walk/run/jump → red/green/white → night → remaining action words; sparkle trail drifts from player toward the current target every 3.5s; completion toast when the list empties.
+
+CREATURE MEETING (note 8): first contact per species = typed "hi" (2 slots), then command chips come/stay/jump/home, clickable or typed; "come" follows until "stay" (Infinity, no timers); greeted set persisted (save key greeted).
+
+MENUS + UI: "Dress Up" → "Change", always the free click-to-pick customize (Idan ruling: first thing is easy and free); Change ✨ also in pause, returns to play; help line rebuilt as keycap chips (no "WASD" word-blob) + speed keys; +/− walking-speed dial ×1.3 steps clamped 0.05–8 with emoji ladder toasts.
+
+SIGNS: signposts rebuilt (cream emissive face in dark frame, turned post fully behind the board, "5 of 6 words found" replaces the cryptic 5/6, "all N words found!" gold when complete); Word Garden arch rebuilt (posts inside the gate gap, straight beam + smooth torus arc, hanging framed cream sign, Title Case).
+
+LIGHTS (note 12): CHANGE_ME.LIGHTS 'warm' (default, recommended) | 'rainbow' (per-lamp neon halos); party music always hue-cycles the halos while playing.
+
+BIRDS (note 11): 60% speed, canopy height 14–21, two 3-bird flocks sharing loops + 3 loners.
+
+TECH QUEUE APPLIED: height fog (terrain+water, haze pools low) · altitude grass saturation ramp · fresnel rim light on all prop materials · flower clump-scatter, 2 colors per patch · pad voice-leading · night-darkened echo feedback · party kick knock layer · Haas widening on catch chimes · sparkle-to-orb flight on catch · set-complete slide-up banner · starburst behind power toasts · head-group look-at with clamp+smoothing, notice-the-player freeze+blink · pupil saccades · serpentine snake chain · hop anticipation/stretch/landing settle · actor wave-hello with "hi!!" bubble. DEFERRED with reason: weenie S-path landscaping (island rework risk before Monday), dual-Kawase bloom (digest condition: only if glow still lacking), FDN reverb (convolver fine), panel transform-origin (negligible).
+
+FOR PEDAGOGY DAY: rule on tagline options · First Words YLE fit (walk/run/jump/music Starters; build/light Movers-ish; break/swap outside YLE, chosen for mechanics) · sing/dance placements · whether "hi" greeting should grow into more creature words (sit? eat?) · quest checklist wording · existing saves keep caught words but gain the new locks (walk waits behind spawn).
+
 ## Session 6 checkpoint (Sun 2026-08-23 overnight) — 9-point batch FINISHED + production rampage, ALL 4 PROBES GREEN, build 1142KB
 
 Idan authorized an overnight fleet run. Four research agents (visuals / audio / UI / rigless animation) → digests distilled in [[tutoring-game-3d-production-digest]] (applied vs queued, ranked). Everything below is probe-verified on the final build (gauntlet problems:[], persist pass, setcomplete beach+trail, slicec pass earlier).
