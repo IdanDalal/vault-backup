@@ -1140,3 +1140,4 @@
 {"ts":"2026-08-25T09:15:03Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/ba90e843-d155-4d9d-8986-533136e29108/scratchpad/plans.py","decision":"allow","reason":"not-denied","session":"ba90e843-d155-4d9d-8986-533136e29108"}
 {"ts":"2026-08-25T09:19:59Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/ba90e843-d155-4d9d-8986-533136e29108/scratchpad/inv_test.py","decision":"allow","reason":"not-denied","session":"ba90e843-d155-4d9d-8986-533136e29108"}
 {"ts":"2026-08-25T09:50:09Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/ba90e843-d155-4d9d-8986-533136e29108/scratchpad/bd.py","decision":"allow","reason":"not-denied","session":"ba90e843-d155-4d9d-8986-533136e29108"}
+{"ts":"2026-08-25T12:38:28Z","tool":"Write","path":"/tmp/claude-1000/-home-jep/ba90e843-d155-4d9d-8986-533136e29108/scratchpad/deliverables/pc-preflight.html","decision":"allow","reason":"not-denied","session":"ba90e843-d155-4d9d-8986-533136e29108"}
