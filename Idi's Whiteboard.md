@@ -35,3 +35,4 @@ These customized agents will generate millions of bespoke explanations and pract
 **Retention Floors:** Ensuring students still know the material 30, 60, and 180 days later.
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
+You accidentally made me laugh. It was nice. Thank you. This is what did it: "Going to 64 GB is the single best upgrade, and it's inexpensive". I was agreeing and understanding all the way up until the last word, but 
