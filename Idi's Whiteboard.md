@@ -36,5 +36,3 @@ These customized agents will generate millions of bespoke explanations and pract
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
 Nodepad!
-
-I flashed all 4 modules: 1. YetAnotherBootloopProtector, 2. Shamiko, 3. zygisk-detach, 4. YouTube Music. I rebooted after each one. Go ahead and do your part.
