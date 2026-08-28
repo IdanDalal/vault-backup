@@ -36,3 +36,5 @@ These customized agents will generate millions of bespoke explanations and pract
 **Guardrails:** The system includes the **Right of Abstention** (the student can pause the AI), **Mandatory Humardan-in-the-Loop Overrides**, and full **Parental Transparency** reging what is being taught.
 
 Nodepad!
+
+Apollo+Artemis+Tailscale it is, then. Leave the HTML file alone for now, and let's get things clarified here in the terminal: 1. I forgot to mention my PC is using a paid NordVPN subscription and it's on 24/7, connected to a dedicated IP in the Netherlands. 2. I also forgot to mention that my dad (and any other place I might want to visit) has a 4K TV, so that should be the "stretch goal" beyond this 1080p screen. 3. I'm only gonna play visually impressive single-player games with a controller - specifically, an xbox eite series 2 core wireless controller I have. 
