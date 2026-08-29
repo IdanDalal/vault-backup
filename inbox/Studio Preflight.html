@@ -168,7 +168,7 @@
   <h1>Studio Preflight</h1>
   <p class="lede">Protect what can't be replaced, restrict what the agent can reach, install the smallest thing that works, then render one portrait. Every phase ends with a check you run yourself.</p>
   <div class="arc">
-    <span><b>A</b> Protect · 40 min</span>
+    <span><b>A</b> Protect · 25 min</span>
     <span><b>B</b> Restrict · 15 min</span>
     <span><b>C</b> Install · 30 min + downloads</span>
     <span><b>D</b> Render · the point</span>
@@ -180,68 +180,100 @@
   <div class="phase-bar"><h2>A · Protect</h2><span class="when">Do first · no agent software yet</span></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a1"></label><div class="step-n">A1</div><div class="step-b">
-    <h3>Inventory + label two drives</h3>
-    <p>Test: could you re-download it? Games no, saves yes. List the irreplaceable in Notepad. Expect megabytes, not gigabytes.</p>
-    <ul>
-      <li><strong>Drive A · Daily</strong> - stays connected, File History target.</li>
-      <li><strong>Drive B · Archive</strong> - stays unplugged except weekly. Immune to software while disconnected.</li>
-    </ul>
+    <h3>Inventory what cannot be re-downloaded</h3>
+    <p>Test each folder: could you get it back off the internet? Games yes, so skip them. Save files, documents, photos, project folders, no. List the survivors in Notepad. Expect megabytes, not gigabytes; that number is what makes the rest of this phase cheap.</p>
+    <p><strong>The drive:</strong> <span class="path">G:</span>, the 750 GB USB disk. It stays unplugged between runs, which makes it immune to anything running on the PC, ransomware included. Your exposure is the gap between runs, so pick a cadence you will actually keep (A5).</p>
+    <div class="note"><p>A second external drive only buys cover against <em>this</em> drive dying. Worth adding once the habit sticks; not worth blocking phase B on today.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a2"></label><div class="step-n">A2</div><div class="step-b">
-    <h3>File History on Drive A <span class="chip check">check first</span></h3>
-    <p><kbd>Win</kbd> → type <span class="nav">File History</span>. Control Panel window appears = alive. Nothing useful = stop, tell me, we pick a replacement. Microsoft has been retiring it in favour of OneDrive-based Windows Backup.</p>
-    <p>Select drive → Turn on → Advanced: <strong>every hour</strong>, keep <strong>until space is needed</strong> → Run now.</p>
-    <p>Folders outside Desktop/Documents/Pictures: right-click → <span class="nav">Include in library</span>. File History backs up libraries.</p>
+    <h3>The archive script</h3>
+    <p>Every run writes a full copy into a folder named for today’s date: <span class="path">G:\Backup\2026-08-29\</span>. The date folders <em>are</em> the version history, so nothing needs a service, a scheduler, or a version database. Restore is copy-and-paste in Explorer.</p>
+    <p>Open Notepad, paste the script below, then <span class="nav">File → Save as</span> → Desktop → filename <code>weekly-archive.bat</code> → <strong><span class="nav">Save as type: All Files</span></strong>. Miss that last setting and Windows saves it as <code>weekly-archive.bat.txt</code> and nothing will run.</p>
+<pre><code>@echo off
+setlocal
+
+rem --- 1. destination drive letter
+set DRIVE=G:
+set ROOT=%DRIVE%\Backup
+
+rem --- 2. copy flags. For a PREVIEW that writes nothing,
+rem        comment out the first line, uncomment the second.
+set FLAGS=/E /R:1 /W:1 /XJ /NP
+rem set FLAGS=/E /R:1 /W:1 /XJ /L
+
+if not exist "%DRIVE%\." (
+  echo.
+  echo   Drive %DRIVE% is not there.
+  echo   Plug it in, or change DRIVE at the top of this file.
+  echo.
+  pause
+  exit /b 1
+)
+
+for /f %%d in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set STAMP=%%d
+set DEST=%ROOT%\%STAMP%
+
+echo.
+echo   Destination: %DEST%
+echo.
+
+robocopy "%USERPROFILE%\Documents" "%DEST%\Documents" %FLAGS%
+robocopy "%USERPROFILE%\Desktop"   "%DEST%\Desktop"   %FLAGS%
+robocopy "%USERPROFILE%\Pictures"  "%DEST%\Pictures"  %FLAGS%
+
+rem --- 3. game saves: paste the folder from A4, then delete the rem
+rem robocopy "PASTE_SAVE_FOLDER_HERE" "%DEST%\Saves" %FLAGS%
+
+echo.
+echo   Finished. Scan the output above for a non-zero FAILED column.
+echo   Folder: %DEST%
+echo.
+echo   Retention: delete whole dated folders in Explorer when the
+echo   drive fills. Nothing else points at them.
+echo.
+pause</code></pre>
+    <div class="tw"><table>
+      <thead><tr><th>Flag</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td><code>/E</code></td><td>Copy subfolders, including empty ones</td></tr>
+        <tr><td><code>/R:1 /W:1</code></td><td>Retry a failed file once, wait 1 second. The default is a million retries at 30 seconds each</td></tr>
+        <tr><td><code>/XJ</code></td><td>Skip junction points, which otherwise loop forever</td></tr>
+        <tr><td><code>/NP</code></td><td>No per-file percentage spam</td></tr>
+        <tr><td><code>/L</code></td><td>List only. Copies nothing. The dry-run</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>No <code>/MIR</code>, on purpose.</strong> Mirroring makes the copy match the source, so a file you delete by accident on Monday is gone from the backup by Sunday. Dated folders never delete anything.</p>
+    <div class="note"><p><strong>First run: use the <code>/L</code> line.</strong> Swap the two <code>FLAGS</code> lines, double-click the file, and read what scrolls past. It lists what it <em>would</em> copy and writes nothing at all. When the list looks like your A1 inventory and not like your entire disk, swap the lines back and run it for real.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a3"></label><div class="step-n">A3</div><div class="step-b">
     <h3>Restore test <span class="chip verify">verify</span></h3>
-    <p>The one step that proves the backup can hand a file back. Allow 15 minutes; most of it is waiting inside step 2.</p>
-    <p><strong>Where you are working:</strong> the Control Panel window titled <span class="nav">File History</span> from A2. Reopen it with <kbd>Win</kbd> → type <span class="nav">File History</span> → <kbd>Enter</kbd>. Every control named below sits in that window or in a window it opens. Nothing here is typed at a command line.</p>
+    <p>Five minutes, no waiting, no progress bar to stare at. What you do here is exactly what a real restore looks like, which is the point of doing it.</p>
     <ol class="sub">
-      <li><strong>Make the bait file.</strong> Right-click empty Desktop → <span class="nav">New</span> → <span class="nav">Text Document</span>, name it <code>restore-test.txt</code>. Open it, type the current clock time (<code>14:07 test</code>), save, close. Put real text in it: an empty file can come back empty and you learn nothing from that.</li>
-
-      <li><strong>Force a backup with the <span class="nav">Run now</span> link.</strong> In the File History window the large right-hand panel shows your Drive A and a line reading <span class="nav">Files last copied on <em>date</em></span>. Immediately under that line is a blue text link, <span class="nav">Run now</span>. Click it.
-        <div class="note"><p><strong>What <span class="nav">Run now</span> runs is File History itself.</strong> Your <code>.txt</code> stays a text file; text files hold no instructions, so Windows has nothing to execute in one. The word <em>now</em> is Microsoft's own button label, and it earns its place: File History otherwise waits for its next hourly cycle, so a file you created two minutes ago is not on Drive A yet. <span class="nav">Run now</span> jumps that queue. Without it you would sit for up to an hour before the rest of this step could work.</p></div>
-        <p><strong>Then wait.</strong> The link changes to <span class="nav">Stop</span> and the status text reads <em>File History is saving copies of your files</em>. It has finished when the link reads <span class="nav">Run now</span> again <em>and</em> the date line shows today at a time inside the last minute. A first run onto an empty drive can take 20 minutes or more. Do not start step 3 until that timestamp is current.</p>
-      </li>
-
-      <li><strong>Destroy the original.</strong> Delete <code>restore-test.txt</code> from the Desktop, then right-click <span class="nav">Recycle Bin</span> → <span class="nav">Empty Recycle Bin</span> → <span class="nav">Yes</span>. Skip the emptying and the file is still sitting on your C: drive, so the test proves nothing about Drive A.</li>
-
-      <li><strong>Open the restore browser: <span class="nav">Restore personal files</span>.</strong> Back in the File History window, look at the narrow sidebar down the left edge. It holds four links, top to bottom: <span class="nav">Restore personal files</span>, <span class="nav">Select drive</span>, <span class="nav">Exclude folders</span>, <span class="nav">Advanced settings</span>. Click the first one. A separate window opens, titled <span class="nav">Home - File History</span>, showing large folder tiles (Desktop, Documents, Pictures) instead of a normal Explorer list. This window shows what is on Drive A, at each point in time File History captured it.
-        <div class="note"><p><strong>No such link in the sidebar?</strong> File History is off or has no drive selected. Go back to A2 and finish it before retrying.</p></div>
-      </li>
-
-      <li><strong>Find the file, scrubbing back if you must.</strong> Double-click the <span class="nav">Desktop</span> tile. If <code>restore-test.txt</code> is listed, go to step 6.
-        <div class="note"><p><strong>Not listed?</strong> You are looking at the newest snapshot, which File History may have taken after you deleted the file. At the bottom centre of the window sits a round green button, with a left arrow to its left and a right arrow to its right, and above them a line like <em>Tuesday 26 August 2026 14:08 · 2 of 2</em>. The left arrow steps one snapshot backwards in time. That is what "scrub back" meant. Click it until the counter drops (<em>2 of 2</em> → <em>1 of 2</em>) and <code>restore-test.txt</code> appears in the tiles.</p></div>
-      </li>
-
-      <li><strong>Restore it with the green button.</strong> Single-click <code>restore-test.txt</code> so it is highlighted, then click the <strong>round green button at the bottom centre</strong>. It carries a white circular arrow and no text; hovering it shows <span class="nav">Restore to original location</span>. That click is the restore. If Windows raises a <span class="nav">Replace or Skip Files</span> dialog, choose <span class="nav">Replace the file in the destination</span>.</li>
-
-      <li><strong>Confirm on the Desktop.</strong> <span class="chip verify">verify</span> <code>restore-test.txt</code> is back on the Desktop <em>and</em> opening it shows the clock time you typed in step 1. A file that returns empty, or carrying the wrong contents, counts as a failure.</li>
+      <li><strong>Make the bait file.</strong> Right-click empty Desktop → <span class="nav">New</span> → <span class="nav">Text Document</span>, name it <code>restore-test.txt</code>. Open it, type the current clock time (<code>14:07 test</code>), save, close. Real text matters: an empty file can come back empty and teach you nothing.</li>
+      <li><strong>Run the script.</strong> Plug in <span class="path">G:</span>, double-click <code>weekly-archive.bat</code>, wait for <em>Finished</em>, press a key to close the window.</li>
+      <li><strong>Destroy the original.</strong> Delete <code>restore-test.txt</code> from the Desktop, then right-click <span class="nav">Recycle Bin</span> → <span class="nav">Empty Recycle Bin</span> → <span class="nav">Yes</span>. Skip the emptying and the file is still on C:, so the test proves nothing about G:.</li>
+      <li><strong>Restore it.</strong> Open File Explorer → <span class="path">G:\Backup\</span> → today’s dated folder → <span class="path">Desktop\</span>. <code>restore-test.txt</code> is sitting there. Copy it, paste it back on the Desktop. That is the restore.</li>
+      <li><strong>Confirm. <span class="chip verify">verify</span></strong> Open it. It shows the clock time you typed in step 1. A file that comes back empty, or carrying the wrong contents, counts as a failure.</li>
     </ol>
-    <div class="note stop"><p><strong>File doesn't come back = you have no backup.</strong> Stop here. Everything downstream assumes this passed. Tell me which numbered step broke and what the screen said. The fix differs depending on whether File History never ran, ran to the wrong drive, or ran without covering the Desktop.</p></div>
+    <div class="note stop"><p><strong>File doesn’t come back = you have no backup.</strong> Stop here. Everything downstream assumes this passed. Tell me which numbered step broke and what the screen said.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a4"></label><div class="step-n">A4</div><div class="step-b">
-    <h3>Game saves - find, don't guess</h3>
-    <p>Steam Cloud as third copy: <span class="nav">Steam → Settings → Cloud</span>, then per game <span class="nav">Properties → General</span>. Quotas apply, treat as bonus.</p>
-    <p><strong>Locate the real folder:</strong> play 2 min → save → quit → sort by <em>Date modified</em> in <span class="path">Steam\userdata\</span>, <span class="path">Documents\</span>, and <span class="path">%LOCALAPPDATA%</span>. The one that changed is yours.</p>
-    <p>Then: Include in library (hourly cover) + manual copy to Drive B now. <span class="chip verify">verify</span> timestamps on the Drive B copy match the session you just played.</p>
+    <h3>Game saves: locate, then wire in</h3>
+    <p><strong>Find the real folder.</strong> Play 2 minutes → save → quit → sort by <em>Date modified</em> inside <span class="path">Steam\userdata\</span>, <span class="path">Documents\</span>, and <span class="path">%LOCALAPPDATA%</span>. The folder that changed in the last five minutes is yours. Guessing from a wiki gets the wrong folder often enough to be worth these two minutes.</p>
+    <p><strong>Wire it in.</strong> Right-click <code>weekly-archive.bat</code> → <span class="nav">Edit</span> (or <span class="nav">Open with → Notepad</span>). Find the line starting <code>rem robocopy "PASTE_SAVE_FOLDER_HERE"</code>. Replace the placeholder with your folder path, then delete the leading <code>rem </code> so the line runs. Save.</p>
+    <p>Run the script. <span class="chip verify">verify</span> that <span class="path">G:\Backup\<em>today</em>\Saves\</span> exists and the file timestamps in it match the session you just played.</p>
+    <div class="note"><p>Steam Cloud is a fine third copy where a game supports it (<span class="nav">Steam → Settings → Cloud</span>, then per game <span class="nav">Properties → General</span>), but quotas apply and coverage is per-game. Treat it as a bonus, never as the backup.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a5"></label><div class="step-n">A5</div><div class="step-b">
-    <h3>Weekly archive script</h3>
-    <p>Save to Desktop as <code>weekly-archive.bat</code>, <span class="nav">Save as type: All Files</span>. One line per folder, including the save folder from A4.</p>
-<pre><code>@echo off
-robocopy "C:\Users\YOURNAME\Documents" "E:\Archive\Documents" /MIR /R:1 /W:1 /XJ
-robocopy "C:\Users\YOURNAME\Pictures"  "E:\Archive\Pictures"  /MIR /R:1 /W:1 /XJ
-echo. &amp; echo Done. Check errors above, then unplug.
-pause</code></pre>
-    <p><code>/MIR</code> mirror · <code>/R:1 /W:1</code> retry once not a million times · <code>/XJ</code> skip junctions, avoids infinite loop.</p>
-    <div class="note"><p><code>/MIR</code> propagates deletions. Drive B alone won't save you from a deletion you miss for a week - that gap is what File History's versions cover. Two mechanisms, each covering the other's blind spot.</p></div>
-    <p><strong>Unplug Drive B when done.</strong> Phone reminder, Sundays. The script is reliable; remembering isn't.</p>
+    <h3>Cadence and retention</h3>
+    <p><strong>Sunday, phone reminder.</strong> Plug in G:, double-click, wait, unplug. The script is reliable; remembering is the part that fails, so put it in the phone rather than in your head.</p>
+    <p><strong>Growth:</strong> a full copy every week at your A1 size of megabytes lands in single-digit gigabytes a year. On a 750 GB disk that is years of runway before you have to think about it.</p>
+    <p><strong>Retention</strong> is manual and deliberately dumb: when the drive fills, open <span class="path">G:\Backup\</span> and delete whole dated folders, oldest first, in Explorer. Nothing indexes them, nothing points at them, so nothing breaks. No script deletes anything on your behalf.</p>
+    <div class="note"><p><strong>Unplug G: when the run finishes.</strong> A drive that is not connected cannot be encrypted by ransomware, wiped by a bad command, or written to by anything running as <code>jep</code> in phase B. That disconnection is doing as much work as the copying is.</p></div>
   </div></div>
 </section>
 
@@ -441,7 +473,7 @@ pause</code></pre>
 </section>
 
 <footer class="foot">
-  <p>Two things are deliberately unasserted and marked <span class="chip check" style="margin-left:0">check first</span>: File History's state on your build, and where your saves actually live. Confirm both at the machine.</p>
+  <p>One thing is deliberately unasserted and marked <span class="chip check" style="margin-left:0">check first</span>: where your game saves actually live. Confirm it at the machine, in A4.</p>
   <p>Ticks are stored in this browser only.</p>
   <button class="reset" id="reset">Clear all ticks</button>
 </footer>
