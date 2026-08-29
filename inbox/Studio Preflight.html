@@ -81,6 +81,12 @@
   .step-b p:last-child { margin-bottom:0; }
   .step-b ul { margin:5px 0; padding-left:1.05em; max-width:66ch; }
   .step-b li { margin-bottom:3px; }
+  .step-b ol.sub { margin:9px 0 0; padding-left:1.5em; max-width:68ch; }
+  .step-b ol.sub > li { margin-bottom:13px; padding-left:2px; }
+  .step-b ol.sub > li:last-child { margin-bottom:0; }
+  .step-b ol.sub > li::marker { font-family:var(--f-mono); font-size:12px; font-weight:600; color:var(--accent); }
+  .step-b ol.sub p { margin:7px 0 0; max-width:66ch; }
+  .step-b ol.sub .note { margin:8px 0 0; }
 
   label.box { display:block; width:17px; height:17px; margin-top:3px; border:1.5px solid var(--rule-2); border-radius:3px; background:var(--surface); cursor:pointer; position:relative; }
   label.box input { position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; }
@@ -177,8 +183,8 @@
     <h3>Inventory + label two drives</h3>
     <p>Test: could you re-download it? Games no, saves yes. List the irreplaceable in Notepad. Expect megabytes, not gigabytes.</p>
     <ul>
-      <li><strong>Drive A · Daily</strong> — stays connected, File History target.</li>
-      <li><strong>Drive B · Archive</strong> — stays unplugged except weekly. Immune to software while disconnected.</li>
+      <li><strong>Drive A · Daily</strong> - stays connected, File History target.</li>
+      <li><strong>Drive B · Archive</strong> - stays unplugged except weekly. Immune to software while disconnected.</li>
     </ul>
   </div></div>
 
@@ -191,12 +197,35 @@
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a3"></label><div class="step-n">A3</div><div class="step-b">
     <h3>Restore test <span class="chip verify">verify</span></h3>
-    <p>Create <code>restore-test.txt</code> on Desktop → Run now → delete it → empty Recycle Bin → <span class="nav">Restore personal files</span> → scrub back → restore.</p>
-    <div class="note stop"><p><strong>File doesn't come back = you have no backup.</strong> Stop here. Everything downstream assumes this passed.</p></div>
+    <p>The one step that proves the backup can hand a file back. Allow 15 minutes; most of it is waiting inside step 2.</p>
+    <p><strong>Where you are working:</strong> the Control Panel window titled <span class="nav">File History</span> from A2. Reopen it with <kbd>Win</kbd> → type <span class="nav">File History</span> → <kbd>Enter</kbd>. Every control named below sits in that window or in a window it opens. Nothing here is typed at a command line.</p>
+    <ol class="sub">
+      <li><strong>Make the bait file.</strong> Right-click empty Desktop → <span class="nav">New</span> → <span class="nav">Text Document</span>, name it <code>restore-test.txt</code>. Open it, type the current clock time (<code>14:07 test</code>), save, close. Put real text in it: an empty file can come back empty and you learn nothing from that.</li>
+
+      <li><strong>Force a backup with the <span class="nav">Run now</span> link.</strong> In the File History window the large right-hand panel shows your Drive A and a line reading <span class="nav">Files last copied on <em>date</em></span>. Immediately under that line is a blue text link, <span class="nav">Run now</span>. Click it.
+        <div class="note"><p><strong>What <span class="nav">Run now</span> runs is File History itself.</strong> Your <code>.txt</code> stays a text file; text files hold no instructions, so Windows has nothing to execute in one. The word <em>now</em> is Microsoft's own button label, and it earns its place: File History otherwise waits for its next hourly cycle, so a file you created two minutes ago is not on Drive A yet. <span class="nav">Run now</span> jumps that queue. Without it you would sit for up to an hour before the rest of this step could work.</p></div>
+        <p><strong>Then wait.</strong> The link changes to <span class="nav">Stop</span> and the status text reads <em>File History is saving copies of your files</em>. It has finished when the link reads <span class="nav">Run now</span> again <em>and</em> the date line shows today at a time inside the last minute. A first run onto an empty drive can take 20 minutes or more. Do not start step 3 until that timestamp is current.</p>
+      </li>
+
+      <li><strong>Destroy the original.</strong> Delete <code>restore-test.txt</code> from the Desktop, then right-click <span class="nav">Recycle Bin</span> → <span class="nav">Empty Recycle Bin</span> → <span class="nav">Yes</span>. Skip the emptying and the file is still sitting on your C: drive, so the test proves nothing about Drive A.</li>
+
+      <li><strong>Open the restore browser: <span class="nav">Restore personal files</span>.</strong> Back in the File History window, look at the narrow sidebar down the left edge. It holds four links, top to bottom: <span class="nav">Restore personal files</span>, <span class="nav">Select drive</span>, <span class="nav">Exclude folders</span>, <span class="nav">Advanced settings</span>. Click the first one. A separate window opens, titled <span class="nav">Home - File History</span>, showing large folder tiles (Desktop, Documents, Pictures) instead of a normal Explorer list. This window shows what is on Drive A, at each point in time File History captured it.
+        <div class="note"><p><strong>No such link in the sidebar?</strong> File History is off or has no drive selected. Go back to A2 and finish it before retrying.</p></div>
+      </li>
+
+      <li><strong>Find the file, scrubbing back if you must.</strong> Double-click the <span class="nav">Desktop</span> tile. If <code>restore-test.txt</code> is listed, go to step 6.
+        <div class="note"><p><strong>Not listed?</strong> You are looking at the newest snapshot, which File History may have taken after you deleted the file. At the bottom centre of the window sits a round green button, with a left arrow to its left and a right arrow to its right, and above them a line like <em>Tuesday 26 August 2026 14:08 · 2 of 2</em>. The left arrow steps one snapshot backwards in time. That is what "scrub back" meant. Click it until the counter drops (<em>2 of 2</em> → <em>1 of 2</em>) and <code>restore-test.txt</code> appears in the tiles.</p></div>
+      </li>
+
+      <li><strong>Restore it with the green button.</strong> Single-click <code>restore-test.txt</code> so it is highlighted, then click the <strong>round green button at the bottom centre</strong>. It carries a white circular arrow and no text; hovering it shows <span class="nav">Restore to original location</span>. That click is the restore. If Windows raises a <span class="nav">Replace or Skip Files</span> dialog, choose <span class="nav">Replace the file in the destination</span>.</li>
+
+      <li><strong>Confirm on the Desktop.</strong> <span class="chip verify">verify</span> <code>restore-test.txt</code> is back on the Desktop <em>and</em> opening it shows the clock time you typed in step 1. A file that returns empty, or carrying the wrong contents, counts as a failure.</li>
+    </ol>
+    <div class="note stop"><p><strong>File doesn't come back = you have no backup.</strong> Stop here. Everything downstream assumes this passed. Tell me which numbered step broke and what the screen said. The fix differs depending on whether File History never ran, ran to the wrong drive, or ran without covering the Desktop.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="a4"></label><div class="step-n">A4</div><div class="step-b">
-    <h3>Game saves — find, don't guess</h3>
+    <h3>Game saves - find, don't guess</h3>
     <p>Steam Cloud as third copy: <span class="nav">Steam → Settings → Cloud</span>, then per game <span class="nav">Properties → General</span>. Quotas apply, treat as bonus.</p>
     <p><strong>Locate the real folder:</strong> play 2 min → save → quit → sort by <em>Date modified</em> in <span class="path">Steam\userdata\</span>, <span class="path">Documents\</span>, and <span class="path">%LOCALAPPDATA%</span>. The one that changed is yours.</p>
     <p>Then: Include in library (hourly cover) + manual copy to Drive B now. <span class="chip verify">verify</span> timestamps on the Drive B copy match the session you just played.</p>
@@ -211,7 +240,7 @@ robocopy "C:\Users\YOURNAME\Pictures"  "E:\Archive\Pictures"  /MIR /R:1 /W:1 /XJ
 echo. &amp; echo Done. Check errors above, then unplug.
 pause</code></pre>
     <p><code>/MIR</code> mirror · <code>/R:1 /W:1</code> retry once not a million times · <code>/XJ</code> skip junctions, avoids infinite loop.</p>
-    <div class="note"><p><code>/MIR</code> propagates deletions. Drive B alone won't save you from a deletion you miss for a week — that gap is what File History's versions cover. Two mechanisms, each covering the other's blind spot.</p></div>
+    <div class="note"><p><code>/MIR</code> propagates deletions. Drive B alone won't save you from a deletion you miss for a week - that gap is what File History's versions cover. Two mechanisms, each covering the other's blind spot.</p></div>
     <p><strong>Unplug Drive B when done.</strong> Phone reminder, Sundays. The script is reliable; remembering isn't.</p>
   </div></div>
 </section>
@@ -248,19 +277,19 @@ pause</code></pre>
   <div class="phase-bar"><h2>C · Install</h2><span class="when">Signed in as jep · native Windows, no WSL2</span></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c1"></label><div class="step-n">C1</div><div class="step-b">
-    <h3>Prerequisites — two things</h3>
+    <h3>Prerequisites - two things</h3>
     <p><strong>Node.js ≥ 22.19</strong> and <strong>Git for Windows</strong> (Pi uses Git Bash as its shell). Both ordinary user-space installers. Neither is a service or a driver.</p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c2"></label><div class="step-n">C2</div><div class="step-b">
-    <h3>Pi — 147 MB, no daemon</h3>
+    <h3>Pi - 147 MB, no daemon</h3>
 <pre><code>npm install -g --ignore-scripts @earendil-works/pi-coding-agent</code></pre>
     <p>No postinstall scripts, no service, no startup entry, no Task Scheduler task. Runs only while the terminal is open. State lives in <span class="path">~/.pi/agent/</span>. <code>PI_OFFLINE=1</code> kills all startup network calls.</p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c3"></label><div class="step-n">C3</div><div class="step-b">
     <h3>Set the three modes</h3>
-    <p>Pi ships with all permissions and no sandbox, by design. You don't need to read commands — you need to know what a session <em>can</em> do. Set <code>defaultTools</code> in <span class="path">~/.pi/agent/settings.json</span>.</p>
+    <p>Pi ships with all permissions and no sandbox, by design. You don't need to read commands - you need to know what a session <em>can</em> do. Set <code>defaultTools</code> in <span class="path">~/.pi/agent/settings.json</span>.</p>
     <div class="tw"><table>
       <thead><tr><th>Mode</th><th>Tools</th><th>Ceiling</th></tr></thead>
       <tbody>
@@ -269,19 +298,19 @@ pause</code></pre>
         <tr><td>Full</td><td class="num">+ bash</td><td>Real teeth. Only when actually building</td></tr>
       </tbody>
     </table></div>
-    <p>Read-only is the default for exploring and analysis. Nothing to approve, because the capability isn't loaded. Add a maintained <code>tool_call</code> guard extension as a backstop — a speed bump, never the wall.</p>
+    <p>Read-only is the default for exploring and analysis. Nothing to approve, because the capability isn't loaded. Add a maintained <code>tool_call</code> guard extension as a backstop - a speed bump, never the wall.</p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c4"></label><div class="step-n">C4</div><div class="step-b">
-    <h3>ComfyUI — main session, not <code>jep</code></h3>
+    <h3>ComfyUI - main session, not <code>jep</code></h3>
     <p>Comfy Desktop or portable, Windows native, Python 3.13, CUDA first-class. App ~5–10 GB. <strong>Run it in your main account</strong>, where the GPU session lives.</p>
-    <div class="note"><p>Loopback isn't user-scoped, so <code>jep</code> reaches it at <span class="path">127.0.0.1:8188</span>. Fetch results through the API, never the filesystem — then <code>jep</code> never needs read access to any of your folders. <strong>ComfyUI has zero authentication.</strong> Loopback only. From the laptop, SSH tunnel. Never port-forward.</p></div>
+    <div class="note"><p>Loopback isn't user-scoped, so <code>jep</code> reaches it at <span class="path">127.0.0.1:8188</span>. Fetch results through the API, never the filesystem - then <code>jep</code> never needs read access to any of your folders. <strong>ComfyUI has zero authentication.</strong> Loopback only. From the laptop, SSH tunnel. Never port-forward.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c5"></label><div class="step-n">C5</div><div class="step-b">
     <h3>One model + one upscaler</h3>
-    <p><strong>Z-Image-Turbo</strong> — 6B, Apache 2.0, ungated, ~10 GB, 10–13 GB VRAM, 8 steps.</p>
-    <p><strong>2x-ModernSpanimationV1</strong> — MIT, <span class="num">9 MB</span>, under 1 GB VRAM, 0.003 s/MP. Anime-trained, so it sharpens flat art instead of injecting skin pores into it.</p>
+    <p><strong>Z-Image-Turbo</strong> - 6B, Apache 2.0, ungated, ~10 GB, 10–13 GB VRAM, 8 steps.</p>
+    <p><strong>2x-ModernSpanimationV1</strong> - MIT, <span class="num">9 MB</span>, under 1 GB VRAM, 0.003 s/MP. Anime-trained, so it sharpens flat art instead of injecting skin pores into it.</p>
     <p>With ComfyUI that's <strong>~20 GB total</strong>. Smaller than one game patch. Everything else waits for a real need.</p>
   </div></div>
 </section>
@@ -292,16 +321,16 @@ pause</code></pre>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d1"></label><div class="step-n">D1</div><div class="step-b">
     <h3>One DECADEnts portrait</h3>
-    <p>Pull one entry from the Character Visual Dictionary you wrote in December — the 1990s CRT-head or the 2020s toddler — and render it in that decade's own film stock. By hand in ComfyUI. No Pi, no automation, no workflow.</p>
+    <p>Pull one entry from the Character Visual Dictionary you wrote in December - the 1990s CRT-head or the 2020s toddler - and render it in that decade's own film stock. By hand in ComfyUI. No Pi, no automation, no workflow.</p>
     <p>Looks right → you know more than any further research could tell you. Looks wrong → you spent 20 GB and an evening.</p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d1b"></label><div class="step-n">D2</div><div class="step-b">
     <h3>Refine the winner, not every candidate</h3>
     <p>Compute buys the texture half of the quality gap and none of the decision half. So the leverage is <strong>generate many, select one, refine that one</strong>. Candidates are cheap at 8 steps. Refinement is the expensive pass, and it only pays on an image whose composition is already right.</p>
-    <p>Chain, all permissive: <strong>Detail-Daemon</strong> (MIT, no model — amount 0.1–1.0, start 0.1–0.3, end 0.7–0.9) → <strong>2x pixel upscale</strong> with the anime-trained model → <strong>Ultimate SD Upscale</strong>, tile 1024, mask blur 8–16, padding 32, <strong>denoise 0.15–0.30</strong>, 12–20 steps, seam fix "Half Tile + Intersections".</p>
+    <p>Chain, all permissive: <strong>Detail-Daemon</strong> (MIT, no model - amount 0.1–1.0, start 0.1–0.3, end 0.7–0.9) → <strong>2x pixel upscale</strong> with the anime-trained model → <strong>Ultimate SD Upscale</strong>, tile 1024, mask blur 8–16, padding 32, <strong>denoise 0.15–0.30</strong>, 12–20 steps, seam fix "Half Tile + Intersections".</p>
     <p>Watchdog: if ComfyUI's console logs <em>"support for non commercial upscale models"</em>, its loader has picked up <code>spandrel_extra_arches</code> and a restricted architecture is in play. The base <code>spandrel</code> package ships permissive architectures only.</p>
-    <div class="note"><p><strong>Denoise above 0.35 redraws linework and drifts the style.</strong> That is the single setting that ruins stylised art. For faces, use Impact Pack FaceDetailer with your own base model. Never GFPGAN or CodeFormer — both are non-commercial and both are tuned on photographs.</p></div>
+    <div class="note"><p><strong>Denoise above 0.35 redraws linework and drifts the style.</strong> That is the single setting that ruins stylised art. For faces, use Impact Pack FaceDetailer with your own base model. Never GFPGAN or CodeFormer - both are non-commercial and both are tuned on photographs.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d2"></label><div class="step-n">D3</div><div class="step-b">
@@ -313,7 +342,7 @@ pause</code></pre>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d3"></label><div class="step-n">D4</div><div class="step-b">
     <h3>Rule of three</h3>
-    <p>Nothing new gets installed — model, extension, skill, subagent — until the same friction has bitten three times. First two weeks: zero config.</p>
+    <p>Nothing new gets installed - model, extension, skill, subagent - until the same friction has bitten three times. First two weeks: zero config.</p>
   </div></div>
 </section>
 
@@ -329,9 +358,9 @@ pause</code></pre>
       <tr><td>Stills</td><td>Z-Image-Turbo</td><td class="lic">Apache</td><td class="num">10 GB · 13 GB VRAM</td><td>Day one</td></tr>
       <tr><td>Same character twice</td><td>Qwen-Image-Edit-2511</td><td class="lic">Apache</td><td class="num">~28 GB fp8</td><td>Second appearance of any character</td></tr>
       <tr><td>Wider stills</td><td>Qwen-Image-2512</td><td class="lic">Apache</td><td class="num">~20 GB fp8</td><td>Z-Image quality ceiling hit</td></tr>
-      <tr><td>Character voices</td><td>Maya1 — designs a voice from a written description, no cloning</td><td class="lic">Apache</td><td class="num">16 GB+ VRAM</td><td>First line of dialogue</td></tr>
+      <tr><td>Character voices</td><td>Maya1 - designs a voice from a written description, no cloning</td><td class="lic">Apache</td><td class="num">16 GB+ VRAM</td><td>First line of dialogue</td></tr>
       <tr><td>Foley</td><td>MOSS-SoundEffect-v2.0</td><td class="lic">Apache</td><td class="num">11.2 GB</td><td>First scene needing a door</td></tr>
-      <tr><td>Music</td><td>ACE-Step v1.5 XL — licensed/PD/synthetic training data, cleanest provenance available</td><td class="lic">MIT</td><td class="num">~20 GB VRAM</td><td>Theme tune</td></tr>
+      <tr><td>Music</td><td>ACE-Step v1.5 XL - licensed/PD/synthetic training data, cleanest provenance available</td><td class="lic">MIT</td><td class="num">~20 GB VRAM</td><td>Theme tune</td></tr>
       <tr><td>Video lab</td><td>Wan 2.2 + Wan Animate 2</td><td class="lic">Apache</td><td class="num">300–500 GB</td><td>Month three, for LoRA on your own characters</td></tr>
       <tr><td>3D props</td><td>TRELLIS.2 / Pixal3D</td><td class="lic">MIT</td><td class="num">24 GB VRAM</td><td>Renders only. Triangle soup, needs retopo</td></tr>
     </tbody>
@@ -348,7 +377,7 @@ pause</code></pre>
       <tr><td>Compact animevideo-v3</td><td class="lic">BSD-3</td><td class="num">0.0014</td><td class="num">0.20 GB</td><td class="num">2.4 MB</td><td>Fastest. Video frames</td></tr>
       <tr><td>SPAN 4x-spanx4-ch48</td><td class="lic">Apache</td><td class="num">0.0025</td><td class="num">0.65 GB</td><td class="num">9 MB</td><td>Cheap general 4x</td></tr>
       <tr><td>4x-NMKD-Siax-CX<br>4x_NMKD-Superscale</td><td class="lic">WTFPL</td><td class="num">0.058</td><td class="num">2.48 GB</td><td class="num">63.9 MB</td><td><strong>Drop-in for UltraSharp / Remacri.</strong> Same arch, same size, identical speed</td></tr>
-      <tr><td>RealESRGAN x4plus anime 6B</td><td class="lic">BSD-3</td><td class="num">unmeasured</td><td class="num">—</td><td class="num">17.1 MB</td><td>Anime, tiny</td></tr>
+      <tr><td>RealESRGAN x4plus anime 6B</td><td class="lic">BSD-3</td><td class="num">unmeasured</td><td class="num">n/a</td><td class="num">17.1 MB</td><td>Anime, tiny</td></tr>
       <tr><td>Real-CUGAN</td><td class="lic">MIT</td><td class="num">~1.1 /s vid</td><td class="num">12.7 GB</td><td class="num">~50 MB</td><td>Anime, heavier</td></tr>
       <tr><td>4x-Valar · PBRify</td><td class="lic">CC0</td><td class="num">0.058–0.71</td><td class="num">2.5–3.9 GB</td><td class="num">64–134 MB</td><td>Zero-condition licence</td></tr>
       <tr><td>DAT-2</td><td class="lic">Apache</td><td class="num">0.71</td><td class="num">3.9 GB</td><td class="num">134 MB</td><td>General quality</td></tr>
@@ -357,14 +386,14 @@ pause</code></pre>
       <tr><td>SeedVR2-3B</td><td class="lic">Apache</td><td class="num">unmeasured</td><td class="num">10–16 GB</td><td class="num">10–16 GB</td><td>Video temporal consistency</td></tr>
     </tbody>
   </table></div>
-  <p style="margin-top:8px">Every GAN upscaler above totals <strong>~1.5 GB</strong> and coexists in VRAM with a loaded generator. DRCT-L, HAT-L, SeedVR2 and any tiled-diffusion pass need the generator unloaded first. <strong>HAT-L is the VRAM trap</strong> — Apache-licensed, 10.4 GB against DRCT-L's 6.4 GB, so it tiles first on 24 GB.</p>
+  <p style="margin-top:8px">Every GAN upscaler above totals <strong>~1.5 GB</strong> and coexists in VRAM with a loaded generator. DRCT-L, HAT-L, SeedVR2 and any tiled-diffusion pass need the generator unloaded first. <strong>HAT-L is the VRAM trap</strong> - Apache-licensed, 10.4 GB against DRCT-L's 6.4 GB, so it tiles first on 24 GB.</p>
   <div class="note"><p><strong>Read the VRAM column with care.</strong> Those figures come from a 4090 benchmark at 480×640 input, which is 0.31 MP. A 1024² input is 3.4× larger and attention memory does not scale linearly, so real usage will be higher and was not extrapolated.</p></div>
 
   <h3>Ruled out, and exactly why</h3>
   <div class="tw"><table>
     <thead><tr><th>Model</th><th>Reason</th></tr></thead>
     <tbody>
-      <tr><td>MiniMax H3</td><td><span class="lic bad">territory</span> Excluded Territories = EU, UK, South Korea, <strong>USA</strong> — and the clause binds the <em>outputs</em>, not just the weights. Plus $20M cap, UI attribution, no using outputs to train other models.</td></tr>
+      <tr><td>MiniMax H3</td><td><span class="lic bad">territory</span> Excluded Territories = EU, UK, South Korea, <strong>USA</strong> - and the clause binds the <em>outputs</em>, not just the weights. Plus $20M cap, UI attribution, no using outputs to train other models.</td></tr>
       <tr><td>MiniMax Music 3</td><td><span class="lic bad">attribution</span> Must display "MiniMax-Music3" in your interface. $20M revenue cap.</td></tr>
       <tr><td>LTX-2.5</td><td><span class="lic bad">gated</span> Contact-info form. Mirrors exist; the licence follows them. No published 4090 timing from any source.</td></tr>
       <tr><td>Krea 2 · Kroma</td><td><span class="lic bad">community</span> Krea community licence. Kroma inherits it through Krea's encoder.</td></tr>
@@ -373,11 +402,11 @@ pause</code></pre>
       <tr><td>Stable Audio 3</td><td><span class="lic bad">revenue</span> Free under $1M only. The ungated Comfy mirror doesn't change the terms.</td></tr>
       <tr><td>Mage-Flow</td><td><span class="lic bad">provenance</span> Microsoft repo now 401s. Mirrors carry MIT as a metadata tag with no licence file. Ambiguous by definition.</td></tr>
       <tr><td>TTS-Audio-Suite</td><td><span class="lic bad">wrapper</span> MIT pack, 19 engines, several non-commercial. A permissive wrapper doesn't launder what's inside.</td></tr>
-      <tr><td>Every famous upscaler</td><td><span class="lic bad">non-commercial</span> 4x-UltraSharp + V2, Remacri, AnimeSharp, 2x-AnimeSharp V2–V4, IllustrationJaNai. Of OpenModelDB's 671 models: <strong>41.7% non-commercial, 20.4% attribution, 29.8% permissive, 4% unstated</strong>. The tutorial defaults are the disqualified ones — <strong>swap in NMKD Siax or Superscale, identical architecture and speed at zero cost</strong>.</td></tr>
+      <tr><td>Every famous upscaler</td><td><span class="lic bad">non-commercial</span> 4x-UltraSharp + V2, Remacri, AnimeSharp, 2x-AnimeSharp V2–V4, IllustrationJaNai. Of OpenModelDB's 671 models: <strong>41.7% non-commercial, 20.4% attribution, 29.8% permissive, 4% unstated</strong>. The tutorial defaults are the disqualified ones - <strong>swap in NMKD Siax or Superscale, identical architecture and speed at zero cost</strong>.</td></tr>
       <tr><td>Aggregator repos</td><td><span class="lic bad">mislabelled</span> HuggingFace <code>uwg/upscaler</code> is tagged <code>license: mit</code> while shipping UltraSharp and Remacri. Check the individual model, never the repo tag. Conversely SPAN and ATD look unstated via GitHub's API but are genuinely Apache-2.0 in <code>LICENSE.txt</code>.</td></tr>
       <tr><td>SUPIR</td><td><span class="lic bad">non-commercial</span> Custom SupPixel licence, weights separately proprietary. The headline restoration model, unusable.</td></tr>
       <tr><td>GFPGAN · CodeFormer</td><td><span class="lic bad">inherited</span> CodeFormer is S-Lab NC. GFPGAN's Apache shell sits on a StyleGAN2 prior under NVIDIA's non-commercial terms. Use FaceDetailer with your own model instead.</td></tr>
-      <tr><td>ComfyUI-TiledDiffusion</td><td><span class="lic bad">non-commercial</span> Core code CC-BY-NC-SA-4.0. Use Ultimate SD Upscale or TiledKSampler — both GPL-3.0, which binds code and places no condition on outputs.</td></tr>
+      <tr><td>ComfyUI-TiledDiffusion</td><td><span class="lic bad">non-commercial</span> Core code CC-BY-NC-SA-4.0. Use Ultimate SD Upscale or TiledKSampler - both GPL-3.0, which binds code and places no condition on outputs.</td></tr>
       <tr><td>GIMM-VFI · AMT · STAR</td><td><span class="lic bad">NC / none</span> S-Lab, non-commercial, and STAR ships no licence file at all. RIFE and FILM replace them cleanly.</td></tr>
     </tbody>
   </table></div>
@@ -395,7 +424,7 @@ pause</code></pre>
   </div>
 
   <h3>Video, honestly</h3>
-  <p style="margin-top:6px">Within a clip under 5 s: solved. Across clips: the wall. Hosted currently wins decisively, and Wan 3.0 shipped API-only, so the frontier closed again. Check whether your Google plan includes Flow before spending a weekend locally. Local earns its place for one thing money can't buy — a LoRA trained on <em>your</em> characters, so the CRT-head is reliably that CRT-head.</p>
+  <p style="margin-top:6px">Within a clip under 5 s: solved. Across clips: the wall. Hosted currently wins decisively, and Wan 3.0 shipped API-only, so the frontier closed again. Check whether your Google plan includes Flow before spending a weekend locally. Local earns its place for one thing money can't buy - a LoRA trained on <em>your</em> characters, so the CRT-head is reliably that CRT-head.</p>
   <p style="margin-top:6px"><strong>Finishable:</strong> a 60–90 s stylised piece. <strong>Not finishable:</strong> a dialogue scene, any held shot past 5 s, a recurring photoreal human, the trilogy. DECADEnts is on the right side of that line by design, not by luck.</p>
 
   <h3>Standing rules</h3>
