@@ -1176,3 +1176,4 @@
 {"ts":"2026-08-28T06:17:50Z","tool":"Edit","path":"/home/jep/.claude/jobs/64bcca96/tmp/husky-card.html","decision":"allow","reason":"not-denied","session":"64bcca96-964d-4ad3-95ab-7fd0935bb9a7"}
 {"ts":"2026-08-28T06:17:52Z","tool":"Edit","path":"/home/jep/.claude/jobs/64bcca96/tmp/husky-card.html","decision":"allow","reason":"not-denied","session":"64bcca96-964d-4ad3-95ab-7fd0935bb9a7"}
 {"ts":"2026-08-28T06:17:54Z","tool":"Edit","path":"/home/jep/.claude/jobs/64bcca96/tmp/husky-card.html","decision":"allow","reason":"not-denied","session":"64bcca96-964d-4ad3-95ab-7fd0935bb9a7"}
+{"ts":"2026-08-29T09:58:12Z","tool":"Write","path":"/home/jep/.claude/jobs/1c021f98/tmp/harness-brief.html","decision":"allow","reason":"not-denied","session":"1c021f98-20fe-42e1-8f92-54a05f2c31fa"}
