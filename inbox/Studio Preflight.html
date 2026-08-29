@@ -306,44 +306,103 @@ pause</code></pre>
 
 <!-- PHASE C -->
 <section class="phase">
-  <div class="phase-bar"><h2>C · Install</h2><span class="when">Signed in as jep · native Windows, no WSL2</span></div>
+  <div class="phase-bar"><h2>C · Install</h2><span class="when">Pi as jep · ComfyUI in your main account · native Windows, no WSL2</span></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c1"></label><div class="step-n">C1</div><div class="step-b">
-    <h3>Prerequisites - two things</h3>
-    <p><strong>Node.js ≥ 22.19</strong> and <strong>Git for Windows</strong> (Pi uses Git Bash as its shell). Both ordinary user-space installers. Neither is a service or a driver.</p>
+    <h3>Prerequisites: check first, install only what is missing</h3>
+    <p>Two pieces, both ordinary user-space installers. Neither is a service or a driver. Do this <strong>signed in as <code>jep</code></strong>, because that is the account Pi will run in.</p>
+    <p>Open a terminal: <kbd>Win</kbd> → type <span class="nav">cmd</span> → <kbd>Enter</kbd>. Run each check, then act on what it prints.</p>
+<pre><code>node --version
+git --version</code></pre>
+    <div class="tw"><table>
+      <thead><tr><th>What it prints</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr><td><code>v22.19.0</code> or higher</td><td>Node is fine, move on</td></tr>
+        <tr><td>A lower number</td><td>Install the current LTS from <span class="path">nodejs.org</span>. It upgrades in place</td></tr>
+        <tr><td><code>'node' is not recognized</code></td><td>Node is absent. Install the current LTS from <span class="path">nodejs.org</span></td></tr>
+        <tr><td><code>git version 2.x</code></td><td>Git is fine, move on</td></tr>
+        <tr><td><code>'git' is not recognized</code></td><td>Install Git for Windows from <span class="path">git-scm.com</span>, accepting every default</td></tr>
+      </tbody>
+    </table></div>
+    <p>After either install, <strong>close the terminal and open a new one</strong>, then re-run the check. A terminal reads <code>PATH</code> once at startup, so an old window will keep reporting the old answer.</p>
+    <div class="note"><p>Pi runs its shell commands through Git Bash on Windows, which is why Git is a requirement rather than a nicety. Nothing here asks you to use Git yourself.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c2"></label><div class="step-n">C2</div><div class="step-b">
-    <h3>Pi - 147 MB, no daemon</h3>
+    <h3>Install Pi, then find its folder</h3>
 <pre><code>npm install -g --ignore-scripts @earendil-works/pi-coding-agent</code></pre>
-    <p>No postinstall scripts, no service, no startup entry, no Task Scheduler task. Runs only while the terminal is open. State lives in <span class="path">~/.pi/agent/</span>. <code>PI_OFFLINE=1</code> kills all startup network calls.</p>
+    <p><code>--ignore-scripts</code> blocks any install-time script a package might carry. Pi ships none, so this costs nothing and closes a common supply-chain route. Roughly 147 MB. No service, no startup entry, no Task Scheduler task; Pi runs only while a terminal is open.</p>
+    <p><strong>Confirm it landed:</strong></p>
+<pre><code>pi --version</code></pre>
+    <p>A version number means you are done. <code>'pi' is not recognized</code> means npm’s global folder is not on <code>PATH</code>: close the terminal, open a new one, try again.</p>
+    <p><strong>Create the config folder</strong> by running Pi once. Type <code>pi</code>, press <kbd>Enter</kbd>, wait for it to start, then type <code>/exit</code> and press <kbd>Enter</kbd>. That first run writes the folder you will edit in C3.</p>
+    <p><strong>Where that folder is.</strong> The docs write it as <code>~/.pi/agent/</code>. The <code>~</code> means "the signed-in user’s home folder", so on your machine, signed in as <code>jep</code>, it is:</p>
+<pre><code>C:\Users\jep\.pi\agent\</code></pre>
+    <p>To open it without hunting: press <kbd>Win</kbd>+<kbd>E</kbd> for File Explorer, click the <strong>address bar</strong> at the top, type the line below, press <kbd>Enter</kbd>.</p>
+<pre><code>%USERPROFILE%\.pi\agent</code></pre>
+    <div class="note"><p>Folders whose name starts with a dot are ordinary folders that some tools hide by convention. If <span class="path">.pi</span> seems missing, turn on <span class="nav">View → Show → Hidden items</span> in Explorer. While you are there also turn on <span class="nav">View → Show → File name extensions</span>, which you will need in C3.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c3"></label><div class="step-n">C3</div><div class="step-b">
-    <h3>Set the three modes</h3>
-    <p>Pi ships with all permissions and no sandbox, by design. You don't need to read commands - you need to know what a session <em>can</em> do. Set <code>defaultTools</code> in <span class="path">~/.pi/agent/settings.json</span>.</p>
+    <h3>Set the default to read-only <span class="chip verify">verify</span></h3>
+    <p>Pi ships with every tool enabled and no sandbox, by design. The file below decides what Pi can do when you launch it by typing <code>pi</code> with no flags. You are setting that default to the harmless end of the range and reaching for more only when a task needs it.</p>
+    <p>The point is removal rather than approval. A tool that was never loaded cannot be invoked, so there is no prompt to click through and no habit of clicking yes.</p>
+    <p><strong>Create the file.</strong> Open Notepad, paste the block below exactly, then <span class="nav">File → Save as</span>. In the Save dialog, click the address bar and type <code>%USERPROFILE%\.pi\agent</code> then <kbd>Enter</kbd>. Set <strong>File name</strong> to <code>settings.json</code>, set <strong><span class="nav">Save as type: All Files</span></strong>, leave Encoding as <span class="nav">UTF-8</span>, and Save.</p>
+<pre><code>{
+  "defaultTools": ["read", "grep", "find", "ls"],
+  "defaultProjectTrust": "ask",
+  "quietStartup": true
+}</code></pre>
+    <p>Line by line: <code>defaultTools</code> lists the only tools loaded at startup, all four of which just look at things. <code>defaultProjectTrust</code> set to <code>ask</code> means Pi asks before it loads instruction files out of a folder you have not approved. <code>quietStartup</code> trims the banner.</p>
+    <div class="note stop"><p><strong>Notepad will try to save it as <code>settings.json.txt</code>.</strong> That is why <span class="nav">Save as type: All Files</span> matters, and why you turned on file name extensions in C2. Look at the file in Explorer: the name must read <code>settings.json</code> and nothing more. If it reads <code>settings.json.txt</code>, rename it and delete the <code>.txt</code>.</p></div>
+    <p><strong>Verify it took effect.</strong> Run <code>pi</code>, then type <code>/settings</code> and press <kbd>Enter</kbd>. Your values should be reflected there. Then ask it to do something it must refuse:</p>
+<pre><code>pi "run the command: dir"</code></pre>
+    <p>It should tell you it has no tool for running commands. <span class="chip verify">verify</span> If it actually runs <code>dir</code> and shows you a folder listing, the file is not being read: check the name for a hidden <code>.txt</code>, and check it sits in <code>C:\Users\jep\.pi\agent\</code> rather than somewhere else.</p>
+    <p><strong>Reaching for more, one session at a time.</strong> The settings file is the floor. These flags raise it for a single run and change nothing permanently.</p>
     <div class="tw"><table>
-      <thead><tr><th>Mode</th><th>Tools</th><th>Ceiling</th></tr></thead>
+      <thead><tr><th>Mode</th><th>Command</th><th>Ceiling</th></tr></thead>
       <tbody>
-        <tr><td>Read-only</td><td class="num">read, grep, find, ls</td><td>Cannot change or delete anything</td></tr>
-        <tr><td>Write</td><td class="num">+ write, edit</td><td>Files in its folder. Cannot run programs</td></tr>
-        <tr><td>Full</td><td class="num">+ bash</td><td>Real teeth. Only when actually building</td></tr>
+        <tr><td>Read-only</td><td><code>pi</code></td><td>Looks at files. Cannot change or delete anything</td></tr>
+        <tr><td>Write</td><td><code>pi -t read,grep,find,ls,edit,write</code></td><td>Files inside its folder. Cannot run programs</td></tr>
+        <tr><td>Full</td><td><code>pi -t read,grep,find,ls,edit,write,bash</code></td><td>Real teeth. Only when actually building</td></tr>
       </tbody>
     </table></div>
-    <p>Read-only is the default for exploring and analysis. Nothing to approve, because the capability isn't loaded. Add a maintained <code>tool_call</code> guard extension as a backstop - a speed bump, never the wall.</p>
+    <p>Exact built-in tool names, for when you write your own combinations: <code>read</code>, <code>grep</code>, <code>find</code>, <code>ls</code>, <code>edit</code>, <code>write</code>, <code>bash</code>, <code>powershell</code>. Related flags: <code>-xt</code> disables named tools while keeping the rest, <code>-nt</code> disables all of them.</p>
+    <div class="note"><p>Later, a maintained <code>tool_call</code> guard extension adds a second layer that can block an individual call. Treat it as a speed bump behind the wall, and remember rule of three before you install one.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c4"></label><div class="step-n">C4</div><div class="step-b">
-    <h3>ComfyUI - main session, not <code>jep</code></h3>
-    <p>Comfy Desktop or portable, Windows native, Python 3.13, CUDA first-class. App ~5–10 GB. <strong>Run it in your main account</strong>, where the GPU session lives.</p>
-    <div class="note"><p>Loopback isn't user-scoped, so <code>jep</code> reaches it at <span class="path">127.0.0.1:8188</span>. Fetch results through the API, never the filesystem - then <code>jep</code> never needs read access to any of your folders. <strong>ComfyUI has zero authentication.</strong> Loopback only. From the laptop, SSH tunnel. Never port-forward.</p></div>
+    <h3>ComfyUI, in your main account</h3>
+    <p><strong>Sign out of <code>jep</code> and back into your own account first.</strong> Everything in this step happens there. Two reasons: your GPU session lives in your main account, and ComfyUI has no password, so you want it owned by you rather than by the restricted account.</p>
+
+    <h4 style="font-family:var(--f-display);font-size:.92rem;margin:14px 0 4px">Which one to download</h4>
+    <p><strong>Comfy Desktop.</strong> Take the installer, skip the portable archive. Desktop installs its own private copy of Python during setup, so the Python question disappears: you never check a version, never install Python, never touch a virtual environment. The portable build is the one that expects you to manage Python yourself.</p>
+    <p>Get the <code>.exe</code> from <span class="path">comfy.org</span>, or from the <span class="path">Comfy-Org/desktop</span> releases page on GitHub. If either ever asks for an email or an account before downloading, stop and use the other one.</p>
+    <div class="note"><p><strong>Budget the disk before you start.</strong> The application is about 4.85 GB, and the Python environment it builds is roughly 15 GB more, so plan on <strong>20 GB</strong> for this step alone. The installer asks you to choose a location; point it somewhere with room and not at <span class="path">G:</span>.</p></div>
+
+    <h4 style="font-family:var(--f-display);font-size:.92rem;margin:14px 0 4px">Installing</h4>
+    <p>Run the <code>.exe</code>, accept the prompts, choose the install location when asked, and let it finish building the Python environment. That build is the slow part and it runs once. Launch it afterwards from the Start Menu.</p>
+    <p><span class="chip verify">verify</span> ComfyUI opens and shows a node graph. Look at the address it is serving on, normally <code>http://127.0.0.1:8188</code>. Write that number down; C5 and phase D both use it.</p>
+
+    <h4 style="font-family:var(--f-display);font-size:.92rem;margin:14px 0 4px">What <code>127.0.0.1</code> means, and why it matters here</h4>
+    <p><code>127.0.0.1</code> is the address a computer uses to talk to itself. It is also called <em>loopback</em>, because traffic sent there loops back inside the machine and never reaches the network card. A program listening on <code>127.0.0.1:8188</code> is reachable from this PC and from nowhere else: not your router, not your laptop, not the internet.</p>
+    <p><strong>The consequence that makes this plan work:</strong> "this PC" includes every account on it. So <code>jep</code>, which cannot open a single one of your folders, can still send requests to ComfyUI on <code>127.0.0.1:8188</code>. The agent asks ComfyUI to render, then collects the finished image back through that same connection. It never needs read access to your disk, which is exactly why phase B could be as strict as it was.</p>
+    <div class="note stop"><p><strong>ComfyUI has no login and no password.</strong> Anything that can reach the port can drive it fully. Loopback is what keeps that safe, so never forward port 8188 on your router and never bind ComfyUI to <code>0.0.0.0</code>. To reach it from the laptop later, tunnel over SSH, which carries the connection inside an encrypted link rather than opening the port to the network.</p></div>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="c5"></label><div class="step-n">C5</div><div class="step-b">
-    <h3>One model + one upscaler</h3>
-    <p><strong>Z-Image-Turbo</strong> - 6B, Apache 2.0, ungated, ~10 GB, 10–13 GB VRAM, 8 steps.</p>
-    <p><strong>2x-ModernSpanimationV1</strong> - MIT, <span class="num">9 MB</span>, under 1 GB VRAM, 0.003 s/MP. Anime-trained, so it sharpens flat art instead of injecting skin pores into it.</p>
-    <p>With ComfyUI that's <strong>~20 GB total</strong>. Smaller than one game patch. Everything else waits for a real need.</p>
+    <h3>One model and one upscaler</h3>
+    <p>Two downloads, both ungated, both permissively licensed. Put them where ComfyUI expects them, which is inside the ComfyUI folder you chose in C4.</p>
+    <div class="tw"><table>
+      <thead><tr><th>File</th><th>Goes in</th><th>Facts</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Z-Image-Turbo</strong><br>generates the image</td><td><span class="path">models\checkpoints\</span></td><td class="num">6B · Apache 2.0 · ~10 GB · 10–13 GB VRAM · 8 steps</td></tr>
+        <tr><td><strong>2x-ModernSpanimationV1</strong><br>sharpens the result</td><td><span class="path">models\upscale_models\</span></td><td class="num">MIT · 9 MB · under 1 GB VRAM · 0.003 s/MP</td></tr>
+      </tbody>
+    </table></div>
+    <p>The upscaler is anime-trained, so it sharpens flat artwork instead of pushing skin pores into it, which is what photo-trained upscalers do to stylised work.</p>
+    <p>With ComfyUI itself that is roughly <strong>30 GB all in</strong>, counting the bundled Python environment. Smaller than one modern game install. Everything else waits for a real need.</p>
+    <p>After copying files in, use ComfyUI’s refresh so it re-scans the model folders. <span class="chip verify">verify</span> both files appear in their node dropdowns before you go to phase D.</p>
   </div></div>
 </section>
 
@@ -352,29 +411,38 @@ pause</code></pre>
   <div class="phase-bar"><h2>D · Render</h2><span class="when">The only step that proves anything</span></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d1"></label><div class="step-n">D1</div><div class="step-b">
-    <h3>One DECADEnts portrait</h3>
-    <p>Pull one entry from the Character Visual Dictionary you wrote in December - the 1990s CRT-head or the 2020s toddler - and render it in that decade's own film stock. By hand in ComfyUI. No Pi, no automation, no workflow.</p>
-    <p>Looks right → you know more than any further research could tell you. Looks wrong → you spent 20 GB and an evening.</p>
+    <h3>One DECADEnts portrait, by hand</h3>
+    <p>Pull one entry from the Character Visual Dictionary you wrote in December, the 1990s CRT-head or the 2020s toddler, and render it in that decade’s own film stock. By hand in ComfyUI. No Pi, no automation, no workflow.</p>
+    <p>Looks right → you know more than any further research could have told you. Looks wrong → you spent 30 GB and an evening, and you found that out in one night rather than one month.</p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d1b"></label><div class="step-n">D2</div><div class="step-b">
-    <h3>Refine the winner, not every candidate</h3>
-    <p>Compute buys the texture half of the quality gap and none of the decision half. So the leverage is <strong>generate many, select one, refine that one</strong>. Candidates are cheap at 8 steps. Refinement is the expensive pass, and it only pays on an image whose composition is already right.</p>
-    <p>Chain, all permissive: <strong>Detail-Daemon</strong> (MIT, no model - amount 0.1–1.0, start 0.1–0.3, end 0.7–0.9) → <strong>2x pixel upscale</strong> with the anime-trained model → <strong>Ultimate SD Upscale</strong>, tile 1024, mask blur 8–16, padding 32, <strong>denoise 0.15–0.30</strong>, 12–20 steps, seam fix "Half Tile + Intersections".</p>
-    <p>Watchdog: if ComfyUI's console logs <em>"support for non commercial upscale models"</em>, its loader has picked up <code>spandrel_extra_arches</code> and a restricted architecture is in play. The base <code>spandrel</code> package ships permissive architectures only.</p>
-    <div class="note"><p><strong>Denoise above 0.35 redraws linework and drifts the style.</strong> That is the single setting that ruins stylised art. For faces, use Impact Pack FaceDetailer with your own base model. Never GFPGAN or CodeFormer - both are non-commercial and both are tuned on photographs.</p></div>
+    <h3>Generate many, select one, refine that one</h3>
+    <p>Compute buys the texture half of the quality gap and none of the decision half. Candidates are cheap at 8 steps; refinement is the expensive pass, and it only pays on an image whose composition is already right. So the order matters: generate a batch, pick your favourite, then refine only that.</p>
+    <p><strong>The refinement chain</strong>, all permissively licensed, in order:</p>
+    <div class="tw"><table>
+      <thead><tr><th>Stage</th><th>Settings</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Detail-Daemon</strong><br><span class="num">MIT, no model file</span></td><td class="num">amount 0.1–1.0<br>start 0.1–0.3<br>end 0.7–0.9</td><td>Adds fine detail during generation by nudging the noise schedule</td></tr>
+        <tr><td><strong>2x pixel upscale</strong></td><td class="num">the anime-trained model from C5</td><td>Doubles resolution cheaply, no redrawing</td></tr>
+        <tr><td><strong>Ultimate SD Upscale</strong></td><td class="num">tile 1024 · mask blur 8–16<br>padding 32 · <strong>denoise 0.15–0.30</strong><br>12–20 steps<br>seam fix "Half Tile + Intersections"</td><td>Re-renders the image in overlapping tiles at higher resolution. Denoise controls how much it is allowed to change</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note stop"><p><strong>Denoise above 0.35 redraws linework and drifts the style.</strong> That single number is what ruins stylised art, because at that strength the model stops enhancing your image and starts reinterpreting it. For faces, use Impact Pack FaceDetailer with your own base model. Avoid GFPGAN and CodeFormer: both are non-commercial, and both are trained on photographs, so they push a stylised face toward a real one.</p></div>
+    <p><strong>Watchdog:</strong> if ComfyUI’s console prints <em>"support for non commercial upscale models"</em>, its loader has picked up <code>spandrel_extra_arches</code> and a restricted architecture is in play. The base <code>spandrel</code> package ships permissive architectures only.</p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d2"></label><div class="step-n">D3</div><div class="step-b">
     <h3>Only then, connect Pi to ComfyUI</h3>
-    <p>~150-line Pi TypeScript extension hitting ComfyUI's HTTP API directly. Four tools: <code>run</code>, <code>status</code>, <code>outputs</code>, <code>node_info</code>. No Python process, no MCP adapter, no third layer. Add first-party <code>Comfy-Org/comfy-mcp</code> later, only if model and node installation becomes the bottleneck.</p>
-    <div class="note"><p><strong>Slot-filling, not graph synthesis.</strong> Export workflows as templates with named slots; the agent fills a prompt or a seed. Agents reliably mangle hand-written node JSON. Ground any graph edit in a live <code>/object_info</code> fetch.</p></div>
-    <p>Agent confirms a file exists and is non-trivial. It cannot judge whether the image is good. <strong>Selection stays yours.</strong></p>
+    <p>A Pi extension of roughly 150 lines of TypeScript, talking to ComfyUI’s HTTP interface on <code>127.0.0.1:8188</code>, the address from C4. Four tools: <code>run</code>, <code>status</code>, <code>outputs</code>, <code>node_info</code>. No extra Python process, no MCP adapter, no third layer between them.</p>
+    <p>Consider the first-party <code>Comfy-Org/comfy-mcp</code> later, and only if installing models and nodes becomes the thing slowing you down.</p>
+    <div class="note"><p><strong>Fill slots, do not let it build graphs.</strong> Export a working ComfyUI workflow as a template with named blanks, and let the agent fill in a prompt or a seed. Agents reliably mangle hand-written node JSON. If it ever must edit a graph, have it read <code>/object_info</code> from the live server first so it is working from what that server actually has rather than from memory.</p></div>
+    <p>The agent can confirm a file exists and is not empty. It cannot judge whether the image is good. <strong>Selection stays yours.</strong></p>
   </div></div>
 
   <div class="step"><label class="box"><input type="checkbox" data-k="d3"></label><div class="step-n">D4</div><div class="step-b">
     <h3>Rule of three</h3>
-    <p>Nothing new gets installed - model, extension, skill, subagent - until the same friction has bitten three times. First two weeks: zero config.</p>
+    <p>Nothing new gets installed, whether model, extension, skill or subagent, until the same friction has bitten three times. First two weeks: zero config.</p>
   </div></div>
 </section>
 
@@ -446,7 +514,7 @@ pause</code></pre>
   <h3>Numbers that shape the plan</h3>
   <div class="facts">
     <div class="fact"><span class="v">147 MB</span><span class="k">Pi, measured. No daemon, no GPU, no Docker</span></div>
-    <div class="fact"><span class="v">~20 GB</span><span class="k">ComfyUI + Z-Image. The whole day-one install</span></div>
+    <div class="fact"><span class="v">~30 GB</span><span class="k">The whole day-one install: Comfy Desktop, its bundled Python, Z-Image, one upscaler</span></div>
     <div class="fact"><span class="v">160 s</span><span class="k">Per ~2 s of 480p video on a 4090, fast tier</span></div>
     <div class="fact"><span class="v">5–15</span><span class="k">Generations per usable 5-second video shot</span></div>
     <div class="fact"><span class="v">24 GB</span><span class="k">VRAM. Swap models between passes, don't run concurrently</span></div>
