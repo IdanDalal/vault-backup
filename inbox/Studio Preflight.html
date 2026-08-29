@@ -1,10 +1,447 @@
- <https://claude.ai/code/artifacts>
-Studio Preflight
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>:root{color-scheme:light dark}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Studio Preflight</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 
-ID
+<style>
+  :root {
+    --paper:#F5F6F8; --surface:#FFFFFF; --surface-2:#EBEEF2; --surface-3:#E2E6EC;
+    --ink:#161920; --ink-2:#434A56; --ink-3:#6B7280;
+    --rule:#DCE0E7; --rule-2:#C3CAD4;
+    --accent:#A85B00; --accent-ink:#7A4200; --accent-bg:#FAF0DF;
+    --danger:#9C2B24; --danger-bg:#F9EAE9;
+    --ok:#1F6B49; --ok-bg:#E7F2EC;
+    --shadow:0 1px 2px rgba(16,20,26,.05);
+    --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+    --f-body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+    --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0F1216; --surface:#161A21; --surface-2:#1D232B; --surface-3:#242B35;
+      --ink:#E7EAEE; --ink-2:#AEB6C2; --ink-3:#7D8695;
+      --rule:#252B34; --rule-2:#333B47;
+      --accent:#E8A44D; --accent-ink:#F0BC7B; --accent-bg:#281E14;
+      --danger:#E58278; --danger-bg:#2B1918;
+      --ok:#6FBF95; --ok-bg:#15241D;
+      --shadow:0 1px 2px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0F1216; --surface:#161A21; --surface-2:#1D232B; --surface-3:#242B35;
+    --ink:#E7EAEE; --ink-2:#AEB6C2; --ink-3:#7D8695;
+    --rule:#252B34; --rule-2:#333B47;
+    --accent:#E8A44D; --accent-ink:#F0BC7B; --accent-bg:#281E14;
+    --danger:#E58278; --danger-bg:#2B1918;
+    --ok:#6FBF95; --ok-bg:#15241D;
+    --shadow:0 1px 2px rgba(0,0,0,.3);
+  }
 
-Share
+  * { box-sizing:border-box; }
+  body {
+    background:var(--paper); color:var(--ink);
+    font-family:var(--f-body); font-size:15.5px; line-height:1.5;
+    margin:0; padding:0 18px 80px; -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:920px; margin:0 auto; }
 
- <https://claude.ai/code/artifacts> Content is user-generated and
-unverified.
+  /* masthead */
+  header.mast { padding:44px 0 20px; border-bottom:2px solid var(--ink); margin-bottom:8px; }
+  .kicker { font-family:var(--f-mono); font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin:0 0 10px; }
+  h1 { font-family:var(--f-display); font-weight:700; font-size:clamp(2rem,5.5vw,2.9rem); line-height:1.02; letter-spacing:-.022em; margin:0 0 12px; }
+  .lede { color:var(--ink-2); margin:0 0 18px; max-width:62ch; }
 
+  .arc { display:flex; flex-wrap:wrap; gap:6px; font-family:var(--f-mono); font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; }
+  .arc span { background:var(--surface-2); border:1px solid var(--rule); border-radius:2px; padding:5px 9px; color:var(--ink-2); }
+  .arc span b { color:var(--accent-ink); font-weight:600; }
+
+  /* phase */
+  .phase { margin:38px 0 0; }
+  .phase-bar {
+    display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    background:var(--ink); color:var(--paper);
+    padding:9px 14px; border-radius:2px; margin-bottom:0;
+  }
+  .phase-bar h2 { font-family:var(--f-display); font-weight:600; font-size:1.02rem; letter-spacing:.01em; margin:0; }
+  .phase-bar .when { font-family:var(--f-mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; opacity:.72; }
+
+  /* step */
+  .step { display:grid; grid-template-columns:24px 30px 1fr; gap:0 11px; padding:13px 0 13px 12px; border-bottom:1px solid var(--rule); align-items:start; }
+  .step:last-of-type { border-bottom:none; }
+  .step-n { font-family:var(--f-mono); font-size:11.5px; color:var(--accent); padding-top:3px; font-variant-numeric:tabular-nums; }
+  .step-b { min-width:0; }
+  .step-b h3 { font-family:var(--f-display); font-weight:600; font-size:.95rem; margin:0 0 4px; letter-spacing:-.005em; }
+  .step-b p { margin:0 0 6px; max-width:66ch; }
+  .step-b p:last-child { margin-bottom:0; }
+  .step-b ul { margin:5px 0; padding-left:1.05em; max-width:66ch; }
+  .step-b li { margin-bottom:3px; }
+
+  label.box { display:block; width:17px; height:17px; margin-top:3px; border:1.5px solid var(--rule-2); border-radius:3px; background:var(--surface); cursor:pointer; position:relative; }
+  label.box input { position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; }
+  label.box::after { content:""; position:absolute; left:4.5px; top:.5px; width:5px; height:9.5px; border:solid var(--accent); border-width:0 2px 2px 0; transform:rotate(45deg) scale(0); transition:transform .12s ease; }
+  .step.done label.box { border-color:var(--accent); }
+  .step.done label.box::after { transform:rotate(45deg) scale(1); }
+  .step.done .step-b h3, .step.done .step-b p { color:var(--ink-3); }
+  label.box:focus-within { outline:2px solid var(--accent); outline-offset:2px; }
+
+  /* inline chips */
+  .chip { display:inline-block; font-family:var(--f-mono); font-size:10.5px; letter-spacing:.07em; text-transform:uppercase; padding:1.5px 6px; border-radius:2px; vertical-align:middle; margin-left:6px; font-weight:500; }
+  .chip.verify { background:var(--accent-bg); color:var(--accent-ink); border:1px solid var(--accent); }
+  .chip.check  { background:transparent; color:var(--accent-ink); border:1px dashed var(--accent); }
+  .chip.stop   { background:var(--danger-bg); color:var(--danger); border:1px solid var(--danger); }
+
+  code, .nav, .path { font-family:var(--f-mono); font-size:.86em; background:var(--surface-2); border:1px solid var(--rule); border-radius:2px; padding:.08em .34em; word-break:break-word; }
+  kbd { font-family:var(--f-mono); font-size:.82em; background:var(--surface-2); border:1px solid var(--rule-2); border-bottom-width:2px; border-radius:3px; padding:.05em .34em; }
+  pre { font-family:var(--f-mono); font-size:12.5px; line-height:1.5; background:var(--surface-2); border:1px solid var(--rule); border-radius:2px; padding:11px 13px; overflow-x:auto; margin:8px 0; }
+  pre code { background:none; border:none; padding:0; }
+  strong { font-weight:600; }
+
+  /* callout */
+  .note { border-left:3px solid var(--accent); background:var(--accent-bg); padding:9px 13px; margin:8px 0; border-radius:0 2px 2px 0; }
+  .note.stop { border-left-color:var(--danger); background:var(--danger-bg); }
+  .note p { margin:0 0 5px; max-width:66ch; }
+  .note p:last-child { margin-bottom:0; }
+
+  /* tables */
+  .tw { overflow-x:auto; margin:10px 0 0; }
+  table { border-collapse:collapse; width:100%; font-size:13.5px; }
+  th { font-family:var(--f-mono); font-size:10.5px; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-3); text-align:left; font-weight:500; padding:0 10px 6px 0; border-bottom:1px solid var(--rule-2); white-space:nowrap; }
+  td { padding:7px 10px 7px 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  td:first-child { font-weight:600; white-space:nowrap; }
+  tbody tr:last-child td { border-bottom:none; }
+  .num { font-family:var(--f-mono); font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .lic { font-family:var(--f-mono); font-size:11px; color:var(--ok); white-space:nowrap; }
+  .lic.bad { color:var(--danger); }
+
+  /* reference section */
+  .ref { margin-top:46px; padding-top:22px; border-top:2px solid var(--ink); }
+  .ref h2 { font-family:var(--f-display); font-size:1.3rem; font-weight:700; letter-spacing:-.015em; margin:0 0 4px; }
+  .ref h3 { font-family:var(--f-mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:26px 0 8px; font-weight:500; }
+  .ref > p { color:var(--ink-2); margin:0; max-width:66ch; }
+
+  .facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(178px,1fr)); gap:9px; margin-top:8px; }
+  .fact { background:var(--surface); border:1px solid var(--rule); border-radius:2px; padding:11px 13px; box-shadow:var(--shadow); }
+  .fact .v { font-family:var(--f-display); font-weight:700; font-size:1.32rem; letter-spacing:-.02em; display:block; margin-bottom:2px; font-variant-numeric:tabular-nums; }
+  .fact .k { font-size:12.5px; color:var(--ink-2); line-height:1.35; display:block; }
+
+  .rules { counter-reset:r; }
+  .rules .r { display:grid; grid-template-columns:26px 1fr; gap:0 11px; padding:9px 0; border-bottom:1px solid var(--rule); }
+  .rules .r:last-child { border-bottom:none; }
+  .rules .r::before { counter-increment:r; content:counter(r,decimal-leading-zero); font-family:var(--f-mono); font-size:11px; color:var(--accent); padding-top:2px; }
+  .rules p { margin:0; max-width:66ch; }
+
+  footer.foot { margin-top:40px; padding-top:16px; border-top:1px solid var(--rule-2); font-size:13px; color:var(--ink-3); max-width:66ch; }
+  footer.foot p { margin:0 0 7px; }
+  .reset { font-family:var(--f-mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; background:transparent; color:var(--ink-3); border:1px solid var(--rule-2); border-radius:2px; padding:6px 11px; cursor:pointer; margin-top:6px; }
+  .reset:hover { color:var(--ink); border-color:var(--ink-3); }
+  .reset:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+
+  @media (max-width:600px) {
+    .step { grid-template-columns:22px 1fr; padding-left:0; }
+    .step-n { display:none; }
+  }
+  @media (prefers-reduced-motion:reduce) { * { transition:none !important; } }
+  @media print {
+    body { background:#fff; color:#000; font-size:10pt; padding:0; }
+    .phase-bar { background:#000 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .reset { display:none; }
+    .phase { break-inside:avoid-page; }
+  }
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <p class="kicker">Windows 11 Pro · RTX 4090 · 32 GB · one page</p>
+  <h1>Studio Preflight</h1>
+  <p class="lede">Protect what can't be replaced, restrict what the agent can reach, install the smallest thing that works, then render one portrait. Every phase ends with a check you run yourself.</p>
+  <div class="arc">
+    <span><b>A</b> Protect · 40 min</span>
+    <span><b>B</b> Restrict · 15 min</span>
+    <span><b>C</b> Install · 30 min + downloads</span>
+    <span><b>D</b> Render · the point</span>
+  </div>
+</header>
+
+<!-- PHASE A -->
+<section class="phase">
+  <div class="phase-bar"><h2>A · Protect</h2><span class="when">Do first · no agent software yet</span></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="a1"></label><div class="step-n">A1</div><div class="step-b">
+    <h3>Inventory + label two drives</h3>
+    <p>Test: could you re-download it? Games no, saves yes. List the irreplaceable in Notepad. Expect megabytes, not gigabytes.</p>
+    <ul>
+      <li><strong>Drive A · Daily</strong> — stays connected, File History target.</li>
+      <li><strong>Drive B · Archive</strong> — stays unplugged except weekly. Immune to software while disconnected.</li>
+    </ul>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="a2"></label><div class="step-n">A2</div><div class="step-b">
+    <h3>File History on Drive A <span class="chip check">check first</span></h3>
+    <p><kbd>Win</kbd> → type <span class="nav">File History</span>. Control Panel window appears = alive. Nothing useful = stop, tell me, we pick a replacement. Microsoft has been retiring it in favour of OneDrive-based Windows Backup.</p>
+    <p>Select drive → Turn on → Advanced: <strong>every hour</strong>, keep <strong>until space is needed</strong> → Run now.</p>
+    <p>Folders outside Desktop/Documents/Pictures: right-click → <span class="nav">Include in library</span>. File History backs up libraries.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="a3"></label><div class="step-n">A3</div><div class="step-b">
+    <h3>Restore test <span class="chip verify">verify</span></h3>
+    <p>Create <code>restore-test.txt</code> on Desktop → Run now → delete it → empty Recycle Bin → <span class="nav">Restore personal files</span> → scrub back → restore.</p>
+    <div class="note stop"><p><strong>File doesn't come back = you have no backup.</strong> Stop here. Everything downstream assumes this passed.</p></div>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="a4"></label><div class="step-n">A4</div><div class="step-b">
+    <h3>Game saves — find, don't guess</h3>
+    <p>Steam Cloud as third copy: <span class="nav">Steam → Settings → Cloud</span>, then per game <span class="nav">Properties → General</span>. Quotas apply, treat as bonus.</p>
+    <p><strong>Locate the real folder:</strong> play 2 min → save → quit → sort by <em>Date modified</em> in <span class="path">Steam\userdata\</span>, <span class="path">Documents\</span>, and <span class="path">%LOCALAPPDATA%</span>. The one that changed is yours.</p>
+    <p>Then: Include in library (hourly cover) + manual copy to Drive B now. <span class="chip verify">verify</span> timestamps on the Drive B copy match the session you just played.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="a5"></label><div class="step-n">A5</div><div class="step-b">
+    <h3>Weekly archive script</h3>
+    <p>Save to Desktop as <code>weekly-archive.bat</code>, <span class="nav">Save as type: All Files</span>. One line per folder, including the save folder from A4.</p>
+<pre><code>@echo off
+robocopy "C:\Users\YOURNAME\Documents" "E:\Archive\Documents" /MIR /R:1 /W:1 /XJ
+robocopy "C:\Users\YOURNAME\Pictures"  "E:\Archive\Pictures"  /MIR /R:1 /W:1 /XJ
+echo. &amp; echo Done. Check errors above, then unplug.
+pause</code></pre>
+    <p><code>/MIR</code> mirror · <code>/R:1 /W:1</code> retry once not a million times · <code>/XJ</code> skip junctions, avoids infinite loop.</p>
+    <div class="note"><p><code>/MIR</code> propagates deletions. Drive B alone won't save you from a deletion you miss for a week — that gap is what File History's versions cover. Two mechanisms, each covering the other's blind spot.</p></div>
+    <p><strong>Unplug Drive B when done.</strong> Phone reminder, Sundays. The script is reliable; remembering isn't.</p>
+  </div></div>
+</section>
+
+<!-- PHASE B -->
+<section class="phase">
+  <div class="phase-bar"><h2>B · Restrict</h2><span class="when">Only when you've decided on Pi</span></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="b1"></label><div class="step-n">B1</div><div class="step-b">
+    <h3>Create the <code>jep</code> account</h3>
+    <p><span class="nav">Settings → Accounts → Other users → Add account</span> → <em>I don't have this person's sign-in information</em> → <em>Add a user without a Microsoft account</em>.</p>
+    <div class="note stop"><p><strong>Standard user. Never Administrator.</strong> An admin account overrides file permissions, which deletes the entire point of this phase.</p></div>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="b2"></label><div class="step-n">B2</div><div class="step-b">
+    <h3>Grant one folder only</h3>
+    <p>Create <span class="path">D:\work</span> on neither Drive A nor B. Right-click → <span class="nav">Properties → Security → Edit</span> → give <code>jep</code> full control of that folder and nothing else. Sign in once as <code>jep</code> to build the profile.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="b3"></label><div class="step-n">B3</div><div class="step-b">
+    <h3>Three denial tests <span class="chip verify">verify</span></h3>
+    <p>Signed in as <code>jep</code>, all three must <strong>fail</strong>:</p>
+    <ul>
+      <li>Open your main account's Documents → access denied</li>
+      <li>Open the game-save folder → access denied</li>
+      <li>Create a file on Drive A → write refused</li>
+    </ul>
+    <p>Any success means permissions aren't what you think, and the account is giving false confidence. Better to learn that now.</p>
+  </div></div>
+</section>
+
+<!-- PHASE C -->
+<section class="phase">
+  <div class="phase-bar"><h2>C · Install</h2><span class="when">Signed in as jep · native Windows, no WSL2</span></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="c1"></label><div class="step-n">C1</div><div class="step-b">
+    <h3>Prerequisites — two things</h3>
+    <p><strong>Node.js ≥ 22.19</strong> and <strong>Git for Windows</strong> (Pi uses Git Bash as its shell). Both ordinary user-space installers. Neither is a service or a driver.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="c2"></label><div class="step-n">C2</div><div class="step-b">
+    <h3>Pi — 147 MB, no daemon</h3>
+<pre><code>npm install -g --ignore-scripts @earendil-works/pi-coding-agent</code></pre>
+    <p>No postinstall scripts, no service, no startup entry, no Task Scheduler task. Runs only while the terminal is open. State lives in <span class="path">~/.pi/agent/</span>. <code>PI_OFFLINE=1</code> kills all startup network calls.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="c3"></label><div class="step-n">C3</div><div class="step-b">
+    <h3>Set the three modes</h3>
+    <p>Pi ships with all permissions and no sandbox, by design. You don't need to read commands — you need to know what a session <em>can</em> do. Set <code>defaultTools</code> in <span class="path">~/.pi/agent/settings.json</span>.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Mode</th><th>Tools</th><th>Ceiling</th></tr></thead>
+      <tbody>
+        <tr><td>Read-only</td><td class="num">read, grep, find, ls</td><td>Cannot change or delete anything</td></tr>
+        <tr><td>Write</td><td class="num">+ write, edit</td><td>Files in its folder. Cannot run programs</td></tr>
+        <tr><td>Full</td><td class="num">+ bash</td><td>Real teeth. Only when actually building</td></tr>
+      </tbody>
+    </table></div>
+    <p>Read-only is the default for exploring and analysis. Nothing to approve, because the capability isn't loaded. Add a maintained <code>tool_call</code> guard extension as a backstop — a speed bump, never the wall.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="c4"></label><div class="step-n">C4</div><div class="step-b">
+    <h3>ComfyUI — main session, not <code>jep</code></h3>
+    <p>Comfy Desktop or portable, Windows native, Python 3.13, CUDA first-class. App ~5–10 GB. <strong>Run it in your main account</strong>, where the GPU session lives.</p>
+    <div class="note"><p>Loopback isn't user-scoped, so <code>jep</code> reaches it at <span class="path">127.0.0.1:8188</span>. Fetch results through the API, never the filesystem — then <code>jep</code> never needs read access to any of your folders. <strong>ComfyUI has zero authentication.</strong> Loopback only. From the laptop, SSH tunnel. Never port-forward.</p></div>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="c5"></label><div class="step-n">C5</div><div class="step-b">
+    <h3>One model + one upscaler</h3>
+    <p><strong>Z-Image-Turbo</strong> — 6B, Apache 2.0, ungated, ~10 GB, 10–13 GB VRAM, 8 steps.</p>
+    <p><strong>2x-ModernSpanimationV1</strong> — MIT, <span class="num">9 MB</span>, under 1 GB VRAM, 0.003 s/MP. Anime-trained, so it sharpens flat art instead of injecting skin pores into it.</p>
+    <p>With ComfyUI that's <strong>~20 GB total</strong>. Smaller than one game patch. Everything else waits for a real need.</p>
+  </div></div>
+</section>
+
+<!-- PHASE D -->
+<section class="phase">
+  <div class="phase-bar"><h2>D · Render</h2><span class="when">The only step that proves anything</span></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="d1"></label><div class="step-n">D1</div><div class="step-b">
+    <h3>One DECADEnts portrait</h3>
+    <p>Pull one entry from the Character Visual Dictionary you wrote in December — the 1990s CRT-head or the 2020s toddler — and render it in that decade's own film stock. By hand in ComfyUI. No Pi, no automation, no workflow.</p>
+    <p>Looks right → you know more than any further research could tell you. Looks wrong → you spent 20 GB and an evening.</p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="d1b"></label><div class="step-n">D2</div><div class="step-b">
+    <h3>Refine the winner, not every candidate</h3>
+    <p>Compute buys the texture half of the quality gap and none of the decision half. So the leverage is <strong>generate many, select one, refine that one</strong>. Candidates are cheap at 8 steps. Refinement is the expensive pass, and it only pays on an image whose composition is already right.</p>
+    <p>Chain, all permissive: <strong>Detail-Daemon</strong> (MIT, no model — amount 0.1–1.0, start 0.1–0.3, end 0.7–0.9) → <strong>2x pixel upscale</strong> with the anime-trained model → <strong>Ultimate SD Upscale</strong>, tile 1024, mask blur 8–16, padding 32, <strong>denoise 0.15–0.30</strong>, 12–20 steps, seam fix "Half Tile + Intersections".</p>
+    <p>Watchdog: if ComfyUI's console logs <em>"support for non commercial upscale models"</em>, its loader has picked up <code>spandrel_extra_arches</code> and a restricted architecture is in play. The base <code>spandrel</code> package ships permissive architectures only.</p>
+    <div class="note"><p><strong>Denoise above 0.35 redraws linework and drifts the style.</strong> That is the single setting that ruins stylised art. For faces, use Impact Pack FaceDetailer with your own base model. Never GFPGAN or CodeFormer — both are non-commercial and both are tuned on photographs.</p></div>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="d2"></label><div class="step-n">D3</div><div class="step-b">
+    <h3>Only then, connect Pi to ComfyUI</h3>
+    <p>~150-line Pi TypeScript extension hitting ComfyUI's HTTP API directly. Four tools: <code>run</code>, <code>status</code>, <code>outputs</code>, <code>node_info</code>. No Python process, no MCP adapter, no third layer. Add first-party <code>Comfy-Org/comfy-mcp</code> later, only if model and node installation becomes the bottleneck.</p>
+    <div class="note"><p><strong>Slot-filling, not graph synthesis.</strong> Export workflows as templates with named slots; the agent fills a prompt or a seed. Agents reliably mangle hand-written node JSON. Ground any graph edit in a live <code>/object_info</code> fetch.</p></div>
+    <p>Agent confirms a file exists and is non-trivial. It cannot judge whether the image is good. <strong>Selection stays yours.</strong></p>
+  </div></div>
+
+  <div class="step"><label class="box"><input type="checkbox" data-k="d3"></label><div class="step-n">D4</div><div class="step-b">
+    <h3>Rule of three</h3>
+    <p>Nothing new gets installed — model, extension, skill, subagent — until the same friction has bitten three times. First two weeks: zero config.</p>
+  </div></div>
+</section>
+
+<!-- REFERENCE -->
+<section class="ref">
+  <h2>Reference</h2>
+  <p>Everything below is permissive-licence only: Apache 2.0 or MIT, no revenue cap, no attribution-in-UI, no territory limit, no gate.</p>
+
+  <h3>Add on demand</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Job</th><th>Model</th><th>Licence</th><th>Cost</th><th>Trigger to install</th></tr></thead>
+    <tbody>
+      <tr><td>Stills</td><td>Z-Image-Turbo</td><td class="lic">Apache</td><td class="num">10 GB · 13 GB VRAM</td><td>Day one</td></tr>
+      <tr><td>Same character twice</td><td>Qwen-Image-Edit-2511</td><td class="lic">Apache</td><td class="num">~28 GB fp8</td><td>Second appearance of any character</td></tr>
+      <tr><td>Wider stills</td><td>Qwen-Image-2512</td><td class="lic">Apache</td><td class="num">~20 GB fp8</td><td>Z-Image quality ceiling hit</td></tr>
+      <tr><td>Character voices</td><td>Maya1 — designs a voice from a written description, no cloning</td><td class="lic">Apache</td><td class="num">16 GB+ VRAM</td><td>First line of dialogue</td></tr>
+      <tr><td>Foley</td><td>MOSS-SoundEffect-v2.0</td><td class="lic">Apache</td><td class="num">11.2 GB</td><td>First scene needing a door</td></tr>
+      <tr><td>Music</td><td>ACE-Step v1.5 XL — licensed/PD/synthetic training data, cleanest provenance available</td><td class="lic">MIT</td><td class="num">~20 GB VRAM</td><td>Theme tune</td></tr>
+      <tr><td>Video lab</td><td>Wan 2.2 + Wan Animate 2</td><td class="lic">Apache</td><td class="num">300–500 GB</td><td>Month three, for LoRA on your own characters</td></tr>
+      <tr><td>3D props</td><td>TRELLIS.2 / Pixal3D</td><td class="lic">MIT</td><td class="num">24 GB VRAM</td><td>Renders only. Triangle soup, needs retopo</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Refinement · what compute actually buys</h3>
+  <p style="margin-top:6px"><strong>The texture half, not the decision half.</strong> Refinement adds micro-detail, fixes softness, kills compression mush, raises resolution. It cannot re-plan a composition, fix six fingers (a detailer re-rolls the region and usually produces a different wrong hand), correct prompt adherence, hold identity across images, or render text. In 2026 the open-versus-closed gap is mostly that second category, so expect refinement to close the fidelity portion and leave structure untouched. Generate many, select one, refine that one.</p>
+  <p style="margin-top:6px"><em>Caveat: no current measured benchmark for the open/closed gap was verifiable, so that split is mechanistic reasoning rather than a number.</em></p>
+
+  <div class="tw"><table>
+    <thead><tr><th>Upscaler</th><th>Licence</th><th>s / output MP</th><th>VRAM</th><th>Disk</th><th>Use for</th></tr></thead>
+    <tbody>
+      <tr><td>2x-ModernSpanimationV1</td><td class="lic">MIT</td><td class="num">0.003</td><td class="num">&lt;1 GB</td><td class="num">9 MB</td><td>Anime-trained. Day one</td></tr>
+      <tr><td>Compact animevideo-v3</td><td class="lic">BSD-3</td><td class="num">0.0014</td><td class="num">0.20 GB</td><td class="num">2.4 MB</td><td>Fastest. Video frames</td></tr>
+      <tr><td>SPAN 4x-spanx4-ch48</td><td class="lic">Apache</td><td class="num">0.0025</td><td class="num">0.65 GB</td><td class="num">9 MB</td><td>Cheap general 4x</td></tr>
+      <tr><td>4x-NMKD-Siax-CX<br>4x_NMKD-Superscale</td><td class="lic">WTFPL</td><td class="num">0.058</td><td class="num">2.48 GB</td><td class="num">63.9 MB</td><td><strong>Drop-in for UltraSharp / Remacri.</strong> Same arch, same size, identical speed</td></tr>
+      <tr><td>RealESRGAN x4plus anime 6B</td><td class="lic">BSD-3</td><td class="num">unmeasured</td><td class="num">—</td><td class="num">17.1 MB</td><td>Anime, tiny</td></tr>
+      <tr><td>Real-CUGAN</td><td class="lic">MIT</td><td class="num">~1.1 /s vid</td><td class="num">12.7 GB</td><td class="num">~50 MB</td><td>Anime, heavier</td></tr>
+      <tr><td>4x-Valar · PBRify</td><td class="lic">CC0</td><td class="num">0.058–0.71</td><td class="num">2.5–3.9 GB</td><td class="num">64–134 MB</td><td>Zero-condition licence</td></tr>
+      <tr><td>DAT-2</td><td class="lic">Apache</td><td class="num">0.71</td><td class="num">3.9 GB</td><td class="num">134 MB</td><td>General quality</td></tr>
+      <tr><td>4x-DRCT-L</td><td class="lic">MIT</td><td class="num">2.17</td><td class="num">6.4 GB</td><td class="num">463 MB</td><td>Quality ceiling. 37x the ESRGAN cost</td></tr>
+      <tr><td>RIFE 4.26</td><td class="lic">MIT</td><td class="num">409 fps @1080p</td><td class="num">2.3 GB</td><td class="num">small</td><td>Frame interpolation. The old NC belief is stale</td></tr>
+      <tr><td>SeedVR2-3B</td><td class="lic">Apache</td><td class="num">unmeasured</td><td class="num">10–16 GB</td><td class="num">10–16 GB</td><td>Video temporal consistency</td></tr>
+    </tbody>
+  </table></div>
+  <p style="margin-top:8px">Every GAN upscaler above totals <strong>~1.5 GB</strong> and coexists in VRAM with a loaded generator. DRCT-L, HAT-L, SeedVR2 and any tiled-diffusion pass need the generator unloaded first. <strong>HAT-L is the VRAM trap</strong> — Apache-licensed, 10.4 GB against DRCT-L's 6.4 GB, so it tiles first on 24 GB.</p>
+  <div class="note"><p><strong>Read the VRAM column with care.</strong> Those figures come from a 4090 benchmark at 480×640 input, which is 0.31 MP. A 1024² input is 3.4× larger and attention memory does not scale linearly, so real usage will be higher and was not extrapolated.</p></div>
+
+  <h3>Ruled out, and exactly why</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Model</th><th>Reason</th></tr></thead>
+    <tbody>
+      <tr><td>MiniMax H3</td><td><span class="lic bad">territory</span> Excluded Territories = EU, UK, South Korea, <strong>USA</strong> — and the clause binds the <em>outputs</em>, not just the weights. Plus $20M cap, UI attribution, no using outputs to train other models.</td></tr>
+      <tr><td>MiniMax Music 3</td><td><span class="lic bad">attribution</span> Must display "MiniMax-Music3" in your interface. $20M revenue cap.</td></tr>
+      <tr><td>LTX-2.5</td><td><span class="lic bad">gated</span> Contact-info form. Mirrors exist; the licence follows them. No published 4090 timing from any source.</td></tr>
+      <tr><td>Krea 2 · Kroma</td><td><span class="lic bad">community</span> Krea community licence. Kroma inherits it through Krea's encoder.</td></tr>
+      <tr><td>FLUX.2-dev</td><td><span class="lic bad">gated + NC</span> Non-commercial form.</td></tr>
+      <tr><td>Hunyuan 3D / Video / Foley</td><td><span class="lic bad">community</span> Tencent community licence, historically carries territory clauses.</td></tr>
+      <tr><td>Stable Audio 3</td><td><span class="lic bad">revenue</span> Free under $1M only. The ungated Comfy mirror doesn't change the terms.</td></tr>
+      <tr><td>Mage-Flow</td><td><span class="lic bad">provenance</span> Microsoft repo now 401s. Mirrors carry MIT as a metadata tag with no licence file. Ambiguous by definition.</td></tr>
+      <tr><td>TTS-Audio-Suite</td><td><span class="lic bad">wrapper</span> MIT pack, 19 engines, several non-commercial. A permissive wrapper doesn't launder what's inside.</td></tr>
+      <tr><td>Every famous upscaler</td><td><span class="lic bad">non-commercial</span> 4x-UltraSharp + V2, Remacri, AnimeSharp, 2x-AnimeSharp V2–V4, IllustrationJaNai. Of OpenModelDB's 671 models: <strong>41.7% non-commercial, 20.4% attribution, 29.8% permissive, 4% unstated</strong>. The tutorial defaults are the disqualified ones — <strong>swap in NMKD Siax or Superscale, identical architecture and speed at zero cost</strong>.</td></tr>
+      <tr><td>Aggregator repos</td><td><span class="lic bad">mislabelled</span> HuggingFace <code>uwg/upscaler</code> is tagged <code>license: mit</code> while shipping UltraSharp and Remacri. Check the individual model, never the repo tag. Conversely SPAN and ATD look unstated via GitHub's API but are genuinely Apache-2.0 in <code>LICENSE.txt</code>.</td></tr>
+      <tr><td>SUPIR</td><td><span class="lic bad">non-commercial</span> Custom SupPixel licence, weights separately proprietary. The headline restoration model, unusable.</td></tr>
+      <tr><td>GFPGAN · CodeFormer</td><td><span class="lic bad">inherited</span> CodeFormer is S-Lab NC. GFPGAN's Apache shell sits on a StyleGAN2 prior under NVIDIA's non-commercial terms. Use FaceDetailer with your own model instead.</td></tr>
+      <tr><td>ComfyUI-TiledDiffusion</td><td><span class="lic bad">non-commercial</span> Core code CC-BY-NC-SA-4.0. Use Ultimate SD Upscale or TiledKSampler — both GPL-3.0, which binds code and places no condition on outputs.</td></tr>
+      <tr><td>GIMM-VFI · AMT · STAR</td><td><span class="lic bad">NC / none</span> S-Lab, non-commercial, and STAR ships no licence file at all. RIFE and FILM replace them cleanly.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Numbers that shape the plan</h3>
+  <div class="facts">
+    <div class="fact"><span class="v">147 MB</span><span class="k">Pi, measured. No daemon, no GPU, no Docker</span></div>
+    <div class="fact"><span class="v">~20 GB</span><span class="k">ComfyUI + Z-Image. The whole day-one install</span></div>
+    <div class="fact"><span class="v">160 s</span><span class="k">Per ~2 s of 480p video on a 4090, fast tier</span></div>
+    <div class="fact"><span class="v">5–15</span><span class="k">Generations per usable 5-second video shot</span></div>
+    <div class="fact"><span class="v">24 GB</span><span class="k">VRAM. Swap models between passes, don't run concurrently</span></div>
+    <div class="fact"><span class="v">32 GB</span><span class="k">System RAM is the tighter limit. DRAM pricing makes fixing it unattractive right now</span></div>
+    <div class="fact"><span class="v">~1.5 GB</span><span class="k">Every permissive GAN upscaler combined. Refinement is nearly free on disk</span></div>
+    <div class="fact"><span class="v">0.30</span><span class="k">Denoise ceiling for stylised art. Above 0.35 the linework redraws itself</span></div>
+  </div>
+
+  <h3>Video, honestly</h3>
+  <p style="margin-top:6px">Within a clip under 5 s: solved. Across clips: the wall. Hosted currently wins decisively, and Wan 3.0 shipped API-only, so the frontier closed again. Check whether your Google plan includes Flow before spending a weekend locally. Local earns its place for one thing money can't buy — a LoRA trained on <em>your</em> characters, so the CRT-head is reliably that CRT-head.</p>
+  <p style="margin-top:6px"><strong>Finishable:</strong> a 60–90 s stylised piece. <strong>Not finishable:</strong> a dialogue scene, any held shot past 5 s, a recurring photoreal human, the trilogy. DECADEnts is on the right side of that line by design, not by luck.</p>
+
+  <h3>Standing rules</h3>
+  <div class="rules">
+    <div class="r"><p>A backup the agent can write to is not a backup. Phase B is what makes Phase A real.</p></div>
+    <div class="r"><p>Sync is not backup. Mirroring propagates deletion. Version history is the difference.</p></div>
+    <div class="r"><p>An unverified backup is a rumour. Re-run the A3 restore test quarterly.</p></div>
+    <div class="r"><p>Removing a capability beats blocking it. No bash, no destructive command, nothing to approve.</p></div>
+    <div class="r"><p>An ungated mirror does not launder a restrictive licence. Neither does a permissive wrapper.</p></div>
+    <div class="r"><p>Compute buys texture, never composition. Generate many, select one, refine that one.</p></div>
+    <div class="r"><p>Infrastructure doesn't travel. The cron layer stays on the laptop, where it has run healthy for months.</p></div>
+    <div class="r"><p>If a month passes with a research corpus and a plan but nothing rendered, this went the way of the other four.</p></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <p>Two things are deliberately unasserted and marked <span class="chip check" style="margin-left:0">check first</span>: File History's state on your build, and where your saves actually live. Confirm both at the machine.</p>
+  <p>Ticks are stored in this browser only.</p>
+  <button class="reset" id="reset">Clear all ticks</button>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var KEY = 'studio-preflight-v2', state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { state = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+  var boxes = document.querySelectorAll('input[type="checkbox"][data-k]');
+  boxes.forEach(function (b) {
+    var k = b.getAttribute('data-k'), row = b.closest('.step');
+    if (state[k]) { b.checked = true; row.classList.add('done'); }
+    b.addEventListener('change', function () {
+      state[k] = b.checked;
+      row.classList.toggle('done', b.checked);
+      save();
+    });
+  });
+
+  var r = document.getElementById('reset');
+  if (r) r.addEventListener('click', function () {
+    state = {}; save();
+    boxes.forEach(function (b) { b.checked = false; b.closest('.step').classList.remove('done'); });
+  });
+})();
+</script>
+</body>
+</html>
