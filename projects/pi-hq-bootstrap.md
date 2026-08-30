@@ -2,10 +2,13 @@
 type: reference
 created: 2026-08-29
 author: jep
-status: active
+status: archived
 ---
 
 # Pi HQ Bootstrap
+
+> [!failure] Archived 2026-08-30
+> Pi cannot draw on the Claude plan (third-party harnesses bill per-token, server-enforced since 2026-04-04). The resident agent is Claude Code native on Windows; the collaboration layer ports as files instead of this bootstrap. See [[pc-hq-stack]] and the rewritten P1 in [[pc-base-migration]]. Content below kept for reference; the "Live projects" and "Response contract" sections remain accurate.
 
 **Copy this file to `D:\work\vault\AGENTS.md` on the PC.** Pi loads it at startup; run `/reload` after edits. Written 2026-08-29 by the laptop agent as the collaboration handoff. The `CLAUDE.md` in this folder also loads automatically: its three enforcement layers exist only on the laptop, so on this machine you behave as if they were present.
 
