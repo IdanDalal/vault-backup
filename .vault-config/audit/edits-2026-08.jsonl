@@ -1185,3 +1185,12 @@
 {"ts":"2026-08-29T14:27:02Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
 {"ts":"2026-08-30T06:03:08Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-30.md","decision":"allow","reason":"not-denied","session":"0f04fa9e-02e9-4af8-a497-dee8cde2a5c5"}
 {"ts":"2026-08-30T06:21:34Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-30-loop-review.md","decision":"allow","reason":"not-denied","session":"9d43c98d-4f65-4a3f-a870-3b7ceec3dbe7"}
+{"ts":"2026-08-30T11:37:48Z","tool":"Write","path":"/home/jep/.claude/projects/-home-jep/memory/plan-only-billing.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:37:50Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:49:43Z","tool":"Write","path":"/home/jep/vault/projects/pc-hq-stack.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:49:52Z","tool":"Edit","path":"/home/jep/vault/projects/pc-base-migration.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:49:58Z","tool":"Edit","path":"/home/jep/vault/projects/pc-base-migration.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:50:03Z","tool":"Edit","path":"/home/jep/vault/projects/pc-base-migration.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:50:07Z","tool":"Edit","path":"/home/jep/vault/projects/pi-hq-bootstrap.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:50:17Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/pc-hq-migration.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-30T11:50:20Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
