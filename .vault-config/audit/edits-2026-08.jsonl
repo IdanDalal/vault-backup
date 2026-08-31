@@ -1194,3 +1194,4 @@
 {"ts":"2026-08-30T11:50:07Z","tool":"Edit","path":"/home/jep/vault/projects/pi-hq-bootstrap.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
 {"ts":"2026-08-30T11:50:17Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/pc-hq-migration.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
 {"ts":"2026-08-30T11:50:20Z","tool":"Edit","path":"/home/jep/.claude/projects/-home-jep/memory/MEMORY.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
+{"ts":"2026-08-31T06:02:50Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-08-31.md","decision":"allow","reason":"not-denied","session":"026c5972-3da6-4be1-bb46-ef79325c9f54"}
