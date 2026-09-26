@@ -14,7 +14,7 @@ Idi's seven items (Chosen traits whitelist, ambush rescue mission, parry, tongue
 | 1 | Chosen trait whitelist | INSTALLED 09-26 (13 S / 10 W kept) | jepFixes `XComGameData.ini` reset + whitelist; Chosen Rechosen for traits already rolled |
 | 2 | Never spawn the ambush rescue | INSTALLED | jepFixes `XComMissionDefs.ini`, 3 byte-exact removals |
 | 3 | Parry with no focus | WORKING AS DESIGNED | Parry costs Momentum, never Focus |
-| 4 | No tongue grab from full cover | NO CONFIG LEVER | script mod via SDK |
+| 4 | No tongue grab from full cover | BUILT + INSTALLED 09-26 (ruling A) | own script mod `jepNoCoverGrabs` |
 | 5 | Capture slot on covert actions | NO LEVER, harmless, ages out | none (UnrealScript code) |
 | 6 | Assassin intro skipped | NO LEVER, vanilla skip gates | none |
 | 7 | Reveal screen text wraps | INSTALLED | jepFixes `XComGame.ini` `bWordWrapDesc=false` |
@@ -114,6 +114,15 @@ Mark each row keep or strike.
 - Config reaches only cooldown and range (`KING_GET_OVER_HERE_*`, cooldown 4): fewer grabs overall, cover or not.
 - Real fix = a small script mod that copies Bind's full-cover condition onto both grabs. Needs the XCOM 2 WOTC SDK (not installed; free on Steam, no signup wall).
 - Idi's find, 09-26: No Full Cover Grabs 880396912 (RealityMachina, 2017-03-09, base XCOM 2). Does exactly this for unflanked full cover, Low Profile included. Steam page: "removed from the community because it violates Steam Community & Content Guidelines" plus "incompatible with XCOM 2" banner; pre-WOTC build; description names the Viper grab only, so the Viper King's separate `KingGetOverHere` is likely untouched (medium, source unread); comments 2020-2024 report it misses mod Viper variants, one WOTC vanilla-Viper success (2020). Not on disk.
+
+### 4b. jepNoCoverGrabs (ruling A, built 09-26)
+
+- What: at template load, adds the Viper King Bind's rule (`X2Condition_Visibility`, `bRequireNotMatchCoverType=true`, `TargetCover=CT_Standing`) to every grab in `Config/XComjepNoCoverGrabs.ini`. Cover is judged from the Viper's position, so a flanked target stays grabbable (same behavior as No Full Cover Grabs 880396912). Medium-high: the check itself is native code.
+- Patched: `GetOverHere` (Viper), `KingGetOverHere` (Subject Gamma), `BoaGetOverHere`, `PrimeGetOverHere` (A Better ADVENT), `GetOverHereElite` (Alien Elite Pack).
+- Not patched on purpose: player pulls (Skirmisher Justice, Denmother, perk packs) and non-Viper enemy pulls (Advent Commandos `DestroyerPull`, AHW `AHWMagnaPull`). The mod logs every unpatched ability that carries the grab effect.
+- Build: WOTC SDK `XComGame.com make -nopause -mods jepNoCoverGrabs <staging>`: 0 errors, `jepNoCoverGrabs.u` 7,964 bytes. Gotchas found: `SrcOrig` copied to `Src` must be backdated (else the base packages rebuild); the staging path needs no spaces; the mod needs `XComEditor.ini +ModPackages` and `XComEngine.ini +NonNativePackages` or `-mods` silently compiles nothing.
+- Installed: `...\XComGame\Mods\jepNoCoverGrabs` (Config, Script, Src, .XComMod). AML `settings.json` entry added, active (backup `settings.json.bak-0926` in the job tmp; diff = only the new entry). Source mirror + `build.sh`: `projects/XCOM/jepNoCoverGrabs/`.
+- Probe, next launch, in `Launch.log`: five lines `jepNoCoverGrabs: patched: <name> templates N`, zero `not found:`, plus a list of `unpatched GetOverHere-effect ability:` names. In game: a unit in full cover (unflanked) shows no grab target line to the Viper. Removal is safe any time (template patch only, nothing saved).
 
 ## 5. Capture-removal slot: no lever, harmless
 

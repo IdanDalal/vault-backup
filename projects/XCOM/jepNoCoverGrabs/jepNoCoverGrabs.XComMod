@@ -1,0 +1,5 @@
+[mod]
+publishedFileId=0
+Title=jepNoCoverGrabs
+Description=Viper tongue grabs cannot target units in full cover unless flanked. Built by jep, 2026-09-26.
+RequiresXPACK=true
