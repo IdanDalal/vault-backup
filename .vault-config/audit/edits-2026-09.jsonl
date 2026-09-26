@@ -1,3 +1,15 @@
 {"ts":"2026-09-01T12:32:02Z","tool":"Write","path":"/home/jep/.claude/jobs/89d03980/tmp/scan22.py","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
 {"ts":"2026-09-01T12:49:01Z","tool":"Write","path":"/home/jep/.claude/jobs/89d03980/tmp/CLAUDE.pc.md","decision":"allow","reason":"not-denied","session":"89d03980-755c-48ee-996e-630cf61ab8b8"}
 {"ts":"2026-09-02T06:03:18Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-02.md","decision":"allow","reason":"not-denied","session":"501f2732-10d3-4a43-b3c6-b8c038f0cb79"}
+{"ts":"2026-09-03T06:03:12Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-03.md","decision":"allow","reason":"not-denied","session":"f83702c2-5b3e-4374-9392-35182806803c"}
+{"ts":"2026-09-04T06:03:30Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-04.md","decision":"allow","reason":"not-denied","session":"5286439c-6d33-4f85-bfae-4be068807376"}
+{"ts":"2026-09-05T06:02:32Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-05.md","decision":"allow","reason":"not-denied","session":"0e970514-f5b9-4c5e-bd0c-1440d89a4c0a"}
+{"ts":"2026-09-06T06:03:50Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-06.md","decision":"allow","reason":"not-denied","session":"42705d12-68e1-42f7-80cd-5a69dbb5de31"}
+{"ts":"2026-09-06T06:22:11Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-06-loop-review.md","decision":"allow","reason":"not-denied","session":"910ce279-ac5b-474b-a3c3-2aadd799ad21"}
+{"ts":"2026-09-07T06:02:32Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-07.md","decision":"allow","reason":"not-denied","session":"e3e74d0e-fe09-4778-be0c-56b2cbc29cdf"}
+{"ts":"2026-09-08T06:02:10Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-08.md","decision":"allow","reason":"not-denied","session":"3bc4b950-b824-402b-8c33-fdedceaa998a"}
+{"ts":"2026-09-09T06:02:22Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-09.md","decision":"allow","reason":"not-denied","session":"19a87b1d-c3c8-4b91-95ea-e5b161178f3e"}
+{"ts":"2026-09-10T06:03:48Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-10.md","decision":"allow","reason":"not-denied","session":"67a07061-16a3-4dfe-8314-4cb7080cdf3a"}
+{"ts":"2026-09-11T06:01:05Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-11.md","decision":"allow","reason":"not-denied","session":"f9b42450-b368-4bba-acaf-c35e6798d9aa"}
+{"ts":"2026-09-12T06:01:06Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-12.md","decision":"allow","reason":"not-denied","session":"0f82953c-9678-4462-8cb2-c239d16c7856"}
+{"ts":"2026-09-26T06:01:17Z","tool":"Write","path":"/home/jep/vault/daily/digests/2026-09-26.md","decision":"allow","reason":"not-denied","session":"346398d0-4ac7-41d0-abf7-2859dde48c89"}
