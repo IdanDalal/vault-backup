@@ -7,10 +7,10 @@
 ## Current Situation
 
 - **Employed**: No
-- **Savings**: None
+- **Savings**: 55 GOOGL, $18,541.60 at 2026-09-03 prices (transition.md)
 - **Debt**: None
 - **Experience**: None
-- **Plans**: None
+- **Plans**: Cash allocation locked 2026-07-24; execution checklist 1/9
 
 ---
 
@@ -41,6 +41,8 @@ Tracked in a Google Sheet (Hebrew, stopped maintaining). All information exists 
 - Anything with a price attached → ignore
 - No budget, priorities, or decision-making process
 - Answer to "Should I spend money?" → **ALWAYS NO**
+
+Warden's parole terms: value surplus.
 
 ---
 

@@ -9,6 +9,8 @@
 ### Facebook (Idiverse vault)
 - 12 Hollywood film reviews
 - 2 "humorous yearly awards" posts
+- 87 9GAG memes, 2013-02-15 → 2024-03-03
+- 94 PokeRecaps 2019-07-21 → 2023-03-15
 
 ### Ephemeral Content (Past)
 

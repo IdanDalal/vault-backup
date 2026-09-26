@@ -7,8 +7,8 @@ pct: 2
 earmark_pct: 0
 earmark_for: ""
 status: active
-shares: 0
-last_price: 264.63
+shares: 1
+last_price: 257.06
 conviction: "Power + cooling for every AI rack"
 cut_reason: ""
 reentry_trigger: ""

@@ -34,3 +34,13 @@ _COMMIT-BLOCKED.md
 # per-student game copies live in ~/tutoring-data/games/ — never tracked here (2026-08-20)
 projects/tutoring-game-K.html
 projects/tutoring-game-D.html
+
+# --- XCOM campaign folder (2026-09-11): binaries and launcher logs stay local ---
+projects/XCOM/**/*.bin
+projects/XCOM/**/*.log
+
+# --- PC takeover 2026-09-26 ---
+.claude/
+_PUSH-FAILED.md
+__pycache__/
+projects/XCOM/screenshots/

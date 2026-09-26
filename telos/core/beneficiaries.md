@@ -13,21 +13,21 @@
 
 ## Beneficiary Hierarchy
 
-| Tier | Timeline | Who | Status | Role |
-|------|----------|-----|--------|------|
-| **Inner Circle** | Short-term | Dad, Mom, Sister | Existing | Users, Investors, Audience |
-| **Future Students** | Medium-term | People to find | TBD | Learners |
-| **Future Children** | Long-term | People to create | TBD | Inheritors |
+| Tier             | Timeline   | Who      | Status   | Role             |
+| ---------------- | ---------- | -------- | -------- | ---------------- |
+| **Inner Circle** | Short-term | Mom, Dad | Existing | no current roles |
+| Students         | Now        | K, D     | Existing | Learners         |
+
 
 ---
 
 ## Inner Circle: Concrete Deliverables
 
-| Beneficiary | Shared Context | Projects | Deliverable |
-|-------------|----------------|----------|-------------|
-| Dad | Windows, Investor, Inception fan | Curtains, IRS, Film Essays | Optimized desktop, investment tools, video essay |
-| Mom | Windows, Investor, Inception fan | Curtains, IRS, Film Essays | Same as above |
-| Sister | Windows, Investor, Inception fan | Curtains, IRS, Film Essays | Same as above |
+| Beneficiary     | Shared Context                                                                                | Projects | Deliverable                                                             |
+| --------------- | --------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------- |
+| Mom             | Cash co-investor                                                                              | Cash     | Cash-Mom.html dashboard (08-21)                                         |
+| Dad             | no current role                                                                               |          |                                                                         |
+| Students (K, D) | value in the form of knowledge, information, wisdom, attention, connection, support, and more |          | the weekly session itself; artifacts: Game Lab, Word World, Kid Studio. |
 
 **Key insight:** My family shares:
 - Platform (Windows)

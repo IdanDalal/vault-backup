@@ -1,0 +1,9 @@
+{
+  "_doc": "Polymarket events the console follows. Edit freely: add or remove slugs (the part after polymarket.com/event/). Groups render as sections on the Odds tab, in this order. Month-end price ladders for every active ticker are added automatically.",
+  "groups": [
+    {"name": "Anthropic IPO war-room", "emoji": "🚀", "slugs": ["in-which-month-will-anthropic-ipo", "anthropic-ipo-by", "what-will-anthropics-ipo-valuation-be", "anthropic-ipo-closing-market-cap-higher-strikes", "will-anthropic-or-openai-ipo-first", "openai-ipo-by"]},
+    {"name": "Macro", "emoji": "🏛", "slugs": ["fed-decision-in-september-762", "fed-rate-cut-by-629", "fed-rate-hike-by", "us-recession-by-end-of-2026"]},
+    {"name": "Holdings in the news", "emoji": "🏢", "slugs": ["largest-company-end-of-december-2026", "tesla-and-spacex-merger-officially-announced-by-june-30", "musk-out-as-tesla-ceo-before-2027"]}
+  ],
+  "max_markets_per_event": 12
+}

@@ -64,9 +64,11 @@ When stakes exist:
 
 ## Cross-References
 
+- Choice paralysis → dominoes rule
 - Choice paralysis, over-extension, negative feedback loop → problems.md (now "System Requirements")
 - Hygiene struggles → health.md
 - Cannabis → waterloos.md (sobriety)
+- Cannabis → registry item 9 (the Doser)
 - Crying → presence.md, capacity containment overflow
 
 ---

@@ -8,9 +8,10 @@
 
 **Idan** ("Idi") - 36. Israel. ASD, OCD, social anxiety.
 
-Currently: Building jep — a second brain + AI-tutor system.
+Currently: tutoring K (9) and D (12) in English since 2026-08-10, unpaid, at home; running the Cash portfolio with Mom; building Kid Studio and DECADEnts; setting up an XCOM 2 campaign; creating Curtains; creating the I4 video essay ("The Triple Inception Theory"); jep runs the HQ PC.
 
 Self-description: "Like a cat" — not pathetic drift, but **radical non-pretense**. Refusing to manufacture fake narratives for social acceptance. Honest about being in a questless phase where standard social protocols don't apply.
+The Cat, corrected (2026-08-17): "the lack of reasons to go on quests, not because they might fail, but because there's no difference between success and failure."
 
 Values: Truth, authenticity. Mantras: Invictus, Sisyphus, "The company."
 
@@ -20,11 +21,11 @@ Values: Truth, authenticity. Mantras: Invictus, Sisyphus, "The company."
 
 *Three non-fungible assets in the post-labor economy.*
 
-| Asset | Definition | Question |
-|-------|------------|----------|
-| **Vision** | Empower everyone through AI by decentralizing education | "What world am I creating?" |
-| **Values** | Radical honesty, authentic connection, growth through struggle | "What will I never compromise?" |
-| **Reputation** | Self-taught polymath who built entire stack independently | "What do I want to be known for?" |
+| Asset          | Definition                                                     | Question                          |
+| -------------- | -------------------------------------------------------------- | --------------------------------- |
+| **Vision**     | Empower everyone through AI by decentralizing education        | "What world am I creating?"       |
+| **Values**     | Radical honesty, authentic connection, growth through struggle | "What will I never compromise?"   |
+| **Reputation** | Self-taught polymath who built entire stack independently      | "What do I want to be known for?" |
 
 **VVR Checkpoint Protocol:**
 Before major decisions:
@@ -34,22 +35,26 @@ Before major decisions:
 
 If any answer is wrong → don't do it.
 
+First two students: K and D, 2026-08-10.
+
 ---
 
 ## Core Insight (Reframed 2026-01-14)
 
 **Not a character flaw — a system requirement.**
 
-| Old Frame | Functional Frame |
-|-----------|------------------|
-| Meta-work replaces real work | **Signal-void** — system requires external forcing functions |
-| Choice paralysis | Missing prioritization signals, not missing willpower |
-| Over-extension | Capacity without channel, not inability to focus |
-| Negative feedback loop | Rational response to zero-stakes environment |
+| Old Frame                    | Functional Frame                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------- |
+| Meta-work replaces real work | **Signal-void** — system requires external forcing functions                                |
+| Choice paralysis             | Missing prioritization signals, not missing willpower                                       |
+| Over-extension               | Capacity without channel, not inability to focus                                            |
+| Negative feedback loop       | Rational response to zero-stakes environment                                                |
+| Empty chair                  | No internal taskmaster; the seat fills by recruitment (Dad, Cash, the girls' schedule, jep) |
+| Open list vs crafted list    | Refuge = crafted, tested, verified lists; duty = open self-generated obligation             |
 
 **Evidence:** investment-research-system (with dad's accountability) produces output. The variable isn't discipline — it's **external signal**.
 
-**Solution pattern:** Build systems that generate signals, not systems that require willpower.
+**Solution pattern:** Build systems that generate signals, and package work as crafted quests.
 
 ---
 
@@ -60,6 +65,8 @@ Extreme empathic/pattern-recognition ability. Sees endings in openings, senses f
 **The Second Brain = safe container for uncontained capacity.**
 
 Each atomic note = part of self, safely externalized. AI mediation = influence without direct confrontation. Structure = containment without suppression.
+
+2026-08: channeled weekly at two children, under the Genie's watch (registry item 6).
 
 ---
 
@@ -77,23 +84,24 @@ Evidence: 2,500+ films, 100+ TV series, 300+ games, dozens of books. Completioni
 
 **See:** [core/beneficiaries.md](core/beneficiaries.md)
 
-| Tier | Who | Timeline |
-|------|-----|----------|
-| Inner Circle | Dad, Mom, Sister | Short-term |
-| Future Students | TBD | Medium-term |
-| Future Children | TBD | Long-term |
+| Tier            | Who                                                        | Timeline    |
+| --------------- | ---------------------------------------------------------- | ----------- |
+| Students        | K, D (sisters, since 2026-08-10); their mother brings them | Now         |
+
 
 > All technical work is a means. The end is enabling specific people.
 
 ---
 
-## Current Focus (2026-01-24)
+## Current Focus (2026-09-09)
 
-1. **Nexus** - The unified project: collaborating with Claude on everything
-   - Includes: jep, proto-jep, second brain, Idiverse mining
-   - Names are fluid; the work is one
-2. **Idiverse Integration** - Mining the old vault for gold, letting thoughts connect
-3. **investment-research-system** - Project with external accountability (dad)
+1. Tutoring K & D (S1–S6 ran; S7 cancelled 2026-09-07)
+2. Cash (allocation locked 07-24, execution checklist open, IPO war-room due ~Sep/Oct)
+3. Studio: Kid Studio v6 live, v7 built; DECADEnts D1 portrait before 2026-09-29
+4. HQ: PC is base, intent layer live 09-08
+5. XCOM 2 campaign
+6. Curtains
+7. I4
 
 ---
 
@@ -148,7 +156,7 @@ Current operating level: **6** (Multiple Frameworks)
 - [network.md](people/network.md) - extended network
 
 ### Work
-- [projects/](work/projects/) - curtains, xcom, investment-research-system, voice-input-stt
+- [projects/](work/projects/) - Curtains, XCOM
 - [creations.md](work/creations.md) - artifacts created
 - [profession.md](work/profession.md) - professional identity
 
@@ -156,20 +164,7 @@ Current operating level: **6** (Multiple Frameworks)
 - [strategies.md](system/strategies.md) - PDAC, Flow Loop, 12-Factor patterns
 - [challenges.md](system/challenges.md) - daily battles
 - [presence.md](system/presence.md) - attention and awareness
-- [frameworks.md](system/frameworks.md) - 8 Building Blocks, Context Engineering
-- [handoff-index.md](system/handoff-index.md) - unified view of all session handoffs
-- [audit.md](system/audit.md) - weekly Red Team analysis
-
----
-
-## Dynamic Priming Commands
-
-| Command | Loads |
-|---------|-------|
-| `/prime-identity` | TELOS.md + core/ + identity/ |
-| `/prime-{project}` | work/projects/{project}.md |
-| `/prime-{domain}` | Relevant domain files |
-| `/prime-vvr` | Vision, Values, Reputation check |
+- [frameworks.md](system/frameworks.md) - Context Engineering
 
 ---
 

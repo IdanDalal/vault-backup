@@ -1,0 +1,5 @@
+[mod]
+publishedFileId=0
+Title=jepFixes
+Description=Config-only fixes for broken entries in other mods. Maintained by jep, 2026-09-11.
+RequiresXPACK=true

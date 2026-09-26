@@ -1,7 +1,7 @@
 ---
-total_usd: 13389.57
+total_usd: 13031.69
 total_nis: 40000
-portfolio_value: 0
+portfolio_value: 12912.03
 tags:
   - cash
 ---
@@ -10,7 +10,7 @@ tags:
 
 The mirror rule: **identical percentages, her own dollars.** This note embeds the exact same Base views as [[Idi]] — because the views read `total_usd` from the note that embeds them, setting her amount in this note's properties is the *only* difference between the two portfolios. The mirroring is structural, never a promise to keep manually.
 
-> [!info] `total_usd` is provisional: ₪40,000 at the 2026-08-21 rate of ₪2.9874/$. Her money has not been converted yet; when the real ₪→$ conversion happens, log it in [[Money]] and replace `total_usd` with the actual $ received.
+> [!info] One pooled account since 2026-09-10. `total_usd` = her stake: $13,031.69 received for ₪40,000 at 3.0694 (fee ₪60.01 on top), logged in [[Money]]. Idi's stake in [[Idi]] is $18,374.63 (55 GOOGL valued at the $329 sale price net of the sale fee, $18,049.60, plus $325.03 he converted on 2026-09-11 to cover the trade fees). Her share of the pool = 13,031.69 ÷ (13,031.69 + 18,374.63) = 41.5%; `portfolio_value` here is the pool value times that share, written by `dashboard/update_prices.py`.
 
 ## Her dollars
 

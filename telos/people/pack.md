@@ -28,6 +28,8 @@
 
 **Conclusion:** Those specific people couldn't handle authentic self. That's a **compatibility verdict**, not a **self verdict**.
 
+The exit is also the Shipwright's unemployment (registry item 2): audience, ritual and reception dissolved together. Tutoring restored all three part-time (2026-08), unpaid.
+
 ### The Exchange Rate
 
 From interview:

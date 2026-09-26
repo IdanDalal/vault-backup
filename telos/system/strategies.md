@@ -143,12 +143,12 @@ Principle: "If you can write it in Python, don't write it in English."
 
 ## Personal Strategy Stack
 
-1. **Capture:** Slack DM (zero friction)
-2. **Route:** IntentClassifier (automatic)
-3. **Store:** Obsidian vault (single source of truth)
-4. **Review:** Daily digest (Tap on Shoulder)
-5. **Execute:** Claude Code sessions with TELOS priming
-6. **Codify:** Session insights → vault notes
+1. **Capture:** Whiteboard dump + Telegram c:
+2. **Route:** jep
+3. **Store:** vault
+4. **Review:** morning digest (laptop) + Today block
+5. **Execute:** Claude Code with TELOS + intent.md
+6. **Codify:** intent-log.md, projects/
 
 ---
 

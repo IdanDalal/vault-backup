@@ -6,13 +6,12 @@
 
 ## Get Rendered Frequency
 
-**Never.**
+Every weekend: free (mostly) hip-hop nightclub parties.
 
 ---
 
 ## Past Destinations
 
-- Clubs in Tel-Aviv (dancing)
 - Parks and playgrounds around apartment (walking)
 - Wherever friends went (when I had any)
 

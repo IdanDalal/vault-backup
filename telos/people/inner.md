@@ -12,12 +12,12 @@
 
 ## Family
 
-| Person | Location | Relationship |
-|--------|----------|--------------|
-| Mom (Amira) | Lives with | Helps, makes food, tries to talk |
-| Dad (Ilan) | Lives close by | Helps, goes to appointments, tries to talk |
-| Brother (Omer) | Europe (Cologne or Barcelona) | Never talk |
-| Sister (Maya) | Traveling (Vietnam/Thailand) | Never talk |
+| Person         | Location                         | Relationship                                                                                                   |
+| -------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Mom (Amira)    | Lives with                       | Tries to help, makes food, tries to talk, goes to appointments, co-investor, ₪40,000 provisional (Cash/Mom.md) |
+| Dad (Ilan)     | Lives close by                   | Tries to help, makes food, tries to talk, goes to appointments                                                 |
+| Brother (Omer) | Europe somewhere near Barcelona  | Almost never talk                                                                                              |
+| Sister (Maya)  | Traveling around South-East Asia | Almost never talk                                                                                              |
 
 ---
 

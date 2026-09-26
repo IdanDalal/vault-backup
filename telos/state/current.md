@@ -9,22 +9,23 @@
 
 ## Delta Legend
 
-| Icon | Meaning |
-|------|---------|
-| ✅ | Aligned with TELOS |
-| ⚠️ | Drifting — needs attention |
-| ❌ | Blocked — requires action |
-| 🔄 | In progress |
+| Icon | Meaning                    |
+| ---- | -------------------------- |
+| ✅    | Aligned with TELOS         |
+| ⚠️   | Drifting — needs attention |
+| ❌    | Blocked — requires action  |
+| 🔄   | In progress                |
 
 ---
 
 ## Focus Areas
 
-| Area | TELOS Ideal | Current Reality | Delta |
-|------|-------------|-----------------|-------|
-| **jep** | Second brain + AI-tutor | Infrastructure built, Phase 2 complete | ✅ |
-| **Curtains** | Document Obsidian workflow | Conceptual only | ⚠️ |
-| **IRS** | External accountability (dad) | Phase 2, Hebrew version shipped | ✅ |
+| Area     | TELOS Ideal            | Current Reality               | Delta |
+| -------- | ---------------------- | ----------------------------- | ----- |
+| Tutoring | weekly sessions        | S1–S6 ran, S7 cancelled       | ✅     |
+| Cash     | executed allocation    | 1/9 checklist                 | ⚠️    |
+| Studio   | one D1 render          | ComfyUI running, zero renders | ❌     |
+| HQ       | PC base + intent layer | live 09-08                    | ✅     |
 
 ---
 
@@ -62,7 +63,7 @@
 
 ## Active Constraints
 
-1. **No external deadlines** except IRS → drift risk
+1. Tutoring schedule, IPO window, Preflight 09-29 → drift risk
 2. **Solo work** → no team forcing function
 3. **Context window limits** → handoff overhead
 

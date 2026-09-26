@@ -6,17 +6,18 @@
 
 ## Active (Right Now)
 
-| Goal | Metric | Signal Source | Deadline |
-|------|--------|---------------|----------|
-| Nexus: context compounds | Each session starts with useful context | Hook output quality | Ongoing |
-| Nexus: Idiverse mining | Ideas connect, artifacts emerge | Unique files created | Ongoing |
-| IRS: Phase 2 complete | n8n bridge layer working | Dad review | 2026-02-15 |
+| Goal     | Metric                                        | Signal Source                           | Deadline       |
+| -------- | --------------------------------------------- | --------------------------------------- | -------------- |
+| Tutoring | girls return, words written                   | the sessions' schedule, session records | weekly         |
+| Cash     | 17 buys + 1 sale executed, Mom's page rebuilt | transactions/ log, Mom                  | before the IPO |
+| Studio   | one D1 portrait rendered                      | file on disk                            | 2026-09-29     |
+
 
 ---
 
 ## On Deck (3-6 Months)
 
-**investment-research-system** - The only project with external human signal (sharing progress with dad).
+**Cash** - projects/Cash/, allocation locked 07-24; Dad's original suggestion became a two-account portfolio with Mom.
 
 **Why this works:** External accountability = forcing function. Not motivation, but signal.
 
@@ -52,13 +53,14 @@ CODIFY  → Extract reusable patterns
 
 ## Abandoned Goals (Autopsy)
 
-| Goal | Pattern at Failure | Missing Signal |
-|------|-------------------|----------------|
-| Learn Spanish | Too hard, too little reward | No external accountability |
-| Speed-reading | Effort ↔ results disconnect | No measurable milestones |
-| Instagram for gamers | Effort ↔ results disconnect | No feedback loop |
-| DataCamp Data Science | Too hard, too much work | No forcing function |
-| TV series with friend | Too little reward | Collaborator disengaged |
+| Goal                  | Pattern at Failure                     | Missing Signal             |
+| --------------------- | -------------------------------------- | -------------------------- |
+| Learn Spanish         | Too hard, too little reward            | No external accountability |
+| Speed-reading         | Effort ↔ results disconnect            | No measurable milestones   |
+| Instagram for gamers  | Effort ↔ results disconnect            | No feedback loop           |
+| DataCamp Data Science | Too hard, too much work                | No forcing function        |
+| TV series with friend | Too little reward                      | Collaborator disengaged    |
+| Word World 3D         | girls bored within minutes (S5, 08-24) | no reception signal        |
 
 **Common failure mode:** Zero-stakes environment + no external signal = infinite foundation-building.
 
@@ -82,11 +84,12 @@ If any answer is blank → redesign before starting.
 
 ## Current Signal Stack
 
-| Project | Signal | Frequency |
-|---------|--------|-----------|
-| jep | Session completion logs | Per session |
-| investment-research | Dad review | Weekly |
-| Curtains | Published artifact | On completion |
+| Project    | Signal                           | Frequency    |
+| ---------- | -------------------------------- | ------------ |
+| Tutoring   | the schedule + the girls' return | weekly       |
+| Cash       | Mom's dashboard, IPO date        | on execution |
+| jep        | git log, intent-log.md counters  | per session  |
+| Whiteboard | Today block, dominoes            | daily        |
 
 ---
 

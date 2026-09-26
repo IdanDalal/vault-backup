@@ -7,8 +7,8 @@ pct: 5
 earmark_pct: 0
 earmark_for: ""
 status: active
-shares: 0
-last_price: 134.0
+shares: 11
+last_price: 151.21
 conviction: "Bought below IPO price ($135); space + orbital compute optionality"
 cut_reason: ""
 reentry_trigger: ""

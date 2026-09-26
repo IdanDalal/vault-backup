@@ -61,13 +61,13 @@
 
 ## Subscriptions
 
-| Service | Cost | Purpose |
-|---------|------|---------|
-| Anthropic | $20/mo | Claude |
-| Google AI Pro Premium 2TB | $20/mo | Gemini |
-| OpenAI ChatGPT | $20/mo | GPT-5.2 |
-| Perplexity Pro | Free (2026) | Search |
-| Nord (VPN+Pass+more) | (bundled) | Security |
+| Service                   | Cost                                                          | Purpose  |
+| ------------------------- | ------------------------------------------------------------- | -------- |
+| Anthropic Max             | $100/mo, plan-only billing, no API key ever (2026-08-30 rule) | Claude   |
+| Google AI Pro Premium 2TB | $20/mo                                                        | Gemini   |
+| OpenAI ChatGPT            | $20/mo                                                        | ChatGPT  |
+| Perplexity Pro            | Free (2026)                                                   | Search   |
+| Nord (VPN+Pass+more)      | (bundled)                                                     | Security |
 
 ---
 
@@ -75,10 +75,7 @@
 
 ### Productivity & AI
 - Git
-- n8n
-- SearXNG
 - Perplexity
-- Microsoft PowerToys
 - Syncthing
 - FreeFileSync
 

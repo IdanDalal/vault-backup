@@ -23,7 +23,13 @@ properties:
   shares:
     displayName: Shares
   price_usd:
-    displayName: Price $
+    displayName: Fill $
+  limit_usd:
+    displayName: Limit $
+  owner:
+    displayName: Owner
+  fx_rate:
+    displayName: ₪/$ at trade
   note:
     displayName: Note
   formula.effective_rate:
@@ -37,12 +43,15 @@ views:
       - date
       - type
       - ticker
+      - owner
       - nis_out
       - usd_in
       - fee_nis
       - fee_usd
       - shares
       - price_usd
+      - limit_usd
+      - fx_rate
       - formula.effective_rate
       - formula.cost_usd
       - note.note

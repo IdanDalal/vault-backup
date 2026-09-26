@@ -12,10 +12,12 @@ Phone alert made me think death (mine and everyone I love) was imminent and inev
 *Essay started at*: `/workspace/projects/Idiverse/00 C. Proof, Presentation, & Pinging - 15-20/17 Publish, Preach, & Promote - Writing, Sharing, & Creativity/Mini-Essays/2023-10-10 My Stare Into The Abyss.md`
 
 ### March 2012 - Miami Airport
-Detained 24 hours by immigration for overstaying visa on previous US visit. Flew Tel Aviv → Miami with close friend for spring break vacation. Friend went through; I was stopped, handcuffed, put back on plane to Israel. Anxiety decimated me during those 24 hours. **Haven't really done anything since.** Some months (maybe a year) of trying, then mostly resigned survival.
+Detained 24 hours by immigration for overstaying visa on previous US visit. Flew Tel Aviv → Miami with close friend for spring break vacation. Friend went through; I was stopped, handcuffed, put back on plane to Israel. Anxiety decimated me during those 24 hours. Between 2013 and 2023: 87 memes, 94 poker recaps, 12 film reviews, a game-store feed (wins-jar.md, Built 204 / Received 103). Some months (maybe a year) of trying, then mostly resigned survival.
 
 ### 2024-2025 - AI Psychosis Period
 ChatGPT triggered belief I could earn money by prompting/designing systems. Started building, felt good (suspected manic episode). Eventually failed - just burning tokens, time, energy, producing nothing but monthly bills. Stopped. Now using Claude/Nexus to build for fun, not money.
+
+### 2026-08-10 - First tutoring session (K & D)
 
 ---
 

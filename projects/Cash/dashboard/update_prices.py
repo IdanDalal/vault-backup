@@ -78,18 +78,21 @@ def main():
 
     held = [c for c in companies if c["shares"] > 0 and c["price"]]
     portfolio_value = round(sum(c["shares"] * c["price"] for c in held), 2)
+    # one pooled account since 2026-09-10: each note's portfolio_value = pool value x that owner's stake (total_usd share)
+    totals = {name: float(get_field((CASH / f"{name}.md").read_text(), "total_usd") or 0) for name in ("Idi", "Mom")}
+    pool = sum(totals.values()) or 1
     for name in ("Idi", "Mom"):
-        set_field(CASH / f"{name}.md", "portfolio_value", portfolio_value if name == "Idi" else 0)
+        set_field(CASH / f"{name}.md", "portfolio_value", round(portfolio_value * totals[name] / pool, 2))
 
     print(f"updated {len(companies) - len(failed)}/{len(companies)} prices"
           + (f" (FAILED: {', '.join(failed)})" if failed else ""))
     if fx:
         print(f"USD/ILS planning rate -> {fx}")
-    print(f"Idi portfolio_value -> ${portfolio_value:,.2f}")
+    print(f"pool value -> ${portfolio_value:,.2f} (Idi {totals['Idi'] / pool * 100:.1f}%, Mom {totals['Mom'] / pool * 100:.1f}%)")
     for c in held:
         actual = c["shares"] * c["price"] / portfolio_value * 100
         print(f"  {c['ticker']}: {c['shares']:g} sh x ${c['price']:,.2f} = "
-              f"${c['shares']*c['price']:,.2f}  actual {actual:.1f}% vs target {c['pct']:g}%")
+              f"${c['shares']*c['price']:,.2f}  actual {actual:.1f}% vs target {c['pct']:g}%  {actual - c['pct']:+.1f}")
 
 
 if __name__ == "__main__":

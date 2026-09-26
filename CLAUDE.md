@@ -133,12 +133,18 @@ The vault's dominant active project: real English tutoring with real students. B
 Media governance (several students are minors; recording runs under a consent protocol):
 
 - Raw session media — audio, photos, transcripts of students — lives ONLY in `~/tutoring-data/` (drop/ + sessions/), real storage outside this vault, outside git, outside every sync/backup layer. It must never be placed anywhere under `vault/`: git autocommit makes vault content effectively undeletable, which directly violates the extract-then-delete-forever consent rule. The 2026-04→08 breach (raw audio, photos, and full transcripts committed and pushed to GitHub via the `~/vault-agent` symlink alias) was purged from git history on 2026-08-18; `~/vault-agent` is now a dead tombstone file.
-- Pipeline (2026-08-18): Idan drops raw files into `~/tutoring-data/drop/` and says "process the tutoring data" → the `process-tutoring` skill verifies isolation, sorts into `~/tutoring-data/sessions/`, and distills initials-only notes into the vault. Raw deletion is Idan's, triggered by his use being finished, never by elapsed time.
+- Pipeline (2026-08-18): Idi drops raw files into `~/tutoring-data/drop/` and says "process the tutoring data" → the `process-tutoring` skill verifies isolation, sorts into `~/tutoring-data/sessions/`, and distills initials-only notes into the vault. Raw deletion is Idi's, triggered by his use being finished, never by elapsed time.
 - Enforcement: vault `.gitignore` blocks media/`*.LESSON.md`/camera files; a pre-commit hook (`core.hooksPath` → `~/tutoring-data/tools/hooks/pre-commit`) refuses commits containing media, transcripts, oversized files, or student names in session-record areas (`lesson-transcripts/`, new `inbox/` files) — names come from `~/tutoring-data/blocklist.txt`, which never enters the vault. A refused commit writes `_COMMIT-BLOCKED.md` at vault root (gitignored) and blocks the 30-min autocommit too, on purpose: the vault stops committing rather than leaking.
 
-## Identity Priming (TELOS)
+## Identity Priming (TELOS) and Intent
 
-`telos/` is Idi's identity context. When a task touches priorities, motivation, project direction, or how Idi works, read `telos/TELOS.md` first and follow its index deeper as needed. Caveats: it is a frozen snapshot of January 2026 that predates the tutoring era — where its self-portrait conflicts with the vault's current activity, trust the current activity. Write access remains forbidden: Idi hand-edits TELOS, always.
+Idi's ruling of 2026-09-08 (Option A, intent engineering): TELOS and the intent file load in **every** session, via the two imports below, instead of only when a task "touches priorities". `telos/` is Idi's identity context; follow its index deeper as needed. Caveats: the January 2026 interview snapshot was refreshed by Idi's hand on 2026-09-08 (rulings in `projects/identity-refresh-2026-09.md`); lines still dated January are older than the tutoring era. Where a self-portrait line conflicts with the vault's current activity, trust the current activity. Write access remains forbidden: Idi hand-edits TELOS, always.
+
+`projects/intent.md` holds the WHAT: done-states per deliverable type, the session-start dominoes rule, the meta-rules (ask WHAT never HOW, verify against intent before handoff) and the two counters jep logs to `projects/intent-log.md` at the end of every session.
+
+@telos/TELOS.md
+
+@projects/intent.md
 
 ## Backup Awareness
 

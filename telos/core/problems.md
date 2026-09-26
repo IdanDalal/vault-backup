@@ -8,10 +8,11 @@
 
 ### Choice Paralysis → Missing Prioritization Signal
 Infinite ideas, no external forcing function to select. **Not** a willpower problem — a signal-void problem.
+2026-09-08: "I know I have lots of tokens I can use, and I know I have many things to use them on, and I don't know which one(s?) to use them on now/first/most."
 
-**Evidence:** When external accountability exists (investment-research-system with dad), selection happens automatically.
+**Evidence:** When external accountability exists (investment-research-system with dad), selection happens automatically. Lesson deadlines penetrate the dose (pre-lesson countdown math, registry item 9).
 
-**Requirement:** Build systems that generate prioritization signals, not systems that demand willpower.
+**Requirement:** Build systems that generate prioritization signals, not systems that demand willpower. Mechanism since 2026-09-08: jep names 1 to 3 dominoes before Idi arrives (intent.md).
 
 ### Over-Extension → Capacity Without Channel
 Abundant tools/resources with no structured path to deploy them. The problem isn't "too many things" — it's **capacity without expression channel**.

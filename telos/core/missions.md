@@ -6,11 +6,11 @@
 
 ## Current Actions
 
-| Problem | Action |
-|---------|--------|
-| Choice paralysis | Creating Nexus v3 to prioritize |
-| Over-extension | Creating Nexus v3 to organize |
-| Negative feedback loop | Nothing - creating Nexus v3 instead of stopping the loop |
+| Problem                | Action                                                                                             |
+| ---------------------- | -------------------------------------------------------------------------------------------------- |
+| Choice paralysis       | dominoes rule, intent.md                                                                           |
+| Over-extension         | Whiteboard release valve + Today block                                                             |
+| Negative feedback loop | tutoring schedule and collaborative stock market investment with mom (external stakes exist again) |
 
 ---
 
@@ -58,9 +58,7 @@ Ideas that aim to replicate the highest highs of masterpieces' emotional climaxe
 
 ## If I Couldn't Fail
 
-**Build a community.**
-
-People are the only constant where I know I can fail. Currently alone all day, every day. No friends, job, relationship, plans, human contact. Used to go to free-entrance hip-hop clubs and dance. Now rejected at the door for not being "cool enough."
+Make a video game, make a movie, make a series, make a podcast, make a YouTube channel for long-form reviews and videos like "I4: The Triple Inception Theory", make a social app/game like Cinema Degrees, make a website/blog, and more.
 
 ---
 

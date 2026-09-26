@@ -6,9 +6,7 @@
 
 ## Currently Learning
 
-**Nothing.**
-
-Using generative AI tools, so kind-of learning to use them. But no active skill development.
+Tutoring pedagogy (P1–P7, literature-backed), ComfyUI workflow, PC admin.
 
 ---
 

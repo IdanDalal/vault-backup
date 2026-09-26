@@ -4,25 +4,6 @@
 
 ---
 
-## The 8 Building Blocks (Source 24)
-
-*Complete personal AI infrastructure requires all 8.*
-
-| # | Block | Purpose | Implementation |
-|---|-------|---------|----------------|
-| 1 | **Dropbox** | Frictionless capture | Slack DM to self |
-| 2 | **Sorter** | AI classifier | IntentClassifier in nexus |
-| 3 | **Form** | Schema/contract | VaultProcessor Note dataclass |
-| 4 | **Filing Cabinet** | Source of truth | vault/main-notes/ |
-| 5 | **Receipt** | Audit trail | JSONL with UUID |
-| 6 | **Bouncer** | Confidence filter | Thread review system |
-| 7 | **Tap on Shoulder** | Proactive digest | Daily/weekly Slack summary |
-| 8 | **Fix Button** | Trivial correction | Thread reply corrections |
-
-**All 8 are implemented in the Slack → Vault pipeline.**
-
----
-
 ## Context Engineering
 
 *The highest-leverage skill in LLM systems.*
@@ -135,7 +116,7 @@ optimizer = dspy.MIPROv2(metric=accuracy_metric)
 └─────────────────────────────┘
 ```
 
-**Principle:** Externalize goals, internalize skills. System tells WHAT; agent knows HOW.
+**Principle:** Externalize goals, internalize skills. System tells WHAT; agent knows HOW = intent engineering, built as projects/intent.md on 2026-09-08.
 
 ---
 

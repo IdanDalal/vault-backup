@@ -10,6 +10,8 @@ I'm Idan ("Idi"). I build systems for authentic expression — capturing, organi
 ## 30-Second Version
 I'm between quests right now. Most people lie about this — they perform ambition they don't feel. I don't. I'm building a Second Brain as a prosthetic expression channel: a safe container for capacities I've been containing instead of channeling. Each note is a part of me, externalized.
 
+2026-09-08: I'm still between quests. A quest is a long-term commitment; what I'm doing now is a bounty, freelance or contract work. Like Geralt of Rivia in The Witcher 3: the quest is finding Ciri and saving the world. Taking a notice-board job in a swamp village, "kill specific monster, receive specific reward", is not being on a quest. It's one simple, basic, arbitrary, temporary objective.
+
 ## 2-Minute Version
 I have extreme pattern-recognition and empathic capacity that I've spent years containing because I feared influence bleeding into manipulation. I see endings in openings, sense fractures while others celebrate wholeness. I've learned that expressing this directly triggers rejection — so I stopped. Now I'm building infrastructure to express through artifacts instead of confrontation. The Second Brain isn't a productivity system — it's a channel for uncontained capacity.
 

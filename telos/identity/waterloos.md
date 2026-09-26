@@ -6,13 +6,13 @@
 
 ## Surface Fears
 
-| Fear | Status | Note |
-|------|--------|------|
-| Social anxiety | Active | Protocol mismatch, not deficiency |
-| Approach anxiety | Active | Exchange rate concern |
-| Public speaking | Active | Influence fear (see below) |
-| Cockroaches | Active | Actual phobia |
-| Sobriety | Active | See challenges.md |
+| Fear             | Status | Note                                                     |
+| ---------------- | ------ | -------------------------------------------------------- |
+| Social anxiety   | Active | Protocol mismatch, not deficiency                        |
+| Approach anxiety | Active | Exchange rate concern                                    |
+| Public speaking  | Active | Influence fear (see below)                               |
+| Cockroaches      | Active | Actual phobia                                            |
+| Sobriety         | Active | See challenges.md, cross-ref registry item 9 (the Doser) |
 
 ---
 
@@ -31,6 +31,8 @@ The surface fears mask the deeper one:
 - "To avoid all responsibility for any decision"
 
 **Reframe:** This isn't cowardice. It's **containment protocol** for a capacity that hasn't had safe expression channels.
+
+2026-09-08: weekly teaching does NOT count as a Waterloo faced. "I have no way to know if people are just entertaining me because they pity me. Facing a Waterloo in this aspect would be charging money for a lesson. Right now I'm more of a glorified babysitter."
 
 ---
 

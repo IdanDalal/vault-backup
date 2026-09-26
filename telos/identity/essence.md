@@ -42,6 +42,15 @@ Actions avoided for so long that doing them means facing certain "defeat." Not s
 ### The Champion Moment™
 Peak effort with no audience. Sweat, strain, faint smile - doing the hard thing when no one is watching.
 
+
+### Definitions in `projects/parts-registry.md` and `projects/wins-jar.md`
+1. Emissary / Master
+2. The Empty Chair
+3. W-column
+4. L-column
+5. Level designer
+6. Dosing
+
 ---
 
 ## What Makes Me Different
@@ -49,14 +58,14 @@ Peak effort with no audience. Sweat, strain, faint smile - doing the hard thing 
 - ASD (Autism Spectrum)
 - OCD
 - Crippling social anxiety
-- Unconventional, lonely life-path: no experience, no relationships, no career, no money, no plans
+- Unconventional, lonely life-path: no relationships, no career, no plans; six tutoring sessions of experience (unpaid); $18.5k in GOOGL (55 shares, 2026-01-29)
 - Constantly having to explain, verbalize reasoning, clarify intent, detail perspective
 
 ---
 
 ## How Others See Me
 
-Unknown. Spent entirety of 2025 alone. Any past descriptions no longer relevant.
+K and D enjoy our time together and look forward to it. Receipt 2026-09-08, their mother: the girls were disappointed she couldn't come yesterday and bring them.
 
 ---
 

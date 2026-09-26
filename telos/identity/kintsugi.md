@@ -14,6 +14,8 @@ Had a girlfriend. Learned: Even with always telling truth, meaning well, trying 
 ### The ChatGPT Venture
 Tried building things for money with AI. Learned: **Never spend money before making money.**
 
+"Never spend money before making money" = the Warden's parole terms (2026-08-17): "Value surplus. When more value (money) enters my bank account than exits."
+
 **Gold repair:** Financial discipline. Current $0 spend policy is protection, not poverty mindset.
 
 ---
@@ -48,6 +50,8 @@ Claimed to never reverse the mirror, never let others see the depth. But evidenc
 - The Facebook post (~2 months ago) was public
 - The TELOS interview process was voluntary self-disclosure
 - This reframe conversation itself is mirror reversal
+
+Registry answers 2026-08-17, 2026-09-04, 2026-09-08 (voluntary disclosure, in writing, to jep).
 
 **Gold:** The containment isn't absolute. Given **safe channels** (writing, structured disclosure, AI mediation), the mirror CAN reverse. The prohibition is context-dependent, not identity-fixed.
 

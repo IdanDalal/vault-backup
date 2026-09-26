@@ -1,5 +1,5 @@
 ---
-fx_rate_planning: 2.9876
+fx_rate_planning: 3.0582
 tags:
   - cash
 ---
@@ -37,6 +37,14 @@ The **Effective ₪/$** column is the number your bank hopes you never compute: 
 ### Dividends
 
 ![[Ledger.base#Dividends]]
+
+## Fees at ONE ZERO, observed 2026-09-10
+
+- **Per trade: the larger of $24 or 0.30% of the trade.** Three data points from order details: GOOGL sell $15,134 → $45.40 (0.30%); MSFT buy $3,444 → $24; VRT buy $250 → $24. The app labels them "estimated fees" and debits them at settlement, after the gross amount.
+- **Break-even trade size $8,000.** Below it the $24 minimum rules: $2,400 costs 1%, $1,200 costs 2%, $250 costs 9.6%.
+- **₪→$ conversion:** ₪60.01 on ₪40,000 (0.15%) charged as a separate ₪ line, at a rate of 3.0694 against a Yahoo mid of about 3.02 that day, so the spread cost roughly 1.5% on top of the fee. Medium confidence on the spread figure; the mid rate at the minute of conversion was not captured.
+- **The 2026-09-10 execution paid** $45.40 + 18 × $24 = $477.40 estimated, plus ₪60.01: about 1.6% of the pool, one time.
+- **Rule from now:** no single order under $2,400. New money accumulates and deploys in a few orders into the most under-weight positions. Rebalancing happens by directing new money, never by selling and re-buying small amounts.
 
 ## Taxes — the reference layer
 
