@@ -82,3 +82,5 @@ Not copied: laptop `~/.claude/settings*.json` (PC write guard blocks commands na
 Laptop untouched: nothing deleted there.
 
 Wave 1 excludes by rule: `.env`, `keyfile`, ssh keys, `.credentials.json`, `~/.config/kitchen/env`, telegram `.env`, anything under `tutoring-data`.
+
+- 2026-09-26 17:30 HQ takeover step 6 receipt: first scheduled PC autocommit `4dd3923` pushed (log `ok`). Takeover `d80dce6`, merge `e539977`, manual proof `d3a8b28`. Tasks switched to Password logon by Idi 17:10 (Interactive never fired, S4U denied). Step 7 check due 2026-09-28 17:30: >= 90 ok lines, 2 tags, 0 laptop commits.

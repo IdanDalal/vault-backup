@@ -15,4 +15,3 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-S2, S4-S7, S9-S11, S18-S23, 

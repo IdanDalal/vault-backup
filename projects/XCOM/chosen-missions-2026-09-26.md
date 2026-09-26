@@ -11,7 +11,7 @@ Idi's seven items (Chosen traits whitelist, ambush rescue mission, parry, tongue
 
 | # | Ask | Status | Lever |
 |---|---|---|---|
-| 1 | Chosen trait whitelist | READY, needs his keep-list | jepFixes `XComGameData.ini` reset + whitelist; Chosen Rechosen for traits already rolled |
+| 1 | Chosen trait whitelist | INSTALLED 09-26 (13 S / 10 W kept) | jepFixes `XComGameData.ini` reset + whitelist; Chosen Rechosen for traits already rolled |
 | 2 | Never spawn the ambush rescue | INSTALLED | jepFixes `XComMissionDefs.ini`, 3 byte-exact removals |
 | 3 | Parry with no focus | WORKING AS DESIGNED | Parry costs Momentum, never Focus |
 | 4 | No tongue grab from full cover | NO CONFIG LEVER | script mod via SDK |
@@ -31,6 +31,8 @@ Idi's seven items (Chosen traits whitelist, ambush rescue mission, parry, tongue
 - Exact effect of each Odd S9 stat trait (numbers) not read yet.
 
 Mark each row keep or strike.
+
+**Ruled 09-26 (Idi):** strike S2, S4-S7, S9-S11, S18-S23, S26-S28, S31-S32 / W10-W12. Kept S1 S3 S8 S12-S17 S24 S25 S29 S30 / W1-W9 W13. Written to jepFixes `XComGameData.ini` (appended block, `!` reset then 23 `+` lines, LF endings like the rest of the file; prior content byte-identical, backup `XComGameData.ini.bak-0926` in the job tmp). Rechosen costs left at default (no ruling on free edits). Probe: Rechosen Add list offers only the kept names.
 
 ### Strengths (32)
 
@@ -111,6 +113,7 @@ Mark each row keep or strike.
 - No active or subscribed mod blocks it. High for this install; the Workshop at large was not searched.
 - Config reaches only cooldown and range (`KING_GET_OVER_HERE_*`, cooldown 4): fewer grabs overall, cover or not.
 - Real fix = a small script mod that copies Bind's full-cover condition onto both grabs. Needs the XCOM 2 WOTC SDK (not installed; free on Steam, no signup wall).
+- Idi's find, 09-26: No Full Cover Grabs 880396912 (RealityMachina, 2017-03-09, base XCOM 2). Does exactly this for unflanked full cover, Low Profile included. Steam page: "removed from the community because it violates Steam Community & Content Guidelines" plus "incompatible with XCOM 2" banner; pre-WOTC build; description names the Viper grab only, so the Viper King's separate `KingGetOverHere` is likely untouched (medium, source unread); comments 2020-2024 report it misses mod Viper variants, one WOTC vanilla-Viper success (2020). Not on disk.
 
 ## 5. Capture-removal slot: no lever, harmless
 
