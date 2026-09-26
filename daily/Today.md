@@ -15,9 +15,3 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-I'm currently playing through the modded XCOM campaign we organized together. I have more settings/restrictions/preferences that I'd like to implement:
-1. Chosen weaknesses and strengths: disable specific ones so that the only options are drawn from a "whitelist" of ones I leave enabled.
-2. One specific mission type I don't want to ever spawn: ambush/wave rescue. I played a few of these already - there's a VIP standing in an open, non-locked-cell location, I can't call skyranger/extraction to abort, I "activate"/"rescue" them by moving into their circle, Bradford tells me it's an ambush and I must survive 4 turns of reinforcements, and then the extraction/skyranger appears automatically.
-3. I'm not sure about this one: something's confusing about Templars (and other classes with focus) and the interaction between focus and the parry ability - I think I can sometimes parry with no focus available (essentially for free).
-4. I think there's a mod or existing solution to this somewhere: I want to disable the ability to be tongue-grabbed from behind full cover. Vipers (especially Subject Gamma) are breaking my tactics with their near-guaranteed grabs constantly.
-5. I still see remnants of the capture mechanic in covert actions. It
