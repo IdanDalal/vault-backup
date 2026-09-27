@@ -22,14 +22,14 @@ Thread opened on Idi's word, 2026-09-27. Proposal-grade: jep structures, Idi rul
 
 ## The split as a table (jep's compression of Idi's words)
 
-| Attribute                | Single-player                                 | Multi-player                                             |
-| ------------------------ | --------------------------------------------- | -------------------------------------------------------- |
-| Source                   | undesirable desire                            | desirable desire                                         |
-| Rule shape               | "alone, privately, secretly"                  | "this specific way"                                      |
-| Threat if broken         | environment forbids it after one exposure     | environment or self forbids it forever                   |
-| Effect                   | divides, isolates                             | unites, clarifies                                        |
-| Film anchor (jep)        | memory elevator: Mal locked in private floors | Ariadne enters the elevator; the team; the kick          |
-| Life anchor (TELOS, jep) | ? (Idi's to name)                             | Dad's accountability; Cash with Mom; the girls' schedule |
+| Attribute | Single-player | Multi-player |
+|---|---|---|
+| Source | undesirable desire | desirable desire |
+| Rule shape | "alone, privately, secretly" | "this specific way" |
+| Threat if broken | environment forbids it after one exposure | environment or self forbids it forever |
+| Effect | divides, isolates | unites, clarifies |
+| Film anchor (jep) | memory elevator: Mal locked in private floors | Ariadne enters the elevator; the team; the kick |
+| Life anchor (TELOS, jep) | ? (Idi's to name) | Dad's accountability; Cash with Mom; the girls' schedule |
 
 ## Candidate tests (jep proposals, Idi strikes or keeps)
 
@@ -45,6 +45,29 @@ Thread opened on Idi's word, 2026-09-27. Proposal-grade: jep structures, Idi rul
 3. Which of your current constraints are single-player? (No answer needed here; the question can stay open.)
 4. Does the "empty chair" filled by recruitment describe the conversion in T3: a single-player life turned multi-player by recruiting a witness?
 
+## Idi's answers, 2026-09-27 (as typed)
+
+> 1. I think the source. A diary can be harmful/dangerous if it contains only words the writer cares about and no one ever reads it and it never interacts with reality in any way. A 100%-solo practice can become "self-feeding" and create an attractor state that grows the distance from the goal over time, rather than shrinking it. These can happen when the source is an undesirable desire like pleasure, but can't happen when the source is a desirable desire like connection. Things like tribalism cross the line and make it clear - meaning, there could be a secret racist/sexist who follows a private constraint, and suddenly they discover their environment is also racist/sexist, so they reveal themselves to their environment, but do they reveal themselves to EVERYONE? Probably not. It's still secret, just from less people.
+> 2. If I commit crimes, society/other players will stop me before my actions can reach their full, maximum harm potential. If I neglect my body (don't eat/sleep, inject poison/drugs, etc.) nothing will stop me before my actions can reach their full, maximum harm potential - so the thing that DOES stop me eventually is my body. I don't think of my body as a player, so I'm not sure.
+> 3. Constantly crying, being sad and full of grief, not knowing what to do with my time, and MANY more. I'm not sure I understood the question, but that's the answer I got.
+> 4. Kinda. In the worst possible way. I think I answered it with the racist/sexist analogy above. It causes me to act. That's objectively true. Is it causing me to "act through my own intentions" and "express myself" and "live as a healthy, independent man"? Nope.
+
+## jep synthesis v1 (proposals; Idi strikes or keeps)
+
+| # | From answer | Model update |
+|---|---|---|
+| S1 | A1 | Source = the definition. Secrecy = a symptom, measured in degree (how many people are shut out), never a yes/no. Drift = the effect (distance from the goal grows over time). T1 and T2 demoted from tests of species to symptom checks |
+| S2 | A2 | Timing of the brake: players stop you BEFORE the harm peaks; the body is a limit, stopping you only AT the peak. A single-player constraint's only brake is a limit. Candidate term: "limit" (stops late, cannot negotiate) vs "player" (stops early, negotiates) |
+| S3 | A3 | jep's Q3 was badly asked: the answers are states (crying, grief, empty time), and a constraint is a rule. Reframed question: which rules keep those states in place? Left open, no answer required |
+| S4 | A4 + A1 | T3 (convert by adding a witness) fails as written: recruitment changes the degree of secrecy, and the source stays the same. Acting on a recruited signal lacks one's own intention. T3 struck |
+| S5 | I4 x A1 | Counterexample to A1's rule "desirable source can't go single-player": I4's Primary Axiom, grief = love with no place to go. Love is a desirable desire (connection); grief is its single-player state. Candidate third category: desirable desire WITHOUT an outlet. Candidate model: undesirable source → single-player; desirable source + outlet → multi-player; desirable source, no outlet → grief |
+
+## Open questions v2
+
+5. Does S5's third category hold: is grief a desirable desire with its outlet blocked, distinct from single-player constraints born of undesirable desires?
+6. If so, the move Mal makes in I4 ("a place for the love to go") gives the love an outlet; adding a witness is a separate move. What would an outlet look like, as distinct from a recruiter?
+
 ## Log
 
 - 2026-09-27 opened by jep on Idi's "Open it now."
+- 2026-09-27 Idi answered Q1-Q4; jep synthesis v1 (S1-S5), open questions 5-6.
