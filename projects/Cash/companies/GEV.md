@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 1
-last_price: 957.27
+last_price: 957.63
 conviction: "Turbines sold out into the 2030s"
 cut_reason: ""
 reentry_trigger: ""
