@@ -47,10 +47,12 @@ Wording below is jep's memory, confidence tagged. "Claim" = the canon item the r
 | M11 | Ring, every Cobb scene | on / off per scene (keep a running tally) | ring = Cobb's perception gauge | | |
 | M12 | Final top | spin length, wobble, compare to earlier spins | Layer 3 cut | | |
 | M13 | End of film | cut-to-black time, credits start, final frame time | 2:28 | | |
+| M15 | Saito's phone call at the end | one call clears Cobb's murder charge? what exactly is said | convenience cascade | | |
+| M16 | Eames's "pickpocket" and every other convenience you notice | log each: what is impossible, how deniable | convenience cascade (R10) | | |
 | M14 | Numbers on screen | hotel room numbers, safe codes, any 3502 / 5302 / 2053 / 528 / 491 | numerical repetition gap | | |
 
 ## Off-film checks (jep can run these, no rewatch needed)
 
-- O1. Piaf recording used in the film: which take, exact length. Recordings vary (~2:19 to 2:28).
-- O2. Exact theatrical runtime in seconds (148 min = 2:28:00?).
-- O3. Any Zimmer or Nolan statement on the 2:28 match (jep recalls a "coincidence" remark, low confidence, unverified).
+- O1. DONE 2026-09-27: Piaf 1960 original = 2:22 to 2:23 (Wikipedia, Apple Music, Discogs). Open: which take the film plays, and for how long on screen (log in M-rows).
+- O2. DONE: BBFC cinema 2D 147m 57s; IMAX 149m 05s; home video 141m 59s (PAL speed-up).
+- O3. DONE: no Nolan/Zimmer statement on 2:28 found; the "coincidence" recollection is retracted. Found instead: Zimmer, score = subdivisions and multiplications of the Piaf tempo.

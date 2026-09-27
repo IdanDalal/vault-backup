@@ -15,6 +15,3 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-Open it now.
-Also: check online for the two facts you mentioned.
-"You were incepted"   │ Reword as an invitation to walk away with Cobb
