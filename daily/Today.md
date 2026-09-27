@@ -15,3 +15,12 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+XCOM campaign notes:
+1. Where are the boltcaster, frost bomb, and hunter axe? Did I install a mod that remove them or made them appear late? Maybe `No Missable Alien Hunter Upgrades` or `Alternative DLC Integration`?
+2. Unsub from Loot Sniffer
+3. Edit/configure `[WOTC] Breakthrough Time`
+4. I haven't seen any Shield attachments drop yet
+5. Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
+6. Edit/configure `[WOTC] Speed Up Aliens Turn`
+7. Is there a problem with Ever Vigilant? There are two mods affecting it: 1) `[WOTC] Reliable Ever Vigilant Redux` 2) `[WOTC] Maybe Vigilant`
+8. Consider unsubbing from the bonds-mod-cluster: 1) `[WoTC] Cohesion Matchmaker - Dynamic Relationships` 2) `[WotC] Team Cohesion Re-enabler` 3) `[WoTC] A Slice of the XCOM Life - The Love, Kin, Friend or Foe Pack` 4) `[WotC] Complex Soldier Bonds Add-On` 5) `[WoTC] A Slice of the XCOM Life - Soldier Life Events`
