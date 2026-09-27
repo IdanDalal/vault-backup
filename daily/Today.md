@@ -19,6 +19,12 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 1189 Configure Upgrade Slots
 
+original purple is 124, 89, 255 (#7C59FF)
+
 10. Edit/configure `[WOTC] Breakthrough Time`
 11. Edit/configure `[WOTC] Speed Up Aliens Turn`
 12. Question: Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
+
+
+---
+1. Is secrecy the defining trait, or is the source (undesirable desire) the defining trait? 
