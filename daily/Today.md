@@ -15,16 +15,10 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-XCOM campaign notes:
-1. Where are the boltcaster, frost bomb, and hunter axe? Did I install a mod that remove them or made them appear late? Maybe `No Missable Alien Hunter Upgrades` or `Alternative DLC Integration`? I can build the "Ionic Axe" in my current save because I researched tier 2 melee weapons, but I never had/saw/used the tier 1 hunter axe.
-2. Unsub from Loot Sniffer
-3. Edit/configure `[WOTC] Breakthrough Time`
-4. I haven't seen any Shield attachments drop yet, and there's no grey-square mod-slot on the shields like other secondary weapons. The mod `[WOTC] Shield Attachments` might have an issue.
-5. Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
-6. Edit/configure `[WOTC] Speed Up Aliens Turn`
-7. Is there a problem with Ever Vigilant? There are two mods affecting it: 1) `[WOTC] Reliable Ever Vigilant Redux` 2) `[WOTC] Maybe Vigilant`
-8. Consider unsubbing from the bonds-mod-cluster: 1) `[WoTC] Cohesion Matchmaker - Dynamic Relationships` 2) `[WotC] Team Cohesion Re-enabler` 3) `[WoTC] A Slice of the XCOM Life - The Love, Kin, Friend or Foe Pack` 4) `[WotC] Complex Soldier Bonds Add-On` 5) `[WoTC] A Slice of the XCOM Life - Soldier Life Events`
-9. Question: The mod `[WOTC] Templar Psi Blade & Ability Colors` has an "Original Psi Blade Color", a deep purple. What are the exact 3 RGB values/numbers to recreate it? Another small note regarding that mod: it only seems to work on Templars, and not on other classes with Psi Blades (like Shanice 'Slice' Siolo, she has no "PSI BLADE COLOR" button on her customization menu like Pax 'Prophet' Palladius does).
-10. Class combos: I've selected only the most effective/efficient/optimized/min-maxed combos from the 50 available options on each rookie promotion. Can you analyze/categorize them all to extract "rules"/"goals"/"restrictions" from this existing, small dataset to suggest/find more combos that will be at least equal or better?
-11. Can I remove the mod `Total Advent Weaponry - WOTC` safely? If not, all weapons should be skins/cosmetics/ghost templates, and not have any stats/prices/whatever.
-12. All weapons should be skins/cosmetics/ghost templates, and not have any stats/prices/whatever.
+
+
+1189 Configure Upgrade Slots
+
+10. Edit/configure `[WOTC] Breakthrough Time`
+11. Edit/configure `[WOTC] Speed Up Aliens Turn`
+12. Question: Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
