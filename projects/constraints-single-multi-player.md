@@ -22,14 +22,14 @@ Thread opened on Idi's word, 2026-09-27. Proposal-grade: jep structures, Idi rul
 
 ## The split as a table (jep's compression of Idi's words)
 
-| Attribute | Single-player | Multi-player |
-|---|---|---|
-| Source | undesirable desire | desirable desire |
-| Rule shape | "alone, privately, secretly" | "this specific way" |
-| Threat if broken | environment forbids it after one exposure | environment or self forbids it forever |
-| Effect | divides, isolates | unites, clarifies |
-| Film anchor (jep) | memory elevator: Mal locked in private floors | Ariadne enters the elevator; the team; the kick |
-| Life anchor (TELOS, jep) | ? (Idi's to name) | Dad's accountability; Cash with Mom; the girls' schedule |
+| Attribute                | Single-player                                 | Multi-player                                             |
+| ------------------------ | --------------------------------------------- | -------------------------------------------------------- |
+| Source                   | undesirable desire                            | desirable desire                                         |
+| Rule shape               | "alone, privately, secretly"                  | "this specific way"                                      |
+| Threat if broken         | environment forbids it after one exposure     | environment or self forbids it forever                   |
+| Effect                   | divides, isolates                             | unites, clarifies                                        |
+| Film anchor (jep)        | memory elevator: Mal locked in private floors | Ariadne enters the elevator; the team; the kick          |
+| Life anchor (TELOS, jep) | ? (Idi's to name)                             | Dad's accountability; Cash with Mom; the girls' schedule |
 
 ## Candidate tests (jep proposals, Idi strikes or keeps)
 
