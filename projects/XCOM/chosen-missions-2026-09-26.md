@@ -124,6 +124,13 @@ Mark each row keep or strike.
 - Installed: `...\XComGame\Mods\jepNoCoverGrabs` (Config, Script, Src, .XComMod). AML `settings.json` entry added, active (backup `settings.json.bak-0926` in the job tmp; diff = only the new entry). Source mirror + `build.sh`: `projects/XCOM/jepNoCoverGrabs/`.
 - Probe, next launch, in `Launch.log`: five lines `jepNoCoverGrabs: patched: <name> templates N`, zero `not found:`, plus a list of `unpatched GetOverHere-effect ability:` names. In game: a unit in full cover (unflanked) shows no grab target line to the Viper. Removal is safe any time (template patch only, nothing saved).
 
+### 4c. Log probe, 09-27 (Idi's `Launch.log`, 16:09)
+
+- `Found X2DownloadableContentInfo X2DownloadableContentInfo_jepNoCoverGrabs` (line 226441); `patched:` x5, one template each (244586-244590); `not found:` 0.
+- Unpatched grab-effect abilities (244591-244603): Justice, DestroyerPull, MZLeftHandOfDarkness, MZKineticPull, MZKineticRescue, PullFromHarm, IRI_PullAlly, Grapplepull, AHWMagnaPull, ARFMTractorBeam, ARFMMagneticProtocol, M31_PA_GetOverHere, M31_PA_GetOverHereAlly. Enemy candidates to add on his word: DestroyerPull, AHWMagnaPull, ARFMTractorBeam, ARFMMagneticProtocol (owners unverified for the last two).
+- Emergency Defense: 0 occurrences of `EmergencyDefense` in the whole log. Removal matched.
+- In-game grab behavior: not yet observed.
+
 ## 5. Capture-removal slot: no lever, harmless
 
 - Owner correction: the capture-off line in jepFixes `XComGameBoard.ini` works through Configurable Posthumous Risks 2823200756, not Covert Infiltration. High.
