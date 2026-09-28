@@ -44,7 +44,16 @@ On a 50-card offer, about 9 are sniper cards; about 4.5 of those are the four st
 - Literal whitelist side effect: 10 sniper cards with unlisted ranged gear also go (Officer holotargeter 2, Rocketeer 2, Chryssalid Whisperer super computer 5, Blaster claymore 1). His Campaign 30 pick Oddsman / Corpsman / Keeper (sniper + autopistol) is now excluded by his own rule.
 - Earlier rules still in force: 09-16 R1 no-weapon secondary x no-weapon tertiary, R2 (file B) two different secondary weapons, R3 foreign primary weapon, R4 same squaddie skill twice; 09-17/18 displayed-weapon rules.
 
-## Proposals (tested against his 44 picks; not installed)
+### Round 2, 2026-09-28 (Idi's rulings)
+
+- **Placement fix (jep error):** the first R6 install appended the 420 pairs at the end of the file, inside the `[AmalgamationPexmBridge...]` section, where Amalgamation never reads them. Moved into `[AmalgamationClassesWOTC.X2SoldierClass_Amalgamation]`; check = same lines, reordered only. Other 09-26/27 appends checked: correct sections.
+- **Released for snipers:** Officer (holotargeter, acts from the sniper's tile) and Chryssalid Whisperer (summons a Chryssalid; every perk text reads "Your Xeno...", so the soldier stays put). 20 pairs removed. Rockets stay excluded. Pairs now 1203.
+- **P1c installed:** a pistol or autopistol secondary only with a pistol primary or a pistol tertiary (SkvScout, Smoker; Commissar counts). Pairs cannot express a three-spec rule, so the 350 offending classes are listed by exact name under `+DisableClass=` (section `[AmalgamationClassesWOTC.X2DownloadableContentInfo_AmalgamationClassesWOTC]`). DisableClass sets NumInDeck 0; Choose My Class offers only NumInDeck > 0 (`UIChooseClass_WOTC_ChooseMyClass.uc:355`); the one other listener on that check touches only Denmother's Keeper. Medium-high: untested in game.
+- Deck simulation (09-27 pool): 2,519 -> 2,287 after R6 -> 1,937 after P1c. Sniper cards 237. His 44 picks hit: only Oddsman / Corpsman / Keeper (his words: bad luck, no better option).
+- Limit: the DisableClass list is built from the 09-27 deck. A spec added later by a new mod needs a regenerate (`amalgamation-tools/p1c.py`).
+- Probe, first launch: `Amalgamation DLCINFO INFO: Disabled classes 441` (09-27 log: 91, plus 350); `No class template` errors stay at 42 (09-27 count, other mods' lists).
+
+## Proposals (tested against his 44 picks; P1c and P2-holotargeter installed in round 2)
 
 | # | Rule | Deck cards removed | His picks it would have removed | jep |
 |---|---|---|---|---|
