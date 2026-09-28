@@ -17,10 +17,23 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 
 
-1189 Configure Upgrade Slots
 
 Psi Blade purple is 124, 89, 255 (#7C59FF)
 
 10. Edit/configure `[WOTC] Breakthrough Time`
-11. Edit/configure `[WOTC] Speed Up Aliens Turn`
-12. Question: Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
+11. Question: Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
+
+---
+
+I'm done with this campaign. I wanna start a new one. I've disabled these 9 mods:
+1. [WoTC] A Slice of the XCOM Life - Soldier Life Events
+2. [WoTC] A Slice of the XCOM Life - The Love, Kin, Friend or Foe Pack
+3. [WotC] Complex Soldier Bonds Add-On
+4. [WotC] Team Cohesion Re-enabler
+5. [WoTC] Cohesion Matchmaker - Dynamic Relationships
+6. [WOTC] Speed Up Aliens Turn
+7. [WOTC] Loot Sniffer
+8. [WOTC] Edit My Staff
+9. Total Advent Weaponry - WOTC
+
+Can I unsubscribe from them and delete/remove them safely now? Or do you need to change/edit/modify/fix anything?
