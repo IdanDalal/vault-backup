@@ -53,6 +53,14 @@ On a 50-card offer, about 9 are sniper cards; about 4.5 of those are the four st
 - Limit: the DisableClass list is built from the 09-27 deck. A spec added later by a new mod needs a regenerate (`amalgamation-tools/p1c.py`).
 - Probe, first launch: `Amalgamation DLCINFO INFO: Disabled classes 441` (09-27 log: 91, plus 350); `No class template` errors stay at 42 (09-27 count, other mods' lists).
 
+### Verification pass, 2026-09-28 (four read-only audit agents; reports in the job tmp, v_A..v_D.md)
+
+- Fixed: jepFixes `XComLootPostMover.ini` had the 09-15 expiry keys under the DLCInfo section; the class that reads them is `XComGameState_LootDropSplitter` (config LootPostMover). Loot expiry 3/3 never applied in Campaign 30 (psi loot stayed at 2). Header corrected.
+- Fixed: one exact duplicate pair line removed (1202 pairs); stale "230" comment updated to 237; misleading jepReusePCS config comment corrected.
+- Open, needs Idi: the Promotion Assistant's GTS alternative (`bEnableGTSAlternative=true`, `UISL_AmalGTS.uc:16-94`) picks one class per primary from its own hash and ignores NumInDeck, so P1c-disabled classes can appear on the GTS rookie-training screen. Choose My Class promotions honour P1c. R6 (pairs) holds everywhere.
+- Checked, no action: MEC-spec pairs from 09-16 are inert (the MEC generator only combines its own specs, so those combos never exist); ELR ResidentEvilLeaders blank line is inherited from UECP and its units are not installed; ARFM Gameplay Mutators adds its own story Chosen strengths (Dedication/Aspect) by strategic action, outside the random pool the whitelist governs.
+- Only in-game proof remains: first-launch log lines listed above plus `jepReusePCS: bReusePCS set`.
+
 ## Proposals (tested against his 44 picks; P1c and P2-holotargeter installed in round 2)
 
 | # | Rule | Deck cards removed | His picks it would have removed | jep |
