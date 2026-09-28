@@ -37,3 +37,19 @@ Deck receipt, 2026-09-27 pool (2,519 classes, 469 with a sniper primary, 10 snip
 | Empty slot (Recon Officer, Gripsman) | 14 | depends on tertiary | R1: the tertiary should bring a ranged or device weapon |
 
 On a 50-card offer, about 9 are sniper cards; about 4.5 of those are the four strong pairings above.
+
+## Enforced in jepFixes (new campaigns only)
+
+- **R6, installed 2026-09-28 on Idi's word:** sniper primaries only with gremlin, grenade launcher, psi amp, bio amp (Biotic tertiary via an empty slot) or BIT. 420 new `IncompatibleSpecs` pairs in jepFixes `XComAmalgamation.ini` (803 -> 1223, prior lines byte-identical): sniper x 27 secondaries with any other displayed weapon, sniper x 16 tertiaries that put any other weapon in the secondary slot. Empty-slot secondaries stay so Biotic (or a gremlin/psi tertiary) can fill them. Deck simulation: sniper cards 469 -> 230, all 229 gremlin/GL/psi/BIT sniper cards kept.
+- Literal whitelist side effect: 10 sniper cards with unlisted ranged gear also go (Officer holotargeter 2, Rocketeer 2, Chryssalid Whisperer super computer 5, Blaster claymore 1). His Campaign 30 pick Oddsman / Corpsman / Keeper (sniper + autopistol) is now excluded by his own rule.
+- Earlier rules still in force: 09-16 R1 no-weapon secondary x no-weapon tertiary, R2 (file B) two different secondary weapons, R3 foreign primary weapon, R4 same squaddie skill twice; 09-17/18 displayed-weapon rules.
+
+## Proposals (tested against his 44 picks; not installed)
+
+| # | Rule | Deck cards removed | His picks it would have removed | jep |
+|---|---|---|---|---|
+| P1 | pistol secondary only with a pistol primary | 396 | 6 | reject: too strict |
+| P1c | pistol secondary only with a pistol primary or a pistol tertiary (Commissar counts, its perks fire from the pistol) | 350 | 1 (Oddsman / Corpsman, already banned by R6) | recommend: R5 as he worded it |
+| P2 | release holotargeter + rocket for snipers (unlisted ranged gear) | adds back 4 | 0 | optional |
+
+- R2 and R8 (passives and healing only "in harmony") are judgment calls; a pair rule cannot see harmony, and the only mechanical form (passive tertiary with a weapon-less secondary) is already banned by the 09-16 R1: 0 cards left to cut.
