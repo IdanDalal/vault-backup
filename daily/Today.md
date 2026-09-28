@@ -25,15 +25,3 @@ Psi Blade purple is 124, 89, 255 (#7C59FF)
 
 ---
 
-I'm done with this campaign. I wanna start a new one. I've disabled these 9 mods:
-1. [WoTC] A Slice of the XCOM Life - Soldier Life Events
-2. [WoTC] A Slice of the XCOM Life - The Love, Kin, Friend or Foe Pack
-3. [WotC] Complex Soldier Bonds Add-On
-4. [WotC] Team Cohesion Re-enabler
-5. [WoTC] Cohesion Matchmaker - Dynamic Relationships
-6. [WOTC] Speed Up Aliens Turn
-7. [WOTC] Loot Sniffer
-8. [WOTC] Edit My Staff
-9. Total Advent Weaponry - WOTC
-
-Can I unsubscribe from them and delete/remove them safely now? Or do you need to change/edit/modify/fix anything?
