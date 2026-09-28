@@ -70,19 +70,9 @@ Not gaps, verified: Synthoids (in UECP), Spooky Scary Sectopods (ability mod, no
 
 Launch.log (`C:\Users\Idi\Documents\my games\XCOM2 War of the Chosen\XComGame\Logs\Launch.log`): first check the load order (jepFixes must be the last `Checking DLC installation` line), then the ELR blocks `Lists after:` per logged list. Expect in DefaultLeaders: ARFMAdvOutriderM1, MutonAdolescent; in DefaultFollowers: ARFMAdvRunnerM1, ViperFrostling; in TerrorLeaders: SectoidTrooperM4. Lines `Unit template does not exist:` name any entry whose mod is missing (harmless, ELR skips it). Lines `No group defined with name:` mean a broken group reference (should be zero). Drop the log into `projects/XCOM/` or grant read access; jep greps it.
 
-## Campaign levers (2026-09-19)
-
-| File | Kind | What |
-|---|---|---|
-| `Config\XComGameBoard.ini` | additive | capture risk off (Configurable Posthumous Risks `+ChangeRisk` alwaysOff); 9 covert action names on Covert Infiltration's `CovertActionsPreventRandomSpawn` |
-| `Config\XComGameData.ini` | additive | 31 faction orders on Covert Infiltration's `arrRemoveFactionCard` (kills order and continent-bonus forms); 6 of Idi's 37 held because they are his kept continent bonuses |
-
-Spec and receipts: `projects/XCOM/faction-orders-covert-actions-2026-09-19.md`. Verify in game: Covert Actions screen shows no Soldier Captured risk and none of Teamwork Training, Intel Collection, Supply Run, Combat Preparedness, Scavenge Alien Loot, Our Experiment Now, Patrol Wilderness, Factory Reactivation; Resistance Orders never offer a listed card.
-
 ## Log
 
 - 2026-09-11 created: 8 BodyPartTemplateConfig fixes.
 - 2026-09-14 UECP extension: 4 files added, README rewritten (real defect per source line, verification recipe).
 - 2026-09-14 second launch 17:00: extension LIVE, jepFixes check 1119/1120, all 29 pod units in the ELR dumps.
 - 2026-09-14 first launch: extension NOT live, jepFixes loaded 6th. Cause: mod directory order. ModPaths swapped in settings.json; README load-order rule corrected. ELR also logs `No group defined with name: NemesisLeaders`, a UECP-side dangling reference (Nemesis group never defined), harmless.
-- 2026-09-19 campaign levers: XComGameBoard.ini + XComGameData.ini added (capture risk off, 9 covert actions blocked, 31 orders removed); installed copy byte-identical to vault copy.
