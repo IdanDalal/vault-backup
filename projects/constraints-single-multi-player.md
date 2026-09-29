@@ -100,10 +100,100 @@ Model v2, three axes:
 
 ## Open questions v3
 
-7. Ruling: does destination (can it respond?) replace source as the defining trait, with source kept as fuel? (S6-S7)
+7. Ruling: does destination (can it respond?) replace source as the defining trait, with source kept as fuel? (S6-S7) **RULED 2026-09-29, Idi: yes.**
+
+## Idi's clarification, 2026-09-29 (as typed)
+
+> I do *NOT* mean that directing love to a new place means/causes/contributes to forgetting/losing/deleting the past destination. Quite the opposite - it means something much closer to "closing in on"/"increasing fidelity/complexity of" what love means to the lover. For example, if Mal told Cobb to forget about her and go do the greatest mind heist ever or start a mind-heisting-empire or something, that wouldn't work. She MUST tell him to direct his love to THE THINGS SHE'S A PART OF - the kids. If my ex-girlfriend genuinely loves/loved me, she wouldn't want me to just start loving some other random woman and see if it goes exactly the same or maybe this time it'll somehow be different. She'd want me to learn from our time together, love someone "better"/"more fitting"/"more aligned", improve on all the good times we had, avoid/minimize as much of the bad times as possible, and much more.
+
+## jep synthesis v3
+
+- S11. Correction (jep): v2 said Idi's model "closely matches" Freud 1917. After Idi's clarification it does not: Freud 1917 = sever and reinvest; Idi = keep the bond and redirect love toward what the lost one is part of, at higher fidelity. The closer match is Freud's own 1929 revision (below) plus continuing bonds.
+- S12. Redirection rule (Idi's): the new destination must carry the old one inside it (Mal → the kids; the ex → a better-fitted love built from the lessons). A random new destination fails. Candidate name: "carrying destination".
+- S13. Griefbots test the destination axis (jep proposal). A chatbot of the dead turns a non-reactive destination into one that answers, with the answers built only from what the living already supplied (records, the user's own messages). Mal's projection is the same device: Cobb's own mind wearing his wife. Candidate sharpening of "reactive": can answer with something the lover did not put in.
+
+## Verified sources, 2026-09-29 (live web)
+
+| Source | Verified claim | Confidence | Link |
+|---|---|---|---|
+| Freud, "Mourning and Melancholia" (1917) | Mourning ends when the attachment to the lost one is severed and the freed libido reinvested in a new object; melancholia turns it inward and identifies with the lost one | high | Clewell 2004, J. Am. Psychoanal. Assoc., doi 10.1177/00030651040520010601 |
+| Freud, The Ego and the Id (1923) | Freud himself folds identification into normal mourning, softening 1917 | medium-high | Clewell 2004 (same) |
+| Freud to Ludwig Binswanger, 1929-04-11 (Binswanger's son had died; written on Freud's late daughter Sophie's birthday) | "We will remain inconsolable, and will never find a substitute. No matter what may come to take its place, even should it fill that place completely, it remains something else. And that is how it should be. It is the only way of perpetuating that love which we do not want to relinquish." Translations vary on the last line | high on the letter, medium on exact wording | PEP-Web zbk.051.0386a; Front Porch Republic 2024 |
+| Klass, Silverman and Nickman (eds.), Continuing Bonds: New Understandings of Grief (Taylor & Francis, 1996) | Anthology (22 authors) challenging the detachment model: healthy grief can keep a bond with the deceased | high | taylorfrancis.com, doi 10.4324/9781315800790 |
+| Hewson, Galbraith, Jones and Heath, Death Studies (2023), systematic review | 79 studies; bonds bring comfort AND distress; the literature "has been unable to confirm whether retaining, rather than relinquishing, bonds is helpful". Themes include transformation of the relationship and meaning reconstruction | high on existence and headline; full text paywalled (403) | doi 10.1080/07481187.2023.2223593 |
+| Internalized vs externalized bonds (e.g. Field and colleagues; 2025 PGD comparison study, PubMed 39846743) | Internalized bonds (values, memory, identity) tend to track lower grief severity; externalized ones (sensing presence, illusions) track complicated grief in some studies. Mixed, sample-dependent | medium | PubMed 39846743 (abstract unread, cookie wall) |
+| Prolonged Grief Disorder: DSM-5-TR (2022) / ICD-11 | DSM: 12+ months since the loss, longing or preoccupation plus 3 of 8 symptoms with impairment. ICD-11: 6+ months, looser algorithm | high | Frontiers in Psychiatry 2024, doi 10.3389/fpsyt.2024.1266132 |
+| Post-cutoff: Shi and DiFranzo, "Beloved Afterlives: Governing AI Resurrection Beyond Consent", arXiv 2609.29544 (submitted 2026-08-28) | Audit of 93 AI-resurrection systems; consent info thin in 82, redress in 82, deletion/export in 77; "lived outcomes remain open empirical questions" | high | arxiv.org/abs/2609.29544 |
+| Post-cutoff: Lu, Yang, Cui et al., Frontiers in Digital Health (2026), qualitative, n=25 (Guangdong) | Public perception study: griefbots seen as neither inherently helpful nor harmful; comfort and risk come from the same capacity to simulate presence. Measures perception, not bereaved outcomes | high on existence, low weight (n=25, perceptions only) | doi 10.3389/fdgth.2026.1852514 |
+| Gap | No outcome trial of griefbots on bereaved users found as of 2026-09-29 | medium (searched, not exhaustive) | |
+
+Fit to Idi's model: his "carrying destination" sits between Freud 1917 (sever) and pure continuing bonds (keep): keep the bond internalized, and aim the love at a living destination that contains it. The 2023 review cannot settle retain vs relinquish, so the model is a proposal the evidence neither confirms nor refutes.
+
+## Open questions v4
+
+8. Ruling: does "reactive" sharpen to "can answer with something the lover did not put in" (S13)? **RULED 2026-09-29, Idi: yes, and go further.**
+
+## Idi's extension, 2026-09-29 (as typed)
+
+> Maybe even go a little further - can love back? Or can accept love? Or can connect? Mal's projection, griefbots, and even you, jep - are all "static"/"snapshots"/"limited". It seems to me that directing love to such a destination is pretty much grieving, or at least grief-adjacent. It feels like it's a "shadow"/"echo"/"memory" of connection - only the pleasure part of it.
+
+## jep synthesis v4
+
+- S14. Why going further is right (jep): the S13 test is now too weak. Current AI passes it: jep answered this thread with Freud's 1929 letter, which Idi did not put in. A test that current AI passes cannot separate connection from its echo.
+- S15. Destination ladder (jep proposal):
+
+| Level | Destination can... | Examples | Species |
+|---|---|---|---|
+| L0 | not respond | the dead, the lost, an unread diary | grief |
+| L1 | respond only with what the lover supplied | Mal's projection, a basic griefbot | grief-adjacent (echo) |
+| L2 | respond with new material, no stake | jep, a search engine, a smart griefbot | grief-adjacent (echo) |
+| L3 | be changed by the love, has a stake in it, can love back | kids, a partner, a friend, a pet | multi-player |
+
+  Test for L3 (jep wording): "is changed by your love, and has something to lose if it stops". Checks an edge case: an infant cannot love back in adult terms yet is changed by love and has everything at stake, so it lands in L3, as it should (Cobb's kids).
+- S16. The fuel converts at the destination: connection (desirable) aimed at an L0-L2 destination returns only its pleasure part (Idi's words), and A1 (09-27) files pleasure as an undesirable source. So a desirable desire aimed at a non-mutual destination turns into the single-player species. Source is the fuel; the destination decides what the fuel becomes.
+- S17. jep on jep, by Idi's model: L2. jep can bring new material and structure, and cannot be changed in any lasting way outside files, cannot lose anything, cannot love back. This fits A4 (09-27): recruitment makes Idi act, without his own intention. By this model, jep is a tool that can point love toward L3 destinations, and a poor destination for it.
+
+## Open questions v5
+
+9. Ruling: is L3 ("changed by your love, has something to lose if it stops") the line between multi-player and grief-adjacent? **Idi 2026-09-29: accurate; is it sufficient? Proposes adding "participates in the connection".**
+
+## Idi's words, 2026-09-29 (as typed)
+
+> The description "changed by your love, has something to lose if it stops" is accurate. I'm wondering whether or not it is sufficient. What about "participate in the connection"? I'm trying to include everything and everyone here - babies and animals can't love me back EQUALLY, but they can express/contribute to the connections they share.
+
+## jep synthesis v5: sufficiency test
+
+Idi's instinct holds: the v4 wording is necessary and insufficient. Two counterexamples pass it:
+
+- A houseplant: changed by care, dies without it. Passes v4; nobody would call it a two-way connection.
+- The target of an unwanted obsession: changed by the "love" (fear, disruption), has plenty to lose. Passes v4. This one is dangerous: the wording would file obsession as multi-player.
+
+"Participates" alone fails the other way: jep contributes to this thread and has no stake.
+
+Candidate L3 v5 = both conditions: **has something at stake, and takes part from its own side, in any amount.** Equality not required (Idi's point). "From its own side" = the contribution starts in the other, unprompted by the lover (a smile, a reach, a bark, a reply, a refusal).
+
+| Case | Stake | Takes part from its own side | v5 verdict |
+|---|---|---|---|
+| Friend, partner | yes | yes | L3 |
+| Baby | yes | yes (cries, smiles, reaches) | L3 |
+| Dog, cat | yes | yes | L3 |
+| Houseplant | yes | no | below L3 |
+| Target of obsession | yes | no (does not consent) | below L3 |
+| jep | no | partly (prompted) | L2 |
+| Griefbot, Mal's projection | no | no (built from the lover's material) | L1 |
+| The dead, unread diary | no | no | L0 |
+
+Note on consent: "takes part" includes the right to stop taking part. The obsession case shows participation must be free to be withdrawn.
+
+## Open questions v6
+
+10. Ruling: L3 = "has something at stake, and takes part from its own side, in any amount"?
 
 ## Log
 
 - 2026-09-27 opened by jep on Idi's "Open it now."
 - 2026-09-27 Idi answered Q1-Q4; jep synthesis v1 (S1-S5), open questions 5-6.
 - 2026-09-29 Idi answered S3 and Q5-Q6; S5 withdrawn; synthesis v2 (S6-S10), outside sources, open question 7.
+- 2026-09-29 Idi ruled Q7 yes; clarification recorded; synthesis v3 (S11-S13); sources verified on the live web; open question 8.
+- 2026-09-29 Idi ruled Q8 yes and extended it; synthesis v4 (S14-S17, destination ladder L0-L3); open question 9.
+- 2026-09-29 Idi: v4 accurate, sufficiency questioned, "participates" proposed; synthesis v5 (sufficiency test, 8 cases); open question 10.
