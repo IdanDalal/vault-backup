@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 3
-last_price: 372.11
+last_price: 357.45
 conviction: "Lowest core conviction: autonomy upside real, valuation demands it"
 cut_reason: ""
 reentry_trigger: ""
