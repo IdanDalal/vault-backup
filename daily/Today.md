@@ -17,6 +17,4 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 Psi Blade purple is 124, 89, 255 (#7C59FF)
 
-Here are my answers:
-1. Q: Which rules keep my states in place? A: I dunno...Maybe the "0₪ spent per day" rule, or something deeper like not trusting my own rules, which causes me to follow external rules (people's, places', society's, the internet's, etc.)
-2. Q: Is grief a desirable desire with its outlet blocked, distinct from single-player constraints born of undesirable desires? A: Grief is love (a desirable desire) misdirected/misused/misunderstood internally, not blocked externally. Whoever/whatever is the subject/recipient/focus of the love, is/was/will be 
+I do *NOT* mean that directing love to a new place means/causes/contributes to forgetting/losing/deleting the past destination. Quite the opposite - it means something much closer to "closing in on"/"increasing fidelity/complexity of" what love means to the lover. For example, if Mal told Cobb to forget about her and go do the greatest mind heist ever or start a mind-heisting-empire or something, that wouldn't work. She MUST tell him to direct his love to THE THINGS SHE'S A PART OF - the kids. If my ex-girlfriend genuinely loves/loved me, she wouldn't want me to just start loving some other random woman. She'd want me to learn from our time together, love someone "better"/"more fitting"/"more aligned", imp

@@ -54,20 +54,56 @@ Thread opened on Idi's word, 2026-09-27. Proposal-grade: jep structures, Idi rul
 
 ## jep synthesis v1 (proposals; Idi strikes or keeps)
 
-| #   | From answer | Model update                                                                                                                                                                                                                                                                                                                                                                                             |
-| --- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| S1  | A1          | Source = the definition. Secrecy = a symptom, measured in degree (how many people are shut out), never a yes/no. Drift = the effect (distance from the goal grows over time). T1 and T2 demoted from tests of species to symptom checks                                                                                                                                                                  |
-| S2  | A2          | Timing of the brake: players stop you BEFORE the harm peaks; the body is a limit, stopping you only AT the peak. A single-player constraint's only brake is a limit. Candidate term: "limit" (stops late, cannot negotiate) vs "player" (stops early, negotiates)                                                                                                                                        |
-| S3  | A3          | jep's Q3 was badly asked: the answers are states (crying, grief, empty time), and a constraint is a rule. Reframed question: which rules keep those states in place? Left open, no answer required                                                                                                                                                                                                       |
-| S4  | A4 + A1     | T3 (convert by adding a witness) fails as written: recruitment changes the degree of secrecy, and the source stays the same. Acting on a recruited signal lacks one's own intention. T3 struck                                                                                                                                                                                                           |
-| S5  | I4 x A1     | Counterexample to A1's rule "desirable source can't go single-player": I4's Primary Axiom, grief = love with no place to go. Love is a desirable desire (connection); grief is its single-player state. Candidate third category: desirable desire WITHOUT an outlet. Candidate model: undesirable source → single-player; desirable source + outlet → multi-player; desirable source, no outlet → grief |
+| # | From answer | Model update |
+|---|---|---|
+| S1 | A1 | Source = the definition. Secrecy = a symptom, measured in degree (how many people are shut out), never a yes/no. Drift = the effect (distance from the goal grows over time). T1 and T2 demoted from tests of species to symptom checks |
+| S2 | A2 | Timing of the brake: players stop you BEFORE the harm peaks; the body is a limit, stopping you only AT the peak. A single-player constraint's only brake is a limit. Candidate term: "limit" (stops late, cannot negotiate) vs "player" (stops early, negotiates) |
+| S3 | A3 | jep's Q3 was badly asked: the answers are states (crying, grief, empty time), and a constraint is a rule. Reframed question: which rules keep those states in place? Left open, no answer required |
+| S4 | A4 + A1 | T3 (convert by adding a witness) fails as written: recruitment changes the degree of secrecy, and the source stays the same. Acting on a recruited signal lacks one's own intention. T3 struck |
+| S5 | I4 x A1 | Counterexample to A1's rule "desirable source can't go single-player": I4's Primary Axiom, grief = love with no place to go. Love is a desirable desire (connection); grief is its single-player state. Candidate third category: desirable desire WITHOUT an outlet. Candidate model: undesirable source → single-player; desirable source + outlet → multi-player; desirable source, no outlet → grief |
 
 ## Open questions v2
 
 5. Does S5's third category hold: is grief a desirable desire with its outlet blocked, distinct from single-player constraints born of undesirable desires?
 6. If so, the move Mal makes in I4 ("a place for the love to go") gives the love an outlet; adding a witness is a separate move. What would an outlet look like, as distinct from a recruiter?
 
+## Idi's answers, 2026-09-29 (as typed)
+
+> 1. Q: Which rules keep my states in place? A: I dunno...Maybe the "0 spent per day" rule, or something deeper like not trusting my own rules, which causes me to follow external rules (people's, places', society's, the internet's, etc.)
+> 2. Q: Is grief a desirable desire with its outlet blocked, distinct from single-player constraints born of undesirable desires? A: Grief is love (a desirable desire) misdirected/misused/misunderstood internally, not blocked externally. Whoever/whatever is the subject/recipient/focus of the love, is/was/will be incompatible with the situation/result/direction of the griever. To truly understand, properly use, and DELIBERATELY direct that love, would be to stop grieving and start loving again. Love cannot be blocked - it's like a physics-defying/reality-breaking bottomless pit that can be poured into by an infinite number of pourers forever. Grief is love "caged" or "not allowed" to go anywhere but one specific, lost/non-reactive destination.
+> 3. Q: What would an outlet look like, as distinct from a recruiter? A: the first, immediate association that popped into my head is kids/children. In Inception, all of Cobb's love goes to dead Mal, while none of it goes to his living kids. It sounds like the same thing that could have happened to me if I was directing my love to my ex-girlfriend instead of my next girlfriend, or any girl I meet, or any person I'm with at the moment. I see this happening to people surrounding me CONSTANTLY: there are people who bring up their dead relatives in EVERY conversation, sometimes SEVERAL TIMES in a single conversation.
+
+## jep synthesis v2 (proposals; Idi strikes or keeps)
+
+S5 is withdrawn: Idi's A2 says nothing outside blocks grief; the cage is a rule inside ("love may go only to X").
+
+Model v2, three axes:
+
+| Axis | Question | Values |
+|---|---|---|
+| Source (fuel) | what desire powers the rule? | desirable (connection) / undesirable (pleasure) |
+| Destination (species) | can what the rule points at respond? | reactive: living people, a team, the next partner / non-reactive: the dead, the lost, a diary nobody reads, the body |
+| Author (ownership) | who wrote the rule? | self / recruiter (people, places, society, the internet) |
+
+- S6. Single-player = a rule whose destination cannot respond. Every case so far fits: the secret crime hides from reactive players; body neglect meets only a limit; the unread diary; grief's one lost destination; Cobb's love to dead Mal. Multi-player = a destination that responds: Cobb's kids, the next partner, the person in the room.
+- S7. Source moves from "defining trait" (A1, 09-27) to "fuel". Grief is the case that forced it: desirable fuel, single-player rule. This revises Idi's A1 and needs his ruling.
+- S8. Recruiter vs outlet = the author axis. A recruiter writes the rule and you follow it; an outlet receives love you direct. Idi's A1 (09-29), "not trusting my own rules", explains why the empty chair fills by recruitment: self-authored rules lack trust, so external ones take the seat.
+- S9. Where self-authored rules gain trust (jep proposal): TELOS already names it. "Refuge = crafted, tested, verified lists"; W = "a self-generated list that reached done, with a receipt". The wins jar reads as a trust ledger for self-authored rules.
+- S10. I4 link: the canon's own Primary Axiom already says "Find a place for the love to go". Idi's A3 names the place: the kids. Cobb's arc = love redirected from a non-reactive destination to a reactive one.
+
+## Outside sources for the crediting web (jep, from memory, verify before use)
+
+- Freud, "Mourning and Melancholia" (1917): mourning = withdrawing love (libido) from the lost object and reinvesting it in a new one. Idi's model v2 closely matches it. High confidence on the claim, medium on exact wording.
+- Klass, Silverman and Nickman, "Continuing Bonds" (1996): the counterpoint. Healthy grief often keeps a bond with the dead; the 20th-century "let go" model is disputed. Later studies are mixed: some bond types correlate with more distress, others with less (effect sizes vary; replication patchy). Medium confidence.
+- Prolonged Grief Disorder, DSM-5-TR (2022): the clinical boundary for grief that keeps one destination for 12+ months with impairment. High confidence it exists; applies to Idi's "dead relatives in every conversation" observation only as a possibility; jep diagnoses no one.
+- Tension for I4: "I have to let you go" reads as Freud; a continuing-bonds reading says Cobb keeps loving Mal as memory while redirecting the rest to the kids. Both fit the ending.
+
+## Open questions v3
+
+7. Ruling: does destination (can it respond?) replace source as the defining trait, with source kept as fuel? (S6-S7)
+
 ## Log
 
 - 2026-09-27 opened by jep on Idi's "Open it now."
 - 2026-09-27 Idi answered Q1-Q4; jep synthesis v1 (S1-S5), open questions 5-6.
+- 2026-09-29 Idi answered S3 and Q5-Q6; S5 withdrawn; synthesis v2 (S6-S10), outside sources, open question 7.
