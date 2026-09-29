@@ -10,6 +10,15 @@ origin: I4 verdict session 2026-09-27 (projects/I4/i4-verdict-2026-09-27.md, rul
 
 Thread opened on Idi's word, 2026-09-27. Proposal-grade: jep structures, Idi rules. Nothing here is a conclusion yet.
 
+## Model as ruled (2026-09-29; read this block, the log below is history)
+
+- Species is set by the DESTINATION of a constraint. Source = fuel only (Q7).
+- Multi-player (L3) destination: **has something at stake, and takes part from its own side, in any amount** (Q10). Equality not required; the other must be free to stop.
+- Ladder: L0 cannot respond (the dead, an unread diary) → grief. L1 answers only with the lover's material (Mal's projection, a basic griefbot) → echo. L2 answers with new material, no stake (jep) → echo. L3 → multi-player.
+- The fuel converts at the destination: connection aimed below L3 returns only its pleasure part (S16).
+- Redirection never deletes the old destination: love moves to a "carrying destination" that holds the lost one inside it (Mal → the kids), at higher fidelity (S12). Closest outside match: Freud's 1929 letter to Binswanger; counterpoint and open evidence: continuing bonds (Hewson et al. 2023).
+- Author axis: a recruiter writes the rule; an outlet receives love you direct (S8). Open root: distrust of self-authored rules (Idi's 09-29 A1).
+
 ## Idi's words (as typed, 2026-09-27)
 
 > invented constraints come in different shapes, and can have different purposes and effects. I think there are "Single-player" ones "Multi-player" ones. "Single-player" ones are destructive/harmful/separatist/dividing, they arise as a response to undesirable desires and include "I must do X alone, privately, secretly, because if I do it in public once, the environment will not allow me to do it again even once" (theory: Cobb seeing his kids, reality: criminals committing crime). "Multi-player" ones are constructive/valuable/uniting/clarifying, they arise from desirable desires and include "I must do X in this specific way, because if I do it any other way, either the environment or my own self will not allow me to do it forever".
@@ -187,7 +196,7 @@ Note on consent: "takes part" includes the right to stop taking part. The obsess
 
 ## Open questions v6
 
-10. Ruling: L3 = "has something at stake, and takes part from its own side, in any amount"?
+10. Ruling: L3 = "has something at stake, and takes part from its own side, in any amount"? **RULED 2026-09-29, Idi: "Yes. Perfect. The plant and obsession cases sealed the deal - that's exactly what I meant."**
 
 ## Log
 
@@ -197,3 +206,4 @@ Note on consent: "takes part" includes the right to stop taking part. The obsess
 - 2026-09-29 Idi ruled Q7 yes; clarification recorded; synthesis v3 (S11-S13); sources verified on the live web; open question 8.
 - 2026-09-29 Idi ruled Q8 yes and extended it; synthesis v4 (S14-S17, destination ladder L0-L3); open question 9.
 - 2026-09-29 Idi: v4 accurate, sufficiency questioned, "participates" proposed; synthesis v5 (sufficiency test, 8 cases); open question 10.
+- 2026-09-29 Idi ruled Q10 yes; "Model as ruled" block added at top.
