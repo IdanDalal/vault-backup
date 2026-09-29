@@ -15,13 +15,8 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-
-
-
 Psi Blade purple is 124, 89, 255 (#7C59FF)
 
-10. Edit/configure `[WOTC] Breakthrough Time`
-11. Question: Do `Augments: Codex Begone` and `Augments: Holo Begone` work perfectly for every class (including Reapers, Skirmishers, and Templars)?
-
----
-
+Here are my answers:
+1. Q: Which rules keep my states in place? A: I dunno...Maybe the "0₪ spent per day" rule, or something deeper like not trusting my own rules, which causes me to follow external rules (people's, places', society's, the internet's, etc.)
+2. Q: Is grief a desirable desire with its outlet blocked, distinct from single-player constraints born of undesirable desires? A: Grief is love (a desirable desire) misdirected/misused/misunderstood internally, not blocked externally. Whoever/whatever is the subject/recipient/focus of the love, is/was/will be 
