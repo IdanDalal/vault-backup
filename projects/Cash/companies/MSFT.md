@@ -8,7 +8,7 @@ earmark_pct: 3
 earmark_for: "OpenAI"
 status: active
 shares: 7
-last_price: 509.22
+last_price: 508.96
 conviction: "Cloud + OpenAI stake; placeholder converts at OpenAI IPO (possibly 2027)"
 cut_reason: ""
 reentry_trigger: ""
