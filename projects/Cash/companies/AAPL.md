@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 6
-last_price: 333.02
+last_price: 330.32
 conviction: "Weakest AI story in the core, strongest balance sheet + devices moat"
 cut_reason: ""
 reentry_trigger: ""
