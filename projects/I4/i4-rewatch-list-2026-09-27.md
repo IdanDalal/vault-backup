@@ -13,22 +13,22 @@ Wording below is jep's memory, confidence tagged. "Claim" = the canon item the r
 
 ## Lines to catch
 
-| # | Line (as remembered) | Speaker, place (memory) | Claim it tests | Conf | Time | Verdict |
-|---|---|---|---|---|---|---|
-| L1 | "I have to let you go" | Cobb to Mal, limbo? | completion condition | low | | |
-| L2 | "You're just a shade of my real wife... you're not good enough" | Cobb to Mal, limbo | rival completion line | high | | |
-| L3 | "Desperate dreams of someone who wants to feel important" | Mal? | Mal sees the avoidance | low | | |
-| L4 | "Chased around the globe by anonymous corporations and police forces, the way the projections persecute the dreamer" | Mal to Cobb | Mal sees the avoidance; everyone-dreams frame | high on line, low on place | | |
-| L5 | "You don't believe in one reality anymore. So choose. Choose to be here. Choose me." | Mal, limbo | the Surgeon's lie (hurt to heal) | medium | | |
-| L6 | "Don't lose yourself" | Ariadne to Cobb after Mal dies | Ariadne termination | medium | | |
-| L7 | "Come back to reality, Dom" | Miles | voice of reason | medium on place | | |
-| L8 | "She'll be back" | Cobb about Ariadne, Paris | dreamer controls figments | high | | |
-| L9 | "I bought the airline." "It seemed neater." | Saito, plane | convenience cascade | high | | |
-| L10 | "An idea is like a virus" / smallest seed | Cobb | Layer 3 planted idea | high | | |
-| L11 | "Whose subconscious are we going into exactly?" | Ariadne | everyone-is-a-dreamer | medium | | |
-| L12 | "Old man, filled with regret, waiting to die alone" | Cobb / Saito, limbo | "je ne regrette rien" echo | high | | |
-| L13 | "You're waiting for a train..." | Mal and Cobb | train in layer 1 = Mal's intrusion | high | | |
-| L14 | Who says "come back in" at the anniversary suite, and what Mal says about arranging the rooms | Cobb / Mal, flashback | hotel window paradox | medium | | |
+| #   | Line (as remembered)                                                                                                 | Speaker, place (memory)        | Claim it tests                                | Conf                       | Time | Verdict |
+| --- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------ | --------------------------------------------- | -------------------------- | ---- | ------- |
+| L1  | "I have to let you go"                                                                                               | Cobb to Mal, limbo?            | completion condition                          | low                        |      |         |
+| L2  | "You're just a shade of my real wife... you're not good enough"                                                      | Cobb to Mal, limbo             | rival completion line                         | high                       |      |         |
+| L3  | "Desperate dreams of someone who wants to feel important"                                                            | Mal?                           | Mal sees the avoidance                        | low                        |      |         |
+| L4  | "Chased around the globe by anonymous corporations and police forces, the way the projections persecute the dreamer" | Mal to Cobb                    | Mal sees the avoidance; everyone-dreams frame | high on line, low on place |      |         |
+| L5  | "You don't believe in one reality anymore. So choose. Choose to be here. Choose me."                                 | Mal, limbo                     | the Surgeon's lie (hurt to heal)              | medium                     |      |         |
+| L6  | "Don't lose yourself"                                                                                                | Ariadne to Cobb after Mal dies | Ariadne termination                           | medium                     |      |         |
+| L7  | "Come back to reality, Dom"                                                                                          | Miles                          | voice of reason                               | medium on place            |      |         |
+| L8  | "She'll be back"                                                                                                     | Cobb about Ariadne, Paris      | dreamer controls figments                     | high                       |      |         |
+| L9  | "I bought the airline." "It seemed neater."                                                                          | Saito, plane                   | convenience cascade                           | high                       |      |         |
+| L10 | "An idea is like a virus" / smallest seed                                                                            | Cobb                           | Layer 3 planted idea                          | high                       |      |         |
+| L11 | "Whose subconscious are we going into exactly?"                                                                      | Ariadne                        | everyone-is-a-dreamer                         | medium                     |      |         |
+| L12 | "Old man, filled with regret, waiting to die alone"                                                                  | Cobb / Saito, limbo            | "je ne regrette rien" echo                    | high                       |      |         |
+| L13 | "You're waiting for a train..."                                                                                      | Mal and Cobb                   | train in layer 1 = Mal's intrusion            | high                       |      |         |
+| L14 | Who says "come back in" at the anniversary suite, and what Mal says about arranging the rooms                        | Cobb / Mal, flashback          | hotel window paradox                          | medium                     |      |         |
 
 ## Moments to watch
 
