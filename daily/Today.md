@@ -16,4 +16,3 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-Our workspace/environment, `D:\work`, is massive: >2 GB, 38K+ files, and 5.4K folders. Much of it is redundant, outdated, and/or bloat. This conversation will be dedicated to 
