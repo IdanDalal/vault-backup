@@ -30,9 +30,9 @@ Loads alongside: `telos/TELOS.md` (January interviews, refreshed by Idi's hand 2
 
 Trigger, Idi's words 2026-09-08: "I know I have lots of tokens I can use, and I know I have many things to use them on, and I don't know which one(s?) to use them on now/first/most."
 
-Done-state for a session opener (jep): **1 to 3 dominoes, ordered, each with a done-state and a rough cost, named before Idi has to choose.** Candidate sources: `Idi's Whiteboard.md` queue, open threads in `projects/`, TELOS goals, dated `due:` notes. Three is the cap (priorities follow a power law, Flowstate). Idi picks by index or overrules. Target: zero deliberation on his side.
+Done-state for a session opener (jep): **1 to 3 dominoes, ordered, each with a done-state and a rough cost, named before Idi has to choose.** Candidate sources: Idi's own words (captures, terminal, the reply zone in `daily/Today.md`), open threads in `projects/`, TELOS goals, dated `due:` notes. Three is the cap (priorities follow a power law, Flowstate). Idi picks by index or overrules. Target: zero deliberation on his side.
 
-Where it lives (Idi's Option A, 2026-09-08): the top block of `Idi's Whiteboard.md`, headed "Today". jep rewrites that block before Idi arrives; everything under the "Dump" heading is Idi's release valve, read by jep and never edited. The terminal is for doing.
+Where it lives: `daily/Today.md` (daily-note system, ruled 2026-09-13; the Whiteboard was retired by Idi's ruling R9, 2026-10-05). jep renders it before Idi arrives; Idi's reply zone in it is read by jep and never edited. The terminal is for doing.
 
 Domino = the item whose completion cascades into others. Tie-break order (jep): external signal pending (a student, Mom, Dad) > a done-state one step away > highest TELOS VVR alignment > newest.
 
@@ -88,3 +88,4 @@ Appended to `projects/intent-log.md` at the end of every session, one row per se
 ## Log
 
 - 2026-09-08 created on Idi's Option A ruling. Imports added to vault `CLAUDE.md`. Counters start at `intent-log.md`.
+- 2026-10-05 Whiteboard retired (Idi R9); Today surface and domino sources repointed to `daily/Today.md`.
