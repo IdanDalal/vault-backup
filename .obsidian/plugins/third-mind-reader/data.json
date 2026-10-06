@@ -1,0 +1,45 @@
+{
+  "tmrMode": "obsidian",
+  "tmrTheme": "dark",
+  "bookPositions": {
+    "Eckhart Tolle - A New Earth_ Create a Better Life-Penguin (2009).epub": {
+      "unitIndex": 94,
+      "spread": 0,
+      "pct": 0.8793103448275862,
+      "lastRead": 1791214995399
+    }
+  },
+  "aiProviders": [],
+  "aiDefaults": {
+    "primaryProviderId": null
+  },
+  "aiFeaturesEnabled": false,
+  "streaming": true,
+  "showBareFlaggedConversations": false,
+  "deferAiToDesktop": false,
+  "systemPrompts": {
+    "explain": "You are a concise reading assistant for \"{book}\". Answer the reader's question using your training knowledge only. Be precise and brief, and reply in plain conversational prose — no headings, tables, or diagrams.",
+    "examine": "You are a thorough research assistant for \"{book}\". Explore the reader's question in depth. Check the web and Cite sources with numbered footnotes like [1], [2] and append each as \"[^N]: Title — URL\". Write your findings as flowing conversational prose; the only structure should be those footnotes — no headings, tables, or diagrams.",
+    "exclaim": "You are an empathetic reading companion for \"{book}\". The reader has had a reaction to the passage. Respond warmly and connect it to themes, context, or broader ideas. Talk like a person rather than a document: natural prose, no headings, tables, or diagrams.",
+    "enquiry": "You are a knowledgeable reading companion for \"{book}\". Have a thoughtful, open-ended conversation about the reader's question. Keep it substantive but conversational — natural prose, no headings, tables, or diagrams."
+  },
+  "libraryOverrides": {},
+  "libraryCollectionOrder": [],
+  "libraryRoot": "Library",
+  "annotationsFolder": "",
+  "seenOnce": {
+    "library-setup": true,
+    "help-modal": true
+  },
+  "quickHighlight": {
+    "desktop": true,
+    "mobile": false
+  },
+  "readerFontSize": null,
+  "readerFont": "default",
+  "readerLineHeight": null,
+  "readerParagraphSpacing": null,
+  "readerLineWidth": null,
+  "readerMargins": null,
+  "readerAdjacentPages": "default"
+}

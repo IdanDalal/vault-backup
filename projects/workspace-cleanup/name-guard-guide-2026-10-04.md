@@ -11,6 +11,30 @@ tags:
 
 # Name guard + rulings: guide (2026-10-04)
 
+## Status 2026-10-05 (after Idi's "go A")
+
+| step | state | receipt |
+|---|---|---|
+| rescues (pc-hq-stack s6, Session 5 record) | DONE | commit `e783393`, blobs identical to the branch |
+| worktrees | DONE: 13 folders removed, 4 branches deleted (all content on main), 9 branches kept (older versions live only there), `cash-console-v3` folder kept (9 unique Cash v3 render screenshots) | `C:\Users\jep\hq\logs\worktree-prune.log`; `.claude/worktrees` 631 → 44 MB |
+| fresh rewrite + verify | DONE: 0 hits / 3,161 objects; binaries identical; main changes pure swaps | `hq\nameguard\verify_rewrite.py` output |
+| live vault swapped onto clean history | DONE: 0 hits / 3,095 objects, 0 files with names on disk | `hq\nameguard\swap_live.sh` |
+| hooks on vault + captures, self-test | DONE, PASS | `selftest.py D:/work/vault D:/work/captures` |
+| R7 + R9 + intent.md repoint | DONE through the new hooks | commit "R7 + R9" |
+| laptop `~/vault` clone | DELETED (old history gone). jep error: the pre-check covered git work only; the folder also held the gitignored corpus. Copy on the PC since 09-25 (3,812 files, count match, source unchanged since June). 16 read-only notes remain, twins on the PC | this file |
+| autocommit | PAUSED until the new repo exists; ARMED | `hq\nameguard\PAUSE`, `ARMED` |
+| push to GitHub | WAITS ON I2 | |
+| nightly janitor schedule | REFUSED again by the safety classifier despite the go; jep stops here. I7 below | |
+
+**I7. Nightly janitor (only if you still want it scheduled):** Notepad → open `C:\Users\jep\hq\vault-nightly-tag.sh` → paste these 4 lines directly above the line starting `tag=` → save.
+
+```
+python /c/Users/jep/hq/janitor/media_retention.py sweep --apply >/dev/null 2>&1 \
+  || echo "$(date '+%F %T') media retention sweep FAILED" >>"$LOG"
+python /c/Users/jep/hq/janitor/prune_worktrees.py --apply >/dev/null 2>&1 \
+  || echo "$(date '+%F %T') worktree prune FAILED" >>"$LOG"
+```
+
 Built and verified today. Waiting on one word from Idi ("go A" or "go B") plus four steps only Idi can do. Names never appear in this file; the list lives at `C:\Users\jep\hq\private\name-blocklist.txt`, outside every repo.
 
 ## 1. Why the 08-2026 guard failed
