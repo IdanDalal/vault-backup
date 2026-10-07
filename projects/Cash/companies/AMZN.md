@@ -8,7 +8,7 @@ earmark_pct: 2
 earmark_for: "Anthropic"
 status: active
 shares: 11
-last_price: 251.4
+last_price: 256.29
 conviction: "AWS + Anthropic's largest backer; converts at ~Oct 2026 IPO"
 cut_reason: ""
 reentry_trigger: ""
