@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 1
-last_price: 1188.72
+last_price: 1169.6
 conviction: "The non-AI exponential: 60% of GLP-1 and widening"
 cut_reason: ""
 reentry_trigger: ""
