@@ -16,3 +16,10 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
+That was AMAZING! I marked all 10 moves. All of 'em are L, except 3. From what I understand, we can start establishing some initial guidelines that will slowly evolve towards rules. For example: 130-140 words per minute (I like density), a wide loudness swing (I like sick drops like when everything suddenly goes quiet/whispery and then BOOM!). Here are my notes/marks:
+1. Insider jargon is 
+
+
+
+
+I think you can generate the next draft now.

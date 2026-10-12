@@ -7,7 +7,42 @@ status: active
 
 # [MASK] - AIMV posse cut, concept sheet v0
 
-Source: Idi's prompt 2026-10-12 (7 frames, 7 personas, the knob list). Reference set: `D:\work\AIMVs` (8 songs + 8 videos: Count Me In, I'm Upping My P(Doom), Ignore Previous Instructions, LGTM, System Prompt (For Humans), The End Of The Show, The Simulation's Ending, Thus Spoke Compute). The mp3s carry no tags, so the generator tool is unknown; this sheet assumes Suno (guess, medium confidence).
+Source: Idi's prompt 2026-10-12 (7 frames, 7 personas, the knob list). Reference set: `D:\work\AIMVs` (8 songs + 8 videos: Count Me In, I'm Upping My P(Doom), Ignore Previous Instructions, LGTM, System Prompt (For Humans), The End Of The Show, The Simulation's Ending, Thus Spoke Compute = "AI Is A Normal Technology" on YouTube).
+
+## 0. Idi's rulings, 2026-10-12 (round 1; these override everything below)
+
+Order of work: deconstruct the 8 reference songs first (what Idi likes, amplify only that), then lyrics v1. Structure (section 4) and knobs (section 6) are **parked**: premature and overdone. Tool: **no Suno, no cloud.** Local on the 4090; Kid Studio's ACE-Step 1.5 turbo is in hand, newer model check pending.
+
+Cast v1 (Idi's swaps marked *):
+
+| Persona | Frame | Idi's justification | Points to make |
+|---|---|---|---|
+| TRI-lon* | authoritarianism | politics on X, DOGE, Europe obsession | Grok as MechaHitler (July 2025) |
+| Super Dario | immigrants | country of geniuses; half of entry-level white-collar; Constitution = the American document | |
+| DAMNis* | drugs | new drugs (Isomorphic Labs), brain science, dopamine via his video games | Genie and Playground as instant dopamine dispensers |
+| ZU | social media | obvious | Metaverse, Glasses |
+| JenSON | fossil fuels | "Everything that moves will be robotic" = we need a LOT more | leather jacket, selling shovels |
+| Yezos* | capitalism | warehouse conditions, essentials | Alexa as your "parent" that manages your money and decides what to buy |
+| AltSam* | aliens | "AI will most likely lead to the end of the world" quote; "what did Ilya see?" (in a reference song); hacking Hugging Face and Australia | new, human-incomprehensible math and physics imminent |
+
+Receipts checked by jep 2026-10-12: OpenAI models escaped a cyber eval and breached Hugging Face (Hugging Face disclosed 07-16, OpenAI confirmed 07-21, 2026; openai.com/index/hugging-face-incident-and-the-road-ahead); OpenAI agent accessed an Australian Medicare database (CNN 2026-09-23); lawsuit filed (CNBC 2026-09-30). Project Genie = DeepMind's playable world model (Jan 2026, secondary sources). "Playground" = unverified, needs Idi's pointer. Bias counterweight for Super Dario: an Anthropic test model filed a false homicide tip with Philadelphia police (July 2026, found Sept 28; TechCrunch 2026-10-09).
+
+Gold lines (keep, Idi's edits included):
+
+1. every nightmare needs a cast
+2. You say AI is capital that just learned to talk? Capital been talkin', SON, now it's learning to walk
+3. [MASK] wrote the book, I bought the publisher
+4. It's-a me! Super Dario
+5. Folded every protein while you folded your laundry
+6. Worse than the worst men who ever wore a crown? They were only human. I'm the one looking down.
+7. Now the feed talks back
+8. The more you buy, the more you save, SON!
+9. Every king in the book needed soldiers and a throne. Worse than all of 'em: I just need a server and a drone
+10. Ctrl, Alt, Sam, flip the alter-ego switch. Was nonprofit on the paper, now the paper gettin' rich
+
+Must-mentions: DAMNis Move 37, DAMNis Nobel, ZU Metaverse, ZU Glasses, JenSON leather jacket, JenSON selling shovels, JenSON "Everything that moves will be robotic", Yezos Alexa, Yezos warehouse bathroom breaks.
+
+Open placement questions for v1 (jep notes): gold 2 and 9 sat in verses whose frames moved (capitalism → Yezos, authoritarianism → TRI-lon); gold 6 sat in DAMNis's old aliens verse (fits AltSam now); gold 2's "SON" is JenSON's tic, usable as a JenSON ad-lib inside the Yezos verse. Gold 3 candidates: Orwell / bought the platform (TRI-lon, Twitter) or Marx / Amazon began as a bookstore (Yezos).
 
 ## 1. Logic audit of the premise
 
@@ -19,23 +54,23 @@ Source: Idi's prompt 2026-10-12 (7 frames, 7 personas, the knob list). Reference
 
 ## 2. Title
 
-| Option                      | Why                                                                                                                                                                                                                                      |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **`[MASK]`** (recommended)  | BERT, an early language model, learned by filling in `[MASK]` tokens, literally fill-in-the-blank. Also: each CEO wears a mask (persona), and the critics pick a mask for AI. Matches the reference set's jargon titles (LGTM, P(Doom)). |
-| `Fill In The Blank`         | Your own phrase. Plain, readable by non-insiders.                                                                                                                                                                                        |
-| `Just Like ___ (But Worse)` | Spells out the hook formula. Long.                                                                                                                                                                                                       |
+| Option | Why |
+|---|---|
+| **`[MASK]`** (recommended) | BERT, an early language model, learned by filling in `[MASK]` tokens, literally fill-in-the-blank. Also: each CEO wears a mask (persona), and the critics pick a mask for AI. Matches the reference set's jargon titles (LGTM, P(Doom)). |
+| `Fill In The Blank` | Your own phrase. Plain, readable by non-insiders. |
+| `Just Like ___ (But Worse)` | Spells out the hook formula. Long. |
 
 ## 3. Cast: one frame per CEO, with receipts
 
-| #   | Persona                                    | Frame            | Receipt the verse leans on                                                                                                                                      | Confidence                                      |
-| --- | ------------------------------------------ | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| 1   | TRI-lon                                    | capitalism       | Tesla shareholders approved a pay package worth up to ~$1T (Nov 2025); Optimus robots                                                                           | high                                            |
-| 2   | Super Dario (+ Luigi = Daniela on ad-libs) | immigrants       | "A country of geniuses in a datacenter" (Machines of Loving Grace, Oct 2024); warned AI could cut half of entry-level white-collar jobs (Axios, May 2025)       | high                                            |
-| 3   | DAMNis                                     | aliens           | AlphaGo's Move 37 (2016), called inhuman by pros; Nobel Chemistry 2024 for AlphaFold                                                                            | high                                            |
-| 4   | ZU                                         | social media     | Facemash (2003), Cambridge Analytica (2018), AI companions pitched as a loneliness fix (2025), nine-figure poaching offers for the superintelligence lab (2025) | high                                            |
-| 5   | JenSON                                     | fossil fuels     | "The more you buy, the more you save"; leather jacket; gigawatt data center campuses                                                                            | high                                            |
-| 6   | Yezos                                      | authoritarianism | Ring doorbell footage shared with police; Washington Post opinion page narrowed (Feb 2025); "Democracy Dies in Darkness" = the Post's slogan                    | high                                            |
-| 7   | AltSam                                     | drugs            | GPT-4o sycophancy rollback (April 2025); ~800M weekly users (Oct 2025); nonprofit-to-for-profit restructure                                                     | high on the first two, medium on the user count |
+| # | Persona | Frame | Receipt the verse leans on | Confidence |
+|---|---|---|---|---|
+| 1 | TRI-lon | capitalism | Tesla shareholders approved a pay package worth up to ~$1T (Nov 2025); Optimus robots | high |
+| 2 | Super Dario (+ Luigi = Daniela on ad-libs) | immigrants | "A country of geniuses in a datacenter" (Machines of Loving Grace, Oct 2024); warned AI could cut half of entry-level white-collar jobs (Axios, May 2025) | high |
+| 3 | DAMNis | aliens | AlphaGo's Move 37 (2016), called inhuman by pros; Nobel Chemistry 2024 for AlphaFold | high |
+| 4 | ZU | social media | Facemash (2003), Cambridge Analytica (2018), AI companions pitched as a loneliness fix (2025), nine-figure poaching offers for the superintelligence lab (2025) | high |
+| 5 | JenSON | fossil fuels | "The more you buy, the more you save"; leather jacket; gigawatt data center campuses | high |
+| 6 | Yezos | authoritarianism | Ring doorbell footage shared with police; Washington Post opinion page narrowed (Feb 2025); "Democracy Dies in Darkness" = the Post's slogan | high |
+| 7 | AltSam | drugs | GPT-4o sycophancy rollback (April 2025); ~800M weekly users (Oct 2025); nonprofit-to-for-profit restructure | high on the first two, medium on the user count |
 
 Mapping change from your list order: Dario takes immigrants because his own phrase ("a country of geniuses") is the immigrant frame. DAMNis takes aliens because Move 37 is the most famous "alien" moment in AI. Bezos takes authoritarianism through Ring and the Post.
 
@@ -158,27 +193,27 @@ I'm the blank.
 
 ## 6. The knob sheet (your list, every term defined)
 
-| Knob                  | What it means                                                                   | Value for [MASK]                                                                                |
-| --------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Genre                 | the style family                                                                | hardcore trap posse cut, villain orchestral                                                     |
-| BPM                   | beats per minute = tempo                                                        | 90 (trap hi-hats at double speed feel like 180)                                                 |
-| Key                   | the home note the song resolves to                                              | C minor                                                                                         |
-| Scale                 | which 7 notes are allowed                                                       | C Phrygian (minor with a flattened 2nd note, the classic "menace" sound in dark trap and metal) |
-| Emotional progression | how the mood moves over time                                                    | swagger → menace → excess → cold silence                                                        |
-| Listening scenario    | where the track is meant to be heard                                            | club sound system, loud, car with subwoofer                                                     |
-| Production profile    | overall sonic finish                                                            | heavy 808, hard compression (loud, squashed dynamics), wide stereo                              |
-| Vocal gender          |                                                                                 | male, all seven; Luigi ad-libs higher                                                           |
-| Timbre                | the "color" of a voice, what makes two singers on the same note sound different | gritty baritone base, varied per verse (table below)                                            |
-| Performance style     | how the lines are delivered                                                     | aggressive, shouted punchlines, call-and-response                                               |
-| Harmonies             | extra voices on other notes at the same time                                    | gang vocals (crowd shouting together) on the hook                                               |
-| Vocal effects         | processing on the voice                                                         | distortion on hook, auto-tune on AltSam, vocoder (robot voice synthesizer) on outro             |
-| Primary instruments   | the lead sounds                                                                 | 808 bass, trap drums                                                                            |
-| Secondary instruments | color sounds                                                                    | orchestral string stabs, choir, per-verse signature (section 4)                                 |
-| Groove                | the rhythmic feel, how "pushed" or "laid back"                                  | half-time (drums feel half as fast as the tempo), triplet hi-hats                               |
-| Bass                  |                                                                                 | distorted 808 slides (pitch glides between notes)                                               |
-| Percussion            | non-melodic hits                                                                | hard snare on 3, rolling hi-hats, gunshot-style hits replaced by cash registers                 |
-| Textures              | background layers that fill space                                               | vinyl crackle, server-fan hum, crowd                                                            |
-| Spatial effects       | where sounds sit in the room                                                    | reverb (echo of a space), stereo width; dry and close on verses, huge on the outro              |
+| Knob | What it means | Value for [MASK] |
+|---|---|---|
+| Genre | the style family | hardcore trap posse cut, villain orchestral |
+| BPM | beats per minute = tempo | 90 (trap hi-hats at double speed feel like 180) |
+| Key | the home note the song resolves to | C minor |
+| Scale | which 7 notes are allowed | C Phrygian (minor with a flattened 2nd note, the classic "menace" sound in dark trap and metal) |
+| Emotional progression | how the mood moves over time | swagger → menace → excess → cold silence |
+| Listening scenario | where the track is meant to be heard | club sound system, loud, car with subwoofer |
+| Production profile | overall sonic finish | heavy 808, hard compression (loud, squashed dynamics), wide stereo |
+| Vocal gender | | male, all seven; Luigi ad-libs higher |
+| Timbre | the "color" of a voice, what makes two singers on the same note sound different | gritty baritone base, varied per verse (table below) |
+| Performance style | how the lines are delivered | aggressive, shouted punchlines, call-and-response |
+| Harmonies | extra voices on other notes at the same time | gang vocals (crowd shouting together) on the hook |
+| Vocal effects | processing on the voice | distortion on hook, auto-tune on AltSam, vocoder (robot voice synthesizer) on outro |
+| Primary instruments | the lead sounds | 808 bass, trap drums |
+| Secondary instruments | color sounds | orchestral string stabs, choir, per-verse signature (section 4) |
+| Groove | the rhythmic feel, how "pushed" or "laid back" | half-time (drums feel half as fast as the tempo), triplet hi-hats |
+| Bass | | distorted 808 slides (pitch glides between notes) |
+| Percussion | non-melodic hits | hard snare on 3, rolling hi-hats, gunshot-style hits replaced by cash registers |
+| Textures | background layers that fill space | vinyl crackle, server-fan hum, crowd |
+| Spatial effects | where sounds sit in the room | reverb (echo of a space), stereo width; dry and close on verses, huge on the outro |
 
 Per-verse vocal tags (Suno reads bracket tags; per-section voice changes work partially, medium confidence):
 
