@@ -19,11 +19,11 @@ Source: Idi's prompt 2026-10-12 (7 frames, 7 personas, the knob list). Reference
 
 ## 2. Title
 
-| Option | Why |
-|---|---|
-| **`[MASK]`** (recommended) | BERT, an early language model, learned by filling in `[MASK]` tokens, literally fill-in-the-blank. Also: each CEO wears a mask (persona), and the critics pick a mask for AI. Matches the reference set's jargon titles (LGTM, P(Doom)). |
-| `Fill In The Blank` | Your own phrase. Plain, readable by non-insiders. |
-| `Just Like ___ (But Worse)` | Spells out the hook formula. Long. |
+| Option                      | Why                                                                                                                                                                                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`[MASK]`** (recommended)  | BERT, an early language model, learned by filling in `[MASK]` tokens, literally fill-in-the-blank. Also: each CEO wears a mask (persona), and the critics pick a mask for AI. Matches the reference set's jargon titles (LGTM, P(Doom)). |
+| `Fill In The Blank`         | Your own phrase. Plain, readable by non-insiders.                                                                                                                                                                                        |
+| `Just Like ___ (But Worse)` | Spells out the hook formula. Long.                                                                                                                                                                                                       |
 
 ## 3. Cast: one frame per CEO, with receipts
 
