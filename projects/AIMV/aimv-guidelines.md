@@ -25,4 +25,10 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 | G12 | Steelman the other side, then reverse it | move 10, L | G |
 | G13 | Escalation by stakes: jobs → wallet → mind → state → planet → species | Idi's correction of jep's order, 2026-10-12 | G |
 
+| G14 | Long songs = two parts stitched SICKO MODE style, hard beat switch at a stakes jump | Idi's idea, 2026-10-12 | G |
+| G15 | Each ad-lib character (Luigi, JenSON's SON) appears 2-3 times across the song | Idi round-2 notes | G |
+| G16 | A signature tic is spice: a few loud hits, never every line | Idi on JenSON v1 | G |
+
+Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
+
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.
