@@ -158,27 +158,27 @@ I'm the blank.
 
 ## 6. The knob sheet (your list, every term defined)
 
-| Knob | What it means | Value for [MASK] |
-|---|---|---|
-| Genre | the style family | hardcore trap posse cut, villain orchestral |
-| BPM | beats per minute = tempo | 90 (trap hi-hats at double speed feel like 180) |
-| Key | the home note the song resolves to | C minor |
-| Scale | which 7 notes are allowed | C Phrygian (minor with a flattened 2nd note, the classic "menace" sound in dark trap and metal) |
-| Emotional progression | how the mood moves over time | swagger → menace → excess → cold silence |
-| Listening scenario | where the track is meant to be heard | club sound system, loud, car with subwoofer |
-| Production profile | overall sonic finish | heavy 808, hard compression (loud, squashed dynamics), wide stereo |
-| Vocal gender | | male, all seven; Luigi ad-libs higher |
-| Timbre | the "color" of a voice, what makes two singers on the same note sound different | gritty baritone base, varied per verse (table below) |
-| Performance style | how the lines are delivered | aggressive, shouted punchlines, call-and-response |
-| Harmonies | extra voices on other notes at the same time | gang vocals (crowd shouting together) on the hook |
-| Vocal effects | processing on the voice | distortion on hook, auto-tune on AltSam, vocoder (robot voice synthesizer) on outro |
-| Primary instruments | the lead sounds | 808 bass, trap drums |
-| Secondary instruments | color sounds | orchestral string stabs, choir, per-verse signature (section 4) |
-| Groove | the rhythmic feel, how "pushed" or "laid back" | half-time (drums feel half as fast as the tempo), triplet hi-hats |
-| Bass | | distorted 808 slides (pitch glides between notes) |
-| Percussion | non-melodic hits | hard snare on 3, rolling hi-hats, gunshot-style hits replaced by cash registers |
-| Textures | background layers that fill space | vinyl crackle, server-fan hum, crowd |
-| Spatial effects | where sounds sit in the room | reverb (echo of a space), stereo width; dry and close on verses, huge on the outro |
+| Knob                  | What it means                                                                   | Value for [MASK]                                                                                |
+| --------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Genre                 | the style family                                                                | hardcore trap posse cut, villain orchestral                                                     |
+| BPM                   | beats per minute = tempo                                                        | 90 (trap hi-hats at double speed feel like 180)                                                 |
+| Key                   | the home note the song resolves to                                              | C minor                                                                                         |
+| Scale                 | which 7 notes are allowed                                                       | C Phrygian (minor with a flattened 2nd note, the classic "menace" sound in dark trap and metal) |
+| Emotional progression | how the mood moves over time                                                    | swagger → menace → excess → cold silence                                                        |
+| Listening scenario    | where the track is meant to be heard                                            | club sound system, loud, car with subwoofer                                                     |
+| Production profile    | overall sonic finish                                                            | heavy 808, hard compression (loud, squashed dynamics), wide stereo                              |
+| Vocal gender          |                                                                                 | male, all seven; Luigi ad-libs higher                                                           |
+| Timbre                | the "color" of a voice, what makes two singers on the same note sound different | gritty baritone base, varied per verse (table below)                                            |
+| Performance style     | how the lines are delivered                                                     | aggressive, shouted punchlines, call-and-response                                               |
+| Harmonies             | extra voices on other notes at the same time                                    | gang vocals (crowd shouting together) on the hook                                               |
+| Vocal effects         | processing on the voice                                                         | distortion on hook, auto-tune on AltSam, vocoder (robot voice synthesizer) on outro             |
+| Primary instruments   | the lead sounds                                                                 | 808 bass, trap drums                                                                            |
+| Secondary instruments | color sounds                                                                    | orchestral string stabs, choir, per-verse signature (section 4)                                 |
+| Groove                | the rhythmic feel, how "pushed" or "laid back"                                  | half-time (drums feel half as fast as the tempo), triplet hi-hats                               |
+| Bass                  |                                                                                 | distorted 808 slides (pitch glides between notes)                                               |
+| Percussion            | non-melodic hits                                                                | hard snare on 3, rolling hi-hats, gunshot-style hits replaced by cash registers                 |
+| Textures              | background layers that fill space                                               | vinyl crackle, server-fan hum, crowd                                                            |
+| Spatial effects       | where sounds sit in the room                                                    | reverb (echo of a space), stereo width; dry and close on verses, huge on the outro              |
 
 Per-verse vocal tags (Suno reads bracket tags; per-section voice changes work partially, medium confidence):
 
