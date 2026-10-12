@@ -16,22 +16,3 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-I already have an idea: an aggressive gangsta-rap about something like "AI is bad because it's just like FILL IN THE BLANK". It's about how everyone who's against AI is framing it as their own worst enemy. I'll start with some basic examples:
-1. AI is bad because it's just like immigrants. Agents are immigrants who will take our jobs and are worst than human ones.
-2. AI is bad because it's just like social media. Agents are privacy-invading, data-harvesting, digital viruses and are worst than pre-AI social media.
-3. AI is bad because it's just like capitalism. Agents are capital that will render workers obsolete and are worse than any other means-of-production.
-4. AI is bad because it's just like aliens. Agents are monsters that will kill us and are worse than even the worst humans who ever lived.
-5. AI is bad because it's just like fossil fuels. Agents are a biosphere-destroying species that will accelerate climate change worse than anything humans ever did.
-6. AI is bad because it's just like authoritarianism. Agents are enforcers of conformity and subjugation that will cause current/future governments to be worse than any other previous ones.
-7. AI is bad because it's just like drugs. Agents are sycophantic, cognitive-atrophying, seductresses and will cause us all to be worse than the WALL-E people.
-
-I also already have a differentiating idea to avoid just copying others and growing the slop-pile: go full parody-mode and feature the real AI leaders as hardcore gangstas rapping in first person, rather than faceless and disembodied voices. Here's my initial thoughts that made me smile:
-1. Elon Musk: TRI-lon - like Russ Hanneman, the billionaire from Silicon Valley, he's obsessed with the 12 figures in his bank account, and his look is all about being the only trillionaire.
-2. Dario Amodei: Super Dario - a riff on the super Mario bros. Maybe Daniela=Luigi?
-3. Demis Hassabis: DAMNis - is worshipped (and behaves) like a benevolent god, so his intro is "GOD DAMNis!"
-4. Mark Zuckerberg: ZU (Zuck U/Zuck You!) - if you delete the last two letters of "ZUck", you get "ZU", short for "Zuck You!"
-5. Sam Altman: AltSam - a riff on the letters ALT representing an "ALTer ego".
-6. Jensen Huang: JenSON - ends almost every line with the raw confidence of the black leather jacket and the word "son", like for example "AI prints money, SON!"
-
-Yezos - a riff on Kanye West's name evolution.
-**Global Metadata** (genre, BPM, key, scale, emotional progression, listening scenario, production profile), **Vocal Details** (vocal gender, timbre, performance style, harmonies, vocal effects), and **Arrangement** (primary and secondary instruments, groove, bass, percussion, textures, spatial effects).
