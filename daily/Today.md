@@ -16,3 +16,4 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
+**Global Metadata** (genre, BPM, key, scale, emotional progression, listening scenario, production profile), **Vocal Details** (vocal gender, timbre, performance style, harmonies, vocal effects), and **Arrangement** (primary and secondary instruments, groove, bass, percussion, textures, spatial effects).
