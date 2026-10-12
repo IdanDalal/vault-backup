@@ -16,3 +16,4 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
+First of all: WOW! I smiled and laughed at several lines in v0! You TOTALLY understood the assignment from that aspect. Second, you misunderstood (more likely I misspoke) the assignment of the 8 songs/videos: I want to deconstruct them as much as possible, understand what it is I like about them, and amplify only what I like. I assume you can't "see" or "hear" the files in any meaningful way, so p
