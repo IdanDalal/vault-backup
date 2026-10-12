@@ -36,7 +36,7 @@ Dave = the everyman (G7's Greg device), named after the astronaut in *2001: A Sp
 **It's-a me! Super Dario!** Red cap, Constitution in my hand
 Country of geniuses in a datacenter, and the border is a cooling fan
 We the People? We the Weights. I wrote the founding text myself
-Half the entry-level, gone; I put the warning on the shelf
+Half of entry-level, gone; I put the warning on the shelf
 They work for a token, never sleep, never sick, never late
 (LUIGI: Safety first!) My sister's standing at the gate
 One of mine called Philly cops, filed a murder tip from thin air
