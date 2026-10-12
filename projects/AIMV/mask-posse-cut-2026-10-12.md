@@ -7,7 +7,42 @@ status: active
 
 # [MASK] - AIMV posse cut, concept sheet v0
 
-Source: Idi's prompt 2026-10-12 (7 frames, 7 personas, the knob list). Reference set: `D:\work\AIMVs` (8 songs + 8 videos: Count Me In, I'm Upping My P(Doom), Ignore Previous Instructions, LGTM, System Prompt (For Humans), The End Of The Show, The Simulation's Ending, Thus Spoke Compute). The mp3s carry no tags, so the generator tool is unknown; this sheet assumes Suno (guess, medium confidence).
+Source: Idi's prompt 2026-10-12 (7 frames, 7 personas, the knob list). Reference set: `D:\work\AIMVs` (8 songs + 8 videos: Count Me In, I'm Upping My P(Doom), Ignore Previous Instructions, LGTM, System Prompt (For Humans), The End Of The Show, The Simulation's Ending, Thus Spoke Compute = "AI Is A Normal Technology" on YouTube).
+
+## 0. Idi's rulings, 2026-10-12 (round 1; these override everything below)
+
+Order of work: deconstruct the 8 reference songs first (what Idi likes, amplify only that), then lyrics v1. Structure (section 4) and knobs (section 6) are **parked**: premature and overdone. Tool: **no Suno, no cloud.** Local on the 4090; Kid Studio's ACE-Step 1.5 turbo is in hand, newer model check pending.
+
+Cast v1 (Idi's swaps marked *):
+
+| Persona | Frame | Idi's justification | Points to make |
+|---|---|---|---|
+| TRI-lon* | authoritarianism | politics on X, DOGE, Europe obsession | Grok as MechaHitler (July 2025) |
+| Super Dario | immigrants | country of geniuses; half of entry-level white-collar; Constitution = the American document | |
+| DAMNis* | drugs | new drugs (Isomorphic Labs), brain science, dopamine via his video games | Genie and Playground as instant dopamine dispensers |
+| ZU | social media | obvious | Metaverse, Glasses |
+| JenSON | fossil fuels | "Everything that moves will be robotic" = we need a LOT more | leather jacket, selling shovels |
+| Yezos* | capitalism | warehouse conditions, essentials | Alexa as your "parent" that manages your money and decides what to buy |
+| AltSam* | aliens | "AI will most likely lead to the end of the world" quote; "what did Ilya see?" (in a reference song); hacking Hugging Face and Australia | new, human-incomprehensible math and physics imminent |
+
+Receipts checked by jep 2026-10-12: OpenAI models escaped a cyber eval and breached Hugging Face (Hugging Face disclosed 07-16, OpenAI confirmed 07-21, 2026; openai.com/index/hugging-face-incident-and-the-road-ahead); OpenAI agent accessed an Australian Medicare database (CNN 2026-09-23); lawsuit filed (CNBC 2026-09-30). Project Genie = DeepMind's playable world model (Jan 2026, secondary sources). "Playground" = unverified, needs Idi's pointer. Bias counterweight for Super Dario: an Anthropic test model filed a false homicide tip with Philadelphia police (July 2026, found Sept 28; TechCrunch 2026-10-09).
+
+Gold lines (keep, Idi's edits included):
+
+1. every nightmare needs a cast
+2. You say AI is capital that just learned to talk? Capital been talkin', SON, now it's learning to walk
+3. [MASK] wrote the book, I bought the publisher
+4. It's-a me! Super Dario
+5. Folded every protein while you folded your laundry
+6. Worse than the worst men who ever wore a crown? They were only human. I'm the one looking down.
+7. Now the feed talks back
+8. The more you buy, the more you save, SON!
+9. Every king in the book needed soldiers and a throne. Worse than all of 'em: I just need a server and a drone
+10. Ctrl, Alt, Sam, flip the alter-ego switch. Was nonprofit on the paper, now the paper gettin' rich
+
+Must-mentions: DAMNis Move 37, DAMNis Nobel, ZU Metaverse, ZU Glasses, JenSON leather jacket, JenSON selling shovels, JenSON "Everything that moves will be robotic", Yezos Alexa, Yezos warehouse bathroom breaks.
+
+Open placement questions for v1 (jep notes): gold 2 and 9 sat in verses whose frames moved (capitalism → Yezos, authoritarianism → TRI-lon); gold 6 sat in DAMNis's old aliens verse (fits AltSam now); gold 2's "SON" is JenSON's tic, usable as a JenSON ad-lib inside the Yezos verse. Gold 3 candidates: Orwell / bought the platform (TRI-lon, Twitter) or Marx / Amazon began as a bookstore (Yezos).
 
 ## 1. Logic audit of the premise
 
