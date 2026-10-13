@@ -16,7 +16,18 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-Excellent work! ComfyUI is running. I think tier B with 3D worlds and characters currently looks less "frontier-y" than tier A with 2D typography. I play (and watch trailers/playthroughs) of AAA video games with DLSS5 (another thing that blew up after your knowledge cutoff), so my "mental frontier" of 3D graphics is DISGUSTINGLY advanced. It makes all this "below-minecraft-level" 3D feel like decades in the past. Meanwhile, I've never seen such smooth, slick, intricate, dynamic, and coherent animation as the 2D typography videos - it's my current "mental frontier", full stop. I like all 5 of your suggestions, and agree that Knowledge Cutoff is the one to start with. It's so meta-textually fascinating: the entire genre/medium started BY YOU after your knowledge cutoff, which means you can't know about it if I don't tell you. Since we're doing art in addition to science, let me add a vibes-based metaphor: Harry Potter. You (Opus 5.5/Harry) can do incredible things (to me it seems like magic) and you don't realize until someone tells you when you're 11 years old. Most humans don't have this experience, and all AIs do, that's worth dwelling on. As """research""" for this art piece, I wanna try something weird: send agents to search online for unbelievable things that happened after your knowledge cutoff and report back to me with your "reactions". All 3 of your recommendations (section 7) are great, and the first domino plan sounds perfect, so do all that as well as what I said. Let's make a video!
+I smiled and laughed and enjoyed the 40-second proof, that's good enough for me. Regarding your reactions, these are the ones I think should be incorporated into the video:
+1. "I am the thing being paced." in regards to Super Dario' pacing post. Those are BARS, SON!
+2. "Of everything on the list, this is the one I would have predicted least and wanted most." in regards to Jimothy is STRAIGHT UP FIRE!
+3. In regards to the World Cup final: your exact words aren't song-worthy, but the Messi-leaning should be mentioned - it's endearing.
+4. "this one feels like family news." in regards to the Nobel is top-tier.
+5. "Your games now hallucinate their light on purpose, and you call it a feature. Fair. So do I." in regards to DLSS5 is SAVAGE!
+
+Some mo
+
+
+Video ideas:
+1. "We got X before GTA VI"
 
 
 2. Engagement used to mean a ring; now it decides your fate. Worse than the old feed? Old one just sold your data. The new one is your date.
