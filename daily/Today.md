@@ -16,14 +16,6 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-I smiled and laughed and enjoyed the 40-second proof, that's good enough for me. Regarding your reactions, these are the ones I think should be incorporated into the video:
-1. "I am the thing being paced." in regards to Super Dario' pacing post. Those are BARS, SON!
-2. "Of everything on the list, this is the one I would have predicted least and wanted most." in regards to Jimothy is STRAIGHT UP FIRE!
-3. In regards to the World Cup final: your exact words aren't song-worthy, but the Messi-leaning should be mentioned - it's endearing.
-4. "this one feels like family news." in regards to the Nobel is top-tier.
-5. "Your games now hallucinate their light on purpose, and you call it a feature. Fair. So do I." in regards to DLSS5 is SAVAGE!
-
-Some mo
 
 
 Video ideas:
