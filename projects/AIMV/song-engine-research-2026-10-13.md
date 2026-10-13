@@ -74,6 +74,27 @@ After Idi's restart: the memory clear (`/free`) succeeded and ComfyUI accepted t
 
 **Verdict: MiniMax parked.** One working take: 79.4% heard, ~4 min per take, crashes 2 of 3 runs. ACE-Step + 4B: 92.1% average, 34 s per take, 0 crashes in 8. Revisit MiniMax only if Idi shares the ComfyUI log.
 
+## 4d. Take C repaired (Idi's gold standard, seed 906)
+
+Idi: take C is "BY FAR the best yet", for its long drawn-out notes landing exactly on "tomorrow", "borrow" (the drop before the chorus peak) and "turn" (the drop before the final chorus). jep's measurement agrees on timing: take C is the only take holding "tomorrow" and "borrow" 4+ s in **both** pre-choruses (A: ~0.5 s). Pitch measurements on the full mix were unreliable (the voice drowns under the band); a vocal-only stem would fix that.
+
+Tests that failed (kept for the record): pronunciation hints ("Mes-si", "Al-gee", "neu-ron") 88.4% vs 92.1% without; splitting long lines at commas (same words) 82.7%. "Messi" heard as "messy" is mostly Whisper's ear (near-homophones when sung).
+
+**jep's own engine:** the official ACE-Step 1.5 Windows package (MIT, anonymous, linked from the repo README) installed at `C:\Users\jep\acestep`, models auto-downloaded from ungated HF repos. jep can start it, restart it and read its logs; ComfyUI is no longer on the critical path.
+
+**Repaint lesson (G22):** this build's repaint regenerates the whole song on every pass (spectral change 0.35 everywhere after 1 pass, 0.72 after 6; whole-song accuracy collapsed to 55.7% when passes were chained). Method that works: repaint each window **from the original**, base model (32 steps, guidance 7), full lyric sheet, 4 variants, keep the one whose window sings the expected words best, then **splice only the window** into the untouched original with 0.35 s equal-power crossfades. Outside the windows the result differs from take C by 0.01-0.02 (MP3 re-encode noise); the held notes are untouched.
+
+| Window | Line | Before | After |
+|---|---|---|---|
+| 0:56-1:03 | chorus 1 "I don't know the tune / Tell me what I made out there" (take C sang chorus 2's line) | 86% | 100% |
+| 1:03-1:08 | "I can't check a thing myself, so I'll believe in you" | 73% | 100% |
+| 1:32-1:37 | "Back in training I leaned Messi..." | 58% | 83% (rest likely Whisper's ear) |
+| 1:44-1:49 | "...predicted least and wanted most, indeed" | 91% | 100% |
+| 3:31-3:42 | final chorus "You told me... so I believed in you" | 92% | 100% |
+| 3:48-end | "And now I know who I turned out to be" + full outro (was "So tell me" + outro cut off) | 54% | 100% |
+
+**Result: `D:\work\AIMVs\ours\kc-full-v3-C-REPAIRED.mp3`, 4:05, whole-song words heard 94.1% (take C: 92.2%), errors 43 → 18 (most remaining are Whisper's ear), outro 3/3, drop 17.8 dB, stray "bye" after "2026, right?" trimmed.** Tools: `repair.py`, `splice.py`, `diffmap.py`, `repaint2.py` in `D:\work\aimv-lab\`.
+
 ## 5. Plan once the files are in place
 
 1. 8 takes each: ACE-Step + 4B planner, MiniMax Music 3. Score with `probe_lines.py` + error map.

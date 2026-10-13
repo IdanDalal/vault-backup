@@ -37,6 +37,8 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 
 | G21 | **Writing for ACE-Step**: hyphenate and exclaim compound refrains ("Knowledge cut-off! Cut-off!"); tag talking parts `[spoken word]`; a spoken punchline gets its own `[spoken word]` block; never all-caps. Verify every take with `probe_lines.py` | jep experiment 2026-10-13: refrain heard 6/6 vs 0/6 | R (measured) |
 
+| G22 | **Repairing a take**: pick the take with the best performance (Idi's ear), then fix words by repainting each bad window from the ORIGINAL (base model, 32 steps), choose the variant by measured words, splice only the window back with crossfades. Never chain repaints (each pass degrades the whole song). Verify with `diffmap.py` (outside windows ≤ 0.02) | jep 2026-10-13, take C 92.2% → 94.1% | R (measured) |
+
 Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
 
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.
