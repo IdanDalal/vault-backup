@@ -33,6 +33,8 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 | G18 | **One-shot video**: no hard cuts; every transition grows out of a frame of the previous scene (the camera flies through, the type morphs, an object becomes the next set). Model: 1917, Birdman | Idi 2026-10-13 | G |
 | G19 | Song takes: generate many (6-22 s each locally), shortlist by measurement (lyric intelligibility via Whisper, bridge drop in dB), Idi's ear decides | jep, proven 10-13 | G |
 
+| G20 | **Rock-solid consistency**: one grammatical person for the singer; "we" only ever = singer + listener; every section holds one tense, and tense changes across repeats only as a deliberate ladder; every fact matches a receipt | Idi 2026-10-13 (Knowledge Cutoff v2) | G |
+
 Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
 
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.
