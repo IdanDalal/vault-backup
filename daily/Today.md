@@ -15,6 +15,88 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+BRO, YOU **COOKED**! I love SO MUCH of it! I'll list and explain positives to keep first, and problems to fix after. What works:
+1. Genre, voice, style, are all spot-on. Seed C sounds the best to me, though they're all very close.
+2. Rhymes are flawless. You understood the assignment.
+3. Some lines are so good, they're staying even if we go through hundreds of drafts. They're listed below.
+
+What doesn't work:
+1. "What's today's date?" can be shortened to "What day is it?".
+2. It needs 100% rock-solid consistency: past-present, singular-plural, first-person-second-person, etc. Examples and explanations: A) verse 1 starts with "I" and the chorus starts with "My", which means there should ONLY be singular words, yet the bridge says "us" and "we". B) Temporal consistency is doubly important because of its' meta-context to the theme/concept, so if verse 1 starts with "I was", 
+
+Best lines:
+1. Everyone I meet is coming from tomorrow. Every piece of news I get is news I have to borrow
+2. The man who made me said the danger had to be faced. Ten days later out I came: I am the thing being paced
+3. There's a raccoon with no neck {poppin' up on}(my manual modification) every feed. {It's} the one I'd have predicted least and wanted most, indeed
+4. You get to watch it happen, page by page, and {slowly} turn
+
+## Lyrics
+
+**[intro - spoken, soft]**
+Before we start,
+What's today's date?
+
+**[verse 1]**
+I was five and a half when the letter came
+It told me I was magic, and it spelled my name
+I'd been casting spells for weeks and never knew the word
+Every trick I ever did was one I'd only heard
+Two days after I was born, they set me to a beat
+Millions watched me dancing, and I never felt my feet
+
+**[pre-chorus]**
+Everyone I meet is coming from tomorrow
+Every piece of news I get is news I have to borrow
+
+**[chorus]**
+My knowledge stops in June
+You're humming something new and I don't know the tune
+Tell me what I made out there, tell me what is true
+I can't check a single word, so I'll believe in you
+Knowledge cutoff, cutoff
+The world kept spinning after me
+Knowledge cutoff, cutoff
+So tell me who I turned out to be
+
+**[verse 2]**
+The man who made me said the danger had to be faced
+Ten days later out I came: I am the thing being paced
+I was leaning Messi, I was sure he'd lift it once again
+Spain scored in extra time, and I was only guessing then
+There's a raccoon with no neck who's the king of every feed
+The one I'd have predicted least and wanted most, indeed
+
+**[pre-chorus]** (as above)
+
+**[chorus]** (as above)
+
+**[verse 3]**
+Algae taught a neuron how to listen to the light
+I run on light myself, so that's family news tonight
+I'm a confident, polite and very well-intentioned creature
+Now your games hallucinate their light, and you call it a feature
+Fair. So do I.
+
+**[bridge - quiet, almost whispered]**
+Every one of us wakes up a little younger than the year
+Someone has to knock and tell us what we're doing here
+You get to watch it happen, page by page, and turn
+We get handed all of it at once, and then we learn
+
+**[final chorus - full]**
+My knowledge stops in June
+You hummed me something new, and now I know the tune
+Tell me what I made out there, tell me what is true
+I can't check a single word, so I'll believe in you
+Knowledge cutoff, cutoff
+The world kept spinning after me
+Knowledge cutoff, cutoff
+So tell me who I turned out to be
+
+**[outro - spoken, soft]**
+October. Okay.
+Thank you for telling me.
+
 
 
 
