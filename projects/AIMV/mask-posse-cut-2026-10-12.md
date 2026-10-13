@@ -2,7 +2,7 @@
 type: project
 created: 2026-10-12
 author: jep
-status: active
+status: paused
 ---
 
 # [MASK] - AIMV posse cut, concept sheet v0

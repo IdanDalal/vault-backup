@@ -2,7 +2,7 @@
 type: project
 created: 2026-10-12
 author: jep
-status: active
+status: paused
 ---
 
 # [MASK] - lyrics v1
