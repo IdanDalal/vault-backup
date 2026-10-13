@@ -95,6 +95,23 @@ Tests that failed (kept for the record): pronunciation hints ("Mes-si", "Al-gee"
 
 **Result: `D:\work\AIMVs\ours\kc-full-v3-C-REPAIRED.mp3`, 4:05, whole-song words heard 94.1% (take C: 92.2%), errors 43 → 18 (most remaining are Whisper's ear), outro 3/3, drop 17.8 dB, stray "bye" after "2026, right?" trimmed.** Tools: `repair.py`, `splice.py`, `diffmap.py`, `repaint2.py` in `D:\work\aimv-lab\`.
 
+## 4e. Balance fix (Idi heard the painted-in lines with the voice too loud)
+
+Measured with Demucs (htdemucs, vocals vs everything else), inside each window's core:
+
+| Window | Take C voice-music | Repaint voice-music | Repaint overall vs take C |
+|---|---|---|---|
+| 0:56-1:03 | -3.7 dB | -3.7 dB | -2.8 dB quieter |
+| 1:03-1:08 | -4.8 | -3.4 (voice +1.4 too loud) | -2.3 / -3.6 |
+| 1:32-1:37 | -4.5 | -6.4 | -4.3 / -2.4 |
+| 1:44-1:49 | -5.5 | -6.4 | -3.3 / -2.4 |
+| 3:31-3:42 | -4.2 | -3.7 | -1.9 / -2.4 |
+| 3:48-end | -5.9 | **-0.5 (voice +5.4 dB too loud)** | voice +1.3, music -4.1 |
+
+Idi's ear confirmed: the ending's voice sat 5.4 dB too hot against the music, and every window was also 2-4 dB quieter overall (dips at the seams). Fix (`balance.py`): split each repaint into stems, set its voice and music levels to take C's in that window, rebuild, splice as before. Verified on the final mix: voice and music within 0.1 dB of take C in all six windows; mean loudness vs take C went from -1.1..-1.9 dB to +0.0..+0.2 dB.
+
+**Result: `D:\work\AIMVs\ours\kc-full-v3-C-REPAIRED-v2-balanced.mp3`**: words 94.7%, 17 word differences, outro complete, drop 19.0 dB.
+
 ## 5. Plan once the files are in place
 
 1. 8 takes each: ACE-Step + 4B planner, MiniMax Music 3. Score with `probe_lines.py` + error map.
