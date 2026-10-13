@@ -52,6 +52,22 @@ Two notes:
 | Workflows `wf_ace4b.json`, `wf_minimax.json`; generator runs either via `WF=` | built, untested (models not visible to ComfyUI yet) |
 | Blocker | ComfyUI's model folders live in Idi's Windows profile; jep's account can't write there |
 
+## 4b. Results after Idi moved the files (2026-10-13 evening)
+
+Idi confirmed the knob sheet came from MiniMax Music 3's official repo (github.com/MiniMax-AI/MiniMax-Music3).
+
+**ACE-Step turbo + 4B planner, diction tags: average 92.1% of words heard over 7 takes, against 87.5% for the old 1.7B setup on the same lyrics.** A real gain (+4.6 points, beyond the ±3% noise floor).
+
+| Take | Words heard | Refrain /6 | Intro /2 | Outro /3 | Fair /2 | Drop | File |
+|---|---|---|---|---|---|---|---|
+| **A: seed 902** | 93.3% | 6 | 2 | 1 | 2 | 22.0 dB | `D:\work\AIMVs\ours\kc-full-v3-4b-take-A-seed902.mp3` |
+| B: seed 904 | 91.8% | 5 | 2 | **3** | 2 | 15.5 dB | `...-B-seed904.mp3` |
+| C: seed 906 | 92.2% | 6 | 2 | 1 | 2 | 18.0 dB | `...-C-seed906.mp3` |
+
+**MiniMax Music 3:** one test take, 79.4% heard, refrain, intro and "Fair" all present. It sings faster than ACE-Step (verse 2 at 1:05 against 1:27), finished the real lyric by ~2:50, then **invented filler lines** to fill the 4:00 it was given ("I don't need it, I don't need it"). Fix: give it ~3:10. The 6-take batch at 3:10 **crashed ComfyUI** (connection reset, server gone), most likely RAM: MiniMax's 9 GB text model loaded while ACE's 4B planner was still resident, on 32 GB. Fix in place: `FREE_FIRST=1` unloads all models before switching engines.
+
+Trouble words on every engine: "leaned Messi", "algae... neuron". Next test: pronunciation hints with the same words, spelled as sung ("Mes-si", "Al-gee", "neu-ron"): `kc\lyrics-v3-hints.txt`.
+
 ## 5. Plan once the files are in place
 
 1. 8 takes each: ACE-Step + 4B planner, MiniMax Music 3. Score with `probe_lines.py` + error map.
