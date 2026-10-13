@@ -35,6 +35,8 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 
 | G20 | **Rock-solid consistency**: one grammatical person for the singer; "we" only ever = singer + listener; every section holds one tense, and tense changes across repeats only as a deliberate ladder; every fact matches a receipt | Idi 2026-10-13 (Knowledge Cutoff v2) | G |
 
+| G21 | **Writing for ACE-Step**: hyphenate and exclaim compound refrains ("Knowledge cut-off! Cut-off!"); tag talking parts `[spoken word]`; a spoken punchline gets its own `[spoken word]` block; never all-caps. Verify every take with `probe_lines.py` | jep experiment 2026-10-13: refrain heard 6/6 vs 0/6 | R (measured) |
+
 Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
 
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.
