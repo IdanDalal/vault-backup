@@ -112,6 +112,22 @@ Idi's ear confirmed: the ending's voice sat 5.4 dB too hot against the music, an
 
 **Result: `D:\work\AIMVs\ours\kc-full-v3-C-REPAIRED-v2-balanced.mp3`**: words 94.7%, 17 word differences, outro complete, drop 19.0 dB.
 
+## 4f. Idi's verdict on the repairs, and MiniMax on jep's own ComfyUI
+
+Idi (2026-10-13): the repaired take still sounds patched, "mostly perfect parts and some least-bad-option parts", like a film that keeps frames with the crew visible. Ruling: **the repaired take is the standard to pass; look for a one-shot take, starting with MiniMax.**
+
+Crash cause found: jep runs its own ComfyUI (official portable v0.39.0, `C:\Users\jep\comfy`, port 8189, logs in `D:\work\aimv-lab\comfy-jep-*.log`). Its log showed the audio decode step running out of GPU memory and only just recovering; on Idi's instance (less free memory: 13.6 GB of the commit budget free with Vivaldi + ComfyUI open, 39.8 GB after Idi closed both) it most likely died there. Fix: tiled audio decode (`wf_minimax_tiled.json`). 9 MiniMax takes since, 0 crashes.
+
+| Take | Words heard | Refrain | Intro | Outro | Drop | Pace | Held words |
+|---|---|---|---|---|---|---|---|
+| take C repaired (standard) | 94.7% | 6* | 2 | 3 | 19.0 dB | 123 wpm | 4 s holds |
+| **MiniMax 944** | **95.9%** | 6 | 2 | 2 | 17.6 dB | 176 wpm | 0.4-1.6 s |
+| MiniMax 911 | 95.9% | 6 | 2 | 3 | 5.7 dB | ~185 wpm | 0.3-1.6 s |
+| MiniMax 942 | 94.5% | 6 | 2 | 2 | 9.8 dB | 195 wpm | 0.3-0.6 s |
+| MiniMax "slow" prompt (4 takes) | 74-93% | 6-7 | 2 | 3 | 8-13 dB | 171 wpm | up to 2.4 s |
+
+(*errmap check.) Reading: MiniMax one-shots beat the repaired take on words with zero repairs and is very consistent (standard prompt: 93-96% on all 5). It sings fast (176-195 wpm vs G1's 130-140) and rarely holds notes; the slow prompt costs accuracy and barely slows it. No BPM control in MiniMax: pace comes only from the caption and lyric layout. Next test running: instrumental breaks between sections + stretched vowels on the held words. Files: `D:\work\AIMVs\ours\kc-minimax-A-seed944.mp3`, `-B-seed911`, `-C-seed942`. License note: publishing needs the "MiniMax-Music3" credit and an AI-content disclosure.
+
 ## 5. Plan once the files are in place
 
 1. 8 takes each: ACE-Step + 4B planner, MiniMax Music 3. Score with `probe_lines.py` + error map.
