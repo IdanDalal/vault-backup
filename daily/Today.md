@@ -15,7 +15,8 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-Abrupt course correction: I just realized how 
 
 
-1. Engagement used to mean a ring; now it decides your fate. Worse than the old feed? Old one just sold your data. The new one is your date.
+
+
+2. Engagement used to mean a ring; now it decides your fate. Worse than the old feed? Old one just sold your data. The new one is your date.
