@@ -39,6 +39,8 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 
 | G22 | **Repairing a take**: pick the take with the best performance (Idi's ear), then fix words by repainting each bad window from the ORIGINAL (base model, 32 steps), choose the variant by measured words, splice only the window back with crossfades. Never chain repaints (each pass degrades the whole song). Verify with `diffmap.py` (outside windows ≤ 0.02). **Then re-level every window's voice and music to the original with `balance.py` (Demucs stems)**: repaints come out 2-4 dB quieter and with shifted voice/music balance (up to +5.4 dB voice) | jep 2026-10-13, take C 92.2% → 94.1% | R (measured) |
 
+| G23 | **Pacing MiniMax** (no tempo control): an `[Instrumental]` break before each chorus and before the bridge brings it from 176-195 to ~145 wpm at 94-95% words; stretched vowels on chosen words ("borroooow", "tuuuurn") bring back long holds (4 s). Discard takes that sing 100+ extra words (repeat loops). Run on jep's own ComfyUI with tiled decode | jep 2026-10-13, 6 takes | G |
+
 Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
 
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.
