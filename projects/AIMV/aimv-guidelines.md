@@ -29,6 +29,10 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 | G15 | Each ad-lib character (Luigi, JenSON's SON) appears 2-3 times across the song | Idi round-2 notes | G |
 | G16 | A signature tic is spice: a few loud hits, never every line | Idi on JenSON v1 | G |
 
+| G17 | **Rhyme ladder: every line-end pair R4 or higher; reach for R5-R6.** R6 rich (every sound matches, onset too: objective/subjective, tomorrow/borrow) > R5 multi (perfect across 2+ vowels: objective/directive, creature/feature) > R4 perfect (same stressed vowel and everything after: June/tune) > R3 family (same vowel, same kind of final consonant: time/line) > R2 assonance (vowel only: June/you) > R1 consonance (ending consonants only: objective/active) > R0 noise. Checked by `D:\work\aimv-lab\rhymes.py` (CMU dictionary + American "ear/air" mergers) | Idi 2026-10-13: top rhymes make him smile, bottom ones distract | G |
+| G18 | **One-shot video**: no hard cuts; every transition grows out of a frame of the previous scene (the camera flies through, the type morphs, an object becomes the next set). Model: 1917, Birdman | Idi 2026-10-13 | G |
+| G19 | Song takes: generate many (6-22 s each locally), shortlist by measurement (lyric intelligibility via Whisper, bridge drop in dB), Idi's ear decides | jep, proven 10-13 | G |
+
 Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
 
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.
