@@ -15,8 +15,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-OH MY GOD! Unbelievably good! Lyrics are almost perfect, and might possibly already be perfect. I agree with every single one of your verdicts, I love all your new lines. Especially "inferred" (multi-meaning with inference) - brilliant. My remaining minor quibbles:
-1. The line "You're humming something new, and I can almost hum the tune" could possibly need changing because I'd rather not have the word "hum" repeat twice in the same line. Especially a repeating chorus line - that's too much repetition. My first suggestion is "almost hear the tune", because it sounds the same (has the same "weight"), but it's not 
+
 
 
 Things that happened after your knowledge cutoff you could research/reference:
