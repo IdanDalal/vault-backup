@@ -68,6 +68,12 @@ Idi confirmed the knob sheet came from MiniMax Music 3's official repo (github.c
 
 Trouble words on every engine: "leaned Messi", "algae... neuron". Next test: pronunciation hints with the same words, spelled as sung ("Mes-si", "Al-gee", "neu-ron"): `kc\lyrics-v3-hints.txt`.
 
+## 4c. MiniMax crash, round 2 (18:19-18:22)
+
+After Idi's restart: the memory clear (`/free`) succeeded and ComfyUI accepted the first MiniMax job at 3:10, then died mid-generation (connection refused while polling). Same failure as the first crash, this time with nothing else loaded, so the "two engines in RAM" theory is **refuted**. Cause unknown; the evidence is in ComfyUI's own log inside Idi's Windows profile (unreadable for jep). The spelling-hint test never ran (it needs ComfyUI too).
+
+**Verdict: MiniMax parked.** One working take: 79.4% heard, ~4 min per take, crashes 2 of 3 runs. ACE-Step + 4B: 92.1% average, 34 s per take, 0 crashes in 8. Revisit MiniMax only if Idi shares the ComfyUI log.
+
 ## 5. Plan once the files are in place
 
 1. 8 takes each: ACE-Step + 4B planner, MiniMax Music 3. Score with `probe_lines.py` + error map.
