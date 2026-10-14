@@ -23,95 +23,95 @@ Raw data: `D:\work\aimv-lab\refs-captions.json`, `refs-measures.json`, research 
 
 ## B1. Genre, tempo, key
 
-| # | Genre (ear) | BPM (meter) | Key (meter) |
-|---|---|---|---|
-| 1 | hyperpop, J-core electropop | 152 | D major |
-| 2 | synth-pop; original Udio prompt: Electropop, Synthpop, Anthemic, Playful | 129-132 | D# major |
-| 3 | aggressive electropop / synth-punk, cyberpunk | 144 | G# major (weak) |
-| 4 | nu-disco, 80s dance-pop, retro-funk (maker hashtag: #nudisco) | 118 | D# major |
-| 5 | hyperpop, glitchy, futuristic | 161 (drums half-time) | A# major |
-| 6 | nu-disco synth-pop; audience: "80s-90s", "Ed Sheeran", "Jason Mraz" | 123 | G minor |
-| 7 | chiptune pop / hyperpop, video-game | 92 or 185 | G major / E minor (weak) |
-| 8 | theatrical orchestral hip-hop, musical-theater villain number; audience: "Disney villain song" (80 likes) | 144 | E minor |
-| 9 | anthemic indie pop into 80s new-wave synth-pop, "stadium" | 128 (maker note) | E-flat major |
-| C | electropop + piano ballad, "musical theater or animated film theme" | drums read 86 (asked 124) | D major |
+| #   | Genre (ear)                                                                                               | BPM (meter)               | Key (meter)              |
+| --- | --------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------ |
+| 1   | hyperpop, J-core electropop                                                                               | 152                       | D major                  |
+| 2   | synth-pop; original Udio prompt: Electropop, Synthpop, Anthemic, Playful                                  | 129-132                   | D# major                 |
+| 3   | aggressive electropop / synth-punk, cyberpunk                                                             | 144                       | G# major (weak)          |
+| 4   | nu-disco, 80s dance-pop, retro-funk (maker hashtag: #nudisco)                                             | 118                       | D# major                 |
+| 5   | hyperpop, glitchy, futuristic                                                                             | 161 (drums half-time)     | A# major                 |
+| 6   | nu-disco synth-pop; audience: "80s-90s", "Ed Sheeran", "Jason Mraz"                                       | 123                       | G minor                  |
+| 7   | chiptune pop / hyperpop, video-game                                                                       | 92 or 185                 | G major / E minor (weak) |
+| 8   | theatrical orchestral hip-hop, musical-theater villain number; audience: "Disney villain song" (80 likes) | 144                       | E minor                  |
+| 9   | anthemic indie pop into 80s new-wave synth-pop, "stadium"                                                 | 128 (maker note)          | E-flat major             |
+| C   | electropop + piano ballad, "musical theater or animated film theme"                                       | drums read 86 (asked 124) | D major                  |
 
 ## B2. Lead voice
 
-| # | Who and how (ear) | Median note, range (meter) | Sung % (meter) |
-|---|---|---|---|
-| 1 | female, bright, bratty-confident, heavy auto-tune; rapid-fire almost-rap verses, soaring chorus | F#4, B3-C5 (highest) | 48 |
-| 2 | female, clear, powerful, high; layered, reverb + delay | E4, C4-C5 | **74** |
-| 3 | female, assertive, confrontational, digitally processed; near-spoken verses, soaring chorus | D#4, G#3-B4 | 66 |
-| 4 | female, belted, confident + a robotic male vocoder voice rapping verses (call and response) | D#4, two voices | 45 |
-| 5 | female, bright, heavily auto-tuned, "robotic precision", pitch-shifted | C#4, A#3-A4 | 54 |
-| 6 | male, clear, conversational cynical narrator; patter-song verses, anthemic chorus | C4, D3-D#4 | 62 |
-| 7 | female, high, Vocaloid-like; rapid almost-rapped verses, melodic chorus | D4, G#3-B4 | 52 |
-| 8 | male, declamatory, theatrical; rap with show-tune flair, operatic chorus | G3, G#2-E4 (lowest) | 36 |
-| 9 | male tenor, clear and earnest verses, powerful chorus | A#3, D#3-G#4 | 71 |
-| C | female, clear, youthful; "almost rap-like" verse, emotive ballad section | E4, C#4-A4 | 59 |
+| #   | Who and how (ear)                                                                               | Median note, range (meter) | Sung % (meter) |
+| --- | ----------------------------------------------------------------------------------------------- | -------------------------- | -------------- |
+| 1   | female, bright, bratty-confident, heavy auto-tune; rapid-fire almost-rap verses, soaring chorus | F#4, B3-C5 (highest)       | 48             |
+| 2   | female, clear, powerful, high; layered, reverb + delay                                          | E4, C4-C5                  | **74**         |
+| 3   | female, assertive, confrontational, digitally processed; near-spoken verses, soaring chorus     | D#4, G#3-B4                | 66             |
+| 4   | female, belted, confident + a robotic male vocoder voice rapping verses (call and response)     | D#4, two voices            | 45             |
+| 5   | female, bright, heavily auto-tuned, "robotic precision", pitch-shifted                          | C#4, A#3-A4                | 54             |
+| 6   | male, clear, conversational cynical narrator; patter-song verses, anthemic chorus               | C4, D3-D#4                 | 62             |
+| 7   | female, high, Vocaloid-like; rapid almost-rapped verses, melodic chorus                         | D4, G#3-B4                 | 52             |
+| 8   | male, declamatory, theatrical; rap with show-tune flair, operatic chorus                        | G3, G#2-E4 (lowest)        | 36             |
+| 9   | male tenor, clear and earnest verses, powerful chorus                                           | A#3, D#3-G#4               | 71             |
+| C   | female, clear, youthful; "almost rap-like" verse, emotive ballad section                        | E4, C#4-A4                 | 59             |
 
 ## B3. Backing vocals and ad-libs
 
-| # | What (ear, maker notes) |
-|---|---|
-| 1 | stuttering vocal chops, robotic countdown, shouted backing vocals, final whispered command |
-| 2 | layered harmonies; wordless "oohs / ahs" hook near the end; vocal chops in the outro |
-| 3 | robotic vocal sample opens; shouted chorus vocals; glitchy vocal chops |
-| 4 | shouted gang-vocal responses; vocoder call and response |
-| 5 | stuttering vocal chops, pitch-shifted harmonies |
-| 6 | layered harmonies that grow into wide stadium gang vocals at the end |
-| 7 | scat-sung hook, robotic voice sample, catchy post-chorus hook |
-| 8 | mixed choir chanting the hooks, "robotic choir", gang chant |
-| 9 | "whoa-oh-oh" hooks, gang-chant section, post-chorus "oh-oh-oh" ad-libs |
-| C | gang "Oh!" ad-libs, choir-like harmonies |
+| #   | What (ear, maker notes)                                                                    |
+| --- | ------------------------------------------------------------------------------------------ |
+| 1   | stuttering vocal chops, robotic countdown, shouted backing vocals, final whispered command |
+| 2   | layered harmonies; wordless "oohs / ahs" hook near the end; vocal chops in the outro       |
+| 3   | robotic vocal sample opens; shouted chorus vocals; glitchy vocal chops                     |
+| 4   | shouted gang-vocal responses; vocoder call and response                                    |
+| 5   | stuttering vocal chops, pitch-shifted harmonies                                            |
+| 6   | layered harmonies that grow into wide stadium gang vocals at the end                       |
+| 7   | scat-sung hook, robotic voice sample, catchy post-chorus hook                              |
+| 8   | mixed choir chanting the hooks, "robotic choir", gang chant                                |
+| 9   | "whoa-oh-oh" hooks, gang-chant section, post-chorus "oh-oh-oh" ad-libs                     |
+| C   | gang "Oh!" ad-libs, choir-like harmonies                                                   |
 
 ## B4. Instruments
 
-| # | Lead and bass (ear) |
-|---|---|
-| 1 | distorted growling synth bass, big synth chords, J-core arpeggios |
-| 2 | pulsing sequenced synth bass, bright arpeggios, shimmering pads |
-| 3 | gritty sliding distorted synth-bass riff as the main hook, glitchy stabs |
-| 4 | funky synth bass, brassy synth stabs, arpeggios |
-| 5 | distorted synth bass and deep sub, plucky leads, shimmering pads |
-| 6 | funky melodic synth bass, brassy synth stabs, plucky keys |
-| 7 | bouncy synth bass, chiptune arpeggios |
-| 8 | orchestral strings (fast runs, staccato hits), brass stabs, timpani; synth bass in the rap parts |
-| 9 | clean arpeggiated electric guitar, later brassy synth stabs and pads |
-| C | **clean piano**, atmospheric pad, punchy synth bass |
+| #   | Lead and bass (ear)                                                                              |
+| --- | ------------------------------------------------------------------------------------------------ |
+| 1   | distorted growling synth bass, big synth chords, J-core arpeggios                                |
+| 2   | pulsing sequenced synth bass, bright arpeggios, shimmering pads                                  |
+| 3   | gritty sliding distorted synth-bass riff as the main hook, glitchy stabs                         |
+| 4   | funky synth bass, brassy synth stabs, arpeggios                                                  |
+| 5   | distorted synth bass and deep sub, plucky leads, shimmering pads                                 |
+| 6   | funky melodic synth bass, brassy synth stabs, plucky keys                                        |
+| 7   | bouncy synth bass, chiptune arpeggios                                                            |
+| 8   | orchestral strings (fast runs, staccato hits), brass stabs, timpani; synth bass in the rap parts |
+| 9   | clean arpeggiated electric guitar, later brassy synth stabs and pads                             |
+| C   | **clean piano**, atmospheric pad, punchy synth bass                                              |
 
 ## B5. Drums and groove
 
-| # | Pattern (ear, maker) | Drum level vs mix (meter) | Hits per second (meter) |
-|---|---|---|---|
-| 1 | relentless, glitchy drum machine | -6.1 dB | 3.2 |
-| 2 | four-on-the-floor | -3.1 | 2.8 |
-| 3 | relentless four-on-the-floor | **-2.5** (loudest) | 3.1 |
-| 4 | tight four-on-the-floor | -3.8 | 3.2 |
-| 5 | punchy, half-time feel | -3.8 | 2.5 |
-| 6 | four-on-the-floor | -2.8 | 3.1 |
-| 7 | punchy drum machine | -4.5 | 2.8 |
-| 8 | hip-hop beat, timpani | -7.2 | 2.0 |
-| 9 | chorus 1 sparse ("claps and hats, no bass, no full kit"), kit stops for a line, slams back; gated-reverb drums | -4.2 | 2.4 |
-| C | "simple steady beat with a snap" | -5.4 | **1.9** (974: 1.6) |
+| #   | Pattern (ear, maker)                                                                                           | Drum level vs mix (meter) | Hits per second (meter) |
+| --- | -------------------------------------------------------------------------------------------------------------- | ------------------------- | ----------------------- |
+| 1   | relentless, glitchy drum machine                                                                               | -6.1 dB                   | 3.2                     |
+| 2   | four-on-the-floor                                                                                              | -3.1                      | 2.8                     |
+| 3   | relentless four-on-the-floor                                                                                   | **-2.5** (loudest)        | 3.1                     |
+| 4   | tight four-on-the-floor                                                                                        | -3.8                      | 3.2                     |
+| 5   | punchy, half-time feel                                                                                         | -3.8                      | 2.5                     |
+| 6   | four-on-the-floor                                                                                              | -2.8                      | 3.1                     |
+| 7   | punchy drum machine                                                                                            | -4.5                      | 2.8                     |
+| 8   | hip-hop beat, timpani                                                                                          | -7.2                      | 2.0                     |
+| 9   | chorus 1 sparse ("claps and hats, no bass, no full kit"), kit stops for a line, slams back; gated-reverb drums | -4.2                      | 2.4                     |
+| C   | "simple steady beat with a snap"                                                                               | -5.4                      | **1.9** (974: 1.6)      |
 
 ## B6. Arc, sections, drops
 
 Drop = the music falls away for a moment, then slams back. Meter shows the deepest one and which parts vanish.
 
-| # | Arc (ear, maker) | Biggest drop (meter) |
-|---|---|---|
-| 1 | spoken countdown intro; melodic bridge; **key change into the final chorus**; whispered ending | 22 dB at 2:00, everything out |
-| 2 | atmospheric bridge, then a final climactic chorus; abrupt end | 18 dB at 2:19, band out, voice stays |
-| 3 | robotic spoken intro and outro; filtered spoken monologue breakdown; riser into the final chorus | 15 dB at 2:11 |
-| 4 | spoken intro and outro; vocoder section | 7 dB: steady energy, no real drop |
-| 5 | robotic spoken intro; atmospheric bridge | 17 dB at 0:18 and 2:49, music and voice out, drums stay |
-| 6 | pre-chorus, post-chorus hook; breakdown into the final chorus; "the drop into the outro" (maker note) | **40 dB at 4:41, total silence** |
-| 7 | scat intro; filtered interlude; abrupt end | 36 dB at 3:54, total silence |
-| 8 | spoken intro monologue; spoken interlude; cinematic instrumental climax | 25 dB at 0:21 and 4:54 |
-| 9 | line sung over near-silence (0:34); silence before the bridge (1:53); quiet guitar outro | 11-13 dB |
-| C | piano-ballad section; spoken interlude over silence; noise tail | 16-28 dB, voice-only gaps |
+| #   | Arc (ear, maker)                                                                                      | Biggest drop (meter)                                    |
+| --- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 1   | spoken countdown intro; melodic bridge; **key change into the final chorus**; whispered ending        | 22 dB at 2:00, everything out                           |
+| 2   | atmospheric bridge, then a final climactic chorus; abrupt end                                         | 18 dB at 2:19, band out, voice stays                    |
+| 3   | robotic spoken intro and outro; filtered spoken monologue breakdown; riser into the final chorus      | 15 dB at 2:11                                           |
+| 4   | spoken intro and outro; vocoder section                                                               | 7 dB: steady energy, no real drop                       |
+| 5   | robotic spoken intro; atmospheric bridge                                                              | 17 dB at 0:18 and 2:49, music and voice out, drums stay |
+| 6   | pre-chorus, post-chorus hook; breakdown into the final chorus; "the drop into the outro" (maker note) | **40 dB at 4:41, total silence**                        |
+| 7   | scat intro; filtered interlude; abrupt end                                                            | 36 dB at 3:54, total silence                            |
+| 8   | spoken intro monologue; spoken interlude; cinematic instrumental climax                               | 25 dB at 0:21 and 4:54                                  |
+| 9   | line sung over near-silence (0:34); silence before the bridge (1:53); quiet guitar outro              | 11-13 dB                                                |
+| C   | piano-ballad section; spoken interlude over silence; noise tail                                       | 16-28 dB, voice-only gaps                               |
 
 ## B7. Mix
 
