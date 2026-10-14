@@ -15,7 +15,9 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+First: almost all of them pronounce "tomoroo" and "borroo". Second: almost all of them pronounce "graphic card" without the "s" at the end of "graphics". Third, I'm not opposed to/against pianos, I was just pointing out earlier that there were pretty much no noticeable instruments other than the piano, which is not what I want.
 
+The best one is `3 - like Ignore Previous Instructions.mp3`. It has an unexpected, yet welcome new quirk: instead of "Knowledge cut-off! Cut-off!" it goes "Knowledge cut-off! Cut-off! Cut-off!", and it fits SO WELL! The second best one is `7 - like The Simulation's Ending.mp3` (it also has the same welcome quirk). 
 
 Things that happened after your knowledge cutoff you could research/reference:
 1. Two big films: The Odyssey and Spider-Man.
