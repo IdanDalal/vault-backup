@@ -41,6 +41,9 @@ Source: Idi's marks on [[aimv-deconstruction-2026-10-12]] section 1, plus his wo
 
 | G23 | **Pacing MiniMax** (no tempo control): an `[Instrumental]` break before each chorus and before the bridge brings it from 176-195 to ~145 wpm at 94-95% words; stretched vowels on chosen words ("borroooow", "tuuuurn") bring back long holds (4 s). Discard takes that sing 100+ extra words (repeat loops). Run on jep's own ComfyUI with tiled decode | jep 2026-10-13, 6 takes | G |
 
+| G24 | **Payoff ornament**: a word the early choruses sing plainly gets one long ornamented hold only in the final chorus ("tune", "tune", then "tuuuu-oo-oo-oon"). Method: stretched spelling in the final chorus lyric only; plain everywhere else | Idi 2026-10-14 morning chose "tune" as the spectacle word; confirmed by ear on v5B (seed 3011) and v6C (3103): "META-AWESOME" | G |
+| G25 | **Writing for MiniMax Music 3**: caption in the trained format (MiniMax's own box names, `bpm is 144. key is G#, and scale is major.`, section-by-section arrangement, 400-600 words); stretched vowels are sung literally (`tomorroooow` → "tomoroo": use plain or `tomorrow-oh`, which keeps the hold); "graphics card" drops the s unless spelled `graph-ics` or `graphix`; a refrain written three times lands 6 of 6; every take invents filler after the last line (cut at the first "right" after the final "telling"); adding style elements that speed the song up brings back rap-like verses | jep 2026-10-14, measured on 42 takes, Idi's ear on the spellings | R (measured) |
+
 Working protocol (Idi, 2026-10-12): Idi keeps the lines he likes, verbatim; jep regenerates everything else each round. Kept lines are never reworded by jep.
 
 Observed, unruled: 7 of 8 references pair bright major keys with dark lyrics. Idi has not marked this.

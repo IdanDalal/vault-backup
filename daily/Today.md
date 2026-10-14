@@ -15,12 +15,6 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-My notes after listening to v5:
-B is the new gold standard! It has the best "emergent surprise" yet - the first two times the second line of the chorus ends with "tune", and the third/final one ends with a long/holding "tuuuuuu-ooooo-ooooo-ooooon"! That's META-AWESOME! I hope you understand and appreciate that - it's a new guideline, and if no other take replicates it this well, we're turning B into a video. C also goes SUPER hard, and sounds great (it's the second best of all so far, kinda), but it's much too fast and "rappy". The "graphics" and "tomoroo"/"buroo" are fixed on all 3 - cases closed. The intro+outro should be quieter, softer, slower, more space/time between words. 
-
-My notes after listening to v6:
-A is great.
-B is weird. The second/middle chorus is quiet, and the music is very subtle/de-emphasized.
 
 
 Things that happened after your knowledge cutoff you could research/reference:

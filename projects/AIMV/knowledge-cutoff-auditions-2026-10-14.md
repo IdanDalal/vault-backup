@@ -68,4 +68,14 @@ v5 picks for Idi: `D:\work\AIMVs\ours\v5\` A = 3004 (96.3% words, holds 4.0/2.6 
 
 v6 results (8 takes): words 93.2-97.6%; "graphics" with the s 8 of 8; triple refrain in all 6 in 4 takes (3106 sings it four times, every refrain); pace 143-145 in 3 takes (3102, 3106, 3108), 151-180 in the rest. Ear: "almost rap-like" verses in all 5 screened, though audition 3's own prompt asks for "almost spoken-sung" verses and Idi liked 3; Idi's ear rules. Picks in `D:\work\AIMVs\ours\v6\`: A = 3108 (143 wpm, 97.0%, 6/6 triples), B = 3106 (145 wpm, holds 2.3-3.3 s on all held words, x4 refrain), C = 3103 (holds 3.9/3.8/3.9/2.4 s, 96.6%, 157 wpm).
 
+### Idi's verdict on v5 and v6 (2026-10-14 night)
+
+1. **v5B (seed 3011) = new gold standard.** Final chorus "tuuuu-oo-oo-oon" after two plain "tune"s: "META-AWESOME", now guideline G24 (designed in the lyric since v4, from Idi's own morning note 5). "If no other take replicates it this well, we're turning B into a video."
+2. v5C (3002): "goes SUPER hard", too fast and "rappy". Third best.
+3. "graphics" and "tomoroo/borroo" fixed on all 3 v5 picks: closed (plain and `-oh` spellings both work).
+4. Intro + outro: should be quieter, softer, slower, more space between words.
+5. v6A great; v6B weird (quiet middle chorus, music de-emphasized); **v6C "STRAIGHT-UP FIRE"**, has the same "tune" payoff: second best.
+
+Ranking: v5B > v6C > v5C. Measured v5B bookends: intro 3.7 s for 11 words (3.0 words/s, longest gap 0.2 s, -10 dB vs song); outro 6.2 s (1.5 words/s). v7 = v5B's caption + lyrics with only the spoken bookends changed (soft, slow, long pauses, one sentence per line), 12 seeds; target intro ≤1.7 words/s with ≥0.8 s pauses.
+
 Meter note: the anchored drop meter scores audition 3 at ~1 dB though Idi hears "sick drops": not used for selection.
