@@ -40,6 +40,30 @@ Findings:
 2. Every take ended early and invented 6-84 s of filler; the cut rule (first "right" after the final "telling") verified on all 9 picks by re-transcribing the endings.
 3. Several takes double the last word ("right? Right?") inside the song itself.
 
-## Feedback (Idi, plain words)
+## Feedback (Idi, plain words, 2026-10-14)
 
-Pending.
+1. Almost all sing "tomoroo", "borroo" (jep: the stretched spellings `tomorroooow`, sung literally).
+2. Almost all sing "graphic card", no "s".
+3. Piano is fine; earlier complaint = piano was nearly the only audible instrument.
+4. **Best = 3 (like Ignore Previous Instructions)**: long holds, sick drops, great beat, fitting voice, poppin' "Wooh! Wooh! Wooh!" chorus backings, sang "Knowledge cut-off! Cut-off! Cut-off!" (three times: "fits SO WELL").
+5. Second = 7 (like The Simulation's Ending): same triple; random pauses (long gap after "a light is shown", "creature" rushed into "Now"; long pauses after "slowly turn" and "every page at once", sometimes good, feel random).
+6. Male voice doesn't fit.
+7. Direction: more takes combining 3 and 7 with these fixes.
+
+## v5 (3 + 7 combined) and v6 (3 + fixes only)
+
+Changes, both: triple refrain written into the lyric (all 6); female; "Wooh!" shouts; steady phrasing line. Lyric spellings tested: p5a `tomorrow-oh`, `borrow-oh`, `graph-ics` vs p5b plain `tomorrow`, `borrow`, `graphix`.
+
+| Check | Auditions 3 / 7 | v5 (8 takes) |
+|---|---|---|
+| "graphics" heard with the s | no / no (matches Idi's ear) | **8 of 8**, both spellings |
+| triple refrain, all 6 | 6 / 6 | 6 of 8 takes |
+| "tomorrow" held | | `-oh` spelling: 2.8-4.0 s in 3 of 4; plain: 0.3-1.1 s |
+| pace (words per minute) | 143 / 172 | 150-182 |
+| ear: "almost rap-like" verses | none / | 6 of 8 |
+
+Reading: v5 sped up (7's sparkle + "fast hi-hats" in jep's prompt), and speed brought back the rap feel. v6 = audition 3's prompt nearly verbatim + only Idi's fixes (`D:\work\aimv-lab\kc\caption-minimax-v6.txt`), p5a spellings, 8 seeds.
+
+v5 picks for Idi: `D:\work\AIMVs\ours\v5\` A = 3004 (96.3% words, holds 4.0/2.6 s, drops 17/11 dB), B = 3011 (150 wpm, no rap flag, plain spelling), C = 3002 (holds 4.0/3.7/4.0/3.2 s, "almost rapped" flag).
+
+Meter note: the anchored drop meter scores audition 3 at ~1 dB though Idi hears "sick drops": not used for selection.

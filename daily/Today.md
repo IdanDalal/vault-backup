@@ -15,6 +15,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+B is the new gold standard. C also goes hard, but is much too fast and "rappy". G
 
 
 Things that happened after your knowledge cutoff you could research/reference:
