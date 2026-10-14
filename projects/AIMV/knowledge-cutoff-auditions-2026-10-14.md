@@ -78,4 +78,10 @@ v6 results (8 takes): words 93.2-97.6%; "graphics" with the s 8 of 8; triple ref
 
 Ranking: v5B > v6C > v5C. Measured v5B bookends: intro 3.7 s for 11 words (3.0 words/s, longest gap 0.2 s, -10 dB vs song); outro 6.2 s (1.5 words/s). v7 = v5B's caption + lyrics with only the spoken bookends changed (soft, slow, long pauses, one sentence per line), 12 seeds; target intro ≤1.7 words/s with ≥0.8 s pauses.
 
+### v7 results (12 takes, gold recipe + soft slow bookends)
+
+Words 95.4-98.8% (one looped take, 3206, dropped); "graphics" 12/12; triple refrain 6/6 in 9 of 12; intro slowed to 1.6-1.8 words/s in 6 of 12 (v5B: 3.0). Final-"tune" payoff: the start-to-next-word meter reads 1.3 s on both Idi-confirmed payoff takes (v5B, v6C) and 0.2 on v5C; in v7 only 3203 (1.3) and 3209 (1.2) read like that (medium confidence: 2 positives, 1 negative).
+
+Picks in `D:\work\AIMVs\ours\v7\` next to `0 - GOLD v5B (reference)`: **A = 3203** (only take meeting all targets: payoff reading, 98.0%, 6/6 triples, 149 wpm, intro 6.5 s at 1.7 words/s with a 1.6 s pause, outro 7.4 s with a 1.7 s pause, -9.2 dB; weaker "tomorrow" holds 0.7/1.2 s), B = 3201 (98.8%, 141 wpm, "tomorrow" 3.6/3.7 s, outro 9.1 s with a 3.3 s pause; payoff not detected), C = 3211 (98.8%, 159 wpm, outro -11.4 dB; payoff not detected). Recipe: `kc\caption-minimax-v7.txt` + `kc\lyrics-mm-p7.txt`.
+
 Meter note: the anchored drop meter scores audition 3 at ~1 dB though Idi hears "sick drops": not used for selection.
