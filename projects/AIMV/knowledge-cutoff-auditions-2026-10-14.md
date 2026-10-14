@@ -84,4 +84,10 @@ Words 95.4-98.8% (one looped take, 3206, dropped); "graphics" 12/12; triple refr
 
 Picks in `D:\work\AIMVs\ours\v7\` next to `0 - GOLD v5B (reference)`: **A = 3203** (only take meeting all targets: payoff reading, 98.0%, 6/6 triples, 149 wpm, intro 6.5 s at 1.7 words/s with a 1.6 s pause, outro 7.4 s with a 1.7 s pause, -9.2 dB; weaker "tomorrow" holds 0.7/1.2 s), B = 3201 (98.8%, 141 wpm, "tomorrow" 3.6/3.7 s, outro 9.1 s with a 3.3 s pause; payoff not detected), C = 3211 (98.8%, 159 wpm, outro -11.4 dB; payoff not detected). Recipe: `kc\caption-minimax-v7.txt` + `kc\lyrics-mm-p7.txt`.
 
+### Idi: "v5B is undefeated" (v7 lost). Bookend fix by edit
+
+Idi heard a "sudden and out-of-place two-tone sound" under v5B's last line. Measured (Demucs stems): under "2026, right?" (198.3-199.6 s) only the synth layer is left, holding E and F, a half step apart; E is outside the song's key (G# major). The intro (0-4.4 s) is voice over silence: all music stems at -57 to -82 dB; three sentences in 3.7 s, verse 1 starts 0.26 s after "date?".
+
+Edit (`D:\work\aimv-lab\fix_bookends.py`, stems from `stems44.py`, nothing sung touched, no regeneration): cuts at the quietest 10 ms near each word boundary; each spoken sentence slowed 10% (ffmpeg atempo, speech-safe), voice -4 dB (intro) / -3 dB (outro); pauses inserted (intro 0.8/0.8/0.6 s, outro 0.5/0.9/0.5 s); outro backing faded out over 2.6 s from 193.2 s, so the E/F synth never sounds. Result 206.7 s (was 200.4). Verified: every intro and outro word transcribed intact (the transcriber also writes a phantom "and" inside an inserted pause, measured as digital silence, -240 dB); intro 5.7 s (was 3.7), outro 9.4 s (was 6.2). Files: `D:\work\AIMVs\ours\gold\1 - v5B original.mp3`, `2 - v5B fixed intro and outro.mp3`.
+
 Meter note: the anchored drop meter scores audition 3 at ~1 dB though Idi hears "sick drops": not used for selection.
