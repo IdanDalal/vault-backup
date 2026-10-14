@@ -66,4 +66,6 @@ Reading: v5 sped up (7's sparkle + "fast hi-hats" in jep's prompt), and speed br
 
 v5 picks for Idi: `D:\work\AIMVs\ours\v5\` A = 3004 (96.3% words, holds 4.0/2.6 s, drops 17/11 dB), B = 3011 (150 wpm, no rap flag, plain spelling), C = 3002 (holds 4.0/3.7/4.0/3.2 s, "almost rapped" flag).
 
+v6 results (8 takes): words 93.2-97.6%; "graphics" with the s 8 of 8; triple refrain in all 6 in 4 takes (3106 sings it four times, every refrain); pace 143-145 in 3 takes (3102, 3106, 3108), 151-180 in the rest. Ear: "almost rap-like" verses in all 5 screened, though audition 3's own prompt asks for "almost spoken-sung" verses and Idi liked 3; Idi's ear rules. Picks in `D:\work\AIMVs\ours\v6\`: A = 3108 (143 wpm, 97.0%, 6/6 triples), B = 3106 (145 wpm, holds 2.3-3.3 s on all held words, x4 refrain), C = 3103 (holds 3.9/3.8/3.9/2.4 s, 96.6%, 157 wpm).
+
 Meter note: the anchored drop meter scores audition 3 at ~1 dB though Idi hears "sick drops": not used for selection.
