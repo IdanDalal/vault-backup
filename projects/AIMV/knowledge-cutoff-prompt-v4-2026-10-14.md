@@ -71,3 +71,15 @@ Each row: what v4 says now (short), what it does, options, jep's pick. Answer by
 | L2 | Stretched "tune" | final chorus only (`tuuuune`) | Your note 5 spectacle | A keep · B also a shorter stretch in chorus 2 (`tuune`) | **A**: one spectacle stays special |
 
 Next round (v5) = your rulings + K10 B, 8 seeds, same meter. Full caption text: `D:\work\aimv-lab\kc\caption-minimax-v4.txt`.
+
+## 4. Idi's ear on A/B/C (2026-10-14)
+
+| Take | Verdict | Good | Bad |
+|---|---|---|---|
+| A 1006 | hard no: "Disney princess song", too slow, subtle, cute | soft-G "Algae" right; excellent holds at the right moments | sings "tomorroo", "borroo" |
+| B 1005 | same faults as A, "Disney princess rap" | same as A | holds "turn" so long it repeats "urn" |
+| **C 1004** | **new gold standard**, still "Disney princess songness > 0" | longest, most deliberate holds (tomorrow, borrow, you, turn); backing "woah-oh / oh-whoah" between chorus lines | 2nd pre-chorus sings "tomorrow" line twice; too piano-y; randomly loses the beat and slows on random words; ends 3:30 with 15 s of noise |
+
+jep's reading: the princess quality most likely came from v4's own words ("bright, warm, clear mezzo-soprano, slightly airy", "glassy bell synth", "sparkling", "soft piano", "wonder", "triumphant and grateful"); medium-high confidence. "tomorroo / borroo / urn" = the stretched spellings sung literally.
+
+Next (Idi's idea): deconstruct the 9 reference songs into the MiniMax box format, so Idi can pick values per box from songs he knows.
