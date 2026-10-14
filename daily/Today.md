@@ -15,6 +15,11 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+My notes:
+1. Take A sounds like a Disney princess song. Hard no. It's too slow, too subtle, too cute. It also has a weird quirk: it pronounces "tomorrow" and "borrow" as "tomorroo" and "borroo". Some good stuff about it: it got "Algae" right with a soft G. It has excellent holds at the right moments.
+2. Take B has most of the same features/qualities I just wrote above. I'm struggling to find different/new issues. It "made the same mistakes". It sounds less like a Disney princess song and more like a "Disney princess rap". It even has a second weird quirk: it holds "turn" for so long that it repeats "urn".
+3. Take C is the best. The new gold standard. It has the longest, most noticeable, and most deliberate holds ("tomorrow", "borrow", "you", "turn"). It has a backup vocal track that says "woah-oh" and "oh-whoah" between chorus lines. It also has a quirk, though: the second pre-chorus has the line "Everyone I meet is coming from tomorrow" repeating twice. It's far from perfect, though. It's too piano-y, it randomly "loses the beat" and goes slow on r
+
 
 
 Things that happened after your knowledge cutoff you could research/reference:
