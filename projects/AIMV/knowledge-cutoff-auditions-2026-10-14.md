@@ -92,4 +92,18 @@ Edit (`D:\work\aimv-lab\fix_bookends.py`, stems from `stems44.py`, nothing sung 
 
 **Correction (2026-10-15):** Idi heard pauses inside words in the first fixed version ("aga......in", "first ti......me", more). Cause: jep placed cuts with the transcriber's word times (they run ~0.3 s early) and a quietest-10-ms search, which lands inside words; jep's check (re-transcription) cannot hear a gap inside a word. Fix: cuts moved to the middles of measured silences (intro 1.54 / 2.94 / 4.03 s; outro 194.38 / 195.60 / 197.80 s) and a new gate, `D:\work\aimv-lab\cutcheck.py`: audio 50 ms before, at and after each cut must sit 25 dB or more below the passage's peak. All 6 pass (-26 to -53 dB). `D:\work\aimv-lab\kc\gold\rebuild.sh` copies to Idi's folder only on a pass.
 
+### Bookends round 2: new spoken lines in v5B's cloned voice (Idi chose option A, 2026-10-15)
+
+Why: pauses cannot move emphasis; v5B's own reading stresses "FIRST time" (Idi: sounds like "a confused bot", wanted "playfully meta-aware", stress on "time"); the outro's "October" comes too soon, with a "deflating whistle". Idi's direction: lean into the clone sounding a bit different, "charm mode": raised pitch, cheeky, conveying subtext.
+
+Tool: Chatterbox 0.1.7 (Resemble AI, MIT, ungated on Hugging Face), isolated env `C:\Users\jep\tts\venv`; keeps Resemble's inaudible Perth watermark marking the audio as AI-made (fixed a missing dependency rather than switching it off). Voice reference: 13.2 s of her spoken lines from v5B's separated voice track. 84 readings (`D:\work\aimv-lab\kc\tts\`, script `tts_gen.py`): 4 intro and 3 outro spellings x expressiveness 0.6/0.9/1.2 x pacing 0.3/0.5 x 2 seeds. Screen (`tts_screen.py`): words right in 72 of 84; median pitch ~250 Hz at 0.6 rising to 330-400 Hz at 1.2. Picks (8 intros, 6 outros, matched loudness) in `D:\work\AIMVs\ours\voice\`, reel `0 - REEL (8 intros, 6 outros).mp3` (2:21), key in `kc\tts\_reel_key.txt`; reel verified by transcription (all 14 lines complete, in order; Outro 6 doubles "okay").
+
+Next after Idi picks one intro and one outro: assemble into v5B (intro replaces 0-4.03 s; outro: music ends before the new outro, a real gap after the last chorus, no whistle), every seam gated by `cutcheck.py`.
+
+**Idi's verdict (2026-10-15): all 14 readings "terrible in most aspects: clarity, quality, similarity, accuracy, and more."** No compromise on confusing or incoherent parts ("I don't want to contribute to the ... pile of AI-slop"). Route closed: no voice clone, no stitched bookends for this song. Direction: keep generating and refining prompts until a take beats v5B with smooth, slow, separate intro and outro.
+
+### v8 (running): gold recipe + separate bookends
+
+`kc\caption-minimax-v8.txt` = v5 caption with: intro "over complete silence ... playful, knowing smile ... after a moment of silence the music begins"; outro "the music rings out and stops completely; after a pause of silence ... over complete silence, with no instruments and no sound effects". Lyrics `kc\lyrics-mm-p8a.txt` / `p8b.txt` = p5b + `[Instrumental]` after the spoken intro and before the spoken outro, one sentence per line; p8b writes "It's me again... for the first time." 12 seeds each. New bookend measures in `bookends.py`: gap intro>verse, gap chorus>outro, outro bed (quietest 30% of outro frames vs song median; v5B: -11.1 dB = the whistling synth; target below -25 dB).
+
 Meter note: the anchored drop meter scores audition 3 at ~1 dB though Idi hears "sick drops": not used for selection.
