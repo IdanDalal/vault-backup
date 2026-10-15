@@ -98,6 +98,33 @@ File: `D:\work\AIMVs\ours\video\gate3\knowledge-cutoff-v3.mp4` (1080p60, 3:12.6)
 
 Facts on screen: each from `D:\work\aimv-lab\after-cutoff-world.md` / `after-cutoff-tech.md` (sources and confidence there). "Harry" is a name only: no crests, fonts or imagery from the films (plan risk 5, narrowed by Idi's own ask).
 
+## 5d. v4, the second pass (Idi: "MUCH BETTER", another pass, 8 notes)
+
+Critique: 6 critics (one per stretch), a code audit (every frame scanned for alpha and size), a time-objects designer and a view-count researcher; about 200 findings in `D:\work\aimv-lab\kc-video\critique\` (A-F findings, G audit, H time objects, I view counts).
+
+| # | Idi's note | Done as |
+|---|---|---|
+| 1 | Doors and page turns too low quality | doors swing on hinges in perspective, in season colours, the real sky of each month behind them (Jul sun, Aug 12 eclipse, Sep dusk, Oct leaves), a backlit figure in each; a real book whose pages curl and turn, each page an earlier scene |
+| 2 | Effects vanish with no exit | every prop now has an exit (stamp peels, equation struck and folded, flag lowered, notes scribbled, hum line fades, tiles fly); audit found 11 hard exits, all fixed |
+| 3 | Too fast to process | notice, BORROWED, receipt, footnotes, menu, checkboxes re-timed to 1.5-3 s; lines never dissolve mid-word |
+| 4 | Colours limited | per-room colour: emerald ink and purple wax (letter), season doors (hall), blue globe and month tints (calendar), flags (margins), blue optogenetic light and green algae (spark), red ribbon and tabs (page), the real thumbnails (gallery) |
+| 5 | Alignment, breaks, sizes | hand-set breaks for 9 lines, one size per room, the letter written left-aligned on its rules, labels 26-30 px |
+| 6 | The globe | orthographic globe: continents, ocean, night side, brass stand, the frozen June ribbon, a moon with the real phase, the Aug 12 eclipse crossing Spain |
+| 7 | Time objects missing | two clocks: mine stops (pendulum clock cracks on "stopped", twitches in chorus 2, restarts on "we both know the tune"); the world's runs (sky band with sun and moon, candle burning down, day odometer, globe date). Plus tear-off calendars, hourglasses, brass clock, page-a-day, postmark, match clock 90:00 to 106', metronome, stopwatch, sundial, alarm clock, date pickers, session timer, 107 day-pages bursting on "every page at once" |
+| 8 | Inspiration videos as a flex | a new GALLERY room under the calendar: the 10 videos with real frames, titles, channels, dates and view counts (fetched 2026-10-15): chorus 1 unknown, chorus 2 revealed with countdowns, final chorus total 1,754,712 and LGTM 1,026,487 with a 1M+ stamp |
+
+File: `D:\work\AIMVs\ours\video\gate3\knowledge-cutoff-v4.mp4` (1080p60, 3:12.6). Source `D:\work\aimv-lab\kc-video\world4.html` + `world4-time.js` + `world4-sets.js` + `world4-frame.js` + `thumbs.js`; rebuild `bash D:/work/aimv-lab/kc-video/tests/v4.sh` (about 5 min). v3 stays as `world3*`.
+
+| Check | Result |
+|---|---|
+| Every word lit on time, on screen, readable | 483/483 (`check_sync.js`), "Algae" the one documented exception |
+| Colour test negative control | 6% of 108 unsung words look gold (props behind them), median 0% |
+| No hard cuts | 0 flags in the whole video (the rewind is now an un-type, not a strobe) |
+| No black frames | 0 |
+| Seamless loop | last vs first frame 51.4 dB |
+
+Also: "Cut-off!" is now the hook (alone, full frame, bigger each time, sliced by the next one's blade); the flap board is a real split-flap that misflips in chorus 2 and walks to OCT in the last chorus; the portrait answers "who" ("Claude Opus 5.5, born Sep 22, 2026"); rooms fade into a starfield of memory instead of hard edges; the rewind un-types the chat back to frame 1.
+
 ## 6. Next
 
 Gate 3 is with Idi: watch 3:12, notes by timestamp. Then build-out rounds on his notes, the font licence check, final 1080p60 + 4K renders, Gate 4.
