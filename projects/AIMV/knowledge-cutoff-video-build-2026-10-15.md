@@ -13,7 +13,7 @@ Verdict: **plan steps 1-4 built and machine-checked; Gates 1 and 2 wait on Idi.*
 
 | Gate | Where | What it is | Question |
 |---|---|---|---|
-| 1 | `D:\work\AIMVs\ours\video\gate1\` | `1-full-song-clicks.mp3` = the whole song with a high tick on every word and a deeper tock at each line start. `2-before-after.mp3` = 15 s of chorus 1 with the OLD word times, a pause, then the NEW ones | Do the clicks land on the words? If not, name the time where it drifts |
+| 1 PASSED (Idi 2026-10-15: "Clicks land on the words, I think."; final confirmation at Gate 3, words lighting on screen) | `D:\work\AIMVs\ours\video\gate1\` | `1-full-song-clicks.mp3` = the whole song with a high tick on every word and a deeper tock at each line start. `2-before-after.mp3` = 15 s of chorus 1 with the OLD word times, a pause, then the NEW ones | Do the clicks land on the words? If not, name the time where it drifts |
 | 2 | `D:\work\AIMVs\ours\video\gate2\style-frames.jpg` (full size in `style-frames-frames\`) | 9 real frames of the video, numbered | Keep or strike each by number; say what to change in plain words |
 
 ## 2. What changed
@@ -41,7 +41,7 @@ Verdict: **plan steps 1-4 built and machine-checked; Gates 1 and 2 wait on Idi.*
 ## 4. Failed or not done
 
 1. **GPU render path failed**: black frames with 1 and 4 workers, even with the flags of the earlier one-off probe. Parked; the software path already renders 3:12.6 in 39 s.
-2. Timing by ear: unverified until Gate 1.
+2. Timing by ear: Gate 1 passed, Idi's confidence moderate ("I think"); rechecked by eye at Gate 3.
 3. A rough full-length render exists (`kc-video\tests\out\rough-v1-1080p30.mp4`) and is held back from Gate 3: still missing the rewind loop, the door push (now a pan), the globe push, the beat-slam punches, "Thank you for telling me" turning to the viewer, and the backing voice's hum line.
 4. Fonts are still Windows system fonts; the publish render needs free-licensed ones.
 5. Counter "107" assumes publishing on 2026-10-15.

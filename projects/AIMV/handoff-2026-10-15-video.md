@@ -51,3 +51,4 @@ Start a new session by reading, in order: this file, [[knowledge-cutoff-video-pl
 ## 5. Progress log
 
 - 2026-10-15 evening, session 1: steps 1-4 built in `D:\work\aimv-lab\kc-video\` (`world.html`, `render.js`, `check_sync.js`, `sync\`). Gates 1 and 2 ready in `D:\work\AIMVs\ours\video\`. GPU path failed (black frames); software path is the pipeline. Report: [[knowledge-cutoff-video-build-2026-10-15]]. Next session starts from that report's section 6.
+- 2026-10-15: Gate 1 passed (Idi: "Clicks land on the words, I think."). `kc-timing-v2.json` is the timing of record; recheck by eye at Gate 3. Gate 2 open.
