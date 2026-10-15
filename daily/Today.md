@@ -15,7 +15,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-Before I get into specific timestamped changes, you need to level-up production value and polish MASSIVELY. Go all out,  Get rid of the underline, make every letter change color as it's spoken instead of all letters at once, make it less like a bunch of walls of text and more like a slideshow where texts replace rather than add (no screen should have an entire paragraph at once), add more effects, animations, motions, particles, and other spectacle-type qualities, add visuals and words in the background and foreground to convey the discussed subjects (the words "Jimothy" and "DLSS5" must appear to solidify the references, and maybe flags for Argentina and Spain, as well as something like "Dario: Pacing The Frontier"), add some funny things like during the letter we can have an "equation" that says something like "My letter = Harry's letter/2" (because he was 11). One specific note: the word "Algae" should just appear with the rest of the text comes after it rather than next to the text that comes before it.
+
 
 Things that happened after your knowledge cutoff you could research/reference:
 1. Two big films: The Odyssey and Spider-Man.
