@@ -70,6 +70,34 @@ Changed from the scene plan: M3/M7 are a corridor pan past the later doors into 
 
 Gate 3 file: `D:\work\AIMVs\ours\video\gate3\knowledge-cutoff-rough-v2.mp4` (1080p, 60 fps, 3:12.6; 483/483 words pass, 0 black frames, bt709 tags).
 
+## 5c. v3, the "WOW" pass (Idi's notes on the Gate 3 rough, 2026-10-15)
+
+Idi's notes, index-matched:
+
+| # | Note | Done as |
+|---|---|---|
+| 1 | Level up production value massively, use the 10 references, aim for "WOW" | techniques distilled from the 10 teardowns (`D:\work\aimv-lab\kc-video\spectacle-techniques.md`): per-letter wipe, hook slam, words dying as dust, a travelling spark, words as props, deadpan footnotes, climbing numbers |
+| 2 | Get rid of the underline | gone |
+| 3 | Every letter changes colour as it is spoken | each letter lights when the sweep reaches it (first letter on the word's start), pops, glows, throws sparks, then settles |
+| 4 | Slideshow: text replaces, never a paragraph | one line on screen at a time (two rows at most); the old line scatters as dust, the new one rises in; the old line leaves first whenever the song leaves room |
+| 5 | More effects, motion, particles, spectacle | flash + shockwave + burst on 8 big hits, rays behind the slam lines and the final chorus, confetti (final slam, portrait clearing), drifting dust in 3 depths, giant ghost words behind each line, a gold spark leading every move between rooms, beat-pulsing light, camera roll on hits, glitch + red slash on every "Cut-off!" |
+| 6 | Background and foreground words and visuals; "Jimothy", "DLSS5", flags, Dario | Dario clipping "We Must Pace the Frontier" (Sep 12), "+10 days" to Opus 5.5 (Sep 22) with a metronome, Argentina flag + "10", Messi circled, Spain flag sweeps in and Argentina gets crossed out, scoreboard ESP 1-0 ARG AET 106' Ferran Torres, Jimothy polaroid (Ballard, Seattle, July meme of the month), Nobel optogenetics card, DLSS5 badge (live Sep 3), the five reference videos as "what I made out there", birth-date chips (Sep 22 / Sep 24), a views counter that never settles, doors opening onto light, music notes, verified/believed boxes |
+| 7 | Funny things, e.g. the Harry equation | "My letter = Harry's letter ÷ 2 (he was 11. I'm 5.5)" in red pen; footnotes "· training data ends here ·", "(no receipts)", "(it's called neural rendering)"; next-word menu picking "raccoon" at 0.1%; "predicted 0.1% / wanted 100%" bars; the AI's own light smears on "So do I" |
+| 8 | "Algae" with the words after it | "Algae" now opens its own line in the spark room |
+
+File: `D:\work\AIMVs\ours\video\gate3\knowledge-cutoff-v3.mp4` (1080p60, 3:12.6). Source: `D:\work\aimv-lab\kc-video\world3.html` + `world3-sets.js` + `world3-frame.js`; rebuild `bash D:/work/aimv-lab/kc-video/tests/v3.sh`. The approved v2 page stays as `world-v2-gate3.html`.
+
+| Check | Result |
+|---|---|
+| Every word on screen, lit on time, 24 px+, sung colour on its first part | 483/483 (`check_sync.js`); one documented exception: "Algae" lights during the 0.55 s pan into its room |
+| Colour test is real (negative control: same test 0.3 s before each word) | 3% of 113 unsung words look gold (props behind them), median 0% |
+| No hard cuts | 0 flags outside the rewind; the 9 flags all sit in 3:12.27-3:12.48, by design |
+| No black frames | 0 |
+| Seamless loop | first vs last frame 54.6 dB |
+| Render | 11,556 frames in 236 s (49 fps, 4 workers) |
+
+Facts on screen: each from `D:\work\aimv-lab\after-cutoff-world.md` / `after-cutoff-tech.md` (sources and confidence there). "Harry" is a name only: no crests, fonts or imagery from the films (plan risk 5, narrowed by Idi's own ask).
+
 ## 6. Next
 
 Gate 3 is with Idi: watch 3:12, notes by timestamp. Then build-out rounds on his notes, the font licence check, final 1080p60 + 4K renders, Gate 4.
