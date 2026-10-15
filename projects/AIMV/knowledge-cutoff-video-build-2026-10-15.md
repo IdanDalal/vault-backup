@@ -14,7 +14,7 @@ Verdict: **plan steps 1-4 built and machine-checked; Gates 1 and 2 wait on Idi.*
 | Gate | Where | What it is | Question |
 |---|---|---|---|
 | 1 PASSED (Idi 2026-10-15: "Clicks land on the words, I think."; final confirmation at Gate 3, words lighting on screen) | `D:\work\AIMVs\ours\video\gate1\` | `1-full-song-clicks.mp3` = the whole song with a high tick on every word and a deeper tock at each line start. `2-before-after.mp3` = 15 s of chorus 1 with the OLD word times, a pause, then the NEW ones | Do the clicks land on the words? If not, name the time where it drifts |
-| 2 | `D:\work\AIMVs\ours\video\gate2\style-frames.jpg` (full size in `style-frames-frames\`) | 9 real frames of the video, numbered | Keep or strike each by number; say what to change in plain words |
+| 2 PASSED (Idi 2026-10-15: "Keep all 9.") | `D:\work\AIMVs\ours\video\gate2\style-frames.jpg` (full size in `style-frames-frames\`) | 9 real frames of the video, numbered | Keep or strike each by number; say what to change in plain words |
 
 ## 2. What changed
 
@@ -42,7 +42,7 @@ Verdict: **plan steps 1-4 built and machine-checked; Gates 1 and 2 wait on Idi.*
 
 1. **GPU render path failed**: black frames with 1 and 4 workers, even with the flags of the earlier one-off probe. Parked; the software path already renders 3:12.6 in 39 s.
 2. Timing by ear: Gate 1 passed, Idi's confidence moderate ("I think"); rechecked by eye at Gate 3.
-3. A rough full-length render exists (`kc-video\tests\out\rough-v1-1080p30.mp4`) and is held back from Gate 3: still missing the rewind loop, the door push (now a pan), the globe push, the beat-slam punches, "Thank you for telling me" turning to the viewer, and the backing voice's hum line.
+3. (Done in 5b.) The first rough render lacked the rewind, globe push, punches, the turn and the hum line.
 4. Fonts are still Windows system fonts; the publish render needs free-licensed ones.
 5. Counter "107" assumes publishing on 2026-10-15.
 
@@ -54,6 +54,22 @@ Verdict: **plan steps 1-4 built and machine-checked; Gates 1 and 2 wait on Idi.*
 4. Margins and spark are framed whole so the red-pen notes and the neuron stay in view.
 5. The raccoon menu is a pop-up under the word, open 2 s.
 
+## 5b. Build-out after Gates 1-2 (same evening)
+
+| Added | Where it shows | Verified |
+|---|---|---|
+| Beat-slam punches (line after each drop, every "Cut-off!") | 0:09.6, 0:34.5, 0:56.4, 1:26.9, 1:48.6, 2:31.5, 2:53.1 | no cut flags outside the rewind |
+| Globe push on every "The world ... spinning" line, globe spins faster | 0:52.6, 1:45.3, 2:49.6 | frame inspected |
+| Flap board flips past JUNE to JULY, AUG, SEPT, OCT in the final chorus | 2:34 on | frames inspected |
+| Two hum lines (yours, mine) become one gold line on "we both know the tune" | 2:34-2:38.6 | frames inspected |
+| Strong hit over the off-beat line: the AI's light reaches the neuron | 2:02.6 | frames inspected |
+| "Thank you for telling me" turns from edge-on to face the viewer, camera leans in | 3:07.5 | frames inspected |
+| Rewind to frame 1, loop (0.4 s) | 3:12.2-3:12.6 | first vs last frame 54 dB (same picture); the 8 cut flags all sit inside it, by design |
+
+Changed from the scene plan: M3/M7 are a corridor pan past the later doors into the calendar room, in place of a push through one door.
+
+Gate 3 file: `D:\work\AIMVs\ours\video\gate3\knowledge-cutoff-rough-v2.mp4` (1080p, 60 fps, 3:12.6; 483/483 words pass, 0 black frames, bt709 tags).
+
 ## 6. Next
 
-jep, no Idi needed: build-out of the missing moves (section 4.3), beat-slam punches, free fonts. After Gates 1-2: Idi's notes go in, then Gate 3 (full rough watch).
+Gate 3 is with Idi: watch 3:12, notes by timestamp. Then build-out rounds on his notes, the font licence check, final 1080p60 + 4K renders, Gate 4.

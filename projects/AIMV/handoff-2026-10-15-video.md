@@ -51,4 +51,6 @@ Start a new session by reading, in order: this file, [[knowledge-cutoff-video-pl
 ## 5. Progress log
 
 - 2026-10-15 evening, session 1: steps 1-4 built in `D:\work\aimv-lab\kc-video\` (`world.html`, `render.js`, `check_sync.js`, `sync\`). Gates 1 and 2 ready in `D:\work\AIMVs\ours\video\`. GPU path failed (black frames); software path is the pipeline. Report: [[knowledge-cutoff-video-build-2026-10-15]]. Next session starts from that report's section 6.
-- 2026-10-15: Gate 1 passed (Idi: "Clicks land on the words, I think."). `kc-timing-v2.json` is the timing of record; recheck by eye at Gate 3. Gate 2 open.
+- 2026-10-15: Gate 1 passed (Idi: "Clicks land on the words, I think."). `kc-timing-v2.json` is the timing of record; recheck by eye at Gate 3.
+- 2026-10-15: Gate 2 passed (Idi: "Keep all 9."). The look is locked: palette ink/paper/gold/red, the 6 rooms as rendered. Fonts stay as approved unless a licence check forces a swap (then show him a side-by-side first).
+- 2026-10-15: build-out done (punches, globe push, flap past June, hum line, family-news hit, "Thank you" turn, rewind loop). Gate 3 ready: `D:\work\AIMVs\ours\video\gate3\knowledge-cutoff-rough-v2.mp4`. Rebuild with `bash D:/work/aimv-lab/kc-video/tests/gate3.sh`.
