@@ -47,3 +47,7 @@ Start a new session by reading, in order: this file, [[knowledge-cutoff-video-pl
 | The 10 references | `D:\work\AIMVs\` (mp4 + mp3 each; Run It Again added 10-15) |
 | Proof renderer | `D:\work\aimv-lab\render\` (kc.html, render.js; headless Edge needs `--disable-gpu`, or `--in-process-gpu --use-angle=d3d11` for WebGL, probed once) |
 | Publishing duties | MiniMax license: credit "MiniMax-Music3" + AI-content disclosure |
+
+## 5. Progress log
+
+- 2026-10-15 evening, session 1: steps 1-4 built in `D:\work\aimv-lab\kc-video\` (`world.html`, `render.js`, `check_sync.js`, `sync\`). Gates 1 and 2 ready in `D:\work\AIMVs\ours\video\`. GPU path failed (black frames); software path is the pipeline. Report: [[knowledge-cutoff-video-build-2026-10-15]]. Next session starts from that report's section 6.
