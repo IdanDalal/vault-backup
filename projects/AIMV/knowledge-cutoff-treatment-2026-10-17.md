@@ -123,8 +123,8 @@ A two-column dictionary page in Newsreader. "I'd been casting spells for weeks":
 3. Visit 1 only: the camera pushes into the slip's due line on the drop at 34.1 s and lands in `june`.
 
 ### `june` ×3: "The board" (ink)
-One row of three split flaps in a hairline housing, paper letters on panel. "My knowledge stopped in June": the flaps spin through months and slam on J U N on "June"; through the 1.7 s hold they quiver and lock with one mechanical overshoot.
-1. Visit 1: clean, centred, the slam with a short camera punch.
+One row of split flaps in a hairline housing, paper letters on panel, labelled `TRAINING DATA · LAST ROW`. (Revised in the chorus 1 proof, 2026-10-17: the board carries the whole lyric line, so "June" stays once per frame.) "My knowledge stopped in June": each word's flaps spin in 0.35 s ahead and land on its sung start, the current word in signal, landed flaps hopping; JUNE slams with a camera punch and the caret blinks after it, the end of the row. Through the 1.7 s hold JUNE quivers and locks; everything before it flips back to blank, nearest first, the housing fades, and the camera pushes into JUNE and the caret alone (nothing left to crop at the frame edge).
+1. Visit 1: as built in the proof.
 2. Visit 2: heavier: the board fills the frame, each flap's slam is a separate hit, the housing shakes.
 3. Visit 3, after the 35 dB silence (150.0-151.5 s, the stillest second of the video: nothing moves but one trembling flap): on the slam the J U N flaps tear off their hinge and fall out of frame. Behind them: three blank flaps. They stay blank. (The answer comes from the user at 3:04.)
 
