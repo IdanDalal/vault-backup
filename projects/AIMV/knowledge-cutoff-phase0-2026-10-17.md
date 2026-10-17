@@ -7,7 +7,7 @@ status: active
 
 # Knowledge Cutoff: phase 0 of the full video (2026-10-17)
 
-Verdict: **phase 0 is done: the detail kit, the reference library, the full 32-entry timeline (the whole song renders end to end, placeholders for the 13 unbuilt modules), 4K checks and crop sheets, the bible's "Detail at 4K" section, and the engine under git. Wave A (the four chorus agents) is briefed and ready; it is not launched.** Follows [[handoff-2026-10-17-full-video]], [[knowledge-cutoff-treatment-2026-10-17]] (section 12 is new).
+Verdict: **phase 0 is done: the detail kit, the reference library, the full 32-entry timeline (the whole song renders end to end, placeholders for the 13 unbuilt modules), 4K checks and crop sheets, the bible's "Detail at 4K" section, and the engine under git. Wave A is running: `chorus-board`, `chorus-tune`, `chorus-hook` (3 at once, the handoff's cap); `chorus-card` follows when the first returns.** Follows [[handoff-2026-10-17-full-video]], [[knowledge-cutoff-treatment-2026-10-17]] (section 12 is new).
 
 ## 1. What changed
 
@@ -55,6 +55,6 @@ Overview `refs\contact-sheet.jpg` (4 crops per video), per-video `sheet-frames.j
 
 ## 5. Not done, open
 
-1. **Wave A not launched**: phase 1 is the next step; the briefs are ready.
+1. **Wave A in progress** (launched 2026-10-17 from `reports\wave-a-briefs.md`); its reports land in `kc-engine\reports\`.
 2. **Proof defects for wave A**: `june` visits 2-3 show garbage flaps ("RF" at 86.7 s, "ZOYB" at 152.4 s); a red hairline on the card at 111.4 s; `june` and `cutoff` draw type outside the box registry, so their type scale is unmeasured until rebuilt.
 3. **The 1.5 s tail**: `kc.mp3` is 192.63 s; the engine's duration is the audio's. The final render needs `--to 194.1` and the mux must pad 1.5 s of silence (phase 2).
