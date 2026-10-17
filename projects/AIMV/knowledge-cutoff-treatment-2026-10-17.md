@@ -214,3 +214,22 @@ Every number above gets re-checked at publish. Anything not in this table does n
 3. Shader rules: no `fwidth` / `dFdx` / `dFdy` inside loops that can `break`; integer hashes (no `sin` hashes); `preserveDrawingBuffer: true` or read in the same call; hidden lines removed in all line art (no see-through bodies).
 4. Checks per render: per-word sync (483/483), nothing over the lyric zone, nothing crossing the frame edge, reading time (non-lyric text on screen for at least 0.25 s per word + 0.5 s, or it is decoration of 3 words or fewer), the loop (first and last frame the same picture), the spoiler grep (no "Oct" before 184.5 s, no name before 175.7 s), the measures in section 10.
 5. Build order: plate by plate, each checked on contact sheets; Idi watches proofs. First proof: chorus 1 (34.5-62.1 s), which builds five of the recurring modules (`june`, `tune`, `cutoff`, `spinning`, `turnedout` visit 1) used again in choruses 2 and 3.
+
+## 12. Detail at 4K (added 2026-10-17, phase 0 of the full video)
+
+Output: 3840x2160, 60 fps, equal to "I'm Upping My P(Doom)" (3840x2160, 60 fps, AV1, about 21 Mb/s). The question for every frame: what is the most detail a frame SHOULD hold at 1:1 on a 4K screen, while it still reads as one idea on a phone at 1080p. Evidence: `kc-engine\out\detail-1to1.jpg` (P(Doom) crops beside the chorus 1 proof at 1:1): every P(Doom) crop carries layered detail; the proof is vector-flat.
+
+| # | standard | how (the kit: `src\scenes\_kc.ts`, `_kc-glsl.ts`; worked example `kitdemo.ts`) |
+|---|---|---|
+| 1 | few objects, rich objects: 4-7 objects, one idea per frame; detail lives inside objects | no new objects to add detail |
+| 2 | every surface has a material: paper fibre, print gain, ink density, registration; dark plates carry a fine scan texture | `PaperPlate` (paper + the 2D layer printed: gain, rough edge, mottle, signal as an offset transparent plate) and `InkPlate` (scan columns, phosphor rows on type) replace `paperBG()`/`inkBG()` + `comp.draw` |
+| 3 | hatching follows form (surface coordinates), never one screen diagonal over everything | GLSL `kcFormHatch(st, dark, freq, dst)`, `kcContourHatch`, `kcSphereST`, `kcHatch` (gated at darkness 0); 2D `hatchForm2D` (curve families), `hatchFlat2D` (flat cast shadows only) |
+| 4 | a line hierarchy: at least three weights; nodes, ticks, end caps; crop and registration marks on documents | `LW.hair/rule/stroke/heavy`, `rule(... caps, every)`, `node`, `tick`, `cropMarks`, `regMark` |
+| 5 | a micro-type layer: mono annotations readable at 1:1 in 4K, noise at 1080p; each a true fact with a receipt (section 9) or plainly the model's voice; never competes with the lyric | `annot(text, x, y, { to })` at `MICRO` = 10 px logical, leader + node; registered as `micro` (kept off the lyric zone) |
+| 6 | depth and light: foreground/background separation, rim light on 3D, glow cores with halos on signal only, halation, grain | `Defocus.draw(tex, { radius, fog })`, `kcRim`, `kcHalo`; glow = signal pushed above 1.0 on the additive glow layer |
+| 7 | type scale at least 10x per set-up (largest to smallest drawn size) | every drawn text registers its size: `text()`, `label()`, `annot()`, `karaoke()`; text drawn any other way is invisible to the check |
+| 8 | motion detail: secondary motion on every hit, engine motion blur only | `settle`, `overshoot`, `flutter`, `hop`; never stacked copies |
+
+Done-state per set-up: its row in a `scripts\detail.ts` sheet (full frame; busiest 960x540 window at 1:1; flattest window at 1:1; reference crop) judged "equal or better" than the reference crop on items 2-6 by a critic, and `scripts\check.ts --scale 2` green for its window: sync, edge, title-safe, overlap (objects and micro-type), type scale.
+
+Kit receipts (2026-10-17): kit demo stills at 1x and 4K, `kc-engine\out\kit\`; at 1:1 the paper shows fibre and print texture, highlighted ink prints clean, micro-type is crisp, the engraved sphere follows its parallels. Chorus 1 proof under the new check: 61/61 words on time, 0 edge/overlap issues, type scale 3.5-5.0x per set-up (target 10x: open for wave A).
