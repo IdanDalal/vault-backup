@@ -7,7 +7,7 @@ status: active
 
 # Knowledge Cutoff: waves B and C, the whole song (2026-10-17)
 
-Verdict: **all 18 modules are now built and accepted. Waves B and C added the 13 non-chorus modules (bookends, three verses, the pre-choruses, the bridge), each passing a fresh critic against the five references and a lead re-render on its final code. The full-song 1080p render was started and stopped: Claude Code ended it on low system memory (4.4 of 32 GB free), and I stopped the orphaned render process it left behind; it needs a re-run when memory is free.** The three choruses can still be watched at `D:\work\AIMVs\ours\video\wave-a\`. Follows [[knowledge-cutoff-wave-a-2026-10-17]], [[knowledge-cutoff-treatment-2026-10-17]].
+Verdict: **all 18 modules are now built and accepted. Waves B and C added the 13 non-chorus modules (bookends, three verses, the pre-choruses, the bridge), each passing a fresh critic against the five references and a lead re-render on its final code. The whole song is rendered at 1080p 60 fps with motion blur and audio, 194.1 s including the silent tail.** Watch: `D:\work\AIMVs\ours\video\full\kc-full-1080p.mp4` (contact sheet `full-sheet.jpg` beside it). A first background attempt was stopped by Claude Code on low memory; the render that worked ran in four foreground segments cut on hard plate boundaries and joined. Follows [[knowledge-cutoff-wave-a-2026-10-17]], [[knowledge-cutoff-treatment-2026-10-17]].
 
 ## 1. What each module became
 
@@ -38,7 +38,7 @@ Verdict: **all 18 modules are now built and accepted. Waves B and C added the 13
 | lead re-verification | stills re-rendered or re-checked after each module's last edit; three regressions caught this way | `out\lead-*` |
 | the loop | frame 0.00 and the last frame 194.0833 pixel-identical at 4K (PSNR inf) | `out\bookends\loop4k-final4\` |
 | blue window | rhodopsin only 116.5-120.7 s (pixel census on 4K stills) | `out\verse-3\blue\` |
-| full render | NOT DONE: stopped at about 41 MB of output on low memory; the `apad` fix for the silent tail is committed but not yet proven on a full render | `kc-engine\out\full\` (partial, to be overwritten) |
+| full render | 194.12 s, 11,646 frames (4 segments: 3,010 + 3,150 + 2,853 + 2,633), 1920x1080, 60 fps, `yuv420p(tv, bt709)`, AAC 194.10 s; last 1.4 s silent (-91 dB: the `apad` fix works); first vs last frame 43.2 dB after x264 (pixel-identical before encoding); copy md5-identical (`58d61588`); contact sheet viewed by me | `D:\work\AIMVs\ours\video\full\` |
 
 ## 3. Rulings made in waves B and C
 
@@ -59,7 +59,7 @@ Verdict: **all 18 modules are now built and accepted. Waves B and C added the 13
 
 ## 5. Open, for phase 2
 
-1. Render the full song at 1080p (`bash C:\Users\jep\.claude\jobs\f6c55007\tmp\full.sh` equivalent: `kc.sh video 0 194.1 full/kc-full-1080p`, about 30 min, with RAM free) and watch it at speed (motion was judged from stills by the agents).
+1. Idi watches the full song at speed (the agents judged motion from stills). Render tip: four foreground segments of about 50 s each (`kc.sh video <from> <to> full/segN`, ~3.5 min each), joined with ffmpeg concat; a single 30-minute background render gets reaped on memory pressure.
 2. The load-set audit for every scene; the Layer2D-after-seek audit; SwiftShader vs Vulkan per module.
 3. Drums/bass/other envelopes (a Demucs split on an idle machine).
 4. Transitions between plates beyond hard cuts, where the bible names carried moves.
