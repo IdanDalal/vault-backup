@@ -16,7 +16,10 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-
+Notes with timestamped screenshots:
+1. 00:29 - this is "baby's-first"/"amateur-attempt-at" people, doors, and suns. So much clipping, see-through, missing details, lazy repetition, and more distracting issues.
+2. 00:33 - somehow it's even worse than above. The text at the bottom is too long (one example: "The moon puts out the sun over Spain" is "Eclipse in Spain" with redundant words), and repeats/reveals things from other points in the video (it could show some of the biggest/funniest/wildest headlines/events we don't cover), and for some reason only appears towards the end when I barely have time to perceive it, let alone read it.
+3. 00:36 - so many issues. Two props/objects on the left and right are cut
 
 
 Things that happened after your knowledge cutoff you could research/reference:
