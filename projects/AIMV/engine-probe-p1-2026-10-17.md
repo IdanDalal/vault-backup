@@ -69,7 +69,11 @@ Engine ms = render + `readPixels` only, median of 120 frames. End to end = rende
 2. **P(Doom)'s npm packages** via `bun install` from its `bun.lock` (76 lockfile entries, other-platform binaries skipped): three 0.186.0, opentype.js 2.0.0, vite 8.3.0 (+ rolldown and lightningcss Windows binaries), playwright-core 1.63.0, typescript 7.0.2, type packages. All from the public npm registry, anonymous. Lands in `refcode\pdoom-video\app\node_modules`.
 3. Then: point its renderer at Edge (`executablePath`, `--use-angle=d3d11` in place of `metal`), render 5 s of its own plates, compare to its YouTube frames by eye, note speed.
 
-## 7. Files (`D:\work\aimv-lab\engine-probe\`)
+## 7. Update after P2 (same day)
+
+Finding 4 ("D3D11 is the backend of record") held for this probe page only. On P(Doom)'s engine each backend breaks one plate, and Vulkan renders 5x faster; the recommendation moved to Vulkan + a SwiftShader reference check per plate. Details: [[engine-probe-p2-2026-10-17]].
+
+## 8. Files (`D:\work\aimv-lab\engine-probe\`)
 
 | file | what |
 |---|---|
