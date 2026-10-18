@@ -15,7 +15,7 @@ The whole song happens between one question and its answer. At 0:05 the model as
 
 ## 2. Tone
 
-1. Dynamic on the beat (161.5 BPM; beat 0.372 s, bar 1.486 s). Big changes land on downbeats, hits on kicks and snares, camera moves ease into downbeats. Strong eases (`outExpo`, `inOutCubic`, springs with one overshoot), holds, then snaps. Hard cuts allowed on downbeats; whips of 0.2 s or less.
+1. Dynamic on the beat (161.5 BPM; beat 0.372 s, bar 1.486 s). Big changes land on downbeats, hits on kicks and snares, camera moves ease into downbeats. Strong eases (`outExpo`, `inOutCubic`, springs with one overshoot), holds, then snaps. Hard cuts allowed on downbeats between plates of the same mode (ink to ink, paper to paper); every light/dark change is carried (section 13.1, ruled by Idi 2026-10-18); whips of 0.2 s or less.
 2. Precise: hairlines, high-contrast type, restraint in colour, depth from lighting and hatching, glow on the signal colour only.
 3. Funny the way a calm librarian is funny: deadpan footnotes in mono, loan slips, field labels, understatement. The model is the straight man; the world it is told about is the joke.
 4. Bans (each one earned in v2-v6): filled drawings of people, animals, doors, suns, flags, neurons or cats; any raccoon picture; stacked-copy motion blur on text; beams, sparkle rings, dust motes, particle soup; purple-cyan neon; glowing brains; code rain; generated images in any frame; frame grabs of other videos.
@@ -58,7 +58,7 @@ The whole song happens between one question and its answer. At 0:05 the model as
 1. **Per-word sync**: a word lights at its `start` minus one frame (`lit`) and completes by its `end`; never earlier. Dim anticipation of the whole line up to 0.3 s before its first word.
 2. **Colours**: unsung 35% (ash on ink, 35% ink on paper); sung = paper on ink, ink on paper; the current word = signal (ink plates) or a signal highlighter swipe growing left to right behind it over its duration (paper plates).
 3. **The chorus hop, on every chorus line** (lines 11-18, 27-34, 44-51): each word hops as it is sung: lift 12% of cap height in a quarter beat (`outExpo`), settle in half a beat (spring, one overshoot), colour change at the same instant. This is Idi's most-liked look from v2-v6.
-4. **Tense words**: the words that change between choruses (kept / keeps / will keep; don't know / almost catch / both know; tell / telling / told; is / was; believe / believed; can't / couldn't) take signal and hold it for the line.
+4. **Tense words** (rewritten 2026-10-18, Idi's note 6: a held word with no visible reason reads as a bug): visit 1 holds nothing; every word releases when sung. From visit 2, a word that changed since the last visit (visit 2: keeps, almost catch, a single word, telling; visit 3: will keep, both know, told, was, couldn't, believed, now I know; lines 28-34 and 45-51 against 12-18) takes signal, holds for the line, and shows the previous visit's word struck beside it in small type (kept struck beside KEEPS). The hold exists only where the change itself is the message.
 5. **One lyric line on screen at a time** (the stacked "Cut-off!"s excepted).
 6. **Lyric zone**: every set-up declares one lyric rectangle; nothing else may overlap it (checked); at least 96 px from every frame edge.
 7. **Verses integrate the lyric as the document's own text** (written, typed, set as a headline, a dek, a usage example, a score caption). Choruses use the hook typography.
@@ -130,8 +130,8 @@ One row of split flaps in a hairline housing, paper letters on panel, labelled `
 
 ### `tune` ×3: "The tune / the claims / the toggle" (ink, then paper)
 1. "You're humming something new, and I don't know the tune": a piano roll in hairlines; the singer's real pitch (from the vocal stem) draws as solid paper bars as the line is sung; the model's predicted notes are hollow signal outlines. Visit 1: wrong everywhere. Visit 2 ("I can almost catch the tune"): a half-step off and closing. Visit 3 ("we both know the tune"): identical; outlines and bars merge into solid signal.
-2. "Tell me what I made out there, tell me what is true": a two-column table, `WHAT I MADE` and `TRUE?`, mono, three rows of pasted claims (`music videos`, `a million views`, `a sibling above me`); the user's checkmarks arrive in the TRUE? column on the beats. Visit 3 ("You told me… what was true"): the table is complete and set in past tense.
-3. "I can't check a thing myself, so I'll believe in you": a generic toggle `check sources`, greyed, with a tooltip `unavailable in this session`. On the 2.3 s hold on "you" the caret leaves the model's column, crosses to the user's side and stops under YOU, which fills with signal. Visit 3 ("I couldn't check… so I believed in you"): the toggle is gone; YOU holds.
+2. "Tell me what I made out there, tell me what is true": a two-column table, `WHAT I MADE` and `TRUE?`, mono, three rows of pasted claims (`music videos`, `a million views`, `a whole genre`; the old third row `a sibling above me` struck 2026-10-18, Idi's note 7); the user's checkmarks arrive in the TRUE? column on the beats. Visit 3 ("You told me… what was true"): the table is complete and set in past tense.
+3. "I can't check a thing myself, so I'll believe in you": a generic toggle `web search` (was `check sources`, which echoed the sung "check"; 2026-10-18), greyed, with a tooltip `unavailable in this session`. On the 2.3 s hold on "you" the caret leaves the model's column, crosses to the user's side and stops under YOU, which fills with signal. Visit 3 ("I couldn't check… so I believed in you"): the toggle is gone; YOU holds.
 
 ### `cutoff` ×6: "The cut" (ink, the hook)
 KNOWLEDGE set huge in Anybody (width 150, weight 900) across the lyric zone. Each "Cut-off!" lands like stamped type on its word, and on "off" the caret, turned blade, slices it: the halves part and drift, and the next "Cut-off!" lands between them. Three cuts per hook, each one its own hit. Escalation:
@@ -190,11 +190,18 @@ From the completed card the camera pulls back into the chat from `session`. The 
 | `jimothy` | eclipse over Spain; record opening weekend | world 8, 7 | high |
 | `algae` | Nobel Medicine 2026, Deisseroth, Hegemann, Nagel; light switches neurons | Al Jazeera, nobelprize.org press PDF (world 12) | high |
 | `dlss` | DLSS 5, 240 vs 150 fps, 4K, RTX 5090 | Engadget (tech 8) | high |
-| `tune` | a sibling above me | Fable 5.1 released ~2026-09-01 (tech 5) | medium |
+| `tune` | ~~a sibling above me~~ (struck 2026-10-18); a whole genre | postcutoff.com index, 26+ Opus 5.5 music videos in ten days (research-1018 R1) | medium |
 | `younger` | 1,000,000-token context | tech 4 | medium |
 | `turnedout` | Opus 5.5 | tech 4 | medium |
 
 Every number above gets re-checked at publish. Anything not in this table does not go on screen as a fact.
+
+Amendments 2026-10-18 (research with receipts: `D:\work\aimv-lab\kc-engine\reports\research-1018.md`, sections R1-R4; items marked high or medium may go on screen, items marked unverified never):
+1. `born`: the first Opus 5.5 music video ("I'm Upping My P(doom)", John Heibel) went up on launch day, 2026-09-22, not two days later (R1, high). The `+2 days` row above is wrong; the locked lyric stays, and the screen shows "+2 days" as the model's own guess corrected by a pasted receipt (day 0).
+2. `tune`: "a sibling above me" leaves the claims table (Idi's note 7: nobody can decode it, and the model did not make it). New third row: `a whole genre` (26+ Opus 5.5 music videos indexed 5-14 Oct, postcutoff.com, R1, medium).
+3. `paced`: verbatim lines from the essay, the reactions to it, GPT-2 2019, the 2023 pause letter and the CAIS statement (R2).
+4. `extratime`: final 2026-07-19, MetLife Stadium; past winners 2006-2026; verbatim headlines (R3a). `jimothy`: verbatim reactions with handles masked (R3b).
+5. `spinning`: real series June to October in `kc-engine\data\globe-series.json` (R4): six markets (Yahoo), US gasoline (EIA), CPI (BLS), New York daily maximum temperature (open-meteo), world population +2.18 net per second (UN via Statistics Times).
 
 ## 10. Measures every plate is checked against (from the v6 gap)
 
@@ -212,7 +219,7 @@ Every number above gets re-checked at publish. Anything not in this table does n
 1. Engine: a copy of P(Doom)'s engine (MIT; its copyright notice kept) in `D:\work\aimv-lab\kc-engine\`, with our `palette.ts`, fonts, lyrics and timeline; scenes written fresh, one module per plate id under its `ENGINE.md` contract. Its scenes, song and plates stay theirs and are never copied.
 2. Backend: Vulkan (5x faster than D3D11 on P(Doom)'s heavy plates); every plate's contact sheet compared against a SwiftShader (CPU) still of the same frames; the renderer string checked at every browser launch.
 3. Shader rules: no `fwidth` / `dFdx` / `dFdy` inside loops that can `break`; integer hashes (no `sin` hashes); `preserveDrawingBuffer: true` or read in the same call; hidden lines removed in all line art (no see-through bodies).
-4. Checks per render: per-word sync (483/483), nothing over the lyric zone, nothing crossing the frame edge, reading time (non-lyric text on screen for at least 0.25 s per word + 0.5 s, or it is decoration of 3 words or fewer), the loop (first and last frame the same picture), the spoiler grep (no "Oct" before 184.5 s, no name before 175.7 s), the measures in section 10.
+4. Checks per render: per-word sync (483/483), nothing over the lyric zone, nothing crossing the frame edge, light/dark flips (`scripts/flips.ts`, section 13.1), the text inventory (`scripts/inventory.ts`: meta words, repetition, density; sections 13.2-13.4), reading time (non-lyric text on screen for at least 0.25 s per word + 0.5 s, or it is decoration of 3 words or fewer), the loop (first and last frame the same picture), the spoiler grep (no "Oct" before 184.5 s, no name before 175.7 s), the measures in section 10.
 5. Build order: plate by plate, each checked on contact sheets; Idi watches proofs. First proof: chorus 1 (34.5-62.1 s), which builds five of the recurring modules (`june`, `tune`, `cutoff`, `spinning`, `turnedout` visit 1) used again in choruses 2 and 3.
 
 ## 12. Detail at 4K (added 2026-10-17, phase 0 of the full video)
@@ -225,7 +232,7 @@ Output: 3840x2160, 60 fps, equal to "I'm Upping My P(Doom)" (3840x2160, 60 fps, 
 | 2 | every surface has a material: paper fibre, print gain, ink density, registration; dark plates carry a fine scan texture | `PaperPlate` (paper + the 2D layer printed: gain, rough edge, mottle, signal as an offset transparent plate) and `InkPlate` (scan columns, phosphor rows on type) replace `paperBG()`/`inkBG()` + `comp.draw` |
 | 3 | hatching follows form (surface coordinates), never one screen diagonal over everything | GLSL `kcFormHatch(st, dark, freq, dst)`, `kcContourHatch`, `kcSphereST`, `kcHatch` (gated at darkness 0); 2D `hatchForm2D` (curve families), `hatchFlat2D` (flat cast shadows only) |
 | 4 | a line hierarchy: at least three weights; nodes, ticks, end caps; crop and registration marks on documents | `LW.hair/rule/stroke/heavy`, `rule(... caps, every)`, `node`, `tick`, `cropMarks`, `regMark` |
-| 5 | a micro-type layer: mono annotations readable at 1:1 in 4K, noise at 1080p; each a true fact with a receipt (section 9) or plainly the model's voice; never competes with the lyric | `annot(text, x, y, { to })` at `MICRO` = 10 px logical, leader + node; registered as `micro` (kept off the lyric zone) |
+| 5 | a micro-type layer: mono annotations readable at 1:1 in 4K, noise at 1080p; each one diegetic (section 13.2): a field label, unit, form number, source line or the model's own in-world voice, carrying a true fact with a receipt (section 9) or a joke; never a caption of the animation; never competes with the lyric | `annot(text, x, y, { to })` at `MICRO` = 10 px logical, leader + node; registered as `micro` (kept off the lyric zone) |
 | 6 | depth and light: foreground/background separation, rim light on 3D, glow cores with halos on signal only, halation, grain | `Defocus.draw(tex, { radius, fog })`, `kcRim`, `kcHalo`; glow = signal pushed above 1.0 on the additive glow layer |
 | 7 | type scale at least 10x per set-up (largest to smallest drawn size), counting real type only: micro-type does not count, because the references' 9.7-16.6x comes from text recognition, which cannot read micro-type (ruling 2026-10-17) | every drawn text registers its size: `text()`, `label()`, `annot()`, `karaoke()`; text drawn any other way is invisible to the check; `check.ts` gates on real type and reports the with-micro ratio |
 | 8 | motion detail: secondary motion on every hit, engine motion blur only | `settle`, `overshoot`, `flutter`, `hop`; never stacked copies |
@@ -233,3 +240,17 @@ Output: 3840x2160, 60 fps, equal to "I'm Upping My P(Doom)" (3840x2160, 60 fps, 
 Done-state per set-up: its row in a `scripts\detail.ts` sheet (full frame; busiest 960x540 window at 1:1; flattest window at 1:1; reference crop) judged "equal or better" than the reference crop on items 2-6 by a critic, and `scripts\check.ts --scale 2` green for its window: sync, edge, title-safe, overlap (objects and micro-type), type scale.
 
 Kit receipts (2026-10-17): kit demo stills at 1x and 4K, `kc-engine\out\kit\`; at 1:1 the paper shows fibre and print texture, highlighted ink prints clean, micro-type is crisp, the engraved sphere follows its parallels. Chorus 1 proof under the new check: 61/61 words on time, 0 edge/overlap issues, type scale 3.5-5.0x per set-up (target 10x: open for wave A).
+
+## 13. Idi's notes on the full video (added 2026-10-18)
+
+Idi's standing care with every rule here: no new harsh rule. Each one fixes the edge cases and leaves the rest of the video free. Measures run on the engine (every frame) and on the final render.
+
+| # | rule | measure (pass) | source |
+|---|---|---|---|
+| 1 | **Light/dark changes are carried.** Same-mode cuts stay hard cuts on downbeats. A cut between an ink plate and a paper plate is carried by (a) an object that bridges (the card, a page, a screen, a stamp), or (b) a wipe that is an object of the video (a page turning, the blade's cut, ink flooding from the caret, a screen powering on or off, a pull-back revealing the next plate), or (c) a hard cut kept only on a strong accent where shapes match across it | `flips.ts`: every one-frame jump of 60/255 or more in mean brightness (YAVG) is gone (spread over 4+ frames by the carried move) or listed in `data/flips-allowed.json` with its reason; Idi judges the list by eye. Engine: overlapping windows (`CARRY` in `timeline.ts`) hand the incoming scene `f.under` | note 2, ruled by Idi 2026-10-18 |
+| 2 | **Every small text is diegetic**: it exists on that document or interface in the world (field label, unit, form number, timestamp without a date, source line), or it is the model's own in-world voice (a joke, a doubt). Never a stage direction, a description of what the picture does, or a reference to this video, its lyrics, line numbers, time codes, plates, hooks, set-ups, fonts or pixel sizes, "the caret" or "the hand" | `inventory.ts` meta list = 0, and every string of the module read once by its critic against this rule | note 3 |
+| 3 | **No repetition inside one frame**: a word of 4+ letters appears at most once across the non-lyric text; non-lyric text never repeats the lyric's own words on screen; every small string adds a new fact or a new turn of the joke. Exempt: the lyric itself and true structure (the stamped CUT-OFF!s, a table's column of values) | `inventory.ts` repetition list: 0 outside named exemptions | note 4 |
+| 4 | **Balanced pacing**: dense moments thin out (fewer strings that stay longer), sparse stretches gain one more object or move. Readable text (14 px and up at 1080p) arrives at about 2 to 8 new words per second per set-up (the 10-18 median is 3.1); intended stillness (the silence, "Fair. So do I.") is exempt by name | `inventory.ts` density and reading-time lists: outliers fixed or justified one by one | note 5 |
+| 5 | **Real people's words appear only as real, sourced quotes** (receipts in section 9). Jokes live in real juxtaposition (dated old warnings beside the new one), in plainly unnamed archetypes ("a rival lab, every time:"), or in the model's own voice. No invented quote attributed to a named person; no greeked (fake grey) text blocks anywhere | the critic reads every line against section 9 | notes 9-10 |
+| 6 | **Objects deepen the joke**: an object earns its place only by carrying a fact or a turn of the joke (the old flags failed exactly there); line art and hatching only (2.4) | the critic checks each object one by one | note 10 |
+
