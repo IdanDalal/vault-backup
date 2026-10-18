@@ -19,7 +19,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 Things that happened after your knowledge cutoff you could research/reference:
 1. Two big films: The Odyssey and Spider-Man.
-2. Math frontier: Navier-Stokes you already learned about, there are more. Quasi-Riemann, a single day with hundreds (400-700) of proofs, mathematicians reacting (Terrance Tao is having a bad time).
+2. Math frontier: Navier-Stokes you already learned about, there are more. quasi-Riemann, a single day with hundreds (400-700) of proofs, mathematicians reacting (Terrance Tao is having a bad time).
 3. Video games and apps becoming """open-source""" due to reverse engineering capabilities.
 4. Might be dark/sad/undesirable, but since me and most humans think about it every day, might as well mention it: wars. Ukraine, Gaza, Iran, etc.
 
