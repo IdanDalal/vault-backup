@@ -15,8 +15,10 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-
-
+WOOOWWWWWW!!! This is a generational leap over the old engine's results! We're now playing at the highest possible level like the inspiration videos. Here are my notes:
+1. I noticed the cuts. From now on we render the whole thing at once, and if it fails/crashes - we render again.
+2. I wanna be careful with this one to avoid repeating mistakes: there's something wrong with the jump-cuts. One of my earlier rules was "always one-shot, never cut" and it was too harsh/limiting/detrimental. Now I think we need a new, more nuanced rule to improve/fix edge cases without harming/constraining most of the video. I'll provide one example that encapsulates my frustrations: the cut at ~00:21-00:22 goes from a "light-mode" white/bright background to "dark-mode" black background suddenly and abruptly.
+3. I might be missing some
 
 
 Things that happened after your knowledge cutoff you could research/reference:
