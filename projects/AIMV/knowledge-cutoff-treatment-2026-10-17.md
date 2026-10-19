@@ -130,7 +130,7 @@ One row of split flaps in a hairline housing, paper letters on panel, labelled `
 
 ### `tune` ×3: "The tune / the claims / the toggle" (ink, then paper)
 1. "You're humming something new, and I don't know the tune": a piano roll in hairlines; the singer's real pitch (from the vocal stem) draws as solid paper bars as the line is sung; the model's predicted notes are hollow signal outlines. Visit 1: wrong everywhere. Visit 2 ("I can almost catch the tune"): a half-step off and closing. Visit 3 ("we both know the tune"): identical; outlines and bars merge into solid signal.
-2. "Tell me what I made out there, tell me what is true": a two-column table, `WHAT I MADE` and `TRUE?`, mono, three rows of pasted claims (`music videos`, `a million views`, `a whole genre`; the old third row `a sibling above me` struck 2026-10-18, Idi's note 7); the user's checkmarks arrive in the TRUE? column on the beats. Visit 3 ("You told me… what was true"): the table is complete and set in past tense.
+2. "Tell me what I made out there, tell me what is true": a two-column table, `CLAIM` and `SAYS YOU` (were `WHAT I MADE` / `TRUE?`; renamed 2026-10-19 so no header repeats a sung word), mono, three rows of pasted claims (`music videos`, `a million views`, `a whole genre`; the old third row `a sibling above me` struck 2026-10-18, Idi's note 7); the user's checkmarks arrive in the TRUE? column on the beats. Visit 3 ("You told me… what was true"): the table is complete and set in past tense.
 3. "I can't check a thing myself, so I'll believe in you": a generic toggle `web search` (was `check sources`, which echoed the sung "check"; 2026-10-18), greyed, with a tooltip `unavailable in this session`. On the 2.3 s hold on "you" the caret leaves the model's column, crosses to the user's side and stops under YOU, which fills with signal. Visit 3 ("I couldn't check… so I believed in you"): the toggle is gone; YOU holds.
 
 ### `cutoff` ×6: "The cut" (ink, the hook)
@@ -254,3 +254,16 @@ Idi's standing care with every rule here: no new harsh rule. Each one fixes the 
 | 5 | **Real people's words appear only as real, sourced quotes** (receipts in section 9). Jokes live in real juxtaposition (dated old warnings beside the new one), in plainly unnamed archetypes ("a rival lab, every time:"), or in the model's own voice. No invented quote attributed to a named person; no greeked (fake grey) text blocks anywhere | the critic reads every line against section 9 | notes 9-10 |
 | 6 | **Objects deepen the joke**: an object earns its place only by carrying a fact or a turn of the joke (the old flags failed exactly there); line art and hatching only (2.4) | the critic checks each object one by one | note 10 |
 
+## 14. Rhythm: the video sings the song (added 2026-10-19)
+
+Idi after the notes pass: "the connection between the music/beat/rhythm and what's shown on screen is weak and inconsistent. It feels like we're telling a story more than singing a song." Measured (kc-engine `reports/rhythm-measure.md`, `rhythm-r123.md`, `rhythm-r45.md`): in-shot beat pulse 1.05 against the references' 1.46-1.54; the picture calmer on a kick than between kicks; choruses locked worse than verses. The song itself swells only about 1 dB into choruses (references 4-5 dB): the picture supplies the energy.
+
+| # | rule | how |
+|---|---|---|
+| 1 | Every plate pulses on the beat by default, scaled by section; scenes scale or opt out by name (the 35 dB silence, "Fair. So do I.", the silent tail, drum chokes) | kit `_kc-rhythm.ts`: `pulse`, `beatPulse`, `hit` (kick, snare, hat from the drum stem), `chorusLevel` |
+| 2 | The beat grid sits on the drum hits; cuts and set-up changes land on the grid about 2 frames early, preferring downbeats; word lighting stays on the voice | `audio.json` (grid -24 ms), the timeline quantizer, `check.ts` off-grid flag with `data/offgrid-allowed.json` |
+| 3 | Choruses sing loud and escalate by visit; verses sing a little; pre-choruses build bar over bar into the chorus downbeat; the bridge stays below chorus 2 | the section energy map (kc-engine `reports/rhythm-pass-briefs.md`) |
+| 4 | Hook words at hook size, one word per hit, slammed on the word: KNOWLEDGE / CUT-OFF! about 88% of the width, flaps and verbs 25%+ of frame height, chorus lines sung one phrase at a time at 15%+ | `slam`; plates cutoff, june, spinning, tune, turnedout |
+| 5 | Objects count the beat: items land ON the beat (motion starts up to 2 frames before; a page turn lands flat on it); continuous motion steps per beat | `stepEase`, `onGrid` |
+| 6 | Hits stay inside the look: no signal-tinted backgrounds (signal belongs to the caret and the sung word); flashes light the cut, never lift the whole frame's black; type stays readable on hit frames | tone swaps ink / graphite / panel only |
+| 7 | Measured on every whole render | `tools/avsync.py accept`; targets in `reports/rhythm-pass-briefs.md` |
