@@ -7,7 +7,7 @@ pct: 7
 earmark_pct: 2
 earmark_for: "Anthropic"
 status: active
-shares: 11
+shares: 9
 last_price: 262.45
 conviction: "AWS + Anthropic's largest backer; converts at ~Oct 2026 IPO"
 cut_reason: ""
@@ -31,3 +31,4 @@ AWS growth reacceleration, Trainium adoption, Anthropic IPO date.
 ## Log
 
 - **2026-07-24** — Enters the portfolio at 9% (allocation locked, see [[allocation]]).
+- **2026-10-20** - Sold 2 @ $263.55 for the ₪9,000 withdrawal (Mom ₪8,000, Idi ₪1,000); 9 left.

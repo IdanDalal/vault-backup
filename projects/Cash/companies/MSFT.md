@@ -7,7 +7,7 @@ pct: 8
 earmark_pct: 3
 earmark_for: "OpenAI"
 status: active
-shares: 7
+shares: 5
 last_price: 533.52
 conviction: "Cloud + OpenAI stake; placeholder converts at OpenAI IPO (possibly 2027)"
 cut_reason: ""
@@ -31,3 +31,4 @@ Azure growth rate, Copilot seat counts, OpenAI IPO timeline (confidential S-1 fi
 ## Log
 
 - **2026-07-24** — Enters the portfolio at 11% (allocation locked, see [[allocation]]).
+- **2026-10-20** - Sold 2 @ $530.95 for the ₪9,000 withdrawal (Mom ₪8,000, Idi ₪1,000); 5 left.

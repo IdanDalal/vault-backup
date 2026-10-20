@@ -7,7 +7,7 @@ pct: 8
 earmark_pct: 2
 earmark_for: "Anthropic"
 status: active
-shares: 9
+shares: 8
 last_price: 344.18
 conviction: "Full-stack (TPUs \u2192 models); Anthropic stakeholder; converts at ~Oct 2026 IPO"
 cut_reason: ""
@@ -32,3 +32,4 @@ Gemini vs ChatGPT share, external TPU sales, antitrust remedies, Waymo expansion
 
 - **2026-07-24** — Enters the portfolio at 10% (allocation locked, see [[allocation]]).
 - **2026-08-21** — Position on record: 55 shares bought 2026-01-29 at $334.87 (pre-dates the allocation; this is the holding the transition sells down to 10%). Ledger entry: [[2026-01-29 buy GOOGL]].
+- **2026-10-20** - Sold 1 @ $343.54 for the ₪9,000 withdrawal (Mom ₪8,000, Idi ₪1,000); 8 left.

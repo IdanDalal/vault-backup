@@ -7,7 +7,7 @@ pct: 6
 earmark_pct: 0
 earmark_for: ""
 status: active
-shares: 3
+shares: 2
 last_price: 705.44
 conviction: "Open-weights lab + ad machine printing cash for compute"
 cut_reason: ""
@@ -31,3 +31,4 @@ Ad revenue growth, capex guidance, Llama competitiveness, smart-glasses traction
 ## Log
 
 - **2026-07-24** — Enters the portfolio at 6% (allocation locked, see [[allocation]]).
+- **2026-10-20** - Sold 1 @ $689.90 for the ₪9,000 withdrawal (Mom ₪8,000, Idi ₪1,000); 2 left.

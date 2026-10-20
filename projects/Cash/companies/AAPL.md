@@ -7,7 +7,7 @@ pct: 6
 earmark_pct: 0
 earmark_for: ""
 status: active
-shares: 6
+shares: 5
 last_price: 342.94
 conviction: "Weakest AI story in the core, strongest balance sheet + devices moat"
 cut_reason: ""
@@ -31,3 +31,4 @@ On-device AI progress, model-partnership terms (Google/OpenAI), iPhone cycle, se
 ## Log
 
 - **2026-07-24** — Enters the portfolio at 6% (allocation locked, see [[allocation]]).
+- **2026-10-20** - Sold 1 @ $342.21 for the ₪9,000 withdrawal (Mom ₪8,000, Idi ₪1,000); 5 left.
