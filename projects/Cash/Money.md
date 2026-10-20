@@ -1,5 +1,5 @@
 ---
-fx_rate_planning: 3.0965
+fx_rate_planning: 3.0973
 tags:
   - cash
 ---

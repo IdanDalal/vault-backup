@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 13
-last_price: 214.13
+last_price: 217.09
 conviction: "The recursive core: chips + networking + software"
 cut_reason: ""
 reentry_trigger: ""
