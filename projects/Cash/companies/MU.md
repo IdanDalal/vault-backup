@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 1
-last_price: 904.9
+last_price: 896.07
 conviction: "HBM #2, capacity sold out; US champion"
 cut_reason: ""
 reentry_trigger: ""
