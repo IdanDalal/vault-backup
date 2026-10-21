@@ -267,3 +267,19 @@ Idi after the notes pass: "the connection between the music/beat/rhythm and what
 | 5 | Objects count the beat: items land ON the beat (motion starts up to 2 frames before; a page turn lands flat on it); continuous motion steps per beat | `stepEase`, `onGrid` |
 | 6 | Hits stay inside the look: no signal-tinted backgrounds (signal belongs to the caret and the sung word); flashes light the cut, never lift the whole frame's black; type stays readable on hit frames | tone swaps ink / graphite / panel only |
 | 7 | Measured on every whole render | `tools/avsync.py accept`; targets in `reports/rhythm-pass-briefs.md` |
+
+## 15. Escalation: nothing twice, everything builds (added 2026-10-21)
+
+Idi on full4 (11 notes, [[knowledge-cutoff-notes3-2026-10-21]]): "nothing appears twice the same way, everything escalates/grows, and the visuals should all build up towards the climax (the final chorus)." Measured (kc-engine `reports/n3-escalation.md`): 27 recurring elements, 12 repeat unchanged, 13 grow weakly, 2 escalate; repeats changed their content inside an unchanged picture.
+
+| # | rule | how |
+|---|---|---|
+| 1 | Every recurring element has a ladder; each visit changes at least two of count, scale, camera, damage, time of day, interaction; the final chorus changes all six | ladders in kc-engine `reports/n3-escalation.md` section 2 |
+| 2 | The cut doubles: lines per stamp 1, 2, 4, 8, 16, 32 across the six cutoff plates (189 cuts); the blade is the caret, multiplied; the pieces pile into a heap that is the song's hourglass; cutoff6 falls to sand | `cutoff.ts`; heap height a pure function of song time |
+| 3 | Time passes on screen: the caret is the model's clock, stopped; its hatched shadow is the world's clock, a sundial lengthening through the song; one native running clock per plate, never the same object twice; seasons without month names (globe terminator, shadow, day counts) | `_kc.ts` `caretShadow`; table in `n3-escalation.md` section 5 |
+| 4 | Mystery: every blank, `?` and [MASK] is a hole in one ledger; holes grow through verse 1, fill toward the outro, the date fills last, the tail empties them | `_kc.ts` `holeLedger` |
+| 5 | The model comments: one aside per plate at most, JetBrains Mono 36-40 px, `›` and a confidence chip, in a vocal gap, never over the lyric, naive early, knowing late, silent on cutoff 1, 5, 6; facts sourced | `data/asides.json`; `_kc-type.ts` `aside()` |
+| 6 | Depth: a perspective stage where the lyric's geometry asks for it (floor, field to the horizon, exploded card, scale pull-out, falling flaps, corridor), each a different form; words on planes register projected boxes | `_kc-depth.ts` |
+| 7 | Transitions carry meaning: at least 8 plate changes are ideas (through a letter, window push, power-off, pull-back reveal), each kind at most twice, never twice in a row | carries up to 0.6 s |
+| 8 | The final chorus breaks time: the world steps 60, 15, 6, 3 fps under cutoff5's stamps while the caret stays at 60; no fps counter | `_kc-rhythm.ts` `heldT` |
+| 9 | Facts on screen keep receipts (section 9): pages are real dated days, our own short headlines, no month names, October blank until 184.5 s; the gags' numbers carry an as-of date | kc-engine `reports/n3-facts.md` |
