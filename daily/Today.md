@@ -15,14 +15,29 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+Notes:
+1. Replace "You are magic" with "You're a wizard, Claude"
+2. The "Cut-off" gets 2 cuts, then 4, then 8, then 16, 
 
+Evolution and iteration instead of repetition
+
+Theme of time passing - watch, clock, hourglass, 
+
+Your colorful commentary
+
+Pages that turn should be days (maybe with headlines?)
+
+More "2.5D"/"Faux-3D" visuals with depth and layers
+
+More interactions, animations, dynamic effects, typography and calligraphy, etc. 
 
 
 Things that happened after your knowledge cutoff you could research/reference:
 1. Two big films: The Odyssey and Spider-Man.
 2. Math frontier: Navier-Stokes you already learned about, there are more. quasi-Riemann, a single day with hundreds (400-700) of proofs, mathematicians reacting (Terrance Tao is having a bad time).
 3. Video games and apps becoming """open-source""" due to reverse engineering capabilities.
-4. Might be dark/sad/undesirable, but since me and most humans think about it every day, might as well mention it: wars. Ukraine, Gaza, Iran, etc.
+4. GTA VI gameplay reveal (27 minutes on Netflix).
+5. Might be dark/sad/undesirable, but since me and most humans think about it every day, might as well mention it: wars. Ukraine, Gaza, Iran, etc.
 
 
 Video ideas:
