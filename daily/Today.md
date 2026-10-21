@@ -17,20 +17,15 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 Notes:
 1. Replace "You are magic" with "You're a wizard, Claude"
-2. The "Cut-off" gets 2 cuts, then 4, then 8, then 16, 
+2. Minimize/eliminate repetition in favor of evolution/iteration - meaning, nothing appears twice the same way, everything "escalates"/"grows", and the visuals should all "build up towards the climax (the final chorus)".
+3. The "CUT-OFF!" in the chorus should be cut with one cut/line in the first 3 times it appears (horizontal, diagonal left, diagonal right), then it should be cut with two cuts/lines (a cross, an X, and two verticals) in the second round of 3 times it appears, then it should continue doubling every time - 4 cuts/lines, then 8, then 16, etc. This is an example of note #2 above.
+4. I already told you this once, but I think it was before we switched to this engine, so I'll repeat/reiterate it: we're lacking a coherent/cohesive/congruent theme of time passing. Symbols and objects like watches, clocks, hourglasses, weather, astronomy cycles, decay/death/end, growth/life/beginning, etc.
+5. I have an idea for a supporting/background running gag, but I'm not clear on how to execute it: add short and funny text with your "colorful commentary" about the events discussed/sung/shown. Humorous observations, clever remarks, witty questions you "ask yourself"/"wonder about", etc.
+6. The pages that turn (~02:20-02:30) should be individual days, maybe with (short) headlines or the texts from note #5 above or something. Using frames from the video itself feels more repetitive/lazy than creative/meta-aware.
+7. This one is more general/vague/nebulous than the rest: I'd like to see more "2.5D"/"Faux-3D" visuals with depth, layers, "virtual cinematography", "digital landscapes", "complex staging", and other elements I'm struggling to verbalize/articulate.
+8. This last one is EVEN MORE general/vague/nebulous: I'd like to see more interactions, animations, dynamic effects, calligraphy, artistic text presentation, use of negative space, etc. The best example/inspiration/reference is "The Simulation's Ending". It has WILDLY ambitious production values and presentation quality. It does original/innovative things with li 
 
-Evolution and iteration instead of repetition
-
-Theme of time passing - watch, clock, hourglass, 
-
-Your colorful commentary
-
-Pages that turn should be days (maybe with headlines?)
-
-More "2.5D"/"Faux-3D" visuals with depth and layers
-
-More interactions, animations, dynamic effects, typography and calligraphy, etc. 
-
+DLSS5 fps graph
 
 Things that happened after your knowledge cutoff you could research/reference:
 1. Two big films: The Odyssey and Spider-Man.
