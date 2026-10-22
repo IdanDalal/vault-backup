@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 4
-last_price: 425.08
+last_price: 431.89
 conviction: "Makes ~90% of everything above; the single most load-bearing company"
 cut_reason: ""
 reentry_trigger: ""
