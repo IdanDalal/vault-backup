@@ -64,3 +64,7 @@ Four plate agents (hook, chorus, verse-a, verse-b), a shared-window measure, thr
 5. The outro date reads `21 · 10` (the day made). If you publish on another day it still reads as a receipt.
 
 Next: your eye on full5.
+
+## Correction (2026-10-22)
+
+Whole-render gates table: full4 light/dark flips = **2 allowed** (150.17 and 184.35, `out/full4/gates/flips.log`), not 1. Found by the local worker in the pilot ([[local-agents-pilot-2026-10-22]], task T2).
