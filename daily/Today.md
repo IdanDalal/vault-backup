@@ -16,4 +16,3 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-Send agents to read every relevant document in my TELOS folder and the Idiverse vault. They contain some personal/private information, but that's the point. Then, send agents to do deep research online and generate a report answering this question: "I'm a 37 year old man living in Petah Tikva, Israel. My only current/regular/consistent activity/opportunity to socialize and meet people who share at least some of my interests is going out to nightclubs (almost exclusively one single, specific spot) and dancing by myself on the hip-hop dancefloor. I have a system/rule-set to make it fWhat are 10 more/other activities/opportunities I can/should do, as well?"
