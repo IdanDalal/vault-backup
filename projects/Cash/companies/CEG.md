@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 3
-last_price: 270.74
+last_price: 255.21
 conviction: "Largest US nuclear fleet; sells the constraint"
 cut_reason: ""
 reentry_trigger: ""

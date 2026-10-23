@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 2
-last_price: 697.52
+last_price: 648.85
 conviction: "Open-weights lab + ad machine printing cash for compute"
 cut_reason: ""
 reentry_trigger: ""
