@@ -74,8 +74,9 @@ ok('pre-plan seed: 55 GOOGL held, cost 18,417.85, cash zero', () => {
   assert.equal(A.planDone, 0); assert.equal(A.warnings.length, 0);
 });
 
+const SEED_EXEC = EMB.seed.filter(t => t.date <= '2026-09-11'); // the 09-10 execution and the 09-11 fee cover
 if (EMB.executed) ok('executed ledger: 20 steps done, 19 positions, fees pending overdraw the dollar account', () => {
-  const A = Core.analyze(EMB.seed, EMB, settings, prices);
+  const A = Core.analyze(SEED_EXEC, EMB, settings, prices);
   assert.equal(A.planDone, EMB.plan.length);
   assert.equal(A.holdings.filter(h => h.shares > 0).length, 19);
   const g = A.holdings.find(h => h.ticker === 'GOOGL'); assert.equal(g.shares, 9);
@@ -86,6 +87,33 @@ if (EMB.executed) ok('executed ledger: 20 steps done, 19 positions, fees pending
   close(A.ownership.momStake, 13031.69 / (13031.69 + 18049.60 + idiFx) * 100, 0.01); // 41.49% after Idi's ₪1,000 fee cover
   close(A.feesUsd, 45.40 + 18 * 24, 0.01);
   assert.equal(A.warnings.length, 0);
+});
+
+if (EMB.seed.some(t => t.type === 'withdraw')) ok('2026-10-20/21: six sells, ₪9,000 out, Mom 36.33%, $169.46 left', () => {
+  const A = Core.analyze(EMB.seed, EMB, settings, prices);
+  assert.equal(A.warnings.length, 0);
+  const sh = T => A.holdings.find(h => h.ticker === T).shares;
+  assert.deepEqual(['META', 'MSFT', 'AAPL', 'AMZN', 'GOOGL', 'NVDA'].map(sh), [2, 5, 5, 9, 8, 12]);
+  close(A.cashUsd, 169.46, 0.02);                       // 66.45 ledger cash + 3,038.61 net sales - 2,932.47 converted out
+  close(A.cashNis, 0, 0.02);                            // the shekels went straight to their owners
+  close(A.ownership.momStake, 36.33, 0.01);
+  close(A.ownership.momUsd, 10285.65, 0.05); close(A.ownership.idiUsd, 18026.23, 0.05);
+  close(A.feesUsd, 45.40 + 18 * 24 + 6 * 24 + 3.13, 0.01); // + the 10-20 reconciliation; withdrawals carry fee_usd for the stake only
+  close(A.feesNis, 60.01 + 15.12 + 15.46, 0.01);
+  close(A.ownership.momTaken, 2602.30); close(A.ownership.idiTaken, 330.17);
+});
+ok('withdraw: redeems units at the unit value, same-day order does not matter', () => {
+  const s = { ...settings, idi_value_at_pooling: 6000 };
+  const rows = [{ id: 'f', date: '2026-01-02', type: 'fx', owner: 'mom', nis_out: 12000, usd_in: 4000 },
+    { id: 'w', date: '2026-01-03', type: 'withdraw', owner: 'mom', usd_in: 1000, fee_usd: 50, price_usd: 2.1 }]; // pool doubled: 10,000 units worth 21,000
+  const A = Core.analyze(rows, { ...EMB, plan: [] }, s, prices);
+  close(A.ownership.momUsd, 4000 - 500); close(A.ownership.idiUsd, 6000);
+  close(A.ownership.momStake, (4000 - 500) / (10000 - 500) * 100, 0.01);
+  assert.equal(A.withdrawals.length, 1); close(A.feesUsd, 0);
+  const w2 = { id: 'v', date: '2026-01-03', type: 'withdraw', owner: 'idi', usd_in: 2100, price_usd: 2.1 };
+  const B1 = Core.analyze([...rows, w2], { ...EMB, plan: [] }, s, prices), B2 = Core.analyze([rows[0], w2, rows[1]], { ...EMB, plan: [] }, s, prices);
+  close(B1.ownership.momStake, B2.ownership.momStake, 1e-9); close(B1.ownership.idiUsd, 5000);
+  assert.ok(Core.analyze([{ ...rows[1], owner: '' }], EMB, s, prices).warnings.some(w => w.includes('withdraw without owner')));
 });
 
 const fxRow = { id: 'fx1', date: '2026-09-10', type: 'fx', owner: 'mom', nis_out: 40000, usd_in: 13200, fee_nis: 60, note: '' };

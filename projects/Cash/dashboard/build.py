@@ -16,7 +16,7 @@ TIERS = {1: "The Core", 2: "Silicon Backbone", 3: "Adjacent Exponentials"}
 
 
 def frontmatter(path):
-    text = path.read_text()
+    text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
         return {}
     end = text.index("\n---", 3)
@@ -81,7 +81,9 @@ def bar_row(r, max_total, total_usd):
 
 
 def build(name, rows):
-    total_usd = frontmatter(CASH / f"{name}.md").get("total_usd", 0) or 0
+    # total_usd counts fund units since the 2026-10-21 withdrawals; the page shows the current value (pool x stake)
+    note = frontmatter(CASH / f"{name}.md")
+    total_usd = note.get("portfolio_value", 0) or note.get("total_usd", 0) or 0
     max_total = max(r["total"] for r in rows)
     tier_pct = {t: sum(r["total"] for r in rows if r["tier"] == t) for t in TIERS}
 
@@ -89,7 +91,7 @@ def build(name, rows):
       <div class="tiles">
         <div class="tile"><div class="tile-v">{len(rows)}</div><div class="tile-l">positions</div></div>
         <div class="tile"><div class="tile-v">{tier_pct[1]}/{tier_pct[2]}/{tier_pct[3]}</div><div class="tile-l">tier split %</div></div>
-        <div class="tile"><div class="tile-v">{fmt_usd(total_usd) if total_usd else "—"}</div><div class="tile-l">total invested</div></div>
+        <div class="tile"><div class="tile-v">{fmt_usd(total_usd) if total_usd else "—"}</div><div class="tile-l">value now</div></div>
       </div>"""
 
     comp_bar = "".join(
@@ -130,7 +132,7 @@ def build(name, rows):
         html = html.replace(token, value)
 
     out = HERE / f"Cash-{name}.html"
-    out.write_text(html)
+    out.write_text(html, encoding="utf-8")
     return out
 
 

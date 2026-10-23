@@ -14,7 +14,7 @@
     --accent:#5ee8e3; --accent-ink:#04090b; --accent-bg:rgba(94,232,227,.12); --gold:#e2b86a; --gold-2:#f4d99a; --cyan:#5ee8e3;
     --t1:#8676ea; --t2:#e0608c; --t3:#b8862a; --t0:#7c8b8a; --mom:#e0608c; --idi:#8676ea;
     --ok:#4fd9a5; --warn:#e2b86a; --bad:#ff6b7a; --ok-bg:rgba(79,217,165,.14); --warn-bg:rgba(226,184,106,.14); --bad-bg:rgba(255,107,122,.16);
-    --buy:#8676ea; --sell:#ff6b7a; --fx:#e2b86a; --dividend:#4fd9a5; --fee:#5ee8e3;
+    --buy:#8676ea; --sell:#ff6b7a; --fx:#e2b86a; --dividend:#4fd9a5; --fee:#5ee8e3; --withdraw:#f59bd0;
     --shadow:0 1px 0 rgba(255,255,255,.04) inset,0 20px 50px -24px rgba(0,0,0,.9); --shadow-hi:0 1px 0 rgba(255,255,255,.06) inset,0 30px 70px -28px rgba(0,0,0,1),0 0 40px -18px rgba(94,232,227,.35);
     --glass:linear-gradient(160deg,rgba(24,58,62,.55),rgba(6,14,16,.55) 55%,rgba(4,9,11,.7)); --r:16px; --gap:12px; --pad:14px; --hue:var(--accent);
     --font:"Segoe UI Variable Display","Segoe UI",Inter,system-ui,-apple-system,Roboto,sans-serif;
@@ -26,7 +26,7 @@
     --accent:#0f8f8a; --accent-ink:#fff; --accent-bg:rgba(15,143,138,.12); --gold:#a8791f; --gold-2:#c9962f; --cyan:#0f8f8a;
     --t1:#5b4bd6; --t2:#d2456f; --t3:#8a6414; --t0:#7c8b8a; --mom:#d2456f; --idi:#5b4bd6;
     --ok:#1f9d5a; --warn:#a67c00; --bad:#d63a2a; --ok-bg:rgba(31,157,90,.12); --warn-bg:rgba(166,124,0,.12); --bad-bg:rgba(214,58,42,.12);
-    --buy:#5b4bd6; --sell:#d63a2a; --fx:#a8791f; --dividend:#1f9d5a; --fee:#0f8f8a;
+    --buy:#5b4bd6; --sell:#d63a2a; --fx:#a8791f; --dividend:#1f9d5a; --fee:#0f8f8a; --withdraw:#b8407f;
     --shadow:0 1px 2px rgba(0,0,0,.05),0 12px 30px -16px rgba(0,0,0,.25); --shadow-hi:0 2px 6px rgba(0,0,0,.08),0 20px 40px -18px rgba(0,0,0,.3);
     --glass:linear-gradient(160deg,rgba(255,255,255,.9),rgba(240,246,245,.85));
   }
@@ -475,7 +475,7 @@
     --accent:#ee6a33;--accent-ink:#fff;--accent-bg:#fdefe7;--gold:#b27a0c;--gold-2:#8f620a;--cyan:#2b6fd6;
     --t1:#2b6fd6;--t2:#d6558f;--t3:#b27a0c;--t0:#a39e96;--mom:#d6558f;--idi:#2b6fd6;
     --ok:#1e8a4c;--warn:#b86e00;--bad:#d9423a;--ok-bg:#e6f4ec;--warn-bg:#fbf0de;--bad-bg:#fbe7e5;
-    --buy:#2b6fd6;--sell:#d9423a;--fx:#b27a0c;--dividend:#1e8a4c;--fee:#8a857d;
+    --buy:#2b6fd6;--sell:#d9423a;--fx:#b27a0c;--dividend:#1e8a4c;--fee:#8a857d;--withdraw:#a8467e;
     --shadow:0 1px 2px rgba(28,24,18,.05);--shadow-hi:0 8px 24px -10px rgba(28,24,18,.18);--glass:#fff;--r:14px;--pad:18px;--gap:14px}
   :root[data-skin="fin"][data-mode="dark"]{color-scheme:dark;
     --page:#0b1311;--page-2:#0f1916;--surface:#121c1a;--surface-solid:#121c1a;--surface-2:#17231f;--surface-3:#1f2e29;
@@ -483,7 +483,7 @@
     --accent:#3fd68a;--accent-ink:#06120c;--accent-bg:rgba(63,214,138,.13);--gold:#d9a441;--gold-2:#e8bf6a;--cyan:#3f7fdc;
     --t1:#3f7fdc;--t2:#d45a90;--t3:#b98624;--t0:#6f7f7a;--mom:#d45a90;--idi:#3f7fdc;
     --ok:#4cd98f;--warn:#f0a53a;--bad:#ff6f61;--ok-bg:rgba(76,217,143,.13);--warn-bg:rgba(240,165,58,.13);--bad-bg:rgba(255,111,97,.14);
-    --buy:#3f7fdc;--sell:#ff6f61;--fx:#d9a441;--dividend:#4cd98f;--fee:#7b8d87;
+    --buy:#3f7fdc;--sell:#ff6f61;--fx:#d9a441;--dividend:#4cd98f;--fee:#7b8d87;--withdraw:#e58fc0;
     --shadow:none;--shadow-hi:0 12px 30px -14px rgba(0,0,0,.8);--glass:#121c1a;--r:20px;--pad:18px;--gap:14px}
   :root[data-skin="fin"]{--font:"Inter","Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;--mono:ui-monospace,"Cascadia Mono",Consolas,monospace}
   :root[data-skin="fin"][data-density="compact"]{--r:10px;--gap:8px;--pad:12px}
@@ -748,7 +748,7 @@
             <label>$ start balance<input type="number" step="0.01" name="usd_start"></label>
             <label>USD/ILS now<input type="number" step="0.0001" name="fx_now"></label>
           </form>
-          <p class="hint">Mom's stake = her converted dollars ÷ (her dollars + Idi's value at pooling + Idi's later conversions). Fixed at that moment, fund-unit style. Actual % and drift are measured against the pool (holdings + cash). $ start balance offsets the pre-pool GOOGL buy so cash reads zero before the plan date.</p>
+          <p class="hint">Mom's stake = her units ÷ all units, fund-unit style: units = converted dollars in (Idi's start at his value at pooling), minus what each withdrawal redeemed at the pool value of its day. Actual % and drift are measured against the pool (holdings + cash). $ start balance offsets the pre-pool GOOGL buy so cash reads zero before the plan date.</p>
         </div>
       </div>
       <div class="card half" data-card="definitions">
@@ -1063,11 +1063,23 @@ const Core = (() => {
     for (const T in tickers) pos[T] = blankPos(T);
     let cashUsd = n(settings.usd_start), cashNis = n(settings.nis_start), feesUsd = 0, feesNis = 0;
     const contrib = { idi: 0, mom: 0, pool: 0 };
-    const fx = [], warnings = [];
+    const out = { idi: 0, mom: 0 }; // stake units redeemed by withdrawals, in contribution dollars
+    const idiAt = n(settings.idi_value_at_pooling);
+    const fx = [], withdrawals = [], warnings = [];
     for (const t of rows) {
       const p = pos[t.ticker] || (t.ticker ? (pos[t.ticker] = blankPos(t.ticker)) : null);
-      feesUsd += t.fee_usd; feesNis += t.fee_nis;
+      if (t.type !== 'withdraw') feesUsd += t.fee_usd; // a withdrawal's fee_usd is its share of sale fees the sells already paid
+      feesNis += t.fee_nis;
       switch (t.type) {
+        case 'withdraw': {
+          // fund units: usd_in = $ converted out for this owner, fee_usd = sale fees charged to them,
+          // price_usd = one unit's value that day (pool value ÷ all units), so same-day withdrawals are order-independent
+          if (t.owner !== 'idi' && t.owner !== 'mom') { warnings.push(`withdraw without owner on ${t.date}`); break; }
+          const redeemed = (t.usd_in + t.fee_usd) / (t.price_usd > 0 ? t.price_usd : 1);
+          out[t.owner] += redeemed; cashUsd -= t.usd_in;
+          withdrawals.push({ ...t, units: round(redeemed, 2) });
+          break;
+        }
         case 'fx': {
           cashNis -= t.nis_out + t.fee_nis; cashUsd += t.usd_in;
           contrib[t.owner === 'idi' || t.owner === 'mom' ? t.owner : 'pool'] += t.usd_in;
@@ -1119,11 +1131,12 @@ const Core = (() => {
     for (const h of holdings) { const k = h.tier || 0; tiers[k] = tiers[k] || { tier: k, target: 0, actual: 0, value: 0 }; tiers[k].target += h.target; tiers[k].actual += h.actual; tiers[k].value += h.value; }
     for (const k in tiers) { tiers[k].actual = round(tiers[k].actual, 2); tiers[k].value = round(tiers[k].value, 2); }
     const driftSum = round(sum(holdings, h => Math.abs(h.drift)), 2);
-    const idiAt = n(settings.idi_value_at_pooling);
-    const momUsd = contrib.mom; const idiUsd = idiAt + contrib.idi; const denom = momUsd + idiUsd + contrib.pool;
+    const momUsd = contrib.mom - out.mom; const idiUsd = idiAt + contrib.idi - out.idi; const denom = momUsd + idiUsd + contrib.pool;
     const momStake = denom > 0 ? momUsd / denom : 0;
     const ownership = { momUsd: round(momUsd, 2), idiUsd: round(idiUsd, 2), poolUsd: round(contrib.pool, 2), momStake: round(momStake * 100, 2),
-      momValue: round(poolValue * momStake, 2), idiValue: round(poolValue * (denom > 0 ? idiUsd / denom : 1), 2) };
+      momValue: round(poolValue * momStake, 2), idiValue: round(poolValue * (denom > 0 ? idiUsd / denom : 1), 2),
+      momOut: round(out.mom, 2), idiOut: round(out.idi, 2), momIn: round(contrib.mom, 2),
+      momTaken: round(sum(withdrawals.filter(w => w.owner === 'mom'), 'usd_in'), 2), idiTaken: round(sum(withdrawals.filter(w => w.owner === 'idi'), 'usd_in'), 2) };
     let cum = 0; const timeline = [];
     for (const t of rows) {
       if (t.type === 'buy') cum += t.shares * t.price_usd + t.fee_usd;
@@ -1148,7 +1161,7 @@ const Core = (() => {
     }
     return { rows, holdings, tiers: Object.values(tiers).sort((a, b) => a.tier - b.tier), marketValue: round(mv, 2), cashUsd: round(cashUsd, 2), cashNis: round(cashNis, 2), poolValue: round(poolValue, 2),
       feesUsd: round(feesUsd, 2), feesNis: round(feesNis, 2), invested: round(sum(holdings, h => h.cost), 2), unrealized: round(sum(holdings, h => h.unrealized), 2), realized: round(sum(holdings, h => h.realized), 2),
-      dividends: round(sum(holdings, h => h.divs), 2), driftSum, ownership, timeline, plan, planDone, fx, lots, warnings, contrib };
+      dividends: round(sum(holdings, h => h.divs), 2), driftSum, ownership, timeline, plan, planDone, fx, withdrawals, lots, warnings, contrib };
   }
 
   function toVaultMarkdown(rows) {
@@ -1158,7 +1171,7 @@ const Core = (() => {
       const detail = t.type === 'fx' ? `${Math.round(t.usd_in)}usd` : t.ticker || t.type;
       let name = `${t.date} ${t.type} ${detail}`.trim();
       seen[name] = (seen[name] || 0) + 1; if (seen[name] > 1) name += ` (${seen[name]})`;
-      const body = t.type === 'buy' ? `# ${t.date} - buy ${t.shares} ${t.ticker} @ $${t.price_usd}` : t.type === 'sell' ? `# ${t.date} - sell ${t.shares} ${t.ticker} @ $${t.price_usd}` : t.type === 'fx' ? `# ${t.date} - fx ₪${t.nis_out} → $${t.usd_in}` : `# ${t.date} - ${t.type} ${t.ticker}`;
+      const body = t.type === 'buy' ? `# ${t.date} - buy ${t.shares} ${t.ticker} @ $${t.price_usd}` : t.type === 'sell' ? `# ${t.date} - sell ${t.shares} ${t.ticker} @ $${t.price_usd}` : t.type === 'fx' ? `# ${t.date} - fx ₪${t.nis_out} → $${t.usd_in}` : t.type === 'withdraw' ? `# ${t.date} - withdraw ₪${t.nis_out} (${t.owner})` : `# ${t.date} - ${t.type} ${t.ticker}`;
       return `=== transactions/${name}.md ===\n---\ndate: ${t.date}\ntype: ${t.type}\nticker: ${q(t.ticker)}\nowner: ${q(t.owner)}\nnis_out: ${t.nis_out}\nusd_in: ${t.usd_in}\nfee_nis: ${t.fee_nis}\nfee_usd: ${t.fee_usd}\nshares: ${t.shares}\nprice_usd: ${t.price_usd}\nlimit_usd: ${t.limit_usd}\nfx_rate: ${t.fx_rate}\nnote: ${q(t.note)}\ncreated: ${t.created}\nauthor: jep\ntags:\n  - cash-tx\n---\n\n${body}\n`;
     }).join('\n');
   }
@@ -1267,7 +1280,7 @@ if (typeof module !== 'undefined') module.exports = Core;
   const TABS = ['overview', 'ledger', 'analysis', 'companies', 'odds', 'lab', 'export'];
   const TN = { 1: 'Core', 2: 'Silicon backbone', 3: 'Adjacent', 0: 'Unassigned' };
   const TV = { 1: 'var(--t1)', 2: 'var(--t2)', 3: 'var(--t3)', 0: 'var(--t0)' };
-  const TYPE_EM = { buy: '🟦', sell: '🟥', fx: '💱', dividend: '💵', fee: '🧾' };
+  const TYPE_EM = { buy: '🟦', sell: '🟥', fx: '💱', dividend: '💵', fee: '🧾', withdraw: '📤' };
   // brand-ish colours + an emoji per ticker: decoration for scanning, never the data channel (medium confidence on the exact brand hexes)
   const BRAND = { AAPL: ['#8a8a90', '🍎'], AMD: ['#e0262c', '🔴'], AMZN: ['#ff9900', '📦'], ASML: ['#2a49b8', '🔬'], AVGO: ['#cc092f', '📡'], CEG: ['#d99a1a', '☢️'], GEV: ['#0f6fd1', '⚡'],
     GOOGL: ['#4285f4', '🔍'], LLY: ['#d52b1e', '💊'], META: ['#0866ff', '👓'], MSFT: ['#00a4ef', '🪟'], MU: ['#1a6fd6', '💾'], NVDA: ['#76b900', '🎮'], PLTR: ['#6b6f7a', '🔮'],
@@ -1289,7 +1302,7 @@ if (typeof module !== 'undefined') module.exports = Core;
     'Cash ₪': '₪ start balance − every ₪ out (conversions + their fees). Reads 0 once every logged shekel was converted.',
     'Fees so far': 'Σ fee $ and fee ₪ across the ledger. Trade fees are the app’s estimates until settlement.',
     'Drift': 'Σ |actual % − target %| over the 19 positions, in percentage points. Unspent cash shows as under-weight.',
-    "Mom's stake": 'Her converted $ ÷ (her $ + Idi’s value at pooling + Idi’s later conversions). Fixed fund-unit style at each contribution.',
+    "Mom's stake": 'Her units ÷ all units. Units = converted $ in, minus what withdrawals redeemed at the pool value of their day. Moves only on money in or out.',
     'Invested (cost)': 'Σ cost of the open positions, average-cost method: (shares × fill + fee), reduced pro rata on sells.',
     'Unrealized': 'Market value − cost of the open positions. The % is against invested cost.',
     'Realized': 'Net sale proceeds − average-cost basis of the shares sold. GOOGL 46 sold on the plan day.',
@@ -1585,8 +1598,8 @@ if (typeof module !== 'undefined') module.exports = Core;
   })();
 
   // ---------- LEDGER ----------
-  const TYPES = ['buy', 'sell', 'fx', 'dividend', 'fee'];
-  const FIELDS = { buy: ['date', 'ticker', 'shares', 'price_usd', 'limit_usd', 'fee_usd', 'fx_rate', 'note'], sell: ['date', 'ticker', 'shares', 'price_usd', 'limit_usd', 'usd_in', 'fee_usd', 'note'], fx: ['date', 'owner', 'nis_out', 'usd_in', 'fee_nis', 'note'], dividend: ['date', 'ticker', 'usd_in', 'fee_usd', 'note'], fee: ['date', 'fee_usd', 'fee_nis', 'note'] };
+  const TYPES = ['buy', 'sell', 'fx', 'dividend', 'fee', 'withdraw'];
+  const FIELDS = { buy: ['date', 'ticker', 'shares', 'price_usd', 'limit_usd', 'fee_usd', 'fx_rate', 'note'], sell: ['date', 'ticker', 'shares', 'price_usd', 'limit_usd', 'usd_in', 'fee_usd', 'note'], fx: ['date', 'owner', 'nis_out', 'usd_in', 'fee_nis', 'note'], dividend: ['date', 'ticker', 'usd_in', 'fee_usd', 'note'], fee: ['date', 'fee_usd', 'fee_nis', 'note'], withdraw: ['date', 'owner', 'nis_out', 'usd_in', 'fee_nis', 'fee_usd', 'price_usd', 'note'] };
   const form = $('#entry-form');
   const tsel = form.elements.ticker; for (const T of Object.keys(EMB.tickers).sort()) { const o = document.createElement('option'); o.value = T; o.textContent = `${emoji(T)} ${T} · ${EMB.tickers[T].company}`; tsel.appendChild(o); }
   function setType(ty) { form.elements.type.value = ty; $$('#type-chips .chip').forEach(c => c.classList.toggle('on', c.dataset.t === ty)); const show = FIELDS[ty]; $$('#entry-form label').forEach(l => { const inp = l.querySelector('input,select'); l.style.display = show.includes(inp.name) ? '' : 'none'; }); $('#tab-ledger .card[data-card="entry"]').style.setProperty('--hue', `var(--${ty})`); liveHint(); }
@@ -1603,6 +1616,7 @@ if (typeof module !== 'undefined') module.exports = Core;
     if (['buy', 'sell', 'dividend'].includes(o.type) && !o.ticker) return toast('ticker missing');
     if (['buy', 'sell'].includes(o.type) && !(+o.shares > 0 && +o.price_usd > 0)) return toast('shares and price required');
     if (o.type === 'fx' && !(+o.nis_out > 0 && +o.usd_in > 0)) return toast('₪ out and $ in required');
+    if (o.type === 'withdraw' && !((o.owner === 'idi' || o.owner === 'mom') && +o.usd_in > 0 && +o.price_usd > 0)) return toast('owner, $ out and unit value required');
     const i = state.rows.findIndex(r => r.id === o.id);
     if (i >= 0) { const t = Core.normalize(o); t.created = state.rows[i].created; state.rows[i] = t; toast('updated'); }
     else { delete o.id; state.rows.push(Core.normalize(o)); toast('saved'); }
@@ -1967,9 +1981,9 @@ if (typeof module !== 'undefined') module.exports = Core;
         `Limit orders did their job; the fee minimum is the whole execution cost. Every future order under $8,000 pays more than 0.30%, which is why Money.md sets the $2,400 floor (1%).`,
         `batch future buys so each order clears $2,400; never top up a single share.`],
       ['Ownership', 'var(--mom)', `Mom holds <b>${pct(o.momStake)}</b> of the pool, worth <b>${usd(o.momValue)}</b> (<b>${nis(o.momValue * (state.settings.fx_now || 1))}</b>); Idi <b>${pct(100 - o.momStake)}</b>, <b>${usd(o.idiValue)}</b>.`,
-        `Stakes are fund-unit style: Mom's <b>${usd(o.momUsd)}</b> converted against Idi's <b>${usd(o.idiUsd)}</b> at pooling plus his later conversions. Her $ change since pooling: <b class="${cls(o.momValue - o.momUsd)}">${sgn(o.momValue - o.momUsd)}</b>.`,
-        `The stake only moves when someone adds money; price moves change the value, never the share. A ₪1,000 fee-cover conversion moved her stake by 0.44 pt, so contributions matter more than markets for the split.`,
-        `log every conversion as its own fx row with the owner set, or the stake drifts silently.`],
+        `Stakes are fund-unit style: Mom's <b>${usd(o.momUsd)}</b> in units against Idi's <b>${usd(o.idiUsd)}</b>; she converted ${usd(o.momIn)} and has taken out ${usd(o.momTaken)}. Her $ change since pooling: <b class="${cls(o.momValue + o.momTaken - o.momIn)}">${sgn(o.momValue + o.momTaken - o.momIn)}</b>.`,
+        `The stake moves only when someone adds or takes out money; price moves change the value and leave the share. A withdrawal redeems units at the pool value of that day and carries its own sale fees, so it shrinks only the withdrawer's share.`,
+        `log every conversion in as an fx row and every payout as a withdraw row, owner set, or the stake drifts silently.`],
     ];
     if (M) {
       const ps = poolPath(), r1m = ps.length > 1 ? Core.retPct(ps, 30) : null, sp = sincePlan(ps), dm = dayMove();
@@ -2259,7 +2273,7 @@ if (typeof module !== 'undefined') module.exports = Core;
     }
     const worst = hs.slice().sort((a, b) => Math.abs(b.drift) - Math.abs(a.drift))[0], within = hs.filter(h => Math.abs(h.drift) <= 0.5).length;
     if (worst) lines.push(['⇄', `Widest drift is ${worst.ticker}, <span class="hl">${sgn(worst.drift, 1)} pts</span> ${worst.drift >= 0 ? 'over' : 'under'} target; ${within} of ${hs.length} positions sit within ±0.5 pt.`]);
-    lines.push(['◑', `Mom holds <span class="hl">${pct(o.momStake)}</span> (${usd0(o.momValue)}), Idi <span class="hl">${pct(100 - o.momStake)}</span> (${usd0(o.idiValue)}); the split moves only when someone adds money.`]);
+    lines.push(['◑', `Mom holds <span class="hl">${pct(o.momStake)}</span> (${usd0(o.momValue)}), Idi <span class="hl">${pct(100 - o.momStake)}</span> (${usd0(o.idiValue)}); the split moves only when money goes in or out.`]);
     el.innerHTML = lines.map(([i, t]) => `<p><span class="pi">${i}</span><span>${t}</span></p>`).join('');
   }
 
