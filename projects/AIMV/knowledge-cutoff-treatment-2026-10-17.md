@@ -283,3 +283,22 @@ Idi on full4 (11 notes, [[knowledge-cutoff-notes3-2026-10-21]]): "nothing appear
 | 7 | Transitions carry meaning: at least 8 plate changes are ideas (through a letter, window push, power-off, pull-back reveal), each kind at most twice, never twice in a row | carries up to 0.6 s |
 | 8 | The final chorus breaks time: the world steps 60, 15, 6, 3 fps under cutoff5's stamps while the caret stays at 60; no fps counter | `_kc-rhythm.ts` `heldT` |
 | 9 | Facts on screen keep receipts (section 9): pages are real dated days, our own short headlines, no month names, October blank until 184.5 s; the gags' numbers carry an as-of date | kc-engine `reports/n3-facts.md` |
+
+
+## 16. Parity: close the gap to R1, R3, R4 (added 2026-10-25)
+
+Idi on full5: "a noticeable improvement over v4"; R1, R3 and R4 still read as "a generational leap... in ways I can't articulate" ([[knowledge-cutoff-parity-notes-2026-10-25]]). Measured in kc-engine `reports/p1-leap.md`, `p1-floor.md`, `p1-moments.md`. Targets below are song-wide for full6, measured by `tools/leap.py` (scripts) plus the drawn-picture label (local worker, eye-checked).
+
+| # | rule | measured on full5b → target |
+|---|---|---|
+| 1 | **The camera travels.** 1-2 decisive moves per phrase (truck, dolly through, orbit, crane) at 5-10 % of frame width per second, landing on downbeats, holding between; no slow drift as the default | 0.66 % width/s when moving → 5+ (R1 7.4, R3 8.1, R4 8.3) |
+| 2 | **Holds and bursts.** Hard holds of 2 s+ (camera and set still, only the type acting) that release into 2-4 s high-motion passages (swarm, travel, flip storm); at least one burst per chorus, the biggest in the final | holds 0.31/min → 0.7+; burst share 1.3 % → 3 %+ |
+| 3 | **Words live in the scene.** The sung line sits on the plate's own geometry (a perspective plane, a path, a curve, an axis, a document's rows, notes or points) or is built from objects; overlay type becomes the exception; every plate does it at least once | 11.7 % of lyric frames (eye) → 25 %+ (R3 18.9, R4 21.4, R1 35.1) |
+| 4 | **The line's shape is its meaning and changes while sung** (drop turns vertical, dots re-form, fonts settle on the beat, past drifts away while the present types, letters fall off). One technique per line, each technique once (mapping table, `p1-moments.md` section E) | letters mid-change in 2.1 % of lyric frames (eye) → 7 %+ (refs 6.8-9.9) via the 24 mapped lines |
+| 5 | **Layers.** Every plate is built as 3+ depth layers (near type, the document or object, a far grid or field, a particle or dust layer) so every camera move yields parallax | 29 % of moving frames with parts moving apart → 50 %+ |
+| 6 | **Draw the picture.** Every set-up holds a drawn object or scene, beyond a sheet or a UI; paper plates fill the frame edge to edge | 22 % of frames with a drawn picture → 40 %+ |
+| 7 | **The palette tints its darks** toward signal's shadow side (amber/olive), so ink and panel carry the hue the way every ref's darks carry its accent | dark-pixel saturation 0.12 → 0.18+ |
+| 8 | **One anchor at frame scale** in about a quarter of frames (a signal-yellow field, band or highlighter slab behind the hero word), next to the hairline anchors | accent coverage median 0.96 % → 2 %+ |
+| 9 | **Fine linework inside the subject** (hatching, engraved contours, hairline grids) on the lowest-detail plates | edges 3.8 % → 4.5 %+ |
+| 10 | **Leave alone** (measured level or ahead): text area, words on objects, motion amount, novelty, anchor presence; the june3 silence and dlss's dark beat (R1 holds the dark longer; dlss gains an object that carries the dark) | n/a |
+| 11 | Everything sections 5, 13, 14, 15 built stays: rhythm gates, escalation ladders, time system, asides, receipts, the loop | prior gates unchanged |
