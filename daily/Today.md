@@ -21,4 +21,15 @@ Stream-of-consciousness notes as I watch all 10 refs and then our v5:
 Count Me In - Not relevant to Knowledge Cutoff. Not our engine, not our style, not our standards.
 
 Ignore Previous Instructions
-1. Gorgeous, dynamic, coherent/consistent/congruent text-art, typography, calligraphy, and UI-vibes. The font
+1. Gorgeous - sharp, complex, colorful, smooth, etc.
+2. Dynamic - everything moves, appears, transforms, disappears, reappears, and more.
+3. Coherent/consistent/congruent - every single frame has the same "anchors"/art-direction/stylistic elements, which makes it feel like one project with a vision that has been iterated on, rather than some product that has been combined from a bunch of prompts/conversations with LLMs.
+4. The text-art, typography, calligraphy, and use of words as multi-purpose tools is top-tier. The fonts, the way the text transforms and changes, the way the text interacts with shapes and colors, and more.
+5. The 2D-UI vibes/style - It's not what we're doing with Knowledge Cutoff (2.5D-3D), but we can learn a lot from it and apply some of it, because we have some parts/scenes/screens with UI layers.
+6. The way the text aligns with the music, the way text and the visuals sync what happens with what is said, and the overall "sync" is excellent.
+7. One of the best parts is ~02:21-02:27, where the word "LOSE" is bouncing around and dropping letters and it looks great. Another one is "your voice and mine" and "it's all one line" (both are around ~00:32-00:37) where the text and the visuals morph according to the lyrics. Last one is ~01:36-01:37 where one word (INSTRUCTIONS) is split into 3 parts/lines, and the fonts change VERY (feels like one-frame-per-font or something close) fast only at the first/top line, and then it "settles" on a font exactly when it's "sung", and then the fonts change for the second/middle line until it "settles", and then the third/bottom line - it looks cool.
+
+I'm Upping My P(Doom)
+1. The word "drop" at ~00:10 is presented PERFECTLY! The line starts horizontally and then turns vertical - it looks incredible
+2. Some text, like 
+
