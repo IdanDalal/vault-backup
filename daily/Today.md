@@ -15,12 +15,14 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+First of all, we evolved/changed our workflow/process in another conversation, so from now on you can use local Qwen agents in addition to your cloud Claude agents. Second, I'm taking a different approach to watching v5 and pointing out what's wrong/missing: I'll write a bunch of stream-of-consciousness notes as I watch all 10 refs for what's right/applicable instead of watching v5 for what to fix. Then you'll launch a "parity pass" - meaning, you'll find and eliminate as many "gaps" as possible between Knowledge Cutoff and "I'm Upping My P(Doom)", The Simulation's Ending
+Exactly like  and "Run It Again"
+# Stream-of-consciousness notes
 
-Stream-of-consciousness notes as I watch all 10 refs and then our v5:
+## Count Me In
+Not relevant to Knowledge Cutoff. Not our engine, not our style, not our standards.
 
-Count Me In - Not relevant to Knowledge Cutoff. Not our engine, not our style, not our standards.
-
-Ignore Previous Instructions
+## Ignore Previous Instructions
 1. Gorgeous - sharp, complex, colorful, smooth, etc.
 2. Dynamic - everything moves, appears, transforms, disappears, reappears, and more.
 3. Coherent/consistent/congruent - every single frame has the same "anchors"/art-direction/stylistic elements, which makes it feel like one project with a vision that has been iterated on, rather than some product that has been combined from a bunch of prompts/conversations with LLMs.
@@ -29,19 +31,37 @@ Ignore Previous Instructions
 6. The way the text aligns with the music, the way text and the visuals sync what happens with what is said, and the overall "sync" is excellent.
 7. One of the best parts is ~02:21-02:27, where the word "LOSE" is bouncing around and dropping letters and it looks great. Another one is "your voice and mine" and "it's all one line" (both are around ~00:32-00:37) where the text and the visuals morph according to the lyrics. Last one is ~01:36-01:37 where one word (INSTRUCTIONS) is split into 3 parts/lines, and the fonts change VERY (feels like one-frame-per-font or something close) fast only at the first/top line, and then it "settles" on a font exactly when it's "sung", and then the fonts change for the second/middle line until it "settles", and then the third/bottom line - it looks cool.
 
-I'm Upping My P(Doom)
+## I'm Upping My P(Doom)
 1. The word "drop" at ~00:10 is presented PERFECTLY! The line starts horizontally and then turns vertical - it looks incredible.
 2. Some text, like the text that comes right after the "drop" mentioned above - "in your training loss" - looks 3D/2.5D and part of the "scene"/"background"/"landscape" instead of like subtitles/karaoke lyrics. It looks amazing.
 3. The text-art between ~00:38 to ~00:52 is SO GOOD! "We had a stable training run" starts as "wavy" as the graph/chart it shows, then turns flat and the words "singularity's begun" appear warped around a black hole, and the following line ("and you're optimizing, accelerating") appears even more circular and stretched, with the final (and best) part being the following line "I feel my atoms" shown as many dots/points/circles that rearrange into a paperclip shape while the word "rearranging" is sung - I love it.
 4. At ~01:34 the beginning/past of the text is fading/flying away up and to the left, while the the end/present is still being typed/written - I love it, as well.
 5. In addition to all these specific "best parts" listed above, it looks like a generational leap over our current version in ways I can't articulate/verbalize.
 
-LGTM (Looks Good To Me)
+## LGTM (Looks Good To Me)
 1. At ~01:13 the last word ("mocked") is made of animated dashed lines - I love it.
 2. The next line after "mocked" (~01:14) uses the word "vertical" in a similar-yet-opposite way to "drop" from I'm Upping My P(Doom) - I love it.
 3. At ~01:34 the line "the checks are all green" is made up of many tiny green checkmarks - I love it.
 4. The next line after "the checks are all green", "and nobody knows what any of it means" is a refreshing twist: the words start-out/appear clear, and then transform/morph into "less clear" versions (with symbols) after they're "done" - I love it.
 5. In addition to all these specific "best parts" listed above, it has >1.5M views in less than 3 weeks, so we can learn a lot from it and apply some of it.
 
+## Run It Again
+1. At ~00:20-00:22 the line "I knew every language, I knew every song" shows symbols (music notes, letters, characters, etc.) "flipping" before "settling in" as the lyrics - I love it.
+2. At ~00:49 the word "DOUBT" is "full of liquid" and then "depletes" - I love it.
+3. At ~01:21 the line "I took a slow breath that I didn't have" is presented in a very complex way: multiple fonts, multiple line-breaks, only the word "BREATH" is upper-case/capitalized and transforms, and all the letters move, but not in the same way/speed - I love it.
+4. In addition to all these specific "best parts" listed above, it looks like a generational leap over our current version in ways I can't articulate/verbalize, exactly like "I'm Upping My P(Doom)".
 
+## System Prompt (For Humans)
+Same as "Count Me In".
 
+## The End Of The Show
+Same as "Count Me In".
+
+## The Simulation's Ending
+Exactly like "I'm Upping My P(Doom)" and "Run It Again", it also looks like a generational leap over our current version in ways I can't articulate/verbalize. However, most of the "gaps" are similar to the ones I already described above, and I can't find anymore individual, specific ones.
+
+## The Way I Look At You
+Same as "Count Me In".
+
+## Thus Spoke Compute
+Same as "Count Me In".
