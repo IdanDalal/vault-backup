@@ -9,16 +9,18 @@ status: active
 
 Follows [[knowledge-cutoff-parity-notes-2026-10-25]]. Three research agents measured full5 against R1 (P(Doom)), R3 (Simulation's Ending), R4 (Run It Again) at 2 frames per second, by script, with the local Qwen worker reading frames and an eye check on 10-37 % of its labels. Reports: kc-engine `reports/p1-leap.md`, `p1-floor.md`, `p1-moments.md`.
 
-**In one line: our video moves as one rigid sheet at a crawl, keeps its words beside the picture, never rests or bursts, and its darks are grey where every reference tints them.**
+**In one line: our frame almost never travels (things move inside a still frame), our words sit beside the picture, the video never rests or bursts, and its darks were grey where every reference tints them.**
+
+**Correction (same day, leap.py v2):** the "x11 slower camera" in row 1 was a measuring artifact: the beat pulse counted as slow camera motion. Re-measured under one rule for every video, KC's camera speed when moving is 8.63 %W/s vs refs 9.0-11.9, and parts moving apart 66 % vs 61-79 %. The real camera gap is how often the whole frame travels (by eye on 8 samples each: refs 3-5 of 8, KC 0 of 8); a calibrated metric for it is being added (leap.py v3).
 
 ## The gaps, ranked
 
 | # | gap | KC (full5) | R1 / R3 / R4 | change (bible 16) |
 |---|---|---|---|---|
-| 1 | camera travel when moving (% frame width per second) | 0.66 | 7.4 / 8.1 / 8.3 | 1-2 decisive moves per phrase, on downbeats, holds between |
+| 1 | ~~camera travel when moving: 0.66 vs 7.4-8.3~~ (artifact, see correction) → how often the whole frame travels | 0 of 8 samples (eye) | 3-5 of 8 | 1-2 decisive whole-frame moves per phrase, on downbeats, holds between |
 | 2 | sung line on a plane, a path, or built from objects (labelled by eye, 1 frame per 2 s) | 11.7 % of lyric frames | 35.1 / 18.9 / 21.4 % | the line sits on the plate's own geometry in most plates |
 | 2b | letters mid-transformation (eye) | 2.1 % of lyric frames | 6.8-9.9 % | the 24 mapped techniques |
-| 3 | parts moving apart from the camera (parallax), in moving frames | 29 % | 56-59 % | every plate built as 3+ depth layers |
+| 3 | parts moving apart from the camera (parallax), in moving frames | ~~29 %~~ 66 % (v2) | 61-79 % (v2) | in range as measured; layers stay, since parallax needs frame travel to show |
 | 4 | frames holding a drawn picture | 22 % | 59 / 45 / 31 % | an object or scene in every set-up; paper plates filled edge to edge |
 | 5 | still holds of 2 s+ per minute / time in high-motion bursts | 0.31 / 1.3 % | 0.76-1.25 / 2.8-44 % | holds that release into bursts, one burst per chorus |
 | 6 | colour in the darks (saturation) | 0.12, neutral grey | 0.18 / 0.21 / 0.50, tinted to the accent | ink and panel lean amber/olive |
