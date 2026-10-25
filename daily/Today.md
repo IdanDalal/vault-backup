@@ -16,3 +16,9 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
+Stream-of-consciousness notes as I watch all 10 refs and then our v5:
+
+Count Me In - Not relevant to Knowledge Cutoff. Not our engine, not our style, not our standards.
+
+Ignore Previous Instructions
+1. Gorgeous, dynamic, coherent/consistent/congruent text-art, typography, calligraphy, and UI-vibes. The font
