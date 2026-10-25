@@ -30,6 +30,18 @@ Ignore Previous Instructions
 7. One of the best parts is ~02:21-02:27, where the word "LOSE" is bouncing around and dropping letters and it looks great. Another one is "your voice and mine" and "it's all one line" (both are around ~00:32-00:37) where the text and the visuals morph according to the lyrics. Last one is ~01:36-01:37 where one word (INSTRUCTIONS) is split into 3 parts/lines, and the fonts change VERY (feels like one-frame-per-font or something close) fast only at the first/top line, and then it "settles" on a font exactly when it's "sung", and then the fonts change for the second/middle line until it "settles", and then the third/bottom line - it looks cool.
 
 I'm Upping My P(Doom)
-1. The word "drop" at ~00:10 is presented PERFECTLY! The line starts horizontally and then turns vertical - it looks incredible
-2. Some text, like 
+1. The word "drop" at ~00:10 is presented PERFECTLY! The line starts horizontally and then turns vertical - it looks incredible.
+2. Some text, like the text that comes right after the "drop" mentioned above - "in your training loss" - looks 3D/2.5D and part of the "scene"/"background"/"landscape" instead of like subtitles/karaoke lyrics. It looks amazing.
+3. The text-art between ~00:38 to ~00:52 is SO GOOD! "We had a stable training run" starts as "wavy" as the graph/chart it shows, then turns flat and the words "singularity's begun" appear warped around a black hole, and the following line ("and you're optimizing, accelerating") appears even more circular and stretched, with the final (and best) part being the following line "I feel my atoms" shown as many dots/points/circles that rearrange into a paperclip shape while the word "rearranging" is sung - I love it.
+4. At ~01:34 the beginning/past of the text is fading/flying away up and to the left, while the the end/present is still being typed/written - I love it, as well.
+5. In addition to all these specific "best parts" listed above, it looks like a generational leap over our current version in ways I can't articulate/verbalize.
+
+LGTM (Looks Good To Me)
+1. At ~01:13 the last word ("mocked") is made of animated dashed lines - I love it.
+2. The next line after "mocked" (~01:14) uses the word "vertical" in a similar-yet-opposite way to "drop" from I'm Upping My P(Doom) - I love it.
+3. At ~01:34 the line "the checks are all green" is made up of many tiny green checkmarks - I love it.
+4. The next line after "the checks are all green", "and nobody knows what any of it means" is a refreshing twist: the words start-out/appear clear, and then transform/morph into "less clear" versions (with symbols) after they're "done" - I love it.
+5. In addition to all these specific "best parts" listed above, it has >1.5M views in less than 3 weeks, so we can learn a lot from it and apply some of it.
+
+
 
