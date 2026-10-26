@@ -21,18 +21,3 @@ I'm trying to watch a video in MPC-BE x64 and it's all choppy, and I assume it's
 
 https://www.snapyt.app
 
-https://www.youtube.com/watch?v=ew2F841iHAE
-
-https://www.youtube.com/watch?v=hIEB-X8RA2g
-
-https://www.youtube.com/watch?v=iceAeulTqtM
-
-https://www.youtube.com/watch?v=I-C0VLlUGI4
-
-https://www.youtube.com/watch?v=tbb3qzb55Kc
-
-https://www.youtube.com/watch?v=eejjXb-N0wE
-
-https://www.youtube.com/watch?v=KoyRtgRCvTQ
-
-https://www.youtube.com/watch?v=ZhtVyOEMBRw
