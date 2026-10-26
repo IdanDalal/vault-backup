@@ -15,4 +15,24 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+We hit the 5h usage limit again in the middle of the night while I was asleep. Continue now.
+
 I'm trying to watch a video in MPC-BE x64 and it's all choppy, and I assume it's because you're using my GPU right now. Save all progress and pause everything until my next prompt, which will be sent after I finish watching and contain only two letters: "Go".
+
+https://www.snapyt.app
+
+https://www.youtube.com/watch?v=ew2F841iHAE
+
+https://www.youtube.com/watch?v=hIEB-X8RA2g
+
+https://www.youtube.com/watch?v=iceAeulTqtM
+
+https://www.youtube.com/watch?v=I-C0VLlUGI4
+
+https://www.youtube.com/watch?v=tbb3qzb55Kc
+
+https://www.youtube.com/watch?v=eejjXb-N0wE
+
+https://www.youtube.com/watch?v=KoyRtgRCvTQ
+
+https://www.youtube.com/watch?v=ZhtVyOEMBRw
