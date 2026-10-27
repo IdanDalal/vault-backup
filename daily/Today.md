@@ -15,7 +15,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-
+full6 is MUCH better than any previous version, good job. It matches the 3 refs "ceiling-wise" - meaning, our best parts are as good as theirs. However, we're still far behind both "floor-wise" (our worst parts are BAD) and "gap/volatility-wise" (our mean/median level is pretty bad). I suggest we solve this with a "polish pass". We'll start in a new conversation, since this one is already >700k tokens deep, and squash/eliminate/minimize as many gaps/drops/weak points i 
 
 I'm trying to watch a video in MPC-BE x64 and it's all choppy, and I assume it's because you're using my GPU right now. Save all progress and pause everything until my next prompt, which will be sent after I finish watching and contain only two letters: "Go".
 
