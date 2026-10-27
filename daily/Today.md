@@ -15,6 +15,84 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+Solar Opposites 2020–2025
+
+Mythic Quest 2020–2025
+
+Vikingane 2016–2020
+
+BoJack Horseman 2014–2020
+
+Last Week Tonight with John Oliver 2014–
+
+Rick and Morty 2013–
+
+Brooklyn Nine-Nine 2013–2021
+
+Key and Peele 2012–2015
+
+New Girl 2011–2018
+
+Happy Endings 2011–2013
+
+Workaholics 2011–2017
+
+Modern Family 2009–2020
+
+Cougar Town 2009–2015
+
+Community 2009–2015
+
+Party Down 2009–2023
+
+The Big Bang Theory 2007–2019
+
+Californication 2007–2014
+
+30 Rock 2006–2013
+
+Everybody Hates Chris 2005–2009
+
+My Name Is Earl 2005–2009
+
+How I Met Your Mother 2005–2014
+
+The Office 2005–2013
+
+American Dad! 2005–
+
+Drawn Together 2004–2007
+
+Entourage 2004–2011
+
+Two and a Half Men 2003–2015
+
+Chappelle's Show 2003–2006
+
+Undeclared 2001–2003
+
+Curb Your Enthusiasm 2000–2024
+
+Futurama 1999–
+
+Family Guy 1999– 
+
+That '70s Show 1998–2006
+
+Whose Line Is It Anyway? 1998–2007
+
+South Park 1997– 
+
+Friends 1994–2004
+
+The Fresh Prince of Bel-Air 1990–1996
+
+The Simpsons 1989–
+
+Seinfeld 1989–1998
+
+Married... with Children 1987–1997
+
 
 
 I'm trying to watch a video in MPC-BE x64 and it's all choppy, and I assume it's because you're using my GPU right now. Save all progress and pause everything until my next prompt, which will be sent after I finish watching and contain only two letters: "Go".
