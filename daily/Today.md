@@ -15,7 +15,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-Everything stopped because we hit the 5h usage limit. It just reset, so you can now continue.
+
 
 Solar Opposites 2020–2025
 
