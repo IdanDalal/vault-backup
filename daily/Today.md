@@ -15,6 +15,8 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+Commissar
+Tesla Trooper
 
 
 Solar Opposites 2020–2025
