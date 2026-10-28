@@ -17,6 +17,8 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 Commissar
 Tesla Trooper
+Blaster?
+Brigand?
 
 Arc Bowcaster
 High Caliber Pistol (UPGRADE)
@@ -25,7 +27,7 @@ MQ 11 (RE2)
 Carbines
 N7
 
-Basic Immolator >200
+Basic Immolator >200 ?
 
 
 Solar Opposites 2020–2025
