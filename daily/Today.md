@@ -15,9 +15,8 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-Basic Immolator >200 ?
 
-Let's continue working on the XCOM project (D:\work\vault\projects\XCOM). I disabled >50 mods (including some of the largest/heaviest ones), subscribed to ~17 new mods, and now I wanna start a new campaign. I need your help with more Amalgamation class combo filtering We're aiming for "weapon slot optimization" - meaning, a sword-carrying primary class should ONLY combine with a sword-carrying secondary, and vice-versa. Same for pistols. Same for the specific/narrow Burner secondary and Firebug or Heavy Tertiaries: they should ONLY appear together, since they're all gauntlet-carrying. The Artisan tertiary is Gremlin-carrying, so it should ONLY combine with other Gremlin-carrying secondaries. The Cannon-carrying primaries (Gunner, SAW Gunner, Harbinger, etc.) should only combine with Cannon-carrying secondaries like Siege Gunner. Same for shields - Vengeance 2.0 and other shield-carrying secondaries should ONLY combine with Aegis Defender or other shield-carrying tertiaries. Also, Disable the Commissar tertiary entirely - it's not a separate/individual mod I can toggle off/unsubscribe to.
+
 
 
 Rick and Morty 2013–
