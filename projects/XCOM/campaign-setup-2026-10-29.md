@@ -68,7 +68,18 @@ Per spec, cards before -> after:
 
 ## 4. 200+ Basic Immolators
 
-(pending agent findings)
+Cause (high confidence on the flag, medium-high on the trigger):
+
+- Immolator Overhaul 2237137501 ships `Config/Compatibility/XComStrategyTuning.ini:2` `+arrMakeItemBuildable=(ItemName="MZImmolator_CV")`.
+- Prototype Armoury 2567230602 applies it every launch: `PATemplateMods.uc:111-113` sets `CanBeBuilt=true`, `bInfiniteItem=false`. The base Immolator mod 1918448514 defines it infinite + starting item (`X2Weapon_Immolator.uc:110-112`). Config subfolders do load (Amalgamation's Sentinel lives in `Config\Tertiary\` and plays in game).
+- Five chemthrower primaries (Desolator, Paramedic, Pioneer, Salamander, Toxicologist) use it as squaddie weapon. A finite squaddie weapon gets re-created by the Highlander loadout validation whenever a chemthrower soldier's primary slot is emptied; the old one returns too, so HQ gains one per soldier per strip.
+- Triggers (agent's trace, `UIArmory_Loadout.uc:445-511`): "Make weapons available" in the Armory, robojumper Unequip Squad / Unequip Barracks. Plain locker swaps add nothing. None of this week's 17 new mods creates items; Dont Unequip reduces triggers.
+
+Fix installed: jepFixes `XComStrategyTuning.ini` (config name matches `PATemplateMods` config(StrategyTuning)): `-arrMakeItemBuildable=(ItemName="MZImmolator_CV")`, byte copy of the source line. Effect: Basic Immolator infinite again, no longer buildable or sellable (it costs nothing anyway).
+
+- The old 200+ stack lives in the old save only; the new campaign starts clean.
+- Probe: Engineering / Build Items no longer lists Basic Immolator; HQ inventory shows it as infinite. Repro on a throwaway save (agent report): note the count, "Make weapons available" on a non-chemthrower soldier, leave the screen; count should stay put.
+- Agent report (full trace): job tmp `immolator_report.md`, copied to `research-2026-10-29-immolator.md`.
 
 ## Not done
 
