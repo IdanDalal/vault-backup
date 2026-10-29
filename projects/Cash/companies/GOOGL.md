@@ -8,7 +8,7 @@ earmark_pct: 2
 earmark_for: "Anthropic"
 status: active
 shares: 8
-last_price: 320.58
+last_price: 324.89
 conviction: "Full-stack (TPUs \u2192 models); Anthropic stakeholder; converts at ~Oct 2026 IPO"
 cut_reason: ""
 reentry_trigger: ""
