@@ -70,3 +70,9 @@ On a 50-card offer, about 9 are sniper cards; about 4.5 of those are the four st
 | P2 | release holotargeter + rocket for snipers (unlisted ranged gear) | adds back 4 | 0 | optional |
 
 - R2 and R8 (passives and healing only "in harmony") are judgment calls; a pair rule cannot see harmony, and the only mechanical form (passive tertiary with a weapon-less secondary) is already banned by the 09-16 R1: 0 cards left to cut.
+
+## Weapon slot optimization, 2026-10-29 (Idi's word, installed)
+
+- W1 sword P <-> sword S; W2 pistol P <-> pistol S (Ironclad allowed under pistol primaries; P1c DisableClass list removed, W2 is wider, so the GTS open item above is moot); W3 Burner <-> Heavy, SkvFirebug; W4 gremlin tertiary (SkvArtisan, HareModernPirate) -> gremlin S; W5 cannon P -> SkvSiegeGunner; W6 shield S <-> shield T (AegisDefender, Riot, SwordMaster); Commissar off by self-pair.
+- 300 pairs + 106 byte-copied author-ban releases (73 pairs). Deck 1,888 -> 1,497. Gone: Ravager, Savage, Brigand, SkvRaider, SwordMaster (empty tertiary intersections), Commissar.
+- Full table, receipts and probes: `campaign-setup-2026-10-29.md`. Tools: `amalgamation-tools/slotrule.py`, `release.py`, `sim.py`.
