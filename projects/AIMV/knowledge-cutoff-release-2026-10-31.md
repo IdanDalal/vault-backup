@@ -140,6 +140,19 @@ Use the attached image as the exact layout and typography. Make a polished 16:9 
 ```
 Risks: AI image models can garble lettering, and Gemini images may carry a visible watermark (unverified for Idi's tier). Check letters by eye before using.
 
+Idi 20:35: tilt = "a perfect foundation"; add descriptive text in the blank bands; A1-A3 avatars rejected ("generic, boring, flat"); wants a visual pun fusing music and computation.
+
+Logo concepts, `release\logo\` (preview `preview-logos.jpg`, circles at 160/88/48 px):
+- A4 neural chords: a beamed group on a staff; each chord is a network layer (2-4-4-1 noteheads), every note wired to every note of the next chord; the last single note is the output, the next token, sung.
+- A5 circuit clef: the staff lines are circuit traces leaving a treble clef and ending in solder pads that rise like an arpeggio; two diagonal jumpers route the signal up the staff.
+
+Thumbnail v3 (credit band "CLAUDE OPUS 5.5 x MINIMAX MUSIC 3" on top; logo + CHORUS OF MINDS bottom-left; bottom-right clear for YouTube's duration badge): `thumbv2\thumb-T1v3-A4-neural-chords` and `thumb-T1v3-A5-circuit-clef` (png + jpg).
+
+Optional Nano Banana Pro logo prompt (for a more illustrated take on A4):
+```
+A circular channel logo, flat vector, bright yellow (#FFD600) on near-black. A short beamed group of musical notes on a five-line staff, where each chord is a layer of a neural network: stacked round noteheads act as neurons, and thin lines connect every note to every note in the next chord, like a neural network diagram. The last chord is a single larger note. Clean geometric linework, subtle yellow glow, centered, readable at small sizes, no text, no letters.
+```
+
 ## 6. Vertical clips (Shorts, TikTok, Reels; all under 30 s)
 
 | clip | span | kicker line on screen |
