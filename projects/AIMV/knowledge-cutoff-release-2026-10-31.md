@@ -51,7 +51,7 @@ Setup steps (Idi's clicks, his Google account):
 1. youtube.com, signed in: avatar (top right), Settings, "Create a new channel". This makes a separate channel with its own name, apart from the personal account.
 2. Name `Chorus of Minds`, handle `@chorusofminds`.
 3. Verify the phone number (youtube.com/verify). Custom thumbnails stay locked until this is done.
-4. YouTube Studio, Customization: Profile = avatar-800.png, Banner = banner-2560x1440.png, Description = the text above.
+4. YouTube Studio, Customization: Profile = `UPLOAD\avatar.png`, Banner = `UPLOAD\banner.png`, Description = the text above.
 5. Upload (section 4) when jep says the file is verified.
 
 ## 2. Title (jep pick first)
@@ -154,6 +154,10 @@ Thumbnail v4, artistic fonts for name + credit, center untouched (`thumbv2\thumb
 - S1 concert: Cinzel Decorative (Roman inscription capitals) + Cormorant Garamond italic credit
 - S2 hymnal: UnifrakturMaguntia blackletter + Newsreader italic (the video's own serif)
 - S3 poster: Playfair Display Black Italic + Playfair italic
+
+**Thumbnail ruled: S1 concert** (Idi 2026-10-31). Idi caught the center sitting low (measured: ink 235-581, mid 408 vs 360; jep had nudged it down before the bands existed). Fix, one rule: mirror around the horizontal center. Final `thumbv2\thumb-T1v5-S1-concert` measured: credit ink mid 84.5 px from top, lockup mid 84.0 px from bottom, center ink 187-534 (mid 360.5, frame 360). Banner v2 (A4 + Cinzel name + italic tagline) centered in the safe area: logo mid 720 vs safe mid 719.5.
+
+**UPLOAD folder (final):** `thumbnail.jpg`, `avatar.png` (A4), `banner.png` (v2), `knowledge-cutoff.en.srt`; the 4K video joins after checks.
 
 Optional Nano Banana Pro logo prompt (for a more illustrated take on A4):
 ```
