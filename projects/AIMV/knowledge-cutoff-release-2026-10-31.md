@@ -148,6 +148,13 @@ Logo concepts, `release\logo\` (preview `preview-logos.jpg`, circles at 160/88/4
 
 Thumbnail v3 (credit band "CLAUDE OPUS 5.5 x MINIMAX MUSIC 3" on top; logo + CHORUS OF MINDS bottom-left; bottom-right clear for YouTube's duration badge): `thumbv2\thumb-T1v3-A4-neural-chords` and `thumb-T1v3-A5-circuit-clef` (png + jpg).
 
+**Logo ruled: A4 neural chords** (Idi 2026-10-31, "A4 is perfect"). Avatar = `release\logo\A4-neural-chords.png`, no text inside (YouTube shows it at 24-48 px beside the name); the name goes in lockups (banner, thumbnail corner).
+
+Thumbnail v4, artistic fonts for name + credit, center untouched (`thumbv2\thumb-T1v4-*`; fonts OFL from the Google Fonts repo, `release\fonts-dl\`):
+- S1 concert: Cinzel Decorative (Roman inscription capitals) + Cormorant Garamond italic credit
+- S2 hymnal: UnifrakturMaguntia blackletter + Newsreader italic (the video's own serif)
+- S3 poster: Playfair Display Black Italic + Playfair italic
+
 Optional Nano Banana Pro logo prompt (for a more illustrated take on A4):
 ```
 A circular channel logo, flat vector, bright yellow (#FFD600) on near-black. A short beamed group of musical notes on a five-line staff, where each chord is a layer of a neural network: stacked round noteheads act as neurons, and thin lines connect every note to every note in the next chord, like a neural network diagram. The last chord is a single larger note. Clean geometric linework, subtle yellow glow, centered, readable at small sizes, no text, no letters.
