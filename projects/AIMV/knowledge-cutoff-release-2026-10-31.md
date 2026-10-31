@@ -132,6 +132,14 @@ Lyrics: turn on captions (CC).
 | T3 | "scored" letter arch over the keeper | `thumbs\c-72.3.png` | partly: best craft, small words |
 | T4 | stadium, MILLIONS | `thumbs\c-25.5.png` | partly |
 
+Idi picked T1 (2026-10-31). Polished rebuild from the video's own fonts and yellow, `release\thumbv2\`: `thumb-T1v2-straight` and `thumb-T1v2-tilt` (png + jpg, 1280x720), preview `preview-sheet.jpg`. Avatar options in the same folder: A1 chorus carets (five typing carets = five voices, also a level meter), A2 `CM`, A3 `CoM`.
+
+Optional Nano Banana Pro variant (Idi in the Gemini app; attach `thumb-T1v2-tilt.png`):
+```
+Use the attached image as the exact layout and typography. Make a polished 16:9 YouTube thumbnail, 1280x720. Keep the two words exactly as written: "KNOWLEDGE" in white, "CUT-OFF!" in bold yellow (#FFD600) inside a yellow outlined stamp box, tilted slightly. A thin bright line slices diagonally through "CUT-OFF!" and the upper half of the letters is shifted along the cut. Near-black background with a faint perspective grid floor fading into darkness, subtle film grain, soft yellow glow. Flat motion-graphics style, no people, no logos, no extra text.
+```
+Risks: AI image models can garble lettering, and Gemini images may carry a visible watermark (unverified for Idi's tier). Check letters by eye before using.
+
 ## 6. Vertical clips (Shorts, TikTok, Reels; all under 30 s)
 
 | clip | span | kicker line on screen |
