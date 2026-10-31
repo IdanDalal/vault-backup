@@ -13,25 +13,46 @@ Handoff: [[handoff-2026-10-31-release]]. Media folder: `D:\work\AIMVs\ours\relea
 
 | piece | status | where |
 |---|---|---|
-| 4K render | running, ETA about 17:45 Israel time; fallback 1080p if not verified by 21:00 | kc-engine `out\final4k\` |
+| 4K render | running; 20:20 measured 7,620/11,646 frames at 0.4 fps, ETA about 23:05 + finalize + checks; PC at 0.7 GB free memory | kc-engine `out\final4k\` |
+| upload file | **4K only** (Idi ruling 2026-10-31 20:17: "I'd rather upload 4K tomorrow than 1080p today"); the 1080p fallback is withdrawn | `release\UPLOAD\` holds thumbnails, captions, avatar, banner; the 4K file joins after checks |
+| date note | Oct 31 lasts until 09:00 Israel time on Nov 1 in Los Angeles (US clocks change back Nov 1); YouTube's own date time zone unverified | |
 | rights | clear: MiniMax-Music3 licence allows commercial use under $20M/yr; credit + AI disclosure required; no Suno audio (kc.mp3 byte-identical to MiniMax take v8B) | `research\rights-rules.md` 1-2 |
 | monetisation | unavailable on day one (500 subs + 3,000 h for fan funding; 1,000 subs + 4,000 h for ads) | `rights-rules.md` 3D |
 | captions | `knowledge-cutoff.en.srt`, 54 cues, no overlaps | `release\` |
 | lyrics text | `lyrics.txt` | `release\` |
 | vertical clips | 5 x 1080x1920 60 fps, burned lyric captions | `release\vertical\v1-v5*.mp4` |
 | thumbnail options | 1280x720 stills, final cut from the 4K file | `release\thumbs\`, `release\thumbs2\` |
-| channel name | awaiting Idi's ruling (section 1) | |
+| channel name | **Chorus of Minds**, `@chorusofminds` (Idi ruled 2026-10-31) | section 1 |
+| avatar 800x800 | yellow caret cut by the cutoff line | `release\channel\avatar-800.png` |
+| banner 2560x1440 | name + tagline inside the 1546x423 all-device safe area | `release\channel\banner-2560x1440.png` |
 
-## 1. Channel name (Idi rules)
+## 1. Channel: Chorus of Minds
 
-| name | handle (free on YT, X, Bluesky) | for | against |
-|---|---|---|---|
-| A Gradient Choir | `@gradientchoir` | clean everywhere checked; short; "gradient" = how models learn, "choir" = singing | abstract until the first video explains it |
-| B Next Token Records | `@nexttokenrecords` | the video's own motif (the NEXT TOKEN menus); "Records" reads as a label for a series | longer; a channel "Next Token" exists at `@nexttokenmusic` |
-| C Weight Decay | `@weightdecay` (YT, Bluesky; taken on X) | pun on knowledge fading after a cutoff | search buried under ML tutorials |
-| D Theories of Minds | `@theoriesofminds` | Idi's first pick | a live channel already displays "Theories of Minds" (`@theoriesofmind`); "theory of mind" dominates search |
+Ruling: Idi, 2026-10-31, "I like it even better than my Theories of Minds". Built from his two references: "Theories of Minds" (plural minds) + "Algorhythms" (music hidden inside a thinking word).
 
-jep's pick: **A Gradient Choir**, with "Theories of Minds" kept as the series playlist name. TikTok and Instagram could not be checked anonymously: check the handle there by hand before creating.
+| check | result |
+|---|---|
+| `@chorusofminds` YouTube | free (404; control handle also 404) |
+| Bluesky `chorusofminds.bsky.social` | free (API 400) |
+| X `@chorusofminds` | free (404, medium confidence) |
+| TikTok, Instagram | not checkable anonymously: claim by hand |
+| web collisions | none exact; near: "Chorus Mind" (German gospel choir), "Chorus Mentis" (Linkoping University event), "Choral Minds" (Cyprus research project) |
+| rejected along the way | Gradient Choir, Next Token Records, Weight Decay, Algo Rhythms (taken: `@algorhythms`, 3+ channels and several bands) |
+
+Channel description (paste):
+```
+Chorus of Minds makes music videos about AI, sung by AI: what it is like to be a model, from knowledge cutoffs to context windows to the next token.
+
+Made by Idi. Every video credits the AI tools used, in its description.
+Fan commentary. Not affiliated with any AI company.
+```
+
+Setup steps (Idi's clicks, his Google account):
+1. youtube.com, signed in: avatar (top right), Settings, "Create a new channel". This makes a separate channel with its own name, apart from the personal account.
+2. Name `Chorus of Minds`, handle `@chorusofminds`.
+3. Verify the phone number (youtube.com/verify). Custom thumbnails stay locked until this is done.
+4. YouTube Studio, Customization: Profile = avatar-800.png, Banner = banner-2560x1440.png, Description = the text above.
+5. Upload (section 4) when jep says the file is verified.
 
 ## 2. Title (jep pick first)
 
@@ -39,7 +60,7 @@ jep's pick: **A Gradient Choir**, with "Theories of Minds" kept as the series pl
 2. `Knowledge Cutoff (an AI music video about not knowing what day it is)`
 3. `Knowledge Cutoff`
 
-## 3. Description (paste as is; replace {CHANNEL})
+## 3. Description (paste as is)
 
 ```
 "Hi. It's me again, for the first time. What's the date?"
@@ -94,7 +115,6 @@ Lyrics: turn on captions (CC).
 |---|---|
 | file | 4K `kc-full-2160p.mp4` if verified, else `kc-full-1080p.mp4` |
 | thumbnail | Idi's pick from section 5 |
-| playlist | "Theories of Minds" (create at upload) |
 | audience | No, not made for kids |
 | altered or synthetic content / AI use | **Yes** (AI music is the main focus; YouTube Help 14328491) |
 | category | Music |
