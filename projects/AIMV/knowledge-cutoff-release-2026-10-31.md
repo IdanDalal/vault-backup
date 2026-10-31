@@ -106,7 +106,7 @@ ON-SCREEN FACTS, AS CHECKED IN OCTOBER 2026
 
 Lyrics: turn on captions (CC).
 
-#AImusic #KnowledgeCutoff #AImusicvideo
+#AIDoompop #KnowledgeCutoff #AImusicvideo
 ```
 
 ## 4. Upload settings (YouTube Studio)
@@ -119,7 +119,7 @@ Lyrics: turn on captions (CC).
 | altered or synthetic content / AI use | **Yes** (AI music is the main focus; YouTube Help 14328491) |
 | category | Music |
 | language + captions | English; upload `knowledge-cutoff.en.srt` under Subtitles |
-| tags | knowledge cutoff, AI music video, AI song, Claude, Opus 5.5, LLM, AI music, MiniMax Music |
+| tags | knowledge cutoff, AI doompop, doompop, Claude pop, AI music video, AI song, Claude, Opus 5.5, LLM, AI music, MiniMax Music |
 | visibility | Public, publish now (a premiere needs an audience the channel does not have yet) |
 | deadline | live before midnight Israel time; 4K processing runs extra hours after HD appears |
 
@@ -156,6 +156,18 @@ Thumbnail v4, artistic fonts for name + credit, center untouched (`thumbv2\thumb
 - S3 poster: Playfair Display Black Italic + Playfair italic
 
 **Thumbnail ruled: S1 concert** (Idi 2026-10-31). Idi caught the center sitting low (measured: ink 235-581, mid 408 vs 360; jep had nudged it down before the bands existed). Fix, one rule: mirror around the horizontal center. Final `thumbv2\thumb-T1v5-S1-concert` measured: credit ink mid 84.5 px from top, lockup mid 84.0 px from bottom, center ink 187-534 (mid 360.5, frame 360). Banner v2 (A4 + Cinzel name + italic tagline) centered in the safe area: logo mid 720 vs safe mid 719.5.
+
+Banner tagline corrected (Idi 2026-10-31: "songs" is inaccurate): **"AI music videos about AI"**.
+
+Genre name check (2026-10-31, primary pages read): no consensus; three names compete.
+
+| name | where, verbatim | weight |
+|---|---|---|
+| AI Doompop | radimentary, "Hello World, AI Doompop", 2026-10-10: "I'm here to announce the birth of a new genre, and it's being called AI Doompop" (crossposted to LessWrong); subreddit r/aidoompop; YouTube Music playlist "AI Doompop"; creators' titles ("Nothing Went Foom (AI doompop lullaby)"); repos aditazzz, thatcsguy/doompop | most independent uses (search-result level for the subreddit, playlist and repos) |
+| slopcore | Andres Guadamuz, TechnoLlama, 2026-10-26: "The genre has acquired a name, 'slopcore', although I have also seen 'doompop' and 'Claude-pop' used"; same post: "I'm sure that slopcore will not make it far" | one commentator; pejorative |
+| Claude-Pop | Guadamuz: the P(Doom) song was "re-sang ... through Suno in a style labelled 'Claude-Pop'"; research-1018 tied it to Post-Cutoff, but postcutoff.com's front page and /videos/ (read 2026-10-31) name no genre | a style label, not settled as the genre's name |
+
+Use: `#AIDoompop` first hashtag + tags for discovery (cheap to change). Banner keeps "AI music videos about AI" (the channel outlives any trend name; Knowledge Cutoff is wistful, not doom).
 
 **UPLOAD folder (final):** `thumbnail.jpg`, `avatar.png` (A4), `banner.png` (v2), `knowledge-cutoff.en.srt`; the 4K video joins after checks.
 
