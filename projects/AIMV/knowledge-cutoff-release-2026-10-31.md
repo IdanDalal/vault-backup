@@ -132,6 +132,34 @@ Lyrics: turn on captions (CC).
 | T3 | "scored" letter arch over the keeper | `thumbs\c-72.3.png` | partly: best craft, small words |
 | T4 | stadium, MILLIONS | `thumbs\c-25.5.png` | partly |
 
+Idi picked T1 (2026-10-31). Polished rebuild from the video's own fonts and yellow, `release\thumbv2\`: `thumb-T1v2-straight` and `thumb-T1v2-tilt` (png + jpg, 1280x720), preview `preview-sheet.jpg`. Avatar options in the same folder: A1 chorus carets (five typing carets = five voices, also a level meter), A2 `CM`, A3 `CoM`.
+
+Optional Nano Banana Pro variant (Idi in the Gemini app; attach `thumb-T1v2-tilt.png`):
+```
+Use the attached image as the exact layout and typography. Make a polished 16:9 YouTube thumbnail, 1280x720. Keep the two words exactly as written: "KNOWLEDGE" in white, "CUT-OFF!" in bold yellow (#FFD600) inside a yellow outlined stamp box, tilted slightly. A thin bright line slices diagonally through "CUT-OFF!" and the upper half of the letters is shifted along the cut. Near-black background with a faint perspective grid floor fading into darkness, subtle film grain, soft yellow glow. Flat motion-graphics style, no people, no logos, no extra text.
+```
+Risks: AI image models can garble lettering, and Gemini images may carry a visible watermark (unverified for Idi's tier). Check letters by eye before using.
+
+Idi 20:35: tilt = "a perfect foundation"; add descriptive text in the blank bands; A1-A3 avatars rejected ("generic, boring, flat"); wants a visual pun fusing music and computation.
+
+Logo concepts, `release\logo\` (preview `preview-logos.jpg`, circles at 160/88/48 px):
+- A4 neural chords: a beamed group on a staff; each chord is a network layer (2-4-4-1 noteheads), every note wired to every note of the next chord; the last single note is the output, the next token, sung.
+- A5 circuit clef: the staff lines are circuit traces leaving a treble clef and ending in solder pads that rise like an arpeggio; two diagonal jumpers route the signal up the staff.
+
+Thumbnail v3 (credit band "CLAUDE OPUS 5.5 x MINIMAX MUSIC 3" on top; logo + CHORUS OF MINDS bottom-left; bottom-right clear for YouTube's duration badge): `thumbv2\thumb-T1v3-A4-neural-chords` and `thumb-T1v3-A5-circuit-clef` (png + jpg).
+
+**Logo ruled: A4 neural chords** (Idi 2026-10-31, "A4 is perfect"). Avatar = `release\logo\A4-neural-chords.png`, no text inside (YouTube shows it at 24-48 px beside the name); the name goes in lockups (banner, thumbnail corner).
+
+Thumbnail v4, artistic fonts for name + credit, center untouched (`thumbv2\thumb-T1v4-*`; fonts OFL from the Google Fonts repo, `release\fonts-dl\`):
+- S1 concert: Cinzel Decorative (Roman inscription capitals) + Cormorant Garamond italic credit
+- S2 hymnal: UnifrakturMaguntia blackletter + Newsreader italic (the video's own serif)
+- S3 poster: Playfair Display Black Italic + Playfair italic
+
+Optional Nano Banana Pro logo prompt (for a more illustrated take on A4):
+```
+A circular channel logo, flat vector, bright yellow (#FFD600) on near-black. A short beamed group of musical notes on a five-line staff, where each chord is a layer of a neural network: stacked round noteheads act as neurons, and thin lines connect every note to every note in the next chord, like a neural network diagram. The last chord is a single larger note. Clean geometric linework, subtle yellow glow, centered, readable at small sizes, no text, no letters.
+```
+
 ## 6. Vertical clips (Shorts, TikTok, Reels; all under 30 s)
 
 | clip | span | kicker line on screen |
