@@ -16,7 +16,7 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 
-
+It's the last day of October. If Knowledge Cutoff is released/uploaded/shared tomorrow, it'll be outdated. Therefore, were doing it today. Now. First, generate in 4K, then let's spend the rendering time working on the distribution. I'm thinking we could brainstorm a name (my first suggestion: "Theories of Minds"), and then create a channels/page on all popular social media platforms (YouTube)
 
 
 Rick and Morty 2013–
