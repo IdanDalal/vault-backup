@@ -13,7 +13,9 @@ Handoff: [[handoff-2026-10-31-release]]. Media folder: `D:\work\AIMVs\ours\relea
 
 | piece | status | where |
 |---|---|---|
-| 4K render | running, ETA about 17:45 Israel time; fallback 1080p if not verified by 21:00 | kc-engine `out\final4k\` |
+| 4K render | running; 20:20 measured 7,620/11,646 frames at 0.4 fps, ETA about 23:05 + finalize + checks; PC at 0.7 GB free memory | kc-engine `out\final4k\` |
+| upload file | **4K only** (Idi ruling 2026-10-31 20:17: "I'd rather upload 4K tomorrow than 1080p today"); the 1080p fallback is withdrawn | `release\UPLOAD\` holds thumbnails, captions, avatar, banner; the 4K file joins after checks |
+| date note | Oct 31 lasts until 09:00 Israel time on Nov 1 in Los Angeles (US clocks change back Nov 1); YouTube's own date time zone unverified | |
 | rights | clear: MiniMax-Music3 licence allows commercial use under $20M/yr; credit + AI disclosure required; no Suno audio (kc.mp3 byte-identical to MiniMax take v8B) | `research\rights-rules.md` 1-2 |
 | monetisation | unavailable on day one (500 subs + 3,000 h for fan funding; 1,000 subs + 4,000 h for ads) | `rights-rules.md` 3D |
 | captions | `knowledge-cutoff.en.srt`, 54 cues, no overlaps | `release\` |
