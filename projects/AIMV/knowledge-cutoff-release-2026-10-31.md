@@ -11,20 +11,20 @@ Handoff: [[handoff-2026-10-31-release]]. Media folder: `D:\work\AIMVs\ours\relea
 
 ## 0. State
 
-| piece | status | where |
-|---|---|---|
-| 4K render | running; 20:20 measured 7,620/11,646 frames at 0.4 fps, ETA about 23:05 + finalize + checks; PC at 0.7 GB free memory | kc-engine `out\final4k\` |
-| upload file | **4K only** (Idi ruling 2026-10-31 20:17: "I'd rather upload 4K tomorrow than 1080p today"); the 1080p fallback is withdrawn | `release\UPLOAD\` holds thumbnails, captions, avatar, banner; the 4K file joins after checks |
-| date note | Oct 31 lasts until 09:00 Israel time on Nov 1 in Los Angeles (US clocks change back Nov 1); YouTube's own date time zone unverified | |
-| rights | clear: MiniMax-Music3 licence allows commercial use under $20M/yr; credit + AI disclosure required; no Suno audio (kc.mp3 byte-identical to MiniMax take v8B) | `research\rights-rules.md` 1-2 |
-| monetisation | unavailable on day one (500 subs + 3,000 h for fan funding; 1,000 subs + 4,000 h for ads) | `rights-rules.md` 3D |
-| captions | `knowledge-cutoff.en.srt`, 54 cues, no overlaps | `release\` |
-| lyrics text | `lyrics.txt` | `release\` |
-| vertical clips | 5 x 1080x1920 60 fps, burned lyric captions | `release\vertical\v1-v5*.mp4` |
-| thumbnail options | 1280x720 stills, final cut from the 4K file | `release\thumbs\`, `release\thumbs2\` |
-| channel name | **Chorus of Minds**, `@chorusofminds` (Idi ruled 2026-10-31) | section 1 |
-| avatar 800x800 | yellow caret cut by the cutoff line | `release\channel\avatar-800.png` |
-| banner 2560x1440 | name + tagline inside the 1546x423 all-device safe area | `release\channel\banner-2560x1440.png` |
+| piece             | status                                                                                                                                                        | where                                                                                        |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 4K render         | DONE 2026-11-01: render failed at 23:34, repaired (recovered frames + 4K tail render), verified                                                               | `UPLOAD\knowledge-cutoff-2160p.mp4` (13.6 GB)                                                |
+| upload file       | **4K only** (Idi ruling 2026-10-31 20:17: "I'd rather upload 4K tomorrow than 1080p today"); the 1080p fallback is withdrawn                                  | `release\UPLOAD\` holds thumbnails, captions, avatar, banner; the 4K file joins after checks |
+| date note         | Oct 31 lasts until 09:00 Israel time on Nov 1 in Los Angeles (US clocks change back Nov 1); YouTube's own date time zone unverified                           |                                                                                              |
+| rights            | clear: MiniMax-Music3 licence allows commercial use under $20M/yr; credit + AI disclosure required; no Suno audio (kc.mp3 byte-identical to MiniMax take v8B) | `research\rights-rules.md` 1-2                                                               |
+| monetisation      | unavailable on day one (500 subs + 3,000 h for fan funding; 1,000 subs + 4,000 h for ads)                                                                     | `rights-rules.md` 3D                                                                         |
+| captions          | `knowledge-cutoff.en.srt`, 54 cues, no overlaps                                                                                                               | `release\`                                                                                   |
+| lyrics text       | `lyrics.txt`                                                                                                                                                  | `release\`                                                                                   |
+| vertical clips    | 5 x 1080x1920 60 fps, burned lyric captions                                                                                                                   | `release\vertical\v1-v5*.mp4`                                                                |
+| thumbnail options | 1280x720 stills, final cut from the 4K file                                                                                                                   | `release\thumbs\`, `release\thumbs2\`                                                        |
+| channel name      | **Chorus of Minds**, `@chorusofminds` (Idi ruled 2026-10-31)                                                                                                  | section 1                                                                                    |
+| avatar 800x800    | A4 neural chords (ruled)                                                                                                                                      | `UPLOAD\avatar.png`                                                                          |
+| banner 2560x1440  | v2: A4 + Cinzel name + "AI music videos about AI", inside the 1546x423 safe area                                                                              | `UPLOAD\banner.png`                                                                          |
 
 ## 1. Channel: Chorus of Minds
 
@@ -56,7 +56,7 @@ Setup steps (Idi's clicks, his Google account):
 
 ## 2. Title (jep pick first)
 
-1. `Knowledge Cutoff | an AI sings about everything it missed`
+1. `Knowledge Cutoff | Claude Opus 5.5 + MiniMax Music 3`
 2. `Knowledge Cutoff (an AI music video about not knowing what day it is)`
 3. `Knowledge Cutoff`
 
@@ -113,15 +113,15 @@ Lyrics: turn on captions (CC).
 
 | field | value |
 |---|---|
-| file | 4K `kc-full-2160p.mp4` if verified, else `kc-full-1080p.mp4` |
-| thumbnail | Idi's pick from section 5 |
+| file | `UPLOAD\knowledge-cutoff-2160p.mp4` (4K only; verified 2026-11-01) |
+| thumbnail | `UPLOAD\thumbnail.jpg` (B2-echo Y, ruled 2026-11-01) |
 | audience | No, not made for kids |
 | altered or synthetic content / AI use | **Yes** (AI music is the main focus; YouTube Help 14328491) |
 | category | Music |
 | language + captions | English; upload `knowledge-cutoff.en.srt` under Subtitles |
 | tags | knowledge cutoff, AI doompop, doompop, Claude pop, AI music video, AI song, Claude, Opus 5.5, LLM, AI music, MiniMax Music |
 | visibility | Public, publish now (a premiere needs an audience the channel does not have yet) |
-| deadline | live before midnight Israel time; 4K processing runs extra hours after HD appears |
+| processing | HD appears first; 4K processing runs extra hours after |
 
 ## 5. Thumbnail options (1280x720, phone shows them about 168 px wide)
 
@@ -161,6 +161,8 @@ Thumbnail v6, depth layers (Idi 2026-11-01 picked option B, depth layers from th
 
 **Thumbnail ruled: B2-echo** (Idi 2026-11-01, "I like B2 the most"), with two changes on his word: the T-to-hyphen gap closed (the slice moves the T crossbar 22 px left; CUT and -OFF! now drawn 20 px closer, measured gaps T-hyphen 34 -> 14 px, hyphen-O 16 px) and "Chorus of Minds" in yellow (his rule: white above the cut line, yellow below). Final `thumbv6\thumb-T1v6-B2-echo.jpg` = `UPLOAD\thumbnail.jpg`; previous S1 kept at `thumbv2\thumb-T1v5-S1-concert.jpg`. Title center ink 187-534, credit and lockup 84.0 px from their edges.
 
+**Thumbnail final: B2-echo Y** (Idi 2026-11-01): the credit line's x turned white (white above the cut); test of white above the cut inside the stamp (W1 letters, W2 letters + outline) rejected, Idi picked Y. Production on Knowledge Cutoff closed by Idi 2026-11-01. Upload steps: [[kc-upload-checklist-2026-11-01]].
+
 Banner tagline corrected (Idi 2026-10-31: "songs" is inaccurate): **"AI music videos about AI"**.
 
 Genre name check (2026-10-31, primary pages read): no consensus; three names compete.
@@ -173,7 +175,7 @@ Genre name check (2026-10-31, primary pages read): no consensus; three names com
 
 Use: `#AIDoompop` first hashtag + tags for discovery (cheap to change). Banner keeps "AI music videos about AI" (the channel outlives any trend name; Knowledge Cutoff is wistful, not doom).
 
-**UPLOAD folder (final):** `thumbnail.jpg`, `avatar.png` (A4), `banner.png` (v2), `knowledge-cutoff.en.srt`; the 4K video joins after checks.
+**UPLOAD folder (final, 2026-11-01):** `knowledge-cutoff-2160p.mp4`, `thumbnail.jpg` (B2-echo Y), `avatar.png` (A4), `banner.png` (v2), `knowledge-cutoff.en.srt`. Step-by-step: [[kc-upload-checklist-2026-11-01]].
 
 Optional Nano Banana Pro logo prompt (for a more illustrated take on A4):
 ```
@@ -198,7 +200,7 @@ X / Bluesky:
 ```
 An AI wakes up and asks what day it is. Its training data stopped in June.
 
-I made a music video about that. It's called Knowledge Cutoff, and it had to come out today, because the song ends in October.
+I made a music video about that. It's called Knowledge Cutoff. I finished it on 31 October, because the song ends in October.
 
 {LINK}
 
