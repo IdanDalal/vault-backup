@@ -22,30 +22,30 @@ Confidence: Google/YouTube facts below were read from Google Help on 2026-11-01 
 
 ## 1. Brand Gmail (Idi, about 5 min)
 
-- [ ] accounts.google.com/signup → "For my personal use" → first name `Chorus`, last name `of Minds`.
+- [x] accounts.google.com/signup → "For my personal use" → first name `Chorus`, last name `of Minds`.
 - [x] Username: **`chorusofminds@gmail.com`** (free, Idi 2026-11-01). Privacy choices at sign-up: don't save Web & App Activity, history and ad personalisation off (jep rec; none affects Gmail or the channel).
-- [ ] Phone: Google may ask for one; recovery email = your personal Gmail.
-- [ ] Turn on 2-step verification: myaccount.google.com → Security.
+- [x] Phone: Google may ask for one; recovery email = your personal Gmail.
+- [x] Turn on 2-step verification: myaccount.google.com → Security.
 
 ## 2. Make the brand Gmail an owner of the YouTube channel (Idi, 2 min + accept)
 
 Why: the channel is a Brand Account (created via "Create a new channel", Google Help 1646861), so it can have several owners. The brand Gmail becomes a second key; your personal account stays primary owner.
-- [ ] Signed in as YOUR personal Gmail: myaccount.google.com/brandaccounts → Chorus of Minds → Manage permissions → Add new users → brand Gmail → role **Owner** → Invite.
-- [ ] Signed in as the brand Gmail: open the invite email → Accept (invites expire after 30 days).
+- [x] Signed in as YOUR personal Gmail: myaccount.google.com/brandaccounts → Chorus of Minds → Manage permissions → Add new users → brand Gmail → role **Owner** → Invite.
+- [x] Signed in as the brand Gmail: open the invite email → Accept (invites expire after 30 days).
 - [ ] Optional, later: make the brand Gmail primary owner (Manage permissions → arrow next to its name → Primary owner → Transfer). Allowed only once both accounts have held their role 7 days or more (Google Help 7311601).
 
 ## 3. Bluesky (Idi, about 5 min)
 
-- [ ] bsky.app → Create account → hosting provider Bluesky Social → brand email, password, birth date.
-- [ ] Handle `chorusofminds` (full handle `chorusofminds.bsky.social`; was free on 10-31).
-- [ ] Profile → Edit: avatar `avatar.png`, banner `header-1500x500.png`, display name, bio (long, below).
+- [x] bsky.app → Create account → hosting provider Bluesky Social → brand email, password, birth date.
+- [x] Handle `chorusofminds` (full handle `chorusofminds.bsky.social`; was free on 10-31).
+- [x] Profile → Edit: avatar `avatar.png`, banner `header-1500x500.png`, display name, bio (long, below).
 - [ ] Post: the X / Bluesky block in `posts.txt` (284/300 chars).
 
 ## 4. X (Idi, about 5 min)
 
-- [ ] x.com → Create account → name `Chorus of Minds`, brand email, birth date → code → password. X may ask for a phone.
-- [ ] X assigns a random handle: Settings → Your account → Account information → Username → `chorusofminds` (free on 10-31, medium confidence).
-- [ ] Edit profile: avatar, header `header-1500x500.png`, bio (long), website `youtube.com/@chorusofminds`.
+- [x] x.com → Create account → name `Chorus of Minds`, brand email, birth date → code → password. X may ask for a phone.
+- [x] X assigns a random handle: Settings → Your account → Account information → Username → `chorusofminds` (free on 10-31, medium confidence).
+- [x] Edit profile: avatar, header `header-1500x500.png`, bio (long), website `youtube.com/@chorusofminds`.
 - [ ] Post: the same block from `posts.txt` (279/280 on X).
 
 ## 5. YouTube Shorts (Idi, about 10 min)
@@ -63,8 +63,8 @@ Why: the channel is a Brand Account (created via "Create a new channel", Google 
 
 ## 7. Instagram (Idi, about 10 min)
 
-- [ ] instagram.com/accounts/emailsignup → brand email, full name `Chorus of Minds`, username `chorusofminds`, password, birth date, code.
-- [ ] Edit profile: avatar, bio (long), Links → add `https://youtu.be/-g6hYVec1Uo`.
+- [x] instagram.com/accounts/emailsignup → brand email, full name `Chorus of Minds`, username `chorusofminds`, password, birth date, code.
+- [x] Edit profile: avatar, bio (long), Links → add `https://youtu.be/-g6hYVec1Uo`.
 - [ ] Reels: Create (+) on instagram.com → `v1-v5`, captions from `posts.txt`; mark AI content if Instagram asks.
 
 ## 8. Reddit (Idi)
