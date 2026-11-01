@@ -42,3 +42,14 @@ status: active
 ## Working rules (unchanged)
 
 Idi output style; one ask per message; never hand Idi git or shell; options carry a recommendation; deliverables copied into `projects/`; agents run commands in the foreground.
+
+## 2026-11-01 step 1 outcome (jep)
+
+- Original 4K render FAILED: `out\final4k\DONE` = 1, 23:34 on 10-31, WebGL context lost + `readFinish: fence wait failed`; mp4 had no moov (index). No driver reset or low-memory event in the Windows logs 22:30-00:30; cause unproven (prior: GPU memory pressure).
+- Idi ruled option A (repair + tail render) 11-01, on condition of no visible compromise.
+- Recovered frames 0-10835 from the broken file (own scanner: audio packets matched a deterministic re-encode byte for byte, 7,822/7,822); tail 180.6-194.1 s re-rendered 4K, 1 worker, 810 frames, exit 0 (`out\final4k-repair\tail.log`).
+- Overlap 46 frames: aligned (shift 0 = 43.6 dB, shift 1 = 20.1 dB), not bit-identical; engine renders to `tol` 3 levels, so two runs differ at that level everywhere. Join at keyframe 10836; consecutive-frame PSNR across the join 19.2 / 16.5 / 18.8 / 19.6 dB (no spike).
+- mp4 assembled by own muxer (exact POC timestamps; ffmpeg raw-stream mux dropped frames 0, 4, 11645 and the audio, discarded).
+- FINAL `D:\work\aimv-lab\kc-engine\out\final4k-repair\kc-full-2160p.mp4`, hard link `D:\work\AIMVs\ours\release\UPLOAD\knowledge-cutoff-2160p.mp4`, 13,608,210,133 bytes (handoff estimate 7 GB was wrong). Verified: 194.10 s, 3840x2160, 60 fps, H.264 High BT.709, AAC 44.1 kHz; 0 decode errors; 11,646/11,646 frames, order identical to the raw stream; tail pixel-identical to the tail render; audio byte-identical to the re-encode; six frames vs 1080 file 33.6-40.0 dB same picture; loop frame 0 = last frame shot.
+- Scratch to delete once uploaded: `out\final4k\kc-full-2160p.mp4` (12.8 GB broken), `out\final4k-repair\recA.h264`, `joined.h264`, `tail.h264` (about 27 GB).
+- Next: step 2 (channel, Idi's clicks). Open WHAT: the "Released 31 October" description line.
