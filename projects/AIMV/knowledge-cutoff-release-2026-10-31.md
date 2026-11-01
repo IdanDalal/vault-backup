@@ -62,7 +62,7 @@ Setup steps (Idi's clicks, his Google account):
 
 **Title ruled (Idi 2026-11-01): `Knowledge Cutoff | Claude Opus 5.5 + MiniMax Music 3`.**
 
-**Description final = Idi's edit + full lyrics, `UPLOAD\description.txt`** (2026-11-01; 3,932 chars; 54 lyric lines checked identical to the captions; hashtags jep-proposed #AIMusicVideo #AIDoompop #ClaudeAI). The block below is the 10-31 draft, superseded.
+**Description final = Idi's own final edit (lyrics first with [Intro]/[Verse]/[Chorus] labels, then credits, disclosure, facts), `UPLOAD\description.txt`** (2026-11-01; 3,925 chars; 54 lyric lines checked identical to the captions; hashtags ruled by Idi: #aimusicvideo #aimusic #claudeai (no #aidoompop hashtag exists on YouTube, Idi checked; jep had proposed it)). The block below is the 10-31 draft, superseded.
 
 ## 3. Description (paste as is)
 
