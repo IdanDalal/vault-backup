@@ -60,6 +60,8 @@ Setup steps (Idi's clicks, his Google account):
 2. `Knowledge Cutoff (an AI music video about not knowing what day it is)`
 3. `Knowledge Cutoff`
 
+**Video uploaded 2026-11-01: https://youtu.be/-g6hYVec1Uo** (checks complete, no issues; saved as private at the Details step).
+
 **Title ruled (Idi 2026-11-01): `Knowledge Cutoff | Claude Opus 5.5 + MiniMax Music 3`.**
 
 **Description final = Idi's own final edit (lyrics first with [Intro]/[Verse]/[Chorus] labels, then credits, disclosure, facts), `UPLOAD\description.txt`** (2026-11-01; 3,925 chars; 54 lyric lines checked identical to the captions; hashtags ruled by Idi: #aimusicvideo #aimusic #claudeai (no #aidoompop hashtag exists on YouTube, Idi checked; jep had proposed it)). The block below is the 10-31 draft, superseded.
