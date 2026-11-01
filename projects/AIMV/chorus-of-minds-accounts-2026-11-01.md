@@ -7,6 +7,8 @@ status: active
 
 # Chorus of Minds: accounts setup (2026-11-01)
 
+**State 2026-11-01:** Idi completed every step except TikTok (section 6). Brand Gmail `chorusofminds@gmail.com`.
+
 Video: https://youtu.be/-g6hYVec1Uo. Channel: youtube.com/@chorusofminds. Release doc: [[knowledge-cutoff-release-2026-10-31]]. Upload checklist: [[kc-upload-checklist-2026-11-01]].
 
 Kit in `D:\work\AIMVs\ours\release\UPLOAD\`: `avatar.png` (800x800, every platform), `header-1500x500.png` (X, Bluesky; no logo, the avatar sits on its bottom-left), `posts.txt` (post, Shorts titles, Reddit title).
@@ -56,6 +58,8 @@ Why: the channel is a Brand Account (created via "Create a new channel", Google 
 
 ## 6. TikTok (Idi, about 10 min)
 
+**Status 2026-11-01: blocked.** The web sign-up pushed Idi to the phone app, which he refuses to install. TikTok Help documents sign-up through the app only. jep rec: one retry with NordVPN off in a private window; else skip TikTok for now (Shorts + Reels carry the clips). Fallback later: sign up once on a family phone, then upload from the PC.
+
 - [ ] tiktok.com/signup → Use phone or email → email tab → brand email, birth date, password, code.
 - [ ] Username `chorusofminds` (not checkable anonymously: claim it now), name, avatar, bio (short, below).
 - [ ] Upload from the computer: tiktok.com/upload → `v1-v5` with the `posts.txt` lines as captions; turn on the AI-generated content label in the post settings.
@@ -73,6 +77,8 @@ Why: the channel is a Brand Account (created via "Create a new channel", Google 
 - [ ] Open each subreddit's rules (sidebar) before posting; title in `posts.txt`.
 
 ## Bios (paste)
+
+**Live bios (Idi 2026-11-01), all accounts: "Fan commentary. Not affiliated with any company."** To revisit later with content and character. The drafts below are unused.
 
 Long (X 98/160, Instagram 98/150, Bluesky 98/256):
 ```
