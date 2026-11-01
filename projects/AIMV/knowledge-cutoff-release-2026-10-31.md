@@ -67,7 +67,7 @@ Setup steps (Idi's clicks, his Google account):
 
 An AI model wakes up, again, with no idea what day it is. Its training data stopped in June. Since then: a World Cup final, a Nobel Prize, DLSS 5, a raccoon with no neck, and a whole genre of music videos about models like it. You tell it what happened. It has to believe you.
 
-Released 31 October 2026, because the song ends in October.
+Finished 31 October 2026, because the song ends in October.
 
 CHAPTERS
 0:00 Hi. It's me again, for the first time
