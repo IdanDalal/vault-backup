@@ -60,6 +60,10 @@ Setup steps (Idi's clicks, his Google account):
 2. `Knowledge Cutoff (an AI music video about not knowing what day it is)`
 3. `Knowledge Cutoff`
 
+**Title ruled (Idi 2026-11-01): `Knowledge Cutoff | Claude Opus 5.5 + MiniMax Music 3`.**
+
+**Description final = Idi's edit + full lyrics, `UPLOAD\description.txt`** (2026-11-01; 3,932 chars; 54 lyric lines checked identical to the captions; hashtags jep-proposed #AIMusicVideo #AIDoompop #ClaudeAI). The block below is the 10-31 draft, superseded.
+
 ## 3. Description (paste as is)
 
 ```
@@ -84,7 +88,7 @@ CHAPTERS
 
 CREDITS
 Idea, direction, final calls: Idi
-Lyrics: Idi with Claude
+Lyrics: Idi and Claude Opus 5.5
 Music and vocals: AI-generated with MiniMax-Music3
 Visuals: code-rendered motion graphics, built with Claude on a fork of the P(Doom) video engine by Giacomo Magnanini (MIT licence)
 Fonts: Anybody, Newsreader, JetBrains Mono, Caveat (SIL Open Font License)
@@ -111,17 +115,17 @@ Lyrics: turn on captions (CC).
 
 ## 4. Upload settings (YouTube Studio)
 
-| field | value |
-|---|---|
-| file | `UPLOAD\knowledge-cutoff-2160p.mp4` (4K only; verified 2026-11-01) |
-| thumbnail | `UPLOAD\thumbnail.jpg` (B2-echo Y, ruled 2026-11-01) |
-| audience | No, not made for kids |
-| altered or synthetic content / AI use | **Yes** (AI music is the main focus; YouTube Help 14328491) |
-| category | Music |
-| language + captions | English; upload `knowledge-cutoff.en.srt` under Subtitles |
-| tags | knowledge cutoff, AI doompop, doompop, Claude pop, AI music video, AI song, Claude, Opus 5.5, LLM, AI music, MiniMax Music |
-| visibility | Public, publish now (a premiere needs an audience the channel does not have yet) |
-| processing | HD appears first; 4K processing runs extra hours after |
+| field                                 | value                                                                                                                      |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| file                                  | `UPLOAD\knowledge-cutoff-2160p.mp4` (4K only; verified 2026-11-01)                                                         |
+| thumbnail                             | `UPLOAD\thumbnail.jpg` (B2-echo Y, ruled 2026-11-01)                                                                       |
+| audience                              | No, not made for kids                                                                                                      |
+| altered or synthetic content / AI use | **Yes** (AI music is the main focus; YouTube Help 14328491)                                                                |
+| category                              | Music                                                                                                                      |
+| language + captions                   | English; upload `knowledge-cutoff.en.srt` under Subtitles                                                                  |
+| tags                                  | knowledge cutoff, AI doompop, doompop, Claude pop, AI music video, AI song, Claude, Opus 5.5, LLM, AI music, MiniMax Music |
+| visibility                            | Public, publish now (a premiere needs an audience the channel does not have yet)                                           |
+| processing                            | HD appears first; 4K processing runs extra hours after                                                                     |
 
 ## 5. Thumbnail options (1280x720, phone shows them about 168 px wide)
 
