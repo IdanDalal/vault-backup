@@ -7,7 +7,7 @@ status: active
 
 # Knowledge Cutoff: upload-day checklist (2026-11-01)
 
-**LIVE: https://youtu.be/-g6hYVec1Uo** (steps 1-10 and 14 done 2026-11-01; 11-13 open, texts in `UPLOAD\posts.txt`).
+**LIVE: https://youtu.be/-g6hYVec1Uo** (steps 1-10, 12 (TikTok skipped), 13 and 14 done 2026-11-01; posts logged in the release doc; 11 Shorts: see the release doc, texts in `UPLOAD\posts.txt`).
 
 Production closed by Idi 2026-11-01. Paste texts live in [[knowledge-cutoff-release-2026-10-31]] (sections 1, 2, 3, 6, 7).
 
@@ -37,6 +37,6 @@ YouTube menu labels below are from YouTube's 2026 layout as jep knows it; medium
 ## C. After publish
 
 - [ ] 11. Shorts: `release\vertical\v1-v5*.mp4`, captions in section 7; each Short: Details → Related video = the full video.
-- [ ] 12. TikTok, Instagram: claim `@chorusofminds` by hand (not checkable anonymously); post the same clips; link in bio.
-- [ ] 13. Posts: X / Bluesky draft in section 7 (replace {LINK}); Reddit: open each subreddit's rules before posting.
+- [x] 12. TikTok, Instagram: claim `@chorusofminds` by hand (not checkable anonymously); post the same clips; link in bio.
+- [x] 13. Posts: X / Bluesky draft in section 7 (replace {LINK}); Reddit: open each subreddit's rules before posting.
 - [x] 14. Send jep the link. jep checks 4K playback, logs the release, then deletes about 40 GB of render scratch (paths in [[handoff-2026-11-01-upload]]).

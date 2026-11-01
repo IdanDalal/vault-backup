@@ -62,6 +62,8 @@ Setup steps (Idi's clicks, his Google account):
 
 **LIVE 2026-11-01: https://youtu.be/-g6hYVec1Uo** (public, channel @chorusofminds). jep probe the same day: 2160p60/1440p60/1080p60 formats served, 194 s, maxres thumbnail = B2-echo Y, captions = English (uploaded) + English auto. Phone verification for custom thumbnails used a second number (Dad's); the first code did not unlock the thumbnail. Render scratch deleted after the probe (~40 GB: broken final4k mp4 + recovery .h264 streams); final kept at kc-engine `out\final4k-repair\kc-full-2160p.mp4` = `UPLOAD\knowledge-cutoff-2160p.mp4` (hard link). Post + Shorts captions with the link: `UPLOAD\posts.txt` (X 279/280, Bluesky 284/300).
 
+**Posted 2026-11-01 (Idi):** X https://x.com/chorusofminds/status/2116945606308397215 ; Bluesky https://bsky.app/profile/chorusofminds.bsky.social/post/3mzbdg7jt7f23 (jep confirmed via public API: live, link present) ; Instagram https://www.instagram.com/chorusofminds/p/DfNRUmcOOEt/ ; Reddit r/ClaudeAI https://www.reddit.com/r/ClaudeAI/comments/1xl8z2o/i_used_minimax_music_3_and_claude_opus_55_to/ (standalone post: watch for a removal if the sub routes showcases to a megathread). TikTok skipped for now (Idi): web sign-up forces the phone app.
+
 **Title ruled (Idi 2026-11-01): `Knowledge Cutoff | Claude Opus 5.5 + MiniMax Music 3`.**
 
 **Description final = Idi's own final edit (lyrics first with [Intro]/[Verse]/[Chorus] labels, then credits, disclosure, facts), `UPLOAD\description.txt`** (2026-11-01; 3,925 chars; 54 lyric lines checked identical to the captions; hashtags ruled by Idi: #aimusicvideo #aimusic #claudeai (no #aidoompop hashtag exists on YouTube, Idi checked; jep had proposed it)). The block below is the 10-31 draft, superseded.

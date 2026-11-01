@@ -7,7 +7,7 @@ status: active
 
 # Chorus of Minds: accounts setup (2026-11-01)
 
-**State 2026-11-01:** Idi completed every step except TikTok (section 6). Brand Gmail `chorusofminds@gmail.com`.
+**State 2026-11-01:** Idi completed every step except TikTok (section 6, skipped for now by Idi). Posts live on X, Bluesky, Instagram, Reddit (links in [[knowledge-cutoff-release-2026-10-31]]). Brand Gmail `chorusofminds@gmail.com`.
 
 Video: https://youtu.be/-g6hYVec1Uo. Channel: youtube.com/@chorusofminds. Release doc: [[knowledge-cutoff-release-2026-10-31]]. Upload checklist: [[kc-upload-checklist-2026-11-01]].
 
