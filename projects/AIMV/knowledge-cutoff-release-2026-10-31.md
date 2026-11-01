@@ -60,7 +60,7 @@ Setup steps (Idi's clicks, his Google account):
 2. `Knowledge Cutoff (an AI music video about not knowing what day it is)`
 3. `Knowledge Cutoff`
 
-**Video uploaded 2026-11-01: https://youtu.be/-g6hYVec1Uo** (checks complete, no issues; saved as private at the Details step).
+**LIVE 2026-11-01: https://youtu.be/-g6hYVec1Uo** (public, channel @chorusofminds). jep probe the same day: 2160p60/1440p60/1080p60 formats served, 194 s, maxres thumbnail = B2-echo Y, captions = English (uploaded) + English auto. Phone verification for custom thumbnails used a second number (Dad's); the first code did not unlock the thumbnail. Render scratch deleted after the probe (~40 GB: broken final4k mp4 + recovery .h264 streams); final kept at kc-engine `out\final4k-repair\kc-full-2160p.mp4` = `UPLOAD\knowledge-cutoff-2160p.mp4` (hard link). Post + Shorts captions with the link: `UPLOAD\posts.txt` (X 279/280, Bluesky 284/300).
 
 **Title ruled (Idi 2026-11-01): `Knowledge Cutoff | Claude Opus 5.5 + MiniMax Music 3`.**
 
