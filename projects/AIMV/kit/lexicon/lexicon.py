@@ -137,7 +137,8 @@ def load_lyrics():
         if src[name] == "official":
             m = re.search(r"kind:\s*([a-z-]+)", open(off, encoding="utf-8").readline())
             src[name] = m.group(1) if m else "official"
-        lines = [re.sub(r"^\[[0-9:]+\]\s*", "", l) for l in open(path, encoding="utf-8") if not l.startswith("#")]
+        # drop timestamps and every [bracketed] section tag ([Bridge], [Hook], [Chorus x2]): tags are not sung words
+        lines = [re.sub(r"\[[^\]]*\]", " ", l) for l in open(path, encoding="utf-8") if not l.startswith("#")]
         songs[name] = " ".join(lines).lower().replace("’", "'")
     kc = open(KC, encoding="utf-8").read().lower().replace("’", "'") if os.path.exists(KC) else ""
     return songs, src, kc
