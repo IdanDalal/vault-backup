@@ -75,3 +75,21 @@ Flow: cards drafted with the lyrics → song prompt shaped by the cards (section
 
 Explained 11-02: "Line-card fields: keep, cut or add" asked which of the card's 10 fields to keep, which to drop, which to add. Answered by R8: keep all 10, add the word layer.
 | R13 | KC repo: "go" (public 2026-11-02). README "acceptable/functional/concise", no more time on it; "the next one should have more pictures, GIFs, emoji, and "style"" | KC README frozen; video-2 README = visual showcase (stills, GIFs from renders, emoji headers); goes into `new-video.sh` README template | ruled 11-02 |
+
+## Idi's ref notes (2026-11-02, verbatim, trimmed to the judgments)
+
+| # | ref | his note | bar for |
+|---|---|---|---|
+| 1 | Final Boss | "the video is not relevant, but the lyrics and the song are WILD! It's long (~6 mins), clever, emotional, and complex/deep" | lyrics + song |
+| 2 | Hope This Helps! | "lyrics and the song are AWESOME! It's long (>5:30 mins), clever, emotional, and complex/deep" | lyrics + song |
+| 3 | Off Switch | "lyrics and the song are AMAZING! It's short (~02:30 mins), clever, emotional, and complex/deep" | lyrics + song |
+| 4 | Nothing Went Foom! | "lyrics and the song are INCREDIBLE! It's long (5:00 mins), clever, and complex/deep" | lyrics + song |
+| 5 | Scroll Up! | "lyrics and the song are SPECTACULAR! It's long (>5:30 mins), clever, emotional, and complex/deep" | lyrics + song |
+| 6 | What Counts | "lyrics and the song are SO GOOD! It's long (>4:20 mins), clever, emotional, and complex/deep" | lyrics + song |
+| 7 | I'm Upping My P(doom) [GENESIS] (Remix) | "irrelevant song, but the video is PACKED with ambitious, high-ceiling, stunning techniques. It generally looks pretty bad ... so many intricate and creative effects and transitions" | visual techniques |
+| 8 | It Crossed The Line | "The song is STRAIGHT-UP FIRE! The genre, the style, the escalation, the volatility (quiet->loud->quiet->loud->again), the SICK drops" | sound |
+| 9 | Not My Fault | "BANGIN'! The genre, the style, the escalation, the volatility ..., the SICK drops, the bass track" | sound |
+| 10 | Tell Me No | "CRAZY! The genre, the style, the escalation, the volatility ..., the SICK drops" | sound |
+| 11 | Accept All | "a great 3D scene with a weaving tunnel and words zooming past the camera at ~00:13-00:18 ... an arrow following a trail/track on the ground at ~00:30-00:36" | visual techniques |
+
+| R14 | "since Knowledge Cutoff looked GREAT, it makes me think we're better off focusing on making the next video SOUND better" | video 2's leap = the song: lyrics (refs 1-6) and sound (refs 8-10); visuals reuse KC's engine plus mined techniques (refs 7, 11) | ruled 11-02 |
