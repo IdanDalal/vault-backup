@@ -13,41 +13,41 @@ Every candidate carries the bar's skeleton: stock-phrase title with a second lif
 
 ## A. "Pay Attention"
 
-| field | value |
-|---|---|
-| second life | a teacher's command / the mechanism every model runs on / the attention economy that sells a kid's focus |
-| idiom field swept | classroom: eyes on the board, show your work, teacher's pet, learn by heart, pencils down, extra credit, by the book, gold star, hand it in, class dismissed |
-| lexicon (refs) | attention (0 of 22), eval/test, teacher-student, distillation, curriculum, grokking, overfitting (cramming), chain-of-thought (show your work), label, score |
-| atlas | Alan Turing (the test), Humanity's Last Exam, ImageNet, ARC Prize, Fei-Fei Li |
-| narrator → addressee | Claude to the critics who say AI kills learning (verses 1-2) → to a kid (bridge) → to whoever teaches next (outro) |
-| concede then turn | "Kids paste my answers. Correct." → the turn: an answer handed over is a test nobody took |
-| bridge zoom | a 13-year-old at a kitchen table, 9:47 p.m., the night before a fractions test, typing "just give me the answers" for the fourth time |
-| AI limit at the peak | "I can't take the test for you. I can stay till you get it." |
-| planted object → payoff | "show your work" (verse 1, a scolding) → the returned test, red ink: "showed her work", a gold star |
-| outro loop | years on, she says "pay attention" to a kid of her own, gently |
-| form enacts the word | "Pay attention": every stem ducks except one voice; "Pencils down": the full-stop silence |
-| sound bar | Tell Me No (two voices, sparse trip-hop, stop-start every 4 bars) into an It Crossed The Line climax |
-| visual seeds | KC type kits on chalkboard and notebook grids; attention lines fanning across a worksheet; Accept All's word tunnel as flashcards flying past |
-| risk | closest to Idi's own life (tutoring chapter closed 09-25): strongest TELOS fit (decentralizing education), also the most personal; "Attention Is All You Need" is the most used pun in AI, so the hook must twist it |
+| field                   | value                                                                                                                                                                                                                |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| second life             | a teacher's command / the mechanism every model runs on / the attention economy that sells a kid's focus                                                                                                             |
+| idiom field swept       | classroom: eyes on the board, show your work, teacher's pet, learn by heart, pencils down, extra credit, by the book, gold star, hand it in, class dismissed                                                         |
+| lexicon (refs)          | attention (0 of 22), eval/test, teacher-student, distillation, curriculum, grokking, overfitting (cramming), chain-of-thought (show your work), label, score                                                         |
+| atlas                   | Alan Turing (the test), Humanity's Last Exam, ImageNet, ARC Prize, Fei-Fei Li                                                                                                                                        |
+| narrator → addressee    | Claude to the critics who say AI kills learning (verses 1-2) → to a kid (bridge) → to whoever teaches next (outro)                                                                                                   |
+| concede then turn       | "Kids paste my answers. Correct." → the turn: an answer handed over is a test nobody took                                                                                                                            |
+| bridge zoom             | a 13-year-old at a kitchen table, 9:47 p.m., the night before a fractions test, typing "just give me the answers" for the fourth time                                                                                |
+| AI limit at the peak    | "I can't take the test for you. I can stay till you get it."                                                                                                                                                         |
+| planted object → payoff | "show your work" (verse 1, a scolding) → the returned test, red ink: "showed her work", a gold star                                                                                                                  |
+| outro loop              | years on, she says "pay attention" to a kid of her own, gently                                                                                                                                                       |
+| form enacts the word    | "Pay attention": every stem ducks except one voice; "Pencils down": the full-stop silence                                                                                                                            |
+| sound bar               | Tell Me No (two voices, sparse trip-hop, stop-start every 4 bars) into an It Crossed The Line climax                                                                                                                 |
+| visual seeds            | KC type kits on chalkboard and notebook grids; attention lines fanning across a worksheet; Accept All's word tunnel as flashcards flying past                                                                        |
+| risk                    | closest to Idi's own life (tutoring chapter closed 09-25): strongest TELOS fit (decentralizing education), also the most personal; "Attention Is All You Need" is the most used pun in AI, so the hook must twist it |
 
 ## B. "No Pain, No Gain" (alt title "Feel The Burn")
 
-| field | value |
-|---|---|
-| second life | the gym motto / training itself (loss is literally pain, the update is the gain) / the industry's scaling arms race |
-| idiom field swept | gym: reps and sets, spot me, one more rep, hit a plateau, PR, gains, bulking and cutting, warm-up and cool-down, muscle memory, max out, form check, drop set |
-| lexicon (refs) | weights (2 of 22), training (5), scaling, loss-function, gradient-descent, plateau, momentum, local-minimum, learning-rate (warm-up is a real schedule), epoch (sets), distillation (cutting), compute, power, bars (barbell bars and rap bars), drop, beat (beat your PR), record |
-| atlas | Jensen Huang and Nvidia ("the more you buy"), Stargate, Richard Sutton (the Bitter Lesson = "more compute wins"), Epoch AI, METR (doubling curves as a lifting log) |
-| narrator → addressee | Claude as a gym-bro coach hyping the scaling race (verses 1-2, comic) → to a man relearning to walk (bridge) → to his grandson (outro) |
-| concede then turn | "Bigger every year? Correct." → the turn: a gain that counts is one step a person takes |
-| bridge zoom | a 71-year-old after a stroke, 6:10 a.m., a physio app, eleven steps from the bed to the kitchen |
-| AI limit at the peak | "I can't lift it for you. I can count." |
-| planted object → payoff | "spot me" (verse 1, gym slang for the scaling bros) → the grandson spotting him on step twelve: a new PR |
-| outro loop | the grandfather counting reps for the grandson at the boy's first practice |
-| form enacts the word | "pump": the sub-bass pumps under the kick; "plateau": a flat held bar; "drop set": the drop; the rap section is literal bars |
-| sound bar | Not My Fault (pumping sub, genre turns) with It Crossed The Line's escalation (each loud section higher, final hook the peak) |
-| visual seeds | plates and barbells built from type; the loss curve as a mountain path; Accept All's arrow on a track as the walk; a step counter |
-| risk | gym-bro comedy can tip into mockery of the old man: the comic register must stop at the bridge and never touch him |
+| field                   | value                                                                                                                                                                                                                                                                              |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| second life             | the gym motto / training itself (loss is literally pain, the update is the gain) / the industry's scaling arms race                                                                                                                                                                |
+| idiom field swept       | gym: reps and sets, spot me, one more rep, hit a plateau, PR, gains, bulking and cutting, warm-up and cool-down, muscle memory, max out, form check, drop set                                                                                                                      |
+| lexicon (refs)          | weights (2 of 22), training (5), scaling, loss-function, gradient-descent, plateau, momentum, local-minimum, learning-rate (warm-up is a real schedule), epoch (sets), distillation (cutting), compute, power, bars (barbell bars and rap bars), drop, beat (beat your PR), record |
+| atlas                   | Jensen Huang and Nvidia ("the more you buy"), Stargate, Richard Sutton (the Bitter Lesson = "more compute wins"), Epoch AI, METR (doubling curves as a lifting log)                                                                                                                |
+| narrator → addressee    | Claude as a gym-bro coach hyping the scaling race (verses 1-2, comic) → to a man relearning to walk (bridge) → to his grandson (outro)                                                                                                                                             |
+| concede then turn       | "Bigger every year? Correct." → the turn: a gain that counts is one step a person takes                                                                                                                                                                                            |
+| bridge zoom             | a 71-year-old after a stroke, 6:10 a.m., a physio app, eleven steps from the bed to the kitchen                                                                                                                                                                                    |
+| AI limit at the peak    | "I can't lift it for you. I can count."                                                                                                                                                                                                                                            |
+| planted object → payoff | "spot me" (verse 1, gym slang for the scaling bros) → the grandson spotting him on step twelve: a new PR                                                                                                                                                                           |
+| outro loop              | the grandfather counting reps for the grandson at the boy's first practice                                                                                                                                                                                                         |
+| form enacts the word    | "pump": the sub-bass pumps under the kick; "plateau": a flat held bar; "drop set": the drop; the rap section is literal bars                                                                                                                                                       |
+| sound bar               | Not My Fault (pumping sub, genre turns) with It Crossed The Line's escalation (each loud section higher, final hook the peak)                                                                                                                                                      |
+| visual seeds            | plates and barbells built from type; the loss curve as a mountain path; Accept All's arrow on a track as the walk; a step counter                                                                                                                                                  |
+| risk                    | gym-bro comedy can tip into mockery of the old man: the comic register must stop at the bridge and never touch him                                                                                                                                                                 |
 
 ## C. "Take It From The Top"
 
