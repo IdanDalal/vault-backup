@@ -66,15 +66,18 @@ Flow: cards drafted with the lyrics → song prompt shaped by the cards (section
 
 | # | ruling (Idi's words, trimmed) | effect | status |
 |---|---|---|---|
-| R6 | "I'd like to ship the song mp3 in the public repo"; settle ownership by research (other videos, MiniMax docs, Suno docs, similar sources) | audit B1/D1 reopened; research in [[research-mp3-rights-2026-11-02]] | research done 11-02, ruling pending |
+| R6 | "I'd like to ship the song mp3 in the public repo"; settle ownership by research (other videos, MiniMax docs, Suno docs, similar sources) | audit B1/D1 reopened; research in [[research-mp3-rights-2026-11-02]] | mp3 shipped: repo public 11-02 (CC BY 4.0 notice) |
 | R7 | Before the premise: "a semantic/cultural/linguistic equivalent of the technical/visual kit"; focus on "multi-meaning"/"general"/"wide" terms; "as many components/elements of the result should serve as many roles/purposes/goals as possible" | lexicon: `lexicon/` + [[kit-lexicon]]; 252 terms incl. his 37 seeds | built 11-02 |
 | R8 | "I love the line card idea as a foundation, we should build on it with everything I wrote above in ruling #2" | [[kit-line-cards]] v2: word layer + roles count | built 11-02 |
-| R9 | "One repo per video. I expect rapid iteration/evolution/progress of the engine." | each video repo = fresh export of the previous video's engine; audit steps in [[kit-open-source-audit]] | scaffold pending |
-| R10 | New refs (top-quality videos, "BANGER songs") added to `D:\work\AIMVs`; Idi will watch all and write timestamped notes | intake checklist in [[kit-references]]; transcripts of the 13 new songs done 11-02 (`D:\work\AIMVs\lyrics\`) | notes pending (Idi) |
+| R9 | "One repo per video. I expect rapid iteration/evolution/progress of the engine." | each video repo = fresh export of the previous video's engine; audit steps in [[kit-open-source-audit]] | KC repo public 11-02; `new-video.sh` tested |
+| R10 | New refs (top-quality videos, "BANGER songs") added to `D:\work\AIMVs`; Idi will watch all and write timestamped notes | intake checklist in [[kit-references]]; transcripts of the 13 new songs done 11-02 (`D:\work\AIMVs\lyrics\`) | notes in 11-02 (section below); lyrics 20 of 22 off Whisper |
 | R11 | Study https://music.brightmirror.co ("we can learn A LOT from it") | [[research-brightmirror-2026-11-02]] | done 11-02 |
+| R12 | "yes, Chorus of Minds for both" (licence holder on MIT/CC BY lines + the GitHub organization) | [[kit-repo-per-video]] Q1, Q2 closed | ruled 11-02 |
+| R13 | KC repo: "go" (public 2026-11-02). README "acceptable/functional/concise", no more time on it; "the next one should have more pictures, GIFs, emoji, and "style"" | KC README frozen; video-2 README = visual showcase (stills, GIFs from renders, emoji headers); goes into `new-video.sh` README template | ruled 11-02 |
 
 Explained 11-02: "Line-card fields: keep, cut or add" asked which of the card's 10 fields to keep, which to drop, which to add. Answered by R8: keep all 10, add the word layer.
-| R13 | KC repo: "go" (public 2026-11-02). README "acceptable/functional/concise", no more time on it; "the next one should have more pictures, GIFs, emoji, and "style"" | KC README frozen; video-2 README = visual showcase (stills, GIFs from renders, emoji headers); goes into `new-video.sh` README template | ruled 11-02 |
+
+Idi caught 11-02 (lexicon): Moore's law at 14 of 22 songs (the form "more" was counted) and Orthogonality missing from P(Doom) (Whisper heard "or the banality thesis"). Fixes: `associates` field split from counted `forms` (132 forms moved), official lyrics preferred over Whisper (`D:\work\AIMVs\lyrics\official\`).
 
 ## Idi's ref notes (2026-11-02, verbatim, trimmed to the judgments)
 
