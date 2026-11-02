@@ -34,5 +34,5 @@ Idi: "One repo per video. I expect rapid iteration/evolution/progress of the eng
 
 ## Open WHATs
 
-1. Q1, the licence-holder name on MIT and CC BY lines. Recommendation: "Chorus of Minds", matching the channel and handles; a legal name adds nothing the pseudonym lacks for a CC BY credit.
-2. Q2, the GitHub home. Recommendation: a `chorusofminds` organization (free, one web form), so repos sit beside the channel name.
+1. Q1 RULED 2026-11-02 (Idi): "Chorus of Minds" on every MIT and CC BY line.
+2. Q2 RULED 2026-11-02 (Idi): a `chorusofminds` GitHub organization holds the repos. Idi creates it (one web form, github.com/organizations/new); jep cannot.

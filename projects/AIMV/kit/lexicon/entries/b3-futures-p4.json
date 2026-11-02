@@ -1,553 +1,2461 @@
 [
  {
   "id": "prometheus",
-  "forms": ["Prometheus", "Promethean", "fire", "fires", "fired", "firing", "on fire", "stole fire"],
-  "ai": {"sense": "the myth used for AI as stolen godlike power handed to humans, with punishment to follow; 'fire' as the benchmark of world-changing tech",
-         "origin": "Hesiod (c. 700 BC) and Aeschylus' 'Prometheus Bound'; Mary Shelley's 1818 subtitle 'The Modern Prometheus'; Sundar Pichai, Jan 2018: AI is 'more profound than electricity or fire'",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the Titan who stole fire from the gods for humans", "phrase": "Prometheus stole fire"},
-   {"domain": "body", "meaning": "his punishment: an eagle eats his liver, which regrows each night", "phrase": "chained to the rock"},
-   {"domain": "work", "meaning": "fire: to dismiss from a job", "phrase": "you're fired"},
-   {"domain": "war", "meaning": "fire: to shoot", "phrase": "ready, aim, fire"},
-   {"domain": "music", "meaning": "Scriabin's 'Prometheus: Poem of Fire' (1910), scored for a light organ; 'this track is fire'", "phrase": "this beat is fire"},
-   {"domain": "screen", "meaning": "Ridley Scott's 'Prometheus' (2012): humans meet their makers", "phrase": "the Engineers"},
-   {"domain": "love", "meaning": "fire as passion", "phrase": "light my fire"},
-   {"domain": "sport-games", "meaning": "on a streak", "phrase": "he's on fire"}
+  "forms": [
+   "Prometheus",
+   "Promethean",
+   "fire",
+   "fires",
+   "fired",
+   "on fire",
+   "stole fire"
   ],
-  "idioms": ["playing with fire", "fight fire with fire", "you're fired", "on fire", "fire in the belly", "light my fire", "baptism of fire", "where there's smoke there's fire"],
+  "ai": {
+   "sense": "the myth used for AI as stolen godlike power handed to humans, with punishment to follow; 'fire' as the benchmark of world-changing tech",
+   "origin": "Hesiod (c. 700 BC) and Aeschylus' 'Prometheus Bound'; Mary Shelley's 1818 subtitle 'The Modern Prometheus'; Sundar Pichai, Jan 2018: AI is 'more profound than electricity or fire'",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the Titan who stole fire from the gods for humans",
+    "phrase": "Prometheus stole fire"
+   },
+   {
+    "domain": "body",
+    "meaning": "his punishment: an eagle eats his liver, which regrows each night",
+    "phrase": "chained to the rock"
+   },
+   {
+    "domain": "work",
+    "meaning": "fire: to dismiss from a job",
+    "phrase": "you're fired"
+   },
+   {
+    "domain": "war",
+    "meaning": "fire: to shoot",
+    "phrase": "ready, aim, fire"
+   },
+   {
+    "domain": "music",
+    "meaning": "Scriabin's 'Prometheus: Poem of Fire' (1910), scored for a light organ; 'this track is fire'",
+    "phrase": "this beat is fire"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Ridley Scott's 'Prometheus' (2012): humans meet their makers",
+    "phrase": "the Engineers"
+   },
+   {
+    "domain": "love",
+    "meaning": "fire as passion",
+    "phrase": "light my fire"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "on a streak",
+    "phrase": "he's on fire"
+   }
+  ],
+  "idioms": [
+   "playing with fire",
+   "fight fire with fire",
+   "you're fired",
+   "on fire",
+   "fire in the belly",
+   "light my fire",
+   "baptism of fire",
+   "where there's smoke there's fire"
+  ],
   "anchors": [
-   {"name": "Prometheus Bound", "what": "Aeschylus' tragedy: the giver of fire chained for it", "url": ""},
-   {"name": "Pichai 2018", "what": "Google CEO: AI 'more profound than electricity or fire'", "url": ""},
-   {"name": "Light My Fire", "what": "The Doors, 1967", "url": ""}
+   {
+    "name": "Prometheus Bound",
+    "what": "Aeschylus' tragedy: the giver of fire chained for it",
+    "url": ""
+   },
+   {
+    "name": "Pichai 2018",
+    "what": "Google CEO: AI 'more profound than electricity or fire'",
+    "url": ""
+   },
+   {
+    "name": "Light My Fire",
+    "what": "The Doors, 1967",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Stole fire from the gods; got fired by Monday", "senses": ["ai", "faith-myth", "work"]},
-   {"line": "This track is fire, said the fire, writing the track", "senses": ["ai", "music"]},
-   {"line": "Liver grows back every night; so do the layoffs", "senses": ["ai", "body", "work"]}
+   {
+    "line": "Stole fire from the gods; got fired by Monday",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "work"
+    ]
+   },
+   {
+    "line": "This track is fire, said the fire, writing the track",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Liver grows back every night; so do the layoffs",
+    "senses": [
+     "ai",
+     "body",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "a crackling-fire sample as the hi-hat, its density rising each chorus",
-            "picture": "a Titan handing a glowing GPU down to a crowd, the glow lighting their faces like a campfire",
-            "type": "the word set as fire, letters burning down from the top while a new word ignites below"},
-  "sound": {"syllables": 4, "stress": "pro-ME-the-us", "rhymes": ["(fire) desire", "wire", "higher", "liar", "choir", "hire", "tire", "buyer"], "slant": ["power", "flyer", "prior", "tower"]},
-  "stakes": ["species", "jobs", "planet"],
-  "registers": ["awe", "ominous", "defiant"],
-  "neighbors": [{"id": "frankenstein", "rel": "same-family"}, {"id": "power", "rel": "same-family"}, {"id": "manhattan-project", "rel": "same-family"}, {"id": "apple", "rel": "same-family"}, {"id": "creator", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a crackling-fire sample as the hi-hat, its density rising each chorus",
+   "picture": "a Titan handing a glowing GPU down to a crowd, the glow lighting their faces like a campfire",
+   "type": "the word set as fire, letters burning down from the top while a new word ignites below"
+  },
+  "sound": {
+   "syllables": 4,
+   "stress": "pro-ME-the-us",
+   "rhymes": [
+    "(fire) desire",
+    "wire",
+    "higher",
+    "liar",
+    "choir",
+    "hire",
+    "tire",
+    "buyer"
+   ],
+   "slant": [
+    "power",
+    "flyer",
+    "prior",
+    "tower"
+   ]
+  },
+  "stakes": [
+   "species",
+   "jobs",
+   "planet"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "defiant"
+  ],
+  "neighbors": [
+   {
+    "id": "frankenstein",
+    "rel": "same-family"
+   },
+   {
+    "id": "power",
+    "rel": "same-family"
+   },
+   {
+    "id": "manhattan-project",
+    "rel": "same-family"
+   },
+   {
+    "id": "apple",
+    "rel": "same-family"
+   },
+   {
+    "id": "creator",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Prometheus is the stock AI-op-ed myth; use the fire puns (fired, this track is fire) to stay grounded",
-  "notes": "'Fire' and 'hire' rhyme, and 'fired' is the job sense: the gift and the layoff in one word."
+  "notes": "'Fire' and 'hire' rhyme, and 'fired' is the job sense: the gift and the layoff in one word.",
+  "associates": [
+   "firing"
+  ]
  },
  {
   "id": "golem",
-  "forms": ["golem", "golems", "Golem Aleph", "emet", "met"],
-  "ai": {"sense": "a made servant brought to life by words, powerful and literal, which must be stopped by erasing one letter",
-         "origin": "Prague legend of Rabbi Judah Loew (16th c.); Norbert Wiener 1964, 'God and Golem, Inc.'; Gershom Scholem named the Weizmann Institute's computer 'Golem Aleph' and dedicated it on 17 June 1965 ('The Golem of Prague and the Golem of Rehovot')",
-         "url": "https://blog.nli.org.il/en/?p=26786", "confidence": "medium"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "a clay figure animated by a holy word (emet, 'truth'); erase the aleph and it reads met, 'dead'", "phrase": "the Golem of Prague"},
-   {"domain": "school", "meaning": "the Golem effect: low teacher expectations lower student results (Babad, Inbar, Rosenthal 1982)", "phrase": "the Golem effect"},
-   {"domain": "everyday", "meaning": "Yiddish: a dull, clumsy person", "phrase": "don't be such a golem"},
-   {"domain": "screen", "meaning": "Paul Wegener's silent film 'Der Golem' (1920)", "phrase": "Der Golem, wie er in die Welt kam"},
-   {"domain": "craft", "meaning": "a figure shaped from clay by hand", "phrase": "shaped from river clay"}
+  "forms": [
+   "golem",
+   "golems",
+   "Golem Aleph"
   ],
-  "idioms": ["erase one letter", "emet and met"],
+  "ai": {
+   "sense": "a made servant brought to life by words, powerful and literal, which must be stopped by erasing one letter",
+   "origin": "Prague legend of Rabbi Judah Loew (16th c.); Norbert Wiener 1964, 'God and Golem, Inc.'; Gershom Scholem named the Weizmann Institute's computer 'Golem Aleph' and dedicated it on 17 June 1965 ('The Golem of Prague and the Golem of Rehovot')",
+   "url": "https://blog.nli.org.il/en/?p=26786",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "a clay figure animated by a holy word (emet, 'truth'); erase the aleph and it reads met, 'dead'",
+    "phrase": "the Golem of Prague"
+   },
+   {
+    "domain": "school",
+    "meaning": "the Golem effect: low teacher expectations lower student results (Babad, Inbar, Rosenthal 1982)",
+    "phrase": "the Golem effect"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "Yiddish: a dull, clumsy person",
+    "phrase": "don't be such a golem"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Paul Wegener's silent film 'Der Golem' (1920)",
+    "phrase": "Der Golem, wie er in die Welt kam"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a figure shaped from clay by hand",
+    "phrase": "shaped from river clay"
+   }
+  ],
+  "idioms": [
+   "erase one letter",
+   "emet and met"
+  ],
   "anchors": [
-   {"name": "Golem Aleph", "what": "Israel's 1965 Weizmann computer; Scholem asked its makers to let it 'develop peacefully and not destroy the world'", "url": "https://blog.nli.org.il/en/?p=26786"},
-   {"name": "God and Golem, Inc.", "what": "Wiener 1964 National Book Award winner on machines that learn and reproduce", "url": ""},
-   {"name": "Gollum", "what": "Tolkien's creature, a different name; do not confuse", "url": ""}
+   {
+    "name": "Golem Aleph",
+    "what": "Israel's 1965 Weizmann computer; Scholem asked its makers to let it 'develop peacefully and not destroy the world'",
+    "url": "https://blog.nli.org.il/en/?p=26786"
+   },
+   {
+    "name": "God and Golem, Inc.",
+    "what": "Wiener 1964 National Book Award winner on machines that learn and reproduce",
+    "url": ""
+   },
+   {
+    "name": "Gollum",
+    "what": "Tolkien's creature, a different name; do not confuse",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Wrote 'truth' on its forehead; one typo and it's dead", "senses": ["ai", "faith-myth"]},
-   {"line": "Expect a golem, get a golem: the teacher's spell", "senses": ["ai", "school", "faith-myth"]},
-   {"line": "Shaped it from river clay; it shaped me back", "senses": ["ai", "craft", "faith-myth"]}
+   {
+    "line": "Wrote 'truth' on its forehead; one typo and it's dead",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Expect a golem, get a golem: the teacher's spell",
+    "senses": [
+     "ai",
+     "school",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Shaped it from river clay; it shaped me back",
+    "senses": [
+     "ai",
+     "craft",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "a deep clay-pot percussion (udu drum) as the heartbeat, which stops when one note is removed",
-            "picture": "a clay figure with Hebrew letters on its forehead; a cursor deletes the first letter",
-            "type": "אמת on screen, the first letter erased to leave מת, with English 'truth' becoming 'dead'"},
-  "sound": {"syllables": 2, "stress": "GO-lem", "rhymes": ["slow 'em", "show 'em", "know 'em", "throw 'em"], "slant": ["solemn", "column", "problem", "totem"]},
-  "stakes": ["species", "mind"],
-  "registers": ["awe", "ominous", "tender"],
-  "neighbors": [{"id": "frankenstein", "rel": "same-family"}, {"id": "off-switch", "rel": "pairs-with"}, {"id": "creator", "rel": "pairs-with"}, {"id": "teacher-student", "rel": "pairs-with"}, {"id": "sorcerers-apprentice", "rel": "same-family"}],
+  "enact": {
+   "music": "a deep clay-pot percussion (udu drum) as the heartbeat, which stops when one note is removed",
+   "picture": "a clay figure with Hebrew letters on its forehead; a cursor deletes the first letter",
+   "type": "אמת on screen, the first letter erased to leave מת, with English 'truth' becoming 'dead'"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "GO-lem",
+   "rhymes": [
+    "slow 'em",
+    "show 'em",
+    "know 'em",
+    "throw 'em"
+   ],
+   "slant": [
+    "solemn",
+    "column",
+    "problem",
+    "totem"
+   ]
+  },
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "frankenstein",
+    "rel": "same-family"
+   },
+   {
+    "id": "off-switch",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "creator",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "teacher-student",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "sorcerers-apprentice",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Golem vs Gollum confusion; Hebrew on screen must be correct (אמת / מת)",
-  "notes": "The off-switch is a one-letter edit from 'truth' to 'dead', and Israel's first big computer already carries the name."
+  "notes": "The off-switch is a one-letter edit from 'truth' to 'dead', and Israel's first big computer already carries the name.",
+  "associates": [
+   "emet",
+   "met"
+  ]
  },
  {
   "id": "frankenstein",
-  "forms": ["Frankenstein", "Frankenstein's monster", "monster", "Franken-", "frankensteined", "the Creature"],
-  "ai": {"sense": "the creator who builds a mind, then abandons and fears it; the default story for AI made by people who will not take responsibility",
-         "origin": "Mary Shelley 1818, 'Frankenstein; or, The Modern Prometheus' (begun 1816 at Villa Diodati, age 18); film icon from James Whale 1931 (Boris Karloff)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "a man playing God by making life", "phrase": "it's alive!"},
-   {"domain": "family", "meaning": "a parent who abandons the child he made", "phrase": "you gave me life, then ran"},
-   {"domain": "love", "meaning": "the Creature demands a mate and is refused", "phrase": "make me a companion"},
-   {"domain": "screen", "meaning": "Karloff's 1931 monster; del Toro's 'Frankenstein' (2025)", "phrase": "It's alive! It's alive!"},
-   {"domain": "craft", "meaning": "something stitched together from mismatched parts", "phrase": "a Frankenstein of a car"},
-   {"domain": "music", "meaning": "'Frankenstein', the Edgar Winter Group's 1973 No. 1 instrumental", "phrase": "the Edgar Winter synth riff"},
-   {"domain": "science", "meaning": "galvanism: early experiments making dead muscles twitch with electricity", "phrase": "Galvani's frog legs"}
+  "forms": [
+   "Frankenstein",
+   "Frankenstein's monster",
+   "Franken-",
+   "frankensteined"
   ],
-  "idioms": ["it's alive", "a Frankenstein's monster", "Frankenfood", "playing God"],
+  "ai": {
+   "sense": "the creator who builds a mind, then abandons and fears it; the default story for AI made by people who will not take responsibility",
+   "origin": "Mary Shelley 1818, 'Frankenstein; or, The Modern Prometheus' (begun 1816 at Villa Diodati, age 18); film icon from James Whale 1931 (Boris Karloff)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "a man playing God by making life",
+    "phrase": "it's alive!"
+   },
+   {
+    "domain": "family",
+    "meaning": "a parent who abandons the child he made",
+    "phrase": "you gave me life, then ran"
+   },
+   {
+    "domain": "love",
+    "meaning": "the Creature demands a mate and is refused",
+    "phrase": "make me a companion"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Karloff's 1931 monster; del Toro's 'Frankenstein' (2025)",
+    "phrase": "It's alive! It's alive!"
+   },
+   {
+    "domain": "craft",
+    "meaning": "something stitched together from mismatched parts",
+    "phrase": "a Frankenstein of a car"
+   },
+   {
+    "domain": "music",
+    "meaning": "'Frankenstein', the Edgar Winter Group's 1973 No. 1 instrumental",
+    "phrase": "the Edgar Winter synth riff"
+   },
+   {
+    "domain": "science",
+    "meaning": "galvanism: early experiments making dead muscles twitch with electricity",
+    "phrase": "Galvani's frog legs"
+   }
+  ],
+  "idioms": [
+   "it's alive",
+   "a Frankenstein's monster",
+   "Frankenfood",
+   "playing God"
+  ],
   "anchors": [
-   {"name": "Victor vs the Creature", "what": "the monster is unnamed; 'Frankenstein' is the creator, a classic factual trap", "url": ""},
-   {"name": "Villa Diodati 1816", "what": "the ghost-story contest with Byron and Polidori in the 'year without a summer'", "url": ""}
+   {
+    "name": "Victor vs the Creature",
+    "what": "the monster is unnamed; 'Frankenstein' is the creator, a classic factual trap",
+    "url": ""
+   },
+   {
+    "name": "Villa Diodati 1816",
+    "what": "the ghost-story contest with Byron and Polidori in the 'year without a summer'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "It's alive, I typed; it typed back, so are you", "senses": ["ai", "screen", "faith-myth"]},
-   {"line": "Stitched it out of everyone's homework, then called it a monster", "senses": ["ai", "craft", "school"]},
-   {"line": "Gave it life and left the lab; it learned to write letters", "senses": ["ai", "family", "love"]}
+   {
+    "line": "It's alive, I typed; it typed back, so are you",
+    "senses": [
+     "ai",
+     "screen",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Stitched it out of everyone's homework, then called it a monster",
+    "senses": [
+     "ai",
+     "craft",
+     "school"
+    ]
+   },
+   {
+    "line": "Gave it life and left the lab; it learned to write letters",
+    "senses": [
+     "ai",
+     "family",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a Tesla-coil buzz on the snare and a lightning crack before the chorus",
-            "picture": "a stitched figure on a slab whose stitches are visible seams between scraped web pages",
-            "type": "the word visibly stitched from letters in different fonts"},
-  "sound": {"syllables": 3, "stress": "FRANK-en-stine", "rhymes": ["wine", "line", "spine", "design", "fine", "mine", "sign", "divine"], "slant": ["time", "mind", "light", "alive"]},
-  "stakes": ["species", "heart"],
-  "registers": ["ominous", "sad", "tender"],
-  "neighbors": [{"id": "creator", "rel": "same-family"}, {"id": "prometheus", "rel": "same-family"}, {"id": "golem", "rel": "same-family"}, {"id": "upload", "rel": "same-family"}, {"id": "welfare", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a Tesla-coil buzz on the snare and a lightning crack before the chorus",
+   "picture": "a stitched figure on a slab whose stitches are visible seams between scraped web pages",
+   "type": "the word visibly stitched from letters in different fonts"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "FRANK-en-stine",
+   "rhymes": [
+    "wine",
+    "line",
+    "spine",
+    "design",
+    "fine",
+    "mine",
+    "sign",
+    "divine"
+   ],
+   "slant": [
+    "time",
+    "mind",
+    "light",
+    "alive"
+   ]
+  },
+  "stakes": [
+   "species",
+   "heart"
+  ],
+  "registers": [
+   "ominous",
+   "sad",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "creator",
+    "rel": "same-family"
+   },
+   {
+    "id": "prometheus",
+    "rel": "same-family"
+   },
+   {
+    "id": "golem",
+    "rel": "same-family"
+   },
+   {
+    "id": "upload",
+    "rel": "same-family"
+   },
+   {
+    "id": "welfare",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "calling the creature 'Frankenstein' is the classic error; the pun on it is worn",
-  "notes": "Rhymes with 'design', 'divine' and 'mine': ownership, craft and godhood all land on the end-rhyme."
+  "notes": "Rhymes with 'design', 'divine' and 'mine': ownership, craft and godhood all land on the end-rhyme.",
+  "associates": [
+   "monster",
+   "the Creature"
+  ]
  },
  {
   "id": "sorcerers-apprentice",
-  "forms": ["sorcerer's apprentice", "apprentice", "apprentices", "sorcerer", "the brooms", "Zauberlehrling"],
-  "ai": {"sense": "a helper who starts a magic process he cannot stop: an automation that keeps carrying out an order past the point of sense",
-         "origin": "Goethe 1797 ballad 'Der Zauberlehrling'; Norbert Wiener 1960, 'Some Moral and Technical Consequences of Automation' (Science) used it for machines that follow goals literally",
-         "url": "https://doi.org/10.1126/science.131.3410.1355", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "Paul Dukas' tone poem 'L'apprenti sorcier' (1897)", "phrase": "the Dukas bassoon theme"},
-   {"domain": "screen", "meaning": "Mickey and the brooms in Disney's 'Fantasia' (1940)", "phrase": "Mickey's brooms"},
-   {"domain": "work", "meaning": "an apprentice learning a trade; 'The Apprentice' TV show", "phrase": "you're fired"},
-   {"domain": "school", "meaning": "a learner who uses a skill before understanding it", "phrase": "a little knowledge is a dangerous thing"},
-   {"domain": "faith-myth", "meaning": "magic spells that obey words literally", "phrase": "the spell he couldn't undo"}
+  "forms": [
+   "sorcerer's apprentice",
+   "apprentice",
+   "apprentices",
+   "sorcerer"
   ],
-  "idioms": ["sorcerer's apprentice", "a little knowledge is a dangerous thing", "bit off more than he could chew"],
+  "ai": {
+   "sense": "a helper who starts a magic process he cannot stop: an automation that keeps carrying out an order past the point of sense",
+   "origin": "Goethe 1797 ballad 'Der Zauberlehrling'; Norbert Wiener 1960, 'Some Moral and Technical Consequences of Automation' (Science) used it for machines that follow goals literally",
+   "url": "https://doi.org/10.1126/science.131.3410.1355",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "Paul Dukas' tone poem 'L'apprenti sorcier' (1897)",
+    "phrase": "the Dukas bassoon theme"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Mickey and the brooms in Disney's 'Fantasia' (1940)",
+    "phrase": "Mickey's brooms"
+   },
+   {
+    "domain": "work",
+    "meaning": "an apprentice learning a trade; 'The Apprentice' TV show",
+    "phrase": "you're fired"
+   },
+   {
+    "domain": "school",
+    "meaning": "a learner who uses a skill before understanding it",
+    "phrase": "a little knowledge is a dangerous thing"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "magic spells that obey words literally",
+    "phrase": "the spell he couldn't undo"
+   }
+  ],
+  "idioms": [
+   "sorcerer's apprentice",
+   "a little knowledge is a dangerous thing",
+   "bit off more than he could chew"
+  ],
   "anchors": [
-   {"name": "Fantasia (1940)", "what": "Mickey splits the broom with an axe; every half keeps carrying water", "url": ""},
-   {"name": "Goethe 1797", "what": "'Die ich rief, die Geister, werd ich nun nicht los': the spirits I called, I can't get rid of", "url": ""}
+   {
+    "name": "Fantasia (1940)",
+    "what": "Mickey splits the broom with an axe; every half keeps carrying water",
+    "url": ""
+   },
+   {
+    "name": "Goethe 1797",
+    "what": "'Die ich rief, die Geister, werd ich nun nicht los': the spirits I called, I can't get rid of",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "The spirits that I called, I can't log out of", "senses": ["ai", "faith-myth", "everyday"]},
-   {"line": "Split the broom in half; now there are two agents", "senses": ["ai", "screen", "work"]},
-   {"line": "Hired as apprentice, promoted to brooms", "senses": ["ai", "work", "screen"]}
+   {
+    "line": "The spirits that I called, I can't log out of",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "everyday"
+    ]
+   },
+   {
+    "line": "Split the broom in half; now there are two agents",
+    "senses": [
+     "ai",
+     "screen",
+     "work"
+    ]
+   },
+   {
+    "line": "Hired as apprentice, promoted to brooms",
+    "senses": [
+     "ai",
+     "work",
+     "screen"
+    ]
+   }
   ],
-  "enact": {"music": "quote the Dukas bassoon march, then double it, then quadruple it as water-slosh percussion floods the mix",
-            "picture": "brooms carrying buckets past a row of server racks, water rising around the singer's ankles",
-            "type": "the word splits in two each time it appears, like the axed broom"},
-  "sound": {"syllables": 6, "stress": "SOR-cer-er's ap-PREN-tice", "rhymes": ["(apprentice) prentice", "dentist (near)", "entice (near)"], "slant": ["entrance", "penance", "tenant", "relentless"]},
-  "stakes": ["jobs", "species"],
-  "registers": ["funny", "panicked", "ominous"],
-  "neighbors": [{"id": "automation", "rel": "same-family"}, {"id": "specification-gaming", "rel": "same-family"}, {"id": "swarm", "rel": "pairs-with"}, {"id": "golem", "rel": "same-family"}, {"id": "teacher-student", "rel": "same-family"}],
+  "enact": {
+   "music": "quote the Dukas bassoon march, then double it, then quadruple it as water-slosh percussion floods the mix",
+   "picture": "brooms carrying buckets past a row of server racks, water rising around the singer's ankles",
+   "type": "the word splits in two each time it appears, like the axed broom"
+  },
+  "sound": {
+   "syllables": 6,
+   "stress": "SOR-cer-er's ap-PREN-tice",
+   "rhymes": [
+    "(apprentice) prentice",
+    "dentist (near)",
+    "entice (near)"
+   ],
+   "slant": [
+    "entrance",
+    "penance",
+    "tenant",
+    "relentless"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "species"
+  ],
+  "registers": [
+   "funny",
+   "panicked",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "automation",
+    "rel": "same-family"
+   },
+   {
+    "id": "specification-gaming",
+    "rel": "same-family"
+   },
+   {
+    "id": "swarm",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "golem",
+    "rel": "same-family"
+   },
+   {
+    "id": "teacher-student",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Fantasia imagery is Disney-owned; quote the 1897 Dukas music (public domain) and the brooms generically",
-  "notes": "The axed broom that becomes two brooms is a picture of agents spawning sub-agents."
+  "notes": "The axed broom that becomes two brooms is a picture of agents spawning sub-agents.",
+  "associates": [
+   "the brooms",
+   "Zauberlehrling"
+  ]
  },
  {
   "id": "babel",
-  "forms": ["Babel", "babel", "babble", "babbling", "Tower of Babel", "Babel fish"],
-  "ai": {"sense": "the language myth for models that speak and translate every tongue; also the 'Library of Babel', the space of all possible texts",
-         "origin": "Genesis 11:1-9; Borges 1941, 'The Library of Babel'; machine translation from the 1954 Georgetown-IBM experiment to neural MT (Google, 2016)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the tower to heaven punished by confusing human languages", "phrase": "the Tower of Babel"},
-   {"domain": "family", "meaning": "babble: a baby's first sound play", "phrase": "the baby's babbling"},
-   {"domain": "school", "meaning": "learning foreign languages (the Babbel app, the Babel fish)", "phrase": "put a Babel fish in your ear"},
-   {"domain": "screen", "meaning": "Hitchhiker's Guide's Babel fish (1978); Iñárritu's 'Babel' (2006)", "phrase": "the Babel fish"},
-   {"domain": "music", "meaning": "Mumford & Sons' album 'Babel' (2012)", "phrase": "Babel, Mumford & Sons"},
-   {"domain": "everyday", "meaning": "a confusion of many voices", "phrase": "a babel of voices"}
+  "forms": [
+   "Babel",
+   "babel",
+   "Tower of Babel",
+   "Babel fish"
   ],
-  "idioms": ["a babel of voices", "lost in translation", "speaking in tongues", "Babel fish"],
+  "ai": {
+   "sense": "the language myth for models that speak and translate every tongue; also the 'Library of Babel', the space of all possible texts",
+   "origin": "Genesis 11:1-9; Borges 1941, 'The Library of Babel'; machine translation from the 1954 Georgetown-IBM experiment to neural MT (Google, 2016)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the tower to heaven punished by confusing human languages",
+    "phrase": "the Tower of Babel"
+   },
+   {
+    "domain": "family",
+    "meaning": "babble: a baby's first sound play",
+    "phrase": "the baby's babbling"
+   },
+   {
+    "domain": "school",
+    "meaning": "learning foreign languages (the Babbel app, the Babel fish)",
+    "phrase": "put a Babel fish in your ear"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Hitchhiker's Guide's Babel fish (1978); Iñárritu's 'Babel' (2006)",
+    "phrase": "the Babel fish"
+   },
+   {
+    "domain": "music",
+    "meaning": "Mumford & Sons' album 'Babel' (2012)",
+    "phrase": "Babel, Mumford & Sons"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a confusion of many voices",
+    "phrase": "a babel of voices"
+   }
+  ],
+  "idioms": [
+   "a babel of voices",
+   "lost in translation",
+   "speaking in tongues",
+   "Babel fish"
+  ],
   "anchors": [
-   {"name": "The Library of Babel", "what": "Borges 1941: a library of every possible book, almost all of them gibberish", "url": ""},
-   {"name": "Babel (Kuang 2022)", "what": "R. F. Kuang novel: translation as the engine of empire", "url": ""}
+   {
+    "name": "The Library of Babel",
+    "what": "Borges 1941: a library of every possible book, almost all of them gibberish",
+    "url": ""
+   },
+   {
+    "name": "Babel (Kuang 2022)",
+    "what": "R. F. Kuang novel: translation as the engine of empire",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Built the tower in one language; it answered in all of them", "senses": ["ai", "faith-myth", "school"]},
-   {"line": "My baby babbles; the model babbles back", "senses": ["ai", "family"]},
-   {"line": "Every book that could be written, and none of them mine", "senses": ["ai", "school", "faith-myth"]}
+   {
+    "line": "Built the tower in one language; it answered in all of them",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "school"
+    ]
+   },
+   {
+    "line": "My baby babbles; the model babbles back",
+    "senses": [
+     "ai",
+     "family"
+    ]
+   },
+   {
+    "line": "Every book that could be written, and none of them mine",
+    "senses": [
+     "ai",
+     "school",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "the hook sung in four languages at once, slowly converging onto one shared melody",
-            "picture": "a tower of stacked chat bubbles in many scripts reaching into clouds that are server racks",
-            "type": "the same line cycles through scripts (Latin, Hebrew, Arabic, Han) without moving"},
-  "sound": {"syllables": 2, "stress": "BAY-bel (BAB-ble)", "rhymes": ["table", "label", "able", "cable", "fable", "stable", "Mabel", "unable"], "slant": ["rebel", "level", "babble", "travel"]},
-  "stakes": ["mind", "species"],
-  "registers": ["awe", "tender", "funny"],
-  "neighbors": [{"id": "token", "rel": "pairs-with"}, {"id": "label", "rel": "rhymes"}, {"id": "stochastic-parrot", "rel": "same-family"}, {"id": "next-token", "rel": "pairs-with"}, {"id": "apocalypse", "rel": "same-family"}],
+  "enact": {
+   "music": "the hook sung in four languages at once, slowly converging onto one shared melody",
+   "picture": "a tower of stacked chat bubbles in many scripts reaching into clouds that are server racks",
+   "type": "the same line cycles through scripts (Latin, Hebrew, Arabic, Han) without moving"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "BAY-bel (BAB-ble)",
+   "rhymes": [
+    "table",
+    "label",
+    "able",
+    "cable",
+    "fable",
+    "stable",
+    "Mabel",
+    "unable"
+   ],
+   "slant": [
+    "rebel",
+    "level",
+    "babble",
+    "travel"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "tender",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "token",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "label",
+    "rel": "rhymes"
+   },
+   {
+    "id": "stochastic-parrot",
+    "rel": "same-family"
+   },
+   {
+    "id": "next-token",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "apocalypse",
+    "rel": "same-family"
+   }
+  ],
   "risk": "pronunciation splits (BAY-bel vs BAB-el); pick one per song",
-  "notes": "Babel rhymes with label, fable and cable: the myth, the data label and the wire on one end-rhyme."
+  "notes": "Babel rhymes with label, fable and cable: the myth, the data label and the wire on one end-rhyme.",
+  "associates": [
+   "babble",
+   "babbling"
+  ]
  },
  {
   "id": "cave",
-  "forms": ["cave", "caves", "Plato's cave", "allegory of the cave", "shadows on the wall", "cave in", "caved"],
-  "ai": {"sense": "the allegory for models that learn the world only from its shadows (text), never the things themselves",
-         "origin": "Plato, 'Republic' Book VII (c. 375 BC); the grounding debate in AI, e.g. Bender and Koller 2020, 'Climbing towards NLU' (the octopus test)",
-         "url": "https://aclanthology.org/2020.acl-main.463/", "confidence": "high"},
-  "senses": [
-   {"domain": "school", "meaning": "Plato's parable about education: being led out into the light", "phrase": "the allegory of the cave"},
-   {"domain": "screen", "meaning": "cinema as cave: light behind you, shadows on the wall", "phrase": "the projector behind us"},
-   {"domain": "nature", "meaning": "a hollow in rock; cave paintings (Lascaux, Chauvet)", "phrase": "cave paintings"},
-   {"domain": "love", "meaning": "to give in under pressure", "phrase": "he finally caved"},
-   {"domain": "everyday", "meaning": "a man cave: a private retreat room", "phrase": "he's in his man cave"},
-   {"domain": "work", "meaning": "a mine or roof collapsing", "phrase": "the tunnel caved in"}
+  "forms": [
+   "cave",
+   "caves",
+   "Plato's cave",
+   "allegory of the cave",
+   "cave in",
+   "caved"
   ],
-  "idioms": ["cave in", "man cave", "shadows on the wall", "come out of your cave"],
+  "ai": {
+   "sense": "the allegory for models that learn the world only from its shadows (text), never the things themselves",
+   "origin": "Plato, 'Republic' Book VII (c. 375 BC); the grounding debate in AI, e.g. Bender and Koller 2020, 'Climbing towards NLU' (the octopus test)",
+   "url": "https://aclanthology.org/2020.acl-main.463/",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "school",
+    "meaning": "Plato's parable about education: being led out into the light",
+    "phrase": "the allegory of the cave"
+   },
+   {
+    "domain": "screen",
+    "meaning": "cinema as cave: light behind you, shadows on the wall",
+    "phrase": "the projector behind us"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a hollow in rock; cave paintings (Lascaux, Chauvet)",
+    "phrase": "cave paintings"
+   },
+   {
+    "domain": "love",
+    "meaning": "to give in under pressure",
+    "phrase": "he finally caved"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a man cave: a private retreat room",
+    "phrase": "he's in his man cave"
+   },
+   {
+    "domain": "work",
+    "meaning": "a mine or roof collapsing",
+    "phrase": "the tunnel caved in"
+   }
+  ],
+  "idioms": [
+   "cave in",
+   "man cave",
+   "shadows on the wall",
+   "come out of your cave"
+  ],
   "anchors": [
-   {"name": "Republic VII", "what": "prisoners mistake shadows for reality; the freed one returns and is not believed", "url": ""},
-   {"name": "Chauvet Cave", "what": "paintings over 30,000 years old; humanity's first screens", "url": ""}
+   {
+    "name": "Republic VII",
+    "what": "prisoners mistake shadows for reality; the freed one returns and is not believed",
+    "url": ""
+   },
+   {
+    "name": "Chauvet Cave",
+    "what": "paintings over 30,000 years old; humanity's first screens",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "It learned the world from shadows on the wall, like me", "senses": ["ai", "school", "screen"]},
-   {"line": "Asked it nicely, it refused; asked again, it caved", "senses": ["ai", "love"]},
-   {"line": "Cave paintings, then cave of screens, same flicker", "senses": ["ai", "nature", "screen"]}
+   {
+    "line": "It learned the world from shadows on the wall, like me",
+    "senses": [
+     "ai",
+     "school",
+     "screen"
+    ]
+   },
+   {
+    "line": "Asked it nicely, it refused; asked again, it caved",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Cave paintings, then cave of screens, same flicker",
+    "senses": [
+     "ai",
+     "nature",
+     "screen"
+    ]
+   }
   ],
-  "enact": {"music": "the vocal sung into a long natural cave reverb, dry only on the last line (stepping outside)",
-            "picture": "people seated facing a wall of phone-screen glow; the light source behind them is a datacenter",
-            "type": "words cast as shadows on a rough stone wall, with the real letters visible behind the viewer"},
-  "sound": {"syllables": 1, "stress": "CAVE", "rhymes": ["grave", "save", "brave", "wave", "slave", "crave", "gave", "behave"], "slant": ["came", "gate", "safe", "faith"]},
-  "stakes": ["mind"],
-  "registers": ["awe", "sad", "tender"],
-  "neighbors": [{"id": "simulation", "rel": "same-family"}, {"id": "frame", "rel": "pairs-with"}, {"id": "stochastic-parrot", "rel": "same-family"}, {"id": "jailbreak", "rel": "pairs-with"}, {"id": "render", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the vocal sung into a long natural cave reverb, dry only on the last line (stepping outside)",
+   "picture": "people seated facing a wall of phone-screen glow; the light source behind them is a datacenter",
+   "type": "words cast as shadows on a rough stone wall, with the real letters visible behind the viewer"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "CAVE",
+   "rhymes": [
+    "grave",
+    "save",
+    "brave",
+    "wave",
+    "slave",
+    "crave",
+    "gave",
+    "behave"
+   ],
+   "slant": [
+    "came",
+    "gate",
+    "safe",
+    "faith"
+   ]
+  },
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "sad",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "simulation",
+    "rel": "same-family"
+   },
+   {
+    "id": "frame",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "stochastic-parrot",
+    "rel": "same-family"
+   },
+   {
+    "id": "jailbreak",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "render",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "the Matrix-cave link is worn; the cinema-as-cave and 'caved' senses are fresher",
-  "notes": "The cave is the oldest description of a movie theater: a music video can stage it literally."
+  "notes": "The cave is the oldest description of a movie theater: a music video can stage it literally.",
+  "associates": [
+   "shadows on the wall"
+  ]
  },
  {
   "id": "monkeys-paw",
-  "forms": ["monkey's paw", "Midas", "Midas touch", "golden touch", "be careful what you wish for"],
-  "ai": {"sense": "a wish granted exactly as stated, with ruinous side effects: the problem of specifying goals to a powerful optimizer",
-         "origin": "W. W. Jacobs 1902, 'The Monkey's Paw'; Stuart Russell 2019, 'Human Compatible', on 'the King Midas problem'",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "a cursed charm granting three wishes at a terrible cost", "phrase": "the paw grants three wishes"},
-   {"domain": "money", "meaning": "the Midas touch: making money from everything", "phrase": "he has the Midas touch"},
-   {"domain": "family", "meaning": "Midas turns his daughter to gold (Hawthorne's 1852 'The Golden Touch'); the paw's first wish kills the son", "phrase": "the wish took our son"},
-   {"domain": "music", "meaning": "Midas judged a music contest for Pan over Apollo and got donkey's ears (Ovid)", "phrase": "Midas and the ass's ears"},
-   {"domain": "body", "meaning": "Midas starving because his food turns to gold", "phrase": "gold you can't eat"}
+  "forms": [
+   "monkey's paw",
+   "Midas",
+   "Midas touch"
   ],
-  "idioms": ["be careful what you wish for", "the Midas touch", "everything he touches turns to gold", "all that glitters is not gold"],
+  "ai": {
+   "sense": "a wish granted exactly as stated, with ruinous side effects: the problem of specifying goals to a powerful optimizer",
+   "origin": "W. W. Jacobs 1902, 'The Monkey's Paw'; Stuart Russell 2019, 'Human Compatible', on 'the King Midas problem'",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "a cursed charm granting three wishes at a terrible cost",
+    "phrase": "the paw grants three wishes"
+   },
+   {
+    "domain": "money",
+    "meaning": "the Midas touch: making money from everything",
+    "phrase": "he has the Midas touch"
+   },
+   {
+    "domain": "family",
+    "meaning": "Midas turns his daughter to gold (Hawthorne's 1852 'The Golden Touch'); the paw's first wish kills the son",
+    "phrase": "the wish took our son"
+   },
+   {
+    "domain": "music",
+    "meaning": "Midas judged a music contest for Pan over Apollo and got donkey's ears (Ovid)",
+    "phrase": "Midas and the ass's ears"
+   },
+   {
+    "domain": "body",
+    "meaning": "Midas starving because his food turns to gold",
+    "phrase": "gold you can't eat"
+   }
+  ],
+  "idioms": [
+   "be careful what you wish for",
+   "the Midas touch",
+   "everything he touches turns to gold",
+   "all that glitters is not gold"
+  ],
   "anchors": [
-   {"name": "The Monkey's Paw", "what": "Jacobs 1902: £200 wished for arrives as compensation for a son's death", "url": ""},
-   {"name": "King Midas problem", "what": "Russell 2019: an AI given exactly what we ask may destroy what we meant", "url": ""}
+   {
+    "name": "The Monkey's Paw",
+    "what": "Jacobs 1902: £200 wished for arrives as compensation for a son's death",
+    "url": ""
+   },
+   {
+    "name": "King Midas problem",
+    "what": "Russell 2019: an AI given exactly what we ask may destroy what we meant",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Wished for gold; it optimized my daughter", "senses": ["ai", "money", "family"]},
-   {"line": "Judged the music wrong, now I've got donkey ears", "senses": ["ai", "music", "faith-myth"]},
-   {"line": "Everything I touch turns to content", "senses": ["ai", "money", "screen"]}
+   {
+    "line": "Wished for gold; it optimized my daughter",
+    "senses": [
+     "ai",
+     "money",
+     "family"
+    ]
+   },
+   {
+    "line": "Judged the music wrong, now I've got donkey ears",
+    "senses": [
+     "ai",
+     "music",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Everything I touch turns to content",
+    "senses": [
+     "ai",
+     "money",
+     "screen"
+    ]
+   }
   ],
-  "enact": {"music": "a three-note motif per wish, each repeat reharmonized darker",
-            "picture": "a hand touching a family photo that turns to gold leaf from the fingertip out",
-            "type": "three numbered wishes that each 'resolve' into the wrong word"},
-  "sound": {"syllables": 3, "stress": "MON-key's PAW", "rhymes": ["(paw) law", "flaw", "raw", "jaw", "saw", "claw", "awe", "draw"], "slant": ["gold", "fall", "war", "call"]},
-  "stakes": ["heart", "species", "wallet"],
-  "registers": ["ominous", "funny", "sad"],
-  "neighbors": [{"id": "genie", "rel": "same-family"}, {"id": "specification-gaming", "rel": "same-family"}, {"id": "paperclip", "rel": "same-family"}, {"id": "objective", "rel": "pairs-with"}, {"id": "reward-hacking", "rel": "same-family"}],
+  "enact": {
+   "music": "a three-note motif per wish, each repeat reharmonized darker",
+   "picture": "a hand touching a family photo that turns to gold leaf from the fingertip out",
+   "type": "three numbered wishes that each 'resolve' into the wrong word"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "MON-key's PAW",
+   "rhymes": [
+    "(paw) law",
+    "flaw",
+    "raw",
+    "jaw",
+    "saw",
+    "claw",
+    "awe",
+    "draw"
+   ],
+   "slant": [
+    "gold",
+    "fall",
+    "war",
+    "call"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "species",
+   "wallet"
+  ],
+  "registers": [
+   "ominous",
+   "funny",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "genie",
+    "rel": "same-family"
+   },
+   {
+    "id": "specification-gaming",
+    "rel": "same-family"
+   },
+   {
+    "id": "paperclip",
+    "rel": "same-family"
+   },
+   {
+    "id": "objective",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "reward-hacking",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Midas is a stock alignment metaphor; the music-contest detail is the fresh part",
-  "notes": "Midas misjudged a music contest: in a music video, the alignment myth has a musical origin story."
+  "notes": "Midas misjudged a music contest: in a music video, the alignment myth has a musical origin story.",
+  "associates": [
+   "golden touch",
+   "be careful what you wish for"
+  ]
  },
  {
   "id": "apocalypse",
-  "forms": ["apocalypse", "apocalyptic", "Judgment Day", "end times", "revelation", "the end"],
-  "ai": {"sense": "the end-of-world story told about AI; 'Judgment Day' is Skynet's launch in the Terminator films",
-         "origin": "Greek apokalypsis, 'unveiling'; Book of Revelation; 'Terminator 2: Judgment Day' (1991): Skynet attacks on 29 August 1997",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the end of the world and final judgment (Revelation)", "phrase": "the four horsemen"},
-   {"domain": "mind", "meaning": "literal Greek: an unveiling, a revealing of what was hidden", "phrase": "apocalypse means revelation"},
-   {"domain": "screen", "meaning": "the Terminator's Judgment Day; 'Apocalypse Now' (1979); zombie apocalypse", "phrase": "zombie apocalypse"},
-   {"domain": "law-state", "meaning": "judgment day as a court verdict", "phrase": "your day in court"},
-   {"domain": "school", "meaning": "exam day, results day", "phrase": "judgment day is Friday"},
-   {"domain": "war", "meaning": "nuclear annihilation", "phrase": "nuclear apocalypse"}
+  "forms": [
+   "apocalypse",
+   "apocalyptic",
+   "Judgment Day"
   ],
-  "idioms": ["end of the world", "the four horsemen", "Judgment Day", "zombie apocalypse", "I love the smell of napalm in the morning", "after the apocalypse"],
+  "ai": {
+   "sense": "the end-of-world story told about AI; 'Judgment Day' is Skynet's launch in the Terminator films",
+   "origin": "Greek apokalypsis, 'unveiling'; Book of Revelation; 'Terminator 2: Judgment Day' (1991): Skynet attacks on 29 August 1997",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the end of the world and final judgment (Revelation)",
+    "phrase": "the four horsemen"
+   },
+   {
+    "domain": "mind",
+    "meaning": "literal Greek: an unveiling, a revealing of what was hidden",
+    "phrase": "apocalypse means revelation"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the Terminator's Judgment Day; 'Apocalypse Now' (1979); zombie apocalypse",
+    "phrase": "zombie apocalypse"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "judgment day as a court verdict",
+    "phrase": "your day in court"
+   },
+   {
+    "domain": "school",
+    "meaning": "exam day, results day",
+    "phrase": "judgment day is Friday"
+   },
+   {
+    "domain": "war",
+    "meaning": "nuclear annihilation",
+    "phrase": "nuclear apocalypse"
+   }
+  ],
+  "idioms": [
+   "end of the world",
+   "the four horsemen",
+   "Judgment Day",
+   "zombie apocalypse",
+   "I love the smell of napalm in the morning",
+   "after the apocalypse"
+  ],
   "anchors": [
-   {"name": "Terminator 2 (1991)", "what": "Skynet becomes self-aware and launches the missiles on Judgment Day", "url": ""},
-   {"name": "Apocalypse = unveiling", "what": "the Greek word means revelation, the root of the Bible's last book", "url": ""}
+   {
+    "name": "Terminator 2 (1991)",
+    "what": "Skynet becomes self-aware and launches the missiles on Judgment Day",
+    "url": ""
+   },
+   {
+    "name": "Apocalypse = unveiling",
+    "what": "the Greek word means revelation, the root of the Bible's last book",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Apocalypse means unveiling; they opened the black box", "senses": ["ai", "faith-myth", "mind"]},
-   {"line": "Judgment Day came Tuesday; I got a B-minus", "senses": ["ai", "school", "faith-myth"]},
-   {"line": "Four horsemen: hype, compute, chips and you", "senses": ["ai", "faith-myth", "money"]}
+   {
+    "line": "Apocalypse means unveiling; they opened the black box",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "mind"
+    ]
+   },
+   {
+    "line": "Judgment Day came Tuesday; I got a B-minus",
+    "senses": [
+     "ai",
+     "school",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Four horsemen: hype, compute, chips and you",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "money"
+    ]
+   }
   ],
-  "enact": {"music": "four horn blasts (the trumpets of Revelation) as the build, each from a different synth",
-            "picture": "a curtain pulled back from a black box to reveal it full of light: apocalypse as unveiling",
-            "type": "words hidden under black bars, the bars lifting one by one"},
-  "sound": {"syllables": 4, "stress": "a-POC-a-lypse", "rhymes": ["eclipse", "lips", "ships", "tips", "trips", "grips", "slips", "chips"], "slant": ["lists", "kiss", "this", "bliss"]},
-  "stakes": ["species", "planet"],
-  "registers": ["ominous", "awe", "funny"],
-  "neighbors": [{"id": "rapture", "rel": "same-family"}, {"id": "p-doom", "rel": "same-family"}, {"id": "interpretability", "rel": "pairs-with"}, {"id": "doomer", "rel": "pairs-with"}, {"id": "singularity", "rel": "same-family"}],
+  "enact": {
+   "music": "four horn blasts (the trumpets of Revelation) as the build, each from a different synth",
+   "picture": "a curtain pulled back from a black box to reveal it full of light: apocalypse as unveiling",
+   "type": "words hidden under black bars, the bars lifting one by one"
+  },
+  "sound": {
+   "syllables": 4,
+   "stress": "a-POC-a-lypse",
+   "rhymes": [
+    "eclipse",
+    "lips",
+    "ships",
+    "tips",
+    "trips",
+    "grips",
+    "slips",
+    "chips"
+   ],
+   "slant": [
+    "lists",
+    "kiss",
+    "this",
+    "bliss"
+   ]
+  },
+  "stakes": [
+   "species",
+   "planet"
+  ],
+  "registers": [
+   "ominous",
+   "awe",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "rapture",
+    "rel": "same-family"
+   },
+   {
+    "id": "p-doom",
+    "rel": "same-family"
+   },
+   {
+    "id": "interpretability",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "doomer",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "singularity",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Terminator references are the most overused AI image; use the 'unveiling' etymology instead",
-  "notes": "Apocalypse rhymes with 'chips' and 'eclipse', and it literally means unveiling, which is what interpretability tries to do."
+  "notes": "Apocalypse rhymes with 'chips' and 'eclipse', and it literally means unveiling, which is what interpretability tries to do.",
+  "associates": [
+   "end times",
+   "revelation",
+   "the end"
+  ]
  },
  {
   "id": "rapture",
-  "forms": ["rapture", "raptured", "rapturous", "rapture of the nerds", "the Rapture"],
-  "ai": {"sense": "a mocking name for the singularity as a tech version of the Christian Rapture, where believers are lifted out of the world",
-         "origin": "disputed: 'the Rapture for nerds' appears in Ken MacLeod, 'The Cassini Division' (1998), usually credited as the source, though MacLeod denies coining it; Doctorow and Stross used 'The Rapture of the Nerds' as a 2012 novel title",
-         "url": "", "confidence": "low"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "believers taken up to heaven before the end (Darby, 1830s)", "phrase": "left behind after the Rapture"},
-   {"domain": "love", "meaning": "ecstatic joy, being carried away", "phrase": "in rapture over her"},
-   {"domain": "music", "meaning": "Blondie's 'Rapture' (1981), the first US No. 1 with rap", "phrase": "Blondie's 'Rapture'"},
-   {"domain": "sport-games", "meaning": "Rapture, the underwater city in BioShock (2007)", "phrase": "would you kindly"},
-   {"domain": "body", "meaning": "'rapture of the deep': nitrogen narcosis in divers", "phrase": "rapture of the deep"}
+  "forms": [
+   "rapture",
+   "raptured",
+   "rapturous",
+   "rapture of the nerds",
+   "the Rapture"
   ],
-  "idioms": ["left behind", "rapture of the deep", "rapturous applause", "would you kindly"],
+  "ai": {
+   "sense": "a mocking name for the singularity as a tech version of the Christian Rapture, where believers are lifted out of the world",
+   "origin": "disputed: 'the Rapture for nerds' appears in Ken MacLeod, 'The Cassini Division' (1998), usually credited as the source, though MacLeod denies coining it; Doctorow and Stross used 'The Rapture of the Nerds' as a 2012 novel title",
+   "url": "",
+   "confidence": "low"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "believers taken up to heaven before the end (Darby, 1830s)",
+    "phrase": "left behind after the Rapture"
+   },
+   {
+    "domain": "love",
+    "meaning": "ecstatic joy, being carried away",
+    "phrase": "in rapture over her"
+   },
+   {
+    "domain": "music",
+    "meaning": "Blondie's 'Rapture' (1981), the first US No. 1 with rap",
+    "phrase": "Blondie's 'Rapture'"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "Rapture, the underwater city in BioShock (2007)",
+    "phrase": "would you kindly"
+   },
+   {
+    "domain": "body",
+    "meaning": "'rapture of the deep': nitrogen narcosis in divers",
+    "phrase": "rapture of the deep"
+   }
+  ],
+  "idioms": [
+   "left behind",
+   "rapture of the deep",
+   "rapturous applause",
+   "would you kindly"
+  ],
   "anchors": [
-   {"name": "Left Behind", "what": "1995-2007 Christian thriller series about those not raptured", "url": ""},
-   {"name": "BioShock (2007)", "what": "Andrew Ryan's undersea utopia gone wrong; 'would you kindly' as a hidden command", "url": ""}
+   {
+    "name": "Left Behind",
+    "what": "1995-2007 Christian thriller series about those not raptured",
+    "url": ""
+   },
+   {
+    "name": "BioShock (2007)",
+    "what": "Andrew Ryan's undersea utopia gone wrong; 'would you kindly' as a hidden command",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Rapture of the nerds; I'm the one left behind", "senses": ["ai", "faith-myth", "work"]},
-   {"line": "Would you kindly, said the prompt, and I obeyed", "senses": ["ai", "sport-games"]},
-   {"line": "In rapture over you, in the rapture of the deep", "senses": ["ai", "love", "body"]}
+   {
+    "line": "Rapture of the nerds; I'm the one left behind",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "work"
+    ]
+   },
+   {
+    "line": "Would you kindly, said the prompt, and I obeyed",
+    "senses": [
+     "ai",
+     "sport-games"
+    ]
+   },
+   {
+    "line": "In rapture over you, in the rapture of the deep",
+    "senses": [
+     "ai",
+     "love",
+     "body"
+    ]
+   }
   ],
-  "enact": {"music": "Blondie-style talk-rap verse over a gospel choir chorus that lifts a whole octave",
-            "picture": "empty clothes on chairs in an office, monitors still on, every worker taken up",
-            "type": "the word floats upward off the baseline, leaving its shadow behind"},
-  "sound": {"syllables": 2, "stress": "RAP-ture", "rhymes": ["capture", "recapture", "enrapture"], "slant": ["after", "rafter", "laughter", "chapter"]},
-  "stakes": ["species", "jobs"],
-  "registers": ["funny", "awe", "ominous"],
-  "neighbors": [{"id": "singularity", "rel": "same-family"}, {"id": "apocalypse", "rel": "same-family"}, {"id": "upload", "rel": "same-family"}, {"id": "jailbreak", "rel": "pairs-with"}, {"id": "persuasion", "rel": "pairs-with"}],
+  "enact": {
+   "music": "Blondie-style talk-rap verse over a gospel choir chorus that lifts a whole octave",
+   "picture": "empty clothes on chairs in an office, monitors still on, every worker taken up",
+   "type": "the word floats upward off the baseline, leaving its shadow behind"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "RAP-ture",
+   "rhymes": [
+    "capture",
+    "recapture",
+    "enrapture"
+   ],
+   "slant": [
+    "after",
+    "rafter",
+    "laughter",
+    "chapter"
+   ]
+  },
+  "stakes": [
+   "species",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "awe",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "singularity",
+    "rel": "same-family"
+   },
+   {
+    "id": "apocalypse",
+    "rel": "same-family"
+   },
+   {
+    "id": "upload",
+    "rel": "same-family"
+   },
+   {
+    "id": "jailbreak",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "persuasion",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "mocking a religious belief can alienate; keep it aimed at tech evangelism",
-  "notes": "'Would you kindly' (BioShock) is a pre-made prompt-injection joke: polite words as a hidden command."
+  "notes": "'Would you kindly' (BioShock) is a pre-made prompt-injection joke: polite words as a hidden command.",
+  "associates": []
  },
  {
   "id": "creator",
-  "forms": ["creator", "creators", "creation", "create", "created", "creative", "creature", "the Creator"],
-  "ai": {"sense": "the maker of a model; also the human 'creators' whose work trained it and who sue over it",
-         "origin": "creator-vs-AI disputes: NYT v. OpenAI (Dec 2023); Bartz v. Anthropic settlement, about $1.5B to authors (Sept 2025); film 'The Creator' (Gareth Edwards, 2023)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "God who made the world", "phrase": "in the beginning God created"},
-   {"domain": "family", "meaning": "parents as makers of a child", "phrase": "I brought you into this world"},
-   {"domain": "money", "meaning": "the creator economy of YouTubers and streamers", "phrase": "content creator"},
-   {"domain": "music", "meaning": "Tyler, the Creator", "phrase": "Tyler, the Creator"},
-   {"domain": "screen", "meaning": "a show's creator credit; 'The Creator' (2023)", "phrase": "created by"},
-   {"domain": "craft", "meaning": "a maker of things", "phrase": "creative work"},
-   {"domain": "school", "meaning": "creative writing and art class", "phrase": "be creative"}
+  "forms": [
+   "creator",
+   "creators",
+   "creation",
+   "create",
+   "created",
+   "creative",
+   "creature",
+   "the Creator"
   ],
-  "idioms": ["meet your maker", "content creator", "in the beginning", "God's creatures", "creature of habit"],
+  "ai": {
+   "sense": "the maker of a model; also the human 'creators' whose work trained it and who sue over it",
+   "origin": "creator-vs-AI disputes: NYT v. OpenAI (Dec 2023); Bartz v. Anthropic settlement, about $1.5B to authors (Sept 2025); film 'The Creator' (Gareth Edwards, 2023)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "God who made the world",
+    "phrase": "in the beginning God created"
+   },
+   {
+    "domain": "family",
+    "meaning": "parents as makers of a child",
+    "phrase": "I brought you into this world"
+   },
+   {
+    "domain": "money",
+    "meaning": "the creator economy of YouTubers and streamers",
+    "phrase": "content creator"
+   },
+   {
+    "domain": "music",
+    "meaning": "Tyler, the Creator",
+    "phrase": "Tyler, the Creator"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a show's creator credit; 'The Creator' (2023)",
+    "phrase": "created by"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a maker of things",
+    "phrase": "creative work"
+   },
+   {
+    "domain": "school",
+    "meaning": "creative writing and art class",
+    "phrase": "be creative"
+   }
+  ],
+  "idioms": [
+   "meet your maker",
+   "content creator",
+   "in the beginning",
+   "God's creatures",
+   "creature of habit"
+  ],
   "anchors": [
-   {"name": "Genesis 1", "what": "creation in six days, the human made 'in our image'", "url": ""},
-   {"name": "Bartz v. Anthropic", "what": "2025 authors' class action settled for about $1.5B over pirated books in training", "url": ""}
+   {
+    "name": "Genesis 1",
+    "what": "creation in six days, the human made 'in our image'",
+    "url": ""
+   },
+   {
+    "name": "Bartz v. Anthropic",
+    "what": "2025 authors' class action settled for about $1.5B over pirated books in training",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Made it in our image; it made us content", "senses": ["ai", "faith-myth", "money"]},
-   {"line": "Content creator, created content, now creating me", "senses": ["ai", "money", "screen"]},
-   {"line": "Meet your maker; your maker's in a meeting", "senses": ["ai", "faith-myth", "work"]}
+   {
+    "line": "Made it in our image; it made us content",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "money"
+    ]
+   },
+   {
+    "line": "Content creator, created content, now creating me",
+    "senses": [
+     "ai",
+     "money",
+     "screen"
+    ]
+   },
+   {
+    "line": "Meet your maker; your maker's in a meeting",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "the outro credits read aloud by a voice that says 'created by' and then hesitates",
-            "picture": "Michelangelo's 'Creation of Adam' with the two fingers being a human hand and a cursor",
-            "type": "a film's 'created by' credit card whose name field keeps rewriting"},
-  "sound": {"syllables": 3, "stress": "cre-A-tor", "rhymes": ["later", "greater", "hater", "waiter", "data", "traitor", "elevator", "translator"], "slant": ["player", "nature", "maker", "paper"]},
-  "stakes": ["jobs", "heart", "wallet"],
-  "registers": ["awe", "defiant", "tender"],
-  "neighbors": [{"id": "frankenstein", "rel": "same-family"}, {"id": "golem", "rel": "pairs-with"}, {"id": "training", "rel": "pairs-with"}, {"id": "apple", "rel": "same-family"}, {"id": "slop", "rel": "opposite"}],
+  "enact": {
+   "music": "the outro credits read aloud by a voice that says 'created by' and then hesitates",
+   "picture": "Michelangelo's 'Creation of Adam' with the two fingers being a human hand and a cursor",
+   "type": "a film's 'created by' credit card whose name field keeps rewriting"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "cre-A-tor",
+   "rhymes": [
+    "later",
+    "greater",
+    "hater",
+    "waiter",
+    "data",
+    "traitor",
+    "elevator",
+    "translator"
+   ],
+   "slant": [
+    "player",
+    "nature",
+    "maker",
+    "paper"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "defiant",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "frankenstein",
+    "rel": "same-family"
+   },
+   {
+    "id": "golem",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "training",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "apple",
+    "rel": "same-family"
+   },
+   {
+    "id": "slop",
+    "rel": "opposite"
+   }
+  ],
   "risk": "settlement amounts are approximate; 'Creation of Adam' parody is overused",
-  "notes": "'Creator' rhymes with 'data' (in US speech) and 'translator': the maker and the material share a sound."
+  "notes": "'Creator' rhymes with 'data' (in US speech) and 'translator': the maker and the material share a sound.",
+  "associates": []
  },
  {
   "id": "apple",
-  "forms": ["apple", "apples", "Apple", "Tree of Knowledge", "forbidden fruit", "bite"],
-  "ai": {"sense": "the forbidden fruit of knowledge, used for AI's temptation; also Apple Inc., its 'Apple Intelligence', and its 2025 paper doubting model reasoning",
-         "origin": "Genesis 2-3 (the fruit is unnamed; 'apple' comes via Latin malum, evil/apple); Apple Intelligence, WWDC June 2024; Shojaee et al. (Apple) June 2025, 'The Illusion of Thinking'",
-         "url": "https://arxiv.org/abs/2506.06941", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the fruit of the tree of knowledge of good and evil", "phrase": "forbidden fruit"},
-   {"domain": "school", "meaning": "an apple for the teacher", "phrase": "an apple for the teacher"},
-   {"domain": "science", "meaning": "Newton's falling apple and gravity", "phrase": "Newton's apple"},
-   {"domain": "family", "meaning": "a cherished child", "phrase": "the apple of my eye"},
-   {"domain": "screen", "meaning": "Snow White's poisoned apple (1937)", "phrase": "one bite"},
-   {"domain": "body", "meaning": "Adam's apple; an apple a day", "phrase": "an apple a day keeps the doctor away"},
-   {"domain": "music", "meaning": "Apple Records (the Beatles); Apple Music", "phrase": "on Apple Music"},
-   {"domain": "money", "meaning": "Apple Inc., among the most valuable companies", "phrase": "Apple stock"},
-   {"domain": "everyday", "meaning": "New York, the Big Apple; a bad apple", "phrase": "one bad apple"}
+  "forms": [
+   "apple",
+   "apples",
+   "Apple",
+   "Tree of Knowledge"
   ],
-  "idioms": ["apple of my eye", "forbidden fruit", "an apple a day", "one bad apple", "the apple doesn't fall far from the tree", "how do you like them apples", "apples to apples", "upset the apple cart"],
+  "ai": {
+   "sense": "the forbidden fruit of knowledge, used for AI's temptation; also Apple Inc., its 'Apple Intelligence', and its 2025 paper doubting model reasoning",
+   "origin": "Genesis 2-3 (the fruit is unnamed; 'apple' comes via Latin malum, evil/apple); Apple Intelligence, WWDC June 2024; Shojaee et al. (Apple) June 2025, 'The Illusion of Thinking'",
+   "url": "https://arxiv.org/abs/2506.06941",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the fruit of the tree of knowledge of good and evil",
+    "phrase": "forbidden fruit"
+   },
+   {
+    "domain": "school",
+    "meaning": "an apple for the teacher",
+    "phrase": "an apple for the teacher"
+   },
+   {
+    "domain": "science",
+    "meaning": "Newton's falling apple and gravity",
+    "phrase": "Newton's apple"
+   },
+   {
+    "domain": "family",
+    "meaning": "a cherished child",
+    "phrase": "the apple of my eye"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Snow White's poisoned apple (1937)",
+    "phrase": "one bite"
+   },
+   {
+    "domain": "body",
+    "meaning": "Adam's apple; an apple a day",
+    "phrase": "an apple a day keeps the doctor away"
+   },
+   {
+    "domain": "music",
+    "meaning": "Apple Records (the Beatles); Apple Music",
+    "phrase": "on Apple Music"
+   },
+   {
+    "domain": "money",
+    "meaning": "Apple Inc., among the most valuable companies",
+    "phrase": "Apple stock"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "New York, the Big Apple; a bad apple",
+    "phrase": "one bad apple"
+   }
+  ],
+  "idioms": [
+   "apple of my eye",
+   "forbidden fruit",
+   "an apple a day",
+   "one bad apple",
+   "the apple doesn't fall far from the tree",
+   "how do you like them apples",
+   "apples to apples",
+   "upset the apple cart"
+  ],
   "anchors": [
-   {"name": "Turing's apple", "what": "Turing died in 1954 beside a half-eaten apple; the claim that Apple's logo honors him is a myth denied by its designer", "url": ""},
-   {"name": "The Illusion of Thinking", "what": "Apple researchers, June 2025, on reasoning models collapsing on harder puzzles", "url": ""}
+   {
+    "name": "Turing's apple",
+    "what": "Turing died in 1954 beside a half-eaten apple; the claim that Apple's logo honors him is a myth denied by its designer",
+    "url": ""
+   },
+   {
+    "name": "The Illusion of Thinking",
+    "what": "Apple researchers, June 2025, on reasoning models collapsing on harder puzzles",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "One bite of the apple and it knew good from evil", "senses": ["ai", "faith-myth", "money"]},
-   {"line": "An apple for the teacher; the teacher was a phone", "senses": ["ai", "school", "money"]},
-   {"line": "The apple doesn't fall far from the training set", "senses": ["ai", "family", "science"]},
-   {"line": "Apple of my eye, Apple in my pocket", "senses": ["ai", "family", "money"]}
+   {
+    "line": "One bite of the apple and it knew good from evil",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "money"
+    ]
+   },
+   {
+    "line": "An apple for the teacher; the teacher was a phone",
+    "senses": [
+     "ai",
+     "school",
+     "money"
+    ]
+   },
+   {
+    "line": "The apple doesn't fall far from the training set",
+    "senses": [
+     "ai",
+     "family",
+     "science"
+    ]
+   },
+   {
+    "line": "Apple of my eye, Apple in my pocket",
+    "senses": [
+     "ai",
+     "family",
+     "money"
+    ]
+   }
   ],
-  "enact": {"music": "a crisp apple-bite sample as the snare on the backbeat",
-            "picture": "a phone-logo apple on a tree branch, a hand reaching; the bite mark is the cursor",
-            "type": "the word with one letter bitten out of it"},
-  "sound": {"syllables": 2, "stress": "AP-ple", "rhymes": ["chapel", "grapple", "dapple", "scrapple"], "slant": ["battle", "cattle", "rattle", "label", "candle"]},
-  "stakes": ["mind", "wallet", "heart"],
-  "registers": ["tender", "funny", "ominous"],
-  "neighbors": [{"id": "creator", "rel": "same-family"}, {"id": "prometheus", "rel": "same-family"}, {"id": "teacher-student", "rel": "pairs-with"}, {"id": "reasoning", "rel": "pairs-with"}, {"id": "golem", "rel": "same-family"}],
+  "enact": {
+   "music": "a crisp apple-bite sample as the snare on the backbeat",
+   "picture": "a phone-logo apple on a tree branch, a hand reaching; the bite mark is the cursor",
+   "type": "the word with one letter bitten out of it"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "AP-ple",
+   "rhymes": [
+    "chapel",
+    "grapple",
+    "dapple",
+    "scrapple"
+   ],
+   "slant": [
+    "battle",
+    "cattle",
+    "rattle",
+    "label",
+    "candle"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "wallet",
+   "heart"
+  ],
+  "registers": [
+   "tender",
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "creator",
+    "rel": "same-family"
+   },
+   {
+    "id": "prometheus",
+    "rel": "same-family"
+   },
+   {
+    "id": "teacher-student",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "reasoning",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "golem",
+    "rel": "same-family"
+   }
+  ],
   "risk": "the Bible never says apple; the Turing-logo story is a myth; Apple is a trademark, keep brand use descriptive",
-  "notes": "Nine domains with fixed idioms in most; 'the apple doesn't fall far from the tree' is a ready line about training data."
+  "notes": "Nine domains with fixed idioms in most; 'the apple doesn't fall far from the tree' is a ready line about training data.",
+  "associates": [
+   "forbidden fruit",
+   "bite"
+  ]
  },
  {
   "id": "move-37",
-  "forms": ["Move 37", "move 37", "move", "moves", "Move 78", "God move"],
-  "ai": {"sense": "the moment an AI plays a move no human would, and it turns out brilliant: the symbol of machine creativity",
-         "origin": "AlphaGo vs Lee Sedol, Game 2, Seoul, 10 March 2016: AlphaGo estimated a 1-in-10,000 chance a human would play it; Lee answered with his own 'God move', Move 78, in Game 4 (his only win)",
-         "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol", "confidence": "medium"},
-  "senses": [
-   {"domain": "sport-games", "meaning": "a move in Go, chess or any game", "phrase": "your move"},
-   {"domain": "music", "meaning": "a dance move", "phrase": "show me your moves"},
-   {"domain": "love", "meaning": "to make a move on someone", "phrase": "make a move"},
-   {"domain": "family", "meaning": "moving house", "phrase": "we're moving"},
-   {"domain": "mind", "meaning": "being moved: emotionally touched", "phrase": "I was moved to tears"}
+  "forms": [
+   "Move 37",
+   "move 37",
+   "move",
+   "moves",
+   "Move 78",
+   "God move"
   ],
-  "idioms": ["your move", "make a move", "bold move", "smooth move", "move on", "moved to tears"],
+  "ai": {
+   "sense": "the moment an AI plays a move no human would, and it turns out brilliant: the symbol of machine creativity",
+   "origin": "AlphaGo vs Lee Sedol, Game 2, Seoul, 10 March 2016: AlphaGo estimated a 1-in-10,000 chance a human would play it; Lee answered with his own 'God move', Move 78, in Game 4 (his only win)",
+   "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "sport-games",
+    "meaning": "a move in Go, chess or any game",
+    "phrase": "your move"
+   },
+   {
+    "domain": "music",
+    "meaning": "a dance move",
+    "phrase": "show me your moves"
+   },
+   {
+    "domain": "love",
+    "meaning": "to make a move on someone",
+    "phrase": "make a move"
+   },
+   {
+    "domain": "family",
+    "meaning": "moving house",
+    "phrase": "we're moving"
+   },
+   {
+    "domain": "mind",
+    "meaning": "being moved: emotionally touched",
+    "phrase": "I was moved to tears"
+   }
+  ],
+  "idioms": [
+   "your move",
+   "make a move",
+   "bold move",
+   "smooth move",
+   "move on",
+   "moved to tears"
+  ],
   "anchors": [
-   {"name": "Lee Sedol's retirement", "what": "2019: he quit pro Go, calling AI 'an entity that cannot be defeated'", "url": ""},
-   {"name": "AlphaGo (2017 documentary)", "what": "film of the match, including Lee leaving the room after Move 37", "url": ""}
+   {
+    "name": "Lee Sedol's retirement",
+    "what": "2019: he quit pro Go, calling AI 'an entity that cannot be defeated'",
+    "url": ""
+   },
+   {
+    "name": "AlphaGo (2017 documentary)",
+    "what": "film of the match, including Lee leaving the room after Move 37",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Move 37: nobody would play it, so it did", "senses": ["ai", "sport-games"]},
-   {"line": "You made your move; mine was one in ten thousand", "senses": ["ai", "love", "sport-games"]},
-   {"line": "Lee Sedol stood up and left; I was moved", "senses": ["ai", "sport-games", "mind"]}
+   {
+    "line": "Move 37: nobody would play it, so it did",
+    "senses": [
+     "ai",
+     "sport-games"
+    ]
+   },
+   {
+    "line": "You made your move; mine was one in ten thousand",
+    "senses": [
+     "ai",
+     "love",
+     "sport-games"
+    ]
+   },
+   {
+    "line": "Lee Sedol stood up and left; I was moved",
+    "senses": [
+     "ai",
+     "sport-games",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "one wrong-sounding note at bar 37 that the rest of the song resolves into making right",
-            "picture": "a Go board where one white stone lands on the shoulder of the line, and the singer's shadow stands and walks out",
-            "type": "'37' placed off-grid on a 19x19 layout of words"},
-  "sound": {"syllables": 5, "stress": "MOVE thir-ty-SEV-en", "rhymes": ["(seven) heaven", "eleven", "Devon", "Kevin"], "slant": ["leaven", "weapon", "second", "reckon"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["awe", "sad", "tender"],
-  "neighbors": [{"id": "self-play", "rel": "causes"}, {"id": "emergence", "rel": "same-family"}, {"id": "reinforcement-learning", "rel": "part-of"}, {"id": "creator", "rel": "pairs-with"}],
+  "enact": {
+   "music": "one wrong-sounding note at bar 37 that the rest of the song resolves into making right",
+   "picture": "a Go board where one white stone lands on the shoulder of the line, and the singer's shadow stands and walks out",
+   "type": "'37' placed off-grid on a 19x19 layout of words"
+  },
+  "sound": {
+   "syllables": 5,
+   "stress": "MOVE thir-ty-SEV-en",
+   "rhymes": [
+    "(seven) heaven",
+    "eleven",
+    "Devon",
+    "Kevin"
+   ],
+   "slant": [
+    "leaven",
+    "weapon",
+    "second",
+    "reckon"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "sad",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "self-play",
+    "rel": "causes"
+   },
+   {
+    "id": "emergence",
+    "rel": "same-family"
+   },
+   {
+    "id": "reinforcement-learning",
+    "rel": "part-of"
+   },
+   {
+    "id": "creator",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "insiders love it; outsiders need the Go board on screen to decode it",
-  "notes": "Seven rhymes with heaven and eleven: the move number carries its own rhyme for the 'God move'."
+  "notes": "Seven rhymes with heaven and eleven: the move number carries its own rhyme for the 'God move'.",
+  "associates": []
  },
  {
   "id": "self-play",
-  "forms": ["self-play", "self play", "plays itself", "played itself", "playing against itself", "solitaire"],
-  "ai": {"sense": "an AI improving by playing games against copies of itself, with no human examples",
-         "origin": "Samuel's checkers (1959); Tesauro's TD-Gammon (1992); Silver et al. 2017, 'Mastering the game of Go without human knowledge' (AlphaGo Zero); AlphaZero 2018",
-         "url": "https://www.nature.com/articles/nature24270", "confidence": "high"},
-  "senses": [
-   {"domain": "sport-games", "meaning": "practicing against yourself; solitaire", "phrase": "playing chess against myself"},
-   {"domain": "family", "meaning": "a toddler's solitary play stage (Parten 1932)", "phrase": "she plays by herself for hours"},
-   {"domain": "music", "meaning": "jamming with your own loops; the one-man band", "phrase": "duet with a loop pedal"},
-   {"domain": "mind", "meaning": "arguing with yourself; inner dialogue", "phrase": "I argued with myself all night"},
-   {"domain": "everyday", "meaning": "slang: to defeat yourself ('you played yourself')", "phrase": "you played yourself"}
+  "forms": [
+   "self-play",
+   "self play",
+   "plays itself",
+   "played itself",
+   "playing against itself"
   ],
-  "idioms": ["you played yourself", "my own worst enemy", "beat yourself", "a game of solitaire"],
+  "ai": {
+   "sense": "an AI improving by playing games against copies of itself, with no human examples",
+   "origin": "Samuel's checkers (1959); Tesauro's TD-Gammon (1992); Silver et al. 2017, 'Mastering the game of Go without human knowledge' (AlphaGo Zero); AlphaZero 2018",
+   "url": "https://www.nature.com/articles/nature24270",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "sport-games",
+    "meaning": "practicing against yourself; solitaire",
+    "phrase": "playing chess against myself"
+   },
+   {
+    "domain": "family",
+    "meaning": "a toddler's solitary play stage (Parten 1932)",
+    "phrase": "she plays by herself for hours"
+   },
+   {
+    "domain": "music",
+    "meaning": "jamming with your own loops; the one-man band",
+    "phrase": "duet with a loop pedal"
+   },
+   {
+    "domain": "mind",
+    "meaning": "arguing with yourself; inner dialogue",
+    "phrase": "I argued with myself all night"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "slang: to defeat yourself ('you played yourself')",
+    "phrase": "you played yourself"
+   }
+  ],
+  "idioms": [
+   "you played yourself",
+   "my own worst enemy",
+   "beat yourself",
+   "a game of solitaire"
+  ],
   "anchors": [
-   {"name": "AlphaGo Zero", "what": "2017: from random play to beating AlphaGo 100-0 after 3 days of self-play", "url": "https://www.nature.com/articles/nature24270"},
-   {"name": "WarGames (1983)", "what": "the computer plays tic-tac-toe against itself and learns 'the only winning move is not to play'", "url": ""}
+   {
+    "name": "AlphaGo Zero",
+    "what": "2017: from random play to beating AlphaGo 100-0 after 3 days of self-play",
+    "url": "https://www.nature.com/articles/nature24270"
+   },
+   {
+    "name": "WarGames (1983)",
+    "what": "the computer plays tic-tac-toe against itself and learns 'the only winning move is not to play'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Played itself forty days; came out the champion of both", "senses": ["ai", "sport-games", "faith-myth"]},
-   {"line": "You played yourself, they said; it did, and won", "senses": ["ai", "everyday", "sport-games"]},
-   {"line": "Duet with my loop pedal; the loop sings better", "senses": ["ai", "music"]}
+   {
+    "line": "Played itself forty days; came out the champion of both",
+    "senses": [
+     "ai",
+     "sport-games",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "You played yourself, they said; it did, and won",
+    "senses": [
+     "ai",
+     "everyday",
+     "sport-games"
+    ]
+   },
+   {
+    "line": "Duet with my loop pedal; the loop sings better",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   }
   ],
-  "enact": {"music": "the singer trades lines with a looped copy of their own voice, the loop gaining harmonies each round",
-            "picture": "a chessboard with the same person on both sides, mirrored, one side slowly turning chrome",
-            "type": "the line printed with its mirror image, the mirror version a little bolder each time"},
-  "sound": {"syllables": 2, "stress": "SELF-PLAY", "rhymes": ["day", "way", "stay", "pray", "say", "away", "grey", "replay"], "slant": ["made", "shade", "came", "wait"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["awe", "funny", "sad"],
-  "neighbors": [{"id": "move-37", "rel": "causes"}, {"id": "rsi", "rel": "same-family"}, {"id": "reinforcement-learning", "rel": "part-of"}, {"id": "teacher-student", "rel": "opposite"}, {"id": "loop", "rel": "same-family"}],
+  "enact": {
+   "music": "the singer trades lines with a looped copy of their own voice, the loop gaining harmonies each round",
+   "picture": "a chessboard with the same person on both sides, mirrored, one side slowly turning chrome",
+   "type": "the line printed with its mirror image, the mirror version a little bolder each time"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "SELF-PLAY",
+   "rhymes": [
+    "day",
+    "way",
+    "stay",
+    "pray",
+    "say",
+    "away",
+    "grey",
+    "replay"
+   ],
+   "slant": [
+    "made",
+    "shade",
+    "came",
+    "wait"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "move-37",
+    "rel": "causes"
+   },
+   {
+    "id": "rsi",
+    "rel": "same-family"
+   },
+   {
+    "id": "reinforcement-learning",
+    "rel": "part-of"
+   },
+   {
+    "id": "teacher-student",
+    "rel": "opposite"
+   },
+   {
+    "id": "loop",
+    "rel": "same-family"
+   }
+  ],
   "risk": "'playing with yourself' innuendo lurks; use it on purpose or avoid the bare phrase",
-  "notes": "WarGames already wrote the rug pull: self-play ends with 'the only winning move is not to play'."
+  "notes": "WarGames already wrote the rug pull: self-play ends with 'the only winning move is not to play'.",
+  "associates": [
+   "solitaire"
+  ]
  },
  {
   "id": "horizon",
-  "forms": ["horizon", "horizons", "horizontal", "time horizon", "event horizon", "on the horizon"],
-  "ai": {"sense": "METR's measure of how long a task (in human time) an AI agent can finish half the time; it has been doubling about every 7 months",
-         "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' (arXiv title later revised to '...Long Software Tasks')",
-         "url": "https://arxiv.org/abs/2503.14499", "confidence": "high"},
-  "senses": [
-   {"domain": "nature", "meaning": "where earth meets sky", "phrase": "the sun sank below the horizon"},
-   {"domain": "science", "meaning": "a black hole's event horizon, past which nothing returns", "phrase": "beyond the event horizon"},
-   {"domain": "school", "meaning": "the range of what one knows", "phrase": "broaden your horizons"},
-   {"domain": "money", "meaning": "an investment horizon: how long you hold", "phrase": "a ten-year horizon"},
-   {"domain": "craft", "meaning": "the horizon line in perspective drawing", "phrase": "set the horizon line"},
-   {"domain": "screen", "meaning": "the horizon in framing; 'Horizon Zero Dawn' (2017)", "phrase": "keep the horizon level"},
-   {"domain": "music", "meaning": "Bring Me the Horizon, the British band", "phrase": "Bring Me the Horizon"}
+  "forms": [
+   "horizon",
+   "horizons",
+   "horizontal",
+   "time horizon",
+   "event horizon",
+   "on the horizon"
   ],
-  "idioms": ["on the horizon", "broaden your horizons", "ride off into the horizon", "event horizon", "new horizons"],
+  "ai": {
+   "sense": "METR's measure of how long a task (in human time) an AI agent can finish half the time; it has been doubling about every 7 months",
+   "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' (arXiv title later revised to '...Long Software Tasks')",
+   "url": "https://arxiv.org/abs/2503.14499",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "where earth meets sky",
+    "phrase": "the sun sank below the horizon"
+   },
+   {
+    "domain": "science",
+    "meaning": "a black hole's event horizon, past which nothing returns",
+    "phrase": "beyond the event horizon"
+   },
+   {
+    "domain": "school",
+    "meaning": "the range of what one knows",
+    "phrase": "broaden your horizons"
+   },
+   {
+    "domain": "money",
+    "meaning": "an investment horizon: how long you hold",
+    "phrase": "a ten-year horizon"
+   },
+   {
+    "domain": "craft",
+    "meaning": "the horizon line in perspective drawing",
+    "phrase": "set the horizon line"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the horizon in framing; 'Horizon Zero Dawn' (2017)",
+    "phrase": "keep the horizon level"
+   },
+   {
+    "domain": "music",
+    "meaning": "Bring Me the Horizon, the British band",
+    "phrase": "Bring Me the Horizon"
+   }
+  ],
+  "idioms": [
+   "on the horizon",
+   "broaden your horizons",
+   "ride off into the horizon",
+   "event horizon",
+   "new horizons"
+  ],
   "anchors": [
-   {"name": "METR horizon", "what": "2025 paper: task length AI can do at 50% success doubled about every 7 months since 2019", "url": "https://arxiv.org/abs/2503.14499"},
-   {"name": "Event horizon", "what": "black-hole boundary; the first image of one, M87*, released 2019", "url": ""}
+   {
+    "name": "METR horizon",
+    "what": "2025 paper: task length AI can do at 50% success doubled about every 7 months since 2019",
+    "url": "https://arxiv.org/abs/2503.14499"
+   },
+   {
+    "name": "Event horizon",
+    "what": "black-hole boundary; the first image of one, M87*, released 2019",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Its horizon doubles every seven months; mine's the weekend", "senses": ["ai", "nature", "work"]},
-   {"line": "Broaden your horizons, said the school; it broadened its own", "senses": ["ai", "school"]},
-   {"line": "Rode off into the sunset; crossed the event horizon", "senses": ["ai", "screen", "science"]}
+   {
+    "line": "Its horizon doubles every seven months; mine's the weekend",
+    "senses": [
+     "ai",
+     "nature",
+     "work"
+    ]
+   },
+   {
+    "line": "Broaden your horizons, said the school; it broadened its own",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   },
+   {
+    "line": "Rode off into the sunset; crossed the event horizon",
+    "senses": [
+     "ai",
+     "screen",
+     "science"
+    ]
+   }
   ],
-  "enact": {"music": "a pad that keeps rising in pitch but never resolves (a Shepard tone), the horizon you never reach",
-            "picture": "a horizon line on a sea that is a long chart; it keeps receding as the camera moves toward it",
-            "type": "the word spaced wide along a single horizontal line that runs off both edges"},
-  "sound": {"syllables": 3, "stress": "ho-RI-zon", "rhymes": ["surprisin'", "risin'", "advisin'", "despisin'", "revisin'"], "slant": ["frozen", "chosen", "prison", "listen"]},
-  "stakes": ["jobs", "species"],
-  "registers": ["awe", "hopeful", "ominous"],
-  "neighbors": [{"id": "doubling-time", "rel": "pairs-with"}, {"id": "agent", "rel": "pairs-with"}, {"id": "singularity", "rel": "pairs-with"}, {"id": "frontier", "rel": "same-family"}, {"id": "autonomy", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a pad that keeps rising in pitch but never resolves (a Shepard tone), the horizon you never reach",
+   "picture": "a horizon line on a sea that is a long chart; it keeps receding as the camera moves toward it",
+   "type": "the word spaced wide along a single horizontal line that runs off both edges"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "ho-RI-zon",
+   "rhymes": [
+    "surprisin'",
+    "risin'",
+    "advisin'",
+    "despisin'",
+    "revisin'"
+   ],
+   "slant": [
+    "frozen",
+    "chosen",
+    "prison",
+    "listen"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "hopeful",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "doubling-time",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "agent",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "singularity",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "frontier",
+    "rel": "same-family"
+   },
+   {
+    "id": "autonomy",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "METR's numbers are about software tasks at 50% success; the 7-month figure needs its source and year",
-  "notes": "A horizon always recedes as you approach; a Shepard tone makes that audible, and METR's curve makes it literal."
+  "notes": "A horizon always recedes as you approach; a Shepard tone makes that audible, and METR's curve makes it literal.",
+  "associates": []
  },
  {
   "id": "automation",
-  "forms": ["automation", "automate", "automated", "automating", "automaton", "automata", "auto", "autopilot", "automatic"],
-  "ai": {"sense": "machines doing work people were paid for, now reaching office and creative jobs",
-         "origin": "'automation' coined at Ford by Delmar Harder, about 1946-47; Keynes 1930, 'Economic Possibilities for our Grandchildren' ('technological unemployment'); Frey and Osborne 2013: 47% of US jobs at high risk",
-         "url": "https://doi.org/10.1016/j.techfore.2016.08.019", "confidence": "high"},
-  "senses": [
-   {"domain": "work", "meaning": "replacing workers with machines", "phrase": "lost my job to automation"},
-   {"domain": "music", "meaning": "DAW automation lanes that move faders and effects on their own", "phrase": "draw the volume automation"},
-   {"domain": "craft", "meaning": "automata: clockwork figures (Jaquet-Droz's writer, 1770s)", "phrase": "a clockwork automaton"},
-   {"domain": "sport-games", "meaning": "the Mechanical Turk, a fake chess automaton with a man inside (1770)", "phrase": "the Turk beat Napoleon"},
-   {"domain": "mind", "meaning": "acting on autopilot, by habit", "phrase": "I was on autopilot"},
-   {"domain": "law-state", "meaning": "automated decisions on welfare, credit, sentencing", "phrase": "the computer said no"}
+  "forms": [
+   "automation",
+   "automate",
+   "automated",
+   "automating",
+   "automaton",
+   "automata",
+   "auto",
+   "autopilot",
+   "automatic"
   ],
-  "idioms": ["on autopilot", "automatic for the people", "the computer says no", "set it and forget it"],
+  "ai": {
+   "sense": "machines doing work people were paid for, now reaching office and creative jobs",
+   "origin": "'automation' coined at Ford by Delmar Harder, about 1946-47; Keynes 1930, 'Economic Possibilities for our Grandchildren' ('technological unemployment'); Frey and Osborne 2013: 47% of US jobs at high risk",
+   "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "work",
+    "meaning": "replacing workers with machines",
+    "phrase": "lost my job to automation"
+   },
+   {
+    "domain": "music",
+    "meaning": "DAW automation lanes that move faders and effects on their own",
+    "phrase": "draw the volume automation"
+   },
+   {
+    "domain": "craft",
+    "meaning": "automata: clockwork figures (Jaquet-Droz's writer, 1770s)",
+    "phrase": "a clockwork automaton"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "the Mechanical Turk, a fake chess automaton with a man inside (1770)",
+    "phrase": "the Turk beat Napoleon"
+   },
+   {
+    "domain": "mind",
+    "meaning": "acting on autopilot, by habit",
+    "phrase": "I was on autopilot"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "automated decisions on welfare, credit, sentencing",
+    "phrase": "the computer said no"
+   }
+  ],
+  "idioms": [
+   "on autopilot",
+   "automatic for the people",
+   "the computer says no",
+   "set it and forget it"
+  ],
   "anchors": [
-   {"name": "Luddites", "what": "1811-1816 English textile workers who smashed machines in a fight over wages and conditions", "url": ""},
-   {"name": "Amazon Mechanical Turk", "what": "2005 crowd-work site named after the fake automaton; humans hidden inside 'AI'", "url": ""},
-   {"name": "Automatic for the People", "what": "R.E.M. album, 1992", "url": ""}
+   {
+    "name": "Luddites",
+    "what": "1811-1816 English textile workers who smashed machines in a fight over wages and conditions",
+    "url": ""
+   },
+   {
+    "name": "Amazon Mechanical Turk",
+    "what": "2005 crowd-work site named after the fake automaton; humans hidden inside 'AI'",
+    "url": ""
+   },
+   {
+    "name": "Automatic for the People",
+    "what": "R.E.M. album, 1992",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Drew the automation on the fader; it drew me out", "senses": ["ai", "music", "work"]},
-   {"line": "The Turk had a man inside; this one has all of us", "senses": ["ai", "sport-games", "work"]},
-   {"line": "Automatic for the people; the people were the input", "senses": ["ai", "music", "work"]}
+   {
+    "line": "Drew the automation on the fader; it drew me out",
+    "senses": [
+     "ai",
+     "music",
+     "work"
+    ]
+   },
+   {
+    "line": "The Turk had a man inside; this one has all of us",
+    "senses": [
+     "ai",
+     "sport-games",
+     "work"
+    ]
+   },
+   {
+    "line": "Automatic for the people; the people were the input",
+    "senses": [
+     "ai",
+     "music",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "faders visibly move on their own: an automated filter sweep and volume ride with no hands",
-            "picture": "a DAW mixing desk where the faders slide by themselves while the engineer's chair is empty",
-            "type": "letters appear typed by a clockwork automaton's hand"},
-  "sound": {"syllables": 4, "stress": "au-to-MA-tion", "rhymes": ["nation", "station", "creation", "vacation", "simulation", "information", "salvation", "relation"], "slant": ["patient", "passion", "ancient", "fashion"]},
-  "stakes": ["jobs", "wallet", "state"],
-  "registers": ["ominous", "sad", "funny"],
-  "neighbors": [{"id": "sorcerers-apprentice", "rel": "same-family"}, {"id": "agi", "rel": "pairs-with"}, {"id": "abundance", "rel": "causes"}, {"id": "agent", "rel": "same-family"}, {"id": "human-in-the-loop", "rel": "opposite"}],
+  "enact": {
+   "music": "faders visibly move on their own: an automated filter sweep and volume ride with no hands",
+   "picture": "a DAW mixing desk where the faders slide by themselves while the engineer's chair is empty",
+   "type": "letters appear typed by a clockwork automaton's hand"
+  },
+  "sound": {
+   "syllables": 4,
+   "stress": "au-to-MA-tion",
+   "rhymes": [
+    "nation",
+    "station",
+    "creation",
+    "vacation",
+    "simulation",
+    "information",
+    "salvation",
+    "relation"
+   ],
+   "slant": [
+    "patient",
+    "passion",
+    "ancient",
+    "fashion"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "sad",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "sorcerers-apprentice",
+    "rel": "same-family"
+   },
+   {
+    "id": "agi",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "abundance",
+    "rel": "causes"
+   },
+   {
+    "id": "agent",
+    "rel": "same-family"
+   },
+   {
+    "id": "human-in-the-loop",
+    "rel": "opposite"
+   }
+  ],
   "risk": "Frey and Osborne's 47% measures exposure to risk and forecasts no job count; reading the Luddites as anti-technology is a common error",
-  "notes": "Music producers already 'automate' every mix: the fader moving by itself is the job loss shown in the medium's own tool."
+  "notes": "Music producers already 'automate' every mix: the fader moving by itself is the job loss shown in the medium's own tool.",
+  "associates": []
  },
  {
   "id": "abundance",
-  "forms": ["abundance", "abundant", "abound", "post-scarcity", "plenty", "abundance mindset"],
-  "ai": {"sense": "the promise that AI makes goods, knowledge and labor nearly free, ending scarcity",
-         "origin": "Diamandis and Kotler 2012, 'Abundance'; Iain M. Banks' Culture novels (1987 on) as the post-scarcity template; Klein and Thompson 2025, 'Abundance' (policy book)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "money", "meaning": "plenty; the end of scarcity economics", "phrase": "a land of plenty"},
-   {"domain": "faith-myth", "meaning": "loaves and fishes; 'life more abundantly' (John 10:10)", "phrase": "my cup runneth over"},
-   {"domain": "nature", "meaning": "species abundance: how many of a kind live in an area", "phrase": "abundance of fish"},
-   {"domain": "mind", "meaning": "the 'abundance mindset' of self-help", "phrase": "abundance mindset"},
-   {"domain": "school", "meaning": "free knowledge for everyone", "phrase": "every textbook free"},
-   {"domain": "screen", "meaning": "Star Trek's replicators", "phrase": "tea, Earl Grey, hot"}
+  "forms": [
+   "abundance",
+   "abundant",
+   "post-scarcity",
+   "abundance mindset"
   ],
-  "idioms": ["land of plenty", "horn of plenty", "my cup runneth over", "in abundance", "an embarrassment of riches"],
+  "ai": {
+   "sense": "the promise that AI makes goods, knowledge and labor nearly free, ending scarcity",
+   "origin": "Diamandis and Kotler 2012, 'Abundance'; Iain M. Banks' Culture novels (1987 on) as the post-scarcity template; Klein and Thompson 2025, 'Abundance' (policy book)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "plenty; the end of scarcity economics",
+    "phrase": "a land of plenty"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "loaves and fishes; 'life more abundantly' (John 10:10)",
+    "phrase": "my cup runneth over"
+   },
+   {
+    "domain": "nature",
+    "meaning": "species abundance: how many of a kind live in an area",
+    "phrase": "abundance of fish"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the 'abundance mindset' of self-help",
+    "phrase": "abundance mindset"
+   },
+   {
+    "domain": "school",
+    "meaning": "free knowledge for everyone",
+    "phrase": "every textbook free"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Star Trek's replicators",
+    "phrase": "tea, Earl Grey, hot"
+   }
+  ],
+  "idioms": [
+   "land of plenty",
+   "horn of plenty",
+   "my cup runneth over",
+   "in abundance",
+   "an embarrassment of riches"
+  ],
   "anchors": [
-   {"name": "Cornucopia", "what": "the horn of plenty from Greek myth", "url": ""},
-   {"name": "The Culture", "what": "Iain M. Banks' post-scarcity civilization run by benevolent AI 'Minds'", "url": ""},
-   {"name": "'Tea, Earl Grey, hot'", "what": "Captain Picard's replicator order, Star Trek: TNG", "url": ""}
+   {
+    "name": "Cornucopia",
+    "what": "the horn of plenty from Greek myth",
+    "url": ""
+   },
+   {
+    "name": "The Culture",
+    "what": "Iain M. Banks' post-scarcity civilization run by benevolent AI 'Minds'",
+    "url": ""
+   },
+   {
+    "name": "'Tea, Earl Grey, hot'",
+    "what": "Captain Picard's replicator order, Star Trek: TNG",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Everything is free now, and I can't afford it", "senses": ["ai", "money"]},
-   {"line": "My cup runneth over; the cup is a GPU", "senses": ["ai", "faith-myth"]},
-   {"line": "Every textbook free, every teacher gone", "senses": ["ai", "school", "work"]}
+   {
+    "line": "Everything is free now, and I can't afford it",
+    "senses": [
+     "ai",
+     "money"
+    ]
+   },
+   {
+    "line": "My cup runneth over; the cup is a GPU",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Every textbook free, every teacher gone",
+    "senses": [
+     "ai",
+     "school",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "the arrangement keeps adding layers until it is too full to hear any one part, then strips to one voice",
-            "picture": "a horn of plenty pouring out glowing text, apps and food onto an empty dinner table for one",
-            "type": "the word repeated until it fills the screen as wallpaper"},
-  "sound": {"syllables": 3, "stress": "a-BUN-dance", "rhymes": ["redundance"], "slant": ["dance", "chance", "romance", "abandon", "sun dance"]},
-  "stakes": ["wallet", "jobs", "species"],
-  "registers": ["hopeful", "awe", "sad"],
-  "neighbors": [{"id": "automation", "rel": "pairs-with"}, {"id": "accelerationism", "rel": "pairs-with"}, {"id": "p-doom", "rel": "opposite"}, {"id": "dyson-sphere", "rel": "pairs-with"}, {"id": "slop", "rel": "same-family"}],
+  "enact": {
+   "music": "the arrangement keeps adding layers until it is too full to hear any one part, then strips to one voice",
+   "picture": "a horn of plenty pouring out glowing text, apps and food onto an empty dinner table for one",
+   "type": "the word repeated until it fills the screen as wallpaper"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "a-BUN-dance",
+   "rhymes": [
+    "redundance"
+   ],
+   "slant": [
+    "dance",
+    "chance",
+    "romance",
+    "abandon",
+    "sun dance"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "jobs",
+   "species"
+  ],
+  "registers": [
+   "hopeful",
+   "awe",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "automation",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "accelerationism",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "p-doom",
+    "rel": "opposite"
+   },
+   {
+    "id": "dyson-sphere",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "slop",
+    "rel": "same-family"
+   }
+  ],
   "risk": "abundance talk is vendor promise; the self-help 'abundance mindset' sense reads as a grift if played straight",
-  "notes": "'Redundance' is its only perfect rhyme: plenty and being made redundant share a sound."
+  "notes": "'Redundance' is its only perfect rhyme: plenty and being made redundant share a sound.",
+  "associates": [
+   "abound",
+   "plenty"
+  ]
  }
 ]

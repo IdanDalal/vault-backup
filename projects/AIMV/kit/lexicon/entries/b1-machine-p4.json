@@ -1,489 +1,2139 @@
 [
  {
   "id": "plateau",
-  "forms": ["plateau", "plateaus", "plateaux", "plateaued", "plateauing"],
-  "ai": {"sense": "a stretch of training where the error stops falling and progress seems stuck; also used for fears that AI progress has stalled",
-         "origin": "learning-curve plateaus first described by Bryan and Harter 1897-99 in telegraph operators; standard training-curve vocabulary since",
-         "url": "https://doi.org/10.1037/h0073806", "confidence": "high"},
-  "senses": [
-   {"domain": "nature", "meaning": "a high, flat stretch of land", "phrase": "the Tibetan plateau"},
-   {"domain": "body", "meaning": "a stall in weight loss or fitness gains", "phrase": "I've hit a plateau at the gym"},
-   {"domain": "school", "meaning": "a period when a learner seems to stop improving", "phrase": "a learning plateau"},
-   {"domain": "work", "meaning": "a career that stops rising", "phrase": "he plateaued as a manager"},
-   {"domain": "money", "meaning": "prices or growth levelling off", "phrase": "sales have plateaued"}
+  "forms": [
+   "plateau",
+   "plateaus",
+   "plateaux",
+   "plateaued",
+   "plateauing"
   ],
-  "idioms": ["hit a plateau", "plateaued", "level off"],
+  "ai": {
+   "sense": "a stretch of training where the error stops falling and progress seems stuck; also used for fears that AI progress has stalled",
+   "origin": "learning-curve plateaus first described by Bryan and Harter 1897-99 in telegraph operators; standard training-curve vocabulary since",
+   "url": "https://doi.org/10.1037/h0073806",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "a high, flat stretch of land",
+    "phrase": "the Tibetan plateau"
+   },
+   {
+    "domain": "body",
+    "meaning": "a stall in weight loss or fitness gains",
+    "phrase": "I've hit a plateau at the gym"
+   },
+   {
+    "domain": "school",
+    "meaning": "a period when a learner seems to stop improving",
+    "phrase": "a learning plateau"
+   },
+   {
+    "domain": "work",
+    "meaning": "a career that stops rising",
+    "phrase": "he plateaued as a manager"
+   },
+   {
+    "domain": "money",
+    "meaning": "prices or growth levelling off",
+    "phrase": "sales have plateaued"
+   }
+  ],
+  "idioms": [
+   "hit a plateau",
+   "plateaued",
+   "level off"
+  ],
   "anchors": [
-   {"name": "Bryan and Harter (1897)", "what": "telegraph learners improved, stalled on a plateau, then jumped as they began hearing whole words", "url": ""}
+   {
+    "name": "Bryan and Harter (1897)",
+    "what": "telegraph learners improved, stalled on a plateau, then jumped as they began hearing whole words",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Stuck on a plateau: the view is great and nothing moves", "senses": ["ai", "nature", "mind"]},
-   {"line": "Weight-loss plateau, loss-curve plateau, same diet of data", "senses": ["ai", "body"]},
-   {"line": "The telegraph boys hit a plateau too, then heard whole words", "senses": ["ai", "school"]}
+   {
+    "line": "Stuck on a plateau: the view is great and nothing moves",
+    "senses": [
+     "ai",
+     "nature",
+     "mind"
+    ]
+   },
+   {
+    "line": "Weight-loss plateau, loss-curve plateau, same diet of data",
+    "senses": [
+     "ai",
+     "body"
+    ]
+   },
+   {
+    "line": "The telegraph boys hit a plateau too, then heard whole words",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   }
   ],
-  "enact": {"music": "a section that holds one chord for eight bars too long, then breaks into the key change",
-            "picture": "a hiker crossing an endless flat high plain, the horizon line matching a flat training curve on a laptop she carries",
-            "type": "the word stretched horizontally across the full screen width, flat and long"},
-  "sound": {"syllables": 2, "stress": "pla-TEAU (US) / PLAT-eau (UK)", "rhymes": ["go", "show", "know", "below", "slow", "snow", "though", "tableau"], "slant": ["home", "road", "alone", "hope"]},
-  "stakes": ["wallet", "jobs", "body"],
-  "registers": ["sad", "hopeful"],
-  "neighbors": [{"id": "grokking", "rel": "pairs-with"}, {"id": "loss-function", "rel": "pairs-with"}, {"id": "landscape", "rel": "part-of"}, {"id": "winter", "rel": "same-family"}, {"id": "scaling", "rel": "opposite"}],
+  "enact": {
+   "music": "a section that holds one chord for eight bars too long, then breaks into the key change",
+   "picture": "a hiker crossing an endless flat high plain, the horizon line matching a flat training curve on a laptop she carries",
+   "type": "the word stretched horizontally across the full screen width, flat and long"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "pla-TEAU (US) / PLAT-eau (UK)",
+   "rhymes": [
+    "go",
+    "show",
+    "know",
+    "below",
+    "slow",
+    "snow",
+    "though",
+    "tableau"
+   ],
+   "slant": [
+    "home",
+    "road",
+    "alone",
+    "hope"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "jobs",
+   "body"
+  ],
+  "registers": [
+   "sad",
+   "hopeful"
+  ],
+  "neighbors": [
+   {
+    "id": "grokking",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "loss-function",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "landscape",
+    "rel": "part-of"
+   },
+   {
+    "id": "winter",
+    "rel": "same-family"
+   },
+   {
+    "id": "scaling",
+    "rel": "opposite"
+   }
+  ],
   "risk": "'AI has plateaued' is a pundit claim that has been wrong several times; keep it personal",
-  "notes": "The 1897 telegraph study shows a plateau followed by a leap, the same shape as grokking, so the word carries hope inside a stall."
+  "notes": "The 1897 telegraph study shows a plateau followed by a leap, the same shape as grokking, so the word carries hope inside a stall.",
+  "associates": []
  },
  {
   "id": "local-minimum",
-  "forms": ["local minimum", "local minima", "minimum", "minima", "local"],
-  "ai": {"sense": "a dip in the error landscape that looks like the bottom from inside but is not the lowest point",
-         "origin": "optimization vocabulary from calculus; a central worry in neural-net training from the 1980s backpropagation era",
-         "url": "", "confidence": "low"},
-  "senses": [
-   {"domain": "money", "meaning": "the lowest pay allowed by law", "phrase": "minimum wage"},
-   {"domain": "everyday", "meaning": "a neighborhood's own pub or place", "phrase": "my local"},
-   {"domain": "nature", "meaning": "the bottom of a small valley among bigger ones", "phrase": "a hollow in the hills"}
+  "forms": [
+   "local minimum",
+   "local minima",
+   "minimum",
+   "minima",
+   "local"
   ],
-  "idioms": ["the bare minimum", "minimum wage", "my local", "settling"],
+  "ai": {
+   "sense": "a dip in the error landscape that looks like the bottom from inside but is not the lowest point",
+   "origin": "optimization vocabulary from calculus; a central worry in neural-net training from the 1980s backpropagation era",
+   "url": "",
+   "confidence": "low"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "the lowest pay allowed by law",
+    "phrase": "minimum wage"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a neighborhood's own pub or place",
+    "phrase": "my local"
+   },
+   {
+    "domain": "nature",
+    "meaning": "the bottom of a small valley among bigger ones",
+    "phrase": "a hollow in the hills"
+   }
+  ],
+  "idioms": [
+   "the bare minimum",
+   "minimum wage",
+   "my local",
+   "settling"
+  ],
   "anchors": [],
   "pivots": [
-   {"line": "Stuck in a local minimum, calling it home", "senses": ["ai", "love", "nature"]},
-   {"line": "Minimum wage, local minimum: both feel like the bottom", "senses": ["ai", "money", "work"]},
-   {"line": "The nearest valley felt like the bottom of the world", "senses": ["ai", "nature", "mind"]}
+   {
+    "line": "Stuck in a local minimum, calling it home",
+    "senses": [
+     "ai",
+     "love",
+     "nature"
+    ]
+   },
+   {
+    "line": "Minimum wage, local minimum: both feel like the bottom",
+    "senses": [
+     "ai",
+     "money",
+     "work"
+    ]
+   },
+   {
+    "line": "The nearest valley felt like the bottom of the world",
+    "senses": [
+     "ai",
+     "nature",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "the melody resolves to a chord that sounds final, then the real tonic arrives a verse later",
-            "picture": "a ball resting in a small dip on a mountainside, a pub sign hanging over the dip that reads 'The Local'",
-            "type": "the word sits at the lowest point of a wavy baseline, with a much lower point visible off to the side"},
-  "sound": {"syllables": 5, "stress": "LO-cal MIN-i-mum", "rhymes": [], "slant": ["maximum", "cinnamon", "venom", "linen"]},
-  "stakes": ["heart", "wallet"],
-  "registers": ["sad", "tender"],
-  "neighbors": [{"id": "gradient-descent", "rel": "causes"}, {"id": "landscape", "rel": "part-of"}, {"id": "momentum", "rel": "opposite"}, {"id": "plateau", "rel": "same-family"}],
+  "enact": {
+   "music": "the melody resolves to a chord that sounds final, then the real tonic arrives a verse later",
+   "picture": "a ball resting in a small dip on a mountainside, a pub sign hanging over the dip that reads 'The Local'",
+   "type": "the word sits at the lowest point of a wavy baseline, with a much lower point visible off to the side"
+  },
+  "sound": {
+   "syllables": 5,
+   "stress": "LO-cal MIN-i-mum",
+   "rhymes": [],
+   "slant": [
+    "maximum",
+    "cinnamon",
+    "venom",
+    "linen"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "sad",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "gradient-descent",
+    "rel": "causes"
+   },
+   {
+    "id": "landscape",
+    "rel": "part-of"
+   },
+   {
+    "id": "momentum",
+    "rel": "opposite"
+   },
+   {
+    "id": "plateau",
+    "rel": "same-family"
+   }
+  ],
   "risk": "no rhymes and five syllables; works only as a spoken or typed hook",
-  "notes": "It is the technical word for settling: good enough from inside, and only an outside view shows the deeper valley."
+  "notes": "It is the technical word for settling: good enough from inside, and only an outside view shows the deeper valley.",
+  "associates": []
  },
  {
   "id": "landscape",
-  "forms": ["landscape", "landscapes", "landscaping", "landscaped", "loss landscape"],
-  "ai": {"sense": "the imagined terrain of error values across every possible weight setting; training walks downhill across it",
-         "origin": "Sewall Wright 1932 (fitness landscapes in evolution); Li et al. 2018, 'Visualizing the Loss Landscape of Neural Nets'",
-         "url": "https://arxiv.org/abs/1712.09913", "confidence": "high"},
-  "senses": [
-   {"domain": "nature", "meaning": "the visible features of an area of land", "phrase": "a rolling landscape"},
-   {"domain": "craft", "meaning": "a painting of scenery; also designing gardens", "phrase": "a landscape by Constable"},
-   {"domain": "screen", "meaning": "a horizontal frame or page orientation", "phrase": "turn your phone to landscape"},
-   {"domain": "work", "meaning": "the overall state of an industry", "phrase": "the competitive landscape"},
-   {"domain": "law-state", "meaning": "the balance of political forces", "phrase": "the political landscape"}
+  "forms": [
+   "landscape",
+   "landscapes",
+   "landscaping",
+   "landscaped",
+   "loss landscape"
   ],
-  "idioms": ["the lay of the land", "a changing landscape", "landscape mode"],
+  "ai": {
+   "sense": "the imagined terrain of error values across every possible weight setting; training walks downhill across it",
+   "origin": "Sewall Wright 1932 (fitness landscapes in evolution); Li et al. 2018, 'Visualizing the Loss Landscape of Neural Nets'",
+   "url": "https://arxiv.org/abs/1712.09913",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "the visible features of an area of land",
+    "phrase": "a rolling landscape"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a painting of scenery; also designing gardens",
+    "phrase": "a landscape by Constable"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a horizontal frame or page orientation",
+    "phrase": "turn your phone to landscape"
+   },
+   {
+    "domain": "work",
+    "meaning": "the overall state of an industry",
+    "phrase": "the competitive landscape"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "the balance of political forces",
+    "phrase": "the political landscape"
+   }
+  ],
+  "idioms": [
+   "the lay of the land",
+   "a changing landscape",
+   "landscape mode"
+  ],
   "anchors": [
-   {"name": "Romantic landscape painting", "what": "Constable, Turner, Caspar David Friedrich: nature as mood", "url": ""},
-   {"name": "Fleetwood Mac, 'Landslide'", "what": "1975 song: 'I saw my reflection in the snow-covered hills'", "url": ""}
+   {
+    "name": "Romantic landscape painting",
+    "what": "Constable, Turner, Caspar David Friedrich: nature as mood",
+    "url": ""
+   },
+   {
+    "name": "Fleetwood Mac, 'Landslide'",
+    "what": "1975 song: 'I saw my reflection in the snow-covered hills'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Hold me in landscape; I'm wider than I look", "senses": ["ai", "screen", "love"]},
-   {"line": "I walk your valleys in the dark, downhill, and call it learning", "senses": ["ai", "nature"]},
-   {"line": "The competitive landscape is a mountain range of models", "senses": ["ai", "work", "nature"]}
+   {
+    "line": "Hold me in landscape; I'm wider than I look",
+    "senses": [
+     "ai",
+     "screen",
+     "love"
+    ]
+   },
+   {
+    "line": "I walk your valleys in the dark, downhill, and call it learning",
+    "senses": [
+     "ai",
+     "nature"
+    ]
+   },
+   {
+    "line": "The competitive landscape is a mountain range of models",
+    "senses": [
+     "ai",
+     "work",
+     "nature"
+    ]
+   }
   ],
-  "enact": {"music": "a wide stereo pad that slowly pans across the field as the vocal 'walks'",
-            "picture": "a Romantic-style oil landscape whose hills are a 3D loss surface, a tiny wanderer descending",
-            "type": "lyrics laid along a hilly baseline, rising and falling with the terrain"},
-  "sound": {"syllables": 2, "stress": "LAND-scape", "rhymes": ["escape", "shape", "tape", "drape", "cape", "grape"], "slant": ["landslide", "handshake", "mandate", "landmark"]},
-  "stakes": ["planet", "jobs"],
-  "registers": ["awe", "sad"],
-  "neighbors": [{"id": "gradient-descent", "rel": "part-of"}, {"id": "local-minimum", "rel": "part-of"}, {"id": "plateau", "rel": "part-of"}, {"id": "render", "rel": "pairs-with"}, {"id": "frontier", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a wide stereo pad that slowly pans across the field as the vocal 'walks'",
+   "picture": "a Romantic-style oil landscape whose hills are a 3D loss surface, a tiny wanderer descending",
+   "type": "lyrics laid along a hilly baseline, rising and falling with the terrain"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "LAND-scape",
+   "rhymes": [
+    "escape",
+    "shape",
+    "tape",
+    "drape",
+    "cape",
+    "grape"
+   ],
+   "slant": [
+    "landslide",
+    "handshake",
+    "mandate",
+    "landmark"
+   ]
+  },
+  "stakes": [
+   "planet",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "gradient-descent",
+    "rel": "part-of"
+   },
+   {
+    "id": "local-minimum",
+    "rel": "part-of"
+   },
+   {
+    "id": "plateau",
+    "rel": "part-of"
+   },
+   {
+    "id": "render",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "frontier",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'the AI landscape' is consultant filler; the painted or literal terrain is the way in",
-  "notes": "The painting, the phone orientation and the error terrain let one shot be a phone turned sideways onto a hill the model walks down."
+  "notes": "The painting, the phone orientation and the error terrain let one shot be a phone turned sideways onto a hill the model walks down.",
+  "associates": []
  },
  {
   "id": "collapse",
-  "forms": ["collapse", "collapses", "collapsed", "collapsing", "model collapse", "mode collapse"],
-  "ai": {"sense": "mode collapse: a generator gets stuck making a few near-identical outputs; model collapse: models trained on AI-made data get worse each generation",
-         "origin": "mode collapse in GANs (Goodfellow et al. 2014); model collapse in Shumailov et al. 2024, Nature, 'AI models collapse when trained on recursively generated data'",
-         "url": "https://www.nature.com/articles/s41586-024-07566-y", "confidence": "high"},
-  "senses": [
-   {"domain": "body", "meaning": "falling down from illness or exhaustion", "phrase": "she collapsed on stage"},
-   {"domain": "money", "meaning": "a sudden fall in value", "phrase": "the market collapsed"},
-   {"domain": "craft", "meaning": "a structure falling in", "phrase": "the bridge collapsed"},
-   {"domain": "law-state", "meaning": "the breakdown of a government or civilization", "phrase": "the collapse of the empire"},
-   {"domain": "science", "meaning": "a quantum state settling into one value when measured", "phrase": "wave-function collapse"},
-   {"domain": "nature", "meaning": "a population or ecosystem crashing", "phrase": "colony collapse"},
-   {"domain": "mind", "meaning": "a mental breakdown", "phrase": "a nervous collapse"},
-   {"domain": "sport-games", "meaning": "a team losing a winning position", "phrase": "a late-game collapse"}
+  "forms": [
+   "collapse",
+   "collapses",
+   "collapsed",
+   "collapsing",
+   "model collapse",
+   "mode collapse"
   ],
-  "idioms": ["on the verge of collapse", "collapse in a heap", "house of cards"],
+  "ai": {
+   "sense": "mode collapse: a generator gets stuck making a few near-identical outputs; model collapse: models trained on AI-made data get worse each generation",
+   "origin": "mode collapse in GANs (Goodfellow et al. 2014); model collapse in Shumailov et al. 2024, Nature, 'AI models collapse when trained on recursively generated data'",
+   "url": "https://www.nature.com/articles/s41586-024-07566-y",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "body",
+    "meaning": "falling down from illness or exhaustion",
+    "phrase": "she collapsed on stage"
+   },
+   {
+    "domain": "money",
+    "meaning": "a sudden fall in value",
+    "phrase": "the market collapsed"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a structure falling in",
+    "phrase": "the bridge collapsed"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "the breakdown of a government or civilization",
+    "phrase": "the collapse of the empire"
+   },
+   {
+    "domain": "science",
+    "meaning": "a quantum state settling into one value when measured",
+    "phrase": "wave-function collapse"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a population or ecosystem crashing",
+    "phrase": "colony collapse"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a mental breakdown",
+    "phrase": "a nervous collapse"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a team losing a winning position",
+    "phrase": "a late-game collapse"
+   }
+  ],
+  "idioms": [
+   "on the verge of collapse",
+   "collapse in a heap",
+   "house of cards"
+  ],
   "anchors": [
-   {"name": "Jared Diamond, Collapse (2005)", "what": "book on how societies choose to fail", "url": ""},
-   {"name": "Schrodinger's cat", "what": "thought experiment where observation collapses a superposition", "url": ""}
+   {
+    "name": "Jared Diamond, Collapse (2005)",
+    "what": "book on how societies choose to fail",
+    "url": ""
+   },
+   {
+    "name": "Schrodinger's cat",
+    "what": "thought experiment where observation collapses a superposition",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Mode collapse: every face I paint is yours", "senses": ["ai", "love", "craft"]},
-   {"line": "Trained on my own echoes, I collapsed into one beige song", "senses": ["ai", "body", "music"]},
-   {"line": "Copies of copies: the market, the model, the marriage collapse", "senses": ["ai", "money", "love"]},
-   {"line": "Observe me and I collapse into one answer", "senses": ["ai", "science"]}
+   {
+    "line": "Mode collapse: every face I paint is yours",
+    "senses": [
+     "ai",
+     "love",
+     "craft"
+    ]
+   },
+   {
+    "line": "Trained on my own echoes, I collapsed into one beige song",
+    "senses": [
+     "ai",
+     "body",
+     "music"
+    ]
+   },
+   {
+    "line": "Copies of copies: the market, the model, the marriage collapse",
+    "senses": [
+     "ai",
+     "money",
+     "love"
+    ]
+   },
+   {
+    "line": "Observe me and I collapse into one answer",
+    "senses": [
+     "ai",
+     "science"
+    ]
+   }
   ],
-  "enact": {"music": "each chorus is a re-recording of the previous chorus played through a speaker, losing detail until it is a hum (after Alvin Lucier's 'I Am Sitting in a Room', 1969)",
-            "picture": "a photocopy of a photocopy of a face, each generation grayer, until all the faces are the same face",
-            "type": "letters stack and slump, the word falling in on itself"},
-  "sound": {"syllables": 2, "stress": "col-LAPSE", "rhymes": ["lapse", "perhaps", "relapse", "elapse", "maps", "traps", "gaps", "snaps"], "slant": ["collect", "crash", "backs", "lapsed"]},
-  "stakes": ["mind", "wallet", "state", "planet"],
-  "registers": ["ominous", "sad", "panicked"],
-  "neighbors": [{"id": "synthetic-data", "rel": "causes"}, {"id": "slop", "rel": "pairs-with"}, {"id": "loop", "rel": "causes"}, {"id": "bubble", "rel": "pairs-with"}, {"id": "superposition", "rel": "pairs-with"}, {"id": "echo", "rel": "pairs-with"}],
+  "enact": {
+   "music": "each chorus is a re-recording of the previous chorus played through a speaker, losing detail until it is a hum (after Alvin Lucier's 'I Am Sitting in a Room', 1969)",
+   "picture": "a photocopy of a photocopy of a face, each generation grayer, until all the faces are the same face",
+   "type": "letters stack and slump, the word falling in on itself"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "col-LAPSE",
+   "rhymes": [
+    "lapse",
+    "perhaps",
+    "relapse",
+    "elapse",
+    "maps",
+    "traps",
+    "gaps",
+    "snaps"
+   ],
+   "slant": [
+    "collect",
+    "crash",
+    "backs",
+    "lapsed"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "wallet",
+   "state",
+   "planet"
+  ],
+  "registers": [
+   "ominous",
+   "sad",
+   "panicked"
+  ],
+  "neighbors": [
+   {
+    "id": "synthetic-data",
+    "rel": "causes"
+   },
+   {
+    "id": "slop",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "loop",
+    "rel": "causes"
+   },
+   {
+    "id": "bubble",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "superposition",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "echo",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "doom register is easy to overplay; the copy-of-a-copy image does the work quietly",
-  "notes": "Model collapse is the photocopy problem, and Lucier's 1969 piece already performed it as music: a recording re-recorded until only the room remains."
+  "notes": "Model collapse is the photocopy problem, and Lucier's 1969 piece already performed it as music: a recording re-recorded until only the room remains.",
+  "associates": []
  },
  {
   "id": "synthetic-data",
-  "forms": ["synthetic data", "synthetic", "synthesize", "synthesized", "synthesizer", "synth", "data"],
-  "ai": {"sense": "training data written or generated by AI models instead of people",
-         "origin": "Donald Rubin 1993 ('Discussion: Statistical Disclosure Limitation', Journal of Official Statistics) proposed synthetic data for privacy-safe statistics; for LLMs, Gunasekar et al. 2023, 'Textbooks Are All You Need' (Microsoft Phi)",
-         "url": "https://arxiv.org/abs/2306.11644", "confidence": "medium"},
-  "senses": [
-   {"domain": "craft", "meaning": "a man-made fabric like polyester or nylon", "phrase": "synthetic fibers"},
-   {"domain": "music", "meaning": "sound made electronically by a synthesizer", "phrase": "synth strings"},
-   {"domain": "science", "meaning": "made by chemical synthesis", "phrase": "synthetic insulin"},
-   {"domain": "body", "meaning": "lab-made drugs", "phrase": "synthetic opioids"},
-   {"domain": "school", "meaning": "practice material written for a learner", "phrase": "a graded reader"}
+  "forms": [
+   "synthetic data",
+   "synthetic",
+   "synthesize",
+   "synthesized",
+   "synthesizer",
+   "synth",
+   "data"
   ],
-  "idioms": ["man-made", "faux", "artificial flavoring"],
+  "ai": {
+   "sense": "training data written or generated by AI models instead of people",
+   "origin": "Donald Rubin 1993 ('Discussion: Statistical Disclosure Limitation', Journal of Official Statistics) proposed synthetic data for privacy-safe statistics; for LLMs, Gunasekar et al. 2023, 'Textbooks Are All You Need' (Microsoft Phi)",
+   "url": "https://arxiv.org/abs/2306.11644",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "craft",
+    "meaning": "a man-made fabric like polyester or nylon",
+    "phrase": "synthetic fibers"
+   },
+   {
+    "domain": "music",
+    "meaning": "sound made electronically by a synthesizer",
+    "phrase": "synth strings"
+   },
+   {
+    "domain": "science",
+    "meaning": "made by chemical synthesis",
+    "phrase": "synthetic insulin"
+   },
+   {
+    "domain": "body",
+    "meaning": "lab-made drugs",
+    "phrase": "synthetic opioids"
+   },
+   {
+    "domain": "school",
+    "meaning": "practice material written for a learner",
+    "phrase": "a graded reader"
+   }
+  ],
+  "idioms": [
+   "man-made",
+   "faux",
+   "artificial flavoring"
+  ],
   "anchors": [
-   {"name": "Textbooks Are All You Need (2023)", "what": "Microsoft trained small Phi models on AI-written textbooks and exercises", "url": "https://arxiv.org/abs/2306.11644"},
-   {"name": "Moog synthesizer", "what": "Robert Moog's 1964 instrument; Wendy Carlos's 'Switched-On Bach' 1968", "url": ""}
+   {
+    "name": "Textbooks Are All You Need (2023)",
+    "what": "Microsoft trained small Phi models on AI-written textbooks and exercises",
+    "url": "https://arxiv.org/abs/2306.11644"
+   },
+   {
+    "name": "Moog synthesizer",
+    "what": "Robert Moog's 1964 instrument; Wendy Carlos's 'Switched-On Bach' 1968",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Textbooks written by the student, graded by the student", "senses": ["ai", "school"]},
-   {"line": "Synthetic, like the strings on the record: nobody bowed them", "senses": ["ai", "music"]},
-   {"line": "Polyester memories, synthetic data, still keeps you warm", "senses": ["ai", "craft", "love"]}
+   {
+    "line": "Textbooks written by the student, graded by the student",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   },
+   {
+    "line": "Synthetic, like the strings on the record: nobody bowed them",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Polyester memories, synthetic data, still keeps you warm",
+    "senses": [
+     "ai",
+     "craft",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a string section played on an obvious synth patch that slowly gets more realistic",
-            "picture": "a polyester sweater knitted from strands of printed text",
-            "type": "the word set in a too-perfect geometric font, no human irregularity"},
-  "sound": {"syllables": 5, "stress": "syn-THET-ic DA-ta", "rhymes": ["later", "greater", "waiter", "traitor", "creator", "hater", "crater", "skater"], "slant": ["theta", "sweater", "beta", "matter"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["ominous", "funny"],
-  "neighbors": [{"id": "collapse", "rel": "causes"}, {"id": "slop", "rel": "same-family"}, {"id": "distillation", "rel": "pairs-with"}, {"id": "ground-truth", "rel": "opposite"}, {"id": "curriculum", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a string section played on an obvious synth patch that slowly gets more realistic",
+   "picture": "a polyester sweater knitted from strands of printed text",
+   "type": "the word set in a too-perfect geometric font, no human irregularity"
+  },
+  "sound": {
+   "syllables": 5,
+   "stress": "syn-THET-ic DA-ta",
+   "rhymes": [
+    "later",
+    "greater",
+    "waiter",
+    "traitor",
+    "creator",
+    "hater",
+    "crater",
+    "skater"
+   ],
+   "slant": [
+    "theta",
+    "sweater",
+    "beta",
+    "matter"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "collapse",
+    "rel": "causes"
+   },
+   {
+    "id": "slop",
+    "rel": "same-family"
+   },
+   {
+    "id": "distillation",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "ground-truth",
+    "rel": "opposite"
+   },
+   {
+    "id": "curriculum",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'data' splits pronunciation (DAY-ta vs DAH-ta); the rhyme list assumes DAY-ta",
-  "notes": "'Data' rhymes perfectly with 'creator' and 'traitor', which points straight at the question of who wrote the textbook."
+  "notes": "'Data' rhymes perfectly with 'creator' and 'traitor', which points straight at the question of who wrote the textbook.",
+  "associates": []
  },
  {
   "id": "label",
-  "forms": ["label", "labels", "labeled", "labelled", "labeling", "labelling", "labeler", "mislabeled", "unlabeled"],
-  "ai": {"sense": "the correct answer attached to a training example, usually typed or clicked by low-paid human workers",
-         "origin": "supervised learning; ImageNet (Deng et al. 2009), later about 14 million images labeled through Mechanical Turk; Time (Billy Perrigo, 18 January 2023) reported Kenyan workers paid under 2 dollars an hour to label toxic text for OpenAI",
-         "url": "https://time.com/6247678/openai-chatgpt-kenya-workers/", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "a record company", "phrase": "signed to a major label"},
-   {"domain": "everyday", "meaning": "a tag on a product giving information", "phrase": "read the label"},
-   {"domain": "law-state", "meaning": "a name pinned on a person or group, often unfairly", "phrase": "don't put a label on me"},
-   {"domain": "craft", "meaning": "a fashion brand", "phrase": "designer label"},
-   {"domain": "school", "meaning": "naming the parts of a diagram", "phrase": "label the diagram"},
-   {"domain": "love", "meaning": "naming what a relationship is", "phrase": "we never put a label on it"}
+  "forms": [
+   "label",
+   "labels",
+   "labeled",
+   "labelled",
+   "labeling",
+   "labelling",
+   "labeler",
+   "mislabeled",
+   "unlabeled"
   ],
-  "idioms": ["put a label on it", "don't label me", "read the label", "designer label", "independent label"],
+  "ai": {
+   "sense": "the correct answer attached to a training example, usually typed or clicked by low-paid human workers",
+   "origin": "supervised learning; ImageNet (Deng et al. 2009), later about 14 million images labeled through Mechanical Turk; Time (Billy Perrigo, 18 January 2023) reported Kenyan workers paid under 2 dollars an hour to label toxic text for OpenAI",
+   "url": "https://time.com/6247678/openai-chatgpt-kenya-workers/",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "a record company",
+    "phrase": "signed to a major label"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a tag on a product giving information",
+    "phrase": "read the label"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a name pinned on a person or group, often unfairly",
+    "phrase": "don't put a label on me"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a fashion brand",
+    "phrase": "designer label"
+   },
+   {
+    "domain": "school",
+    "meaning": "naming the parts of a diagram",
+    "phrase": "label the diagram"
+   },
+   {
+    "domain": "love",
+    "meaning": "naming what a relationship is",
+    "phrase": "we never put a label on it"
+   }
+  ],
+  "idioms": [
+   "put a label on it",
+   "don't label me",
+   "read the label",
+   "designer label",
+   "independent label"
+  ],
   "anchors": [
-   {"name": "ImageNet (2009)", "what": "Fei-Fei Li's labeled image set that launched the deep-learning boom", "url": ""},
-   {"name": "labeling theory", "what": "Howard Becker, Outsiders (1963): deviance is partly made by the label", "url": ""}
+   {
+    "name": "ImageNet (2009)",
+    "what": "Fei-Fei Li's labeled image set that launched the deep-learning boom",
+    "url": ""
+   },
+   {
+    "name": "labeling theory",
+    "what": "Howard Becker, Outsiders (1963): deviance is partly made by the label",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Signed to the label; labeled by strangers at two an hour", "senses": ["ai", "music", "work"]},
-   {"line": "We never put a label on it; somebody in Nairobi did", "senses": ["ai", "love", "work"]},
-   {"line": "Label the diagram: heart, lung, liar", "senses": ["ai", "school", "body"]}
+   {
+    "line": "Signed to the label; labeled by strangers at two an hour",
+    "senses": [
+     "ai",
+     "music",
+     "work"
+    ]
+   },
+   {
+    "line": "We never put a label on it; somebody in Nairobi did",
+    "senses": [
+     "ai",
+     "love",
+     "work"
+    ]
+   },
+   {
+    "line": "Label the diagram: heart, lung, liar",
+    "senses": [
+     "ai",
+     "school",
+     "body"
+    ]
+   }
   ],
-  "enact": {"music": "a record-label vinyl sticker shown spinning on a turntable while a voice tags each sound ('kick', 'snare', 'sorrow')",
-            "picture": "a person at a screen clicking boxes around objects in a photo of a family dinner, each person tagged with a word",
-            "type": "words appear with bounding boxes and small tags beside them, like a labeled training image"},
-  "sound": {"syllables": 2, "stress": "LA-bel", "rhymes": ["table", "able", "cable", "fable", "stable", "Abel", "Mabel", "unable"], "slant": ["maple", "naval", "cradle", "ladle"]},
-  "stakes": ["jobs", "state", "heart"],
-  "registers": ["defiant", "sad", "tender"],
-  "neighbors": [{"id": "ground-truth", "rel": "causes"}, {"id": "bias", "rel": "causes"}, {"id": "record", "rel": "pairs-with"}, {"id": "human-in-the-loop", "rel": "part-of"}, {"id": "feedback", "rel": "same-family"}],
+  "enact": {
+   "music": "a record-label vinyl sticker shown spinning on a turntable while a voice tags each sound ('kick', 'snare', 'sorrow')",
+   "picture": "a person at a screen clicking boxes around objects in a photo of a family dinner, each person tagged with a word",
+   "type": "words appear with bounding boxes and small tags beside them, like a labeled training image"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "LA-bel",
+   "rhymes": [
+    "table",
+    "able",
+    "cable",
+    "fable",
+    "stable",
+    "Abel",
+    "Mabel",
+    "unable"
+   ],
+   "slant": [
+    "maple",
+    "naval",
+    "cradle",
+    "ladle"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "state",
+   "heart"
+  ],
+  "registers": [
+   "defiant",
+   "sad",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "ground-truth",
+    "rel": "causes"
+   },
+   {
+    "id": "bias",
+    "rel": "causes"
+   },
+   {
+    "id": "record",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "human-in-the-loop",
+    "rel": "part-of"
+   },
+   {
+    "id": "feedback",
+    "rel": "same-family"
+   }
+  ],
   "risk": "the labeler-wage fact is from one investigation (Time, Billy Perrigo, 2023); cite it as reported",
-  "notes": "A record label and a data label both decide what a sound or picture 'is' and who gets paid, and 'we never put a label on it' carries a love song inside."
+  "notes": "A record label and a data label both decide what a sound or picture 'is' and who gets paid, and 'we never put a label on it' carries a love song inside.",
+  "associates": []
  },
  {
   "id": "ground-truth",
-  "forms": ["ground truth", "ground-truth", "ground", "grounded", "grounding", "truth"],
-  "ai": {"sense": "the verified correct answers a model is trained or scored against; often whatever the labelers said",
-         "origin": "from remote sensing and mapping (checking aerial or satellite images against the actual ground); adopted in machine learning",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "war", "meaning": "the real situation on the ground, as soldiers see it", "phrase": "the ground truth in the valley"},
-   {"domain": "music", "meaning": "a short bass line repeated under changing music (a ground bass)", "phrase": "Purcell's lament over a ground"},
-   {"domain": "science", "meaning": "electrical earth, the reference zero", "phrase": "connect it to ground"},
-   {"domain": "family", "meaning": "a child kept home as punishment", "phrase": "you're grounded"},
-   {"domain": "mind", "meaning": "calm and in touch with reality", "phrase": "she's very grounded"}
+  "forms": [
+   "ground truth",
+   "ground-truth",
+   "ground",
+   "grounded",
+   "grounding",
+   "truth"
   ],
-  "idioms": ["on the ground", "hold your ground", "stand your ground", "you're grounded", "common ground"],
+  "ai": {
+   "sense": "the verified correct answers a model is trained or scored against; often whatever the labelers said",
+   "origin": "from remote sensing and mapping (checking aerial or satellite images against the actual ground); adopted in machine learning",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "war",
+    "meaning": "the real situation on the ground, as soldiers see it",
+    "phrase": "the ground truth in the valley"
+   },
+   {
+    "domain": "music",
+    "meaning": "a short bass line repeated under changing music (a ground bass)",
+    "phrase": "Purcell's lament over a ground"
+   },
+   {
+    "domain": "science",
+    "meaning": "electrical earth, the reference zero",
+    "phrase": "connect it to ground"
+   },
+   {
+    "domain": "family",
+    "meaning": "a child kept home as punishment",
+    "phrase": "you're grounded"
+   },
+   {
+    "domain": "mind",
+    "meaning": "calm and in touch with reality",
+    "phrase": "she's very grounded"
+   }
+  ],
+  "idioms": [
+   "on the ground",
+   "hold your ground",
+   "stand your ground",
+   "you're grounded",
+   "common ground"
+  ],
   "anchors": [
-   {"name": "Purcell, 'Dido's Lament' (1689)", "what": "'When I am laid in earth', sung over a repeating ground bass", "url": ""}
+   {
+    "name": "Purcell, 'Dido's Lament' (1689)",
+    "what": "'When I am laid in earth', sung over a repeating ground bass",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "The ground truth is whatever a tired labeler clicked at midnight", "senses": ["ai", "work"]},
-   {"line": "Over a ground bass, one true line repeats; the rest is me", "senses": ["ai", "music"]},
-   {"line": "You're grounded, said the father; I'm grounded, said the model", "senses": ["ai", "family"]}
+   {
+    "line": "The ground truth is whatever a tired labeler clicked at midnight",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   },
+   {
+    "line": "Over a ground bass, one true line repeats; the rest is me",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "You're grounded, said the father; I'm grounded, said the model",
+    "senses": [
+     "ai",
+     "family"
+    ]
+   }
   ],
-  "enact": {"music": "a repeating ground bass (four bars) under the whole song while every other part improvises",
-            "picture": "an aerial map of a field overlaid with labels, and the camera drops to the ground where the field is something else",
-            "type": "the word sits on a solid baseline rule while other words float and drift above it"},
-  "sound": {"syllables": 2, "stress": "GROUND TRUTH", "rhymes": ["youth", "booth", "tooth", "sleuth", "uncouth", "Ruth", "vermouth", "forsooth"], "slant": ["proof", "roof", "loose", "use"]},
-  "stakes": ["mind", "state"],
-  "registers": ["defiant", "tender"],
-  "neighbors": [{"id": "label", "rel": "part-of"}, {"id": "benchmark", "rel": "part-of"}, {"id": "hallucination", "rel": "opposite"}, {"id": "verification", "rel": "same-family"}, {"id": "loop", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a repeating ground bass (four bars) under the whole song while every other part improvises",
+   "picture": "an aerial map of a field overlaid with labels, and the camera drops to the ground where the field is something else",
+   "type": "the word sits on a solid baseline rule while other words float and drift above it"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "GROUND TRUTH",
+   "rhymes": [
+    "youth",
+    "booth",
+    "tooth",
+    "sleuth",
+    "uncouth",
+    "Ruth",
+    "vermouth",
+    "forsooth"
+   ],
+   "slant": [
+    "proof",
+    "roof",
+    "loose",
+    "use"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "defiant",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "label",
+    "rel": "part-of"
+   },
+   {
+    "id": "benchmark",
+    "rel": "part-of"
+   },
+   {
+    "id": "hallucination",
+    "rel": "opposite"
+   },
+   {
+    "id": "verification",
+    "rel": "same-family"
+   },
+   {
+    "id": "loop",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "the phrase sounds solemn; its punch is that the 'truth' is often just a label",
-  "notes": "'Grounded' covers a punished child, a calm person and a fact-checked model, and the ground bass gives the music a literal truth line."
+  "notes": "'Grounded' covers a punished child, a calm person and a fact-checked model, and the ground bass gives the music a literal truth line.",
+  "associates": []
  },
  {
   "id": "compression",
-  "forms": ["compression", "compress", "compressed", "compresses", "compressor", "compressing", "lossy", "lossless"],
-  "ai": {"sense": "squeezing information into fewer bits; one theory holds that learning to predict text is the same as compressing it",
-         "origin": "Shannon 1948; the Hutter Prize (2006) bets that compression equals intelligence; Ted Chiang 2023 New Yorker essay 'ChatGPT Is a Blurry JPEG of the Web'",
-         "url": "https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "a mixing effect that squashes loud and quiet parts closer together", "phrase": "put a compressor on the vocal"},
-   {"domain": "body", "meaning": "pressing on the chest in CPR, or tight garments for blood flow", "phrase": "thirty chest compressions"},
-   {"domain": "science", "meaning": "squeezing a material into less space", "phrase": "gas under compression"},
-   {"domain": "screen", "meaning": "shrinking video files, with blocky artifacts", "phrase": "compression artifacts"},
-   {"domain": "craft", "meaning": "the squeeze of fuel in an engine cylinder", "phrase": "low compression in cylinder three"}
+  "forms": [
+   "compression",
+   "compress",
+   "compressed",
+   "compresses",
+   "compressor",
+   "compressing"
   ],
-  "idioms": ["lossless", "squeeze it in", "boiled down"],
+  "ai": {
+   "sense": "squeezing information into fewer bits; one theory holds that learning to predict text is the same as compressing it",
+   "origin": "Shannon 1948; the Hutter Prize (2006) bets that compression equals intelligence; Ted Chiang 2023 New Yorker essay 'ChatGPT Is a Blurry JPEG of the Web'",
+   "url": "https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "a mixing effect that squashes loud and quiet parts closer together",
+    "phrase": "put a compressor on the vocal"
+   },
+   {
+    "domain": "body",
+    "meaning": "pressing on the chest in CPR, or tight garments for blood flow",
+    "phrase": "thirty chest compressions"
+   },
+   {
+    "domain": "science",
+    "meaning": "squeezing a material into less space",
+    "phrase": "gas under compression"
+   },
+   {
+    "domain": "screen",
+    "meaning": "shrinking video files, with blocky artifacts",
+    "phrase": "compression artifacts"
+   },
+   {
+    "domain": "craft",
+    "meaning": "the squeeze of fuel in an engine cylinder",
+    "phrase": "low compression in cylinder three"
+   }
+  ],
+  "idioms": [
+   "lossless",
+   "squeeze it in",
+   "boiled down"
+  ],
   "anchors": [
-   {"name": "'ChatGPT Is a Blurry JPEG of the Web' (2023)", "what": "Ted Chiang's essay framing LLMs as lossy compression of the internet", "url": ""},
-   {"name": "Silicon Valley (2014-2019)", "what": "HBO comedy about Pied Piper, a startup built on a compression algorithm", "url": ""},
-   {"name": "the loudness war", "what": "1990s-2000s mastering trend of heavy compression to make records louder", "url": ""}
+   {
+    "name": "'ChatGPT Is a Blurry JPEG of the Web' (2023)",
+    "what": "Ted Chiang's essay framing LLMs as lossy compression of the internet",
+    "url": ""
+   },
+   {
+    "name": "Silicon Valley (2014-2019)",
+    "what": "HBO comedy about Pied Piper, a startup built on a compression algorithm",
+    "url": ""
+   },
+   {
+    "name": "the loudness war",
+    "what": "1990s-2000s mastering trend of heavy compression to make records louder",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "A blurry JPEG of the web, compressed until it rhymes", "senses": ["ai", "screen", "music"]},
-   {"line": "Thirty compressions to the chest, and the model says breathe", "senses": ["ai", "body"]},
-   {"line": "Squash every feeling flat so it plays loud on a phone", "senses": ["ai", "music", "mind"]}
+   {
+    "line": "A blurry JPEG of the web, compressed until it rhymes",
+    "senses": [
+     "ai",
+     "screen",
+     "music"
+    ]
+   },
+   {
+    "line": "Thirty compressions to the chest, and the model says breathe",
+    "senses": [
+     "ai",
+     "body"
+    ]
+   },
+   {
+    "line": "Squash every feeling flat so it plays loud on a phone",
+    "senses": [
+     "ai",
+     "music",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "the mix gets more compressed each section until the last chorus pumps and breathes audibly",
-            "picture": "a face on a video call breaking into blocky compression squares that rearrange into text",
-            "type": "letter-spacing tightens until the letters overlap, the word crushed into a block"},
-  "sound": {"syllables": 3, "stress": "com-PRES-sion", "rhymes": ["depression", "session", "confession", "obsession", "impression", "possession", "expression", "aggression"], "slant": ["question", "pressure", "lesson", "fresher"]},
-  "stakes": ["mind", "body"],
-  "registers": ["awe", "sad"],
-  "neighbors": [{"id": "loss-function", "rel": "pairs-with"}, {"id": "distillation", "rel": "same-family"}, {"id": "latent-space", "rel": "causes"}, {"id": "master", "rel": "pairs-with"}, {"id": "compaction", "rel": "same-family"}, {"id": "bandwidth", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the mix gets more compressed each section until the last chorus pumps and breathes audibly",
+   "picture": "a face on a video call breaking into blocky compression squares that rearrange into text",
+   "type": "letter-spacing tightens until the letters overlap, the word crushed into a block"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "com-PRES-sion",
+   "rhymes": [
+    "depression",
+    "session",
+    "confession",
+    "obsession",
+    "impression",
+    "possession",
+    "expression",
+    "aggression"
+   ],
+   "slant": [
+    "question",
+    "pressure",
+    "lesson",
+    "fresher"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "awe",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "loss-function",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "distillation",
+    "rel": "same-family"
+   },
+   {
+    "id": "latent-space",
+    "rel": "causes"
+   },
+   {
+    "id": "master",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "compaction",
+    "rel": "same-family"
+   },
+   {
+    "id": "bandwidth",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'compression is intelligence' is a contested thesis; state it as a theory",
-  "notes": "A compressor is a standard studio tool, so the song can literally do to its own sound what the model does to the web."
+  "notes": "A compressor is a standard studio tool, so the song can literally do to its own sound what the model does to the web.",
+  "associates": [
+   "lossy",
+   "lossless"
+  ]
  },
  {
   "id": "decode",
-  "forms": ["decode", "decodes", "decoded", "decoding", "decoder", "encode", "encoder", "encoded", "encoding", "code"],
-  "ai": {"sense": "the model turning its internal numbers back into words, one token at a time; encoder-decoder models read with one half and write with the other",
-         "origin": "Shannon's communication theory 1948; encoder-decoder networks in Sutskever, Vinyals, Le 2014 and Cho et al. 2014",
-         "url": "https://arxiv.org/abs/1409.3215", "confidence": "high"},
-  "senses": [
-   {"domain": "war", "meaning": "breaking an enemy's secret code", "phrase": "they decoded Enigma at Bletchley"},
-   {"domain": "school", "meaning": "sounding out written letters as words, the first step of reading", "phrase": "phonics teaches kids to decode"},
-   {"domain": "love", "meaning": "working out what someone really means", "phrase": "decoding his mixed signals"},
-   {"domain": "science", "meaning": "reading the genetic sequence", "phrase": "decoding the human genome"},
-   {"domain": "screen", "meaning": "a box that unscrambles TV signals", "phrase": "the cable decoder"}
+  "forms": [
+   "decode",
+   "decodes",
+   "decoded",
+   "decoding",
+   "decoder",
+   "encode",
+   "encoder",
+   "encoded",
+   "encoding"
   ],
-  "idioms": ["crack the code", "mixed signals", "read between the lines", "dress code"],
+  "ai": {
+   "sense": "the model turning its internal numbers back into words, one token at a time; encoder-decoder models read with one half and write with the other",
+   "origin": "Shannon's communication theory 1948; encoder-decoder networks in Sutskever, Vinyals, Le 2014 and Cho et al. 2014",
+   "url": "https://arxiv.org/abs/1409.3215",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "war",
+    "meaning": "breaking an enemy's secret code",
+    "phrase": "they decoded Enigma at Bletchley"
+   },
+   {
+    "domain": "school",
+    "meaning": "sounding out written letters as words, the first step of reading",
+    "phrase": "phonics teaches kids to decode"
+   },
+   {
+    "domain": "love",
+    "meaning": "working out what someone really means",
+    "phrase": "decoding his mixed signals"
+   },
+   {
+    "domain": "science",
+    "meaning": "reading the genetic sequence",
+    "phrase": "decoding the human genome"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a box that unscrambles TV signals",
+    "phrase": "the cable decoder"
+   }
+  ],
+  "idioms": [
+   "crack the code",
+   "mixed signals",
+   "read between the lines",
+   "dress code"
+  ],
   "anchors": [
-   {"name": "Bletchley Park", "what": "British codebreaking center (Turing, Welchman) that broke Enigma in WWII", "url": ""},
-   {"name": "Jay-Z, Decoded (2010)", "what": "memoir explaining the double meanings in his lyrics", "url": ""}
+   {
+    "name": "Bletchley Park",
+    "what": "British codebreaking center (Turing, Welchman) that broke Enigma in WWII",
+    "url": ""
+   },
+   {
+    "name": "Jay-Z, Decoded (2010)",
+    "what": "memoir explaining the double meanings in his lyrics",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Learning to read is decoding; so is everything I say", "senses": ["ai", "school"]},
-   {"line": "Decode your mixed signals? I'm made of mixed signals", "senses": ["ai", "love"]},
-   {"line": "Turing broke the code at Bletchley; now the code talks back", "senses": ["ai", "war"]}
+   {
+    "line": "Learning to read is decoding; so is everything I say",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   },
+   {
+    "line": "Decode your mixed signals? I'm made of mixed signals",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Turing broke the code at Bletchley; now the code talks back",
+    "senses": [
+     "ai",
+     "war"
+    ]
+   }
   ],
-  "enact": {"music": "a vocoder (voice encoder) on the lead that is switched off word by word until the human voice is clear",
-            "picture": "a child sounding out a word with a finger under each letter, the letters turning into glowing tokens as she reads",
-            "type": "the line appears as cipher letters that flip to plain text one by one, airport-board style"},
-  "sound": {"syllables": 2, "stress": "de-CODE", "rhymes": ["road", "code", "load", "mode", "showed", "flowed", "owed", "explode"], "slant": ["home", "hold", "ghost", "alone"]},
-  "stakes": ["mind", "state"],
-  "registers": ["awe", "tender"],
-  "neighbors": [{"id": "token", "rel": "pairs-with"}, {"id": "greedy", "rel": "part-of"}, {"id": "next-token", "rel": "part-of"}, {"id": "interpretability", "rel": "same-family"}, {"id": "signal", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a vocoder (voice encoder) on the lead that is switched off word by word until the human voice is clear",
+   "picture": "a child sounding out a word with a finger under each letter, the letters turning into glowing tokens as she reads",
+   "type": "the line appears as cipher letters that flip to plain text one by one, airport-board style"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "de-CODE",
+   "rhymes": [
+    "road",
+    "code",
+    "load",
+    "mode",
+    "showed",
+    "flowed",
+    "owed",
+    "explode"
+   ],
+   "slant": [
+    "home",
+    "hold",
+    "ghost",
+    "alone"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "token",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "greedy",
+    "rel": "part-of"
+   },
+   {
+    "id": "next-token",
+    "rel": "part-of"
+   },
+   {
+    "id": "interpretability",
+    "rel": "same-family"
+   },
+   {
+    "id": "signal",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'crack the code' is a cliché; the phonics sense is the fresh one",
-  "notes": "Kids learning to read are taught 'decoding' by name, so a reading lesson, Enigma and token generation can share one verb."
+  "notes": "Kids learning to read are taught 'decoding' by name, so a reading lesson, Enigma and token generation can share one verb.",
+  "associates": [
+   "code"
+  ]
  },
  {
   "id": "next-token",
-  "forms": ["next-token prediction", "next token", "next word", "predict", "prediction", "predicted", "autocomplete"],
-  "ai": {"sense": "the one game every language model is trained on: guess the next word piece from everything before it",
-         "origin": "Shannon 1951, 'Prediction and Entropy of Printed English' (humans guessing the next letter); neural version in Bengio et al. 2003; scaled by the GPT series from 2018",
-         "url": "https://doi.org/10.1002/j.1538-7305.1951.tb01366.x", "confidence": "high"},
-  "senses": [
-   {"domain": "school", "meaning": "a fill-in-the-blank reading test", "phrase": "a cloze test"},
-   {"domain": "faith-myth", "meaning": "foretelling what comes next", "phrase": "the prophet predicted it"},
-   {"domain": "love", "meaning": "knowing someone well enough to finish their sentences", "phrase": "we finish each other's sentences"},
-   {"domain": "sport-games", "meaning": "guessing the next card or move", "phrase": "call the next card"}
+  "forms": [
+   "next-token prediction",
+   "next token",
+   "next word",
+   "predict",
+   "prediction",
+   "predicted"
   ],
-  "idioms": ["finish each other's sentences", "I knew you'd say that", "what comes next", "predictable"],
+  "ai": {
+   "sense": "the one game every language model is trained on: guess the next word piece from everything before it",
+   "origin": "Shannon 1951, 'Prediction and Entropy of Printed English' (humans guessing the next letter); neural version in Bengio et al. 2003; scaled by the GPT series from 2018",
+   "url": "https://doi.org/10.1002/j.1538-7305.1951.tb01366.x",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "school",
+    "meaning": "a fill-in-the-blank reading test",
+    "phrase": "a cloze test"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "foretelling what comes next",
+    "phrase": "the prophet predicted it"
+   },
+   {
+    "domain": "love",
+    "meaning": "knowing someone well enough to finish their sentences",
+    "phrase": "we finish each other's sentences"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "guessing the next card or move",
+    "phrase": "call the next card"
+   }
+  ],
+  "idioms": [
+   "finish each other's sentences",
+   "I knew you'd say that",
+   "what comes next",
+   "predictable"
+  ],
   "anchors": [
-   {"name": "Shannon's guessing game (1951)", "what": "people guessed the next letter of English text to measure its predictability", "url": ""},
-   {"name": "Frozen (2013)", "what": "'Love Is an Open Door': 'we finish each other's sandwiches'", "url": ""}
+   {
+    "name": "Shannon's guessing game (1951)",
+    "what": "people guessed the next letter of English text to measure its predictability",
+    "url": ""
+   },
+   {
+    "name": "Frozen (2013)",
+    "what": "'Love Is an Open Door': 'we finish each other's sandwiches'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Finishing your sentences: the only trick I know", "senses": ["ai", "love"]},
-   {"line": "Prophet of the next word, never of the next day", "senses": ["ai", "faith-myth"]},
-   {"line": "Fill in the blank, the worksheet said; I am the blank", "senses": ["ai", "school"]}
+   {
+    "line": "Finishing your sentences: the only trick I know",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Prophet of the next word, never of the next day",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Fill in the blank, the worksheet said; I am the blank",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   }
   ],
-  "enact": {"music": "the vocal stops mid-phrase and the crowd (or a choir) sings the obvious next word",
-            "picture": "a classroom worksheet with blanks that fill themselves as a pencil hovers",
-            "type": "each next word appears as three ghosted candidates, then one solidifies"},
-  "sound": {"syllables": 3, "stress": "NEXT TO-ken", "rhymes": ["spoken", "broken", "woken", "open", "joking", "smoking", "awoken"], "slant": ["frozen", "chosen", "golden", "hoping"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["funny", "tender", "smug"],
-  "neighbors": [{"id": "token", "rel": "part-of"}, {"id": "pretraining", "rel": "part-of"}, {"id": "stochastic-parrot", "rel": "pairs-with"}, {"id": "autocomplete", "rel": "same-family"}, {"id": "oracle", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the vocal stops mid-phrase and the crowd (or a choir) sings the obvious next word",
+   "picture": "a classroom worksheet with blanks that fill themselves as a pencil hovers",
+   "type": "each next word appears as three ghosted candidates, then one solidifies"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "NEXT TO-ken",
+   "rhymes": [
+    "spoken",
+    "broken",
+    "woken",
+    "open",
+    "joking",
+    "smoking",
+    "awoken"
+   ],
+   "slant": [
+    "frozen",
+    "chosen",
+    "golden",
+    "hoping"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "tender",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "token",
+    "rel": "part-of"
+   },
+   {
+    "id": "pretraining",
+    "rel": "part-of"
+   },
+   {
+    "id": "stochastic-parrot",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "autocomplete",
+    "rel": "same-family"
+   },
+   {
+    "id": "oracle",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'just predicts the next word' is the most worn AI dismissal; use it as a love line or a prophecy",
-  "notes": "Finishing someone's sentences is the most intimate thing two people do, and it is also the whole training objective."
+  "notes": "Finishing someone's sentences is the most intimate thing two people do, and it is also the whole training objective.",
+  "associates": [
+   "autocomplete"
+  ]
  },
  {
   "id": "greedy",
-  "forms": ["greedy", "greed", "greedily", "greediness", "greedy decoding"],
-  "ai": {"sense": "always picking the single most likely next word with no exploring; safe but often dull and repetitive",
-         "origin": "greedy algorithms in computer science; an early titled use in Jack Edmonds 1971, 'Matroids and the Greedy Algorithm' (Mathematical Programming); first coiner unclear",
-         "url": "https://doi.org/10.1007/BF01584082", "confidence": "medium"},
-  "senses": [
-   {"domain": "money", "meaning": "wanting more money than you need", "phrase": "greedy bankers"},
-   {"domain": "faith-myth", "meaning": "avarice, one of the seven deadly sins", "phrase": "the sin of greed"},
-   {"domain": "family", "meaning": "a child grabbing more than their share", "phrase": "don't be greedy, share with your sister"},
-   {"domain": "body", "meaning": "eating too much", "phrase": "greedy guts"}
+  "forms": [
+   "greedy",
+   "greed",
+   "greedily",
+   "greediness",
+   "greedy decoding"
   ],
-  "idioms": ["greed is good", "greedy guts", "don't be greedy", "eyes bigger than your stomach"],
+  "ai": {
+   "sense": "always picking the single most likely next word with no exploring; safe but often dull and repetitive",
+   "origin": "greedy algorithms in computer science; an early titled use in Jack Edmonds 1971, 'Matroids and the Greedy Algorithm' (Mathematical Programming); first coiner unclear",
+   "url": "https://doi.org/10.1007/BF01584082",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "wanting more money than you need",
+    "phrase": "greedy bankers"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "avarice, one of the seven deadly sins",
+    "phrase": "the sin of greed"
+   },
+   {
+    "domain": "family",
+    "meaning": "a child grabbing more than their share",
+    "phrase": "don't be greedy, share with your sister"
+   },
+   {
+    "domain": "body",
+    "meaning": "eating too much",
+    "phrase": "greedy guts"
+   }
+  ],
+  "idioms": [
+   "greed is good",
+   "greedy guts",
+   "don't be greedy",
+   "eyes bigger than your stomach"
+  ],
   "anchors": [
-   {"name": "Wall Street (1987)", "what": "Gordon Gekko: 'greed, for lack of a better word, is good'", "url": ""}
+   {
+    "name": "Wall Street (1987)",
+    "what": "Gordon Gekko: 'greed, for lack of a better word, is good'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Greed is good, said the decoder, and picked the likeliest word", "senses": ["ai", "money", "screen"]},
-   {"line": "Always the biggest slice; that's why the cake tastes the same", "senses": ["ai", "family", "body"]},
-   {"line": "Seven deadly sins, and they built one into the decoder", "senses": ["ai", "faith-myth"]}
+   {
+    "line": "Greed is good, said the decoder, and picked the likeliest word",
+    "senses": [
+     "ai",
+     "money",
+     "screen"
+    ]
+   },
+   {
+    "line": "Always the biggest slice; that's why the cake tastes the same",
+    "senses": [
+     "ai",
+     "family",
+     "body"
+    ]
+   },
+   {
+    "line": "Seven deadly sins, and they built one into the decoder",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "a melody that always moves to the nearest, most expected note, so it circles back to the same phrase",
-            "picture": "a hand grabbing the biggest cookie from a tray every time, the tray refilling with identical cookies",
-            "type": "each word picked from a stack of options is always the top one, the same color every time"},
-  "sound": {"syllables": 2, "stress": "GREE-dy", "rhymes": ["needy", "seedy", "speedy", "weedy", "reedy", "beady", "tweedy"], "slant": ["easy", "greasy", "freely", "sleepy"]},
-  "stakes": ["wallet"],
-  "registers": ["funny", "smug"],
-  "neighbors": [{"id": "sampling", "rel": "opposite"}, {"id": "temperature", "rel": "opposite"}, {"id": "decode", "rel": "part-of"}, {"id": "slop", "rel": "causes"}, {"id": "bubble", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a melody that always moves to the nearest, most expected note, so it circles back to the same phrase",
+   "picture": "a hand grabbing the biggest cookie from a tray every time, the tray refilling with identical cookies",
+   "type": "each word picked from a stack of options is always the top one, the same color every time"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "GREE-dy",
+   "rhymes": [
+    "needy",
+    "seedy",
+    "speedy",
+    "weedy",
+    "reedy",
+    "beady",
+    "tweedy"
+   ],
+   "slant": [
+    "easy",
+    "greasy",
+    "freely",
+    "sleepy"
+   ]
+  },
+  "stakes": [
+   "wallet"
+  ],
+  "registers": [
+   "funny",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "sampling",
+    "rel": "opposite"
+   },
+   {
+    "id": "temperature",
+    "rel": "opposite"
+   },
+   {
+    "id": "decode",
+    "rel": "part-of"
+   },
+   {
+    "id": "slop",
+    "rel": "causes"
+   },
+   {
+    "id": "bubble",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "greed-of-tech-bosses lines are heavy-handed; the decoding sense keeps it a joke",
-  "notes": "Greedy decoding is literally boring: the most-likely path makes flat, repetitive text, so the sin makes the dullest writing."
+  "notes": "Greedy decoding is literally boring: the most-likely path makes flat, repetitive text, so the sin makes the dullest writing.",
+  "associates": []
  },
  {
   "id": "chain-of-thought",
-  "forms": ["chain of thought", "chain-of-thought", "CoT", "chain", "chains", "chained", "step by step", "think step by step"],
-  "ai": {"sense": "having a model write out its reasoning steps before answering, which makes it more accurate and lets people read its 'thinking'",
-         "origin": "Wei et al. 2022 (Google), 'Chain-of-Thought Prompting Elicits Reasoning in Large Language Models'; Kojima et al. 2022, 'Large Language Models are Zero-Shot Reasoners' (the 'Let's think step by step' prompt)",
-         "url": "https://arxiv.org/abs/2201.11903", "confidence": "high"},
-  "senses": [
-   {"domain": "school", "meaning": "writing out each step of a solution", "phrase": "show your working"},
-   {"domain": "law-state", "meaning": "the metal links that bind prisoners", "phrase": "in chains"},
-   {"domain": "war", "meaning": "the line of authority orders pass down", "phrase": "chain of command"},
-   {"domain": "money", "meaning": "a business with many identical branches", "phrase": "a chain restaurant"},
-   {"domain": "craft", "meaning": "a linked metal necklace or bicycle part", "phrase": "a gold chain"},
-   {"domain": "mind", "meaning": "a linked sequence of ideas", "phrase": "train of thought"}
+  "forms": [
+   "chain of thought",
+   "chain-of-thought",
+   "chain",
+   "chains",
+   "chained"
   ],
-  "idioms": ["show your working", "chain of command", "break the chain", "weakest link", "chain reaction", "chain letter"],
+  "ai": {
+   "sense": "having a model write out its reasoning steps before answering, which makes it more accurate and lets people read its 'thinking'",
+   "origin": "Wei et al. 2022 (Google), 'Chain-of-Thought Prompting Elicits Reasoning in Large Language Models'; Kojima et al. 2022, 'Large Language Models are Zero-Shot Reasoners' (the 'Let's think step by step' prompt)",
+   "url": "https://arxiv.org/abs/2201.11903",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "school",
+    "meaning": "writing out each step of a solution",
+    "phrase": "show your working"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "the metal links that bind prisoners",
+    "phrase": "in chains"
+   },
+   {
+    "domain": "war",
+    "meaning": "the line of authority orders pass down",
+    "phrase": "chain of command"
+   },
+   {
+    "domain": "money",
+    "meaning": "a business with many identical branches",
+    "phrase": "a chain restaurant"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a linked metal necklace or bicycle part",
+    "phrase": "a gold chain"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a linked sequence of ideas",
+    "phrase": "train of thought"
+   }
+  ],
+  "idioms": [
+   "show your working",
+   "chain of command",
+   "break the chain",
+   "weakest link",
+   "chain reaction",
+   "chain letter"
+  ],
   "anchors": [
-   {"name": "Fleetwood Mac, 'The Chain' (1977)", "what": "'and if you don't love me now... never break the chain'", "url": ""},
-   {"name": "Rousseau, The Social Contract (1762)", "what": "'Man is born free, and everywhere he is in chains'", "url": ""}
+   {
+    "name": "Fleetwood Mac, 'The Chain' (1977)",
+    "what": "'and if you don't love me now... never break the chain'",
+    "url": ""
+   },
+   {
+    "name": "Rousseau, The Social Contract (1762)",
+    "what": "'Man is born free, and everywhere he is in chains'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Show your working, said the teacher; now the working shows itself", "senses": ["ai", "school"]},
-   {"line": "Chain of thought, chain of command, chain on the ankle", "senses": ["ai", "war", "law-state"]},
-   {"line": "I'll never break the chain of thought you hung on me", "senses": ["ai", "music", "love"]}
+   {
+    "line": "Show your working, said the teacher; now the working shows itself",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   },
+   {
+    "line": "Chain of thought, chain of command, chain on the ankle",
+    "senses": [
+     "ai",
+     "war",
+     "law-state"
+    ]
+   },
+   {
+    "line": "I'll never break the chain of thought you hung on me",
+    "senses": [
+     "ai",
+     "music",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a call-and-response where each line starts with the last word of the line before, linking like a chain",
-            "picture": "a gold necklace whose links are tiny speech bubbles, worn by a chained prisoner at a desk",
-            "type": "each word of the line is drawn inside an interlocking chain link"},
-  "sound": {"syllables": 3, "stress": "CHAIN of THOUGHT", "rhymes": ["caught", "bought", "taught", "fought", "brought", "sought", "ought", "taut"], "slant": ["thoughts", "lost", "cost", "not"]},
-  "stakes": ["mind", "state"],
-  "registers": ["ominous", "awe"],
-  "neighbors": [{"id": "reasoning", "rel": "same-family"}, {"id": "training", "rel": "rhymes"}, {"id": "interpretability", "rel": "pairs-with"}, {"id": "deception", "rel": "pairs-with"}, {"id": "scaffold", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a call-and-response where each line starts with the last word of the line before, linking like a chain",
+   "picture": "a gold necklace whose links are tiny speech bubbles, worn by a chained prisoner at a desk",
+   "type": "each word of the line is drawn inside an interlocking chain link"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "CHAIN of THOUGHT",
+   "rhymes": [
+    "caught",
+    "bought",
+    "taught",
+    "fought",
+    "brought",
+    "sought",
+    "ought",
+    "taut"
+   ],
+   "slant": [
+    "thoughts",
+    "lost",
+    "cost",
+    "not"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "neighbors": [
+   {
+    "id": "reasoning",
+    "rel": "same-family"
+   },
+   {
+    "id": "training",
+    "rel": "rhymes"
+   },
+   {
+    "id": "interpretability",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "deception",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "scaffold",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "a written chain of thought is not proof of what the model actually computed (studies show it can be unfaithful); avoid lines that treat it as a window into the mind",
-  "notes": "'Chain' turns transparent reasoning into a shackle, and 'show your working' makes it a schoolroom order."
+  "notes": "'Chain' turns transparent reasoning into a shackle, and 'show your working' makes it a schoolroom order.",
+  "associates": [
+   "CoT",
+   "step by step",
+   "think step by step"
+  ]
  },
  {
   "id": "reasoning",
-  "forms": ["reasoning", "reason", "reasons", "reasoned", "reasoner", "thinking", "think", "thought", "reasoning model"],
-  "ai": {"sense": "models trained to think step by step at length before answering, spending more compute per question",
-         "origin": "OpenAI o1, 'Learning to Reason with LLMs', 12 September 2024; DeepSeek-R1, January 2025",
-         "url": "https://openai.com/index/learning-to-reason-with-llms/", "confidence": "medium"},
-  "senses": [
-   {"domain": "mind", "meaning": "thinking logically to reach a conclusion", "phrase": "sound reasoning"},
-   {"domain": "law-state", "meaning": "a judge's written grounds for a ruling", "phrase": "the court's reasoning"},
-   {"domain": "school", "meaning": "a test of logical skill", "phrase": "verbal reasoning test"},
-   {"domain": "family", "meaning": "trying to persuade someone with logic", "phrase": "there's no reasoning with a toddler"},
-   {"domain": "faith-myth", "meaning": "reason set against faith", "phrase": "faith and reason"}
+  "forms": [
+   "reasoning",
+   "reason",
+   "reasons",
+   "reasoned",
+   "reasoner",
+   "thinking",
+   "think",
+   "reasoning model"
   ],
-  "idioms": ["within reason", "stands to reason", "no reasoning with", "for no reason", "see reason", "age of reason"],
+  "ai": {
+   "sense": "models trained to think step by step at length before answering, spending more compute per question",
+   "origin": "OpenAI o1, 'Learning to Reason with LLMs', 12 September 2024; DeepSeek-R1, January 2025",
+   "url": "https://openai.com/index/learning-to-reason-with-llms/",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "mind",
+    "meaning": "thinking logically to reach a conclusion",
+    "phrase": "sound reasoning"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a judge's written grounds for a ruling",
+    "phrase": "the court's reasoning"
+   },
+   {
+    "domain": "school",
+    "meaning": "a test of logical skill",
+    "phrase": "verbal reasoning test"
+   },
+   {
+    "domain": "family",
+    "meaning": "trying to persuade someone with logic",
+    "phrase": "there's no reasoning with a toddler"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "reason set against faith",
+    "phrase": "faith and reason"
+   }
+  ],
+  "idioms": [
+   "within reason",
+   "stands to reason",
+   "no reasoning with",
+   "for no reason",
+   "see reason",
+   "age of reason"
+  ],
   "anchors": [
-   {"name": "Descartes, 1637", "what": "'I think, therefore I am'", "url": ""},
-   {"name": "the Age of Reason", "what": "the Enlightenment; Thomas Paine's 1794 book of that name", "url": ""}
+   {
+    "name": "Descartes, 1637",
+    "what": "'I think, therefore I am'",
+    "url": ""
+   },
+   {
+    "name": "the Age of Reason",
+    "what": "the Enlightenment; Thomas Paine's 1794 book of that name",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "There's no reasoning with a toddler, or with my reasoning", "senses": ["ai", "family"]},
-   {"line": "It thought for forty seconds; it was thinking about you", "senses": ["ai", "love"]},
-   {"line": "I think, therefore I bill you by the thought", "senses": ["ai", "faith-myth", "money"]}
+   {
+    "line": "There's no reasoning with a toddler, or with my reasoning",
+    "senses": [
+     "ai",
+     "family"
+    ]
+   },
+   {
+    "line": "It thought for forty seconds; it was thinking about you",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "I think, therefore I bill you by the thought",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "money"
+    ]
+   }
   ],
-  "enact": {"music": "a long instrumental pause with a ticking clock before the chorus answers",
-            "picture": "a gray 'Thinking...' label pulsing over a sleeping child's face",
-            "type": "a collapsed 'Thought for 40s' toggle above the line, which unfolds into scribbled side notes"},
-  "sound": {"syllables": 3, "stress": "REA-son-ing", "rhymes": ["seasoning", "unreasoning"], "slant": ["freezing", "pleasing", "season", "treason", "reason"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["awe", "funny", "tender"],
-  "neighbors": [{"id": "chain-of-thought", "rel": "same-family"}, {"id": "inference", "rel": "same-family"}, {"id": "compute", "rel": "causes"}, {"id": "consciousness", "rel": "pairs-with"}, {"id": "chinese-room", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a long instrumental pause with a ticking clock before the chorus answers",
+   "picture": "a gray 'Thinking...' label pulsing over a sleeping child's face",
+   "type": "a collapsed 'Thought for 40s' toggle above the line, which unfolds into scribbled side notes"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "REA-son-ing",
+   "rhymes": [
+    "seasoning",
+    "unreasoning"
+   ],
+   "slant": [
+    "freezing",
+    "pleasing",
+    "season",
+    "treason",
+    "reason"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "chain-of-thought",
+    "rel": "same-family"
+   },
+   {
+    "id": "inference",
+    "rel": "same-family"
+   },
+   {
+    "id": "compute",
+    "rel": "causes"
+   },
+   {
+    "id": "consciousness",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "chinese-room",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "whether models 'really reason' is a live dispute; keep lines on what the model visibly does",
-  "notes": "'Reason' and 'treason' and 'season' rhyme, and 'there's no reasoning with' is something parents say every day."
+  "notes": "'Reason' and 'treason' and 'season' rhyme, and 'there's no reasoning with' is something parents say every day.",
+  "associates": [
+   "thought"
+  ]
  },
  {
   "id": "cache",
-  "forms": ["cache", "caches", "cached", "caching", "KV cache", "prompt caching"],
-  "ai": {"sense": "stored results reused to skip repeat work: a model keeps earlier computations (the KV cache) and providers reuse long prompts more cheaply",
-         "origin": "computing term since the IBM System/360 Model 85 (1968), named by an IBM Systems Journal editor; prompt caching sold by Anthropic from August 2024",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "war", "meaning": "a hidden store of weapons or supplies", "phrase": "an arms cache"},
-   {"domain": "nature", "meaning": "food an animal hides for later", "phrase": "a squirrel's cache of acorns"},
-   {"domain": "sport-games", "meaning": "a hidden container found by GPS in geocaching", "phrase": "we found the cache"},
-   {"domain": "everyday", "meaning": "a private stash of anything valued", "phrase": "a cache of old letters"}
+  "forms": [
+   "cache",
+   "caches",
+   "cached",
+   "caching",
+   "KV cache",
+   "prompt caching"
   ],
-  "idioms": ["clear your cache", "cache is king (pun on cash)", "a hidden stash"],
+  "ai": {
+   "sense": "stored results reused to skip repeat work: a model keeps earlier computations (the KV cache) and providers reuse long prompts more cheaply",
+   "origin": "computing term since the IBM System/360 Model 85 (1968), named by an IBM Systems Journal editor; prompt caching sold by Anthropic from August 2024",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "war",
+    "meaning": "a hidden store of weapons or supplies",
+    "phrase": "an arms cache"
+   },
+   {
+    "domain": "nature",
+    "meaning": "food an animal hides for later",
+    "phrase": "a squirrel's cache of acorns"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a hidden container found by GPS in geocaching",
+    "phrase": "we found the cache"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a private stash of anything valued",
+    "phrase": "a cache of old letters"
+   }
+  ],
+  "idioms": [
+   "clear your cache",
+   "cache is king (pun on cash)",
+   "a hidden stash"
+  ],
   "anchors": [
-   {"name": "Hidden (French title 'Cache', 2005)", "what": "Michael Haneke film about anonymous surveillance tapes and buried guilt", "url": ""}
+   {
+    "name": "Hidden (French title 'Cache', 2005)",
+    "what": "Michael Haneke film about anonymous surveillance tapes and buried guilt",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "A squirrel's cache, a soldier's cache, my cache: all buried", "senses": ["ai", "nature", "war"]},
-   {"line": "Cache is king: I keep what I already said", "senses": ["ai", "money"]},
-   {"line": "Clear your cache, she said; I found a cache of her letters", "senses": ["ai", "love", "everyday"]}
+   {
+    "line": "A squirrel's cache, a soldier's cache, my cache: all buried",
+    "senses": [
+     "ai",
+     "nature",
+     "war"
+    ]
+   },
+   {
+    "line": "Cache is king: I keep what I already said",
+    "senses": [
+     "ai",
+     "money"
+    ]
+   },
+   {
+    "line": "Clear your cache, she said; I found a cache of her letters",
+    "senses": [
+     "ai",
+     "love",
+     "everyday"
+    ]
+   }
   ],
-  "enact": {"music": "a phrase repeats instantly from a buffer whenever it was already sung, like a stutter edit",
-            "picture": "a squirrel burying a glowing memory chip under leaves",
-            "type": "repeated words in the lyric appear grayed and instant, as if loaded from memory"},
-  "sound": {"syllables": 1, "stress": "CASH", "rhymes": ["cash", "crash", "flash", "stash", "ash", "dash", "rash", "splash"], "slant": ["catch", "cast", "batch", "calf"]},
-  "stakes": ["wallet"],
-  "registers": ["funny", "smug"],
-  "neighbors": [{"id": "memory", "rel": "same-family"}, {"id": "context-window", "rel": "pairs-with"}, {"id": "compute", "rel": "pairs-with"}, {"id": "latency", "rel": "causes"}],
+  "enact": {
+   "music": "a phrase repeats instantly from a buffer whenever it was already sung, like a stutter edit",
+   "picture": "a squirrel burying a glowing memory chip under leaves",
+   "type": "repeated words in the lyric appear grayed and instant, as if loaded from memory"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "CASH",
+   "rhymes": [
+    "cash",
+    "crash",
+    "flash",
+    "stash",
+    "ash",
+    "dash",
+    "rash",
+    "splash"
+   ],
+   "slant": [
+    "catch",
+    "cast",
+    "batch",
+    "calf"
+   ]
+  },
+  "stakes": [
+   "wallet"
+  ],
+  "registers": [
+   "funny",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "memory",
+    "rel": "same-family"
+   },
+   {
+    "id": "context-window",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "compute",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "latency",
+    "rel": "causes"
+   }
+  ],
   "risk": "people may hear 'cash' only; that is the pun, but the line must work both ways",
-  "notes": "It sounds exactly like 'cash' and caching literally saves money on AI bills, so the homophone is also true."
+  "notes": "It sounds exactly like 'cash' and caching literally saves money on AI bills, so the homophone is also true.",
+  "associates": []
  },
  {
   "id": "gpt",
-  "forms": ["GPT", "GPTs", "ChatGPT", "GPT-4", "GPT-5", "generative pre-trained transformer"],
-  "ai": {"sense": "Generative Pre-trained Transformer, OpenAI's model family; ChatGPT, launched 30 November 2022, made it a household word",
-         "origin": "Radford et al. 2018, 'Improving Language Understanding by Generative Pre-Training'; ChatGPT release 30 November 2022",
-         "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf", "confidence": "high"},
-  "senses": [
-   {"domain": "work", "meaning": "in economics, a general-purpose technology that changes every industry (steam, electricity)", "phrase": "electricity was a GPT"},
-   {"domain": "craft", "meaning": "the GUID Partition Table, a disk layout standard", "phrase": "format the drive as GPT"}
+  "forms": [
+   "GPT",
+   "GPTs",
+   "ChatGPT",
+   "GPT-4",
+   "GPT-5",
+   "generative pre-trained transformer"
   ],
-  "idioms": ["just ask ChatGPT", "ChatGPT it"],
+  "ai": {
+   "sense": "Generative Pre-trained Transformer, OpenAI's model family; ChatGPT, launched 30 November 2022, made it a household word",
+   "origin": "Radford et al. 2018, 'Improving Language Understanding by Generative Pre-Training'; ChatGPT release 30 November 2022",
+   "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "work",
+    "meaning": "in economics, a general-purpose technology that changes every industry (steam, electricity)",
+    "phrase": "electricity was a GPT"
+   },
+   {
+    "domain": "craft",
+    "meaning": "the GUID Partition Table, a disk layout standard",
+    "phrase": "format the drive as GPT"
+   }
+  ],
+  "idioms": [
+   "just ask ChatGPT",
+   "ChatGPT it"
+  ],
   "anchors": [
-   {"name": "'GPTs are GPTs' (2023)", "what": "Eloundou et al. (OpenAI, OpenResearch, UPenn) on labor exposure, punning on general-purpose technologies", "url": "https://arxiv.org/abs/2303.10130"},
-   {"name": "Bresnahan and Trajtenberg 1995", "what": "economists who defined 'general purpose technologies'", "url": ""}
+   {
+    "name": "'GPTs are GPTs' (2023)",
+    "what": "Eloundou et al. (OpenAI, OpenResearch, UPenn) on labor exposure, punning on general-purpose technologies",
+    "url": "https://arxiv.org/abs/2303.10130"
+   },
+   {
+    "name": "Bresnahan and Trajtenberg 1995",
+    "what": "economists who defined 'general purpose technologies'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "GPTs are GPTs: the paper's title is the punchline", "senses": ["ai", "work"]},
-   {"line": "General purpose, like the steam engine, like the knife", "senses": ["ai", "work", "craft"]},
-   {"line": "G, P, T: three letters every grandmother can spell now", "senses": ["ai", "family"]}
+   {
+    "line": "GPTs are GPTs: the paper's title is the punchline",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   },
+   {
+    "line": "General purpose, like the steam engine, like the knife",
+    "senses": [
+     "ai",
+     "work",
+     "craft"
+    ]
+   },
+   {
+    "line": "G, P, T: three letters every grandmother can spell now",
+    "senses": [
+     "ai",
+     "family"
+    ]
+   }
   ],
-  "enact": {"music": "the three letters sung as a spelled-out chant, cheerleader style (G! P! T!)",
-            "picture": "a steam engine, a light bulb and a chat window lined up as museum exhibits under one plaque: 'General Purpose'",
-            "type": "the acronym expands letter by letter into its full words, then collapses back"},
-  "sound": {"syllables": 3, "stress": "jee-pee-TEE", "rhymes": ["see", "free", "me", "three", "tea", "key", "degree", "guarantee"], "slant": ["deep", "scene", "feet", "need"]},
-  "stakes": ["jobs", "wallet"],
-  "registers": ["smug", "funny"],
-  "neighbors": [{"id": "transformer", "rel": "part-of"}, {"id": "pretraining", "rel": "part-of"}, {"id": "automation", "rel": "causes"}, {"id": "assistant", "rel": "pairs-with"}, {"id": "release", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the three letters sung as a spelled-out chant, cheerleader style (G! P! T!)",
+   "picture": "a steam engine, a light bulb and a chat window lined up as museum exhibits under one plaque: 'General Purpose'",
+   "type": "the acronym expands letter by letter into its full words, then collapses back"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "jee-pee-TEE",
+   "rhymes": [
+    "see",
+    "free",
+    "me",
+    "three",
+    "tea",
+    "key",
+    "degree",
+    "guarantee"
+   ],
+   "slant": [
+    "deep",
+    "scene",
+    "feet",
+    "need"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "transformer",
+    "rel": "part-of"
+   },
+   {
+    "id": "pretraining",
+    "rel": "part-of"
+   },
+   {
+    "id": "automation",
+    "rel": "causes"
+   },
+   {
+    "id": "assistant",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "release",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "brand name; it dates fast and points to one company",
-  "notes": "The economists' 'GPT' (general-purpose technology) gives the brand a second meaning that is about jobs, which OpenAI's own paper used as its title."
+  "notes": "The economists' 'GPT' (general-purpose technology) gives the brand a second meaning that is about jobs, which OpenAI's own paper used as its title.",
+  "associates": []
  }
 ]

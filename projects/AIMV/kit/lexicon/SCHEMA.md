@@ -16,7 +16,8 @@ Files: `terms.json` (master list, 252 ids, 4 batches) → `entries/<batch>.json`
 | field | type | rule |
 |---|---|---|
 | `id` | string | from `terms.json`, unchanged |
-| `forms` | list | every spelling the lyrics might use: plural, verb, adjective, compounds (used for ref-lyric counts) |
+| `forms` | list | the term's own word family only: plural, verb, adjective, compounds containing its stem, official abbreviations and expansions. Counted in ref lyrics |
+| `associates` | list | synonyms, homophones, associated names, catchphrases ("more" for Moore's law, "hot" for temperature). Shown on the card, never counted. Split 2026-11-02 after Idi caught Moore's law at 14 of 22 songs (every "more" was counted) |
 | `ai` | object | `sense` (one clause, plain words), `origin` (who/when/what paper or post), `url` (real link or ""), `confidence` high/medium/low |
 | `senses` | list | non-AI meanings: `domain` (closed list below), `meaning` (one clause), `phrase` (a real everyday phrase using it). One row per distinct meaning |
 | `idioms` | list | fixed phrases people already say |
