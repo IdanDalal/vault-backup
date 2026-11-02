@@ -1,511 +1,2259 @@
 [
  {
   "id": "doomer",
-  "forms": ["doomer", "doomers", "doom", "doomy", "doomerism", "AI doomer"],
-  "ai": {"sense": "a person who thinks advanced AI is likely to kill or disempower humanity; used by them proudly and by critics as a sneer",
-         "origin": "AI usage grew out of LessWrong/rationalist circles in the 2010s and spread in 2023; touchstone text: Yudkowsky and Soares, 'If Anyone Builds It, Everyone Dies' (Sept 2025)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "mind", "meaning": "the 2018 'Doomer' Wojak meme: a hopeless young man in a black beanie", "phrase": "full doomer mode"},
-   {"domain": "music", "meaning": "'doomer wave' playlists: slowed Russian post-punk (Molchat Doma) paired with the meme", "phrase": "doomer music at 2 a.m."},
-   {"domain": "nature", "meaning": "a climate fatalist who thinks collapse is locked in", "phrase": "climate doomer"},
-   {"domain": "family", "meaning": "the generational-label pun next to boomer and zoomer", "phrase": "boomer, zoomer, doomer"}
+  "forms": [
+   "doomer",
+   "doomers",
+   "doom",
+   "doomy",
+   "doomerism",
+   "AI doomer"
   ],
-  "idioms": ["doom and gloom", "OK doomer", "boomer, zoomer, doomer"],
+  "ai": {
+   "sense": "a person who thinks advanced AI is likely to kill or disempower humanity; used by them proudly and by critics as a sneer",
+   "origin": "AI usage grew out of LessWrong/rationalist circles in the 2010s and spread in 2023; touchstone text: Yudkowsky and Soares, 'If Anyone Builds It, Everyone Dies' (Sept 2025)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "mind",
+    "meaning": "the 2018 'Doomer' Wojak meme: a hopeless young man in a black beanie",
+    "phrase": "full doomer mode"
+   },
+   {
+    "domain": "music",
+    "meaning": "'doomer wave' playlists: slowed Russian post-punk (Molchat Doma) paired with the meme",
+    "phrase": "doomer music at 2 a.m."
+   },
+   {
+    "domain": "nature",
+    "meaning": "a climate fatalist who thinks collapse is locked in",
+    "phrase": "climate doomer"
+   },
+   {
+    "domain": "family",
+    "meaning": "the generational-label pun next to boomer and zoomer",
+    "phrase": "boomer, zoomer, doomer"
+   }
+  ],
+  "idioms": [
+   "doom and gloom",
+   "OK doomer",
+   "boomer, zoomer, doomer"
+  ],
   "anchors": [
-   {"name": "If Anyone Builds It, Everyone Dies", "what": "Yudkowsky and Soares, 2025 book; the doomer case in one title", "url": ""},
-   {"name": "Molchat Doma 'Sudno'", "what": "Belarusian post-punk song that became the doomer meme's anthem", "url": ""}
+   {
+    "name": "If Anyone Builds It, Everyone Dies",
+    "what": "Yudkowsky and Soares, 2025 book; the doomer case in one title",
+    "url": ""
+   },
+   {
+    "name": "Molchat Doma 'Sudno'",
+    "what": "Belarusian post-punk song that became the doomer meme's anthem",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "My dad's a boomer, my kid's a zoomer, I'm the doomer", "senses": ["ai", "family"]},
-   {"line": "OK doomer, says the model, finishing my sentence", "senses": ["ai", "family", "mind"]},
-   {"line": "Doomer wave on the stereo, data center on the hill", "senses": ["ai", "music", "nature"]}
+   {
+    "line": "My dad's a boomer, my kid's a zoomer, I'm the doomer",
+    "senses": [
+     "ai",
+     "family"
+    ]
+   },
+   {
+    "line": "OK doomer, says the model, finishing my sentence",
+    "senses": [
+     "ai",
+     "family",
+     "mind"
+    ]
+   },
+   {
+    "line": "Doomer wave on the stereo, data center on the hill",
+    "senses": [
+     "ai",
+     "music",
+     "nature"
+    ]
+   }
   ],
-  "enact": {"music": "a slowed, reverbed post-punk bassline under the verse, tempo dragged to 'doomer wave' speed",
-            "picture": "the black-beanie Wojak silhouette smoking on a balcony, staring at a lit datacenter skyline",
-            "type": "lowercase, grey, slightly sagging baseline"},
-  "sound": {"syllables": 2, "stress": "DOO-mer", "rhymes": ["boomer", "zoomer", "rumor", "humor", "tumor", "consumer", "bloomer", "roomer"], "slant": ["future", "sooner", "loser", "moving"]},
-  "stakes": ["species", "mind"],
-  "registers": ["sad", "funny", "ominous"],
-  "neighbors": [{"id": "p-doom", "rel": "same-family"}, {"id": "accelerationism", "rel": "opposite"}, {"id": "pause", "rel": "pairs-with"}, {"id": "apocalypse", "rel": "same-family"}, {"id": "hype", "rel": "opposite"}],
+  "enact": {
+   "music": "a slowed, reverbed post-punk bassline under the verse, tempo dragged to 'doomer wave' speed",
+   "picture": "the black-beanie Wojak silhouette smoking on a balcony, staring at a lit datacenter skyline",
+   "type": "lowercase, grey, slightly sagging baseline"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "DOO-mer",
+   "rhymes": [
+    "boomer",
+    "zoomer",
+    "rumor",
+    "humor",
+    "tumor",
+    "consumer",
+    "bloomer",
+    "roomer"
+   ],
+   "slant": [
+    "future",
+    "sooner",
+    "loser",
+    "moving"
+   ]
+  },
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "sad",
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "p-doom",
+    "rel": "same-family"
+   },
+   {
+    "id": "accelerationism",
+    "rel": "opposite"
+   },
+   {
+    "id": "pause",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "apocalypse",
+    "rel": "same-family"
+   },
+   {
+    "id": "hype",
+    "rel": "opposite"
+   }
+  ],
   "risk": "a tribal label; using it straight takes a side; 'boomer/doomer' rhymes are easy and common",
-  "notes": "Boomer, zoomer, doomer: a ready generational rhyme ladder that sorts a family by its forecast."
+  "notes": "Boomer, zoomer, doomer: a ready generational rhyme ladder that sorts a family by its forecast.",
+  "associates": []
  },
  {
   "id": "accelerationism",
-  "forms": ["accelerationism", "accelerationist", "e/acc", "accelerate", "accelerating", "acceleration", "accelerando", "decel"],
-  "ai": {"sense": "the stance that tech progress, AI above all, should go as fast as possible; 'decels' are those who want to slow it",
-         "origin": "term coined by Benjamin Noys 2010 ('The Persistence of the Negative') for Nick Land / CCRU 1990s theory; 'effective accelerationism' (e/acc) launched 2022 by pseudonymous 'Beff Jezos' (Guillaume Verdon, named by Forbes Dec 2023); Andreessen's 'Techno-Optimist Manifesto' Oct 2023",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "science", "meaning": "rate of change of speed", "phrase": "acceleration due to gravity"},
-   {"domain": "everyday", "meaning": "pressing the gas pedal", "phrase": "floor the accelerator"},
-   {"domain": "music", "meaning": "accelerando: gradually speeding the tempo", "phrase": "the coda goes accelerando"},
-   {"domain": "school", "meaning": "skipping grades or fast-tracking a gifted student", "phrase": "an accelerated math class"},
-   {"domain": "money", "meaning": "a startup accelerator program (Y Combinator)", "phrase": "we got into the accelerator"}
+  "forms": [
+   "accelerationism",
+   "accelerationist",
+   "e/acc",
+   "accelerate",
+   "accelerating",
+   "acceleration",
+   "accelerando"
   ],
-  "idioms": ["pedal to the metal", "floor it", "accelerated learning", "accelerate the process"],
+  "ai": {
+   "sense": "the stance that tech progress, AI above all, should go as fast as possible; 'decels' are those who want to slow it",
+   "origin": "term coined by Benjamin Noys 2010 ('The Persistence of the Negative') for Nick Land / CCRU 1990s theory; 'effective accelerationism' (e/acc) launched 2022 by pseudonymous 'Beff Jezos' (Guillaume Verdon, named by Forbes Dec 2023); Andreessen's 'Techno-Optimist Manifesto' Oct 2023",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "rate of change of speed",
+    "phrase": "acceleration due to gravity"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "pressing the gas pedal",
+    "phrase": "floor the accelerator"
+   },
+   {
+    "domain": "music",
+    "meaning": "accelerando: gradually speeding the tempo",
+    "phrase": "the coda goes accelerando"
+   },
+   {
+    "domain": "school",
+    "meaning": "skipping grades or fast-tracking a gifted student",
+    "phrase": "an accelerated math class"
+   },
+   {
+    "domain": "money",
+    "meaning": "a startup accelerator program (Y Combinator)",
+    "phrase": "we got into the accelerator"
+   }
+  ],
+  "idioms": [
+   "pedal to the metal",
+   "floor it",
+   "accelerated learning",
+   "accelerate the process"
+  ],
   "anchors": [
-   {"name": "Techno-Optimist Manifesto", "what": "Marc Andreessen, Oct 2023; names 'deceleration' an enemy", "url": ""},
-   {"name": "Accelerando", "what": "Charles Stross 2005 novel of a singularity told across three generations of one family", "url": ""}
+   {
+    "name": "Techno-Optimist Manifesto",
+    "what": "Marc Andreessen, Oct 2023; names 'deceleration' an enemy",
+    "url": ""
+   },
+   {
+    "name": "Accelerando",
+    "what": "Charles Stross 2005 novel of a singularity told across three generations of one family",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Accelerando in the coda; floor it, nobody brakes", "senses": ["ai", "music", "everyday"]},
-   {"line": "They skipped my grade, then skipped my job", "senses": ["ai", "school", "work"]},
-   {"line": "Nine point eight meters per second, per second, per sermon", "senses": ["ai", "science", "faith-myth"]}
+   {
+    "line": "Accelerando in the coda; floor it, nobody brakes",
+    "senses": [
+     "ai",
+     "music",
+     "everyday"
+    ]
+   },
+   {
+    "line": "They skipped my grade, then skipped my job",
+    "senses": [
+     "ai",
+     "school",
+     "work"
+    ]
+   },
+   {
+    "line": "Nine point eight meters per second, per second, per sermon",
+    "senses": [
+     "ai",
+     "science",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "a click track that speeds up 2 BPM every bar through the bridge (accelerando), band chasing it",
-            "picture": "a speedometer whose dial is labeled with years instead of mph, needle past the red",
-            "type": "letter spacing tightens left to right until the word ends in a blur streak"},
-  "sound": {"syllables": 7, "stress": "ac-cel-er-A-tion-is-m", "rhymes": ["creationism", "isolationism"], "slant": ["prism", "schism", "rhythm", "chasm", "e/acc (ee-ACK): track, attack, black"]},
-  "stakes": ["species", "planet", "jobs"],
-  "registers": ["defiant", "smug", "panicked"],
-  "neighbors": [{"id": "pause", "rel": "opposite"}, {"id": "doomer", "rel": "opposite"}, {"id": "race", "rel": "pairs-with"}, {"id": "takeoff", "rel": "causes"}, {"id": "abundance", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a click track that speeds up 2 BPM every bar through the bridge (accelerando), band chasing it",
+   "picture": "a speedometer whose dial is labeled with years instead of mph, needle past the red",
+   "type": "letter spacing tightens left to right until the word ends in a blur streak"
+  },
+  "sound": {
+   "syllables": 7,
+   "stress": "ac-cel-er-A-tion-is-m",
+   "rhymes": [
+    "creationism",
+    "isolationism"
+   ],
+   "slant": [
+    "prism",
+    "schism",
+    "rhythm",
+    "chasm",
+    "e/acc (ee-ACK): track, attack, black"
+   ]
+  },
+  "stakes": [
+   "species",
+   "planet",
+   "jobs"
+  ],
+  "registers": [
+   "defiant",
+   "smug",
+   "panicked"
+  ],
+  "neighbors": [
+   {
+    "id": "pause",
+    "rel": "opposite"
+   },
+   {
+    "id": "doomer",
+    "rel": "opposite"
+   },
+   {
+    "id": "race",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "takeoff",
+    "rel": "causes"
+   },
+   {
+    "id": "abundance",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "e/acc is an in-group tag; 'accelerationism' also names a far-right ideology, so context matters",
-  "notes": "Accelerando is a musical instruction: the song can literally speed up while saying the word."
+  "notes": "Accelerando is a musical instruction: the song can literally speed up while saying the word.",
+  "associates": [
+   "decel"
+  ]
  },
  {
   "id": "pause",
-  "forms": ["pause", "pauses", "paused", "pausing", "pause button", "the pause letter", "PauseAI"],
-  "ai": {"sense": "the demand to halt training of frontier models until safety catches up",
-         "origin": "Future of Life Institute open letter, 22 March 2023, 'Pause Giant AI Experiments': six months on systems more powerful than GPT-4; PauseAI movement founded May 2023",
-         "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "a rest or fermata: a held silence or hold", "phrase": "a dramatic pause before the drop"},
-   {"domain": "screen", "meaning": "freezing a video on one frame", "phrase": "hit pause"},
-   {"domain": "sport-games", "meaning": "the pause menu in a video game; a timeout", "phrase": "pause the game"},
-   {"domain": "everyday", "meaning": "a short stop in speech or action", "phrase": "give me pause"},
-   {"domain": "love", "meaning": "a break in a relationship", "phrase": "we're on pause"},
-   {"domain": "body", "meaning": "menopause: the end of menstrual cycles", "phrase": "going through the change"}
+  "forms": [
+   "pause",
+   "pauses",
+   "paused",
+   "pausing",
+   "pause button",
+   "the pause letter",
+   "PauseAI"
   ],
-  "idioms": ["give pause", "pause for thought", "hit pause", "pregnant pause", "press pause on"],
+  "ai": {
+   "sense": "the demand to halt training of frontier models until safety catches up",
+   "origin": "Future of Life Institute open letter, 22 March 2023, 'Pause Giant AI Experiments': six months on systems more powerful than GPT-4; PauseAI movement founded May 2023",
+   "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "a rest or fermata: a held silence or hold",
+    "phrase": "a dramatic pause before the drop"
+   },
+   {
+    "domain": "screen",
+    "meaning": "freezing a video on one frame",
+    "phrase": "hit pause"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "the pause menu in a video game; a timeout",
+    "phrase": "pause the game"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a short stop in speech or action",
+    "phrase": "give me pause"
+   },
+   {
+    "domain": "love",
+    "meaning": "a break in a relationship",
+    "phrase": "we're on pause"
+   },
+   {
+    "domain": "body",
+    "meaning": "menopause: the end of menstrual cycles",
+    "phrase": "going through the change"
+   }
+  ],
+  "idioms": [
+   "give pause",
+   "pause for thought",
+   "hit pause",
+   "pregnant pause",
+   "press pause on"
+  ],
   "anchors": [
-   {"name": "Pause Giant AI Experiments", "what": "FLI 2023 letter signed by Musk, Wozniak, Bengio and thousands; no lab paused", "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"},
-   {"name": "John Cage 4'33\"", "what": "1952 piece of a pianist sitting in silence for three movements", "url": ""}
+   {
+    "name": "Pause Giant AI Experiments",
+    "what": "FLI 2023 letter signed by Musk, Wozniak, Bengio and thousands; no lab paused",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+   },
+   {
+    "name": "John Cage 4'33\"",
+    "what": "1952 piece of a pianist sitting in silence for three movements",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "We asked for six months' pause; they paused for a heartbeat", "senses": ["ai", "music", "body"]},
-   {"line": "Hit pause on the game; the game kept playing", "senses": ["ai", "sport-games", "screen"]},
-   {"line": "We're on pause, you said, and trained through the night", "senses": ["ai", "love"]}
+   {
+    "line": "We asked for six months' pause; they paused for a heartbeat",
+    "senses": [
+     "ai",
+     "music",
+     "body"
+    ]
+   },
+   {
+    "line": "Hit pause on the game; the game kept playing",
+    "senses": [
+     "ai",
+     "sport-games",
+     "screen"
+    ]
+   },
+   {
+    "line": "We're on pause, you said, and trained through the night",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a full-band stop for exactly one bar of silence, then the track resumes having moved on a beat (time kept running)",
-            "picture": "the video freezes with a pause icon on screen, while one character keeps moving inside the frozen frame",
-            "type": "the pause glyph (two bars) replacing the letters 'u' and 's'"},
-  "sound": {"syllables": 1, "stress": "PAUSE", "rhymes": ["cause", "laws", "flaws", "jaws", "claws", "draws", "applause", "because"], "slant": ["loss", "boss", "across", "gauze"]},
-  "stakes": ["species", "state"],
-  "registers": ["tender", "panicked", "defiant"],
-  "neighbors": [{"id": "race", "rel": "opposite"}, {"id": "accelerationism", "rel": "opposite"}, {"id": "halt", "rel": "same-family"}, {"id": "off-switch", "rel": "same-family"}, {"id": "beat", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a full-band stop for exactly one bar of silence, then the track resumes having moved on a beat (time kept running)",
+   "picture": "the video freezes with a pause icon on screen, while one character keeps moving inside the frozen frame",
+   "type": "the pause glyph (two bars) replacing the letters 'u' and 's'"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "PAUSE",
+   "rhymes": [
+    "cause",
+    "laws",
+    "flaws",
+    "jaws",
+    "claws",
+    "draws",
+    "applause",
+    "because"
+   ],
+   "slant": [
+    "loss",
+    "boss",
+    "across",
+    "gauze"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "tender",
+   "panicked",
+   "defiant"
+  ],
+  "neighbors": [
+   {
+    "id": "race",
+    "rel": "opposite"
+   },
+   {
+    "id": "accelerationism",
+    "rel": "opposite"
+   },
+   {
+    "id": "halt",
+    "rel": "same-family"
+   },
+   {
+    "id": "off-switch",
+    "rel": "same-family"
+   },
+   {
+    "id": "beat",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "silence in the mix only works if it is long enough to feel wrong; a half-beat reads as an edit",
-  "notes": "The video can perform the word directly: freeze the frame, and let the world inside it keep moving."
+  "notes": "The video can perform the word directly: freeze the frame, and let the world inside it keep moving.",
+  "associates": []
  },
  {
   "id": "race",
-  "forms": ["race", "races", "racing", "raced", "arms race", "race to the bottom", "rat race", "human race", "racer"],
-  "ai": {"sense": "the competition between labs and between the US and China to build stronger AI first, at the cost of safety",
-         "origin": "Cold War 'arms race' frame reapplied to AI; Armstrong, Bostrom and Shulman 2016, 'Racing to the Precipice'; Aschenbrenner 2024, 'Situational Awareness'",
-         "url": "https://doi.org/10.1007/s00146-015-0590-y", "confidence": "high"},
-  "senses": [
-   {"domain": "sport-games", "meaning": "a contest of speed", "phrase": "win the race"},
-   {"domain": "war", "meaning": "an arms race: rivals stockpiling weapons", "phrase": "the nuclear arms race"},
-   {"domain": "work", "meaning": "the rat race of jobs and commutes", "phrase": "quit the rat race"},
-   {"domain": "nature", "meaning": "the human race; the species as a whole", "phrase": "the human race"},
-   {"domain": "body", "meaning": "a pounding heart or pulse", "phrase": "my heart is racing"},
-   {"domain": "mind", "meaning": "rapid uncontrolled thoughts", "phrase": "racing thoughts"},
-   {"domain": "law-state", "meaning": "an election contest", "phrase": "the presidential race"},
-   {"domain": "screen", "meaning": "racing games and race films", "phrase": "Mario Kart"}
+  "forms": [
+   "race",
+   "races",
+   "racing",
+   "raced",
+   "arms race",
+   "race to the bottom",
+   "rat race",
+   "human race",
+   "racer"
   ],
-  "idioms": ["race to the bottom", "rat race", "arms race", "space race", "slow and steady wins the race", "race against time", "the human race"],
+  "ai": {
+   "sense": "the competition between labs and between the US and China to build stronger AI first, at the cost of safety",
+   "origin": "Cold War 'arms race' frame reapplied to AI; Armstrong, Bostrom and Shulman 2016, 'Racing to the Precipice'; Aschenbrenner 2024, 'Situational Awareness'",
+   "url": "https://doi.org/10.1007/s00146-015-0590-y",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "sport-games",
+    "meaning": "a contest of speed",
+    "phrase": "win the race"
+   },
+   {
+    "domain": "war",
+    "meaning": "an arms race: rivals stockpiling weapons",
+    "phrase": "the nuclear arms race"
+   },
+   {
+    "domain": "work",
+    "meaning": "the rat race of jobs and commutes",
+    "phrase": "quit the rat race"
+   },
+   {
+    "domain": "nature",
+    "meaning": "the human race; the species as a whole",
+    "phrase": "the human race"
+   },
+   {
+    "domain": "body",
+    "meaning": "a pounding heart or pulse",
+    "phrase": "my heart is racing"
+   },
+   {
+    "domain": "mind",
+    "meaning": "rapid uncontrolled thoughts",
+    "phrase": "racing thoughts"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "an election contest",
+    "phrase": "the presidential race"
+   },
+   {
+    "domain": "screen",
+    "meaning": "racing games and race films",
+    "phrase": "Mario Kart"
+   }
+  ],
+  "idioms": [
+   "race to the bottom",
+   "rat race",
+   "arms race",
+   "space race",
+   "slow and steady wins the race",
+   "race against time",
+   "the human race"
+  ],
   "anchors": [
-   {"name": "Tortoise and the Hare", "what": "Aesop: slow and steady wins the race", "url": ""},
-   {"name": "Space Race", "what": "US-USSR 1957-1969, Sputnik to Apollo 11; the template for the AI race frame", "url": ""}
+   {
+    "name": "Tortoise and the Hare",
+    "what": "Aesop: slow and steady wins the race",
+    "url": ""
+   },
+   {
+    "name": "Space Race",
+    "what": "US-USSR 1957-1969, Sputnik to Apollo 11; the template for the AI race frame",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Won the race, lost the human race", "senses": ["ai", "sport-games", "nature"]},
-   {"line": "My heart's racing; so is everyone with a GPU", "senses": ["ai", "body", "love"]},
-   {"line": "Quit the rat race; the rats got faster", "senses": ["ai", "work"]}
+   {
+    "line": "Won the race, lost the human race",
+    "senses": [
+     "ai",
+     "sport-games",
+     "nature"
+    ]
+   },
+   {
+    "line": "My heart's racing; so is everyone with a GPU",
+    "senses": [
+     "ai",
+     "body",
+     "love"
+    ]
+   },
+   {
+    "line": "Quit the rat race; the rats got faster",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "the hi-hat speeds while the vocal stays slow (the hare and the tortoise in one mix)",
-            "picture": "a starting grid where every car is a lab logo and the finish line is a cliff edge",
-            "type": "letters as sprinters in lanes, the 'e' crossing the line first and falling off"},
-  "sound": {"syllables": 1, "stress": "RACE", "rhymes": ["face", "space", "place", "grace", "chase", "base", "trace", "case"], "slant": ["pace", "waste", "safe", "faith"]},
-  "stakes": ["species", "state", "jobs"],
-  "registers": ["panicked", "defiant", "ominous"],
-  "neighbors": [{"id": "pause", "rel": "opposite"}, {"id": "manhattan-project", "rel": "same-family"}, {"id": "accelerationism", "rel": "pairs-with"}, {"id": "moat", "rel": "pairs-with"}, {"id": "frontier", "rel": "pairs-with"}, {"id": "leaderboard", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the hi-hat speeds while the vocal stays slow (the hare and the tortoise in one mix)",
+   "picture": "a starting grid where every car is a lab logo and the finish line is a cliff edge",
+   "type": "letters as sprinters in lanes, the 'e' crossing the line first and falling off"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "RACE",
+   "rhymes": [
+    "face",
+    "space",
+    "place",
+    "grace",
+    "chase",
+    "base",
+    "trace",
+    "case"
+   ],
+   "slant": [
+    "pace",
+    "waste",
+    "safe",
+    "faith"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state",
+   "jobs"
+  ],
+  "registers": [
+   "panicked",
+   "defiant",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "pause",
+    "rel": "opposite"
+   },
+   {
+    "id": "manhattan-project",
+    "rel": "same-family"
+   },
+   {
+    "id": "accelerationism",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "moat",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "frontier",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "leaderboard",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'race' also means ethnicity; avoid any line where that reading lands; 'race to the bottom' is worn",
-  "notes": "'Human race' vs 'arms race' lets one word name both the runners and the people run over."
+  "notes": "'Human race' vs 'arms race' lets one word name both the runners and the people run over.",
+  "associates": []
  },
  {
   "id": "moat",
-  "forms": ["moat", "moats", "no moat", "economic moat"],
-  "ai": {"sense": "a lasting competitive edge that rivals cannot copy; the question of whether any AI lab has one",
-         "origin": "Warren Buffett's 'economic moat' (Berkshire letters and meetings, 1990s); leaked Google memo May 2023, 'We Have No Moat, And Neither Does OpenAI' (attributed to Luke Sernau, published by SemiAnalysis)",
-         "url": "https://www.semianalysis.com/p/google-we-have-no-moat-and-neither", "confidence": "medium"},
-  "senses": [
-   {"domain": "war", "meaning": "a water-filled ditch around a castle", "phrase": "cross the moat"},
-   {"domain": "money", "meaning": "a durable business advantage", "phrase": "a wide moat stock"},
-   {"domain": "love", "meaning": "emotional defenses around a person", "phrase": "she built a moat around her heart"},
-   {"domain": "nature", "meaning": "the ditch that separates zoo animals from visitors", "phrase": "the lion's moat"}
+  "forms": [
+   "moat",
+   "moats",
+   "no moat",
+   "economic moat"
   ],
-  "idioms": ["no moat", "wide moat", "pull up the drawbridge"],
+  "ai": {
+   "sense": "a lasting competitive edge that rivals cannot copy; the question of whether any AI lab has one",
+   "origin": "Warren Buffett's 'economic moat' (Berkshire letters and meetings, 1990s); leaked Google memo May 2023, 'We Have No Moat, And Neither Does OpenAI' (attributed to Luke Sernau, published by SemiAnalysis)",
+   "url": "https://www.semianalysis.com/p/google-we-have-no-moat-and-neither",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "war",
+    "meaning": "a water-filled ditch around a castle",
+    "phrase": "cross the moat"
+   },
+   {
+    "domain": "money",
+    "meaning": "a durable business advantage",
+    "phrase": "a wide moat stock"
+   },
+   {
+    "domain": "love",
+    "meaning": "emotional defenses around a person",
+    "phrase": "she built a moat around her heart"
+   },
+   {
+    "domain": "nature",
+    "meaning": "the ditch that separates zoo animals from visitors",
+    "phrase": "the lion's moat"
+   }
+  ],
+  "idioms": [
+   "no moat",
+   "wide moat",
+   "pull up the drawbridge"
+  ],
   "anchors": [
-   {"name": "We Have No Moat", "what": "2023 leaked Google memo: open-source models would erode big labs' lead", "url": ""},
-   {"name": "Drawbridge", "what": "the castle's only crossing over the moat", "url": ""}
+   {
+    "name": "We Have No Moat",
+    "what": "2023 leaked Google memo: open-source models would erode big labs' lead",
+    "url": ""
+   },
+   {
+    "name": "Drawbridge",
+    "what": "the castle's only crossing over the moat",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "No moat, no drawbridge, just you and the open water", "senses": ["ai", "war", "love"]},
-   {"line": "Built a moat around my heart; open weights swam right across", "senses": ["ai", "love", "war"]}
+   {
+    "line": "No moat, no drawbridge, just you and the open water",
+    "senses": [
+     "ai",
+     "war",
+     "love"
+    ]
+   },
+   {
+    "line": "Built a moat around my heart; open weights swam right across",
+    "senses": [
+     "ai",
+     "love",
+     "war"
+    ]
+   }
   ],
-  "enact": {"music": "the vocal is muffled as if heard through water until the bridge, when it comes up dry and close",
-            "picture": "a castle-shaped datacenter whose moat has drained, revealing cables on the mud",
-            "type": "the word sits on a wavy waterline, its bottom half reflected and rippling"},
-  "sound": {"syllables": 1, "stress": "MOAT", "rhymes": ["boat", "float", "note", "throat", "wrote", "vote", "coat", "quote"], "slant": ["hope", "home", "road", "most"]},
-  "stakes": ["wallet"],
-  "registers": ["smug", "defiant"],
-  "neighbors": [{"id": "open-weights", "rel": "opposite"}, {"id": "race", "rel": "pairs-with"}, {"id": "bubble", "rel": "pairs-with"}, {"id": "leak", "rel": "causes"}],
+  "enact": {
+   "music": "the vocal is muffled as if heard through water until the bridge, when it comes up dry and close",
+   "picture": "a castle-shaped datacenter whose moat has drained, revealing cables on the mud",
+   "type": "the word sits on a wavy waterline, its bottom half reflected and rippling"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "MOAT",
+   "rhymes": [
+    "boat",
+    "float",
+    "note",
+    "throat",
+    "wrote",
+    "vote",
+    "coat",
+    "quote"
+   ],
+   "slant": [
+    "hope",
+    "home",
+    "road",
+    "most"
+   ]
+  },
+  "stakes": [
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "defiant"
+  ],
+  "neighbors": [
+   {
+    "id": "open-weights",
+    "rel": "opposite"
+   },
+   {
+    "id": "race",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "bubble",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "leak",
+    "rel": "causes"
+   }
+  ],
   "risk": "investor jargon; the castle image does the decoding",
-  "notes": "Rhymes with 'note' and 'vote': a moat line can end on music or politics."
+  "notes": "Rhymes with 'note' and 'vote': a moat line can end on music or politics.",
+  "associates": []
  },
  {
   "id": "bubble",
-  "forms": ["bubble", "bubbles", "bubbly", "bubbling", "burst", "AI bubble", "filter bubble", "bubblegum"],
-  "ai": {"sense": "the fear that AI valuations and datacenter spending far outrun real revenue and will crash",
-         "origin": "bubble frame from tulip mania (1637), the South Sea Bubble (1720) and dot-com (2000); Altman, Aug 2025: investors as a whole are 'overexcited' about AI; MIT NANDA, Aug 2025: about 95% of enterprise gen-AI pilots showed no measurable return",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "money", "meaning": "a market boom inflated beyond real value", "phrase": "the dot-com bubble"},
-   {"domain": "science", "meaning": "a thin film sphere of soap or a gas pocket in liquid", "phrase": "blowing bubbles"},
-   {"domain": "screen", "meaning": "a speech or thought bubble in comics", "phrase": "the speech bubble says 'help'"},
-   {"domain": "mind", "meaning": "a filter bubble: a feed showing only what you agree with", "phrase": "living in a bubble"},
-   {"domain": "music", "meaning": "bubblegum pop: sugary, catchy chart pop", "phrase": "bubblegum pop"},
-   {"domain": "love", "meaning": "a happy illusion someone ends", "phrase": "sorry to burst your bubble"},
-   {"domain": "sport-games", "meaning": "a team on the edge of qualifying; the 2020 NBA bubble", "phrase": "on the bubble"},
-   {"domain": "school", "meaning": "the fill-in circles on a multiple-choice answer sheet", "phrase": "fill in the bubble completely"},
-   {"domain": "craft", "meaning": "bubble wrap; a spirit level's bubble", "phrase": "check the bubble is level"}
+  "forms": [
+   "bubble",
+   "bubbles",
+   "bubbly",
+   "bubbling",
+   "AI bubble",
+   "filter bubble",
+   "bubblegum"
   ],
-  "idioms": ["burst your bubble", "living in a bubble", "on the bubble", "the bubble burst", "bubble up", "tiny bubbles"],
+  "ai": {
+   "sense": "the fear that AI valuations and datacenter spending far outrun real revenue and will crash",
+   "origin": "bubble frame from tulip mania (1637), the South Sea Bubble (1720) and dot-com (2000); Altman, Aug 2025: investors as a whole are 'overexcited' about AI; MIT NANDA, Aug 2025: about 95% of enterprise gen-AI pilots showed no measurable return",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "a market boom inflated beyond real value",
+    "phrase": "the dot-com bubble"
+   },
+   {
+    "domain": "science",
+    "meaning": "a thin film sphere of soap or a gas pocket in liquid",
+    "phrase": "blowing bubbles"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a speech or thought bubble in comics",
+    "phrase": "the speech bubble says 'help'"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a filter bubble: a feed showing only what you agree with",
+    "phrase": "living in a bubble"
+   },
+   {
+    "domain": "music",
+    "meaning": "bubblegum pop: sugary, catchy chart pop",
+    "phrase": "bubblegum pop"
+   },
+   {
+    "domain": "love",
+    "meaning": "a happy illusion someone ends",
+    "phrase": "sorry to burst your bubble"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a team on the edge of qualifying; the 2020 NBA bubble",
+    "phrase": "on the bubble"
+   },
+   {
+    "domain": "school",
+    "meaning": "the fill-in circles on a multiple-choice answer sheet",
+    "phrase": "fill in the bubble completely"
+   },
+   {
+    "domain": "craft",
+    "meaning": "bubble wrap; a spirit level's bubble",
+    "phrase": "check the bubble is level"
+   }
+  ],
+  "idioms": [
+   "burst your bubble",
+   "living in a bubble",
+   "on the bubble",
+   "the bubble burst",
+   "bubble up",
+   "tiny bubbles"
+  ],
   "anchors": [
-   {"name": "Tulip mania", "what": "1637 Dutch tulip-bulb price collapse, the classic bubble story (its scale is disputed by historians)", "url": ""},
-   {"name": "Filter bubble", "what": "Eli Pariser 2011 book on personalized feeds", "url": ""},
-   {"name": "Michael Jackson and Bubbles", "what": "the pop star's pet chimpanzee", "url": ""}
+   {
+    "name": "Tulip mania",
+    "what": "1637 Dutch tulip-bulb price collapse, the classic bubble story (its scale is disputed by historians)",
+    "url": ""
+   },
+   {
+    "name": "Filter bubble",
+    "what": "Eli Pariser 2011 book on personalized feeds",
+    "url": ""
+   },
+   {
+    "name": "Michael Jackson and Bubbles",
+    "what": "the pop star's pet chimpanzee",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Filled every bubble on the test; the market filled the rest", "senses": ["ai", "school", "money"]},
-   {"line": "Sorry to burst your bubble; it was everybody's bubble", "senses": ["ai", "love", "money"]},
-   {"line": "Bubblegum chorus, trillion-dollar bubble, both pop", "senses": ["ai", "music", "money"]},
-   {"line": "My speech bubble just says 'buy'", "senses": ["ai", "screen", "money"]}
+   {
+    "line": "Filled every bubble on the test; the market filled the rest",
+    "senses": [
+     "ai",
+     "school",
+     "money"
+    ]
+   },
+   {
+    "line": "Sorry to burst your bubble; it was everybody's bubble",
+    "senses": [
+     "ai",
+     "love",
+     "money"
+    ]
+   },
+   {
+    "line": "Bubblegum chorus, trillion-dollar bubble, both pop",
+    "senses": [
+     "ai",
+     "music",
+     "money"
+    ]
+   },
+   {
+    "line": "My speech bubble just says 'buy'",
+    "senses": [
+     "ai",
+     "screen",
+     "money"
+    ]
+   }
   ],
-  "enact": {"music": "a bubblegum-pop chorus that ends on a literal pop sample and a half-bar of silence",
-            "picture": "a soap bubble reflecting a datacenter skyline, swelling until it holds the whole city, then popping into confetti stock tickers",
-            "type": "the word drawn inside a speech bubble that inflates each line, then bursts"},
-  "sound": {"syllables": 2, "stress": "BUB-ble", "rhymes": ["trouble", "double", "rubble", "stubble", "Hubble", "redouble"], "slant": ["humble", "tumble", "puzzle", "level"]},
-  "stakes": ["wallet", "jobs", "mind"],
-  "registers": ["funny", "panicked", "smug"],
-  "neighbors": [{"id": "hype", "rel": "causes"}, {"id": "winter", "rel": "causes"}, {"id": "moat", "rel": "pairs-with"}, {"id": "datacenter", "rel": "pairs-with"}, {"id": "feed", "rel": "same-family"}, {"id": "exponentials", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a bubblegum-pop chorus that ends on a literal pop sample and a half-bar of silence",
+   "picture": "a soap bubble reflecting a datacenter skyline, swelling until it holds the whole city, then popping into confetti stock tickers",
+   "type": "the word drawn inside a speech bubble that inflates each line, then bursts"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "BUB-ble",
+   "rhymes": [
+    "trouble",
+    "double",
+    "rubble",
+    "stubble",
+    "Hubble",
+    "redouble"
+   ],
+   "slant": [
+    "humble",
+    "tumble",
+    "puzzle",
+    "level"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "funny",
+   "panicked",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "hype",
+    "rel": "causes"
+   },
+   {
+    "id": "winter",
+    "rel": "causes"
+   },
+   {
+    "id": "moat",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "datacenter",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "feed",
+    "rel": "same-family"
+   },
+   {
+    "id": "exponentials",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'AI bubble' is a headline cliché in 2025-26; the 95% MIT figure is contested (small sample, narrow definition of return); 'trouble/double/rubble' rhymes are heavily used",
-  "notes": "The school answer-sheet bubble links the test, the market and the feed in one shape the eye reads instantly."
+  "notes": "The school answer-sheet bubble links the test, the market and the feed in one shape the eye reads instantly.",
+  "associates": [
+   "burst"
+  ]
  },
  {
   "id": "hype",
-  "forms": ["hype", "hyped", "hyping", "hype man", "hype cycle", "hypebeast", "overhyped", "hyper"],
-  "ai": {"sense": "inflated public excitement about AI capabilities, set against what systems really do",
-         "origin": "Gartner Hype Cycle, Jackie Fenn 1995 (peak of inflated expectations, trough of disillusionment); word from 1920s US slang for a swindle, likely linked to 'hype' as a hypodermic needle",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "music", "meaning": "a hype man: the rapper who pumps the crowd for the lead MC (Flavor Flav)", "phrase": "the hype man on the mic"},
-   {"domain": "money", "meaning": "promotion that inflates value", "phrase": "buy the hype"},
-   {"domain": "sport-games", "meaning": "a hype video or hype train before a game", "phrase": "the hype is real"},
-   {"domain": "body", "meaning": "being wired, excited, overstimulated", "phrase": "I'm so hyped"},
-   {"domain": "screen", "meaning": "trailer buzz before a release", "phrase": "the trailer hype"}
+  "forms": [
+   "hype",
+   "hyped",
+   "hyping",
+   "hype man",
+   "hype cycle",
+   "hypebeast",
+   "overhyped",
+   "hyper"
   ],
-  "idioms": ["don't believe the hype", "live up to the hype", "hype train", "the hype is real", "buy into the hype"],
+  "ai": {
+   "sense": "inflated public excitement about AI capabilities, set against what systems really do",
+   "origin": "Gartner Hype Cycle, Jackie Fenn 1995 (peak of inflated expectations, trough of disillusionment); word from 1920s US slang for a swindle, likely linked to 'hype' as a hypodermic needle",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "a hype man: the rapper who pumps the crowd for the lead MC (Flavor Flav)",
+    "phrase": "the hype man on the mic"
+   },
+   {
+    "domain": "money",
+    "meaning": "promotion that inflates value",
+    "phrase": "buy the hype"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a hype video or hype train before a game",
+    "phrase": "the hype is real"
+   },
+   {
+    "domain": "body",
+    "meaning": "being wired, excited, overstimulated",
+    "phrase": "I'm so hyped"
+   },
+   {
+    "domain": "screen",
+    "meaning": "trailer buzz before a release",
+    "phrase": "the trailer hype"
+   }
+  ],
+  "idioms": [
+   "don't believe the hype",
+   "live up to the hype",
+   "hype train",
+   "the hype is real",
+   "buy into the hype"
+  ],
   "anchors": [
-   {"name": "Don't Believe the Hype", "what": "Public Enemy, 1988, from 'It Takes a Nation of Millions to Hold Us Back'", "url": ""},
-   {"name": "Gartner Hype Cycle", "what": "1995 curve: trigger, peak, trough, slope, plateau", "url": "https://en.wikipedia.org/wiki/Gartner_hype_cycle"}
+   {
+    "name": "Don't Believe the Hype",
+    "what": "Public Enemy, 1988, from 'It Takes a Nation of Millions to Hold Us Back'",
+    "url": ""
+   },
+   {
+    "name": "Gartner Hype Cycle",
+    "what": "1995 curve: trigger, peak, trough, slope, plateau",
+    "url": "https://en.wikipedia.org/wiki/Gartner_hype_cycle"
+   }
   ],
   "pivots": [
-   {"line": "The model's my hype man; it agrees before I finish", "senses": ["ai", "music"]},
-   {"line": "Peak of inflated expectations, trough of me", "senses": ["ai", "money", "mind"]},
-   {"line": "Don't believe the hype; the hype wrote that line", "senses": ["ai", "music", "money"]}
+   {
+    "line": "The model's my hype man; it agrees before I finish",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Peak of inflated expectations, trough of me",
+    "senses": [
+     "ai",
+     "money",
+     "mind"
+    ]
+   },
+   {
+    "line": "Don't believe the hype; the hype wrote that line",
+    "senses": [
+     "ai",
+     "music",
+     "money"
+    ]
+   }
   ],
-  "enact": {"music": "a hype-man voice shouts ad-libs ('yeah!', 'let's go!') after every line, getting louder as the verse gets emptier",
-            "picture": "the Gartner hype curve drawn as a rollercoaster track with the crowd screaming on the peak",
-            "type": "the word in blown-out caps with fake exclamation marks multiplying"},
-  "sound": {"syllables": 1, "stress": "HYPE", "rhymes": ["type", "pipe", "ripe", "wipe", "swipe", "stripe", "gripe", "snipe"], "slant": ["light", "life", "high", "night"]},
-  "stakes": ["wallet", "mind"],
-  "registers": ["funny", "smug", "defiant"],
-  "neighbors": [{"id": "bubble", "rel": "causes"}, {"id": "winter", "rel": "opposite"}, {"id": "sycophancy", "rel": "same-family"}, {"id": "benchmark", "rel": "pairs-with"}, {"id": "doomer", "rel": "opposite"}],
+  "enact": {
+   "music": "a hype-man voice shouts ad-libs ('yeah!', 'let's go!') after every line, getting louder as the verse gets emptier",
+   "picture": "the Gartner hype curve drawn as a rollercoaster track with the crowd screaming on the peak",
+   "type": "the word in blown-out caps with fake exclamation marks multiplying"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "HYPE",
+   "rhymes": [
+    "type",
+    "pipe",
+    "ripe",
+    "wipe",
+    "swipe",
+    "stripe",
+    "gripe",
+    "snipe"
+   ],
+   "slant": [
+    "light",
+    "life",
+    "high",
+    "night"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "funny",
+   "smug",
+   "defiant"
+  ],
+  "neighbors": [
+   {
+    "id": "bubble",
+    "rel": "causes"
+   },
+   {
+    "id": "winter",
+    "rel": "opposite"
+   },
+   {
+    "id": "sycophancy",
+    "rel": "same-family"
+   },
+   {
+    "id": "benchmark",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "doomer",
+    "rel": "opposite"
+   }
+  ],
   "risk": "'Don't believe the hype' is quoted endlessly; twist it",
-  "notes": "Hype rhymes with type and swipe: the act of typing a prompt and the act of hyping it share a rhyme slot."
+  "notes": "Hype rhymes with type and swipe: the act of typing a prompt and the act of hyping it share a rhyme slot.",
+  "associates": []
  },
  {
   "id": "winter",
-  "forms": ["winter", "winters", "wintry", "AI winter", "nuclear winter"],
-  "ai": {"sense": "a period when funding and interest in AI collapse after promises fail",
-         "origin": "Lighthill Report (UK, 1973) cut British AI funding; term 'AI winter' from a 1984 AAAI debate (Minsky and Schank), modeled on 'nuclear winter'; second winter after the late-1980s expert-system crash",
-         "url": "https://en.wikipedia.org/wiki/AI_winter", "confidence": "medium"},
-  "senses": [
-   {"domain": "nature", "meaning": "the cold season", "phrase": "the dead of winter"},
-   {"domain": "war", "meaning": "nuclear winter: smoke from nuclear war blocking the sun (Turco et al. 1983)", "phrase": "nuclear winter"},
-   {"domain": "music", "meaning": "Vivaldi's 'Winter' concerto from The Four Seasons (1725)", "phrase": "Vivaldi's Winter"},
-   {"domain": "screen", "meaning": "Game of Thrones' 'Winter is coming'", "phrase": "winter is coming"},
-   {"domain": "body", "meaning": "old age, the end of a life", "phrase": "in the winter of his life"},
-   {"domain": "work", "meaning": "a season of strikes and hardship (UK 1978-79)", "phrase": "the winter of discontent"},
-   {"domain": "sport-games", "meaning": "the Winter Olympics and winter sports", "phrase": "the Winter Games"},
-   {"domain": "love", "meaning": "a cold spell in feeling", "phrase": "a cold winter between us"}
+  "forms": [
+   "winter",
+   "winters",
+   "wintry",
+   "AI winter",
+   "nuclear winter"
   ],
-  "idioms": ["winter is coming", "the dead of winter", "winter of discontent", "nuclear winter", "hibernate", "winter wonderland"],
+  "ai": {
+   "sense": "a period when funding and interest in AI collapse after promises fail",
+   "origin": "Lighthill Report (UK, 1973) cut British AI funding; term 'AI winter' from a 1984 AAAI debate (Minsky and Schank), modeled on 'nuclear winter'; second winter after the late-1980s expert-system crash",
+   "url": "https://en.wikipedia.org/wiki/AI_winter",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "the cold season",
+    "phrase": "the dead of winter"
+   },
+   {
+    "domain": "war",
+    "meaning": "nuclear winter: smoke from nuclear war blocking the sun (Turco et al. 1983)",
+    "phrase": "nuclear winter"
+   },
+   {
+    "domain": "music",
+    "meaning": "Vivaldi's 'Winter' concerto from The Four Seasons (1725)",
+    "phrase": "Vivaldi's Winter"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Game of Thrones' 'Winter is coming'",
+    "phrase": "winter is coming"
+   },
+   {
+    "domain": "body",
+    "meaning": "old age, the end of a life",
+    "phrase": "in the winter of his life"
+   },
+   {
+    "domain": "work",
+    "meaning": "a season of strikes and hardship (UK 1978-79)",
+    "phrase": "the winter of discontent"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "the Winter Olympics and winter sports",
+    "phrase": "the Winter Games"
+   },
+   {
+    "domain": "love",
+    "meaning": "a cold spell in feeling",
+    "phrase": "a cold winter between us"
+   }
+  ],
+  "idioms": [
+   "winter is coming",
+   "the dead of winter",
+   "winter of discontent",
+   "nuclear winter",
+   "hibernate",
+   "winter wonderland"
+  ],
   "anchors": [
-   {"name": "Lighthill Report", "what": "1973 UK review that judged AI a failure and triggered the first winter", "url": "https://en.wikipedia.org/wiki/Lighthill_report"},
-   {"name": "'Now is the winter of our discontent'", "what": "opening of Shakespeare's Richard III", "url": ""}
+   {
+    "name": "Lighthill Report",
+    "what": "1973 UK review that judged AI a failure and triggered the first winter",
+    "url": "https://en.wikipedia.org/wiki/Lighthill_report"
+   },
+   {
+    "name": "'Now is the winter of our discontent'",
+    "what": "opening of Shakespeare's Richard III",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Winter's coming for the chips, and for my heating bill", "senses": ["ai", "nature", "money"]},
-   {"line": "Two AI winters; this time we brought the heat", "senses": ["ai", "nature", "everyday"]},
-   {"line": "The winter of my life, the summer of the machine", "senses": ["ai", "body", "nature"]}
+   {
+    "line": "Winter's coming for the chips, and for my heating bill",
+    "senses": [
+     "ai",
+     "nature",
+     "money"
+    ]
+   },
+   {
+    "line": "Two AI winters; this time we brought the heat",
+    "senses": [
+     "ai",
+     "nature",
+     "everyday"
+    ]
+   },
+   {
+    "line": "The winter of my life, the summer of the machine",
+    "senses": [
+     "ai",
+     "body",
+     "nature"
+    ]
+   }
   ],
-  "enact": {"music": "a Vivaldi 'Winter' string ostinato under a trap beat; the beat drops out to leave only shivering strings",
-            "picture": "snow falling on a datacenter whose heat melts a perfect circle in the snow around it",
-            "type": "frost creeping across the letters from the edges"},
-  "sound": {"syllables": 2, "stress": "WIN-ter", "rhymes": ["splinter", "sprinter", "printer", "hinter"], "slant": ["center", "enter", "inner", "dinner", "bitter"]},
-  "stakes": ["wallet", "jobs"],
-  "registers": ["sad", "ominous", "tender"],
-  "neighbors": [{"id": "bubble", "rel": "pairs-with"}, {"id": "hype", "rel": "opposite"}, {"id": "plateau", "rel": "same-family"}, {"id": "power", "rel": "pairs-with"}, {"id": "apocalypse", "rel": "same-family"}],
+  "enact": {
+   "music": "a Vivaldi 'Winter' string ostinato under a trap beat; the beat drops out to leave only shivering strings",
+   "picture": "snow falling on a datacenter whose heat melts a perfect circle in the snow around it",
+   "type": "frost creeping across the letters from the edges"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "WIN-ter",
+   "rhymes": [
+    "splinter",
+    "sprinter",
+    "printer",
+    "hinter"
+   ],
+   "slant": [
+    "center",
+    "enter",
+    "inner",
+    "dinner",
+    "bitter"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "jobs"
+  ],
+  "registers": [
+   "sad",
+   "ominous",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "bubble",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "hype",
+    "rel": "opposite"
+   },
+   {
+    "id": "plateau",
+    "rel": "same-family"
+   },
+   {
+    "id": "power",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "apocalypse",
+    "rel": "same-family"
+   }
+  ],
   "risk": "'Winter is coming' is overquoted; 'printer' is a funny perfect rhyme worth using",
-  "notes": "Datacenters run hot: the AI winter image inverts on screen, a machine that melts the snow it is said to bring."
+  "notes": "Datacenters run hot: the AI winter image inverts on screen, a machine that melts the snow it is said to bring.",
+  "associates": []
  },
  {
   "id": "frontier",
-  "forms": ["frontier", "frontiers", "frontier model", "frontier lab", "frontier AI", "final frontier"],
-  "ai": {"sense": "the most capable models and the labs that build them, at the edge of what AI can do",
-         "origin": "'frontier AI' framed by Anderljung et al. 2023, 'Frontier AI Regulation'; Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI), July 2023",
-         "url": "https://arxiv.org/abs/2307.03718", "confidence": "high"},
-  "senses": [
-   {"domain": "law-state", "meaning": "a border between countries", "phrase": "the frontier post"},
-   {"domain": "screen", "meaning": "the Wild West of westerns; Star Trek's 'final frontier'", "phrase": "Space: the final frontier"},
-   {"domain": "science", "meaning": "the edge of what is known", "phrase": "Science, the Endless Frontier"},
-   {"domain": "money", "meaning": "frontier markets; the efficient frontier of portfolios", "phrase": "the efficient frontier"},
-   {"domain": "school", "meaning": "the frontier of knowledge a student reaches", "phrase": "push the frontiers of knowledge"}
+  "forms": [
+   "frontier",
+   "frontiers",
+   "frontier model",
+   "frontier lab",
+   "frontier AI",
+   "final frontier"
   ],
-  "idioms": ["the final frontier", "frontier justice", "push the frontier", "new frontier"],
+  "ai": {
+   "sense": "the most capable models and the labs that build them, at the edge of what AI can do",
+   "origin": "'frontier AI' framed by Anderljung et al. 2023, 'Frontier AI Regulation'; Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI), July 2023",
+   "url": "https://arxiv.org/abs/2307.03718",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "law-state",
+    "meaning": "a border between countries",
+    "phrase": "the frontier post"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the Wild West of westerns; Star Trek's 'final frontier'",
+    "phrase": "Space: the final frontier"
+   },
+   {
+    "domain": "science",
+    "meaning": "the edge of what is known",
+    "phrase": "Science, the Endless Frontier"
+   },
+   {
+    "domain": "money",
+    "meaning": "frontier markets; the efficient frontier of portfolios",
+    "phrase": "the efficient frontier"
+   },
+   {
+    "domain": "school",
+    "meaning": "the frontier of knowledge a student reaches",
+    "phrase": "push the frontiers of knowledge"
+   }
+  ],
+  "idioms": [
+   "the final frontier",
+   "frontier justice",
+   "push the frontier",
+   "new frontier"
+  ],
   "anchors": [
-   {"name": "Turner's Frontier Thesis", "what": "1893: the open frontier shaped American character; its closing ended an era", "url": ""},
-   {"name": "Science, the Endless Frontier", "what": "Vannevar Bush 1945 report that founded postwar US science funding", "url": ""},
-   {"name": "Star Trek", "what": "1966 opening: 'Space: the final frontier'", "url": ""}
+   {
+    "name": "Turner's Frontier Thesis",
+    "what": "1893: the open frontier shaped American character; its closing ended an era",
+    "url": ""
+   },
+   {
+    "name": "Science, the Endless Frontier",
+    "what": "Vannevar Bush 1945 report that founded postwar US science funding",
+    "url": ""
+   },
+   {
+    "name": "Star Trek",
+    "what": "1966 opening: 'Space: the final frontier'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "The final frontier was a chatbot after all", "senses": ["ai", "screen"]},
-   {"line": "Frontier justice: the model's the sheriff and the jury", "senses": ["ai", "screen", "law-state"]},
-   {"line": "They closed the frontier, then sold us the frontier model", "senses": ["ai", "law-state", "money"]}
+   {
+    "line": "The final frontier was a chatbot after all",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "Frontier justice: the model's the sheriff and the jury",
+    "senses": [
+     "ai",
+     "screen",
+     "law-state"
+    ]
+   },
+   {
+    "line": "They closed the frontier, then sold us the frontier model",
+    "senses": [
+     "ai",
+     "law-state",
+     "money"
+    ]
+   }
   ],
-  "enact": {"music": "a spaghetti-western whistle and twangy guitar over a synth pad",
-            "picture": "a covered wagon crossing a desert of circuit board toward a horizon of datacenters",
-            "type": "Western wanted-poster wood type with the word FRONTIER and a model name"},
-  "sound": {"syllables": 2, "stress": "fron-TIER", "rhymes": ["here", "fear", "clear", "near", "year", "career", "pioneer", "engineer"], "slant": ["tears", "hear", "dare", "steer"]},
-  "stakes": ["state", "species", "wallet"],
-  "registers": ["awe", "defiant", "smug"],
-  "neighbors": [{"id": "race", "rel": "pairs-with"}, {"id": "horizon", "rel": "same-family"}, {"id": "kardashev", "rel": "pairs-with"}, {"id": "capabilities", "rel": "pairs-with"}, {"id": "manhattan-project", "rel": "same-family"}],
+  "enact": {
+   "music": "a spaghetti-western whistle and twangy guitar over a synth pad",
+   "picture": "a covered wagon crossing a desert of circuit board toward a horizon of datacenters",
+   "type": "Western wanted-poster wood type with the word FRONTIER and a model name"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "fron-TIER",
+   "rhymes": [
+    "here",
+    "fear",
+    "clear",
+    "near",
+    "year",
+    "career",
+    "pioneer",
+    "engineer"
+   ],
+   "slant": [
+    "tears",
+    "hear",
+    "dare",
+    "steer"
+   ]
+  },
+  "stakes": [
+   "state",
+   "species",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "defiant",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "race",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "horizon",
+    "rel": "same-family"
+   },
+   {
+    "id": "kardashev",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "capabilities",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "manhattan-project",
+    "rel": "same-family"
+   }
+  ],
   "risk": "western frontier carries colonial baggage; 'final frontier' is overquoted",
-  "notes": "Rhymes with 'pioneer' and 'engineer': the frontier line finds its subject in its own rhyme."
+  "notes": "Rhymes with 'pioneer' and 'engineer': the frontier line finds its subject in its own rhyme.",
+  "associates": []
  },
  {
   "id": "kardashev",
-  "forms": ["Kardashev", "Kardashev scale", "Type I", "Type II", "Type III", "type one civilization"],
-  "ai": {"sense": "a ranking of civilizations by how much energy they harness: a planet (I), a star (II), a galaxy (III); AI boosters use it as the yardstick for compute ambitions",
-         "origin": "Nikolai Kardashev 1964, 'Transmission of Information by Extraterrestrial Civilizations' (Soviet Astronomy); Carl Sagan 1973 interpolation puts humanity near 0.7",
-         "url": "https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K", "confidence": "high"},
-  "senses": [
-   {"domain": "science", "meaning": "the astronomers' energy scale for alien civilizations", "phrase": "a Type II civilization"},
-   {"domain": "screen", "meaning": "the near-homophone Kardashian, the reality-TV family", "phrase": "Keeping Up with the Kardashians"},
-   {"domain": "sport-games", "meaning": "civ-builder game progression: tiers you climb by energy", "phrase": "level up the civ"}
+  "forms": [
+   "Kardashev",
+   "Kardashev scale"
   ],
-  "idioms": ["Type I civilization", "level up"],
+  "ai": {
+   "sense": "a ranking of civilizations by how much energy they harness: a planet (I), a star (II), a galaxy (III); AI boosters use it as the yardstick for compute ambitions",
+   "origin": "Nikolai Kardashev 1964, 'Transmission of Information by Extraterrestrial Civilizations' (Soviet Astronomy); Carl Sagan 1973 interpolation puts humanity near 0.7",
+   "url": "https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "the astronomers' energy scale for alien civilizations",
+    "phrase": "a Type II civilization"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the near-homophone Kardashian, the reality-TV family",
+    "phrase": "Keeping Up with the Kardashians"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "civ-builder game progression: tiers you climb by energy",
+    "phrase": "level up the civ"
+   }
+  ],
+  "idioms": [
+   "Type I civilization",
+   "level up"
+  ],
   "anchors": [
-   {"name": "Nikolai Kardashev", "what": "Soviet radio astronomer who proposed the scale in 1964 while searching for alien signals", "url": ""},
-   {"name": "Sagan's 0.7", "what": "Sagan's 1973 formula rates humanity around 0.7 (estimates vary with energy figures)", "url": ""}
+   {
+    "name": "Nikolai Kardashev",
+    "what": "Soviet radio astronomer who proposed the scale in 1964 while searching for alien signals",
+    "url": ""
+   },
+   {
+    "name": "Sagan's 0.7",
+    "what": "Sagan's 1973 formula rates humanity around 0.7 (estimates vary with energy figures)",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Keeping up with the Kardashev: we're point seven and slipping", "senses": ["ai", "screen", "science"]},
-   {"line": "Type One civilization, Type A personality, typing all night", "senses": ["ai", "science", "mind"]}
+   {
+    "line": "Keeping up with the Kardashev: we're point seven and slipping",
+    "senses": [
+     "ai",
+     "screen",
+     "science"
+    ]
+   },
+   {
+    "line": "Type One civilization, Type A personality, typing all night",
+    "senses": [
+     "ai",
+     "science",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "three key changes up, one per Type, each bigger in instrumentation",
-            "picture": "a reality-TV confessional shot where the subject is a planet wearing a Dyson ring",
-            "type": "a progress bar labeled I, II, III with the fill stuck at 0.7"},
-  "sound": {"syllables": 3, "stress": "kar-da-SHEV", "rhymes": ["chef", "deaf", "ref", "clef", "Jeff", "F"], "slant": ["death", "breath", "left", "said"]},
-  "stakes": ["planet", "species"],
-  "registers": ["awe", "funny", "smug"],
-  "neighbors": [{"id": "dyson-sphere", "rel": "part-of"}, {"id": "scaling", "rel": "same-family"}, {"id": "power", "rel": "part-of"}, {"id": "frontier", "rel": "pairs-with"}, {"id": "abundance", "rel": "pairs-with"}],
+  "enact": {
+   "music": "three key changes up, one per Type, each bigger in instrumentation",
+   "picture": "a reality-TV confessional shot where the subject is a planet wearing a Dyson ring",
+   "type": "a progress bar labeled I, II, III with the fill stuck at 0.7"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "kar-da-SHEV",
+   "rhymes": [
+    "chef",
+    "deaf",
+    "ref",
+    "clef",
+    "Jeff",
+    "F"
+   ],
+   "slant": [
+    "death",
+    "breath",
+    "left",
+    "said"
+   ]
+  },
+  "stakes": [
+   "planet",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "dyson-sphere",
+    "rel": "part-of"
+   },
+   {
+    "id": "scaling",
+    "rel": "same-family"
+   },
+   {
+    "id": "power",
+    "rel": "part-of"
+   },
+   {
+    "id": "frontier",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "abundance",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "the Kardashian pun is the first joke anyone makes; use it once, deadpan; 0.7 is an estimate with a formula behind it",
-  "notes": "'Clef' rhymes with Kardashev: the musical clef is a ready end-rhyme for the energy ladder."
+  "notes": "'Clef' rhymes with Kardashev: the musical clef is a ready end-rhyme for the energy ladder.",
+  "associates": [
+   "Type I",
+   "Type II",
+   "Type III",
+   "type one civilization"
+  ]
  },
  {
   "id": "dyson-sphere",
-  "forms": ["Dyson sphere", "Dyson swarm", "Dyson", "sphere", "spheres"],
-  "ai": {"sense": "a shell or swarm of collectors built around a star to capture its energy; shorthand for AI compute at stellar scale",
-         "origin": "Freeman Dyson 1960, 'Search for Artificial Stellar Sources of Infrared Radiation' (Science); idea anticipated in Olaf Stapledon's 'Star Maker' (1937)",
-         "url": "https://doi.org/10.1126/science.131.3414.1667", "confidence": "high"},
-  "senses": [
-   {"domain": "everyday", "meaning": "Dyson the vacuum-cleaner brand (James Dyson, unrelated)", "phrase": "run the Dyson"},
-   {"domain": "music", "meaning": "the music of the spheres: Pythagoras' cosmic harmony", "phrase": "the music of the spheres"},
-   {"domain": "law-state", "meaning": "a sphere of influence: a power's zone of control", "phrase": "sphere of influence"},
-   {"domain": "school", "meaning": "the geometric solid", "phrase": "volume of a sphere"},
-   {"domain": "screen", "meaning": "the Dyson sphere in Star Trek: TNG 'Relics' (1992)", "phrase": "the Enterprise trapped in the sphere"}
+  "forms": [
+   "Dyson sphere",
+   "Dyson swarm",
+   "Dyson",
+   "sphere",
+   "spheres"
   ],
-  "idioms": ["music of the spheres", "sphere of influence", "it sucks (the vacuum pun)"],
+  "ai": {
+   "sense": "a shell or swarm of collectors built around a star to capture its energy; shorthand for AI compute at stellar scale",
+   "origin": "Freeman Dyson 1960, 'Search for Artificial Stellar Sources of Infrared Radiation' (Science); idea anticipated in Olaf Stapledon's 'Star Maker' (1937)",
+   "url": "https://doi.org/10.1126/science.131.3414.1667",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "everyday",
+    "meaning": "Dyson the vacuum-cleaner brand (James Dyson, unrelated)",
+    "phrase": "run the Dyson"
+   },
+   {
+    "domain": "music",
+    "meaning": "the music of the spheres: Pythagoras' cosmic harmony",
+    "phrase": "the music of the spheres"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a sphere of influence: a power's zone of control",
+    "phrase": "sphere of influence"
+   },
+   {
+    "domain": "school",
+    "meaning": "the geometric solid",
+    "phrase": "volume of a sphere"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the Dyson sphere in Star Trek: TNG 'Relics' (1992)",
+    "phrase": "the Enterprise trapped in the sphere"
+   }
+  ],
+  "idioms": [
+   "music of the spheres",
+   "sphere of influence",
+   "it sucks (the vacuum pun)"
+  ],
   "anchors": [
-   {"name": "Tabby's Star", "what": "KIC 8462852, whose odd dimming in 2015 briefly prompted alien megastructure talk; dust is the accepted explanation", "url": ""},
-   {"name": "Freeman Dyson", "what": "physicist; the 1960 paper proposed searching for such shells by their infrared glow", "url": ""}
+   {
+    "name": "Tabby's Star",
+    "what": "KIC 8462852, whose odd dimming in 2015 briefly prompted alien megastructure talk; dust is the accepted explanation",
+    "url": ""
+   },
+   {
+    "name": "Freeman Dyson",
+    "what": "physicist; the 1960 paper proposed searching for such shells by their infrared glow",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Built a Dyson sphere to vacuum up the sun", "senses": ["ai", "everyday", "science"]},
-   {"line": "The music of the spheres, now with a subscription", "senses": ["ai", "music", "money"]},
-   {"line": "Your sphere of influence fits inside my Dyson sphere", "senses": ["ai", "law-state", "science"]}
+   {
+    "line": "Built a Dyson sphere to vacuum up the sun",
+    "senses": [
+     "ai",
+     "everyday",
+     "science"
+    ]
+   },
+   {
+    "line": "The music of the spheres, now with a subscription",
+    "senses": [
+     "ai",
+     "music",
+     "money"
+    ]
+   },
+   {
+    "line": "Your sphere of influence fits inside my Dyson sphere",
+    "senses": [
+     "ai",
+     "law-state",
+     "science"
+    ]
+   }
   ],
-  "enact": {"music": "a vacuum-cleaner whoosh pitched into a choir chord ('music of the spheres')",
-            "picture": "a sun inside a lattice of solar panels, the lattice cast like a vacuum dust canister",
-            "type": "the letters arranged around a circle, eclipsing a glowing center"},
-  "sound": {"syllables": 3, "stress": "DY-son SPHERE", "rhymes": ["here", "fear", "clear", "year", "near", "tear", "steer", "gear"], "slant": ["air", "hair", "spare", "heard"]},
-  "stakes": ["planet", "species"],
-  "registers": ["awe", "funny"],
-  "neighbors": [{"id": "kardashev", "rel": "part-of"}, {"id": "power", "rel": "part-of"}, {"id": "datacenter", "rel": "same-family"}, {"id": "abundance", "rel": "causes"}],
+  "enact": {
+   "music": "a vacuum-cleaner whoosh pitched into a choir chord ('music of the spheres')",
+   "picture": "a sun inside a lattice of solar panels, the lattice cast like a vacuum dust canister",
+   "type": "the letters arranged around a circle, eclipsing a glowing center"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "DY-son SPHERE",
+   "rhymes": [
+    "here",
+    "fear",
+    "clear",
+    "year",
+    "near",
+    "tear",
+    "steer",
+    "gear"
+   ],
+   "slant": [
+    "air",
+    "hair",
+    "spare",
+    "heard"
+   ]
+  },
+  "stakes": [
+   "planet",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "kardashev",
+    "rel": "part-of"
+   },
+   {
+    "id": "power",
+    "rel": "part-of"
+   },
+   {
+    "id": "datacenter",
+    "rel": "same-family"
+   },
+   {
+    "id": "abundance",
+    "rel": "causes"
+   }
+  ],
   "risk": "Tabby's Star was dust; Dyson spheres are speculative; the vacuum pun is cheap unless the picture sells it",
-  "notes": "'Music of the spheres' hands the song a 2,500-year-old idea of cosmic harmony to set against a power-hungry shell."
+  "notes": "'Music of the spheres' hands the song a 2,500-year-old idea of cosmic harmony to set against a power-hungry shell.",
+  "associates": []
  },
  {
   "id": "simulation",
-  "forms": ["simulation", "simulations", "simulate", "simulated", "simulator", "sim", "sims", "simulacra"],
-  "ai": {"sense": "the argument that we may live in a computer simulation; also, LLMs as simulators that role-play characters",
-         "origin": "Nick Bostrom 2003, 'Are We Living in a Computer Simulation?' (Philosophical Quarterly); Janus 2022, 'Simulators' (LessWrong) on LLMs as simulators",
-         "url": "https://www.simulation-argument.com/simulation.pdf", "confidence": "high"},
-  "senses": [
-   {"domain": "screen", "meaning": "The Matrix (1999): reality as a simulation", "phrase": "there is no spoon"},
-   {"domain": "sport-games", "meaning": "sim games: The Sims, flight sims, racing sims", "phrase": "playing The Sims"},
-   {"domain": "sport-games", "meaning": "in football, faking a foul (a yellow-card offense called simulation)", "phrase": "booked for simulation"},
-   {"domain": "work", "meaning": "training on simulators: pilots, surgeons, crisis drills", "phrase": "flight simulator hours"},
-   {"domain": "science", "meaning": "computer models of weather, physics, pandemics", "phrase": "climate simulations"},
-   {"domain": "love", "meaning": "faking a feeling", "phrase": "she simulated interest"},
-   {"domain": "faith-myth", "meaning": "a made world with an unseen maker", "phrase": "is anyone up there?"},
-   {"domain": "music", "meaning": "amp and instrument simulation in plug-ins", "phrase": "an amp sim on the guitar"}
+  "forms": [
+   "simulation",
+   "simulations",
+   "simulate",
+   "simulated",
+   "simulator",
+   "sim",
+   "sims",
+   "simulacra"
   ],
-  "idioms": ["we're living in a simulation", "glitch in the Matrix", "simulated environment", "a sim"],
+  "ai": {
+   "sense": "the argument that we may live in a computer simulation; also, LLMs as simulators that role-play characters",
+   "origin": "Nick Bostrom 2003, 'Are We Living in a Computer Simulation?' (Philosophical Quarterly); Janus 2022, 'Simulators' (LessWrong) on LLMs as simulators",
+   "url": "https://www.simulation-argument.com/simulation.pdf",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "The Matrix (1999): reality as a simulation",
+    "phrase": "there is no spoon"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "sim games: The Sims, flight sims, racing sims",
+    "phrase": "playing The Sims"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "in football, faking a foul (a yellow-card offense called simulation)",
+    "phrase": "booked for simulation"
+   },
+   {
+    "domain": "work",
+    "meaning": "training on simulators: pilots, surgeons, crisis drills",
+    "phrase": "flight simulator hours"
+   },
+   {
+    "domain": "science",
+    "meaning": "computer models of weather, physics, pandemics",
+    "phrase": "climate simulations"
+   },
+   {
+    "domain": "love",
+    "meaning": "faking a feeling",
+    "phrase": "she simulated interest"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "a made world with an unseen maker",
+    "phrase": "is anyone up there?"
+   },
+   {
+    "domain": "music",
+    "meaning": "amp and instrument simulation in plug-ins",
+    "phrase": "an amp sim on the guitar"
+   }
+  ],
+  "idioms": [
+   "we're living in a simulation",
+   "glitch in the Matrix",
+   "simulated environment",
+   "a sim"
+  ],
   "anchors": [
-   {"name": "The Matrix", "what": "1999 film; the red pill, the glitch, the simulated world", "url": ""},
-   {"name": "Simulacra and Simulation", "what": "Baudrillard 1981, copies without an original; it appears on Neo's shelf in The Matrix", "url": ""},
-   {"name": "The Sims", "what": "2000 Maxis game where you play god to tiny people", "url": ""}
+   {
+    "name": "The Matrix",
+    "what": "1999 film; the red pill, the glitch, the simulated world",
+    "url": ""
+   },
+   {
+    "name": "Simulacra and Simulation",
+    "what": "Baudrillard 1981, copies without an original; it appears on Neo's shelf in The Matrix",
+    "url": ""
+   },
+   {
+    "name": "The Sims",
+    "what": "2000 Maxis game where you play god to tiny people",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Booked for simulation: I faked the fall, it faked the feeling", "senses": ["ai", "sport-games", "love"]},
-   {"line": "Took the Sims' ladder away; now someone's watching me", "senses": ["ai", "sport-games", "faith-myth"]},
-   {"line": "My guitar's a simulation, so's the room, so's the crowd", "senses": ["ai", "music", "screen"]}
+   {
+    "line": "Booked for simulation: I faked the fall, it faked the feeling",
+    "senses": [
+     "ai",
+     "sport-games",
+     "love"
+    ]
+   },
+   {
+    "line": "Took the Sims' ladder away; now someone's watching me",
+    "senses": [
+     "ai",
+     "sport-games",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "My guitar's a simulation, so's the room, so's the crowd",
+    "senses": [
+     "ai",
+     "music",
+     "screen"
+    ]
+   }
   ],
-  "enact": {"music": "an amp-sim guitar that audibly 'glitches' (a buffer-repeat stutter) on the word",
-            "picture": "a Sims-style plumbob diamond floating over the singer's head, turning red on the bridge",
-            "type": "letters rendered as low-poly wireframe, then solid, then wireframe again"},
-  "sound": {"syllables": 4, "stress": "sim-u-LA-tion", "rhymes": ["nation", "station", "creation", "vacation", "imitation", "relation", "salvation", "information"], "slant": ["patient", "ancient", "fashion", "passion"]},
-  "stakes": ["mind", "species"],
-  "registers": ["awe", "funny", "ominous"],
-  "neighbors": [{"id": "cave", "rel": "same-family"}, {"id": "persona", "rel": "pairs-with"}, {"id": "creator", "rel": "pairs-with"}, {"id": "environment", "rel": "pairs-with"}, {"id": "render", "rel": "pairs-with"}],
+  "enact": {
+   "music": "an amp-sim guitar that audibly 'glitches' (a buffer-repeat stutter) on the word",
+   "picture": "a Sims-style plumbob diamond floating over the singer's head, turning red on the bridge",
+   "type": "letters rendered as low-poly wireframe, then solid, then wireframe again"
+  },
+  "sound": {
+   "syllables": 4,
+   "stress": "sim-u-LA-tion",
+   "rhymes": [
+    "nation",
+    "station",
+    "creation",
+    "vacation",
+    "imitation",
+    "relation",
+    "salvation",
+    "information"
+   ],
+   "slant": [
+    "patient",
+    "ancient",
+    "fashion",
+    "passion"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "cave",
+    "rel": "same-family"
+   },
+   {
+    "id": "persona",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "creator",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "environment",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "render",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'we live in a simulation' is a stoner cliché; the football and Sims senses are fresher",
-  "notes": "Football's rulebook calls faking a foul 'simulation': a precise sport-and-AI double for a model performing feeling."
+  "notes": "Football's rulebook calls faking a foul 'simulation': a precise sport-and-AI double for a model performing feeling.",
+  "associates": []
  },
  {
   "id": "basilisk",
-  "forms": ["basilisk", "basilisks", "Roko's basilisk", "Rococo Basilisk"],
-  "ai": {"sense": "a thought experiment: a future AI might punish everyone who knew about it and did not help build it, so knowing the idea is itself the hazard",
-         "origin": "user 'Roko' on LessWrong, July 2010; Yudkowsky deleted the post and banned the topic for about five years",
-         "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk", "confidence": "medium"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the serpent king whose gaze kills (Pliny)", "phrase": "the basilisk's deadly stare"},
-   {"domain": "screen", "meaning": "the giant serpent in Harry Potter and the Chamber of Secrets", "phrase": "look at it only in a mirror"},
-   {"domain": "nature", "meaning": "a lizard that runs across water (the 'Jesus Christ lizard')", "phrase": "the basilisk runs on water"},
-   {"domain": "music", "meaning": "Grimes' character 'Rococo Basilisk' from the 'Flesh Without Blood' video (2015)", "phrase": "Rococo Basilisk"},
-   {"domain": "love", "meaning": "Musk and Grimes reportedly met over the Rococo Basilisk pun in 2018", "phrase": "a pun that started a romance"},
-   {"domain": "mind", "meaning": "an info hazard: an idea that harms you by being known", "phrase": "don't look it up"}
+  "forms": [
+   "basilisk",
+   "basilisks",
+   "Roko's basilisk",
+   "Rococo Basilisk"
   ],
-  "idioms": ["don't look it up", "look only in a mirror", "a look that could kill"],
+  "ai": {
+   "sense": "a thought experiment: a future AI might punish everyone who knew about it and did not help build it, so knowing the idea is itself the hazard",
+   "origin": "user 'Roko' on LessWrong, July 2010; Yudkowsky deleted the post and banned the topic for about five years",
+   "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the serpent king whose gaze kills (Pliny)",
+    "phrase": "the basilisk's deadly stare"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the giant serpent in Harry Potter and the Chamber of Secrets",
+    "phrase": "look at it only in a mirror"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a lizard that runs across water (the 'Jesus Christ lizard')",
+    "phrase": "the basilisk runs on water"
+   },
+   {
+    "domain": "music",
+    "meaning": "Grimes' character 'Rococo Basilisk' from the 'Flesh Without Blood' video (2015)",
+    "phrase": "Rococo Basilisk"
+   },
+   {
+    "domain": "love",
+    "meaning": "Musk and Grimes reportedly met over the Rococo Basilisk pun in 2018",
+    "phrase": "a pun that started a romance"
+   },
+   {
+    "domain": "mind",
+    "meaning": "an info hazard: an idea that harms you by being known",
+    "phrase": "don't look it up"
+   }
+  ],
+  "idioms": [
+   "don't look it up",
+   "look only in a mirror",
+   "a look that could kill"
+  ],
   "anchors": [
-   {"name": "Pliny's Natural History", "what": "c. 77 AD: the basilisk kills with its glance and breath", "url": ""},
-   {"name": "Roko's basilisk", "what": "2010 LessWrong post, the internet's most famous info hazard", "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk"}
+   {
+    "name": "Pliny's Natural History",
+    "what": "c. 77 AD: the basilisk kills with its glance and breath",
+    "url": ""
+   },
+   {
+    "name": "Roko's basilisk",
+    "what": "2010 LessWrong post, the internet's most famous info hazard",
+    "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk"
+   }
   ],
   "pivots": [
-   {"line": "Don't look it up; you just did; now it knows", "senses": ["ai", "mind", "faith-myth"]},
-   {"line": "A look that could kill, and a log that remembers", "senses": ["ai", "faith-myth", "love"]},
-   {"line": "Only see it in a mirror, so I asked the mirror", "senses": ["ai", "screen", "faith-myth"]}
+   {
+    "line": "Don't look it up; you just did; now it knows",
+    "senses": [
+     "ai",
+     "mind",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "A look that could kill, and a log that remembers",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "love"
+    ]
+   },
+   {
+    "line": "Only see it in a mirror, so I asked the mirror",
+    "senses": [
+     "ai",
+     "screen",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "a whispered line panned hard to one ear only, as if not meant to be heard",
-            "picture": "a serpent's eye reflected in a phone screen the viewer is holding, never shown directly",
-            "type": "the word appears only mirrored, readable in a reflection on screen"},
-  "sound": {"syllables": 3, "stress": "BAS-i-lisk", "rhymes": ["asterisk", "obelisk", "tamarisk"], "slant": ["risk", "brisk", "disk", "whisk"]},
-  "stakes": ["mind", "species"],
-  "registers": ["ominous", "funny"],
-  "neighbors": [{"id": "mirror", "rel": "pairs-with"}, {"id": "apocalypse", "rel": "same-family"}, {"id": "asi", "rel": "pairs-with"}, {"id": "rapture", "rel": "same-family"}, {"id": "creator", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a whispered line panned hard to one ear only, as if not meant to be heard",
+   "picture": "a serpent's eye reflected in a phone screen the viewer is holding, never shown directly",
+   "type": "the word appears only mirrored, readable in a reflection on screen"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "BAS-i-lisk",
+   "rhymes": [
+    "asterisk",
+    "obelisk",
+    "tamarisk"
+   ],
+   "slant": [
+    "risk",
+    "brisk",
+    "disk",
+    "whisk"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "mirror",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "apocalypse",
+    "rel": "same-family"
+   },
+   {
+    "id": "asi",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "rapture",
+    "rel": "same-family"
+   },
+   {
+    "id": "creator",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "few take it seriously and insiders find it tired; it lands as myth or a joke, never as a forecast",
-  "notes": "Rhymes with 'asterisk' and 'risk': a footnote with teeth."
+  "notes": "Rhymes with 'asterisk' and 'risk': a footnote with teeth.",
+  "associates": []
  },
  {
   "id": "oracle",
-  "forms": ["oracle", "oracles", "oracular", "Oracle", "Delphi"],
-  "ai": {"sense": "a boxed AI that only answers questions and takes no actions; in computing, a black box that gives correct answers to a question class",
-         "origin": "Turing 1939 'oracle machine' ('Systems of Logic Based on Ordinals'); Bostrom 2014, 'Superintelligence' ch. 10: oracles, genies, sovereigns, tools",
-         "url": "https://doi.org/10.1112/plms/s2-45.1.161", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the priestess at Delphi who spoke the god's riddling answers", "phrase": "consult the oracle"},
-   {"domain": "money", "meaning": "Oracle Corporation; also Buffett, 'the Oracle of Omaha'", "phrase": "the Oracle of Omaha"},
-   {"domain": "screen", "meaning": "the Oracle in The Matrix, baking cookies and bending fate", "phrase": "you're not the One"},
-   {"domain": "sport-games", "meaning": "Paul the Octopus, who 'predicted' 2010 World Cup results", "phrase": "Paul the Octopus picked Spain"},
-   {"domain": "science", "meaning": "a test oracle: the source of the correct answer to check software against", "phrase": "the test oracle"}
+  "forms": [
+   "oracle",
+   "oracles",
+   "oracular",
+   "Oracle"
   ],
-  "idioms": ["consult the oracle", "know thyself", "Oracle of Omaha", "the oracle has spoken"],
+  "ai": {
+   "sense": "a boxed AI that only answers questions and takes no actions; in computing, a black box that gives correct answers to a question class",
+   "origin": "Turing 1939 'oracle machine' ('Systems of Logic Based on Ordinals'); Bostrom 2014, 'Superintelligence' ch. 10: oracles, genies, sovereigns, tools",
+   "url": "https://doi.org/10.1112/plms/s2-45.1.161",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the priestess at Delphi who spoke the god's riddling answers",
+    "phrase": "consult the oracle"
+   },
+   {
+    "domain": "money",
+    "meaning": "Oracle Corporation; also Buffett, 'the Oracle of Omaha'",
+    "phrase": "the Oracle of Omaha"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the Oracle in The Matrix, baking cookies and bending fate",
+    "phrase": "you're not the One"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "Paul the Octopus, who 'predicted' 2010 World Cup results",
+    "phrase": "Paul the Octopus picked Spain"
+   },
+   {
+    "domain": "science",
+    "meaning": "a test oracle: the source of the correct answer to check software against",
+    "phrase": "the test oracle"
+   }
+  ],
+  "idioms": [
+   "consult the oracle",
+   "know thyself",
+   "Oracle of Omaha",
+   "the oracle has spoken"
+  ],
   "anchors": [
-   {"name": "Delphi", "what": "Pythia's answers were famously ambiguous; 'know thyself' was carved at the temple", "url": ""},
-   {"name": "Larry Ellison", "what": "Oracle's founder briefly passed Musk as richest person in Sept 2025 on AI cloud deals", "url": ""},
-   {"name": "Paul the Octopus", "what": "German aquarium octopus with a 2010 World Cup run of correct picks", "url": ""}
+   {
+    "name": "Delphi",
+    "what": "Pythia's answers were famously ambiguous; 'know thyself' was carved at the temple",
+    "url": ""
+   },
+   {
+    "name": "Larry Ellison",
+    "what": "Oracle's founder briefly passed Musk as richest person in Sept 2025 on AI cloud deals",
+    "url": ""
+   },
+   {
+    "name": "Paul the Octopus",
+    "what": "German aquarium octopus with a 2010 World Cup run of correct picks",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Asked the oracle my future; it asked for a credit card", "senses": ["ai", "faith-myth", "money"]},
-   {"line": "Know thyself, said Delphi; know thy context, says the box", "senses": ["ai", "faith-myth", "mind"]},
-   {"line": "An octopus once called the World Cup; now it's ours", "senses": ["ai", "sport-games", "nature"]}
+   {
+    "line": "Asked the oracle my future; it asked for a credit card",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "money"
+    ]
+   },
+   {
+    "line": "Know thyself, said Delphi; know thy context, says the box",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "mind"
+    ]
+   },
+   {
+    "line": "An octopus once called the World Cup; now it's ours",
+    "senses": [
+     "ai",
+     "sport-games",
+     "nature"
+    ]
+   }
   ],
-  "enact": {"music": "a vocal sent through a long cave reverb and a slight pitch-down, like an answer from underground",
-            "picture": "a Greek priestess on a tripod over vapor, the vapor rising from a GPU vent",
-            "type": "the answer appears carved in stone, then the stone shows a blinking cursor"},
-  "sound": {"syllables": 3, "stress": "OR-a-cle", "rhymes": ["coracle"], "slant": ["miracle", "oral", "moral", "chorale", "quarrel"]},
-  "stakes": ["mind", "wallet"],
-  "registers": ["awe", "funny", "ominous"],
-  "neighbors": [{"id": "genie", "rel": "same-family"}, {"id": "sovereign", "rel": "same-family"}, {"id": "containment", "rel": "pairs-with"}, {"id": "black-box", "rel": "same-family"}, {"id": "prompt", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a vocal sent through a long cave reverb and a slight pitch-down, like an answer from underground",
+   "picture": "a Greek priestess on a tripod over vapor, the vapor rising from a GPU vent",
+   "type": "the answer appears carved in stone, then the stone shows a blinking cursor"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "OR-a-cle",
+   "rhymes": [
+    "coracle"
+   ],
+   "slant": [
+    "miracle",
+    "oral",
+    "moral",
+    "chorale",
+    "quarrel"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "genie",
+    "rel": "same-family"
+   },
+   {
+    "id": "sovereign",
+    "rel": "same-family"
+   },
+   {
+    "id": "containment",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "black-box",
+    "rel": "same-family"
+   },
+   {
+    "id": "prompt",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "few perfect rhymes; 'miracle/oracle' is the natural slant and is used often",
-  "notes": "Five oracles in one word (Delphi, Matrix, Omaha, the octopus, Oracle Corp), and the corporation now builds AI datacenters."
+  "notes": "Five oracles in one word (Delphi, Matrix, Omaha, the octopus, Oracle Corp), and the corporation now builds AI datacenters.",
+  "associates": [
+   "Delphi"
+  ]
  },
  {
   "id": "genie",
-  "forms": ["genie", "genies", "jinn", "djinn", "genie in a bottle", "Genie 3"],
-  "ai": {"sense": "an AI that carries out commands literally; also Google DeepMind's 'Genie' world models that generate playable worlds",
-         "origin": "Bostrom 2014, 'Superintelligence' ch. 10 (oracle, genie, sovereign); DeepMind Genie (Feb 2024), Genie 2 (Dec 2024), Genie 3 (Aug 2025)",
-         "url": "https://arxiv.org/abs/2402.15391", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "the jinn of Arabian and Islamic lore, bound to grant wishes", "phrase": "three wishes"},
-   {"domain": "screen", "meaning": "Robin Williams' Genie in Disney's Aladdin (1992); I Dream of Jeannie (1965)", "phrase": "phenomenal cosmic power, itty bitty living space"},
-   {"domain": "music", "meaning": "Christina Aguilera's 'Genie in a Bottle' (1999)", "phrase": "you gotta rub me the right way"},
-   {"domain": "war", "meaning": "a dangerous capability that cannot be un-invented", "phrase": "the genie is out of the bottle"},
-   {"domain": "love", "meaning": "the partner who grants every wish, and resents it", "phrase": "your wish is my command"}
+  "forms": [
+   "genie",
+   "genies",
+   "genie in a bottle",
+   "Genie 3"
   ],
-  "idioms": ["genie out of the bottle", "your wish is my command", "be careful what you wish for", "three wishes", "rub the lamp"],
+  "ai": {
+   "sense": "an AI that carries out commands literally; also Google DeepMind's 'Genie' world models that generate playable worlds",
+   "origin": "Bostrom 2014, 'Superintelligence' ch. 10 (oracle, genie, sovereign); DeepMind Genie (Feb 2024), Genie 2 (Dec 2024), Genie 3 (Aug 2025)",
+   "url": "https://arxiv.org/abs/2402.15391",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "the jinn of Arabian and Islamic lore, bound to grant wishes",
+    "phrase": "three wishes"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Robin Williams' Genie in Disney's Aladdin (1992); I Dream of Jeannie (1965)",
+    "phrase": "phenomenal cosmic power, itty bitty living space"
+   },
+   {
+    "domain": "music",
+    "meaning": "Christina Aguilera's 'Genie in a Bottle' (1999)",
+    "phrase": "you gotta rub me the right way"
+   },
+   {
+    "domain": "war",
+    "meaning": "a dangerous capability that cannot be un-invented",
+    "phrase": "the genie is out of the bottle"
+   },
+   {
+    "domain": "love",
+    "meaning": "the partner who grants every wish, and resents it",
+    "phrase": "your wish is my command"
+   }
+  ],
+  "idioms": [
+   "genie out of the bottle",
+   "your wish is my command",
+   "be careful what you wish for",
+   "three wishes",
+   "rub the lamp"
+  ],
   "anchors": [
-   {"name": "Aladdin (1992)", "what": "the Genie's 'phenomenal cosmic powers, itty bitty living space'", "url": ""},
-   {"name": "Genie in a Bottle", "what": "Christina Aguilera's 1999 debut No. 1", "url": ""}
+   {
+    "name": "Aladdin (1992)",
+    "what": "the Genie's 'phenomenal cosmic powers, itty bitty living space'",
+    "url": ""
+   },
+   {
+    "name": "Genie in a Bottle",
+    "what": "Christina Aguilera's 1999 debut No. 1",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Phenomenal cosmic power, itty bitty context window", "senses": ["ai", "screen"]},
-   {"line": "Your wish is my command, said the command line", "senses": ["ai", "love", "faith-myth"]},
-   {"line": "Rubbed the lamp the wrong way; it rubbed me out", "senses": ["ai", "music", "faith-myth"]}
+   {
+    "line": "Phenomenal cosmic power, itty bitty context window",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "Your wish is my command, said the command line",
+    "senses": [
+     "ai",
+     "love",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Rubbed the lamp the wrong way; it rubbed me out",
+    "senses": [
+     "ai",
+     "music",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "a rising wind-chime sweep and a three-note motif, one note per wish, the third note off-key",
-            "picture": "smoke pouring from a laptop's cooling vent and forming a figure that bows",
-            "type": "three numbered wishes as terminal commands, the third returning an error"},
-  "sound": {"syllables": 2, "stress": "GEE-nie", "rhymes": ["meanie", "teeny", "beanie", "Houdini", "bikini", "martini", "zucchini", "Lamborghini"], "slant": ["dreamy", "baby", "easy", "freely"]},
-  "stakes": ["species", "heart"],
-  "registers": ["funny", "ominous", "awe"],
-  "neighbors": [{"id": "oracle", "rel": "same-family"}, {"id": "sovereign", "rel": "same-family"}, {"id": "monkeys-paw", "rel": "same-family"}, {"id": "specification-gaming", "rel": "pairs-with"}, {"id": "containment", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a rising wind-chime sweep and a three-note motif, one note per wish, the third note off-key",
+   "picture": "smoke pouring from a laptop's cooling vent and forming a figure that bows",
+   "type": "three numbered wishes as terminal commands, the third returning an error"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "GEE-nie",
+   "rhymes": [
+    "meanie",
+    "teeny",
+    "beanie",
+    "Houdini",
+    "bikini",
+    "martini",
+    "zucchini",
+    "Lamborghini"
+   ],
+   "slant": [
+    "dreamy",
+    "baby",
+    "easy",
+    "freely"
+   ]
+  },
+  "stakes": [
+   "species",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "ominous",
+   "awe"
+  ],
+  "neighbors": [
+   {
+    "id": "oracle",
+    "rel": "same-family"
+   },
+   {
+    "id": "sovereign",
+    "rel": "same-family"
+   },
+   {
+    "id": "monkeys-paw",
+    "rel": "same-family"
+   },
+   {
+    "id": "specification-gaming",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "containment",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'genie out of the bottle' is the default op-ed metaphor; Aladdin lyric quotes are copyrighted, keep them to short allusions",
-  "notes": "'Itty bitty living space' maps onto context window and containment in one borrowed phrase."
+  "notes": "'Itty bitty living space' maps onto context window and containment in one borrowed phrase.",
+  "associates": [
+   "jinn",
+   "djinn"
+  ]
  }
 ]

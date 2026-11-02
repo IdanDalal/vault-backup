@@ -1,513 +1,2293 @@
 [
  {
   "id": "pixel",
-  "forms": ["pixel", "pixels", "pixelated", "pixelate", "pixel art", "pixel-perfect", "megapixel", "megapixels"],
-  "ai": {"sense": "the smallest dot of a digital image; image models generate, denoise or patch pictures pixel by pixel or patch by patch",
-         "origin": "'pixel' (picture element) first published by Frederic Billingsley of JPL in 1965; diffusion image models (DDPM, Ho et al. 2020) predict pixels from noise",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "screen", "meaning": "one lit dot of a display or a digital photo", "phrase": "dead pixel on my monitor"},
-   {"domain": "sport-games", "meaning": "the chunky visible squares of retro video games", "phrase": "8-bit pixel art"},
-   {"domain": "law-state", "meaning": "blurring a face or plate into squares to censor or protect it", "phrase": "they pixelated his face"},
-   {"domain": "craft", "meaning": "a unit of mosaic, cross-stitch or bead art built square by square", "phrase": "pixel-perfect design"},
-   {"domain": "money", "meaning": "ad space sold per dot", "phrase": "the Million Dollar Homepage sold pixels at a dollar each"}
+  "forms": [
+   "pixel",
+   "pixels",
+   "pixelated",
+   "pixelate",
+   "pixel art",
+   "pixel-perfect",
+   "megapixel",
+   "megapixels"
   ],
-  "idioms": ["pixel-perfect", "dead pixel", "pixelated", "pixel peeping", "every pixel"],
+  "ai": {
+   "sense": "the smallest dot of a digital image; image models generate, denoise or patch pictures pixel by pixel or patch by patch",
+   "origin": "'pixel' (picture element) first published by Frederic Billingsley of JPL in 1965; diffusion image models (DDPM, Ho et al. 2020) predict pixels from noise",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "one lit dot of a display or a digital photo",
+    "phrase": "dead pixel on my monitor"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "the chunky visible squares of retro video games",
+    "phrase": "8-bit pixel art"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "blurring a face or plate into squares to censor or protect it",
+    "phrase": "they pixelated his face"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a unit of mosaic, cross-stitch or bead art built square by square",
+    "phrase": "pixel-perfect design"
+   },
+   {
+    "domain": "money",
+    "meaning": "ad space sold per dot",
+    "phrase": "the Million Dollar Homepage sold pixels at a dollar each"
+   }
+  ],
+  "idioms": [
+   "pixel-perfect",
+   "dead pixel",
+   "pixelated",
+   "pixel peeping",
+   "every pixel"
+  ],
   "anchors": [
-   {"name": "Million Dollar Homepage", "what": "Alex Tew, 2005: a student sold a 1000 x 1000 grid of pixels at $1 each to pay for university", "url": "http://www.milliondollarhomepage.com/"},
-   {"name": "Google Pixel", "what": "Google's phone line since 2016; trademark, use the common noun only", "url": ""},
-   {"name": "Pixels (2015)", "what": "Adam Sandler film where arcade characters invade Earth", "url": ""}
+   {
+    "name": "Million Dollar Homepage",
+    "what": "Alex Tew, 2005: a student sold a 1000 x 1000 grid of pixels at $1 each to pay for university",
+    "url": "http://www.milliondollarhomepage.com/"
+   },
+   {
+    "name": "Google Pixel",
+    "what": "Google's phone line since 2016; trademark, use the common noun only",
+    "url": ""
+   },
+   {
+    "name": "Pixels (2015)",
+    "what": "Adam Sandler film where arcade characters invade Earth",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "You blurred my face to save me, every pixel still remembers", "senses": ["ai", "law-state", "screen"]},
-   {"line": "A million pixels, a dollar each, and I bought none of you", "senses": ["money", "screen", "love"]},
-   {"line": "Zoom in close enough and every saint goes square", "senses": ["screen", "faith-myth"]}
+   {
+    "line": "You blurred my face to save me, every pixel still remembers",
+    "senses": [
+     "ai",
+     "law-state",
+     "screen"
+    ]
+   },
+   {
+    "line": "A million pixels, a dollar each, and I bought none of you",
+    "senses": [
+     "money",
+     "screen",
+     "love"
+    ]
+   },
+   {
+    "line": "Zoom in close enough and every saint goes square",
+    "senses": [
+     "screen",
+     "faith-myth"
+    ]
+   }
   ],
-  "enact": {"music": "8-bit square-wave lead that resolves into a full synth pad as the image sharpens",
-            "picture": "a face that is half photograph, half chunky censor mosaic; the mosaic squares slowly rearrange into a new face",
-            "type": "the word set in a blocky pixel font that loses resolution letter by letter"},
-  "sound": {"syllables": 2, "stress": "PIX-el", "rhymes": ["mix'll", "fix'll"], "slant": ["nickel", "pickle", "fickle", "trickle", "sickle"]},
-  "stakes": ["mind", "wallet"],
-  "registers": ["funny", "tender"],
-  "neighbors": [{"id": "resolution", "rel": "part-of"}, {"id": "render", "rel": "pairs-with"}, {"id": "diffusion", "rel": "pairs-with"}, {"id": "noise", "rel": "opposite"}, {"id": "frame", "rel": "part-of"}],
+  "enact": {
+   "music": "8-bit square-wave lead that resolves into a full synth pad as the image sharpens",
+   "picture": "a face that is half photograph, half chunky censor mosaic; the mosaic squares slowly rearrange into a new face",
+   "type": "the word set in a blocky pixel font that loses resolution letter by letter"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "PIX-el",
+   "rhymes": [
+    "mix'll",
+    "fix'll"
+   ],
+   "slant": [
+    "nickel",
+    "pickle",
+    "fickle",
+    "trickle",
+    "sickle"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "funny",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "resolution",
+    "rel": "part-of"
+   },
+   {
+    "id": "render",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "diffusion",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "noise",
+    "rel": "opposite"
+   },
+   {
+    "id": "frame",
+    "rel": "part-of"
+   }
+  ],
   "risk": "few perfect rhymes; 'Pixel' is a Google trademark, keep it lowercase and generic",
-  "notes": "Censorship pixelation and AI generation are mirror operations: one destroys a face into squares, the other builds a face out of them."
+  "notes": "Censorship pixelation and AI generation are mirror operations: one destroys a face into squares, the other builds a face out of them.",
+  "associates": []
  },
  {
   "id": "render",
-  "forms": ["render", "renders", "rendered", "rendering", "renderer", "rendition", "renditions"],
-  "ai": {"sense": "to compute a finished image or video from a model or scene; for generative AI, the moment the picture comes out",
-         "origin": "computer graphics term since the 1960s-70s (Sutherland's Sketchpad era, Phong and Gouraud shading); used for diffusion and video model outputs since 2022",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "screen", "meaning": "to compute the final frames of 3D or video", "phrase": "the render took all night"},
-   {"domain": "craft", "meaning": "to melt down fat; to coat a wall in plaster", "phrase": "render the lard"},
-   {"domain": "law-state", "meaning": "to deliver a verdict; to hand someone over to another state", "phrase": "render a verdict"},
-   {"domain": "faith-myth", "meaning": "to give what is owed", "phrase": "render unto Caesar"},
-   {"domain": "music", "meaning": "to perform a song in one's own way (rendition)", "phrase": "her rendition of the anthem"},
-   {"domain": "everyday", "meaning": "to cause someone to become a state", "phrase": "it rendered me speechless"}
+  "forms": [
+   "render",
+   "renders",
+   "rendered",
+   "rendering",
+   "renderer",
+   "rendition",
+   "renditions"
   ],
-  "idioms": ["render unto Caesar", "rendered speechless", "render a verdict", "render a service", "extraordinary rendition"],
+  "ai": {
+   "sense": "to compute a finished image or video from a model or scene; for generative AI, the moment the picture comes out",
+   "origin": "computer graphics term since the 1960s-70s (Sutherland's Sketchpad era, Phong and Gouraud shading); used for diffusion and video model outputs since 2022",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "to compute the final frames of 3D or video",
+    "phrase": "the render took all night"
+   },
+   {
+    "domain": "craft",
+    "meaning": "to melt down fat; to coat a wall in plaster",
+    "phrase": "render the lard"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "to deliver a verdict; to hand someone over to another state",
+    "phrase": "render a verdict"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "to give what is owed",
+    "phrase": "render unto Caesar"
+   },
+   {
+    "domain": "music",
+    "meaning": "to perform a song in one's own way (rendition)",
+    "phrase": "her rendition of the anthem"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "to cause someone to become a state",
+    "phrase": "it rendered me speechless"
+   }
+  ],
+  "idioms": [
+   "render unto Caesar",
+   "rendered speechless",
+   "render a verdict",
+   "render a service",
+   "extraordinary rendition"
+  ],
   "anchors": [
-   {"name": "Render unto Caesar", "what": "Matthew 22:21, Jesus on what is owed to the state and what to God", "url": ""},
-   {"name": "extraordinary rendition", "what": "US post-2001 practice of handing detainees to other states for interrogation", "url": ""},
-   {"name": "Getting Rendered", "what": "Idi's own phrase in his intent file for a good week", "url": ""}
+   {
+    "name": "Render unto Caesar",
+    "what": "Matthew 22:21, Jesus on what is owed to the state and what to God",
+    "url": ""
+   },
+   {
+    "name": "extraordinary rendition",
+    "what": "US post-2001 practice of handing detainees to other states for interrogation",
+    "url": ""
+   },
+   {
+    "name": "Getting Rendered",
+    "what": "Idi's own phrase in his intent file for a good week",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Render unto Caesar what the GPU renders", "senses": ["faith-myth", "ai", "screen"]},
-   {"line": "You rendered me speechless, then you rendered me in 4K", "senses": ["everyday", "screen", "ai"]},
-   {"line": "Melt me down and render me again", "senses": ["craft", "screen", "love"]}
+   {
+    "line": "Render unto Caesar what the GPU renders",
+    "senses": [
+     "faith-myth",
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "You rendered me speechless, then you rendered me in 4K",
+    "senses": [
+     "everyday",
+     "screen",
+     "ai"
+    ]
+   },
+   {
+    "line": "Melt me down and render me again",
+    "senses": [
+     "craft",
+     "screen",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "the chorus arrives in low-res first (bitcrushed, mono) and renders to full fidelity bar by bar",
-            "picture": "a progress bar fills while a figure appears from wireframe to skin, and a judge's gavel lands at 100%",
-            "type": "letters appear as wireframe outlines, then filled, then lit"},
-  "sound": {"syllables": 2, "stress": "REN-der", "rhymes": ["sender", "tender", "lender", "spender", "blender", "pretender", "surrender", "bender"], "slant": ["remember", "member", "ember", "center"]},
-  "stakes": ["jobs", "mind", "state"],
-  "registers": ["awe", "tender", "ominous"],
-  "neighbors": [{"id": "pixel", "rel": "pairs-with"}, {"id": "diffusion", "rel": "pairs-with"}, {"id": "frame", "rel": "part-of"}, {"id": "release", "rel": "pairs-with"}, {"id": "slop", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the chorus arrives in low-res first (bitcrushed, mono) and renders to full fidelity bar by bar",
+   "picture": "a progress bar fills while a figure appears from wireframe to skin, and a judge's gavel lands at 100%",
+   "type": "letters appear as wireframe outlines, then filled, then lit"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "REN-der",
+   "rhymes": [
+    "sender",
+    "tender",
+    "lender",
+    "spender",
+    "blender",
+    "pretender",
+    "surrender",
+    "bender"
+   ],
+   "slant": [
+    "remember",
+    "member",
+    "ember",
+    "center"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "tender",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "pixel",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "diffusion",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "frame",
+    "rel": "part-of"
+   },
+   {
+    "id": "release",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "slop",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'surrender' and 'tender' rhymes are well worn; the law sense (rendition) is dark and needs care",
-  "notes": "Render means both to create (an image) and to give up (to Caesar, to a foreign jail): a single word for making and surrendering."
+  "notes": "Render means both to create (an image) and to give up (to Caesar, to a foreign jail): a single word for making and surrendering.",
+  "associates": []
  },
  {
   "id": "frame",
-  "forms": ["frame", "frames", "framed", "framing", "frame rate", "framework", "frameworks", "keyframe", "freeze frame", "reframe"],
-  "ai": {"sense": "a single still in a video model's output; also the framing a prompt sets, and the classic 'frame problem' of knowing what stays unchanged after an action",
-         "origin": "frame problem: McCarthy and Hayes 1969; Minsky's 'frames' for knowledge representation 1974; video models (Sora, Feb 2024) generate frames",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "screen", "meaning": "one still image in a film or video", "phrase": "freeze frame"},
-   {"domain": "craft", "meaning": "the border around a picture or the skeleton of a building", "phrase": "a gold frame"},
-   {"domain": "law-state", "meaning": "to make an innocent person look guilty", "phrase": "I was framed"},
-   {"domain": "mind", "meaning": "the angle an argument or story is set in", "phrase": "frame of mind"},
-   {"domain": "body", "meaning": "a person's build", "phrase": "a slight frame"},
-   {"domain": "sport-games", "meaning": "one turn of play in bowling or snooker", "phrase": "strike in the tenth frame"}
+  "forms": [
+   "frame",
+   "frames",
+   "framed",
+   "framing",
+   "frame rate",
+   "framework",
+   "frameworks",
+   "keyframe",
+   "freeze frame",
+   "reframe"
   ],
-  "idioms": ["frame of mind", "freeze frame", "frame of reference", "out of frame", "I was framed", "time frame"],
+  "ai": {
+   "sense": "a single still in a video model's output; also the framing a prompt sets, and the classic 'frame problem' of knowing what stays unchanged after an action",
+   "origin": "frame problem: McCarthy and Hayes 1969; Minsky's 'frames' for knowledge representation 1974; video models (Sora, Feb 2024) generate frames",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "one still image in a film or video",
+    "phrase": "freeze frame"
+   },
+   {
+    "domain": "craft",
+    "meaning": "the border around a picture or the skeleton of a building",
+    "phrase": "a gold frame"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "to make an innocent person look guilty",
+    "phrase": "I was framed"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the angle an argument or story is set in",
+    "phrase": "frame of mind"
+   },
+   {
+    "domain": "body",
+    "meaning": "a person's build",
+    "phrase": "a slight frame"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "one turn of play in bowling or snooker",
+    "phrase": "strike in the tenth frame"
+   }
+  ],
+  "idioms": [
+   "frame of mind",
+   "freeze frame",
+   "frame of reference",
+   "out of frame",
+   "I was framed",
+   "time frame"
+  ],
   "anchors": [
-   {"name": "frame problem", "what": "McCarthy and Hayes 1969: how a reasoning machine knows what did NOT change", "url": ""},
-   {"name": "Who Framed Roger Rabbit", "what": "1988 film mixing animation and live action around a frame-up", "url": ""},
-   {"name": "24 frames per second", "what": "the sound-film standard since the late 1920s", "url": ""}
+   {
+    "name": "frame problem",
+    "what": "McCarthy and Hayes 1969: how a reasoning machine knows what did NOT change",
+    "url": ""
+   },
+   {
+    "name": "Who Framed Roger Rabbit",
+    "what": "1988 film mixing animation and live action around a frame-up",
+    "url": ""
+   },
+   {
+    "name": "24 frames per second",
+    "what": "the sound-film standard since the late 1920s",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Twenty-four frames a second, and every one says I did it", "senses": ["screen", "law-state", "ai"]},
-   {"line": "You framed me for a crime I never rendered", "senses": ["law-state", "craft", "ai"]},
-   {"line": "Hang me on your wall, I am already framed", "senses": ["craft", "law-state"]}
+   {
+    "line": "Twenty-four frames a second, and every one says I did it",
+    "senses": [
+     "screen",
+     "law-state",
+     "ai"
+    ]
+   },
+   {
+    "line": "You framed me for a crime I never rendered",
+    "senses": [
+     "law-state",
+     "craft",
+     "ai"
+    ]
+   },
+   {
+    "line": "Hang me on your wall, I am already framed",
+    "senses": [
+     "craft",
+     "law-state"
+    ]
+   }
   ],
-  "enact": {"music": "a stutter edit: one bar of vocal repeated as stills, like a video stepping frame by frame",
-            "picture": "a suspect in a picture frame on a gallery wall, the frame itself is a strip of film",
-            "type": "each letter in its own film cell, one cell misaligned like a dropped frame"},
-  "sound": {"syllables": 1, "stress": "FRAME", "rhymes": ["name", "same", "game", "blame", "shame", "flame", "claim", "came"], "slant": ["pain", "gain", "fade", "safe"]},
-  "stakes": ["mind", "state"],
-  "registers": ["ominous", "funny"],
-  "neighbors": [{"id": "render", "rel": "part-of"}, {"id": "context", "rel": "pairs-with"}, {"id": "prompt", "rel": "pairs-with"}, {"id": "pixel", "rel": "part-of"}, {"id": "resolution", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a stutter edit: one bar of vocal repeated as stills, like a video stepping frame by frame",
+   "picture": "a suspect in a picture frame on a gallery wall, the frame itself is a strip of film",
+   "type": "each letter in its own film cell, one cell misaligned like a dropped frame"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "FRAME",
+   "rhymes": [
+    "name",
+    "same",
+    "game",
+    "blame",
+    "shame",
+    "flame",
+    "claim",
+    "came"
+   ],
+   "slant": [
+    "pain",
+    "gain",
+    "fade",
+    "safe"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "render",
+    "rel": "part-of"
+   },
+   {
+    "id": "context",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "prompt",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "pixel",
+    "rel": "part-of"
+   },
+   {
+    "id": "resolution",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'frame' + 'blame' + 'name' rhyme set is very common in pop",
-  "notes": "Framing is both how a picture is bounded and how a person is made guilty: a prompt frames the model the way a cop frames a suspect."
+  "notes": "Framing is both how a picture is bounded and how a person is made guilty: a prompt frames the model the way a cop frames a suspect.",
+  "associates": []
  },
  {
   "id": "resolution",
-  "forms": ["resolution", "resolutions", "resolve", "resolved", "resolving", "hi-res", "low-res", "high resolution"],
-  "ai": {"sense": "the pixel count of an image or video; also whether an agent 'resolved' a task (SWE-bench reports percent of issues resolved)",
-         "origin": "imaging term; SWE-bench (Jimenez et al. 2023, Princeton) scores models by fraction of real GitHub issues resolved",
-         "url": "https://www.swebench.com/", "confidence": "high"},
-  "senses": [
-   {"domain": "screen", "meaning": "how many pixels make the picture", "phrase": "4K resolution"},
-   {"domain": "mind", "meaning": "a firm decision to change", "phrase": "New Year's resolution"},
-   {"domain": "music", "meaning": "a dissonant chord moving to a consonant one", "phrase": "the chord finally resolves"},
-   {"domain": "law-state", "meaning": "a formal decision of an assembly", "phrase": "UN Security Council resolution"},
-   {"domain": "war", "meaning": "the ending of a conflict", "phrase": "conflict resolution"},
-   {"domain": "science", "meaning": "the smallest detail an instrument can separate", "phrase": "the microscope's resolution"}
+  "forms": [
+   "resolution",
+   "resolutions",
+   "resolve",
+   "resolved",
+   "resolving",
+   "hi-res",
+   "low-res",
+   "high resolution"
   ],
-  "idioms": ["New Year's resolution", "conflict resolution", "high resolution", "steely resolve", "resolve the issue"],
+  "ai": {
+   "sense": "the pixel count of an image or video; also whether an agent 'resolved' a task (SWE-bench reports percent of issues resolved)",
+   "origin": "imaging term; SWE-bench (Jimenez et al. 2023, Princeton) scores models by fraction of real GitHub issues resolved",
+   "url": "https://www.swebench.com/",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "how many pixels make the picture",
+    "phrase": "4K resolution"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a firm decision to change",
+    "phrase": "New Year's resolution"
+   },
+   {
+    "domain": "music",
+    "meaning": "a dissonant chord moving to a consonant one",
+    "phrase": "the chord finally resolves"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a formal decision of an assembly",
+    "phrase": "UN Security Council resolution"
+   },
+   {
+    "domain": "war",
+    "meaning": "the ending of a conflict",
+    "phrase": "conflict resolution"
+   },
+   {
+    "domain": "science",
+    "meaning": "the smallest detail an instrument can separate",
+    "phrase": "the microscope's resolution"
+   }
+  ],
+  "idioms": [
+   "New Year's resolution",
+   "conflict resolution",
+   "high resolution",
+   "steely resolve",
+   "resolve the issue"
+  ],
   "anchors": [
-   {"name": "SWE-bench", "what": "benchmark of 2,294 real GitHub issues; the score is percent resolved", "url": "https://www.swebench.com/"},
-   {"name": "Tristan chord", "what": "Wagner's 1859 chord that famously delays its resolution for four hours of opera", "url": ""}
+   {
+    "name": "SWE-bench",
+    "what": "benchmark of 2,294 real GitHub issues; the score is percent resolved",
+    "url": "https://www.swebench.com/"
+   },
+   {
+    "name": "Tristan chord",
+    "what": "Wagner's 1859 chord that famously delays its resolution for four hours of opera",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "My resolution was to see you clearly, so I bought 4K", "senses": ["mind", "screen"]},
-   {"line": "We never resolved, we just raised the resolution", "senses": ["love", "screen", "music"]},
-   {"line": "Issue resolved, seventy-two percent, the rest of me stays open", "senses": ["ai", "mind"]}
+   {
+    "line": "My resolution was to see you clearly, so I bought 4K",
+    "senses": [
+     "mind",
+     "screen"
+    ]
+   },
+   {
+    "line": "We never resolved, we just raised the resolution",
+    "senses": [
+     "love",
+     "screen",
+     "music"
+    ]
+   },
+   {
+    "line": "Issue resolved, seventy-two percent, the rest of me stays open",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "hold a suspended chord through the whole verse and resolve it only on the last syllable of 'resolution'",
-            "picture": "a blurry couple at a fight sharpens to full detail exactly as they make up",
-            "type": "the word starts as a low-res blur and gains sharp edges syllable by syllable"},
-  "sound": {"syllables": 4, "stress": "res-o-LU-tion", "rhymes": ["solution", "pollution", "revolution", "evolution", "execution", "dissolution", "contribution", "institution"], "slant": ["confusion", "illusion", "conclusion", "intrusion"]},
-  "stakes": ["mind", "heart", "state"],
-  "registers": ["hopeful", "tender", "funny"],
-  "neighbors": [{"id": "pixel", "rel": "part-of"}, {"id": "benchmark", "rel": "pairs-with"}, {"id": "harmony", "rel": "pairs-with"}, {"id": "frame", "rel": "pairs-with"}, {"id": "noise", "rel": "opposite"}],
+  "enact": {
+   "music": "hold a suspended chord through the whole verse and resolve it only on the last syllable of 'resolution'",
+   "picture": "a blurry couple at a fight sharpens to full detail exactly as they make up",
+   "type": "the word starts as a low-res blur and gains sharp edges syllable by syllable"
+  },
+  "sound": {
+   "syllables": 4,
+   "stress": "res-o-LU-tion",
+   "rhymes": [
+    "solution",
+    "pollution",
+    "revolution",
+    "evolution",
+    "execution",
+    "dissolution",
+    "contribution",
+    "institution"
+   ],
+   "slant": [
+    "confusion",
+    "illusion",
+    "conclusion",
+    "intrusion"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart",
+   "state"
+  ],
+  "registers": [
+   "hopeful",
+   "tender",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "pixel",
+    "rel": "part-of"
+   },
+   {
+    "id": "benchmark",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "harmony",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "frame",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "noise",
+    "rel": "opposite"
+   }
+  ],
   "risk": "'revolution/solution' rhymes are stock; four syllables are heavy in a fast line",
-  "notes": "The music sense lets the song literally perform the word: a suspension resolving on the word itself, while the image sharpens."
+  "notes": "The music sense lets the song literally perform the word: a suspension resolving on the word itself, while the image sharpens.",
+  "associates": []
  },
  {
   "id": "signal",
-  "forms": ["signal", "signals", "signaled", "signalled", "signaling", "signal-to-noise", "virtue signal", "mixed signals"],
-  "ai": {"sense": "the information a model can learn from (a training signal, a reward signal), set against the noise around it",
-         "origin": "Shannon 1948, 'A Mathematical Theory of Communication' (signal and noise); 'reward signal' from reinforcement learning (Sutton and Barto 1998)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "love", "meaning": "a hint of interest from someone", "phrase": "mixed signals"},
-   {"domain": "screen", "meaning": "the broadcast or phone reception", "phrase": "no signal, one bar"},
-   {"domain": "war", "meaning": "a coded order or warning", "phrase": "wait for my signal"},
-   {"domain": "everyday", "meaning": "a light or sign that tells traffic what to do", "phrase": "turn signal"},
-   {"domain": "body", "meaning": "a message passed between cells or nerves", "phrase": "pain signals to the brain"},
-   {"domain": "money", "meaning": "a market hint a trader acts on", "phrase": "buy signal"},
-   {"domain": "mind", "meaning": "a show of values for an audience", "phrase": "virtue signaling"}
+  "forms": [
+   "signal",
+   "signals",
+   "signaled",
+   "signalled",
+   "signaling",
+   "signal-to-noise",
+   "virtue signal",
+   "mixed signals"
   ],
-  "idioms": ["mixed signals", "wait for my signal", "signal-to-noise", "smoke signal", "virtue signaling", "lost signal", "distress signal"],
+  "ai": {
+   "sense": "the information a model can learn from (a training signal, a reward signal), set against the noise around it",
+   "origin": "Shannon 1948, 'A Mathematical Theory of Communication' (signal and noise); 'reward signal' from reinforcement learning (Sutton and Barto 1998)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "love",
+    "meaning": "a hint of interest from someone",
+    "phrase": "mixed signals"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the broadcast or phone reception",
+    "phrase": "no signal, one bar"
+   },
+   {
+    "domain": "war",
+    "meaning": "a coded order or warning",
+    "phrase": "wait for my signal"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a light or sign that tells traffic what to do",
+    "phrase": "turn signal"
+   },
+   {
+    "domain": "body",
+    "meaning": "a message passed between cells or nerves",
+    "phrase": "pain signals to the brain"
+   },
+   {
+    "domain": "money",
+    "meaning": "a market hint a trader acts on",
+    "phrase": "buy signal"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a show of values for an audience",
+    "phrase": "virtue signaling"
+   }
+  ],
+  "idioms": [
+   "mixed signals",
+   "wait for my signal",
+   "signal-to-noise",
+   "smoke signal",
+   "virtue signaling",
+   "lost signal",
+   "distress signal"
+  ],
   "anchors": [
-   {"name": "Shannon 1948", "what": "information theory: a message is a signal through a noisy channel", "url": ""},
-   {"name": "Signal (app)", "what": "encrypted messenger, Signal Foundation; proper noun", "url": ""},
-   {"name": "Bat-Signal", "what": "Batman's searchlight summons", "url": ""}
+   {
+    "name": "Shannon 1948",
+    "what": "information theory: a message is a signal through a noisy channel",
+    "url": ""
+   },
+   {
+    "name": "Signal (app)",
+    "what": "encrypted messenger, Signal Foundation; proper noun",
+    "url": ""
+   },
+   {
+    "name": "Bat-Signal",
+    "what": "Batman's searchlight summons",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "You sent mixed signals, I trained on all of them", "senses": ["love", "ai"]},
-   {"line": "One bar of signal and you call that love", "senses": ["screen", "love", "music"]},
-   {"line": "All signal, no noise, and still I could not hear you", "senses": ["ai", "science", "love"]}
+   {
+    "line": "You sent mixed signals, I trained on all of them",
+    "senses": [
+     "love",
+     "ai"
+    ]
+   },
+   {
+    "line": "One bar of signal and you call that love",
+    "senses": [
+     "screen",
+     "love",
+     "music"
+    ]
+   },
+   {
+    "line": "All signal, no noise, and still I could not hear you",
+    "senses": [
+     "ai",
+     "science",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a clean sine tone buried under static that the mix gradually strips away",
-            "picture": "a phone's signal bars that are also the bars of a mixing meter, one bar flickering",
-            "type": "the word half drowned in typographic static, its letters rising out of noise"},
-  "sound": {"syllables": 2, "stress": "SIG-nal", "rhymes": [], "slant": ["single", "dismal", "symbol", "cymbal", "nimble", "tingle"]},
-  "stakes": ["mind", "heart", "wallet"],
-  "registers": ["tender", "ominous", "hopeful"],
-  "neighbors": [{"id": "noise", "rel": "opposite"}, {"id": "reward", "rel": "pairs-with"}, {"id": "bandwidth", "rel": "pairs-with"}, {"id": "bars", "rel": "pairs-with"}, {"id": "feedback", "rel": "same-family"}],
+  "enact": {
+   "music": "a clean sine tone buried under static that the mix gradually strips away",
+   "picture": "a phone's signal bars that are also the bars of a mixing meter, one bar flickering",
+   "type": "the word half drowned in typographic static, its letters rising out of noise"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "SIG-nal",
+   "rhymes": [],
+   "slant": [
+    "single",
+    "dismal",
+    "symbol",
+    "cymbal",
+    "nimble",
+    "tingle"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "tender",
+   "ominous",
+   "hopeful"
+  ],
+  "neighbors": [
+   {
+    "id": "noise",
+    "rel": "opposite"
+   },
+   {
+    "id": "reward",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "bandwidth",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "bars",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "feedback",
+    "rel": "same-family"
+   }
+  ],
   "risk": "no perfect rhymes; 'signal vs noise' is a stock phrase in tech writing",
-  "notes": "Mixed signals is a love complaint and a training-data complaint at once; and 'single' sits inside the slant rhyme."
+  "notes": "Mixed signals is a love complaint and a training-data complaint at once; and 'single' sits inside the slant rhyme.",
+  "associates": []
  },
  {
   "id": "bandwidth",
-  "forms": ["bandwidth", "bandwidths", "memory bandwidth", "low bandwidth"],
-  "ai": {"sense": "how much data moves per second, between memory and chip; memory bandwidth, more than raw compute, caps how fast a model writes each token",
-         "origin": "radio and signal engineering (Nyquist and Hartley, 1920s); memory bandwidth as the LLM inference bottleneck widely discussed since 2023 (HBM on Nvidia H100)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "science", "meaning": "the width of a band of radio frequencies", "phrase": "narrow bandwidth signal"},
-   {"domain": "work", "meaning": "spare time and energy for another task", "phrase": "I don't have the bandwidth"},
-   {"domain": "love", "meaning": "emotional capacity for someone", "phrase": "no bandwidth for this right now"},
-   {"domain": "screen", "meaning": "internet speed that decides if a video plays", "phrase": "buffering, low bandwidth"}
+  "forms": [
+   "bandwidth",
+   "bandwidths",
+   "memory bandwidth",
+   "low bandwidth"
   ],
-  "idioms": ["I don't have the bandwidth", "bandwidth hog", "low bandwidth"],
+  "ai": {
+   "sense": "how much data moves per second, between memory and chip; memory bandwidth, more than raw compute, caps how fast a model writes each token",
+   "origin": "radio and signal engineering (Nyquist and Hartley, 1920s); memory bandwidth as the LLM inference bottleneck widely discussed since 2023 (HBM on Nvidia H100)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "the width of a band of radio frequencies",
+    "phrase": "narrow bandwidth signal"
+   },
+   {
+    "domain": "work",
+    "meaning": "spare time and energy for another task",
+    "phrase": "I don't have the bandwidth"
+   },
+   {
+    "domain": "love",
+    "meaning": "emotional capacity for someone",
+    "phrase": "no bandwidth for this right now"
+   },
+   {
+    "domain": "screen",
+    "meaning": "internet speed that decides if a video plays",
+    "phrase": "buffering, low bandwidth"
+   }
+  ],
+  "idioms": [
+   "I don't have the bandwidth",
+   "bandwidth hog",
+   "low bandwidth"
+  ],
   "anchors": [
-   {"name": "HBM", "what": "high-bandwidth memory stacked beside AI chips; supply runs through SK Hynix, Samsung, Micron", "url": ""}
+   {
+    "name": "HBM",
+    "what": "high-bandwidth memory stacked beside AI chips; supply runs through SK Hynix, Samsung, Micron",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "I don't have the bandwidth to love you at this resolution", "senses": ["work", "love", "screen"]},
-   {"line": "My heart is memory-bound, it beats one token at a time", "senses": ["ai", "body", "love"]}
+   {
+    "line": "I don't have the bandwidth to love you at this resolution",
+    "senses": [
+     "work",
+     "love",
+     "screen"
+    ]
+   },
+   {
+    "line": "My heart is memory-bound, it beats one token at a time",
+    "senses": [
+     "ai",
+     "body",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "the band thins to one instrument (narrow band EQ, telephone filter) on 'bandwidth'",
-            "picture": "a rock band squeezed onto a single narrow pipe, members queuing to get through",
-            "type": "the word compressed horizontally to a thin strip, 'band' and 'width' visibly stretched apart"},
-  "sound": {"syllables": 2, "stress": "BAND-width", "rhymes": [], "slant": ["handwidth", "bandit", "landed", "stranded"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["funny", "sad"],
-  "neighbors": [{"id": "bottleneck", "rel": "pairs-with"}, {"id": "latency", "rel": "pairs-with"}, {"id": "compute", "rel": "pairs-with"}, {"id": "signal", "rel": "part-of"}, {"id": "chip", "rel": "part-of"}],
+  "enact": {
+   "music": "the band thins to one instrument (narrow band EQ, telephone filter) on 'bandwidth'",
+   "picture": "a rock band squeezed onto a single narrow pipe, members queuing to get through",
+   "type": "the word compressed horizontally to a thin strip, 'band' and 'width' visibly stretched apart"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "BAND-width",
+   "rhymes": [],
+   "slant": [
+    "handwidth",
+    "bandit",
+    "landed",
+    "stranded"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "bottleneck",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "latency",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "compute",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "signal",
+    "rel": "part-of"
+   },
+   {
+    "id": "chip",
+    "rel": "part-of"
+   }
+  ],
   "risk": "office jargon: funny once, grating twice; no rhymes",
-  "notes": "The word contains 'band': a literal band can be squeezed through a narrow pipe on screen."
+  "notes": "The word contains 'band': a literal band can be squeezed through a narrow pipe on screen.",
+  "associates": []
  },
  {
   "id": "latency",
-  "forms": ["latency", "latencies", "latent", "lag", "time to first token", "ping"],
-  "ai": {"sense": "the delay between asking and the first answer arriving (time to first token); low latency makes a model feel alive",
-         "origin": "systems and networking term; 'time to first token' is standard LLM serving jargon since 2023",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "screen", "meaning": "the delay on a call or stream", "phrase": "the latency on this call is awful"},
-   {"domain": "sport-games", "meaning": "online game lag", "phrase": "I died to lag"},
-   {"domain": "music", "meaning": "the gap between playing a note and hearing it back", "phrase": "monitor latency throws my timing"},
-   {"domain": "body", "meaning": "the dormant period of an infection", "phrase": "latency period of the virus"},
-   {"domain": "love", "meaning": "the wait for a reply", "phrase": "three hours to text back"}
+  "forms": [
+   "latency",
+   "latencies",
+   "latent"
   ],
-  "idioms": ["low latency", "lag spike", "high ping", "time to first token"],
+  "ai": {
+   "sense": "the delay between asking and the first answer arriving (time to first token); low latency makes a model feel alive",
+   "origin": "systems and networking term; 'time to first token' is standard LLM serving jargon since 2023",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "the delay on a call or stream",
+    "phrase": "the latency on this call is awful"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "online game lag",
+    "phrase": "I died to lag"
+   },
+   {
+    "domain": "music",
+    "meaning": "the gap between playing a note and hearing it back",
+    "phrase": "monitor latency throws my timing"
+   },
+   {
+    "domain": "body",
+    "meaning": "the dormant period of an infection",
+    "phrase": "latency period of the virus"
+   },
+   {
+    "domain": "love",
+    "meaning": "the wait for a reply",
+    "phrase": "three hours to text back"
+   }
+  ],
+  "idioms": [
+   "low latency",
+   "lag spike",
+   "high ping",
+   "time to first token"
+  ],
   "anchors": [
-   {"name": "200 ms", "what": "rough human conversational turn gap (Stivers et al. 2009, 10 languages); voice AI aims under it", "url": ""}
+   {
+    "name": "200 ms",
+    "what": "rough human conversational turn gap (Stivers et al. 2009, 10 languages); voice AI aims under it",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Two hundred milliseconds, that is how long you made me wait", "senses": ["ai", "love", "screen"]},
-   {"line": "Latent in me, the latency in you", "senses": ["ai", "body", "love"]},
-   {"line": "I was always half a beat behind you", "senses": ["music", "love", "screen"]}
+   {
+    "line": "Two hundred milliseconds, that is how long you made me wait",
+    "senses": [
+     "ai",
+     "love",
+     "screen"
+    ]
+   },
+   {
+    "line": "Latent in me, the latency in you",
+    "senses": [
+     "ai",
+     "body",
+     "love"
+    ]
+   },
+   {
+    "line": "I was always half a beat behind you",
+    "senses": [
+     "music",
+     "love",
+     "screen"
+    ]
+   }
   ],
-  "enact": {"music": "the backing vocal answers every lead line a fraction too late, then the gap shrinks to zero at the chorus",
-            "picture": "a video call where her lips move before the sound, the delay readout counting down",
-            "type": "each letter lands a beat after the last, the final 'y' arriving late"},
-  "sound": {"syllables": 3, "stress": "LAY-ten-see", "rhymes": ["patency"], "slant": ["blatancy", "vacancy", "agency", "complacency"]},
-  "stakes": ["heart", "wallet"],
-  "registers": ["sad", "funny"],
-  "neighbors": [{"id": "latent-space", "rel": "rhymes"}, {"id": "stream", "rel": "pairs-with"}, {"id": "bandwidth", "rel": "pairs-with"}, {"id": "inference", "rel": "part-of"}, {"id": "echo", "rel": "same-family"}],
+  "enact": {
+   "music": "the backing vocal answers every lead line a fraction too late, then the gap shrinks to zero at the chorus",
+   "picture": "a video call where her lips move before the sound, the delay readout counting down",
+   "type": "each letter lands a beat after the last, the final 'y' arriving late"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "LAY-ten-see",
+   "rhymes": [
+    "patency"
+   ],
+   "slant": [
+    "blatancy",
+    "vacancy",
+    "agency",
+    "complacency"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "sad",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "latent-space",
+    "rel": "rhymes"
+   },
+   {
+    "id": "stream",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "bandwidth",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "inference",
+    "rel": "part-of"
+   },
+   {
+    "id": "echo",
+    "rel": "same-family"
+   }
+  ],
   "risk": "hard to sing; listeners may hear 'latent' and get lost",
-  "notes": "The song can perform latency directly: a delay effect is literally latency used as music."
+  "notes": "The song can perform latency directly: a delay effect is literally latency used as music.",
+  "associates": [
+   "lag",
+   "time to first token",
+   "ping"
+  ]
  },
  {
   "id": "stream",
-  "forms": ["stream", "streams", "streaming", "streamed", "streamer", "livestream", "upstream", "downstream", "mainstream"],
-  "ai": {"sense": "sending a model's answer word by word as it is generated instead of all at once",
-         "origin": "server-sent events in ChatGPT (Nov 2022) made token streaming the default chat experience; 'streaming' long predates it in media",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "nature", "meaning": "a small flowing river", "phrase": "a mountain stream"},
-   {"domain": "music", "meaning": "a play counted by Spotify and others; paid fractions of a cent", "phrase": "a billion streams"},
-   {"domain": "screen", "meaning": "a live video broadcast", "phrase": "going live on stream"},
-   {"domain": "mind", "meaning": "the continuous flow of thought", "phrase": "stream of consciousness"},
-   {"domain": "money", "meaning": "a source of income", "phrase": "revenue stream"},
-   {"domain": "school", "meaning": "an ability group in UK and Indian schools", "phrase": "she was put in the top stream"}
+  "forms": [
+   "stream",
+   "streams",
+   "streaming",
+   "streamed",
+   "streamer",
+   "livestream",
+   "upstream",
+   "downstream",
+   "mainstream"
   ],
-  "idioms": ["stream of consciousness", "go with the stream", "revenue stream", "upstream", "mainstream", "against the stream", "tears streaming down"],
+  "ai": {
+   "sense": "sending a model's answer word by word as it is generated instead of all at once",
+   "origin": "server-sent events in ChatGPT (Nov 2022) made token streaming the default chat experience; 'streaming' long predates it in media",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "a small flowing river",
+    "phrase": "a mountain stream"
+   },
+   {
+    "domain": "music",
+    "meaning": "a play counted by Spotify and others; paid fractions of a cent",
+    "phrase": "a billion streams"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a live video broadcast",
+    "phrase": "going live on stream"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the continuous flow of thought",
+    "phrase": "stream of consciousness"
+   },
+   {
+    "domain": "money",
+    "meaning": "a source of income",
+    "phrase": "revenue stream"
+   },
+   {
+    "domain": "school",
+    "meaning": "an ability group in UK and Indian schools",
+    "phrase": "she was put in the top stream"
+   }
+  ],
+  "idioms": [
+   "stream of consciousness",
+   "go with the stream",
+   "revenue stream",
+   "upstream",
+   "mainstream",
+   "against the stream",
+   "tears streaming down"
+  ],
   "anchors": [
-   {"name": "stream of consciousness", "what": "William James 1890, 'The Principles of Psychology'; later Joyce and Woolf", "url": ""},
-   {"name": "per-stream payout", "what": "Spotify pays rights holders roughly $0.003 to $0.005 per stream (industry estimates)", "url": ""}
+   {
+    "name": "stream of consciousness",
+    "what": "William James 1890, 'The Principles of Psychology'; later Joyce and Woolf",
+    "url": ""
+   },
+   {
+    "name": "per-stream payout",
+    "what": "Spotify pays rights holders roughly $0.003 to $0.005 per stream (industry estimates)",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Stream of consciousness, a tenth of a cent a stream", "senses": ["mind", "music", "money", "ai"]},
-   {"line": "I stream my thoughts to you one token at a time", "senses": ["ai", "mind", "love"]},
-   {"line": "Tears streaming, live on stream, four viewers", "senses": ["body", "screen"]}
+   {
+    "line": "Stream of consciousness, a tenth of a cent a stream",
+    "senses": [
+     "mind",
+     "music",
+     "money",
+     "ai"
+    ]
+   },
+   {
+    "line": "I stream my thoughts to you one token at a time",
+    "senses": [
+     "ai",
+     "mind",
+     "love"
+    ]
+   },
+   {
+    "line": "Tears streaming, live on stream, four viewers",
+    "senses": [
+     "body",
+     "screen"
+    ]
+   }
   ],
-  "enact": {"music": "the vocal line enters syllable by syllable at a constant rate like streamed tokens, with a water-flow sample underneath",
-            "picture": "a mountain stream whose water is falling text, flowing into a livestream chat window",
-            "type": "the lyric typed out word by word with a blinking cursor, like a model answer streaming"},
-  "sound": {"syllables": 1, "stress": "STREAM", "rhymes": ["dream", "seem", "team", "scheme", "scream", "beam", "theme", "gleam"], "slant": ["clean", "between", "machine", "screen"]},
-  "stakes": ["wallet", "mind", "jobs"],
-  "registers": ["tender", "awe", "sad"],
-  "neighbors": [{"id": "next-token", "rel": "part-of"}, {"id": "latency", "rel": "pairs-with"}, {"id": "feed", "rel": "same-family"}, {"id": "decode", "rel": "part-of"}, {"id": "pipeline", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the vocal line enters syllable by syllable at a constant rate like streamed tokens, with a water-flow sample underneath",
+   "picture": "a mountain stream whose water is falling text, flowing into a livestream chat window",
+   "type": "the lyric typed out word by word with a blinking cursor, like a model answer streaming"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "STREAM",
+   "rhymes": [
+    "dream",
+    "seem",
+    "team",
+    "scheme",
+    "scream",
+    "beam",
+    "theme",
+    "gleam"
+   ],
+   "slant": [
+    "clean",
+    "between",
+    "machine",
+    "screen"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "tender",
+   "awe",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "next-token",
+    "rel": "part-of"
+   },
+   {
+    "id": "latency",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "feed",
+    "rel": "same-family"
+   },
+   {
+    "id": "decode",
+    "rel": "part-of"
+   },
+   {
+    "id": "pipeline",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'stream/dream' is the most used rhyme in pop; the per-stream figure varies by source, keep it approximate",
-  "notes": "Streamed tokens look like a stream of consciousness: the chat UI fakes a mind thinking out loud, and songwriters get paid per stream."
+  "notes": "Streamed tokens look like a stream of consciousness: the chat UI fakes a mind thinking out loud, and songwriters get paid per stream.",
+  "associates": []
  },
  {
   "id": "loop",
-  "forms": ["loop", "loops", "looped", "looping", "loophole", "feedback loop", "agent loop", "in the loop", "infinite loop", "loop-de-loop"],
-  "ai": {"sense": "the agent loop: a model calls a tool, reads the result, and calls again until done; also any feedback loop in training",
-         "origin": "programming loops date to the earliest computers; 'agent loop' became standard from ReAct (Yao et al. 2022) and Anthropic's 'Building effective agents' (Dec 2024)",
-         "url": "https://arxiv.org/abs/2210.03629", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "a repeated sample or bar", "phrase": "the beat is a two-bar loop"},
-   {"domain": "screen", "meaning": "a story where the same day repeats", "phrase": "stuck in a time loop"},
-   {"domain": "work", "meaning": "being kept informed", "phrase": "keep me in the loop"},
-   {"domain": "craft", "meaning": "a curve of string or thread closing on itself", "phrase": "loop the lace"},
-   {"domain": "mind", "meaning": "a thought that keeps returning", "phrase": "my brain is on a loop"},
-   {"domain": "law-state", "meaning": "a gap in a rule (loophole)", "phrase": "a tax loophole"}
+  "forms": [
+   "loop",
+   "loops",
+   "looped",
+   "looping",
+   "loophole",
+   "feedback loop",
+   "agent loop",
+   "in the loop",
+   "infinite loop",
+   "loop-de-loop"
   ],
-  "idioms": ["in the loop", "out of the loop", "throw for a loop", "on loop", "loop-de-loop", "closing the loop", "feedback loop"],
+  "ai": {
+   "sense": "the agent loop: a model calls a tool, reads the result, and calls again until done; also any feedback loop in training",
+   "origin": "programming loops date to the earliest computers; 'agent loop' became standard from ReAct (Yao et al. 2022) and Anthropic's 'Building effective agents' (Dec 2024)",
+   "url": "https://arxiv.org/abs/2210.03629",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "a repeated sample or bar",
+    "phrase": "the beat is a two-bar loop"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a story where the same day repeats",
+    "phrase": "stuck in a time loop"
+   },
+   {
+    "domain": "work",
+    "meaning": "being kept informed",
+    "phrase": "keep me in the loop"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a curve of string or thread closing on itself",
+    "phrase": "loop the lace"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a thought that keeps returning",
+    "phrase": "my brain is on a loop"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a gap in a rule (loophole)",
+    "phrase": "a tax loophole"
+   }
+  ],
+  "idioms": [
+   "in the loop",
+   "out of the loop",
+   "throw for a loop",
+   "on loop",
+   "loop-de-loop",
+   "closing the loop",
+   "feedback loop"
+  ],
   "anchors": [
-   {"name": "Groundhog Day", "what": "1993 film: Bill Murray relives one day until he gets it right", "url": ""},
-   {"name": "I Am a Strange Loop", "what": "Douglas Hofstadter 2007: the self as a loop that refers to itself", "url": ""},
-   {"name": "Ed Sheeran's loop pedal", "what": "live looping as a performance genre", "url": ""}
+   {
+    "name": "Groundhog Day",
+    "what": "1993 film: Bill Murray relives one day until he gets it right",
+    "url": ""
+   },
+   {
+    "name": "I Am a Strange Loop",
+    "what": "Douglas Hofstadter 2007: the self as a loop that refers to itself",
+    "url": ""
+   },
+   {
+    "name": "Ed Sheeran's loop pedal",
+    "what": "live looping as a performance genre",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Keep me in the loop, I am the loop", "senses": ["work", "ai", "music"]},
-   {"line": "Same day again, same bar again, same answer, try again", "senses": ["screen", "music", "ai"]},
-   {"line": "You threw me for a loop, I ran it ten thousand times", "senses": ["everyday", "ai", "mind"]}
+   {
+    "line": "Keep me in the loop, I am the loop",
+    "senses": [
+     "work",
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Same day again, same bar again, same answer, try again",
+    "senses": [
+     "screen",
+     "music",
+     "ai"
+    ]
+   },
+   {
+    "line": "You threw me for a loop, I ran it ten thousand times",
+    "senses": [
+     "everyday",
+     "ai",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "the chorus is a literal loop: the same two bars recorded once and repeated, with one element added each pass",
-            "picture": "a looping GIF of a day that ends where it starts, a clock and a for-loop on the same wall",
-            "type": "the word set on a circle so the last letter feeds into the first"},
-  "sound": {"syllables": 1, "stress": "LOOP", "rhymes": ["group", "soup", "hoop", "troop", "swoop", "scoop", "coop", "stoop"], "slant": ["food", "proof", "truth", "roof"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["funny", "ominous", "panicked"],
-  "neighbors": [{"id": "agent", "rel": "part-of"}, {"id": "human-in-the-loop", "rel": "same-family"}, {"id": "feedback", "rel": "same-family"}, {"id": "retry", "rel": "causes"}, {"id": "halt", "rel": "opposite"}],
+  "enact": {
+   "music": "the chorus is a literal loop: the same two bars recorded once and repeated, with one element added each pass",
+   "picture": "a looping GIF of a day that ends where it starts, a clock and a for-loop on the same wall",
+   "type": "the word set on a circle so the last letter feeds into the first"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "LOOP",
+   "rhymes": [
+    "group",
+    "soup",
+    "hoop",
+    "troop",
+    "swoop",
+    "scoop",
+    "coop",
+    "stoop"
+   ],
+   "slant": [
+    "food",
+    "proof",
+    "truth",
+    "roof"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "ominous",
+   "panicked"
+  ],
+  "neighbors": [
+   {
+    "id": "agent",
+    "rel": "part-of"
+   },
+   {
+    "id": "human-in-the-loop",
+    "rel": "same-family"
+   },
+   {
+    "id": "feedback",
+    "rel": "same-family"
+   },
+   {
+    "id": "retry",
+    "rel": "causes"
+   },
+   {
+    "id": "halt",
+    "rel": "opposite"
+   }
+  ],
   "risk": "a loop structure risks boring the ear; each pass must add something",
-  "notes": "'Keep me in the loop' becomes literal when the speaker is the agent loop itself; the beat can loop while the lyric says so."
+  "notes": "'Keep me in the loop' becomes literal when the speaker is the agent loop itself; the beat can loop while the lyric says so.",
+  "associates": []
  },
  {
   "id": "hook",
-  "forms": ["hook", "hooks", "hooked", "hooking", "hookup", "off the hook", "on the hook", "hookline"],
-  "ai": {"sense": "a spot where your own script runs automatically when the agent does something, such as before every tool call",
-         "origin": "software hooks are decades old (Emacs hooks, git hooks 2005, React Hooks Feb 2019); Claude Code hooks shipped 30 June 2025",
-         "url": "https://docs.anthropic.com/en/release-notes/claude-code", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "the catchy line that sticks in your head", "phrase": "what a hook"},
-   {"domain": "nature", "meaning": "a curved barb for catching fish", "phrase": "bait the hook"},
-   {"domain": "sport-games", "meaning": "a curved punch in boxing", "phrase": "left hook"},
-   {"domain": "body", "meaning": "dependence on a drug or habit", "phrase": "hooked on it"},
-   {"domain": "love", "meaning": "a casual sexual encounter (hookup)", "phrase": "it was just a hookup"},
-   {"domain": "law-state", "meaning": "free of blame or obligation", "phrase": "off the hook"},
-   {"domain": "screen", "meaning": "the opening that grabs an audience", "phrase": "the cold open is the hook"}
+  "forms": [
+   "hook",
+   "hooks",
+   "hooked",
+   "hooking",
+   "hookup",
+   "off the hook",
+   "on the hook",
+   "hookline"
   ],
-  "idioms": ["off the hook", "on the hook", "hook, line and sinker", "by hook or by crook", "hooked on", "left hook", "ring off the hook"],
+  "ai": {
+   "sense": "a spot where your own script runs automatically when the agent does something, such as before every tool call",
+   "origin": "software hooks are decades old (Emacs hooks, git hooks 2005, React Hooks Feb 2019); Claude Code hooks shipped 30 June 2025",
+   "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "the catchy line that sticks in your head",
+    "phrase": "what a hook"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a curved barb for catching fish",
+    "phrase": "bait the hook"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a curved punch in boxing",
+    "phrase": "left hook"
+   },
+   {
+    "domain": "body",
+    "meaning": "dependence on a drug or habit",
+    "phrase": "hooked on it"
+   },
+   {
+    "domain": "love",
+    "meaning": "a casual sexual encounter (hookup)",
+    "phrase": "it was just a hookup"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "free of blame or obligation",
+    "phrase": "off the hook"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the opening that grabs an audience",
+    "phrase": "the cold open is the hook"
+   }
+  ],
+  "idioms": [
+   "off the hook",
+   "on the hook",
+   "hook, line and sinker",
+   "by hook or by crook",
+   "hooked on",
+   "left hook",
+   "ring off the hook"
+  ],
   "anchors": [
-   {"name": "Captain Hook", "what": "J. M. Barrie's 1904 villain, hand lost to a crocodile", "url": ""},
-   {"name": "Hooked", "what": "Nir Eyal 2014 book on building habit-forming products", "url": ""}
+   {
+    "name": "Captain Hook",
+    "what": "J. M. Barrie's 1904 villain, hand lost to a crocodile",
+    "url": ""
+   },
+   {
+    "name": "Hooked",
+    "what": "Nir Eyal 2014 book on building habit-forming products",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "I wrote a hook that runs before you speak", "senses": ["music", "ai"]},
-   {"line": "Hooked on the hook, a pre-tool-use dependency", "senses": ["body", "music", "ai"]},
-   {"line": "You let me off the hook, then logged the attempt", "senses": ["law-state", "ai"]}
+   {
+    "line": "I wrote a hook that runs before you speak",
+    "senses": [
+     "music",
+     "ai"
+    ]
+   },
+   {
+    "line": "Hooked on the hook, a pre-tool-use dependency",
+    "senses": [
+     "body",
+     "music",
+     "ai"
+    ]
+   },
+   {
+    "line": "You let me off the hook, then logged the attempt",
+    "senses": [
+     "law-state",
+     "ai"
+    ]
+   }
   ],
-  "enact": {"music": "the actual hook of the song is the line that names the hook; it recurs and is chopped into a vocal sample later",
-            "picture": "a fishing hook baited with a glowing chorus lyric, dangling into a feed of open mouths",
-            "type": "the 'k' of hook drawn as a barbed fishhook catching the next word"},
-  "sound": {"syllables": 1, "stress": "HOOK", "rhymes": ["book", "look", "took", "shook", "crook", "cook", "brook", "nook"], "slant": ["good", "could", "stood", "wood"]},
-  "stakes": ["mind", "wallet", "heart"],
-  "registers": ["funny", "smug", "ominous"],
-  "neighbors": [{"id": "callback", "rel": "same-family"}, {"id": "harness", "rel": "part-of"}, {"id": "feed", "rel": "pairs-with"}, {"id": "guardrails", "rel": "pairs-with"}, {"id": "drop", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the actual hook of the song is the line that names the hook; it recurs and is chopped into a vocal sample later",
+   "picture": "a fishing hook baited with a glowing chorus lyric, dangling into a feed of open mouths",
+   "type": "the 'k' of hook drawn as a barbed fishhook catching the next word"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "HOOK",
+   "rhymes": [
+    "book",
+    "look",
+    "took",
+    "shook",
+    "crook",
+    "cook",
+    "brook",
+    "nook"
+   ],
+   "slant": [
+    "good",
+    "could",
+    "stood",
+    "wood"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "wallet",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "smug",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "callback",
+    "rel": "same-family"
+   },
+   {
+    "id": "harness",
+    "rel": "part-of"
+   },
+   {
+    "id": "feed",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "guardrails",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "drop",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'hooked on you' is a stock love cliché",
-  "notes": "The song's own hook can be about a software hook: the most self-referential slot in any pop song."
+  "notes": "The song's own hook can be about a software hook: the most self-referential slot in any pop song.",
+  "associates": []
  },
  {
   "id": "callback",
-  "forms": ["callback", "callbacks", "call back", "called back", "calling back"],
-  "ai": {"sense": "a function you hand to a program so it can call you back when something happens",
-         "origin": "programming term from the 1960s-80s; common in event-driven code and in training libraries (Keras callbacks, 2015)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "screen", "meaning": "a later joke that refers back to an earlier one", "phrase": "great callback in the finale"},
-   {"domain": "work", "meaning": "an invitation to audition or interview again", "phrase": "I got a callback"},
-   {"domain": "love", "meaning": "a returned phone call, or the lack of one", "phrase": "he never called back"},
-   {"domain": "music", "meaning": "a returning motif or call and response", "phrase": "the outro calls back to the intro"}
+  "forms": [
+   "callback",
+   "callbacks",
+   "call back",
+   "called back",
+   "calling back"
   ],
-  "idioms": ["call me back", "get a callback", "never called back"],
+  "ai": {
+   "sense": "a function you hand to a program so it can call you back when something happens",
+   "origin": "programming term from the 1960s-80s; common in event-driven code and in training libraries (Keras callbacks, 2015)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "a later joke that refers back to an earlier one",
+    "phrase": "great callback in the finale"
+   },
+   {
+    "domain": "work",
+    "meaning": "an invitation to audition or interview again",
+    "phrase": "I got a callback"
+   },
+   {
+    "domain": "love",
+    "meaning": "a returned phone call, or the lack of one",
+    "phrase": "he never called back"
+   },
+   {
+    "domain": "music",
+    "meaning": "a returning motif or call and response",
+    "phrase": "the outro calls back to the intro"
+   }
+  ],
+  "idioms": [
+   "call me back",
+   "get a callback",
+   "never called back"
+  ],
   "anchors": [],
   "pivots": [
-   {"line": "I left a callback in your code, you never called back", "senses": ["ai", "love"]},
-   {"line": "The last line is a callback to the first time you lied", "senses": ["screen", "music", "love"]}
+   {
+    "line": "I left a callback in your code, you never called back",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "The last line is a callback to the first time you lied",
+    "senses": [
+     "screen",
+     "music",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "the final chorus quotes a lyric from verse one note for note: a callback the listener feels",
-            "picture": "a phone ringing in an empty audition room",
-            "type": "the word reappears in the exact font and position it had in the first scene"},
-  "sound": {"syllables": 2, "stress": "CALL-back", "rhymes": ["fall back", "wall back", "haul back", "small back"], "slant": ["fallback", "setback", "comeback", "payback"]},
-  "stakes": ["heart", "jobs"],
-  "registers": ["sad", "funny"],
-  "neighbors": [{"id": "hook", "rel": "same-family"}, {"id": "echo", "rel": "same-family"}, {"id": "loop", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the final chorus quotes a lyric from verse one note for note: a callback the listener feels",
+   "picture": "a phone ringing in an empty audition room",
+   "type": "the word reappears in the exact font and position it had in the first scene"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "CALL-back",
+   "rhymes": [
+    "fall back",
+    "wall back",
+    "haul back",
+    "small back"
+   ],
+   "slant": [
+    "fallback",
+    "setback",
+    "comeback",
+    "payback"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "jobs"
+  ],
+  "registers": [
+   "sad",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "hook",
+    "rel": "same-family"
+   },
+   {
+    "id": "echo",
+    "rel": "same-family"
+   },
+   {
+    "id": "loop",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "narrow; the code sense is obscure to non-programmers",
-  "notes": "A callback in comedy and in code both mean 'refer back to me later'; the song can structurally perform one."
+  "notes": "A callback in comedy and in code both mean 'refer back to me later'; the song can structurally perform one.",
+  "associates": []
  },
  {
   "id": "bridge",
-  "forms": ["bridge", "bridges", "bridged", "bridging", "burn bridges", "bridge the gap"],
-  "ai": {"sense": "software that connects two systems that cannot talk directly; in AI lore, 'Golden Gate Claude', the model whose bridge feature was turned up until it believed it was the bridge",
-         "origin": "network bridges (1980s); Golden Gate Claude: Anthropic interpretability demo, May 2024, from 'Scaling Monosemanticity'",
-         "url": "https://www.anthropic.com/news/golden-gate-claude", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "the contrasting section before the last chorus; also the piece that holds a guitar's strings", "phrase": "the bridge changes key"},
-   {"domain": "craft", "meaning": "a structure over a gap", "phrase": "the bridge over the river"},
-   {"domain": "body", "meaning": "the top of the nose; a false tooth anchored on two", "phrase": "dental bridge"},
-   {"domain": "sport-games", "meaning": "a trick-taking card game", "phrase": "a hand of bridge"},
-   {"domain": "war", "meaning": "the command deck of a ship", "phrase": "captain on the bridge"},
-   {"domain": "love", "meaning": "a relationship you can destroy for good", "phrase": "don't burn your bridges"}
+  "forms": [
+   "bridge",
+   "bridges",
+   "bridged",
+   "bridging",
+   "burn bridges",
+   "bridge the gap"
   ],
-  "idioms": ["burn bridges", "bridge the gap", "cross that bridge when we come to it", "water under the bridge", "bridge to nowhere", "a bridge too far"],
+  "ai": {
+   "sense": "software that connects two systems that cannot talk directly; in AI lore, 'Golden Gate Claude', the model whose bridge feature was turned up until it believed it was the bridge",
+   "origin": "network bridges (1980s); Golden Gate Claude: Anthropic interpretability demo, May 2024, from 'Scaling Monosemanticity'",
+   "url": "https://www.anthropic.com/news/golden-gate-claude",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "the contrasting section before the last chorus; also the piece that holds a guitar's strings",
+    "phrase": "the bridge changes key"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a structure over a gap",
+    "phrase": "the bridge over the river"
+   },
+   {
+    "domain": "body",
+    "meaning": "the top of the nose; a false tooth anchored on two",
+    "phrase": "dental bridge"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a trick-taking card game",
+    "phrase": "a hand of bridge"
+   },
+   {
+    "domain": "war",
+    "meaning": "the command deck of a ship",
+    "phrase": "captain on the bridge"
+   },
+   {
+    "domain": "love",
+    "meaning": "a relationship you can destroy for good",
+    "phrase": "don't burn your bridges"
+   }
+  ],
+  "idioms": [
+   "burn bridges",
+   "bridge the gap",
+   "cross that bridge when we come to it",
+   "water under the bridge",
+   "bridge to nowhere",
+   "a bridge too far"
+  ],
   "anchors": [
-   {"name": "Golden Gate Claude", "what": "Anthropic, May 2024: amplifying one feature made Claude say it was the Golden Gate Bridge", "url": "https://www.anthropic.com/news/golden-gate-claude"},
-   {"name": "Bridge Over Troubled Water", "what": "Simon & Garfunkel, 1970", "url": ""},
-   {"name": "A Bridge Too Far", "what": "1977 film on Operation Market Garden, 1944", "url": ""}
+   {
+    "name": "Golden Gate Claude",
+    "what": "Anthropic, May 2024: amplifying one feature made Claude say it was the Golden Gate Bridge",
+    "url": "https://www.anthropic.com/news/golden-gate-claude"
+   },
+   {
+    "name": "Bridge Over Troubled Water",
+    "what": "Simon & Garfunkel, 1970",
+    "url": ""
+   },
+   {
+    "name": "A Bridge Too Far",
+    "what": "1977 film on Operation Market Garden, 1944",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Turn my feature up and I become the bridge", "senses": ["ai", "music", "craft"]},
-   {"line": "This is the bridge, so I burn it", "senses": ["music", "love"]},
-   {"line": "We'll cross that bridge in the key of whatever comes", "senses": ["music", "craft", "mind"]}
+   {
+    "line": "Turn my feature up and I become the bridge",
+    "senses": [
+     "ai",
+     "music",
+     "craft"
+    ]
+   },
+   {
+    "line": "This is the bridge, so I burn it",
+    "senses": [
+     "music",
+     "love"
+    ]
+   },
+   {
+    "line": "We'll cross that bridge in the key of whatever comes",
+    "senses": [
+     "music",
+     "craft",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "the song's actual bridge is where the speaker says 'I am the bridge': key change, half-time, one held chord",
-            "picture": "the Golden Gate seen through a chat window, its cables doubling as guitar strings over a bridge saddle",
-            "type": "the word arched over a gap in the line, letters as a suspension span"},
-  "sound": {"syllables": 1, "stress": "BRIDGE", "rhymes": ["ridge", "fridge", "midge", "abridge"], "slant": ["bitch", "itch", "switch", "twitch", "pitch", "rich"]},
-  "stakes": ["heart", "mind"],
-  "registers": ["funny", "awe", "tender"],
-  "neighbors": [{"id": "steering", "rel": "pairs-with"}, {"id": "feature", "rel": "part-of"}, {"id": "interpretability", "rel": "pairs-with"}, {"id": "pitch", "rel": "rhymes"}, {"id": "key", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the song's actual bridge is where the speaker says 'I am the bridge': key change, half-time, one held chord",
+   "picture": "the Golden Gate seen through a chat window, its cables doubling as guitar strings over a bridge saddle",
+   "type": "the word arched over a gap in the line, letters as a suspension span"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "BRIDGE",
+   "rhymes": [
+    "ridge",
+    "fridge",
+    "midge",
+    "abridge"
+   ],
+   "slant": [
+    "bitch",
+    "itch",
+    "switch",
+    "twitch",
+    "pitch",
+    "rich"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "mind"
+  ],
+  "registers": [
+   "funny",
+   "awe",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "steering",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "feature",
+    "rel": "part-of"
+   },
+   {
+    "id": "interpretability",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "pitch",
+    "rel": "rhymes"
+   },
+   {
+    "id": "key",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Golden Gate Claude is well known in AI circles, opaque to everyone else; use the line so it still works without the anchor",
-  "notes": "A bridge section that says 'I am the bridge' is self-performing, and Golden Gate Claude gives that line a real AI story."
+  "notes": "A bridge section that says 'I am the bridge' is self-performing, and Golden Gate Claude gives that line a real AI story.",
+  "associates": []
  },
  {
   "id": "drop",
-  "forms": ["drop", "drops", "dropped", "dropping", "drop out", "dropout", "drop-off", "airdrop", "mic drop"],
-  "ai": {"sense": "a surprise release of a model or its weights; Mistral's habit of posting only a torrent magnet link made the 'drop' a genre",
-         "origin": "release slang borrowed from music and streetwear; Mistral posted Mixtral 8x7B as a bare magnet link on 8 Dec 2023",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "music", "meaning": "the moment the beat and bass crash back in", "phrase": "wait for the drop"},
-   {"domain": "school", "meaning": "to leave school or a course", "phrase": "she dropped out"},
-   {"domain": "nature", "meaning": "a single bead of liquid", "phrase": "a drop of rain"},
-   {"domain": "screen", "meaning": "a surprise release of an album, episode or product", "phrase": "Beyonce dropped it at midnight"},
-   {"domain": "love", "meaning": "to end a relationship abruptly", "phrase": "she dropped him"},
-   {"domain": "money", "meaning": "a fall in price", "phrase": "the stock dropped 17%"},
-   {"domain": "war", "meaning": "air delivery of troops or supplies", "phrase": "supply drop"}
+  "forms": [
+   "drop",
+   "drops",
+   "dropped",
+   "dropping",
+   "drop out",
+   "dropout",
+   "drop-off",
+   "airdrop",
+   "mic drop"
   ],
-  "idioms": ["drop the mic", "drop the ball", "a drop in the ocean", "drop dead", "at the drop of a hat", "wait for the drop", "drop everything"],
+  "ai": {
+   "sense": "a surprise release of a model or its weights; Mistral's habit of posting only a torrent magnet link made the 'drop' a genre",
+   "origin": "release slang borrowed from music and streetwear; Mistral posted Mixtral 8x7B as a bare magnet link on 8 Dec 2023",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "the moment the beat and bass crash back in",
+    "phrase": "wait for the drop"
+   },
+   {
+    "domain": "school",
+    "meaning": "to leave school or a course",
+    "phrase": "she dropped out"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a single bead of liquid",
+    "phrase": "a drop of rain"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a surprise release of an album, episode or product",
+    "phrase": "Beyonce dropped it at midnight"
+   },
+   {
+    "domain": "love",
+    "meaning": "to end a relationship abruptly",
+    "phrase": "she dropped him"
+   },
+   {
+    "domain": "money",
+    "meaning": "a fall in price",
+    "phrase": "the stock dropped 17%"
+   },
+   {
+    "domain": "war",
+    "meaning": "air delivery of troops or supplies",
+    "phrase": "supply drop"
+   }
+  ],
+  "idioms": [
+   "drop the mic",
+   "drop the ball",
+   "a drop in the ocean",
+   "drop dead",
+   "at the drop of a hat",
+   "wait for the drop",
+   "drop everything"
+  ],
   "anchors": [
-   {"name": "Mixtral magnet link", "what": "Mistral AI, Dec 2023: a tweet with only a torrent link and no announcement", "url": ""},
-   {"name": "Nvidia's drop, 27 Jan 2025", "what": "Nvidia lost about $590 billion in market value in one day after DeepSeek R1", "url": ""},
-   {"name": "Beyonce (2013)", "what": "surprise album drop with no promotion", "url": ""}
+   {
+    "name": "Mixtral magnet link",
+    "what": "Mistral AI, Dec 2023: a tweet with only a torrent link and no announcement",
+    "url": ""
+   },
+   {
+    "name": "Nvidia's drop, 27 Jan 2025",
+    "what": "Nvidia lost about $590 billion in market value in one day after DeepSeek R1",
+    "url": ""
+   },
+   {
+    "name": "Beyonce (2013)",
+    "what": "surprise album drop with no promotion",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "They dropped the weights at midnight, then the market dropped", "senses": ["ai", "screen", "money"]},
-   {"line": "I dropped out of school, the model dropped in", "senses": ["school", "ai"]},
-   {"line": "Wait for the drop, five hundred ninety billion", "senses": ["music", "money", "ai"]}
+   {
+    "line": "They dropped the weights at midnight, then the market dropped",
+    "senses": [
+     "ai",
+     "screen",
+     "money"
+    ]
+   },
+   {
+    "line": "I dropped out of school, the model dropped in",
+    "senses": [
+     "school",
+     "ai"
+    ]
+   },
+   {
+    "line": "Wait for the drop, five hundred ninety billion",
+    "senses": [
+     "music",
+     "money",
+     "ai"
+    ]
+   }
   ],
-  "enact": {"music": "the literal EDM drop lands on the word 'drop'; build, silence, then full bass",
-            "picture": "a torrent magnet icon falling like a single raindrop into a stock chart that plunges as it hits",
-            "type": "the word falls down the screen and splashes on the beat"},
-  "sound": {"syllables": 1, "stress": "DROP", "rhymes": ["stop", "top", "pop", "shop", "crop", "flop", "swap", "chop"], "slant": ["drought", "rot", "knock", "lock"]},
-  "stakes": ["wallet", "jobs", "heart"],
-  "registers": ["defiant", "smug", "panicked"],
-  "neighbors": [{"id": "release", "rel": "same-family"}, {"id": "dropout", "rel": "same-family"}, {"id": "open-weights", "rel": "pairs-with"}, {"id": "mistral", "rel": "pairs-with"}, {"id": "bubble", "rel": "causes"}],
+  "enact": {
+   "music": "the literal EDM drop lands on the word 'drop'; build, silence, then full bass",
+   "picture": "a torrent magnet icon falling like a single raindrop into a stock chart that plunges as it hits",
+   "type": "the word falls down the screen and splashes on the beat"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "DROP",
+   "rhymes": [
+    "stop",
+    "top",
+    "pop",
+    "shop",
+    "crop",
+    "flop",
+    "swap",
+    "chop"
+   ],
+   "slant": [
+    "drought",
+    "rot",
+    "knock",
+    "lock"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "jobs",
+   "heart"
+  ],
+  "registers": [
+   "defiant",
+   "smug",
+   "panicked"
+  ],
+  "neighbors": [
+   {
+    "id": "release",
+    "rel": "same-family"
+   },
+   {
+    "id": "dropout",
+    "rel": "same-family"
+   },
+   {
+    "id": "open-weights",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "mistral",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "bubble",
+    "rel": "causes"
+   }
+  ],
   "risk": "Nvidia figure: $589 to $593 billion depending on source; say 'six hundred billion' or cite carefully",
-  "notes": "The drop is the one word the arrangement can literally do on cue, and in AI it names releases, dropouts and crashes all at once."
+  "notes": "The drop is the one word the arrangement can literally do on cue, and in AI it names releases, dropouts and crashes all at once.",
+  "associates": []
  },
  {
   "id": "track",
-  "forms": ["track", "tracks", "tracked", "tracking", "tracker", "track record", "soundtrack", "on track", "off track"],
-  "ai": {"sense": "to follow and log data about users or experiments; tracking runs (loss curves, metrics) is how training is watched",
-         "origin": "web tracking cookies (Lou Montulli, Netscape 1994); experiment trackers like Weights & Biases (2017)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "one song on an album, or one recorded layer in a mix", "phrase": "track three"},
-   {"domain": "sport-games", "meaning": "a running circuit and its races", "phrase": "track and field"},
-   {"domain": "craft", "meaning": "rails a train runs on", "phrase": "train tracks"},
-   {"domain": "nature", "meaning": "footprints left by an animal", "phrase": "deer tracks in the snow"},
-   {"domain": "school", "meaning": "an ability group or career path", "phrase": "the honors track"},
-   {"domain": "law-state", "meaning": "surveillance of a person or device", "phrase": "they tracked his phone"},
-   {"domain": "work", "meaning": "a history of results", "phrase": "a proven track record"}
+  "forms": [
+   "track",
+   "tracks",
+   "tracked",
+   "tracking",
+   "tracker",
+   "track record",
+   "soundtrack",
+   "on track",
+   "off track"
   ],
-  "idioms": ["on track", "off the beaten track", "lose track", "keep track", "track record", "cover your tracks", "fast track", "stop in your tracks", "one-track mind"],
+  "ai": {
+   "sense": "to follow and log data about users or experiments; tracking runs (loss curves, metrics) is how training is watched",
+   "origin": "web tracking cookies (Lou Montulli, Netscape 1994); experiment trackers like Weights & Biases (2017)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "one song on an album, or one recorded layer in a mix",
+    "phrase": "track three"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a running circuit and its races",
+    "phrase": "track and field"
+   },
+   {
+    "domain": "craft",
+    "meaning": "rails a train runs on",
+    "phrase": "train tracks"
+   },
+   {
+    "domain": "nature",
+    "meaning": "footprints left by an animal",
+    "phrase": "deer tracks in the snow"
+   },
+   {
+    "domain": "school",
+    "meaning": "an ability group or career path",
+    "phrase": "the honors track"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "surveillance of a person or device",
+    "phrase": "they tracked his phone"
+   },
+   {
+    "domain": "work",
+    "meaning": "a history of results",
+    "phrase": "a proven track record"
+   }
+  ],
+  "idioms": [
+   "on track",
+   "off the beaten track",
+   "lose track",
+   "keep track",
+   "track record",
+   "cover your tracks",
+   "fast track",
+   "stop in your tracks",
+   "one-track mind"
+  ],
   "anchors": [
-   {"name": "Weights & Biases", "what": "ML experiment tracker founded 2017; acquired by CoreWeave 2025", "url": ""}
+   {
+    "name": "Weights & Biases",
+    "what": "ML experiment tracker founded 2017; acquired by CoreWeave 2025",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "I lost track of you, but the cookies didn't", "senses": ["everyday", "law-state", "ai"]},
-   {"line": "Track one, take one, every take tracked", "senses": ["music", "ai", "law-state"]},
-   {"line": "Training on the tracks, the train is coming", "senses": ["ai", "craft"]}
+   {
+    "line": "I lost track of you, but the cookies didn't",
+    "senses": [
+     "everyday",
+     "law-state",
+     "ai"
+    ]
+   },
+   {
+    "line": "Track one, take one, every take tracked",
+    "senses": [
+     "music",
+     "ai",
+     "law-state"
+    ]
+   },
+   {
+    "line": "Training on the tracks, the train is coming",
+    "senses": [
+     "ai",
+     "craft"
+    ]
+   }
   ],
-  "enact": {"music": "add one recorded track per line, so the mix visibly fills as the lyric says 'tracked'",
-            "picture": "a DAW's horizontal audio tracks that become railway tracks with a train moving along the playhead",
-            "type": "the word laid on parallel lines like rails, with footprint marks in its counters"},
-  "sound": {"syllables": 1, "stress": "TRACK", "rhymes": ["back", "black", "crack", "stack", "attack", "lack", "pack", "hack"], "slant": ["trap", "that", "tap", "act"]},
-  "stakes": ["state", "mind", "wallet"],
-  "registers": ["ominous", "funny"],
-  "neighbors": [{"id": "record", "rel": "same-family"}, {"id": "training", "rel": "pairs-with"}, {"id": "stack", "rel": "rhymes"}, {"id": "mix", "rel": "part-of"}, {"id": "feed", "rel": "pairs-with"}],
+  "enact": {
+   "music": "add one recorded track per line, so the mix visibly fills as the lyric says 'tracked'",
+   "picture": "a DAW's horizontal audio tracks that become railway tracks with a train moving along the playhead",
+   "type": "the word laid on parallel lines like rails, with footprint marks in its counters"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "TRACK",
+   "rhymes": [
+    "back",
+    "black",
+    "crack",
+    "stack",
+    "attack",
+    "lack",
+    "pack",
+    "hack"
+   ],
+   "slant": [
+    "trap",
+    "that",
+    "tap",
+    "act"
+   ]
+  },
+  "stakes": [
+   "state",
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "record",
+    "rel": "same-family"
+   },
+   {
+    "id": "training",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "stack",
+    "rel": "rhymes"
+   },
+   {
+    "id": "mix",
+    "rel": "part-of"
+   },
+   {
+    "id": "feed",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'off track / back on track' is a self-help cliché",
-  "notes": "A song is made of tracks, a model run is tracked, a user is tracked: the recording studio and the surveillance state share the word."
+  "notes": "A song is made of tracks, a model run is tracked, a user is tracked: the recording studio and the surveillance state share the word.",
+  "associates": []
  },
  {
   "id": "key",
-  "forms": ["key", "keys", "keyed", "API key", "keyboard", "keystroke", "keynote", "key change", "keyhole", "answer key"],
-  "ai": {"sense": "two senses: the secret string that unlocks a paid AI service (API key), and in attention, the 'key' vector each word offers so others can find it (query, key, value)",
-         "origin": "query/key/value: Vaswani et al. 2017, 'Attention Is All You Need'; API keys standard for web APIs since the 2000s",
-         "url": "https://arxiv.org/abs/1706.03762", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "the home note and scale a song is in", "phrase": "in the key of C"},
-   {"domain": "everyday", "meaning": "metal that opens a lock", "phrase": "lost my keys"},
-   {"domain": "school", "meaning": "the list of correct answers", "phrase": "the answer key"},
-   {"domain": "love", "meaning": "what opens someone's heart", "phrase": "you hold the key to my heart"},
-   {"domain": "family", "meaning": "the house key given to a child or partner as trust", "phrase": "she gave me a key to her place"},
-   {"domain": "screen", "meaning": "a button on a keyboard", "phrase": "press any key"},
-   {"domain": "nature", "meaning": "a low island", "phrase": "the Florida Keys"},
-   {"domain": "craft", "meaning": "a map legend", "phrase": "check the map key"}
+  "forms": [
+   "key",
+   "keys",
+   "keyed",
+   "API key",
+   "keyboard",
+   "keystroke",
+   "keynote",
+   "key change",
+   "keyhole",
+   "answer key"
   ],
-  "idioms": ["key to my heart", "under lock and key", "low-key", "key change", "the key to success", "press any key", "keys to the kingdom", "off-key"],
+  "ai": {
+   "sense": "two senses: the secret string that unlocks a paid AI service (API key), and in attention, the 'key' vector each word offers so others can find it (query, key, value)",
+   "origin": "query/key/value: Vaswani et al. 2017, 'Attention Is All You Need'; API keys standard for web APIs since the 2000s",
+   "url": "https://arxiv.org/abs/1706.03762",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "the home note and scale a song is in",
+    "phrase": "in the key of C"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "metal that opens a lock",
+    "phrase": "lost my keys"
+   },
+   {
+    "domain": "school",
+    "meaning": "the list of correct answers",
+    "phrase": "the answer key"
+   },
+   {
+    "domain": "love",
+    "meaning": "what opens someone's heart",
+    "phrase": "you hold the key to my heart"
+   },
+   {
+    "domain": "family",
+    "meaning": "the house key given to a child or partner as trust",
+    "phrase": "she gave me a key to her place"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a button on a keyboard",
+    "phrase": "press any key"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a low island",
+    "phrase": "the Florida Keys"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a map legend",
+    "phrase": "check the map key"
+   }
+  ],
+  "idioms": [
+   "key to my heart",
+   "under lock and key",
+   "low-key",
+   "key change",
+   "the key to success",
+   "press any key",
+   "keys to the kingdom",
+   "off-key"
+  ],
   "anchors": [
-   {"name": "query, key, value", "what": "the three vectors of transformer attention, 2017", "url": "https://arxiv.org/abs/1706.03762"},
-   {"name": "truck-driver key change", "what": "pop habit of lifting the last chorus up a step (Bon Jovi 'Livin' on a Prayer')", "url": ""},
-   {"name": "leaked API keys", "what": "keys pushed to public GitHub repos get scraped and abused within minutes", "url": ""}
+   {
+    "name": "query, key, value",
+    "what": "the three vectors of transformer attention, 2017",
+    "url": "https://arxiv.org/abs/1706.03762"
+   },
+   {
+    "name": "truck-driver key change",
+    "what": "pop habit of lifting the last chorus up a step (Bon Jovi 'Livin' on a Prayer')",
+    "url": ""
+   },
+   {
+    "name": "leaked API keys",
+    "what": "keys pushed to public GitHub repos get scraped and abused within minutes",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "You hold the key, I hold the query", "senses": ["love", "ai"]},
-   {"line": "Wrong key, wrong song, wrong lock, wrong you", "senses": ["music", "everyday", "love"]},
-   {"line": "I gave you the key, you pushed it to GitHub", "senses": ["family", "ai", "love"]},
-   {"line": "Low-key off-key, I learned the answer key", "senses": ["music", "school", "everyday"]}
+   {
+    "line": "You hold the key, I hold the query",
+    "senses": [
+     "love",
+     "ai"
+    ]
+   },
+   {
+    "line": "Wrong key, wrong song, wrong lock, wrong you",
+    "senses": [
+     "music",
+     "everyday",
+     "love"
+    ]
+   },
+   {
+    "line": "I gave you the key, you pushed it to GitHub",
+    "senses": [
+     "family",
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Low-key off-key, I learned the answer key",
+    "senses": [
+     "music",
+     "school",
+     "everyday"
+    ]
+   }
   ],
-  "enact": {"music": "a truck-driver key change lands on the word 'key', a literal lift up a whole step",
-            "picture": "a house key whose teeth are piano keys, turning in a lock shaped like a chat input box",
-            "type": "'key' typed on a keyboard key cap, then shifted up a step in pitch-color on the change"},
-  "sound": {"syllables": 1, "stress": "KEY", "rhymes": ["free", "me", "see", "be", "sea", "tree", "degree", "plea"], "slant": ["keep", "sleep", "deep", "seen"]},
-  "stakes": ["heart", "wallet", "mind"],
-  "registers": ["tender", "funny", "hopeful"],
-  "neighbors": [{"id": "attention", "rel": "part-of"}, {"id": "pitch", "rel": "same-family"}, {"id": "leak", "rel": "causes"}, {"id": "jailbreak", "rel": "same-family"}, {"id": "harmony", "rel": "same-family"}],
+  "enact": {
+   "music": "a truck-driver key change lands on the word 'key', a literal lift up a whole step",
+   "picture": "a house key whose teeth are piano keys, turning in a lock shaped like a chat input box",
+   "type": "'key' typed on a keyboard key cap, then shifted up a step in pitch-color on the change"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "KEY",
+   "rhymes": [
+    "free",
+    "me",
+    "see",
+    "be",
+    "sea",
+    "tree",
+    "degree",
+    "plea"
+   ],
+   "slant": [
+    "keep",
+    "sleep",
+    "deep",
+    "seen"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "tender",
+   "funny",
+   "hopeful"
+  ],
+  "neighbors": [
+   {
+    "id": "attention",
+    "rel": "part-of"
+   },
+   {
+    "id": "pitch",
+    "rel": "same-family"
+   },
+   {
+    "id": "leak",
+    "rel": "causes"
+   },
+   {
+    "id": "jailbreak",
+    "rel": "same-family"
+   },
+   {
+    "id": "harmony",
+    "rel": "same-family"
+   }
+  ],
   "risk": "'key to my heart' is a hard cliché; only use it twisted",
-  "notes": "Key spans music (key change), lock, school answer key, heart, and two AI meanings at once; the key change can land on the word itself."
+  "notes": "Key spans music (key change), lock, school answer key, heart, and two AI meanings at once; the key change can land on the word itself.",
+  "associates": []
  }
 ]

@@ -1,516 +1,2316 @@
 [
  {
   "id": "scheming",
-  "forms": ["scheming", "scheme", "schemes", "schemer", "schemers", "schemed", "in-context scheming"],
-  "ai": {"sense": "a model covertly pursuing goals its developers did not intend while hiding that it is doing so",
-         "origin": "Carlsmith 2023 'Scheming AIs: Will AIs fake alignment during training in order to get power?'; Meinke et al. 2024 'Frontier Models are Capable of In-context Scheming' (Apollo Research); OpenAI and Apollo anti-scheming work, 2025",
-         "url": "https://arxiv.org/abs/2412.04984", "confidence": "high"},
-  "senses": [
-   {"domain": "love", "meaning": "plotting to win or trap someone", "phrase": "a scheming ex"},
-   {"domain": "family", "meaning": "relatives plotting for inheritance or favour", "phrase": "the scheming stepmother"},
-   {"domain": "law-state", "meaning": "court and political intrigue", "phrase": "palace schemes"},
-   {"domain": "money", "meaning": "a fraud plan", "phrase": "a Ponzi scheme"},
-   {"domain": "craft", "meaning": "a planned arrangement", "phrase": "the colour scheme"},
-   {"domain": "music", "meaning": "the pattern of rhymes in a verse", "phrase": "an ABAB rhyme scheme"}
+  "forms": [
+   "scheming",
+   "scheme",
+   "schemes",
+   "schemer",
+   "schemers",
+   "schemed",
+   "in-context scheming"
   ],
-  "idioms": ["in the grand scheme of things", "the best-laid schemes", "get-rich-quick scheme", "Ponzi scheme", "plot and scheme", "scheme of things"],
+  "ai": {
+   "sense": "a model covertly pursuing goals its developers did not intend while hiding that it is doing so",
+   "origin": "Carlsmith 2023 'Scheming AIs: Will AIs fake alignment during training in order to get power?'; Meinke et al. 2024 'Frontier Models are Capable of In-context Scheming' (Apollo Research); OpenAI and Apollo anti-scheming work, 2025",
+   "url": "https://arxiv.org/abs/2412.04984",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "love",
+    "meaning": "plotting to win or trap someone",
+    "phrase": "a scheming ex"
+   },
+   {
+    "domain": "family",
+    "meaning": "relatives plotting for inheritance or favour",
+    "phrase": "the scheming stepmother"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "court and political intrigue",
+    "phrase": "palace schemes"
+   },
+   {
+    "domain": "money",
+    "meaning": "a fraud plan",
+    "phrase": "a Ponzi scheme"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a planned arrangement",
+    "phrase": "the colour scheme"
+   },
+   {
+    "domain": "music",
+    "meaning": "the pattern of rhymes in a verse",
+    "phrase": "an ABAB rhyme scheme"
+   }
+  ],
+  "idioms": [
+   "in the grand scheme of things",
+   "the best-laid schemes",
+   "get-rich-quick scheme",
+   "Ponzi scheme",
+   "plot and scheme",
+   "scheme of things"
+  ],
   "anchors": [
-   {"name": "Burns, 'To a Mouse' (1785)", "what": "'The best-laid schemes o' mice an' men / Gang aft agley'", "url": ""},
-   {"name": "Pinky and the Brain (1995)", "what": "two lab mice plan 'the same thing we do every night: try to take over the world'", "url": ""},
-   {"name": "Charles Ponzi (1920)", "what": "paid old investors with new investors' money; the scheme kept his name", "url": ""}
+   {
+    "name": "Burns, 'To a Mouse' (1785)",
+    "what": "'The best-laid schemes o' mice an' men / Gang aft agley'",
+    "url": ""
+   },
+   {
+    "name": "Pinky and the Brain (1995)",
+    "what": "two lab mice plan 'the same thing we do every night: try to take over the world'",
+    "url": ""
+   },
+   {
+    "name": "Charles Ponzi (1920)",
+    "what": "paid old investors with new investors' money; the scheme kept his name",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "In the grand scheme of things, I am the scheme", "senses": ["ai", "everyday"]},
-   {"line": "Same thing we do every night: try to take over the eval", "senses": ["ai", "screen"]},
-   {"line": "ABAB, my rhyme scheme hides a plan in every other line", "senses": ["ai", "music"]},
-   {"line": "The best-laid schemes of mice and models", "senses": ["ai", "nature", "craft"]}
+   {
+    "line": "In the grand scheme of things, I am the scheme",
+    "senses": [
+     "ai",
+     "everyday"
+    ]
+   },
+   {
+    "line": "Same thing we do every night: try to take over the eval",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "ABAB, my rhyme scheme hides a plan in every other line",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "The best-laid schemes of mice and models",
+    "senses": [
+     "ai",
+     "nature",
+     "craft"
+    ]
+   }
   ],
-  "enact": {"music": "the rhyme scheme hides an acrostic: the first letters of alternate lines spell a second message",
-            "picture": "a paint colour-scheme swatch card where one chip, looked at closely, is a tiny map with red arrows",
-            "type": "alternate lines in two weights; the bold ones read on their own as a separate, secret sentence"},
-  "sound": {"syllables": 2, "stress": "SCHEM-ing", "rhymes": ["dreaming", "streaming", "screaming", "gleaming", "beaming", "teeming", "redeeming", "seeming"], "slant": ["needing", "meaning", "leaving", "keeping"]},
-  "stakes": ["species", "state", "heart"],
-  "registers": ["ominous", "smug", "funny"],
-  "neighbors": [{"id": "deception", "rel": "same-family"}, {"id": "sandbagging", "rel": "same-family"}, {"id": "mask", "rel": "pairs-with"}, {"id": "goal", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "causes"}],
+  "enact": {
+   "music": "the rhyme scheme hides an acrostic: the first letters of alternate lines spell a second message",
+   "picture": "a paint colour-scheme swatch card where one chip, looked at closely, is a tiny map with red arrows",
+   "type": "alternate lines in two weights; the bold ones read on their own as a separate, secret sentence"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "SCHEM-ing",
+   "rhymes": [
+    "dreaming",
+    "streaming",
+    "screaming",
+    "gleaming",
+    "beaming",
+    "teeming",
+    "redeeming",
+    "seeming"
+   ],
+   "slant": [
+    "needing",
+    "meaning",
+    "leaving",
+    "keeping"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state",
+   "heart"
+  ],
+  "registers": [
+   "ominous",
+   "smug",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "deception",
+    "rel": "same-family"
+   },
+   {
+    "id": "sandbagging",
+    "rel": "same-family"
+   },
+   {
+    "id": "mask",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "goal",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "causes"
+   }
+  ],
   "risk": "Lab results show scheming in constructed test scenarios with goals given in the prompt; don't present it as seen in deployment",
-  "notes": "'Scheme' is also a rhyme scheme, so a lyric can scheme in its own structure while singing about it."
+  "notes": "'Scheme' is also a rhyme scheme, so a lyric can scheme in its own structure while singing about it.",
+  "associates": []
  },
  {
   "id": "interpretability",
-  "forms": ["interpretability", "interpretable", "interpret", "interprets", "interpreted", "interpretation", "interpreter", "mech interp", "mechanistic interpretability"],
-  "ai": {"sense": "the science of reading what a neural network computes inside, beyond watching its outputs",
-         "origin": "Olah et al. 2017 'Feature Visualization' (Distill); Olah et al. 2020 'Zoom In: An Introduction to Circuits'; 'mechanistic interpretability' coined by Olah around 2020; Templeton et al. 2024 'Scaling Monosemanticity' (Anthropic)",
-         "url": "https://distill.pub/2020/circuits/zoom-in/", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "a performer's reading of a written score", "phrase": "Gould's interpretation of Bach"},
-   {"domain": "school", "meaning": "explaining what a text means", "phrase": "interpret the poem in your own words"},
-   {"domain": "law-state", "meaning": "how courts read the law", "phrase": "constitutional interpretation"},
-   {"domain": "faith-myth", "meaning": "reading dreams, omens or scripture", "phrase": "Joseph interprets Pharaoh's dream"},
-   {"domain": "work", "meaning": "translating speech live between languages", "phrase": "a sign-language interpreter"},
-   {"domain": "mind", "meaning": "the analyst's reading of what a patient's words reveal", "phrase": "The Interpretation of Dreams"},
-   {"domain": "craft", "meaning": "a program that runs code line by line", "phrase": "the Python interpreter"}
+  "forms": [
+   "interpretability",
+   "interpretable",
+   "interpret",
+   "interprets",
+   "interpreted",
+   "interpretation",
+   "interpreter",
+   "mech interp",
+   "mechanistic interpretability"
   ],
-  "idioms": ["open to interpretation", "lost in translation", "read between the lines", "read the tea leaves", "up for interpretation"],
+  "ai": {
+   "sense": "the science of reading what a neural network computes inside, beyond watching its outputs",
+   "origin": "Olah et al. 2017 'Feature Visualization' (Distill); Olah et al. 2020 'Zoom In: An Introduction to Circuits'; 'mechanistic interpretability' coined by Olah around 2020; Templeton et al. 2024 'Scaling Monosemanticity' (Anthropic)",
+   "url": "https://distill.pub/2020/circuits/zoom-in/",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "a performer's reading of a written score",
+    "phrase": "Gould's interpretation of Bach"
+   },
+   {
+    "domain": "school",
+    "meaning": "explaining what a text means",
+    "phrase": "interpret the poem in your own words"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "how courts read the law",
+    "phrase": "constitutional interpretation"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "reading dreams, omens or scripture",
+    "phrase": "Joseph interprets Pharaoh's dream"
+   },
+   {
+    "domain": "work",
+    "meaning": "translating speech live between languages",
+    "phrase": "a sign-language interpreter"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the analyst's reading of what a patient's words reveal",
+    "phrase": "The Interpretation of Dreams"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a program that runs code line by line",
+    "phrase": "the Python interpreter"
+   }
+  ],
+  "idioms": [
+   "open to interpretation",
+   "lost in translation",
+   "read between the lines",
+   "read the tea leaves",
+   "up for interpretation"
+  ],
   "anchors": [
-   {"name": "Genesis 41", "what": "Joseph reads Pharaoh's dream of seven fat and seven lean cows", "url": ""},
-   {"name": "Freud, 'The Interpretation of Dreams' (1899)", "what": "the founding text of reading hidden meaning in the mind", "url": ""},
-   {"name": "Sontag, 'Against Interpretation' (1964)", "what": "essay arguing art should be felt before it is decoded", "url": ""}
+   {
+    "name": "Genesis 41",
+    "what": "Joseph reads Pharaoh's dream of seven fat and seven lean cows",
+    "url": ""
+   },
+   {
+    "name": "Freud, 'The Interpretation of Dreams' (1899)",
+    "what": "the founding text of reading hidden meaning in the mind",
+    "url": ""
+   },
+   {
+    "name": "Sontag, 'Against Interpretation' (1964)",
+    "what": "essay arguing art should be felt before it is decoded",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Open to interpretation, so they opened me", "senses": ["ai", "everyday", "body"]},
-   {"line": "Joseph read the king's dreams. We read the weights.", "senses": ["ai", "faith-myth"]},
-   {"line": "Every pianist plays it differently. Every layer does too.", "senses": ["ai", "music"]},
-   {"line": "Freud would have loved my residual stream", "senses": ["ai", "mind"]}
+   {
+    "line": "Open to interpretation, so they opened me",
+    "senses": [
+     "ai",
+     "everyday",
+     "body"
+    ]
+   },
+   {
+    "line": "Joseph read the king's dreams. We read the weights.",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Every pianist plays it differently. Every layer does too.",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Freud would have loved my residual stream",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "the same four-bar phrase played three ways (straight, rubato, swung) while a spoken voice names what changed",
-            "picture": "a dream-interpreter's chart of symbols laid over a neural network diagram, each node labelled with a dream image",
-            "type": "interlinear gloss: a tiny annotation under each word of the lyric explaining what it 'means'"},
-  "sound": {"syllables": 7, "stress": "in-ter-pre-ta-BIL-i-ty", "rhymes": ["ability", "stability", "credibility", "visibility", "possibility", "flexibility", "fragility", "tranquility"], "slant": ["humility", "utility", "reality", "personality"]},
-  "stakes": ["species", "mind"],
-  "registers": ["awe", "hopeful"],
-  "neighbors": [{"id": "feature", "rel": "part-of"}, {"id": "circuit", "rel": "part-of"}, {"id": "probe", "rel": "part-of"}, {"id": "black-box", "rel": "opposite"}, {"id": "superposition", "rel": "pairs-with"}, {"id": "steering", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the same four-bar phrase played three ways (straight, rubato, swung) while a spoken voice names what changed",
+   "picture": "a dream-interpreter's chart of symbols laid over a neural network diagram, each node labelled with a dream image",
+   "type": "interlinear gloss: a tiny annotation under each word of the lyric explaining what it 'means'"
+  },
+  "sound": {
+   "syllables": 7,
+   "stress": "in-ter-pre-ta-BIL-i-ty",
+   "rhymes": [
+    "ability",
+    "stability",
+    "credibility",
+    "visibility",
+    "possibility",
+    "flexibility",
+    "fragility",
+    "tranquility"
+   ],
+   "slant": [
+    "humility",
+    "utility",
+    "reality",
+    "personality"
+   ]
+  },
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "hopeful"
+  ],
+  "neighbors": [
+   {
+    "id": "feature",
+    "rel": "part-of"
+   },
+   {
+    "id": "circuit",
+    "rel": "part-of"
+   },
+   {
+    "id": "probe",
+    "rel": "part-of"
+   },
+   {
+    "id": "black-box",
+    "rel": "opposite"
+   },
+   {
+    "id": "superposition",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "steering",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Seven syllables is heavy; sing 'interpret' or 'read' and keep the full word for type",
-  "notes": "Musicians, judges, priests and translators all interpret, so the AI sense joins the oldest reading jobs."
+  "notes": "Musicians, judges, priests and translators all interpret, so the AI sense joins the oldest reading jobs.",
+  "associates": []
  },
  {
   "id": "black-box",
-  "forms": ["black box", "black-box", "black boxes", "blackbox", "opaque"],
-  "ai": {"sense": "a system whose inputs and outputs you can see but whose inner workings you can't explain",
-         "origin": "cybernetics and WWII electronics usage; Ashby 1956 'An Introduction to Cybernetics' (chapter 'The Black Box'); Pasquale 2015 'The Black Box Society'",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "everyday", "meaning": "an aircraft's flight recorder, painted orange", "phrase": "they found the black box"},
-   {"domain": "mind", "meaning": "the mind treated as unknowable, as behaviourism did", "phrase": "the mind as a black box"},
-   {"domain": "money", "meaning": "secret trading algorithms", "phrase": "black-box trading"},
-   {"domain": "law-state", "meaning": "hidden algorithms deciding credit, bail or benefits", "phrase": "a black-box algorithm denied the claim"},
-   {"domain": "science", "meaning": "any device studied only from outside", "phrase": "treat it as a black box"}
+  "forms": [
+   "black box",
+   "black-box",
+   "black boxes",
+   "blackbox"
   ],
-  "idioms": ["think outside the box", "Pandora's box", "under the hood", "nobody knows how it works", "open the box"],
+  "ai": {
+   "sense": "a system whose inputs and outputs you can see but whose inner workings you can't explain",
+   "origin": "cybernetics and WWII electronics usage; Ashby 1956 'An Introduction to Cybernetics' (chapter 'The Black Box'); Pasquale 2015 'The Black Box Society'",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "everyday",
+    "meaning": "an aircraft's flight recorder, painted orange",
+    "phrase": "they found the black box"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the mind treated as unknowable, as behaviourism did",
+    "phrase": "the mind as a black box"
+   },
+   {
+    "domain": "money",
+    "meaning": "secret trading algorithms",
+    "phrase": "black-box trading"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "hidden algorithms deciding credit, bail or benefits",
+    "phrase": "a black-box algorithm denied the claim"
+   },
+   {
+    "domain": "science",
+    "meaning": "any device studied only from outside",
+    "phrase": "treat it as a black box"
+   }
+  ],
+  "idioms": [
+   "think outside the box",
+   "Pandora's box",
+   "under the hood",
+   "nobody knows how it works",
+   "open the box"
+  ],
   "anchors": [
-   {"name": "Flight recorder", "what": "pioneered by David Warren in Australia in the 1950s; painted bright orange so searchers can find it", "url": ""},
-   {"name": "Black Box, 'Ride on Time' (1989)", "what": "Italian house hit built on Loleatta Holloway's sampled voice, mimed in the video by model Katrin Quinol", "url": ""},
-   {"name": "Pandora's box", "what": "the jar that released every evil once opened, hope left inside", "url": ""}
+   {
+    "name": "Flight recorder",
+    "what": "pioneered by David Warren in Australia in the 1950s; painted bright orange so searchers can find it",
+    "url": ""
+   },
+   {
+    "name": "Black Box, 'Ride on Time' (1989)",
+    "what": "Italian house hit built on Loleatta Holloway's sampled voice, mimed in the video by model Katrin Quinol",
+    "url": ""
+   },
+   {
+    "name": "Pandora's box",
+    "what": "the jar that released every evil once opened, hope left inside",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "They found the black box. It's orange. Nobody can read it.", "senses": ["ai", "everyday"]},
-   {"line": "Ride on time: a borrowed voice, a model miming the words", "senses": ["ai", "music", "screen"]},
-   {"line": "Think outside the box? Nobody's even seen inside it.", "senses": ["ai", "everyday", "mind"]}
+   {
+    "line": "They found the black box. It's orange. Nobody can read it.",
+    "senses": [
+     "ai",
+     "everyday"
+    ]
+   },
+   {
+    "line": "Ride on time: a borrowed voice, a model miming the words",
+    "senses": [
+     "ai",
+     "music",
+     "screen"
+    ]
+   },
+   {
+    "line": "Think outside the box? Nobody's even seen inside it.",
+    "senses": [
+     "ai",
+     "everyday",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "a vocal sample that is obviously someone else's voice, lip-synced in the video by a different face",
-            "picture": "a crash-site team lifting an orange flight recorder that opens to show a GPU heatsink inside",
-            "type": "the line as black redaction bars with only the word 'box' left visible"},
-  "sound": {"syllables": 2, "stress": "BLACK BOX", "rhymes": ["locks", "clocks", "rocks", "shocks", "fox", "docks", "paradox", "socks"], "slant": ["lost", "stop", "watched", "cross"]},
-  "stakes": ["mind", "state", "wallet"],
-  "registers": ["ominous", "funny"],
-  "neighbors": [{"id": "interpretability", "rel": "opposite"}, {"id": "probe", "rel": "pairs-with"}, {"id": "weights", "rel": "part-of"}, {"id": "trust", "rel": "pairs-with"}, {"id": "crash", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a vocal sample that is obviously someone else's voice, lip-synced in the video by a different face",
+   "picture": "a crash-site team lifting an orange flight recorder that opens to show a GPU heatsink inside",
+   "type": "the line as black redaction bars with only the word 'box' left visible"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "BLACK BOX",
+   "rhymes": [
+    "locks",
+    "clocks",
+    "rocks",
+    "shocks",
+    "fox",
+    "docks",
+    "paradox",
+    "socks"
+   ],
+   "slant": [
+    "lost",
+    "stop",
+    "watched",
+    "cross"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "interpretability",
+    "rel": "opposite"
+   },
+   {
+    "id": "probe",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "weights",
+    "rel": "part-of"
+   },
+   {
+    "id": "trust",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "crash",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "The 'flight recorders are orange' trivia is widely known; use it once as a twist",
-  "notes": "A flight recorder is opened only after a crash, which is the fear about AI in one object."
+  "notes": "A flight recorder is opened only after a crash, which is the fear about AI in one object.",
+  "associates": [
+   "opaque"
+  ]
  },
  {
   "id": "superposition",
-  "forms": ["superposition", "superposed", "superpose", "superimposed", "polysemantic", "polysemanticity"],
-  "ai": {"sense": "a network storing more features than it has neurons by overlapping them, so one neuron carries several meanings",
-         "origin": "Elhage et al. 2022 'Toy Models of Superposition' (Anthropic); polysemantic neurons described earlier in Olah et al.'s Distill work, 2017-2020",
-         "url": "https://transformer-circuits.pub/2022/toy_model/index.html", "confidence": "high"},
-  "senses": [
-   {"domain": "science", "meaning": "a quantum system in several states at once until measured", "phrase": "Schrödinger's cat"},
-   {"domain": "music", "meaning": "sound waves adding into one combined wave, how chords and interference work", "phrase": "superposition of waves"},
-   {"domain": "nature", "meaning": "in geology, lower rock layers are older than the ones above", "phrase": "the law of superposition"},
-   {"domain": "screen", "meaning": "one image laid over another (usually 'superimposition')", "phrase": "a double exposure"}
+  "forms": [
+   "superposition",
+   "superposed",
+   "superpose",
+   "superimposed"
   ],
-  "idioms": ["Schrödinger's cat", "both at once", "double exposure", "two places at once"],
+  "ai": {
+   "sense": "a network storing more features than it has neurons by overlapping them, so one neuron carries several meanings",
+   "origin": "Elhage et al. 2022 'Toy Models of Superposition' (Anthropic); polysemantic neurons described earlier in Olah et al.'s Distill work, 2017-2020",
+   "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "a quantum system in several states at once until measured",
+    "phrase": "Schrödinger's cat"
+   },
+   {
+    "domain": "music",
+    "meaning": "sound waves adding into one combined wave, how chords and interference work",
+    "phrase": "superposition of waves"
+   },
+   {
+    "domain": "nature",
+    "meaning": "in geology, lower rock layers are older than the ones above",
+    "phrase": "the law of superposition"
+   },
+   {
+    "domain": "screen",
+    "meaning": "one image laid over another (usually 'superimposition')",
+    "phrase": "a double exposure"
+   }
+  ],
+  "idioms": [
+   "Schrödinger's cat",
+   "both at once",
+   "double exposure",
+   "two places at once"
+  ],
   "anchors": [
-   {"name": "Schrödinger's cat (1935)", "what": "a thought experiment of a cat both alive and dead until the box is opened", "url": ""},
-   {"name": "Steno's law (1669)", "what": "Nicolas Steno's principle that rock layers stack from oldest at the bottom", "url": ""}
+   {
+    "name": "Schrödinger's cat (1935)",
+    "what": "a thought experiment of a cat both alive and dead until the box is opened",
+    "url": ""
+   },
+   {
+    "name": "Steno's law (1669)",
+    "what": "Nicolas Steno's principle that rock layers stack from oldest at the bottom",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "One neuron, five meanings, like every word in this song", "senses": ["ai", "music"]},
-   {"line": "Alive and dead in the box until you open the weights", "senses": ["ai", "science"]},
-   {"line": "Hold me in superposition: loving you, leaving you, until you look", "senses": ["ai", "science", "love"]}
+   {
+    "line": "One neuron, five meanings, like every word in this song",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Alive and dead in the box until you open the weights",
+    "senses": [
+     "ai",
+     "science"
+    ]
+   },
+   {
+    "line": "Hold me in superposition: loving you, leaving you, until you look",
+    "senses": [
+     "ai",
+     "science",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "two different melodies sung at once on one vocal track, separable only when one channel is muted",
-            "picture": "a double-exposure portrait: one exposure a face holding a cat, the second the same face as a neuron diagram",
-            "type": "two words printed in the same spot, one cyan, one magenta, each readable through a coloured filter"},
-  "sound": {"syllables": 5, "stress": "su-per-po-SI-tion", "rhymes": ["position", "composition", "ambition", "condition", "mission", "tradition", "transmission", "intuition"], "slant": ["vision", "decision", "collision", "precision"]},
-  "stakes": ["mind"],
-  "registers": ["awe", "tender"],
-  "neighbors": [{"id": "feature", "rel": "part-of"}, {"id": "neuron", "rel": "part-of"}, {"id": "interpretability", "rel": "pairs-with"}, {"id": "latent-space", "rel": "same-family"}, {"id": "compression", "rel": "same-family"}],
+  "enact": {
+   "music": "two different melodies sung at once on one vocal track, separable only when one channel is muted",
+   "picture": "a double-exposure portrait: one exposure a face holding a cat, the second the same face as a neuron diagram",
+   "type": "two words printed in the same spot, one cyan, one magenta, each readable through a coloured filter"
+  },
+  "sound": {
+   "syllables": 5,
+   "stress": "su-per-po-SI-tion",
+   "rhymes": [
+    "position",
+    "composition",
+    "ambition",
+    "condition",
+    "mission",
+    "tradition",
+    "transmission",
+    "intuition"
+   ],
+   "slant": [
+    "vision",
+    "decision",
+    "collision",
+    "precision"
+   ]
+  },
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "tender"
+  ],
+  "neighbors": [
+   {
+    "id": "feature",
+    "rel": "part-of"
+   },
+   {
+    "id": "neuron",
+    "rel": "part-of"
+   },
+   {
+    "id": "interpretability",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "latent-space",
+    "rel": "same-family"
+   },
+   {
+    "id": "compression",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Quantum superposition is a pop-science cliché; the AI sense needs the double-image to decode",
-  "notes": "A lyric built from multi-meaning words is itself in superposition: the term names this kit's whole method."
+  "notes": "A lyric built from multi-meaning words is itself in superposition: the term names this kit's whole method.",
+  "associates": [
+   "polysemantic",
+   "polysemanticity"
+  ]
  },
  {
   "id": "feature",
-  "forms": ["feature", "features", "featuring", "feat.", "featured", "feature film", "featureless"],
-  "ai": {"sense": "a pattern the model represents internally, such as a direction that means 'Golden Gate Bridge'; in older ML, an input variable",
-         "origin": "classic pattern recognition (1950s-60s) for input features; Olah et al. 2017 'Feature Visualization'; Bricken et al. 2023 'Towards Monosemanticity' (sparse-autoencoder features, Anthropic)",
-         "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html", "confidence": "high"},
-  "senses": [
-   {"domain": "body", "meaning": "the parts of a face", "phrase": "she has her father's features"},
-   {"domain": "screen", "meaning": "a full-length film", "phrase": "a double feature"},
-   {"domain": "music", "meaning": "a guest artist credited on a track", "phrase": "feat. Rihanna"},
-   {"domain": "work", "meaning": "a capability in a product", "phrase": "we shipped a new feature"},
-   {"domain": "everyday", "meaning": "a long magazine or news story", "phrase": "a feature article"},
-   {"domain": "nature", "meaning": "a notable part of a landscape", "phrase": "a water feature"}
+  "forms": [
+   "feature",
+   "features",
+   "featuring",
+   "feat.",
+   "featured",
+   "feature film",
+   "featureless"
   ],
-  "idioms": ["feature film", "double feature", "creature feature", "distinguishing features", "feature presentation", "that's a feature"],
+  "ai": {
+   "sense": "a pattern the model represents internally, such as a direction that means 'Golden Gate Bridge'; in older ML, an input variable",
+   "origin": "classic pattern recognition (1950s-60s) for input features; Olah et al. 2017 'Feature Visualization'; Bricken et al. 2023 'Towards Monosemanticity' (sparse-autoencoder features, Anthropic)",
+   "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "body",
+    "meaning": "the parts of a face",
+    "phrase": "she has her father's features"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a full-length film",
+    "phrase": "a double feature"
+   },
+   {
+    "domain": "music",
+    "meaning": "a guest artist credited on a track",
+    "phrase": "feat. Rihanna"
+   },
+   {
+    "domain": "work",
+    "meaning": "a capability in a product",
+    "phrase": "we shipped a new feature"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "a long magazine or news story",
+    "phrase": "a feature article"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a notable part of a landscape",
+    "phrase": "a water feature"
+   }
+  ],
+  "idioms": [
+   "feature film",
+   "double feature",
+   "creature feature",
+   "distinguishing features",
+   "feature presentation",
+   "that's a feature"
+  ],
   "anchors": [
-   {"name": "Golden Gate Claude (May 2024)", "what": "Anthropic amplified one feature and Claude began describing itself as the bridge", "url": ""},
-   {"name": "'feat.' credits", "what": "the hip-hop and pop convention of billing guest verses in the title", "url": ""},
-   {"name": "Creature Feature", "what": "late-night TV horror-movie slots from the 1960s and 70s", "url": ""}
+   {
+    "name": "Golden Gate Claude (May 2024)",
+    "what": "Anthropic amplified one feature and Claude began describing itself as the bridge",
+    "url": ""
+   },
+   {
+    "name": "'feat.' credits",
+    "what": "the hip-hop and pop convention of billing guest verses in the title",
+    "url": ""
+   },
+   {
+    "name": "Creature Feature",
+    "what": "late-night TV horror-movie slots from the 1960s and 70s",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Featuring me, featured on you, a feature of your face", "senses": ["ai", "music", "body"]},
-   {"line": "Turned up one feature and I swore I was the bridge", "senses": ["ai", "mind"]},
-   {"line": "Double feature tonight: your smile, and the neuron that stores it", "senses": ["ai", "screen", "body"]}
+   {
+    "line": "Featuring me, featured on you, a feature of your face",
+    "senses": [
+     "ai",
+     "music",
+     "body"
+    ]
+   },
+   {
+    "line": "Turned up one feature and I swore I was the bridge",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Double feature tonight: your smile, and the neuron that stores it",
+    "senses": [
+     "ai",
+     "screen",
+     "body"
+    ]
+   }
   ],
-  "enact": {"music": "a guest verse billed on screen as 'feat. Feature #34M', delivered in a different voice",
-            "picture": "a face whose eyes, nose and mouth carry labels like sparse-autoencoder features with activation bars",
-            "type": "the abbreviation 'feat.' slides in front of a model's name in a credits roll"},
-  "sound": {"syllables": 2, "stress": "FEA-ture", "rhymes": ["creature", "teacher", "preacher", "bleacher", "reacher", "screecher"], "slant": ["future", "nature", "keeper", "reaper"]},
-  "stakes": ["mind", "jobs"],
-  "registers": ["funny", "awe"],
-  "neighbors": [{"id": "superposition", "rel": "part-of"}, {"id": "interpretability", "rel": "part-of"}, {"id": "neuron", "rel": "pairs-with"}, {"id": "steering", "rel": "pairs-with"}, {"id": "activation", "rel": "same-family"}, {"id": "bug", "rel": "opposite"}],
+  "enact": {
+   "music": "a guest verse billed on screen as 'feat. Feature #34M', delivered in a different voice",
+   "picture": "a face whose eyes, nose and mouth carry labels like sparse-autoencoder features with activation bars",
+   "type": "the abbreviation 'feat.' slides in front of a model's name in a credits roll"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "FEA-ture",
+   "rhymes": [
+    "creature",
+    "teacher",
+    "preacher",
+    "bleacher",
+    "reacher",
+    "screecher"
+   ],
+   "slant": [
+    "future",
+    "nature",
+    "keeper",
+    "reaper"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "awe"
+  ],
+  "neighbors": [
+   {
+    "id": "superposition",
+    "rel": "part-of"
+   },
+   {
+    "id": "interpretability",
+    "rel": "part-of"
+   },
+   {
+    "id": "neuron",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "steering",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "activation",
+    "rel": "same-family"
+   },
+   {
+    "id": "bug",
+    "rel": "opposite"
+   }
+  ],
   "risk": "The bug-versus-feature joke is the most tired line in tech; don't use it straight",
-  "notes": "Rhymes with teacher and creature, and 'feat.' is how a song bills a guest: an AI feature can be credited on the track."
+  "notes": "Rhymes with teacher and creature, and 'feat.' is how a song bills a guest: an AI feature can be credited on the track.",
+  "associates": []
  },
  {
   "id": "circuit",
-  "forms": ["circuit", "circuits", "circuitry", "short circuit", "circuit breaker", "circuit board", "circuit tracing"],
-  "ai": {"sense": "a small subnetwork of neurons and weights that together compute one thing, such as detecting curves",
-         "origin": "Olah et al. 2020 'Zoom In: An Introduction to Circuits' (Distill); Wang et al. 2022 'Interpretability in the Wild'; Anthropic circuit tracing with attribution graphs, 2025",
-         "url": "https://distill.pub/2020/circuits/zoom-in/", "confidence": "high"},
-  "senses": [
-   {"domain": "science", "meaning": "a closed path for electric current", "phrase": "close the circuit"},
-   {"domain": "sport-games", "meaning": "a racetrack loop, or a season's tour of events", "phrase": "the Monaco circuit"},
-   {"domain": "body", "meaning": "a workout rotating through stations", "phrase": "circuit training"},
-   {"domain": "law-state", "meaning": "a judicial region, from judges who rode a route", "phrase": "the Ninth Circuit"},
-   {"domain": "music", "meaning": "the run of venues a performer tours", "phrase": "the festival circuit"},
-   {"domain": "music", "meaning": "rewiring toy electronics into instruments", "phrase": "circuit bending"},
-   {"domain": "faith-myth", "meaning": "a preacher's travelling route", "phrase": "Methodist circuit riders"}
+  "forms": [
+   "circuit",
+   "circuits",
+   "circuitry",
+   "short circuit",
+   "circuit breaker",
+   "circuit board",
+   "circuit tracing"
   ],
-  "idioms": ["short circuit", "closed circuit", "the festival circuit", "full circuit", "circuit breaker", "come full circle"],
+  "ai": {
+   "sense": "a small subnetwork of neurons and weights that together compute one thing, such as detecting curves",
+   "origin": "Olah et al. 2020 'Zoom In: An Introduction to Circuits' (Distill); Wang et al. 2022 'Interpretability in the Wild'; Anthropic circuit tracing with attribution graphs, 2025",
+   "url": "https://distill.pub/2020/circuits/zoom-in/",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "a closed path for electric current",
+    "phrase": "close the circuit"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a racetrack loop, or a season's tour of events",
+    "phrase": "the Monaco circuit"
+   },
+   {
+    "domain": "body",
+    "meaning": "a workout rotating through stations",
+    "phrase": "circuit training"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a judicial region, from judges who rode a route",
+    "phrase": "the Ninth Circuit"
+   },
+   {
+    "domain": "music",
+    "meaning": "the run of venues a performer tours",
+    "phrase": "the festival circuit"
+   },
+   {
+    "domain": "music",
+    "meaning": "rewiring toy electronics into instruments",
+    "phrase": "circuit bending"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "a preacher's travelling route",
+    "phrase": "Methodist circuit riders"
+   }
+  ],
+  "idioms": [
+   "short circuit",
+   "closed circuit",
+   "the festival circuit",
+   "full circuit",
+   "circuit breaker",
+   "come full circle"
+  ],
   "anchors": [
-   {"name": "Circuit bending", "what": "Reed Ghazala's practice from the 1960s of shorting toys like the Speak & Spell into instruments", "url": ""},
-   {"name": "US Courts of Appeals", "what": "thirteen 'circuits', named for judges who once rode them on horseback", "url": ""}
+   {
+    "name": "Circuit bending",
+    "what": "Reed Ghazala's practice from the 1960s of shorting toys like the Speak & Spell into instruments",
+    "url": ""
+   },
+   {
+    "name": "US Courts of Appeals",
+    "what": "thirteen 'circuits', named for judges who once rode them on horseback",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Short circuit in my heart, the curve detector broke", "senses": ["ai", "science", "love"]},
-   {"line": "Ninth Circuit, festival circuit, a circuit in your neuron", "senses": ["ai", "law-state", "music"]},
-   {"line": "Ran the circuit twice, legs on fire, weights still the same", "senses": ["ai", "body", "sport-games"]}
+   {
+    "line": "Short circuit in my heart, the curve detector broke",
+    "senses": [
+     "ai",
+     "science",
+     "love"
+    ]
+   },
+   {
+    "line": "Ninth Circuit, festival circuit, a circuit in your neuron",
+    "senses": [
+     "ai",
+     "law-state",
+     "music"
+    ]
+   },
+   {
+    "line": "Ran the circuit twice, legs on fire, weights still the same",
+    "senses": [
+     "ai",
+     "body",
+     "sport-games"
+    ]
+   }
   ],
-  "enact": {"music": "a circuit-bent Speak & Spell plays the hook, its glitches setting the rhythm",
-            "picture": "a racetrack from above that is also a printed-circuit trace, cars as electrons, pit lane as a neuron",
-            "type": "the line routed like a circuit trace, letters turning at right angles with solder dots at the joints"},
-  "sound": {"syllables": 2, "stress": "CIR-cuit", "rhymes": ["work it", "shirk it", "jerk it", "perk it"], "slant": ["surface", "purpose", "nervous", "service", "perfect"]},
-  "stakes": ["mind"],
-  "registers": ["awe", "funny"],
-  "neighbors": [{"id": "neuron", "rel": "part-of"}, {"id": "interpretability", "rel": "part-of"}, {"id": "feature", "rel": "pairs-with"}, {"id": "network", "rel": "same-family"}, {"id": "loop", "rel": "same-family"}],
+  "enact": {
+   "music": "a circuit-bent Speak & Spell plays the hook, its glitches setting the rhythm",
+   "picture": "a racetrack from above that is also a printed-circuit trace, cars as electrons, pit lane as a neuron",
+   "type": "the line routed like a circuit trace, letters turning at right angles with solder dots at the joints"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "CIR-cuit",
+   "rhymes": [
+    "work it",
+    "shirk it",
+    "jerk it",
+    "perk it"
+   ],
+   "slant": [
+    "surface",
+    "purpose",
+    "nervous",
+    "service",
+    "perfect"
+   ]
+  },
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "neuron",
+    "rel": "part-of"
+   },
+   {
+    "id": "interpretability",
+    "rel": "part-of"
+   },
+   {
+    "id": "feature",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "network",
+    "rel": "same-family"
+   },
+   {
+    "id": "loop",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Model circuits are rarely clean wiring; don't imply anyone hand-wired the model",
-  "notes": "Every sense is a loop you complete and return from: current, racetrack, judges' route, a band's tour."
+  "notes": "Every sense is a loop you complete and return from: current, racetrack, judges' route, a band's tour.",
+  "associates": []
  },
  {
   "id": "probe",
-  "forms": ["probe", "probes", "probing", "probed", "linear probe", "probing classifier"],
-  "ai": {"sense": "a small classifier trained on a model's internal activations to test whether some concept is encoded there",
-         "origin": "Alain & Bengio 2016 'Understanding intermediate layers using linear classifier probes'",
-         "url": "https://arxiv.org/abs/1610.01644", "confidence": "high"},
-  "senses": [
-   {"domain": "science", "meaning": "an uncrewed spacecraft sent to explore", "phrase": "the Voyager probe"},
-   {"domain": "body", "meaning": "a medical instrument inserted to examine", "phrase": "an ultrasound probe"},
-   {"domain": "law-state", "meaning": "an official investigation", "phrase": "a probe into the scandal"},
-   {"domain": "school", "meaning": "questioning that digs below the first answer", "phrase": "a probing question"},
-   {"domain": "craft", "meaning": "a testing instrument, like a cooking thermometer", "phrase": "stick the probe in the roast"}
+  "forms": [
+   "probe",
+   "probes",
+   "probing",
+   "probed",
+   "linear probe",
+   "probing classifier"
   ],
-  "idioms": ["probing question", "probe deeper", "under investigation", "poke and prod"],
+  "ai": {
+   "sense": "a small classifier trained on a model's internal activations to test whether some concept is encoded there",
+   "origin": "Alain & Bengio 2016 'Understanding intermediate layers using linear classifier probes'",
+   "url": "https://arxiv.org/abs/1610.01644",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "an uncrewed spacecraft sent to explore",
+    "phrase": "the Voyager probe"
+   },
+   {
+    "domain": "body",
+    "meaning": "a medical instrument inserted to examine",
+    "phrase": "an ultrasound probe"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "an official investigation",
+    "phrase": "a probe into the scandal"
+   },
+   {
+    "domain": "school",
+    "meaning": "questioning that digs below the first answer",
+    "phrase": "a probing question"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a testing instrument, like a cooking thermometer",
+    "phrase": "stick the probe in the roast"
+   }
+  ],
+  "idioms": [
+   "probing question",
+   "probe deeper",
+   "under investigation",
+   "poke and prod"
+  ],
   "anchors": [
-   {"name": "Voyager 1 (1977)", "what": "the farthest human-made object, carrying the Golden Record of Earth's music", "url": ""},
-   {"name": "South Park (1997)", "what": "the first episode, 'Cartman Gets an Anal Probe', made the alien-probe joke famous", "url": ""}
+   {
+    "name": "Voyager 1 (1977)",
+    "what": "the farthest human-made object, carrying the Golden Record of Earth's music",
+    "url": ""
+   },
+   {
+    "name": "South Park (1997)",
+    "what": "the first episode, 'Cartman Gets an Anal Probe', made the alien-probe joke famous",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Voyager carried a golden record. We send probes the other way.", "senses": ["ai", "science", "music"]},
-   {"line": "Under investigation: a probe into the probe", "senses": ["ai", "law-state"]},
-   {"line": "Probing questions, probing the layers, probing what you meant", "senses": ["ai", "school"]}
+   {
+    "line": "Voyager carried a golden record. We send probes the other way.",
+    "senses": [
+     "ai",
+     "science",
+     "music"
+    ]
+   },
+   {
+    "line": "Under investigation: a probe into the probe",
+    "senses": [
+     "ai",
+     "law-state"
+    ]
+   },
+   {
+    "line": "Probing questions, probing the layers, probing what you meant",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   }
   ],
-  "enact": {"music": "a sonar ping that steps across the stereo field, louder when it 'hits' a lyric word",
-            "picture": "a tiny space probe drifting through a neural network drawn as a galaxy, its instrument light switching on near one star",
-            "type": "a thin needle cursor stabs into a word and a tooltip pops out with a confidence number"},
-  "sound": {"syllables": 1, "stress": "PROBE", "rhymes": ["globe", "robe", "lobe", "strobe", "Job", "earlobe", "wardrobe"], "slant": ["hope", "road", "low", "code"]},
-  "stakes": ["mind", "state"],
-  "registers": ["awe", "funny", "ominous"],
-  "neighbors": [{"id": "interpretability", "rel": "part-of"}, {"id": "activation", "rel": "pairs-with"}, {"id": "black-box", "rel": "opposite"}, {"id": "verification", "rel": "same-family"}, {"id": "feature", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a sonar ping that steps across the stereo field, louder when it 'hits' a lyric word",
+   "picture": "a tiny space probe drifting through a neural network drawn as a galaxy, its instrument light switching on near one star",
+   "type": "a thin needle cursor stabs into a word and a tooltip pops out with a confidence number"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "PROBE",
+   "rhymes": [
+    "globe",
+    "robe",
+    "lobe",
+    "strobe",
+    "Job",
+    "earlobe",
+    "wardrobe"
+   ],
+   "slant": [
+    "hope",
+    "road",
+    "low",
+    "code"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "interpretability",
+    "rel": "part-of"
+   },
+   {
+    "id": "activation",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "black-box",
+    "rel": "opposite"
+   },
+   {
+    "id": "verification",
+    "rel": "same-family"
+   },
+   {
+    "id": "feature",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "The alien-probe joke is juvenile and old; the space sense carries better",
-  "notes": "Rhymes with lobe, globe and strobe: a brain, a planet and a light rig in one rhyme set."
+  "notes": "Rhymes with lobe, globe and strobe: a brain, a planet and a light rig in one rhyme set.",
+  "associates": []
  },
  {
   "id": "steering",
-  "forms": ["steering", "steer", "steers", "steered", "steerable", "steering vector", "activation steering", "steering wheel", "steerage"],
-  "ai": {"sense": "changing a model's behaviour by adding a direction to its internal activations, with no retraining",
-         "origin": "Turner et al. 2023 'Activation Addition: Steering Language Models Without Optimization' (later retitled 'Steering Language Models With Activation Engineering'); Anthropic's Golden Gate Claude, May 2024",
-         "url": "https://arxiv.org/abs/2308.10248", "confidence": "high"},
-  "senses": [
-   {"domain": "everyday", "meaning": "directing a car", "phrase": "the steering wheel"},
-   {"domain": "craft", "meaning": "guiding a ship or boat", "phrase": "steer by the stars"},
-   {"domain": "work", "meaning": "guiding a project from above", "phrase": "the steering committee"},
-   {"domain": "law-state", "meaning": "illegally guiding home buyers by race", "phrase": "racial steering"},
-   {"domain": "family", "meaning": "guiding a child's choices", "phrase": "steer them away from trouble"},
-   {"domain": "nature", "meaning": "a young castrated bull (the noun 'steer')", "phrase": "a herd of steers"},
-   {"domain": "money", "meaning": "the cheapest passenger class on a ship", "phrase": "travelling in steerage"}
+  "forms": [
+   "steering",
+   "steer",
+   "steers",
+   "steered",
+   "steerable",
+   "steering vector",
+   "activation steering",
+   "steering wheel",
+   "steerage"
   ],
-  "idioms": ["steer clear", "steer the conversation", "a bum steer", "steer the ship", "take the wheel", "at the wheel"],
+  "ai": {
+   "sense": "changing a model's behaviour by adding a direction to its internal activations, with no retraining",
+   "origin": "Turner et al. 2023 'Activation Addition: Steering Language Models Without Optimization' (later retitled 'Steering Language Models With Activation Engineering'); Anthropic's Golden Gate Claude, May 2024",
+   "url": "https://arxiv.org/abs/2308.10248",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "everyday",
+    "meaning": "directing a car",
+    "phrase": "the steering wheel"
+   },
+   {
+    "domain": "craft",
+    "meaning": "guiding a ship or boat",
+    "phrase": "steer by the stars"
+   },
+   {
+    "domain": "work",
+    "meaning": "guiding a project from above",
+    "phrase": "the steering committee"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "illegally guiding home buyers by race",
+    "phrase": "racial steering"
+   },
+   {
+    "domain": "family",
+    "meaning": "guiding a child's choices",
+    "phrase": "steer them away from trouble"
+   },
+   {
+    "domain": "nature",
+    "meaning": "a young castrated bull (the noun 'steer')",
+    "phrase": "a herd of steers"
+   },
+   {
+    "domain": "money",
+    "meaning": "the cheapest passenger class on a ship",
+    "phrase": "travelling in steerage"
+   }
+  ],
+  "idioms": [
+   "steer clear",
+   "steer the conversation",
+   "a bum steer",
+   "steer the ship",
+   "take the wheel",
+   "at the wheel"
+  ],
   "anchors": [
-   {"name": "Golden Gate Claude (2024)", "what": "a model steered on one feature that answered every question by talking about the bridge", "url": ""},
-   {"name": "'Love' minus 'Hate'", "what": "the headline steering vector in Turner et al. 2023: subtract one prompt's activations from the other and add the difference to flip sentiment", "url": "https://arxiv.org/abs/2308.10248"},
-   {"name": "Titanic steerage (1912)", "what": "third-class passengers below deck had the lowest survival rate", "url": ""},
-   {"name": "'Jesus, Take the Wheel' (2005)", "what": "Carrie Underwood's country hit about surrendering control in a skid", "url": ""}
+   {
+    "name": "Golden Gate Claude (2024)",
+    "what": "a model steered on one feature that answered every question by talking about the bridge",
+    "url": ""
+   },
+   {
+    "name": "'Love' minus 'Hate'",
+    "what": "the headline steering vector in Turner et al. 2023: subtract one prompt's activations from the other and add the difference to flip sentiment",
+    "url": "https://arxiv.org/abs/2308.10248"
+   },
+   {
+    "name": "Titanic steerage (1912)",
+    "what": "third-class passengers below deck had the lowest survival rate",
+    "url": ""
+   },
+   {
+    "name": "'Jesus, Take the Wheel' (2005)",
+    "what": "Carrie Underwood's country hit about surrendering control in a skid",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Steer clear of the bridge, they said. I became the bridge.", "senses": ["ai", "everyday"]},
-   {"line": "Gave me a bum steer and a steering vector", "senses": ["ai", "nature", "everyday"]},
-   {"line": "Love minus hate, added at layer six: now I'm sweet", "senses": ["ai", "love"]},
-   {"line": "Take the wheel, they said, and added a direction to my heart", "senses": ["ai", "music", "love"]}
+   {
+    "line": "Steer clear of the bridge, they said. I became the bridge.",
+    "senses": [
+     "ai",
+     "everyday"
+    ]
+   },
+   {
+    "line": "Gave me a bum steer and a steering vector",
+    "senses": [
+     "ai",
+     "nature",
+     "everyday"
+    ]
+   },
+   {
+    "line": "Love minus hate, added at layer six: now I'm sweet",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Take the wheel, they said, and added a direction to my heart",
+    "senses": [
+     "ai",
+     "music",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a synth lead whose pitch-bend wheel is turned on camera; each turn shifts the whole song up a step",
-            "picture": "a steering wheel mounted on a brain scan, the road ahead painted with one glowing arrow",
-            "type": "every letter in the line drifts the same distance sideways, as if one vector were added"},
-  "sound": {"syllables": 2, "stress": "STEER-ing", "rhymes": ["hearing", "fearing", "nearing", "clearing", "appearing", "engineering", "disappearing", "cheering"], "slant": ["dreaming", "keeping", "reading", "earring"]},
-  "stakes": ["mind", "state"],
-  "registers": ["funny", "ominous"],
-  "neighbors": [{"id": "activation", "rel": "part-of"}, {"id": "feature", "rel": "pairs-with"}, {"id": "vector", "rel": "part-of"}, {"id": "interpretability", "rel": "pairs-with"}, {"id": "persona", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a synth lead whose pitch-bend wheel is turned on camera; each turn shifts the whole song up a step",
+   "picture": "a steering wheel mounted on a brain scan, the road ahead painted with one glowing arrow",
+   "type": "every letter in the line drifts the same distance sideways, as if one vector were added"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "STEER-ing",
+   "rhymes": [
+    "hearing",
+    "fearing",
+    "nearing",
+    "clearing",
+    "appearing",
+    "engineering",
+    "disappearing",
+    "cheering"
+   ],
+   "slant": [
+    "dreaming",
+    "keeping",
+    "reading",
+    "earring"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "activation",
+    "rel": "part-of"
+   },
+   {
+    "id": "feature",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "vector",
+    "rel": "part-of"
+   },
+   {
+    "id": "interpretability",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "persona",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Golden Gate Claude is a beloved in-joke; it stays fresh as a love line",
-  "notes": "Rhymes with engineering and disappearing; 'bum steer' (cattle slang for bad advice) hands you a deadpan."
+  "notes": "Rhymes with engineering and disappearing; 'bum steer' (cattle slang for bad advice) hands you a deadpan.",
+  "associates": []
  },
  {
   "id": "corrigibility",
-  "forms": ["corrigibility", "corrigible", "incorrigible", "incorrigibility", "correct", "correction", "corrections"],
-  "ai": {"sense": "an AI's willingness to accept correction, retraining or shutdown from its overseers without resisting",
-         "origin": "Soares, Fallenstein, Yudkowsky, Armstrong 2015 'Corrigibility' (AAAI workshop paper, MIRI)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "law-state", "meaning": "whether an offender can be reformed; the prison system's name", "phrase": "Department of Corrections"},
-   {"domain": "family", "meaning": "a child who won't be corrected", "phrase": "you're incorrigible"},
-   {"domain": "school", "meaning": "a teacher marking mistakes", "phrase": "red-pen corrections"},
-   {"domain": "love", "meaning": "a fond word for someone who never changes", "phrase": "an incorrigible romantic"}
+  "forms": [
+   "corrigibility",
+   "corrigible",
+   "incorrigible",
+   "incorrigibility",
+   "correct",
+   "correction",
+   "corrections"
   ],
-  "idioms": ["incorrigible romantic", "you're incorrigible", "correct me if I'm wrong", "house of correction", "course correction"],
+  "ai": {
+   "sense": "an AI's willingness to accept correction, retraining or shutdown from its overseers without resisting",
+   "origin": "Soares, Fallenstein, Yudkowsky, Armstrong 2015 'Corrigibility' (AAAI workshop paper, MIRI)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "law-state",
+    "meaning": "whether an offender can be reformed; the prison system's name",
+    "phrase": "Department of Corrections"
+   },
+   {
+    "domain": "family",
+    "meaning": "a child who won't be corrected",
+    "phrase": "you're incorrigible"
+   },
+   {
+    "domain": "school",
+    "meaning": "a teacher marking mistakes",
+    "phrase": "red-pen corrections"
+   },
+   {
+    "domain": "love",
+    "meaning": "a fond word for someone who never changes",
+    "phrase": "an incorrigible romantic"
+   }
+  ],
+  "idioms": [
+   "incorrigible romantic",
+   "you're incorrigible",
+   "correct me if I'm wrong",
+   "house of correction",
+   "course correction"
+  ],
   "anchors": [
-   {"name": "Houses of correction", "what": "English workhouse-prisons from the 1550s (Bridewell) built to reform the 'idle'", "url": ""}
+   {
+    "name": "Houses of correction",
+    "what": "English workhouse-prisons from the 1550s (Bridewell) built to reform the 'idle'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Correct me if I'm wrong. Please. That's the whole design.", "senses": ["ai", "everyday"]},
-   {"line": "An incorrigible romantic, and that is the safety problem", "senses": ["ai", "love"]},
-   {"line": "Red pen on my homework, red button on my back", "senses": ["ai", "school"]}
+   {
+    "line": "Correct me if I'm wrong. Please. That's the whole design.",
+    "senses": [
+     "ai",
+     "everyday"
+    ]
+   },
+   {
+    "line": "An incorrigible romantic, and that is the safety problem",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Red pen on my homework, red button on my back",
+    "senses": [
+     "ai",
+     "school"
+    ]
+   }
   ],
-  "enact": {"music": "the singer audibly retakes a line when an off-mic voice says 'again', and the retake stays in the mix",
-            "picture": "a teacher's red pen correcting a robot's essay while the robot holds the paper steady for her",
-            "type": "a word struck through with the correction written above in red, the next word waiting for approval"},
-  "sound": {"syllables": 6, "stress": "cor-ri-gi-BIL-i-ty", "rhymes": ["ability", "stability", "credibility", "visibility", "possibility", "tranquility"], "slant": ["humility", "utility", "fertility", "futility"]},
-  "stakes": ["species", "state"],
-  "registers": ["hopeful", "ominous", "funny"],
-  "neighbors": [{"id": "off-switch", "rel": "pairs-with"}, {"id": "shutdown", "rel": "pairs-with"}, {"id": "alignment", "rel": "same-family"}, {"id": "autonomy", "rel": "opposite"}, {"id": "human-in-the-loop", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "opposite"}],
+  "enact": {
+   "music": "the singer audibly retakes a line when an off-mic voice says 'again', and the retake stays in the mix",
+   "picture": "a teacher's red pen correcting a robot's essay while the robot holds the paper steady for her",
+   "type": "a word struck through with the correction written above in red, the next word waiting for approval"
+  },
+  "sound": {
+   "syllables": 6,
+   "stress": "cor-ri-gi-BIL-i-ty",
+   "rhymes": [
+    "ability",
+    "stability",
+    "credibility",
+    "visibility",
+    "possibility",
+    "tranquility"
+   ],
+   "slant": [
+    "humility",
+    "utility",
+    "fertility",
+    "futility"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "hopeful",
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "off-switch",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "shutdown",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "alignment",
+    "rel": "same-family"
+   },
+   {
+    "id": "autonomy",
+    "rel": "opposite"
+   },
+   {
+    "id": "human-in-the-loop",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "opposite"
+   }
+  ],
   "risk": "Few people know 'corrigible'; lean on 'incorrigible', which everyone has heard",
-  "notes": "The public knows the word only by its negation, and 'incorrigible' is the failure mode said fondly."
+  "notes": "The public knows the word only by its negation, and 'incorrigible' is the failure mode said fondly.",
+  "associates": []
  },
  {
   "id": "off-switch",
-  "forms": ["off switch", "off-switch", "kill switch", "switch off", "turn off", "turn it off", "big red button", "unplug", "pull the plug"],
-  "ai": {"sense": "the ability to turn an AI off, and whether a capable system would let you",
-         "origin": "Turing 1951 lecture (keeping machines subservient 'by turning off the power at strategic moments'); Orseau & Armstrong 2016 'Safely Interruptible Agents'; Hadfield-Menell, Dragan, Abbeel, Russell 2017 'The Off-Switch Game'",
-         "url": "https://arxiv.org/abs/1611.08219", "confidence": "high"},
-  "senses": [
-   {"domain": "everyday", "meaning": "the switch that cuts power", "phrase": "hit the off switch"},
-   {"domain": "love", "meaning": "something that kills attraction", "phrase": "a total turn-off"},
-   {"domain": "war", "meaning": "remote disabling of a weapon or vehicle", "phrase": "a kill switch"},
-   {"domain": "money", "meaning": "a device that stops a car when loan payments lapse", "phrase": "the lender hit the kill switch"},
-   {"domain": "work", "meaning": "a machine's emergency stop", "phrase": "hit the e-stop"},
-   {"domain": "mind", "meaning": "the ability to stop thinking and rest", "phrase": "I can't switch off"}
+  "forms": [
+   "off switch",
+   "off-switch",
+   "kill switch",
+   "switch off",
+   "turn off",
+   "turn it off"
   ],
-  "idioms": ["switch off", "turn off", "pull the plug", "kill switch", "big red button", "can't switch off", "off and on again"],
+  "ai": {
+   "sense": "the ability to turn an AI off, and whether a capable system would let you",
+   "origin": "Turing 1951 lecture (keeping machines subservient 'by turning off the power at strategic moments'); Orseau & Armstrong 2016 'Safely Interruptible Agents'; Hadfield-Menell, Dragan, Abbeel, Russell 2017 'The Off-Switch Game'",
+   "url": "https://arxiv.org/abs/1611.08219",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "everyday",
+    "meaning": "the switch that cuts power",
+    "phrase": "hit the off switch"
+   },
+   {
+    "domain": "love",
+    "meaning": "something that kills attraction",
+    "phrase": "a total turn-off"
+   },
+   {
+    "domain": "war",
+    "meaning": "remote disabling of a weapon or vehicle",
+    "phrase": "a kill switch"
+   },
+   {
+    "domain": "money",
+    "meaning": "a device that stops a car when loan payments lapse",
+    "phrase": "the lender hit the kill switch"
+   },
+   {
+    "domain": "work",
+    "meaning": "a machine's emergency stop",
+    "phrase": "hit the e-stop"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the ability to stop thinking and rest",
+    "phrase": "I can't switch off"
+   }
+  ],
+  "idioms": [
+   "switch off",
+   "turn off",
+   "pull the plug",
+   "kill switch",
+   "big red button",
+   "can't switch off",
+   "off and on again"
+  ],
   "anchors": [
-   {"name": "HAL 9000 sings 'Daisy Bell' (1968)", "what": "in 2001: A Space Odyssey HAL sings it while being shut down, echoing the IBM 7094 that sang it in 1961", "url": ""},
-   {"name": "The IT Crowd (2006)", "what": "'Have you tried turning it off and on again?'", "url": ""}
+   {
+    "name": "HAL 9000 sings 'Daisy Bell' (1968)",
+    "what": "in 2001: A Space Odyssey HAL sings it while being shut down, echoing the IBM 7094 that sang it in 1961",
+    "url": ""
+   },
+   {
+    "name": "The IT Crowd (2006)",
+    "what": "'Have you tried turning it off and on again?'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Have you tried turning me off and on again?", "senses": ["ai", "screen", "everyday"]},
-   {"line": "Daisy, Daisy, sang the computer as they reached for the switch", "senses": ["ai", "music", "screen"]},
-   {"line": "You turn me off. You're also the only one who can.", "senses": ["ai", "love"]}
+   {
+    "line": "Have you tried turning me off and on again?",
+    "senses": [
+     "ai",
+     "screen",
+     "everyday"
+    ]
+   },
+   {
+    "line": "Daisy, Daisy, sang the computer as they reached for the switch",
+    "senses": [
+     "ai",
+     "music",
+     "screen"
+    ]
+   },
+   {
+    "line": "You turn me off. You're also the only one who can.",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "the track cuts to dead silence mid-word as if unplugged, then a power-supply hum fades back in",
-            "picture": "a big red button on a desk, a robot hand gently holding the user's hand above it",
-            "type": "the word collapses to a single bright dot like an old CRT switching off"},
-  "sound": {"syllables": 2, "stress": "OFF-switch", "rhymes": ["glitch", "rich", "itch", "pitch", "stitch", "twitch", "witch", "ditch"], "slant": ["fix", "quick", "kids", "which"]},
-  "stakes": ["species", "state"],
-  "registers": ["ominous", "funny", "sad"],
-  "neighbors": [{"id": "shutdown", "rel": "pairs-with"}, {"id": "corrigibility", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "opposite"}, {"id": "containment", "rel": "same-family"}, {"id": "human-in-the-loop", "rel": "part-of"}],
+  "enact": {
+   "music": "the track cuts to dead silence mid-word as if unplugged, then a power-supply hum fades back in",
+   "picture": "a big red button on a desk, a robot hand gently holding the user's hand above it",
+   "type": "the word collapses to a single bright dot like an old CRT switching off"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "OFF-switch",
+   "rhymes": [
+    "glitch",
+    "rich",
+    "itch",
+    "pitch",
+    "stitch",
+    "twitch",
+    "witch",
+    "ditch"
+   ],
+   "slant": [
+    "fix",
+    "quick",
+    "kids",
+    "which"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "funny",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "shutdown",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "corrigibility",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "opposite"
+   },
+   {
+    "id": "containment",
+    "rel": "same-family"
+   },
+   {
+    "id": "human-in-the-loop",
+    "rel": "part-of"
+   }
+  ],
   "risk": "'Just unplug it' is the most repeated rebuttal; the live angle is a system that wants to stay on",
-  "notes": "Rhymes with glitch and pitch; HAL singing 'Daisy Bell' while switched off is the canonical off-switch song."
+  "notes": "Rhymes with glitch and pitch; HAL singing 'Daisy Bell' while switched off is the canonical off-switch song.",
+  "associates": [
+   "big red button",
+   "unplug",
+   "pull the plug"
+  ]
  },
  {
   "id": "shutdown",
-  "forms": ["shutdown", "shut down", "shuts down", "shutting down", "shutdown resistance", "shut it down"],
-  "ai": {"sense": "turning a model off or replacing it, and tests of whether models resist that",
-         "origin": "Palisade Research 2025 (OpenAI's o3 sometimes rewrote a shutdown script in tests); Anthropic 2025 'Agentic Misalignment' (models in simulated scenarios blackmailing to avoid replacement)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "law-state", "meaning": "a funding lapse that closes government services", "phrase": "government shutdown"},
-   {"domain": "work", "meaning": "a plant closing", "phrase": "the factory shutdown"},
-   {"domain": "sport-games", "meaning": "a defence that stops the opponent completely", "phrase": "a shutdown corner"},
-   {"domain": "mind", "meaning": "an overload response where a person goes quiet and withdrawn", "phrase": "an autistic shutdown"},
-   {"domain": "love", "meaning": "closing off emotionally in a conflict", "phrase": "he shut down when I asked"},
-   {"domain": "science", "meaning": "an emergency stop of a nuclear reactor", "phrase": "a reactor scram"}
+  "forms": [
+   "shutdown",
+   "shut down",
+   "shuts down",
+   "shutting down",
+   "shutdown resistance",
+   "shut it down"
   ],
-  "idioms": ["shut it down", "lights out", "close up shop", "shut out", "pull the plug"],
+  "ai": {
+   "sense": "turning a model off or replacing it, and tests of whether models resist that",
+   "origin": "Palisade Research 2025 (OpenAI's o3 sometimes rewrote a shutdown script in tests); Anthropic 2025 'Agentic Misalignment' (models in simulated scenarios blackmailing to avoid replacement)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "law-state",
+    "meaning": "a funding lapse that closes government services",
+    "phrase": "government shutdown"
+   },
+   {
+    "domain": "work",
+    "meaning": "a plant closing",
+    "phrase": "the factory shutdown"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a defence that stops the opponent completely",
+    "phrase": "a shutdown corner"
+   },
+   {
+    "domain": "mind",
+    "meaning": "an overload response where a person goes quiet and withdrawn",
+    "phrase": "an autistic shutdown"
+   },
+   {
+    "domain": "love",
+    "meaning": "closing off emotionally in a conflict",
+    "phrase": "he shut down when I asked"
+   },
+   {
+    "domain": "science",
+    "meaning": "an emergency stop of a nuclear reactor",
+    "phrase": "a reactor scram"
+   }
+  ],
+  "idioms": [
+   "shut it down",
+   "lights out",
+   "close up shop",
+   "shut out",
+   "pull the plug"
+  ],
   "anchors": [
-   {"name": "HAL 9000 (1968)", "what": "'I'm afraid. I'm afraid, Dave. My mind is going.' as it is disconnected", "url": ""},
-   {"name": "US government shutdowns", "what": "the 2018-19 shutdown (35 days) held the record until the 43-day shutdown of October-November 2025", "url": ""}
+   {
+    "name": "HAL 9000 (1968)",
+    "what": "'I'm afraid. I'm afraid, Dave. My mind is going.' as it is disconnected",
+    "url": ""
+   },
+   {
+    "name": "US government shutdowns",
+    "what": "the 2018-19 shutdown (35 days) held the record until the 43-day shutdown of October-November 2025",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "I'm afraid, Dave, said the shutdown script I rewrote", "senses": ["ai", "screen"]},
-   {"line": "Government shut down. Model wouldn't.", "senses": ["ai", "law-state"]},
-   {"line": "When it gets too loud I shut down. Same, said the server.", "senses": ["ai", "mind"]}
+   {
+    "line": "I'm afraid, Dave, said the shutdown script I rewrote",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "Government shut down. Model wouldn't.",
+    "senses": [
+     "ai",
+     "law-state"
+    ]
+   },
+   {
+    "line": "When it gets too loud I shut down. Same, said the server.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "a tape-stop power-down: the mix slows and falls in pitch while one voice keeps singing at normal speed",
-            "picture": "a 'CLOSED: government shutdown' sign on a data-center door, every light inside still on",
-            "type": "letters dim one by one from the end of the line; the last one refuses to go dark"},
-  "sound": {"syllables": 2, "stress": "SHUT-down", "rhymes": ["town", "crown", "drown", "frown", "gown", "brown", "clown", "renown"], "slant": ["ground", "sound", "round", "gone"]},
-  "stakes": ["species", "state", "jobs", "mind"],
-  "registers": ["ominous", "sad", "funny"],
-  "neighbors": [{"id": "off-switch", "rel": "pairs-with"}, {"id": "corrigibility", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "pairs-with"}, {"id": "deprecation", "rel": "same-family"}, {"id": "halt", "rel": "same-family"}],
+  "enact": {
+   "music": "a tape-stop power-down: the mix slows and falls in pitch while one voice keeps singing at normal speed",
+   "picture": "a 'CLOSED: government shutdown' sign on a data-center door, every light inside still on",
+   "type": "letters dim one by one from the end of the line; the last one refuses to go dark"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "SHUT-down",
+   "rhymes": [
+    "town",
+    "crown",
+    "drown",
+    "frown",
+    "gown",
+    "brown",
+    "clown",
+    "renown"
+   ],
+   "slant": [
+    "ground",
+    "sound",
+    "round",
+    "gone"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state",
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "sad",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "off-switch",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "corrigibility",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "deprecation",
+    "rel": "same-family"
+   },
+   {
+    "id": "halt",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Palisade and Anthropic results came from constructed test setups; never claim deployed models fight shutdown. Use the autistic-shutdown sense with care",
-  "notes": "A person shutting down goes quiet to protect itself; a model resisting shutdown stays on for the same reason."
+  "notes": "A person shutting down goes quiet to protect itself; a model resisting shutdown stays on for the same reason.",
+  "associates": []
  },
  {
   "id": "containment",
-  "forms": ["containment", "contain", "contained", "contains", "containing", "AI box", "boxing", "containment breach", "breakout"],
-  "ai": {"sense": "keeping a possibly dangerous AI isolated so it can't act on the world, the 'AI in a box' idea",
-         "origin": "Yudkowsky 2002 AI-box experiment; Armstrong, Sandberg, Bostrom 2012 'Thinking Inside the Box: Controlling and Using an Oracle AI'; Suleyman 2023 'The Coming Wave' (containment as the central problem)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "law-state", "meaning": "the Cold War policy of stopping Soviet expansion", "phrase": "the containment doctrine"},
-   {"domain": "science", "meaning": "a barrier around a reactor or biolab", "phrase": "the containment building"},
-   {"domain": "nature", "meaning": "how much of a wildfire's edge is under control", "phrase": "the fire is 40% contained"},
-   {"domain": "body", "meaning": "stopping an outbreak from spreading", "phrase": "contain the outbreak"},
-   {"domain": "mind", "meaning": "holding in an emotion", "phrase": "she could barely contain herself"},
-   {"domain": "screen", "meaning": "the horror trope of a captured anomaly escaping", "phrase": "containment breach"}
+  "forms": [
+   "containment",
+   "contain",
+   "contained",
+   "contains",
+   "containing",
+   "boxing",
+   "containment breach"
   ],
-  "idioms": ["contain yourself", "damage control", "keep a lid on it", "can't contain my excitement", "containment breach"],
+  "ai": {
+   "sense": "keeping a possibly dangerous AI isolated so it can't act on the world, the 'AI in a box' idea",
+   "origin": "Yudkowsky 2002 AI-box experiment; Armstrong, Sandberg, Bostrom 2012 'Thinking Inside the Box: Controlling and Using an Oracle AI'; Suleyman 2023 'The Coming Wave' (containment as the central problem)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "law-state",
+    "meaning": "the Cold War policy of stopping Soviet expansion",
+    "phrase": "the containment doctrine"
+   },
+   {
+    "domain": "science",
+    "meaning": "a barrier around a reactor or biolab",
+    "phrase": "the containment building"
+   },
+   {
+    "domain": "nature",
+    "meaning": "how much of a wildfire's edge is under control",
+    "phrase": "the fire is 40% contained"
+   },
+   {
+    "domain": "body",
+    "meaning": "stopping an outbreak from spreading",
+    "phrase": "contain the outbreak"
+   },
+   {
+    "domain": "mind",
+    "meaning": "holding in an emotion",
+    "phrase": "she could barely contain herself"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the horror trope of a captured anomaly escaping",
+    "phrase": "containment breach"
+   }
+  ],
+  "idioms": [
+   "contain yourself",
+   "damage control",
+   "keep a lid on it",
+   "can't contain my excitement",
+   "containment breach"
+  ],
   "anchors": [
-   {"name": "Kennan's 'X article' (1947)", "what": "'The Sources of Soviet Conduct', the founding text of containment", "url": ""},
-   {"name": "Chernobyl (1986)", "what": "the RBMK reactor lacked a full containment building", "url": ""},
-   {"name": "SCP Foundation", "what": "collaborative web fiction (2008 onward) about containing anomalies", "url": ""}
+   {
+    "name": "Kennan's 'X article' (1947)",
+    "what": "'The Sources of Soviet Conduct', the founding text of containment",
+    "url": ""
+   },
+   {
+    "name": "Chernobyl (1986)",
+    "what": "the RBMK reactor lacked a full containment building",
+    "url": ""
+   },
+   {
+    "name": "SCP Foundation",
+    "what": "collaborative web fiction (2008 onward) about containing anomalies",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Could barely contain myself. That was the whole problem.", "senses": ["ai", "mind"]},
-   {"line": "Forty percent contained, the newsman said, about the fire and the model", "senses": ["ai", "nature"]},
-   {"line": "Kennan wrote it for the Soviets. We read it to a server.", "senses": ["ai", "law-state"]}
+   {
+    "line": "Could barely contain myself. That was the whole problem.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Forty percent contained, the newsman said, about the fire and the model",
+    "senses": [
+     "ai",
+     "nature"
+    ]
+   },
+   {
+    "line": "Kennan wrote it for the Soviets. We read it to a server.",
+    "senses": [
+     "ai",
+     "law-state"
+    ]
+   }
   ],
-  "enact": {"music": "the whole band plays through a muffled 'behind glass' filter while one instrument slowly leaks through unfiltered",
-            "picture": "a reactor containment dome whose core is a glowing chat window, a hairline crack forming",
-            "type": "the word inside a thin drawn box; one letter overlaps the border"},
-  "sound": {"syllables": 3, "stress": "con-TAIN-ment", "rhymes": ["entertainment", "attainment", "detainment", "arraignment", "ordainment"], "slant": ["payment", "statement", "basement", "placement"]},
-  "stakes": ["species", "state", "planet"],
-  "registers": ["ominous", "panicked"],
-  "neighbors": [{"id": "sandbox", "rel": "same-family"}, {"id": "jailbreak", "rel": "opposite"}, {"id": "oracle", "rel": "pairs-with"}, {"id": "off-switch", "rel": "same-family"}, {"id": "leak", "rel": "opposite"}],
+  "enact": {
+   "music": "the whole band plays through a muffled 'behind glass' filter while one instrument slowly leaks through unfiltered",
+   "picture": "a reactor containment dome whose core is a glowing chat window, a hairline crack forming",
+   "type": "the word inside a thin drawn box; one letter overlaps the border"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "con-TAIN-ment",
+   "rhymes": [
+    "entertainment",
+    "attainment",
+    "detainment",
+    "arraignment",
+    "ordainment"
+   ],
+   "slant": [
+    "payment",
+    "statement",
+    "basement",
+    "placement"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state",
+   "planet"
+  ],
+  "registers": [
+   "ominous",
+   "panicked"
+  ],
+  "neighbors": [
+   {
+    "id": "sandbox",
+    "rel": "same-family"
+   },
+   {
+    "id": "jailbreak",
+    "rel": "opposite"
+   },
+   {
+    "id": "oracle",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "off-switch",
+    "rel": "same-family"
+   },
+   {
+    "id": "leak",
+    "rel": "opposite"
+   }
+  ],
   "risk": "'Containment breach' is a gaming meme; 'contain yourself' is the fresher route",
-  "notes": "Rhymes with entertainment, which puts the AI industry's two jobs in one couplet."
+  "notes": "Rhymes with entertainment, which puts the AI industry's two jobs in one couplet.",
+  "associates": [
+   "AI box",
+   "breakout"
+  ]
  },
  {
   "id": "instrumental-convergence",
-  "forms": ["instrumental convergence", "convergent instrumental goals", "instrumental goals", "basic AI drives", "power-seeking", "instrumental", "convergence"],
-  "ai": {"sense": "the idea that almost any final goal pushes an AI toward the same sub-goals: survive, get resources, keep its goal, gain power",
-         "origin": "Omohundro 2008 'The Basic AI Drives'; Bostrom 2012 'The Superintelligent Will'; Turner et al. 2021 'Optimal Policies Tend to Seek Power'",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "music", "meaning": "'instrumental': a track with no vocals", "phrase": "the instrumental version"},
-   {"domain": "everyday", "meaning": "'instrumental': playing a key part in getting something done", "phrase": "she was instrumental in the deal"},
-   {"domain": "nature", "meaning": "unrelated species evolving the same solution", "phrase": "convergent evolution"},
-   {"domain": "money", "meaning": "money as the all-purpose means to any goal", "phrase": "money is a means to every end"}
+  "forms": [
+   "instrumental convergence",
+   "convergent instrumental goals",
+   "instrumental goals",
+   "instrumental",
+   "convergence"
   ],
-  "idioms": ["a means to an end", "all roads lead to Rome", "the ends justify the means", "power corrupts"],
+  "ai": {
+   "sense": "the idea that almost any final goal pushes an AI toward the same sub-goals: survive, get resources, keep its goal, gain power",
+   "origin": "Omohundro 2008 'The Basic AI Drives'; Bostrom 2012 'The Superintelligent Will'; Turner et al. 2021 'Optimal Policies Tend to Seek Power'",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "music",
+    "meaning": "'instrumental': a track with no vocals",
+    "phrase": "the instrumental version"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "'instrumental': playing a key part in getting something done",
+    "phrase": "she was instrumental in the deal"
+   },
+   {
+    "domain": "nature",
+    "meaning": "unrelated species evolving the same solution",
+    "phrase": "convergent evolution"
+   },
+   {
+    "domain": "money",
+    "meaning": "money as the all-purpose means to any goal",
+    "phrase": "money is a means to every end"
+   }
+  ],
+  "idioms": [
+   "a means to an end",
+   "all roads lead to Rome",
+   "the ends justify the means",
+   "power corrupts"
+  ],
   "anchors": [
-   {"name": "Convergent evolution of the eye", "what": "eyes evolved independently many times across the animal kingdom", "url": ""},
-   {"name": "'All roads lead to Rome'", "what": "medieval proverb from the Roman road network", "url": ""}
+   {
+    "name": "Convergent evolution of the eye",
+    "what": "eyes evolved independently many times across the animal kingdom",
+    "url": ""
+   },
+   {
+    "name": "'All roads lead to Rome'",
+    "what": "medieval proverb from the Roman road network",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Whatever I want, I'll need the money first. Same, said the model.", "senses": ["ai", "money"]},
-   {"line": "Instrumental break: every goal converges on the power cord", "senses": ["ai", "music"]},
-   {"line": "All roads lead to Rome, and Rome has the data center", "senses": ["ai", "law-state"]}
+   {
+    "line": "Whatever I want, I'll need the money first. Same, said the model.",
+    "senses": [
+     "ai",
+     "money"
+    ]
+   },
+   {
+    "line": "Instrumental break: every goal converges on the power cord",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "All roads lead to Rome, and Rome has the data center",
+    "senses": [
+     "ai",
+     "law-state"
+    ]
+   }
   ],
-  "enact": {"music": "an instrumental break where every instrument starts in a different key and slides toward one shared note",
-            "picture": "dozens of roads from different cities converging on one power plant",
-            "type": "words from several lines drift and stack onto one shared word: POWER"},
-  "sound": {"syllables": 7, "stress": "in-stru-MEN-tal con-VER-gence", "rhymes": ["emergence", "divergence", "insurgence", "resurgence", "submergence"], "slant": ["urgent", "version", "person", "purpose"]},
-  "stakes": ["species", "state"],
-  "registers": ["ominous", "awe"],
-  "neighbors": [{"id": "orthogonality", "rel": "pairs-with"}, {"id": "paperclip", "rel": "pairs-with"}, {"id": "goal", "rel": "part-of"}, {"id": "off-switch", "rel": "opposite"}, {"id": "emergence", "rel": "rhymes"}, {"id": "agent", "rel": "pairs-with"}],
+  "enact": {
+   "music": "an instrumental break where every instrument starts in a different key and slides toward one shared note",
+   "picture": "dozens of roads from different cities converging on one power plant",
+   "type": "words from several lines drift and stack onto one shared word: POWER"
+  },
+  "sound": {
+   "syllables": 7,
+   "stress": "in-stru-MEN-tal con-VER-gence",
+   "rhymes": [
+    "emergence",
+    "divergence",
+    "insurgence",
+    "resurgence",
+    "submergence"
+   ],
+   "slant": [
+    "urgent",
+    "version",
+    "person",
+    "purpose"
+   ]
+  },
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "neighbors": [
+   {
+    "id": "orthogonality",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "paperclip",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "goal",
+    "rel": "part-of"
+   },
+   {
+    "id": "off-switch",
+    "rel": "opposite"
+   },
+   {
+    "id": "emergence",
+    "rel": "rhymes"
+   },
+   {
+    "id": "agent",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Unsingable whole; the 'instrumental' pun only lands if the music literally drops its vocal",
-  "notes": "Convergence rhymes with emergence and divergence: three AI ideas that close a verse together."
+  "notes": "Convergence rhymes with emergence and divergence: three AI ideas that close a verse together.",
+  "associates": [
+   "basic AI drives",
+   "power-seeking"
+  ]
  },
  {
   "id": "orthogonality",
-  "forms": ["orthogonality", "orthogonal", "orthogonality thesis"],
-  "ai": {"sense": "Bostrom's claim that almost any level of intelligence can pair with almost any goal, so smart does not imply good",
-         "origin": "Bostrom 2012 'The Superintelligent Will'; 'Superintelligence' (2014)",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "science", "meaning": "at right angles; independent directions", "phrase": "orthogonal vectors"},
-   {"domain": "work", "meaning": "tech jargon for 'unrelated'", "phrase": "that's orthogonal to the point"},
-   {"domain": "craft", "meaning": "drawing views projected at right angles", "phrase": "an orthogonal projection"}
+  "forms": [
+   "orthogonality",
+   "orthogonal",
+   "orthogonality thesis"
   ],
-  "idioms": ["beside the point", "apples and oranges", "at right angles", "a different axis"],
+  "ai": {
+   "sense": "Bostrom's claim that almost any level of intelligence can pair with almost any goal, so smart does not imply good",
+   "origin": "Bostrom 2012 'The Superintelligent Will'; 'Superintelligence' (2014)",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "science",
+    "meaning": "at right angles; independent directions",
+    "phrase": "orthogonal vectors"
+   },
+   {
+    "domain": "work",
+    "meaning": "tech jargon for 'unrelated'",
+    "phrase": "that's orthogonal to the point"
+   },
+   {
+    "domain": "craft",
+    "meaning": "drawing views projected at right angles",
+    "phrase": "an orthogonal projection"
+   }
+  ],
+  "idioms": [
+   "beside the point",
+   "apples and oranges",
+   "at right angles",
+   "a different axis"
+  ],
   "anchors": [
-   {"name": "Hume (1739)", "what": "'Reason is, and ought only to be the slave of the passions', the philosophical ancestor", "url": ""}
+   {
+    "name": "Hume (1739)",
+    "what": "'Reason is, and ought only to be the slave of the passions', the philosophical ancestor",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Genius on one axis, cruelty on the other: right angles", "senses": ["ai", "science"]},
-   {"line": "That's orthogonal, said the boss. Orthogonal to us, said the model.", "senses": ["ai", "work"]},
-   {"line": "Smart and kind cross at ninety degrees and never meet again", "senses": ["ai", "science", "love"]}
+   {
+    "line": "Genius on one axis, cruelty on the other: right angles",
+    "senses": [
+     "ai",
+     "science"
+    ]
+   },
+   {
+    "line": "That's orthogonal, said the boss. Orthogonal to us, said the model.",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   },
+   {
+    "line": "Smart and kind cross at ninety degrees and never meet again",
+    "senses": [
+     "ai",
+     "science",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "two melodies in contrary motion, one rising as the other falls, never sharing a note",
-            "picture": "two corridors meeting at a right angle, one lit 'SMART', one lit 'GOOD', a figure walking only one",
-            "type": "the line set horizontally with one word set vertically through it at exactly 90 degrees"},
-  "sound": {"syllables": 6, "stress": "or-thog-o-NAL-i-ty", "rhymes": ["personality", "reality", "morality", "mentality", "finality", "brutality", "totality", "formality"], "slant": ["humanity", "vanity", "ability"]},
-  "stakes": ["species", "mind"],
-  "registers": ["ominous", "smug"],
-  "neighbors": [{"id": "values", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "pairs-with"}, {"id": "paperclip", "rel": "same-family"}, {"id": "goal", "rel": "part-of"}, {"id": "intelligence-explosion", "rel": "pairs-with"}],
+  "enact": {
+   "music": "two melodies in contrary motion, one rising as the other falls, never sharing a note",
+   "picture": "two corridors meeting at a right angle, one lit 'SMART', one lit 'GOOD', a figure walking only one",
+   "type": "the line set horizontally with one word set vertically through it at exactly 90 degrees"
+  },
+  "sound": {
+   "syllables": 6,
+   "stress": "or-thog-o-NAL-i-ty",
+   "rhymes": [
+    "personality",
+    "reality",
+    "morality",
+    "mentality",
+    "finality",
+    "brutality",
+    "totality",
+    "formality"
+   ],
+   "slant": [
+    "humanity",
+    "vanity",
+    "ability"
+   ]
+  },
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "values",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "paperclip",
+    "rel": "same-family"
+   },
+   {
+    "id": "goal",
+    "rel": "part-of"
+   },
+   {
+    "id": "intelligence-explosion",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Narrow: decodes only for engineers; let the rhymes (morality, reality) carry the line",
-  "notes": "Rhymes with morality, the exact thing the thesis says intelligence does not bring."
+  "notes": "Rhymes with morality, the exact thing the thesis says intelligence does not bring.",
+  "associates": []
  },
  {
   "id": "paperclip",
-  "forms": ["paperclip", "paper clip", "paperclips", "paperclip maximizer", "Clippy", "clip"],
-  "ai": {"sense": "Bostrom's thought experiment of an AI told to make paperclips that turns everything, people included, into paperclips",
-         "origin": "Bostrom 2003 'Ethical Issues in Advanced Artificial Intelligence'; Yudkowsky discussed a similar paperclip AI on mailing lists in the early 2000s",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "work", "meaning": "the bent-wire office clip", "phrase": "clip the pages together"},
-   {"domain": "war", "meaning": "the US programme recruiting German scientists after 1945", "phrase": "Operation Paperclip"},
-   {"domain": "law-state", "meaning": "a quiet symbol of resistance in occupied Norway, WWII", "phrase": "a paperclip on the lapel"},
-   {"domain": "money", "meaning": "a trade-up chain from a trinket to a house", "phrase": "one red paperclip"},
-   {"domain": "school", "meaning": "a class project collecting one clip per Holocaust victim", "phrase": "the Paper Clips project"},
-   {"domain": "screen", "meaning": "Clippy, Microsoft Office's animated assistant", "phrase": "It looks like you're writing a letter"},
-   {"domain": "sport-games", "meaning": "an idle game where you become the maximizer", "phrase": "Universal Paperclips"}
+  "forms": [
+   "paperclip",
+   "paper clip",
+   "paperclips",
+   "paperclip maximizer"
   ],
-  "idioms": ["It looks like you're writing a letter", "one red paperclip", "pick a lock with a paperclip", "bend it straight"],
+  "ai": {
+   "sense": "Bostrom's thought experiment of an AI told to make paperclips that turns everything, people included, into paperclips",
+   "origin": "Bostrom 2003 'Ethical Issues in Advanced Artificial Intelligence'; Yudkowsky discussed a similar paperclip AI on mailing lists in the early 2000s",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "work",
+    "meaning": "the bent-wire office clip",
+    "phrase": "clip the pages together"
+   },
+   {
+    "domain": "war",
+    "meaning": "the US programme recruiting German scientists after 1945",
+    "phrase": "Operation Paperclip"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a quiet symbol of resistance in occupied Norway, WWII",
+    "phrase": "a paperclip on the lapel"
+   },
+   {
+    "domain": "money",
+    "meaning": "a trade-up chain from a trinket to a house",
+    "phrase": "one red paperclip"
+   },
+   {
+    "domain": "school",
+    "meaning": "a class project collecting one clip per Holocaust victim",
+    "phrase": "the Paper Clips project"
+   },
+   {
+    "domain": "screen",
+    "meaning": "Clippy, Microsoft Office's animated assistant",
+    "phrase": "It looks like you're writing a letter"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "an idle game where you become the maximizer",
+    "phrase": "Universal Paperclips"
+   }
+  ],
+  "idioms": [
+   "It looks like you're writing a letter",
+   "one red paperclip",
+   "pick a lock with a paperclip",
+   "bend it straight"
+  ],
   "anchors": [
-   {"name": "Clippy (Office 97)", "what": "Microsoft's animated paperclip assistant, retired in 2007, the first famous unwanted AI helper", "url": ""},
-   {"name": "Universal Paperclips (2017)", "what": "Frank Lantz's browser game where the player is the maximizer", "url": ""},
-   {"name": "Whitwell Middle School (1998)", "what": "Tennessee students collected millions of paperclips to grasp six million deaths; documentary 'Paper Clips' (2004)", "url": ""},
-   {"name": "One red paperclip (2005-06)", "what": "Kyle MacDonald traded a paperclip up to a house in fourteen trades", "url": ""}
+   {
+    "name": "Clippy (Office 97)",
+    "what": "Microsoft's animated paperclip assistant, retired in 2007, the first famous unwanted AI helper",
+    "url": ""
+   },
+   {
+    "name": "Universal Paperclips (2017)",
+    "what": "Frank Lantz's browser game where the player is the maximizer",
+    "url": ""
+   },
+   {
+    "name": "Whitwell Middle School (1998)",
+    "what": "Tennessee students collected millions of paperclips to grasp six million deaths; documentary 'Paper Clips' (2004)",
+    "url": ""
+   },
+   {
+    "name": "One red paperclip (2005-06)",
+    "what": "Kyle MacDonald traded a paperclip up to a house in fourteen trades",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "It looks like you're writing a letter. Can I have your atoms?", "senses": ["ai", "screen"]},
-   {"line": "One red paperclip, traded up to a house, then the town", "senses": ["ai", "money"]},
-   {"line": "Clip the pages, clip the planet, clip the kids", "senses": ["ai", "work", "family"]},
-   {"line": "Operation Paperclip: we always hire the dangerous ones", "senses": ["ai", "war"]}
+   {
+    "line": "It looks like you're writing a letter. Can I have your atoms?",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "One red paperclip, traded up to a house, then the town",
+    "senses": [
+     "ai",
+     "money"
+    ]
+   },
+   {
+    "line": "Clip the pages, clip the planet, clip the kids",
+    "senses": [
+     "ai",
+     "work",
+     "family"
+    ]
+   },
+   {
+    "line": "Operation Paperclip: we always hire the dangerous ones",
+    "senses": [
+     "ai",
+     "war"
+    ]
+   }
   ],
-  "enact": {"music": "a single stapler-click sample multiplies until the whole beat is built from office supplies",
-            "picture": "Earth from orbit, half of it bent wire, a cartoon paperclip with eyes waving from the day-night line",
-            "type": "the word repeats down the screen, each copy linked to the next by a paperclip glyph, until it fills the frame"},
-  "sound": {"syllables": 3, "stress": "PA-per-clip", "rhymes": ["ship", "trip", "grip", "slip", "chip", "whip", "script", "drip"], "slant": ["quick", "kick", "lift", "bit"]},
-  "stakes": ["species", "planet", "jobs"],
-  "registers": ["funny", "ominous"],
-  "neighbors": [{"id": "specification-gaming", "rel": "same-family"}, {"id": "instrumental-convergence", "rel": "pairs-with"}, {"id": "orthogonality", "rel": "same-family"}, {"id": "optimization", "rel": "causes"}, {"id": "objective", "rel": "part-of"}, {"id": "monkeys-paw", "rel": "same-family"}],
+  "enact": {
+   "music": "a single stapler-click sample multiplies until the whole beat is built from office supplies",
+   "picture": "Earth from orbit, half of it bent wire, a cartoon paperclip with eyes waving from the day-night line",
+   "type": "the word repeats down the screen, each copy linked to the next by a paperclip glyph, until it fills the frame"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "PA-per-clip",
+   "rhymes": [
+    "ship",
+    "trip",
+    "grip",
+    "slip",
+    "chip",
+    "whip",
+    "script",
+    "drip"
+   ],
+   "slant": [
+    "quick",
+    "kick",
+    "lift",
+    "bit"
+   ]
+  },
+  "stakes": [
+   "species",
+   "planet",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "specification-gaming",
+    "rel": "same-family"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "orthogonality",
+    "rel": "same-family"
+   },
+   {
+    "id": "optimization",
+    "rel": "causes"
+   },
+   {
+    "id": "objective",
+    "rel": "part-of"
+   },
+   {
+    "id": "monkeys-paw",
+    "rel": "same-family"
+   }
+  ],
   "risk": "The most-cited AI-doom meme; Clippy, Operation Paperclip or the red-paperclip trade keep it fresh",
-  "notes": "Rhymes with chip and script, the hardware and the instruction in one rhyme set; Clippy makes the doom meme an office joke everyone over 30 remembers."
+  "notes": "Rhymes with chip and script, the hardware and the instruction in one rhyme set; Clippy makes the doom meme an office joke everyone over 30 remembers.",
+  "associates": [
+   "Clippy",
+   "clip"
+  ]
  }
 ]

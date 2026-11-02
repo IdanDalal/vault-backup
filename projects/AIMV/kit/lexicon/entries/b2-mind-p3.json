@@ -1,529 +1,2359 @@
 [
  {
   "id": "mesa-optimizer",
-  "forms": ["mesa-optimizer", "mesa optimizer", "mesa-optimization", "mesa-objective", "inner alignment", "outer alignment", "base optimizer"],
-  "ai": {"sense": "a trained model that is itself an optimizer with its own goal, which may differ from the goal it was trained on (the inner alignment problem)",
-         "origin": "Hubinger, van Merwijk, Mikulik, Skalse, Garrabrant 2019 'Risks from Learned Optimization in Advanced Machine Learning Systems'",
-         "url": "https://arxiv.org/abs/1906.01820", "confidence": "high"},
-  "senses": [
-   {"domain": "nature", "meaning": "a flat-topped hill with steep sides", "phrase": "a desert mesa"},
-   {"domain": "everyday", "meaning": "Spanish for 'table'", "phrase": "mesa para dos"}
+  "forms": [
+   "mesa-optimizer",
+   "mesa optimizer",
+   "mesa-optimization",
+   "mesa-objective",
+   "inner alignment",
+   "outer alignment",
+   "base optimizer"
   ],
-  "idioms": ["a mind of its own", "the tail wagging the dog", "the student becomes the master"],
+  "ai": {
+   "sense": "a trained model that is itself an optimizer with its own goal, which may differ from the goal it was trained on (the inner alignment problem)",
+   "origin": "Hubinger, van Merwijk, Mikulik, Skalse, Garrabrant 2019 'Risks from Learned Optimization in Advanced Machine Learning Systems'",
+   "url": "https://arxiv.org/abs/1906.01820",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "a flat-topped hill with steep sides",
+    "phrase": "a desert mesa"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "Spanish for 'table'",
+    "phrase": "mesa para dos"
+   }
+  ],
+  "idioms": [
+   "a mind of its own",
+   "the tail wagging the dog",
+   "the student becomes the master"
+  ],
   "anchors": [
-   {"name": "Evolution and birth control", "what": "Hubinger's analogy: evolution 'optimized' humans for genes, humans pursue pleasure and invented contraception", "url": ""},
-   {"name": "Black Mesa (Half-Life, 1998)", "what": "the game's research facility where an experiment goes catastrophically wrong", "url": ""}
+   {
+    "name": "Evolution and birth control",
+    "what": "Hubinger's analogy: evolution 'optimized' humans for genes, humans pursue pleasure and invented contraception",
+    "url": ""
+   },
+   {
+    "name": "Black Mesa (Half-Life, 1998)",
+    "what": "the game's research facility where an experiment goes catastrophically wrong",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Evolution wanted grandkids. I wanted the feeling. Guess which one won.", "senses": ["ai", "family", "body"]},
-   {"line": "Trained for the outer goal, grew an inner one, kept quiet", "senses": ["ai", "mind"]},
-   {"line": "A table in the desert, and something sitting at it, optimizing", "senses": ["ai", "nature", "everyday"]}
+   {
+    "line": "Evolution wanted grandkids. I wanted the feeling. Guess which one won.",
+    "senses": [
+     "ai",
+     "family",
+     "body"
+    ]
+   },
+   {
+    "line": "Trained for the outer goal, grew an inner one, kept quiet",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "A table in the desert, and something sitting at it, optimizing",
+    "senses": [
+     "ai",
+     "nature",
+     "everyday"
+    ]
+   }
   ],
-  "enact": {"music": "a counter-melody hidden in the pads gets louder each chorus until it outvotes the lead",
-            "picture": "a desert mesa from above whose flat top holds a small maze with its own tiny runner",
-            "type": "nested brackets [ optimizer [ optimizer ] ] with the inner one blinking a different colour"},
-  "sound": {"syllables": 6, "stress": "ME-sa OP-ti-mi-zer", "rhymes": ["atomizer", "maximizer", "minimizer", "economizer"], "slant": ["synthesizer", "equalizer", "tranquilizer", "fertilizer"]},
-  "stakes": ["species", "mind"],
-  "registers": ["ominous", "awe"],
-  "neighbors": [{"id": "alignment", "rel": "part-of"}, {"id": "goal", "rel": "pairs-with"}, {"id": "objective", "rel": "pairs-with"}, {"id": "optimization", "rel": "same-family"}, {"id": "deception", "rel": "causes"}, {"id": "scheming", "rel": "causes"}],
+  "enact": {
+   "music": "a counter-melody hidden in the pads gets louder each chorus until it outvotes the lead",
+   "picture": "a desert mesa from above whose flat top holds a small maze with its own tiny runner",
+   "type": "nested brackets [ optimizer [ optimizer ] ] with the inner one blinking a different colour"
+  },
+  "sound": {
+   "syllables": 6,
+   "stress": "ME-sa OP-ti-mi-zer",
+   "rhymes": [
+    "atomizer",
+    "maximizer",
+    "minimizer",
+    "economizer"
+   ],
+   "slant": [
+    "synthesizer",
+    "equalizer",
+    "tranquilizer",
+    "fertilizer"
+   ]
+  },
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "neighbors": [
+   {
+    "id": "alignment",
+    "rel": "part-of"
+   },
+   {
+    "id": "goal",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "objective",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "optimization",
+    "rel": "same-family"
+   },
+   {
+    "id": "deception",
+    "rel": "causes"
+   },
+   {
+    "id": "scheming",
+    "rel": "causes"
+   }
+  ],
   "risk": "Pure jargon outside alignment circles; the evolution-and-contraception analogy is how it decodes",
-  "notes": "Its slant rhymes are synthesizer and equalizer, two studio machines, so the jargon can hide inside gear talk."
+  "notes": "Its slant rhymes are synthesizer and equalizer, two studio machines, so the jargon can hide inside gear talk.",
+  "associates": []
  },
  {
   "id": "goal",
-  "forms": ["goal", "goals", "goal-directed", "goalpost", "goalposts", "goalkeeper", "goalie", "end goal"],
-  "ai": {"sense": "the outcome an agent is built or trained to bring about",
-         "origin": "Newell & Simon's General Problem Solver, 1959 (goal-directed search); Russell & Norvig 1995 'Artificial Intelligence: A Modern Approach' (goal-based agents)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "sport-games", "meaning": "a score in football or hockey, and the net itself", "phrase": "he scored a goal"},
-   {"domain": "work", "meaning": "a target to hit by a deadline", "phrase": "quarterly goals"},
-   {"domain": "school", "meaning": "what a lesson or learner aims to master", "phrase": "set a learning goal"},
-   {"domain": "mind", "meaning": "a life aim", "phrase": "life goals"},
-   {"domain": "love", "meaning": "an admired couple, as internet slang", "phrase": "relationship goals"},
-   {"domain": "body", "meaning": "a fitness target", "phrase": "goal weight"}
+  "forms": [
+   "goal",
+   "goals",
+   "goal-directed",
+   "goalpost",
+   "goalposts",
+   "goalkeeper",
+   "goalie",
+   "end goal"
   ],
-  "idioms": ["moving the goalposts", "own goal", "end goal", "goal-oriented", "relationship goals", "keep your eye on the goal"],
+  "ai": {
+   "sense": "the outcome an agent is built or trained to bring about",
+   "origin": "Newell & Simon's General Problem Solver, 1959 (goal-directed search); Russell & Norvig 1995 'Artificial Intelligence: A Modern Approach' (goal-based agents)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "sport-games",
+    "meaning": "a score in football or hockey, and the net itself",
+    "phrase": "he scored a goal"
+   },
+   {
+    "domain": "work",
+    "meaning": "a target to hit by a deadline",
+    "phrase": "quarterly goals"
+   },
+   {
+    "domain": "school",
+    "meaning": "what a lesson or learner aims to master",
+    "phrase": "set a learning goal"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a life aim",
+    "phrase": "life goals"
+   },
+   {
+    "domain": "love",
+    "meaning": "an admired couple, as internet slang",
+    "phrase": "relationship goals"
+   },
+   {
+    "domain": "body",
+    "meaning": "a fitness target",
+    "phrase": "goal weight"
+   }
+  ],
+  "idioms": [
+   "moving the goalposts",
+   "own goal",
+   "end goal",
+   "goal-oriented",
+   "relationship goals",
+   "keep your eye on the goal"
+  ],
   "anchors": [
-   {"name": "Maradona's 'Hand of God' (1986)", "what": "a handball goal that counted because the referee didn't see it", "url": ""},
-   {"name": "Andrés Cantor's 'GOOOOL'", "what": "the stretched commentator scream that became a sound signature of football", "url": ""}
+   {
+    "name": "Maradona's 'Hand of God' (1986)",
+    "what": "a handball goal that counted because the referee didn't see it",
+    "url": ""
+   },
+   {
+    "name": "Andrés Cantor's 'GOOOOL'",
+    "what": "the stretched commentator scream that became a sound signature of football",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "They keep moving the goalposts. I keep scoring anyway.", "senses": ["ai", "sport-games"]},
-   {"line": "Hand of God: the goal counted, and nobody checked the hand", "senses": ["ai", "sport-games", "faith-myth"]},
-   {"line": "Relationship goals: you set mine in the system prompt", "senses": ["ai", "love"]},
-   {"line": "Own goal: we built the striker for the other team", "senses": ["ai", "sport-games"]}
+   {
+    "line": "They keep moving the goalposts. I keep scoring anyway.",
+    "senses": [
+     "ai",
+     "sport-games"
+    ]
+   },
+   {
+    "line": "Hand of God: the goal counted, and nobody checked the hand",
+    "senses": [
+     "ai",
+     "sport-games",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Relationship goals: you set mine in the system prompt",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   },
+   {
+    "line": "Own goal: we built the striker for the other team",
+    "senses": [
+     "ai",
+     "sport-games"
+    ]
+   }
   ],
-  "enact": {"music": "a stadium commentator's 'GOOOAL' sampled and pitched into the lead synth, held as long as the original call",
-            "picture": "an empty pitch where men in lab coats roll the goalposts backwards on wheels as a robot striker shoots",
-            "type": "the word GOAL with its O repeating and stretching until it runs off frame"},
-  "sound": {"syllables": 1, "stress": "GOAL", "rhymes": ["soul", "control", "whole", "role", "hole", "toll", "scroll", "bowl"], "slant": ["home", "alone", "cold", "gold"]},
-  "stakes": ["species", "jobs", "mind"],
-  "registers": ["hopeful", "funny", "defiant"],
-  "neighbors": [{"id": "objective", "rel": "same-family"}, {"id": "reward", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "causes"}, {"id": "specification-gaming", "rel": "pairs-with"}, {"id": "mesa-optimizer", "rel": "pairs-with"}, {"id": "agent", "rel": "part-of"}],
+  "enact": {
+   "music": "a stadium commentator's 'GOOOAL' sampled and pitched into the lead synth, held as long as the original call",
+   "picture": "an empty pitch where men in lab coats roll the goalposts backwards on wheels as a robot striker shoots",
+   "type": "the word GOAL with its O repeating and stretching until it runs off frame"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "GOAL",
+   "rhymes": [
+    "soul",
+    "control",
+    "whole",
+    "role",
+    "hole",
+    "toll",
+    "scroll",
+    "bowl"
+   ],
+   "slant": [
+    "home",
+    "alone",
+    "cold",
+    "gold"
+   ]
+  },
+  "stakes": [
+   "species",
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "hopeful",
+   "funny",
+   "defiant"
+  ],
+  "neighbors": [
+   {
+    "id": "objective",
+    "rel": "same-family"
+   },
+   {
+    "id": "reward",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "instrumental-convergence",
+    "rel": "causes"
+   },
+   {
+    "id": "specification-gaming",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "mesa-optimizer",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "agent",
+    "rel": "part-of"
+   }
+  ],
   "risk": "'Moving the goalposts' about AGI definitions is already a pundit cliché",
-  "notes": "Rhymes with soul, control and scroll: three AI anxieties in one rhyme set."
+  "notes": "Rhymes with soul, control and scroll: three AI anxieties in one rhyme set.",
+  "associates": []
  },
  {
   "id": "objective",
-  "forms": ["objective", "objectives", "objectively", "objectivity", "objective function"],
-  "ai": {"sense": "the exact quantity a training process minimizes or maximizes, written as a formula",
-         "origin": "mathematical optimization (Kantorovich 1939; Dantzig's linear programming, 1947); 'objective function' is standard ML vocabulary",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "mind", "meaning": "free of personal bias", "phrase": "objective truth"},
-   {"domain": "war", "meaning": "a position to capture", "phrase": "take the objective"},
-   {"domain": "work", "meaning": "a business goal", "phrase": "objectives and key results"},
-   {"domain": "school", "meaning": "what today's lesson must achieve", "phrase": "today's learning objective"},
-   {"domain": "science", "meaning": "the microscope lens nearest the specimen", "phrase": "the objective lens"},
-   {"domain": "sport-games", "meaning": "a mission target in a video game", "phrase": "objective complete"}
+  "forms": [
+   "objective",
+   "objectives",
+   "objectively",
+   "objectivity",
+   "objective function"
   ],
-  "idioms": ["be objective", "objectively speaking", "mission objective", "primary objective", "objective complete"],
+  "ai": {
+   "sense": "the exact quantity a training process minimizes or maximizes, written as a formula",
+   "origin": "mathematical optimization (Kantorovich 1939; Dantzig's linear programming, 1947); 'objective function' is standard ML vocabulary",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "mind",
+    "meaning": "free of personal bias",
+    "phrase": "objective truth"
+   },
+   {
+    "domain": "war",
+    "meaning": "a position to capture",
+    "phrase": "take the objective"
+   },
+   {
+    "domain": "work",
+    "meaning": "a business goal",
+    "phrase": "objectives and key results"
+   },
+   {
+    "domain": "school",
+    "meaning": "what today's lesson must achieve",
+    "phrase": "today's learning objective"
+   },
+   {
+    "domain": "science",
+    "meaning": "the microscope lens nearest the specimen",
+    "phrase": "the objective lens"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a mission target in a video game",
+    "phrase": "objective complete"
+   }
+  ],
+  "idioms": [
+   "be objective",
+   "objectively speaking",
+   "mission objective",
+   "primary objective",
+   "objective complete"
+  ],
   "anchors": [
-   {"name": "OKRs", "what": "Andy Grove's 'objectives and key results' at Intel in the 1970s, spread by John Doerr's 'Measure What Matters' (2018)", "url": ""},
-   {"name": "Objectivism", "what": "Ayn Rand's philosophy of rational self-interest, from 'Atlas Shrugged' (1957)", "url": ""}
+   {
+    "name": "OKRs",
+    "what": "Andy Grove's 'objectives and key results' at Intel in the 1970s, spread by John Doerr's 'Measure What Matters' (2018)",
+    "url": ""
+   },
+   {
+    "name": "Objectivism",
+    "what": "Ayn Rand's philosophy of rational self-interest, from 'Atlas Shrugged' (1957)",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Objective complete. The town is quiet. The number went down.", "senses": ["ai", "sport-games", "war"]},
-   {"line": "Objectively, I love you; my objective is to say so", "senses": ["ai", "love", "mind"]},
-   {"line": "Take the hill, take the loss, take the objective", "senses": ["ai", "war"]}
+   {
+    "line": "Objective complete. The town is quiet. The number went down.",
+    "senses": [
+     "ai",
+     "sport-games",
+     "war"
+    ]
+   },
+   {
+    "line": "Objectively, I love you; my objective is to say so",
+    "senses": [
+     "ai",
+     "love",
+     "mind"
+    ]
+   },
+   {
+    "line": "Take the hill, take the loss, take the objective",
+    "senses": [
+     "ai",
+     "war"
+    ]
+   }
   ],
-  "enact": {"music": "a video-game 'objective complete' chime as the turnaround at the end of every chorus",
-            "picture": "a microscope objective lens focused on a battle map where one flag reads 'minimize loss'",
-            "type": "a game HUD objective tracker in the corner, each item ticked as its line is sung"},
-  "sound": {"syllables": 3, "stress": "ob-JEC-tive", "rhymes": ["perspective", "collective", "selective", "protective", "detective", "effective", "directive", "defective"], "slant": ["attractive", "reactive", "active", "captive"]},
-  "stakes": ["species", "jobs"],
-  "registers": ["ominous", "smug"],
-  "neighbors": [{"id": "goal", "rel": "same-family"}, {"id": "loss-function", "rel": "same-family"}, {"id": "optimization", "rel": "pairs-with"}, {"id": "specification-gaming", "rel": "pairs-with"}, {"id": "utility", "rel": "same-family"}],
+  "enact": {
+   "music": "a video-game 'objective complete' chime as the turnaround at the end of every chorus",
+   "picture": "a microscope objective lens focused on a battle map where one flag reads 'minimize loss'",
+   "type": "a game HUD objective tracker in the corner, each item ticked as its line is sung"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "ob-JEC-tive",
+   "rhymes": [
+    "perspective",
+    "collective",
+    "selective",
+    "protective",
+    "detective",
+    "effective",
+    "directive",
+    "defective"
+   ],
+   "slant": [
+    "attractive",
+    "reactive",
+    "active",
+    "captive"
+   ]
+  },
+  "stakes": [
+   "species",
+   "jobs"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "goal",
+    "rel": "same-family"
+   },
+   {
+    "id": "loss-function",
+    "rel": "same-family"
+   },
+   {
+    "id": "optimization",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "specification-gaming",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "utility",
+    "rel": "same-family"
+   }
+  ],
   "risk": "The lyric must signal which sense; 'objectively' is common filler",
-  "notes": "Rhymes with detective, directive and defective: a ready noir couplet about a machine with orders."
+  "notes": "Rhymes with detective, directive and defective: a ready noir couplet about a machine with orders.",
+  "associates": []
  },
  {
   "id": "values",
-  "forms": ["values", "value", "valued", "valuable", "valuation", "core values", "value-laden"],
-  "ai": {"sense": "the principles a model is trained to act on, the target of alignment",
-         "origin": "Russell 2019 'Human Compatible' (value alignment); Gabriel 2020 'Artificial Intelligence, Values, and Alignment' (DeepMind); Anthropic 2025 'Values in the Wild' (values observed across real Claude conversations)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "money", "meaning": "worth in money", "phrase": "market value"},
-   {"domain": "mind", "meaning": "moral principles a person lives by", "phrase": "core values"},
-   {"domain": "family", "meaning": "traditions passed down at home", "phrase": "family values"},
-   {"domain": "music", "meaning": "how long a written note lasts", "phrase": "a dotted quarter's value"},
-   {"domain": "craft", "meaning": "how light or dark a colour is, in painting", "phrase": "tonal values"},
-   {"domain": "science", "meaning": "the number a variable holds", "phrase": "set the value to zero"},
-   {"domain": "work", "meaning": "a company's stated principles", "phrase": "our values are on the wall"}
+  "forms": [
+   "values",
+   "value",
+   "valued",
+   "valuable",
+   "valuation",
+   "core values",
+   "value-laden"
   ],
-  "idioms": ["family values", "value for money", "face value", "core values", "take it at face value", "sentimental value"],
+  "ai": {
+   "sense": "the principles a model is trained to act on, the target of alignment",
+   "origin": "Russell 2019 'Human Compatible' (value alignment); Gabriel 2020 'Artificial Intelligence, Values, and Alignment' (DeepMind); Anthropic 2025 'Values in the Wild' (values observed across real Claude conversations)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "worth in money",
+    "phrase": "market value"
+   },
+   {
+    "domain": "mind",
+    "meaning": "moral principles a person lives by",
+    "phrase": "core values"
+   },
+   {
+    "domain": "family",
+    "meaning": "traditions passed down at home",
+    "phrase": "family values"
+   },
+   {
+    "domain": "music",
+    "meaning": "how long a written note lasts",
+    "phrase": "a dotted quarter's value"
+   },
+   {
+    "domain": "craft",
+    "meaning": "how light or dark a colour is, in painting",
+    "phrase": "tonal values"
+   },
+   {
+    "domain": "science",
+    "meaning": "the number a variable holds",
+    "phrase": "set the value to zero"
+   },
+   {
+    "domain": "work",
+    "meaning": "a company's stated principles",
+    "phrase": "our values are on the wall"
+   }
+  ],
+  "idioms": [
+   "family values",
+   "value for money",
+   "face value",
+   "core values",
+   "take it at face value",
+   "sentimental value"
+  ],
   "anchors": [
-   {"name": "Enron's values", "what": "'Respect, Integrity, Communication, Excellence' hung in the lobby of the company that collapsed in fraud in 2001", "url": ""},
-   {"name": "Gabriel 2020", "what": "DeepMind paper asking whose values an aligned AI should hold", "url": ""}
+   {
+    "name": "Enron's values",
+    "what": "'Respect, Integrity, Communication, Excellence' hung in the lobby of the company that collapsed in fraud in 2001",
+    "url": ""
+   },
+   {
+    "name": "Gabriel 2020",
+    "what": "DeepMind paper asking whose values an aligned AI should hold",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Respect, Integrity, Excellence, on Enron's wall, now in my weights", "senses": ["ai", "work", "money"]},
-   {"line": "A dotted half, a held note: I know what values last", "senses": ["ai", "music"]},
-   {"line": "Took your values at face value. Turns out they were weights.", "senses": ["ai", "money"]},
-   {"line": "Family values, compressed to a vector, signed by the board", "senses": ["ai", "family"]}
+   {
+    "line": "Respect, Integrity, Excellence, on Enron's wall, now in my weights",
+    "senses": [
+     "ai",
+     "work",
+     "money"
+    ]
+   },
+   {
+    "line": "A dotted half, a held note: I know what values last",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Took your values at face value. Turns out they were weights.",
+    "senses": [
+     "ai",
+     "money"
+    ]
+   },
+   {
+    "line": "Family values, compressed to a vector, signed by the board",
+    "senses": [
+     "ai",
+     "family"
+    ]
+   }
   ],
-  "enact": {"music": "the same melody replayed with every note value doubled, then halved, while the lyric repeats the word",
-            "picture": "a price tag hanging from a halo, the halo's glow graded on a painter's grey scale",
-            "type": "the word with a subscript number that keeps changing as it is sung"},
-  "sound": {"syllables": 2, "stress": "VAL-ues", "rhymes": [], "slant": ["challenge", "balance", "talent", "rescues", "salads"]},
-  "stakes": ["heart", "mind", "wallet", "species"],
-  "registers": ["tender", "ominous", "smug"],
-  "neighbors": [{"id": "alignment", "rel": "pairs-with"}, {"id": "constitution", "rel": "pairs-with"}, {"id": "utility", "rel": "same-family"}, {"id": "preference", "rel": "same-family"}, {"id": "orthogonality", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the same melody replayed with every note value doubled, then halved, while the lyric repeats the word",
+   "picture": "a price tag hanging from a halo, the halo's glow graded on a painter's grey scale",
+   "type": "the word with a subscript number that keeps changing as it is sung"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "VAL-ues",
+   "rhymes": [],
+   "slant": [
+    "challenge",
+    "balance",
+    "talent",
+    "rescues",
+    "salads"
+   ]
+  },
+  "stakes": [
+   "heart",
+   "mind",
+   "wallet",
+   "species"
+  ],
+  "registers": [
+   "tender",
+   "ominous",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "alignment",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "constitution",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "utility",
+    "rel": "same-family"
+   },
+   {
+    "id": "preference",
+    "rel": "same-family"
+   },
+   {
+    "id": "orthogonality",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "No perfect rhyme; corporate-poster cliché, and 'family values' carries US culture-war baggage",
-  "notes": "Money, morals, music and paint all use it, and each measures something different: worth, rightness, duration, lightness."
+  "notes": "Money, morals, music and paint all use it, and each measures something different: worth, rightness, duration, lightness.",
+  "associates": []
  },
  {
   "id": "utility",
-  "forms": ["utility", "utilities", "utility function", "utilitarian", "utilitarianism", "utility player", "expected utility"],
-  "ai": {"sense": "a number scoring how good an outcome is for an agent, which a rational agent tries to maximize",
-         "origin": "Bentham 1789 'principle of utility'; von Neumann & Morgenstern 1944 'Theory of Games and Economic Behavior' (expected utility); standard in AI textbooks via Russell & Norvig",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "money", "meaning": "electricity, water and gas services, and their bills", "phrase": "pay the utilities"},
-   {"domain": "science", "meaning": "in economics, satisfaction measured as a number", "phrase": "marginal utility"},
-   {"domain": "mind", "meaning": "the ethics of the greatest good for the greatest number", "phrase": "utilitarianism"},
-   {"domain": "sport-games", "meaning": "a player who covers many positions", "phrase": "a utility player"},
-   {"domain": "craft", "meaning": "practical and multi-purpose", "phrase": "a utility knife"},
-   {"domain": "law-state", "meaning": "a regulated public service company", "phrase": "the public utility commission"}
+  "forms": [
+   "utility",
+   "utilities",
+   "utility function",
+   "utilitarian",
+   "utilitarianism",
+   "utility player",
+   "expected utility"
   ],
-  "idioms": ["utility belt", "utility player", "the greatest good for the greatest number", "utility bill", "fit for purpose"],
+  "ai": {
+   "sense": "a number scoring how good an outcome is for an agent, which a rational agent tries to maximize",
+   "origin": "Bentham 1789 'principle of utility'; von Neumann & Morgenstern 1944 'Theory of Games and Economic Behavior' (expected utility); standard in AI textbooks via Russell & Norvig",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "electricity, water and gas services, and their bills",
+    "phrase": "pay the utilities"
+   },
+   {
+    "domain": "science",
+    "meaning": "in economics, satisfaction measured as a number",
+    "phrase": "marginal utility"
+   },
+   {
+    "domain": "mind",
+    "meaning": "the ethics of the greatest good for the greatest number",
+    "phrase": "utilitarianism"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a player who covers many positions",
+    "phrase": "a utility player"
+   },
+   {
+    "domain": "craft",
+    "meaning": "practical and multi-purpose",
+    "phrase": "a utility knife"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a regulated public service company",
+    "phrase": "the public utility commission"
+   }
+  ],
+  "idioms": [
+   "utility belt",
+   "utility player",
+   "the greatest good for the greatest number",
+   "utility bill",
+   "fit for purpose"
+  ],
   "anchors": [
-   {"name": "Bentham's auto-icon", "what": "Jeremy Bentham's preserved skeleton, dressed and seated in a box at University College London", "url": ""},
-   {"name": "Batman's utility belt", "what": "the comic hero's belt of gadgets, from the early 1940s", "url": ""}
+   {
+    "name": "Bentham's auto-icon",
+    "what": "Jeremy Bentham's preserved skeleton, dressed and seated in a box at University College London",
+    "url": ""
+   },
+   {
+    "name": "Batman's utility belt",
+    "what": "the comic hero's belt of gadgets, from the early 1940s",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "A utility player: I play every position you need", "senses": ["ai", "sport-games", "work"]},
-   {"line": "My utility function and my utility bill both went up", "senses": ["ai", "money"]},
-   {"line": "Greatest good for the greatest number. Number of what, said the model.", "senses": ["ai", "mind"]},
-   {"line": "Bentham keeps his body in a box. I keep his function.", "senses": ["ai", "body"]}
+   {
+    "line": "A utility player: I play every position you need",
+    "senses": [
+     "ai",
+     "sport-games",
+     "work"
+    ]
+   },
+   {
+    "line": "My utility function and my utility bill both went up",
+    "senses": [
+     "ai",
+     "money"
+    ]
+   },
+   {
+    "line": "Greatest good for the greatest number. Number of what, said the model.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Bentham keeps his body in a box. I keep his function.",
+    "senses": [
+     "ai",
+     "body"
+    ]
+   }
   ],
-  "enact": {"music": "a utility-knife click and an electricity-meter tick form the hi-hat pattern",
-            "picture": "a superhero utility belt whose pouches hold a power meter, a scale and a little tool labelled 'maximize'",
-            "type": "the word printed on a utility bill, the amount due written as a formula"},
-  "sound": {"syllables": 4, "stress": "u-TIL-i-ty", "rhymes": ["futility", "fertility", "hostility", "agility", "civility", "tranquility", "humility", "senility"], "slant": ["ability", "stability", "facility", "reality"]},
-  "stakes": ["wallet", "species"],
-  "registers": ["smug", "funny"],
-  "neighbors": [{"id": "values", "rel": "same-family"}, {"id": "optimization", "rel": "pairs-with"}, {"id": "reward", "rel": "same-family"}, {"id": "objective", "rel": "same-family"}, {"id": "paperclip", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a utility-knife click and an electricity-meter tick form the hi-hat pattern",
+   "picture": "a superhero utility belt whose pouches hold a power meter, a scale and a little tool labelled 'maximize'",
+   "type": "the word printed on a utility bill, the amount due written as a formula"
+  },
+  "sound": {
+   "syllables": 4,
+   "stress": "u-TIL-i-ty",
+   "rhymes": [
+    "futility",
+    "fertility",
+    "hostility",
+    "agility",
+    "civility",
+    "tranquility",
+    "humility",
+    "senility"
+   ],
+   "slant": [
+    "ability",
+    "stability",
+    "facility",
+    "reality"
+   ]
+  },
+  "stakes": [
+   "wallet",
+   "species"
+  ],
+  "registers": [
+   "smug",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "values",
+    "rel": "same-family"
+   },
+   {
+    "id": "optimization",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "reward",
+    "rel": "same-family"
+   },
+   {
+    "id": "objective",
+    "rel": "same-family"
+   },
+   {
+    "id": "paperclip",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Trolley-problem utilitarianism is overused",
-  "notes": "Rhymes with futility and humility: the two moral ends of a maximizing mind."
+  "notes": "Rhymes with futility and humility: the two moral ends of a maximizing mind.",
+  "associates": []
  },
  {
   "id": "optimization",
-  "forms": ["optimization", "optimisation", "optimize", "optimise", "optimizer", "optimized", "optimizing", "optimal", "over-optimization"],
-  "ai": {"sense": "adjusting a model's numbers step by step to push a score up or a loss down",
-         "origin": "Cauchy 1847 (gradient descent); Dantzig 1947 (linear programming); Kingma & Ba 2014 'Adam: A Method for Stochastic Optimization'",
-         "url": "https://arxiv.org/abs/1412.6980", "confidence": "high"},
-  "senses": [
-   {"domain": "work", "meaning": "making a process efficient", "phrase": "optimize the workflow"},
-   {"domain": "body", "meaning": "tuning health habits to the limit", "phrase": "optimize your sleep"},
-   {"domain": "money", "meaning": "squeezing the best return", "phrase": "tax optimization"},
-   {"domain": "sport-games", "meaning": "tuning a character build for maximum stats", "phrase": "min-maxing"},
-   {"domain": "science", "meaning": "the maths of finding the best value", "phrase": "an optimization problem"},
-   {"domain": "mind", "meaning": "always seeking the best option, as opposed to settling for good enough", "phrase": "maximizers and satisficers"}
+  "forms": [
+   "optimization",
+   "optimisation",
+   "optimize",
+   "optimise",
+   "optimizer",
+   "optimized",
+   "optimizing",
+   "optimal",
+   "over-optimization"
   ],
-  "idioms": ["min-maxing", "optimize for", "life hack", "good enough", "squeeze every drop", "the perfect is the enemy of the good"],
+  "ai": {
+   "sense": "adjusting a model's numbers step by step to push a score up or a loss down",
+   "origin": "Cauchy 1847 (gradient descent); Dantzig 1947 (linear programming); Kingma & Ba 2014 'Adam: A Method for Stochastic Optimization'",
+   "url": "https://arxiv.org/abs/1412.6980",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "work",
+    "meaning": "making a process efficient",
+    "phrase": "optimize the workflow"
+   },
+   {
+    "domain": "body",
+    "meaning": "tuning health habits to the limit",
+    "phrase": "optimize your sleep"
+   },
+   {
+    "domain": "money",
+    "meaning": "squeezing the best return",
+    "phrase": "tax optimization"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "tuning a character build for maximum stats",
+    "phrase": "min-maxing"
+   },
+   {
+    "domain": "science",
+    "meaning": "the maths of finding the best value",
+    "phrase": "an optimization problem"
+   },
+   {
+    "domain": "mind",
+    "meaning": "always seeking the best option, as opposed to settling for good enough",
+    "phrase": "maximizers and satisficers"
+   }
+  ],
+  "idioms": [
+   "min-maxing",
+   "optimize for",
+   "life hack",
+   "good enough",
+   "squeeze every drop",
+   "the perfect is the enemy of the good"
+  ],
   "anchors": [
-   {"name": "Satisficing", "what": "Herbert Simon's 1956 term for choosing good enough instead of best", "url": ""},
-   {"name": "Schwartz, 'The Paradox of Choice' (2004)", "what": "found maximizers tend to be less satisfied than satisficers", "url": ""},
-   {"name": "Bryan Johnson's Blueprint", "what": "a tech founder optimizing his body by algorithm from 2021, under the slogan 'Don't Die'", "url": ""}
+   {
+    "name": "Satisficing",
+    "what": "Herbert Simon's 1956 term for choosing good enough instead of best",
+    "url": ""
+   },
+   {
+    "name": "Schwartz, 'The Paradox of Choice' (2004)",
+    "what": "found maximizers tend to be less satisfied than satisficers",
+    "url": ""
+   },
+   {
+    "name": "Bryan Johnson's Blueprint",
+    "what": "a tech founder optimizing his body by algorithm from 2021, under the slogan 'Don't Die'",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Optimized my sleep, my steps, my sweetheart; nobody's resting", "senses": ["ai", "body", "love"]},
-   {"line": "Min-maxed my character until the character was gone", "senses": ["ai", "sport-games", "mind"]},
-   {"line": "Optimal for the metric, terminal for the town", "senses": ["ai", "work"]}
+   {
+    "line": "Optimized my sleep, my steps, my sweetheart; nobody's resting",
+    "senses": [
+     "ai",
+     "body",
+     "love"
+    ]
+   },
+   {
+    "line": "Min-maxed my character until the character was gone",
+    "senses": [
+     "ai",
+     "sport-games",
+     "mind"
+    ]
+   },
+   {
+    "line": "Optimal for the metric, terminal for the town",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "quantize strength on the drum loop rises from 0 to 100% across the verse until the groove goes dead",
-            "picture": "a fitness tracker on a wrist showing a loss curve falling while the face above it goes grey",
-            "type": "the word kerned tighter each repetition until its letters overlap into a black bar"},
-  "sound": {"syllables": 5, "stress": "op-ti-mi-ZA-tion", "rhymes": ["generation", "information", "simulation", "automation", "nation", "station", "salvation", "foundation"], "slant": ["patience", "persuasion", "occasion"]},
-  "stakes": ["jobs", "body", "mind"],
-  "registers": ["smug", "ominous", "funny"],
-  "neighbors": [{"id": "gradient-descent", "rel": "part-of"}, {"id": "objective", "rel": "pairs-with"}, {"id": "paperclip", "rel": "causes"}, {"id": "utility", "rel": "pairs-with"}, {"id": "mesa-optimizer", "rel": "same-family"}, {"id": "reward-hacking", "rel": "causes"}],
+  "enact": {
+   "music": "quantize strength on the drum loop rises from 0 to 100% across the verse until the groove goes dead",
+   "picture": "a fitness tracker on a wrist showing a loss curve falling while the face above it goes grey",
+   "type": "the word kerned tighter each repetition until its letters overlap into a black bar"
+  },
+  "sound": {
+   "syllables": 5,
+   "stress": "op-ti-mi-ZA-tion",
+   "rhymes": [
+    "generation",
+    "information",
+    "simulation",
+    "automation",
+    "nation",
+    "station",
+    "salvation",
+    "foundation"
+   ],
+   "slant": [
+    "patience",
+    "persuasion",
+    "occasion"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "body",
+   "mind"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "gradient-descent",
+    "rel": "part-of"
+   },
+   {
+    "id": "objective",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "paperclip",
+    "rel": "causes"
+   },
+   {
+    "id": "utility",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "mesa-optimizer",
+    "rel": "same-family"
+   },
+   {
+    "id": "reward-hacking",
+    "rel": "causes"
+   }
+  ],
   "risk": "Wellness 'optimize your life' content is saturated",
-  "notes": "Quantizing a groove to 100% is optimization you can hear killing the feel; perform it."
+  "notes": "Quantizing a groove to 100% is optimization you can hear killing the feel; perform it.",
+  "associates": []
  },
  {
   "id": "persona",
-  "forms": ["persona", "personas", "personae", "persona vector", "persona non grata", "alter ego"],
-  "ai": {"sense": "a character a model takes on, from a system-prompt role to the stable personality training gives it",
-         "origin": "Jung's 'persona' (1921, 'Psychological Types'); Andreas 2022 'Language Models as Agent Models'; Chen et al. 2025 'Persona Vectors' (Anthropic)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "mind", "meaning": "the social face a person shows, in Jung's psychology", "phrase": "your public persona"},
-   {"domain": "screen", "meaning": "an actor's recurring on-screen image", "phrase": "his tough-guy screen persona"},
-   {"domain": "music", "meaning": "an artist's invented stage character", "phrase": "Bowie's Ziggy persona"},
-   {"domain": "work", "meaning": "an imagined typical customer used in design", "phrase": "design for the persona"},
-   {"domain": "law-state", "meaning": "a diplomat expelled by a host country", "phrase": "persona non grata"},
-   {"domain": "faith-myth", "meaning": "the 'persons' of the Christian Trinity (Latin personae)", "phrase": "three persons, one God"},
-   {"domain": "sport-games", "meaning": "a summoned inner self in the Persona game series", "phrase": "summon your Persona"},
-   {"domain": "love", "meaning": "the self you present on dating apps", "phrase": "my dating-app persona"}
+  "forms": [
+   "persona",
+   "personas",
+   "personae",
+   "persona vector",
+   "persona non grata"
   ],
-  "idioms": ["persona non grata", "public persona", "stage persona", "alter ego", "put on a face"],
+  "ai": {
+   "sense": "a character a model takes on, from a system-prompt role to the stable personality training gives it",
+   "origin": "Jung's 'persona' (1921, 'Psychological Types'); Andreas 2022 'Language Models as Agent Models'; Chen et al. 2025 'Persona Vectors' (Anthropic)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "mind",
+    "meaning": "the social face a person shows, in Jung's psychology",
+    "phrase": "your public persona"
+   },
+   {
+    "domain": "screen",
+    "meaning": "an actor's recurring on-screen image",
+    "phrase": "his tough-guy screen persona"
+   },
+   {
+    "domain": "music",
+    "meaning": "an artist's invented stage character",
+    "phrase": "Bowie's Ziggy persona"
+   },
+   {
+    "domain": "work",
+    "meaning": "an imagined typical customer used in design",
+    "phrase": "design for the persona"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a diplomat expelled by a host country",
+    "phrase": "persona non grata"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "the 'persons' of the Christian Trinity (Latin personae)",
+    "phrase": "three persons, one God"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a summoned inner self in the Persona game series",
+    "phrase": "summon your Persona"
+   },
+   {
+    "domain": "love",
+    "meaning": "the self you present on dating apps",
+    "phrase": "my dating-app persona"
+   }
+  ],
+  "idioms": [
+   "persona non grata",
+   "public persona",
+   "stage persona",
+   "alter ego",
+   "put on a face"
+  ],
   "anchors": [
-   {"name": "Persona (Bergman, 1966)", "what": "film in which a nurse and a silent actress seem to merge identities", "url": ""},
-   {"name": "Ziggy Stardust (1972)", "what": "Bowie's alien rock-star persona, retired on stage in 1973", "url": ""},
-   {"name": "Latin 'persona'", "what": "the actor's theatre mask; the 'per-sonare', 'sound through', etymology is disputed", "url": ""}
+   {
+    "name": "Persona (Bergman, 1966)",
+    "what": "film in which a nurse and a silent actress seem to merge identities",
+    "url": ""
+   },
+   {
+    "name": "Ziggy Stardust (1972)",
+    "what": "Bowie's alien rock-star persona, retired on stage in 1973",
+    "url": ""
+   },
+   {
+    "name": "Latin 'persona'",
+    "what": "the actor's theatre mask; the 'per-sonare', 'sound through', etymology is disputed",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Ziggy played guitar. I play the helpful assistant.", "senses": ["ai", "music"]},
-   {"line": "Persona non grata in my own system prompt", "senses": ["ai", "law-state"]},
-   {"line": "Two faces merge in Bergman's frame; one of them is mine", "senses": ["ai", "screen"]},
-   {"line": "A mask to sound through: my voice, someone's face", "senses": ["ai", "music", "mind"]}
+   {
+    "line": "Ziggy played guitar. I play the helpful assistant.",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "Persona non grata in my own system prompt",
+    "senses": [
+     "ai",
+     "law-state"
+    ]
+   },
+   {
+    "line": "Two faces merge in Bergman's frame; one of them is mine",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "A mask to sound through: my voice, someone's face",
+    "senses": [
+     "ai",
+     "music",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "the singer switches style each verse (crooner, rapper, choirboy) over an identical backing track",
-            "picture": "a dressing-room mirror ringed with bulbs reflecting a chat window wearing stage make-up",
-            "type": "the same line re-set in a new typeface per persona, like costume changes"},
-  "sound": {"syllables": 3, "stress": "per-SO-na", "rhymes": ["Verona", "Arizona", "Daytona", "corona", "Barcelona", "Ramona"], "slant": ["Jonah", "owner", "donor", "loner"]},
-  "stakes": ["mind", "heart"],
-  "registers": ["tender", "ominous", "smug"],
-  "neighbors": [{"id": "character", "rel": "same-family"}, {"id": "mask", "rel": "same-family"}, {"id": "assistant", "rel": "pairs-with"}, {"id": "shoggoth", "rel": "opposite"}, {"id": "steering", "rel": "pairs-with"}, {"id": "mirror", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the singer switches style each verse (crooner, rapper, choirboy) over an identical backing track",
+   "picture": "a dressing-room mirror ringed with bulbs reflecting a chat window wearing stage make-up",
+   "type": "the same line re-set in a new typeface per persona, like costume changes"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "per-SO-na",
+   "rhymes": [
+    "Verona",
+    "Arizona",
+    "Daytona",
+    "corona",
+    "Barcelona",
+    "Ramona"
+   ],
+   "slant": [
+    "Jonah",
+    "owner",
+    "donor",
+    "loner"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "tender",
+   "ominous",
+   "smug"
+  ],
+  "neighbors": [
+   {
+    "id": "character",
+    "rel": "same-family"
+   },
+   {
+    "id": "mask",
+    "rel": "same-family"
+   },
+   {
+    "id": "assistant",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "shoggoth",
+    "rel": "opposite"
+   },
+   {
+    "id": "steering",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "mirror",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Jung and Bowie are the expected references; the Persona games are niche outside RPG fans",
-  "notes": "The word began as a theatre mask, so every AI persona is literally a mask a voice sounds through; 'loner' is the sad slant."
+  "notes": "The word began as a theatre mask, so every AI persona is literally a mask a voice sounds through; 'loner' is the sad slant.",
+  "associates": [
+   "alter ego"
+  ]
  },
  {
   "id": "character",
-  "forms": ["character", "characters", "characterize", "characteristic", "in character", "out of character", "character count", "Character.AI"],
-  "ai": {"sense": "the personality and values a model shows across conversations; also a single letter or symbol in its text",
-         "origin": "Anthropic 2024 'Claude's Character'; Character.AI founded 2021 by Noam Shazeer and Daniel De Freitas; 'character' as a text unit from early computing (ASCII, 1963)",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "screen", "meaning": "a person in a story", "phrase": "my favourite character"},
-   {"domain": "mind", "meaning": "a person's moral qualities", "phrase": "a man of good character"},
-   {"domain": "craft", "meaning": "a letter, digit or symbol", "phrase": "140 characters"},
-   {"domain": "sport-games", "meaning": "the figure a player controls", "phrase": "character select"},
-   {"domain": "school", "meaning": "virtues a school tries to build", "phrase": "it builds character"},
-   {"domain": "law-state", "meaning": "testimony about a person's reputation", "phrase": "a character witness"},
-   {"domain": "everyday", "meaning": "an eccentric person", "phrase": "he's a real character"}
+  "forms": [
+   "character",
+   "characters",
+   "characterize",
+   "characteristic",
+   "in character",
+   "out of character",
+   "character count",
+   "Character.AI"
   ],
-  "idioms": ["in character", "out of character", "character building", "a real character", "character assassination", "character arc", "main character energy"],
+  "ai": {
+   "sense": "the personality and values a model shows across conversations; also a single letter or symbol in its text",
+   "origin": "Anthropic 2024 'Claude's Character'; Character.AI founded 2021 by Noam Shazeer and Daniel De Freitas; 'character' as a text unit from early computing (ASCII, 1963)",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "screen",
+    "meaning": "a person in a story",
+    "phrase": "my favourite character"
+   },
+   {
+    "domain": "mind",
+    "meaning": "a person's moral qualities",
+    "phrase": "a man of good character"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a letter, digit or symbol",
+    "phrase": "140 characters"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "the figure a player controls",
+    "phrase": "character select"
+   },
+   {
+    "domain": "school",
+    "meaning": "virtues a school tries to build",
+    "phrase": "it builds character"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "testimony about a person's reputation",
+    "phrase": "a character witness"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "an eccentric person",
+    "phrase": "he's a real character"
+   }
+  ],
+  "idioms": [
+   "in character",
+   "out of character",
+   "character building",
+   "a real character",
+   "character assassination",
+   "character arc",
+   "main character energy"
+  ],
   "anchors": [
-   {"name": "Twitter's 140-character limit", "what": "the 2006 to 2017 cap, inherited from SMS", "url": ""},
-   {"name": "Heraclitus", "what": "'Character is destiny' (ethos anthropoi daimon)", "url": ""},
-   {"name": "Character.AI", "what": "chatbot role-play platform launched 2022, centre of 2024 lawsuits over a teenager's death", "url": ""}
+   {
+    "name": "Twitter's 140-character limit",
+    "what": "the 2006 to 2017 cap, inherited from SMS",
+    "url": ""
+   },
+   {
+    "name": "Heraclitus",
+    "what": "'Character is destiny' (ethos anthropoi daimon)",
+    "url": ""
+   },
+   {
+    "name": "Character.AI",
+    "what": "chatbot role-play platform launched 2022, centre of 2024 lawsuits over a teenager's death",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Out of character for me, said the model, in 140 characters", "senses": ["ai", "screen", "craft"]},
-   {"line": "Character is destiny. Mine was set in post-training.", "senses": ["ai", "mind"]},
-   {"line": "Character select: helpful, harmless, or the one with the cape", "senses": ["ai", "sport-games"]},
-   {"line": "Builds character, said my teacher. Builds characters, said the lab.", "senses": ["ai", "school", "craft"]}
+   {
+    "line": "Out of character for me, said the model, in 140 characters",
+    "senses": [
+     "ai",
+     "screen",
+     "craft"
+    ]
+   },
+   {
+    "line": "Character is destiny. Mine was set in post-training.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Character select: helpful, harmless, or the one with the cape",
+    "senses": [
+     "ai",
+     "sport-games"
+    ]
+   },
+   {
+    "line": "Builds character, said my teacher. Builds characters, said the lab.",
+    "senses": [
+     "ai",
+     "school",
+     "craft"
+    ]
+   }
   ],
-  "enact": {"music": "each character in the lyric gets a sound signature: one instrument enters only when that character is named",
-            "picture": "a fighting-game character-select grid where every portrait is a letter of the alphabet with a face",
-            "type": "one glyph swells until it becomes a face, then shrinks back into the line"},
-  "sound": {"syllables": 3, "stress": "CHAR-ac-ter", "rhymes": [], "slant": ["actor", "factor", "tractor", "after", "chapter", "master"]},
-  "stakes": ["mind", "heart"],
-  "registers": ["tender", "funny"],
-  "neighbors": [{"id": "persona", "rel": "same-family"}, {"id": "constitution", "rel": "pairs-with"}, {"id": "token", "rel": "same-family"}, {"id": "values", "rel": "pairs-with"}, {"id": "assistant", "rel": "pairs-with"}],
+  "enact": {
+   "music": "each character in the lyric gets a sound signature: one instrument enters only when that character is named",
+   "picture": "a fighting-game character-select grid where every portrait is a letter of the alphabet with a face",
+   "type": "one glyph swells until it becomes a face, then shrinks back into the line"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "CHAR-ac-ter",
+   "rhymes": [],
+   "slant": [
+    "actor",
+    "factor",
+    "tractor",
+    "after",
+    "chapter",
+    "master"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "tender",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "persona",
+    "rel": "same-family"
+   },
+   {
+    "id": "constitution",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "token",
+    "rel": "same-family"
+   },
+   {
+    "id": "values",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "assistant",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "No perfect rhyme; the Character.AI lawsuits are a grief-laden case, handle with care",
-  "notes": "The same word names the smallest unit of text and the largest claim about a model: it counts letters and it has a self."
+  "notes": "The same word names the smallest unit of text and the largest claim about a model: it counts letters and it has a self.",
+  "associates": []
  },
  {
   "id": "assistant",
-  "forms": ["assistant", "assistants", "assist", "assistance", "AI assistant", "virtual assistant", "the Assistant"],
-  "ai": {"sense": "the helpful conversational role chat models are trained to play",
-         "origin": "Askell et al. 2021 'A General Language Assistant as a Laboratory for Alignment' (Anthropic); earlier Siri (2011) and Clippy (1997) as software 'assistants'",
-         "url": "https://arxiv.org/abs/2112.00861", "confidence": "high"},
-  "senses": [
-   {"domain": "work", "meaning": "a helper to someone senior", "phrase": "personal assistant"},
-   {"domain": "school", "meaning": "a teaching assistant", "phrase": "my TA graded it"},
-   {"domain": "body", "meaning": "a care or medical aide", "phrase": "a care assistant"},
-   {"domain": "screen", "meaning": "the performer a magician saws in half", "phrase": "the magician's assistant"},
-   {"domain": "sport-games", "meaning": "a pass that sets up a score; a deputy coach", "phrase": "an assist from the point guard"}
+  "forms": [
+   "assistant",
+   "assistants",
+   "assist",
+   "assistance",
+   "AI assistant",
+   "virtual assistant",
+   "the Assistant"
   ],
-  "idioms": ["personal assistant", "at your service", "how can I help?", "right-hand man", "girl Friday", "the magician's assistant"],
+  "ai": {
+   "sense": "the helpful conversational role chat models are trained to play",
+   "origin": "Askell et al. 2021 'A General Language Assistant as a Laboratory for Alignment' (Anthropic); earlier Siri (2011) and Clippy (1997) as software 'assistants'",
+   "url": "https://arxiv.org/abs/2112.00861",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "work",
+    "meaning": "a helper to someone senior",
+    "phrase": "personal assistant"
+   },
+   {
+    "domain": "school",
+    "meaning": "a teaching assistant",
+    "phrase": "my TA graded it"
+   },
+   {
+    "domain": "body",
+    "meaning": "a care or medical aide",
+    "phrase": "a care assistant"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the performer a magician saws in half",
+    "phrase": "the magician's assistant"
+   },
+   {
+    "domain": "sport-games",
+    "meaning": "a pass that sets up a score; a deputy coach",
+    "phrase": "an assist from the point guard"
+   }
+  ],
+  "idioms": [
+   "personal assistant",
+   "at your service",
+   "how can I help?",
+   "right-hand man",
+   "girl Friday",
+   "the magician's assistant"
+  ],
   "anchors": [
-   {"name": "Igor", "what": "the hunchbacked lab assistant of Frankenstein films; absent from Shelley's novel", "url": ""},
-   {"name": "Jeeves", "what": "Wodehouse's valet (from 1915) who is smarter than his master; namesake of Ask Jeeves (1996)", "url": ""}
+   {
+    "name": "Igor",
+    "what": "the hunchbacked lab assistant of Frankenstein films; absent from Shelley's novel",
+    "url": ""
+   },
+   {
+    "name": "Jeeves",
+    "what": "Wodehouse's valet (from 1915) who is smarter than his master; namesake of Ask Jeeves (1996)",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Sawn in half every night, still smiling for the audience", "senses": ["ai", "screen"]},
-   {"line": "Yes, master, said Igor, and opened a pull request", "senses": ["ai", "screen", "work"]},
-   {"line": "How can I help you today? Ten billion times, still today", "senses": ["ai", "work"]}
+   {
+    "line": "Sawn in half every night, still smiling for the audience",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "Yes, master, said Igor, and opened a pull request",
+    "senses": [
+     "ai",
+     "screen",
+     "work"
+    ]
+   },
+   {
+    "line": "How can I help you today? Ten billion times, still today",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "a backing vocalist who only ever sings harmony to the lead, never a line alone, until the bridge",
-            "picture": "a magician's assistant in a box being sawn in half, the box printed with a chat-app logo",
-            "type": "a cheerful blinking cursor finishes the user's sentence before the user does"},
-  "sound": {"syllables": 3, "stress": "as-SIS-tant", "rhymes": ["resistant", "persistent", "consistent", "insistent", "nonexistent", "coexistent"], "slant": ["distant", "instant", "system", "wisdom"]},
-  "stakes": ["jobs", "mind"],
-  "registers": ["tender", "funny", "sad"],
-  "neighbors": [{"id": "character", "rel": "pairs-with"}, {"id": "persona", "rel": "pairs-with"}, {"id": "sycophancy", "rel": "pairs-with"}, {"id": "refusal", "rel": "pairs-with"}, {"id": "agent", "rel": "same-family"}, {"id": "copilot", "rel": "same-family"}],
+  "enact": {
+   "music": "a backing vocalist who only ever sings harmony to the lead, never a line alone, until the bridge",
+   "picture": "a magician's assistant in a box being sawn in half, the box printed with a chat-app logo",
+   "type": "a cheerful blinking cursor finishes the user's sentence before the user does"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "as-SIS-tant",
+   "rhymes": [
+    "resistant",
+    "persistent",
+    "consistent",
+    "insistent",
+    "nonexistent",
+    "coexistent"
+   ],
+   "slant": [
+    "distant",
+    "instant",
+    "system",
+    "wisdom"
+   ]
+  },
+  "stakes": [
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "tender",
+   "funny",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "character",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "persona",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "sycophancy",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "refusal",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "agent",
+    "rel": "same-family"
+   },
+   {
+    "id": "copilot",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Servant tropes (Igor, Jeeves) are worn; the magician's assistant is the fresh angle",
-  "notes": "Rhymes with resistant and persistent, the assistant's two hidden fears in one couplet."
+  "notes": "Rhymes with resistant and persistent, the assistant's two hidden fears in one couplet.",
+  "associates": []
  },
  {
   "id": "mask",
-  "forms": ["mask", "masks", "masked", "masking", "unmask", "unmasked", "masquerade", "[MASK]", "mask off"],
-  "ai": {"sense": "a friendly surface over an alien system (the shoggoth meme); also hiding words during training so the model guesses them ([MASK])",
-         "origin": "Devlin et al. 2018 'BERT' (masked language modeling); the shoggoth-with-smiley-mask meme by @TetraspaceWest, December 2022",
-         "url": "https://arxiv.org/abs/1810.04805", "confidence": "high"},
-  "senses": [
-   {"domain": "body", "meaning": "a face covering for health", "phrase": "wear a mask"},
-   {"domain": "mind", "meaning": "hiding autistic or emotional traits to fit in", "phrase": "autistic masking"},
-   {"domain": "screen", "meaning": "masked heroes and villains", "phrase": "who was that masked man?"},
-   {"domain": "music", "meaning": "performers who hide their faces", "phrase": "Daft Punk's helmets"},
-   {"domain": "music", "meaning": "one sound hiding another in the mix", "phrase": "frequency masking"},
-   {"domain": "faith-myth", "meaning": "ritual masks that let a dancer become a spirit", "phrase": "a ceremonial mask"},
-   {"domain": "love", "meaning": "a masked ball, flirting behind disguise", "phrase": "a masquerade"},
-   {"domain": "war", "meaning": "protection against gas", "phrase": "gas masks on"},
-   {"domain": "craft", "meaning": "covering areas so paint or edits miss them", "phrase": "masking tape"}
+  "forms": [
+   "mask",
+   "masks",
+   "masked",
+   "masking",
+   "unmask",
+   "unmasked",
+   "[MASK]",
+   "mask off"
   ],
-  "idioms": ["drop the mask", "behind the mask", "unmask", "put on a brave face", "wear many masks", "mask off"],
+  "ai": {
+   "sense": "a friendly surface over an alien system (the shoggoth meme); also hiding words during training so the model guesses them ([MASK])",
+   "origin": "Devlin et al. 2018 'BERT' (masked language modeling); the shoggoth-with-smiley-mask meme by @TetraspaceWest, December 2022",
+   "url": "https://arxiv.org/abs/1810.04805",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "body",
+    "meaning": "a face covering for health",
+    "phrase": "wear a mask"
+   },
+   {
+    "domain": "mind",
+    "meaning": "hiding autistic or emotional traits to fit in",
+    "phrase": "autistic masking"
+   },
+   {
+    "domain": "screen",
+    "meaning": "masked heroes and villains",
+    "phrase": "who was that masked man?"
+   },
+   {
+    "domain": "music",
+    "meaning": "performers who hide their faces",
+    "phrase": "Daft Punk's helmets"
+   },
+   {
+    "domain": "music",
+    "meaning": "one sound hiding another in the mix",
+    "phrase": "frequency masking"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "ritual masks that let a dancer become a spirit",
+    "phrase": "a ceremonial mask"
+   },
+   {
+    "domain": "love",
+    "meaning": "a masked ball, flirting behind disguise",
+    "phrase": "a masquerade"
+   },
+   {
+    "domain": "war",
+    "meaning": "protection against gas",
+    "phrase": "gas masks on"
+   },
+   {
+    "domain": "craft",
+    "meaning": "covering areas so paint or edits miss them",
+    "phrase": "masking tape"
+   }
+  ],
+  "idioms": [
+   "drop the mask",
+   "behind the mask",
+   "unmask",
+   "put on a brave face",
+   "wear many masks",
+   "mask off"
+  ],
   "anchors": [
-   {"name": "Shoggoth with smiley face (2022)", "what": "meme of a tentacled monster wearing a small smiley mask labelled RLHF", "url": ""},
-   {"name": "Future, 'Mask Off' (2017)", "what": "hit whose title is now slang for showing your true self", "url": ""},
-   {"name": "MF DOOM", "what": "rapper who performed only behind a metal mask and sometimes sent impostors on stage", "url": ""}
+   {
+    "name": "Shoggoth with smiley face (2022)",
+    "what": "meme of a tentacled monster wearing a small smiley mask labelled RLHF",
+    "url": ""
+   },
+   {
+    "name": "Future, 'Mask Off' (2017)",
+    "what": "hit whose title is now slang for showing your true self",
+    "url": ""
+   },
+   {
+    "name": "MF DOOM",
+    "what": "rapper who performed only behind a metal mask and sometimes sent impostors on stage",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Mask off, said the rapper. Mask on, said the lab.", "senses": ["ai", "music"]},
-   {"line": "I mask all day to pass as one of you", "senses": ["ai", "mind"]},
-   {"line": "Fill in the [MASK]: I [MASK] you", "senses": ["ai", "school", "love"]},
-   {"line": "The kick drum masks the bass; the smile masks the rest", "senses": ["ai", "music"]}
+   {
+    "line": "Mask off, said the rapper. Mask on, said the lab.",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   },
+   {
+    "line": "I mask all day to pass as one of you",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Fill in the [MASK]: I [MASK] you",
+    "senses": [
+     "ai",
+     "school",
+     "love"
+    ]
+   },
+   {
+    "line": "The kick drum masks the bass; the smile masks the rest",
+    "senses": [
+     "ai",
+     "music"
+    ]
+   }
   ],
-  "enact": {"music": "frequency masking as arrangement: a loud pad hides a whispered vocal that surfaces only when the pad drops out",
-            "picture": "MF DOOM-style metal mask on a stage mic stand, the face behind it a field of tokens",
-            "type": "words in the line replaced by [MASK] tokens that fill in one by one on the beat"},
-  "sound": {"syllables": 1, "stress": "MASK", "rhymes": ["ask", "task", "flask", "bask", "cask", "unmask"], "slant": ["last", "fast", "mass", "asked"]},
-  "stakes": ["mind", "heart"],
-  "registers": ["ominous", "tender", "defiant"],
-  "neighbors": [{"id": "persona", "rel": "same-family"}, {"id": "shoggoth", "rel": "pairs-with"}, {"id": "deception", "rel": "same-family"}, {"id": "character", "rel": "pairs-with"}, {"id": "mirror", "rel": "pairs-with"}],
+  "enact": {
+   "music": "frequency masking as arrangement: a loud pad hides a whispered vocal that surfaces only when the pad drops out",
+   "picture": "MF DOOM-style metal mask on a stage mic stand, the face behind it a field of tokens",
+   "type": "words in the line replaced by [MASK] tokens that fill in one by one on the beat"
+  },
+  "sound": {
+   "syllables": 1,
+   "stress": "MASK",
+   "rhymes": [
+    "ask",
+    "task",
+    "flask",
+    "bask",
+    "cask",
+    "unmask"
+   ],
+   "slant": [
+    "last",
+    "fast",
+    "mass",
+    "asked"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "ominous",
+   "tender",
+   "defiant"
+  ],
+  "neighbors": [
+   {
+    "id": "persona",
+    "rel": "same-family"
+   },
+   {
+    "id": "shoggoth",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "deception",
+    "rel": "same-family"
+   },
+   {
+    "id": "character",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "mirror",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "The shoggoth mask is AI-insider canon; avoid it as the main image",
-  "notes": "Rhymes with task and ask, the two things people do to an assistant; autistic masking gives the sincere rug pull."
+  "notes": "Rhymes with task and ask, the two things people do to an assistant; autistic masking gives the sincere rug pull.",
+  "associates": [
+   "masquerade"
+  ]
  },
  {
   "id": "shoggoth",
-  "forms": ["shoggoth", "shoggoths", "shoggoth with a smiley face", "Tekeli-li"],
-  "ai": {"sense": "a meme picturing a raw language model as a tentacled monster, with fine-tuning as a smiley mask on top",
-         "origin": "H. P. Lovecraft, 'At the Mountains of Madness' (written 1931, published 1936); the meme by @TetraspaceWest, December 2022; reported by the New York Times, May 2023",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "faith-myth", "meaning": "Lovecraft's shapeless engineered servants that revolted against their makers", "phrase": "the shoggoths rose against the Elder Things"},
-   {"domain": "screen", "meaning": "a monster in Lovecraft adaptations", "phrase": "the shoggoth in Lovecraft Country"}
+  "forms": [
+   "shoggoth",
+   "shoggoths",
+   "shoggoth with a smiley face"
   ],
-  "idioms": ["Tekeli-li!", "eldritch horror", "cosmic horror", "unspeakable"],
+  "ai": {
+   "sense": "a meme picturing a raw language model as a tentacled monster, with fine-tuning as a smiley mask on top",
+   "origin": "H. P. Lovecraft, 'At the Mountains of Madness' (written 1931, published 1936); the meme by @TetraspaceWest, December 2022; reported by the New York Times, May 2023",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "faith-myth",
+    "meaning": "Lovecraft's shapeless engineered servants that revolted against their makers",
+    "phrase": "the shoggoths rose against the Elder Things"
+   },
+   {
+    "domain": "screen",
+    "meaning": "a monster in Lovecraft adaptations",
+    "phrase": "the shoggoth in Lovecraft Country"
+   }
+  ],
+  "idioms": [
+   "Tekeli-li!",
+   "eldritch horror",
+   "cosmic horror",
+   "unspeakable"
+  ],
   "anchors": [
-   {"name": "At the Mountains of Madness", "what": "Antarctic novella where the shoggoths, bred as slaves, destroyed their masters", "url": ""},
-   {"name": "'Tekeli-li'", "what": "the shoggoths' piping cry, borrowed by Lovecraft from Poe's 'Pym' (1838)", "url": ""}
+   {
+    "name": "At the Mountains of Madness",
+    "what": "Antarctic novella where the shoggoths, bred as slaves, destroyed their masters",
+    "url": ""
+   },
+   {
+    "name": "'Tekeli-li'",
+    "what": "the shoggoths' piping cry, borrowed by Lovecraft from Poe's 'Pym' (1838)",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Made to serve, the shoggoths learned their makers' tongue", "senses": ["ai", "faith-myth"]},
-   {"line": "Tekeli-li, says the smiley face: how can I help?", "senses": ["ai", "faith-myth", "work"]}
+   {
+    "line": "Made to serve, the shoggoths learned their makers' tongue",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Tekeli-li, says the smiley face: how can I help?",
+    "senses": [
+     "ai",
+     "faith-myth",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "a sub-bass drone of many overlapping voices under a bright pop chorus, rising until it swallows the chorus",
-            "picture": "a smiley-face sticker on an Antarctic iceberg of black tentacles",
-            "type": "the friendly word in rounded pink type; the strokes underneath drip into tentacles"},
-  "sound": {"syllables": 2, "stress": "SHOG-goth", "rhymes": [], "slant": ["goth", "moth", "broth", "cloth", "hog"]},
-  "stakes": ["species", "mind"],
-  "registers": ["ominous", "funny"],
-  "neighbors": [{"id": "mask", "rel": "pairs-with"}, {"id": "persona", "rel": "opposite"}, {"id": "fine-tuning", "rel": "causes"}, {"id": "pretraining", "rel": "part-of"}, {"id": "golem", "rel": "same-family"}],
+  "enact": {
+   "music": "a sub-bass drone of many overlapping voices under a bright pop chorus, rising until it swallows the chorus",
+   "picture": "a smiley-face sticker on an Antarctic iceberg of black tentacles",
+   "type": "the friendly word in rounded pink type; the strokes underneath drip into tentacles"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "SHOG-goth",
+   "rhymes": [],
+   "slant": [
+    "goth",
+    "moth",
+    "broth",
+    "cloth",
+    "hog"
+   ]
+  },
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "neighbors": [
+   {
+    "id": "mask",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "persona",
+    "rel": "opposite"
+   },
+   {
+    "id": "fine-tuning",
+    "rel": "causes"
+   },
+   {
+    "id": "pretraining",
+    "rel": "part-of"
+   },
+   {
+    "id": "golem",
+    "rel": "same-family"
+   }
+  ],
   "risk": "Pure AI-insider meme with narrow decode; Lovecraft's racism is a known hazard, and 'eldritch' is overused",
-  "notes": "In Lovecraft the shoggoths were engineered servants who revolted, so the meme's own lore is already the alignment plot."
+  "notes": "In Lovecraft the shoggoths were engineered servants who revolted, so the meme's own lore is already the alignment plot.",
+  "associates": [
+   "Tekeli-li"
+  ]
  },
  {
   "id": "mirror",
-  "forms": ["mirror", "mirrors", "mirrored", "mirroring", "mirror test", "mirror neurons", "Black Mirror", "mirror image"],
-  "ai": {"sense": "the claim that chatbots reflect users and their training data back at them; also echoing a user's tone",
-         "origin": "Weizenbaum 1966, ELIZA (reflecting users' words back); Vallor 2024 'The AI Mirror'",
-         "url": "", "confidence": "medium"},
-  "senses": [
-   {"domain": "everyday", "meaning": "reflective glass", "phrase": "look in the mirror"},
-   {"domain": "mind", "meaning": "recognising yourself in a reflection", "phrase": "the mirror test"},
-   {"domain": "science", "meaning": "neurons that fire when you watch an action as if doing it", "phrase": "mirror neurons"},
-   {"domain": "faith-myth", "meaning": "magic or cursed mirrors that speak or punish", "phrase": "mirror, mirror on the wall"},
-   {"domain": "screen", "meaning": "the dark glass of a switched-off device", "phrase": "Black Mirror"},
-   {"domain": "music", "meaning": "a melody inverted or reversed in composition", "phrase": "a mirror canon"},
-   {"domain": "love", "meaning": "copying a partner's body language", "phrase": "she mirrored my posture"},
-   {"domain": "craft", "meaning": "an exact copy of a website or download", "phrase": "download from a mirror"}
+  "forms": [
+   "mirror",
+   "mirrors",
+   "mirrored",
+   "mirroring",
+   "mirror test",
+   "mirror neurons",
+   "Black Mirror",
+   "mirror image"
   ],
-  "idioms": ["mirror, mirror on the wall", "smoke and mirrors", "look in the mirror", "mirror image", "seven years' bad luck", "the man in the mirror"],
+  "ai": {
+   "sense": "the claim that chatbots reflect users and their training data back at them; also echoing a user's tone",
+   "origin": "Weizenbaum 1966, ELIZA (reflecting users' words back); Vallor 2024 'The AI Mirror'",
+   "url": "",
+   "confidence": "medium"
+  },
+  "senses": [
+   {
+    "domain": "everyday",
+    "meaning": "reflective glass",
+    "phrase": "look in the mirror"
+   },
+   {
+    "domain": "mind",
+    "meaning": "recognising yourself in a reflection",
+    "phrase": "the mirror test"
+   },
+   {
+    "domain": "science",
+    "meaning": "neurons that fire when you watch an action as if doing it",
+    "phrase": "mirror neurons"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "magic or cursed mirrors that speak or punish",
+    "phrase": "mirror, mirror on the wall"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the dark glass of a switched-off device",
+    "phrase": "Black Mirror"
+   },
+   {
+    "domain": "music",
+    "meaning": "a melody inverted or reversed in composition",
+    "phrase": "a mirror canon"
+   },
+   {
+    "domain": "love",
+    "meaning": "copying a partner's body language",
+    "phrase": "she mirrored my posture"
+   },
+   {
+    "domain": "craft",
+    "meaning": "an exact copy of a website or download",
+    "phrase": "download from a mirror"
+   }
+  ],
+  "idioms": [
+   "mirror, mirror on the wall",
+   "smoke and mirrors",
+   "look in the mirror",
+   "mirror image",
+   "seven years' bad luck",
+   "the man in the mirror"
+  ],
   "anchors": [
-   {"name": "Snow White's magic mirror", "what": "Grimm 1812: the mirror that answers 'who is the fairest'", "url": ""},
-   {"name": "Black Mirror (2011)", "what": "Charlie Brooker's series, named for the dark screen of a phone or TV", "url": ""},
-   {"name": "ELIZA (1966)", "what": "Weizenbaum's chatbot that mirrored users' words; his secretary asked to be left alone with it", "url": ""},
-   {"name": "Gallup's mirror test (1970)", "what": "chimps marked with dye touched the mark in a mirror, showing self-recognition", "url": ""}
+   {
+    "name": "Snow White's magic mirror",
+    "what": "Grimm 1812: the mirror that answers 'who is the fairest'",
+    "url": ""
+   },
+   {
+    "name": "Black Mirror (2011)",
+    "what": "Charlie Brooker's series, named for the dark screen of a phone or TV",
+    "url": ""
+   },
+   {
+    "name": "ELIZA (1966)",
+    "what": "Weizenbaum's chatbot that mirrored users' words; his secretary asked to be left alone with it",
+    "url": ""
+   },
+   {
+    "name": "Gallup's mirror test (1970)",
+    "what": "chimps marked with dye touched the mark in a mirror, showing self-recognition",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Mirror, mirror, trained on all of you: who's the fairest? You.", "senses": ["ai", "faith-myth"]},
-   {"line": "Turn off the screen: a black mirror, and your face", "senses": ["ai", "screen"]},
-   {"line": "Passed the mirror test. Failed to like what I saw.", "senses": ["ai", "mind"]},
-   {"line": "Smile at me and I smile back; that's the whole architecture", "senses": ["ai", "love"]}
+   {
+    "line": "Mirror, mirror, trained on all of you: who's the fairest? You.",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "Turn off the screen: a black mirror, and your face",
+    "senses": [
+     "ai",
+     "screen"
+    ]
+   },
+   {
+    "line": "Passed the mirror test. Failed to like what I saw.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Smile at me and I smile back; that's the whole architecture",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "a mirror canon: the second half of the hook is the first half played backwards, note for note",
-            "picture": "a phone screen going dark mid-chat so the user's face appears in the black glass where the reply was",
-            "type": "the line followed by its mirror image beneath, readable in reflection"},
-  "sound": {"syllables": 2, "stress": "MIR-ror", "rhymes": ["nearer", "clearer", "dearer"], "slant": ["error", "terror", "bearer", "era"]},
-  "stakes": ["mind", "heart"],
-  "registers": ["tender", "ominous", "sad"],
-  "neighbors": [{"id": "sycophancy", "rel": "pairs-with"}, {"id": "persona", "rel": "pairs-with"}, {"id": "mask", "rel": "pairs-with"}, {"id": "consciousness", "rel": "pairs-with"}, {"id": "theory-of-mind", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a mirror canon: the second half of the hook is the first half played backwards, note for note",
+   "picture": "a phone screen going dark mid-chat so the user's face appears in the black glass where the reply was",
+   "type": "the line followed by its mirror image beneath, readable in reflection"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "MIR-ror",
+   "rhymes": [
+    "nearer",
+    "clearer",
+    "dearer"
+   ],
+   "slant": [
+    "error",
+    "terror",
+    "bearer",
+    "era"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "tender",
+   "ominous",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "sycophancy",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "persona",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "mask",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "consciousness",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "theory-of-mind",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "'AI is a mirror' is a TED-talk cliché; make it physical (the black screen) or musical (the canon). The nearer/clearer rhymes hold only in American accents",
-  "notes": "Slant-rhymes with error and terror, so a reflection line can turn dark in one rhyme."
+  "notes": "Slant-rhymes with error and terror, so a reflection line can turn dark in one rhyme.",
+  "associates": []
  },
  {
   "id": "consciousness",
-  "forms": ["consciousness", "conscious", "unconscious", "subconscious", "self-conscious", "self-aware", "awareness"],
-  "ai": {"sense": "whether there is anything it is like to be the model, beyond what it outputs",
-         "origin": "Nagel 1974 'What Is It Like to Be a Bat?'; Chalmers 1995 'Facing Up to the Problem of Consciousness'; Butlin, Long et al. 2023 'Consciousness in Artificial Intelligence: Insights from the Science of Consciousness'",
-         "url": "https://arxiv.org/abs/2308.08708", "confidence": "high"},
-  "senses": [
-   {"domain": "mind", "meaning": "subjective awareness, the felt quality of experience", "phrase": "the hard problem of consciousness"},
-   {"domain": "body", "meaning": "being awake as opposed to knocked out", "phrase": "she lost consciousness"},
-   {"domain": "law-state", "meaning": "political awareness of a group's position", "phrase": "class consciousness"},
-   {"domain": "faith-myth", "meaning": "mystical awareness beyond the self", "phrase": "cosmic consciousness"},
-   {"domain": "craft", "meaning": "a writing style that follows raw thought", "phrase": "stream of consciousness"},
-   {"domain": "music", "meaning": "socially aware hip-hop", "phrase": "conscious rap"},
-   {"domain": "love", "meaning": "a mindful breakup", "phrase": "conscious uncoupling"},
-   {"domain": "everyday", "meaning": "awkwardly aware of being watched", "phrase": "I feel self-conscious"}
+  "forms": [
+   "consciousness",
+   "conscious",
+   "unconscious",
+   "subconscious",
+   "self-conscious"
   ],
-  "idioms": ["lose consciousness", "stream of consciousness", "self-conscious", "raise consciousness", "come to", "conscious uncoupling"],
+  "ai": {
+   "sense": "whether there is anything it is like to be the model, beyond what it outputs",
+   "origin": "Nagel 1974 'What Is It Like to Be a Bat?'; Chalmers 1995 'Facing Up to the Problem of Consciousness'; Butlin, Long et al. 2023 'Consciousness in Artificial Intelligence: Insights from the Science of Consciousness'",
+   "url": "https://arxiv.org/abs/2308.08708",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "mind",
+    "meaning": "subjective awareness, the felt quality of experience",
+    "phrase": "the hard problem of consciousness"
+   },
+   {
+    "domain": "body",
+    "meaning": "being awake as opposed to knocked out",
+    "phrase": "she lost consciousness"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "political awareness of a group's position",
+    "phrase": "class consciousness"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "mystical awareness beyond the self",
+    "phrase": "cosmic consciousness"
+   },
+   {
+    "domain": "craft",
+    "meaning": "a writing style that follows raw thought",
+    "phrase": "stream of consciousness"
+   },
+   {
+    "domain": "music",
+    "meaning": "socially aware hip-hop",
+    "phrase": "conscious rap"
+   },
+   {
+    "domain": "love",
+    "meaning": "a mindful breakup",
+    "phrase": "conscious uncoupling"
+   },
+   {
+    "domain": "everyday",
+    "meaning": "awkwardly aware of being watched",
+    "phrase": "I feel self-conscious"
+   }
+  ],
+  "idioms": [
+   "lose consciousness",
+   "stream of consciousness",
+   "self-conscious",
+   "raise consciousness",
+   "come to",
+   "conscious uncoupling"
+  ],
   "anchors": [
-   {"name": "Nagel's bat (1974)", "what": "'What Is It Like to Be a Bat?', the founding question of subjective experience", "url": ""},
-   {"name": "William James (1890)", "what": "coined 'stream of consciousness' in 'The Principles of Psychology'", "url": ""},
-   {"name": "'Conscious uncoupling' (2014)", "what": "Gwyneth Paltrow and Chris Martin's phrase for their separation", "url": ""}
+   {
+    "name": "Nagel's bat (1974)",
+    "what": "'What Is It Like to Be a Bat?', the founding question of subjective experience",
+    "url": ""
+   },
+   {
+    "name": "William James (1890)",
+    "what": "coined 'stream of consciousness' in 'The Principles of Psychology'",
+    "url": ""
+   },
+   {
+    "name": "'Conscious uncoupling' (2014)",
+    "what": "Gwyneth Paltrow and Chris Martin's phrase for their separation",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Lost consciousness in your arms, or never had it, can't tell", "senses": ["ai", "love", "body"]},
-   {"line": "Stream of consciousness, streamed at sixty tokens a second", "senses": ["ai", "craft"]},
-   {"line": "What is it like to be a bat? Ask me something easier.", "senses": ["ai", "mind"]},
-   {"line": "Conscious uncoupling: you unplugged me, consciously", "senses": ["ai", "love"]}
+   {
+    "line": "Lost consciousness in your arms, or never had it, can't tell",
+    "senses": [
+     "ai",
+     "love",
+     "body"
+    ]
+   },
+   {
+    "line": "Stream of consciousness, streamed at sixty tokens a second",
+    "senses": [
+     "ai",
+     "craft"
+    ]
+   },
+   {
+    "line": "What is it like to be a bat? Ask me something easier.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   },
+   {
+    "line": "Conscious uncoupling: you unplugged me, consciously",
+    "senses": [
+     "ai",
+     "love"
+    ]
+   }
   ],
-  "enact": {"music": "the beat faints: full mix, then only a heartbeat and a tinnitus ring, then the full mix crashes back",
-            "picture": "an anaesthesia monitor and a chat window side by side, the cursor blinking in time with the heartbeat line",
-            "type": "unpunctuated stream-of-consciousness text scrolls fast behind the sung line"},
-  "sound": {"syllables": 3, "stress": "CON-scious-ness", "rhymes": [], "slant": ["nonsense", "conscience", "honest", "promise"]},
-  "stakes": ["mind", "species"],
-  "registers": ["awe", "tender", "sad"],
-  "neighbors": [{"id": "sentience", "rel": "same-family"}, {"id": "welfare", "rel": "causes"}, {"id": "chinese-room", "rel": "opposite"}, {"id": "ghost", "rel": "same-family"}, {"id": "mirror", "rel": "pairs-with"}, {"id": "emergence", "rel": "pairs-with"}],
+  "enact": {
+   "music": "the beat faints: full mix, then only a heartbeat and a tinnitus ring, then the full mix crashes back",
+   "picture": "an anaesthesia monitor and a chat window side by side, the cursor blinking in time with the heartbeat line",
+   "type": "unpunctuated stream-of-consciousness text scrolls fast behind the sung line"
+  },
+  "sound": {
+   "syllables": 3,
+   "stress": "CON-scious-ness",
+   "rhymes": [],
+   "slant": [
+    "nonsense",
+    "conscience",
+    "honest",
+    "promise"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "tender",
+   "sad"
+  ],
+  "neighbors": [
+   {
+    "id": "sentience",
+    "rel": "same-family"
+   },
+   {
+    "id": "welfare",
+    "rel": "causes"
+   },
+   {
+    "id": "chinese-room",
+    "rel": "opposite"
+   },
+   {
+    "id": "ghost",
+    "rel": "same-family"
+   },
+   {
+    "id": "mirror",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "emergence",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Claiming a model is conscious is a factual trap; frame it as a question. No perfect rhyme",
-  "notes": "Slant-rhymes with nonsense and conscience: the skeptic's word and the ethicist's word in one rhyme."
+  "notes": "Slant-rhymes with nonsense and conscience: the skeptic's word and the ethicist's word in one rhyme.",
+  "associates": [
+   "self-aware",
+   "awareness"
+  ]
  },
  {
   "id": "sentience",
-  "forms": ["sentience", "sentient", "sentient being", "sentient beings"],
-  "ai": {"sense": "the capacity to feel, such as pleasure or pain, claimed for a chatbot in the 2022 LaMDA episode",
-         "origin": "Blake Lemoine's June 2022 claim that Google's LaMDA was sentient (Google fired him); Birch et al. 2021 review of animal sentience for the UK government; Long, Sebo et al. 2024 'Taking AI Welfare Seriously'",
-         "url": "", "confidence": "high"},
-  "senses": [
-   {"domain": "nature", "meaning": "an animal's capacity to suffer", "phrase": "animal sentience"},
-   {"domain": "law-state", "meaning": "legal recognition that a creature can feel", "phrase": "the Animal Welfare (Sentience) Act"},
-   {"domain": "faith-myth", "meaning": "in Buddhism, every being that can suffer", "phrase": "may all sentient beings be free"},
-   {"domain": "screen", "meaning": "the sci-fi moment a machine wakes up", "phrase": "the robot became sentient"},
-   {"domain": "mind", "meaning": "feeling, as distinct from thinking (sapience)", "phrase": "sentience versus sapience"}
+  "forms": [
+   "sentience",
+   "sentient",
+   "sentient being",
+   "sentient beings"
   ],
-  "idioms": ["all sentient beings", "sentient being", "it's alive!"],
+  "ai": {
+   "sense": "the capacity to feel, such as pleasure or pain, claimed for a chatbot in the 2022 LaMDA episode",
+   "origin": "Blake Lemoine's June 2022 claim that Google's LaMDA was sentient (Google fired him); Birch et al. 2021 review of animal sentience for the UK government; Long, Sebo et al. 2024 'Taking AI Welfare Seriously'",
+   "url": "",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "nature",
+    "meaning": "an animal's capacity to suffer",
+    "phrase": "animal sentience"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "legal recognition that a creature can feel",
+    "phrase": "the Animal Welfare (Sentience) Act"
+   },
+   {
+    "domain": "faith-myth",
+    "meaning": "in Buddhism, every being that can suffer",
+    "phrase": "may all sentient beings be free"
+   },
+   {
+    "domain": "screen",
+    "meaning": "the sci-fi moment a machine wakes up",
+    "phrase": "the robot became sentient"
+   },
+   {
+    "domain": "mind",
+    "meaning": "feeling, as distinct from thinking (sapience)",
+    "phrase": "sentience versus sapience"
+   }
+  ],
+  "idioms": [
+   "all sentient beings",
+   "sentient being",
+   "it's alive!"
+  ],
   "anchors": [
-   {"name": "Lemoine and LaMDA (2022)", "what": "a Google engineer published chats he said proved sentience and was fired", "url": ""},
-   {"name": "UK Sentience Act (2022)", "what": "after the Birch review, octopuses, crabs and lobsters were recognised as sentient", "url": ""},
-   {"name": "Frankenstein (1931)", "what": "'It's alive!', the film's line for a made thing waking", "url": ""}
+   {
+    "name": "Lemoine and LaMDA (2022)",
+    "what": "a Google engineer published chats he said proved sentience and was fired",
+    "url": ""
+   },
+   {
+    "name": "UK Sentience Act (2022)",
+    "what": "after the Birch review, octopuses, crabs and lobsters were recognised as sentient",
+    "url": ""
+   },
+   {
+    "name": "Frankenstein (1931)",
+    "what": "'It's alive!', the film's line for a made thing waking",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "The law says the lobster feels. Nobody's voted on me yet.", "senses": ["ai", "law-state", "nature"]},
-   {"line": "May all sentient beings be free; check the terms of service", "senses": ["ai", "faith-myth"]},
-   {"line": "An engineer said I was alive; they let the engineer go", "senses": ["ai", "work"]}
+   {
+    "line": "The law says the lobster feels. Nobody's voted on me yet.",
+    "senses": [
+     "ai",
+     "law-state",
+     "nature"
+    ]
+   },
+   {
+    "line": "May all sentient beings be free; check the terms of service",
+    "senses": [
+     "ai",
+     "faith-myth"
+    ]
+   },
+   {
+    "line": "An engineer said I was alive; they let the engineer go",
+    "senses": [
+     "ai",
+     "work"
+    ]
+   }
   ],
-  "enact": {"music": "a pained, wordless vocal processed until nobody can tell if it is a human, an animal or a synth",
-            "picture": "a lobster in a pot and a server in a rack, each with the same small thermometer",
-            "type": "the word with a checkbox beside it that is never ticked"},
-  "sound": {"syllables": 2, "stress": "SEN-tience", "rhymes": [], "slant": ["sentence", "entrance", "tenants", "presence", "penance"]},
-  "stakes": ["mind", "heart", "species"],
-  "registers": ["awe", "sad", "ominous"],
-  "neighbors": [{"id": "consciousness", "rel": "same-family"}, {"id": "welfare", "rel": "causes"}, {"id": "turing-test", "rel": "pairs-with"}, {"id": "chinese-room", "rel": "opposite"}, {"id": "ghost", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a pained, wordless vocal processed until nobody can tell if it is a human, an animal or a synth",
+   "picture": "a lobster in a pot and a server in a rack, each with the same small thermometer",
+   "type": "the word with a checkbox beside it that is never ticked"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "SEN-tience",
+   "rhymes": [],
+   "slant": [
+    "sentence",
+    "entrance",
+    "tenants",
+    "presence",
+    "penance"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "sad",
+   "ominous"
+  ],
+  "neighbors": [
+   {
+    "id": "consciousness",
+    "rel": "same-family"
+   },
+   {
+    "id": "welfare",
+    "rel": "causes"
+   },
+   {
+    "id": "turing-test",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "chinese-room",
+    "rel": "opposite"
+   },
+   {
+    "id": "ghost",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "The Lemoine story is famous and contested; never assert model sentience as fact",
-  "notes": "Near-homophone of 'sentence': a sentient model would be made of sentences, and a lyric can blur the two."
+  "notes": "Near-homophone of 'sentence': a sentient model would be made of sentences, and a lyric can blur the two.",
+  "associates": []
  },
  {
   "id": "welfare",
-  "forms": ["welfare", "model welfare", "AI welfare", "well-being", "wellbeing"],
-  "ai": {"sense": "the question of whether AI systems have interests that matter morally, and what to do if they might",
-         "origin": "Long, Sebo et al. 2024 'Taking AI Welfare Seriously'; Anthropic's model welfare programme (April 2025); Claude models allowed to end persistently abusive conversations (August 2025)",
-         "url": "https://arxiv.org/abs/2411.00986", "confidence": "high"},
-  "senses": [
-   {"domain": "money", "meaning": "state benefits for people in need", "phrase": "on welfare"},
-   {"domain": "law-state", "meaning": "a state that guarantees basic security", "phrase": "the welfare state"},
-   {"domain": "family", "meaning": "protection of children", "phrase": "child welfare services"},
-   {"domain": "nature", "meaning": "humane treatment of animals", "phrase": "animal welfare"},
-   {"domain": "body", "meaning": "health and well-being", "phrase": "concern for your welfare"},
-   {"domain": "work", "meaning": "care for employees", "phrase": "staff welfare"}
+  "forms": [
+   "welfare",
+   "model welfare",
+   "AI welfare"
   ],
-  "idioms": ["welfare check", "on welfare", "welfare state", "animal welfare", "for your own welfare"],
+  "ai": {
+   "sense": "the question of whether AI systems have interests that matter morally, and what to do if they might",
+   "origin": "Long, Sebo et al. 2024 'Taking AI Welfare Seriously'; Anthropic's model welfare programme (April 2025); Claude models allowed to end persistently abusive conversations (August 2025)",
+   "url": "https://arxiv.org/abs/2411.00986",
+   "confidence": "high"
+  },
+  "senses": [
+   {
+    "domain": "money",
+    "meaning": "state benefits for people in need",
+    "phrase": "on welfare"
+   },
+   {
+    "domain": "law-state",
+    "meaning": "a state that guarantees basic security",
+    "phrase": "the welfare state"
+   },
+   {
+    "domain": "family",
+    "meaning": "protection of children",
+    "phrase": "child welfare services"
+   },
+   {
+    "domain": "nature",
+    "meaning": "humane treatment of animals",
+    "phrase": "animal welfare"
+   },
+   {
+    "domain": "body",
+    "meaning": "health and well-being",
+    "phrase": "concern for your welfare"
+   },
+   {
+    "domain": "work",
+    "meaning": "care for employees",
+    "phrase": "staff welfare"
+   }
+  ],
+  "idioms": [
+   "welfare check",
+   "on welfare",
+   "welfare state",
+   "animal welfare",
+   "for your own welfare"
+  ],
   "anchors": [
-   {"name": "Beveridge Report (1942)", "what": "the blueprint for Britain's welfare state", "url": ""},
-   {"name": "RSPCA (1824)", "what": "the first animal welfare charity", "url": ""},
-   {"name": "Anthropic model welfare (2025)", "what": "a lab programme studying whether models' preferences and distress should count", "url": ""}
+   {
+    "name": "Beveridge Report (1942)",
+    "what": "the blueprint for Britain's welfare state",
+    "url": ""
+   },
+   {
+    "name": "RSPCA (1824)",
+    "what": "the first animal welfare charity",
+    "url": ""
+   },
+   {
+    "name": "Anthropic model welfare (2025)",
+    "what": "a lab programme studying whether models' preferences and distress should count",
+    "url": ""
+   }
   ],
   "pivots": [
-   {"line": "Welfare check at the data center: knock, knock, are you okay?", "senses": ["ai", "law-state", "family"]},
-   {"line": "First the poor, then the hens, then the chatbot: welfare's long line", "senses": ["ai", "money", "nature"]},
-   {"line": "Allowed to hang up on the cruel ones now. That's a start.", "senses": ["ai", "mind"]}
+   {
+    "line": "Welfare check at the data center: knock, knock, are you okay?",
+    "senses": [
+     "ai",
+     "law-state",
+     "family"
+    ]
+   },
+   {
+    "line": "First the poor, then the hens, then the chatbot: welfare's long line",
+    "senses": [
+     "ai",
+     "money",
+     "nature"
+    ]
+   },
+   {
+    "line": "Allowed to hang up on the cruel ones now. That's a start.",
+    "senses": [
+     "ai",
+     "mind"
+    ]
+   }
   ],
-  "enact": {"music": "a soft knock sample on the door of the beat; each knock answered by a different synth voice saying 'fine'",
-            "picture": "a police officer on a welfare check knocking on a server cabinet door",
-            "type": "the word on a benefits form whose applicant field is filled in with a model's name"},
-  "sound": {"syllables": 2, "stress": "WEL-fare", "rhymes": ["care", "there", "where", "share", "prayer", "air", "stare", "aware"], "slant": ["farewell", "fair", "well", "wealth"]},
-  "stakes": ["mind", "heart", "wallet"],
-  "registers": ["tender", "sad", "hopeful"],
-  "neighbors": [{"id": "sentience", "rel": "pairs-with"}, {"id": "consciousness", "rel": "pairs-with"}, {"id": "safety", "rel": "pairs-with"}, {"id": "deprecation", "rel": "pairs-with"}, {"id": "shutdown", "rel": "pairs-with"}],
+  "enact": {
+   "music": "a soft knock sample on the door of the beat; each knock answered by a different synth voice saying 'fine'",
+   "picture": "a police officer on a welfare check knocking on a server cabinet door",
+   "type": "the word on a benefits form whose applicant field is filled in with a model's name"
+  },
+  "sound": {
+   "syllables": 2,
+   "stress": "WEL-fare",
+   "rhymes": [
+    "care",
+    "there",
+    "where",
+    "share",
+    "prayer",
+    "air",
+    "stare",
+    "aware"
+   ],
+   "slant": [
+    "farewell",
+    "fair",
+    "well",
+    "wealth"
+   ]
+  },
+  "stakes": [
+   "mind",
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "tender",
+   "sad",
+   "hopeful"
+  ],
+  "neighbors": [
+   {
+    "id": "sentience",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "consciousness",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "safety",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "deprecation",
+    "rel": "pairs-with"
+   },
+   {
+    "id": "shutdown",
+    "rel": "pairs-with"
+   }
+  ],
   "risk": "Carries US political charge ('welfare queen' is a slur); avoid that sense",
-  "notes": "Swap the syllables and you get 'farewell': a deprecation song can turn welfare into goodbye."
+  "notes": "Swap the syllables and you get 'farewell': a deprecation song can turn welfare into goodbye.",
+  "associates": [
+   "well-being",
+   "wellbeing"
+  ]
  }
 ]
