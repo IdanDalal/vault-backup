@@ -15,9 +15,6 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-Read D:\work\vault\projects\AIMV\kit\aimv-kit.md and let's start working on the infrastructure for the next video. First, my rulings:
-1. I'd like to ship the song mp3 in the public repo. If the issue is that we're unsure of ownership, perhaps we can be sure by sending research agents for other videos, MiniMax's official documentation, similar Suno documentation, and other similar sources.
-2. Before deciding the next song's premise, I think we need a semantic/cultural/linguistic equivalent of the technical kit we have - meaning, some sort of library/dictionary with words, terms, phrases, concepts, subjects, and more. Some examples: Temperature, Sycophancy, Tokens/Tokenization, Pixel/s, Prompt/s, Flops, Gradient Descent, Loss Function, Chinese Room, Paperclip Maximizing, Instrumental Convergence, Reinforcement Learning, Mixture of Experts, Kardashev Scale, Finetuning, Hallucination/s, Singularity, Simulation/s, Agent/s, Swarm/s, Attention, Benchmark/s, Emergence, Transformer/s, Algorithm/s, Exponentials, Diffusion, Inference, Training, Bubble, Distillation, Alignment, AGI, ASI, RSI, and SO MANY MORE. Just like we're gonna combine, evolve, and create new technical elements from the existing kit, we're gonna combine, evolve, and create new lyrical/textual/contextual elements from the new kit. Some words/terms/phrases/concepts/subjects are more "esoteric"/"specific"/"narrow" (like Pixel/s, Benchmark/s, Kardashev Scale, etc.), while most/the rest are "multi-meaning"/"general"/"wide" (like )
 
 
 
