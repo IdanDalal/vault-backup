@@ -9,6 +9,13 @@ status: active
 
 Idi, 2026-11-02 (R15): picks A, "probably because it's 'the strongest fit for TELOS and the most personal'", with notes on the atlas, the payoff, the outro, the paper title, two arguments and two gags (folded in below). v1 and the other candidates: [[video2-premises-2026-11-02]]; the idea list: [[aimv-ideas]]. Bridge people are invented; no tutoring data anywhere.
 
+## Thesis (Idi, 2026-11-03, R16)
+
+- **Asking questions is paying attention to life.** Not knowing ≈ not attending; knowing feels impossible without asking. A missed plot twist, reference, homage or trope subversion (in a film, in this very video) is a missed question, so attention and questions are hard to separate. Life read as a narrative.
+- Idi's principle (his wording; no published source found; the closest real line is Nancy Kress: "Every story makes a promise to the reader. Actually, two promises, one emotional and one intellectual"): a satisfying narrative yields intellectual and emotional returns on intellectual and emotional investments.
+- **Meta:** the viewers pay us with their attention; the video acknowledges it and pays them back, satisfyingly, in its own context (the receipt, below).
+- Rulings 11-03: the kid stays unnamed; **the AI sings the outro** (one voice, consistency).
+
 ## The title's four lives
 
 | reading | where it lives |
@@ -33,7 +40,13 @@ Idi, 2026-11-02 (R15): picks A, "probably because it's 'the strongest fit for TE
 | 9 | full stop | form enacts | "Pencils down." Total silence (sound R3), then the slam |
 | 10 | build | the payoff | her attention rewired (below): zero questions all year, then four hundred a day |
 | 11 | final chorus (peak) | hook transformed | the mechanism reading: attention as asking everything |
-| 12 | outro (lullaby) | the loop, a generation on | she, grown, sings to her own kid: "Pay attention, or pay the price" |
+| 12 | outro (lullaby, the AI sings) | the loop, and the viewer's return | the AI sings "Pay attention, or pay the price" to her and to the viewer, then hands the viewer a receipt for the five minutes they paid: the details they caught or missed, and one question left to ask |
+
+## The viewer's return (meta layer, Idi 11-03)
+
+- The cold open names the price: "This song costs five minutes of attention. Keep the receipt."
+- Every section hides details that reward a question (the eight heads, the fractions, a cheat code in a margin, the dog with the homework): visual plants, each one listed on the closing receipt.
+- The receipt (KC's "receipts" callback) closes the video: items caught, "change: one question", and the lyrics page with per-line notes (Bright Mirror lesson 1) as the full return for anyone who asks.
 
 ## The payoff, upgraded (Idi's "no-bad-ideas" note)
 
@@ -87,7 +100,7 @@ Replace ImageNet, ARC Prize, Fei-Fei Li with names a viewer knows: ChatGPT launc
 
 Tell Me No's two voices (her whisper, the AI's level voice) and stop-start every 4 bars in the verses; It Crossed The Line's escalation into the payoff; two full stops ("Pencils down" and the cold open's "ATTEN-TION!"); the lullaby outro over a music box, the sub gone.
 
-## Open WHATs for Idi
+## Closed 11-03
 
-1. The kid: named or unnamed (the six bar songs withhold names, move 5).
-2. The outro singer: the grown kid (recommended: closes the loop) or the AI.
+1. The kid: unnamed (Idi).
+2. The outro singer: the AI (Idi).
