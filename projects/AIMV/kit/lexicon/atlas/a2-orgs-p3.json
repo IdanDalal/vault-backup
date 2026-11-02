@@ -1,0 +1,1012 @@
+[
+ {
+  "id": "anduril",
+  "what": {
+   "line": "Anduril Industries, the Costa Mesa defense company Palmer Luckey co-founded in 2017 that builds autonomous drones, submarines and missiles run by its Lattice AI software",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Anduril",
+   "Lattice",
+   "Fury",
+   "YFQ-44A",
+   "Roadrunner",
+   "Ghost Shark",
+   "Barracuda",
+   "Arsenal-1"
+  ],
+  "aka": [
+   "Anduril Industries"
+  ],
+  "receipts": [
+   {
+    "claim": "incorporated 2017-04-20 by Palmer Luckey, Trae Stephens, Matt Grimm, Joe Chen and Brian Schimpf, seeded by Founders Fund",
+    "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+    "date": "2017-04-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "its Fury drone (YFQ-44A) was picked in April 2024 for the first increment of the US Air Force Collaborative Combat Aircraft program; first flight 2025-10-31",
+    "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+    "date": "2025-10-31",
+    "confidence": "medium"
+   },
+   {
+    "claim": "took over the Army's IVAS headset program from Microsoft on 2025-02-11",
+    "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+    "date": "2025-02-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced Arsenal-1, a weapons factory near Columbus, Ohio, of about $1B, in January 2025",
+    "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+    "date": "2025-01-16",
+    "confidence": "medium"
+   },
+   {
+    "claim": "valued at $14B in August 2024; a May 2026 raise of $5B valued it at about $61B",
+    "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+    "date": "2026-05",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Anduril",
+    "how": "Aragorn's sword in The Lord of the Rings, reforged from a broken blade; Quenya for 'Flame of the West'"
+   },
+   {
+    "play": "Flame of the West",
+    "how": "a defense company naming itself the West's fire"
+   },
+   {
+    "play": "Lattice",
+    "how": "a grid that holds things together, and a cage"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They reforged the broken sword and taught it to fly",
+    "readings": [
+     "Tolkien's Anduril",
+     "autonomous weapons"
+    ]
+   },
+   {
+    "line": "Flame of the West, now with a software update",
+    "readings": [
+     "the name",
+     "AI weapons"
+    ]
+   },
+   {
+    "line": "The lattice sees you before the soldier does",
+    "readings": [
+     "Lattice software",
+     "autonomous targeting"
+    ]
+   }
+  ],
+  "visuals": [
+   "a wedge-shaped drone with no cockpit on a desert runway",
+   "a yellow-orange torpedo-shaped submarine (Ghost Shark) on a dock",
+   "a sensor tower on a border ridge at dusk",
+   "a sword hilt glowing on a blueprint (no film imagery)"
+  ],
+  "lexicon": [
+   {
+    "id": "autonomy",
+    "how": "autonomous weapons are the product"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "the open question for drone targeting"
+   },
+   {
+    "id": "swarm",
+    "how": "drone swarms"
+   },
+   {
+    "id": "off-switch",
+    "how": "who can stop a weapon that decides"
+   }
+  ],
+  "links": [
+   {
+    "id": "palmer-luckey",
+    "rel": "founded"
+   },
+   {
+    "id": "peter-thiel",
+    "rel": "invested-in"
+   },
+   {
+    "id": "palantir",
+    "rel": "same-family"
+   },
+   {
+    "id": "microsoft",
+    "rel": "rival"
+   },
+   {
+    "id": "united-states",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "state",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "defiant"
+  ],
+  "risk": "weapons: report programs and contracts only and leave combat claims out; Tolkien estate and film designs are protected; valuations from Wikipedia, re-check",
+  "notes": "Two Tolkien names (Palantir, Anduril) now sit at the center of US defense AI: the seeing stone and the sword."
+ },
+ {
+  "id": "oracle-corp",
+  "what": {
+   "line": "Oracle, Larry Ellison's database and cloud company founded in 1977, now a key builder of OpenAI's data centers through the Stargate project",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Oracle Cloud",
+   "OCI",
+   "Oracle Database"
+  ],
+  "aka": [
+   "Oracle",
+   "Oracle Corporation",
+   "ORCL",
+   "Software Development Laboratories (first name)"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1977-06-16 by Larry Ellison, Bob Miner and Ed Oates as Software Development Laboratories; the name came from a CIA project codenamed Oracle",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "date": "1977-06-16",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stargate announced 2025-01-21 at the White House: OpenAI, SoftBank, Oracle and MGX planning up to $500B of US AI infrastructure",
+    "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+    "date": "2025-01-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "signed a reported $300B, five-year deal with OpenAI for 4.5 GW of capacity, September 2025",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "date": "2025-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "remaining performance obligations reached $523B in fiscal Q2 2026 (quarter ending November 2025), up 438% year over year",
+    "url": "https://www.oracle.com/news/announcement/q2fy26-earnings-release-2025-12-10/",
+    "date": "2025-12-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "took a 15% stake in the TikTok US joint venture, January 2026",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "date": "2026-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "oracle",
+    "how": "the Delphic oracle answered questions in riddles; the company stores the answers"
+   },
+   {
+    "play": "CIA codename",
+    "how": "named after a spy project: the oracle started as surveillance"
+   },
+   {
+    "play": "Larry's oracle",
+    "how": "a prophet who sells the temple, the priests and the lights"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Ask the oracle, pay the oracle",
+    "readings": [
+     "Delphi",
+     "Oracle cloud contracts"
+    ]
+   },
+   {
+    "line": "The oracle doesn't think, it holds the room where thinking happens",
+    "readings": [
+     "Oracle data centers",
+     "the Delphic temple"
+    ]
+   },
+   {
+    "line": "Every prophecy needs a temple and a power bill",
+    "readings": [
+     "Stargate data centers",
+     "oracles"
+    ]
+   }
+  ],
+  "visuals": [
+   "a red rectangle wordmark (trademark care)",
+   "rows of data halls on Texas prairie",
+   "a Greek temple with server racks between the columns",
+   "an America's Cup sailboat (Ellison's racing, as color)"
+  ],
+  "lexicon": [
+   {
+    "id": "oracle",
+    "how": "the lexicon term and the company name"
+   },
+   {
+    "id": "datacenter",
+    "how": "Oracle builds for OpenAI"
+   },
+   {
+    "id": "bubble",
+    "how": "Oracle's OpenAI backlog is central to bubble talk"
+   },
+   {
+    "id": "compute",
+    "how": "it sells compute capacity"
+   }
+  ],
+  "links": [
+   {
+    "id": "larry-ellison",
+    "rel": "founded"
+   },
+   {
+    "id": "stargate",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "softbank",
+    "rel": "same-family"
+   },
+   {
+    "id": "nvidia",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "planet"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "awe"
+  ],
+  "risk": "'Oracle' is a common word: count only distinctive forms; the $300B figure was reported and never disclosed in full; backlog and debt numbers change each quarter",
+  "notes": "A company named after a prophet and a spy project is now the landlord for the field's biggest bet: the Delphi frame writes itself."
+ },
+ {
+  "id": "softbank",
+  "what": {
+   "line": "SoftBank Group, Masayoshi Son's Tokyo holding company and Vision Fund investor that owns most of Arm and became one of OpenAI's largest backers",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "SoftBank",
+   "Vision Fund",
+   "Arm"
+  ],
+  "aka": [
+   "SoftBank Group Corp.",
+   "SoftBank Vision Fund",
+   "SVF"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1981-09-03 by Masayoshi Son as a software distributor",
+    "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+    "date": "1981-09-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "bought Arm for more than $32B, closed 2016-09-05",
+    "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+    "date": "2016-09-05",
+    "confidence": "medium"
+   },
+   {
+    "claim": "invested over $4B in WeWork (2017), which canceled its IPO in 2019 and filed for bankruptcy in November 2023",
+    "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+    "date": "2023-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-announced Stargate with OpenAI, Oracle and MGX on 2025-01-21, estimated at $500B",
+    "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+    "date": "2025-01-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "sold its whole Nvidia stake (about $5.8B) to fund OpenAI; cumulative OpenAI investment about $34.6B for roughly 11% by end of 2025",
+    "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+    "date": "2025-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-led OpenAI's $122B round at $852B with about $30B, March 2026",
+    "url": "https://builtin.com/articles/openai-raises-122b-852b-valuation-20260401",
+    "date": "2026-03-31",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Soft Bank",
+    "how": "a bank that sounds gentle and bets like a casino"
+   },
+   {
+    "play": "Vision Fund",
+    "how": "a fund named for vision, famous for WeWork's blind spot"
+   },
+   {
+    "play": "Son",
+    "how": "the founder's surname: a father-of-the-deal named Son"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "He sold the shovels to buy the gold mine",
+    "readings": [
+     "selling Nvidia to fund OpenAI",
+     "a gold-rush gamble"
+    ]
+   },
+   {
+    "line": "A soft bank catches you, or swallows you",
+    "readings": [
+     "SoftBank's name",
+     "WeWork and OpenAI bets"
+    ]
+   },
+   {
+    "line": "Vision is cheap until you fund it",
+    "readings": [
+     "Vision Fund",
+     "AI hype"
+    ]
+   }
+  ],
+  "visuals": [
+   "two parallel yellow lines wordmark (trademark care)",
+   "a stack of chips going all-in on a poker table",
+   "a Tokyo tower office at night",
+   "an empty coworking space with rows of unused desks"
+  ],
+  "lexicon": [
+   {
+    "id": "bubble",
+    "how": "the archetypal bubble investor"
+   },
+   {
+    "id": "hype",
+    "how": "Vision Fund bets ride hype cycles"
+   },
+   {
+    "id": "datacenter",
+    "how": "Stargate sites"
+   },
+   {
+    "id": "power",
+    "how": "money as power in the race"
+   }
+  ],
+  "links": [
+   {
+    "id": "masayoshi-son",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "stargate",
+    "rel": "same-family"
+   },
+   {
+    "id": "nvidia",
+    "rel": "invested-in"
+   },
+   {
+    "id": "intel",
+    "rel": "invested-in"
+   }
+  ],
+  "stakes": [
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "panicked",
+   "funny"
+  ],
+  "risk": "investment totals vary by source and conditions (some OpenAI tranches were contingent on its restructuring); WeWork losses are not quantified here",
+  "notes": "Selling Nvidia (the shovel) to buy OpenAI (the mine) is the cleanest one-line picture of conviction or of mania, depending on the verse."
+ },
+ {
+  "id": "coreweave",
+  "what": {
+   "line": "CoreWeave, the New Jersey GPU cloud that began as a crypto-mining outfit in 2017, went public in March 2025, and rents Nvidia chips to Microsoft, OpenAI and Meta",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "CoreWeave"
+  ],
+  "aka": [
+   "Atlantic Crypto (first name)",
+   "CRWV"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2017-09-21 as Atlantic Crypto, an Ethereum mining operation; renamed CoreWeave in 2019 and pivoted to GPU cloud",
+    "url": "https://en.wikipedia.org/wiki/CoreWeave",
+    "date": "2017-09-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "IPO began trading 2025-03-28, raising $1.5B after cutting the offering from $2.7B",
+    "url": "https://en.wikipedia.org/wiki/CoreWeave",
+    "date": "2025-03-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Microsoft was over 60% of 2024 revenue (about 62%) and about 67% of 2025 revenue",
+    "url": "https://en.wikipedia.org/wiki/CoreWeave",
+    "date": "2026-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "OpenAI signed a five-year contract worth about $11.9B in March 2025",
+    "url": "https://en.wikipedia.org/wiki/CoreWeave",
+    "date": "2025-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "an August 2023 $2.3B debt facility was collateralized by Nvidia H100s; total debt about $35.1B by 2026-06-30",
+    "url": "https://en.wikipedia.org/wiki/CoreWeave",
+    "date": "2026-06-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Core Scientific shareholders rejected CoreWeave's $9B takeover in October 2025",
+    "url": "https://en.wikipedia.org/wiki/CoreWeave",
+    "date": "2025-10",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Core Weave",
+    "how": "GPU cores woven into a cloud; also the core of the weave, the thread that holds the cloth"
+   },
+   {
+    "play": "Atlantic Crypto",
+    "how": "the first name: from mining coins to mining minds"
+   },
+   {
+    "play": "neocloud",
+    "how": "the industry word for GPU-rental clouds"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They mined coins, then they mined minds",
+    "readings": [
+     "crypto to AI pivot",
+     "extracting value from thought"
+    ]
+   },
+   {
+    "line": "Borrowed against the chips, renting out the chips",
+    "readings": [
+     "GPU-backed debt",
+     "a leveraged loop"
+    ]
+   },
+   {
+    "line": "Pull one thread and the weave comes loose",
+    "readings": [
+     "the company name",
+     "concentrated customers and debt"
+    ]
+   }
+  ],
+  "visuals": [
+   "a GPU rack used as loan collateral, stamped with a bank seal",
+   "a crypto-mining rig turning into a server row",
+   "a loom weaving fiber-optic thread",
+   "a New Jersey warehouse with power substations"
+  ],
+  "lexicon": [
+   {
+    "id": "compute",
+    "how": "it sells compute by the hour"
+   },
+   {
+    "id": "bubble",
+    "how": "GPU-backed debt is a bubble indicator"
+   },
+   {
+    "id": "cluster",
+    "how": "it builds training clusters for labs"
+   },
+   {
+    "id": "datacenter",
+    "how": "neocloud data centers"
+   }
+  ],
+  "links": [
+   {
+    "id": "nvidia",
+    "rel": "invested-in"
+   },
+   {
+    "id": "microsoft",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "oracle-corp",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet"
+  ],
+  "registers": [
+   "panicked",
+   "smug",
+   "ominous"
+  ],
+  "risk": "debt and customer shares change quarterly; Nvidia's stake is an investment in CoreWeave (read the invested-in edge as Nvidia to CoreWeave); CoreWeave is a trademark",
+  "notes": "A former crypto miner borrowing against GPUs to rent GPUs to AI labs: the clearest single company for a 'circular money' verse."
+ },
+ {
+  "id": "intel",
+  "what": {
+   "line": "Intel, the Santa Clara chipmaker founded in 1968 by Robert Noyce and Gordon Moore, which missed the AI GPU boom and is now partly owned by the US government",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Intel",
+   "Gaudi",
+   "Xeon",
+   "Pentium",
+   "Intel Inside"
+  ],
+  "aka": [
+   "Intel Corporation",
+   "NM Electronics (first name)",
+   "INTC"
+  ],
+  "receipts": [
+   {
+    "claim": "incorporated 1968-07-18 by Gordon Moore and Robert Noyce with investor Arthur Rock; first named NM Electronics, Intel stands for Integrated Electronics",
+    "url": "https://en.wikipedia.org/wiki/Intel",
+    "date": "1968-07-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "CEO Pat Gelsinger was ousted effective 2024-12-01; Lip-Bu Tan named CEO 2025-03-13",
+    "url": "https://en.wikipedia.org/wiki/Intel",
+    "date": "2025-03-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "planned to cut 15,000 jobs (August 2024) and about 24,000 roles by end of 2025",
+    "url": "https://en.wikipedia.org/wiki/Intel",
+    "date": "2025-07",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the US government bought 433.3M shares at $20.47, a 9.9% stake, August 2025",
+    "url": "https://en.wikipedia.org/wiki/Intel",
+    "date": "2025-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nvidia invested $5B to co-develop data-center and PC CPUs, September 2025",
+    "url": "https://en.wikipedia.org/wiki/Intel",
+    "date": "2025-09-18",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "intel",
+    "how": "integrated electronics, and 'intel' as intelligence gathered: the chip company named for information"
+   },
+   {
+    "play": "Intel Inside",
+    "how": "the 1990s slogan; now the question is what is inside the model"
+   },
+   {
+    "play": "Moore",
+    "how": "co-founder Gordon Moore gave the field Moore's law: more, more, more"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Intel inside, intelligence elsewhere",
+    "readings": [
+     "the slogan",
+     "AI chips going to Nvidia"
+    ]
+   },
+   {
+    "line": "Moore's own house ran out of more",
+    "readings": [
+     "Gordon Moore's company",
+     "Moore's law slowing"
+    ]
+   },
+   {
+    "line": "The government bought a tenth of the future's past",
+    "readings": [
+     "the 9.9% stake",
+     "a legacy chipmaker"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue swirl-free wordmark on a chip lid (trademark care)",
+   "a 1971 4004 chip next to a modern wafer",
+   "a five-note jingle as a waveform",
+   "an Ohio fab site with cranes and empty lots"
+  ],
+  "lexicon": [
+   {
+    "id": "moores-law",
+    "how": "co-founder Gordon Moore's law"
+   },
+   {
+    "id": "chip",
+    "how": "the original chip company"
+   },
+   {
+    "id": "sovereign",
+    "how": "US government equity in a chipmaker"
+   },
+   {
+    "id": "plateau",
+    "how": "the company's lost decade"
+   }
+  ],
+  "links": [
+   {
+    "id": "nvidia",
+    "rel": "invested-in"
+   },
+   {
+    "id": "softbank",
+    "rel": "invested-in"
+   },
+   {
+    "id": "united-states",
+    "rel": "invested-in"
+   },
+   {
+    "id": "amd",
+    "rel": "rival"
+   },
+   {
+    "id": "tsmc",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "jobs",
+   "wallet"
+  ],
+  "registers": [
+   "sad",
+   "ominous"
+  ],
+  "risk": "invested-in edges point from investor to Intel (Nvidia, SoftBank and the US government invested in Intel); 'Intel Inside' and the jingle are trademarks",
+  "notes": "The company of Moore's law watching the AI boom happen on someone else's chips is the field's saddest founder story."
+ },
+ {
+  "id": "amd",
+  "what": {
+   "line": "AMD (Advanced Micro Devices), the Santa Clara chipmaker led by Lisa Su since 2014, Nvidia's main GPU rival with its Instinct accelerators",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "AMD",
+   "Instinct",
+   "MI300X",
+   "MI400",
+   "Ryzen",
+   "Radeon",
+   "ROCm",
+   "Helios"
+  ],
+  "aka": [
+   "Advanced Micro Devices",
+   "Team Red"
+  ],
+  "receipts": [
+   {
+    "claim": "incorporated 1969-05-01 by Jerry Sanders and seven former Fairchild Semiconductor colleagues",
+    "url": "https://en.wikipedia.org/wiki/AMD",
+    "date": "1969-05-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Lisa Su became CEO in October 2014",
+    "url": "https://en.wikipedia.org/wiki/AMD",
+    "date": "2014-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "completed the Xilinx acquisition (about $49-50B) in February 2022",
+    "url": "https://en.wikipedia.org/wiki/AMD",
+    "date": "2022-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "OpenAI deal, October 2025: 6 GW of AMD GPUs over five years, with an option for OpenAI to buy up to about 160M shares (about 10%) at $0.01, last tranche tied to a $600 share price",
+    "url": "https://en.wikipedia.org/wiki/AMD",
+    "date": "2025-10-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "unveiled the MI400 series and 'Helios' rack server for 2026 in June 2025",
+    "url": "https://en.wikipedia.org/wiki/AMD",
+    "date": "2025-06",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Advanced Micro Devices",
+    "how": "tiny devices, giant market cap"
+   },
+   {
+    "play": "Team Red",
+    "how": "red against Nvidia's green: a two-color war"
+   },
+   {
+    "play": "Instinct",
+    "how": "the AI chip line is named for what machines are said not to have"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Red against green, and the model doesn't care",
+    "readings": [
+     "AMD vs Nvidia",
+     "hardware neutrality"
+    ]
+   },
+   {
+    "line": "They paid in stock to be chosen",
+    "readings": [
+     "the OpenAI warrant deal",
+     "buying love"
+    ]
+   },
+   {
+    "line": "Instinct sold by the rack",
+    "readings": [
+     "AMD Instinct GPUs",
+     "machine instinct"
+    ]
+   }
+  ],
+  "visuals": [
+   "a white-on-black arrow-corner logo (trademark care)",
+   "a red-lit server rack beside a green-lit one",
+   "a chip package with eight compute dies",
+   "a tug of war, red rope, green rope"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "AI accelerators"
+   },
+   {
+    "id": "race",
+    "how": "the GPU race against Nvidia"
+   },
+   {
+    "id": "compute",
+    "how": "6 GW for OpenAI"
+   },
+   {
+    "id": "moat",
+    "how": "ROCm against Nvidia's CUDA moat"
+   }
+  ],
+  "links": [
+   {
+    "id": "lisa-su",
+    "rel": "leads"
+   },
+   {
+    "id": "nvidia",
+    "rel": "rival"
+   },
+   {
+    "id": "intel",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "tsmc",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "defiant",
+   "smug"
+  ],
+  "risk": "Lisa Su and Jensen Huang are relatives (widely reported); never imply a family feud; deal tranches depend on milestones; marks are trademarks",
+  "notes": "The red-versus-green GPU war gives a lyric a color code anyone can see."
+ },
+ {
+  "id": "samsung",
+  "what": {
+   "line": "Samsung Electronics, the South Korean maker of memory chips, Galaxy phones and TVs, central to AI as a supplier of high-bandwidth memory",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Samsung",
+   "Galaxy AI",
+   "Galaxy",
+   "Gauss",
+   "Ballie"
+  ],
+  "aka": [
+   "Samsung Electronics",
+   "Samsung Group"
+  ],
+  "receipts": [
+   {
+    "claim": "the Samsung group was founded 1938-03-01 in Daegu by Lee Byung-chul as a trading company; the name means 'three stars' (large, numerous, lasting)",
+    "url": "https://en.wikipedia.org/wiki/Samsung",
+    "date": "1938-03-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "restricted staff use of ChatGPT and other generative AI on company devices from 2023-05-01 after an April leak of internal data to ChatGPT",
+    "url": "https://techcrunch.com/2023/05/02/samsung-bans-use-of-generative-ai-tools-like-chatgpt-after-april-internal-data-leak/",
+    "date": "2023-05-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "showed Ballie, an AI home robot, at CES on 2024-01-10",
+    "url": "https://en.wikipedia.org/wiki/Samsung_Electronics",
+    "date": "2024-01-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Q1 2026 operating profit a record KRW 57.2 trillion, of which the chip (DS) division made KRW 53.7 trillion (about $36B) on AI-related memory demand",
+    "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results",
+    "date": "2026-04-30",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "three stars",
+    "how": "Samsung means three stars: big, many, lasting"
+   },
+   {
+    "play": "Galaxy",
+    "how": "phones named for a galaxy; a company with three stars selling a galaxy"
+   },
+   {
+    "play": "Gauss",
+    "how": "its in-house AI model is named after the mathematician of the bell curve"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Three stars, a galaxy, and a leak",
+    "readings": [
+     "Samsung's name and phones",
+     "the ChatGPT code leak"
+    ]
+   },
+   {
+    "line": "They pasted the secret into the chat to fix it",
+    "readings": [
+     "the 2023 leak",
+     "users oversharing with AI"
+    ]
+   },
+   {
+    "line": "Memory is the new oil, and they own the wells",
+    "readings": [
+     "HBM memory supply",
+     "remembering"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue oval wordmark (trademark care)",
+   "a stack of memory dies like a layered cake",
+   "a small rolling ball robot in a living room",
+   "three stars over Seoul's skyline at night"
+  ],
+  "lexicon": [
+   {
+    "id": "leak",
+    "how": "the 2023 ChatGPT data leak"
+   },
+   {
+    "id": "memory",
+    "how": "memory chips feed AI"
+   },
+   {
+    "id": "chip",
+    "how": "a top chipmaker"
+   },
+   {
+    "id": "bandwidth",
+    "how": "high-bandwidth memory"
+   }
+  ],
+  "links": [
+   {
+    "id": "tsmc",
+    "rel": "rival"
+   },
+   {
+    "id": "apple-inc",
+    "rel": "rival"
+   },
+   {
+    "id": "nvidia",
+    "rel": "same-family"
+   },
+   {
+    "id": "mistral-ai",
+    "rel": "invested-in"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "funny"
+  ],
+  "risk": "Samsung's HBM supply standing with Nvidia shifts quarter to quarter and is not receipted here; the Mistral stake (September 2026) is from Wikipedia only; 2026 profit figures are low confidence",
+  "notes": "A company whose own engineers leaked secrets into a chatbot is the perfect small human story inside a giant memory business."
+ }
+]

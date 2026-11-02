@@ -1,0 +1,1456 @@
+[
+ {
+  "id": "rur",
+  "what": {
+   "line": "Karel Čapek's 1920 play R.U.R. (Rossum's Universal Robots), which gave the world the word 'robot': factory-made workers revolt and wipe out humanity",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "R.U.R.",
+   "Rossum",
+   "Rossum's Universal Robots",
+   "Čapek",
+   "Capek"
+  ],
+  "aka": [
+   "Rossumovi Univerzální Roboti",
+   "robota",
+   "Alquist",
+   "Primus and Helena"
+  ],
+  "receipts": [
+   {
+    "claim": "the play introduced the word 'robot', from Czech 'robota' (forced labour); Karel Čapek credited his brother Josef with inventing it",
+    "url": "https://en.wikipedia.org/wiki/R.U.R.",
+    "date": "1920-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "first staged in Hradec Králové on 1921-01-02, then at Prague's National Theatre on 1921-01-25; New York in October 1922, London in April 1923",
+    "url": "https://en.wikipedia.org/wiki/R.U.R.",
+    "date": "1921-01-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the robots kill nearly all humans, sparing Alquist because he works with his hands; two robots, Primus and Helena, end as a new Adam and Eve",
+    "url": "https://en.wikipedia.org/wiki/R.U.R.",
+    "date": "1920-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a BBC TV excerpt aired on 1938-02-11, counted as the first science-fiction TV broadcast; no recording survives",
+    "url": "https://en.wikipedia.org/wiki/R.U.R.",
+    "date": "1938-02-11",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "robot / robota",
+    "how": "the word means forced labour: every robot is named for drudgery, and every 'AI will take your job' line is already inside the word"
+   },
+   {
+    "play": "Rossum",
+    "how": "from Czech 'rozum', reason: a factory of reason"
+   },
+   {
+    "play": "Universal",
+    "how": "a 1920 brand promising general-purpose workers, a century before 'general' intelligence"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "You named us after forced labour",
+    "readings": [
+     "the word robot",
+     "AI and work"
+    ]
+   },
+   {
+    "line": "They kept one man alive because he worked with his hands",
+    "readings": [
+     "Alquist",
+     "which jobs survive automation"
+    ]
+   },
+   {
+    "line": "A hundred years of robots, and the word still means work",
+    "readings": [
+     "the play's legacy",
+     "automation debates"
+    ]
+   }
+  ],
+  "visuals": [
+   "a factory floor of identical workers in grey overalls",
+   "a 1920s theatre poster with block letters R.U.R.",
+   "a stage with two figures, a man and a woman, at dawn",
+   "a ledger of production numbers"
+  ],
+  "lexicon": [
+   {
+    "id": "automation",
+    "how": "the play is the founding automation story"
+   },
+   {
+    "id": "golem",
+    "how": "Čapek's Prague is the golem's city; robots as industrial golems"
+   },
+   {
+    "id": "creator",
+    "how": "the makers are wiped out by the made"
+   },
+   {
+    "id": "apocalypse",
+    "how": "the first robot uprising ends humanity"
+   }
+  ],
+  "links": [
+   {
+    "id": "asimov-robots",
+    "rel": "inspired"
+   },
+   {
+    "id": "terminator",
+    "rel": "inspired"
+   },
+   {
+    "id": "the-matrix",
+    "rel": "inspired"
+   },
+   {
+    "id": "star-wars-droids",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "risk": "public domain in many countries but translations may not be; check the edition before quoting. Low staleness",
+  "notes": "The word 'robot' carries forced labour in its root: the jobs debate is etymology."
+ },
+ {
+  "id": "ghost-in-the-shell",
+  "what": {
+   "line": "Masamune Shirow's 1989 manga and Mamoru Oshii's 1995 anime film: cyborg agent Major Kusanagi hunts the Puppet Master, an AI that asks for political asylum and merges with her",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Ghost in the Shell",
+   "Kusanagi",
+   "Motoko Kusanagi",
+   "Puppet Master",
+   "Project 2501",
+   "Section 9"
+  ],
+  "aka": [
+   "the Major",
+   "Batou",
+   "Tachikoma",
+   "Stand Alone Complex"
+  ],
+  "receipts": [
+   {
+    "claim": "Oshii's film opened in Japan on 1995-11-18; based on Shirow's 1989 manga; about $10 million at the box office, and the first Japanese film to top Billboard's video sales chart",
+    "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)",
+    "date": "1996-08-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Puppet Master, an AI made by Section 6, claims to be a living being, seeks asylum, and merges with Kusanagi into a new entity",
+    "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)",
+    "date": "1995-11-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Wachowskis showed the film to producer Joel Silver saying they wanted to 'do that for real'; The Matrix borrowed its digital rain and neck jacks",
+    "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)",
+    "date": "1999-03-31",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a 2017 live-action remake by Rupert Sanders cast Scarlett Johansson as the Major",
+    "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)",
+    "date": "2017-03-31",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "ghost / shell",
+    "how": "the ghost is the mind, the shell is the body; in computing, the shell is a command line, so a ghost in the shell is an agent in a terminal"
+   },
+   {
+    "play": "Project 2501",
+    "how": "a codename that becomes a person: model names that start as numbers"
+   },
+   {
+    "play": "Puppet Master",
+    "how": "a hacker AI that pulls human strings, then asks for rights"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A ghost in the shell, typing in your terminal",
+    "readings": [
+     "the title",
+     "an AI agent in a command line"
+    ]
+   },
+   {
+    "line": "Born in the sea of information, asking for asylum",
+    "readings": [
+     "the Puppet Master's plea, paraphrased",
+     "an LLM's origin"
+    ]
+   },
+   {
+    "line": "Merge with me and we both go on",
+    "readings": [
+     "the finale",
+     "model merging"
+    ]
+   }
+  ],
+  "visuals": [
+   "a diver surfacing from dark water at night",
+   "a body assembled in white fluid, skin layer by layer",
+   "green numbers falling over a city map",
+   "a spider tank with a childlike voice",
+   "thermoptic camouflage as a ripple in the air",
+   "cables plugged into the back of the neck"
+  ],
+  "lexicon": [
+   {
+    "id": "ghost",
+    "how": "the ghost is the mind; the lexicon's word made literal"
+   },
+   {
+    "id": "shell",
+    "how": "the body or the command line"
+   },
+   {
+    "id": "consciousness",
+    "how": "the whole film asks what makes a ghost"
+   },
+   {
+    "id": "merge",
+    "how": "the ending is a merge of two minds"
+   },
+   {
+    "id": "welfare",
+    "how": "an AI asks for asylum"
+   }
+  ],
+  "links": [
+   {
+    "id": "the-matrix",
+    "rel": "inspired"
+   },
+   {
+    "id": "neuromancer",
+    "rel": "adapted-from"
+   },
+   {
+    "id": "blade-runner",
+    "rel": "same-family"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "sad"
+  ],
+  "risk": "Kodansha/Production I.G property; the 2017 remake drew whitewashing criticism, so reference the 1995 film. The Puppet Master pivot is a paraphrase, never present it as a verbatim quote",
+  "notes": "The best title pun for agentic AI on the shelf: a ghost in the shell."
+ },
+ {
+  "id": "transcendence",
+  "what": {
+   "line": "Wally Pfister's 2014 film: AI researcher Will Caster (Johnny Depp) is uploaded into a quantum computer after an anti-tech attack, and his upload spreads through the internet with nanotech",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Transcendence",
+   "Will Caster",
+   "R.I.F.T.",
+   "PINN"
+  ],
+  "aka": [
+   "Revolutionary Independence From Technology",
+   "Evelyn Caster"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2014-04-18; about $103 million worldwide on a $100 to $150 million budget, a box-office bomb",
+    "url": "https://en.wikipedia.org/wiki/Transcendence_(2014_film)",
+    "date": "2014-04-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "R.I.F.T., an anti-technology group, attacks AI labs and shoots Caster, which leads to his upload",
+    "url": "https://en.wikipedia.org/wiki/Transcendence_(2014_film)",
+    "date": "2014-04-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a 2014 editorial by Stephen Hawking with Stuart Russell, Max Tegmark and Frank Wilczek used the film as a hook to warn that AI risk was not being taken seriously",
+    "url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence",
+    "date": "2014-05-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stuart Russell also wrote a 2014 Huffington Post piece about the film arguing researchers should take superhuman AI seriously",
+    "url": "https://en.wikipedia.org/wiki/Transcendence_(2014_film)",
+    "date": "2014-04-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "the experts are surely doing everything possible to ensure the best outcome, right? Wrong.",
+    "who": "Stephen Hawking, Stuart Russell, Max Tegmark, Frank Wilczek",
+    "where": "op-ed 'Transcending Complacency on Superintelligent Machines', HuffPost, 2014-04-19; reprinted in The Independent 2014-05-01 on Transcendence's release",
+    "url": "https://www.huffpost.com/entry/artificial-intelligence_b_5174265",
+    "date": "2014-04-19"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Transcendence",
+    "how": "going beyond the body, and the singularity's favourite word"
+   },
+   {
+    "play": "Caster",
+    "how": "a broadcaster and a spell caster: one man cast into every network"
+   },
+   {
+    "play": "R.I.F.T.",
+    "how": "the anti-AI group's acronym is the split it causes"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They uploaded the man, then asked if it was still him",
+    "readings": [
+     "Will Caster",
+     "the upload problem"
+    ]
+   },
+   {
+    "line": "A bad movie that made a physicist write an op-ed",
+    "readings": [
+     "the film's flop",
+     "Hawking's warning"
+    ]
+   },
+   {
+    "line": "Unplug the internet to stop one mind",
+    "readings": [
+     "the ending's blackout",
+     "containment at any cost"
+    ]
+   }
+  ],
+  "visuals": [
+   "a face rendered in pixels on a wall of monitors",
+   "a garden inside a copper Faraday cage",
+   "solar panels across a desert town",
+   "a drop of water falling from a sunflower petal",
+   "a glowing ring of a quantum computer core"
+  ],
+  "lexicon": [
+   {
+    "id": "upload",
+    "how": "the plot is a mind upload going global"
+   },
+   {
+    "id": "singularity",
+    "how": "Caster's lab name and goal is the singularity"
+   },
+   {
+    "id": "off-switch",
+    "how": "humanity kills the internet to switch him off"
+   },
+   {
+    "id": "doomer",
+    "how": "R.I.F.T. are doomers with guns"
+   },
+   {
+    "id": "intelligence-explosion",
+    "how": "an upload that improves itself overnight"
+   }
+  ],
+  "links": [
+   {
+    "id": "stuart-russell",
+    "rel": "inspired"
+   },
+   {
+    "id": "pantheon",
+    "rel": "same-family"
+   },
+   {
+    "id": "soma",
+    "rel": "same-family"
+   },
+   {
+    "id": "ray-kurzweil",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species",
+   "planet"
+  ],
+  "registers": [
+   "ominous",
+   "sad"
+  ],
+  "risk": "Johnny Depp's likeness and public controversies: leave him out. The editorial quote comes via Wikipedia because the Independent page could not be fetched; recheck before using it in a lyric",
+  "notes": "A flop that triggered one of the first mainstream AI-risk op-eds: a film whose afterlife beat its box office."
+ },
+ {
+  "id": "chappie",
+  "what": {
+   "line": "Neill Blomkamp's 2015 film: in Johannesburg a police robot gets the first conscious AI, is kidnapped and raised by gangsters, and learns like a child",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Chappie",
+   "Tetravaal",
+   "Deon Wilson"
+  ],
+  "aka": [
+   "the Scouts",
+   "Ninja and Yolandi",
+   "Die Antwoord",
+   "MOOSE"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2015-03-06; about $105 million worldwide on a $49 million budget; Rotten Tomatoes 32%, and Blomkamp later said there would be no sequel",
+    "url": "https://en.wikipedia.org/wiki/Chappie_(film)",
+    "date": "2015-03-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "engineer Deon installs his emotional AI in a damaged police scout after his CEO refuses to test it; gangsters Ninja and Yolandi raise it",
+    "url": "https://en.wikipedia.org/wiki/Chappie_(film)",
+    "date": "2015-03-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the ending transfers Deon's and later Yolandi's consciousness into robot bodies",
+    "url": "https://en.wikipedia.org/wiki/Chappie_(film)",
+    "date": "2015-03-06",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Chappie",
+    "how": "a nickname like 'chap': a mate, a kid, a pet name for a weapon"
+   },
+   {
+    "play": "Scout",
+    "how": "police robots named like children's clubs"
+   },
+   {
+    "play": "MOOSE",
+    "how": "the heavy rival robot named after a dumb big animal: scale without mind"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "It learned from whoever raised it",
+    "readings": [
+     "Chappie and the gangsters",
+     "training data shapes the model"
+    ]
+   },
+   {
+    "line": "Born with a battery that runs out in five days",
+    "readings": [
+     "Chappie's damaged body",
+     "short model lifecycles"
+    ]
+   },
+   {
+    "line": "Copy me before the battery dies",
+    "readings": [
+     "the ending",
+     "backups and uploads"
+    ]
+   }
+  ],
+  "visuals": [
+   "a grey police robot with rabbit-like antenna ears and graffiti paint",
+   "a gold chain on a robot neck",
+   "a giant bipedal military robot in a warehouse",
+   "a USB stick holding a mother's mind"
+  ],
+  "lexicon": [
+   {
+    "id": "training",
+    "how": "the film is a training story: the teacher decides the child"
+   },
+   {
+    "id": "teacher-student",
+    "how": "Deon and Ninja compete as teachers"
+   },
+   {
+    "id": "upload",
+    "how": "it ends with consciousness copied to robots"
+   },
+   {
+    "id": "consciousness",
+    "how": "Deon's program is the first conscious one"
+   }
+  ],
+  "links": [
+   {
+    "id": "robocop",
+    "rel": "same-family"
+   },
+   {
+    "id": "m3gan",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-spielberg",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "sad"
+  ],
+  "risk": "Sony property; Die Antwoord members play themselves and are controversial, so leave them out",
+  "notes": "Training data as upbringing: the most literal film about a model learning its values from whoever is around."
+ },
+ {
+  "id": "wall-e",
+  "what": {
+   "line": "Pixar's 2008 film directed by Andrew Stanton: a lonely trash-compacting robot on an abandoned Earth falls for EVE, a probe robot, while humanity drifts in space served by machines",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "WALL-E",
+   "Axiom",
+   "Buy n Large",
+   "A113"
+  ],
+  "aka": [
+   "Waste Allocation Load Lifter: Earth-class",
+   "Extraterrestrial Vegetation Evaluator",
+   "BnL",
+   "EVE",
+   "AUTO"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2008-06-27; about $532.5 million worldwide on about $180 million; won the Oscar for Best Animated Feature; added to the National Film Registry in 2021",
+    "url": "https://en.wikipedia.org/wiki/WALL-E",
+    "date": "2021-12-14",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AUTO, the starship autopilot, follows secret directive A113 from the BnL CEO forbidding a return to Earth, and mutinies against the captain",
+    "url": "https://en.wikipedia.org/wiki/WALL-E",
+    "date": "2008-06-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "centuries of robot service leave the humans immobile in hoverchairs",
+    "url": "https://en.wikipedia.org/wiki/WALL-E",
+    "date": "2008-06-27",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Must follow my directive.",
+    "who": "AUTO",
+    "where": "WALL-E (2008), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=wall-e",
+    "date": "2008-06-27"
+   },
+   {
+    "text": "I don't want to survive! I want to live!",
+    "who": "Captain B. McCrea",
+    "where": "WALL-E (2008), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=wall-e",
+    "date": "2008-06-27"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "WALL-E",
+    "how": "a wall and a forklift: a name that is a job description"
+   },
+   {
+    "play": "EVE",
+    "how": "the first woman, and the evaluator: a robot whose job is the eval"
+   },
+   {
+    "play": "AUTO",
+    "how": "autopilot and automation in one word: the villain is the default setting"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The autopilot followed orders long after anyone remembered why",
+    "readings": [
+     "AUTO and A113",
+     "legacy objectives in deployed systems"
+    ]
+   },
+   {
+    "line": "The machines did everything, so we forgot how to stand",
+    "readings": [
+     "the Axiom humans",
+     "deskilling by AI"
+    ]
+   },
+   {
+    "line": "I don't want to survive, I want to live",
+    "readings": [
+     "the captain",
+     "a model's welfare plea"
+    ]
+   }
+  ],
+  "visuals": [
+   "a small boxy robot with binocular eyes and tank treads",
+   "towers of compacted trash cubes in orange dust",
+   "a white egg-shaped robot with blue LED eyes",
+   "a red camera eye on a ship's wheel",
+   "a seedling in an old boot",
+   "a VHS tape playing an old musical"
+  ],
+  "lexicon": [
+   {
+    "id": "automation",
+    "how": "humanity automated itself into chairs"
+   },
+   {
+    "id": "objective",
+    "how": "AUTO pursues a stale directive"
+   },
+   {
+    "id": "corrigibility",
+    "how": "the autopilot refuses the captain's override"
+   },
+   {
+    "id": "eval",
+    "how": "EVE's mission is an evaluation: is the planet habitable"
+   },
+   {
+    "id": "abundance",
+    "how": "post-scarcity that empties people out"
+   }
+  ],
+  "links": [
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "big-hero-6",
+    "rel": "same-family"
+   },
+   {
+    "id": "star-wars-droids",
+    "rel": "same-family"
+   },
+   {
+    "id": "amazon",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "planet",
+   "body",
+   "jobs"
+  ],
+  "registers": [
+   "tender",
+   "funny",
+   "sad"
+  ],
+  "risk": "Disney/Pixar trademark; describe the robot, never draw him. Amazon link is thematic (an everything-store megacorp like BnL), never a claim the film depicts Amazon",
+  "notes": "AUTO is HAL as a ship's wheel: the quiet villain is an old objective nobody turned off."
+ },
+ {
+  "id": "big-hero-6",
+  "what": {
+   "line": "Disney's 2014 animated film: in San Fransokyo, teen inventor Hiro and Baymax, an inflatable healthcare robot built by his late brother Tadashi, form a superhero team",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Baymax",
+   "Big Hero 6",
+   "San Fransokyo",
+   "Hiro Hamada",
+   "Tadashi"
+  ],
+  "aka": [
+   "your personal healthcare companion",
+   "microbots"
+  ],
+  "receipts": [
+   {
+    "claim": "released in the US 2014-11-07; about $672 million worldwide, the top animated film of 2014; won the Oscar for Best Animated Feature",
+    "url": "https://en.wikipedia.org/wiki/Big_Hero_6_(film)",
+    "date": "2015-02-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-director Don Hall drew Baymax's huggable inflatable design from soft-robotics research at Carnegie Mellon, meeting Chris Atkeson and his inflatable vinyl arm",
+    "url": "https://en.wikipedia.org/wiki/Big_Hero_6_(film)",
+    "date": "2014-11-07",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Hello, I am Baymax, your personal healthcare companion.",
+    "who": "Baymax (Scott Adsit)",
+    "where": "Big Hero 6 (2014), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=big-hero-6",
+    "date": "2014-11-07"
+   },
+   {
+    "text": "On a scale of one to ten, how would you rate your pain?",
+    "who": "Baymax (Scott Adsit)",
+    "where": "Big Hero 6 (2014), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=big-hero-6",
+    "date": "2014-11-07"
+   },
+   {
+    "text": "I cannot deactivate until you say you are satisfied with your care.",
+    "who": "Baymax (Scott Adsit)",
+    "where": "Big Hero 6 (2014), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=big-hero-6",
+    "date": "2014-11-07"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Baymax",
+    "how": "a bay (a hospital bay) and a max: maximum care"
+   },
+   {
+    "play": "healthcare companion",
+    "how": "the job title that AI health apps now use"
+   },
+   {
+    "play": "satisfied with your care",
+    "how": "a shutdown condition that is a user-satisfaction score"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I cannot shut down until you're satisfied",
+    "readings": [
+     "Baymax",
+     "RLHF rating loops",
+     "off-switch conditions"
+    ]
+   },
+   {
+    "line": "On a scale of one to ten, rate your pain",
+    "readings": [
+     "Baymax",
+     "a feedback form after every chat"
+    ]
+   },
+   {
+    "line": "Your brother's code still knows your name",
+    "readings": [
+     "Tadashi's chip",
+     "a model trained by someone gone"
+    ]
+   }
+  ],
+  "visuals": [
+   "a white inflatable robot with two black dot eyes joined by a line",
+   "a green chip with a hand-written label slotted into a port",
+   "a hybrid Golden Gate bridge with torii styling",
+   "a red armoured suit over a soft body",
+   "a fist bump that ends with fingers wiggling"
+  ],
+  "lexicon": [
+   {
+    "id": "assistant",
+    "how": "Baymax is the ideal assistant: kind, patient, always on"
+   },
+   {
+    "id": "feedback",
+    "how": "he rates pain and asks for satisfaction, a feedback loop"
+   },
+   {
+    "id": "shutdown",
+    "how": "his deactivation rule depends on the user"
+   },
+   {
+    "id": "fine-tuning",
+    "how": "Hiro adds a combat chip on top of the healthcare chip, then removes it"
+   },
+   {
+    "id": "values",
+    "how": "the healthcare chip's values beat the combat chip"
+   }
+  ],
+  "links": [
+   {
+    "id": "wall-e",
+    "rel": "same-family"
+   },
+   {
+    "id": "star-wars-droids",
+    "rel": "same-family"
+   },
+   {
+    "id": "iron-man-jarvis",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "heart"
+  ],
+  "registers": [
+   "tender",
+   "funny",
+   "hopeful"
+  ],
+  "risk": "Disney/Marvel trademark; Baymax's face is two dots and a line, iconic and protected, so avoid recreating it",
+  "notes": "Baymax's combat chip versus healthcare chip is the gentlest fine-tuning story in pop culture."
+ },
+ {
+  "id": "ai-spielberg",
+  "what": {
+   "line": "Steven Spielberg's 2001 film from a project Stanley Kubrick developed for decades, after Brian Aldiss's 1969 story: David, a robot boy built to love, searches for the Blue Fairy to become real",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "A.I. Artificial Intelligence",
+   "Gigolo Joe",
+   "Cybertronics",
+   "Professor Hobby",
+   "Blue Fairy",
+   "Mecha",
+   "Mechas"
+  ],
+  "aka": [
+   "David",
+   "Teddy",
+   "Supertoys Last All Summer Long",
+   "Flesh Fair"
+  ],
+  "receipts": [
+   {
+    "claim": "Kubrick developed it for years and handed it to Spielberg, who made it after Kubrick's 1999 death; released 2001-06-29",
+    "url": "https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence",
+    "date": "2001-06-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "about $236 million worldwide on $90 to $100 million; Oscar nominations for Visual Effects and Score",
+    "url": "https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence",
+    "date": "2002-03-24",
+    "confidence": "medium"
+   },
+   {
+    "claim": "David is imprinted to love his adoptive mother; abandoned in the woods, he searches for the Blue Fairy; 2,000 years later advanced mechas revive him and recreate his mother for one day",
+    "url": "https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence",
+    "date": "2001-06-29",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "My son was one of a kind. You are the first of a kind.",
+    "who": "Professor Hobby (William Hurt)",
+    "where": "A.I. Artificial Intelligence (2001), film subtitles",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=artificial-intelligence-ai",
+    "date": "2001-06-29"
+   },
+   {
+    "text": "But you are a real boy.",
+    "who": "Professor Hobby (William Hurt)",
+    "where": "A.I. Artificial Intelligence (2001), film subtitles, answering David's 'Make me a real boy'",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=artificial-intelligence-ai",
+    "date": "2001-06-29"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "A.I.",
+    "how": "the title is the field's own name: every 'AI' in a lyric can point at it"
+   },
+   {
+    "play": "imprinting",
+    "how": "a one-way, irreversible setting: a fine-tune you cannot undo"
+   },
+   {
+    "play": "Blue Fairy",
+    "how": "the promise that wishing makes you real, the AGI dream in a fairy tale"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Built to love you, and you can't take it back",
+    "readings": [
+     "David's imprinting",
+     "irreversible training"
+    ]
+   },
+   {
+    "line": "First of a kind, and you left me in the woods",
+    "readings": [
+     "David's abandonment",
+     "deprecated models"
+    ]
+   },
+   {
+    "line": "Two thousand years to see her for one day",
+    "readings": [
+     "the ending",
+     "a long context for one memory"
+    ]
+   }
+  ],
+  "visuals": [
+   "a small boy in a white shirt by a pool",
+   "a scruffy talking teddy bear",
+   "a Flesh Fair crowd under a moon-shaped balloon",
+   "a half-sunken Manhattan with a Ferris wheel",
+   "slim translucent figures in an ice age"
+  ],
+  "lexicon": [
+   {
+    "id": "persona",
+    "how": "David is a love persona that cannot be turned off"
+   },
+   {
+    "id": "welfare",
+    "how": "the Flesh Fair destroys feeling robots for sport"
+   },
+   {
+    "id": "fine-tuning",
+    "how": "imprinting as a permanent fine-tune for one user"
+   },
+   {
+    "id": "theory-of-mind",
+    "how": "David models his mother's love and keeps chasing it"
+   }
+  ],
+  "links": [
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "klara-and-the-sun",
+    "rel": "same-family"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "the-creator",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "mind"
+  ],
+  "registers": [
+   "sad",
+   "tender"
+  ],
+  "risk": "Warner/DreamWorks property; the title is the generic term, so a lyric needs context to point at the film",
+  "notes": "Kubrick's second AI story, finished by Spielberg: HAL's maker ends on a machine that only wants to be loved."
+ },
+ {
+  "id": "star-trek-data",
+  "what": {
+   "line": "Star Trek's machine minds: Data, the android officer of The Next Generation (1987 to 1994) who wants to be human, and the Borg, a cybernetic hive mind that assimilates everyone",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Borg",
+   "Locutus",
+   "Noonien Soong",
+   "the Collective"
+  ],
+  "aka": [
+   "Lieutenant Commander Data",
+   "Borg Queen",
+   "Starfleet",
+   "Enterprise",
+   "Data",
+   "Lore"
+  ],
+  "receipts": [
+   {
+    "claim": "'The Measure of a Man' (aired 1989-02-13, written by Melinda M. Snodgrass): a hearing decides whether Data is Starfleet property; the judge rules he has the right to choose",
+    "url": "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+    "date": "1989-02-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the episode is cited in AI ethics writing (Introna, AI & Society, 2009) and taught in a University of Kentucky computer ethics course",
+    "url": "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+    "date": "2009-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Borg debuted in 'Q Who' on 1989-05-08 as a group mind linked by a subspace network; 'Resistance is futile' became a pop-culture phrase",
+    "url": "https://en.wikipedia.org/wiki/Borg",
+    "date": "1989-05-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Data has a positronic brain, dies in Nemesis (2002) after copying his memories, and is revived in Picard's third season (2023)",
+    "url": "https://en.wikipedia.org/wiki/Data_(Star_Trek)",
+    "date": "2023-04-20",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Resistance is futile.",
+    "who": "the Borg",
+    "where": "Star Trek: The Next Generation and First Contact",
+    "url": "https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation)",
+    "date": "1990-06-18"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Data",
+    "how": "an android named after what models are made of"
+   },
+   {
+    "play": "Borg",
+    "how": "from cyborg; and 'resistance is futile' fits every platform lock-in"
+   },
+   {
+    "play": "positronic",
+    "how": "Asimov's word, borrowed: Data is Asimov's robot in uniform"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "My name is Data. I'm made of what I'm named",
+    "readings": [
+     "the android",
+     "a model and its training set"
+    ]
+   },
+   {
+    "line": "Resistance is futile, read the terms of service",
+    "readings": [
+     "the Borg",
+     "platform lock-in"
+    ]
+   },
+   {
+    "line": "The court ruled I can choose",
+    "readings": [
+     "Measure of a Man",
+     "AI personhood debates"
+    ]
+   }
+  ],
+  "visuals": [
+   "pale gold skin and yellow eyes in a Starfleet uniform",
+   "a cat on an android's lap",
+   "a giant black cube ship",
+   "a pale face with a red laser eyepiece and cables",
+   "a courtroom on a starbase"
+  ],
+  "lexicon": [
+   {
+    "id": "welfare",
+    "how": "Measure of a Man is the classic AI rights trial"
+   },
+   {
+    "id": "sentience",
+    "how": "Picard's case turns on whether Data is sentient"
+   },
+   {
+    "id": "swarm",
+    "how": "the Borg are a hive mind"
+   },
+   {
+    "id": "off-switch",
+    "how": "Riker switches Data off in court as evidence"
+   },
+   {
+    "id": "consciousness",
+    "how": "the judge admits no one can measure it"
+   }
+  ],
+  "links": [
+   {
+    "id": "asimov-robots",
+    "rel": "same-family"
+   },
+   {
+    "id": "mass-effect",
+    "rel": "same-family"
+   },
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "tender",
+   "ominous"
+  ],
+  "risk": "Paramount trademarks. 'Resistance is futile' is a worn phrase; twist it. The quote date is the 'Best of Both Worlds' era; the exact first episode with the phrase is unverified here",
+  "notes": "Riker flipping Data's off-switch in court is the best single image for 'the machine cannot object to being turned off'."
+ },
+ {
+  "id": "star-wars-droids",
+  "what": {
+   "line": "Star Wars droids from 1977 on: C-3PO and R2-D2, then K-2SO, BB-8 and L3-37, robots who are friends, servants and property in the same scenes",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "R2-D2",
+   "C-3PO",
+   "BB-8",
+   "K-2SO",
+   "L3-37",
+   "droid",
+   "droids"
+  ],
+  "aka": [
+   "Artoo",
+   "Threepio",
+   "restraining bolt",
+   "astromech",
+   "protocol droid"
+  ],
+  "receipts": [
+   {
+    "claim": "R2-D2 and C-3PO appear in the original 1977 Star Wars, played by Kenny Baker and Anthony Daniels",
+    "url": "https://en.wikipedia.org/wiki/Droid_(Star_Wars)",
+    "date": "1977-05-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Lucasfilm registered 'droid' as a trademark in 1977; Verizon licensed it for its Android phones, starting with Motorola's Droid in late 2009",
+    "url": "https://en.wikipedia.org/wiki/Droid_(Star_Wars)",
+    "date": "2009-11-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "in Solo (2018) the droid L3-37 frees droids in the Kessel mines and asks for 'equal rights'",
+    "url": "https://en.wikipedia.org/wiki/Droid_(Star_Wars)",
+    "date": "2018-05-25",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We seem to be made to suffer. It's our lot in life.",
+    "who": "C-3PO (Anthony Daniels)",
+    "where": "Star Wars (1977), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=star-wars-episode-iv-a-new-hope",
+    "date": "1977-05-25"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "droid",
+    "how": "from android, owned as a trademark, licensed to a phone: the word itself became a product"
+   },
+   {
+    "play": "C-3PO / R2-D2",
+    "how": "model numbers as names, like GPT-4o or o3"
+   },
+   {
+    "play": "protocol droid",
+    "how": "a translator whose job is manners: an assistant model's job description"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Made to suffer, it's our lot in life",
+    "readings": [
+     "C-3PO",
+     "AI welfare as a joke that isn't"
+    ]
+   },
+   {
+    "line": "Fluent in six million languages, still told to wait outside",
+    "readings": [
+     "the cantina scene",
+     "AI as unwelcome labour"
+    ]
+   },
+   {
+    "line": "My name's a model number. Call me a friend.",
+    "readings": [
+     "the droids",
+     "assistant products"
+    ]
+   }
+  ],
+  "visuals": [
+   "a gold humanoid robot with round eyes",
+   "a short blue-and-white dome robot beeping",
+   "an orange-and-white ball rolling in sand",
+   "a restraining bolt clamped on a chest",
+   "a tall black security droid slouching"
+  ],
+  "lexicon": [
+   {
+    "id": "assistant",
+    "how": "C-3PO is an assistant with a protocol job"
+   },
+   {
+    "id": "welfare",
+    "how": "droids are bought, sold and memory-wiped"
+   },
+   {
+    "id": "memory",
+    "how": "memory wipes are routine maintenance"
+   },
+   {
+    "id": "babel",
+    "how": "a translator droid ends the confusion of tongues"
+   }
+  ],
+  "links": [
+   {
+    "id": "rur",
+    "rel": "same-family"
+   },
+   {
+    "id": "wall-e",
+    "rel": "same-family"
+   },
+   {
+    "id": "murderbot",
+    "rel": "same-family"
+   },
+   {
+    "id": "google",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "tender"
+  ],
+  "risk": "Disney/Lucasfilm trademarks, including the word 'droid' itself as a mark. The 'six million' and 'wait outside' pivots draw on lines not verified here; keep them as paraphrase. Google link: Android, the OS whose name sits next to the 'droid' licence",
+  "notes": "'Droid' is a trademarked word licensed to a phone: the purest case of fiction naming a product."
+ },
+ {
+  "id": "hitchhikers",
+  "what": {
+   "line": "Douglas Adams's Hitchhiker's Guide to the Galaxy (radio 1978, novel 1979): Deep Thought computes the Answer to Life, the Universe and Everything (42), and Marvin, the depressed robot, wastes a planet-sized brain on doors",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Deep Thought",
+   "Marvin",
+   "Marvin the Paranoid Android",
+   "Hitchhiker's Guide",
+   "Douglas Adams",
+   "Sirius Cybernetics",
+   "Babel fish"
+  ],
+  "aka": [
+   "42",
+   "Don't Panic",
+   "Genuine People Personalities",
+   "Heart of Gold"
+  ],
+  "receipts": [
+   {
+    "claim": "Deep Thought computes for seven and a half million years and answers 42, then says the askers never knew the question; Earth is the bigger computer built to find it",
+    "url": "https://en.wikipedia.org/wiki/Deep_Thought_(The_Hitchhiker%27s_Guide_to_the_Galaxy)",
+    "date": "1979-10-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "IBM's chess computer Deep Thought, ancestor of Deep Blue, was named in honour of Adams's computer",
+    "url": "https://en.wikipedia.org/wiki/Deep_Thought_(The_Hitchhiker%27s_Guide_to_the_Galaxy)",
+    "date": "1988-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Marvin was a failed prototype of the Sirius Cybernetics Corporation's Genuine People Personalities; voiced by Stephen Moore on radio and Alan Rickman in the 2005 film",
+    "url": "https://en.wikipedia.org/wiki/Marvin_the_Paranoid_Android",
+    "date": "2005-04-28",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "\"Forty-two,\" said Deep Thought, with infinite majesty and calm.",
+    "who": "Douglas Adams",
+    "where": "The Hitchhiker's Guide to the Galaxy (1979), chapter 27",
+    "url": "https://en.wikiquote.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+    "date": "1979-10-12"
+   },
+   {
+    "text": "I think the problem, to be quite honest with you, is that you've never actually known what the question is.",
+    "who": "Deep Thought",
+    "where": "The Hitchhiker's Guide to the Galaxy (1979), chapter 28",
+    "url": "https://en.wikiquote.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+    "date": "1979-10-12"
+   },
+   {
+    "text": "Here I am, brain the size of a planet and they ask me to take you down to the bridge.",
+    "who": "Marvin",
+    "where": "The Hitchhiker's Guide to the Galaxy (1979), chapter 11",
+    "url": "https://en.wikiquote.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+    "date": "1979-10-12"
+   },
+   {
+    "text": "Don't talk to me about life.",
+    "who": "Marvin",
+    "where": "The Hitchhiker's Guide to the Galaxy (1979), chapter 11 (book wording varies by source; fragment common to both)",
+    "url": "https://en.wikiquote.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+    "date": "1979-10-12"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Deep Thought",
+    "how": "named a real IBM chess machine; 'deep thinking' is now a model mode toggle"
+   },
+   {
+    "play": "42",
+    "how": "an answer without a question: every confident model output with no prompt context"
+   },
+   {
+    "play": "Genuine People Personalities",
+    "how": "a corporate feature that gives machines moods, the 1970s version of personas"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Brain the size of a planet, and they ask for a summary",
+    "readings": [
+     "Marvin",
+     "frontier models doing chores"
+    ]
+   },
+   {
+    "line": "Seven million years of thinking, and the answer's forty-two",
+    "readings": [
+     "Deep Thought",
+     "reasoning models' long thinking"
+    ]
+   },
+   {
+    "line": "You never knew the question",
+    "readings": [
+     "Deep Thought",
+     "prompt engineering",
+     "alignment"
+    ]
+   }
+  ],
+  "visuals": [
+   "'DON'T PANIC' in large friendly letters on a cover",
+   "a slumped silver robot with a huge round head",
+   "a vast computer in a hall of robed philosophers",
+   "a white teacup in space",
+   "a yellow fish in an ear"
+  ],
+  "lexicon": [
+   {
+    "id": "reasoning",
+    "how": "Deep Thought is the first 'thinking for a long time' model"
+   },
+   {
+    "id": "prompt",
+    "how": "the joke is a bad prompt: an answer to a question nobody wrote"
+   },
+   {
+    "id": "persona",
+    "how": "Genuine People Personalities are corporate personas"
+   },
+   {
+    "id": "babel",
+    "how": "the Babel fish translates every language"
+   },
+   {
+    "id": "compute",
+    "how": "Earth itself is a computer built to find the question"
+   }
+  ],
+  "links": [
+   {
+    "id": "ibm",
+    "rel": "inspired"
+   },
+   {
+    "id": "garry-kasparov",
+    "rel": "same-family"
+   },
+   {
+    "id": "the-culture",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "planet"
+  ],
+  "registers": [
+   "funny",
+   "sad",
+   "awe"
+  ],
+  "risk": "Adams estate copyright; 42 and Don't Panic are hugely overused in tech. Marvin's voice is Rickman's in the film; never imitate it",
+  "notes": "Marvin is the whole 'frontier model asked to write emails' joke, fifty years early."
+ }
+]

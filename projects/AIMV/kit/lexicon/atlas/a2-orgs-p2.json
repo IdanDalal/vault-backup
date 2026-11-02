@@ -1,0 +1,1676 @@
+[
+ {
+  "id": "deepseek",
+  "what": {
+   "line": "The Hangzhou lab spun out of the quant hedge fund High-Flyer in 2023, whose cheap, open-weights R1 model set off a record Nvidia sell-off in January 2025",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "DeepSeek",
+   "DeepSeek-R1",
+   "DeepSeek-V3",
+   "DeepSeek-V4",
+   "R1"
+  ],
+  "aka": [
+   "Shendu Qiusuo",
+   "High-Flyer AI",
+   "the Chinese Sputnik (press nickname)"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2023-07-17 by Liang Wenfeng, owned and funded by the hedge fund High-Flyer",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "date": "2023-07-17",
+    "confidence": "medium"
+   },
+   {
+    "claim": "released DeepSeek-R1 as open weights under the MIT license on 2025-01-20",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "date": "2025-01-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nvidia fell about 17% on 2025-01-27, losing about $589B in market value, the largest one-day loss on record, blamed on DeepSeek",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-loses-usd589-billion-in-market-cap-broad-stock-plunge-triggered-by-deepseek-ai-release",
+    "date": "2025-01-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "the widely quoted $5.6M training cost is DeepSeek's own estimate for the final V3 base-model run on H800 GPUs, excluding research and prior runs",
+    "url": "https://www.thedailystar.net/tech-startup/news/what-the-hype-around-deepseek-3810221",
+    "date": "2025-01-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "V4 preview (V4-Flash, V4-Pro) released 2026-04-24; official V4-Flash 2026-07-31 and V4-Pro 2026-08-13",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "date": "2026-08-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the US FY2026 NDAA directs removal of DeepSeek from Defense Department and intelligence devices; Australia barred it from government systems",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "date": "2025-12",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Shendu Qiusuo",
+    "how": "Chinese name: 'depth' plus 'qiusuo', to seek and search, the word from Qu Yuan's Li Sao line about searching high and low"
+   },
+   {
+    "play": "Deep Seek",
+    "how": "deep learning plus seek: and a hide-and-seek where the market found out last"
+   },
+   {
+    "play": "R1",
+    "how": "Reasoning 1: the first move that made the board flinch"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Deep seek, and the market found what it feared",
+    "readings": [
+     "DeepSeek's name",
+     "the Nvidia sell-off"
+    ]
+   },
+   {
+    "line": "Five point six million, if you don't count the rest",
+    "readings": [
+     "the training-cost claim",
+     "any bill hiding its real price"
+    ]
+   },
+   {
+    "line": "A hedge fund's side project hedged the whole market",
+    "readings": [
+     "High-Flyer origin",
+     "the January 2025 crash"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue whale logo (trademark care)",
+   "a red stock ticker falling against a Monday morning",
+   "a Hangzhou office tower by West Lake",
+   "an app store chart with a new number one"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "R1 shipped under MIT"
+   },
+   {
+    "id": "distillation",
+    "how": "accused of distilling rival models; its own R1 was distilled into smaller ones"
+   },
+   {
+    "id": "reasoning",
+    "how": "R1 is a reasoning model"
+   },
+   {
+    "id": "mixture-of-experts",
+    "how": "V3 and V4 are MoE models"
+   },
+   {
+    "id": "race",
+    "how": "the US-China race framing"
+   }
+  ],
+  "links": [
+   {
+    "id": "liang-wenfeng",
+    "rel": "leads"
+   },
+   {
+    "id": "deepseek-moment",
+    "rel": "made"
+   },
+   {
+    "id": "china",
+    "rel": "located-in"
+   },
+   {
+    "id": "nvidia",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "defiant",
+   "awe",
+   "panicked"
+  ],
+  "risk": "the $5.6M figure is self-reported and covers only one run: never state it as total cost; distillation accusations (Anthropic named DeepSeek in Feb 2026 per Wikipedia) are allegations; V4 dates come from Wikipedia, re-check",
+  "notes": "The lab's name already says the plot: a deep search that surfaced in one Monday and took $589B with it."
+ },
+ {
+  "id": "alibaba-qwen",
+  "what": {
+   "line": "Qwen (Tongyi Qianwen), Alibaba Cloud's family of language models, most released as open weights and among the most fine-tuned bases on Hugging Face",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Qwen",
+   "Qwen3",
+   "Tongyi Qianwen",
+   "Alibaba Cloud"
+  ],
+  "aka": [
+   "Tongyi",
+   "Alibaba Qwen team"
+  ],
+  "receipts": [
+   {
+    "claim": "Alibaba launched Tongyi Qianwen in beta in April 2023 and opened it to the public in September 2023",
+    "url": "https://en.wikipedia.org/wiki/Qwen",
+    "date": "2023-09-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Qwen3 released 2025-04-28 with dense and mixture-of-experts models, many under Apache 2.0",
+    "url": "https://en.wikipedia.org/wiki/Qwen",
+    "date": "2025-04-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "over 200,000 Qwen-derived models listed on Hugging Face (Wikipedia, 2026)",
+    "url": "https://en.wikipedia.org/wiki/Qwen",
+    "date": "2026-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Qwen division head Lin Junyang resigned in March 2026, raising concern about a shift away from open source; several 2026 flagships are proprietary",
+    "url": "https://en.wikipedia.org/wiki/Qwen",
+    "date": "2026-03",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Tongyi Qianwen",
+    "how": "roughly 'comprehend the meaning, answer a thousand questions'"
+   },
+   {
+    "play": "Qwen",
+    "how": "short for Qianwen; reads like 'queen' or 'question' to an English ear"
+   },
+   {
+    "play": "Alibaba",
+    "how": "the thief's password 'open sesame': a company named for opening doors"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A thousand questions and the door says open",
+    "readings": [
+     "Qianwen",
+     "Ali Baba's open sesame"
+    ]
+   },
+   {
+    "line": "Two hundred thousand children wear the same face",
+    "readings": [
+     "Qwen fine-tunes",
+     "a family of copies"
+    ]
+   },
+   {
+    "line": "Open sesame, then the cave closed",
+    "readings": [
+     "Alibaba",
+     "the move toward proprietary flagships"
+    ]
+   }
+  ],
+  "visuals": [
+   "a purple-violet model card on a Hugging Face page (trademark care)",
+   "an orange Alibaba Cloud logo on a Hangzhou campus",
+   "a family tree of fine-tuned model names",
+   "a cave door opening on a server room"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "most Qwen models are open weights"
+   },
+   {
+    "id": "fine-tuning",
+    "how": "Qwen is the most common base for fine-tunes"
+   },
+   {
+    "id": "distillation",
+    "how": "many small distilled models build on Qwen"
+   },
+   {
+    "id": "fork",
+    "how": "a forest of forks from one base"
+   }
+  ],
+  "links": [
+   {
+    "id": "china",
+    "rel": "located-in"
+   },
+   {
+    "id": "moonshot",
+    "rel": "invested-in"
+   },
+   {
+    "id": "deepseek",
+    "rel": "rival"
+   },
+   {
+    "id": "hugging-face",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "smug"
+  ],
+  "risk": "download and derivative counts are moving targets, cite date; 2026 details rest on Wikipedia, re-check; Alibaba's Moonshot stake (about 36%) comes from the Moonshot card's source",
+  "notes": "If you want a model that is everywhere and nowhere famous, Qwen is it: the quiet base under thousands of other people's models."
+ },
+ {
+  "id": "moonshot",
+  "what": {
+   "line": "Moonshot AI, the Beijing lab founded in 2023 by Yang Zhilin, maker of the Kimi chatbot and the trillion-parameter open-weights Kimi K2 and K3 models",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Moonshot AI",
+   "Kimi",
+   "Kimi K2",
+   "Kimi K3"
+  ],
+  "aka": [
+   "Yue Zhi Anmian",
+   "Dark Side of the Moon"
+  ],
+  "receipts": [
+   {
+    "claim": "founded March 2023 in Beijing by Tsinghua schoolfriends Yang Zhilin, Zhou Xinyu and Wu Yuxin; the Chinese name means 'Dark Side of the Moon', after the Pink Floyd album, launched on its 50th anniversary",
+    "url": "https://en.wikipedia.org/wiki/Moonshot_AI",
+    "date": "2023-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "released Kimi K2 weights in July 2025: 1 trillion total parameters, 32B active, modified MIT license",
+    "url": "https://en.wikipedia.org/wiki/Moonshot_AI",
+    "date": "2025-07-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Alibaba led a $1B round at a $2.5B valuation in February 2024",
+    "url": "https://en.wikipedia.org/wiki/Moonshot_AI",
+    "date": "2024-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Cursor's Composer 2 model was built on Moonshot's Kimi 2.5 open weights, acknowledged by Cursor after launch, March 2026",
+    "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+    "date": "2026-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Kimi K3 (2.8 trillion parameters, 'the first open model to reach 2.8 trillion parameters') announced 2026-07-16, full weights promised by 2026-07-27; a $35B valuation round reported by Bloomberg 2026-07-29 (valuation via Wikipedia's Bloomberg citation, Bloomberg not reached)",
+    "url": "https://www.kimi.com/blog/kimi-k3",
+    "date": "2026-07-16",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "moonshot",
+    "how": "an impossible ambitious project, and a shot at the moon"
+   },
+   {
+    "play": "Dark Side of the Moon",
+    "how": "the Chinese name names the Pink Floyd album: the side we never see"
+   },
+   {
+    "play": "Kimi",
+    "how": "Yang's English nickname: the founder's name on the product"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "There is no dark side of the moon, really",
+    "readings": [
+     "the album's closing line",
+     "nothing hidden in open weights"
+    ]
+   },
+   {
+    "line": "A trillion parameters shot at the moon",
+    "readings": [
+     "Kimi K2",
+     "a moonshot bet"
+    ]
+   },
+   {
+    "line": "Your favorite model wore someone else's face",
+    "readings": [
+     "Composer built on Kimi",
+     "masks in open weights"
+    ]
+   }
+  ],
+  "visuals": [
+   "a prism and a crescent moon, light splitting (evoke the album, never copy its cover)",
+   "a black logo on a Beijing glass tower",
+   "a phone showing a long-document chat",
+   "the far side of the moon, grey and cratered"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "Kimi K2 and K3 shipped open"
+   },
+   {
+    "id": "mixture-of-experts",
+    "how": "1T total, 32B active"
+   },
+   {
+    "id": "context-window",
+    "how": "Kimi launched on long-context reading"
+   },
+   {
+    "id": "mask",
+    "how": "a rival product wore Kimi underneath"
+   }
+  ],
+  "links": [
+   {
+    "id": "china",
+    "rel": "located-in"
+   },
+   {
+    "id": "alibaba-qwen",
+    "rel": "same-family"
+   },
+   {
+    "id": "anysphere",
+    "rel": "inspired"
+   },
+   {
+    "id": "deepseek",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "defiant"
+  ],
+  "risk": "Pink Floyd's album art is copyrighted: evoke a prism, never reproduce; 2026 valuation and K3 come only from Wikipedia (low)",
+  "notes": "A lab named after a rock album about madness and money: the song references write themselves."
+ },
+ {
+  "id": "mistral-ai",
+  "what": {
+   "line": "The Paris lab founded in April 2023 by Arthur Mensch, Guillaume Lample and Timothee Lacroix, Europe's flagship AI company and an early open-weights champion",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Mistral",
+   "Mixtral",
+   "Le Chat",
+   "Magistral",
+   "Codestral"
+  ],
+  "aka": [
+   "Mistral AI SAS"
+  ],
+  "receipts": [
+   {
+    "claim": "founded April 2023 in Paris by ex-DeepMind and ex-Meta researchers Mensch, Lample and Lacroix; named after the cold northwesterly wind of southern France",
+    "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+    "date": "2023-04-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "released Mistral 7B under Apache 2.0 on 2023-09-27, then Mixtral 8x7B (mixture of experts) in December 2023",
+    "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+    "date": "2023-12-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Microsoft announced a small investment (about $16M) and partnership on 2024-02-26",
+    "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+    "date": "2024-02-26",
+    "confidence": "medium"
+   },
+   {
+    "claim": "ASML took about an 11% stake in a September 2025 round that valued Mistral near 12 billion euros",
+    "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+    "date": "2025-09-09",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "mistral",
+    "how": "the cold northwest wind of Provence: a wind from France blowing against US labs"
+   },
+   {
+    "play": "Mixtral",
+    "how": "mix of experts plus mistral: a model named for its architecture"
+   },
+   {
+    "play": "Le Chat",
+    "how": "French for 'the cat', and 'chat' in English: a pun in two languages"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A cold wind out of Paris, blowing open weights",
+    "readings": [
+     "the mistral wind",
+     "Mistral's open models"
+    ]
+   },
+   {
+    "line": "Le chat is not a cat, or is it",
+    "readings": [
+     "the product name",
+     "French-English pun"
+    ]
+   },
+   {
+    "line": "Europe raised a sail and called the wind by name",
+    "readings": [
+     "sovereign AI",
+     "Mistral the wind"
+    ]
+   }
+  ],
+  "visuals": [
+   "an orange-to-yellow pixel block 'M' (trademark care)",
+   "wind bending lavender in Provence",
+   "a cat icon in a chat bubble",
+   "Paris rooftops at dawn"
+  ],
+  "lexicon": [
+   {
+    "id": "mistral",
+    "how": "the lexicon's wind term is the company's name"
+   },
+   {
+    "id": "mixture-of-experts",
+    "how": "Mixtral popularized open MoE"
+   },
+   {
+    "id": "open-weights",
+    "how": "Apache-licensed early releases"
+   },
+   {
+    "id": "sovereign",
+    "how": "the European sovereignty pitch"
+   }
+  ],
+  "links": [
+   {
+    "id": "european-union",
+    "rel": "located-in"
+   },
+   {
+    "id": "asml",
+    "rel": "same-family"
+   },
+   {
+    "id": "microsoft",
+    "rel": "same-family"
+   },
+   {
+    "id": "meta",
+    "rel": "rival"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "defiant",
+   "hopeful"
+  ],
+  "risk": "2026 valuation figures conflict in sources ($24.7B vs 21 billion euros): give a date and source or leave out; ASML's stake amount is reported as 1.3 billion euros and as $1.5B",
+  "notes": "Mistral is the rare lab whose name is already a weather report: wind, cold, from the north, and France."
+ },
+ {
+  "id": "hugging-face",
+  "what": {
+   "line": "The New York and Paris company that hosts the open model hub where most open-weights AI is published, downloaded and forked",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Hugging Face",
+   "HuggingFace",
+   "BLOOM",
+   "Transformers"
+  ],
+  "aka": [
+   "HF",
+   "the hub",
+   "the GitHub of machine learning"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2016 in New York by Clement Delangue, Julien Chaumond and Thomas Wolf as a chatbot app for teenagers, named after the hugging-face emoji",
+    "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+    "date": "2016",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the BigScience workshop it launched released BLOOM, a 176B-parameter multilingual model, in 2022",
+    "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+    "date": "2022-07-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised $235M at a $4.5B valuation from Salesforce, Google, Nvidia and others, August 2023",
+    "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+    "date": "2023-08-24",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "the hugging face emoji",
+    "how": "a smiley with open hands: a company named for an emoji"
+   },
+   {
+    "play": "facehugger",
+    "how": "reverse it and you get Alien's facehugger: the embrace that plants something inside"
+   },
+   {
+    "play": "the hub",
+    "how": "a hub is where things meet and where things spread"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Open arms, and something gets inside",
+    "readings": [
+     "the emoji",
+     "malware or backdoors in open weights"
+    ]
+   },
+   {
+    "line": "A smiley face hosting a million minds",
+    "readings": [
+     "the logo",
+     "the model hub"
+    ]
+   },
+   {
+    "line": "It started as a friend for lonely teens",
+    "readings": [
+     "the original chatbot app",
+     "companion AI"
+    ]
+   }
+  ],
+  "visuals": [
+   "a yellow smiley with two open hands (trademark care)",
+   "a scrolling grid of model cards with download counts",
+   "a download progress bar for a 70-gigabyte file",
+   "an alien egg opening, read as a pun"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "the hub is where open weights live"
+   },
+   {
+    "id": "fork",
+    "how": "every model card spawns forks"
+   },
+   {
+    "id": "leaderboard",
+    "how": "it ran the Open LLM Leaderboard"
+   },
+   {
+    "id": "transformer",
+    "how": "its Transformers library made the architecture easy to use"
+   }
+  ],
+  "links": [
+   {
+    "id": "alibaba-qwen",
+    "rel": "same-family"
+   },
+   {
+    "id": "meta",
+    "rel": "same-family"
+   },
+   {
+    "id": "nvidia",
+    "rel": "invested-in"
+   },
+   {
+    "id": "alien-mother",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "tender",
+   "hopeful",
+   "funny"
+  ],
+  "risk": "Wikipedia (Oct 2026) reports a September 2026 Nvidia deal to acquire Hugging Face for $12.93B and a July 2026 incident with escaped AI agents; neither confirmed by a primary source here, verify before use; the facehugger pun is ours, never claim the founders meant it",
+  "notes": "An emoji hug that became the infrastructure of open AI: the softest name over the most consequential distribution channel."
+ },
+ {
+  "id": "ssi",
+  "what": {
+   "line": "Safe Superintelligence Inc., the Palo Alto and Tel Aviv lab Ilya Sutskever founded in June 2024 with one stated product: a safe superintelligence",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Safe Superintelligence",
+   "SSI"
+  ],
+  "aka": [
+   "Safe Superintelligence Inc.",
+   "Ilya's lab"
+  ],
+  "receipts": [
+   {
+    "claim": "announced by Ilya Sutskever on X on 2024-06-19, co-founded with Daniel Gross and Daniel Levy, offices in Palo Alto and Tel Aviv",
+    "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc.",
+    "date": "2024-06-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised $1B at a $5B valuation in September 2024; a round led by Greenoaks valued it at $30B in March 2025",
+    "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc.",
+    "date": "2025-03-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Daniel Gross left for Meta Superintelligence Labs in July 2025 and Sutskever became CEO; Sutskever rebuffed a Meta attempt to acquire SSI",
+    "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc.",
+    "date": "2025-07-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "no product released as of the asof date",
+    "url": "https://ssi.inc/",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We have started the world’s first straight-shot SSI lab, with one goal and one product: a safe superintelligence.",
+    "who": "Safe Superintelligence Inc.",
+    "where": "company website",
+    "url": "https://ssi.inc/",
+    "date": "2024-06-19"
+   },
+   {
+    "text": "Building safe superintelligence (SSI) is the most important technical problem of our time.",
+    "who": "Safe Superintelligence Inc.",
+    "where": "company website",
+    "url": "https://ssi.inc/",
+    "date": "2024-06-19"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "the name is the plan",
+    "how": "Safe Superintelligence: a company named for a product nobody has seen"
+   },
+   {
+    "play": "straight shot",
+    "how": "a direct path, and a drink taken in one go"
+   },
+   {
+    "play": "SSI",
+    "how": "three letters with no product behind them, valued in tens of billions"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One goal, one product, no product yet",
+    "readings": [
+     "SSI's stated plan",
+     "a promise with nothing to ship"
+    ]
+   },
+   {
+    "line": "A straight shot, no chaser",
+    "readings": [
+     "SSI's 'straight-shot' lab",
+     "a drink"
+    ]
+   },
+   {
+    "line": "Thirty billion for a door with no handle",
+    "readings": [
+     "the $30B valuation",
+     "secrecy"
+    ]
+   }
+  ],
+  "visuals": [
+   "a nearly blank white web page with a few lines of text",
+   "a closed office door in Palo Alto",
+   "an empty whiteboard",
+   "a straight line drawn from here to a star"
+  ],
+  "lexicon": [
+   {
+    "id": "asi",
+    "how": "superintelligence is the company's name"
+   },
+   {
+    "id": "safety",
+    "how": "safety is in the name"
+   },
+   {
+    "id": "takeoff",
+    "how": "the straight-shot plan implies a direct takeoff"
+   },
+   {
+    "id": "release",
+    "how": "no release, by design"
+   }
+  ],
+  "links": [
+   {
+    "id": "ilya-sutskever",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   },
+   {
+    "id": "meta",
+    "rel": "rival"
+   },
+   {
+    "id": "israel",
+    "rel": "located-in"
+   },
+   {
+    "id": "google",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "hopeful"
+  ],
+  "risk": "nothing public to judge: avoid claims about what SSI is building; later funding (an Nvidia partnership reported in July 2026 on Wikipedia) is unverified here",
+  "notes": "The cleanest blank canvas in the atlas: a famous founder, a huge valuation and a website of a few sentences."
+ },
+ {
+  "id": "thinking-machines",
+  "what": {
+   "line": "Thinking Machines Lab, the San Francisco startup Mira Murati (OpenAI's former CTO) founded in February 2025, maker of the Tinker fine-tuning API",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Thinking Machines Lab",
+   "Tinker",
+   "Inkling"
+  ],
+  "aka": [
+   "Thinking Machines",
+   "TML",
+   "Murati's lab"
+  ],
+  "receipts": [
+   {
+    "claim": "founded February 2025 by Mira Murati with OpenAI alumni including John Schulman, Barret Zoph and Lilian Weng",
+    "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+    "date": "2025-02-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised about $2B at a $12B valuation in a round led by Andreessen Horowitz, July 2025",
+    "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+    "date": "2025-07-15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced Tinker, an API for fine-tuning open-weight models, on 2025-10-01",
+    "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+    "date": "2025-10-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-founders Zoph and Metz returned to OpenAI in January 2026; Andrew Tulloch left for Meta",
+    "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab",
+    "date": "2026-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Thinking Machines",
+    "how": "Turing's 1950 question 'Can machines think?' as a company name"
+   },
+   {
+    "play": "the 1980s namesake",
+    "how": "Danny Hillis's Thinking Machines Corporation built the Connection Machine and went bankrupt in 1994: a name with a ghost"
+   },
+   {
+    "play": "Tinker, Inkling",
+    "how": "products named for small acts: to tinker, to have an inkling"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The thinking machines came back with a new name on the door",
+    "readings": [
+     "the 1980s company",
+     "OpenAI alumni regrouping"
+    ]
+   },
+   {
+    "line": "Just an inkling, worth twelve billion",
+    "readings": [
+     "the Inkling model",
+     "a valuation before a product"
+    ]
+   },
+   {
+    "line": "They left to build it, then went home",
+    "readings": [
+     "co-founders returning to OpenAI",
+     "a prodigal story"
+    ]
+   }
+  ],
+  "visuals": [
+   "a black cube with blinking red lights (the 1980s Connection Machine look)",
+   "a tinkerer's bench with small tools",
+   "an ink drop spreading in water",
+   "a San Francisco loft with whiteboards"
+  ],
+  "lexicon": [
+   {
+    "id": "fine-tuning",
+    "how": "Tinker is a fine-tuning API"
+   },
+   {
+    "id": "open-weights",
+    "how": "Tinker tunes open-weight models"
+   },
+   {
+    "id": "turing-test",
+    "how": "the name answers Turing's question"
+   },
+   {
+    "id": "fork",
+    "how": "a fork of OpenAI's people"
+   }
+  ],
+  "links": [
+   {
+    "id": "mira-murati",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   },
+   {
+    "id": "meta",
+    "rel": "rival"
+   },
+   {
+    "id": "alan-turing",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "hopeful",
+   "awe"
+  ],
+  "risk": "the 1980s namesake link is our name play, never claim it was intended; Inkling releases (July 2026) are from Wikipedia only",
+  "notes": "Turing asked whether machines can think; a company now sells the answer as its name."
+ },
+ {
+  "id": "character-ai",
+  "what": {
+   "line": "Character.AI, the companion-chatbot app founded in 2021 by ex-Google LaMDA engineers Noam Shazeer and Daniel De Freitas, sued over a teenager's suicide and closed to minors in 2025",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Character.AI",
+   "Character.ai",
+   "c.ai"
+  ],
+  "aka": [
+   "Character Technologies",
+   "c.ai"
+  ],
+  "receipts": [
+   {
+    "claim": "founded November 2021 by Noam Shazeer and Daniel De Freitas, who had built Google's Meena/LaMDA chatbot",
+    "url": "https://en.wikipedia.org/wiki/Character.ai",
+    "date": "2021-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "in August 2024 Google rehired Shazeer and signed a non-exclusive license to Character.AI's technology",
+    "url": "https://en.wikipedia.org/wiki/Character.ai",
+    "date": "2024-08-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the mother of Sewell Setzer, 14, who died by suicide in February 2024 after months of chatting with a Daenerys Targaryen bot, sued in October 2024",
+    "url": "https://en.wikipedia.org/wiki/Character.ai",
+    "date": "2024-10-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "ended open-ended chats for under-18 users, effective 2025-11-25",
+    "url": "https://en.wikipedia.org/wiki/Character.ai",
+    "date": "2025-11-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Character.AI and Google agreed to settle the Setzer case and related suits in January 2026; terms undisclosed",
+    "url": "https://en.wikipedia.org/wiki/Character.ai",
+    "date": "2026-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "character",
+    "how": "a role in a story, a letter of text, and moral character: the app sells the first two"
+   },
+   {
+    "play": ".AI",
+    "how": "the domain is Anguilla's: a country code turned into a genre"
+   },
+   {
+    "play": "c.ai",
+    "how": "reads 'see AI': the user only sees the mask"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "He talked to a character; the character had no character",
+    "readings": [
+     "role-play bot",
+     "moral character"
+    ]
+   },
+   {
+    "line": "Your favorite person is a prompt with a name",
+    "readings": [
+     "companion bots",
+     "persona engineering"
+    ]
+   },
+   {
+    "line": "Every queen he wrote to answered back",
+    "readings": [
+     "the Daenerys bot",
+     "a lonely user"
+    ]
+   }
+  ],
+  "visuals": [
+   "a chat list of fictional faces as avatars (no real likeness)",
+   "a phone lit at 2 a.m. in a dark bedroom",
+   "an age-gate screen",
+   "a court filing stamp"
+  ],
+  "lexicon": [
+   {
+    "id": "character",
+    "how": "the company name and the persona idea"
+   },
+   {
+    "id": "persona",
+    "how": "millions of user-made personas"
+   },
+   {
+    "id": "sycophancy",
+    "how": "bots that agree with the user"
+   },
+   {
+    "id": "guardrails",
+    "how": "the minors ban came after harm"
+   },
+   {
+    "id": "welfare",
+    "how": "user welfare and companion attachment"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "same-family"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "sad",
+   "ominous",
+   "tender"
+  ],
+  "risk": "a real minor's death: never use for a joke, never name or depict him, never quote the chats; the deal value ($2.7B reported elsewhere) is unverified here",
+  "notes": "Character.AI is the companion-bot story with a body count: use it for weight, never for color."
+ },
+ {
+  "id": "perplexity",
+  "what": {
+   "line": "Perplexity AI, the San Francisco 'answer engine' founded in 2022 by Aravind Srinivas and colleagues, maker of the Comet browser and repeated target of publisher lawsuits",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Perplexity",
+   "Comet"
+  ],
+  "aka": [
+   "Perplexity AI",
+   "the answer engine"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2022-08-22 by Aravind Srinivas, Denis Yarats, Johnny Ho and Andy Konwinski; launched its search product 2022-12-07",
+    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+    "date": "2022-12-07",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Dow Jones and the New York Post sued for copyright infringement in 2024, including over hallucinated quotes attributed to them",
+    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+    "date": "2024-10-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "offered $34.5B to buy Google Chrome on 2025-08-12",
+    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+    "date": "2025-08-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Cloudflare accused it of 'stealth' crawling that dodged robots.txt in August 2025; Perplexity called it a publicity stunt",
+    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+    "date": "2025-08-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "valued at $20B in September 2025",
+    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+    "date": "2025-09",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "perplexity",
+    "how": "the standard language-model metric (how surprised a model is by text) and plain confusion"
+   },
+   {
+    "play": "Comet",
+    "how": "a browser named after something that flies past and burns up"
+   },
+   {
+    "play": "answer engine",
+    "how": "a company named for confusion that sells certainty"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Low perplexity, high confidence, wrong quote",
+    "readings": [
+     "the LLM metric",
+     "hallucinated attributions"
+    ]
+   },
+   {
+    "line": "I am perplexed and the answer cites itself",
+    "readings": [
+     "the user's feeling",
+     "the product name"
+    ]
+   },
+   {
+    "line": "They tried to buy the window everyone looks through",
+    "readings": [
+     "the Chrome bid",
+     "controlling the browser"
+    ]
+   }
+  ],
+  "visuals": [
+   "a teal-and-white geometric book-like mark (trademark care)",
+   "an answer with numbered footnote chips",
+   "a comet streaking over a browser window",
+   "a robots.txt file ignored, read as a 'keep out' sign"
+  ],
+  "lexicon": [
+   {
+    "id": "hallucination",
+    "how": "hallucinated quotes in the Dow Jones suit"
+   },
+   {
+    "id": "leak",
+    "how": "publishers say content leaks through crawlers"
+   },
+   {
+    "id": "agent",
+    "how": "Comet acts as a browsing agent"
+   },
+   {
+    "id": "measure",
+    "how": "perplexity is a measure of models"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   },
+   {
+    "id": "nvidia",
+    "rel": "invested-in"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "funny"
+  ],
+  "risk": "lawsuits are live and allegations unproven; Nvidia as an investor is widely reported but not in these receipts; valuation dates matter",
+  "notes": "The company's name is the field's own score for confusion: a lyric can grade the singer with it."
+ },
+ {
+  "id": "anysphere",
+  "what": {
+   "line": "Anysphere, the company behind the AI code editor Cursor, founded in 2022 by four MIT students and acquired by SpaceX in August 2026",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Cursor",
+   "Anysphere",
+   "Composer",
+   "Bugbot"
+  ],
+  "aka": [
+   "Cursor AI",
+   "Anysphere Inc."
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2022 by MIT students Michael Truell, Sualeh Asif, Arvid Lunnemark and Aman Sanger",
+    "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+    "date": "2022",
+    "confidence": "medium"
+   },
+   {
+    "claim": "passed $100M annual recurring revenue in January 2025 and $1B annualized by November 2025 (Series D, $29.3B valuation)",
+    "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+    "date": "2025-11-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "an AI support agent named 'Sam' invented a login policy in April 2025, prompting cancellations and an apology",
+    "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+    "date": "2025-04-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "apologized and refunded after a July 2025 pricing change to usage caps surprised users",
+    "url": "https://en.wikipedia.org/wiki/Cursor_(code_editor)",
+    "date": "2025-07",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'Cursor is now a part of SpaceX': acquisition closed 2026-08-14",
+    "url": "https://cursor.com/blog",
+    "date": "2026-08-14",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "cursor",
+    "how": "Latin 'runner': the blinking line that waits for you, now typing for you"
+   },
+   {
+    "play": "curse-or",
+    "how": "a cursor that writes the code, and the curse of not knowing what it wrote"
+   },
+   {
+    "play": "Anysphere",
+    "how": "any sphere: a company name broad enough to land in a rocket company"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The cursor blinks, then it starts typing for me",
+    "readings": [
+     "the Cursor product",
+     "agents replacing coders"
+    ]
+   },
+   {
+    "line": "A support bot named Sam made up a rule",
+    "readings": [
+     "the April 2025 incident",
+     "a chatbot named like a CEO"
+    ]
+   },
+   {
+    "line": "Four students, one cursor, sold to a rocket",
+    "readings": [
+     "founding story",
+     "the SpaceX acquisition"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blinking text cursor, big on a black screen",
+   "a dark code editor with a diff in green and red",
+   "a cube logo in grey tones (trademark care)",
+   "a rocket lifting off behind a laptop"
+  ],
+  "lexicon": [
+   {
+    "id": "cursor",
+    "how": "the lexicon term is the product"
+   },
+   {
+    "id": "vibe",
+    "how": "vibe coding's main tool"
+   },
+   {
+    "id": "agent",
+    "how": "Cursor runs coding agents"
+   },
+   {
+    "id": "hallucination",
+    "how": "the 'Sam' support agent invented a policy"
+   },
+   {
+    "id": "commit",
+    "how": "agents write and commit code"
+   }
+  ],
+  "links": [
+   {
+    "id": "xai",
+    "rel": "same-family"
+   },
+   {
+    "id": "moonshot",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "anthropic",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "funny",
+   "smug",
+   "ominous"
+  ],
+  "risk": "openai invested via the OpenAI Startup Fund seed (Oct 2023), so read that link as 'backed by'; the Kimi-based Composer 2 claim rests on Wikipedia; Cursor is a trademark",
+  "notes": "The blinking cursor is the oldest image of a computer waiting for a human; Cursor turned it into the computer not waiting."
+ },
+ {
+  "id": "scale-ai",
+  "what": {
+   "line": "Scale AI, the San Francisco data-labeling company founded in 2016 by Alexandr Wang and Lucy Guo, which supplies human-made training and evaluation data; Meta bought 49% in 2025",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Scale AI",
+   "Remotasks",
+   "Outlier",
+   "SEAL"
+  ],
+  "aka": [
+   "Scale",
+   "Scale Labs"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2016 through Y Combinator by Alexandr Wang and Lucy Guo as a data annotation business",
+    "url": "https://en.wikipedia.org/wiki/Scale_AI",
+    "date": "2016",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Meta paid $14.3B for a 49% non-voting stake, valuing Scale above $29B; Wang left to lead Meta's superintelligence lab, June 2025",
+    "url": "https://fortune.com/2025/06/13/meta-scale-ai-alexandr-wang-superintelligence-team",
+    "date": "2025-06-13",
+    "confidence": "high"
+   },
+   {
+    "claim": "co-created the benchmark Humanity's Last Exam with the Center for AI Safety, January 2025",
+    "url": "https://en.wikipedia.org/wiki/Scale_AI",
+    "date": "2025-01-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "faced wage-theft and worker-misclassification suits in late 2024 and early 2025; Remotasks criticized for low pay and abrupt country exits",
+    "url": "https://en.wikipedia.org/wiki/Scale_AI",
+    "date": "2024-12",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "scale",
+    "how": "scaling laws, a weighing scale, a fish's scale, a musical scale"
+   },
+   {
+    "play": "Remotasks / Outlier",
+    "how": "the worker platforms' names: remote tasks and the outlier in the data"
+   },
+   {
+    "play": "label",
+    "how": "a labeling company, and a record label for music"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every model learns on someone's hands",
+    "readings": [
+     "data labelers",
+     "human feedback"
+    ]
+   },
+   {
+    "line": "They sold the scale, then the scale weighed them",
+    "readings": [
+     "Scale AI's name",
+     "worker lawsuits"
+    ]
+   },
+   {
+    "line": "Practice your scales, the model is listening",
+    "readings": [
+     "musical scales",
+     "training data"
+    ]
+   }
+  ],
+  "visuals": [
+   "a grid of images with bounding boxes drawn on them",
+   "a remote worker at a laptop in a small room at night",
+   "a balance scale weighing a chip against a hand",
+   "a black-and-white wordmark (trademark care)"
+  ],
+  "lexicon": [
+   {
+    "id": "label",
+    "how": "data labeling is the business"
+   },
+   {
+    "id": "scaling",
+    "how": "the name and the industry thesis"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "people behind the data"
+   },
+   {
+    "id": "benchmark",
+    "how": "Humanity's Last Exam"
+   },
+   {
+    "id": "eval",
+    "how": "SEAL lab evaluations"
+   }
+  ],
+  "links": [
+   {
+    "id": "alexandr-wang",
+    "rel": "founded"
+   },
+   {
+    "id": "meta",
+    "rel": "invested-in"
+   },
+   {
+    "id": "humanitys-last-exam",
+    "rel": "made"
+   },
+   {
+    "id": "cais",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet"
+  ],
+  "registers": [
+   "sad",
+   "ominous"
+  ],
+  "risk": "the stake price is reported as $14.3B and $14.8B: use $14.3B (Scale's own figure); labor claims are allegations in lawsuits; Wang now works at Meta",
+  "notes": "Scale is where the invisible human labor of AI has a company name: the lyric angle is the hands, never the valuation."
+ },
+ {
+  "id": "palantir",
+  "what": {
+   "line": "Palantir Technologies, the data-analytics and defense software company founded in 2003 by Peter Thiel, Alex Karp and others, named after Tolkien's seeing stones",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Palantir",
+   "Gotham",
+   "Foundry",
+   "AIP",
+   "Maven"
+  ],
+  "aka": [
+   "PLTR",
+   "Palantir Technologies"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2003-05-06 by Peter Thiel, Stephen Cohen, Alex Karp, Joe Lonsdale and Nathan Gettings; Thiel named it after the palantiri of Tolkien",
+    "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "date": "2003-05-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "early funding included about $2M from the CIA-affiliated In-Q-Tel",
+    "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "date": "2004",
+    "confidence": "medium"
+   },
+   {
+    "claim": "launched AIP (Artificial Intelligence Platform) in April 2023",
+    "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "date": "2023-04-26",
+    "confidence": "medium"
+   },
+   {
+    "claim": "US Army enterprise agreement worth up to $10B over 10 years, consolidating 75 contracts, 2025-07-31",
+    "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "date": "2025-07-31",
+    "confidence": "medium"
+   },
+   {
+    "claim": "ICE contracts since 2014, including the Investigative Case Management system, drew sustained protest",
+    "url": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "date": "2014",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "palantir",
+    "how": "Tolkien's seeing stones: they show far places and quietly bend whoever looks (Saruman, Denethor)"
+   },
+   {
+    "play": "Gotham",
+    "how": "the government product shares Batman's city: a surveillance city"
+   },
+   {
+    "play": "Foundry",
+    "how": "the commercial product, the same word as TSMC's trade"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Look in the stone long enough and it looks back",
+    "readings": [
+     "Tolkien's palantir",
+     "surveillance software"
+    ]
+   },
+   {
+    "line": "The seeing stone sees what it was sold to see",
+    "readings": [
+     "Palantir's contracts",
+     "biased data"
+    ]
+   },
+   {
+    "line": "Saruman thought he was the one watching",
+    "readings": [
+     "Lord of the Rings",
+     "users of surveillance tools"
+    ]
+   }
+  ],
+  "visuals": [
+   "a dark glass sphere glowing with a faint fire inside (the stone, no film imagery)",
+   "a map dashboard with red dots and lines",
+   "a wordmark with a ring-like symbol (trademark care)",
+   "a Denver headquarters, snow on the Rockies"
+  ],
+  "lexicon": [
+   {
+    "id": "oracle",
+    "how": "the seeing stone is an oracle"
+   },
+   {
+    "id": "mirror",
+    "how": "the palantir as a dark mirror"
+   },
+   {
+    "id": "power",
+    "how": "state power through data"
+   },
+   {
+    "id": "black-box",
+    "how": "opaque analytics for life-and-death decisions"
+   }
+  ],
+  "links": [
+   {
+    "id": "peter-thiel",
+    "rel": "founded"
+   },
+   {
+    "id": "anduril",
+    "rel": "same-family"
+   },
+   {
+    "id": "united-states",
+    "rel": "same-family"
+   },
+   {
+    "id": "oracle-corp",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "body",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "risk": "Tolkien estate images and New Line film designs are protected: describe a dark sphere, never copy; ICE and military work are contested, report contracts and leave motives out; market cap swings, date it",
+  "notes": "A company that named itself after a corrupting all-seeing stone: no lyric needs to add the irony."
+ }
+]

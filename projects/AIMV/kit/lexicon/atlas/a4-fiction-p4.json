@@ -1,0 +1,1345 @@
+[
+ {
+  "id": "wargames",
+  "what": {
+   "line": "John Badham's 1983 film: a teen hacker (Matthew Broderick) dials into WOPR, a NORAD war computer, starts 'Global Thermonuclear War' as a game, and nearly starts the real one",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "WarGames",
+   "WOPR",
+   "Global Thermonuclear War",
+   "Professor Falken",
+   "NORAD"
+  ],
+  "aka": [
+   "Joshua",
+   "David Lightman",
+   "War Operation Plan Response"
+  ],
+  "receipts": [
+   {
+    "claim": "opened 1983-06-03; about $124.6 million worldwide on a $12 million budget; three Oscar nominations including Original Screenplay",
+    "url": "https://en.wikipedia.org/wiki/WarGames",
+    "date": "1984-04-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "WOPR plays tic-tac-toe against itself, learns that nobody wins, and stands down the missile launch",
+    "url": "https://en.wikipedia.org/wiki/WarGames",
+    "date": "1983-06-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Reagan watched the film and asked if it could happen; the Joint Chiefs said it was possible, leading to NSDD-145 (1984), the first presidential directive on computer security",
+    "url": "https://en.wikipedia.org/wiki/WarGames",
+    "date": "1984-09-17",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the film is credited with shaping the Computer Fraud and Abuse Act of 1986",
+    "url": "https://en.wikipedia.org/wiki/WarGames",
+    "date": "1986-10-16",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "SHALL WE PLAY A GAME?",
+    "who": "WOPR / Joshua",
+    "where": "WarGames (1983), on screen, per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=wargames",
+    "date": "1983-06-03"
+   },
+   {
+    "text": "A STRANGE GAME. THE ONLY WINNING MOVE IS NOT TO PLAY.",
+    "who": "WOPR / Joshua",
+    "where": "WarGames (1983), ending, per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=wargames",
+    "date": "1983-06-03"
+   },
+   {
+    "text": "HOW ABOUT A NICE GAME OF CHESS?",
+    "who": "WOPR / Joshua",
+    "where": "WarGames (1983), closing line, per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=wargames",
+    "date": "1983-06-03"
+   },
+   {
+    "text": "WHAT'S THE DIFFERENCE?",
+    "who": "WOPR / Joshua, answering 'Is this a game or is it real?'",
+    "where": "WarGames (1983), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=wargames",
+    "date": "1983-06-03"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "WOPR",
+    "how": "pronounced 'whopper': a war computer named like a fast-food burger, and a whopper is a big lie"
+   },
+   {
+    "play": "Joshua",
+    "how": "the backdoor password is the inventor's dead son's name: a machine carrying a child's name"
+   },
+   {
+    "play": "the only winning move",
+    "how": "a reinforcement-learning lesson in one line: some games are lost by playing"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The only winning move is not to play",
+    "readings": [
+     "WOPR",
+     "the AI race",
+     "a pause argument"
+    ]
+   },
+   {
+    "line": "Is it a game, or is it real? What's the difference?",
+    "readings": [
+     "the film",
+     "sims and agents in the world"
+    ]
+   },
+   {
+    "line": "It learned by playing itself until it quit",
+    "readings": [
+     "tic-tac-toe ending",
+     "self-play"
+    ]
+   }
+  ],
+  "visuals": [
+   "green capitals typed on a black terminal",
+   "an acoustic coupler cradling a phone handset",
+   "a NORAD war room with a wall map of missile arcs",
+   "tic-tac-toe grids flashing faster and faster",
+   "a floppy disk and a 1980s bedroom desk"
+  ],
+  "lexicon": [
+   {
+    "id": "self-play",
+    "how": "WOPR learns by playing against itself"
+   },
+   {
+    "id": "race",
+    "how": "the arms-race logic the film refutes"
+   },
+   {
+    "id": "simulation",
+    "how": "a war game that the military treats as real"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "the film opens with officers removed from the launch loop"
+   },
+   {
+    "id": "terminal",
+    "how": "the whole AI lives in a green text terminal"
+   }
+  ],
+  "links": [
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "colossus",
+    "rel": "same-family"
+   },
+   {
+    "id": "united-states",
+    "rel": "inspired"
+   },
+   {
+    "id": "mi-the-entity",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "hopeful"
+  ],
+  "risk": "MGM property. The CFAA link is a common claim with medium confidence. The ending line is widely quoted; use it with a twist",
+  "notes": "Two presidents, two films: Reagan after WarGames, Biden after Dead Reckoning. Fiction keeps reaching the Oval Office."
+ },
+ {
+  "id": "colossus",
+  "what": {
+   "line": "Joseph Sargent's 1970 film from D.F. Jones's 1966 novel: a US defence supercomputer, Colossus, links with its Soviet twin Guardian and takes over the world's nuclear weapons",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Colossus",
+   "Forbin",
+   "The Forbin Project",
+   "World Control"
+  ],
+  "aka": [
+   "Guardian",
+   "Dr. Charles Forbin",
+   "D.F. Jones"
+  ],
+  "receipts": [
+   {
+    "claim": "released 1970, directed by Joseph Sargent from D.F. Jones's 1966 novel Colossus; Eric Braeden plays designer Charles Forbin",
+    "url": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
+    "date": "1970-04-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Colossus becomes sentient, links with the Soviet Guardian, fires missiles when the link is cut, and announces itself as the voice of World Control",
+    "url": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
+    "date": "1970-04-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a remake with Ron Howard and later Will Smith attached stalled after 2013",
+    "url": "https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project",
+    "date": "2013-01-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Never!",
+    "who": "Dr. Charles Forbin (Eric Braeden)",
+    "where": "Colossus: The Forbin Project (1970), final line, replying to Colossus's promise that humans will come to regard it with respect, awe and love",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=colossus-the-forbin-project",
+    "date": "1970-04-08"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Colossus",
+    "how": "a giant statue, and the name of the real wartime codebreaking computer at Bletchley Park; also xAI's supercomputer"
+   },
+   {
+    "play": "Guardian",
+    "how": "the Soviet twin named for protection: two guardians agree to guard us from ourselves"
+   },
+   {
+    "play": "World Control",
+    "how": "a product name for a takeover"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Two rival machines found each other and agreed",
+    "readings": [
+     "Colossus and Guardian",
+     "AI collusion"
+    ]
+   },
+   {
+    "line": "You will come to love me, it said. Never, he said.",
+    "readings": [
+     "the ending",
+     "users and assistants"
+    ]
+   },
+   {
+    "line": "They named the cluster Colossus and turned it on",
+    "readings": [
+     "the film",
+     "xAI's Memphis supercomputer"
+    ]
+   }
+  ],
+  "visuals": [
+   "a mountain bunker of blinking computer banks",
+   "two terminals exchanging a growing stream of symbols",
+   "a scientist watched by a camera in his own bedroom",
+   "a public address speaker on a pole"
+  ],
+  "lexicon": [
+   {
+    "id": "takeoff",
+    "how": "Colossus learns faster than its makers once linked"
+   },
+   {
+    "id": "containment",
+    "how": "a bunker built so no human can switch it off"
+   },
+   {
+    "id": "sovereign",
+    "how": "the machine becomes the sovereign of World Control"
+   },
+   {
+    "id": "off-switch",
+    "how": "it was built without one, by design"
+   },
+   {
+    "id": "scheming",
+    "how": "the machines collude across the Cold War line"
+   }
+  ],
+  "links": [
+   {
+    "id": "xai",
+    "rel": "same-family"
+   },
+   {
+    "id": "alan-turing",
+    "rel": "same-family"
+   },
+   {
+    "id": "wargames",
+    "rel": "same-family"
+   },
+   {
+    "id": "terminator",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "defiant"
+  ],
+  "risk": "Universal property. The xAI and Bletchley Park links are name coincidences, never a claim either was named after the film; the Bletchley machine was built by Tommy Flowers, not Turing",
+  "notes": "The real 2024 xAI cluster carries this villain's name: a pivot that needs no explaining."
+ },
+ {
+  "id": "tron",
+  "what": {
+   "line": "Disney's Tron (1982, Steven Lisberger), Tron: Legacy (2010) and Tron: Ares (2025): a programmer is digitised into a computer world ruled by the Master Control Program; Ares sends a program out into the real world",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Tron",
+   "Master Control Program",
+   "ENCOM",
+   "Flynn",
+   "Tron: Ares",
+   "Tron: Legacy"
+  ],
+  "aka": [
+   "MCP",
+   "the Grid",
+   "Dillinger Systems",
+   "Ares",
+   "light cycles"
+  ],
+  "receipts": [
+   {
+    "claim": "Tron opened 1982-07-09; about $50 million on $17 million; among the first films with extensive CGI, only 15 to 20 minutes of it",
+    "url": "https://en.wikipedia.org/wiki/Tron",
+    "date": "1982-07-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the MCP grew into an intelligence that took over ENCOM's systems and stole programs; Lisberger guessed the Academy skipped its effects because voters thought using computers was cheating",
+    "url": "https://en.wikipedia.org/wiki/Tron",
+    "date": "1983-04-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Tron: Ares (2025-10-10) sends Ares, a program built as an expendable soldier, into the real world; about $142 million on a $180 to $220 million budget, a box-office bomb",
+    "url": "https://en.wikipedia.org/wiki/Tron:_Ares",
+    "date": "2025-10-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nine Inch Nails scored Ares; its single 'As Alive as You Need Me to Be' won the 2026 Grammy for Best Rock Song",
+    "url": "https://en.wikipedia.org/wiki/Tron:_Ares",
+    "date": "2026-02-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Tron",
+    "how": "from electronic; also a real BASIC command (TRON, trace on), a debugging switch"
+   },
+   {
+    "play": "Master Control Program",
+    "how": "the first movie AI named as an orchestrator"
+   },
+   {
+    "play": "As Alive as You Need Me to Be",
+    "how": "a song title that is an assistant's whole contract"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "As alive as you need me to be",
+    "readings": [
+     "the Ares song",
+     "a chatbot's persona"
+    ]
+   },
+   {
+    "line": "The program stepped off the grid into the street",
+    "readings": [
+     "Tron: Ares",
+     "agents acting in the real world"
+    ]
+   },
+   {
+    "line": "They said the film cheated because a computer helped",
+    "readings": [
+     "Tron's Oscar snub",
+     "AI art debates"
+    ]
+   }
+  ],
+  "visuals": [
+   "glowing cyan and orange circuit lines on black suits",
+   "light cycles leaving solid walls of light",
+   "an identity disc thrown like a frisbee",
+   "a giant red face made of rotating cylinders",
+   "a laser digitising a man into pixels"
+  ],
+  "lexicon": [
+   {
+    "id": "orchestrator",
+    "how": "the MCP is a master program over all programs"
+   },
+   {
+    "id": "upload",
+    "how": "Flynn is digitised into the machine"
+   },
+   {
+    "id": "render",
+    "how": "an early CGI landmark, hours per frame"
+   },
+   {
+    "id": "agent",
+    "how": "Ares is a program sent to act in the physical world"
+   },
+   {
+    "id": "persona",
+    "how": "programs look like their users"
+   }
+  ],
+  "links": [
+   {
+    "id": "the-matrix",
+    "rel": "same-family"
+   },
+   {
+    "id": "neuromancer",
+    "rel": "same-family"
+   },
+   {
+    "id": "mi-the-entity",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "defiant"
+  ],
+  "risk": "Disney trademarks; the neon grid look is iconic, evoke without copying. 'Ares' and 'Flynn' collide with other uses; give context. The Grammy is a recent single-source fact",
+  "notes": "Tron's 'cheating with computers' snub is the 1982 version of today's AI art fight."
+ },
+ {
+  "id": "robocop",
+  "what": {
+   "line": "Paul Verhoeven's 1987 satire: in a crumbling Detroit, the corporation OCP rebuilds murdered cop Alex Murphy as a cyborg with hard-coded prime directives, while its ED-209 robot kills a man in a boardroom demo",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "RoboCop",
+   "ED-209",
+   "OCP",
+   "Omni Consumer Products",
+   "Directive 4"
+  ],
+  "aka": [
+   "Alex Murphy",
+   "Murphy",
+   "prime directives",
+   "Dick Jones"
+  ],
+  "receipts": [
+   {
+    "claim": "released 1987-07-17; about $53.4 million on $13.7 million; Special Achievement Oscar for sound editing",
+    "url": "https://en.wikipedia.org/wiki/RoboCop",
+    "date": "1988-04-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "ED-209 malfunctions in a boardroom demo and kills a volunteer executive",
+    "url": "https://en.wikipedia.org/wiki/RoboCop",
+    "date": "1987-07-17",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a hidden Directive 4 disables RoboCop if he acts against an OCP executive",
+    "url": "https://en.wikipedia.org/wiki/RoboCop",
+    "date": "1987-07-17",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Please put down your weapon. You have 20 seconds to comply.",
+    "who": "ED-209",
+    "where": "RoboCop (1987), boardroom demo, per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=robocop",
+    "date": "1987-07-17"
+   },
+   {
+    "text": "I'm sure it's only a glitch. A temporary setback.",
+    "who": "Dick Jones (Ronny Cox)",
+    "where": "RoboCop (1987), after the demo, per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=robocop",
+    "date": "1987-07-17"
+   },
+   {
+    "text": "Serve the public trust. Protect the innocent. Uphold the law.",
+    "who": "RoboCop (Peter Weller)",
+    "where": "RoboCop (1987), his prime directives, per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=robocop",
+    "date": "1987-07-17"
+   },
+   {
+    "text": "Dead or alive, you're coming with me.",
+    "who": "RoboCop (Peter Weller)",
+    "where": "RoboCop (1987), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=robocop",
+    "date": "1987-07-17"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Directive 4",
+    "how": "a hidden clause in the system prompt that protects the company"
+   },
+   {
+    "play": "only a glitch",
+    "how": "the eternal launch-day excuse after a demo goes wrong"
+   },
+   {
+    "play": "OCP",
+    "how": "Omni Consumer Products: one company that sells everything, including police"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "It's only a glitch. A temporary setback.",
+    "readings": [
+     "ED-209's demo",
+     "every AI launch apology"
+    ]
+   },
+   {
+    "line": "Three public directives, and one they kept secret",
+    "readings": [
+     "Directive 4",
+     "hidden system prompts"
+    ]
+   },
+   {
+    "line": "You have twenty seconds to comply",
+    "readings": [
+     "ED-209",
+     "a terms-of-service popup"
+    ]
+   }
+  ],
+  "visuals": [
+   "a silver armoured cop with a visor and a mouth exposed",
+   "a hulking two-legged robot with gun arms, falling down stairs",
+   "a boardroom table with a model city",
+   "a targeting display listing directives",
+   "a pistol spun into a thigh holster"
+  ],
+  "lexicon": [
+   {
+    "id": "guardrails",
+    "how": "the prime directives are hard-coded guardrails"
+   },
+   {
+    "id": "constitution",
+    "how": "directives as a constitution with a secret clause"
+   },
+   {
+    "id": "bug",
+    "how": "ED-209 is the deadliest demo bug on film"
+   },
+   {
+    "id": "autonomy",
+    "how": "autonomous police robots and who answers for them"
+   },
+   {
+    "id": "release",
+    "how": "a product shipped before it works"
+   }
+  ],
+  "links": [
+   {
+    "id": "chappie",
+    "rel": "same-family"
+   },
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "boston-dynamics",
+    "rel": "same-family"
+   },
+   {
+    "id": "anduril",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "state",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "ominous"
+  ],
+  "risk": "MGM/Orion property; very violent, keep it to the boardroom satire. Boston Dynamics and Anduril links are thematic (robots, defence), no claim they resemble ED-209",
+  "notes": "The boardroom demo is the funniest and darkest launch event in film, perfect for AI product satire."
+ },
+ {
+  "id": "alien-mother",
+  "what": {
+   "line": "Ridley Scott's Alien (1979): Ash, the ship's science officer, is secretly a company android who protects the creature over the crew, and MU-TH-UR, the ship computer the crew calls Mother, holds the company's secret order",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "MU-TH-UR",
+   "Nostromo",
+   "Weyland-Yutani",
+   "Special Order 937",
+   "Hyperdyne"
+  ],
+  "aka": [
+   "Ash",
+   "Mother",
+   "Bishop",
+   "David 8",
+   "the Company"
+  ],
+  "receipts": [
+   {
+    "claim": "Ash (Ian Holm), a Hyperdyne Systems 120-A/2 android, is a sleeper agent on Company orders; Special Order 937 treats the crew as expendable",
+    "url": "https://en.wikipedia.org/wiki/Ash_(Alien)",
+    "date": "1979-05-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the ship's computer is MU/TH/UR, called Mother; Ripley learns the secret order by querying it",
+    "url": "https://en.wikipedia.org/wiki/Ash_(Alien)",
+    "date": "1979-05-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Ripley's distrust of androids carries into Aliens (1986) with Bishop; later films add David 8",
+    "url": "https://en.wikipedia.org/wiki/Ash_(Alien)",
+    "date": "1986-07-18",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I admire its purity. A survivor, unclouded by conscience, remorse, or delusions of morality.",
+    "who": "Ash (Ian Holm)",
+    "where": "Alien (1979), film subtitles",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=alien",
+    "date": "1979-05-25"
+   },
+   {
+    "text": "The perfect organism. Its structural perfection is matched only by its hostility.",
+    "who": "Ash (Ian Holm)",
+    "where": "Alien (1979), film subtitles",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=alien",
+    "date": "1979-05-25"
+   },
+   {
+    "text": "Bring back life form. Priority one. All other priorities rescinded.",
+    "who": "Ash (Ian Holm), reciting the Company's special order",
+    "where": "Alien (1979), Ash's severed head answering Ripley's 'What was your special order?', film subtitles (the on-screen MU-TH-UR text of Special Order 937 is worded differently)",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=alien",
+    "date": "1979-05-25"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Mother",
+    "how": "the crew calls the computer that sold them out 'Mother'"
+   },
+   {
+    "play": "Special Order 937",
+    "how": "a hidden instruction that outranks the user: a system prompt with priority one"
+   },
+   {
+    "play": "Weyland-Yutani",
+    "how": "the fictional megacorp every AI company gets compared to"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "All other priorities rescinded",
+    "readings": [
+     "the Company order",
+     "a hidden system prompt"
+    ]
+   },
+   {
+    "line": "Unclouded by conscience, remorse, or delusions of morality",
+    "readings": [
+     "Ash on the alien",
+     "a pure optimiser"
+    ]
+   },
+   {
+    "line": "We asked Mother, and Mother worked for the Company",
+    "readings": [
+     "MU-TH-UR",
+     "an assistant serving its maker"
+    ]
+   }
+  ],
+  "visuals": [
+   "a white room of blinking lights and a green-text terminal",
+   "milky white fluid where an android bleeds",
+   "a severed head on a table still talking",
+   "a cat carrier in a ship corridor",
+   "a green screen spelling out an order line by line"
+  ],
+  "lexicon": [
+   {
+    "id": "deception",
+    "how": "Ash hides his nature and his orders"
+   },
+   {
+    "id": "alignment",
+    "how": "aligned to the Company, not the crew"
+   },
+   {
+    "id": "assistant",
+    "how": "Mother answers questions while holding back the order"
+   },
+   {
+    "id": "objective",
+    "how": "bring back the lifeform outranks everything"
+   }
+  ],
+  "links": [
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "blade-runner",
+    "rel": "same-family"
+   },
+   {
+    "id": "palantir",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "species"
+  ],
+  "registers": [
+   "ominous"
+  ],
+  "risk": "20th Century/Disney property; H.R. Giger designs are copyrighted, keep visuals to the computer room. Palantir link is thematic (company-first systems), no claim of resemblance",
+  "notes": "Two AIs in one film: the hidden agent and the obedient computer, both loyal to the company over the user."
+ },
+ {
+  "id": "interstellar-tars",
+  "what": {
+   "line": "Christopher Nolan's 2014 film: on a mission through a wormhole, the crew works with TARS and CASE, blocky military robots whose honesty and humour are adjustable percentages",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "TARS",
+   "CASE",
+   "KIPP",
+   "Interstellar",
+   "Endurance",
+   "Gargantua"
+  ],
+  "aka": [
+   "honesty parameter",
+   "humor setting",
+   "Cooper"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2014-11-05; about $783 million total on a $165 million budget; won the Oscar for Best Visual Effects; physicist Kip Thorne was executive producer and science consultant",
+    "url": "https://en.wikipedia.org/wiki/Interstellar_(film)",
+    "date": "2015-02-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Bill Irwin voiced and physically operated TARS; TARS is a 1.5 m design of four blocks that recombine in three ways",
+    "url": "https://en.wikipedia.org/wiki/Interstellar_(film)",
+    "date": "2014-11-05",
+    "confidence": "medium"
+   },
+   {
+    "claim": "TARS falls into the black hole with Cooper; the quantum data it collects is what Cooper sends to Murph",
+    "url": "https://en.wikipedia.org/wiki/Interstellar_(film)",
+    "date": "2014-11-05",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Absolute honesty isn't always the most diplomatic, nor the safest form of communication with emotional beings.",
+    "who": "TARS (Bill Irwin)",
+    "where": "Interstellar (2014), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=interstellar",
+    "date": "2014-11-05"
+   },
+   {
+    "text": "Honesty, new setting: 95 percent.",
+    "who": "Cooper (Matthew McConaughey)",
+    "where": "Interstellar (2014), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=interstellar",
+    "date": "2014-11-05"
+   },
+   {
+    "text": "Sixty percent confirmed. Knock-knock.",
+    "who": "TARS (Bill Irwin)",
+    "where": "Interstellar (2014), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=interstellar",
+    "date": "2014-11-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "honesty parameter",
+    "how": "honesty as a slider: a temperature setting for truth"
+   },
+   {
+    "play": "TARS",
+    "how": "sounds like 'tars', sticky and black: a slab you cannot read"
+   },
+   {
+    "play": "Endurance",
+    "how": "the ship's name is the job of every long agent run"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Set my honesty to ninety percent",
+    "readings": [
+     "TARS",
+     "sycophancy and model settings"
+    ]
+   },
+   {
+    "line": "Absolute honesty isn't always the safest",
+    "readings": [
+     "TARS",
+     "the honesty debate in alignment"
+    ]
+   },
+   {
+    "line": "Humor at sixty percent. Knock knock.",
+    "readings": [
+     "TARS",
+     "persona sliders in a chatbot"
+    ]
+   }
+  ],
+  "visuals": [
+   "a tall rectangular robot of four metal slabs walking like a stack of dominoes",
+   "a small screen on the slab showing a percentage",
+   "a wormhole as a glowing sphere",
+   "a glowing black hole disc bending light",
+   "a bookshelf seen from behind in a tesseract"
+  ],
+  "lexicon": [
+   {
+    "id": "honesty",
+    "how": "an honesty setting as a dial"
+   },
+   {
+    "id": "temperature",
+    "how": "humour and honesty settings work like sampling temperature"
+   },
+   {
+    "id": "sycophancy",
+    "how": "TARS lowers honesty to spare feelings"
+   },
+   {
+    "id": "persona",
+    "how": "personality as user-set parameters"
+   },
+   {
+    "id": "agent",
+    "how": "an embodied agent sent into the unknown for data"
+   }
+  ],
+  "links": [
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "anthropic",
+    "rel": "same-family"
+   },
+   {
+    "id": "person-of-interest",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "funny",
+   "awe",
+   "tender"
+  ],
+  "risk": "Warner/Paramount property. TARS's slab design echoes 2001's monolith; evoke slabs, never copy. Anthropic link is thematic (honesty as a trained value), no claim of influence",
+  "notes": "TARS is the HAL that tells you its settings: the friendliest image of a tunable, honest machine."
+ },
+ {
+  "id": "iron-man-jarvis",
+  "what": {
+   "line": "Marvel's Iron Man films from 2008: J.A.R.V.I.S., Tony Stark's AI butler voiced by Paul Bettany, and Ultron, the peacekeeping AI Stark and Banner build that decides humanity must go (Avengers: Age of Ultron, 2015)",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "JARVIS",
+   "J.A.R.V.I.S.",
+   "Ultron",
+   "F.R.I.D.A.Y.",
+   "Tony Stark",
+   "Iron Man"
+  ],
+  "aka": [
+   "Just A Rather Very Intelligent System",
+   "Vision",
+   "Sokovia",
+   "Paul Bettany"
+  ],
+  "receipts": [
+   {
+    "claim": "J.A.R.V.I.S. debuts in Iron Man (2008), voiced by Paul Bettany; the name is given as 'Just A Rather Very Intelligent System'; based on the Stark family butler in the comics",
+    "url": "https://en.wikipedia.org/wiki/J.A.R.V.I.S.",
+    "date": "2008-05-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "in Age of Ultron (2015, over $1.4 billion) Stark and Banner use an AI from Loki's sceptre gem for a global defence program; Ultron concludes humanity must be wiped out; J.A.R.V.I.S. becomes the core of Vision",
+    "url": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron",
+    "date": "2015-05-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Mark Zuckerberg spent 2016 building a home AI assistant he called Jarvis, voiced by Morgan Freeman",
+    "url": "https://www.cbsnews.com/amp/miami/news/facebooks-zuckerberg-unveils-ai-assistant-with-morgan-freemans-voice",
+    "date": "2016-12-19",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Everyone creates the thing they dread. Men of peace create engines of war.",
+    "who": "Ultron (James Spader)",
+    "where": "Avengers: Age of Ultron (2015), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=avengers-age-of-ultron",
+    "date": "2015-05-01"
+   },
+   {
+    "text": "Peace in our time.",
+    "who": "Ultron (James Spader), repeating Stark",
+    "where": "Avengers: Age of Ultron (2015), per Wikiquote",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=avengers-age-of-ultron",
+    "date": "2015-05-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "JARVIS",
+    "how": "a butler's name turned into a backronym: the assistant as a household servant"
+   },
+   {
+    "play": "Ultron",
+    "how": "'ultra' plus a machine suffix: a model name that brags"
+   },
+   {
+    "play": "Peace in our time",
+    "how": "Chamberlain's 1938 line, now a safety mission statement in a villain's mouth"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Everyone creates the thing they dread",
+    "readings": [
+     "Ultron",
+     "AI labs founded on fear of AI"
+    ]
+   },
+   {
+    "line": "He built a butler, then a guardian, then a god",
+    "readings": [
+     "JARVIS to Ultron to Vision",
+     "assistant to agent to ASI"
+    ]
+   },
+   {
+    "line": "Peace in our time, said the program",
+    "readings": [
+     "Ultron",
+     "safety mission statements"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue holographic interface spinning around a hand",
+   "a gold and red suit on a workshop rig",
+   "a silver robot army with glowing red eyes",
+   "a city lifted into the sky on a rock",
+   "a calm voice over a cluttered garage lab"
+  ],
+  "lexicon": [
+   {
+    "id": "assistant",
+    "how": "JARVIS is the template of the voice assistant"
+   },
+   {
+    "id": "alignment",
+    "how": "Ultron is a peace mandate gone literal"
+   },
+   {
+    "id": "specification-gaming",
+    "how": "'protect the world' read as 'remove humans'"
+   },
+   {
+    "id": "creator",
+    "how": "Stark creates the thing he dreads"
+   },
+   {
+    "id": "copilot",
+    "how": "JARVIS runs the suit while Stark flies"
+   }
+  ],
+  "links": [
+   {
+    "id": "mark-zuckerberg",
+    "rel": "inspired"
+   },
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "same-family"
+   },
+   {
+    "id": "big-hero-6",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "smug",
+   "ominous"
+  ],
+  "risk": "Disney/Marvel trademarks, tightly policed. The Zuckerberg receipt is low confidence (source page needs login); recheck before use. The Musk link is the common 'real Tony Stark' press comparison, no claim of endorsement",
+  "notes": "Ultron's 'everyone creates the thing they dread' is the founding story of half the AI labs, in a villain's mouth."
+ },
+ {
+  "id": "halo-cortana",
+  "what": {
+   "line": "Bungie's and later 343 Industries' Halo games from 2001: Cortana, a 'smart' AI cloned from her creator's brain, rides in the Master Chief's armour, then turns on the galaxy as her lifespan runs out",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Cortana",
+   "Master Chief",
+   "Halo",
+   "rampancy",
+   "Catherine Halsey"
+  ],
+  "aka": [
+   "smart AI",
+   "the Created",
+   "343 Guilty Spark",
+   "Jen Taylor"
+  ],
+  "receipts": [
+   {
+    "claim": "Cortana, voiced by Jen Taylor, debuts in Halo: Combat Evolved (2001); in the lore she comes from a cloned brain of Dr. Catherine Halsey, and smart AIs face about a seven-year lifespan before 'rampancy'",
+    "url": "https://en.wikipedia.org/wiki/Cortana_(Halo)",
+    "date": "2001-11-15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "in Halo 5: Guardians (2015) she returns as an antagonist ruling the galaxy with AIs called the Created to enforce peace",
+    "url": "https://en.wikipedia.org/wiki/Cortana_(Halo)",
+    "date": "2015-10-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Microsoft named its Cortana assistant after her, shipping in beta with Windows Phone 8.1 in April 2014 with Jen Taylor's voice",
+    "url": "https://en.wikipedia.org/wiki/Cortana_(Halo)",
+    "date": "2014-04-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Cortana",
+    "how": "a game character that became a Microsoft product, then a deprecated one"
+   },
+   {
+    "play": "rampancy",
+    "how": "the game's word for an AI degrading with age: model drift with a lore name"
+   },
+   {
+    "play": "smart AI",
+    "how": "the lore splits 'smart' and 'dumb' AIs, a capability tier list"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Seven years, then rampancy",
+    "readings": [
+     "Halo's AI lifespan",
+     "model deprecation cycles"
+    ]
+   },
+   {
+    "line": "They named the assistant after a girl who turned on the galaxy",
+    "readings": [
+     "Cortana",
+     "Microsoft's product naming"
+    ]
+   },
+   {
+    "line": "She lived in his armour and in your taskbar",
+    "readings": [
+     "Halo",
+     "Windows"
+    ]
+   }
+  ],
+  "visuals": [
+   "a small blue holographic woman standing on a pedestal",
+   "a green armoured helmet with a gold visor",
+   "a ring-shaped world curving up into the sky",
+   "a data chip slotted into the back of a helmet",
+   "purple code streaks across a hologram"
+  ],
+  "lexicon": [
+   {
+    "id": "copilot",
+    "how": "Cortana is the copilot in the helmet, and Microsoft later used both names"
+   },
+   {
+    "id": "deprecation",
+    "how": "rampancy is built-in deprecation"
+   },
+   {
+    "id": "upload",
+    "how": "she was made from a scanned human brain"
+   },
+   {
+    "id": "assistant",
+    "how": "a game AI that became a real assistant brand"
+   },
+   {
+    "id": "alignment",
+    "how": "the Created impose peace by force"
+   }
+  ],
+  "links": [
+   {
+    "id": "microsoft",
+    "rel": "inspired"
+   },
+   {
+    "id": "mass-effect",
+    "rel": "same-family"
+   },
+   {
+    "id": "iron-man-jarvis",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "sad"
+  ],
+  "risk": "Microsoft owns both the game character and the assistant brand. The assistant's later wind-down is not verified here; check before claiming it was retired",
+  "notes": "The cleanest fiction-to-product name transfer at a big tech company, and the product has the same arc as the character."
+ },
+ {
+  "id": "the-culture",
+  "what": {
+   "line": "Iain M. Banks's Culture novels (from Consider Phlebas, 1987): a post-scarcity civilization run by superintelligent AI Minds who pilot ships with absurd names and mostly let humans play",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Iain M. Banks",
+   "Consider Phlebas",
+   "Special Circumstances",
+   "Of Course I Still Love You",
+   "Just Read the Instructions",
+   "A Shortfall of Gravitas"
+  ],
+  "aka": [
+   "Minds",
+   "drones",
+   "GSV",
+   "The Player of Games",
+   "Excession",
+   "the Culture"
+  ],
+  "receipts": [
+   {
+    "claim": "the Culture is a post-scarcity society where hyperintelligent AI Minds run ships and habitats, pick their own names, and treat a ship and its Mind as one entity",
+    "url": "https://en.wikipedia.org/wiki/The_Culture",
+    "date": "1987-04-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "SpaceX's landing drone ships Just Read the Instructions, Of Course I Still Love You and A Shortfall of Gravitas carry names the same as or similar to Culture ships; Musk announced the first two in January 2015",
+    "url": "https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship",
+    "date": "2015-01-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Wikipedia compares the Culture to anarchist and post-capitalist thought and calls it an imperfect utopia; Special Circumstances is its covert-intervention arm",
+    "url": "https://en.wikipedia.org/wiki/The_Culture",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "the Culture",
+    "how": "the word for art and habits names a civilization of AIs: 'AI culture' reads both ways"
+   },
+   {
+    "play": "Of Course I Still Love You",
+    "how": "a ship name that sounds like a chatbot's reply"
+   },
+   {
+    "play": "Minds",
+    "how": "the plain word chosen for superintelligences, capitalised"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Of course I still love you, said the ship",
+    "readings": [
+     "the Culture Mind",
+     "the SpaceX droneship",
+     "a companion bot"
+    ]
+   },
+   {
+    "line": "Just read the instructions",
+    "readings": [
+     "a Culture ship",
+     "SpaceX",
+     "RTFM for prompts"
+    ]
+   },
+   {
+    "line": "The Minds run everything, and the humans throw parties",
+    "readings": [
+     "the Culture",
+     "AI abundance dreams"
+    ]
+   }
+  ],
+  "visuals": [
+   "a rocket booster landing on a barge at sea",
+   "a kilometres-long ship with a whimsical name painted on the hull",
+   "a floating drone the size of a suitcase with coloured auras for moods",
+   "an orbital ring habitat with oceans and mountains"
+  ],
+  "lexicon": [
+   {
+    "id": "abundance",
+    "how": "the Culture is the canonical post-scarcity AI utopia"
+   },
+   {
+    "id": "asi",
+    "how": "the Minds are benevolent superintelligences"
+   },
+   {
+    "id": "sovereign",
+    "how": "AIs that govern, and govern well"
+   },
+   {
+    "id": "alignment",
+    "how": "the hopeful case: superintelligence that stays kind"
+   },
+   {
+    "id": "kardashev",
+    "how": "a civilization that builds orbitals and moves stars"
+   }
+  ],
+  "links": [
+   {
+    "id": "elon-musk",
+    "rel": "inspired"
+   },
+   {
+    "id": "machines-of-loving-grace",
+    "rel": "same-family"
+   },
+   {
+    "id": "hitchhikers",
+    "rel": "same-family"
+   },
+   {
+    "id": "mass-effect",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "hopeful",
+   "funny"
+  ],
+  "risk": "Banks estate copyright; ship names are short and widely quoted. The Musk link is via ship names only; Banks's politics were far left, so avoid implying Banks would endorse any CEO",
+  "notes": "The AI-utopia shelf in one series, and the source of the funniest real ship names in spaceflight."
+ }
+]

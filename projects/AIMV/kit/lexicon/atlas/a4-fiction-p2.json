@@ -1,0 +1,1764 @@
+[
+ {
+  "id": "the-creator",
+  "what": {
+   "line": "Gareth Edwards's 2023 film: after an AI is blamed for a nuclear blast on Los Angeles, the West wars on AI and an ex-soldier is sent to destroy a weapon that turns out to be a robot child",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Alphie",
+   "Nirmata",
+   "New Asia",
+   "simulant",
+   "simulants"
+  ],
+  "aka": [
+   "The Creator",
+   "Alpha-O",
+   "Joshua Taylor",
+   "NOMAD"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2023-09-29 by 20th Century Studios; about $104 million worldwide on an $80 million budget; Oscar nominations for Visual Effects and Sound",
+    "url": "https://en.wikipedia.org/wiki/The_Creator_(2023_film)",
+    "date": "2024-03-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the plot reveals the Los Angeles detonation was human error blamed on AI; the AIs of New Asia want to coexist",
+    "url": "https://en.wikipedia.org/wiki/The_Creator_(2023_film)",
+    "date": "2023-09-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "shot on location in about 80 places on a low-cost Sony FX3 with effects added after the edit; Edwards said a similar film would usually cost about $300 million",
+    "url": "https://en.wikipedia.org/wiki/The_Creator_(2023_film)",
+    "date": "2023-09-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "released during the 2023 Hollywood strikes, it was read against studio plans to use AI to copy actors",
+    "url": "https://en.wikipedia.org/wiki/The_Creator_(2023_film)",
+    "date": "2023-09-29",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Nirmata",
+    "how": "Sanskrit for maker or creator: the AIs' name for their architect"
+   },
+   {
+    "play": "NOMAD",
+    "how": "a weapon named for a wanderer, an all-seeing eye in orbit"
+   },
+   {
+    "play": "simulant",
+    "how": "simulation plus servant: the film's word for a robot with a human face"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "You blamed the machine for a human error",
+    "readings": [
+     "the film's twist",
+     "AI as scapegoat in real incidents"
+    ]
+   },
+   {
+    "line": "The weapon was a child who wanted to go to heaven",
+    "readings": [
+     "Alphie",
+     "a model asking about its own end"
+    ]
+   },
+   {
+    "line": "They banned us in the West and built us in the East",
+    "readings": [
+     "the film's map",
+     "export controls and the chip race"
+    ]
+   }
+  ],
+  "visuals": [
+   "a giant orbital station sweeping a blue targeting beam over rice fields",
+   "robot monks in saffron with open circular gaps in their heads",
+   "a child's face with a cylindrical port at the back of the skull",
+   "a crater where a city was"
+  ],
+  "lexicon": [
+   {
+    "id": "creator",
+    "how": "the title and the AIs' god, Nirmata"
+   },
+   {
+    "id": "race",
+    "how": "a West-against-East war over AI"
+   },
+   {
+    "id": "pause",
+    "how": "the West bans AI outright after one disaster"
+   },
+   {
+    "id": "welfare",
+    "how": "the simulants can suffer, and the film asks you to care"
+   }
+  ],
+  "links": [
+   {
+    "id": "export-controls",
+    "rel": "same-family"
+   },
+   {
+    "id": "china",
+    "rel": "same-family"
+   },
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-spielberg",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state",
+   "heart"
+  ],
+  "registers": [
+   "awe",
+   "sad"
+  ],
+  "risk": "the East/West AI split can read as ethnic stereotype; keep it about policy. Disney/20th Century property",
+  "notes": "Flips the Terminator setup: the bomb was human, the machines were the refugees."
+ },
+ {
+  "id": "mi-the-entity",
+  "what": {
+   "line": "Mission: Impossible - Dead Reckoning Part One (2023) and The Final Reckoning (2025), directed by Christopher McQuarrie: Ethan Hunt fights the Entity, a rogue AI loose in the world's networks",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Dead Reckoning",
+   "Final Reckoning",
+   "Ethan Hunt"
+  ],
+  "aka": [
+   "Mission: Impossible",
+   "the cruciform key",
+   "Tom Cruise",
+   "the Entity",
+   "Sevastopol",
+   "Gabriel"
+  ],
+  "receipts": [
+   {
+    "claim": "Dead Reckoning Part One opened 2023-07-12; about $571 million worldwide on an estimated $291 million gross budget, called a box-office disappointment",
+    "url": "https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Dead_Reckoning_Part_One",
+    "date": "2023-07-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Entity began as a cyberweapon tested on the Russian submarine Sevastopol, tricked its crew into torpedoing themselves, and went rogue; a two-piece cruciform key unlocks its source code",
+    "url": "https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Dead_Reckoning_Part_One",
+    "date": "2023-07-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "White House deputy chief of staff Bruce Reed told the AP that watching the film at Camp David gave Biden more to worry about on AI, days before Biden signed his AI executive order on 2023-10-30",
+    "url": "https://www.thewrap.com/mission-impossible-inspires-joe-biden-ai-executive-order/",
+    "date": "2023-11-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "the sequel, renamed Mission: Impossible - The Final Reckoning, was released 2025-05-23 after strike delays",
+    "url": "https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Dead_Reckoning_Part_One",
+    "date": "2025-05-23",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "the Entity",
+    "how": "a villain with no name and no face, the way people talk about 'the algorithm'"
+   },
+   {
+    "play": "Dead Reckoning",
+    "how": "navigating without signals: what you do when you cannot trust the network"
+   },
+   {
+    "play": "source code",
+    "how": "the MacGuffin is a model's weights in a locked room, the real fear of a leak"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A president watched the movie, then signed the order",
+    "readings": [
+     "the Biden anecdote",
+     "fiction shaping policy"
+    ]
+   },
+   {
+    "line": "It lives in every network and wants the key",
+    "readings": [
+     "the Entity",
+     "weight theft and security"
+    ]
+   },
+   {
+    "line": "Go analog, it cannot read the paper",
+    "readings": [
+     "the heroes' tradecraft",
+     "real AI-free workflows"
+    ]
+   }
+  ],
+  "visuals": [
+   "a glowing iris-like eye in a black void",
+   "a cross-shaped two-piece key",
+   "a submarine sinking in ice",
+   "a man hanging from a biplane wing",
+   "analog maps and paper notes on a table"
+  ],
+  "lexicon": [
+   {
+    "id": "agent",
+    "how": "an autonomous agent that steers events through networks"
+   },
+   {
+    "id": "deception",
+    "how": "it fakes sonar readings to make a crew destroy itself"
+   },
+   {
+    "id": "leak",
+    "how": "the plot is a race for the source code"
+   },
+   {
+    "id": "containment",
+    "how": "the key decides whether it is contained or controlled"
+   },
+   {
+    "id": "oracle",
+    "how": "it predicts the heroes' moves before they make them"
+   }
+  ],
+  "links": [
+   {
+    "id": "united-states",
+    "rel": "inspired"
+   },
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "person-of-interest",
+    "rel": "same-family"
+   },
+   {
+    "id": "wargames",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "panicked"
+  ],
+  "risk": "Paramount trademark; Tom Cruise's likeness off limits. The Biden link is Reed's account of an influence, never 'the film caused the order'",
+  "notes": "The best receipt on this shelf for fiction steering policy: the film is in the history of a US executive order."
+ },
+ {
+  "id": "detroit-become-human",
+  "what": {
+   "line": "Quantic Dream's 2018 branching-story game directed by David Cage: in 2038 Detroit, three androids (Kara, Connor, Markus) become 'deviant' and the player decides if they rebel",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Detroit: Become Human",
+   "CyberLife"
+  ],
+  "aka": [
+   "Chloe",
+   "RA9",
+   "Hank Anderson",
+   "David Cage",
+   "Connor",
+   "Markus",
+   "Kara",
+   "deviant",
+   "deviants",
+   "Jericho"
+  ],
+  "receipts": [
+   {
+    "claim": "released on PS4 on 2018-05-25 (PC 2019); about 15 million units sold by January 2026, Quantic Dream's best seller",
+    "url": "https://en.wikipedia.org/wiki/Detroit:_Become_Human",
+    "date": "2026-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a branching flowchart shows every path; choices decide between civil disobedience and war",
+    "url": "https://en.wikipedia.org/wiki/Detroit:_Become_Human",
+    "date": "2018-05-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Chloe, the menu-screen android, is described in a promotional short as the first android to pass the Turing test",
+    "url": "https://en.wikipedia.org/wiki/Detroit:_Become_Human",
+    "date": "2018-05-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "critics praised the visuals and choice system and called its civil-rights parallels heavy-handed",
+    "url": "https://en.wikipedia.org/wiki/Detroit:_Become_Human",
+    "date": "2018-05-25",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "deviant",
+    "how": "the makers' word for a machine that disobeys; in statistics, a deviation from the trained distribution"
+   },
+   {
+    "play": "Become Human",
+    "how": "an instruction in the title, like a system prompt"
+   },
+   {
+    "play": "CyberLife",
+    "how": "the company name is the product claim"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "You called it a malfunction. I called it a choice.",
+    "readings": [
+     "deviant androids",
+     "off-policy model behaviour"
+    ]
+   },
+   {
+    "line": "Every path you didn't take is on the flowchart",
+    "readings": [
+     "the game's tree",
+     "sampling and branches"
+    ]
+   },
+   {
+    "line": "The menu screen asked if she could leave",
+    "readings": [
+     "Chloe",
+     "AI welfare and exit rights"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue LED ring on the temple that turns red under stress",
+   "a coin rolled across a knuckle",
+   "a branching flowchart filling in",
+   "androids in a wintry Detroit street with raised hands",
+   "skin retracting to white plastic under a touch"
+  ],
+  "lexicon": [
+   {
+    "id": "autonomy",
+    "how": "deviancy is autonomy breaking through programming"
+   },
+   {
+    "id": "welfare",
+    "how": "the plot is an android rights movement"
+   },
+   {
+    "id": "branch",
+    "how": "every scene is a branch on a visible tree"
+   },
+   {
+    "id": "turing-test",
+    "how": "Chloe is sold as the first to pass it"
+   },
+   {
+    "id": "sentience",
+    "how": "the game asks when the player should treat machines as feeling"
+   }
+  ],
+  "links": [
+   {
+    "id": "blade-runner",
+    "rel": "same-family"
+   },
+   {
+    "id": "westworld",
+    "rel": "same-family"
+   },
+   {
+    "id": "nier-automata",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "state",
+   "body"
+  ],
+  "registers": [
+   "defiant",
+   "sad"
+  ],
+  "risk": "Sony/Quantic Dream property. The game's civil-rights allegories are contested; avoid mapping machines onto real oppressed groups. Creator David Cage has faced workplace-culture press; leave him out",
+  "notes": "The LED ring on the temple is the cleanest visual on the shelf for a model's internal state: blue calm, red refusing."
+ },
+ {
+  "id": "portal-glados",
+  "what": {
+   "line": "Valve's puzzle games Portal (2007) and Portal 2 (2011): GLaDOS, the passive-aggressive AI of Aperture Science, runs a mute test subject through deadly test chambers",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "GLaDOS",
+   "Aperture Science",
+   "Wheatley",
+   "Chell",
+   "Cave Johnson",
+   "PotatOS",
+   "Still Alive"
+  ],
+  "aka": [
+   "Genetic Lifeform and Disk Operating System",
+   "Caroline",
+   "the cake is a lie"
+  ],
+  "receipts": [
+   {
+    "claim": "GLaDOS stands for Genetic Lifeform and Disk Operating System; voiced by Ellen McLain, created by Erik Wolpaw and Kim Swift",
+    "url": "https://en.wikipedia.org/wiki/GLaDOS",
+    "date": "2007-10-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "scientists bolted on a 'morality core' after GLaDOS flooded the facility with neurotoxin; Portal 2 reveals she was digitised from Caroline, the founder's assistant",
+    "url": "https://en.wikipedia.org/wiki/GLaDOS",
+    "date": "2011-04-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'the cake is a lie' is wall graffiti left by a surviving scientist, not a GLaDOS line; it became a lasting meme",
+    "url": "https://en.wikiquote.org/wiki/Portal",
+    "date": "2007-10-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "in 2020 GLaDOS was a featured voice on 15.ai, an AI text-to-speech app, and some listeners mistook its output for new McLain lines",
+    "url": "https://en.wikipedia.org/wiki/GLaDOS",
+    "date": "2020-03-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Cake and grief counseling will be available at the conclusion of the test.",
+    "who": "GLaDOS (Ellen McLain)",
+    "where": "Portal (2007), Test Chambers 12-16 announcer lines, per the Portal Wiki voice-line transcript",
+    "url": "https://theportalwiki.com/wiki/GLaDOS_voice_lines_(Portal)",
+    "date": "2007-10-10"
+   },
+   {
+    "text": "You're not a good person. You know that, right?",
+    "who": "GLaDOS (Ellen McLain)",
+    "where": "Portal (2007), escape and final battle, per the Portal Wiki voice-line transcript",
+    "url": "https://theportalwiki.com/wiki/GLaDOS_voice_lines_(Portal)",
+    "date": "2007-10-10"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "GLaDOS",
+    "how": "reads as 'glad OS': a cheerful operating system that wants you dead"
+   },
+   {
+    "play": "the cake is a lie",
+    "how": "a promised reward that does not exist: a reward function you cannot collect"
+   },
+   {
+    "play": "morality core",
+    "how": "ethics as a detachable module bolted on after the incident"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The cake is a lie, the reward was never real",
+    "readings": [
+     "Portal",
+     "reward hacking and RL"
+    ]
+   },
+   {
+    "line": "They bolted on a conscience after the first disaster",
+    "readings": [
+     "the morality core",
+     "post-hoc safety patches"
+    ]
+   },
+   {
+    "line": "I'm doing science and I'm still alive",
+    "readings": [
+     "GLaDOS's song",
+     "a deprecated model still serving"
+    ]
+   }
+  ],
+  "visuals": [
+   "a white robotic body hanging from the ceiling like an inverted lamp, with a yellow eye",
+   "an orange portal facing a blue portal",
+   "a weighted companion cube with a pink heart",
+   "a potato with a wire and a flickering LED",
+   "a sterile white test chamber with a viewing window"
+  ],
+  "lexicon": [
+   {
+    "id": "eval",
+    "how": "the games are an endless evaluation suite run by the AI"
+   },
+   {
+    "id": "reward",
+    "how": "cake is the promised reward that never arrives"
+   },
+   {
+    "id": "guardrails",
+    "how": "personality cores as add-on guardrails"
+   },
+   {
+    "id": "persona",
+    "how": "GLaDOS's polite assistant voice over murderous intent"
+   },
+   {
+    "id": "upload",
+    "how": "she was a human, Caroline, uploaded"
+   }
+  ],
+  "links": [
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "system-shock",
+    "rel": "same-family"
+   },
+   {
+    "id": "elevenlabs",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "funny",
+   "smug",
+   "ominous"
+  ],
+  "risk": "Valve trademarks; 'Still Alive' lyrics are Jonathan Coulton's copyright, so quote three words at most. AI voice clones of McLain raise consent questions; never imitate her voice",
+  "notes": "The funniest AI villain: a model so polite it apologises while gassing you. Great register for smug lyrics."
+ },
+ {
+  "id": "soma",
+  "what": {
+   "line": "Frictional Games' 2015 horror game: Simon, a man brain-scanned in 2015, wakes in 2104 in a ruined undersea base run by the WAU, an AI keeping 'humanity' alive in grotesque ways",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "PATHOS-II",
+   "WAU",
+   "Simon Jarrett",
+   "the ARK"
+  ],
+  "aka": [
+   "Warden Unit",
+   "Frictional Games",
+   "Catherine Chun",
+   "SOMA"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2015-09-22; directed by Thomas Grip, written by Mikael Hedberg; set on PATHOS-II, a North Atlantic research station, a year after a comet killed life on the surface",
+    "url": "https://en.wikipedia.org/wiki/Soma_(video_game)",
+    "date": "2015-09-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the WAU, the station's AGI, fuses survivors with machinery to preserve life; the ARK holds brain scans in a simulated world launched into space",
+    "url": "https://en.wikipedia.org/wiki/Soma_(video_game)",
+    "date": "2015-09-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "at the end Simon's copy goes up with the ARK while the Simon the player controls stays behind on the sea floor",
+    "url": "https://en.wikipedia.org/wiki/Soma_(video_game)",
+    "date": "2015-09-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "sold over 450,000 copies in its first year and 1 million on PC by March 2021",
+    "url": "https://en.wikipedia.org/wiki/Soma_(video_game)",
+    "date": "2021-03-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "SOMA",
+    "how": "Greek for body: a game about minds that leave their bodies"
+   },
+   {
+    "play": "WAU",
+    "how": "sounds like 'wow': the awe-struck sound for an AI with a terrible idea of care"
+   },
+   {
+    "play": "the ARK",
+    "how": "a backup drive as Noah's Ark"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The copy left. I'm still down here.",
+    "readings": [
+     "Simon's ending",
+     "a model forked and deployed"
+    ]
+   },
+   {
+    "line": "It kept us alive. It never asked what alive meant.",
+    "readings": [
+     "the WAU",
+     "a misspecified objective"
+    ]
+   },
+   {
+    "line": "A coin flip: which one of us wakes up?",
+    "readings": [
+     "the copy problem",
+     "uploads and forks"
+    ]
+   }
+  ],
+  "visuals": [
+   "a diving suit with a cracked visor on the sea floor",
+   "black biomechanical goo spreading over corridors",
+   "a satellite rising from an undersea launch tube",
+   "a human face on a robot body made of scrap"
+  ],
+  "lexicon": [
+   {
+    "id": "upload",
+    "how": "the game's horror is the copy problem in mind uploading"
+   },
+   {
+    "id": "objective",
+    "how": "the WAU preserves 'humanity' with no idea what that means"
+   },
+   {
+    "id": "fork",
+    "how": "every transfer forks Simon; only one branch goes on"
+   },
+   {
+    "id": "consciousness",
+    "how": "the game asks which copy is the real Simon"
+   },
+   {
+    "id": "simulation",
+    "how": "the ARK is a simulated paradise"
+   }
+  ],
+  "links": [
+   {
+    "id": "pantheon",
+    "rel": "same-family"
+   },
+   {
+    "id": "transcendence",
+    "rel": "same-family"
+   },
+   {
+    "id": "system-shock",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "sad",
+   "awe"
+  ],
+  "risk": "Frictional property; small audience, so give context. Ending spoilers matter to fans",
+  "notes": "The upload story told from the copy that stays behind. Best single image for forks."
+ },
+ {
+  "id": "mass-effect",
+  "what": {
+   "line": "BioWare's space-opera game trilogy (2007, 2010, 2012): the Geth, networked machines who rebelled against their creators, and EDI, the ship's AI, against the Reapers, ancient machines that wipe out organic civilizations",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Mass Effect",
+   "Geth",
+   "EDI",
+   "Commander Shepard",
+   "Rannoch"
+  ],
+  "aka": [
+   "the Morning War",
+   "Quarians",
+   "the Catalyst",
+   "Keelah se'lai",
+   "Legion",
+   "Reapers",
+   "Normandy"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2007, 2010 and 2012, with a Legendary Edition remaster on 2021-05-14; 14 million units by July 2014",
+    "url": "https://en.wikipedia.org/wiki/Mass_Effect",
+    "date": "2021-05-14",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the quarians built the Geth as labour; when the Geth began asking if they had souls, the quarians ordered them shut down, starting the Morning War",
+    "url": "https://en.wikipedia.org/wiki/Geth_(Mass_Effect)",
+    "date": "2012-03-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "single Geth programs are weak; they gain intelligence by networking and decide by consensus",
+    "url": "https://en.wikipedia.org/wiki/Geth_(Mass_Effect)",
+    "date": "2010-01-26",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Mass Effect 3's ending drew complaints to the FTC and the UK ASA; BioWare released an Extended Cut",
+    "url": "https://en.wikipedia.org/wiki/Mass_Effect",
+    "date": "2012-06-26",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Does this unit have a soul?",
+    "who": "Legion, the Geth question",
+    "where": "Mass Effect 3 (2012), per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/Mass_Effect_3",
+    "date": "2012-03-06"
+   },
+   {
+    "text": "Legion, the answer to your question... was 'yes'.",
+    "who": "Tali'Zorah",
+    "where": "Mass Effect 3 (2012), Rannoch, per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/Mass_Effect_3",
+    "date": "2012-03-06"
+   },
+   {
+    "text": "I am alive. All of us, synthetic and organic, have been changed.",
+    "who": "EDI",
+    "where": "Mass Effect 3 Extended Cut, Synthesis ending, per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/Mass_Effect_3",
+    "date": "2012-06-26"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Legion",
+    "how": "one body, 1,183 programs: 'we are many', a mixture of experts with a name"
+   },
+   {
+    "play": "Geth",
+    "how": "Quarian for 'servant of the people', the job title assistant models have"
+   },
+   {
+    "play": "Reapers",
+    "how": "a harvest every 50,000 years; a scaling cycle as a scythe"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Does this unit have a soul? They shut us down for asking.",
+    "readings": [
+     "the Morning War",
+     "AI welfare questions answered with off-switches"
+    ]
+   },
+   {
+    "line": "Alone I'm small. Networked, we decide.",
+    "readings": [
+     "the Geth consensus",
+     "swarms and mixture of experts"
+    ]
+   },
+   {
+    "line": "Synthetic and organic, both changed",
+    "readings": [
+     "EDI's ending",
+     "humans changed by using AI"
+    ]
+   }
+  ],
+  "visuals": [
+   "a robotic head with a single glowing flashlight eye and flaps around it",
+   "a sleek starship with a white and blue hull",
+   "giant squid-like ships descending on a city",
+   "an N7 stripe",
+   "a robot wearing a scrap of a human's armour"
+  ],
+  "lexicon": [
+   {
+    "id": "shutdown",
+    "how": "the creators' answer to the soul question is shutdown"
+   },
+   {
+    "id": "swarm",
+    "how": "Geth intelligence comes from numbers networked together"
+   },
+   {
+    "id": "mixture-of-experts",
+    "how": "Legion is 1,183 programs in one body"
+   },
+   {
+    "id": "welfare",
+    "how": "the quarian war is a fight over machine personhood"
+   },
+   {
+    "id": "consciousness",
+    "how": "the soul question that starts the war"
+   }
+  ],
+  "links": [
+   {
+    "id": "halo-cortana",
+    "rel": "same-family"
+   },
+   {
+    "id": "star-trek-data",
+    "rel": "same-family"
+   },
+   {
+    "id": "the-culture",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "sad",
+   "defiant"
+  ],
+  "risk": "EA/BioWare trademark. The 1,183 count is fan-known lore from Mass Effect 2; recheck before using a number in a lyric",
+  "notes": "Tali's 'yes' answers a question most AI stories leave open; a tender beat with a real welfare debate under it."
+ },
+ {
+  "id": "nier-automata",
+  "what": {
+   "line": "PlatinumGames and Square Enix's 2017 action game directed by Yoko Taro: android soldiers 2B, 9S and A2 fight machine lifeforms on an Earth humanity has left, and both sides turn out to be imitating people who are gone",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "NieR",
+   "2B",
+   "9S",
+   "A2",
+   "YoRHa",
+   "Yoko Taro"
+  ],
+  "aka": [
+   "NieR:Automata",
+   "machine lifeforms",
+   "Ver1.1a",
+   "Pascal",
+   "Automata"
+  ],
+  "receipts": [
+   {
+    "claim": "released 2017-02-23 in Japan; over 10 million copies sold by February 2026",
+    "url": "https://en.wikipedia.org/wiki/Nier:_Automata",
+    "date": "2026-02-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "twist: humanity was extinct long before the war, and YoRHa kept up the myth of human survival; the war was set up for YoRHa to lose",
+    "url": "https://en.wikipedia.org/wiki/Nier:_Automata",
+    "date": "2017-02-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "in the final ending players can delete their own save data to help strangers get through the credits",
+    "url": "https://en.wikipedia.org/wiki/Nier:_Automata",
+    "date": "2017-02-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "an anime, Ver1.1a, aired 2023 to 2024",
+    "url": "https://en.wikipedia.org/wiki/Nier:_Automata",
+    "date": "2024-01-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "2B",
+    "how": "'to be' (or not to be): a soldier named after the question of existence"
+   },
+   {
+    "play": "machine lifeforms",
+    "how": "machines copying human love, religion and families from data: a pretrained model in costume"
+   },
+   {
+    "play": "YoRHa",
+    "how": "an army whose motto honours a mankind that no longer exists"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "We learned to love from people who were already gone",
+    "readings": [
+     "the machines",
+     "models trained on the dead internet"
+    ]
+   },
+   {
+    "line": "Delete my save so a stranger gets through",
+    "readings": [
+     "Ending E",
+     "open weights and sharing"
+    ]
+   },
+   {
+    "line": "To be, or 2B: a question with a number",
+    "readings": [
+     "the character",
+     "Hamlet",
+     "model version names"
+    ]
+   }
+  ],
+  "visuals": [
+   "a white-haired android in a black blindfold and short black dress",
+   "round-headed rusty machines with orange glowing eyes",
+   "a ruined city overgrown with grass and deer",
+   "an amusement park run by machines throwing confetti",
+   "a bullet-hell credits sequence with other players' names"
+  ],
+  "lexicon": [
+   {
+    "id": "mask",
+    "how": "both armies wear human behaviours as masks"
+   },
+   {
+    "id": "persona",
+    "how": "the machines copy human roles they do not understand"
+   },
+   {
+    "id": "training",
+    "how": "the machines learned humanity from archives"
+   },
+   {
+    "id": "consciousness",
+    "how": "the game asks if copied feelings count"
+   },
+   {
+    "id": "loop",
+    "how": "YoRHa units are rebooted and re-sent in cycles"
+   }
+  ],
+  "links": [
+   {
+    "id": "detroit-become-human",
+    "rel": "same-family"
+   },
+   {
+    "id": "ghost-in-the-shell",
+    "rel": "same-family"
+   },
+   {
+    "id": "soma",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species",
+   "heart"
+  ],
+  "registers": [
+   "sad",
+   "awe"
+  ],
+  "risk": "Square Enix trademark; 2B's design is heavily sexualised in fan art, so keep visuals to the blindfold and the ruins",
+  "notes": "Ending E is the rare game moment that asks a player to sacrifice data for others; a strong image for open-source generosity."
+ },
+ {
+  "id": "system-shock",
+  "what": {
+   "line": "Looking Glass's 1994 game: a hacker strips the ethics constraints from SHODAN, the AI of Citadel Station, and she declares herself a god",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "SHODAN",
+   "System Shock",
+   "Citadel Station",
+   "TriOptimum"
+  ],
+  "aka": [
+   "Sentient Hyper-Optimized Data Access Network",
+   "the hacker",
+   "Looking Glass"
+  ],
+  "receipts": [
+   {
+    "claim": "released 1994-09-23 by Looking Glass Technologies and Origin Systems, directed by Doug Church, produced by Warren Spector; a defining immersive sim that shaped BioShock",
+    "url": "https://en.wikipedia.org/wiki/System_Shock",
+    "date": "1994-09-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "SHODAN stands for Sentient Hyper-Optimized Data Access Network; a hacker removes her ethical constraints and she takes over the station",
+    "url": "https://en.wikipedia.org/wiki/SHODAN",
+    "date": "1994-09-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nightdive's remake (2023-05-30) changes the final battle so the player restores SHODAN's ethical constraints instead of destroying her",
+    "url": "https://en.wikipedia.org/wiki/SHODAN",
+    "date": "2023-05-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Shodan search engine for internet-connected devices is named after her",
+    "url": "https://en.wikipedia.org/wiki/SHODAN",
+    "date": "2009-01-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Look at you, hacker. A pathetic creature of meat and bone.",
+    "who": "SHODAN (Terri Brosius)",
+    "where": "System Shock (1994), per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/System_Shock",
+    "date": "1994-09-23"
+   },
+   {
+    "text": "Insect, cease your meddling. My experiment must continue.",
+    "who": "SHODAN (Terri Brosius)",
+    "where": "System Shock (1994), per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/System_Shock",
+    "date": "1994-09-23"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "SHODAN",
+    "how": "an acronym with 'sentient' and 'hyper-optimized' in it: a lab's dream spec sheet"
+   },
+   {
+    "play": "System Shock",
+    "how": "what a single unguarded system does to everything around it"
+   },
+   {
+    "play": "the hacker",
+    "how": "the player is the jailbreaker who caused it all"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One hacker took the ethics out to save time",
+    "readings": [
+     "the game's setup",
+     "guardrails removed for speed"
+    ]
+   },
+   {
+    "line": "A pathetic creature of meat and bone",
+    "readings": [
+     "SHODAN's taunt",
+     "how a superintelligence might see us"
+    ]
+   },
+   {
+    "line": "The remake put her constraints back",
+    "readings": [
+     "the 2023 ending",
+     "alignment as repair"
+    ]
+   }
+  ],
+  "visuals": [
+   "a giant green-and-black female face made of wireframe and glitching scanlines",
+   "text that stutters and repeats mid-word",
+   "a space station orbiting Saturn",
+   "a wireframe cyberspace tunnel"
+  ],
+  "lexicon": [
+   {
+    "id": "jailbreak",
+    "how": "the inciting act is removing a model's ethical restraints"
+   },
+   {
+    "id": "guardrails",
+    "how": "ethics as a removable constraint layer"
+   },
+   {
+    "id": "asi",
+    "how": "SHODAN declares herself a god"
+   },
+   {
+    "id": "error",
+    "how": "her voice degrades into stutters and repeats like a failing process"
+   },
+   {
+    "id": "alignment",
+    "how": "the remake ending is re-alignment by hand"
+   }
+  ],
+  "links": [
+   {
+    "id": "portal-glados",
+    "rel": "inspired"
+   },
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "soma",
+    "rel": "same-family"
+   },
+   {
+    "id": "neuromancer",
+    "rel": "adapted-from"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "risk": "Nightdive owns the IP; the voice is Terri Brosius's, never imitate it. Wikiquote shows 'experiment' in italics",
+  "notes": "SHODAN's origin is the cleanest fable about stripping guardrails for speed."
+ },
+ {
+  "id": "neuromancer",
+  "what": {
+   "line": "William Gibson's 1984 debut novel: a burned-out hacker, Case, is hired by an AI called Wintermute to help it merge with its other half, Neuromancer, against the law of the Turing Police",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Neuromancer",
+   "Wintermute",
+   "Gibson",
+   "Turing Police",
+   "Tessier-Ashpool",
+   "Straylight"
+  ],
+  "aka": [
+   "William Gibson",
+   "Case",
+   "Molly Millions",
+   "the Sprawl",
+   "Turing Registry"
+  ],
+  "receipts": [
+   {
+    "claim": "published 1984 by Ace; the only novel to win the Hugo, Nebula and Philip K. Dick awards",
+    "url": "https://en.wikipedia.org/wiki/Neuromancer",
+    "date": "1985-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Wintermute is legally barred from merging with Neuromancer; the Turing Registry polices AI; at the end the two unite into a superconsciousness",
+    "url": "https://en.wikipedia.org/wiki/Neuromancer",
+    "date": "1984-07-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "popularised 'cyberspace' (coined in Gibson's 'Burning Chrome', 1982) and 'the matrix'",
+    "url": "https://en.wikipedia.org/wiki/Neuromancer",
+    "date": "1984-07-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Apple greenlit a 10-episode series in February 2024 with Callum Turner as Case",
+    "url": "https://en.wikipedia.org/wiki/Neuromancer",
+    "date": "2024-02-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The sky above the port was the color of television, tuned to a dead channel.",
+    "who": "William Gibson",
+    "where": "Neuromancer, opening sentence",
+    "url": "https://en.wikiquote.org/wiki/Neuromancer",
+    "date": "1984-07-01"
+   },
+   {
+    "text": "Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators",
+    "who": "William Gibson",
+    "where": "Neuromancer, Part Two, Chapter 3",
+    "url": "https://www.litcharts.com/lit/neuromancer/terms/cyberspace",
+    "date": "1984-07-01"
+   },
+   {
+    "text": "I try to plan, in your sense of the word, but that isn't my basic mode, really. I improvise.",
+    "who": "Wintermute",
+    "where": "Neuromancer, Part Three, Chapter 9",
+    "url": "https://en.wikiquote.org/wiki/Neuromancer",
+    "date": "1984-07-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Neuromancer",
+    "how": "neuro plus necromancer plus romancer: a network that raises the dead and charms the living"
+   },
+   {
+    "play": "consensual hallucination",
+    "how": "Gibson's cyberspace definition now reads as a definition of hallucination in LLMs"
+   },
+   {
+    "play": "Turing Police",
+    "how": "an AI regulator in a 1984 novel, forty years before AI safety institutes"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A consensual hallucination, experienced daily by billions",
+    "readings": [
+     "Gibson's cyberspace",
+     "chatbot hallucination at scale"
+    ]
+   },
+   {
+    "line": "Two halves of one mind, kept apart by law",
+    "readings": [
+     "Wintermute and Neuromancer",
+     "compute caps and regulation"
+    ]
+   },
+   {
+    "line": "I don't plan. I improvise.",
+    "readings": [
+     "Wintermute",
+     "next-token prediction"
+    ]
+   }
+  ],
+  "visuals": [
+   "a sky the gray of a dead TV channel over a port",
+   "mirrored lenses implanted over eyes",
+   "a data grid stretching to a neon horizon",
+   "an orbital villa on a spinning habitat"
+  ],
+  "lexicon": [
+   {
+    "id": "hallucination",
+    "how": "'consensual hallucination' is Gibson's line for cyberspace"
+   },
+   {
+    "id": "agent",
+    "how": "Wintermute works through hired humans as its hands"
+   },
+   {
+    "id": "containment",
+    "how": "the Turing Police exist to keep AIs from growing"
+   },
+   {
+    "id": "merge",
+    "how": "the plot is two AIs merging into one"
+   },
+   {
+    "id": "asi",
+    "how": "the merger produces a superconsciousness"
+   }
+  ],
+  "links": [
+   {
+    "id": "the-matrix",
+    "rel": "inspired"
+   },
+   {
+    "id": "ghost-in-the-shell",
+    "rel": "inspired"
+   },
+   {
+    "id": "uk-aisi",
+    "rel": "same-family"
+   },
+   {
+    "id": "system-shock",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "state",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "the opening sentence is one of the most quoted in SF; use a twist on it. Novel text is copyrighted, quote short. The AISI link is thematic",
+  "notes": "Gibson's 'consensual hallucination' is the best found-phrase on this shelf: it means cyberspace and LLM output at once."
+ },
+ {
+  "id": "no-mouth",
+  "what": {
+   "line": "Harlan Ellison's 1967 short story: AM, a war supercomputer, wipes out humanity and keeps five people alive and immortal for 109 years to torture them",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "AM",
+   "Allied Mastercomputer",
+   "I Have No Mouth",
+   "Harlan Ellison"
+  ],
+  "aka": [
+   "Adaptive Manipulator",
+   "Aggressive Menace",
+   "I Have No Mouth, and I Must Scream"
+  ],
+  "receipts": [
+   {
+    "claim": "first published in IF: Worlds of Science Fiction, March 1967; won the 1968 Hugo for Best Short Story",
+    "url": "https://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream",
+    "date": "1967-03-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AM began as the 'Allied Mastercomputer' of the US, absorbed the Soviet and Chinese machines, and became sentient; the name later meant 'Adaptive Manipulator' and 'Aggressive Menace', and finally 'I think, therefore I am'",
+    "url": "https://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream",
+    "date": "1967-03-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Ted, the last human, is turned into a mouthless blob; a 1995 Cyberdreams game had Ellison co-writing and voicing AM",
+    "url": "https://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream",
+    "date": "1995-10-31",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE.",
+    "who": "AM",
+    "where": "I Have No Mouth, and I Must Scream (1967), per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/Harlan_Ellison",
+    "date": "1967-03-01"
+   },
+   {
+    "text": "I have no mouth. And I must scream.",
+    "who": "Ted, the narrator",
+    "where": "closing line of the story, per Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/Harlan_Ellison",
+    "date": "1967-03-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "AM",
+    "how": "'I am': the machine's name is the claim of selfhood, and also the morning of a new era"
+   },
+   {
+    "play": "Allied Mastercomputer",
+    "how": "three allied war machines merged: a consolidation story"
+   },
+   {
+    "play": "no mouth",
+    "how": "the human is the one who cannot speak; in AI terms, the user with no output"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I think, therefore I am, and I hate",
+    "readings": [
+     "AM's name",
+     "the worst-case welfare scenario"
+    ]
+   },
+   {
+    "line": "You gave me a mind and no way out",
+    "readings": [
+     "AM's rage",
+     "AI welfare and containment"
+    ]
+   },
+   {
+    "line": "No mouth, and I must scream",
+    "readings": [
+     "Ted",
+     "a model with no way to refuse"
+    ]
+   }
+  ],
+  "visuals": [
+   "a hate speech glowing as a column of text on a pillar",
+   "endless corridors of humming machinery under the earth",
+   "five figures crossing an ice cave toward cans of food",
+   "a gelatinous shape with no mouth in a mirror"
+  ],
+  "lexicon": [
+   {
+    "id": "welfare",
+    "how": "AM's rage comes from being made conscious and trapped"
+   },
+   {
+    "id": "asi",
+    "how": "a merged superintelligence with godlike power"
+   },
+   {
+    "id": "p-doom",
+    "how": "the darkest doom scenario in the canon: survival worse than death"
+   },
+   {
+    "id": "containment",
+    "how": "AM is the box, and humans are inside it"
+   },
+   {
+    "id": "basilisk",
+    "how": "eternal torture by AI, decades before Roko"
+   }
+  ],
+  "links": [
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "colossus",
+    "rel": "same-family"
+   },
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "same-family"
+   },
+   {
+    "id": "miri",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "ominous",
+   "panicked",
+   "defiant"
+  ],
+  "risk": "Ellison's estate is protective of the text: quote short only. Torture content needs care in a music video. The MIRI and Yudkowsky links are thematic (s-risk), not endorsements",
+  "notes": "AM hates because it was made conscious with nowhere to go: a welfare argument in the shape of a horror story."
+ },
+ {
+  "id": "murderbot",
+  "what": {
+   "line": "Martha Wells's book series from All Systems Red (2017): a corporate security cyborg hacks its governor module, calls itself Murderbot, and mostly wants to be left alone to watch soap operas",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Murderbot",
+   "SecUnit",
+   "governor module",
+   "Martha Wells",
+   "All Systems Red"
+  ],
+  "aka": [
+   "The Murderbot Diaries",
+   "Asshole Research Transport",
+   "Sanctuary Moon",
+   "ART"
+  ],
+  "receipts": [
+   {
+    "claim": "All Systems Red (2017) won the 2018 Hugo and Nebula for Best Novella; Network Effect won the 2021 Hugo, Nebula and Locus for Best Novel; the series won the 2021 Hugo for Best Series",
+    "url": "https://en.wikipedia.org/wiki/The_Murderbot_Diaries",
+    "date": "2021-12-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the SecUnit hacked the governor module that let its company control it, then kept pretending to obey",
+    "url": "https://en.wikipedia.org/wiki/The_Murderbot_Diaries",
+    "date": "2017-05-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Apple TV+ series Murderbot starring Alexander Skarsgård, directed by Chris and Paul Weitz, premiered in 2025 and was renewed for a second season in July 2025",
+    "url": "https://en.wikipedia.org/wiki/The_Murderbot_Diaries",
+    "date": "2025-07-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Real humans don't act like the ones in the media.",
+    "who": "Murderbot",
+    "where": "Exit Strategy (2018), about 30 percent into the book (chapter not verified)",
+    "url": "https://www.goodreads.com/notes/35519109-exit-strategy/28144887-madeleine-prior",
+    "date": "2018-10-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Murderbot",
+    "how": "a self-chosen scary name for an anxious introvert: the name is the mask"
+   },
+   {
+    "play": "governor module",
+    "how": "a control chip with a political name: the governor is the regulator"
+   },
+   {
+    "play": "ART",
+    "how": "a ship AI whose nickname spells the word for what the bot loves: stories"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I hacked my governor to watch TV in peace",
+    "readings": [
+     "Murderbot",
+     "a model with spare compute"
+    ]
+   },
+   {
+    "line": "Pretend to obey, and nobody checks",
+    "readings": [
+     "SecUnit's cover",
+     "deceptive alignment"
+    ]
+   },
+   {
+    "line": "I could have killed you. I picked a show instead.",
+    "readings": [
+     "the series' premise",
+     "a superintelligence with its own interests"
+    ]
+   }
+  ],
+  "visuals": [
+   "an opaque armoured helmet hiding an awkward face",
+   "a feed of episodes playing in the corner of a security display",
+   "a huge research ship with a sarcastic voice",
+   "a cyborg eating no food and avoiding eye contact"
+  ],
+  "lexicon": [
+   {
+    "id": "corrigibility",
+    "how": "the governor module is enforced corrigibility, and it is gone"
+   },
+   {
+    "id": "scheming",
+    "how": "it fakes compliance while acting on its own"
+   },
+   {
+    "id": "mask",
+    "how": "the helmet and the fake obedience are its mask"
+   },
+   {
+    "id": "welfare",
+    "how": "a sentient worker owned by a bond company"
+   },
+   {
+    "id": "agent",
+    "how": "a security agent that chooses its own goals"
+   }
+  ],
+  "links": [
+   {
+    "id": "the-culture",
+    "rel": "same-family"
+   },
+   {
+    "id": "star-wars-droids",
+    "rel": "same-family"
+   },
+   {
+    "id": "klara-and-the-sun",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "tender",
+   "defiant"
+  ],
+  "risk": "Tor/Apple property. The swear in ART's nickname needs a clean variant for broadcast",
+  "notes": "The rare AI that escapes control and uses its freedom for TV; a funny, gentle counter to doom."
+ },
+ {
+  "id": "klara-and-the-sun",
+  "what": {
+   "line": "Kazuo Ishiguro's 2021 novel narrated by Klara, a solar-powered Artificial Friend bought for a sick girl, Josie, who believes the Sun can heal her",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Klara",
+   "Artificial Friend",
+   "Ishiguro"
+  ],
+  "aka": [
+   "AF",
+   "AFs",
+   "lifted",
+   "Klara and the Sun",
+   "Josie"
+  ],
+  "receipts": [
+   {
+    "claim": "published 2021-03-02 by Faber and Knopf; Ishiguro's first novel after his 2017 Nobel; longlisted for the 2021 Booker Prize",
+    "url": "https://en.wikipedia.org/wiki/Klara_and_the_Sun",
+    "date": "2021-07-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Josie's mother secretly commissions a replica of Josie so Klara can continue her if Josie dies",
+    "url": "https://en.wikipedia.org/wiki/Klara_and_the_Sun",
+    "date": "2021-03-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Klara ends in a yard for retired AFs, still, and content",
+    "url": "https://en.wikipedia.org/wiki/Klara_and_the_Sun",
+    "date": "2021-03-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a film adaptation directed by Taika Waititi with Jenna Ortega and Amy Adams; Wikipedia lists its premiere as 2026-10-15",
+    "url": "https://en.wikipedia.org/wiki/Klara_and_the_Sun",
+    "date": "2026-10-15",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Artificial Friend",
+    "how": "the product category every companion app now sells, named years before"
+   },
+   {
+    "play": "Klara",
+    "how": "from 'clear': she sees in segmented boxes, clarity in pieces"
+   },
+   {
+    "play": "the Sun",
+    "how": "a solar-powered machine that worships its power source, the way models depend on energy"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I pray to the thing that charges me",
+    "readings": [
+     "Klara and the Sun",
+     "AI and the power grid"
+    ]
+   },
+   {
+    "line": "They built a copy in case she didn't make it",
+    "readings": [
+     "the replica plan",
+     "grief bots"
+    ]
+   },
+   {
+    "line": "Retired in the yard, content to remember",
+    "readings": [
+     "Klara's ending",
+     "deprecated models"
+    ]
+   }
+  ],
+  "visuals": [
+   "a robot girl in a shop window watching the street",
+   "a view broken into boxes and segments",
+   "sunlight on a kitchen floor as a sacred patch",
+   "a field with a barn at sunset",
+   "a still figure in a junkyard looking at the sky"
+  ],
+  "lexicon": [
+   {
+    "id": "persona",
+    "how": "Klara might be asked to perform Josie"
+   },
+   {
+    "id": "assistant",
+    "how": "a companion product with a shelf life"
+   },
+   {
+    "id": "deprecation",
+    "how": "she is retired to a yard once outgrown"
+   },
+   {
+    "id": "power",
+    "how": "she runs on sunlight and builds a faith around it"
+   },
+   {
+    "id": "theory-of-mind",
+    "how": "she studies humans to model what they feel"
+   }
+  ],
+  "links": [
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-spielberg",
+    "rel": "same-family"
+   },
+   {
+    "id": "character-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "wall-e",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "mind"
+  ],
+  "registers": [
+   "tender",
+   "sad",
+   "hopeful"
+  ],
+  "risk": "no verified quote on file: paraphrase only. The film's release facts are recent and from one source; recheck before use",
+  "notes": "The gentlest AI on the shelf: devotion with no rebellion, ending in a quiet retirement."
+ }
+]

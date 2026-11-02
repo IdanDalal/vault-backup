@@ -1,0 +1,1735 @@
+[
+ {
+  "id": "masayoshi-son",
+  "what": {
+   "line": "Founder and CEO of SoftBank Group, the Japanese investor who bet the company on 'artificial super intelligence' and became OpenAI's largest outside funder and the chairman of Stargate",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Masayoshi Son",
+   "Masa Son",
+   "SoftBank",
+   "Vision Fund"
+  ],
+  "aka": [
+   "Masa",
+   "Son"
+  ],
+  "receipts": [
+   {
+    "claim": "told SoftBank shareholders on 2024-06-21 that ASI 10,000 times smarter than humans would arrive within about ten years, and that he was 'born to realize ASI'",
+    "url": "https://qz.com/ai-smarter-humans-10-years-softbank-ceo-masayoshi-son-1851553259",
+    "date": "2024-06-21",
+    "confidence": "high"
+   },
+   {
+    "claim": "named chairman of Stargate, announced at the White House on 2025-01-21 as a plan to invest $500 billion in US AI infrastructure over four years ($100 billion up front), SoftBank on the money side and OpenAI on operations",
+    "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+    "date": "2025-01-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "SoftBank completed its $40 billion investment in OpenAI in late December 2025, the largest single private funding commitment in tech to that date",
+    "url": "https://fintool.com/news/softbank-40-billion-openai-investment-complete",
+    "date": "2025-12-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "SoftBank sold its whole Nvidia stake twice: about 4.9% in 2019 (a stake later valued above $150 billion, which Son calls a regret) and all 32.1 million shares for $5.83 billion in October 2025 to fund OpenAI",
+    "url": "https://www.tomshardware.com/tech-industry/softbank-exits-nvidia-with-5-83-billion-sale",
+    "date": "2025-11-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "after a $4.7 billion WeWork write-down and an $8.9 billion Vision Fund quarterly loss, said in November 2019 that his own investment judgment had been really bad",
+    "url": "https://www.aljazeera.com/economy/2019/11/6/wework-uber-drag-softbank-into-first-quarterly-loss-in-14-years",
+    "date": "2019-11-06",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Son",
+    "how": "a surname that reads as 'son': the child who bets the family house; sits next to JenSON's 'SON' ad-lib from the [MASK] cut"
+   },
+   {
+    "play": "SoftBank",
+    "how": "a soft bank: the money that cushions every fall, or the bank that is soft on risk"
+   },
+   {
+    "play": "Vision Fund",
+    "how": "a fund named for vision, famous for a few blind spots (WeWork)"
+   },
+   {
+    "play": "Masa",
+    "how": "the nickname reads as 'mass' (scale, the whole stack) and as Spanish 'masa', dough to knead"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Sold the shovels early, then bought the whole mine back",
+    "readings": [
+     "the 2019 Nvidia sale and later AI spending",
+     "a gambler doubling down"
+    ]
+   },
+   {
+    "line": "Born to realize something ten thousand times smarter than me",
+    "readings": [
+     "Son's ASI mission",
+     "any parent talking about a child"
+    ]
+   },
+   {
+    "line": "The bank is soft, the bet is hard",
+    "readings": [
+     "SoftBank's name",
+     "the $40 billion OpenAI check"
+    ]
+   }
+  ],
+  "visuals": [
+   "a single-page slide with a 300-year plan",
+   "a cartoon Pepper robot (SoftBank's 2014 humanoid)",
+   "a red-and-white podium at a White House announcement",
+   "a stack of term sheets turning into a datacenter"
+  ],
+  "lexicon": [
+   {
+    "id": "asi",
+    "how": "the term he made SoftBank's stated mission"
+   },
+   {
+    "id": "bubble",
+    "how": "his bets are the first exhibit in every AI-bubble argument"
+   },
+   {
+    "id": "compute",
+    "how": "Stargate turns his money into compute"
+   },
+   {
+    "id": "datacenter",
+    "how": "the asset class he now buys by the gigawatt"
+   },
+   {
+    "id": "exponentials",
+    "how": "his 10,000x pitch is an exponential sold as destiny"
+   }
+  ],
+  "links": [
+   {
+    "id": "softbank",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "stargate",
+    "rel": "leads"
+   },
+   {
+    "id": "nvidia",
+    "rel": "invested-in"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "invested-in"
+   },
+   {
+    "id": "larry-ellison",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "smug"
+  ],
+  "risk": "deal sizes and completion dates differ across reports (Stargate funding progress was disputed in 2025); quote his 'born to realize ASI' line only as reported, and keep WeWork as a financial loss, never as a claim about character",
+  "notes": "The best scene is the double exit from Nvidia: he sold the shovel maker before the gold rush, then sold it again to buy a stake in the gold. One man as both ends of the bubble argument."
+ },
+ {
+  "id": "larry-ellison",
+  "what": {
+   "line": "Co-founder, chairman and CTO of Oracle, the database giant that became an AI cloud landlord through Stargate and a reported $300 billion OpenAI compute deal",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Larry Ellison",
+   "Ellison",
+   "Oracle"
+  ],
+  "aka": [
+   "Larry"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded Oracle in 1977; owns about 41% of it, the source of most of his fortune",
+    "url": "https://en.wikipedia.org/wiki/Larry_Ellison",
+    "date": "1977-06-16",
+    "confidence": "medium"
+   },
+   {
+    "claim": "on 2025-09-10 Oracle stock rose about 36% in a day (its biggest jump since 1992) after a backlog report tied to OpenAI, and Ellison briefly passed Elon Musk as the world's richest person at about $393 billion",
+    "url": "https://www.nbcnewyork.com/news/national-international/larry-ellison-worlds-richest-person-elon-musk/6389410/",
+    "date": "2025-09-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "the WSJ reported OpenAI agreed to buy about $300 billion of Oracle compute over roughly five years starting 2027",
+    "url": "https://www.pcgamer.com/hardware/oracles-usd300-billion-deal-with-openai-briefly-knocked-elon-musk-off-the-worlds-richest-person-spot-replaced-instead-by-the-companys-head-honcho-larry-ellison",
+    "date": "2025-09-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "stood at the White House Stargate announcement on 2025-01-21; Oracle is one of the three founding partners",
+    "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+    "date": "2025-01-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "at Oracle's September 2024 financial analyst meeting, described AI watching police bodycams and other cameras around the clock",
+    "url": "https://fortune.com/2024/09/17/oracle-larry-ellison-surveillance-state-police-ai",
+    "date": "2024-09-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "in September 2008 mocked cloud computing as fashion, saying Oracle had redefined it to include everything it already did; Oracle later rebuilt itself around cloud",
+    "url": "https://www.eweek.com/networking/oracle-ceo-larry-ellison-spits-on-cloud-computing-hype",
+    "date": "2008-09-26",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Citizens will be on their best behavior, because we're constantly recording and reporting everything that is going on",
+    "who": "Larry Ellison",
+    "where": "Oracle Financial Analyst Meeting Q&A, the week before Fortune's 2024-09-17 report",
+    "url": "https://fortune.com/2024/09/17/oracle-larry-ellison-surveillance-state-police-ai",
+    "date": "2024-09"
+   },
+   {
+    "text": "Every police officer is going to be supervised at all times, and if there's a problem, AI will report that problem",
+    "who": "Larry Ellison",
+    "where": "Oracle Financial Analyst Meeting Q&A (cited by Fortune via TechCrunch, 2024-09-17)",
+    "url": "https://fortune.com/2024/09/17/oracle-larry-ellison-surveillance-state-police-ai",
+    "date": "2024-09"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Oracle",
+    "how": "his company is named for the thing that answers questions about the future; collides with the lexicon's 'oracle' (a boxed AI that only answers)"
+   },
+   {
+    "play": "Ellison",
+    "how": "'Ellison' sounds like 'L-i-son' or 'Allison'; a sound bridge to Son and JenSON in a SON-chain hook"
+   },
+   {
+    "play": "Larry",
+    "how": "the plainest first name on the richest-man list: everyman name, emperor balance sheet"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Ask the Oracle what's coming. The Oracle says: more Oracle.",
+    "readings": [
+     "the company",
+     "the Delphic oracle",
+     "the AI-as-oracle idea"
+    ]
+   },
+   {
+    "line": "Best behavior, everybody: the camera never blinks",
+    "readings": [
+     "his 2024 surveillance remark",
+     "a parent's warning",
+     "a stage cue"
+    ]
+   },
+   {
+    "line": "Called the cloud a fashion, then rented out the sky",
+    "readings": [
+     "his 2008 cloud quote",
+     "Oracle's AI cloud boom"
+    ]
+   }
+  ],
+  "visuals": [
+   "the red Oracle wordmark on a server rack",
+   "a racing yacht with a black-and-red sail (Oracle Team USA, America's Cup)",
+   "a stock ticker line jumping 36% in one candle",
+   "a wall of bodycam feeds"
+  ],
+  "lexicon": [
+   {
+    "id": "oracle",
+    "how": "his company owns the word; the AI sense is an answer-only machine"
+   },
+   {
+    "id": "datacenter",
+    "how": "Oracle's AI turn is a datacenter business"
+   },
+   {
+    "id": "compute",
+    "how": "the $300 billion deal sells compute by the year"
+   },
+   {
+    "id": "bubble",
+    "how": "a 36% one-day jump on future contracts is a bubble talking point"
+   },
+   {
+    "id": "feed",
+    "how": "his surveillance vision is every camera feed read by AI"
+   }
+  ],
+  "links": [
+   {
+    "id": "oracle-corp",
+    "rel": "founded"
+   },
+   {
+    "id": "stargate",
+    "rel": "leads"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "rival"
+   },
+   {
+    "id": "masayoshi-son",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "risk": "net-worth rankings change daily: date any 'richest' line; the $300 billion figure is a WSJ report Oracle did not confirm in detail; quote the surveillance lines exactly with their date",
+  "notes": "A man who owns a company called Oracle saying everyone will be on their best behavior because everything is recorded: the name and the quote do the lyric's work together."
+ },
+ {
+  "id": "lisa-su",
+  "what": {
+   "line": "Chair and CEO of AMD since 2014, the engineer who turned a near-bankrupt chipmaker into Nvidia's main GPU rival and signed a 6-gigawatt deal with OpenAI",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Lisa Su",
+   "AMD",
+   "Instinct",
+   "MI300X"
+  ],
+  "aka": [
+   "Dr. Lisa Su"
+  ],
+  "receipts": [
+   {
+    "claim": "became AMD CEO in October 2014 with the stock near $3; it was near $140 by late 2024",
+    "url": "https://time.com/7200909/ceo-of-the-year-2024-lisa-su/",
+    "date": "2024-12-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "named TIME's 2024 CEO of the Year",
+    "url": "https://time.com/7200909/ceo-of-the-year-2024-lisa-su/",
+    "date": "2024-12-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "on 2025-10-06 AMD and OpenAI announced a deal for 6 gigawatts of AMD Instinct GPUs (first 1 GW of MI450 in 2H 2026) plus a warrant for OpenAI to buy up to 160 million AMD shares, about 10% of the company",
+    "url": "https://www.tomshardware.com/tech-industry/openai-and-amd-announce-multibillion-dollar-partnership-amd-to-supply-6-gigawatts-in-chips-openai-could-get-up-to-10-percent-of-amd-shares-in-return",
+    "date": "2025-10-06",
+    "confidence": "high"
+   },
+   {
+    "claim": "Su called Nvidia CEO Jensen Huang a distant relative in 2020; an Nvidia spokesperson confirmed the family tie to CNN in November 2023",
+    "url": "https://www.benzinga.com/news/23/11/35614606/a-family-affair-in-ai-the-deep-rooted-connection-between-nvidia-and-amd",
+    "date": "2023-11-04",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Su",
+    "how": "one syllable that sounds like 'sue' (litigation, a rival's threat) and 'sous' (second chef to Nvidia)"
+   },
+   {
+    "play": "AMD",
+    "how": "the initials read as 'a.m. D': the morning shift after Nvidia's night"
+   },
+   {
+    "play": "Instinct",
+    "how": "AMD's AI GPU brand: a chip named for the one thing machines are said to lack"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Same family tree, two branches, both selling you the forest",
+    "readings": [
+     "Su and Huang as distant relatives",
+     "two chip suppliers to every lab"
+    ]
+   },
+   {
+    "line": "She bought the underdog at three dollars and taught it to bite",
+    "readings": [
+     "AMD's stock arc",
+     "a rescue-dog story"
+    ]
+   },
+   {
+    "line": "Run on instinct, built from silicon",
+    "readings": [
+     "AMD's Instinct GPUs",
+     "the old human-versus-machine line"
+    ]
+   }
+  ],
+  "visuals": [
+   "a red AMD logo on a black GPU module held up on stage",
+   "an Instinct accelerator board under stage lights",
+   "two chip boxes side by side, one red, one green",
+   "a stock chart from $3 to triple digits"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "her whole story is a chip story"
+   },
+   {
+    "id": "compute",
+    "how": "the OpenAI deal is measured in gigawatts of compute"
+   },
+   {
+    "id": "race",
+    "how": "AMD vs Nvidia is the hardware race inside the AI race"
+   },
+   {
+    "id": "moat",
+    "how": "she is the attempt to cross Nvidia's CUDA moat"
+   },
+   {
+    "id": "power",
+    "how": "deals sized in gigawatts make electricity the unit of AI"
+   }
+  ],
+  "links": [
+   {
+    "id": "amd",
+    "rel": "leads"
+   },
+   {
+    "id": "nvidia",
+    "rel": "rival"
+   },
+   {
+    "id": "jensen-huang",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "tsmc",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "jobs"
+  ],
+  "registers": [
+   "defiant",
+   "hopeful"
+  ],
+  "risk": "the exact family degree with Jensen Huang is disputed (genealogist vs Su's own 'distant relative'); say 'distant relatives' only; the OpenAI warrant vests on milestones and share-price targets, so 'OpenAI owns 10% of AMD' would be false",
+  "notes": "The rival is family: the two companies that sell nearly every AI accelerator outside Google's TPUs are run by distant relatives from Tainan, a ready-made duet."
+ },
+ {
+  "id": "liang-wenfeng",
+  "what": {
+   "line": "Founder of the Chinese quant fund High-Flyer and of DeepSeek, whose low-cost open-weights R1 model set off the January 2025 'DeepSeek moment'",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Liang Wenfeng",
+   "DeepSeek",
+   "High-Flyer"
+  ],
+  "aka": [
+   "Liang"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded the quant hedge fund High-Flyer, which spun off DeepSeek as a separate company in 2023",
+    "url": "https://www.nbcsandiego.com/news/business/money-report/chinas-deepseek-has-taken-the-world-by-storm-here-are-the-brains-powering-the-ai-sensation/3757928",
+    "date": "2023-07-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "DeepSeek released R1 on 2025-01-20; on 2025-01-27 Nvidia lost about $589-593 billion of market value, the biggest one-day loss for any US company",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-loses-usd589-billion-in-market-cap-broad-stock-plunge-triggered-by-deepseek-ai-release",
+    "date": "2025-01-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "the only LLM founder at Premier Li Qiang's 2025-01-20 symposium, and attended Xi Jinping's private-enterprise symposium in February 2025",
+    "url": "https://businessinsider.nl/deepseeks-founder-is-being-hailed-in-china-as-an-ai-hero-of-guangdong-after-the-us-market-rout/",
+    "date": "2025-02-17",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the R1 paper was published in Nature on 2025-09-17, reporting a $294,000 reinforcement-learning training cost on 512 H800 chips, on top of a base model reported at about $6 million",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12443585/",
+    "date": "2025-09-17",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "moats created by closed source are temporary",
+    "who": "Liang Wenfeng",
+    "where": "interview with Waves (36Kr), July 2024, ChinaTalk translation",
+    "url": "https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas",
+    "date": "2024-11-27"
+   },
+   {
+    "text": "the real gap is the difference between originality and imitation",
+    "who": "Liang Wenfeng",
+    "where": "interview with Waves (36Kr), July 2024, ChinaTalk translation",
+    "url": "https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas",
+    "date": "2024-11-27"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "DeepSeek",
+    "how": "deep seek: a search engine verb, a submarine, and the 'deep' of deep learning"
+   },
+   {
+    "play": "High-Flyer",
+    "how": "the hedge fund's name pre-writes the Icarus line: a high flyer that made the chip stocks fall"
+   },
+   {
+    "play": "Liang",
+    "how": "rhymes with 'yang' and 'sang'; in Mandarin the surname also means 'beam' (a roof beam, a beam of light)"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Seek deep enough and the giants feel the floor move",
+    "readings": [
+     "DeepSeek's name",
+     "the January 2025 Nvidia drop"
+    ]
+   },
+   {
+    "line": "A moat you can copy is a puddle",
+    "readings": [
+     "his closed-source quote",
+     "a playground taunt"
+    ]
+   },
+   {
+    "line": "The quant fund priced the future, then shipped it free",
+    "readings": [
+     "High-Flyer to DeepSeek",
+     "open weights as a market move"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue whale logo (DeepSeek's mark)",
+   "a trading-floor screen of red tickers on 2025-01-27",
+   "an open-source download counter",
+   "a Nature journal cover"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "R1's open release is what made it a shock"
+   },
+   {
+    "id": "moat",
+    "how": "his best-known line says closed moats are temporary"
+   },
+   {
+    "id": "reinforcement-learning",
+    "how": "the Nature paper is an RL-for-reasoning paper"
+   },
+   {
+    "id": "distillation",
+    "how": "critics argued DeepSeek distilled from US models; DeepSeek released distilled small models itself"
+   },
+   {
+    "id": "race",
+    "how": "he is the face of the US-China AI race's 2025 turn"
+   },
+   {
+    "id": "chip",
+    "how": "built under US export limits on H800-class chips"
+   }
+  ],
+  "links": [
+   {
+    "id": "deepseek",
+    "rel": "founded"
+   },
+   {
+    "id": "deepseek-moment",
+    "rel": "made"
+   },
+   {
+    "id": "china",
+    "rel": "located-in"
+   },
+   {
+    "id": "nvidia",
+    "rel": "rival"
+   },
+   {
+    "id": "export-controls",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "defiant",
+   "awe"
+  ],
+  "risk": "training-cost figures are DeepSeek's own and exclude prior research and hardware; the distillation accusation is contested, so frame it as an accusation; quotes are translations, credit ChinaTalk",
+  "notes": "He almost never speaks in public, which makes him the quiet character in a cast of loud CEOs: the whale logo and the red ticker wall can tell his verse without his face."
+ },
+ {
+  "id": "peter-thiel",
+  "what": {
+   "line": "PayPal co-founder, Palantir chairman, Facebook's first outside investor and an early OpenAI funder, who in 2025 lectured that the Antichrist would arrive as a regulator of technology",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Peter Thiel",
+   "Thiel",
+   "Palantir",
+   "Founders Fund"
+  ],
+  "aka": [
+   "the PayPal Mafia don"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded PayPal in 1998 and was CEO until its 2002 sale to eBay for $1.5 billion; launched Palantir in 2003 and has chaired it since",
+    "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
+    "date": "2003",
+    "confidence": "medium"
+   },
+   {
+    "claim": "made the first outside investment in Facebook in August 2004: $500,000 for 10.2%",
+    "url": "https://fortune.com/2014/09/04/peter-thiels-contrarian-strategy",
+    "date": "2004-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "named among the backers who pledged $1 billion to found OpenAI as a nonprofit in December 2015",
+    "url": "https://www.philanthropy.com/news/tech-moguls-team-up-to-build-1-billion-artificial-intelligence-nonprofit/",
+    "date": "2015-12-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "confirmed in 2016 that he paid about $10 million to fund lawsuits against Gawker, including Hulk Hogan's, which won a $140 million jury award",
+    "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
+    "date": "2016-05",
+    "confidence": "medium"
+   },
+   {
+    "claim": "paused when Ross Douthat asked on the NYT 'Interesting Times' podcast whether he would prefer the human race to endure, before answering yes",
+    "url": "https://thenation.com/article/society/peter-thiel-billionaires-abandoning-humanity",
+    "date": "2025-06-26",
+    "confidence": "high"
+   },
+   {
+    "claim": "gave a sold-out, off-the-record four-part 'Antichrist' lecture series at San Francisco's Commonwealth Club from 2025-09-15, casting would-be regulators of AI and science as the Antichrist's allies",
+    "url": "https://www.ctvnews.ca/world/article/tech-billionaire-thiel-says-greta-thunberg-servant-of-antichrist/",
+    "date": "2025-10-10",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "There's so many questions implicit in this.",
+    "who": "Peter Thiel",
+    "where": "NYT 'Interesting Times' podcast with Ross Douthat, reply to whether humanity should endure (transcript quoted by The Nation)",
+    "url": "https://thenation.com/article/society/peter-thiel-billionaires-abandoning-humanity",
+    "date": "2025-06-26"
+   },
+   {
+    "text": "We wanted flying cars. Instead we got 140 characters.",
+    "who": "Founders Fund (Thiel's firm; manifesto attributed to partner Bruce Gibney, the line used as Thiel's motto)",
+    "where": "Founders Fund manifesto 'What Happened to the Future?' (2011 page now replaced; quoted by Virginia Postrel, Bloomberg View, 2012-12-15)",
+    "url": "https://www.vpostrel.com/articles/no-flying-cars-but-the-future-is-bright",
+    "date": "2011"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Palantir",
+    "how": "named for Tolkien's seeing-stones, which show the watcher what the stone's master wants seen; the data company owns surveillance and deception in one word"
+   },
+   {
+    "play": "Thiel",
+    "how": "sounds like 'steal' and 'teal'; the German 'Teil' (part) is one letter away"
+   },
+   {
+    "play": "Founders Fund",
+    "how": "a fund for founders, or the fund that founds the founders"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "He hesitated at the question every parent answers fast",
+    "readings": [
+     "the Douthat pause",
+     "a song about doubting the species"
+    ]
+   },
+   {
+    "line": "Look into the stone and the stone looks back at you",
+    "readings": [
+     "Tolkien's palantir",
+     "Palantir the company"
+    ]
+   },
+   {
+    "line": "Wanted flying cars, built a seeing-stone instead",
+    "readings": [
+     "the Founders Fund motto",
+     "Palantir's surveillance business"
+    ]
+   }
+  ],
+  "visuals": [
+   "a black glass orb on a stand (the Tolkien palantir)",
+   "a 2004 check for $500,000",
+   "a lectern under a 'The Antichrist' title slide",
+   "a flying-car sketch next to a 140-character text box"
+  ],
+  "lexicon": [
+   {
+    "id": "apocalypse",
+    "how": "his Antichrist lectures turn AI policy into end-times theology"
+   },
+   {
+    "id": "accelerationism",
+    "how": "he casts slowing tech as the real danger"
+   },
+   {
+    "id": "moat",
+    "how": "his 'competition is for losers' creed is a moat creed"
+   },
+   {
+    "id": "oracle",
+    "how": "Palantir is a seeing-stone that answers whoever owns it"
+   },
+   {
+    "id": "doomer",
+    "how": "he names AI doomers as the Antichrist's allies, inverting the doomer frame"
+   }
+  ],
+  "links": [
+   {
+    "id": "palantir",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "meta",
+    "rel": "invested-in"
+   },
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "rival"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "same-family"
+   },
+   {
+    "id": "marc-andreessen",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "species",
+   "wallet"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "risk": "the Antichrist lectures were off the record and reported from audio (WaPo, AFP); quote only reported lines, and keep his answer to Douthat as 'yes after a pause', never as 'no'; the Gawker funding is public record",
+  "notes": "The pause is the frame: a man who funds AI, surveillance and longevity, asked a yes-or-no question about humanity's future, takes a breath. A lyric can live inside that breath."
+ },
+ {
+  "id": "marc-andreessen",
+  "what": {
+   "line": "Co-author of the Mosaic browser, co-founder of Netscape and of the venture firm Andreessen Horowitz (a16z), and the loudest voice for techno-optimism and against AI regulation",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Andreessen",
+   "a16z",
+   "Netscape"
+  ],
+  "aka": [
+   "pmarca",
+   "Marc"
+  ],
+  "receipts": [
+   {
+    "claim": "co-created the Mosaic web browser in 1993 and co-founded Netscape, whose 1995 IPO opened the dot-com era",
+    "url": "https://en.wikipedia.org/wiki/Marc_Andreessen",
+    "date": "1995-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-founded Andreessen Horowitz in 2009 and wrote 'Why Software Is Eating the World' in the WSJ on 2011-08-20",
+    "url": "https://a16z.com/2011/08/20/why-software-is-eating-the-world/",
+    "date": "2011-08-20",
+    "confidence": "high"
+   },
+   {
+    "claim": "published 'Why AI Will Save the World', a ~7,000-word essay calling AI doom fears a category error, on 2023-06-06",
+    "url": "https://a16z.com/ai-will-save-the-world/",
+    "date": "2023-06-06",
+    "confidence": "high"
+   },
+   {
+    "claim": "published 'The Techno-Optimist Manifesto' on 2023-10-16, naming 'existential risk', 'sustainability' and 'ESG' among the ideas it calls enemies",
+    "url": "https://a16z.com/the-techno-optimist-manifesto/",
+    "date": "2023-10-16",
+    "confidence": "high"
+   },
+   {
+    "claim": "told Joe Rogan in late 2024 that Biden officials had said AI would be two or three big companies and that AI startups should not be funded; former officials and Sam Altman disputed his account",
+    "url": "https://a16z.com/podcast/marc-andreessen-on-ai-california-and-the-future-of-america-joe-rogan/",
+    "date": "2024-11",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We are being lied to.",
+    "who": "Marc Andreessen",
+    "where": "The Techno-Optimist Manifesto, opening line",
+    "url": "https://a16z.com/the-techno-optimist-manifesto/",
+    "date": "2023-10-16"
+   },
+   {
+    "text": "We believe Artificial Intelligence is our alchemy, our Philosopher's Stone",
+    "who": "Marc Andreessen",
+    "where": "The Techno-Optimist Manifesto",
+    "url": "https://a16z.com/the-techno-optimist-manifesto/",
+    "date": "2023-10-16"
+   },
+   {
+    "text": "we are literally making sand think",
+    "who": "Marc Andreessen",
+    "where": "The Techno-Optimist Manifesto (same sentence as the alchemy line)",
+    "url": "https://a16z.com/the-techno-optimist-manifesto/",
+    "date": "2023-10-16"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "a16z",
+    "how": "a numeronym: a, sixteen letters, z; the firm's name is itself a compression, like a token"
+   },
+   {
+    "play": "Netscape",
+    "how": "net-scape: the landscape of the net, with 'escape' hidden inside"
+   },
+   {
+    "play": "Andreessen",
+    "how": "sung fast it reads 'and reason': the man with one more reason for more"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "We are literally making sand think, and the sand bills hourly",
+    "readings": [
+     "his manifesto line",
+     "chip and inference economics"
+    ]
+   },
+   {
+    "line": "Software ate the world. Now it's ordering dessert.",
+    "readings": [
+     "his 2011 essay",
+     "AI as the next course"
+    ]
+   },
+   {
+    "line": "Alchemy again: turn sand to gold and doubters into enemies",
+    "readings": [
+     "the manifesto's alchemy line",
+     "its enemies list"
+    ]
+   }
+  ],
+  "visuals": [
+   "a manifesto scroll with 'We are being lied to' at the top",
+   "the Netscape 'N' with a meteor shower",
+   "a 1990s grey browser window loading",
+   "sand pouring into a chip wafer"
+  ],
+  "lexicon": [
+   {
+    "id": "accelerationism",
+    "how": "the manifesto is the founding text of tech-right acceleration"
+   },
+   {
+    "id": "doomer",
+    "how": "his essays exist to argue doomers down"
+   },
+   {
+    "id": "abundance",
+    "how": "his core promise for AI"
+   },
+   {
+    "id": "chip",
+    "how": "'making sand think' is the chip, said as poetry"
+   },
+   {
+    "id": "hype",
+    "how": "a VC whose essays move capital is the hype engine critics name"
+   }
+  ],
+  "links": [
+   {
+    "id": "meta",
+    "rel": "works-at"
+   },
+   {
+    "id": "character-ai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "silicon-valley",
+    "rel": "located-in"
+   },
+   {
+    "id": "peter-thiel",
+    "rel": "same-family"
+   },
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "defiant",
+   "smug",
+   "hopeful"
+  ],
+  "risk": "the Biden-meeting story is his account and is disputed by people present; frame it as his claim; quote manifesto lines exactly (in the original the 'sand' clause follows the alchemy clause after a dash); 'works-at Meta' = Meta board seat, check it is current before use",
+  "notes": "'We are literally making sand think' is the cleanest public sentence any AI booster has written: concrete, visual, and true in both the chip reading and the hype reading."
+ },
+ {
+  "id": "alexandr-wang",
+  "what": {
+   "line": "Founder of Scale AI, the data-labeling company behind much of AI's training data, who became Meta's first Chief AI Officer after Meta bought 49% of Scale in June 2025",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Alexandr Wang",
+   "Scale AI",
+   "Remotasks"
+  ],
+  "aka": [
+   "Alex Wang"
+  ],
+  "receipts": [
+   {
+    "claim": "left MIT to co-found Scale AI in 2016 at about 19; became the youngest self-made billionaire in 2021 at 24",
+    "url": "https://en.wikipedia.org/wiki/Alexandr_Wang",
+    "date": "2021",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Washington Post reported on 2023-08-28 on Scale's Remotasks contractors overseas under the headline 'Behind the AI boom, an army of overseas workers in digital sweatshops'",
+    "url": "https://en.wikipedia.org/wiki/Alexandr_Wang",
+    "date": "2023-08-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "ran a full-page Washington Post ad the day after the 2025 inauguration: 'Dear President Trump, America must win the AI war'",
+    "url": "https://techcrunch.com/2025/01/21/scale-ais-alexandr-wang-has-published-an-open-letter-lobbying-trump-to-invest-in-ai",
+    "date": "2025-01-21",
+    "confidence": "high"
+   },
+   {
+    "claim": "in June 2025 Meta invested about $14.3 billion for a non-voting 49% of Scale (valuing it at $29 billion) and hired Wang to lead Meta Superintelligence Labs as its first Chief AI Officer",
+    "url": "https://www.nasdaq.com/articles/meta-invests-143-bln-scale-ai-taps-ceo-alexandr-wang-lead-superintelligence-push",
+    "date": "2025-06-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "Scale co-built the 'Humanity's Last Exam' benchmark with the Center for AI Safety, released January 2025",
+    "url": "https://lastexam.ai/",
+    "date": "2025-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Dear President Trump, America must win the AI war",
+    "who": "Alexandr Wang",
+    "where": "full-page Washington Post ad (reported by Semafor)",
+    "url": "https://www.semafor.com/article/01/20/2025/scale-ai-ceo-alexandr-wang-to-trump-america-must-win-the-ai-war",
+    "date": "2025-01-21"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Scale",
+    "how": "his company's name is the AI field's master verb (scale up), a weighing scale (judging data), and a musical scale"
+   },
+   {
+    "play": "Alexandr",
+    "how": "the dropped 'e' makes the name look compressed, like a token that saved a byte"
+   },
+   {
+    "play": "Wang",
+    "how": "one syllable that rhymes with 'gang', 'bang', 'rang': an easy end-rhyme for a hook"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every smart machine was taught by hands you never paid",
+    "readings": [
+     "data-labeling labor",
+     "any apprentice story"
+    ]
+   },
+   {
+    "line": "He sold the scale, then the scale weighed him in billions",
+    "readings": [
+     "Scale AI's sale to Meta",
+     "the weighing scale"
+    ]
+   },
+   {
+    "line": "Run the scales till the music learns to sing",
+    "readings": [
+     "musical scales",
+     "scaling laws"
+    ]
+   }
+  ],
+  "visuals": [
+   "a full-page newspaper ad in bold serif: 'America must win the AI war'",
+   "rows of bounding boxes drawn around cars and stop signs",
+   "a laptop at a kitchen table with a task counter",
+   "a balance scale with data on one pan"
+  ],
+  "lexicon": [
+   {
+    "id": "label",
+    "how": "Scale's product is labels"
+   },
+   {
+    "id": "ground-truth",
+    "how": "labelers write the ground truth models learn from"
+   },
+   {
+    "id": "scaling",
+    "how": "the company is named for the field's master verb"
+   },
+   {
+    "id": "race",
+    "how": "his ad framed AI as a war with China"
+   },
+   {
+    "id": "asi",
+    "how": "he runs Meta's 'superintelligence' lab"
+   },
+   {
+    "id": "benchmark",
+    "how": "Humanity's Last Exam came out of Scale and CAIS"
+   }
+  ],
+  "links": [
+   {
+    "id": "scale-ai",
+    "rel": "founded"
+   },
+   {
+    "id": "meta",
+    "rel": "works-at"
+   },
+   {
+    "id": "mark-zuckerberg",
+    "rel": "works-at"
+   },
+   {
+    "id": "humanitys-last-exam",
+    "rel": "made"
+   },
+   {
+    "id": "china",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "defiant",
+   "ominous"
+  ],
+  "risk": "labor claims come from WaPo reporting on Remotasks contractors; attribute them and claim no illegal conduct; deal figures come from Reuters sources since Scale did not disclose them; check his Meta title is current before use",
+  "notes": "His fortune rests on the least glamorous job in AI (drawing boxes around stop signs), which makes him the bridge between the billion-dollar lab and the ten-cent task."
+ },
+ {
+  "id": "lee-sedol",
+  "what": {
+   "line": "South Korean Go master, 18-time international champion, who lost 1-4 to DeepMind's AlphaGo in March 2016, won game 4 with a famous move 78, and retired in 2019 citing AI",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Lee Sedol",
+   "Lee Se-dol",
+   "Lee Saedol"
+  ],
+  "aka": [],
+  "receipts": [
+   {
+    "claim": "lost the five-game Google DeepMind Challenge Match to AlphaGo 1-4 in Seoul, March 2016; the series included AlphaGo's 'Move 37' in game 2",
+    "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+    "date": "2016-03-15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "won game 4 with white move 78, a tesuji Gu Li called a 'divine move', the only game any human took off that AlphaGo version",
+    "url": "https://en.wikipedia.org/wiki/Lee_Sedol",
+    "date": "2016-03-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "held 18 international titles, second only to Lee Chang-ho",
+    "url": "https://en.wikipedia.org/wiki/Lee_Sedol",
+    "date": "2019-11-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced his retirement on 2019-11-19, telling Yonhap AI was 'an entity that cannot be defeated'",
+    "url": "https://en.yna.co.kr/view/AEN20191127004800315",
+    "date": "2019-11-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "told the New York Times in July 2024 that losing to AI meant his entire world was collapsing",
+    "url": "https://www.nytimes.com/2024/07/10/world/asia/lee-saedol-go-ai.html",
+    "date": "2024-07-10",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Even if I become the number one, there is an entity that cannot be defeated.",
+    "who": "Lee Sedol",
+    "where": "Yonhap interview on his retirement",
+    "url": "https://en.yna.co.kr/view/AEN20191127004800315",
+    "date": "2019-11-27"
+   },
+   {
+    "text": "Losing to A.I., in a sense, meant my entire world was collapsing",
+    "who": "Lee Sedol",
+    "where": "New York Times interview",
+    "url": "https://www.nytimes.com/2024/07/10/world/asia/lee-saedol-go-ai.html",
+    "date": "2024-07-10"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Sedol",
+    "how": "'dol' sounds like Korean 돌, 'stone', the Go piece itself; the name carries the board"
+   },
+   {
+    "play": "Lee",
+    "how": "a homophone of 'lee', the sheltered side out of the wind: the side of the board the storm passed by"
+   },
+   {
+    "play": "Move 78",
+    "how": "the human answer to Move 37: one number for each side of the story"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One stone you never saw coming: move seventy-eight",
+    "readings": [
+     "game 4's divine move",
+     "any comeback against the odds"
+    ]
+   },
+   {
+    "line": "Number one, and still something on the board you cannot beat",
+    "readings": [
+     "his retirement quote",
+     "living after AGI"
+    ]
+   },
+   {
+    "line": "He won one game, and that game was enough to be human",
+    "readings": [
+     "the 2016 series",
+     "a protest song"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Go board with a single white stone glowing at move 78",
+   "a black stone placed on the fifth line (Move 37)",
+   "a press-room table with a laptop and a monitor showing a board",
+   "a player's hand hovering, a stone held between two fingers"
+  ],
+  "lexicon": [
+   {
+    "id": "move-37",
+    "how": "he is the human on the other side of Move 37"
+   },
+   {
+    "id": "self-play",
+    "how": "the AlphaGo line that beat him led to self-play-only AlphaGo Zero"
+   },
+   {
+    "id": "reinforcement-learning",
+    "how": "AlphaGo was trained by reinforcement learning on top of human games"
+   },
+   {
+    "id": "capabilities",
+    "how": "his loss is the classic 'capabilities arrived early' story"
+   },
+   {
+    "id": "automation",
+    "how": "his retirement is the first famous 'AI ended my career' statement"
+   }
+  ],
+  "links": [
+   {
+    "id": "google-deepmind",
+    "rel": "rival"
+   },
+   {
+    "id": "demis-hassabis",
+    "rel": "rival"
+   },
+   {
+    "id": "garry-kasparov",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs",
+   "heart"
+  ],
+  "registers": [
+   "sad",
+   "defiant",
+   "awe"
+  ],
+  "risk": "keep 'Move 37' (AlphaGo, game 2) and 'Move 78' (Lee, game 4) apart; his 2024 quote is about his own world, avoid turning it into a statement on his health or life",
+  "notes": "The only person with a famous move against the famous move: Move 37 and Move 78 make a call and response a hook can use without a single name."
+ },
+ {
+  "id": "garry-kasparov",
+  "what": {
+   "line": "Russian-born chess world champion (1985-2000) who lost to IBM's Deep Blue in 1997, accused IBM of foul play, and later argued for human-machine 'centaur' teams",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Kasparov",
+   "Deep Blue"
+  ],
+  "aka": [
+   "Garry"
+  ],
+  "receipts": [
+   {
+    "claim": "became the youngest undisputed world champion at 22 on 1985-11-09, beating Anatoly Karpov 13-11",
+    "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+    "date": "1985-11-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "beat Deep Blue 4-2 in Philadelphia in February 1996, then lost the New York rematch 2.5-3.5 on 1997-05-11 after resigning game 6 in under twenty moves",
+    "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov",
+    "date": "1997-05-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "after game 2 (1997-05-04) accused IBM of cheating, suspecting human help behind 37.Be4, a move he found too subtle for a computer",
+    "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov",
+    "date": "1997-05-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "played the first 'advanced chess' match (human plus computer per side) against Veselin Topalov in León, Spain, June 1998, drawn 3-3",
+    "url": "https://en.wikipedia.org/wiki/Advanced_chess",
+    "date": "1998-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins' (PublicAffairs, 2017)",
+    "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+    "date": "2017",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Russia designated him a 'foreign agent' in 2022 for his opposition to Putin's government",
+    "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+    "date": "2022",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Weak human + machine + better process was superior to a strong computer alone",
+    "who": "Garry Kasparov",
+    "where": "'The Chess Master and the Computer', The New York Review of Books",
+    "url": "https://www.nybooks.com/articles/2010/02/11/the-chess-master-and-the-computer/",
+    "date": "2010-02-11"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Deep Blue",
+    "how": "the machine's name reads as sadness (blue) and depth (deep): the first AI that made a champion sad on TV; IBM is 'Big Blue'"
+   },
+   {
+    "play": "Kasparov",
+    "how": "'Kaspar' (Caspar), one of the three kings who followed a star: a king of the board brought low by a machine"
+   },
+   {
+    "play": "centaur",
+    "how": "his half-human, half-machine teams give the myth a job"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Too human to be a machine, he said, about the machine",
+    "readings": [
+     "his 1997 cheating accusation",
+     "every 'it can't be AI' reaction since"
+    ]
+   },
+   {
+    "line": "Deep blue: the color of the move that beat you",
+    "readings": [
+     "IBM's Deep Blue",
+     "sadness"
+    ]
+   },
+   {
+    "line": "Weak human, good machine, better process: the centaur wins",
+    "readings": [
+     "his NYRB line",
+     "a copilot ad"
+    ]
+   }
+  ],
+  "visuals": [
+   "a chess clock and a resigned king lying on its side",
+   "a black IBM cabinet tower with 'Deep Blue' on the side",
+   "a centaur chess piece",
+   "a man with his head in his hands under a 1997 broadcast banner"
+  ],
+  "lexicon": [
+   {
+    "id": "copilot",
+    "how": "his centaur idea is the copilot idea, twenty years early"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "advanced chess is a human-in-the-loop format"
+   },
+   {
+    "id": "black-box",
+    "how": "he demanded IBM's logs because the box would not explain itself"
+   },
+   {
+    "id": "deception",
+    "how": "his first reaction to a strong machine move was to suspect a hidden human"
+   },
+   {
+    "id": "compute",
+    "how": "Deep Blue won by brute-force search on custom chips"
+   }
+  ],
+  "links": [
+   {
+    "id": "ibm",
+    "rel": "rival"
+   },
+   {
+    "id": "lee-sedol",
+    "rel": "same-family"
+   },
+   {
+    "id": "demis-hassabis",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs",
+   "state"
+  ],
+  "registers": [
+   "defiant",
+   "sad"
+  ],
+  "risk": "the cheating claim was never proven; state it as his accusation; he is a political dissident with a Russian 'foreign agent' designation, so keep any political line to the public record",
+  "notes": "He is the first human whose reaction to a machine move was 'a human must have done it': the exact inverse of today's 'a machine must have written this'."
+ },
+ {
+  "id": "ada-lovelace",
+  "what": {
+   "line": "English mathematician (1815-1852) whose 1843 notes on Babbage's Analytical Engine hold the first published program and the first argument that machines cannot originate anything",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Lovelace",
+   "Ada Lovelace",
+   "Analytical Engine",
+   "Babbage"
+  ],
+  "aka": [
+   "Augusta Ada King, Countess of Lovelace"
+  ],
+  "receipts": [
+   {
+    "claim": "translated Luigi Menabrea's paper on the Analytical Engine and added seven notes (A-G), published September 1843 in Taylor's Scientific Memoirs under the initials 'AAL'",
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "date": "1843-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Note G gives a method for computing Bernoulli numbers, often called the first published computer program",
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "date": "1843-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Alan Turing answered her in 1950 as 'Lady Lovelace's Objection' in 'Computing Machinery and Intelligence'",
+    "url": "https://academic.oup.com/mind/article/LIX/236/433/986238",
+    "date": "1950-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "the US Department of Defense named its Ada programming language after her; the reference manual was approved on her birthday, 1980-12-10",
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "date": "1980-12-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Ada Lovelace Day, the second Tuesday of October since 2009, honors women in STEM",
+    "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "date": "2009",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The Analytical Engine has no pretensions whatever to originate anything.",
+    "who": "Ada Lovelace",
+    "where": "Notes on Menabrea's 'Sketch of the Analytical Engine', Note G (source has 'originate' in italics)",
+    "url": "https://www.fourmilab.ch/babbage/sketch.html",
+    "date": "1843-09"
+   },
+   {
+    "text": "compose elaborate and scientific pieces of music of any degree of complexity or extent",
+    "who": "Ada Lovelace",
+    "where": "Notes on Menabrea's 'Sketch of the Analytical Engine', Note A (on what the engine might do)",
+    "url": "https://www.fourmilab.ch/babbage/sketch.html",
+    "date": "1843-09"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Lovelace",
+    "how": "love-lace: love plus lace, and the Jacquard loom's punched lace cards that fed the Engine; a love song and a programming manual in one surname"
+   },
+   {
+    "play": "Ada",
+    "how": "a palindrome, the same read forward and back like a loop; also a programming language"
+   },
+   {
+    "play": "poetical science",
+    "how": "her own phrase for her method; the channel's whole genre in two words"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "She said the engine could write music. Here we are.",
+    "readings": [
+     "her 1843 note",
+     "an AI music video"
+    ]
+   },
+   {
+    "line": "No pretensions to originate anything, just like this song",
+    "readings": [
+     "the Lovelace objection",
+     "self-aware AI music"
+    ]
+   },
+   {
+    "line": "Lace the cards, weave the code, love the machine",
+    "readings": [
+     "Jacquard punch cards",
+     "her name",
+     "a love song"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Jacquard punched card",
+   "a brass Difference Engine gear column",
+   "a Victorian table of Bernoulli numbers (Note G's diagram)",
+   "a quill writing beside a pile of punched cards"
+  ],
+  "lexicon": [
+   {
+    "id": "algorithm",
+    "how": "Note G is the first published algorithm for a machine"
+   },
+   {
+    "id": "creator",
+    "how": "her objection asks whether a machine can create or only follow"
+   },
+   {
+    "id": "score",
+    "how": "she imagined the engine composing music"
+   },
+   {
+    "id": "loop",
+    "how": "Note G's method repeats a cycle of operations"
+   },
+   {
+    "id": "turing-test",
+    "how": "Turing's 1950 paper answers her by name"
+   }
+  ],
+  "links": [
+   {
+    "id": "alan-turing",
+    "rel": "inspired"
+   },
+   {
+    "id": "john-von-neumann",
+    "rel": "same-family"
+   },
+   {
+    "id": "suno",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "tender",
+   "awe"
+  ],
+  "risk": "historians dispute how much of the program was hers versus Babbage's; say 'published' and 'her notes', avoid 'invented programming'",
+  "notes": "She is the only figure in the atlas who predicted machine-composed music in writing, 183 years before an AI music video about AI. Open or close a song on her."
+ },
+ {
+  "id": "john-von-neumann",
+  "what": {
+   "line": "Hungarian-American mathematician (1903-1957) behind the stored-program computer design, game theory and self-reproducing automata, and the first person on record discussing a technological 'singularity'",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "von Neumann",
+   "Neumann"
+  ],
+  "aka": [
+   "Johnny",
+   "Neumann János"
+  ],
+  "receipts": [
+   {
+    "claim": "wrote the 'First Draft of a Report on the EDVAC' (dated 1945-06-30), the stored-program design now called the von Neumann architecture, with circuit elements modeled on McCulloch-Pitts neurons; it left co-designers Eckert and Mauchly off the authorship",
+    "url": "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC",
+    "date": "1945-06-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-wrote 'Theory of Games and Economic Behavior' with Oskar Morgenstern (Princeton, 1944), founding game theory",
+    "url": "https://en.wikipedia.org/wiki/Theory_of_Games_and_Economic_Behavior",
+    "date": "1944",
+    "confidence": "medium"
+   },
+   {
+    "claim": "on the Manhattan Project, built the mathematical models of the explosive lenses for the implosion bomb",
+    "url": "https://en.wikipedia.org/wiki/John_von_Neumann",
+    "date": "1945",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stanislaw Ulam's 1958 tribute recalls a conversation with him about technology approaching an 'essential singularity', the earliest recorded use of the idea",
+    "url": "https://en.wikipedia.org/wiki/Technological_singularity",
+    "date": "1958",
+    "confidence": "medium"
+   },
+   {
+    "claim": "his unfinished Silliman lectures were published after his death as 'The Computer and the Brain' (Yale, 1958); he died 1957-02-08 aged 53",
+    "url": "https://en.wikipedia.org/wiki/The_Computer_and_the_Brain",
+    "date": "1958",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "One conversation centered on the ever accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue.",
+    "who": "Stanislaw Ulam, recounting a conversation with von Neumann",
+    "where": "'John von Neumann, 1903-1957', Bulletin of the American Mathematical Society 64 (3, part 2), quoted on Wikiquote",
+    "url": "https://en.wikiquote.org/wiki/John_von_Neumann",
+    "date": "1958-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Neumann",
+    "how": "'neu Mann' is German for 'new man': the new man the singularity was meant to make"
+   },
+   {
+    "play": "von Neumann machine",
+    "how": "means both every ordinary computer and a self-replicating probe: the same name for your laptop and for a machine that copies itself across the galaxy"
+   },
+   {
+    "play": "game theory",
+    "how": "a whole science named 'game': the AI race as his game, played for real"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every machine you own still runs on a dead man's draft",
+    "readings": [
+     "the von Neumann architecture",
+     "a ghost story"
+    ]
+   },
+   {
+    "line": "The new man said the race was nearing a singularity",
+    "readings": [
+     "Neumann as 'new man'",
+     "Ulam's 1958 account",
+     "the AI race"
+    ]
+   },
+   {
+    "line": "He built the bomb's lens and the brain's first blueprint",
+    "readings": [
+     "Manhattan Project",
+     "the EDVAC draft"
+    ]
+   }
+  ],
+  "visuals": [
+   "a typed 1945 memo titled 'First Draft of a Report on the EDVAC'",
+   "a block diagram: memory, control, arithmetic, input, output",
+   "a payoff matrix on a chalkboard",
+   "a self-replicating probe copying itself in space"
+  ],
+  "lexicon": [
+   {
+    "id": "singularity",
+    "how": "the word's first recorded use in this sense comes from a conversation with him"
+   },
+   {
+    "id": "manhattan-project",
+    "how": "he worked on the project AI labs now compare themselves to"
+   },
+   {
+    "id": "neuron",
+    "how": "his computer design borrowed the McCulloch-Pitts neuron"
+   },
+   {
+    "id": "utility",
+    "how": "the von Neumann-Morgenstern utility theory underlies 'maximize expected utility'"
+   },
+   {
+    "id": "race",
+    "how": "game theory is the language of the AI race"
+   },
+   {
+    "id": "exponentials",
+    "how": "'ever accelerating progress' is the exponential, said in 1958"
+   }
+  ],
+  "links": [
+   {
+    "id": "alan-turing",
+    "rel": "same-family"
+   },
+   {
+    "id": "ada-lovelace",
+    "rel": "same-family"
+   },
+   {
+    "id": "ray-kurzweil",
+    "rel": "inspired"
+   },
+   {
+    "id": "united-states",
+    "rel": "located-in"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "the singularity line is Ulam's paraphrase of a conversation, so attribute it to Ulam recounting von Neumann; credit for the stored-program idea is shared with Eckert and Mauchly",
+  "notes": "The same surname names the computer under every AI and the self-copying probe that every 'AI fills the galaxy' scenario ends with: the start and the end of the story."
+ }
+]

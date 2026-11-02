@@ -1,0 +1,1558 @@
+[
+ {
+  "id": "fei-fei-li",
+  "what": {
+   "line": "Stanford computer scientist who built ImageNet, co-founded Stanford's Institute for Human-Centered AI and founded World Labs, a spatial-intelligence startup AMD agreed to buy in 2026",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Fei-Fei",
+   "Fei-Fei Li"
+  ],
+  "aka": [
+   "godmother of AI",
+   "Li Fei-Fei"
+  ],
+  "receipts": [
+   {
+    "claim": "the ImageNet paper (CVPR 2009) launched a database of 3.2 million labeled images in 5,247 categories, the set AlexNet broke open in 2012",
+    "url": "https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf",
+    "date": "2009-06-20",
+    "confidence": "high"
+   },
+   {
+    "claim": "founding co-director of Stanford HAI (Human-Centered AI), launched March 2019",
+    "url": "https://profiles.stanford.edu/fei-fei-li",
+    "date": "2019-03-18",
+    "confidence": "high"
+   },
+   {
+    "claim": "published the memoir 'The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI', November 2023",
+    "url": "https://profiles.stanford.edu/fei-fei-li",
+    "date": "2023-11-07",
+    "confidence": "high"
+   },
+   {
+    "claim": "World Labs released Marble, a world model that turns text or images into editable 3D worlds, to the public on 2025-11-12",
+    "url": "https://www.worldlabs.ai/blog",
+    "date": "2025-11-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "AMD agreed on 2026-09-28 to buy World Labs in an all-stock deal worth about $8.2 billion; Li to become AMD's executive vice president and chief scientist, reporting to Lisa Su; close expected by end of 2026 pending regulators",
+    "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+    "date": "2026-09-28",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Yet they remain wordsmiths in the dark; eloquent but inexperienced, knowledgeable but ungrounded.",
+    "who": "Fei-Fei Li",
+    "where": "essay 'From Words to Worlds' on her Substack, about large language models",
+    "url": "https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence",
+    "date": "2025-11-10"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Fei-Fei",
+    "how": "a doubled syllable: an echo, a loop, a name that repeats itself like a training epoch"
+   },
+   {
+    "play": "Li / see",
+    "how": "Li rhymes with 'see'; her memoir is 'The Worlds I See' and her life's work is teaching machines to see"
+   },
+   {
+    "play": "godmother",
+    "how": "the press title reads as fairy godmother: she waved a dataset and the pumpkin became deep learning"
+   },
+   {
+    "play": "ImageNet",
+    "how": "a net that catches images: a fishing net dragged through the internet"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Wordsmiths in the dark, eloquent, and never once inside a room",
+    "readings": [
+     "her essay on language models",
+     "any chatbot describing a world it never touched"
+    ]
+   },
+   {
+    "line": "She labeled the world so a machine could open its eyes",
+    "readings": [
+     "ImageNet and the 2012 vision breakthrough",
+     "a parent naming things for a child"
+    ]
+   },
+   {
+    "line": "The godmother sold the castle to the chip queen",
+    "readings": [
+     "World Labs bought by AMD under Lisa Su",
+     "a fairy tale ending"
+    ]
+   }
+  ],
+  "visuals": [
+   "a wall-sized mosaic of tiny labeled thumbnails (cat, dog, mushroom) like the ImageNet grid",
+   "a 3D world built from glowing splats, rotating in a browser window (Marble)",
+   "AMD's black-and-red logo over a Stanford cardinal-red banner"
+  ],
+  "lexicon": [
+   {
+    "id": "label",
+    "how": "ImageNet is the canonical hand-labeled dataset"
+   },
+   {
+    "id": "ground-truth",
+    "how": "her crowd-sourced labels became vision's ground truth"
+   },
+   {
+    "id": "benchmark",
+    "how": "the ImageNet challenge was the benchmark deep learning broke in 2012"
+   },
+   {
+    "id": "pixel",
+    "how": "her field begins at the pixel and ends at the world"
+   },
+   {
+    "id": "render",
+    "how": "Marble renders explorable worlds from a prompt"
+   },
+   {
+    "id": "environment",
+    "how": "World Labs builds environments that train robots"
+   }
+  ],
+  "links": [
+   {
+    "id": "imagenet",
+    "rel": "made"
+   },
+   {
+    "id": "amd",
+    "rel": "works-at"
+   },
+   {
+    "id": "lisa-su",
+    "rel": "works-at"
+   },
+   {
+    "id": "ilya-sutskever",
+    "rel": "inspired"
+   },
+   {
+    "id": "andrej-karpathy",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "hopeful"
+  ],
+  "risk": "the AMD deal was pending regulators as of asof; check it closed before a lyric says she works at AMD. ImageNet size varies by year (3.2 million images in the 2009 paper, 14 million plus later); name the year with the number",
+  "notes": "Her career runs from labeling pictures to building whole worlds, and her own phrase 'wordsmiths in the dark' hands a lyric a ready-made image for chatbots."
+ },
+ {
+  "id": "mira-murati",
+  "what": {
+   "line": "Former OpenAI chief technology officer, briefly its interim CEO in November 2023, who left in 2024 and founded Thinking Machines Lab",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Murati"
+  ],
+  "aka": [
+   "Mira"
+  ],
+  "receipts": [
+   {
+    "claim": "named OpenAI's interim CEO on 2023-11-17 when the board removed Sam Altman; Altman returned days later",
+    "url": "https://openai.com/index/openai-announces-leadership-transition/",
+    "date": "2023-11-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "in a Wall Street Journal video interview on 2024-03-13, asked whether Sora was trained on YouTube videos, she said she was not sure; Sora used 'publicly available data and licensed data'",
+    "url": "https://the-decoder.com/openai-cto-mira-murati-doesnt-know-what-data-sora-was-trained-on/",
+    "date": "2024-03-13",
+    "confidence": "high"
+   },
+   {
+    "claim": "announced her departure from OpenAI on 2024-09-25; chief research officer Bob McGrew and research VP Barret Zoph left the same day",
+    "url": "https://www.engadget.com/ai/cto-mira-murati-is-the-latest-leader-to-leave-openai-200230104.html",
+    "date": "2024-09-25",
+    "confidence": "high"
+   },
+   {
+    "claim": "Thinking Machines Lab raised a $2 billion seed round led by Andreessen Horowitz in July 2025, at about $12 billion post-money, one of the largest seed rounds on record",
+    "url": "https://www.maginative.com/article/former-openai-cto-mira-murati-raises-2b-for-thinking-machines-at-10b-valuation/",
+    "date": "2025-07-15",
+    "confidence": "high"
+   },
+   {
+    "claim": "Bloomberg reported 2026 talks to raise at about a $50 billion valuation; later reports put the talks above $40 billion; no close confirmed as of asof",
+    "url": "https://finance.yahoo.com/news/mira-muratis-thinking-machines-seeks-212328387.html",
+    "date": "2026-06-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "There's never an ideal time to step away from a place one cherishes, yet this moment feels right.",
+    "who": "Mira Murati",
+    "where": "post on X announcing she was leaving OpenAI (reported by Engadget)",
+    "url": "https://www.engadget.com/ai/cto-mira-murati-is-the-latest-leader-to-leave-openai-200230104.html",
+    "date": "2024-09-25"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Mira",
+    "how": "Spanish and Italian for 'look!': the woman who showed the world Sora's videos and could not say what the camera had seen"
+   },
+   {
+    "play": "Mir",
+    "how": "Russian for 'world' and 'peace', and a space station: a name built for an orbit"
+   },
+   {
+    "play": "Thinking Machines",
+    "how": "her lab reuses the name of Danny Hillis's 1980s supercomputer company, which went bankrupt in 1994: a brand with a ghost in it"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Mira means look; she wasn't sure what the camera saw",
+    "readings": [
+     "the Spanish word",
+     "the Sora training-data interview"
+    ]
+   },
+   {
+    "line": "Two days on the throne, then she built her own machine",
+    "readings": [
+     "interim CEO in the 2023 board crisis",
+     "founding Thinking Machines Lab"
+    ]
+   },
+   {
+    "line": "Thinking machines: a name somebody already went broke on",
+    "readings": [
+     "the 1990s supercomputer company",
+     "a $12 billion seed bet"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Connection Machine-style black cube wall of blinking red LEDs (the original Thinking Machines)",
+   "the Sora demo clip look: a woman walking a wet neon Tokyo street",
+   "an empty CEO chair with a sticky note reading 'interim'"
+  ],
+  "lexicon": [
+   {
+    "id": "training",
+    "how": "her most quoted moment is a question about training data"
+   },
+   {
+    "id": "frame",
+    "how": "Sora generates video frame by frame, and her career turned on a framed interview"
+   },
+   {
+    "id": "fork",
+    "how": "she forked out of OpenAI with a team and a seed round"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "works-at"
+   },
+   {
+    "id": "thinking-machines",
+    "rel": "founded"
+   },
+   {
+    "id": "openai-board-crisis",
+    "rel": "leads"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "defiant",
+   "hopeful"
+  ],
+  "risk": "her reported role in the 2023 board complaints about Altman rests on anonymous-source reporting; leave it out. Valuation talk is unconfirmed rumor until a round closes. The Sora answer shows she was unsure on camera, and it proves nothing about what data was used",
+  "notes": "Her first name is an imperative, 'look', which makes the Sora 'I'm not sure' moment a ready-made lyric turn."
+ },
+ {
+  "id": "greg-brockman",
+  "what": {
+   "line": "OpenAI co-founder and president, earlier Stripe's CTO, whose 2017 diary became evidence in Musk's 2026 lawsuit against OpenAI",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Brockman"
+  ],
+  "aka": [
+   "gdb"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded OpenAI, announced 2015-12-11, as its CTO; later president",
+    "url": "https://openai.com/index/introducing-openai/",
+    "date": "2015-12-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "removed as board chair on 2023-11-17, the day Altman was fired, and quit within hours; both returned within the week",
+    "url": "https://openai.com/index/openai-announces-leadership-transition/",
+    "date": "2023-11-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "he and his wife Anna gave $25 million to the pro-Trump super PAC MAGA Inc. in 2025 ($12.5 million each), its largest donors in the year-end FEC report",
+    "url": "https://www.notus.org/money/maga-megadonors-donald-trump-super-pac",
+    "date": "2026-01-31",
+    "confidence": "high"
+   },
+   {
+    "claim": "2017 diary entries surfaced in Musk v. OpenAI court papers, including 'This is the only chance we have to get out from Elon'",
+    "url": "https://techcentral.co.za/greg-brockmans-diary-takes-centre-stage-in-musk-vs-openai/280684/",
+    "date": "2026-04-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "on 2026-05-18 a federal jury in Oakland found Musk's claims against OpenAI, Altman and Brockman were filed too late; the judge adopted the advisory verdict and dismissed the case; Musk said he would appeal",
+    "url": "https://abc7news.com/post/musk-altman-verdict-reached-landmark-trial-artificial-intelligence/19125283/",
+    "date": "2026-05-18",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Financially, what will take me to $1B?",
+    "who": "Greg Brockman",
+    "where": "2017 diary entry revealed in Musk v. OpenAI court documents (reported by TechCentral)",
+    "url": "https://techcentral.co.za/greg-brockmans-diary-takes-centre-stage-in-musk-vs-openai/280684/",
+    "date": "2017"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Brock-man / broke man",
+    "how": "a billionaire whose surname sounds like 'broke man', and whose diary asked how to reach a billion"
+   },
+   {
+    "play": "gdb",
+    "how": "his handle is also the name of the GNU Debugger: a court stepping through his diary line by line is a debugging session"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Dear diary, what takes me to a billion? The jury heard",
+    "readings": [
+     "the 2017 diary read in the 2026 trial",
+     "any founder's private ambition"
+    ]
+   },
+   {
+    "line": "Broke man's diary, rich man's trial",
+    "readings": [
+     "the surname pun",
+     "Musk v. OpenAI"
+    ]
+   },
+   {
+    "line": "Debug the founder, step through every line he wrote at night",
+    "readings": [
+     "the gdb debugger",
+     "the diary as evidence"
+    ]
+   }
+  ],
+  "visuals": [
+   "a diary page blown up on a courtroom screen",
+   "a napkin sketch of a website turned into working code (his GPT-4 launch demo, 2023)",
+   "a debugger terminal paused on a red breakpoint"
+  ],
+  "lexicon": [
+   {
+    "id": "commit",
+    "how": "every diary line is a commit a court can read back"
+   },
+   {
+    "id": "fork",
+    "how": "the trial was about OpenAI's fork from nonprofit to for-profit"
+   },
+   {
+    "id": "terminal",
+    "how": "the engineer-president who demos straight from a terminal"
+   },
+   {
+    "id": "bug",
+    "how": "gdb hunts bugs; lawyers hunted his"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "founded"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "rival"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "smug",
+   "funny"
+  ],
+  "risk": "the jury ruled only that Musk sued too late and never reached the merits; never imply the diary proved wrongdoing. Donations are public FEC record; keep to amounts and dates. Reports conflict on his later Leading the Future super PAC gifts; leave them out",
+  "notes": "His handle gdb is a debugger's name, so the diary-in-court story reads as a founder being stepped through line by line."
+ },
+ {
+  "id": "chris-olah",
+  "what": {
+   "line": "Anthropic co-founder who leads its interpretability research, known for the 'circuits' picture of neural networks and for doing it all without an undergraduate degree",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Olah"
+  ],
+  "aka": [
+   "colah"
+  ],
+  "receipts": [
+   {
+    "claim": "left the University of Toronto after about a year, and in 2012 took a $100,000 Thiel Fellowship",
+    "url": "https://80000hours.org/podcast/episodes/chris-olah-unconventional-career-path/",
+    "date": "2012",
+    "confidence": "high"
+   },
+   {
+    "claim": "lead author of 'Zoom In: An Introduction to Circuits' (Distill, 2020-03-10), which argued networks can be read as features wired into circuits",
+    "url": "https://distill.pub/2020/circuits/zoom-in/",
+    "date": "2020-03-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "Anthropic's 'Scaling Monosemanticity' (May 2024) pulled up to 34 million features out of Claude 3 Sonnet; clamping a Golden Gate Bridge feature made 'Golden Gate Claude', public for a day on 2024-05-23",
+    "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/",
+    "date": "2024-05-21",
+    "confidence": "high"
+   },
+   {
+    "claim": "sat with Pope Leo XIV at the presentation of the Pope's first encyclical, on the dangers of AI, in late May 2026, and argued outsiders should oversee the industry",
+    "url": "https://fortune.com/2026/06/03/who-chris-olah-anthropic-cofounder-atheist-pope-leo-vatican-ai/",
+    "date": "2026-06-03",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Some might believe that matters of AI are best handled by computer scientists like myself.",
+    "who": "Chris Olah",
+    "where": "remarks at the Vatican presentation of Pope Leo XIV's encyclical 'Magnifica Humanitas', the week before Fortune's 2026-06-03 report",
+    "url": "https://fortune.com/2026/06/03/who-chris-olah-anthropic-cofounder-atheist-pope-leo-vatican-ai/",
+    "date": "2026-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Olah / hola",
+    "how": "an exact anagram of 'hola': hello from inside the network"
+   },
+   {
+    "play": "colah",
+    "how": "his blog handle reads as 'cola': fizzy, sweet, and full of diagrams"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Zoom in on the neuron, find a bridge inside its head",
+    "readings": [
+     "the circuits paper 'Zoom In'",
+     "Golden Gate Claude"
+    ]
+   },
+   {
+    "line": "Open the black box, a cathedral of circuits looks back",
+    "readings": [
+     "interpretability research",
+     "the Vatican encyclical visit"
+    ]
+   },
+   {
+    "line": "Hola from inside the network, a feature waves back",
+    "readings": [
+     "the anagram",
+     "sparse-autoencoder features lighting up"
+    ]
+   }
+  ],
+  "visuals": [
+   "feature-visualization images: swirling dog-eye and fur textures a single neuron 'wants' to see",
+   "the Golden Gate Bridge in fog, painted over a wiring diagram",
+   "hand-drawn circuit diagrams with neurons as dots and arrows"
+  ],
+  "lexicon": [
+   {
+    "id": "interpretability",
+    "how": "he is the field's best-known name"
+   },
+   {
+    "id": "circuit",
+    "how": "his 2020 paper made 'circuits' the field's unit"
+   },
+   {
+    "id": "feature",
+    "how": "features are what his team pulls out of a model"
+   },
+   {
+    "id": "superposition",
+    "how": "his team's 'Toy Models of Superposition' explained why neurons mean many things"
+   },
+   {
+    "id": "black-box",
+    "how": "his work is the case against calling models black boxes"
+   },
+   {
+    "id": "steering",
+    "how": "Golden Gate Claude was steering by clamping one feature"
+   }
+  ],
+  "links": [
+   {
+    "id": "anthropic",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "works-at"
+   },
+   {
+    "id": "google",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "tender"
+  ],
+  "risk": "low; interpretability papers have many authors, so credit 'his team' rather than him alone. The Thiel Fellowship ties him to Peter Thiel's program and nothing more",
+  "notes": "His field is looking inside the mind of a model, so any 'what's in your head' line can point at him, and Golden Gate Claude is the meme-ready proof."
+ },
+ {
+  "id": "jan-leike",
+  "what": {
+   "line": "Alignment researcher who co-led OpenAI's Superalignment team, quit in May 2024 saying safety had lost to products, and leads alignment science at Anthropic",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Leike"
+  ],
+  "aka": [],
+  "receipts": [
+   {
+    "claim": "co-author of 'Deep reinforcement learning from human preferences' (June 2017), a foundation of RLHF",
+    "url": "https://arxiv.org/abs/1706.03741",
+    "date": "2017-06-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "OpenAI announced Superalignment on 2023-07-05, co-led by Leike and Ilya Sutskever, with 20% of the compute it had secured, over four years",
+    "url": "https://openai.com/index/introducing-superalignment/",
+    "date": "2023-07-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "resigned and posted on 2024-05-17 that safety culture and processes had 'taken a backseat to shiny products'",
+    "url": "https://www.cio.com/article/2130038/ex-open-ai-researcher-jan-leike-joins-anthropic-amid-ai-safety-concerns.html",
+    "date": "2024-05-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "joined Anthropic on 2024-05-28 to work on scalable oversight, weak-to-strong generalization and automated alignment research",
+    "url": "https://www.cio.com/article/2130038/ex-open-ai-researcher-jan-leike-joins-anthropic-amid-ai-safety-concerns.html",
+    "date": "2024-05-28",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We are long overdue in getting incredibly serious about the implications of AGI",
+    "who": "Jan Leike",
+    "where": "post on X after resigning from OpenAI (reported by CIO)",
+    "url": "https://www.cio.com/article/2130038/ex-open-ai-researcher-jan-leike-joins-anthropic-amid-ai-safety-concerns.html",
+    "date": "2024-05-17"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Leike / like-a",
+    "how": "sounds like 'like': the man who taught models to learn from what humans like"
+   },
+   {
+    "play": "Jan",
+    "how": "January: a name that starts the calendar, for a man who left in May"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Taught it what we like; left when they liked shiny more",
+    "readings": [
+     "RLHF preference learning",
+     "his 2024 resignation"
+    ]
+   },
+   {
+    "line": "Twenty percent of the compute, promised in July, gone by May",
+    "readings": [
+     "the Superalignment pledge",
+     "the team's breakup"
+    ]
+   }
+  ],
+  "visuals": [
+   "a car's back seat piled with gift-wrapped shiny boxes",
+   "thumbs-up and thumbs-down rating buttons under a chat reply",
+   "a pie chart of GPUs with a 20% slice cut out"
+  ],
+  "lexicon": [
+   {
+    "id": "alignment",
+    "how": "his whole career title"
+   },
+   {
+    "id": "feedback",
+    "how": "co-invented learning from human feedback"
+   },
+   {
+    "id": "preference",
+    "how": "his 2017 paper learns from human preferences between two clips"
+   },
+   {
+    "id": "reward",
+    "how": "RLHF trains a reward model on those likes"
+   },
+   {
+    "id": "safety",
+    "how": "he quit over safety culture"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "his methods put a person in the training loop"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "works-at"
+   },
+   {
+    "id": "anthropic",
+    "rel": "works-at"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "defiant"
+  ],
+  "risk": "resignation lines are from his own posts; OpenAI disputed the framing. His current title varies across sources, so say 'leads alignment work at Anthropic'",
+  "notes": "One career holds both halves of the alignment story: he helped teach models to learn from human likes, then quit when the company liked products more."
+ },
+ {
+  "id": "leopold-aschenbrenner",
+  "what": {
+   "line": "Former OpenAI Superalignment researcher, fired in April 2024, who wrote the 2024 essay series 'Situational Awareness' and runs a hedge fund named after it",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Aschenbrenner",
+   "Leopold"
+  ],
+  "aka": [
+   "Situational Awareness"
+  ],
+  "receipts": [
+   {
+    "claim": "graduated from Columbia University as valedictorian at 19, in 2021",
+    "url": "https://en.wikipedia.org/wiki/Leopold_Aschenbrenner",
+    "date": "2021",
+    "confidence": "medium"
+   },
+   {
+    "claim": "fired by OpenAI in April 2024 over an alleged leak; he says a security memo he sent to the board was a major reason, and OpenAI says the firing was unrelated to it",
+    "url": "https://transformernews.ai/p/openai-employee-says-he-was-fired",
+    "date": "2024-06-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "published 'Situational Awareness: The Decade Ahead' in June 2024, forecasting AGI by 2027 and trillion-dollar compute clusters; dedicated to Ilya Sutskever",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "his fund Situational Awareness LP reported about $13.7 billion in notional 13F positions for Q1 2026, much of it put options on chip stocks, alongside power and data-center longs",
+    "url": "https://cointelegraph.com/news/situational-awareness-aschenbrenner-13f-ai-infrastructure-power-core-scientific",
+    "date": "2026-05-15",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "AGI by 2027 is strikingly plausible.",
+    "who": "Leopold Aschenbrenner",
+    "where": "'Situational Awareness', chapter 'From GPT-4 to AGI'",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/",
+    "date": "2024-06-04"
+   },
+   {
+    "text": "If you keep being surprised by AI capabilities, just start counting the OOMs.",
+    "who": "Leopold Aschenbrenner",
+    "where": "'Situational Awareness', chapter 'From GPT-4 to AGI'",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/",
+    "date": "2024-06-04"
+   },
+   {
+    "text": "You can see the future first in San Francisco.",
+    "who": "Leopold Aschenbrenner",
+    "where": "'Situational Awareness', introduction",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Aschen-brenner",
+    "how": "German 'Asche' (ash) plus 'Brenner' (burner): the ash-burner who forecast trillion-dollar fires of compute"
+   },
+   {
+    "play": "Situational Awareness",
+    "how": "an AI-safety term for a model that knows it is being tested, the title of his essay, and the name of his fund"
+   },
+   {
+    "play": "OOMs",
+    "how": "orders of magnitude, read aloud as 'ooms', a hum or a chant"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Count the OOMs, then short the chips you counted",
+    "readings": [
+     "his essay's method",
+     "his fund's put options"
+    ]
+   },
+   {
+    "line": "Situational awareness: the model knows it's tested, the fund knows it's priced",
+    "readings": [
+     "the AI-safety term",
+     "his essay and hedge fund"
+    ]
+   },
+   {
+    "line": "The ash-burner says the fire arrives in twenty twenty-seven",
+    "readings": [
+     "his surname in German",
+     "his AGI forecast"
+    ]
+   }
+  ],
+  "visuals": [
+   "a log-scale chart with a straight line climbing through labeled 'OOMs' to a 2027 marker",
+   "a trillion-dollar data-center campus glowing at dusk",
+   "an SEC filing page with a long column reading PUT"
+  ],
+  "lexicon": [
+   {
+    "id": "exponentials",
+    "how": "his whole case is a straight line on a log chart"
+   },
+   {
+    "id": "compute",
+    "how": "he counts progress in orders of magnitude of compute"
+   },
+   {
+    "id": "cluster",
+    "how": "he coined the 'trillion-dollar cluster' image"
+   },
+   {
+    "id": "agi",
+    "how": "'AGI by 2027' is his headline"
+   },
+   {
+    "id": "takeoff",
+    "how": "his essay sketches an intelligence explosion after AGI"
+   }
+  ],
+  "links": [
+   {
+    "id": "situational-awareness",
+    "rel": "made"
+   },
+   {
+    "id": "openai",
+    "rel": "works-at"
+   },
+   {
+    "id": "ilya-sutskever",
+    "rel": "inspired"
+   },
+   {
+    "id": "ai-2027",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "risk": "the firing reason is disputed; give both accounts. 13F figures are notional and show only reportable positions, never total assets or returns. He worked at OpenAI in the past; say 'former'",
+  "notes": "He made a forecast and then a fund on it, and 'count the OOMs' is already a chant."
+ },
+ {
+  "id": "daniel-kokotajlo",
+  "what": {
+   "line": "Former OpenAI governance researcher who gave up about $2 million in equity to keep his right to criticize the company, and lead author of the forecast scenario AI 2027",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Kokotajlo"
+  ],
+  "aka": [
+   "AI Futures Project"
+  ],
+  "receipts": [
+   {
+    "claim": "posted the forecast 'What 2026 Looks Like' on LessWrong in August 2021, years before the chatbot boom",
+    "url": "https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like",
+    "date": "2021-08-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "joined OpenAI in 2022, resigned in 2024 and refused a non-disparagement clause that would have cost him about $2 million in equity; named to the TIME100 AI list",
+    "url": "https://time.com/7012881/daniel-kokotajlo/",
+    "date": "2024-09-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "signed the 'Right to Warn' letter of 2024-06-04 (13 current and former frontier-lab employees), endorsed by Bengio, Hinton and Russell",
+    "url": "https://righttowarn.ai/",
+    "date": "2024-06-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "published AI 2027 on 2025-04-03 with Eli Lifland, Thomas Larsen and Romeo Dean (prose help from Scott Alexander); it has two endings, 'Race' and 'Slowdown'",
+    "url": "https://ai-2027.com/summary",
+    "date": "2025-04-03",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "2027 was our modal (most likely) year at the time of publication, our medians were somewhat longer.",
+    "who": "Daniel Kokotajlo and the AI 2027 co-authors",
+    "where": "AI 2027 'About' page",
+    "url": "https://ai-2027.com/about",
+    "date": "2025"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Koko",
+    "how": "the first syllables echo Koko, the gorilla taught sign language: a non-human mind learning our words"
+   },
+   {
+    "play": "AI 2027",
+    "how": "a title that is a date, a countdown and a deadline at once"
+   },
+   {
+    "play": "modal year",
+    "how": "statistics' 'mode' reads as a music mode or a mood: the most likely year sung in a minor key"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They priced his silence at two million; he kept talking",
+    "readings": [
+     "the OpenAI equity clause",
+     "any whistleblower story"
+    ]
+   },
+   {
+    "line": "Race ending or slowdown ending, pick one, the clock says twenty-seven",
+    "readings": [
+     "AI 2027's two endings",
+     "a choose-your-ending game"
+    ]
+   },
+   {
+    "line": "Most likely twenty-seven, the median's running a little late",
+    "readings": [
+     "the forecast's mode and median",
+     "a date who shows up late"
+    ]
+   }
+  ],
+  "visuals": [
+   "a road fork with two signs, 'RACE' and 'SLOWDOWN'",
+   "a 2027 wall calendar with one month circled in red",
+   "a stock certificate torn in half"
+  ],
+  "lexicon": [
+   {
+    "id": "race",
+    "how": "the US-China race drives one of AI 2027's endings"
+   },
+   {
+    "id": "takeoff",
+    "how": "the scenario is a month-by-month takeoff"
+   },
+   {
+    "id": "rsi",
+    "how": "AI 2027 turns on AIs automating AI research"
+   },
+   {
+    "id": "agi",
+    "how": "his forecasts put AGI within years"
+   }
+  ],
+  "links": [
+   {
+    "id": "ai-2027",
+    "rel": "made"
+   },
+   {
+    "id": "openai",
+    "rel": "works-at"
+   },
+   {
+    "id": "situational-awareness",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "jobs",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "panicked"
+  ],
+  "risk": "AI 2027 is a scenario; its authors say their medians were later than 2027 at publication, so never claim he predicted doom in 2027 for certain. The $2 million is TIME's approximation",
+  "notes": "His story carries a price tag ($2 million for the right to speak) and a date (2027), two hooks a chorus can count."
+ },
+ {
+  "id": "gary-marcus",
+  "what": {
+   "line": "Cognitive scientist, NYU professor emeritus and author, the best-known critic of the claim that scaling deep learning alone will reach general intelligence",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Gary Marcus"
+  ],
+  "aka": [
+   "Marcus on AI"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded the startup Geometric Intelligence, bought by Uber in December 2016; led Uber's AI lab briefly, leaving in March 2017",
+    "url": "https://en.wikipedia.org/wiki/Gary_Marcus",
+    "date": "2016-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-wrote 'Rebooting AI' (2019) with Ernest Davis and wrote 'Taming Silicon Valley' (MIT Press, 2024)",
+    "url": "https://en.wikipedia.org/wiki/Gary_Marcus",
+    "date": "2024",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'Deep Learning Is Hitting a Wall' in Nautilus on 2022-03-10, arguing for hybrid neural and symbolic AI",
+    "url": "https://nautil.us/deep-learning-is-hitting-a-wall-238440/",
+    "date": "2022-03-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "testified to the US Senate Judiciary subcommittee on 2023-05-16, beside Sam Altman and IBM's Christina Montgomery",
+    "url": "https://www.techpolicy.press/transcript-senate-judiciary-subcommittee-hearing-on-oversight-of-ai/",
+    "date": "2023-05-16",
+    "confidence": "high"
+   },
+   {
+    "claim": "after GPT-5's August 2025 release he wrote that even heavily scaled models 'still don't fully understand the concepts they are exposed to'",
+    "url": "https://en.wikipedia.org/wiki/Gary_Marcus",
+    "date": "2025-08",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Deep learning, which is fundamentally a technique for recognizing patterns, is at its best when all we need are rough-ready results, where stakes are low and perfect results optional.",
+    "who": "Gary Marcus",
+    "where": "'Deep Learning Is Hitting a Wall', Nautilus",
+    "url": "https://nautil.us/deep-learning-is-hitting-a-wall-238440/",
+    "date": "2022-03-10"
+   },
+   {
+    "text": "We have built machines that are like bulls in a China shop, powerful, reckless, and difficult to control.",
+    "who": "Gary Marcus",
+    "where": "US Senate Judiciary subcommittee hearing 'Oversight of A.I.' (rush transcript, Tech Policy Press)",
+    "url": "https://www.techpolicy.press/transcript-senate-judiciary-subcommittee-hearing-on-oversight-of-ai/",
+    "date": "2023-05-16"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Marcus / mark us",
+    "how": "the critic who grades every release: 'mark us', red pen in hand"
+   },
+   {
+    "play": "Gary / wary",
+    "how": "a one-letter rhyme with his whole stance"
+   },
+   {
+    "play": "Marcus on AI",
+    "how": "his newsletter's name reads as 'marks on AI', the red ink on each launch"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Deep learning hit a wall; the wall kept getting funded",
+    "readings": [
+     "his 2022 essay",
+     "the money that kept flowing"
+    ]
+   },
+   {
+    "line": "Bulls in a china shop, and he's the one holding the broom",
+    "readings": [
+     "his Senate testimony",
+     "the critic cleaning up after hype"
+    ]
+   },
+   {
+    "line": "Mark us wrong again, Gary, the red pen's running dry",
+    "readings": [
+     "the name pun",
+     "a skeptic grading each new model"
+    ]
+   }
+  ],
+  "visuals": [
+   "a rising line on a chart running into a brick wall",
+   "a red pen circling a chatbot's wrong answer",
+   "a bull mid-charge in a porcelain shop, plates in the air"
+  ],
+  "lexicon": [
+   {
+    "id": "hype",
+    "how": "his career is the counter-hype beat"
+   },
+   {
+    "id": "scaling",
+    "how": "he argues scaling alone will not get there"
+   },
+   {
+    "id": "hallucination",
+    "how": "his favorite exhibit against chatbots"
+   },
+   {
+    "id": "reasoning",
+    "how": "he says models imitate reasoning without robust understanding"
+   },
+   {
+    "id": "bubble",
+    "how": "he has called the AI money a bubble"
+   },
+   {
+    "id": "winter",
+    "how": "the skeptic's forecast is another AI winter"
+   }
+  ],
+  "links": [
+   {
+    "id": "sam-altman",
+    "rel": "rival"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "defiant",
+   "smug"
+  ],
+  "risk": "his predictions are argued over in both directions; quote his dated claims and never sum him up as 'always wrong' or 'always right'. The Senate quote comes from a rush transcript; check the hearing video before release",
+  "notes": "He is the genre's resident skeptic, and his own title 'hitting a wall' is the obvious hook."
+ },
+ {
+  "id": "emily-bender",
+  "what": {
+   "line": "University of Washington linguist who co-wrote 'On the Dangers of Stochastic Parrots' (2021) and 'The AI Con' (2025), the sharpest academic critic of language-model hype",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Emily Bender",
+   "Emily M. Bender"
+  ],
+  "aka": [
+   "the Bender Rule"
+  ],
+  "receipts": [
+   {
+    "claim": "on the University of Washington linguistics faculty since 2003; directs its Computational Linguistics Laboratory",
+    "url": "https://en.wikipedia.org/wiki/Emily_M._Bender",
+    "date": "2003",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-wrote 'Climbing towards NLU' with Alexander Koller (ACL 2020), the 'octopus' argument that a model trained only on form cannot learn meaning",
+    "url": "https://aclanthology.org/2020.acl-main.463/",
+    "date": "2020-07",
+    "confidence": "high"
+   },
+   {
+    "claim": "lead author of 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?', presented at ACM FAccT in March 2021 with Timnit Gebru, Angelina McMillan-Major and 'Shmargaret Shmitchell'",
+    "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+    "date": "2021-03-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "the 'Bender Rule': always name the language you are working with",
+    "url": "https://en.wikipedia.org/wiki/Emily_M._Bender",
+    "date": "2019",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'The AI Con' with sociologist Alex Hanna (Harper, 2025)",
+    "url": "https://en.wikipedia.org/wiki/Emily_M._Bender",
+    "date": "2025",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data, according to probabilistic information about how they combine, but without any reference to meaning: a stochastic parrot.",
+    "who": "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell",
+    "where": "'On the Dangers of Stochastic Parrots', FAccT '21, section 6",
+    "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+    "date": "2021-03-03"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Bender",
+    "how": "a binge, a metal-bender, and Futurama's lying, thieving robot: the anti-hype scholar shares a name with TV's most famous misbehaving machine"
+   },
+   {
+    "play": "the Bender Rule",
+    "how": "sounds like one of Asimov's laws of robotics, and it is a rule for the humans"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A trillion feathers and the parrot still don't know the word",
+    "readings": [
+     "the stochastic parrot",
+     "the scale argument"
+    ]
+   },
+   {
+    "line": "Name the language, she said, every time you speak of it",
+    "readings": [
+     "the Bender Rule",
+     "a demand for precise words about AI"
+    ]
+   },
+   {
+    "line": "The octopus on the cable learned our words, never our island",
+    "readings": [
+     "her 2020 thought experiment",
+     "a chatbot reading the internet"
+    ]
+   }
+  ],
+  "visuals": [
+   "a parrot perched on a blinking server rack",
+   "an octopus wrapped round an undersea cable, listening",
+   "a carnival barker's stage with a curtain over a machine"
+  ],
+  "lexicon": [
+   {
+    "id": "stochastic-parrot",
+    "how": "she coined the term"
+   },
+   {
+    "id": "hype",
+    "how": "her podcast and book target AI hype directly"
+   },
+   {
+    "id": "next-token",
+    "how": "'stitching together sequences' by probability is next-token prediction"
+   },
+   {
+    "id": "sampling",
+    "how": "the 'stochastic' in the parrot is sampling"
+   }
+  ],
+  "links": [
+   {
+    "id": "timnit-gebru",
+    "rel": "same-family"
+   },
+   {
+    "id": "gary-marcus",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "defiant",
+   "funny"
+  ],
+  "risk": "Futurama's Bender is a Disney-owned character: use the pun in words, never the robot's design. Quote the parrot definition whole; cut short it reads as a jab at users",
+  "notes": "She coined the most-used insult for language models, and her surname is already a famous robot's name."
+ },
+ {
+  "id": "timnit-gebru",
+  "what": {
+   "line": "Computer scientist who co-wrote the Gender Shades audit and 'Stochastic Parrots', left Google's Ethical AI team in a disputed exit in December 2020, and founded the DAIR Institute",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Gebru",
+   "Timnit"
+  ],
+  "aka": [
+   "DAIR"
+  ],
+  "receipts": [
+   {
+    "claim": "'Gender Shades' (2018, with Joy Buolamwini) found commercial face-analysis systems misclassified darker-skinned women at error rates up to 34.7%, against at most 0.8% for lighter-skinned men",
+    "url": "https://proceedings.mlr.press/v81/buolamwini18a.html",
+    "date": "2018-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "left Google in December 2020 after a dispute over the Stochastic Parrots paper; she says she was fired, Google says it 'accepted her resignation'",
+    "url": "https://en.wikipedia.org/wiki/Timnit_Gebru",
+    "date": "2020-12-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "founded the Distributed AI Research Institute (DAIR) on 2021-12-02, one year after the Google exit",
+    "url": "https://en.wikipedia.org/wiki/Timnit_Gebru",
+    "date": "2021-12-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "named to the TIME100 most influential people, 2022; co-founded the group Black in AI with Rediet Abebe",
+    "url": "https://en.wikipedia.org/wiki/Timnit_Gebru",
+    "date": "2022",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-wrote 'The TESCREAL bundle' with Emile P. Torres (First Monday, 2024-04-14), tying the AGI project to eugenics-era ideas",
+    "url": "https://firstmonday.org/ojs/index.php/fm/article/view/13636",
+    "date": "2024-04-14",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Why, then, is building AGI often framed as an unquestioned goal in the field of AI?",
+    "who": "Timnit Gebru and Émile P. Torres",
+    "where": "abstract of 'The TESCREAL bundle', First Monday",
+    "url": "https://firstmonday.org/ojs/index.php/fm/article/view/13636",
+    "date": "2024-04-14"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "DAIR / dare",
+    "how": "her institute's acronym is a dare"
+   },
+   {
+    "play": "Gender Shades",
+    "how": "sunglasses and skin tones at once: the camera can't see past the shade"
+   },
+   {
+    "play": "TESCREAL",
+    "how": "her coined acronym, sung, sounds like 'test, scream, real'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Up to thirty-four point seven percent wrong, if your face is darker",
+    "readings": [
+     "the Gender Shades result",
+     "any camera that fails you"
+    ]
+   },
+   {
+    "line": "She wrote the paper, and the company wrote her out",
+    "readings": [
+     "Stochastic Parrots and the Google exit",
+     "authorship and erasure"
+    ]
+   },
+   {
+    "line": "I DAIR you: build it somewhere they can't fire you",
+    "readings": [
+     "the DAIR acronym",
+     "independent research after Google"
+    ]
+   }
+  ],
+  "visuals": [
+   "a pair of sunglasses reflecting a grid of faces with green and red detection boxes",
+   "a face-tracking box that never locks on",
+   "an email inbox with 'resignation accepted' as the subject line"
+  ],
+  "lexicon": [
+   {
+    "id": "bias",
+    "how": "Gender Shades measured bias with a number"
+   },
+   {
+    "id": "label",
+    "how": "the audit rebuilt labels the vendors got wrong"
+   },
+   {
+    "id": "eval",
+    "how": "Gender Shades is an eval done from outside the company"
+   },
+   {
+    "id": "stochastic-parrot",
+    "how": "she co-wrote the paper that named it"
+   },
+   {
+    "id": "agi",
+    "how": "TESCREAL questions why AGI is the goal at all"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "works-at"
+   },
+   {
+    "id": "emily-bender",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "state",
+   "mind"
+  ],
+  "registers": [
+   "defiant",
+   "sad"
+  ],
+  "risk": "the Google exit is disputed: Google says it accepted a resignation, she says she was fired; state both. TESCREAL is a contested label; attribute it to her and Torres",
+  "notes": "Gender Shades gives a lyric an exact, checkable number (34.7% against 0.8%), and DAIR already reads as 'dare'."
+ },
+ {
+  "id": "stuart-russell",
+  "what": {
+   "line": "UC Berkeley computer scientist, co-author of the standard AI textbook and of 'Human Compatible', who argues machines should stay uncertain about what humans want",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Stuart Russell"
+  ],
+  "aka": [
+   "Russell and Norvig"
+  ],
+  "receipts": [
+   {
+    "claim": "co-wrote 'Artificial Intelligence: A Modern Approach' with Peter Norvig, now in a 4th edition and adopted by over 1,500 schools",
+    "url": "https://aima.cs.berkeley.edu/",
+    "date": "2020",
+    "confidence": "high"
+   },
+   {
+    "claim": "founded Berkeley's Center for Human-Compatible AI (CHAI) in 2016",
+    "url": "https://en.wikipedia.org/wiki/Stuart_J._Russell",
+    "date": "2016",
+    "confidence": "medium"
+   },
+   {
+    "claim": "worked with the Future of Life Institute on 'Slaughterbots' (2017), a short film about swarms of autonomous killer drones",
+    "url": "https://en.wikipedia.org/wiki/Stuart_J._Russell",
+    "date": "2017-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'Human Compatible: AI and the Problem of Control' (Viking, 2019-10-08)",
+    "url": "https://en.wikipedia.org/wiki/Human_Compatible",
+    "date": "2019-10-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "gave the BBC Reith Lectures 'Living with Artificial Intelligence' and was made an OBE, both in 2021",
+    "url": "https://en.wikipedia.org/wiki/Stuart_J._Russell",
+    "date": "2021",
+    "confidence": "medium"
+   },
+   {
+    "claim": "signed the 2023 'Pause Giant AI Experiments' letter and endorsed the 2024 'Right to Warn' letter",
+    "url": "https://righttowarn.ai/",
+    "date": "2024-06-04",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The machine's only objective is to maximize the realization of human preferences.",
+    "who": "Stuart Russell",
+    "where": "'Human Compatible', first of his three principles for beneficial machines (quoted on the 80,000 Hours podcast episode page)",
+    "url": "https://80000hours.org/podcast/episodes/stuart-russell-human-compatible-ai/",
+    "date": "2019-10-08"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Stuart / steward",
+    "how": "the name comes from 'steward', the servant who keeps the house: his whole thesis for machines"
+   },
+   {
+    "play": "Russell / rustle",
+    "how": "the sound of a warning in the grass before anything is seen"
+   },
+   {
+    "play": "Russell and Norvig",
+    "how": "a double act every computer science student knows as one name, like a band"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The only objective is what you prefer, and it isn't sure",
+    "readings": [
+     "his first principle",
+     "a good partner's humility"
+    ]
+   },
+   {
+    "line": "He wrote the textbook, then wrote the warning label",
+    "readings": [
+     "AIMA",
+     "Human Compatible"
+    ]
+   },
+   {
+    "line": "Ask before you touch the gold, the steward told the king",
+    "readings": [
+     "the King Midas problem of wrong objectives",
+     "the steward pun"
+    ]
+   }
+  ],
+  "visuals": [
+   "a doorstop-thick textbook on a student's desk",
+   "a swarm of palm-sized drones over a lecture hall (Slaughterbots)",
+   "King Midas's hand turning a bread roll to gold"
+  ],
+  "lexicon": [
+   {
+    "id": "objective",
+    "how": "his critique targets fixed objectives"
+   },
+   {
+    "id": "preference",
+    "how": "his machines optimize human preferences they are unsure about"
+   },
+   {
+    "id": "off-switch",
+    "how": "his group's off-switch game: an uncertain machine lets you turn it off"
+   },
+   {
+    "id": "alignment",
+    "how": "Human Compatible is an alignment book for the general reader"
+   },
+   {
+    "id": "corrigibility",
+    "how": "uncertainty about goals is his route to a correctable machine"
+   },
+   {
+    "id": "utility",
+    "how": "the textbook frames agents as utility maximizers, the frame he later warned about"
+   }
+  ],
+  "links": [
+   {
+    "id": "yoshua-bengio",
+    "rel": "same-family"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "pause-letter",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "hopeful"
+  ],
+  "risk": "low; credit Peter Norvig on the textbook. 'King Midas problem' is his framing in talks; paraphrase it rather than quoting",
+  "notes": "He wrote the book on AI and then a book on why its standard objective is dangerous: the insider who turned warner."
+ }
+]

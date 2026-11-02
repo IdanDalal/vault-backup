@@ -35,6 +35,6 @@ Kinds (closed): person, company, lab, institution, place, law, event, work-film,
 
 ## Rules
 
-1. Every receipt and quote is web-checked when written; unverifiable = `low` or left out.
+1. Every receipt and quote is web-checked when written; unverifiable = `low` or left out. Confidence: high = primary source; medium = reliable secondary (a Wikipedia-only receipt caps at medium, applied 2026-11-02); low = unverified.
 2. Living people: commentary on public acts with receipts; no invented quotes, no claims about private life.
 3. Facts age: the `asof` date is on every card; a card older than 90 days is re-checked before use in a lyric.

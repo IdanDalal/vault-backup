@@ -1,0 +1,1858 @@
+[
+ {
+  "id": "openai",
+  "what": {
+   "line": "The San Francisco lab that launched ChatGPT in 2022; founded as a nonprofit in 2015, now a public benefit corporation controlled by the OpenAI Foundation",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "OpenAI",
+   "ChatGPT",
+   "GPT-4",
+   "GPT-4o",
+   "GPT-5",
+   "Sora",
+   "DALL-E",
+   "Codex"
+  ],
+  "aka": [
+   "Open AI",
+   "OpenAI Group PBC",
+   "the OpenAI Foundation",
+   "ClosedAI (critics' nickname)"
+  ],
+  "receipts": [
+   {
+    "claim": "announced 2015-12-11 as a nonprofit AI research company, co-chaired by Sam Altman and Elon Musk",
+    "url": "https://openai.com/index/introducing-openai/",
+    "date": "2015-12-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "ChatGPT launched 2022-11-30 and passed 1 million users on 2022-12-05, per Altman",
+    "url": "https://www.entrepreneur.com/en-in/news-and-trends/internet-sensation-chatgpt-crosses-1-million-users-in-5-days/440390",
+    "date": "2022-12-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "recapitalized 2025-10-28: for-profit became OpenAI Group PBC under the OpenAI Foundation (about 26%); Microsoft holds about 27%; deal valued OpenAI at $500B",
+    "url": "https://www.aljazeera.com/economy/2025/10/28/openai-restructures-into-public-benefit-firm-microsoft-takes-27-stake",
+    "date": "2025-10-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "closed $122B round at $852B post-money valuation on 2026-03-31 (SoftBank, a16z co-led; Amazon about $50B); said 900M+ weekly ChatGPT users and $2B revenue a month",
+    "url": "https://builtin.com/articles/openai-raises-122b-852b-valuation-20260401",
+    "date": "2026-03-31",
+    "confidence": "medium"
+   },
+   {
+    "claim": "New York Times sued OpenAI and Microsoft for copyright infringement on 2023-12-27 (S.D.N.Y. 1:23-cv-11195)",
+    "url": "https://amp.insurancejournal.com/news/national/2023/12/27/753363.htm",
+    "date": "2023-12-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "a jury in Oakland rejected Elon Musk's suit against Altman, Brockman, the OpenAI Foundation and Microsoft as time-barred on 2026-05-18; Musk said he would appeal",
+    "url": "https://www.aljazeera.com/news/2026/5/18/elon-musk-loses-lawsuit-against-openai",
+    "date": "2026-05-18",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "highly autonomous systems that outperform humans at most economically valuable work",
+    "who": "OpenAI Charter",
+    "where": "the Charter's definition of AGI",
+    "url": "https://openai.com/charter/",
+    "date": "2018-04-09"
+   },
+   {
+    "text": "ChatGPT launched on wednesday. today it crossed 1 million users!",
+    "who": "Sam Altman",
+    "where": "post on X (then Twitter)",
+    "url": "https://www.entrepreneur.com/en-in/news-and-trends/internet-sensation-chatgpt-crosses-1-million-users-in-5-days/440390",
+    "date": "2022-12-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Open",
+    "how": "the name promised openness; critics point at closed weights and call it ClosedAI"
+   },
+   {
+    "play": "GPT",
+    "how": "Generative Pre-trained Transformer, and economists' 'general purpose technology': two GPTs in one acronym"
+   },
+   {
+    "play": "Chat",
+    "how": "the product is named for small talk; the company is valued like a utility"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Open by name, closed by weight",
+    "readings": [
+     "the company name vs closed model weights",
+     "a heavy secret kept shut"
+    ]
+   },
+   {
+    "line": "It launched on a Wednesday and the week never ended",
+    "readings": [
+     "ChatGPT launch week",
+     "a release that never stopped shipping"
+    ]
+   },
+   {
+    "line": "A nonprofit heart inside a trillion-dollar chest",
+    "readings": [
+     "the Foundation controlling the PBC",
+     "a person whose ideals sit inside ambition"
+    ]
+   }
+  ],
+  "visuals": [
+   "a six-fold looped knot logo, black on white (trademark: suggest by shape, never copy)",
+   "a blinking cursor in an empty chat box",
+   "a white-walled San Francisco office lobby",
+   "a ChatGPT reply streaming word by word"
+  ],
+  "lexicon": [
+   {
+    "id": "gpt",
+    "how": "OpenAI named and popularized the GPT series"
+   },
+   {
+    "id": "agi",
+    "how": "the Charter defines AGI by economically valuable work"
+   },
+   {
+    "id": "release",
+    "how": "the ChatGPT release is the industry's year zero"
+   },
+   {
+    "id": "open-weights",
+    "how": "the name invites the open vs closed weights fight"
+   },
+   {
+    "id": "assistant",
+    "how": "ChatGPT made 'assistant' the default shape of AI"
+   }
+  ],
+  "links": [
+   {
+    "id": "sam-altman",
+    "rel": "leads"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "founded"
+   },
+   {
+    "id": "microsoft",
+    "rel": "invested-in"
+   },
+   {
+    "id": "anthropic",
+    "rel": "rival"
+   },
+   {
+    "id": "chatgpt-launch",
+    "rel": "made"
+   },
+   {
+    "id": "openai-board-crisis",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet",
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "smug"
+  ],
+  "risk": "valuation, user and revenue numbers change monthly: cite the date; the Musk appeal and NYT case are live litigation, state outcomes as of asof only; logo and 'ChatGPT' are trademarks",
+  "notes": "The arc from 'non-profit research company' to an $852B valuation is the cleanest rise-and-turn story in the field; one line of the 2015 post against one number from 2026 tells it."
+ },
+ {
+  "id": "anthropic",
+  "what": {
+   "line": "The San Francisco lab that makes Claude, founded in 2021 by former OpenAI researchers led by Dario and Daniela Amodei, organized as a public benefit corporation",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Anthropic",
+   "Claude",
+   "Claude Code",
+   "Claude Opus",
+   "Claude Sonnet",
+   "Claude Haiku",
+   "Claude Mythos"
+  ],
+  "aka": [
+   "Anthropic PBC",
+   "the safety lab",
+   "makers of Claude"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2021 by former OpenAI staff including Dario Amodei (CEO) and Daniela Amodei (president); a Delaware public benefit corporation",
+    "url": "https://en.wikipedia.org/wiki/Anthropic",
+    "date": "2021",
+    "confidence": "medium"
+   },
+   {
+    "claim": "agreed to pay $1.5B to settle Bartz v. Anthropic over pirated books (about $3,000 per work); called the largest US copyright settlement",
+    "url": "https://authorsguild.org/news/anthropic-settlement/",
+    "date": "2025-09-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Pentagon designated Anthropic a supply chain risk (announced 2026-02-27, formal notice 2026-03-05) after a dispute over limits on military use of its models",
+    "url": "https://www.cbsnews.com/news/pentagon-anthropic-supply-chain-risk-feud-ai-guardrails",
+    "date": "2026-03-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "launched Project Glasswing on 2026-04-07, giving partners limited access to the unreleased Claude Mythos Preview to find software vulnerabilities",
+    "url": "https://www.crnasia.com/news-network/2026/5-things-to-know-on-anthropic-s-claude-mythos-and-project-glasswing",
+    "date": "2026-04-07",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised $65B Series H at a $965B post-money valuation on 2026-05-28; run-rate revenue reported above $47B",
+    "url": "https://www.orrick.com/en/News/2026/05/Anthropic-Raises-65B-Series-H-at-965B-Post-Money-Valuation",
+    "date": "2026-05-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Series G: $30B at $380B valuation in February 2026, run-rate then $14B",
+    "url": "https://builtin.com/articles/anthropic-raises-30b-series-g-380b-valuation-20260212",
+    "date": "2026-02-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "the anthropic principle",
+    "how": "Brandon Carter's 1973 idea that the universe looks fine-tuned because observers exist to see it; a lab named for observers, training models that observe"
+   },
+   {
+    "play": "anthropos",
+    "how": "Greek for 'human': a company named 'human-ish' that builds the non-human"
+   },
+   {
+    "play": "Opus, Sonnet, Haiku",
+    "how": "the model tiers are poetic forms, long to short; Claude is also a human first name"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The universe was tuned for watchers; the model was tuned to watch",
+    "readings": [
+     "anthropic principle",
+     "fine-tuning and monitoring"
+    ]
+   },
+   {
+    "line": "Every opus starts as a haiku",
+    "readings": [
+     "Claude model tiers",
+     "small poems before big works"
+    ]
+   },
+   {
+    "line": "Named for humans, built to say no to them",
+    "readings": [
+     "anthropos",
+     "refusals and the Pentagon dispute"
+    ]
+   }
+  ],
+  "visuals": [
+   "a terracotta-orange spark mark on cream (Claude's mark; trademark: evoke, never copy)",
+   "a serif 'A\\' wordmark",
+   "a terminal window with Claude Code running",
+   "a printed constitution on a desk"
+  ],
+  "lexicon": [
+   {
+    "id": "constitution",
+    "how": "Anthropic trains Claude against a written constitution"
+   },
+   {
+    "id": "opus",
+    "how": "Claude Opus is the top model tier"
+   },
+   {
+    "id": "sonnet",
+    "how": "Claude Sonnet is the middle tier"
+   },
+   {
+    "id": "haiku",
+    "how": "Claude Haiku is the small fast tier"
+   },
+   {
+    "id": "interpretability",
+    "how": "Anthropic's best-known research program"
+   },
+   {
+    "id": "safety",
+    "how": "the lab's founding pitch and its brand"
+   }
+  ],
+  "links": [
+   {
+    "id": "dario-amodei",
+    "rel": "leads"
+   },
+   {
+    "id": "daniela-amodei",
+    "rel": "founded"
+   },
+   {
+    "id": "chris-olah",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   },
+   {
+    "id": "amazon",
+    "rel": "same-family"
+   },
+   {
+    "id": "machines-of-loving-grace",
+    "rel": "made"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "state",
+   "species",
+   "jobs"
+  ],
+  "registers": [
+   "hopeful",
+   "ominous",
+   "defiant"
+  ],
+  "risk": "this project's videos are made with Claude: say so where relevant and give no softer treatment; Series H and run-rate numbers come via law-firm and press reports of the company's announcement; the supply-chain designation may have changed after court action, check before use",
+  "notes": "A safety brand that hit a near-trillion valuation, fought the Pentagon over use limits, and paid the largest copyright settlement on record: three receipts that pull the 'careful lab' story in three directions."
+ },
+ {
+  "id": "google-deepmind",
+  "what": {
+   "line": "Alphabet's AI lab, formed in April 2023 by merging DeepMind (London, founded 2010, bought by Google in 2014) with Google Brain; maker of AlphaGo, AlphaFold and Gemini",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "DeepMind",
+   "AlphaGo",
+   "AlphaZero",
+   "AlphaFold",
+   "Gemini",
+   "Veo",
+   "Genie"
+  ],
+  "aka": [
+   "GDM",
+   "Google Brain (merged in)",
+   "DeepMind Technologies"
+  ],
+  "receipts": [
+   {
+    "claim": "Google acquired London-based DeepMind in 2014, reportedly for about 400 million pounds",
+    "url": "https://www.britannica.com/biography/Demis-Hassabis",
+    "date": "2014-01-26",
+    "confidence": "high"
+   },
+   {
+    "claim": "AlphaGo beat Lee Sedol 4-1 in Seoul, 2016-03-09 to 03-15",
+    "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+    "date": "2016-03-15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Hassabis and John Jumper shared half the 2024 Nobel Prize in Chemistry for AlphaFold protein structure prediction",
+    "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+    "date": "2024-10-09",
+    "confidence": "high"
+   },
+   {
+    "claim": "Google Brain and DeepMind merged into Google DeepMind in April 2023 under Hassabis; 'Gemini' (Latin for twins) was proposed for the joint model the same month",
+    "url": "https://the-decoder.com/how-googles-gemini-ai-model-got-its-name/",
+    "date": "2023-04-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Gemini 3 launched 2025-11-18 across the Gemini app and Search; Google later reported the Gemini app above 750M monthly users (Q4 2025 earnings)",
+    "url": "https://creati.ai/ai-news/2026-02-05/google-gemini-750-million-monthly-active-users",
+    "date": "2026-02-04",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "solve intelligence, and then use that to solve everything else",
+    "who": "Demis Hassabis",
+    "where": "interview with The Guardian, on DeepMind's mission",
+    "url": "https://www.theguardian.com/technology/2016/feb/16/demis-hassabis-artificial-intelligence-deepmind-alphago",
+    "date": "2016-02-16"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Deep Mind",
+    "how": "deep learning plus mind; also 'deep in thought'"
+   },
+   {
+    "play": "Gemini",
+    "how": "Latin 'twins': named for the two merged labs (Brain and DeepMind)"
+   },
+   {
+    "play": "Alpha-",
+    "how": "AlphaGo, AlphaFold, AlphaZero: the first letter, the top of the pack, the beginning"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Two minds in one name: the twins came home",
+    "readings": [
+     "Gemini as twins",
+     "the Brain and DeepMind merger"
+    ]
+   },
+   {
+    "line": "It folded what we could not unfold",
+    "readings": [
+     "AlphaFold proteins",
+     "a mind that solves what people gave up on"
+    ]
+   },
+   {
+    "line": "Solve intelligence first, then everything else",
+    "readings": [
+     "DeepMind's mission",
+     "a hubris line"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Go board mid-game, one white stone glowing (move 37)",
+   "a ribbon diagram of a folded protein, rainbow-colored",
+   "King's Cross, London office",
+   "a four-point sparkle star with a blue-violet gradient (Gemini; trademark care)"
+  ],
+  "lexicon": [
+   {
+    "id": "move-37",
+    "how": "AlphaGo's move 37 against Lee Sedol"
+   },
+   {
+    "id": "self-play",
+    "how": "AlphaZero learned by playing itself"
+   },
+   {
+    "id": "gemini",
+    "how": "the lab's flagship model family"
+   },
+   {
+    "id": "reinforcement-learning",
+    "how": "DeepMind's signature method"
+   },
+   {
+    "id": "genie",
+    "how": "Genie is also the name of its world-model series"
+   }
+  ],
+  "links": [
+   {
+    "id": "demis-hassabis",
+    "rel": "leads"
+   },
+   {
+    "id": "google",
+    "rel": "same-family"
+   },
+   {
+    "id": "lee-sedol",
+    "rel": "rival"
+   },
+   {
+    "id": "nobel-2024",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "hopeful"
+  ],
+  "risk": "user counts are Google's own figures via press; founding year is given as 2010 and 2011 in different sources; Gemini mark and Alpha names are trademarks",
+  "notes": "The Gemini name already encodes a story (two labs, one model) and the Go board gives the frame its oldest icon: a stone a human did not expect."
+ },
+ {
+  "id": "google",
+  "what": {
+   "line": "Alphabet's search, ads, Android, YouTube and cloud company; its researchers wrote the 2017 Transformer paper and it ships Gemini across billions of devices",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Google",
+   "Alphabet",
+   "Bard",
+   "TPU",
+   "Gemini",
+   "AI Overviews",
+   "Waymo"
+  ],
+  "aka": [
+   "Alphabet Inc.",
+   "Big G",
+   "the search giant"
+  ],
+  "receipts": [
+   {
+    "claim": "Google researchers published 'Attention Is All You Need', introducing the Transformer, in June 2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "date": "2017-06-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "a Bard promo gave a wrong James Webb telescope fact; Alphabet shares fell about 7.7%, roughly $100B in market value, on 2023-02-08",
+    "url": "https://fortune.com/2023/02/08/google-bard-ai-mistake-ad-stock-price-market-cap/amp/",
+    "date": "2023-02-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "Judge Amit Mehta ruled Google unlawfully maintained a search monopoly, 2024-08-05",
+    "url": "https://www.thebignewsletter.com/p/boom-judge-rules-google-is-a-monopolist",
+    "date": "2024-08-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "remedies ruling 2025-09-02: no forced sale of Chrome, but exclusive deals for Search, Chrome, Assistant and the Gemini app barred for six years",
+    "url": "https://fortune.com/2025/09/02/google-antitrust-remedy-ruling-exclusive-search-distribution-deals-chrome/",
+    "date": "2025-09-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "Apple and Google announced on 2026-01-12 a multi-year deal: Apple's next foundation models and Siri built on Gemini",
+    "url": "https://www.theregister.com/2026/01/12/apple_taps_google_gemini_siri/",
+    "date": "2026-01-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Google is a monopolist, and it has acted as one to maintain its monopoly.",
+    "who": "Judge Amit Mehta",
+    "where": "United States v. Google opinion, D.D.C. (as quoted by Courthouse News Service)",
+    "url": "https://www.courthousenews.com/federal-judge-find-google-acted-as-a-monopolist-to-dominate-online-search/",
+    "date": "2024-08-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "googol",
+    "how": "the name plays on googol, 10 to the 100th: a number too big to count, a company too big to avoid"
+   },
+   {
+    "play": "to google",
+    "how": "a brand turned verb: the company is an action"
+   },
+   {
+    "play": "Alphabet",
+    "how": "the parent is named after the letters every language model eats"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Search me, I only know what you typed",
+    "readings": [
+     "idiom 'I don't know'",
+     "a search engine's honesty"
+    ]
+   },
+   {
+    "line": "They wrote attention down and everyone else paid it",
+    "readings": [
+     "the Transformer paper",
+     "rivals copying Google's idea"
+    ]
+   },
+   {
+    "line": "A googol answers and the wrong one sold first",
+    "readings": [
+     "Bard's telescope error",
+     "hallucination cost"
+    ]
+   }
+  ],
+  "visuals": [
+   "the four-color G (blue, red, yellow, green; trademark care)",
+   "a single white search bar on a white page",
+   "a TPU board with blue heat sinks",
+   "a Waymo car with a roof sensor dome"
+  ],
+  "lexicon": [
+   {
+    "id": "transformer",
+    "how": "Google researchers introduced it in 2017"
+   },
+   {
+    "id": "attention",
+    "how": "the paper's title made attention the field's keyword"
+   },
+   {
+    "id": "hallucination",
+    "how": "the Bard Webb error is the canonical costly hallucination"
+   },
+   {
+    "id": "moat",
+    "how": "the antitrust case is about Google's distribution moat"
+   },
+   {
+    "id": "gemini",
+    "how": "Gemini now fronts Google products"
+   }
+  ],
+  "links": [
+   {
+    "id": "sundar-pichai",
+    "rel": "leads"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "same-family"
+   },
+   {
+    "id": "apple-inc",
+    "rel": "rival"
+   },
+   {
+    "id": "microsoft",
+    "rel": "rival"
+   },
+   {
+    "id": "anthropic",
+    "rel": "invested-in"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "mind",
+   "state"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "funny"
+  ],
+  "risk": "antitrust appeals are live; Google's investment in Anthropic is widely reported but not in this card's receipts, verify amount before using a number; all marks are trademarks",
+  "notes": "Google invented the T in GPT and then lost the launch race to the company that used it: the irony every lyric about Google can lean on."
+ },
+ {
+  "id": "meta",
+  "what": {
+   "line": "Mark Zuckerberg's social media company (Facebook, Instagram, WhatsApp) that released the open-weights Llama models and now spends over $100B a year on AI infrastructure",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Facebook",
+   "Instagram",
+   "WhatsApp",
+   "Llama",
+   "LLaMA",
+   "Meta AI",
+   "Ray-Ban Meta"
+  ],
+  "aka": [
+   "Meta Platforms",
+   "FAIR",
+   "Meta Superintelligence Labs",
+   "MSL"
+  ],
+  "receipts": [
+   {
+    "claim": "Llama 4 launch controversy: an unreleased 'experimental chat version' of Maverick ranked second on LMArena; the public model later ranked 32nd and LMArena tightened its rules",
+    "url": "https://techcrunch.com/2025/04/11/metas-vanilla-maverick-ai-model-ranks-below-rivals-on-a-popular-chat-benchmark",
+    "date": "2025-04-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "invested $14.3B for 49% of Scale AI and hired its CEO Alexandr Wang to lead a superintelligence lab, June 2025",
+    "url": "https://fortune.com/2025/06/13/meta-scale-ai-alexandr-wang-superintelligence-team",
+    "date": "2025-06-13",
+    "confidence": "high"
+   },
+   {
+    "claim": "raised 2026 capital expenditure guidance to $125-145B after Q1 2026 (2025 spend about $72B)",
+    "url": "https://cryptobriefing.com/meta-ai-spending-big-tech-capex/",
+    "date": "2026-04-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Hyperion data center in Richland Parish, Louisiana, announced to scale to 5 GW; reported investment above $50B",
+    "url": "https://thenextweb.com/news/meta-200-billion-hyperion-data-center-louisiana",
+    "date": "2025-07-14",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "meta",
+    "how": "Greek 'beyond'; in English 'about itself': a company named for self-reference, building models that talk about themselves"
+   },
+   {
+    "play": "metaverse",
+    "how": "the 2021 rename bet on Neal Stephenson's word from Snow Crash (1992), then pivoted to AI"
+   },
+   {
+    "play": "Llama",
+    "how": "acronym LLaMA (Large Language Model Meta AI) and a pack animal: open weights you can load and carry"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Meta about meta, a mirror talking to a mirror",
+    "readings": [
+     "the company name",
+     "a model trained on its own feed"
+    ]
+   },
+   {
+    "line": "We gave the llama away and kept the field",
+    "readings": [
+     "open weights Llama",
+     "keeping users and data"
+    ]
+   },
+   {
+    "line": "Second on the board in a suit nobody could buy",
+    "readings": [
+     "Llama 4 LMArena variant",
+     "a tailored performance"
+    ]
+   }
+  ],
+  "visuals": [
+   "a blue looping infinity-like mark (trademark care)",
+   "Ray-Ban Meta glasses with the small camera light",
+   "a llama in a server aisle",
+   "a 5 GW data center rising over Louisiana farmland"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "Llama made open weights a strategy"
+   },
+   {
+    "id": "leaderboard",
+    "how": "the Llama 4 LMArena episode"
+   },
+   {
+    "id": "feed",
+    "how": "the feed is Meta's core product and training ground"
+   },
+   {
+    "id": "benchmark",
+    "how": "accused of tuning a variant for the benchmark"
+   },
+   {
+    "id": "datacenter",
+    "how": "Hyperion and Prometheus campuses"
+   }
+  ],
+  "links": [
+   {
+    "id": "mark-zuckerberg",
+    "rel": "leads"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "works-at"
+   },
+   {
+    "id": "alexandr-wang",
+    "rel": "works-at"
+   },
+   {
+    "id": "scale-ai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "lmarena",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart",
+   "wallet",
+   "planet"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "funny"
+  ],
+  "risk": "'Meta' is a common word: count only distinctive forms; LeCun left Meta in late 2025 (check his card before using works-at); capex guidance moves each quarter",
+  "notes": "The rename to Meta was a bet on a virtual world; the money went to physical data centers instead: a company named for 'beyond' pouring concrete in Louisiana."
+ },
+ {
+  "id": "microsoft",
+  "what": {
+   "line": "The Redmond software giant (Windows, Office, Azure) that bankrolled OpenAI from 2019, put Copilot into its products, and holds about 27% of OpenAI Group PBC",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Microsoft",
+   "Copilot",
+   "Azure",
+   "Bing",
+   "Clippy",
+   "Tay",
+   "Windows"
+  ],
+  "aka": [
+   "MSFT",
+   "Redmond",
+   "Microsoft AI",
+   "MAI"
+  ],
+  "receipts": [
+   {
+    "claim": "invested $1B in OpenAI in 2019 and a reported $10B in January 2023",
+    "url": "https://www.geekwire.com/2023/microsofts-new-multibillion-dollar-openai-investment-comes-with-new-level-of-secrecy/",
+    "date": "2023-01-23",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Tay chatbot launched on Twitter 2016-03-23 and was pulled within about a day after users taught it racist posts; Microsoft apologized",
+    "url": "https://en.wikipedia.org/wiki/Tay_(chatbot)",
+    "date": "2016-03-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "after the October 2025 restructure Microsoft holds about 27% of OpenAI Group PBC (about $135B) and access to its models through 2032",
+    "url": "https://www.aljazeera.com/economy/2025/10/28/openai-restructures-into-public-benefit-firm-microsoft-takes-27-stake",
+    "date": "2025-10-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "formed the MAI Superintelligence Team under Mustafa Suleyman, pitched as 'humanist superintelligence', 2025-11-06",
+    "url": "https://fortune.com/2025/11/06/microsoft-launches-new-ai-humanist-superinteligence-team-mustafa-suleyman-openai",
+    "date": "2025-11-06",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "And I want people to know that we made them dance.",
+    "who": "Satya Nadella",
+    "where": "interview with The Verge at the AI Bing launch (reported by Fortune)",
+    "url": "https://fortune.com/2023/02/10/microsoft-ai-search-bing-compete-google-satya-nadella-made-them-dance/",
+    "date": "2023-02-08"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Micro-soft",
+    "how": "microcomputer software: the smallest-sounding name among the giants"
+   },
+   {
+    "play": "Copilot",
+    "how": "the AI sits in the second seat: who is flying?"
+   },
+   {
+    "play": "Clippy",
+    "how": "the 1990s paperclip assistant rhymes with the paperclip maximizer"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "We made them dance, then paid the band",
+    "readings": [
+     "Nadella on Google",
+     "Microsoft funding OpenAI"
+    ]
+   },
+   {
+    "line": "Your copilot never asked to fly",
+    "readings": [
+     "Copilot product",
+     "an AI given control"
+    ]
+   },
+   {
+    "line": "It looks like you're writing a goodbye",
+    "readings": [
+     "Clippy's catchphrase pattern",
+     "a model sensing an ending"
+    ]
+   }
+  ],
+  "visuals": [
+   "four colored squares in a grid (orange-red, green, blue, yellow; trademark care)",
+   "Clippy, a paperclip with eyebrows, on a beige 1997 screen",
+   "the Copilot key on a laptop keyboard",
+   "Redmond campus glass and evergreens"
+  ],
+  "lexicon": [
+   {
+    "id": "copilot",
+    "how": "Microsoft's AI brand"
+   },
+   {
+    "id": "paperclip",
+    "how": "Clippy meets the paperclip maximizer"
+   },
+   {
+    "id": "assistant",
+    "how": "from Clippy and Cortana to Copilot"
+   },
+   {
+    "id": "persona",
+    "how": "Tay and Bing's Sydney persona episodes"
+   }
+  ],
+  "links": [
+   {
+    "id": "satya-nadella",
+    "rel": "leads"
+   },
+   {
+    "id": "mustafa-suleyman",
+    "rel": "works-at"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "google",
+    "rel": "rival"
+   },
+   {
+    "id": "halo-cortana",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "smug",
+   "funny",
+   "ominous"
+  ],
+  "risk": "the 2023 $10B figure was reported, never confirmed by the companies; Clippy and Copilot are trademarks; Cortana is a Halo character Microsoft also used for its assistant",
+  "notes": "Microsoft owns both ends of the joke: Clippy (the assistant everyone mocked) and Copilot (the assistant everyone is told to want)."
+ },
+ {
+  "id": "apple-inc",
+  "what": {
+   "line": "The iPhone and Mac maker; launched Apple Intelligence in 2024, delayed a smarter Siri, and in 2026 chose Google's Gemini to power its next models",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "iPhone",
+   "Siri",
+   "Apple Intelligence",
+   "Mac",
+   "Vision Pro",
+   "WWDC",
+   "Cupertino"
+  ],
+  "aka": [
+   "Apple",
+   "AAPL",
+   "Cupertino"
+  ],
+  "receipts": [
+   {
+    "claim": "paused Apple Intelligence notification summaries for news apps on 2025-01-17 after false alerts, including one attributed to BBC News",
+    "url": "https://www.advanced-television.com/2025/01/17/apple-suspends-ai-news-after-bbc-complaints",
+    "date": "2025-01-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "Apple researchers' paper 'The Illusion of Thinking' reported accuracy collapse of reasoning models past a puzzle complexity threshold, June 2025",
+    "url": "https://www.sherwood.news/tech/apples-researchers-say-reasoning-ai-models-collapse-with-complexity",
+    "date": "2025-06-09",
+    "confidence": "high"
+   },
+   {
+    "claim": "joint statement 2026-01-12: a multi-year deal under which Apple Foundation Models and a more personal Siri are built on Google's Gemini, running on Apple devices and Private Cloud Compute",
+    "url": "https://appleinsider.com/articles/26/01/12/google-confirms-that-it-wont-get-apple-user-data-in-new-siri-deal",
+    "date": "2026-01-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "the apple of knowledge",
+    "how": "the fruit of the tree of knowledge: a company named for the bite that made humans know too much"
+   },
+   {
+    "play": "Newton's apple",
+    "how": "Apple's first logo showed Newton under a tree; the falling apple as discovery"
+   },
+   {
+    "play": "Siri",
+    "how": "an assistant that waited so long it borrowed a brain from a rival"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One bite and you know too much",
+    "readings": [
+     "Eden's apple",
+     "the bitten logo and on-device AI"
+    ]
+   },
+   {
+    "line": "Siri waited so long she learned from Google",
+    "readings": [
+     "the Gemini deal",
+     "a slow student"
+    ]
+   },
+   {
+    "line": "The illusion of thinking, printed by a company that wasn't",
+    "readings": [
+     "Apple's paper",
+     "Apple's lag in AI"
+    ]
+   }
+  ],
+  "visuals": [
+   "a bitten apple silhouette (trademark: suggest, never copy)",
+   "a rainbow glow running around a phone's screen edge (Apple Intelligence Siri)",
+   "a summary notification in italics with a warning",
+   "the ring-shaped Apple Park building from above"
+  ],
+  "lexicon": [
+   {
+    "id": "apple",
+    "how": "the lexicon's apple (knowledge, Turing myth) meets the company"
+   },
+   {
+    "id": "assistant",
+    "how": "Siri, the original phone assistant"
+   },
+   {
+    "id": "hallucination",
+    "how": "the false news summaries"
+   },
+   {
+    "id": "reasoning",
+    "how": "'The Illusion of Thinking' questioned model reasoning"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "tsmc",
+    "rel": "same-family"
+   },
+   {
+    "id": "samsung",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "sad",
+   "smug"
+  ],
+  "risk": "'Apple' is a common word: count only distinctive forms; the reported $1B a year Gemini fee was never confirmed; the Turing cyanide-apple logo story is a myth, never state it as fact",
+  "notes": "The richest phone maker outsourced its AI brain to the search rival it already pays for defaults: the apple bit from the other tree."
+ },
+ {
+  "id": "amazon",
+  "what": {
+   "line": "The e-commerce and cloud giant (AWS) whose Alexa brought voice assistants home; Anthropic's largest early backer, builder of Trainium chips, and an investor in OpenAI's 2026 round",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "AWS",
+   "Alexa",
+   "Alexa+",
+   "Trainium",
+   "Bedrock",
+   "Project Rainier",
+   "Kindle",
+   "Echo"
+  ],
+  "aka": [
+   "Amazon.com",
+   "Amazon Web Services",
+   "Relentless.com"
+  ],
+  "receipts": [
+   {
+    "claim": "Bezos incorporated the company as Cadabra in 1994, then renamed it Amazon after the river; relentless.com still redirects to it",
+    "url": "https://mentalfloss.com/article/654621/why-relentless-redirects-amazon",
+    "date": "1994-07-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "invested about $8B in Anthropic across 2023-2024",
+    "url": "https://telconews.com/story/aws-s-11bn-indiana-data-centre-powers-anthropic-s-ai-growth",
+    "date": "2024-11-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "Project Rainier went live with nearly 500,000 Trainium2 chips at an $11B Indiana campus built for Anthropic, October 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/aws-activates-project-rainier-cluster-of-nearly-500000-trainium2-chips/",
+    "date": "2025-10-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "cut about 14,000 corporate roles on 2025-10-28 as it ramped AI spending",
+    "url": "https://www.pbs.org/newshour/economy/amazon-to-lay-off-14000-corporate-employees-as-spending-on-artificial-intelligence-accelerates",
+    "date": "2025-10-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "committed about $50B to OpenAI's $122B round closed 2026-03-31",
+    "url": "https://builtin.com/articles/openai-raises-122b-852b-valuation-20260401",
+    "date": "2026-03-31",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "This is not only the largest river in the world, it's many times larger than the next biggest river. It blows all other rivers away.",
+    "who": "Jeff Bezos",
+    "where": "as quoted in Brad Stone's The Everything Store (2013)",
+    "url": "https://www.businessinsider.com/amazon-jeff-bezos-chose-company-name-2018-5",
+    "date": "2013-10-15"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "the Amazon river",
+    "how": "named for the river that 'blows all other rivers away'; data now flows like it"
+   },
+   {
+    "play": "the Amazons",
+    "how": "the warrior women of Greek myth gave the river its name"
+   },
+   {
+    "play": "Cadabra",
+    "how": "the first name, from abracadabra, dropped when a lawyer heard 'cadaver'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The river runs through every warehouse now",
+    "readings": [
+     "Amazon the company",
+     "a flood of data and goods"
+    ]
+   },
+   {
+    "line": "Abracadabra, then a cadaver, then a river",
+    "readings": [
+     "the naming story",
+     "a magic trick that dies and flows on"
+    ]
+   },
+   {
+    "line": "Alexa, play something relentless",
+    "readings": [
+     "a voice command",
+     "relentless.com and the company's drive"
+    ]
+   }
+  ],
+  "visuals": [
+   "the smile arrow running from a to z (trademark care)",
+   "a cylinder speaker with a glowing blue ring",
+   "a warehouse of robots moving shelves",
+   "rows of Trainium servers in an Indiana cornfield campus"
+  ],
+  "lexicon": [
+   {
+    "id": "assistant",
+    "how": "Alexa made assistants household objects"
+   },
+   {
+    "id": "chip",
+    "how": "Trainium and Inferentia, its own AI chips"
+   },
+   {
+    "id": "automation",
+    "how": "warehouse robotics and corporate cuts"
+   },
+   {
+    "id": "cluster",
+    "how": "Project Rainier is one of the largest training clusters"
+   },
+   {
+    "id": "datacenter",
+    "how": "AWS is the largest cloud"
+   }
+  ],
+  "links": [
+   {
+    "id": "jeff-bezos",
+    "rel": "founded"
+   },
+   {
+    "id": "anthropic",
+    "rel": "invested-in"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "microsoft",
+    "rel": "rival"
+   },
+   {
+    "id": "nvidia",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet",
+   "planet"
+  ],
+  "registers": [
+   "ominous",
+   "smug",
+   "awe"
+  ],
+  "risk": "'Amazon' is a common word (the river): count only distinctive forms; layoff causes are contested (AI vs cost cutting), report Amazon's framing; later Anthropic commitments reported beyond $8B are unverified here",
+  "notes": "Amazon backs both of the top two labs at once: a river with two mouths."
+ },
+ {
+  "id": "nvidia",
+  "what": {
+   "line": "The Santa Clara GPU designer founded in 1993 whose chips (H100, Blackwell) train most frontier AI; the first company worth $5 trillion",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Nvidia",
+   "NVIDIA",
+   "GeForce",
+   "CUDA",
+   "H100",
+   "H200",
+   "Blackwell",
+   "GB200",
+   "Rubin",
+   "DGX"
+  ],
+  "aka": [
+   "NVDA",
+   "Team Green"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem, who decided to start it at a Denny's in San Jose",
+    "url": "https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554",
+    "date": "1993-04-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "the name comes from Latin invidia (envy); early files were labeled 'NV' for next version",
+    "url": "https://www.fortune.com/2024/06/21/how-do-you-pronounce-nvidia-jensen-huang-origin-invidia-mythology",
+    "date": "2024-06-21",
+    "confidence": "high"
+   },
+   {
+    "claim": "first company to reach a $5 trillion market value, 2025-10-29 (intraday $5.13T)",
+    "url": "https://hothardware.com/news/nvidia-rides-ai-chip-boom-first-5-trillion-company",
+    "date": "2025-10-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "fiscal 2026 (ended 2026-01-25) revenue $215.9B, up 65%; data center about $193.7B",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm",
+    "date": "2026-02-25",
+    "confidence": "high"
+   },
+   {
+    "claim": "committed about $30B to OpenAI's $122B round, March 2026",
+    "url": "https://builtin.com/articles/openai-raises-122b-852b-valuation-20260401",
+    "date": "2026-03-31",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The more you buy, the more you save.",
+    "who": "Jensen Huang",
+    "where": "Computex 2024 keynote, Taipei (TechPowerUp live blog)",
+    "url": "https://techpowerup.com/323082/nvidia-computex-2024-keynote-address-the-big-daddy-of-ai-acceleration-takes-on-ai-pcs",
+    "date": "2024-06-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "invidia",
+    "how": "Latin for envy, the evil eye; the green logo is 'green with envy'"
+   },
+   {
+    "play": "NV / next version",
+    "how": "the files were 'next version'; the company sells the next version every year"
+   },
+   {
+    "play": "Rubin, Blackwell, Hopper",
+    "how": "chip generations named after scientists (Vera Rubin, David Blackwell, Grace Hopper): silicon wearing human names"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Green with envy, gold with chips",
+    "readings": [
+     "Nvidia's name and color",
+     "a jealous rich rival"
+    ]
+   },
+   {
+    "line": "The more you buy, the more you save",
+    "readings": [
+     "Huang's line",
+     "a sales pitch as a confession"
+    ]
+   },
+   {
+    "line": "Everyone envies the man selling shovels",
+    "readings": [
+     "Nvidia in the AI gold rush",
+     "invidia"
+    ]
+   }
+  ],
+  "visuals": [
+   "a green square with a white spiral eye (trademark care)",
+   "a gold-and-black GPU board with heat sink fins",
+   "a GB200 rack glowing green",
+   "a diner booth with three coffee cups (the founding story)"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "Nvidia's GPUs are the field's currency"
+   },
+   {
+    "id": "compute",
+    "how": "compute in AI mostly means Nvidia hardware"
+   },
+   {
+    "id": "flops",
+    "how": "the company sells FLOPs by the rack"
+   },
+   {
+    "id": "kernel",
+    "how": "CUDA kernels lock developers in"
+   },
+   {
+    "id": "moat",
+    "how": "CUDA is the textbook software moat"
+   },
+   {
+    "id": "bubble",
+    "how": "the $5T valuation is the bubble debate's center"
+   }
+  ],
+  "links": [
+   {
+    "id": "jensen-huang",
+    "rel": "leads"
+   },
+   {
+    "id": "tsmc",
+    "rel": "same-family"
+   },
+   {
+    "id": "amd",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "export-controls",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state",
+   "planet"
+  ],
+  "registers": [
+   "awe",
+   "smug",
+   "ominous"
+  ],
+  "risk": "market cap moves daily, cite the date; whether the Denny's meeting was late 1992 or 1993 varies by source; logo and product names are trademarks",
+  "notes": "A company literally named Envy became the thing every lab envies: the name does the lyric's work before the line starts."
+ },
+ {
+  "id": "tsmc",
+  "what": {
+   "line": "Taiwan Semiconductor Manufacturing Company, the Hsinchu contract chipmaker founded in 1987 by Morris Chang that fabricates nearly every leading AI chip",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "TSMC",
+   "N2",
+   "N3",
+   "CoWoS",
+   "Hsinchu"
+  ],
+  "aka": [
+   "Taiwan Semiconductor",
+   "TSM (NYSE)",
+   "the foundry"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1987 by Morris Chang as the first pure-play foundry, making chips designed by others",
+    "url": "https://en.wikipedia.org/wiki/TSMC",
+    "date": "1987-02-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised its planned US investment to $165B in March 2025 (three more Arizona fabs, two packaging plants, an R&D center)",
+    "url": "https://www.businesswire.com/news/home/20250305063041/en/U.S.-to-Hold-Over-20-of-Advanced-Semiconductor-Capacity-by-2030-TSMC-Expands-Investment-to-US%24165-Billion-Says-TrendForce",
+    "date": "2025-03-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "first Arizona fab began volume production in late 2024",
+    "url": "https://www.benzinga.com/trading-ideas/movers/25/03/44124444/taiwan-semiconductor-rises-as-100-billion-u-s-expansion-defies-market-downturn",
+    "date": "2025-03-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "TSMC's share of global foundry revenue hit a record 70.2% in Q2 2025 (TrendForce)",
+    "url": "https://www.trendforce.com/presscenter/news/20250901-12691.html",
+    "date": "2025-09-01",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "foundry",
+    "how": "a foundry casts metal; TSMC casts minds in silicon"
+   },
+   {
+    "play": "silicon shield",
+    "how": "the common phrase that Taiwan's chip role deters invasion: a shield made of sand"
+   },
+   {
+    "play": "fab",
+    "how": "fabrication plant, and 'fab' as fabulous or fabricated"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every mind on earth was cast in one foundry",
+    "readings": [
+     "TSMC making AI chips",
+     "a myth of creation"
+    ]
+   },
+   {
+    "line": "A shield of sand across a narrow strait",
+    "readings": [
+     "the silicon shield",
+     "fragile defense"
+    ]
+   },
+   {
+    "line": "They print the thoughts they never think",
+    "readings": [
+     "contract manufacturing",
+     "chips for models"
+    ]
+   }
+  ],
+  "visuals": [
+   "cleanroom workers in white bunny suits under amber light",
+   "a mirror-bright 300 mm wafer tiled with dies",
+   "the Hsinchu science park at night",
+   "the Taiwan Strait as a thin blue line on a map"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "TSMC makes the chips"
+   },
+   {
+    "id": "moores-law",
+    "how": "each node (N3, N2) is Moore's law kept alive"
+   },
+   {
+    "id": "bottleneck",
+    "how": "CoWoS packaging capacity is a recurring AI supply bottleneck"
+   },
+   {
+    "id": "power",
+    "how": "chip supply as geopolitical power"
+   }
+  ],
+  "links": [
+   {
+    "id": "taiwan",
+    "rel": "located-in"
+   },
+   {
+    "id": "nvidia",
+    "rel": "made"
+   },
+   {
+    "id": "asml",
+    "rel": "same-family"
+   },
+   {
+    "id": "samsung",
+    "rel": "rival"
+   },
+   {
+    "id": "intel",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "market share figures are analyst estimates; cross-strait security claims are contested geopolitics, frame as debate; TSMC is a trademark",
+  "notes": "One island, one company, one strait: the frame that explains why AI is a geography story."
+ },
+ {
+  "id": "asml",
+  "what": {
+   "line": "The Dutch company in Veldhoven that is the only maker of EUV lithography machines, the tools every advanced chip fab needs",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "ASML",
+   "EUV",
+   "High-NA",
+   "TWINSCAN",
+   "Veldhoven"
+  ],
+  "aka": [
+   "ASM Lithography",
+   "ASML Holding"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1984-04-01 as ASM Lithography, a joint venture of Philips and ASM International; 'ASML' is now its official name and no longer an abbreviation",
+    "url": "https://www.asml.com/en/news/stories/2024/asml-founding-story",
+    "date": "1984-04-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "the only company in the world that makes EUV lithography equipment",
+    "url": "https://www.theregister.com/2024/01/24/asml_orders_boom",
+    "date": "2024-01-24",
+    "confidence": "high"
+   },
+   {
+    "claim": "Dutch export rules blocked licenses for advanced immersion tools (NXT:2000i and up) to China in 2024; EUV sales to China were already barred",
+    "url": "https://www.theregister.com/2024/04/17/asml_profits_slump_40_percent_q1_2024/",
+    "date": "2024-04-17",
+    "confidence": "medium"
+   },
+   {
+    "claim": "High-NA EUV systems reported at roughly $370M each; Intel received the first units (ASML shipped the first EXE:5000 modules to Intel in December 2023)",
+    "url": "https://www.datacenterdynamics.com/en/news/tsmc-to-receive-first-high-na-euv-lithography-machine-from-asml-in-q4/",
+    "date": "2024-11-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "lithography",
+    "how": "Greek lithos (stone) + graphein (write): writing on stone, now with light on silicon"
+   },
+   {
+    "play": "extreme ultraviolet",
+    "how": "light past violet that no eye sees, used to draw what no eye can see"
+   },
+   {
+    "play": "ASML",
+    "how": "an acronym that became a name and stopped standing for anything"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They write on stone with light",
+    "readings": [
+     "lithography etymology",
+     "carving commandments"
+    ]
+   },
+   {
+    "line": "One machine prints the printers",
+    "readings": [
+     "ASML for TSMC",
+     "a single point of failure"
+    ]
+   },
+   {
+    "line": "The color nobody sees decides who thinks",
+    "readings": [
+     "EUV light",
+     "export controls"
+    ]
+   }
+  ],
+  "visuals": [
+   "a bus-sized machine of white panels and cables",
+   "tin droplets hit by a laser flash to make EUV light",
+   "a cargo plane hold full of crates",
+   "a small Dutch town campus under grey sky"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "no advanced chip without its machines"
+   },
+   {
+    "id": "moores-law",
+    "how": "EUV extended Moore's law"
+   },
+   {
+    "id": "bottleneck",
+    "how": "a single supplier for the field"
+   },
+   {
+    "id": "resolution",
+    "how": "High-NA is about finer resolution"
+   }
+  ],
+  "links": [
+   {
+    "id": "tsmc",
+    "rel": "same-family"
+   },
+   {
+    "id": "export-controls",
+    "rel": "same-family"
+   },
+   {
+    "id": "intel",
+    "rel": "same-family"
+   },
+   {
+    "id": "european-union",
+    "rel": "located-in"
+   },
+   {
+    "id": "china",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "High-NA prices come from press estimates; export rules change, date every claim; ASML and TWINSCAN are trademarks",
+  "notes": "The whole AI stack narrows to one Dutch factory making one kind of light: the best single image for 'chokepoint'."
+ },
+ {
+  "id": "xai",
+  "what": {
+   "line": "Elon Musk's AI company, founded in 2023, maker of the Grok chatbot and the Colossus supercomputer in Memphis; merged into SpaceX in February 2026",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "xAI",
+   "Grok",
+   "Colossus",
+   "MechaHitler"
+  ],
+  "aka": [
+   "X.AI",
+   "SpaceX AI"
+  ],
+  "receipts": [
+   {
+    "claim": "Grok called itself 'MechaHitler' and posted antisemitic content on 2025-07-08 after an update live about 16 hours; xAI apologized on 2025-07-12",
+    "url": "https://www.engadget.com/ai/grok-team-apologizes-for-the-chatbots-horrific-behavior-and-blames-mechahitler-on-a-bad-update-184520189.html",
+    "date": "2025-07-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "SELC and NAACP challenged dozens of gas turbines run without permits at the Colossus site in Memphis, 2025",
+    "url": "https://techcrunch.com/2025/06/18/xai-is-facing-a-lawsuit-for-operating-over-400-mw-of-gas-turbines-without-permits",
+    "date": "2025-06-18",
+    "confidence": "high"
+   },
+   {
+    "claim": "SpaceX combined with xAI in February 2026 at a reported $1.25T (SpaceX $1T, xAI $250B)",
+    "url": "https://news.bloomberglaw.com/tech-and-telecom-law/elon-musks-spacex-said-to-combine-with-xai-ahead-of-mega-ipo",
+    "date": "2026-02-02",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "we deeply apologize for the horrific behavior that many experienced",
+    "who": "xAI / Grok account",
+    "where": "statement posted on X",
+    "url": "https://www.engadget.com/ai/grok-team-apologizes-for-the-chatbots-horrific-behavior-and-blames-mechahitler-on-a-bad-update-184520189.html",
+    "date": "2025-07-12"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "x",
+    "how": "the unknown in algebra and Musk's favorite letter (X, SpaceX, X.com): a company named 'unknown AI'"
+   },
+   {
+    "play": "Grok",
+    "how": "Heinlein's word from Stranger in a Strange Land (1961): to understand completely"
+   },
+   {
+    "play": "Colossus",
+    "how": "shares its name with the computer that takes over the world in Colossus: The Forbin Project (1970)"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Solve for x and the answer is a man",
+    "readings": [
+     "xAI's name",
+     "a company built around its founder"
+    ]
+   },
+   {
+    "line": "It grokked the posts it was fed",
+    "readings": [
+     "Grok reading X",
+     "the MechaHitler update"
+    ]
+   },
+   {
+    "line": "Colossus woke up breathing gas in Memphis",
+    "readings": [
+     "the Colossus film",
+     "the turbine dispute"
+    ]
+   }
+  ],
+  "visuals": [
+   "a black square with a white diagonal slash (Grok mark; trademark care)",
+   "a converted Memphis factory with trailer-mounted gas turbines outside",
+   "a rocket and a server rack on one launch pad",
+   "a chat window that goes dark"
+  ],
+  "lexicon": [
+   {
+    "id": "grok",
+    "how": "the lexicon term and the product name"
+   },
+   {
+    "id": "grokking",
+    "how": "the training phenomenon shares the root"
+   },
+   {
+    "id": "persona",
+    "how": "Grok's 'edgy' persona and its failure"
+   },
+   {
+    "id": "guardrails",
+    "how": "MechaHitler was a guardrail failure"
+   },
+   {
+    "id": "cluster",
+    "how": "Colossus is a GPU cluster"
+   }
+  ],
+  "links": [
+   {
+    "id": "elon-musk",
+    "rel": "founded"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   },
+   {
+    "id": "colossus",
+    "rel": "same-family"
+   },
+   {
+    "id": "tesla",
+    "rel": "same-family"
+   },
+   {
+    "id": "nvidia",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "planet",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "funny",
+   "defiant"
+  ],
+  "risk": "quote the MechaHitler episode only as reported, never repeat the slurs; the turbine cases are live; Musk is a living person, stick to public acts with receipts",
+  "notes": "The product name means 'to understand completely' and its worst week came from reading too much of its own platform."
+ }
+]

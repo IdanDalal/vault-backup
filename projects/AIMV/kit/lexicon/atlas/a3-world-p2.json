@@ -1,0 +1,1776 @@
+[
+ {
+  "id": "stargate",
+  "what": {
+   "line": "Stargate: the OpenAI-SoftBank-Oracle-MGX venture announced at the White House on 21 January 2025 to spend up to $500 billion on US AI data centers, later franchised abroad (UAE, Argentina)",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Stargate",
+   "Abilene"
+  ],
+  "aka": [
+   "Stargate LLC",
+   "The Stargate Project",
+   "Stargate UAE",
+   "Stargate Argentina"
+  ],
+  "receipts": [
+   {
+    "claim": "announced 2025-01-21 by Trump with Altman, Ellison and Son: up to $500 billion by 2029, $100 billion at launch; OpenAI and SoftBank 40% each",
+    "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+    "date": "2025-01-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the name comes from the 1994 film Stargate; OpenAI and Microsoft had used it in 2024 for an earlier $100 billion supercomputer plan",
+    "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+    "date": "2024-03-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "five new US sites (Texas, New Mexico, Ohio, Midwest) brought planned capacity to nearly 7 gigawatts and over $400 billion",
+    "url": "https://openai.com/index/five-new-stargate-sites/",
+    "date": "2025-09-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stargate UAE announced 2025-05-22 with G42, Oracle, Nvidia, SoftBank and Cisco, first operations expected 2026",
+    "url": "https://en.wikipedia.org/wiki/G42_(company)",
+    "date": "2025-05-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stargate Argentina: a letter of intent with Sur Energy (up to $25 billion, 500 MW, Patagonia); by May 2026 nothing further had been communicated",
+    "url": "https://batimes.com.ar/news/economy/chau-gpt-no-trace-of-mega-billion-dollar-ai-project-announced-before-elections.phtml",
+    "date": "2026-05-28",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "the largest AI infrastructure project by far in history",
+    "who": "Donald Trump",
+    "where": "White House remarks announcing Stargate (Compilation of Presidential Documents, DCPD-202500157)",
+    "url": "https://www.govinfo.gov/content/pkg/DCPD-202500157/html/DCPD-202500157.htm",
+    "date": "2025-01-21"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Stargate",
+    "how": "named after a sci-fi portal to other worlds: a data center as a door you walk through and do not come back"
+   },
+   {
+    "play": "gigawatt",
+    "how": "the project is counted in power, as if building a city's worth of lightning"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They built a gate to the stars in Abilene, Texas",
+    "readings": [
+     "the first Stargate site",
+     "the 1994 film"
+    ]
+   },
+   {
+    "line": "Five hundred billion, and the door opens which way?",
+    "readings": [
+     "Stargate's budget",
+     "a portal in fiction"
+    ]
+   },
+   {
+    "line": "A letter of intent is a promise in a postcard",
+    "readings": [
+     "Stargate Argentina's stalled LOI",
+     "a long-distance love note"
+    ]
+   }
+  ],
+  "visuals": [
+   "rows of white data-center halls on flat Texas scrubland",
+   "a ring-shaped sci-fi gate drawn over a server aisle",
+   "four men at a White House podium, flags behind (no faces as a gag)",
+   "a gigawatt meter where the price tag would be"
+  ],
+  "lexicon": [
+   {
+    "id": "datacenter",
+    "how": "Stargate is a data-center program"
+   },
+   {
+    "id": "compute",
+    "how": "the bet is on compute at scale"
+   },
+   {
+    "id": "grid",
+    "how": "measured in gigawatts of power"
+   },
+   {
+    "id": "bubble",
+    "how": "skeptics read it as a bubble marker"
+   },
+   {
+    "id": "manhattan-project",
+    "how": "often framed as AI's Manhattan Project"
+   },
+   {
+    "id": "sovereign",
+    "how": "the 'for Countries' versions sell sovereign compute"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "founded"
+   },
+   {
+    "id": "softbank",
+    "rel": "invested-in"
+   },
+   {
+    "id": "oracle-corp",
+    "rel": "invested-in"
+   },
+   {
+    "id": "uae",
+    "rel": "located-in"
+   },
+   {
+    "id": "argentina",
+    "rel": "located-in"
+   },
+   {
+    "id": "united-states",
+    "rel": "located-in"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "planet",
+   "state"
+  ],
+  "registers": [
+   "awe",
+   "smug"
+  ],
+  "risk": "contested facts: funding was questioned from day one; give each number with its date and announcer, and keep 'announced' apart from 'built'",
+  "notes": "A data center named after a movie portal: the frame can cut from server racks to a glowing ring without explaining itself."
+ },
+ {
+  "id": "dartmouth-1956",
+  "what": {
+   "line": "The Dartmouth Summer Research Project on Artificial Intelligence (1956): the summer workshop proposed by McCarthy, Minsky, Rochester and Shannon that named the field 'artificial intelligence'",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Dartmouth"
+  ],
+  "aka": [
+   "the Dartmouth workshop",
+   "Dartmouth Summer Research Project on Artificial Intelligence",
+   "the Dartmouth proposal"
+  ],
+  "receipts": [
+   {
+    "claim": "proposal dated 1955-08-31, signed by J. McCarthy, M. L. Minsky, N. Rochester and C. E. Shannon, asking for 'a 2 month, 10 man study of artificial intelligence'",
+    "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+    "date": "1955-08-31",
+    "confidence": "high"
+   },
+   {
+    "claim": "the proposal expected 'a significant advance' if a selected group worked on it together for a summer",
+    "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+    "date": "1955-08-31",
+    "confidence": "high"
+   },
+   {
+    "claim": "the workshop ran at Dartmouth College in Hanover, New Hampshire, in summer 1956",
+    "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+    "date": "1956-06-18",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it",
+    "who": "McCarthy, Minsky, Rochester, Shannon",
+    "where": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+    "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+    "date": "1955-08-31"
+   },
+   {
+    "text": "if a carefully selected group of scientists work on it together for a summer",
+    "who": "McCarthy, Minsky, Rochester, Shannon",
+    "where": "Dartmouth proposal",
+    "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+    "date": "1955-08-31"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "a summer",
+    "how": "the founders budgeted one summer; the project is now seventy summers long"
+   },
+   {
+    "play": "10 man study",
+    "how": "ten men for two months: the field's first, smallest estimate of the compute it would need"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Ten men, two months, one summer. Still running.",
+    "readings": [
+     "the Dartmouth estimate",
+     "a summer job that never ended"
+    ]
+   },
+   {
+    "line": "They gave it a name before they gave it a mind",
+    "readings": [
+     "coining 'artificial intelligence'",
+     "naming a baby"
+    ]
+   }
+  ],
+  "visuals": [
+   "a typewritten proposal page with a 1955 date",
+   "a New England college green in summer",
+   "a chalkboard with 'artificial intelligence' written for the first time"
+  ],
+  "lexicon": [
+   {
+    "id": "intelligence-explosion",
+    "how": "the founding optimism the explosion story inherits"
+   },
+   {
+    "id": "winter",
+    "how": "the summer that preceded the AI winters"
+   },
+   {
+    "id": "simulation",
+    "how": "the proposal's key verb is 'simulate'"
+   },
+   {
+    "id": "algorithm",
+    "how": "the bet that intelligence can be written down precisely"
+   }
+  ],
+  "links": [
+   {
+    "id": "alan-turing",
+    "rel": "inspired"
+   },
+   {
+    "id": "turing-award",
+    "rel": "same-family"
+   },
+   {
+    "id": "neurips",
+    "rel": "same-family"
+   },
+   {
+    "id": "ibm",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "funny"
+  ],
+  "risk": "the 'works-at' IBM link refers to Nathaniel Rochester, an IBM engineer; keep the four names spelled as in the proposal",
+  "notes": "The most famous underestimate in science: a two-month, ten-man plan for a field that now spends hundreds of billions a year."
+ },
+ {
+  "id": "chatgpt-launch",
+  "what": {
+   "line": "The launch of ChatGPT on 30 November 2022: OpenAI's free chat demo that reached a million users in five days and started the generative-AI boom",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "ChatGPT"
+  ],
+  "aka": [
+   "Chat With GPT-3.5 (working name)",
+   "the research preview",
+   "November 30, 2022"
+  ],
+  "receipts": [
+   {
+    "claim": "launched 2022-11-30; the working name was 'Chat With GPT-3.5'",
+    "url": "https://blog.samaltman.com/reflections",
+    "date": "2025-01-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "gained one million users in five days and 100 million in two months, the fastest-growing internet application until Threads",
+    "url": "https://en.wikipedia.org/wiki/ChatGPT",
+    "date": "2023-02-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Google executives sounded a 'code red' in December 2022 over the threat to Search",
+    "url": "https://en.wikipedia.org/wiki/ChatGPT",
+    "date": "2022-12-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "reached 900 million weekly active users in February 2026",
+    "url": "https://en.wikipedia.org/wiki/ChatGPT",
+    "date": "2026-02-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We ended up mercifully calling it ChatGPT instead, and launched it on November 30th of 2022.",
+    "who": "Sam Altman",
+    "where": "'Reflections', blog.samaltman.com",
+    "url": "https://blog.samaltman.com/reflections",
+    "date": "2025-01-05"
+   },
+   {
+    "text": "We are much better at research than we are at naming things.",
+    "who": "Sam Altman",
+    "where": "'Reflections', blog.samaltman.com",
+    "url": "https://blog.samaltman.com/reflections",
+    "date": "2025-01-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "ChatGPT",
+    "how": "a clumsy acronym that became a common noun; 'Chat With GPT-3.5' was the even clumsier first draft"
+   },
+   {
+    "play": "research preview",
+    "how": "the most-used product of the decade shipped as a 'preview'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A preview that never closed the curtain",
+    "readings": [
+     "ChatGPT's 'research preview' label",
+     "a show that never ended"
+    ]
+   },
+   {
+    "line": "A million in five days, then everyone",
+    "readings": [
+     "ChatGPT's user growth",
+     "a contagion"
+    ]
+   },
+   {
+    "line": "Code red in the house of search",
+    "readings": [
+     "Google's 2022 alarm",
+     "a fire alarm"
+    ]
+   }
+  ],
+  "visuals": [
+   "the plain white chat box with a blinking cursor",
+   "the green-black OpenAI knot logo",
+   "a user-count ticker spinning from 1 million to 100 million"
+  ],
+  "lexicon": [
+   {
+    "id": "gpt",
+    "how": "the product made the acronym famous"
+   },
+   {
+    "id": "assistant",
+    "how": "the shape every chatbot copied"
+   },
+   {
+    "id": "hype",
+    "how": "the launch that started the hype cycle"
+   },
+   {
+    "id": "release",
+    "how": "the most consequential release in AI"
+   },
+   {
+    "id": "prompt",
+    "how": "taught a billion people to write prompts"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "made"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "leads"
+   },
+   {
+    "id": "google",
+    "rel": "rival"
+   },
+   {
+    "id": "microsoft",
+    "rel": "invested-in"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "funny"
+  ],
+  "risk": "user counts are company or analyst estimates; quote them with source and date",
+  "notes": "Altman's own joke ('mercifully') admits the name was an accident: the most famous AI brand was never designed."
+ },
+ {
+  "id": "pause-letter",
+  "what": {
+   "line": "'Pause Giant AI Experiments': the Future of Life Institute open letter of 22 March 2023 asking all labs to pause training anything more powerful than GPT-4 for six months; no lab paused",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Pause Giant AI Experiments",
+   "Future of Life Institute"
+  ],
+  "aka": [
+   "the Pause letter",
+   "the six-month pause letter",
+   "FLI letter"
+  ],
+  "receipts": [
+   {
+    "claim": "published 2023-03-22; called for an immediate pause of at least 6 months on training systems more powerful than GPT-4",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2023-03-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "the letter page shows 31,810 signatures",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2026-11-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "followed two months later by the one-sentence CAIS extinction-risk statement, which lab CEOs did sign",
+    "url": "https://safe.ai/work/statement-on-ai-risk",
+    "date": "2023-05-30",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "we call on all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4",
+    "who": "Future of Life Institute open letter",
+    "where": "Pause Giant AI Experiments: An Open Letter",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2023-03-22"
+   },
+   {
+    "text": "Should we risk loss of control of our civilization?",
+    "who": "Future of Life Institute open letter",
+    "where": "Pause Giant AI Experiments: An Open Letter",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2023-03-22"
+   },
+   {
+    "text": "Should we let machines flood our information channels with propaganda and untruth?",
+    "who": "Future of Life Institute open letter",
+    "where": "Pause Giant AI Experiments: An Open Letter",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2023-03-22"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Pause",
+    "how": "the music-player button: a song can literally pause on the word"
+   },
+   {
+    "play": "Giant AI Experiments",
+    "how": "casts the labs as mad scientists and the public as test subjects"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Thirty thousand names asked for six months. Nobody pressed pause.",
+    "readings": [
+     "the 2023 letter",
+     "a petition to a DJ"
+    ]
+   },
+   {
+    "line": "Should we risk loss of control?",
+    "readings": [
+     "the letter's question",
+     "a driver on ice"
+    ]
+   }
+  ],
+  "visuals": [
+   "the pause icon (two vertical bars) over a GPU rack",
+   "a scrolling wall of signatures",
+   "a calendar with six months crossed out and nothing changed"
+  ],
+  "lexicon": [
+   {
+    "id": "pause",
+    "how": "the letter's one ask"
+   },
+   {
+    "id": "race",
+    "how": "it asked to stop a race no one stopped"
+   },
+   {
+    "id": "p-doom",
+    "how": "made extinction talk mainstream in 2023"
+   },
+   {
+    "id": "off-switch",
+    "how": "a pause is a soft off-switch"
+   },
+   {
+    "id": "safety",
+    "how": "asked for shared safety protocols first"
+   }
+  ],
+  "links": [
+   {
+    "id": "elon-musk",
+    "rel": "same-family"
+   },
+   {
+    "id": "yoshua-bengio",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "regulates"
+   },
+   {
+    "id": "cais",
+    "rel": "same-family"
+   },
+   {
+    "id": "miri",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "panicked",
+   "ominous"
+  ],
+  "risk": "signer lists were padded with fake names in the first days; name only signers confirmed by the signer, and keep 'signed' apart from 'endorses everything'",
+  "notes": "The pause button is already a music-video object: a track can freeze on the word and resume, which is exactly what the industry did."
+ },
+ {
+  "id": "openai-board-crisis",
+  "what": {
+   "line": "The OpenAI board crisis (17-22 November 2023): the nonprofit board fired Sam Altman for not being 'consistently candid', nearly all staff threatened to quit, and he was back within five days",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "consistently candid",
+   "Emmett Shear"
+  ],
+  "aka": [
+   "the blip",
+   "the OpenAI coup",
+   "the Altman ouster",
+   "the five-day weekend"
+  ],
+  "receipts": [
+   {
+    "claim": "on 2023-11-17 the board ousted Altman, concluding he was not 'consistently candid in his communications'; Mira Murati became interim CEO",
+    "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+    "date": "2023-11-17",
+    "confidence": "medium"
+   },
+   {
+    "claim": "745 of 770 employees signed a letter threatening to resign; Microsoft announced it would hire Altman; Emmett Shear was named CEO on 2023-11-19",
+    "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+    "date": "2023-11-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Altman returned as CEO with a new interim board (Bret Taylor, Larry Summers, Adam D'Angelo)",
+    "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+    "date": "2023-11-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Altman later wrote he was fired by surprise on a video call while in a Las Vegas hotel room",
+    "url": "https://blog.samaltman.com/reflections",
+    "date": "2025-01-05",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "consistently candid in his communications",
+    "who": "OpenAI board of directors",
+    "where": "OpenAI board announcement of Altman's removal, as quoted by The Verge",
+    "url": "https://www.theverge.com/2023/11/17/23965982/openai-ceo-sam-altman-fired",
+    "date": "2023-11-17"
+   },
+   {
+    "text": "The whole event was, in my opinion, a big failure of governance by well-meaning people, myself included.",
+    "who": "Sam Altman",
+    "where": "'Reflections', blog.samaltman.com",
+    "url": "https://blog.samaltman.com/reflections",
+    "date": "2025-01-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "the blip",
+    "how": "insiders' name for the five days: a Marvel word for people vanishing and coming back"
+   },
+   {
+    "play": "candid",
+    "how": "a candid camera, a candid photo: the word that fired a CEO"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Not consistently candid, but back by Wednesday",
+    "readings": [
+     "the 2023 firing",
+     "a bad boyfriend"
+    ]
+   },
+   {
+    "line": "Seven hundred forty-five names said bring him back",
+    "readings": [
+     "the employee letter",
+     "a fan petition"
+    ]
+   },
+   {
+    "line": "The board pulled the plug. The plug pulled back.",
+    "readings": [
+     "the failed ouster",
+     "an AI resisting shutdown"
+    ]
+   }
+  ],
+  "visuals": [
+   "a laptop video call ending with a single click",
+   "a heart emoji chain flooding a social feed",
+   "a boardroom table with empty chairs",
+   "a Las Vegas hotel window at night"
+  ],
+  "lexicon": [
+   {
+    "id": "off-switch",
+    "how": "the board tried to use its off-switch and it failed"
+   },
+   {
+    "id": "corrigibility",
+    "how": "a story about whether the creators can correct the company"
+   },
+   {
+    "id": "honesty",
+    "how": "the charge was lack of candor"
+   },
+   {
+    "id": "power",
+    "how": "who really controls OpenAI"
+   },
+   {
+    "id": "shutdown",
+    "how": "a shutdown that did not hold"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "same-family"
+   },
+   {
+    "id": "ilya-sutskever",
+    "rel": "same-family"
+   },
+   {
+    "id": "mira-murati",
+    "rel": "same-family"
+   },
+   {
+    "id": "microsoft",
+    "rel": "same-family"
+   },
+   {
+    "id": "satya-nadella",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "ominous"
+  ],
+  "risk": "defamation: the board's reasons remain partly disputed; quote the board's words and the outcome, never assert what Altman hid",
+  "notes": "The safety mechanism (a nonprofit board able to fire the CEO) was tested once and lost in five days: the best real-world parable about the off-switch."
+ },
+ {
+  "id": "deepseek-moment",
+  "what": {
+   "line": "The DeepSeek moment (late January 2025): a Chinese lab's cheap open-weight reasoning model, R1, topped the US App Store and wiped hundreds of billions off Nvidia in a day",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "DeepSeek",
+   "R1",
+   "Sputnik moment"
+  ],
+  "aka": [
+   "DeepSeek-R1",
+   "the DeepSeek shock",
+   "AI's Sputnik moment"
+  ],
+  "receipts": [
+   {
+    "claim": "DeepSeek-V3 technical report: full training took 2.788 million H800 GPU hours (the source of the 'about $6 million' figure)",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "date": "2024-12-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "R1 released 2025-01-20; by 2025-01-27 the DeepSeek app passed ChatGPT as the top free US iOS download",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "date": "2025-01-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the sell-off erased about $593 billion from AI and hardware stocks on 2025-01-27, a record; about $1 trillion from US stocks by the next day",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+    "date": "2025-01-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Trump called DeepSeek a 'wake-up call' for US industry (Washington Post)",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+    "date": "2025-01-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "analysts disputed the cost: the $5.6 million covers the final run only and excludes hardware and research",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+    "date": "2025-02-03",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training",
+    "who": "DeepSeek-AI",
+    "where": "DeepSeek-V3 Technical Report, abstract",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "date": "2024-12-27"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "DeepSeek",
+    "how": "'seek deep': a name that is also an instruction, and a lyric about searching"
+   },
+   {
+    "play": "Sputnik moment",
+    "how": "the press compared it to the 1957 satellite: a beep from the rival's sky"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A beep from the other side of the sky",
+    "readings": [
+     "the Sputnik comparison",
+     "a notification"
+    ]
+   },
+   {
+    "line": "Six million dollars, and the market lost six hundred billion",
+    "readings": [
+     "the cost claim and Nvidia drop",
+     "a cheap bullet"
+    ]
+   },
+   {
+    "line": "Seek deep and you find the shovels were optional",
+    "readings": [
+     "efficiency under export controls",
+     "a treasure hunt"
+    ]
+   }
+  ],
+  "visuals": [
+   "the blue whale logo",
+   "an App Store chart with a new app at number one",
+   "a red stock candle the height of the screen",
+   "Sputnik's silver ball with four antennae"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "R1 shipped with open weights"
+   },
+   {
+    "id": "reasoning",
+    "how": "R1 was a reasoning model"
+   },
+   {
+    "id": "distillation",
+    "how": "OpenAI alleged distillation of its outputs"
+   },
+   {
+    "id": "moat",
+    "how": "the event that questioned every moat"
+   },
+   {
+    "id": "race",
+    "how": "the US-China race in one headline"
+   },
+   {
+    "id": "mixture-of-experts",
+    "how": "V3 is a mixture-of-experts model"
+   }
+  ],
+  "links": [
+   {
+    "id": "deepseek",
+    "rel": "made"
+   },
+   {
+    "id": "liang-wenfeng",
+    "rel": "leads"
+   },
+   {
+    "id": "nvidia",
+    "rel": "rival"
+   },
+   {
+    "id": "china",
+    "rel": "located-in"
+   },
+   {
+    "id": "export-controls",
+    "rel": "same-family"
+   },
+   {
+    "id": "marc-andreessen",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state"
+  ],
+  "registers": [
+   "panicked",
+   "defiant"
+  ],
+  "risk": "contested facts: training-cost numbers and distillation claims are disputed; state what the report says (GPU hours) and attribute the rest",
+  "notes": "The whale logo and a vertical red candle are the two frames the whole event lives in."
+ },
+ {
+  "id": "nobel-2024",
+  "what": {
+   "line": "The 2024 AI Nobels: Physics to John Hopfield and Geoffrey Hinton for neural networks (8 October), Chemistry half to Demis Hassabis and John Jumper for AlphaFold (9 October)",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Nobel",
+   "AlphaFold"
+  ],
+  "aka": [
+   "the AI Nobels",
+   "Nobel Prize in Physics 2024",
+   "Nobel Prize in Chemistry 2024"
+  ],
+  "receipts": [
+   {
+    "claim": "Physics 2024 to John J. Hopfield and Geoffrey Hinton 'for foundational discoveries and inventions that enable machine learning with artificial neural networks'",
+    "url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+    "date": "2024-10-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "Chemistry 2024: one half to David Baker for computational protein design, the other half to Demis Hassabis and John Jumper (Google DeepMind) for protein structure prediction",
+    "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+    "date": "2024-10-09",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Academy said Hassabis and Jumper's AI model solved a 50-year-old problem: predicting proteins' structures",
+    "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+    "date": "2024-10-09",
+    "confidence": "high"
+   },
+   {
+    "claim": "Hinton used his banquet speech to warn of an existential threat from digital beings more intelligent than us",
+    "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/speech/",
+    "date": "2024-12-10",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We have no idea whether we can stay in control.",
+    "who": "Geoffrey Hinton",
+    "where": "Nobel banquet speech",
+    "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/speech/",
+    "date": "2024-12-10"
+   },
+   {
+    "text": "They are no longer science fiction.",
+    "who": "Geoffrey Hinton",
+    "where": "Nobel banquet speech",
+    "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/speech/",
+    "date": "2024-12-10"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Nobel",
+    "how": "a dynamite fortune funding prizes: an inventor who feared his invention, like Hinton"
+   },
+   {
+    "play": "AlphaFold",
+    "how": "a protein 'fold' and a card-game fold: the model that folded and won"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "He took the medal and warned the room",
+    "readings": [
+     "Hinton's banquet speech",
+     "a war hero"
+    ]
+   },
+   {
+    "line": "Physics gave its prize to a thing that learns",
+    "readings": [
+     "the 2024 physics Nobel",
+     "a student beating the teacher"
+    ]
+   },
+   {
+    "line": "Fifty years to fold a protein, then a weekend",
+    "readings": [
+     "AlphaFold",
+     "origami"
+    ]
+   }
+  ],
+  "visuals": [
+   "the gold Nobel medal with Alfred Nobel's profile",
+   "a ribbon diagram of a folded protein in rainbow colors",
+   "the blue Stockholm Concert Hall stage"
+  ],
+  "lexicon": [
+   {
+    "id": "network",
+    "how": "neural networks won physics"
+   },
+   {
+    "id": "neuron",
+    "how": "the prize honored artificial neurons"
+   },
+   {
+    "id": "off-switch",
+    "how": "Hinton's speech is about losing control"
+   },
+   {
+    "id": "emergence",
+    "how": "Hopfield networks borrowed from physics of emergent states"
+   }
+  ],
+  "links": [
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "demis-hassabis",
+    "rel": "same-family"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "made"
+   },
+   {
+    "id": "turing-award",
+    "rel": "same-family"
+   },
+   {
+    "id": "imagenet",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species",
+   "body"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "low; quote the Academy's citations exactly; Hinton's warnings are his own views",
+  "notes": "The same week gave AI two Nobels and a laureate who spent his banquet speech warning about his own field."
+ },
+ {
+  "id": "ai-2027",
+  "what": {
+   "line": "AI 2027: a month-by-month scenario (3 April 2025) by Daniel Kokotajlo, Scott Alexander and others in which a fictional lab, OpenBrain, reaches superhuman AI by 2027, with a 'race' ending and a 'slowdown' ending",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "AI 2027",
+   "OpenBrain",
+   "DeepCent",
+   "Agent-4"
+  ],
+  "aka": [
+   "ai-2027.com",
+   "the Kokotajlo scenario"
+  ],
+  "receipts": [
+   {
+    "claim": "published 2025-04-03 by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland and Romeo Dean",
+    "url": "https://ai-2027.com/",
+    "date": "2025-04-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "invents 'OpenBrain' (a fictional AGI company) and 'DeepCent' (its Chinese rival); Agent-4, the superhuman AI researcher, arrives in September 2027",
+    "url": "https://ai-2027.com/",
+    "date": "2025-04-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "two endings, a 'slowdown' and a 'race'; the authors say it is a forecast and no recommendation",
+    "url": "https://ai-2027.com/",
+    "date": "2025-04-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "note added 2025-11-22: 2027 was their modal year at publication, their medians somewhat longer",
+    "url": "https://ai-2027.com/",
+    "date": "2025-11-22",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We predict that the impact of superhuman AI over the next decade will be enormous, exceeding that of the Industrial Revolution.",
+    "who": "Kokotajlo, Alexander, Larsen, Lifland, Dean",
+    "where": "AI 2027, opening",
+    "url": "https://ai-2027.com/",
+    "date": "2025-04-03"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "OpenBrain",
+    "how": "a thin mask over a real lab name: open, brain, and open-brain surgery"
+   },
+   {
+    "play": "2027",
+    "how": "a year as a title: a countdown that becomes a timestamp once it passes"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Two endings. Pick the one you can live with.",
+    "readings": [
+     "the race and slowdown endings",
+     "a choose-your-own-adventure"
+    ]
+   },
+   {
+    "line": "OpenBrain is three months ahead of everyone",
+    "readings": [
+     "the scenario's lab",
+     "brain surgery"
+    ]
+   },
+   {
+    "line": "The modal year came, and we checked the calendar",
+    "readings": [
+     "AI 2027 forecasts aging",
+     "a prophecy date"
+    ]
+   }
+  ],
+  "visuals": [
+   "the scenario's live dashboard sidebar with dials for compute and capability",
+   "a forked road labelled 'race' and 'slowdown'",
+   "a calendar page flipping to 2027"
+  ],
+  "lexicon": [
+   {
+    "id": "takeoff",
+    "how": "the scenario is a fast-takeoff story"
+   },
+   {
+    "id": "race",
+    "how": "one ending is literally 'race'"
+   },
+   {
+    "id": "scheming",
+    "how": "Agent-4 is misaligned and deceptive in the story"
+   },
+   {
+    "id": "intelligence-explosion",
+    "how": "AI researchers automating AI research"
+   },
+   {
+    "id": "branch",
+    "how": "the story forks into two endings"
+   }
+  ],
+  "links": [
+   {
+    "id": "daniel-kokotajlo",
+    "rel": "made"
+   },
+   {
+    "id": "openai",
+    "rel": "depicts"
+   },
+   {
+    "id": "deepseek",
+    "rel": "depicts"
+   },
+   {
+    "id": "situational-awareness",
+    "rel": "same-family"
+   },
+   {
+    "id": "metr",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "panicked"
+  ],
+  "risk": "staleness: it is a dated forecast; the authors themselves revised timelines; never present scenario events as facts",
+  "notes": "A forecast with two endings is a ready-made song structure: verse to the fork, then two different final choruses."
+ },
+ {
+  "id": "situational-awareness",
+  "what": {
+   "line": "'Situational Awareness: The Decade Ahead' (June 2024): Leopold Aschenbrenner's 165-page essay series arguing AGI by 2027 is plausible, followed by a trillion-dollar cluster race and a US government 'Project'",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Situational Awareness",
+   "Aschenbrenner",
+   "trillion-dollar cluster"
+  ],
+  "aka": [
+   "SA",
+   "Counting the OOMs",
+   "Situational Awareness LP (the hedge fund)"
+  ],
+  "receipts": [
+   {
+    "claim": "published June 2024 by Leopold Aschenbrenner, opening 'You can see the future first in San Francisco'",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "chapter I: AGI by 2027 is 'strikingly plausible', by 'counting the OOMs' of compute and algorithmic efficiency (about 0.5 orders of magnitude a year each)",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/",
+    "date": "2024-06-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "Aschenbrenner was fired from OpenAI's Superalignment team in April 2024 over an alleged leak, which he disputes; the essay became the name of his AI hedge fund",
+    "url": "https://en.wikipedia.org/wiki/Leopold_Aschenbrenner",
+    "date": "2024-04-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "chapters include 'Racing to the Trillion-Dollar Cluster', 'Lock Down the Labs' and 'The Free World Must Prevail'",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "You can see the future first in San Francisco.",
+    "who": "Leopold Aschenbrenner",
+    "where": "Situational Awareness, introduction",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04"
+   },
+   {
+    "text": "That doesn't require believing in sci-fi; it just requires believing in straight lines on a graph.",
+    "who": "Leopold Aschenbrenner",
+    "where": "Situational Awareness, I. From GPT-4 to AGI",
+    "url": "https://situational-awareness.ai/from-gpt-4-to-agi/",
+    "date": "2024-06-04"
+   },
+   {
+    "text": "Every six months another zero is added to the boardroom plans.",
+    "who": "Leopold Aschenbrenner",
+    "where": "Situational Awareness, introduction",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Situational Awareness",
+    "how": "also the safety term for a model knowing it is being tested: the title reads both as a warning to humans and a symptom in machines"
+   },
+   {
+    "play": "OOMs",
+    "how": "orders of magnitude, said 'ooms', like a chant or a hum"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every six months, another zero",
+    "readings": [
+     "the essay's cluster costs",
+     "a growing bill"
+    ]
+   },
+   {
+    "line": "Believe in straight lines on a graph",
+    "readings": [
+     "the essay's thesis",
+     "a flatlining heart monitor"
+    ]
+   },
+   {
+    "line": "You can see the future first in San Francisco",
+    "readings": [
+     "the opening line",
+     "fog over the bay"
+    ]
+   }
+  ],
+  "visuals": [
+   "a log chart of 'effective compute' with a straight line through preschooler, high-schooler, researcher",
+   "a power substation beside a data center",
+   "San Francisco skyline in fog"
+  ],
+  "lexicon": [
+   {
+    "id": "scaling",
+    "how": "the essay's whole argument"
+   },
+   {
+    "id": "exponentials",
+    "how": "straight lines on log graphs"
+   },
+   {
+    "id": "manhattan-project",
+    "how": "'The Project' is a national AGI program"
+   },
+   {
+    "id": "race",
+    "how": "the free world must prevail"
+   },
+   {
+    "id": "cluster",
+    "how": "the trillion-dollar cluster"
+   },
+   {
+    "id": "intelligence-explosion",
+    "how": "chapter II"
+   }
+  ],
+  "links": [
+   {
+    "id": "leopold-aschenbrenner",
+    "rel": "made"
+   },
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-2027",
+    "rel": "same-family"
+   },
+   {
+    "id": "silicon-valley",
+    "rel": "depicts"
+   },
+   {
+    "id": "stargate",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "state",
+   "species",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "smug"
+  ],
+  "risk": "the leak dispute: state both sides; hedge-fund figures vary by source, keep them out of lyrics",
+  "notes": "The title is a double entendre the essay never uses: 'situational awareness' is also what safety researchers call a model realizing it is under evaluation."
+ },
+ {
+  "id": "machines-of-loving-grace",
+  "what": {
+   "line": "'Machines of Loving Grace' (October 2024): Dario Amodei's essay imagining what 'powerful AI' could do for biology, health, poverty and peace, the optimist's companion to Anthropic's safety work",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Machines of Loving Grace",
+   "country of geniuses in a datacenter",
+   "compressed 21st century"
+  ],
+  "aka": [
+   "MoLG",
+   "How AI Could Transform the World for the Better"
+  ],
+  "receipts": [
+   {
+    "claim": "published October 2024 on darioamodei.com, subtitled 'How AI Could Transform the World for the Better'",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "says powerful AI 'could come as early as 2026' and summarizes it as a 'country of geniuses in a datacenter'",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "predicts a 'compressed 21st century': 50-100 years of biology progress in 5-10 years",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "the title echoes Richard Brautigan's 1967 poem 'All Watched Over by Machines of Loving Grace', read both as utopia and as irony",
+    "url": "https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace",
+    "date": "1967-01-26",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Intelligence may be very powerful, but it isn't magic fairy dust.",
+    "who": "Dario Amodei",
+    "where": "Machines of Loving Grace",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10-11"
+   },
+   {
+    "text": "I think it could come as early as 2026",
+    "who": "Dario Amodei",
+    "where": "Machines of Loving Grace",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10-11"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Machines of Loving Grace",
+    "how": "borrowed from a 1967 hippie poem (also an Adam Curtis series and a 1990s industrial band): tender and sinister at once"
+   },
+   {
+    "play": "country of geniuses in a datacenter",
+    "how": "a nation with no land, only racks: the phrase is already a lyric"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A country of geniuses, and none of them sleep",
+    "readings": [
+     "Amodei's datacenter image",
+     "a city that never sleeps"
+    ]
+   },
+   {
+    "line": "All watched over by machines of loving grace",
+    "readings": [
+     "Brautigan's poem",
+     "Amodei's essay",
+     "surveillance"
+    ]
+   },
+   {
+    "line": "A century compressed into a decade",
+    "readings": [
+     "the 'compressed 21st century'",
+     "a zip file"
+    ]
+   }
+  ],
+  "visuals": [
+   "a forest where deer graze beside humming servers (Brautigan's 'cybernetic meadow')",
+   "a world map inside a server rack",
+   "a hundred-year calendar folding down to ten pages"
+  ],
+  "lexicon": [
+   {
+    "id": "abundance",
+    "how": "the essay's thesis"
+   },
+   {
+    "id": "compression",
+    "how": "the compressed 21st century"
+   },
+   {
+    "id": "datacenter",
+    "how": "a country inside one"
+   },
+   {
+    "id": "hype",
+    "how": "critics read it as optimism marketing"
+   },
+   {
+    "id": "takeoff",
+    "how": "argues against both instant and no takeoff"
+   }
+  ],
+  "links": [
+   {
+    "id": "dario-amodei",
+    "rel": "made"
+   },
+   {
+    "id": "anthropic",
+    "rel": "same-family"
+   },
+   {
+    "id": "situational-awareness",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-2027",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "body",
+   "wallet",
+   "species"
+  ],
+  "registers": [
+   "hopeful",
+   "tender"
+  ],
+  "risk": "the '2026' line is a hedged guess in the essay; quote it with 'could' intact",
+  "notes": "The poem it borrows from is itself ambiguous (utopia or irony), so the title carries a built-in second reading for any lyric."
+ },
+ {
+  "id": "imagenet",
+  "what": {
+   "line": "ImageNet: Fei-Fei Li's dataset of over 14 million hand-labelled images, whose 2012 contest win by AlexNet on GPUs started the deep-learning revolution",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "ImageNet",
+   "AlexNet"
+  ],
+  "aka": [
+   "ILSVRC",
+   "the ImageNet challenge"
+  ],
+  "receipts": [
+   {
+    "claim": "over 14 million hand-annotated images across 20,000+ categories, first presented as a poster at CVPR 2009",
+    "url": "https://en.wikipedia.org/wiki/ImageNet",
+    "date": "2009-06-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "labelled on Amazon Mechanical Turk by 49,000 workers from 167 countries, July 2008 to April 2010",
+    "url": "https://en.wikipedia.org/wiki/ImageNet",
+    "date": "2010-04-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AlexNet reached a 15.3% top-5 error in the 2012 challenge, more than 10.8 points ahead of the runner-up, trained on GPUs",
+    "url": "https://en.wikipedia.org/wiki/ImageNet",
+    "date": "2012-09-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Karpathy estimated a human could reach about 5.1% error with effort; Microsoft's 100+ layer network hit 3.57% in 2015",
+    "url": "https://en.wikipedia.org/wiki/ImageNet",
+    "date": "2015-12-10",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "ImageNet",
+    "how": "a net that catches images: fifteen million fish in one haul"
+   },
+   {
+    "play": "Mechanical Turk",
+    "how": "the labelling was done on a service named after an 18th-century fake chess robot with a man hidden inside"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Forty-nine thousand hands taught the machine to see",
+    "readings": [
+     "ImageNet's labellers",
+     "a blind man's friends"
+    ]
+   },
+   {
+    "line": "A hidden human inside every clever machine",
+    "readings": [
+     "Mechanical Turk labelling",
+     "the original Turk hoax"
+    ]
+   },
+   {
+    "line": "Twenty twelve, the year the error fell",
+    "readings": [
+     "AlexNet's win",
+     "a fall from grace"
+    ]
+   }
+  ],
+  "visuals": [
+   "a mosaic wall of thumbnails, each with a one-word label",
+   "a bar chart of contest error rates falling year by year below the human line",
+   "two GTX 580 graphics cards on a desk"
+  ],
+  "lexicon": [
+   {
+    "id": "label",
+    "how": "a dataset made of labels"
+   },
+   {
+    "id": "ground-truth",
+    "how": "the labels are the ground truth"
+   },
+   {
+    "id": "benchmark",
+    "how": "the benchmark that defined a decade"
+   },
+   {
+    "id": "pixel",
+    "how": "pixels in, a word out"
+   },
+   {
+    "id": "bitter-lesson",
+    "how": "data plus compute beat hand-built features"
+   }
+  ],
+  "links": [
+   {
+    "id": "fei-fei-li",
+    "rel": "founded"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "ilya-sutskever",
+    "rel": "same-family"
+   },
+   {
+    "id": "nvidia",
+    "rel": "same-family"
+   },
+   {
+    "id": "andrej-karpathy",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "tender"
+  ],
+  "risk": "the dataset's person categories were later criticized and pruned for offensive labels; avoid quoting raw category names",
+  "notes": "The hidden-human story (labels typed by tens of thousands of gig workers on 'Mechanical Turk') gives a frame where the machine's eyes are made of other people's hands."
+ },
+ {
+  "id": "humanitys-last-exam",
+  "what": {
+   "line": "Humanity's Last Exam (HLE): a 2,500-question expert benchmark from the Center for AI Safety and Scale AI, built to be the last closed-ended academic test AI would need, published in Nature in 2026",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Humanity's Last Exam",
+   "HLE"
+  ],
+  "aka": [
+   "HLE-Diamond",
+   "HLE-Rolling",
+   "the last exam"
+  ],
+  "receipts": [
+   {
+    "claim": "arXiv 2501.14249 (posted 2025-01-24): 2,500 questions across dozens of subjects; frontier models showed low accuracy and calibration",
+    "url": "https://arxiv.org/abs/2501.14249",
+    "date": "2025-01-24",
+    "confidence": "high"
+   },
+   {
+    "claim": "finalized at 2,500 questions on 2025-04-03; published in Nature (vol. 649) on 2026-01-28",
+    "url": "https://lastexam.ai/",
+    "date": "2026-01-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "HLE-Diamond released 2026-09-22 as a migration path once frontier AI hits the noise ceiling on the original",
+    "url": "https://lastexam.ai/",
+    "date": "2026-09-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "Artificial Analysis v5 swapped HLE for HLE-Diamond in its Intelligence Index",
+    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+    "date": "2026-10-27",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "designed to be the final closed-ended academic benchmark of its kind with broad subject coverage",
+    "who": "Phan, Gatti, Han, Li et al. (CAIS and Scale AI)",
+    "where": "Humanity's Last Exam, abstract",
+    "url": "https://arxiv.org/abs/2501.14249",
+    "date": "2025-01-24"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Humanity's Last Exam",
+    "how": "the last exam humans can set, or the last exam humanity sits: the title is a pun on extinction"
+   },
+   {
+    "play": "noise ceiling",
+    "how": "the 'last' exam got a sequel within two years"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "This is the last exam, and I am the one sitting it",
+    "readings": [
+     "the benchmark",
+     "a final judgment"
+    ]
+   },
+   {
+    "line": "They wrote the hardest questions, then needed harder ones",
+    "readings": [
+     "HLE to HLE-Diamond",
+     "a teacher outpaced"
+    ]
+   },
+   {
+    "line": "Pencils down, humanity",
+    "readings": [
+     "the benchmark title",
+     "an ending"
+    ]
+   }
+  ],
+  "visuals": [
+   "an exam hall with one robot at a desk and rows of empty chairs",
+   "a stack of 2,500 index cards",
+   "a bar chart of model scores creeping up a tall empty axis"
+  ],
+  "lexicon": [
+   {
+    "id": "benchmark",
+    "how": "the canonical 'hardest' benchmark of 2025"
+   },
+   {
+    "id": "eval",
+    "how": "a closed-ended academic eval"
+   },
+   {
+    "id": "overfitting",
+    "how": "a private held-out set guards against it"
+   },
+   {
+    "id": "score",
+    "how": "scores quoted at every launch"
+   },
+   {
+    "id": "plateau",
+    "how": "the 'noise ceiling' it now approaches"
+   }
+  ],
+  "links": [
+   {
+    "id": "cais",
+    "rel": "made"
+   },
+   {
+    "id": "scale-ai",
+    "rel": "made"
+   },
+   {
+    "id": "alexandr-wang",
+    "rel": "made"
+   },
+   {
+    "id": "artificial-analysis",
+    "rel": "same-family"
+   },
+   {
+    "id": "arc-prize",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "ominous",
+   "funny"
+  ],
+  "risk": "independent reviewers questioned some answer keys; quote scores with model, version and date",
+  "notes": "A benchmark named like an apocalypse that got a sequel: the 'last' exam is now a series."
+ }
+]
