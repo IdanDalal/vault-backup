@@ -52,5 +52,5 @@ Physical tools: `D:\work\aimv-lab\kit-tools\` (mp4-repair with its README, thumb
 
 ## Open WHATs for Idi
 
-1. Licence-holder name (recommend "Chorus of Minds") and GitHub home (recommend a `chorusofminds` organization).
+1. Holder name and GitHub home RULED 11-02: "Chorus of Minds" for both (R12). Idi creates the `chorusofminds` GitHub organization.
 2. The premise, after his timestamped notes on the new refs.

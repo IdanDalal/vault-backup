@@ -34,5 +34,13 @@ Idi: "One repo per video. I expect rapid iteration/evolution/progress of the eng
 
 ## Open WHATs
 
-1. Q1, the licence-holder name on MIT and CC BY lines. Recommendation: "Chorus of Minds", matching the channel and handles; a legal name adds nothing the pseudonym lacks for a CC BY credit.
-2. Q2, the GitHub home. Recommendation: a `chorusofminds` organization (free, one web form), so repos sit beside the channel name.
+1. Q1 RULED 2026-11-02 (Idi): "Chorus of Minds" on every MIT and CC BY line.
+2. Q2 RULED 2026-11-02 (Idi): a `chorusofminds` GitHub organization holds the repos. Idi creates it (one web form, github.com/organizations/new); jep cannot.
+
+## Status 2026-11-02
+
+- Steps 1-4 and 6 DONE: `D:\work\aimv-lab\knowledge-cutoff-public`, one commit `c2dcb6f` (author Chorus of Minds; private session link amended out before any push), 204 files, 13.29 MB, no remote. Report: [[kc-public-export-2026-11-02]].
+- Verified: private-path grep 0 hits (jep re-ran); name-guard `scan_repo.py` 225 objects 0 hits; kc-engine unchanged (HEAD `9be094d`); 4 stills rendered from the export (june1, spinning1, spinning2, kit-fx); `new-video.sh` test repo passes `bun install` + tsc and renders a blank plate.
+- Org `chorusofminds` created by Idi 2026-11-02.
+- Step 7 waits on: an empty private repo `knowledge-cutoff` in the org; then jep pushes over SSH, Idi reviews the file list, Idi flips it public.
+- Step 5 (lyrics page) not started.
