@@ -74,3 +74,4 @@ Flow: cards drafted with the lyrics → song prompt shaped by the cards (section
 | R11 | Study https://music.brightmirror.co ("we can learn A LOT from it") | [[research-brightmirror-2026-11-02]] | done 11-02 |
 
 Explained 11-02: "Line-card fields: keep, cut or add" asked which of the card's 10 fields to keep, which to drop, which to add. Answered by R8: keep all 10, add the word layer.
+| R13 | KC repo: "go" (public 2026-11-02). README "acceptable/functional/concise", no more time on it; "the next one should have more pictures, GIFs, emoji, and "style"" | KC README frozen; video-2 README = visual showcase (stills, GIFs from renders, emoji headers); goes into `new-video.sh` README template | ruled 11-02 |
