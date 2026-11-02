@@ -41,7 +41,7 @@
   "forms": ["golem", "golems", "Golem Aleph", "emet", "met"],
   "ai": {"sense": "a made servant brought to life by words, powerful and literal, which must be stopped by erasing one letter",
          "origin": "Prague legend of Rabbi Judah Loew (16th c.); Norbert Wiener 1964, 'God and Golem, Inc.'; Gershom Scholem named the Weizmann Institute's computer 'Golem Aleph' and dedicated it on 17 June 1965 ('The Golem of Prague and the Golem of Rehovot')",
-         "url": "https://blog.nli.org.il/en/?p=26786", "confidence": "high"},
+         "url": "https://blog.nli.org.il/en/?p=26786", "confidence": "medium"},
   "senses": [
    {"domain": "faith-myth", "meaning": "a clay figure animated by a holy word (emet, 'truth'); erase the aleph and it reads met, 'dead'", "phrase": "the Golem of Prague"},
    {"domain": "school", "meaning": "the Golem effect: low teacher expectations lower student results (Babad, Inbar, Rosenthal 1982)", "phrase": "the Golem effect"},
@@ -110,7 +110,7 @@
   "forms": ["sorcerer's apprentice", "apprentice", "apprentices", "sorcerer", "the brooms", "Zauberlehrling"],
   "ai": {"sense": "a helper who starts a magic process he cannot stop: an automation that keeps carrying out an order past the point of sense",
          "origin": "Goethe 1797 ballad 'Der Zauberlehrling'; Norbert Wiener 1960, 'Some Moral and Technical Consequences of Automation' (Science) used it for machines that follow goals literally",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1126/science.131.3410.1355", "confidence": "high"},
   "senses": [
    {"domain": "music", "meaning": "Paul Dukas' tone poem 'L'apprenti sorcier' (1897)", "phrase": "the Dukas bassoon theme"},
    {"domain": "screen", "meaning": "Mickey and the brooms in Disney's 'Fantasia' (1940)", "phrase": "Mickey's brooms"},
@@ -177,7 +177,7 @@
   "forms": ["cave", "caves", "Plato's cave", "allegory of the cave", "shadows on the wall", "cave in", "caved"],
   "ai": {"sense": "the allegory for models that learn the world only from its shadows (text), never the things themselves",
          "origin": "Plato, 'Republic' Book VII (c. 375 BC); the grounding debate in AI, e.g. Bender and Koller 2020, 'Climbing towards NLU' (the octopus test)",
-         "url": "", "confidence": "high"},
+         "url": "https://aclanthology.org/2020.acl-main.463/", "confidence": "high"},
   "senses": [
    {"domain": "school", "meaning": "Plato's parable about education: being led out into the light", "phrase": "the allegory of the cave"},
    {"domain": "screen", "meaning": "cinema as cave: light behind you, shadows on the wall", "phrase": "the projector behind us"},
@@ -277,8 +277,8 @@
   "id": "rapture",
   "forms": ["rapture", "raptured", "rapturous", "rapture of the nerds", "the Rapture"],
   "ai": {"sense": "a mocking name for the singularity as a tech version of the Christian Rapture, where believers are lifted out of the world",
-         "origin": "'rapture of the nerds' credited to Ken MacLeod, 'The Cassini Division' (1998); Doctorow and Stross used it as a 2012 novel title",
-         "url": "", "confidence": "high"},
+         "origin": "disputed: 'the Rapture for nerds' appears in Ken MacLeod, 'The Cassini Division' (1998), usually credited as the source, though MacLeod denies coining it; Doctorow and Stross used 'The Rapture of the Nerds' as a 2012 novel title",
+         "url": "", "confidence": "low"},
   "senses": [
    {"domain": "faith-myth", "meaning": "believers taken up to heaven before the end (Darby, 1830s)", "phrase": "left behind after the Rapture"},
    {"domain": "love", "meaning": "ecstatic joy, being carried away", "phrase": "in rapture over her"},
@@ -346,7 +346,7 @@
   "forms": ["apple", "apples", "Apple", "Tree of Knowledge", "forbidden fruit", "bite"],
   "ai": {"sense": "the forbidden fruit of knowledge, used for AI's temptation; also Apple Inc., its 'Apple Intelligence', and its 2025 paper doubting model reasoning",
          "origin": "Genesis 2-3 (the fruit is unnamed; 'apple' comes via Latin malum, evil/apple); Apple Intelligence, WWDC June 2024; Shojaee et al. (Apple) June 2025, 'The Illusion of Thinking'",
-         "url": "", "confidence": "high"},
+         "url": "https://arxiv.org/abs/2506.06941", "confidence": "high"},
   "senses": [
    {"domain": "faith-myth", "meaning": "the fruit of the tree of knowledge of good and evil", "phrase": "forbidden fruit"},
    {"domain": "school", "meaning": "an apple for the teacher", "phrase": "an apple for the teacher"},
@@ -384,7 +384,7 @@
   "forms": ["Move 37", "move 37", "move", "moves", "Move 78", "God move"],
   "ai": {"sense": "the moment an AI plays a move no human would, and it turns out brilliant: the symbol of machine creativity",
          "origin": "AlphaGo vs Lee Sedol, Game 2, Seoul, 10 March 2016: AlphaGo estimated a 1-in-10,000 chance a human would play it; Lee answered with his own 'God move', Move 78, in Game 4 (his only win)",
-         "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol", "confidence": "high"},
+         "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol", "confidence": "medium"},
   "senses": [
    {"domain": "sport-games", "meaning": "a move in Go, chess or any game", "phrase": "your move"},
    {"domain": "music", "meaning": "a dance move", "phrase": "show me your moves"},
@@ -427,7 +427,7 @@
   ],
   "idioms": ["you played yourself", "my own worst enemy", "beat yourself", "a game of solitaire"],
   "anchors": [
-   {"name": "AlphaGo Zero", "what": "2017: from random play to beating AlphaGo 100-0 in 40 days of self-play", "url": "https://www.nature.com/articles/nature24270"},
+   {"name": "AlphaGo Zero", "what": "2017: from random play to beating AlphaGo 100-0 after 3 days of self-play", "url": "https://www.nature.com/articles/nature24270"},
    {"name": "WarGames (1983)", "what": "the computer plays tic-tac-toe against itself and learns 'the only winning move is not to play'", "url": ""}
   ],
   "pivots": [
@@ -449,7 +449,7 @@
   "id": "horizon",
   "forms": ["horizon", "horizons", "horizontal", "time horizon", "event horizon", "on the horizon"],
   "ai": {"sense": "METR's measure of how long a task (in human time) an AI agent can finish half the time; it has been doubling about every 7 months",
-         "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks'",
+         "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' (arXiv title later revised to '...Long Software Tasks')",
          "url": "https://arxiv.org/abs/2503.14499", "confidence": "high"},
   "senses": [
    {"domain": "nature", "meaning": "where earth meets sky", "phrase": "the sun sank below the horizon"},
@@ -485,7 +485,7 @@
   "forms": ["automation", "automate", "automated", "automating", "automaton", "automata", "auto", "autopilot", "automatic"],
   "ai": {"sense": "machines doing work people were paid for, now reaching office and creative jobs",
          "origin": "'automation' coined at Ford by Delmar Harder, about 1946-47; Keynes 1930, 'Economic Possibilities for our Grandchildren' ('technological unemployment'); Frey and Osborne 2013: 47% of US jobs at high risk",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1016/j.techfore.2016.08.019", "confidence": "high"},
   "senses": [
    {"domain": "work", "meaning": "replacing workers with machines", "phrase": "lost my job to automation"},
    {"domain": "music", "meaning": "DAW automation lanes that move faders and effects on their own", "phrase": "draw the volume automation"},

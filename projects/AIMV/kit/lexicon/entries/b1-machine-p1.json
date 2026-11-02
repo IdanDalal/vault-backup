@@ -76,8 +76,8 @@
   "id": "training",
   "forms": ["training", "train", "trains", "trained", "trainer", "trainee", "untrained", "retrain", "retrained", "training data", "training run"],
   "ai": {"sense": "the long process of adjusting a model's numbers on huge amounts of data until its guesses get good",
-         "origin": "Arthur Samuel 1959 coined 'machine learning' for a checkers program that trained itself; modern meaning from neural network practice",
-         "url": "", "confidence": "medium"},
+         "origin": "Arthur Samuel 1959, 'Some Studies in Machine Learning Using the Game of Checkers' (IBM Journal of Research and Development), usually credited with coining 'machine learning' for a checkers program that trained itself; modern meaning from neural network practice",
+         "url": "https://doi.org/10.1147/rd.33.0210", "confidence": "medium"},
   "senses": [
    {"domain": "sport-games", "meaning": "physical practice to build skill or fitness", "phrase": "she's in training for the marathon"},
    {"domain": "work", "meaning": "instruction for a job", "phrase": "mandatory training on Monday"},
@@ -142,7 +142,7 @@
   "forms": ["inference", "inferences", "infer", "infers", "inferred", "inferring", "inferential"],
   "ai": {"sense": "running a finished model to get answers, the moment it is used (as opposed to trained), and the compute bill that comes with it",
          "origin": "borrowed from statistical inference (drawing conclusions from data); standard industry term for model serving by the mid-2010s",
-         "url": "", "confidence": "medium"},
+         "url": "", "confidence": "low"},
   "senses": [
    {"domain": "mind", "meaning": "a conclusion reached from evidence and reasoning", "phrase": "draw an inference"},
    {"domain": "school", "meaning": "a reading skill: working out what a text implies", "phrase": "make an inference from the passage"},
@@ -175,7 +175,7 @@
   "forms": ["weights", "weight", "weighted", "weighting", "weigh", "weighs", "weighed", "open weights", "weightless"],
   "ai": {"sense": "the billions of learned numbers that make up a trained model; whoever holds the weights holds the model",
          "origin": "Rosenblatt 1958 perceptron (adjustable connection weights), after the idea of synaptic strength; 'open weights' for public model releases from about 2023",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1037/h0042519", "confidence": "medium"},
   "senses": [
    {"domain": "sport-games", "meaning": "heavy objects lifted for strength", "phrase": "lifting weights"},
    {"domain": "body", "meaning": "how heavy a body is", "phrase": "she lost weight"},
@@ -249,7 +249,7 @@
   "forms": ["gradient descent", "gradient", "gradients", "descent", "descend", "descends", "descending", "descended", "stochastic gradient descent", "SGD"],
   "ai": {"sense": "how models learn: measure which way is 'less wrong' and nudge every weight a small step downhill, millions of times",
          "origin": "Augustin-Louis Cauchy 1847 (method of steepest descent); applied to neural nets via backpropagation, Rumelhart, Hinton, Williams 1986",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1038/323533a0", "confidence": "high"},
   "senses": [
    {"domain": "nature", "meaning": "the steepness of a slope; walking down a mountain", "phrase": "a steep gradient on the descent"},
    {"domain": "family", "meaning": "ancestry and lineage", "phrase": "of Irish descent"},
@@ -285,7 +285,7 @@
   "forms": ["loss", "losses", "loss function", "lose", "losing", "lost", "lossless", "lossy", "loss curve"],
   "ai": {"sense": "the score of how wrong a model's guesses are; training exists to push this number down",
          "origin": "least-squares error from Legendre 1805 and Gauss; 'loss function' formalized in Abraham Wald's statistical decision theory, 1939-1950",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1214/aoms/1177732144", "confidence": "medium"},
   "senses": [
    {"domain": "love", "meaning": "grief after someone dies or leaves", "phrase": "I'm sorry for your loss"},
    {"domain": "money", "meaning": "money spent beyond what came back", "phrase": "profit and loss"},
@@ -392,7 +392,7 @@
   "forms": ["policy", "policies", "policymaker", "policy gradient", "usage policy", "content policy"],
   "ai": {"sense": "in reinforcement learning, the agent's rule for choosing an action in each situation; in products, the written rules on what a model may do",
          "origin": "Richard Bellman 1957 (dynamic programming, Markov decision processes); Sutton and Barto 1998; Williams 1992 REINFORCE (policy gradient)",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1512/iumj.1957.6.56038", "confidence": "high"},
   "senses": [
    {"domain": "law-state", "meaning": "a government's chosen course of action", "phrase": "foreign policy"},
    {"domain": "money", "meaning": "an insurance contract", "phrase": "read the policy fine print"},
@@ -424,8 +424,8 @@
   "id": "model",
   "forms": ["model", "models", "modeled", "modelled", "modeling", "modelling", "role model", "language model", "frontier model"],
   "ai": {"sense": "the trained AI system itself, the file of learned numbers that takes input and gives output",
-         "origin": "statistical 'model'; Shannon 1948 built the first statistical language models (n-grams) in 'A Mathematical Theory of Communication'",
-         "url": "", "confidence": "high"},
+         "origin": "statistical 'model'; Markov 1913 counted letter chains in Pushkin's 'Eugene Onegin'; Shannon 1948 built n-gram statistical models of English in 'A Mathematical Theory of Communication'",
+         "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x", "confidence": "medium"},
   "senses": [
    {"domain": "screen", "meaning": "a person paid to pose for cameras or wear clothes", "phrase": "a fashion model"},
    {"domain": "craft", "meaning": "a small-scale copy of a thing", "phrase": "a model airplane"},
@@ -462,7 +462,7 @@
   "forms": ["layer", "layers", "layered", "layering", "multi-layer", "hidden layer", "deep"],
   "ai": {"sense": "one stage in a stack of neuron groups; data passes up through dozens of layers, and 'deep' learning means many of them",
          "origin": "multilayer nets from Ivakhnenko 1965 and Rumelhart, Hinton, Williams 1986; 'hidden layer' from the 1980s connectionist work",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1038/323533a0", "confidence": "medium"},
   "senses": [
    {"domain": "everyday", "meaning": "a piece of clothing worn over another", "phrase": "dress in layers"},
    {"domain": "nature", "meaning": "a stratum of rock, soil or atmosphere", "phrase": "the ozone layer"},

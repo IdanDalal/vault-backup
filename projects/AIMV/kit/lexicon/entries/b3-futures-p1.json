@@ -4,7 +4,7 @@
   "forms": ["compute", "computes", "computed", "computing", "computation", "computer", "does not compute"],
   "ai": {"sense": "the raw processing budget (chips times hours) spent training or running a model, used as a noun",
          "origin": "noun use spread with OpenAI's 'AI and Compute' post (Amodei and Hernandez 2018); Altman on Lex Fridman #419, March 2024: 'compute is going to be the currency of the future'",
-         "url": "", "confidence": "medium"},
+         "url": "https://openai.com/index/ai-and-compute/", "confidence": "medium"},
   "senses": [
    {"domain": "school", "meaning": "to work out a number by calculation", "phrase": "compute the area of the triangle"},
    {"domain": "mind", "meaning": "to make sense of something; failing to fit a fact into your picture", "phrase": "that does not compute"},
@@ -36,7 +36,7 @@
   "forms": ["flops", "flop", "flopped", "flopping", "FLOPs", "FLOP/s", "petaflop", "exaflop"],
   "ai": {"sense": "floating-point operations, the unit of arithmetic used to count how much compute a training run burned (FLOP/s is the rate)",
          "origin": "HPC benchmarking unit since the 1970s (LINPACK); training thresholds in law: Biden EO 14110 (Oct 2023) set 10^26 FLOP (rescinded Jan 2025), EU AI Act sets 10^25 FLOP for systemic-risk models; Epoch AI estimates GPT-4 at about 2e25 FLOP",
-         "url": "", "confidence": "high"},
+         "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51", "confidence": "high"},
   "senses": [
    {"domain": "screen", "meaning": "a film or show that fails commercially", "phrase": "the movie was a total flop"},
    {"domain": "music", "meaning": "a single or album that fails to chart", "phrase": "her second album flopped"},
@@ -144,7 +144,7 @@
   "id": "doubling-time",
   "forms": ["doubling time", "doubling", "doubles", "doubled", "double", "double time", "doubling every"],
   "ai": {"sense": "how long a growing quantity takes to double; for AI, the length of tasks agents can finish doubles on a fixed clock",
-         "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks': the 50% task-length horizon doubled about every 7 months, 2019 to 2025",
+         "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' (arXiv title later revised to '...Long Software Tasks'): the 50% task-length horizon doubled about every 7 months, 2019 to 2025",
          "url": "https://arxiv.org/abs/2503.14499", "confidence": "high"},
   "senses": [
    {"domain": "music", "meaning": "double time: playing at twice the tempo feel", "phrase": "the drummer goes double time on the outro"},
@@ -181,7 +181,7 @@
   "forms": ["Moore's law", "Moore's Law", "Moore", "more", "law of more"],
   "ai": {"sense": "the observation that the number of transistors on a chip doubles on a steady schedule, the template for every AI growth curve",
          "origin": "Gordon Moore 1965, 'Cramming More Components onto Integrated Circuits' (Electronics): doubling yearly; revised 1975 to every two years; name popularized by Carver Mead in the 1970s (coinage disputed)",
-         "url": "https://en.wikipedia.org/wiki/Moore%27s_law", "confidence": "high"},
+         "url": "https://doi.org/10.1109/JPROC.1998.658762", "confidence": "high"},
   "senses": [
    {"domain": "law-state", "meaning": "a 'law' that is a forecast and an industry target, enforced by nobody", "phrase": "Moore's law is just an observation"},
    {"domain": "everyday", "meaning": "the homophone 'more': want for more", "phrase": "always wanting more"},
@@ -245,7 +245,7 @@
   "forms": ["singularity", "singularities", "singular", "the singularity"],
   "ai": {"sense": "a point where machine intelligence improves itself so fast that the future past it cannot be predicted",
          "origin": "von Neumann via Ulam 1958 ('some essential singularity'); Vernor Vinge 1993, 'The Coming Technological Singularity'; Kurzweil 2005, 'The Singularity Is Near' (and 2024, 'The Singularity Is Nearer')",
-         "url": "https://en.wikipedia.org/wiki/Technological_singularity", "confidence": "high"},
+         "url": "https://doi.org/10.1090/S0002-9904-1958-10189-5", "confidence": "high"},
   "senses": [
    {"domain": "science", "meaning": "the point of infinite density at a black hole's center", "phrase": "a gravitational singularity"},
    {"domain": "school", "meaning": "a point where a math function blows up or is undefined", "phrase": "1/x has a singularity at zero"},
@@ -279,7 +279,7 @@
   "forms": ["takeoff", "take-off", "take off", "takes off", "took off", "taking off", "hard takeoff", "soft takeoff", "fast takeoff", "slow takeoff"],
   "ai": {"sense": "how fast AI goes from human-level to far beyond: 'hard' in days or weeks, 'soft' over years",
          "origin": "Yudkowsky-Hanson 'AI-Foom' debate 2008 (Overcoming Bias); Bostrom 2014, 'Superintelligence' ch. 4 (slow, moderate, fast takeoff)",
-         "url": "", "confidence": "medium"},
+         "url": "https://intelligence.org/ai-foom-debate/", "confidence": "high"},
   "senses": [
    {"domain": "everyday", "meaning": "a plane leaving the ground", "phrase": "cleared for takeoff"},
    {"domain": "money", "meaning": "sudden success or sales growth", "phrase": "sales really took off"},
@@ -342,8 +342,8 @@
   "id": "intelligence-explosion",
   "forms": ["intelligence explosion", "explosion", "explode", "exploded", "intelligence", "ultraintelligent"],
   "ai": {"sense": "a loop where a smart machine designs a smarter one, which designs a smarter one, faster each turn",
-         "origin": "I. J. Good 1965, 'Speculations Concerning the First Ultraintelligent Machine' (Advances in Computers vol. 6): 'the first ultraintelligent machine is the last invention that man need ever make'",
-         "url": "", "confidence": "high"},
+         "origin": "I. J. Good 1965, 'Speculations Concerning the First Ultraintelligent Machine' (Advances in Computers vol. 6, dated 1966 by the publisher): 'the first ultraintelligent machine is the last invention that man need ever make'",
+         "url": "https://doi.org/10.1016/S0065-2458(08)60418-0", "confidence": "high"},
   "senses": [
    {"domain": "war", "meaning": "intelligence as espionage; a blown spy operation", "phrase": "military intelligence"},
    {"domain": "mind", "meaning": "intelligence as the capacity to reason, as measured by IQ tests", "phrase": "test your intelligence"},
@@ -375,8 +375,8 @@
   "id": "rsi",
   "forms": ["RSI", "recursive self-improvement", "self-improvement", "recursive", "recursion", "repetitive strain injury"],
   "ai": {"sense": "an AI improving its own design, each better version improving the next",
-         "origin": "idea from I. J. Good 1965; phrase associated with Eliezer Yudkowsky, early 2000s (Creating Friendly AI 2001; Levels of Organization in General Intelligence 2007)",
-         "url": "", "confidence": "medium"},
+         "origin": "idea from I. J. Good 1965; phrase associated with Eliezer Yudkowsky, early 2000s (Creating Friendly AI 2001; Levels of Organization in General Intelligence, written 2002, published 2007)",
+         "url": "https://intelligence.org/files/CFAI.pdf", "confidence": "medium"},
   "senses": [
    {"domain": "body", "meaning": "RSI as repetitive strain injury: pain from doing the same motion (typing) over and over", "phrase": "typing gave me RSI"},
    {"domain": "money", "meaning": "RSI as the Relative Strength Index, a trading signal for overbought stocks (Wilder 1978)", "phrase": "the RSI says it's overbought"},
@@ -409,7 +409,7 @@
   "forms": ["AGI", "artificial general intelligence", "general intelligence", "general"],
   "ai": {"sense": "AI that can do most cognitive work a human can, across fields, with no agreed test for when it arrives",
          "origin": "Mark Gubrud 1997 first use; popularized by Shane Legg and Ben Goertzel (Goertzel and Pennachin, 'Artificial General Intelligence', 2007); OpenAI Charter 2018: 'highly autonomous systems that outperform humans at most economically valuable work'",
-         "url": "https://openai.com/charter/", "confidence": "high"},
+         "url": "https://openai.com/charter/", "confidence": "medium"},
   "senses": [
    {"domain": "money", "meaning": "AGI as adjusted gross income, the US tax figure", "phrase": "report your AGI on line 11"},
    {"domain": "war", "meaning": "a general: a high army rank", "phrase": "the general gave the order"},

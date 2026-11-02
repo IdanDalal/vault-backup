@@ -33,7 +33,7 @@
   "id": "activation",
   "forms": ["activation", "activations", "activate", "activated", "activates", "active", "activation function"],
   "ai": {"sense": "the number a neuron outputs when it fires on an input; researchers read activations to see what a model is thinking",
-         "origin": "threshold units in McCulloch and Pitts 1943; the ReLU activation function from Nair and Hinton 2010",
+         "origin": "threshold units in McCulloch and Pitts 1943; the ReLU activation function used by Fukushima 1969 and popularized by Nair and Hinton 2010",
          "url": "", "confidence": "medium"},
   "senses": [
    {"domain": "body", "meaning": "a muscle or immune response switching on", "phrase": "glute activation"},
@@ -67,7 +67,7 @@
   "forms": ["neuron", "neurons", "neural", "neural net", "neural network", "neuronal"],
   "ai": {"sense": "one tiny unit in a network that adds up its inputs and passes on a number; loosely inspired by brain cells",
          "origin": "McCulloch and Pitts 1943, 'A Logical Calculus of the Ideas Immanent in Nervous Activity'; Rosenblatt 1958 perceptron",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1007/BF02478259", "confidence": "high"},
   "senses": [
    {"domain": "body", "meaning": "a nerve cell that carries electrical signals", "phrase": "motor neurons"},
    {"domain": "mind", "meaning": "the physical seat of thought and memory", "phrase": "neurons that fire together wire together"}
@@ -229,8 +229,8 @@
   "id": "batch",
   "forms": ["batch", "batches", "batched", "batching", "batch size", "minibatch", "small batch"],
   "ai": {"sense": "a group of examples fed through the model together in one training step",
-         "origin": "batch processing in early computing; minibatch stochastic gradient descent from Robbins and Monro 1951 onward",
-         "url": "", "confidence": "medium"},
+         "origin": "batch processing in early computing; stochastic gradient methods trace to Robbins and Monro 1951 (stochastic approximation); minibatches are later neural-network practice",
+         "url": "https://doi.org/10.1214/aoms/1177729586", "confidence": "medium"},
   "senses": [
    {"domain": "craft", "meaning": "an amount of food or drink made at one time", "phrase": "a batch of cookies"},
    {"domain": "work", "meaning": "a run of products made together in a factory", "phrase": "batch number 4471"},
@@ -290,7 +290,7 @@
   "forms": ["checkpoint", "checkpoints", "checkpointed", "checkpointing", "save point"],
   "ai": {"sense": "a saved snapshot of a model mid-training that can be reloaded, shared or rolled back to",
          "origin": "general computing practice (checkpoint and restart); the word for saved model files in TensorFlow and PyTorch",
-         "url": "", "confidence": "medium"},
+         "url": "https://www.tensorflow.org/guide/checkpoint", "confidence": "medium"},
   "senses": [
    {"domain": "war", "meaning": "a guarded point where travelers are stopped and checked", "phrase": "a military checkpoint"},
    {"domain": "sport-games", "meaning": "a save spot in a video game you restart from", "phrase": "back to the last checkpoint"},
@@ -321,7 +321,7 @@
   "id": "overfitting",
   "forms": ["overfitting", "overfit", "overfits", "overfitted", "fit", "fitting"],
   "ai": {"sense": "memorizing the training examples so closely that the model fails on anything new",
-         "origin": "statistics term for models with too many free parameters; in machine learning vocabulary since at least the 1990s",
+         "origin": "statistics term for models with too many free parameters, in print by 1951 in psychometrics; in machine learning vocabulary since at least the 1980s",
          "url": "", "confidence": "medium"},
   "senses": [
    {"domain": "craft", "meaning": "how closely clothes match a body", "phrase": "a perfect fit"},
@@ -329,7 +329,7 @@
   ],
   "idioms": ["a perfect fit", "teaching to the test", "fits like a glove"],
   "anchors": [
-   {"name": "Goodhart's law", "what": "Charles Goodhart 1975: when a measure becomes a target, it stops being a good measure", "url": ""}
+   {"name": "Goodhart's law", "what": "Charles Goodhart 1975, in Marilyn Strathern's 1997 wording: when a measure becomes a target, it stops being a good measure", "url": ""}
   ],
   "pivots": [
    {"line": "I memorized your answers and failed your questions", "senses": ["ai", "school", "love"]},
@@ -351,7 +351,7 @@
   "forms": ["generalization", "generalisation", "generalize", "generalizes", "generalized", "generalizing", "general"],
   "ai": {"sense": "doing well on new inputs the model never saw in training, which is the whole point of learning",
          "origin": "core statistical-learning concept; formal theory from Vapnik and Chervonenkis, 1970s",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1137/1116025", "confidence": "high"},
   "senses": [
    {"domain": "mind", "meaning": "a fear or habit spreading from one trigger to similar ones", "phrase": "stimulus generalization"},
    {"domain": "law-state", "meaning": "a broad claim about a whole group; a stereotype", "phrase": "that's a sweeping generalization"},
@@ -411,7 +411,7 @@
   "forms": ["learning rate", "learning rates", "LR", "learning curve"],
   "ai": {"sense": "how big each correction step is during training: too big and it overshoots, too small and it crawls",
          "origin": "step size in Robbins and Monro 1951 stochastic approximation; named 'learning rate' in neural-network work from the perceptron era",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1214/aoms/1177729586", "confidence": "medium"},
   "senses": [
    {"domain": "school", "meaning": "how fast a pupil picks things up", "phrase": "every child learns at a different rate"},
    {"domain": "work", "meaning": "how cost falls as workers repeat a task", "phrase": "a steep learning curve"},
@@ -441,7 +441,7 @@
   "forms": ["momentum", "momenta", "momentous"],
   "ai": {"sense": "a training trick where each update keeps part of the previous direction, so learning rolls through small bumps",
          "origin": "Boris Polyak 1964 ('heavy ball' method); used in backpropagation by Rumelhart, Hinton, Williams 1986",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1016/0041-5553(64)90137-5", "confidence": "high"},
   "senses": [
    {"domain": "science", "meaning": "mass times velocity; motion that keeps going", "phrase": "conservation of momentum"},
    {"domain": "sport-games", "meaning": "a run of success that shifts a game", "phrase": "the momentum has swung"},

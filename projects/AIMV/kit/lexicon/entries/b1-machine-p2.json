@@ -75,7 +75,7 @@
   "forms": ["vector", "vectors", "vectorize", "vectorized", "vector database", "attack vector"],
   "ai": {"sense": "a list of numbers that points somewhere in a many-dimensional space; models represent every word and idea as one",
          "origin": "mathematics, from William Rowan Hamilton's 1840s work on quaternions; in AI via embeddings (Bengio 2003, Mikolov 2013)",
-         "url": "", "confidence": "high"},
+         "url": "", "confidence": "medium"},
   "senses": [
    {"domain": "science", "meaning": "a quantity with size and direction", "phrase": "velocity is a vector"},
    {"domain": "body", "meaning": "an animal that carries disease to people", "phrase": "mosquitoes are a malaria vector"},
@@ -174,7 +174,7 @@
   "forms": ["context window", "context windows", "window", "windows", "context length"],
   "ai": {"sense": "the maximum amount of text a model can hold in view at once; whatever falls outside it is gone",
          "origin": "follows from the fixed sequence length of Transformers (Vaswani et al. 2017); sizes grew from about 2,000 tokens (GPT-3, 2020) to a million and more by 2024-25",
-         "url": "", "confidence": "medium"},
+         "url": "https://arxiv.org/abs/1706.03762", "confidence": "medium"},
   "senses": [
    {"domain": "everyday", "meaning": "an opening in a wall that lets you see out", "phrase": "look out the window"},
    {"domain": "screen", "meaning": "a framed panel on a computer screen", "phrase": "close that window"},
@@ -208,7 +208,7 @@
   "forms": ["memory", "memories", "memorize", "memorized", "memorial", "remember", "remembers", "remembered", "memory full"],
   "ai": {"sense": "what a chatbot can recall about you between chats; also the hardware RAM a model must fit inside",
          "origin": "ChatGPT memory feature, announced by OpenAI February 2024; computing 'memory' since the 1940s (von Neumann 1945 report)",
-         "url": "", "confidence": "high"},
+         "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/", "confidence": "medium"},
   "senses": [
    {"domain": "mind", "meaning": "the ability to keep and recall the past", "phrase": "my memory's going"},
    {"domain": "love", "meaning": "a fond recollection of someone", "phrase": "I have good memories of us"},
@@ -280,7 +280,7 @@
   "forms": ["temperature", "temperatures", "temp", "hot", "cold", "fever"],
   "ai": {"sense": "a dial for randomness: low temperature gives safe, repeatable answers, high temperature gives wild ones",
          "origin": "borrowed from statistical physics (the Boltzmann distribution); used in neural nets by Ackley, Hinton, Sejnowski 1985 (Boltzmann machines)",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1016/S0364-0213(85)80012-4", "confidence": "high"},
   "senses": [
    {"domain": "body", "meaning": "how hot a body is; fever", "phrase": "she's running a temperature"},
    {"domain": "nature", "meaning": "how hot or cold the weather is", "phrase": "temperatures dropped overnight"},

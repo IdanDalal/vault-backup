@@ -35,8 +35,8 @@
   "id": "accelerationism",
   "forms": ["accelerationism", "accelerationist", "e/acc", "accelerate", "accelerating", "acceleration", "accelerando", "decel"],
   "ai": {"sense": "the stance that tech progress, AI above all, should go as fast as possible; 'decels' are those who want to slow it",
-         "origin": "term coined by Benjamin Noys 2010 for Nick Land / CCRU 1990s theory; 'effective accelerationism' (e/acc) launched 2022 by pseudonymous 'Beff Jezos' (Guillaume Verdon, named by Forbes Dec 2023); Andreessen's 'Techno-Optimist Manifesto' Oct 2023",
-         "url": "", "confidence": "high"},
+         "origin": "term coined by Benjamin Noys 2010 ('The Persistence of the Negative') for Nick Land / CCRU 1990s theory; 'effective accelerationism' (e/acc) launched 2022 by pseudonymous 'Beff Jezos' (Guillaume Verdon, named by Forbes Dec 2023); Andreessen's 'Techno-Optimist Manifesto' Oct 2023",
+         "url": "", "confidence": "medium"},
   "senses": [
    {"domain": "science", "meaning": "rate of change of speed", "phrase": "acceleration due to gravity"},
    {"domain": "everyday", "meaning": "pressing the gas pedal", "phrase": "floor the accelerator"},
@@ -103,7 +103,7 @@
   "forms": ["race", "races", "racing", "raced", "arms race", "race to the bottom", "rat race", "human race", "racer"],
   "ai": {"sense": "the competition between labs and between the US and China to build stronger AI first, at the cost of safety",
          "origin": "Cold War 'arms race' frame reapplied to AI; Armstrong, Bostrom and Shulman 2016, 'Racing to the Precipice'; Aschenbrenner 2024, 'Situational Awareness'",
-         "url": "", "confidence": "medium"},
+         "url": "https://doi.org/10.1007/s00146-015-0590-y", "confidence": "high"},
   "senses": [
    {"domain": "sport-games", "meaning": "a contest of speed", "phrase": "win the race"},
    {"domain": "war", "meaning": "an arms race: rivals stockpiling weapons", "phrase": "the nuclear arms race"},
@@ -139,7 +139,7 @@
   "forms": ["moat", "moats", "no moat", "economic moat"],
   "ai": {"sense": "a lasting competitive edge that rivals cannot copy; the question of whether any AI lab has one",
          "origin": "Warren Buffett's 'economic moat' (Berkshire letters and meetings, 1990s); leaked Google memo May 2023, 'We Have No Moat, And Neither Does OpenAI' (attributed to Luke Sernau, published by SemiAnalysis)",
-         "url": "", "confidence": "medium"},
+         "url": "https://www.semianalysis.com/p/google-we-have-no-moat-and-neither", "confidence": "medium"},
   "senses": [
    {"domain": "war", "meaning": "a water-filled ditch around a castle", "phrase": "cross the moat"},
    {"domain": "money", "meaning": "a durable business advantage", "phrase": "a wide moat stock"},
@@ -242,7 +242,7 @@
   "forms": ["winter", "winters", "wintry", "AI winter", "nuclear winter"],
   "ai": {"sense": "a period when funding and interest in AI collapse after promises fail",
          "origin": "Lighthill Report (UK, 1973) cut British AI funding; term 'AI winter' from a 1984 AAAI debate (Minsky and Schank), modeled on 'nuclear winter'; second winter after the late-1980s expert-system crash",
-         "url": "https://en.wikipedia.org/wiki/AI_winter", "confidence": "high"},
+         "url": "https://en.wikipedia.org/wiki/AI_winter", "confidence": "medium"},
   "senses": [
    {"domain": "nature", "meaning": "the cold season", "phrase": "the dead of winter"},
    {"domain": "war", "meaning": "nuclear winter: smoke from nuclear war blocking the sun (Turco et al. 1983)", "phrase": "nuclear winter"},
@@ -312,7 +312,7 @@
   "forms": ["Kardashev", "Kardashev scale", "Type I", "Type II", "Type III", "type one civilization"],
   "ai": {"sense": "a ranking of civilizations by how much energy they harness: a planet (I), a star (II), a galaxy (III); AI boosters use it as the yardstick for compute ambitions",
          "origin": "Nikolai Kardashev 1964, 'Transmission of Information by Extraterrestrial Civilizations' (Soviet Astronomy); Carl Sagan 1973 interpolation puts humanity near 0.7",
-         "url": "https://en.wikipedia.org/wiki/Kardashev_scale", "confidence": "high"},
+         "url": "https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K", "confidence": "high"},
   "senses": [
    {"domain": "science", "meaning": "the astronomers' energy scale for alien civilizations", "phrase": "a Type II civilization"},
    {"domain": "screen", "meaning": "the near-homophone Kardashian, the reality-TV family", "phrase": "Keeping Up with the Kardashians"},
@@ -342,7 +342,7 @@
   "forms": ["Dyson sphere", "Dyson swarm", "Dyson", "sphere", "spheres"],
   "ai": {"sense": "a shell or swarm of collectors built around a star to capture its energy; shorthand for AI compute at stellar scale",
          "origin": "Freeman Dyson 1960, 'Search for Artificial Stellar Sources of Infrared Radiation' (Science); idea anticipated in Olaf Stapledon's 'Star Maker' (1937)",
-         "url": "https://en.wikipedia.org/wiki/Dyson_sphere", "confidence": "high"},
+         "url": "https://doi.org/10.1126/science.131.3414.1667", "confidence": "high"},
   "senses": [
    {"domain": "everyday", "meaning": "Dyson the vacuum-cleaner brand (James Dyson, unrelated)", "phrase": "run the Dyson"},
    {"domain": "music", "meaning": "the music of the spheres: Pythagoras' cosmic harmony", "phrase": "the music of the spheres"},
@@ -374,7 +374,7 @@
   "id": "simulation",
   "forms": ["simulation", "simulations", "simulate", "simulated", "simulator", "sim", "sims", "simulacra"],
   "ai": {"sense": "the argument that we may live in a computer simulation; also, LLMs as simulators that role-play characters",
-         "origin": "Nick Bostrom 2003, 'Are You Living in a Computer Simulation?' (Philosophical Quarterly); Janus 2022, 'Simulators' (LessWrong) on LLMs as simulators",
+         "origin": "Nick Bostrom 2003, 'Are We Living in a Computer Simulation?' (Philosophical Quarterly); Janus 2022, 'Simulators' (LessWrong) on LLMs as simulators",
          "url": "https://www.simulation-argument.com/simulation.pdf", "confidence": "high"},
   "senses": [
    {"domain": "screen", "meaning": "The Matrix (1999): reality as a simulation", "phrase": "there is no spoon"},
@@ -412,7 +412,7 @@
   "forms": ["basilisk", "basilisks", "Roko's basilisk", "Rococo Basilisk"],
   "ai": {"sense": "a thought experiment: a future AI might punish everyone who knew about it and did not help build it, so knowing the idea is itself the hazard",
          "origin": "user 'Roko' on LessWrong, July 2010; Yudkowsky deleted the post and banned the topic for about five years",
-         "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk", "confidence": "high"},
+         "url": "https://en.wikipedia.org/wiki/Roko%27s_basilisk", "confidence": "medium"},
   "senses": [
    {"domain": "faith-myth", "meaning": "the serpent king whose gaze kills (Pliny)", "phrase": "the basilisk's deadly stare"},
    {"domain": "screen", "meaning": "the giant serpent in Harry Potter and the Chamber of Secrets", "phrase": "look at it only in a mirror"},
@@ -446,7 +446,7 @@
   "forms": ["oracle", "oracles", "oracular", "Oracle", "Delphi"],
   "ai": {"sense": "a boxed AI that only answers questions and takes no actions; in computing, a black box that gives correct answers to a question class",
          "origin": "Turing 1939 'oracle machine' ('Systems of Logic Based on Ordinals'); Bostrom 2014, 'Superintelligence' ch. 10: oracles, genies, sovereigns, tools",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1112/plms/s2-45.1.161", "confidence": "high"},
   "senses": [
    {"domain": "faith-myth", "meaning": "the priestess at Delphi who spoke the god's riddling answers", "phrase": "consult the oracle"},
    {"domain": "money", "meaning": "Oracle Corporation; also Buffett, 'the Oracle of Omaha'", "phrase": "the Oracle of Omaha"},
@@ -480,7 +480,7 @@
   "forms": ["genie", "genies", "jinn", "djinn", "genie in a bottle", "Genie 3"],
   "ai": {"sense": "an AI that carries out commands literally; also Google DeepMind's 'Genie' world models that generate playable worlds",
          "origin": "Bostrom 2014, 'Superintelligence' ch. 10 (oracle, genie, sovereign); DeepMind Genie (Feb 2024), Genie 2 (Dec 2024), Genie 3 (Aug 2025)",
-         "url": "", "confidence": "high"},
+         "url": "https://arxiv.org/abs/2402.15391", "confidence": "high"},
   "senses": [
    {"domain": "faith-myth", "meaning": "the jinn of Arabian and Islamic lore, bound to grant wishes", "phrase": "three wishes"},
    {"domain": "screen", "meaning": "Robin Williams' Genie in Disney's Aladdin (1992); I Dream of Jeannie (1965)", "phrase": "phenomenal cosmic power, itty bitty living space"},

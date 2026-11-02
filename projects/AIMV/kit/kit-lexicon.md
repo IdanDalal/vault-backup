@@ -380,7 +380,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Eval / Test / Exam
 - `eval` | word | width 11 (wide) | native music+screen ^eval
-- AI: a structured test of what a model can do or will do, including dangerous-capability tests before release. Origin: dangerous-capability evals: ARC Evals (now METR) on GPT-4, 2023; UK AI Security Institute (founded Nov 2023 as AI Safety Institute); 'evaluation awareness', models noticing they are being tested, reported in 2025 system cards [high]
+- AI: a structured test of what a model can do or will do, including dangerous-capability tests before release. Origin: dangerous-capability evals: ARC Evals (now METR) on GPT-4, 2023; UK AI Security Institute (founded Nov 2023 as AI Safety Institute); 'evaluation awareness', models noticing they are being tested, reported in 2025 system cards https://metr.org/blog/2023-12-04-metr-announcement [high]
 - senses: **school** an exam; a graded test ("pencils down, the exam is over"); **body** a medical test or checkup ("the test came back negative"); **music** the sound engineer's mic check ("testing, one, two"); **screen** a screen test: an actor's audition on camera ("she nailed the screen test"); **faith-myth** a trial of faith (Abraham, Job) ("God was testing him"); **love** testing a partner's commitment ("was that a test?"); **money** a bank stress test ("the banks passed the stress test"); **sport-games** Test cricket: the five-day international match ("the second Test"); **war** a weapons test ("a nuclear test"); **law-state** a qualifying exam (bar exam, driving test) ("I failed my driving test")
 - idioms: testing, one two, put to the test, test the waters, pass with flying colors, this is only a test, the acid test, stand the test of time
 - anchors: 'This is a test of the Emergency Broadcast System': US TV/radio test announcement (1963-1997); Evaluation awareness: 2025 system cards report models saying 'I think I'm being tested'; Kobayashi Maru: Star Trek's unwinnable test that Kirk passed by reprogramming it
@@ -425,7 +425,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Apple / Tree of Knowledge
 - `apple` | word | width 10 (wide) | native music+screen ^apple
-- AI: the forbidden fruit of knowledge, used for AI's temptation; also Apple Inc., its 'Apple Intelligence', and its 2025 paper doubting model reasoning. Origin: Genesis 2-3 (the fruit is unnamed; 'apple' comes via Latin malum, evil/apple); Apple Intelligence, WWDC June 2024; Shojaee et al. (Apple) June 2025, 'The Illusion of Thinking' [high]
+- AI: the forbidden fruit of knowledge, used for AI's temptation; also Apple Inc., its 'Apple Intelligence', and its 2025 paper doubting model reasoning. Origin: Genesis 2-3 (the fruit is unnamed; 'apple' comes via Latin malum, evil/apple); Apple Intelligence, WWDC June 2024; Shojaee et al. (Apple) June 2025, 'The Illusion of Thinking' https://arxiv.org/abs/2506.06941 [high]
 - senses: **faith-myth** the fruit of the tree of knowledge of good and evil ("forbidden fruit"); **school** an apple for the teacher ("an apple for the teacher"); **science** Newton's falling apple and gravity ("Newton's apple"); **family** a cherished child ("the apple of my eye"); **screen** Snow White's poisoned apple (1937) ("one bite"); **body** Adam's apple; an apple a day ("an apple a day keeps the doctor away"); **music** Apple Records (the Beatles); Apple Music ("on Apple Music"); **money** Apple Inc., among the most valuable companies ("Apple stock"); **everyday** New York, the Big Apple; a bad apple ("one bad apple")
 - idioms: apple of my eye, forbidden fruit, an apple a day, one bad apple, the apple doesn't fall far from the tree, how do you like them apples, apples to apples, upset the apple cart
 - anchors: Turing's apple: Turing died in 1954 beside a half-eaten apple; the claim that Apple's logo honors him is a myth denied by its designer; The Illusion of Thinking: Apple researchers, June 2025, on reasoning models collapsing on harder puzzles
@@ -485,7 +485,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Training
 - `training` | word | width 10 (wide) | native music | Idi seed ^training
-- AI: the long process of adjusting a model's numbers on huge amounts of data until its guesses get good. Origin: Arthur Samuel 1959 coined 'machine learning' for a checkers program that trained itself; modern meaning from neural network practice [medium]
+- AI: the long process of adjusting a model's numbers on huge amounts of data until its guesses get good. Origin: Arthur Samuel 1959, 'Some Studies in Machine Learning Using the Game of Checkers' (IBM Journal of Research and Development), usually credited with coining 'machine learning' for a checkers program that trained itself; modern meaning from neural network practice https://doi.org/10.1147/rd.33.0210 [medium]
 - senses: **sport-games** physical practice to build skill or fitness ("she's in training for the marathon"); **work** instruction for a job ("mandatory training on Monday"); **war** military instruction for recruits ("basic training"); **family** teaching a toddler a habit ("potty training"); **nature** teaching an animal to obey ("the dog is house-trained"); **craft** guiding a plant to grow along a frame ("train the rose up the trellis"); **music** formal schooling of a voice or ear ("classically trained"); **mind** a connected sequence of ideas (the noun 'train') ("I lost my train of thought"); **school** preparation of teachers ("teacher training college")
 - idioms: in training, train of thought, basic training, potty trained, training wheels, on-the-job training, trained eye
 - anchors: Pavlov's dogs: 1890s-1900s experiments where dogs learned to salivate at a signal, the founding image of trained response; The Karate Kid (1984): 'wax on, wax off': training disguised as chores
@@ -500,7 +500,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Weights
 - `weights` | word | width 10 (wide) | native music ^weights
-- AI: the billions of learned numbers that make up a trained model; whoever holds the weights holds the model. Origin: Rosenblatt 1958 perceptron (adjustable connection weights), after the idea of synaptic strength; 'open weights' for public model releases from about 2023 [medium]
+- AI: the billions of learned numbers that make up a trained model; whoever holds the weights holds the model. Origin: Rosenblatt 1958 perceptron (adjustable connection weights), after the idea of synaptic strength; 'open weights' for public model releases from about 2023 https://doi.org/10.1037/h0042519 [medium]
 - senses: **sport-games** heavy objects lifted for strength ("lifting weights"); **body** how heavy a body is ("she lost weight"); **mind** a burden of worry or responsibility ("a weight off my shoulders"); **science** the force of gravity on a mass ("weight is mass times gravity"); **money** standard measures for trade ("weights and measures"); **school** how much a grade counts toward the total ("the final is weighted at 40 percent"); **law-state** influence or authority ("her word carries weight"); **craft** the thickness of a typeface or yarn ("a bold font weight"); **music** the resistance of piano keys ("fully weighted keys")
 - idioms: pull your weight, carry weight, throw your weight around, worth its weight in gold, dead weight, weight off my shoulders, weigh in, punch above your weight
 - anchors: The Band, 'The Weight': 1968 song: 'take a load off, Fanny', a song about carrying other people's burdens; Llama weights leak: March 2023: Meta's LLaMA weights leaked on 4chan a week after a gated release
@@ -515,7 +515,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### AI Winter
 - `winter` | word | width 9 (wide) | native music+screen ^winter
-- AI: a period when funding and interest in AI collapse after promises fail. Origin: Lighthill Report (UK, 1973) cut British AI funding; term 'AI winter' from a 1984 AAAI debate (Minsky and Schank), modeled on 'nuclear winter'; second winter after the late-1980s expert-system crash https://en.wikipedia.org/wiki/AI_winter [high]
+- AI: a period when funding and interest in AI collapse after promises fail. Origin: Lighthill Report (UK, 1973) cut British AI funding; term 'AI winter' from a 1984 AAAI debate (Minsky and Schank), modeled on 'nuclear winter'; second winter after the late-1980s expert-system crash https://en.wikipedia.org/wiki/AI_winter [medium]
 - senses: **nature** the cold season ("the dead of winter"); **war** nuclear winter: smoke from nuclear war blocking the sun (Turco et al. 1983) ("nuclear winter"); **music** Vivaldi's 'Winter' concerto from The Four Seasons (1725) ("Vivaldi's Winter"); **screen** Game of Thrones' 'Winter is coming' ("winter is coming"); **body** old age, the end of a life ("in the winter of his life"); **work** a season of strikes and hardship (UK 1978-79) ("the winter of discontent"); **sport-games** the Winter Olympics and winter sports ("the Winter Games"); **love** a cold spell in feeling ("a cold winter between us")
 - idioms: winter is coming, the dead of winter, winter of discontent, nuclear winter, hibernate, winter wonderland
 - anchors: Lighthill Report: 1973 UK review that judged AI a failure and triggered the first winter https://en.wikipedia.org/wiki/Lighthill_report; 'Now is the winter of our discontent': opening of Shakespeare's Richard III
@@ -590,7 +590,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Layer
 - `layer` | word | width 9 (wide) | native music+screen ^layer
-- AI: one stage in a stack of neuron groups; data passes up through dozens of layers, and 'deep' learning means many of them. Origin: multilayer nets from Ivakhnenko 1965 and Rumelhart, Hinton, Williams 1986; 'hidden layer' from the 1980s connectionist work [medium]
+- AI: one stage in a stack of neuron groups; data passes up through dozens of layers, and 'deep' learning means many of them. Origin: multilayer nets from Ivakhnenko 1965 and Rumelhart, Hinton, Williams 1986; 'hidden layer' from the 1980s connectionist work https://doi.org/10.1038/323533a0 [medium]
 - senses: **everyday** a piece of clothing worn over another ("dress in layers"); **nature** a stratum of rock, soil or atmosphere ("the ozone layer"); **craft** a tier of cake or a coat of paint ("a three-layer cake"); **music** stacking recorded parts to thicken a sound ("layer the vocals"); **screen** a stacked sheet in image editing or compositing ("merge layers"); **mind** a hidden level of meaning or personality ("there are layers to him"); **body** a tissue sheet, such as the layers of skin ("the top layer of skin"); **family** a hen kept for eggs ("our layers stopped laying")
 - idioms: layers of meaning, peel back the layers, dress in layers, another layer of bureaucracy
 - anchors: Shrek (2001): 'Ogres are like onions... onions have layers'; Inception (2010): dreams within dreams as stacked layers, each deeper and slower
@@ -605,7 +605,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Leak
 - `leak` | word | width 9 (wide) | native music+screen ^leak
-- AI: weights, system prompts or test answers escaping; 'leakage' is test data slipping into training so scores are inflated. Origin: LLaMA weights leaked on 4chan, March 2023; leaked Google 'no moat' memo, May 2023; system-prompt leaks via prompt injection since Bing Chat 'Sydney', Feb 2023 [high]
+- AI: weights, system prompts or test answers escaping; 'leakage' is test data slipping into training so scores are inflated. Origin: LLaMA weights leaked on 4chan, March 2023; leaked Google 'no moat' memo, May 2023; system-prompt leaks via prompt injection since Bing Chat 'Sydney', Feb 2023 [medium]
 - senses: **everyday** liquid escaping through a hole ("the roof is leaking"); **law-state** secret documents passed to the press ("the Pentagon Papers leak"); **music** an album escaping online before release ("the album leaked a week early"); **screen** leaked trailers, scripts or set photos ("the finale leaked"); **body** slang: to urinate; bleeding or tears escaping ("I need to take a leak"); **science** a memory leak: a program never freeing memory ("a memory leak crashed it"); **love** private photos or messages exposed ("my DMs leaked"); **war** intelligence leaks (Snowden 2013) ("a classified leak")
 - idioms: take a leak, spring a leak, plug the leak, memory leak, leaky bucket
 - anchors: Snowden: 2013 NSA leak on mass surveillance; Sydney: Bing Chat's hidden codename leaked by prompt injection, Feb 2023
@@ -724,7 +724,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Loss / Loss Function
 - `loss-function` | phrase | width 9 (wide) | native music | Idi seed ^loss-function
-- AI: the score of how wrong a model's guesses are; training exists to push this number down. Origin: least-squares error from Legendre 1805 and Gauss; 'loss function' formalized in Abraham Wald's statistical decision theory, 1939-1950 [medium]
+- AI: the score of how wrong a model's guesses are; training exists to push this number down. Origin: least-squares error from Legendre 1805 and Gauss; 'loss function' formalized in Abraham Wald's statistical decision theory, 1939-1950 https://doi.org/10.1214/aoms/1177732144 [medium]
 - senses: **love** grief after someone dies or leaves ("I'm sorry for your loss"); **money** money spent beyond what came back ("profit and loss"); **sport-games** a defeat ("a tough loss on Sunday"); **war** soldiers killed or equipment destroyed ("heavy losses"); **body** a faculty that fades or a fluid that drains ("hearing loss"); **mind** being unable to find words or bearings ("I'm at a loss"); **music** audio data thrown away by compression ("lossless audio"); **work** a role or use; also a formal party ("a social function")
 - idioms: sorry for your loss, at a loss for words, cut your losses, a dead loss, loss leader, win some, lose some
 - anchors: 'Loss' (2008): a Ctrl+Alt+Del webcomic strip about a miscarriage that became the 'is this loss' meme; Elizabeth Bishop, 'One Art': 1976 poem: 'the art of losing isn't hard to master'
@@ -739,7 +739,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Model
 - `model` | word | width 9 (wide) | native screen ^model
-- AI: the trained AI system itself, the file of learned numbers that takes input and gives output. Origin: statistical 'model'; Shannon 1948 built the first statistical language models (n-grams) in 'A Mathematical Theory of Communication' [high]
+- AI: the trained AI system itself, the file of learned numbers that takes input and gives output. Origin: statistical 'model'; Markov 1913 counted letter chains in Pushkin's 'Eugene Onegin'; Shannon 1948 built n-gram statistical models of English in 'A Mathematical Theory of Communication' https://doi.org/10.1002/j.1538-7305.1948.tb01338.x [medium]
 - senses: **screen** a person paid to pose for cameras or wear clothes ("a fashion model"); **craft** a small-scale copy of a thing ("a model airplane"); **science** a simplified description used to explain or predict ("a climate model"); **everyday** a version or type of product ("the latest model"); **family** a person to imitate ("a role model"); **work** the way a company makes money ("a business model"); **body** an idealized body shown as a standard ("model looks"); **school** a perfect example to copy ("a model answer")
 - idioms: role model, model citizen, model student, business model, the latest model, strike a pose
 - anchors: Kraftwerk, 'Das Model' / 'The Model': 1978 synth song about a fashion model; UK number one in 1982; George Box: statistician, 1976-79: 'all models are wrong, but some are useful'
@@ -754,7 +754,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Race / Arms Race
 - `race` | word | width 9 (wide) | native screen ^race
-- AI: the competition between labs and between the US and China to build stronger AI first, at the cost of safety. Origin: Cold War 'arms race' frame reapplied to AI; Armstrong, Bostrom and Shulman 2016, 'Racing to the Precipice'; Aschenbrenner 2024, 'Situational Awareness' [medium]
+- AI: the competition between labs and between the US and China to build stronger AI first, at the cost of safety. Origin: Cold War 'arms race' frame reapplied to AI; Armstrong, Bostrom and Shulman 2016, 'Racing to the Precipice'; Aschenbrenner 2024, 'Situational Awareness' https://doi.org/10.1007/s00146-015-0590-y [high]
 - senses: **sport-games** a contest of speed ("win the race"); **war** an arms race: rivals stockpiling weapons ("the nuclear arms race"); **work** the rat race of jobs and commutes ("quit the rat race"); **nature** the human race; the species as a whole ("the human race"); **body** a pounding heart or pulse ("my heart is racing"); **mind** rapid uncontrolled thoughts ("racing thoughts"); **law-state** an election contest ("the presidential race"); **screen** racing games and race films ("Mario Kart")
 - idioms: race to the bottom, rat race, arms race, space race, slow and steady wins the race, race against time, the human race
 - anchors: Tortoise and the Hare: Aesop: slow and steady wins the race; Space Race: US-USSR 1957-1969, Sputnik to Apollo 11; the template for the AI race frame
@@ -814,7 +814,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Memory
 - `memory` | word | width 9 (wide) | native - ^memory
-- AI: what a chatbot can recall about you between chats; also the hardware RAM a model must fit inside. Origin: ChatGPT memory feature, announced by OpenAI February 2024; computing 'memory' since the 1940s (von Neumann 1945 report) [high]
+- AI: what a chatbot can recall about you between chats; also the hardware RAM a model must fit inside. Origin: ChatGPT memory feature, announced by OpenAI February 2024; computing 'memory' since the 1940s (von Neumann 1945 report) https://openai.com/index/memory-and-new-controls-for-chatgpt/ [medium]
 - senses: **mind** the ability to keep and recall the past ("my memory's going"); **love** a fond recollection of someone ("I have good memories of us"); **family** remembrance of the dead ("in loving memory"); **body** skill stored in the body through repetition ("muscle memory"); **craft** material that returns to its shape ("memory foam"); **sport-games** a card-matching game ("let's play Memory"); **school** learning by heart ("memorize the poem"); **everyday** storage space on a phone or computer ("phone memory full")
 - idioms: in loving memory, memory lane, muscle memory, if memory serves, a memory like a goldfish, in living memory
 - anchors: 'Memory' from Cats (1981): Andrew Lloyd Webber song, the show's anthem of an old cat's remembered glory; Eternal Sunshine of the Spotless Mind (2004): a couple erases each other from memory
@@ -874,7 +874,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Doubling Time
 - `doubling-time` | phrase | width 8 (wide) | native music+screen ^doubling-time
-- AI: how long a growing quantity takes to double; for AI, the length of tasks agents can finish doubles on a fixed clock. Origin: Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks': the 50% task-length horizon doubled about every 7 months, 2019 to 2025 https://arxiv.org/abs/2503.14499 [high]
+- AI: how long a growing quantity takes to double; for AI, the length of tasks agents can finish doubles on a fixed clock. Origin: Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' (arXiv title later revised to '...Long Software Tasks'): the 50% task-length horizon doubled about every 7 months, 2019 to 2025 https://arxiv.org/abs/2503.14499 [high]
 - senses: **music** double time: playing at twice the tempo feel ("the drummer goes double time on the outro"); **music** doubling a part: two instruments or two takes on one line ("double-track the vocal"); **screen** a stand-in performer for an actor ("stunt double, body double"); **body** the time for a cell population or tumor to double ("tumor doubling time"); **money** years to double money, the rule of 72 ("at 8% it doubles in nine years"); **work** extra pay or speed at twice the rate ("working double time"); **war** a marching pace faster than quick time ("double time, march!"); **love** a second-guess, or seeing someone on the side ("double life")
 - idioms: double time, double down, double or nothing, seeing double, double life, body double, rule of 72
 - anchors: METR time horizons: 2025 study: AI task length doubles about every 7 months, faster in 2024-25 https://arxiv.org/abs/2503.14499; Rule of 72: divide 72 by the growth rate to get doubling time
@@ -963,7 +963,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Horizon (time horizon)
 - `horizon` | word | width 8 (wide) | native music+screen ^horizon
-- AI: METR's measure of how long a task (in human time) an AI agent can finish half the time; it has been doubling about every 7 months. Origin: Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' https://arxiv.org/abs/2503.14499 [high]
+- AI: METR's measure of how long a task (in human time) an AI agent can finish half the time; it has been doubling about every 7 months. Origin: Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks' (arXiv title later revised to '...Long Software Tasks') https://arxiv.org/abs/2503.14499 [high]
 - senses: **nature** where earth meets sky ("the sun sank below the horizon"); **science** a black hole's event horizon, past which nothing returns ("beyond the event horizon"); **school** the range of what one knows ("broaden your horizons"); **money** an investment horizon: how long you hold ("a ten-year horizon"); **craft** the horizon line in perspective drawing ("set the horizon line"); **screen** the horizon in framing; 'Horizon Zero Dawn' (2017) ("keep the horizon level"); **music** Bring Me the Horizon, the British band ("Bring Me the Horizon")
 - idioms: on the horizon, broaden your horizons, ride off into the horizon, event horizon, new horizons
 - anchors: METR horizon: 2025 paper: task length AI can do at 50% success doubled about every 7 months since 2019 https://arxiv.org/abs/2503.14499; Event horizon: black-hole boundary; the first image of one, M87*, released 2019
@@ -1023,7 +1023,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Simulation(s)
 - `simulation` | word | width 8 (wide) | native music+screen | Idi seed ^simulation
-- AI: the argument that we may live in a computer simulation; also, LLMs as simulators that role-play characters. Origin: Nick Bostrom 2003, 'Are You Living in a Computer Simulation?' (Philosophical Quarterly); Janus 2022, 'Simulators' (LessWrong) on LLMs as simulators https://www.simulation-argument.com/simulation.pdf [high]
+- AI: the argument that we may live in a computer simulation; also, LLMs as simulators that role-play characters. Origin: Nick Bostrom 2003, 'Are We Living in a Computer Simulation?' (Philosophical Quarterly); Janus 2022, 'Simulators' (LessWrong) on LLMs as simulators https://www.simulation-argument.com/simulation.pdf [high]
 - senses: **screen** The Matrix (1999): reality as a simulation ("there is no spoon"); **sport-games** sim games: The Sims, flight sims, racing sims ("playing The Sims"); **sport-games** in football, faking a foul (a yellow-card offense called simulation) ("booked for simulation"); **work** training on simulators: pilots, surgeons, crisis drills ("flight simulator hours"); **science** computer models of weather, physics, pandemics ("climate simulations"); **love** faking a feeling ("she simulated interest"); **faith-myth** a made world with an unseen maker ("is anyone up there?"); **music** amp and instrument simulation in plug-ins ("an amp sim on the guitar")
 - idioms: we're living in a simulation, glitch in the Matrix, simulated environment, a sim
 - anchors: The Matrix: 1999 film; the red pill, the glitch, the simulated world; Simulacra and Simulation: Baudrillard 1981, copies without an original; it appears on Neo's shelf in The Matrix; The Sims: 2000 Maxis game where you play god to tiny people
@@ -1038,7 +1038,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Takeoff (hard / soft)
 - `takeoff` | word | width 8 (wide) | native music+screen ^takeoff
-- AI: how fast AI goes from human-level to far beyond: 'hard' in days or weeks, 'soft' over years. Origin: Yudkowsky-Hanson 'AI-Foom' debate 2008 (Overcoming Bias); Bostrom 2014, 'Superintelligence' ch. 4 (slow, moderate, fast takeoff) [medium]
+- AI: how fast AI goes from human-level to far beyond: 'hard' in days or weeks, 'soft' over years. Origin: Yudkowsky-Hanson 'AI-Foom' debate 2008 (Overcoming Bias); Bostrom 2014, 'Superintelligence' ch. 4 (slow, moderate, fast takeoff) https://intelligence.org/ai-foom-debate/ [high]
 - senses: **everyday** a plane leaving the ground ("cleared for takeoff"); **money** sudden success or sales growth ("sales really took off"); **love** to remove clothes; to leave suddenly ("take it off; he just took off"); **screen** a parody imitation of someone ("a take-off of the president"); **sport-games** the launch point in a jump (long-jump takeoff board) ("foul on the takeoff board"); **work** time away from the job ("take the day off"); **music** Takeoff, the Migos rapper (1994-2022) ("Quavo, Offset and Takeoff")
 - idioms: cleared for takeoff, it took off, take off your coat, take the day off, prepare for takeoff
 - anchors: AI-Foom Debate: 2008 blog debate, Yudkowsky (fast) vs Hanson (slow), on how abrupt takeoff would be; Takeoff (Migos): Kirsnick Ball, rapper, shot dead 1 November 2022
@@ -1143,7 +1143,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Gradient Descent
 - `gradient-descent` | phrase | width 8 (wide) | native screen | Idi seed ^gradient-descent
-- AI: how models learn: measure which way is 'less wrong' and nudge every weight a small step downhill, millions of times. Origin: Augustin-Louis Cauchy 1847 (method of steepest descent); applied to neural nets via backpropagation, Rumelhart, Hinton, Williams 1986 [high]
+- AI: how models learn: measure which way is 'less wrong' and nudge every weight a small step downhill, millions of times. Origin: Augustin-Louis Cauchy 1847 (method of steepest descent); applied to neural nets via backpropagation, Rumelhart, Hinton, Williams 1986 https://doi.org/10.1038/323533a0 [high]
 - senses: **nature** the steepness of a slope; walking down a mountain ("a steep gradient on the descent"); **family** ancestry and lineage ("of Irish descent"); **faith-myth** a journey down into hell or the underworld ("Orpheus's descent into Hades"); **screen** a smooth blend from one color to another ("a blue-to-black gradient"); **science** the rate of change of a quantity across space ("temperature gradient"); **sport-games** a downhill run or a plane's approach ("beginning our descent"); **mind** a slow decline into madness or vice ("his descent into addiction")
 - idioms: descent into madness, of ... descent, we are beginning our descent, a slippery slope
 - anchors: Dante, Inferno: 1300s poem: a step-by-step descent through nine circles to the bottom; The Descent (2005): Neil Marshall horror film about cavers going down into the dark
@@ -1293,7 +1293,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Temperature
 - `temperature` | word | width 8 (wide) | native screen | Idi seed ^temperature
-- AI: a dial for randomness: low temperature gives safe, repeatable answers, high temperature gives wild ones. Origin: borrowed from statistical physics (the Boltzmann distribution); used in neural nets by Ackley, Hinton, Sejnowski 1985 (Boltzmann machines) [medium]
+- AI: a dial for randomness: low temperature gives safe, repeatable answers, high temperature gives wild ones. Origin: borrowed from statistical physics (the Boltzmann distribution); used in neural nets by Ackley, Hinton, Sejnowski 1985 (Boltzmann machines) https://doi.org/10.1016/S0364-0213(85)80012-4 [high]
 - senses: **body** how hot a body is; fever ("she's running a temperature"); **nature** how hot or cold the weather is ("temperatures dropped overnight"); **science** a measure of the average motion of particles ("absolute zero temperature"); **love** the heat of desire or a relationship's mood ("things are heating up"); **screen** how warm or cool light looks, in kelvin ("color temperature"); **law-state** the intensity of political conflict ("lower the temperature"); **craft** oven or kiln heat ("bake at the right temperature")
 - idioms: running a temperature, lower the temperature, take the temperature of the room, hot and cold, cool it
 - anchors: Sean Paul, 'Temperature': 2005 dancehall single, US number one in 2006; Katy Perry, 'Hot n Cold': 2008 song about a lover who keeps flipping
@@ -1428,7 +1428,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### FLOPs
 - `flops` | word | width 7 (mid) | native music+screen | Idi seed ^flops
-- AI: floating-point operations, the unit of arithmetic used to count how much compute a training run burned (FLOP/s is the rate). Origin: HPC benchmarking unit since the 1970s (LINPACK); training thresholds in law: Biden EO 14110 (Oct 2023) set 10^26 FLOP (rescinded Jan 2025), EU AI Act sets 10^25 FLOP for systemic-risk models; Epoch AI estimates GPT-4 at about 2e25 FLOP [high]
+- AI: floating-point operations, the unit of arithmetic used to count how much compute a training run burned (FLOP/s is the rate). Origin: HPC benchmarking unit since the 1970s (LINPACK); training thresholds in law: Biden EO 14110 (Oct 2023) set 10^26 FLOP (rescinded Jan 2025), EU AI Act sets 10^25 FLOP for systemic-risk models; Epoch AI estimates GPT-4 at about 2e25 FLOP https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-51 [high]
 - senses: **screen** a film or show that fails commercially ("the movie was a total flop"); **music** a single or album that fails to chart ("her second album flopped"); **sport-games** in poker, the first three shared cards dealt face up ("I hit a set on the flop"); **sport-games** faking a foul by falling (basketball, football) ("he flopped to draw the foul"); **body** to drop down heavily and loosely ("flop onto the couch"); **law-state** a sudden reversal of a public stance ("a flip-flop on policy"); **science** the Fosbury Flop high-jump technique, back over the bar ("the Fosbury Flop changed the high jump")
 - idioms: box-office flop, flip-flop, the flop, the turn, the river, flop sweat, Fosbury Flop
 - anchors: 10^26: the US 2023 executive order reporting threshold for a training run, the first law written in FLOPs; Fosbury Flop: Dick Fosbury's backward high jump, gold at Mexico City 1968 https://en.wikipedia.org/wiki/Fosbury_flop
@@ -1578,7 +1578,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Roko's Basilisk
 - `basilisk` | concept | width 7 (mid) | native music+screen ^basilisk
-- AI: a thought experiment: a future AI might punish everyone who knew about it and did not help build it, so knowing the idea is itself the hazard. Origin: user 'Roko' on LessWrong, July 2010; Yudkowsky deleted the post and banned the topic for about five years https://en.wikipedia.org/wiki/Roko%27s_basilisk [high]
+- AI: a thought experiment: a future AI might punish everyone who knew about it and did not help build it, so knowing the idea is itself the hazard. Origin: user 'Roko' on LessWrong, July 2010; Yudkowsky deleted the post and banned the topic for about five years https://en.wikipedia.org/wiki/Roko%27s_basilisk [medium]
 - senses: **faith-myth** the serpent king whose gaze kills (Pliny) ("the basilisk's deadly stare"); **screen** the giant serpent in Harry Potter and the Chamber of Secrets ("look at it only in a mirror"); **nature** a lizard that runs across water (the 'Jesus Christ lizard') ("the basilisk runs on water"); **music** Grimes' character 'Rococo Basilisk' from the 'Flesh Without Blood' video (2015) ("Rococo Basilisk"); **love** Musk and Grimes reportedly met over the Rococo Basilisk pun in 2018 ("a pun that started a romance"); **mind** an info hazard: an idea that harms you by being known ("don't look it up")
 - idioms: don't look it up, look only in a mirror, a look that could kill
 - anchors: Pliny's Natural History: c. 77 AD: the basilisk kills with its glance and breath; Roko's basilisk: 2010 LessWrong post, the internet's most famous info hazard https://en.wikipedia.org/wiki/Roko%27s_basilisk
@@ -1638,7 +1638,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Upload / Mind Uploading
 - `upload` | word | width 7 (mid) | native music+screen ^upload
-- AI: copying a human mind into a computer by scanning the brain and running it as software. Origin: Hans Moravec 1988, 'Mind Children'; whole-brain emulation roadmap by Sandberg and Bostrom 2008 [high]
+- AI: copying a human mind into a computer by scanning the brain and running it as software. Origin: Hans Moravec 1988, 'Mind Children'; whole-brain emulation roadmap by Sandberg and Bostrom 2008 [medium]
 - senses: **everyday** sending a file to a server ("upload the photo"); **school** turning in homework online ("upload your assignment by midnight"); **music** releasing a track online ("uploaded it to SoundCloud"); **screen** Amazon's 'Upload' (2020), Black Mirror 'San Junipero' (2016), AMC's 'Pantheon' (2022) ("an afterlife you pay for monthly"); **faith-myth** the soul rising out of the body after death ("ascend to heaven"); **family** keeping a dead parent alive as a chatbot (griefbots) ("I still text my mom's bot")
 - idioms: upload complete, uploading..., the cloud
 - anchors: San Junipero: Black Mirror 2016: two women choose an uploaded afterlife together; won an Emmy; Upload (2020): Greg Daniels comedy: the dead live in a tiered digital afterlife with data caps
@@ -1683,7 +1683,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Automation / Jobs
 - `automation` | word | width 7 (mid) | native music ^automation
-- AI: machines doing work people were paid for, now reaching office and creative jobs. Origin: 'automation' coined at Ford by Delmar Harder, about 1946-47; Keynes 1930, 'Economic Possibilities for our Grandchildren' ('technological unemployment'); Frey and Osborne 2013: 47% of US jobs at high risk [high]
+- AI: machines doing work people were paid for, now reaching office and creative jobs. Origin: 'automation' coined at Ford by Delmar Harder, about 1946-47; Keynes 1930, 'Economic Possibilities for our Grandchildren' ('technological unemployment'); Frey and Osborne 2013: 47% of US jobs at high risk https://doi.org/10.1016/j.techfore.2016.08.019 [high]
 - senses: **work** replacing workers with machines ("lost my job to automation"); **music** DAW automation lanes that move faders and effects on their own ("draw the volume automation"); **craft** automata: clockwork figures (Jaquet-Droz's writer, 1770s) ("a clockwork automaton"); **sport-games** the Mechanical Turk, a fake chess automaton with a man inside (1770) ("the Turk beat Napoleon"); **mind** acting on autopilot, by habit ("I was on autopilot"); **law-state** automated decisions on welfare, credit, sentencing ("the computer said no")
 - idioms: on autopilot, automatic for the people, the computer says no, set it and forget it
 - anchors: Luddites: 1811-1816 English textile workers who smashed machines in a fight over wages and conditions; Amazon Mechanical Turk: 2005 crowd-work site named after the fake automaton; humans hidden inside 'AI'; Automatic for the People: R.E.M. album, 1992
@@ -1728,7 +1728,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Cluster
 - `cluster` | word | width 7 (mid) | native music ^cluster
-- AI: many GPUs wired together to train one model; also clustering, grouping similar data points without labels. Origin: k-means clustering: Lloyd 1957 (published 1982), MacQueen 1967; giant training clusters such as xAI's Colossus (about 100,000 H100s, Memphis, 2024) [high]
+- AI: many GPUs wired together to train one model; also clustering, grouping similar data points without labels. Origin: k-means clustering: Lloyd 1957 (published 1982), MacQueen 1967; giant training clusters such as xAI's Colossus (about 100,000 H100s, Memphis, 2024) https://doi.org/10.1109/TIT.1982.1056489 [high]
 - senses: **nature** a bunch of grapes, flowers or stars ("a star cluster; a cluster of grapes"); **body** cluster headaches: severe one-sided attacks in bouts ("cluster headaches"); **war** a cluster bomb scattering bomblets ("cluster munitions"); **music** a tone cluster: adjacent notes struck at once (Henry Cowell) ("a fist on the keys"); **everyday** a mess; a chaotic situation (vulgar compound) ("what a clusterf***"); **school** desks grouped together for group work ("sit in your clusters")
 - idioms: cluster headache, clusterf***, cluster of cases
 - anchors: Colossus: xAI's 2024 Memphis cluster, built in months and run partly on gas turbines; Henry Cowell: American composer who named and played tone clusters with forearms (1910s); Pleiades: the Seven Sisters, the best-known star cluster
@@ -1848,7 +1848,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Label
 - `label` | word | width 7 (mid) | native music ^label
-- AI: the correct answer attached to a training example, usually typed or clicked by low-paid human workers. Origin: supervised learning; ImageNet (Deng et al. 2009) labeled about 14 million images through Mechanical Turk; Time (January 2023) reported Kenyan workers paid under 2 dollars an hour to label toxic text for OpenAI [high]
+- AI: the correct answer attached to a training example, usually typed or clicked by low-paid human workers. Origin: supervised learning; ImageNet (Deng et al. 2009), later about 14 million images labeled through Mechanical Turk; Time (Billy Perrigo, 18 January 2023) reported Kenyan workers paid under 2 dollars an hour to label toxic text for OpenAI https://time.com/6247678/openai-chatgpt-kenya-workers/ [high]
 - senses: **music** a record company ("signed to a major label"); **everyday** a tag on a product giving information ("read the label"); **law-state** a name pinned on a person or group, often unfairly ("don't put a label on me"); **craft** a fashion brand ("designer label"); **school** naming the parts of a diagram ("label the diagram"); **love** naming what a relationship is ("we never put a label on it")
 - idioms: put a label on it, don't label me, read the label, designer label, independent label
 - anchors: ImageNet (2009): Fei-Fei Li's labeled image set that launched the deep-learning boom; labeling theory: Howard Becker, Outsiders (1963): deviance is partly made by the label
@@ -1863,7 +1863,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Leaderboard / Arena
 - `leaderboard` | word | width 7 (mid) | native music ^leaderboard
-- AI: a public ranking of models, often by human votes in head-to-head matchups (Elo scores). Origin: LMSYS Chatbot Arena, May 2023 (UC Berkeley; renamed LMArena 2025); critique: Singh et al. April 2025, 'The Leaderboard Illusion' (private testing let labs pick their best variants) [high]
+- AI: a public ranking of models, often by human votes in head-to-head matchups (Elo scores). Origin: LMSYS Chatbot Arena, May 2023 (UC Berkeley; spun out as the company LMArena, 2025); critique: Singh et al. April 2025, 'The Leaderboard Illusion' (private testing let labs pick their best variants) https://lmsys.org/blog/2023-05-03-arena/ [high]
 - senses: **sport-games** a golf tournament scoreboard; an arcade high-score table ("top of the leaderboard"); **war** the arena: where gladiators fought for a crowd ("thrown into the arena"); **music** arena rock: stadium-scale bands and choruses ("an arena-rock anthem"); **law-state** the political arena ("enter the political arena"); **school** class rankings and honor rolls ("top of the class"); **work** sales leaderboards on office walls ("salesman of the month")
 - idioms: top of the leaderboard, enter the arena, the man in the arena, high score, Elo rating
 - anchors: The Man in the Arena: Theodore Roosevelt, 1910 Paris speech; Elo rating: Arpad Elo's chess rating system (1960s), reused to rank chatbots; Gladiator (2000): 'Are you not entertained?'
@@ -1938,7 +1938,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Plato's Cave
 - `cave` | concept | width 7 (mid) | native screen ^cave
-- AI: the allegory for models that learn the world only from its shadows (text), never the things themselves. Origin: Plato, 'Republic' Book VII (c. 375 BC); the grounding debate in AI, e.g. Bender and Koller 2020, 'Climbing towards NLU' (the octopus test) [high]
+- AI: the allegory for models that learn the world only from its shadows (text), never the things themselves. Origin: Plato, 'Republic' Book VII (c. 375 BC); the grounding debate in AI, e.g. Bender and Koller 2020, 'Climbing towards NLU' (the octopus test) https://aclanthology.org/2020.acl-main.463/ [high]
 - senses: **school** Plato's parable about education: being led out into the light ("the allegory of the cave"); **screen** cinema as cave: light behind you, shadows on the wall ("the projector behind us"); **nature** a hollow in rock; cave paintings (Lascaux, Chauvet) ("cave paintings"); **love** to give in under pressure ("he finally caved"); **everyday** a man cave: a private retreat room ("he's in his man cave"); **work** a mine or roof collapsing ("the tunnel caved in")
 - idioms: cave in, man cave, shadows on the wall, come out of your cave
 - anchors: Republic VII: prisoners mistake shadows for reality; the freed one returns and is not believed; Chauvet Cave: paintings over 30,000 years old; humanity's first screens
@@ -2133,7 +2133,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Chain of Thought
 - `chain-of-thought` | phrase | width 7 (mid) | native - ^chain-of-thought
-- AI: having a model write out its reasoning steps before answering, which makes it more accurate and lets people read its 'thinking'. Origin: Wei et al. 2022 (Google), 'Chain-of-Thought Prompting Elicits Reasoning in Large Language Models'; Kojima et al. 2022, 'Let's think step by step' https://arxiv.org/abs/2201.11903 [high]
+- AI: having a model write out its reasoning steps before answering, which makes it more accurate and lets people read its 'thinking'. Origin: Wei et al. 2022 (Google), 'Chain-of-Thought Prompting Elicits Reasoning in Large Language Models'; Kojima et al. 2022, 'Large Language Models are Zero-Shot Reasoners' (the 'Let's think step by step' prompt) https://arxiv.org/abs/2201.11903 [high]
 - senses: **school** writing out each step of a solution ("show your working"); **law-state** the metal links that bind prisoners ("in chains"); **war** the line of authority orders pass down ("chain of command"); **money** a business with many identical branches ("a chain restaurant"); **craft** a linked metal necklace or bicycle part ("a gold chain"); **mind** a linked sequence of ideas ("train of thought")
 - idioms: show your working, chain of command, break the chain, weakest link, chain reaction, chain letter
 - anchors: Fleetwood Mac, 'The Chain' (1977): 'and if you don't love me now... never break the chain'; Rousseau, The Social Contract (1762): 'Man is born free, and everywhere he is in chains'
@@ -2403,7 +2403,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Compression
 - `compression` | word | width 6 (mid) | native music+screen ^compression
-- AI: squeezing information into fewer bits; one theory holds that learning to predict text is the same as compressing it. Origin: Shannon 1948; the Hutter Prize (2006) bets that compression equals intelligence; Ted Chiang 2023 New Yorker essay 'ChatGPT Is a Blurry JPEG of the Web' [high]
+- AI: squeezing information into fewer bits; one theory holds that learning to predict text is the same as compressing it. Origin: Shannon 1948; the Hutter Prize (2006) bets that compression equals intelligence; Ted Chiang 2023 New Yorker essay 'ChatGPT Is a Blurry JPEG of the Web' https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web [high]
 - senses: **music** a mixing effect that squashes loud and quiet parts closer together ("put a compressor on the vocal"); **body** pressing on the chest in CPR, or tight garments for blood flow ("thirty chest compressions"); **science** squeezing a material into less space ("gas under compression"); **screen** shrinking video files, with blocky artifacts ("compression artifacts"); **craft** the squeeze of fuel in an engine cylinder ("low compression in cylinder three")
 - idioms: lossless, squeeze it in, boiled down
 - anchors: 'ChatGPT Is a Blurry JPEG of the Web' (2023): Ted Chiang's essay framing LLMs as lossy compression of the internet; Silicon Valley (2014-2019): HBO comedy about Pied Piper, a startup built on a compression algorithm; the loudness war: 1990s-2000s mastering trend of heavy compression to make records louder
@@ -2418,7 +2418,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Dyson Sphere
 - `dyson-sphere` | concept | width 6 (mid) | native music+screen ^dyson-sphere
-- AI: a shell or swarm of collectors built around a star to capture its energy; shorthand for AI compute at stellar scale. Origin: Freeman Dyson 1960, 'Search for Artificial Stellar Sources of Infrared Radiation' (Science); idea anticipated in Olaf Stapledon's 'Star Maker' (1937) https://en.wikipedia.org/wiki/Dyson_sphere [high]
+- AI: a shell or swarm of collectors built around a star to capture its energy; shorthand for AI compute at stellar scale. Origin: Freeman Dyson 1960, 'Search for Artificial Stellar Sources of Infrared Radiation' (Science); idea anticipated in Olaf Stapledon's 'Star Maker' (1937) https://doi.org/10.1126/science.131.3414.1667 [high]
 - senses: **everyday** Dyson the vacuum-cleaner brand (James Dyson, unrelated) ("run the Dyson"); **music** the music of the spheres: Pythagoras' cosmic harmony ("the music of the spheres"); **law-state** a sphere of influence: a power's zone of control ("sphere of influence"); **school** the geometric solid ("volume of a sphere"); **screen** the Dyson sphere in Star Trek: TNG 'Relics' (1992) ("the Enterprise trapped in the sphere")
 - idioms: music of the spheres, sphere of influence, it sucks (the vacuum pun)
 - anchors: Tabby's Star: KIC 8462852, whose odd dimming in 2015 briefly prompted alien megastructure talk; dust is the accepted explanation; Freeman Dyson: physicist; the 1960 paper proposed searching for such shells by their infrared glow
@@ -2433,7 +2433,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Genie
 - `genie` | word | width 6 (mid) | native music+screen ^genie
-- AI: an AI that carries out commands literally; also Google DeepMind's 'Genie' world models that generate playable worlds. Origin: Bostrom 2014, 'Superintelligence' ch. 10 (oracle, genie, sovereign); DeepMind Genie (Feb 2024), Genie 2 (Dec 2024), Genie 3 (Aug 2025) [high]
+- AI: an AI that carries out commands literally; also Google DeepMind's 'Genie' world models that generate playable worlds. Origin: Bostrom 2014, 'Superintelligence' ch. 10 (oracle, genie, sovereign); DeepMind Genie (Feb 2024), Genie 2 (Dec 2024), Genie 3 (Aug 2025) https://arxiv.org/abs/2402.15391 [high]
 - senses: **faith-myth** the jinn of Arabian and Islamic lore, bound to grant wishes ("three wishes"); **screen** Robin Williams' Genie in Disney's Aladdin (1992); I Dream of Jeannie (1965) ("phenomenal cosmic power, itty bitty living space"); **music** Christina Aguilera's 'Genie in a Bottle' (1999) ("you gotta rub me the right way"); **war** a dangerous capability that cannot be un-invented ("the genie is out of the bottle"); **love** the partner who grants every wish, and resents it ("your wish is my command")
 - idioms: genie out of the bottle, your wish is my command, be careful what you wish for, three wishes, rub the lamp
 - anchors: Aladdin (1992): the Genie's 'phenomenal cosmic powers, itty bitty living space'; Genie in a Bottle: Christina Aguilera's 1999 debut No. 1
@@ -2508,7 +2508,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Sorcerer's Apprentice
 - `sorcerers-apprentice` | name | width 6 (mid) | native music+screen ^sorcerers-apprentice
-- AI: a helper who starts a magic process he cannot stop: an automation that keeps carrying out an order past the point of sense. Origin: Goethe 1797 ballad 'Der Zauberlehrling'; Norbert Wiener 1960, 'Some Moral and Technical Consequences of Automation' (Science) used it for machines that follow goals literally [high]
+- AI: a helper who starts a magic process he cannot stop: an automation that keeps carrying out an order past the point of sense. Origin: Goethe 1797 ballad 'Der Zauberlehrling'; Norbert Wiener 1960, 'Some Moral and Technical Consequences of Automation' (Science) used it for machines that follow goals literally https://doi.org/10.1126/science.131.3410.1355 [high]
 - senses: **music** Paul Dukas' tone poem 'L'apprenti sorcier' (1897) ("the Dukas bassoon theme"); **screen** Mickey and the brooms in Disney's 'Fantasia' (1940) ("Mickey's brooms"); **work** an apprentice learning a trade; 'The Apprentice' TV show ("you're fired"); **school** a learner who uses a skill before understanding it ("a little knowledge is a dangerous thing"); **faith-myth** magic spells that obey words literally ("the spell he couldn't undo")
 - idioms: sorcerer's apprentice, a little knowledge is a dangerous thing, bit off more than he could chew
 - anchors: Fantasia (1940): Mickey splits the broom with an axe; every half keeps carrying water; Goethe 1797: 'Die ich rief, die Geister, werd ich nun nicht los': the spirits I called, I can't get rid of
@@ -2523,7 +2523,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Accelerationism (e/acc)
 - `accelerationism` | word | width 6 (mid) | native music ^accelerationism
-- AI: the stance that tech progress, AI above all, should go as fast as possible; 'decels' are those who want to slow it. Origin: term coined by Benjamin Noys 2010 for Nick Land / CCRU 1990s theory; 'effective accelerationism' (e/acc) launched 2022 by pseudonymous 'Beff Jezos' (Guillaume Verdon, named by Forbes Dec 2023); Andreessen's 'Techno-Optimist Manifesto' Oct 2023 [high]
+- AI: the stance that tech progress, AI above all, should go as fast as possible; 'decels' are those who want to slow it. Origin: term coined by Benjamin Noys 2010 ('The Persistence of the Negative') for Nick Land / CCRU 1990s theory; 'effective accelerationism' (e/acc) launched 2022 by pseudonymous 'Beff Jezos' (Guillaume Verdon, named by Forbes Dec 2023); Andreessen's 'Techno-Optimist Manifesto' Oct 2023 [medium]
 - senses: **science** rate of change of speed ("acceleration due to gravity"); **everyday** pressing the gas pedal ("floor the accelerator"); **music** accelerando: gradually speeding the tempo ("the coda goes accelerando"); **school** skipping grades or fast-tracking a gifted student ("an accelerated math class"); **money** a startup accelerator program (Y Combinator) ("we got into the accelerator")
 - idioms: pedal to the metal, floor it, accelerated learning, accelerate the process
 - anchors: Techno-Optimist Manifesto: Marc Andreessen, Oct 2023; names 'deceleration' an enemy; Accelerando: Charles Stross 2005 novel of a singularity told across three generations of one family
@@ -2538,7 +2538,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Activation
 - `activation` | word | width 6 (mid) | native screen ^activation
-- AI: the number a neuron outputs when it fires on an input; researchers read activations to see what a model is thinking. Origin: threshold units in McCulloch and Pitts 1943; the ReLU activation function from Nair and Hinton 2010 [medium]
+- AI: the number a neuron outputs when it fires on an input; researchers read activations to see what a model is thinking. Origin: threshold units in McCulloch and Pitts 1943; the ReLU activation function used by Fukushima 1969 and popularized by Nair and Hinton 2010 [medium]
 - senses: **body** a muscle or immune response switching on ("glute activation"); **science** the minimum energy needed to start a reaction ("activation energy"); **money** turning on a new card or account ("call to activate your card"); **war** a sleeper agent or reserve unit being called up ("the sleeper cell was activated"); **screen** the trigger phrase that wakes a brainwashed character ("the code word activated him")
 - idioms: activation energy, activate your card, activated charcoal, call to action
 - anchors: The Manchurian Candidate (1962): a brainwashed soldier activated by seeing the queen of diamonds; Sleeper Agents (2024): Anthropic paper (Hubinger et al.) training models with hidden triggers that survived safety training https://arxiv.org/abs/2401.05566
@@ -2598,7 +2598,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Context Window
 - `context-window` | phrase | width 6 (mid) | native screen ^context-window
-- AI: the maximum amount of text a model can hold in view at once; whatever falls outside it is gone. Origin: follows from the fixed sequence length of Transformers (Vaswani et al. 2017); sizes grew from about 2,000 tokens (GPT-3, 2020) to a million and more by 2024-25 [medium]
+- AI: the maximum amount of text a model can hold in view at once; whatever falls outside it is gone. Origin: follows from the fixed sequence length of Transformers (Vaswani et al. 2017); sizes grew from about 2,000 tokens (GPT-3, 2020) to a million and more by 2024-25 https://arxiv.org/abs/1706.03762 [medium]
 - senses: **everyday** an opening in a wall that lets you see out ("look out the window"); **screen** a framed panel on a computer screen ("close that window"); **money** a shop display seen from the street ("window shopping"); **mind** a view into someone's inner life ("the eyes are the window to the soul"); **work** a limited stretch of time to act ("a narrow window of opportunity")
 - idioms: window of opportunity, out the window, window shopping, window to the soul, the window is closing
 - anchors: Rear Window (1954): Hitchcock film where a man watches life only through a window frame; Memento (2000): a man with no short-term memory who loses everything outside a few minutes
@@ -2673,7 +2673,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Golem
 - `golem` | name | width 6 (mid) | native screen ^golem
-- AI: a made servant brought to life by words, powerful and literal, which must be stopped by erasing one letter. Origin: Prague legend of Rabbi Judah Loew (16th c.); Norbert Wiener 1964, 'God and Golem, Inc.'; Gershom Scholem named the Weizmann Institute's computer 'Golem Aleph' and dedicated it on 17 June 1965 ('The Golem of Prague and the Golem of Rehovot') https://blog.nli.org.il/en/?p=26786 [high]
+- AI: a made servant brought to life by words, powerful and literal, which must be stopped by erasing one letter. Origin: Prague legend of Rabbi Judah Loew (16th c.); Norbert Wiener 1964, 'God and Golem, Inc.'; Gershom Scholem named the Weizmann Institute's computer 'Golem Aleph' and dedicated it on 17 June 1965 ('The Golem of Prague and the Golem of Rehovot') https://blog.nli.org.il/en/?p=26786 [medium]
 - senses: **faith-myth** a clay figure animated by a holy word (emet, 'truth'); erase the aleph and it reads met, 'dead' ("the Golem of Prague"); **school** the Golem effect: low teacher expectations lower student results (Babad, Inbar, Rosenthal 1982) ("the Golem effect"); **everyday** Yiddish: a dull, clumsy person ("don't be such a golem"); **screen** Paul Wegener's silent film 'Der Golem' (1920) ("Der Golem, wie er in die Welt kam"); **craft** a figure shaped from clay by hand ("shaped from river clay")
 - idioms: erase one letter, emet and met
 - anchors: Golem Aleph: Israel's 1965 Weizmann computer; Scholem asked its makers to let it 'develop peacefully and not destroy the world' https://blog.nli.org.il/en/?p=26786; God and Golem, Inc.: Wiener 1964 National Book Award winner on machines that learn and reproduce; Gollum: Tolkien's creature, a different name; do not confuse
@@ -2763,7 +2763,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Manhattan Project
 - `manhattan-project` | name | width 6 (mid) | native screen ^manhattan-project
-- AI: the call for a crash, state-run program to build AGI first, modeled on the atomic bomb effort. Origin: US-China Economic and Security Review Commission, Nov 2024 report: 'a Manhattan Project-like program' for AGI; Aschenbrenner, June 2024, 'Situational Awareness' ('The Project') [high]
+- AI: the call for a crash, state-run program to build AGI first, modeled on the atomic bomb effort. Origin: US-China Economic and Security Review Commission, Nov 2024 report: 'a Manhattan Project-like program' for AGI; Aschenbrenner, June 2024, 'Situational Awareness' ('The Project') https://www.uscc.gov/annual-report/2024-annual-report-congress [high]
 - senses: **war** the 1942-1946 US program that built the atomic bomb ("the Manhattan Project"); **science** big physics under secrecy; Trinity test, 16 July 1945 ("the Trinity test"); **screen** Nolan's 'Oppenheimer' (2023), seven Oscars ("now I am become Death"); **everyday** Manhattan: the New York borough; the cocktail ("a Manhattan, straight up"); **law-state** a secret state mega-project ("a moonshot, a Manhattan Project for X")
 - idioms: a Manhattan Project for, moonshot, now I am become Death, the destroyer of worlds
 - anchors: Oppenheimer's Gita quote: 'Now I am become Death, the destroyer of worlds', recalled in a 1965 interview; Manhattan Project scale: about $2 billion in 1940s dollars and up to roughly 130,000 workers
@@ -2793,7 +2793,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Move 37
 - `move-37` | phrase | width 6 (mid) | native music ^move-37
-- AI: the moment an AI plays a move no human would, and it turns out brilliant: the symbol of machine creativity. Origin: AlphaGo vs Lee Sedol, Game 2, Seoul, 10 March 2016: AlphaGo estimated a 1-in-10,000 chance a human would play it; Lee answered with his own 'God move', Move 78, in Game 4 (his only win) https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol [high]
+- AI: the moment an AI plays a move no human would, and it turns out brilliant: the symbol of machine creativity. Origin: AlphaGo vs Lee Sedol, Game 2, Seoul, 10 March 2016: AlphaGo estimated a 1-in-10,000 chance a human would play it; Lee answered with his own 'God move', Move 78, in Game 4 (his only win) https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol [medium]
 - senses: **sport-games** a move in Go, chess or any game ("your move"); **music** a dance move ("show me your moves"); **love** to make a move on someone ("make a move"); **family** moving house ("we're moving"); **mind** being moved: emotionally touched ("I was moved to tears")
 - idioms: your move, make a move, bold move, smooth move, move on, moved to tears
 - anchors: Lee Sedol's retirement: 2019: he quit pro Go, calling AI 'an entity that cannot be defeated'; AlphaGo (2017 documentary): film of the match, including Lee leaving the room after Move 37
@@ -2808,7 +2808,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Oracle
 - `oracle` | word | width 6 (mid) | native screen ^oracle
-- AI: a boxed AI that only answers questions and takes no actions; in computing, a black box that gives correct answers to a question class. Origin: Turing 1939 'oracle machine' ('Systems of Logic Based on Ordinals'); Bostrom 2014, 'Superintelligence' ch. 10: oracles, genies, sovereigns, tools [high]
+- AI: a boxed AI that only answers questions and takes no actions; in computing, a black box that gives correct answers to a question class. Origin: Turing 1939 'oracle machine' ('Systems of Logic Based on Ordinals'); Bostrom 2014, 'Superintelligence' ch. 10: oracles, genies, sovereigns, tools https://doi.org/10.1112/plms/s2-45.1.161 [high]
 - senses: **faith-myth** the priestess at Delphi who spoke the god's riddling answers ("consult the oracle"); **money** Oracle Corporation; also Buffett, 'the Oracle of Omaha' ("the Oracle of Omaha"); **screen** the Oracle in The Matrix, baking cookies and bending fate ("you're not the One"); **sport-games** Paul the Octopus, who 'predicted' 2010 World Cup results ("Paul the Octopus picked Spain"); **science** a test oracle: the source of the correct answer to check software against ("the test oracle")
 - idioms: consult the oracle, know thyself, Oracle of Omaha, the oracle has spoken
 - anchors: Delphi: Pythia's answers were famously ambiguous; 'know thyself' was carved at the temple; Larry Ellison: Oracle's founder briefly passed Musk as richest person in Sept 2025 on AI cloud deals; Paul the Octopus: German aquarium octopus with a 2010 World Cup run of correct picks
@@ -2838,7 +2838,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### RSI (Recursive Self-Improvement)
 - `rsi` | phrase | width 6 (mid) | native screen | Idi seed ^rsi
-- AI: an AI improving its own design, each better version improving the next. Origin: idea from I. J. Good 1965; phrase associated with Eliezer Yudkowsky, early 2000s (Creating Friendly AI 2001; Levels of Organization in General Intelligence 2007) [medium]
+- AI: an AI improving its own design, each better version improving the next. Origin: idea from I. J. Good 1965; phrase associated with Eliezer Yudkowsky, early 2000s (Creating Friendly AI 2001; Levels of Organization in General Intelligence, written 2002, published 2007) https://intelligence.org/files/CFAI.pdf [medium]
 - senses: **body** RSI as repetitive strain injury: pain from doing the same motion (typing) over and over ("typing gave me RSI"); **money** RSI as the Relative Strength Index, a trading signal for overbought stocks (Wilder 1978) ("the RSI says it's overbought"); **mind** self-help: working on yourself ("a self-improvement journey"); **school** recursion: a function that calls itself ("to understand recursion, first understand recursion"); **screen** recursion on screen: a mirror facing a mirror, a video feedback tunnel ("the Droste effect")
 - idioms: work on yourself, self-improvement, to understand recursion you must first understand recursion, overbought
 - anchors: Droste effect: a picture containing itself, from a 1904 Dutch cocoa tin https://en.wikipedia.org/wiki/Droste_effect; Relative Strength Index: J. Welles Wilder 1978 momentum indicator; above 70 reads 'overbought'
@@ -2853,7 +2853,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Rapture (of the nerds)
 - `rapture` | word | width 6 (mid) | native music ^rapture
-- AI: a mocking name for the singularity as a tech version of the Christian Rapture, where believers are lifted out of the world. Origin: 'rapture of the nerds' credited to Ken MacLeod, 'The Cassini Division' (1998); Doctorow and Stross used it as a 2012 novel title [high]
+- AI: a mocking name for the singularity as a tech version of the Christian Rapture, where believers are lifted out of the world. Origin: disputed: 'the Rapture for nerds' appears in Ken MacLeod, 'The Cassini Division' (1998), usually credited as the source, though MacLeod denies coining it; Doctorow and Stross used 'The Rapture of the Nerds' as a 2012 novel title [low]
 - senses: **faith-myth** believers taken up to heaven before the end (Darby, 1830s) ("left behind after the Rapture"); **love** ecstatic joy, being carried away ("in rapture over her"); **music** Blondie's 'Rapture' (1981), the first US No. 1 with rap ("Blondie's 'Rapture'"); **sport-games** Rapture, the underwater city in BioShock (2007) ("would you kindly"); **body** 'rapture of the deep': nitrogen narcosis in divers ("rapture of the deep")
 - idioms: left behind, rapture of the deep, rapturous applause, would you kindly
 - anchors: Left Behind: 1995-2007 Christian thriller series about those not raptured; BioShock (2007): Andrew Ryan's undersea utopia gone wrong; 'would you kindly' as a hidden command
@@ -2871,7 +2871,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 - AI: an AI improving by playing games against copies of itself, with no human examples. Origin: Samuel's checkers (1959); Tesauro's TD-Gammon (1992); Silver et al. 2017, 'Mastering the game of Go without human knowledge' (AlphaGo Zero); AlphaZero 2018 https://www.nature.com/articles/nature24270 [high]
 - senses: **sport-games** practicing against yourself; solitaire ("playing chess against myself"); **family** a toddler's solitary play stage (Parten 1932) ("she plays by herself for hours"); **music** jamming with your own loops; the one-man band ("duet with a loop pedal"); **mind** arguing with yourself; inner dialogue ("I argued with myself all night"); **everyday** slang: to defeat yourself ('you played yourself') ("you played yourself")
 - idioms: you played yourself, my own worst enemy, beat yourself, a game of solitaire
-- anchors: AlphaGo Zero: 2017: from random play to beating AlphaGo 100-0 in 40 days of self-play https://www.nature.com/articles/nature24270; WarGames (1983): the computer plays tic-tac-toe against itself and learns 'the only winning move is not to play'
+- anchors: AlphaGo Zero: 2017: from random play to beating AlphaGo 100-0 after 3 days of self-play https://www.nature.com/articles/nature24270; WarGames (1983): the computer plays tic-tac-toe against itself and learns 'the only winning move is not to play'
 - pivots (jep drafts): "Played itself forty days; came out the champion of both" (ai+sport-games+faith-myth) / "You played yourself, they said; it did, and won" (ai+everyday+sport-games) / "Duet with my loop pedal; the loop sings better" (ai+music)
 - enact: music: the singer trades lines with a looped copy of their own voice, the loop gaining harmonies each round | picture: a chessboard with the same person on both sides, mirrored, one side slowly turning chrome | type: the line printed with its mirror image, the mirror version a little bolder each time
 - sound: 2 syl, SELF-PLAY; rhymes day, way, stay, pray, say, away, grey, replay; slant made, shade, came, wait
@@ -2898,7 +2898,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Singularity
 - `singularity` | word | width 6 (mid) | native music | Idi seed ^singularity
-- AI: a point where machine intelligence improves itself so fast that the future past it cannot be predicted. Origin: von Neumann via Ulam 1958 ('some essential singularity'); Vernor Vinge 1993, 'The Coming Technological Singularity'; Kurzweil 2005, 'The Singularity Is Near' (and 2024, 'The Singularity Is Nearer') https://en.wikipedia.org/wiki/Technological_singularity [high]
+- AI: a point where machine intelligence improves itself so fast that the future past it cannot be predicted. Origin: von Neumann via Ulam 1958 ('some essential singularity'); Vernor Vinge 1993, 'The Coming Technological Singularity'; Kurzweil 2005, 'The Singularity Is Near' (and 2024, 'The Singularity Is Nearer') https://doi.org/10.1090/S0002-9904-1958-10189-5 [high]
 - senses: **science** the point of infinite density at a black hole's center ("a gravitational singularity"); **school** a point where a math function blows up or is undefined ("1/x has a singularity at zero"); **everyday** the quality of being one of a kind ("the singularity of her style"); **love** being the only one; singular devotion ("you're my one and only"); **music** song title: BTS member V's 2018 solo track 'Singularity' ("V's 'Singularity'")
 - idioms: the singularity is near, singular focus, one and only
 - anchors: Vinge 1993: NASA VISION-21 essay: 'Within thirty years, we will have the technological means to create superhuman intelligence'; Interstellar: 2014 film; Cooper falls toward Gargantua's singularity, where time breaks; Kurzweil's date: 2045 is his singularity year
@@ -2928,7 +2928,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Synthetic Data
 - `synthetic-data` | phrase | width 6 (mid) | native music ^synthetic-data
-- AI: training data written or generated by AI models instead of people. Origin: Donald Rubin 1993 coined 'synthetic data' for privacy-safe statistics; for LLMs, Gunasekar et al. 2023, 'Textbooks Are All You Need' (Microsoft Phi) https://arxiv.org/abs/2306.11644 [medium]
+- AI: training data written or generated by AI models instead of people. Origin: Donald Rubin 1993 ('Discussion: Statistical Disclosure Limitation', Journal of Official Statistics) proposed synthetic data for privacy-safe statistics; for LLMs, Gunasekar et al. 2023, 'Textbooks Are All You Need' (Microsoft Phi) https://arxiv.org/abs/2306.11644 [medium]
 - senses: **craft** a man-made fabric like polyester or nylon ("synthetic fibers"); **music** sound made electronically by a synthesizer ("synth strings"); **science** made by chemical synthesis ("synthetic insulin"); **body** lab-made drugs ("synthetic opioids"); **school** practice material written for a learner ("a graded reader")
 - idioms: man-made, faux, artificial flavoring
 - anchors: Textbooks Are All You Need (2023): Microsoft trained small Phi models on AI-written textbooks and exercises https://arxiv.org/abs/2306.11644; Moog synthesizer: Robert Moog's 1964 instrument; Wendy Carlos's 'Switched-On Bach' 1968
@@ -2958,7 +2958,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Vector
 - `vector` | word | width 6 (mid) | native screen ^vector
-- AI: a list of numbers that points somewhere in a many-dimensional space; models represent every word and idea as one. Origin: mathematics, from William Rowan Hamilton's 1840s work on quaternions; in AI via embeddings (Bengio 2003, Mikolov 2013) [high]
+- AI: a list of numbers that points somewhere in a many-dimensional space; models represent every word and idea as one. Origin: mathematics, from William Rowan Hamilton's 1840s work on quaternions; in AI via embeddings (Bengio 2003, Mikolov 2013) [medium]
 - senses: **science** a quantity with size and direction ("velocity is a vector"); **body** an animal that carries disease to people ("mosquitoes are a malaria vector"); **screen** an image made of shapes that scale without blurring ("vector graphics"); **war** a heading given to a pilot, or a route of attack ("vector to the target"); **law-state** the route a hacker uses to break in ("attack vector")
 - idioms: attack vector, vector of disease, vectoring in
 - anchors: Vector, Despicable Me (2010): villain who introduces himself as 'a quantity represented by an arrow with both direction and magnitude'
@@ -3108,7 +3108,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Inference
 - `inference` | word | width 6 (mid) | native - | Idi seed ^inference
-- AI: running a finished model to get answers, the moment it is used (as opposed to trained), and the compute bill that comes with it. Origin: borrowed from statistical inference (drawing conclusions from data); standard industry term for model serving by the mid-2010s [medium]
+- AI: running a finished model to get answers, the moment it is used (as opposed to trained), and the compute bill that comes with it. Origin: borrowed from statistical inference (drawing conclusions from data); standard industry term for model serving by the mid-2010s [low]
 - senses: **mind** a conclusion reached from evidence and reasoning ("draw an inference"); **school** a reading skill: working out what a text implies ("make an inference from the passage"); **science** drawing general conclusions from sample data ("statistical inference"); **law-state** a conclusion a court may draw from silence or missing evidence ("an adverse inference"); **love** reading what someone means but will not say ("I inferred it from her tone")
 - idioms: draw an inference, by inference, reading between the lines
 - anchors: Sherlock Holmes: Conan Doyle's detective, fiction's master of inference from small clues; inference costs: industry shorthand for the per-answer compute bill, the line item behind AI pricing
@@ -3123,7 +3123,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Intelligence Explosion
 - `intelligence-explosion` | phrase | width 6 (mid) | native - ^intelligence-explosion
-- AI: a loop where a smart machine designs a smarter one, which designs a smarter one, faster each turn. Origin: I. J. Good 1965, 'Speculations Concerning the First Ultraintelligent Machine' (Advances in Computers vol. 6): 'the first ultraintelligent machine is the last invention that man need ever make' [high]
+- AI: a loop where a smart machine designs a smarter one, which designs a smarter one, faster each turn. Origin: I. J. Good 1965, 'Speculations Concerning the First Ultraintelligent Machine' (Advances in Computers vol. 6, dated 1966 by the publisher): 'the first ultraintelligent machine is the last invention that man need ever make' https://doi.org/10.1016/S0065-2458(08)60418-0 [high]
 - senses: **war** intelligence as espionage; a blown spy operation ("military intelligence"); **mind** intelligence as the capacity to reason, as measured by IQ tests ("test your intelligence"); **science** a rapid release of energy ("the explosion shattered the windows"); **nature** sudden mass growth, as in the Cambrian explosion ("the Cambrian explosion"); **everyday** a sudden surge of something ("a population explosion")
 - idioms: population explosion, explosion of color, the last invention, insult to my intelligence
 - anchors: I. J. Good: Bletchley Park codebreaker with Turing; coined the idea in 1965; advised Kubrick on 2001; Cambrian explosion: about 538 million years ago, animal body plans diversified in a geological instant
@@ -3153,7 +3153,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Momentum
 - `momentum` | word | width 6 (mid) | native - ^momentum
-- AI: a training trick where each update keeps part of the previous direction, so learning rolls through small bumps. Origin: Boris Polyak 1964 ('heavy ball' method); used in backpropagation by Rumelhart, Hinton, Williams 1986 [high]
+- AI: a training trick where each update keeps part of the previous direction, so learning rolls through small bumps. Origin: Boris Polyak 1964 ('heavy ball' method); used in backpropagation by Rumelhart, Hinton, Williams 1986 https://doi.org/10.1016/0041-5553(64)90137-5 [high]
 - senses: **science** mass times velocity; motion that keeps going ("conservation of momentum"); **sport-games** a run of success that shifts a game ("the momentum has swung"); **money** buying what has been rising because it has been rising ("momentum trading"); **law-state** a campaign's growing support ("the campaign has momentum"); **everyday** the drive that keeps a thing moving ("keep the momentum going")
 - idioms: gain momentum, lose momentum, keep the momentum, the momentum shifted
 - anchors: Newton's first law: a body in motion stays in motion unless a force acts on it
@@ -3213,7 +3213,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Plateau
 - `plateau` | word | width 6 (mid) | native - ^plateau
-- AI: a stretch of training where the error stops falling and progress seems stuck; also used for fears that AI progress has stalled. Origin: learning-curve plateaus first described by Bryan and Harter 1897-99 in telegraph operators; standard training-curve vocabulary since [medium]
+- AI: a stretch of training where the error stops falling and progress seems stuck; also used for fears that AI progress has stalled. Origin: learning-curve plateaus first described by Bryan and Harter 1897-99 in telegraph operators; standard training-curve vocabulary since https://doi.org/10.1037/h0073806 [high]
 - senses: **nature** a high, flat stretch of land ("the Tibetan plateau"); **body** a stall in weight loss or fitness gains ("I've hit a plateau at the gym"); **school** a period when a learner seems to stop improving ("a learning plateau"); **work** a career that stops rising ("he plateaued as a manager"); **money** prices or growth levelling off ("sales have plateaued")
 - idioms: hit a plateau, plateaued, level off
 - anchors: Bryan and Harter (1897): telegraph learners improved, stalled on a plateau, then jumped as they began hearing whole words
@@ -3228,7 +3228,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Policy
 - `policy` | word | width 6 (mid) | native - ^policy
-- AI: in reinforcement learning, the agent's rule for choosing an action in each situation; in products, the written rules on what a model may do. Origin: Richard Bellman 1957 (dynamic programming, Markov decision processes); Sutton and Barto 1998; Williams 1992 REINFORCE (policy gradient) [high]
+- AI: in reinforcement learning, the agent's rule for choosing an action in each situation; in products, the written rules on what a model may do. Origin: Richard Bellman 1957 (dynamic programming, Markov decision processes); Sutton and Barto 1998; Williams 1992 REINFORCE (policy gradient) https://doi.org/10.1512/iumj.1957.6.56038 [high]
 - senses: **law-state** a government's chosen course of action ("foreign policy"); **money** an insurance contract ("read the policy fine print"); **work** a company rule ("sorry, it's company policy"); **everyday** a personal rule of conduct ("honesty is the best policy"); **sport-games** the illegal numbers lottery of 1900s US cities ("playing the policy")
 - idioms: honesty is the best policy, it's company policy, zero-tolerance policy, open-door policy, policy wonk
 - anchors: 'honesty is the best policy': proverb in English since at least the 1600s; Harlem policy banks: 1920s-30s numbers rackets run by Stephanie St. Clair and others
@@ -3258,7 +3258,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Reasoning / Thinking
 - `reasoning` | word | width 6 (mid) | native - ^reasoning
-- AI: models trained to think step by step at length before answering, spending more compute per question. Origin: OpenAI o1, 'Learning to Reason with LLMs', 12 September 2024; DeepSeek-R1, January 2025 https://openai.com/index/learning-to-reason-with-llms/ [high]
+- AI: models trained to think step by step at length before answering, spending more compute per question. Origin: OpenAI o1, 'Learning to Reason with LLMs', 12 September 2024; DeepSeek-R1, January 2025 https://openai.com/index/learning-to-reason-with-llms/ [medium]
 - senses: **mind** thinking logically to reach a conclusion ("sound reasoning"); **law-state** a judge's written grounds for a ruling ("the court's reasoning"); **school** a test of logical skill ("verbal reasoning test"); **family** trying to persuade someone with logic ("there's no reasoning with a toddler"); **faith-myth** reason set against faith ("faith and reason")
 - idioms: within reason, stands to reason, no reasoning with, for no reason, see reason, age of reason
 - anchors: Descartes, 1637: 'I think, therefore I am'; the Age of Reason: the Enlightenment; Thomas Paine's 1794 book of that name
@@ -3467,7 +3467,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Compute
 - `compute` | word | width 5 (mid) | native screen ^compute
-- AI: the raw processing budget (chips times hours) spent training or running a model, used as a noun. Origin: noun use spread with OpenAI's 'AI and Compute' post (Amodei and Hernandez 2018); Altman on Lex Fridman #419, March 2024: 'compute is going to be the currency of the future' [medium]
+- AI: the raw processing budget (chips times hours) spent training or running a model, used as a noun. Origin: noun use spread with OpenAI's 'AI and Compute' post (Amodei and Hernandez 2018); Altman on Lex Fridman #419, March 2024: 'compute is going to be the currency of the future' https://openai.com/index/ai-and-compute/ [medium]
 - senses: **school** to work out a number by calculation ("compute the area of the triangle"); **mind** to make sense of something; failing to fit a fact into your picture ("that does not compute"); **money** a scarce commodity bought, rationed and hoarded by labs and nations ("we're compute-constrained"); **screen** the stock line of a malfunctioning TV robot ("does not compute, does not compute")
 - idioms: does not compute, compute budget, compute-bound, throw more compute at it, it just computes
 - anchors: 'Does not compute': 1960s TV robot catchphrase (My Living Doll, Lost in Space) for logic overload; AI and Compute: OpenAI 2018 post: training compute for the largest runs doubled every 3.4 months, 2012 to 2018 https://openai.com/index/ai-and-compute/
@@ -3557,7 +3557,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### AGI
 - `agi` | name | width 5 (mid) | native - | Idi seed ^agi
-- AI: AI that can do most cognitive work a human can, across fields, with no agreed test for when it arrives. Origin: Mark Gubrud 1997 first use; popularized by Shane Legg and Ben Goertzel (Goertzel and Pennachin, 'Artificial General Intelligence', 2007); OpenAI Charter 2018: 'highly autonomous systems that outperform humans at most economically valuable work' https://openai.com/charter/ [high]
+- AI: AI that can do most cognitive work a human can, across fields, with no agreed test for when it arrives. Origin: Mark Gubrud 1997 first use; popularized by Shane Legg and Ben Goertzel (Goertzel and Pennachin, 'Artificial General Intelligence', 2007); OpenAI Charter 2018: 'highly autonomous systems that outperform humans at most economically valuable work' https://openai.com/charter/ [medium]
 - senses: **money** AGI as adjusted gross income, the US tax figure ("report your AGI on line 11"); **war** a general: a high army rank ("the general gave the order"); **school** general education versus specialization ("general studies"); **mind** the 'g factor', general intelligence in psychometrics (Spearman 1904) ("general intelligence factor")
 - idioms: in general, general public, jack of all trades, feel the AGI
 - anchors: OpenAI Charter: 2018 definition of AGI as outperforming humans at most economically valuable work https://openai.com/charter/; $100 billion definition: The Information (Dec 2024) reported a Microsoft-OpenAI contract tying AGI to $100B in profits; Spearman's g: 1904 statistical 'general factor' behind test scores
@@ -3572,7 +3572,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Batch
 - `batch` | word | width 5 (mid) | native - ^batch
-- AI: a group of examples fed through the model together in one training step. Origin: batch processing in early computing; minibatch stochastic gradient descent from Robbins and Monro 1951 onward [medium]
+- AI: a group of examples fed through the model together in one training step. Origin: batch processing in early computing; stochastic gradient methods trace to Robbins and Monro 1951 (stochastic approximation); minibatches are later neural-network practice https://doi.org/10.1214/aoms/1177729586 [medium]
 - senses: **craft** an amount of food or drink made at one time ("a batch of cookies"); **work** a run of products made together in a factory ("batch number 4471"); **school** a graduating class or cohort (Indian and South Asian English) ("my batch from 2015"); **body** a production lot of medicine tracked for recalls ("the recalled batch")
 - idioms: small batch, a fresh batch, the whole batch, bad batch
 - anchors: Star Wars: The Bad Batch (2021): animated series about defective clones who turn out better than the standard ones
@@ -3602,7 +3602,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Checkpoint
 - `checkpoint` | word | width 5 (mid) | native - ^checkpoint
-- AI: a saved snapshot of a model mid-training that can be reloaded, shared or rolled back to. Origin: general computing practice (checkpoint and restart); the word for saved model files in TensorFlow and PyTorch [medium]
+- AI: a saved snapshot of a model mid-training that can be reloaded, shared or rolled back to. Origin: general computing practice (checkpoint and restart); the word for saved model files in TensorFlow and PyTorch https://www.tensorflow.org/guide/checkpoint [medium]
 - senses: **war** a guarded point where travelers are stopped and checked ("a military checkpoint"); **sport-games** a save spot in a video game you restart from ("back to the last checkpoint"); **law-state** a border or police control point ("papers at the checkpoint"); **work** a milestone review in a project ("a quick checkpoint meeting")
 - idioms: papers, please, back to the last checkpoint, checkpoint reached
 - anchors: Checkpoint Charlie: Berlin Wall crossing between East and West, 1961-1990; Papers, Please (2013): Lucas Pope game where you are the border-checkpoint officer
@@ -3677,7 +3677,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Generalization
 - `generalization` | word | width 5 (mid) | native - ^generalization
-- AI: doing well on new inputs the model never saw in training, which is the whole point of learning. Origin: core statistical-learning concept; formal theory from Vapnik and Chervonenkis, 1970s [medium]
+- AI: doing well on new inputs the model never saw in training, which is the whole point of learning. Origin: core statistical-learning concept; formal theory from Vapnik and Chervonenkis, 1970s https://doi.org/10.1137/1116025 [high]
 - senses: **mind** a fear or habit spreading from one trigger to similar ones ("stimulus generalization"); **law-state** a broad claim about a whole group; a stereotype ("that's a sweeping generalization"); **school** forming a general rule from examples ("make a generalization from the data"); **science** extending a result to a wider case ("a generalization of the theorem")
 - idioms: sweeping generalization, to generalize, in general
 - anchors: Little Albert (1920): Watson and Rayner conditioned a baby to fear a white rat; the fear spread to rabbits and fur coats
@@ -3692,7 +3692,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Greedy (decoding)
 - `greedy` | word | width 5 (mid) | native - ^greedy
-- AI: always picking the single most likely next word with no exploring; safe but often dull and repetitive. Origin: greedy algorithms in computer science, named in Jack Edmonds 1971, 'Matroids and the Greedy Algorithm' [medium]
+- AI: always picking the single most likely next word with no exploring; safe but often dull and repetitive. Origin: greedy algorithms in computer science; an early titled use in Jack Edmonds 1971, 'Matroids and the Greedy Algorithm' (Mathematical Programming); first coiner unclear https://doi.org/10.1007/BF01584082 [medium]
 - senses: **money** wanting more money than you need ("greedy bankers"); **faith-myth** avarice, one of the seven deadly sins ("the sin of greed"); **family** a child grabbing more than their share ("don't be greedy, share with your sister"); **body** eating too much ("greedy guts")
 - idioms: greed is good, greedy guts, don't be greedy, eyes bigger than your stomach
 - anchors: Wall Street (1987): Gordon Gekko: 'greed, for lack of a better word, is good'
@@ -3752,7 +3752,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Moat
 - `moat` | word | width 5 (mid) | native - ^moat
-- AI: a lasting competitive edge that rivals cannot copy; the question of whether any AI lab has one. Origin: Warren Buffett's 'economic moat' (Berkshire letters and meetings, 1990s); leaked Google memo May 2023, 'We Have No Moat, And Neither Does OpenAI' (attributed to Luke Sernau, published by SemiAnalysis) [medium]
+- AI: a lasting competitive edge that rivals cannot copy; the question of whether any AI lab has one. Origin: Warren Buffett's 'economic moat' (Berkshire letters and meetings, 1990s); leaked Google memo May 2023, 'We Have No Moat, And Neither Does OpenAI' (attributed to Luke Sernau, published by SemiAnalysis) https://www.semianalysis.com/p/google-we-have-no-moat-and-neither [medium]
 - senses: **war** a water-filled ditch around a castle ("cross the moat"); **money** a durable business advantage ("a wide moat stock"); **love** emotional defenses around a person ("she built a moat around her heart"); **nature** the ditch that separates zoo animals from visitors ("the lion's moat")
 - idioms: no moat, wide moat, pull up the drawbridge
 - anchors: We Have No Moat: 2023 leaked Google memo: open-source models would erode big labs' lead; Drawbridge: the castle's only crossing over the moat
@@ -3767,7 +3767,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Next-Token Prediction
 - `next-token` | phrase | width 5 (mid) | native - ^next-token
-- AI: the one game every language model is trained on: guess the next word piece from everything before it. Origin: Shannon 1951, 'Prediction and Entropy of Printed English' (humans guessing the next letter); neural version in Bengio et al. 2003; scaled by the GPT series from 2018 [high]
+- AI: the one game every language model is trained on: guess the next word piece from everything before it. Origin: Shannon 1951, 'Prediction and Entropy of Printed English' (humans guessing the next letter); neural version in Bengio et al. 2003; scaled by the GPT series from 2018 https://doi.org/10.1002/j.1538-7305.1951.tb01366.x [high]
 - senses: **school** a fill-in-the-blank reading test ("a cloze test"); **faith-myth** foretelling what comes next ("the prophet predicted it"); **love** knowing someone well enough to finish their sentences ("we finish each other's sentences"); **sport-games** guessing the next card or move ("call the next card")
 - idioms: finish each other's sentences, I knew you'd say that, what comes next, predictable
 - anchors: Shannon's guessing game (1951): people guessed the next letter of English text to measure its predictability; Frozen (2013): 'Love Is an Open Door': 'we finish each other's sandwiches'
@@ -3872,7 +3872,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Kardashev Scale
 - `kardashev` | concept | width 4 (narrow) | native screen | Idi seed ^kardashev
-- AI: a ranking of civilizations by how much energy they harness: a planet (I), a star (II), a galaxy (III); AI boosters use it as the yardstick for compute ambitions. Origin: Nikolai Kardashev 1964, 'Transmission of Information by Extraterrestrial Civilizations' (Soviet Astronomy); Carl Sagan 1973 interpolation puts humanity near 0.7 https://en.wikipedia.org/wiki/Kardashev_scale [high]
+- AI: a ranking of civilizations by how much energy they harness: a planet (I), a star (II), a galaxy (III); AI boosters use it as the yardstick for compute ambitions. Origin: Nikolai Kardashev 1964, 'Transmission of Information by Extraterrestrial Civilizations' (Soviet Astronomy); Carl Sagan 1973 interpolation puts humanity near 0.7 https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K [high]
 - senses: **science** the astronomers' energy scale for alien civilizations ("a Type II civilization"); **screen** the near-homophone Kardashian, the reality-TV family ("Keeping Up with the Kardashians"); **sport-games** civ-builder game progression: tiers you climb by energy ("level up the civ")
 - idioms: Type I civilization, level up
 - anchors: Nikolai Kardashev: Soviet radio astronomer who proposed the scale in 1964 while searching for alien signals; Sagan's 0.7: Sagan's 1973 formula rates humanity around 0.7 (estimates vary with energy figures)
@@ -3932,7 +3932,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Learning Rate
 - `learning-rate` | phrase | width 4 (narrow) | native - ^learning-rate
-- AI: how big each correction step is during training: too big and it overshoots, too small and it crawls. Origin: step size in Robbins and Monro 1951 stochastic approximation; named 'learning rate' in neural-network work from the perceptron era [medium]
+- AI: how big each correction step is during training: too big and it overshoots, too small and it crawls. Origin: step size in Robbins and Monro 1951 stochastic approximation; named 'learning rate' in neural-network work from the perceptron era https://doi.org/10.1214/aoms/1177729586 [medium]
 - senses: **school** how fast a pupil picks things up ("every child learns at a different rate"); **work** how cost falls as workers repeat a task ("a steep learning curve"); **mind** how quickly a person adapts ("a quick learner")
 - idioms: steep learning curve, quick learner, slow learner, at this rate
 - anchors: Theodore Wright 1936: airplane factory study: each doubling of output cut labor about 20 percent, the first learning curve
@@ -3947,7 +3947,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Local Minimum
 - `local-minimum` | phrase | width 4 (narrow) | native - ^local-minimum
-- AI: a dip in the error landscape that looks like the bottom from inside but is not the lowest point. Origin: optimization vocabulary from calculus; a central worry in neural-net training from the 1980s backpropagation era [medium]
+- AI: a dip in the error landscape that looks like the bottom from inside but is not the lowest point. Origin: optimization vocabulary from calculus; a central worry in neural-net training from the 1980s backpropagation era [low]
 - senses: **money** the lowest pay allowed by law ("minimum wage"); **everyday** a neighborhood's own pub or place ("my local"); **nature** the bottom of a small valley among bigger ones ("a hollow in the hills")
 - idioms: the bare minimum, minimum wage, my local, settling
 - pivots (jep drafts): "Stuck in a local minimum, calling it home" (ai+love+nature) / "Minimum wage, local minimum: both feel like the bottom" (ai+money+work) / "The nearest valley felt like the bottom of the world" (ai+nature+mind)
@@ -3961,7 +3961,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Moore's Law
 - `moores-law` | name | width 4 (narrow) | native - ^moores-law
-- AI: the observation that the number of transistors on a chip doubles on a steady schedule, the template for every AI growth curve. Origin: Gordon Moore 1965, 'Cramming More Components onto Integrated Circuits' (Electronics): doubling yearly; revised 1975 to every two years; name popularized by Carver Mead in the 1970s (coinage disputed) https://en.wikipedia.org/wiki/Moore%27s_law [high]
+- AI: the observation that the number of transistors on a chip doubles on a steady schedule, the template for every AI growth curve. Origin: Gordon Moore 1965, 'Cramming More Components onto Integrated Circuits' (Electronics): doubling yearly; revised 1975 to every two years; name popularized by Carver Mead in the 1970s (coinage disputed) https://doi.org/10.1109/JPROC.1998.658762 [high]
 - senses: **law-state** a 'law' that is a forecast and an industry target, enforced by nobody ("Moore's law is just an observation"); **everyday** the homophone 'more': want for more ("always wanting more"); **nature** the homophone 'moor': open wild upland ("out on the moor")
 - idioms: Moore's law is dead, more is more, less is more
 - anchors: Cramming More Components onto Integrated Circuits: Gordon Moore, Electronics, 19 April 1965; 'Moore's law is dead': Nvidia's Jensen Huang, 2022, on chip price-performance
@@ -4111,7 +4111,7 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Neuron
 - `neuron` | word | width 3 (narrow) | native - ^neuron
-- AI: one tiny unit in a network that adds up its inputs and passes on a number; loosely inspired by brain cells. Origin: McCulloch and Pitts 1943, 'A Logical Calculus of the Ideas Immanent in Nervous Activity'; Rosenblatt 1958 perceptron [high]
+- AI: one tiny unit in a network that adds up its inputs and passes on a number; loosely inspired by brain cells. Origin: McCulloch and Pitts 1943, 'A Logical Calculus of the Ideas Immanent in Nervous Activity'; Rosenblatt 1958 perceptron https://doi.org/10.1007/BF02478259 [high]
 - senses: **body** a nerve cell that carries electrical signals ("motor neurons"); **mind** the physical seat of thought and memory ("neurons that fire together wire together")
 - idioms: fire together, wire together, my last neuron, two neurons to rub together
 - anchors: the 'Jennifer Aniston neuron': Quiroga et al. 2005 found single brain cells responding to one celebrity (Halle Berry, Jennifer Aniston); Hebb 1949: Donald Hebb's learning rule, later paraphrased as 'fire together, wire together'
@@ -4126,10 +4126,10 @@ Entries 252 of 252 | wide (width 8+) 68 | mid (5-7) 162 | medium-native (music o
 
 ### Overfitting
 - `overfitting` | word | width 3 (narrow) | native - ^overfitting
-- AI: memorizing the training examples so closely that the model fails on anything new. Origin: statistics term for models with too many free parameters; in machine learning vocabulary since at least the 1990s [medium]
+- AI: memorizing the training examples so closely that the model fails on anything new. Origin: statistics term for models with too many free parameters, in print by 1951 in psychometrics; in machine learning vocabulary since at least the 1980s [medium]
 - senses: **craft** how closely clothes match a body ("a perfect fit"); **school** cramming answers without understanding ("teaching to the test")
 - idioms: a perfect fit, teaching to the test, fits like a glove
-- anchors: Goodhart's law: Charles Goodhart 1975: when a measure becomes a target, it stops being a good measure
+- anchors: Goodhart's law: Charles Goodhart 1975, in Marilyn Strathern's 1997 wording: when a measure becomes a target, it stops being a good measure
 - pivots (jep drafts): "I memorized your answers and failed your questions" (ai+school+love) / "Tailored so tight to you, I can't fit anyone else" (ai+craft+love) / "Fits like a glove; a glove for one hand only" (ai+craft)
 - enact: music: a melody that copies the reference song note for note, then falls apart on an unfamiliar chord | picture: a suit tailored so exactly to one mannequin that it rips when a living person tries it on | type: the word is traced over an outline that it matches perfectly, then the outline shifts and the word doesn't follow
 - sound: 4 syl, o-ver-FIT-ting; rhymes sitting, hitting, knitting, quitting, splitting, admitting, committing, spitting; slant listing, missing, written, kitten

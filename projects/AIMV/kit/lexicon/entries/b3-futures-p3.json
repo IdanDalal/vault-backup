@@ -37,7 +37,7 @@
   "forms": ["upload", "uploads", "uploaded", "uploading", "mind uploading", "uploaded intelligence"],
   "ai": {"sense": "copying a human mind into a computer by scanning the brain and running it as software",
          "origin": "Hans Moravec 1988, 'Mind Children'; whole-brain emulation roadmap by Sandberg and Bostrom 2008",
-         "url": "", "confidence": "high"},
+         "url": "", "confidence": "medium"},
   "senses": [
    {"domain": "everyday", "meaning": "sending a file to a server", "phrase": "upload the photo"},
    {"domain": "school", "meaning": "turning in homework online", "phrase": "upload your assignment by midnight"},
@@ -214,7 +214,7 @@
   "forms": ["cluster", "clusters", "clustered", "clustering", "GPU cluster", "supercluster"],
   "ai": {"sense": "many GPUs wired together to train one model; also clustering, grouping similar data points without labels",
          "origin": "k-means clustering: Lloyd 1957 (published 1982), MacQueen 1967; giant training clusters such as xAI's Colossus (about 100,000 H100s, Memphis, 2024)",
-         "url": "", "confidence": "high"},
+         "url": "https://doi.org/10.1109/TIT.1982.1056489", "confidence": "high"},
   "senses": [
    {"domain": "nature", "meaning": "a bunch of grapes, flowers or stars", "phrase": "a star cluster; a cluster of grapes"},
    {"domain": "body", "meaning": "cluster headaches: severe one-sided attacks in bouts", "phrase": "cluster headaches"},
@@ -283,7 +283,7 @@
   "forms": ["leak", "leaks", "leaked", "leaking", "leaky", "leaker", "memory leak", "data leakage"],
   "ai": {"sense": "weights, system prompts or test answers escaping; 'leakage' is test data slipping into training so scores are inflated",
          "origin": "LLaMA weights leaked on 4chan, March 2023; leaked Google 'no moat' memo, May 2023; system-prompt leaks via prompt injection since Bing Chat 'Sydney', Feb 2023",
-         "url": "", "confidence": "high"},
+         "url": "", "confidence": "medium"},
   "senses": [
    {"domain": "everyday", "meaning": "liquid escaping through a hole", "phrase": "the roof is leaking"},
    {"domain": "law-state", "meaning": "secret documents passed to the press", "phrase": "the Pentagon Papers leak"},
@@ -351,8 +351,8 @@
   "id": "leaderboard",
   "forms": ["leaderboard", "leaderboards", "arena", "arenas", "Chatbot Arena", "LMArena", "high score"],
   "ai": {"sense": "a public ranking of models, often by human votes in head-to-head matchups (Elo scores)",
-         "origin": "LMSYS Chatbot Arena, May 2023 (UC Berkeley; renamed LMArena 2025); critique: Singh et al. April 2025, 'The Leaderboard Illusion' (private testing let labs pick their best variants)",
-         "url": "", "confidence": "high"},
+         "origin": "LMSYS Chatbot Arena, May 2023 (UC Berkeley; spun out as the company LMArena, 2025); critique: Singh et al. April 2025, 'The Leaderboard Illusion' (private testing let labs pick their best variants)",
+         "url": "https://lmsys.org/blog/2023-05-03-arena/", "confidence": "high"},
   "senses": [
    {"domain": "sport-games", "meaning": "a golf tournament scoreboard; an arcade high-score table", "phrase": "top of the leaderboard"},
    {"domain": "war", "meaning": "the arena: where gladiators fought for a crowd", "phrase": "thrown into the arena"},
@@ -387,7 +387,7 @@
   "forms": ["eval", "evals", "evaluation", "evaluate", "test", "tests", "tested", "testing", "exam", "exams", "examination"],
   "ai": {"sense": "a structured test of what a model can do or will do, including dangerous-capability tests before release",
          "origin": "dangerous-capability evals: ARC Evals (now METR) on GPT-4, 2023; UK AI Security Institute (founded Nov 2023 as AI Safety Institute); 'evaluation awareness', models noticing they are being tested, reported in 2025 system cards",
-         "url": "", "confidence": "high"},
+         "url": "https://metr.org/blog/2023-12-04-metr-announcement", "confidence": "high"},
   "senses": [
    {"domain": "school", "meaning": "an exam; a graded test", "phrase": "pencils down, the exam is over"},
    {"domain": "body", "meaning": "a medical test or checkup", "phrase": "the test came back negative"},
@@ -494,7 +494,7 @@
   "forms": ["Manhattan Project", "Manhattan", "the Project", "Trinity", "Oppenheimer"],
   "ai": {"sense": "the call for a crash, state-run program to build AGI first, modeled on the atomic bomb effort",
          "origin": "US-China Economic and Security Review Commission, Nov 2024 report: 'a Manhattan Project-like program' for AGI; Aschenbrenner, June 2024, 'Situational Awareness' ('The Project')",
-         "url": "", "confidence": "high"},
+         "url": "https://www.uscc.gov/annual-report/2024-annual-report-congress", "confidence": "high"},
   "senses": [
    {"domain": "war", "meaning": "the 1942-1946 US program that built the atomic bomb", "phrase": "the Manhattan Project"},
    {"domain": "science", "meaning": "big physics under secrecy; Trinity test, 16 July 1945", "phrase": "the Trinity test"},
