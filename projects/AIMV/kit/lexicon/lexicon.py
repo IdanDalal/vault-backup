@@ -160,6 +160,9 @@ def cmd_build():
             E[e["id"]] = e
     problems = [x for e in E.values() for x in check_entry(e, T)]
     songs, src, kc = load_lyrics()
+    bl_path, at_path = os.path.join(HERE, "atlas-backlinks.json"), os.path.join(HERE, "atlas.json")
+    atlas_back = json.load(open(bl_path, encoding="utf-8")) if os.path.exists(bl_path) else {}
+    atlas_name = {a["id"]: a["name"] for a in json.load(open(at_path, encoding="utf-8"))["entities"]} if os.path.exists(at_path) else {}
     kinds = Counter(src.values())
     n_off = len(songs) - kinds.get("whisper", 0)
     kind_txt = ", ".join(f"{k} {v}" for k, v in sorted(kinds.items(), key=lambda kv: -kv[1]))
@@ -227,6 +230,8 @@ def cmd_build():
         L.append("- senses: " + "; ".join(f"**{s['domain']}** {s['meaning']} (\"{s['phrase']}\")" for s in e["senses"]))
         L.append(f"- forms (counted): {', '.join(e['forms'])}"
                  + (f" | associates (not counted): {', '.join(e['associates'])}" if e.get("associates") else ""))
+        if atlas_back.get(e["id"]):
+            L.append("- atlas: " + ", ".join(f"[[kit-atlas#^{a}|{atlas_name.get(a, a)}]]" for a in atlas_back[e["id"]]))
         if e["idioms"]:
             L.append("- idioms: " + ", ".join(e["idioms"]))
         if e["anchors"]:

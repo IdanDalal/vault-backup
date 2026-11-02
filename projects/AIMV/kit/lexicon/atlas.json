@@ -1,0 +1,1322 @@
+{
+ "_meta": {
+  "type": "data",
+  "created": "2026-11-02",
+  "author": "jep",
+  "what": "AIMV atlas master list (people, orgs, institutions, places, events, fiction); idi_named = named by Idi 2026-11-02; mask = from the [MASK] cast 2026-10-12"
+ },
+ "entities": [
+  {
+   "id": "elon-musk",
+   "name": "Elon Musk",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "dario-amodei",
+   "name": "Dario Amodei",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "daniela-amodei",
+   "name": "Daniela Amodei",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "demis-hassabis",
+   "name": "Demis Hassabis",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "mark-zuckerberg",
+   "name": "Mark Zuckerberg",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "jensen-huang",
+   "name": "Jensen Huang",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "jeff-bezos",
+   "name": "Jeff Bezos",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "sam-altman",
+   "name": "Sam Altman",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "satya-nadella",
+   "name": "Satya Nadella",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "mustafa-suleyman",
+   "name": "Mustafa Suleyman",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "sundar-pichai",
+   "name": "Sundar Pichai",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "palmer-luckey",
+   "name": "Palmer Luckey",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "geoffrey-hinton",
+   "name": "Geoffrey Hinton",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "yann-lecun",
+   "name": "Yann LeCun",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "yoshua-bengio",
+   "name": "Yoshua Bengio",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ilya-sutskever",
+   "name": "Ilya Sutskever",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "andrej-karpathy",
+   "name": "Andrej Karpathy",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "eliezer-yudkowsky",
+   "name": "Eliezer Yudkowsky",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "nick-bostrom",
+   "name": "Nick Bostrom",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ray-kurzweil",
+   "name": "Ray Kurzweil",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "alan-turing",
+   "name": "Alan Turing",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "john-searle",
+   "name": "John Searle",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "richard-sutton",
+   "name": "Richard Sutton",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "fei-fei-li",
+   "name": "Fei-Fei Li",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "mira-murati",
+   "name": "Mira Murati",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "greg-brockman",
+   "name": "Greg Brockman",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "chris-olah",
+   "name": "Chris Olah",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "jan-leike",
+   "name": "Jan Leike",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "leopold-aschenbrenner",
+   "name": "Leopold Aschenbrenner",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "daniel-kokotajlo",
+   "name": "Daniel Kokotajlo",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "gary-marcus",
+   "name": "Gary Marcus",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "emily-bender",
+   "name": "Emily M. Bender",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "timnit-gebru",
+   "name": "Timnit Gebru",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "masayoshi-son",
+   "name": "Masayoshi Son",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "larry-ellison",
+   "name": "Larry Ellison",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "lisa-su",
+   "name": "Lisa Su",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "liang-wenfeng",
+   "name": "Liang Wenfeng",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "peter-thiel",
+   "name": "Peter Thiel",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "marc-andreessen",
+   "name": "Marc Andreessen",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "alexandr-wang",
+   "name": "Alexandr Wang",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "lee-sedol",
+   "name": "Lee Sedol",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "garry-kasparov",
+   "name": "Garry Kasparov",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "stuart-russell",
+   "name": "Stuart Russell",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ada-lovelace",
+   "name": "Ada Lovelace",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "john-von-neumann",
+   "name": "John von Neumann",
+   "kind": "person",
+   "batch": "a1-people",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "google-deepmind",
+   "name": "Google DeepMind",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "google",
+   "name": "Google / Alphabet",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "apple-inc",
+   "name": "Apple (the company)",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "nvidia",
+   "name": "Nvidia",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "tsmc",
+   "name": "TSMC",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "asml",
+   "name": "ASML",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "xai",
+   "name": "xAI",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "deepseek",
+   "name": "DeepSeek",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "alibaba-qwen",
+   "name": "Alibaba / Qwen",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "moonshot",
+   "name": "Moonshot AI (Kimi)",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "mistral-ai",
+   "name": "Mistral AI",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "hugging-face",
+   "name": "Hugging Face",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ssi",
+   "name": "Safe Superintelligence (SSI)",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "thinking-machines",
+   "name": "Thinking Machines Lab",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "character-ai",
+   "name": "Character.AI",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "perplexity",
+   "name": "Perplexity",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "anysphere",
+   "name": "Anysphere (Cursor)",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "scale-ai",
+   "name": "Scale AI",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "palantir",
+   "name": "Palantir",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "anduril",
+   "name": "Anduril",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "oracle-corp",
+   "name": "Oracle (the company)",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "softbank",
+   "name": "SoftBank",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "coreweave",
+   "name": "CoreWeave",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": true
+  },
+  {
+   "id": "neuralink",
+   "name": "Neuralink",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "boston-dynamics",
+   "name": "Boston Dynamics",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ibm",
+   "name": "IBM (Deep Blue, Watson)",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "suno",
+   "name": "Suno",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "minimax",
+   "name": "MiniMax",
+   "kind": "lab",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "midjourney",
+   "name": "Midjourney",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "stability-ai",
+   "name": "Stability AI",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "elevenlabs",
+   "name": "ElevenLabs",
+   "kind": "company",
+   "batch": "a2-orgs",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "metr",
+   "name": "METR",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "artificial-analysis",
+   "name": "Artificial Analysis",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "openrouter",
+   "name": "OpenRouter",
+   "kind": "company",
+   "batch": "a3-world",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "epoch-ai",
+   "name": "Epoch AI",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "lmarena",
+   "name": "LMArena",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "arc-prize",
+   "name": "ARC Prize (ARC-AGI)",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "miri",
+   "name": "MIRI",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "cais",
+   "name": "Center for AI Safety (CAIS)",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "uk-aisi",
+   "name": "UK AI Security Institute",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "us-caisi",
+   "name": "US CAISI (ex AI Safety Institute)",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "eu-ai-act",
+   "name": "EU AI Act",
+   "kind": "law",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "export-controls",
+   "name": "US chip export controls",
+   "kind": "law",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "stargate",
+   "name": "Stargate (the project)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "dartmouth-1956",
+   "name": "Dartmouth workshop 1956",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "chatgpt-launch",
+   "name": "ChatGPT launch (Nov 2022)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "pause-letter",
+   "name": "The Pause letter (Mar 2023)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "openai-board-crisis",
+   "name": "OpenAI board crisis (Nov 2023)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "deepseek-moment",
+   "name": "The DeepSeek moment (Jan 2025)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "nobel-2024",
+   "name": "The 2024 AI Nobels",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ai-2027",
+   "name": "AI 2027 (the scenario)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "situational-awareness",
+   "name": "Situational Awareness (the essay)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "machines-of-loving-grace",
+   "name": "Machines of Loving Grace (the essay)",
+   "kind": "event",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "imagenet",
+   "name": "ImageNet",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "humanitys-last-exam",
+   "name": "Humanity's Last Exam",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "turing-award",
+   "name": "Turing Award",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "neurips",
+   "name": "NeurIPS",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv",
+   "kind": "institution",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "china",
+   "name": "China",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "taiwan",
+   "name": "Taiwan",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "united-states",
+   "name": "United States",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "argentina",
+   "name": "Argentina",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "uae",
+   "name": "United Arab Emirates",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "european-union",
+   "name": "European Union",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "silicon-valley",
+   "name": "Silicon Valley / San Francisco",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "israel",
+   "name": "Israel",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "india",
+   "name": "India",
+   "kind": "place",
+   "batch": "a3-world",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "her",
+   "name": "Her (2013)",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "ex-machina",
+   "name": "Ex Machina (2014)",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "westworld",
+   "name": "Westworld",
+   "kind": "work-tv",
+   "batch": "a4-fiction",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "terminator",
+   "name": "The Terminator / Skynet",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": true,
+   "mask": false
+  },
+  {
+   "id": "hal-9000",
+   "name": "2001: A Space Odyssey / HAL 9000",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "blade-runner",
+   "name": "Blade Runner",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "the-matrix",
+   "name": "The Matrix",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "asimov-robots",
+   "name": "Asimov's robots / Three Laws",
+   "kind": "work-book",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "black-mirror",
+   "name": "Black Mirror",
+   "kind": "work-tv",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "person-of-interest",
+   "name": "Person of Interest",
+   "kind": "work-tv",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "pantheon",
+   "name": "Pantheon",
+   "kind": "work-tv",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "m3gan",
+   "name": "M3GAN",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "the-creator",
+   "name": "The Creator (2023)",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "mi-the-entity",
+   "name": "Mission: Impossible / The Entity",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "detroit-become-human",
+   "name": "Detroit: Become Human",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "portal-glados",
+   "name": "Portal / GLaDOS",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "soma",
+   "name": "SOMA",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "mass-effect",
+   "name": "Mass Effect (Geth, EDI)",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "nier-automata",
+   "name": "NieR:Automata",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "system-shock",
+   "name": "System Shock / SHODAN",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "neuromancer",
+   "name": "Neuromancer",
+   "kind": "work-book",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "no-mouth",
+   "name": "I Have No Mouth, and I Must Scream (AM)",
+   "kind": "work-book",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "murderbot",
+   "name": "The Murderbot Diaries",
+   "kind": "work-book",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "klara-and-the-sun",
+   "name": "Klara and the Sun",
+   "kind": "work-book",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "the-culture",
+   "name": "The Culture (Iain M. Banks)",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "rur",
+   "name": "R.U.R. (the word \"robot\")",
+   "kind": "work-book",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ghost-in-the-shell",
+   "name": "Ghost in the Shell",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "transcendence",
+   "name": "Transcendence",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "chappie",
+   "name": "Chappie",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "wall-e",
+   "name": "WALL-E",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "big-hero-6",
+   "name": "Big Hero 6 (Baymax)",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "ai-spielberg",
+   "name": "A.I. Artificial Intelligence",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "star-trek-data",
+   "name": "Star Trek (Data, the Borg)",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "star-wars-droids",
+   "name": "Star Wars droids",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "hitchhikers",
+   "name": "The Hitchhiker's Guide (Deep Thought, Marvin)",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "wargames",
+   "name": "WarGames",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "colossus",
+   "name": "Colossus: The Forbin Project",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "tron",
+   "name": "Tron",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "robocop",
+   "name": "RoboCop",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "alien-mother",
+   "name": "Alien (Ash, MU-TH-UR)",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "interstellar-tars",
+   "name": "Interstellar (TARS)",
+   "kind": "work-film",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "iron-man-jarvis",
+   "name": "Iron Man / JARVIS, Ultron",
+   "kind": "universe",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  },
+  {
+   "id": "halo-cortana",
+   "name": "Halo / Cortana",
+   "kind": "work-game",
+   "batch": "a4-fiction",
+   "idi_named": false,
+   "mask": false
+  }
+ ]
+}
