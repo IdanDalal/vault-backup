@@ -16,15 +16,15 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 ## Yours (jep reads, never edits)
 
 youtu.be/3TNpOD6bov8
-youtu.be/R_ErmTs7g9I 
-youtu.be/NgRkyAIJx5s 
-youtu.be/4Q-o_ylnVnc 
+youtu.be/R_ErmTs7g9I
+youtu.be/NgRkyAIJx5s
+youtu.be/4Q-o_ylnVnc
 youtu.be/vVQ9cRMWQxc
-youtu.be/tKrVYOUvrtA 
-youtu.be/s91rdFlXHGI 
+youtu.be/tKrVYOUvrtA
+youtu.be/s91rdFlXHGI
 youtu.be/rBkiqXSZHCo
-youtu.be/bDP0S9aYReE 
-youtu.be/Wjcj_hmVJzo 
+youtu.be/bDP0S9aYReE
+youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
