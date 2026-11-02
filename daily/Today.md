@@ -27,7 +27,12 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
+My timestamped/specific ref notes:
 
+## Accept All
+1. There's a great 3D scene with a weaving tunnel and words zooming past the camera at ~00:13-00:18.
+2. There's another great 3D scene with an arrow following a trail/track on the ground at ~00:30-00:36.
+3. 
 
 Rick and Morty 2013–
 
