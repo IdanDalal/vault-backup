@@ -95,4 +95,9 @@ Idi caught 11-02 (lexicon): Moore's law at 14 of 22 songs (the form "more" was c
 | 10 | Tell Me No | "CRAZY! The genre, the style, the escalation, the volatility ..., the SICK drops" | sound |
 | 11 | Accept All | "a great 3D scene with a weaving tunnel and words zooming past the camera at ~00:13-00:18 ... an arrow following a trail/track on the ground at ~00:30-00:36" | visual techniques |
 
+## Rulings round 3 (Idi, 2026-11-02)
+
+| # | ruling (Idi's words, trimmed) | effect | status |
+|---|---|---|---|
 | R14 | "since Knowledge Cutoff looked GREAT, it makes me think we're better off focusing on making the next video SOUND better" | video 2's leap = the song: lyrics (refs 1-6) and sound (refs 8-10); visuals reuse KC's engine plus mined techniques (refs 7, 11) | ruled 11-02 |
+| R15 | Premise: A "Pay Attention" ("probably because it's 'the strongest fit for TELOS and the most personal'"), with notes: swap ImageNet/ARC/Fei-Fei Li for names viewers know; a bigger payoff (rewired attention, orders of magnitude more questions); outro "pay attention, or pay the price"; "Attention Is All You Need" without low fruit; learning-mode and cheat-code arguments; the "Super Intelligence" running gag; the "ATTEN-TION!" drill call | premise v2 in [[video2-pay-attention]]; one idea list in [[aimv-ideas]] (B, C + the 4 October candidates) | ruled 11-02 |
