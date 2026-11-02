@@ -27,23 +27,8 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-My timestamped/specific ref notes:
 
-## Accept All
-1. There's a great 3D scene with a weaving tunnel and words zooming past the camera at ~00:13-00:18.
-2. There's another great 3D scene with an arrow following a trail/track on the ground at ~00:30-00:36.
-## Final Boss
-1. The video is not relevant, but the lyrics and the song are WILD! It's long (~6 mins), clever, emotional, and complex/deep.
-## Hope This Helps!
-1. Same as Final Boss above: the video is not relevant, but the lyrics and the song are AWESOME! It's long (>5:30 mins), clever, emotional, and complex/deep.
-## Nothing Went Foom!
-1. Same as Hope This Helps! and Final Boss above: the video is not relevant, but the lyrics and the song are AMAZING! It's long (5:00 mins), clever, emotional, and complex/deep.
-## I'm Upping My P(doom) [GENESIS] (Remix)
-1. The opposite of the three above: irrelevant song, but the video is PACKED with ambitious, high-ceiling, stunning techniques. It generally looks pretty bad, worse than most (all?) other refs, but it has so many intricate and creative effects and transitions, that I'm sure we can learn a lot from it.
-## It Crossed The Line
-1. There's no video. The song is STRAIGHT-UP FIRE! The genre, the style, the escalation, the volatility (quiet->loud->quiet->loud->again), the SICK drops, and much more.
-## Not My Fault
-1. Same as It Crossed The Line above: There's no video. The song is STRAIGHT-UP FIRE! The genre, the style, the escalation, the volatility (quiet->loud->quiet->loud->again), the SICK drops, the bass track, and much more.
+
 
 
 Rick and Morty 2013–
