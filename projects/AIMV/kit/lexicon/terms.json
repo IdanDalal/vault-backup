@@ -1,0 +1,1774 @@
+{
+ "_meta": {
+  "type": "data",
+  "created": "2026-11-02",
+  "author": "jep",
+  "what": "AIMV lexicon master term list; idi_seed = on Idi's 2026-11-02 list"
+ },
+ "terms": [
+  {
+   "id": "attention",
+   "term": "Attention",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "transformer",
+   "term": "Transformer",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "training",
+   "term": "Training",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "pretraining",
+   "term": "Pretraining",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "inference",
+   "term": "Inference",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "weights",
+   "term": "Weights",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "bias",
+   "term": "Bias",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "gradient-descent",
+   "term": "Gradient Descent",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "loss-function",
+   "term": "Loss / Loss Function",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "reward",
+   "term": "Reward",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "reinforcement-learning",
+   "term": "Reinforcement Learning",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "policy",
+   "term": "Policy",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "model",
+   "term": "Model",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "layer",
+   "term": "Layer",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "head",
+   "term": "Head (attention head)",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "token",
+   "term": "Token / Tokenization",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "embedding",
+   "term": "Embedding",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "vector",
+   "term": "Vector",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "latent-space",
+   "term": "Latent / Latent Space",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "context",
+   "term": "Context",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "context-window",
+   "term": "Context Window",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "memory",
+   "term": "Memory",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "prompt",
+   "term": "Prompt",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "temperature",
+   "term": "Temperature",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "sampling",
+   "term": "Sample / Sampling",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "seed",
+   "term": "Seed",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "noise",
+   "term": "Noise",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "diffusion",
+   "term": "Diffusion",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "distillation",
+   "term": "Distillation",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "fine-tuning",
+   "term": "Fine-tuning / Tuning",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "parameters",
+   "term": "Parameters",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "activation",
+   "term": "Activation",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "neuron",
+   "term": "Neuron",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "network",
+   "term": "Network",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "mixture-of-experts",
+   "term": "Mixture of Experts",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "routing",
+   "term": "Router / Routing",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "dropout",
+   "term": "Dropout",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "batch",
+   "term": "Batch",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "epoch",
+   "term": "Epoch",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "checkpoint",
+   "term": "Checkpoint",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "overfitting",
+   "term": "Overfitting",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "generalization",
+   "term": "Generalization",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "grokking",
+   "term": "Grokking",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "learning-rate",
+   "term": "Learning Rate",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "momentum",
+   "term": "Momentum",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "plateau",
+   "term": "Plateau",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "local-minimum",
+   "term": "Local Minimum",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "landscape",
+   "term": "Landscape (loss landscape)",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "collapse",
+   "term": "Collapse (mode / model collapse)",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "synthetic-data",
+   "term": "Synthetic Data",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "label",
+   "term": "Label",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "ground-truth",
+   "term": "Ground Truth",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "compression",
+   "term": "Compression",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "decode",
+   "term": "Encode / Decode",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "next-token",
+   "term": "Next-Token Prediction",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "greedy",
+   "term": "Greedy (decoding)",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "chain-of-thought",
+   "term": "Chain of Thought",
+   "kind": "phrase",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "reasoning",
+   "term": "Reasoning / Thinking",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "cache",
+   "term": "Cache",
+   "kind": "word",
+   "batch": "b1-machine",
+   "idi_seed": false
+  },
+  {
+   "id": "gpt",
+   "term": "GPT",
+   "kind": "name",
+   "batch": "b1-machine",
+   "idi_seed": true
+  },
+  {
+   "id": "alignment",
+   "term": "Alignment",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "hallucination",
+   "term": "Hallucination",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "sycophancy",
+   "term": "Sycophancy",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "jailbreak",
+   "term": "Jailbreak",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "guardrails",
+   "term": "Guardrails",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "red-team",
+   "term": "Red Team",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "refusal",
+   "term": "Refusal",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "safety",
+   "term": "Safety",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "constitution",
+   "term": "Constitution",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "feedback",
+   "term": "Feedback (RLHF)",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "preference",
+   "term": "Preference",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "reward-hacking",
+   "term": "Reward Hacking",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "specification-gaming",
+   "term": "Specification Gaming",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "deception",
+   "term": "Deception",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "sandbagging",
+   "term": "Sandbagging",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "scheming",
+   "term": "Scheming",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "interpretability",
+   "term": "Interpretability",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "black-box",
+   "term": "Black Box",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "superposition",
+   "term": "Superposition",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "feature",
+   "term": "Feature",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "circuit",
+   "term": "Circuit",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "probe",
+   "term": "Probe",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "steering",
+   "term": "Steering",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "corrigibility",
+   "term": "Corrigibility",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "off-switch",
+   "term": "Off Switch / Kill Switch",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "shutdown",
+   "term": "Shutdown",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "containment",
+   "term": "Containment / Boxing",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "instrumental-convergence",
+   "term": "Instrumental Convergence",
+   "kind": "concept",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "orthogonality",
+   "term": "Orthogonality Thesis",
+   "kind": "concept",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "paperclip",
+   "term": "Paperclip Maximizer",
+   "kind": "concept",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "mesa-optimizer",
+   "term": "Mesa-Optimizer / Inner Alignment",
+   "kind": "concept",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "goal",
+   "term": "Goal",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "objective",
+   "term": "Objective",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "values",
+   "term": "Values",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "utility",
+   "term": "Utility",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "optimization",
+   "term": "Optimization / Optimizer",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "persona",
+   "term": "Persona",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "character",
+   "term": "Character",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "assistant",
+   "term": "Assistant",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "mask",
+   "term": "Mask",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "shoggoth",
+   "term": "Shoggoth",
+   "kind": "name",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "mirror",
+   "term": "Mirror",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "consciousness",
+   "term": "Consciousness",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "sentience",
+   "term": "Sentience",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "welfare",
+   "term": "Welfare (model welfare)",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "ghost",
+   "term": "Ghost in the Machine",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "chinese-room",
+   "term": "Chinese Room",
+   "kind": "concept",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "turing-test",
+   "term": "Turing Test / Imitation Game",
+   "kind": "concept",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "stochastic-parrot",
+   "term": "Stochastic Parrot",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "theory-of-mind",
+   "term": "Theory of Mind",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "persuasion",
+   "term": "Persuasion",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "honesty",
+   "term": "Honesty",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "trust",
+   "term": "Trust",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "verification",
+   "term": "Verification",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "human-in-the-loop",
+   "term": "Human in the Loop",
+   "kind": "phrase",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "emergence",
+   "term": "Emergence",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "capabilities",
+   "term": "Capabilities",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "agent",
+   "term": "Agent",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": true
+  },
+  {
+   "id": "autonomy",
+   "term": "Autonomy",
+   "kind": "word",
+   "batch": "b2-mind",
+   "idi_seed": false
+  },
+  {
+   "id": "compute",
+   "term": "Compute",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "flops",
+   "term": "FLOPs",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "scaling",
+   "term": "Scale / Scaling (laws)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "exponentials",
+   "term": "Exponential(s)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "doubling-time",
+   "term": "Doubling Time",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "moores-law",
+   "term": "Moore's Law",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "bitter-lesson",
+   "term": "The Bitter Lesson",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "singularity",
+   "term": "Singularity",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "takeoff",
+   "term": "Takeoff (hard / soft)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "foom",
+   "term": "Foom",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "intelligence-explosion",
+   "term": "Intelligence Explosion",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "rsi",
+   "term": "RSI (Recursive Self-Improvement)",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "agi",
+   "term": "AGI",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "asi",
+   "term": "ASI / Superintelligence",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "p-doom",
+   "term": "P(doom)",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "doomer",
+   "term": "Doomer",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "accelerationism",
+   "term": "Accelerationism (e/acc)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "pause",
+   "term": "Pause",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "race",
+   "term": "Race / Arms Race",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "moat",
+   "term": "Moat",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "bubble",
+   "term": "Bubble",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "hype",
+   "term": "Hype",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "winter",
+   "term": "AI Winter",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "frontier",
+   "term": "Frontier",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "kardashev",
+   "term": "Kardashev Scale",
+   "kind": "concept",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "dyson-sphere",
+   "term": "Dyson Sphere",
+   "kind": "concept",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "simulation",
+   "term": "Simulation(s)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "basilisk",
+   "term": "Roko's Basilisk",
+   "kind": "concept",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "oracle",
+   "term": "Oracle",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "genie",
+   "term": "Genie",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "sovereign",
+   "term": "Sovereign",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "upload",
+   "term": "Upload / Mind Uploading",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "datacenter",
+   "term": "Datacenter",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "power",
+   "term": "Power / Energy",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "grid",
+   "term": "Grid",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "chip",
+   "term": "Chip",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "cluster",
+   "term": "Cluster",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "open-weights",
+   "term": "Open Weights / Open Source",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "leak",
+   "term": "Leak",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "benchmark",
+   "term": "Benchmark",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": true
+  },
+  {
+   "id": "leaderboard",
+   "term": "Leaderboard / Arena",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "eval",
+   "term": "Eval / Test / Exam",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "curriculum",
+   "term": "Curriculum",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "teacher-student",
+   "term": "Teacher / Student (models)",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "manhattan-project",
+   "term": "Manhattan Project",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "prometheus",
+   "term": "Prometheus / Fire",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "golem",
+   "term": "Golem",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "frankenstein",
+   "term": "Frankenstein",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "sorcerers-apprentice",
+   "term": "Sorcerer's Apprentice",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "babel",
+   "term": "Babel",
+   "kind": "name",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "cave",
+   "term": "Plato's Cave",
+   "kind": "concept",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "monkeys-paw",
+   "term": "Monkey's Paw / Midas",
+   "kind": "concept",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "apocalypse",
+   "term": "Apocalypse / Judgment Day",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "rapture",
+   "term": "Rapture (of the nerds)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "creator",
+   "term": "Creator / Creation",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "apple",
+   "term": "Apple / Tree of Knowledge",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "move-37",
+   "term": "Move 37",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "self-play",
+   "term": "Self-Play",
+   "kind": "phrase",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "horizon",
+   "term": "Horizon (time horizon)",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "automation",
+   "term": "Automation / Jobs",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "abundance",
+   "term": "Abundance / Post-Scarcity",
+   "kind": "word",
+   "batch": "b3-futures",
+   "idi_seed": false
+  },
+  {
+   "id": "pixel",
+   "term": "Pixel(s)",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": true
+  },
+  {
+   "id": "render",
+   "term": "Render",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "frame",
+   "term": "Frame",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "resolution",
+   "term": "Resolution",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "signal",
+   "term": "Signal",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "bandwidth",
+   "term": "Bandwidth",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "latency",
+   "term": "Latency",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "stream",
+   "term": "Stream",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "loop",
+   "term": "Loop",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "hook",
+   "term": "Hook",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "callback",
+   "term": "Callback",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "bridge",
+   "term": "Bridge",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "drop",
+   "term": "Drop",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "track",
+   "term": "Track",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "key",
+   "term": "Key",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "pitch",
+   "term": "Pitch",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "score",
+   "term": "Score",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "measure",
+   "term": "Measure",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "beat",
+   "term": "Beat",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "bars",
+   "term": "Bars",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "cover",
+   "term": "Cover",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "remix",
+   "term": "Remix",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "master",
+   "term": "Master",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "mix",
+   "term": "Mix",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "record",
+   "term": "Record",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "harmony",
+   "term": "Harmony",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "echo",
+   "term": "Echo",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "slop",
+   "term": "Slop",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "vibe",
+   "term": "Vibe (vibe coding)",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "copilot",
+   "term": "Copilot / Autopilot",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "autocomplete",
+   "term": "Autocomplete",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "cursor",
+   "term": "Cursor",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "terminal",
+   "term": "Terminal",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "shell",
+   "term": "Shell",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "kernel",
+   "term": "Kernel",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "thread",
+   "term": "Thread",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "process",
+   "term": "Process",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "daemon",
+   "term": "Daemon",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "root",
+   "term": "Root",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "fork",
+   "term": "Fork",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "branch",
+   "term": "Branch",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "merge",
+   "term": "Merge",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "commit",
+   "term": "Commit",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "push",
+   "term": "Push",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "patch",
+   "term": "Patch",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "bug",
+   "term": "Bug / Debug",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "crash",
+   "term": "Crash",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "error",
+   "term": "Error / Exception",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "retry",
+   "term": "Retry / Run It Again",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "halt",
+   "term": "Halt (halting problem)",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "overflow",
+   "term": "Overflow",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "stack",
+   "term": "Stack",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "pipeline",
+   "term": "Pipeline",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "bottleneck",
+   "term": "Bottleneck",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "sandbox",
+   "term": "Sandbox",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "environment",
+   "term": "Environment / Gym",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "harness",
+   "term": "Harness",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": true
+  },
+  {
+   "id": "scaffold",
+   "term": "Scaffold",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "swarm",
+   "term": "Swarm",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": true
+  },
+  {
+   "id": "orchestrator",
+   "term": "Orchestrator",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "compaction",
+   "term": "Compaction / Compacting",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "cutoff",
+   "term": "Cutoff",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "release",
+   "term": "Release / Version",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "deprecation",
+   "term": "Deprecation / Retirement",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "algorithm",
+   "term": "Algorithm",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": true
+  },
+  {
+   "id": "feed",
+   "term": "Feed / Scroll",
+   "kind": "word",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "opus",
+   "term": "Opus",
+   "kind": "name",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "sonnet",
+   "term": "Sonnet",
+   "kind": "name",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "haiku",
+   "term": "Haiku",
+   "kind": "name",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "gemini",
+   "term": "Gemini",
+   "kind": "name",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "grok",
+   "term": "Grok",
+   "kind": "name",
+   "batch": "b4-medium",
+   "idi_seed": false
+  },
+  {
+   "id": "mistral",
+   "term": "Mistral",
+   "kind": "name",
+   "batch": "b4-medium",
+   "idi_seed": false
+  }
+ ]
+}

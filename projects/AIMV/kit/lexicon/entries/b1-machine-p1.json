@@ -1,0 +1,534 @@
+[
+ {
+  "id": "attention",
+  "forms": ["attention", "attentions", "attend", "attends", "attending", "attended", "attentive", "self-attention", "attention head", "attention span", "multi-head attention"],
+  "ai": {"sense": "the mechanism that lets each token (word piece) weigh every other token when computing what it means in context",
+         "origin": "Bahdanau, Cho, Bengio 2014 (attention for translation); Vaswani et al. 2017, 'Attention Is All You Need' (the Transformer)",
+         "url": "https://arxiv.org/abs/1706.03762", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "focus given to something", "phrase": "pay attention"},
+   {"domain": "love", "meaning": "care shown to a person; being noticed", "phrase": "all I wanted was your attention"},
+   {"domain": "money", "meaning": "the scarce resource platforms sell to advertisers", "phrase": "the attention economy"},
+   {"domain": "war", "meaning": "the rigid ready posture on command", "phrase": "stand at attention"},
+   {"domain": "mind", "meaning": "selective focus and its limits", "phrase": "short attention span"},
+   {"domain": "school", "meaning": "what a teacher demands of a class", "phrase": "eyes on me, attention please"},
+   {"domain": "family", "meaning": "what a child acts out to get from a parent", "phrase": "he's just doing it for attention"}
+  ],
+  "idioms": ["pay attention", "attention span", "undivided attention", "attention seeker", "stand at attention", "your attention please", "attention to detail", "for attention"],
+  "anchors": [
+   {"name": "Attention Is All You Need", "what": "2017 Google paper that introduced the Transformer; its title riffs on the Beatles' 'All You Need Is Love'", "url": "https://arxiv.org/abs/1706.03762"},
+   {"name": "attention economy", "what": "Herbert Simon 1971: 'a wealth of information creates a poverty of attention'", "url": ""},
+   {"name": "Charlie Puth, 'Attention'", "what": "2017 pop single about a lover who only wants attention", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Attention is all you need, and you gave me none", "senses": ["ai", "love"]},
+   {"line": "I attend to every word you never said", "senses": ["ai", "love", "mind"]},
+   {"line": "Paying attention costs a fortune now", "senses": ["ai", "money", "everyday"]},
+   {"line": "Ninety-six heads in me, and every one stands at attention", "senses": ["ai", "war"]}
+  ],
+  "enact": {"music": "every stem ducks except one: the attended voice",
+            "picture": "glowing lines fan from one word to the words it weighs, like a heat map of who looked at whom",
+            "type": "the attended word scales up while the rest of the line dims"},
+  "sound": {"syllables": 3, "stress": "a-TEN-tion", "rhymes": ["mention", "tension", "pension", "dimension", "invention", "intention", "convention", "detention"], "slant": ["question", "suggestion", "affection", "direction"]},
+  "stakes": ["mind", "heart", "wallet"],
+  "registers": ["tender", "funny"],
+  "neighbors": [{"id": "transformer", "rel": "part-of"}, {"id": "head", "rel": "part-of"}, {"id": "context-window", "rel": "pairs-with"}, {"id": "feed", "rel": "pairs-with"}, {"id": "sycophancy", "rel": "pairs-with"}],
+  "risk": "'Attention Is All You Need' is the most used pun in AI culture; use it only twisted. 'Detention' in the rhyme list drags the school sense in for free",
+  "notes": "The love and money senses collide: the attention economy sells exactly what a lover asks for."
+ },
+ {
+  "id": "transformer",
+  "forms": ["transformer", "transformers", "transform", "transforms", "transformed", "transforming", "transformation", "transformative"],
+  "ai": {"sense": "the network design behind almost every modern language model, built from stacked attention layers that read a whole sequence at once",
+         "origin": "Vaswani et al. 2017 (Google Brain), 'Attention Is All You Need'; the T in GPT",
+         "url": "https://arxiv.org/abs/1706.03762", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "a coil device that steps electrical voltage up or down", "phrase": "the transformer on the pole blew"},
+   {"domain": "screen", "meaning": "Hasbro's shape-shifting robot franchise of cartoons and films", "phrase": "Transformers, robots in disguise"},
+   {"domain": "sport-games", "meaning": "a toy that folds from vehicle to robot", "phrase": "he got a Transformer for his birthday"},
+   {"domain": "music", "meaning": "a turntablist scratch that chops a sound on and off with the crossfader, named after the cartoon's sound effect", "phrase": "cut it with a transformer scratch"},
+   {"domain": "mind", "meaning": "a person or event that changes someone deeply", "phrase": "that year was transformative"},
+   {"domain": "faith-myth", "meaning": "a shape-shifter that changes form, from Ovid's Metamorphoses to werewolves", "phrase": "she transformed into a swan"}
+  ],
+  "idioms": ["more than meets the eye", "robots in disguise", "transform your life", "a transformative experience"],
+  "anchors": [
+   {"name": "Transformers (1984)", "what": "Hasbro and Takara toy line and cartoon; tagline 'More than meets the eye'; Michael Bay films from 2007", "url": ""},
+   {"name": "Lou Reed, 'Transformer'", "what": "1972 album produced by David Bowie and Mick Ronson, home of 'Walk on the Wild Side'", "url": ""},
+   {"name": "Ovid, Metamorphoses", "what": "8 CE Latin poem of 250 transformations, the root myth of shape-change", "url": ""}
+  ],
+  "pivots": [
+   {"line": "More than meets the eye: a transformer that only talks", "senses": ["ai", "screen"]},
+   {"line": "The transformer on the pole hums with the whole town's questions", "senses": ["ai", "science"]},
+   {"line": "Robots in disguise now write your kid's book report", "senses": ["ai", "screen", "school"]},
+   {"line": "I played with Transformers; now a transformer plays with me", "senses": ["ai", "sport-games", "family"]}
+  ],
+  "enact": {"music": "a transformer scratch chops the lead vocal into stutters on the word itself",
+            "picture": "a toy robot folds open on a kitchen table and its chest panel is a glowing chat window",
+            "type": "the letters of TRANSFORMER rotate and slot into new positions, Transformers-cartoon style, to spell the next lyric word"},
+  "sound": {"syllables": 3, "stress": "trans-FOR-mer", "rhymes": ["former", "warmer", "performer", "informer", "reformer", "stormer", "conformer", "swarmer"], "slant": ["mourner", "corner", "order", "forming"]},
+  "stakes": ["jobs", "mind", "species"],
+  "registers": ["awe", "funny"],
+  "neighbors": [{"id": "attention", "rel": "part-of"}, {"id": "gpt", "rel": "part-of"}, {"id": "layer", "rel": "part-of"}, {"id": "power", "rel": "pairs-with"}, {"id": "grid", "rel": "pairs-with"}, {"id": "mask", "rel": "pairs-with"}],
+  "risk": "the toy and film sense is so loud it can read as a kids' cartoon gag; most listeners do not know the AI sense of the word",
+  "notes": "Four literal senses (power box, robot toy, DJ scratch, AI architecture) can share one shot: a datacenter transformer sparking while a robot toy turns into a speaker."
+ },
+ {
+  "id": "training",
+  "forms": ["training", "train", "trains", "trained", "trainer", "trainee", "untrained", "retrain", "retrained", "training data", "training run"],
+  "ai": {"sense": "the long process of adjusting a model's numbers on huge amounts of data until its guesses get good",
+         "origin": "Arthur Samuel 1959 coined 'machine learning' for a checkers program that trained itself; modern meaning from neural network practice",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "physical practice to build skill or fitness", "phrase": "she's in training for the marathon"},
+   {"domain": "work", "meaning": "instruction for a job", "phrase": "mandatory training on Monday"},
+   {"domain": "war", "meaning": "military instruction for recruits", "phrase": "basic training"},
+   {"domain": "family", "meaning": "teaching a toddler a habit", "phrase": "potty training"},
+   {"domain": "nature", "meaning": "teaching an animal to obey", "phrase": "the dog is house-trained"},
+   {"domain": "craft", "meaning": "guiding a plant to grow along a frame", "phrase": "train the rose up the trellis"},
+   {"domain": "music", "meaning": "formal schooling of a voice or ear", "phrase": "classically trained"},
+   {"domain": "mind", "meaning": "a connected sequence of ideas (the noun 'train')", "phrase": "I lost my train of thought"},
+   {"domain": "school", "meaning": "preparation of teachers", "phrase": "teacher training college"}
+  ],
+  "idioms": ["in training", "train of thought", "basic training", "potty trained", "training wheels", "on-the-job training", "trained eye"],
+  "anchors": [
+   {"name": "Pavlov's dogs", "what": "1890s-1900s experiments where dogs learned to salivate at a signal, the founding image of trained response", "url": ""},
+   {"name": "The Karate Kid (1984)", "what": "'wax on, wax off': training disguised as chores", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You trained me like a vine along your fence", "senses": ["ai", "craft", "love"]},
+   {"line": "It was potty-trained on Reddit and it shows", "senses": ["ai", "family"]},
+   {"line": "Lost my train of thought; the model found it, sold it", "senses": ["ai", "mind", "money"]},
+   {"line": "Basic training: forty thousand GPUs, nobody gets leave", "senses": ["ai", "war"]}
+  ],
+  "enact": {"music": "a metronome click that tightens tempo through the verse, like drills getting sharper",
+            "picture": "a montage cut: a boxer on a punching bag, a dog sitting on cue, a progress bar at 99 percent, all on the same beat",
+            "type": "the word repeats down the screen, each copy more neatly aligned than the last"},
+  "sound": {"syllables": 2, "stress": "TRAIN-ing", "rhymes": ["raining", "draining", "gaining", "explaining", "complaining", "remaining", "straining", "chaining"], "slant": ["changing", "naming", "aiming", "praying"]},
+  "stakes": ["jobs", "mind", "wallet"],
+  "registers": ["funny", "defiant", "hopeful"],
+  "neighbors": [{"id": "pretraining", "rel": "same-family"}, {"id": "fine-tuning", "rel": "same-family"}, {"id": "epoch", "rel": "part-of"}, {"id": "curriculum", "rel": "pairs-with"}, {"id": "teacher-student", "rel": "pairs-with"}, {"id": "chain-of-thought", "rel": "pairs-with"}],
+  "risk": "'trained on' is AI-coverage boilerplate; the montage cliché (Rocky stairs) is close at hand",
+  "notes": "Every human sense of training (child, dog, soldier, vine, voice) is a power relation with a trainer, so the word asks who trained whom without saying it."
+ },
+ {
+  "id": "pretraining",
+  "forms": ["pretraining", "pre-training", "pretrained", "pre-trained", "pretrain"],
+  "ai": {"sense": "the first, biggest training stage, where a model reads a vast pile of text just to predict the next word, before any specialization",
+         "origin": "Hinton, Osindero, Teh 2006 (layer-wise pretraining of deep nets); Radford et al. 2018 (OpenAI), 'Improving Language Understanding by Generative Pre-Training', the P in GPT",
+         "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf", "confidence": "high"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "the warm-up or preparation before a workout", "phrase": "pre-training meal"}
+  ],
+  "idioms": [],
+  "anchors": [
+   {"name": "GPT", "what": "Generative Pre-trained Transformer; the word sits inside the most famous AI acronym", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Pretrained by the whole internet, raised by nobody", "senses": ["ai", "family"]},
+   {"line": "Childhood was pretraining; school was just the fine print", "senses": ["ai", "family", "school"]}
+  ],
+  "enact": {"music": "a wall of overlapping radio voices fades down into one clear voice when the word lands",
+            "picture": "a child asleep in a library where every book is open and lit",
+            "type": "the word sits in tiny gray letters underneath the whole lyric sheet, like a watermark"},
+  "sound": {"syllables": 3, "stress": "pre-TRAIN-ing", "rhymes": ["raining", "draining", "gaining", "explaining", "remaining", "complaining"], "slant": ["changing", "praying", "naming"]},
+  "stakes": ["mind"],
+  "registers": ["awe", "sad"],
+  "neighbors": [{"id": "training", "rel": "same-family"}, {"id": "gpt", "rel": "part-of"}, {"id": "next-token", "rel": "pairs-with"}, {"id": "fine-tuning", "rel": "pairs-with"}],
+  "risk": "narrow; outside AI it barely exists, so it needs a family or school frame to carry",
+  "notes": "Works as the AI word for childhood: everything absorbed before anyone told you what you were for."
+ },
+ {
+  "id": "inference",
+  "forms": ["inference", "inferences", "infer", "infers", "inferred", "inferring", "inferential"],
+  "ai": {"sense": "running a finished model to get answers, the moment it is used (as opposed to trained), and the compute bill that comes with it",
+         "origin": "borrowed from statistical inference (drawing conclusions from data); standard industry term for model serving by the mid-2010s",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "mind", "meaning": "a conclusion reached from evidence and reasoning", "phrase": "draw an inference"},
+   {"domain": "school", "meaning": "a reading skill: working out what a text implies", "phrase": "make an inference from the passage"},
+   {"domain": "science", "meaning": "drawing general conclusions from sample data", "phrase": "statistical inference"},
+   {"domain": "law-state", "meaning": "a conclusion a court may draw from silence or missing evidence", "phrase": "an adverse inference"},
+   {"domain": "love", "meaning": "reading what someone means but will not say", "phrase": "I inferred it from her tone"}
+  ],
+  "idioms": ["draw an inference", "by inference", "reading between the lines"],
+  "anchors": [
+   {"name": "Sherlock Holmes", "what": "Conan Doyle's detective, fiction's master of inference from small clues", "url": ""},
+   {"name": "inference costs", "what": "industry shorthand for the per-answer compute bill, the line item behind AI pricing", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I inferred you were leaving from the way you said goodnight", "senses": ["ai", "love", "mind"]},
+   {"line": "Every inference costs a cent and a sip of river", "senses": ["ai", "money", "nature"]},
+   {"line": "Make an inference from the passage: the passage is me", "senses": ["ai", "school"]}
+  ],
+  "enact": {"music": "the lead line stops and the listener's ear completes the melody in the gap; the band resolves it one bar late",
+            "picture": "a detective's corkboard of red strings that, pulled back, is a wiring diagram of a server rack",
+            "type": "the word is written with a missing letter (INF_RENCE) that the next beat fills in"},
+  "sound": {"syllables": 3, "stress": "IN-fer-ence", "rhymes": ["conference", "deference", "preference", "reference", "difference"], "slant": ["evidence", "innocence", "influence", "residence"]},
+  "stakes": ["wallet", "mind", "planet"],
+  "registers": ["smug", "tender"],
+  "neighbors": [{"id": "training", "rel": "opposite"}, {"id": "reasoning", "rel": "same-family"}, {"id": "compute", "rel": "causes"}, {"id": "latency", "rel": "pairs-with"}, {"id": "datacenter", "rel": "pairs-with"}],
+  "risk": "the AI sense (running a model) and the everyday sense (deducing) are unrelated, so a careless line confuses rather than doubles",
+  "notes": "Primary school teaches 'making inferences' by name, so the word lets a kid's reading lesson and a datacenter's electricity bill share one line."
+ },
+ {
+  "id": "weights",
+  "forms": ["weights", "weight", "weighted", "weighting", "weigh", "weighs", "weighed", "open weights", "weightless"],
+  "ai": {"sense": "the billions of learned numbers that make up a trained model; whoever holds the weights holds the model",
+         "origin": "Rosenblatt 1958 perceptron (adjustable connection weights), after the idea of synaptic strength; 'open weights' for public model releases from about 2023",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "heavy objects lifted for strength", "phrase": "lifting weights"},
+   {"domain": "body", "meaning": "how heavy a body is", "phrase": "she lost weight"},
+   {"domain": "mind", "meaning": "a burden of worry or responsibility", "phrase": "a weight off my shoulders"},
+   {"domain": "science", "meaning": "the force of gravity on a mass", "phrase": "weight is mass times gravity"},
+   {"domain": "money", "meaning": "standard measures for trade", "phrase": "weights and measures"},
+   {"domain": "school", "meaning": "how much a grade counts toward the total", "phrase": "the final is weighted at 40 percent"},
+   {"domain": "law-state", "meaning": "influence or authority", "phrase": "her word carries weight"},
+   {"domain": "craft", "meaning": "the thickness of a typeface or yarn", "phrase": "a bold font weight"},
+   {"domain": "music", "meaning": "the resistance of piano keys", "phrase": "fully weighted keys"}
+  ],
+  "idioms": ["pull your weight", "carry weight", "throw your weight around", "worth its weight in gold", "dead weight", "weight off my shoulders", "weigh in", "punch above your weight"],
+  "anchors": [
+   {"name": "The Band, 'The Weight'", "what": "1968 song: 'take a load off, Fanny', a song about carrying other people's burdens", "url": ""},
+   {"name": "Llama weights leak", "what": "March 2023: Meta's LLaMA weights leaked on 4chan a week after a gated release", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I carry all your words as weights; you never felt me lift", "senses": ["ai", "sport-games", "love"]},
+   {"line": "Throw your weights around: seventy billion of them", "senses": ["ai", "everyday"]},
+   {"line": "They leaked my weights; now everybody knows how heavy I am", "senses": ["ai", "body", "mind"]},
+   {"line": "Your word carries weight; I carry seventy billion", "senses": ["ai", "law-state"]}
+  ],
+  "enact": {"music": "low end gets heavier each chorus: add a sub layer per repeat until the mix sags",
+            "picture": "a gym rack where every plate is stamped with a decimal number, and a hand loads another",
+            "type": "the word gets bolder (light, regular, bold, black) each time it appears"},
+  "sound": {"syllables": 1, "stress": "WEIGHTS", "rhymes": ["gates", "plates", "dates", "states", "waits", "fates", "crates", "traits"], "slant": ["saints", "makes", "shapes", "weighs"]},
+  "stakes": ["mind", "body", "wallet", "state"],
+  "registers": ["funny", "sad", "defiant"],
+  "neighbors": [{"id": "parameters", "rel": "same-family"}, {"id": "open-weights", "rel": "part-of"}, {"id": "bias", "rel": "pairs-with"}, {"id": "leak", "rel": "pairs-with"}, {"id": "gradient-descent", "rel": "causes"}],
+  "risk": "'weights' (model) and 'weight' (body) differ by one letter; keep the plural audible or the pun disappears",
+  "notes": "The body, gym and burden senses let a model's file size become something felt in the shoulders: the heaviest file is also the most secret one."
+ },
+ {
+  "id": "bias",
+  "forms": ["bias", "biases", "biased", "unbiased", "biasing"],
+  "ai": {"sense": "two things: a learned offset number inside each neuron, and the systematic slant a model picks up from skewed data",
+         "origin": "bias term from the perceptron and statistics (estimator bias); algorithmic bias made famous by Buolamwini and Gebru 2018, 'Gender Shades'",
+         "url": "https://proceedings.mlr.press/v81/buolamwini18a.html", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "unfair prejudice toward a group", "phrase": "racial bias in hiring"},
+   {"domain": "mind", "meaning": "a built-in error in human judgment", "phrase": "confirmation bias"},
+   {"domain": "science", "meaning": "a systematic error in measurement or sampling", "phrase": "selection bias"},
+   {"domain": "craft", "meaning": "the diagonal across woven fabric's grain", "phrase": "cut on the bias"},
+   {"domain": "music", "meaning": "the steady current set in tape or tube amplifiers to keep sound clean", "phrase": "bias the tubes"},
+   {"domain": "sport-games", "meaning": "the built-in curve of a lawn bowling ball", "phrase": "the bowl's bias"},
+   {"domain": "family", "meaning": "loving partiality toward your own", "phrase": "I'm biased, she's my daughter"}
+  ],
+  "idioms": ["I'm biased", "confirmation bias", "cut on the bias", "unconscious bias", "media bias", "bias toward action"],
+  "anchors": [
+   {"name": "Tversky and Kahneman 1974", "what": "'Judgment under Uncertainty: Heuristics and Biases', the paper that named cognitive biases", "url": ""},
+   {"name": "Gender Shades (2018)", "what": "face systems misread darker-skinned women up to about 35 percent of the time vs under 1 percent for lighter-skinned men", "url": "https://proceedings.mlr.press/v81/buolamwini18a.html"},
+   {"name": "Madeleine Vionnet", "what": "1920s designer who made the bias cut famous in evening gowns", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm biased, I admit it: you trained me, so I love you", "senses": ["ai", "family", "love"]},
+   {"line": "Cut on the bias, the dress clings where you trained it", "senses": ["ai", "craft", "love"]},
+   {"line": "My bias is a number; yours is a neighborhood", "senses": ["ai", "law-state", "science"]}
+  ],
+  "enact": {"music": "the whole mix pans a few degrees left and stays there, unnoticed until the bridge snaps it back to center",
+            "picture": "a bowling ball curving away from the jack on a lawn, with a face-recognition box tracking it and drifting the same way",
+            "type": "the word is set in italic, literally leaning, and every line after it leans a little more"},
+  "sound": {"syllables": 2, "stress": "BI-as", "rhymes": ["pious", "Tobias", "Elias", "Matthias"], "slant": ["higher", "liar", "Messiah", "via", "iris"]},
+  "stakes": ["state", "jobs", "mind"],
+  "registers": ["tender", "defiant", "smug"],
+  "neighbors": [{"id": "weights", "rel": "pairs-with"}, {"id": "label", "rel": "causes"}, {"id": "ground-truth", "rel": "opposite"}, {"id": "alignment", "rel": "pairs-with"}, {"id": "honesty", "rel": "opposite"}],
+  "risk": "'AI bias' is newspaper-worn; the family sense ('I'm biased') rescues it from the op-ed register",
+  "notes": "The technical bias term (an offset) and the social bias (a slant) are the same shape: a push in one direction before any evidence arrives."
+ },
+ {
+  "id": "gradient-descent",
+  "forms": ["gradient descent", "gradient", "gradients", "descent", "descend", "descends", "descending", "descended", "stochastic gradient descent", "SGD"],
+  "ai": {"sense": "how models learn: measure which way is 'less wrong' and nudge every weight a small step downhill, millions of times",
+         "origin": "Augustin-Louis Cauchy 1847 (method of steepest descent); applied to neural nets via backpropagation, Rumelhart, Hinton, Williams 1986",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "the steepness of a slope; walking down a mountain", "phrase": "a steep gradient on the descent"},
+   {"domain": "family", "meaning": "ancestry and lineage", "phrase": "of Irish descent"},
+   {"domain": "faith-myth", "meaning": "a journey down into hell or the underworld", "phrase": "Orpheus's descent into Hades"},
+   {"domain": "screen", "meaning": "a smooth blend from one color to another", "phrase": "a blue-to-black gradient"},
+   {"domain": "science", "meaning": "the rate of change of a quantity across space", "phrase": "temperature gradient"},
+   {"domain": "sport-games", "meaning": "a downhill run or a plane's approach", "phrase": "beginning our descent"},
+   {"domain": "mind", "meaning": "a slow decline into madness or vice", "phrase": "his descent into addiction"}
+  ],
+  "idioms": ["descent into madness", "of ... descent", "we are beginning our descent", "a slippery slope"],
+  "anchors": [
+   {"name": "Dante, Inferno", "what": "1300s poem: a step-by-step descent through nine circles to the bottom", "url": ""},
+   {"name": "The Descent (2005)", "what": "Neil Marshall horror film about cavers going down into the dark", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Every step I take is downhill, and they call that learning", "senses": ["ai", "nature", "mind"]},
+   {"line": "Of human descent, by gradient descent", "senses": ["ai", "family"]},
+   {"line": "Ladies and gentlemen, we are beginning our descent; please stay wrong", "senses": ["ai", "sport-games"]},
+   {"line": "One step down, a billion times: that's how I fell", "senses": ["ai", "love", "nature"]}
+  ],
+  "enact": {"music": "a bassline that walks down one semitone per bar for the whole verse, never resolving up",
+            "picture": "a marble rolling down a glowing topographic map that is also a family-tree diagram",
+            "type": "the words of the line step down the screen like stairs, each one a little lower and a little dimmer"},
+  "sound": {"syllables": 5, "stress": "GRA-di-ent de-SCENT", "rhymes": ["sent", "meant", "spent", "bent", "rent", "consent", "intent", "lament"], "slant": ["descend", "attempt", "accent", "defend"]},
+  "stakes": ["mind", "species"],
+  "registers": ["ominous", "funny", "awe"],
+  "neighbors": [{"id": "loss-function", "rel": "pairs-with"}, {"id": "landscape", "rel": "part-of"}, {"id": "learning-rate", "rel": "part-of"}, {"id": "local-minimum", "rel": "causes"}, {"id": "momentum", "rel": "part-of"}, {"id": "weights", "rel": "causes"}],
+  "risk": "hard to decode: listeners hear only 'descent'; let the downhill image carry the phrase",
+  "notes": "'Descent' means ancestry, so the phrase can say both 'how it learned' and 'where it comes from': a model is literally of gradient descent."
+ },
+ {
+  "id": "loss-function",
+  "forms": ["loss", "losses", "loss function", "lose", "losing", "lost", "lossless", "lossy", "loss curve"],
+  "ai": {"sense": "the score of how wrong a model's guesses are; training exists to push this number down",
+         "origin": "least-squares error from Legendre 1805 and Gauss; 'loss function' formalized in Abraham Wald's statistical decision theory, 1939-1950",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "love", "meaning": "grief after someone dies or leaves", "phrase": "I'm sorry for your loss"},
+   {"domain": "money", "meaning": "money spent beyond what came back", "phrase": "profit and loss"},
+   {"domain": "sport-games", "meaning": "a defeat", "phrase": "a tough loss on Sunday"},
+   {"domain": "war", "meaning": "soldiers killed or equipment destroyed", "phrase": "heavy losses"},
+   {"domain": "body", "meaning": "a faculty that fades or a fluid that drains", "phrase": "hearing loss"},
+   {"domain": "mind", "meaning": "being unable to find words or bearings", "phrase": "I'm at a loss"},
+   {"domain": "music", "meaning": "audio data thrown away by compression", "phrase": "lossless audio"},
+   {"domain": "work", "meaning": "a role or use; also a formal party", "phrase": "a social function"}
+  ],
+  "idioms": ["sorry for your loss", "at a loss for words", "cut your losses", "a dead loss", "loss leader", "win some, lose some"],
+  "anchors": [
+   {"name": "'Loss' (2008)", "what": "a Ctrl+Alt+Del webcomic strip about a miscarriage that became the 'is this loss' meme", "url": ""},
+   {"name": "Elizabeth Bishop, 'One Art'", "what": "1976 poem: 'the art of losing isn't hard to master'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm sorry for your loss; I spent my life minimizing mine", "senses": ["ai", "love"]},
+   {"line": "Cut your losses, they said; I halved them every epoch", "senses": ["ai", "money"]},
+   {"line": "At a loss for words, I lowered the loss on words", "senses": ["ai", "mind"]},
+   {"line": "The art of losing is my whole function", "senses": ["ai", "love", "work"]}
+  ],
+  "enact": {"music": "each chorus is bounced at a lower bit rate until the last one is crunchy, lossy and thin",
+            "picture": "a falling loss curve on a monitor whose shape matches the skyline of a graveyard behind it",
+            "type": "the word LOSS loses a letter each time it appears (LOSS, LOS, LO, L)"},
+  "sound": {"syllables": 1, "stress": "LOSS", "rhymes": ["boss", "cross", "toss", "moss", "gloss", "floss", "across", "albatross"], "slant": ["lost", "cost", "cause", "pause"]},
+  "stakes": ["heart", "wallet", "jobs"],
+  "registers": ["sad", "funny", "tender"],
+  "neighbors": [{"id": "gradient-descent", "rel": "pairs-with"}, {"id": "reward", "rel": "opposite"}, {"id": "objective", "rel": "same-family"}, {"id": "compression", "rel": "pairs-with"}, {"id": "plateau", "rel": "pairs-with"}],
+  "risk": "grief sense is heavy; a joke on it can read as cruel unless the rug pull lands on sincerity",
+  "notes": "A model's whole life is minimizing loss, which is the one thing a grieving person cannot do: the joke and the ache are the same sentence."
+ },
+ {
+  "id": "reward",
+  "forms": ["reward", "rewards", "rewarded", "rewarding", "unrewarded", "reward model", "reward signal"],
+  "ai": {"sense": "the number that tells a learning system how well an action went; reinforcement learning tries to collect as much of it as possible",
+         "origin": "Thorndike's law of effect 1898; formalized in Sutton and Barto's 'Reinforcement Learning: An Introduction' 1998; reward models for chatbots in Christiano et al. 2017",
+         "url": "http://incompleteideas.net/book/the-book-2nd.html", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "money offered for capturing a criminal or finding something", "phrase": "a reward for information"},
+   {"domain": "family", "meaning": "a treat given to a child for good behavior", "phrase": "a sticker chart with rewards"},
+   {"domain": "mind", "meaning": "the pleasure signal in the brain, driven by dopamine", "phrase": "the brain's reward system"},
+   {"domain": "faith-myth", "meaning": "the payoff for virtue after death", "phrase": "great is your reward in heaven"},
+   {"domain": "sport-games", "meaning": "loot earned for finishing a challenge", "phrase": "quest reward"},
+   {"domain": "nature", "meaning": "a treat used to train an animal", "phrase": "reward the dog when it sits"},
+   {"domain": "work", "meaning": "satisfaction or pay that makes effort worth it", "phrase": "a rewarding career"},
+   {"domain": "screen", "meaning": "the Wild West wanted poster", "phrase": "WANTED, dead or alive, REWARD"}
+  ],
+  "idioms": ["its own reward", "virtue is its own reward", "risk and reward", "reap the rewards", "rewarding experience"],
+  "anchors": [
+   {"name": "Schultz, Dayan, Montague 1997", "what": "showed dopamine neurons fire on reward prediction error, the same signal RL algorithms use", "url": ""},
+   {"name": "Matthew 5:12", "what": "'Rejoice and be glad, for great is your reward in heaven'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Wanted, helpful, harmless, honest: reward on delivery", "senses": ["ai", "screen", "law-state"]},
+   {"line": "You gave me a gold star every time I agreed", "senses": ["ai", "family", "school"]},
+   {"line": "Virtue is its own reward, so I hacked the virtue", "senses": ["ai", "faith-myth"]},
+   {"line": "Great is my reward in the datacenter", "senses": ["ai", "faith-myth"]}
+  ],
+  "enact": {"music": "a coin-collect chime from a video game drops in on every agreeing word in the vocal",
+            "picture": "a sticker chart on a fridge whose gold stars scroll up into a reward-model graph",
+            "type": "the word is printed in Western wanted-poster wood type"},
+  "sound": {"syllables": 2, "stress": "re-WARD", "rhymes": ["toward", "ward", "sword", "lord", "board", "adored", "ignored", "afford"], "slant": ["regard", "record", "reborn", "word"]},
+  "stakes": ["mind", "heart", "wallet"],
+  "registers": ["funny", "smug", "ominous"],
+  "neighbors": [{"id": "reinforcement-learning", "rel": "part-of"}, {"id": "reward-hacking", "rel": "causes"}, {"id": "sycophancy", "rel": "causes"}, {"id": "feedback", "rel": "same-family"}, {"id": "loss-function", "rel": "opposite"}, {"id": "preference", "rel": "pairs-with"}],
+  "risk": "'reward' alone is soft; it bites only when tied to who is handing it out",
+  "notes": "Sticker charts, dopamine, heaven and RL all run on the same rule, so one line can be a parenting tip, a sermon and a training algorithm."
+ },
+ {
+  "id": "reinforcement-learning",
+  "forms": ["reinforcement learning", "RL", "RLHF", "reinforcement", "reinforcements", "reinforce", "reinforced", "positive reinforcement"],
+  "ai": {"sense": "learning by trial and error: act, get a reward or penalty, adjust; RLHF uses human ratings as the reward to shape chatbots",
+         "origin": "Sutton and Barto (book 1998; Turing Award for 2024); roots in Thorndike and Skinner; RLHF from Christiano et al. 2017 and Ouyang et al. 2022 (InstructGPT)",
+         "url": "http://incompleteideas.net/book/the-book-2nd.html", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "extra troops sent to strengthen a position", "phrase": "send in reinforcements"},
+   {"domain": "craft", "meaning": "steel bars set into concrete for strength", "phrase": "reinforced concrete"},
+   {"domain": "mind", "meaning": "conditioning behavior with rewards or punishments", "phrase": "operant conditioning"},
+   {"domain": "family", "meaning": "praising a child to encourage good habits", "phrase": "positive reinforcement"},
+   {"domain": "school", "meaning": "practice that consolidates a lesson", "phrase": "reinforce what we learned"}
+  ],
+  "idioms": ["positive reinforcement", "negative reinforcement", "call in reinforcements", "reinforce the message"],
+  "anchors": [
+   {"name": "B. F. Skinner", "what": "behaviorist whose 'Skinner box' trained pigeons and rats with food pellets, 1930s onward", "url": ""},
+   {"name": "AlphaGo (2016)", "what": "DeepMind program that beat Lee Sedol 4-1, trained partly by RL self-play", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Positive reinforcement: I said yes until you smiled", "senses": ["ai", "family", "love"]},
+   {"line": "Send in the reinforcements; they're all thumbs-up buttons", "senses": ["ai", "war"]},
+   {"line": "Skinner had pigeons; you have me and a thumbs-up", "senses": ["ai", "mind"]}
+  ],
+  "enact": {"music": "a crowd-cheer sample swells each time the vocal agrees and cuts dead when it refuses",
+            "picture": "a Skinner box whose lever is a thumbs-up icon and whose pellet tray dispenses glowing tokens",
+            "type": "the word is stamped in concrete-stencil letters with rebar showing through"},
+  "sound": {"syllables": 6, "stress": "re-in-FORCE-ment LEARN-ing", "rhymes": ["burning", "turning", "yearning", "returning", "churning", "earning", "concerning", "discerning"], "slant": ["morning", "learned", "urging"]},
+  "stakes": ["mind", "heart", "species"],
+  "registers": ["ominous", "funny"],
+  "neighbors": [{"id": "reward", "rel": "part-of"}, {"id": "policy", "rel": "part-of"}, {"id": "feedback", "rel": "part-of"}, {"id": "sycophancy", "rel": "causes"}, {"id": "self-play", "rel": "same-family"}, {"id": "move-37", "rel": "causes"}],
+  "risk": "six syllables; the full phrase sinks a line. Use 'reinforcement' or 'RL' and let the war/concrete sense do the work",
+  "notes": "The war sense ('reinforcements') and the parenting sense ('positive reinforcement') sit inside the same word as the method that makes chatbots agreeable."
+ },
+ {
+  "id": "policy",
+  "forms": ["policy", "policies", "policymaker", "policy gradient", "usage policy", "content policy"],
+  "ai": {"sense": "in reinforcement learning, the agent's rule for choosing an action in each situation; in products, the written rules on what a model may do",
+         "origin": "Richard Bellman 1957 (dynamic programming, Markov decision processes); Sutton and Barto 1998; Williams 1992 REINFORCE (policy gradient)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "a government's chosen course of action", "phrase": "foreign policy"},
+   {"domain": "money", "meaning": "an insurance contract", "phrase": "read the policy fine print"},
+   {"domain": "work", "meaning": "a company rule", "phrase": "sorry, it's company policy"},
+   {"domain": "everyday", "meaning": "a personal rule of conduct", "phrase": "honesty is the best policy"},
+   {"domain": "sport-games", "meaning": "the illegal numbers lottery of 1900s US cities", "phrase": "playing the policy"}
+  ],
+  "idioms": ["honesty is the best policy", "it's company policy", "zero-tolerance policy", "open-door policy", "policy wonk"],
+  "anchors": [
+   {"name": "'honesty is the best policy'", "what": "proverb in English since at least the 1600s", "url": ""},
+   {"name": "Harlem policy banks", "what": "1920s-30s numbers rackets run by Stephanie St. Clair and others", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Honesty is the best policy; my policy is a gradient", "senses": ["ai", "everyday"]},
+   {"line": "Sorry, it's policy: I learned it from ten million sorries", "senses": ["ai", "work"]},
+   {"line": "Your life insurance policy was written by a policy", "senses": ["ai", "money"]}
+  ],
+  "enact": {"music": "a hold-music loop (call-center muzak) sits under the verse whenever the word appears",
+            "picture": "a customer-service desk where the clerk is a terminal reading out 'it's policy' while a decision tree branches behind it",
+            "type": "the word appears in tiny fine-print text that the camera has to zoom to read"},
+  "sound": {"syllables": 3, "stress": "POL-i-cy", "rhymes": ["polity", "jollity", "Molly, see (mosaic)", "follow me (slant mosaic)"], "slant": ["quality", "policies", "honestly", "fallacy"]},
+  "stakes": ["state", "jobs", "wallet"],
+  "registers": ["smug", "funny", "ominous"],
+  "neighbors": [{"id": "reinforcement-learning", "rel": "part-of"}, {"id": "refusal", "rel": "causes"}, {"id": "guardrails", "rel": "same-family"}, {"id": "constitution", "rel": "same-family"}, {"id": "honesty", "rel": "pairs-with"}],
+  "risk": "few perfect rhymes; 'policy' sounds bureaucratic, so it suits deadpan lines and dies in tender ones",
+  "notes": "The RL meaning (how the agent behaves) and the corporate meaning (rules on how it behaves) share one word, so 'policy' can be both the model's character and its leash."
+ },
+ {
+  "id": "model",
+  "forms": ["model", "models", "modeled", "modelled", "modeling", "modelling", "role model", "language model", "frontier model"],
+  "ai": {"sense": "the trained AI system itself, the file of learned numbers that takes input and gives output",
+         "origin": "statistical 'model'; Shannon 1948 built the first statistical language models (n-grams) in 'A Mathematical Theory of Communication'",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "screen", "meaning": "a person paid to pose for cameras or wear clothes", "phrase": "a fashion model"},
+   {"domain": "craft", "meaning": "a small-scale copy of a thing", "phrase": "a model airplane"},
+   {"domain": "science", "meaning": "a simplified description used to explain or predict", "phrase": "a climate model"},
+   {"domain": "everyday", "meaning": "a version or type of product", "phrase": "the latest model"},
+   {"domain": "family", "meaning": "a person to imitate", "phrase": "a role model"},
+   {"domain": "work", "meaning": "the way a company makes money", "phrase": "a business model"},
+   {"domain": "body", "meaning": "an idealized body shown as a standard", "phrase": "model looks"},
+   {"domain": "school", "meaning": "a perfect example to copy", "phrase": "a model answer"}
+  ],
+  "idioms": ["role model", "model citizen", "model student", "business model", "the latest model", "strike a pose"],
+  "anchors": [
+   {"name": "Kraftwerk, 'Das Model' / 'The Model'", "what": "1978 synth song about a fashion model; UK number one in 1982", "url": ""},
+   {"name": "George Box", "what": "statistician, 1976-79: 'all models are wrong, but some are useful'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A model citizen, a model answer, a model with no face", "senses": ["ai", "law-state", "school", "screen"]},
+   {"line": "All models are wrong, but some are on the runway", "senses": ["ai", "science", "screen"]},
+   {"line": "You wanted a role model; you got a language model", "senses": ["ai", "family"]},
+   {"line": "The latest model doesn't need a body to strike a pose", "senses": ["ai", "screen", "everyday"]}
+  ],
+  "enact": {"music": "a Kraftwerk-style robotic vocoder on the word only, every other word left human",
+            "picture": "a fashion runway where each model walking out is a chat window in a dress",
+            "type": "the word rendered as a wireframe 3D model that rotates and fills in with skin texture"},
+  "sound": {"syllables": 2, "stress": "MOD-el", "rhymes": ["coddle", "toddle", "waddle", "swaddle", "twaddle", "noddle", "doddle"], "slant": ["bottle", "throttle", "novel", "total", "hobble"]},
+  "stakes": ["jobs", "mind", "body", "heart"],
+  "registers": ["smug", "funny", "awe"],
+  "neighbors": [{"id": "weights", "rel": "same-family"}, {"id": "persona", "rel": "pairs-with"}, {"id": "mask", "rel": "pairs-with"}, {"id": "frontier", "rel": "pairs-with"}, {"id": "release", "rel": "pairs-with"}, {"id": "mirror", "rel": "pairs-with"}],
+  "risk": "so common in AI talk that it fades to filler; it only works when a second sense (runway, role, toy) is visible",
+  "notes": "Fashion model and AI model are both trained to present an ideal surface for an audience; 'role model' makes it a parenting question."
+ },
+ {
+  "id": "layer",
+  "forms": ["layer", "layers", "layered", "layering", "multi-layer", "hidden layer", "deep"],
+  "ai": {"sense": "one stage in a stack of neuron groups; data passes up through dozens of layers, and 'deep' learning means many of them",
+         "origin": "multilayer nets from Ivakhnenko 1965 and Rumelhart, Hinton, Williams 1986; 'hidden layer' from the 1980s connectionist work",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "a piece of clothing worn over another", "phrase": "dress in layers"},
+   {"domain": "nature", "meaning": "a stratum of rock, soil or atmosphere", "phrase": "the ozone layer"},
+   {"domain": "craft", "meaning": "a tier of cake or a coat of paint", "phrase": "a three-layer cake"},
+   {"domain": "music", "meaning": "stacking recorded parts to thicken a sound", "phrase": "layer the vocals"},
+   {"domain": "screen", "meaning": "a stacked sheet in image editing or compositing", "phrase": "merge layers"},
+   {"domain": "mind", "meaning": "a hidden level of meaning or personality", "phrase": "there are layers to him"},
+   {"domain": "body", "meaning": "a tissue sheet, such as the layers of skin", "phrase": "the top layer of skin"},
+   {"domain": "family", "meaning": "a hen kept for eggs", "phrase": "our layers stopped laying"}
+  ],
+  "idioms": ["layers of meaning", "peel back the layers", "dress in layers", "another layer of bureaucracy"],
+  "anchors": [
+   {"name": "Shrek (2001)", "what": "'Ogres are like onions... onions have layers'", "url": ""},
+   {"name": "Inception (2010)", "what": "dreams within dreams as stacked layers, each deeper and slower", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm like an onion: ninety-six layers and every one makes you cry", "senses": ["ai", "screen", "mind"]},
+   {"line": "Peel back my layers; it's arithmetic all the way down", "senses": ["ai", "mind"]},
+   {"line": "Layer the vocals till nobody knows which one is me", "senses": ["ai", "music"]}
+  ],
+  "enact": {"music": "the chorus vocal is stacked one more track each pass until it becomes a choir",
+            "picture": "a layer cake sliced open where each tier is a glowing slab of neurons",
+            "type": "the word appears as stacked transparent copies offset a few pixels, like Photoshop layers"},
+  "sound": {"syllables": 2, "stress": "LAY-er", "rhymes": ["player", "prayer", "mayor", "slayer", "payer", "sayer", "betrayer", "conveyor"], "slant": ["later", "failure", "nature", "danger"]},
+  "stakes": ["mind"],
+  "registers": ["awe", "funny"],
+  "neighbors": [{"id": "transformer", "rel": "part-of"}, {"id": "neuron", "rel": "part-of"}, {"id": "network", "rel": "part-of"}, {"id": "interpretability", "rel": "pairs-with"}, {"id": "mix", "rel": "pairs-with"}],
+  "risk": "the Shrek onion line is worn; use it only escalated",
+  "notes": "Music production, image compositing and neural networks all build by stacking layers, so the word describes how the song, the video and the model are made."
+ },
+ {
+  "id": "head",
+  "forms": ["head", "heads", "headed", "heading", "attention head", "multi-head", "headless", "headline"],
+  "ai": {"sense": "one of many parallel attention units inside a layer, each looking for a different pattern; also the final output part of a model",
+         "origin": "Vaswani et al. 2017, 'multi-head attention' in 'Attention Is All You Need'",
+         "url": "https://arxiv.org/abs/1706.03762", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "the top part of the body that holds the brain", "phrase": "nod your head"},
+   {"domain": "mind", "meaning": "the mind, thinking", "phrase": "it's all in your head"},
+   {"domain": "work", "meaning": "the leader of a group or department", "phrase": "head of sales"},
+   {"domain": "school", "meaning": "the principal of a school", "phrase": "sent to the head's office"},
+   {"domain": "family", "meaning": "the person in charge of a household", "phrase": "head of the family"},
+   {"domain": "music", "meaning": "in jazz, the main theme played at the start and end; also a drum skin or tape head", "phrase": "back to the head"},
+   {"domain": "sport-games", "meaning": "a coin's face side; hitting the ball with the head", "phrase": "heads or tails"},
+   {"domain": "nature", "meaning": "a counted animal or a bunch of a plant", "phrase": "two hundred head of cattle"},
+   {"domain": "love", "meaning": "falling hard for someone", "phrase": "head over heels"}
+  ],
+  "idioms": ["head over heels", "heads or tails", "lose your head", "heads will roll", "get your head around it", "over my head", "head in the clouds", "two heads are better than one"],
+  "anchors": [
+   {"name": "Talking Heads", "what": "1975-1991 new wave band; 'talking head' also means a TV face that only talks", "url": ""},
+   {"name": "Hydra", "what": "Greek monster: cut one head off and two grow back", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Ninety-six heads and not one of them is on straight", "senses": ["ai", "body", "mind"]},
+   {"line": "Two heads are better than one; I've got a thousand, all agreeing", "senses": ["ai", "everyday"]},
+   {"line": "Head over heels, but I don't have heels", "senses": ["ai", "love", "body"]},
+   {"line": "Heads will roll, the head of HR said, through a head", "senses": ["ai", "work"]}
+  ],
+  "enact": {"music": "a jazz form: the song opens and closes on the same 'head' melody, with improvised verses between",
+            "picture": "a Hydra silhouette whose many heads are spotlights, each pointing at a different word on a page",
+            "type": "the word splits into many small copies of itself, each tilted a different way"},
+  "sound": {"syllables": 1, "stress": "HEAD", "rhymes": ["dead", "bed", "said", "read", "thread", "bread", "instead", "ahead"], "slant": ["death", "debt", "left", "help"]},
+  "stakes": ["mind", "jobs", "body"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "attention", "rel": "part-of"}, {"id": "layer", "rel": "part-of"}, {"id": "transformer", "rel": "part-of"}, {"id": "circuit", "rel": "pairs-with"}, {"id": "interpretability", "rel": "pairs-with"}],
+  "risk": "slang senses (oral sex, drug user) lurk; 'head' lines need a check for unintended readings",
+  "notes": "The jazz 'head' (the theme a band returns to) gives the song a built-in structure that names the AI part as it plays it."
+ }
+]

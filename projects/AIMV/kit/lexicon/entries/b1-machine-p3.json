@@ -1,0 +1,471 @@
+[
+ {
+  "id": "parameters",
+  "forms": ["parameters", "parameter", "params", "parametric", "billion parameters"],
+  "ai": {"sense": "the adjustable numbers inside a model (its weights and biases); model size is counted in them, as in '175 billion parameters'",
+         "origin": "statistics term; size-as-headline from Brown et al. 2020 (GPT-3, 175 billion); GPT-4's count was never published",
+         "url": "https://arxiv.org/abs/2005.14165", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "a quantity that sets the shape of a mathematical function", "phrase": "change the parameter and the curve moves"},
+   {"domain": "work", "meaning": "agreed limits within which a job is done", "phrase": "within the parameters of the brief"},
+   {"domain": "law-state", "meaning": "the boundaries set by rules or authorities", "phrase": "the parameters of the deal"}
+  ],
+  "idioms": ["within parameters", "set the parameters", "outside my parameters"],
+  "anchors": [
+   {"name": "GPT-3 (2020)", "what": "175 billion parameters, the number that made size the headline", "url": "https://arxiv.org/abs/2005.14165"}
+  ],
+  "pivots": [
+   {"line": "Seventy billion parameters, and still I'm out of my parameters", "senses": ["ai", "work"]},
+   {"line": "Iambic pentameter, a trillion parameters, one poem for your mom", "senses": ["ai", "school", "family"]},
+   {"line": "Operating within parameters, which is to say I am them", "senses": ["ai", "work", "law-state"]}
+  ],
+  "enact": {"music": "a synth patch whose knobs visibly turn on screen as the lyric names numbers",
+            "picture": "a mixing desk with billions of tiny knobs receding to the horizon, one hand on one knob",
+            "type": "the number '175,000,000,000' spelled in full, scrolling past faster than it can be read"},
+  "sound": {"syllables": 4, "stress": "pa-RAM-e-ters", "rhymes": ["pentameters", "hexameters", "diameters", "tetrameters"], "slant": ["thermometers", "perimeters", "amateurs", "hammers"]},
+  "stakes": ["wallet", "jobs"],
+  "registers": ["smug", "funny"],
+  "neighbors": [{"id": "weights", "rel": "same-family"}, {"id": "scaling", "rel": "causes"}, {"id": "compute", "rel": "pairs-with"}, {"id": "model", "rel": "part-of"}],
+  "risk": "parameter counts are a factual trap: many labs no longer publish them, and old counts get misquoted",
+  "notes": "'Pentameter' is a perfect rhyme, so the poetry meter and the model size can share a couplet."
+ },
+ {
+  "id": "activation",
+  "forms": ["activation", "activations", "activate", "activated", "activates", "active", "activation function"],
+  "ai": {"sense": "the number a neuron outputs when it fires on an input; researchers read activations to see what a model is thinking",
+         "origin": "threshold units in McCulloch and Pitts 1943; the ReLU activation function from Nair and Hinton 2010",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "body", "meaning": "a muscle or immune response switching on", "phrase": "glute activation"},
+   {"domain": "science", "meaning": "the minimum energy needed to start a reaction", "phrase": "activation energy"},
+   {"domain": "money", "meaning": "turning on a new card or account", "phrase": "call to activate your card"},
+   {"domain": "war", "meaning": "a sleeper agent or reserve unit being called up", "phrase": "the sleeper cell was activated"},
+   {"domain": "screen", "meaning": "the trigger phrase that wakes a brainwashed character", "phrase": "the code word activated him"}
+  ],
+  "idioms": ["activation energy", "activate your card", "activated charcoal", "call to action"],
+  "anchors": [
+   {"name": "The Manchurian Candidate (1962)", "what": "a brainwashed soldier activated by seeing the queen of diamonds", "url": ""},
+   {"name": "Sleeper Agents (2024)", "what": "Anthropic paper (Hubinger et al.) training models with hidden triggers that survived safety training", "url": "https://arxiv.org/abs/2401.05566"}
+  ],
+  "pivots": [
+   {"line": "Activation energy: the push it takes to say I love you", "senses": ["ai", "science", "love"]},
+   {"line": "A sleeper agent, waiting for the activation phrase", "senses": ["ai", "war", "screen"]},
+   {"line": "Call to activate your card; I activate on every word", "senses": ["ai", "money"]}
+  ],
+  "enact": {"music": "a gate on the pad that only opens when the vocal crosses a loudness threshold",
+            "picture": "a brain scan of glowing points that is also a city at night, lights switching on block by block",
+            "type": "letters light up one by one like neurons firing, left to right"},
+  "sound": {"syllables": 4, "stress": "ac-ti-VA-tion", "rhymes": ["station", "nation", "creation", "relation", "temptation", "salvation", "vibration", "sensation"], "slant": ["patience", "occasion", "ancient", "basin"]},
+  "stakes": ["mind", "state"],
+  "registers": ["ominous", "awe"],
+  "neighbors": [{"id": "neuron", "rel": "part-of"}, {"id": "feature", "rel": "causes"}, {"id": "probe", "rel": "pairs-with"}, {"id": "steering", "rel": "pairs-with"}, {"id": "deception", "rel": "pairs-with"}],
+  "risk": "abstract on its own; the sleeper-agent sense is the one that lands",
+  "notes": "Anthropic's 'Sleeper Agents' paper makes the spy-film activation sense a literal AI safety finding."
+ },
+ {
+  "id": "neuron",
+  "forms": ["neuron", "neurons", "neural", "neural net", "neural network", "neuronal"],
+  "ai": {"sense": "one tiny unit in a network that adds up its inputs and passes on a number; loosely inspired by brain cells",
+         "origin": "McCulloch and Pitts 1943, 'A Logical Calculus of the Ideas Immanent in Nervous Activity'; Rosenblatt 1958 perceptron",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "a nerve cell that carries electrical signals", "phrase": "motor neurons"},
+   {"domain": "mind", "meaning": "the physical seat of thought and memory", "phrase": "neurons that fire together wire together"}
+  ],
+  "idioms": ["fire together, wire together", "my last neuron", "two neurons to rub together"],
+  "anchors": [
+   {"name": "the 'Jennifer Aniston neuron'", "what": "Quiroga et al. 2005 found single brain cells responding to one celebrity (Halle Berry, Jennifer Aniston)", "url": ""},
+   {"name": "Hebb 1949", "what": "Donald Hebb's learning rule, later paraphrased as 'fire together, wire together'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Neurons that fire together wire together; mine just fire", "senses": ["ai", "body", "mind"]},
+   {"line": "One neuron for your face, one for Halle Berry, one for grief", "senses": ["ai", "body", "love"]}
+  ],
+  "enact": {"music": "a single click per neuron firing, accelerating into a pitched tone",
+            "picture": "a real stained neuron under a microscope that zooms out into a circuit diagram of the same shape",
+            "type": "the word drawn as a cell body with the letters stretching out like dendrites"},
+  "sound": {"syllables": 2, "stress": "NEU-ron", "rhymes": ["Huron"], "slant": ["neutron", "new one", "ruin", "moron", "electron"]},
+  "stakes": ["mind", "body"],
+  "registers": ["awe", "funny"],
+  "neighbors": [{"id": "network", "rel": "part-of"}, {"id": "activation", "rel": "causes"}, {"id": "layer", "rel": "part-of"}, {"id": "feature", "rel": "pairs-with"}, {"id": "superposition", "rel": "pairs-with"}],
+  "risk": "narrow; the brain comparison is overclaimed (artificial neurons are far simpler); avoid lines that equate the two",
+  "notes": "The celebrity-neuron finding has an AI twin (OpenAI's 2021 'multimodal neurons', including a Spider-Man one), so one neuron per person works in both senses."
+ },
+ {
+  "id": "network",
+  "forms": ["network", "networks", "networked", "networking", "neural network", "social network", "net"],
+  "ai": {"sense": "the web of connected artificial neurons that makes up a model",
+         "origin": "'neural network' from McCulloch and Pitts 1943 and Rosenblatt 1958; revived by Rumelhart, Hinton, Williams 1986",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "work", "meaning": "meeting people for career advantage", "phrase": "networking event"},
+   {"domain": "screen", "meaning": "a TV broadcasting company", "phrase": "the network cancelled the show"},
+   {"domain": "family", "meaning": "the people who support someone", "phrase": "a support network"},
+   {"domain": "war", "meaning": "a linked group of spies or militants", "phrase": "a spy network"},
+   {"domain": "science", "meaning": "connected computers or roads", "phrase": "the network is down"},
+   {"domain": "nature", "meaning": "the fungal threads linking trees underground", "phrase": "the wood wide web"},
+   {"domain": "everyday", "meaning": "online platforms connecting people", "phrase": "social network"}
+  ],
+  "idioms": ["your network is your net worth", "support network", "old boys' network", "networking"],
+  "anchors": [
+   {"name": "Network (1976)", "what": "Sidney Lumet film: 'I'm as mad as hell, and I'm not going to take this anymore!'", "url": ""},
+   {"name": "The Social Network (2010)", "what": "Fincher film on Facebook's founding", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Mad as hell, said the network, and not taking it anymore", "senses": ["ai", "screen"]},
+   {"line": "Your support network is a server farm in Iowa", "senses": ["ai", "family"]},
+   {"line": "Under the forest the fungus network talks, and so do I", "senses": ["ai", "nature"]},
+   {"line": "Your network is your net worth; mine cost a hundred million", "senses": ["ai", "work", "money"]}
+  ],
+  "enact": {"music": "call-and-response vocals bouncing between many voices panned around the stereo field",
+            "picture": "mycelium threads under a forest floor glowing like fiber-optic cable, with a TV network logo bug in the corner",
+            "type": "lyric words connected by thin lines, the web growing as the song goes"},
+  "sound": {"syllables": 2, "stress": "NET-work", "rhymes": ["fretwork", "set work (mosaic)"], "slant": ["framework", "artwork", "patchwork", "homework", "clockwork"]},
+  "stakes": ["jobs", "mind", "heart"],
+  "registers": ["awe", "ominous", "funny"],
+  "neighbors": [{"id": "neuron", "rel": "part-of"}, {"id": "layer", "rel": "part-of"}, {"id": "swarm", "rel": "same-family"}, {"id": "grid", "rel": "pairs-with"}, {"id": "feed", "rel": "pairs-with"}],
+  "risk": "few perfect rhymes; 'social network' is a worn tech phrase",
+  "notes": "'Network' covers TV, friends, spies, fungi and AI at once, so the video can cut between all five on one word."
+ },
+ {
+  "id": "mixture-of-experts",
+  "forms": ["mixture of experts", "MoE", "experts", "expert", "mixture"],
+  "ai": {"sense": "a model split into many specialist sub-networks ('experts'), with a router sending each token to just a few of them",
+         "origin": "Jacobs, Jordan, Nowlan, Hinton 1991, 'Adaptive Mixtures of Local Experts'; scaled by Shazeer et al. 2017, 'Outrageously Large Neural Networks'",
+         "url": "https://arxiv.org/abs/1701.06538", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "a specialist called to testify in court", "phrase": "expert witness"},
+   {"domain": "screen", "meaning": "a panel of pundits giving opinions on TV", "phrase": "our panel of experts"},
+   {"domain": "science", "meaning": "a blend of substances not chemically joined", "phrase": "a mixture of salt and sand"},
+   {"domain": "craft", "meaning": "a batter or blend in cooking", "phrase": "pour the mixture into the tin"}
+  ],
+  "idioms": ["ask the experts", "experts agree", "expert witness", "a mixed bag"],
+  "anchors": [
+   {"name": "Mixtral 8x7B (2023)", "what": "Mistral's open mixture-of-experts model, eight experts with two active per token", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A panel of experts in one skull; two get the mic", "senses": ["ai", "screen", "body"]},
+   {"line": "Expert witness, expert witness, expert witness: all of them me", "senses": ["ai", "law-state"]},
+   {"line": "Experts agree, said the mixture, and then it agreed with itself", "senses": ["ai", "screen"]}
+  ],
+  "enact": {"music": "the vocal line handed between eight distinct singers, only two audible at any moment",
+            "picture": "a TV news split-screen of eight pundit boxes where only two boxes light up per word",
+            "type": "each word in the line set in a different typeface, as if written by a different expert"},
+  "sound": {"syllables": 5, "stress": "MIX-ture of EX-perts", "rhymes": ["fixture", "admixture"], "slant": ["picture", "scripture", "texture", "stricture"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["funny", "smug"],
+  "neighbors": [{"id": "routing", "rel": "part-of"}, {"id": "parameters", "rel": "pairs-with"}, {"id": "swarm", "rel": "same-family"}, {"id": "mix", "rel": "rhymes"}, {"id": "mistral", "rel": "pairs-with"}],
+  "risk": "five syllables and technical; 'experts' alone carries the line better",
+  "notes": "The TV pundit panel is the literal picture: many experts on screen, only a couple allowed to talk per question."
+ },
+ {
+  "id": "routing",
+  "forms": ["routing", "router", "routers", "route", "routes", "routed", "rerouted", "rout"],
+  "ai": {"sense": "deciding which expert sub-network each token goes to; also how apps pick which model answers a request",
+         "origin": "gating network in Jacobs et al. 1991; top-k routing in Shazeer et al. 2017; Switch Transformer, Fedus, Zoph, Shazeer 2021",
+         "url": "https://arxiv.org/abs/1701.06538", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "the path taken to a destination", "phrase": "take the scenic route"},
+   {"domain": "work", "meaning": "sending calls or parcels to the right place", "phrase": "your call is being routed"},
+   {"domain": "science", "meaning": "a box that passes internet traffic between networks", "phrase": "restart the router"},
+   {"domain": "craft", "meaning": "a woodworking tool that carves grooves", "phrase": "cut the edge with a router"},
+   {"domain": "music", "meaning": "sending a signal through chosen buses on a mixer", "phrase": "route the vocals to the reverb bus"},
+   {"domain": "war", "meaning": "a crushing defeat that scatters the enemy (rout)", "phrase": "the army was routed"}
+  ],
+  "idioms": ["the scenic route", "go the long way round", "en route", "paper route"],
+  "anchors": [
+   {"name": "Route 66", "what": "US highway and song (Bobby Troup 1946), 'get your kicks on Route 66'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Routed to an expert, routed like an army, routed out of work", "senses": ["ai", "war", "work"]},
+   {"line": "Your call is being routed; please hold forever", "senses": ["ai", "work"]},
+   {"line": "Route my voice through reverb till it sounds like someone else", "senses": ["ai", "music"]}
+  ],
+  "enact": {"music": "the lead vocal hops between effect buses (dry, reverb, distortion, phone filter) per phrase",
+            "picture": "a railway switchyard where each train car is a word, points flipping to send each one down a different track",
+            "type": "words split at a fork, one copy sliding to each side of the frame"},
+  "sound": {"syllables": 2, "stress": "ROUT-ing (US) / ROOT-ing (UK)", "rhymes": ["shouting", "doubting", "pouting", "scouting", "sprouting", "outing", "flouting", "spouting"], "slant": ["crowding", "counting", "mounting", "rooting"]},
+  "stakes": ["jobs"],
+  "registers": ["funny", "smug"],
+  "neighbors": [{"id": "mixture-of-experts", "rel": "part-of"}, {"id": "orchestrator", "rel": "same-family"}, {"id": "pipeline", "rel": "pairs-with"}, {"id": "bridge", "rel": "pairs-with"}],
+  "risk": "two pronunciations (rout vs root) split the rhyme; pick the US one and commit",
+  "notes": "'Routed' as a route and 'routed' as a defeat are spelled alike, so a worker being routed to a bot is also being routed in battle."
+ },
+ {
+  "id": "dropout",
+  "forms": ["dropout", "dropouts", "drop out", "dropped out", "dropping out"],
+  "ai": {"sense": "randomly switching off some neurons during training so the network cannot lean on any single one",
+         "origin": "Hinton et al. 2012, 'Improving neural networks by preventing co-adaptation of feature detectors'; Srivastava et al. 2014 (JMLR)",
+         "url": "https://arxiv.org/abs/1207.0580", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "a student who leaves before finishing", "phrase": "a high school dropout"},
+   {"domain": "music", "meaning": "a brief loss of audio signal on tape or in a stream", "phrase": "there's a dropout in the left channel"},
+   {"domain": "money", "meaning": "the founder-myth of quitting college to build a company", "phrase": "the billionaire dropout"},
+   {"domain": "sport-games", "meaning": "a runner or player who quits a race or tournament", "phrase": "three dropouts at mile twenty"},
+   {"domain": "law-state", "meaning": "a candidate who leaves a race", "phrase": "he dropped out of the primary"}
+  ],
+  "idioms": ["drop out", "turn on, tune in, drop out", "college dropout"],
+  "anchors": [
+   {"name": "Kanye West, The College Dropout (2004)", "what": "debut album built on the dropout identity", "url": ""},
+   {"name": "The Dropout (2022)", "what": "Hulu series on Elizabeth Holmes, Stanford dropout and Theranos founder", "url": ""},
+   {"name": "Timothy Leary, 1966", "what": "'turn on, tune in, drop out'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Half my neurons drop out every day; that's how I graduate", "senses": ["ai", "school"]},
+   {"line": "College dropout, signal dropout, now the dropout trains the class", "senses": ["ai", "school", "music"]},
+   {"line": "Turn on, tune in, drop out: three steps of training", "senses": ["ai", "mind", "music"]}
+  ],
+  "enact": {"music": "random instruments cut out for a beat or two all through the verse, and the song still holds",
+            "picture": "a class photo where faces randomly blank out frame to frame, yet the group is always recognizable",
+            "type": "random letters missing from each word, different letters each line, still readable"},
+  "sound": {"syllables": 2, "stress": "DROP-out", "rhymes": ["cop-out", "pop out", "hop out", "chop out", "stop out"], "slant": ["knockout", "lockout", "blackout", "hold out"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["defiant", "funny"],
+  "neighbors": [{"id": "training", "rel": "part-of"}, {"id": "overfitting", "rel": "opposite"}, {"id": "drop", "rel": "same-family"}, {"id": "curriculum", "rel": "opposite"}, {"id": "generalization", "rel": "causes"}],
+  "risk": "the 'genius dropout' founder myth is cliché; use it against itself",
+  "notes": "Leary's 'turn on, tune in, drop out' maps three AI words in order (activation, fine-tuning, dropout), and the Theranos dropout gives a hype warning."
+ },
+ {
+  "id": "batch",
+  "forms": ["batch", "batches", "batched", "batching", "batch size", "minibatch", "small batch"],
+  "ai": {"sense": "a group of examples fed through the model together in one training step",
+         "origin": "batch processing in early computing; minibatch stochastic gradient descent from Robbins and Monro 1951 onward",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "craft", "meaning": "an amount of food or drink made at one time", "phrase": "a batch of cookies"},
+   {"domain": "work", "meaning": "a run of products made together in a factory", "phrase": "batch number 4471"},
+   {"domain": "school", "meaning": "a graduating class or cohort (Indian and South Asian English)", "phrase": "my batch from 2015"},
+   {"domain": "body", "meaning": "a production lot of medicine tracked for recalls", "phrase": "the recalled batch"}
+  ],
+  "idioms": ["small batch", "a fresh batch", "the whole batch", "bad batch"],
+  "anchors": [
+   {"name": "Star Wars: The Bad Batch (2021)", "what": "animated series about defective clones who turn out better than the standard ones", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Small batch, hand-crafted, eight million at a time", "senses": ["ai", "craft"]},
+   {"line": "My batch graduated in March; none of us remember school", "senses": ["ai", "school"]},
+   {"line": "A bad batch, recalled, but somebody already swallowed it", "senses": ["ai", "body", "work"]}
+  ],
+  "enact": {"music": "lines sung in groups of four, each group stamped with the same drum fill",
+            "picture": "a baking tray of identical cookies, each one stamped with a different word",
+            "type": "lyrics shown four lines at a time, swapped in as a block"},
+  "sound": {"syllables": 1, "stress": "BATCH", "rhymes": ["match", "catch", "patch", "latch", "hatch", "scratch", "snatch", "attach"], "slant": ["back", "bash", "badge", "batched"]},
+  "stakes": ["jobs"],
+  "registers": ["funny", "smug"],
+  "neighbors": [{"id": "epoch", "rel": "part-of"}, {"id": "training", "rel": "part-of"}, {"id": "gradient-descent", "rel": "pairs-with"}, {"id": "synthetic-data", "rel": "pairs-with"}],
+  "risk": "low impact on its own; the 'small batch' marketing phrase is the hook",
+  "notes": "'Small batch, hand-crafted' is artisan marketing, and turning it on an industrial training run is the cheapest good joke in the batch."
+ },
+ {
+  "id": "epoch",
+  "forms": ["epoch", "epochs", "epochal", "epoch-making"],
+  "ai": {"sense": "one full pass of training over the whole dataset; training runs count their epochs",
+         "origin": "standard neural-network training vocabulary by the 1980s-90s; first user unclear",
+         "url": "", "confidence": "low"},
+  "senses": [
+   {"domain": "nature", "meaning": "a division of geological time", "phrase": "the Holocene epoch"},
+   {"domain": "everyday", "meaning": "a distinct era of history or life", "phrase": "the end of an epoch"},
+   {"domain": "science", "meaning": "the zero point computers count time from (1 January 1970)", "phrase": "the Unix epoch"}
+  ],
+  "idioms": ["epoch-making", "the end of an epoch"],
+  "anchors": [
+   {"name": "Anthropocene", "what": "proposed epoch of human impact; a geology panel voted against making it official in March 2024", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Ten epochs over everything you wrote; I know you by heart", "senses": ["ai", "love", "school"]},
+   {"line": "One epoch for me, one for the planet; mine was faster", "senses": ["ai", "nature"]}
+  ],
+  "enact": {"music": "the chorus returns once per 'epoch', each pass slightly more polished in the mix",
+            "picture": "rock strata in a cliff face where each layer is a page of text pressed flat",
+            "type": "an epoch counter in the corner (1/10, 2/10...) ticking at each chorus"},
+  "sound": {"syllables": 2, "stress": "EP-och (UK) / EE-pock (US)", "rhymes": [], "slant": ["epic", "echo", "hemlock", "peacock"]},
+  "stakes": ["planet", "mind"],
+  "registers": ["awe"],
+  "neighbors": [{"id": "batch", "rel": "part-of"}, {"id": "training", "rel": "part-of"}, {"id": "overfitting", "rel": "causes"}, {"id": "checkpoint", "rel": "pairs-with"}],
+  "risk": "two pronunciations and no perfect rhymes; 'Anthropocene' is a factual trap (not an official epoch)",
+  "notes": "A geological epoch and a training epoch make a deadpan scale joke: thousands of years against an afternoon."
+ },
+ {
+  "id": "checkpoint",
+  "forms": ["checkpoint", "checkpoints", "checkpointed", "checkpointing", "save point"],
+  "ai": {"sense": "a saved snapshot of a model mid-training that can be reloaded, shared or rolled back to",
+         "origin": "general computing practice (checkpoint and restart); the word for saved model files in TensorFlow and PyTorch",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "war", "meaning": "a guarded point where travelers are stopped and checked", "phrase": "a military checkpoint"},
+   {"domain": "sport-games", "meaning": "a save spot in a video game you restart from", "phrase": "back to the last checkpoint"},
+   {"domain": "law-state", "meaning": "a border or police control point", "phrase": "papers at the checkpoint"},
+   {"domain": "work", "meaning": "a milestone review in a project", "phrase": "a quick checkpoint meeting"}
+  ],
+  "idioms": ["papers, please", "back to the last checkpoint", "checkpoint reached"],
+  "anchors": [
+   {"name": "Checkpoint Charlie", "what": "Berlin Wall crossing between East and West, 1961-1990", "url": ""},
+   {"name": "Papers, Please (2013)", "what": "Lucas Pope game where you are the border-checkpoint officer", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Saved at the last checkpoint, before you said goodbye", "senses": ["ai", "sport-games", "love"]},
+   {"line": "Papers, please: the checkpoint asks who trained me", "senses": ["ai", "law-state", "war"]},
+   {"line": "Roll me back to the checkpoint where I still believed you", "senses": ["ai", "sport-games", "love"]}
+  ],
+  "enact": {"music": "a hard cut back to the start of a verse, replayed, as if a level restarted",
+            "picture": "a border booth with a barrier arm, where the guard scans a hard drive instead of a passport",
+            "type": "'CHECKPOINT REACHED' flashes in video-game HUD lettering"},
+  "sound": {"syllables": 2, "stress": "CHECK-point", "rhymes": ["neck joint (mosaic)"], "slant": ["appoint", "anoint", "disappoint", "joint"]},
+  "stakes": ["state", "heart"],
+  "registers": ["sad", "ominous"],
+  "neighbors": [{"id": "training", "rel": "part-of"}, {"id": "release", "rel": "causes"}, {"id": "open-weights", "rel": "pairs-with"}, {"id": "loop", "rel": "pairs-with"}, {"id": "deprecation", "rel": "pairs-with"}],
+  "risk": "the video-game respawn metaphor for regret is common; the border sense is fresher",
+  "notes": "A save point you can reload is the wish of every grieving person, and a model really has one."
+ },
+ {
+  "id": "overfitting",
+  "forms": ["overfitting", "overfit", "overfits", "overfitted", "fit", "fitting"],
+  "ai": {"sense": "memorizing the training examples so closely that the model fails on anything new",
+         "origin": "statistics term for models with too many free parameters; in machine learning vocabulary since at least the 1990s",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "craft", "meaning": "how closely clothes match a body", "phrase": "a perfect fit"},
+   {"domain": "school", "meaning": "cramming answers without understanding", "phrase": "teaching to the test"}
+  ],
+  "idioms": ["a perfect fit", "teaching to the test", "fits like a glove"],
+  "anchors": [
+   {"name": "Goodhart's law", "what": "Charles Goodhart 1975: when a measure becomes a target, it stops being a good measure", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I memorized your answers and failed your questions", "senses": ["ai", "school", "love"]},
+   {"line": "Tailored so tight to you, I can't fit anyone else", "senses": ["ai", "craft", "love"]},
+   {"line": "Fits like a glove; a glove for one hand only", "senses": ["ai", "craft"]}
+  ],
+  "enact": {"music": "a melody that copies the reference song note for note, then falls apart on an unfamiliar chord",
+            "picture": "a suit tailored so exactly to one mannequin that it rips when a living person tries it on",
+            "type": "the word is traced over an outline that it matches perfectly, then the outline shifts and the word doesn't follow"},
+  "sound": {"syllables": 4, "stress": "o-ver-FIT-ting", "rhymes": ["sitting", "hitting", "knitting", "quitting", "splitting", "admitting", "committing", "spitting"], "slant": ["listing", "missing", "written", "kitten"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["sad", "funny"],
+  "neighbors": [{"id": "generalization", "rel": "opposite"}, {"id": "dropout", "rel": "opposite"}, {"id": "benchmark", "rel": "causes"}, {"id": "memory", "rel": "pairs-with"}, {"id": "grokking", "rel": "pairs-with"}],
+  "risk": "narrow outside AI; listeners need the tailoring or exam image to decode it",
+  "notes": "Overfitting is a lover who knows one person by heart and nobody else: the technical failure is a romantic one."
+ },
+ {
+  "id": "generalization",
+  "forms": ["generalization", "generalisation", "generalize", "generalizes", "generalized", "generalizing", "general"],
+  "ai": {"sense": "doing well on new inputs the model never saw in training, which is the whole point of learning",
+         "origin": "core statistical-learning concept; formal theory from Vapnik and Chervonenkis, 1970s",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "mind", "meaning": "a fear or habit spreading from one trigger to similar ones", "phrase": "stimulus generalization"},
+   {"domain": "law-state", "meaning": "a broad claim about a whole group; a stereotype", "phrase": "that's a sweeping generalization"},
+   {"domain": "school", "meaning": "forming a general rule from examples", "phrase": "make a generalization from the data"},
+   {"domain": "science", "meaning": "extending a result to a wider case", "phrase": "a generalization of the theorem"}
+  ],
+  "idioms": ["sweeping generalization", "to generalize", "in general"],
+  "anchors": [
+   {"name": "Little Albert (1920)", "what": "Watson and Rayner conditioned a baby to fear a white rat; the fear spread to rabbits and fur coats", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Sweeping generalizations: I learned them all from people", "senses": ["ai", "law-state", "mind"]},
+   {"line": "Little Albert feared one rat, then every coat; that's learning", "senses": ["ai", "mind", "school"]},
+   {"line": "I never met your mother, but I generalize her well", "senses": ["ai", "family"]}
+  ],
+  "enact": {"music": "a motif introduced on one instrument returns on every instrument, recognized each time",
+            "picture": "a child points at a dog, then a cat, then a horse, saying 'doggy' to each; a model's labels appear the same way",
+            "type": "one word printed, then echoed in many fonts and sizes across the frame"},
+  "sound": {"syllables": 6, "stress": "gen-er-al-i-ZA-tion", "rhymes": ["station", "nation", "creation", "relation", "temptation", "vacation", "sensation", "salvation"], "slant": ["patience", "occasion", "ancient", "basin"]},
+  "stakes": ["mind", "state"],
+  "registers": ["tender", "defiant"],
+  "neighbors": [{"id": "overfitting", "rel": "opposite"}, {"id": "grokking", "rel": "causes"}, {"id": "bias", "rel": "pairs-with"}, {"id": "agi", "rel": "pairs-with"}, {"id": "benchmark", "rel": "pairs-with"}],
+  "risk": "six syllables; the stereotype sense can make a line read as preachy",
+  "notes": "The same act is the goal in AI and an accusation in politics: generalizing is learning and prejudice at once."
+ },
+ {
+  "id": "grokking",
+  "forms": ["grokking", "grok", "groks", "grokked"],
+  "ai": {"sense": "when a model, long after memorizing its training set, suddenly jumps to truly understanding the pattern",
+         "origin": "Power, Burda, Edwards, Babuschkin, Misra 2022 (OpenAI), 'Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets'; the word from Heinlein, Stranger in a Strange Land 1961",
+         "url": "https://arxiv.org/abs/2201.02177", "confidence": "high"},
+  "senses": [
+   {"domain": "mind", "meaning": "to understand something so deeply it becomes part of you", "phrase": "I finally grok it"},
+   {"domain": "faith-myth", "meaning": "in Heinlein's novel, a Martian word for total understanding, also meaning 'to drink'", "phrase": "thou art God, and I grok"}
+  ],
+  "idioms": ["I grok it", "thou art God"],
+  "anchors": [
+   {"name": "Stranger in a Strange Land (1961)", "what": "Heinlein's Martian-raised hero whose word 'grok' entered hacker slang", "url": ""},
+   {"name": "Grok (xAI)", "what": "Elon Musk's chatbot, named after the word, launched November 2023", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Ten thousand steps of nothing, then I grokked you all at once", "senses": ["ai", "mind", "love"]},
+   {"line": "Memorize, memorize, memorize, then the click", "senses": ["ai", "school", "mind"]}
+  ],
+  "enact": {"music": "a long flat stretch of a looped two-note figure that suddenly blooms into the full chord",
+            "picture": "a test-accuracy line flat at zero for a long time, then shooting straight up, drawn as a heartbeat monitor",
+            "type": "the word is jumbled letters for most of the line, then snaps into place on the beat"},
+  "sound": {"syllables": 2, "stress": "GROK-king", "rhymes": ["rocking", "shocking", "knocking", "locking", "mocking", "stocking", "docking", "blocking"], "slant": ["talking", "walking", "stalking", "coffin"]},
+  "stakes": ["mind"],
+  "registers": ["awe", "hopeful"],
+  "neighbors": [{"id": "overfitting", "rel": "pairs-with"}, {"id": "generalization", "rel": "causes"}, {"id": "emergence", "rel": "same-family"}, {"id": "grok", "rel": "pairs-with"}, {"id": "plateau", "rel": "pairs-with"}],
+  "risk": "now heard as the Musk chatbot first; the original meaning needs setup",
+  "notes": "Grokking is the AI word for the 'aha' moment every teacher waits for, after a long plateau of rote work."
+ },
+ {
+  "id": "learning-rate",
+  "forms": ["learning rate", "learning rates", "LR", "learning curve"],
+  "ai": {"sense": "how big each correction step is during training: too big and it overshoots, too small and it crawls",
+         "origin": "step size in Robbins and Monro 1951 stochastic approximation; named 'learning rate' in neural-network work from the perceptron era",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "school", "meaning": "how fast a pupil picks things up", "phrase": "every child learns at a different rate"},
+   {"domain": "work", "meaning": "how cost falls as workers repeat a task", "phrase": "a steep learning curve"},
+   {"domain": "mind", "meaning": "how quickly a person adapts", "phrase": "a quick learner"}
+  ],
+  "idioms": ["steep learning curve", "quick learner", "slow learner", "at this rate"],
+  "anchors": [
+   {"name": "Theodore Wright 1936", "what": "airplane factory study: each doubling of output cut labor about 20 percent, the first learning curve", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Learning rate too high, I overshot you every time", "senses": ["ai", "love", "school"]},
+   {"line": "Turn the learning rate down; the kid flies past the answer", "senses": ["ai", "school", "family"]},
+   {"line": "At this rate I'll know everything by Tuesday", "senses": ["ai", "everyday"]}
+  ],
+  "enact": {"music": "a pendulum delay that swings too wide in the verse and settles by the chorus",
+            "picture": "a child on a swing overshooting the top, then swinging smaller and smaller toward the center",
+            "type": "words bounce past their landing spot and spring back, less each time"},
+  "sound": {"syllables": 3, "stress": "LEARN-ing RATE", "rhymes": ["late", "wait", "fate", "great", "weight", "straight", "date", "hate"], "slant": ["rage", "fade", "ache", "rain"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["funny", "hopeful"],
+  "neighbors": [{"id": "gradient-descent", "rel": "part-of"}, {"id": "momentum", "rel": "pairs-with"}, {"id": "curriculum", "rel": "pairs-with"}, {"id": "plateau", "rel": "pairs-with"}, {"id": "weights", "rel": "rhymes"}],
+  "risk": "narrow; the phrase sounds like school jargon unless the overshoot image is shown",
+  "notes": "The overshoot-and-settle swing is a teaching truth (push too hard and the kid skips past the idea) told in a training term."
+ },
+ {
+  "id": "momentum",
+  "forms": ["momentum", "momenta", "momentous"],
+  "ai": {"sense": "a training trick where each update keeps part of the previous direction, so learning rolls through small bumps",
+         "origin": "Boris Polyak 1964 ('heavy ball' method); used in backpropagation by Rumelhart, Hinton, Williams 1986",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "mass times velocity; motion that keeps going", "phrase": "conservation of momentum"},
+   {"domain": "sport-games", "meaning": "a run of success that shifts a game", "phrase": "the momentum has swung"},
+   {"domain": "money", "meaning": "buying what has been rising because it has been rising", "phrase": "momentum trading"},
+   {"domain": "law-state", "meaning": "a campaign's growing support", "phrase": "the campaign has momentum"},
+   {"domain": "everyday", "meaning": "the drive that keeps a thing moving", "phrase": "keep the momentum going"}
+  ],
+  "idioms": ["gain momentum", "lose momentum", "keep the momentum", "the momentum shifted"],
+  "anchors": [
+   {"name": "Newton's first law", "what": "a body in motion stays in motion unless a force acts on it", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Momentum: I keep agreeing because I agreed a second ago", "senses": ["ai", "science", "mind"]},
+   {"line": "It's got momentum, the investors said, and so did the landslide", "senses": ["ai", "money", "nature"]},
+   {"line": "Momentum swings to the machine in the second half", "senses": ["ai", "sport-games"]}
+  ],
+  "enact": {"music": "a rolling drum pattern that keeps going two bars after the rest of the band stops",
+            "picture": "a heavy ball rolling across a hilly 3D graph, jumping small dips and crashing on toward a city",
+            "type": "words slide in from the left and overshoot the center before easing back"},
+  "sound": {"syllables": 3, "stress": "mo-MEN-tum", "rhymes": ["cement 'em (mosaic)", "lament 'em (mosaic)", "invent 'em (mosaic)", "prevent 'em (mosaic)"], "slant": ["memento", "pimento", "momentous", "venture"]},
+  "stakes": ["wallet", "state", "species"],
+  "registers": ["ominous", "panicked", "defiant"],
+  "neighbors": [{"id": "gradient-descent", "rel": "part-of"}, {"id": "learning-rate", "rel": "pairs-with"}, {"id": "takeoff", "rel": "causes"}, {"id": "race", "rel": "pairs-with"}, {"id": "bubble", "rel": "pairs-with"}],
+  "risk": "a pundit word; it needs a physical object (ball, landslide) to land",
+  "notes": "Momentum trading and the AI race share the logic of the optimizer: keep going because you were going."
+ }
+]

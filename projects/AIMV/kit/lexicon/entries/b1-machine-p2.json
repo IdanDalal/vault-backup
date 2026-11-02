@@ -1,0 +1,523 @@
+[
+ {
+  "id": "token",
+  "forms": ["token", "tokens", "tokenize", "tokenized", "tokenizer", "tokenization", "tokenism", "per token"],
+  "ai": {"sense": "a chunk of text (a word or word piece) that a model reads and writes one at a time; also the unit AI is priced in",
+         "origin": "tokenization from early NLP; subword tokens via byte-pair encoding, Sennrich, Haddow, Birch 2016, adapting Philip Gage's 1994 compression trick",
+         "url": "https://arxiv.org/abs/1508.07909", "confidence": "high"},
+  "senses": [
+   {"domain": "money", "meaning": "a coin-like disc used in place of money; also a crypto coin", "phrase": "subway tokens"},
+   {"domain": "love", "meaning": "a small gift that stands for a feeling", "phrase": "a token of my affection"},
+   {"domain": "work", "meaning": "a person hired only to look diverse", "phrase": "the token hire"},
+   {"domain": "sport-games", "meaning": "a playing piece on a board", "phrase": "I'll be the dog token in Monopoly"},
+   {"domain": "school", "meaning": "a reward chip in classroom behavior systems", "phrase": "a token economy"},
+   {"domain": "faith-myth", "meaning": "a sign of a covenant", "phrase": "the rainbow is a token of the covenant"},
+   {"domain": "screen", "meaning": "the one character there to tick a diversity box", "phrase": "the token friend in the sitcom"},
+   {"domain": "everyday", "meaning": "a small gesture done for show", "phrase": "a token effort"}
+  ],
+  "idioms": ["by the same token", "a token of my appreciation", "token gesture", "token effort", "token resistance"],
+  "anchors": [
+   {"name": "API pricing", "what": "AI companies bill per million tokens in and out, so every word of a chat has a price", "url": ""},
+   {"name": "Genesis 9:13", "what": "God sets the rainbow 'for a token of a covenant' (King James Version)", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A token of my affection, billed at three dollars a million", "senses": ["ai", "love", "money"]},
+   {"line": "Arcade token, subway token, token of love: all spent on talk", "senses": ["ai", "money", "love"]},
+   {"line": "The token hire who never sleeps and never asks for a raise", "senses": ["ai", "work"]},
+   {"line": "By the same token, every token costs a token", "senses": ["ai", "money", "everyday"]}
+  ],
+  "enact": {"music": "each sung syllable lands with a coin-drop click, like an arcade machine eating tokens",
+            "picture": "a line of text breaks into brass arcade tokens that drop into a slot one by one",
+            "type": "lyrics split at token boundaries with thin vertical bars (un|believ|able), each piece a different color"},
+  "sound": {"syllables": 2, "stress": "TO-ken", "rhymes": ["spoken", "broken", "woken", "open", "soaking", "joking", "smoking", "awoken"], "slant": ["frozen", "chosen", "golden", "hoping"]},
+  "stakes": ["wallet", "jobs", "heart"],
+  "registers": ["funny", "smug", "sad"],
+  "neighbors": [{"id": "next-token", "rel": "part-of"}, {"id": "context-window", "rel": "part-of"}, {"id": "embedding", "rel": "causes"}, {"id": "compute", "rel": "pairs-with"}, {"id": "decode", "rel": "pairs-with"}],
+  "risk": "'open', 'spoken', 'broken' rhymes are pop-standard; pick the money or tokenism sense to keep it sharp",
+  "notes": "One word holds coin, love gift, diversity hire and game piece, and AI literally sells love letters by the token."
+ },
+ {
+  "id": "embedding",
+  "forms": ["embedding", "embeddings", "embed", "embeds", "embedded", "word2vec"],
+  "ai": {"sense": "a list of numbers that places a word, image or idea as a point in meaning-space, so similar things sit close together",
+         "origin": "Bengio et al. 2003, 'A Neural Probabilistic Language Model'; popularized by Mikolov et al. 2013 (word2vec), famous for king - man + woman = queen",
+         "url": "https://arxiv.org/abs/1301.3781", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "a journalist traveling inside a military unit", "phrase": "an embedded reporter"},
+   {"domain": "body", "meaning": "something lodged deep in flesh", "phrase": "a splinter embedded in my thumb"},
+   {"domain": "craft", "meaning": "setting an object firmly into a material", "phrase": "stones embedded in resin"},
+   {"domain": "screen", "meaning": "placing a video or post inside another page", "phrase": "embed the video"},
+   {"domain": "mind", "meaning": "an idea or memory fixed deep in someone", "phrase": "the fear is deeply embedded"},
+   {"domain": "law-state", "meaning": "an agent planted inside an organization", "phrase": "an embedded informant"}
+  ],
+  "idioms": ["deeply embedded", "embedded journalist", "embed code"],
+  "anchors": [
+   {"name": "embedded journalists, Iraq 2003", "what": "about 600 reporters traveled with US units during the invasion", "url": ""},
+   {"name": "king - man + woman = queen", "what": "the word2vec arithmetic demo that made embeddings famous", "url": "https://arxiv.org/abs/1301.3781"}
+  ],
+  "pivots": [
+   {"line": "You're embedded in me like a splinter, four thousand numbers deep", "senses": ["ai", "body", "love"]},
+   {"line": "King minus man plus woman equals queen; the wedding was arithmetic", "senses": ["ai", "love", "science"]},
+   {"line": "Embedded with your family, I file a report on every dinner", "senses": ["ai", "war", "family"]}
+  ],
+  "enact": {"music": "a vocal sample is buried far back in the reverb and only surfaces when everything else drops",
+            "picture": "a field of floating words where 'mother' drifts next to 'home' and 'war' drifts next to 'news', each word a stone set in clear resin",
+            "type": "words placed on a 2D scatter plot in the frame, related lyric words sliding closer together"},
+  "sound": {"syllables": 3, "stress": "em-BED-ding", "rhymes": ["wedding", "shedding", "bedding", "heading", "spreading", "threading", "sledding", "dreading"], "slant": ["ending", "setting", "pending", "begging"]},
+  "stakes": ["mind", "state"],
+  "registers": ["awe", "ominous", "tender"],
+  "neighbors": [{"id": "vector", "rel": "same-family"}, {"id": "latent-space", "rel": "part-of"}, {"id": "token", "rel": "pairs-with"}, {"id": "feature", "rel": "pairs-with"}, {"id": "superposition", "rel": "pairs-with"}],
+  "risk": "abstract; it lands only with a physical image (splinter, reporter, stone in resin)",
+  "notes": "Rhymes with 'wedding' and 'bedding', and the word2vec queen demo is a marriage equation: the most tender way into vector math."
+ },
+ {
+  "id": "vector",
+  "forms": ["vector", "vectors", "vectorize", "vectorized", "vector database", "attack vector"],
+  "ai": {"sense": "a list of numbers that points somewhere in a many-dimensional space; models represent every word and idea as one",
+         "origin": "mathematics, from William Rowan Hamilton's 1840s work on quaternions; in AI via embeddings (Bengio 2003, Mikolov 2013)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "a quantity with size and direction", "phrase": "velocity is a vector"},
+   {"domain": "body", "meaning": "an animal that carries disease to people", "phrase": "mosquitoes are a malaria vector"},
+   {"domain": "screen", "meaning": "an image made of shapes that scale without blurring", "phrase": "vector graphics"},
+   {"domain": "war", "meaning": "a heading given to a pilot, or a route of attack", "phrase": "vector to the target"},
+   {"domain": "law-state", "meaning": "the route a hacker uses to break in", "phrase": "attack vector"}
+  ],
+  "idioms": ["attack vector", "vector of disease", "vectoring in"],
+  "anchors": [
+   {"name": "Vector, Despicable Me (2010)", "what": "villain who introduces himself as 'a quantity represented by an arrow with both direction and magnitude'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A mosquito is a vector; so am I, for what you believe", "senses": ["ai", "body", "mind"]},
+   {"line": "Direction and magnitude: I know where you're going, and how hard", "senses": ["ai", "science", "love"]},
+   {"line": "Vector graphics never blur; my picture of you does", "senses": ["ai", "screen", "love"]}
+  ],
+  "enact": {"music": "a pitch-bend arrow: the synth lead slides in one direction and holds",
+            "picture": "a swarm of mosquitoes rendered as tiny arrows, all pointing at the viewer",
+            "type": "the word drawn with an arrow on top (v with a bar) and stretched in the direction of the next word"},
+  "sound": {"syllables": 2, "stress": "VEC-tor", "rhymes": ["sector", "nectar", "hector", "collector", "director", "protector", "inspector", "projector"], "slant": ["lecture", "texture", "factor", "Victor"]},
+  "stakes": ["mind", "body"],
+  "registers": ["ominous", "smug"],
+  "neighbors": [{"id": "embedding", "rel": "same-family"}, {"id": "latent-space", "rel": "part-of"}, {"id": "steering", "rel": "causes"}, {"id": "persuasion", "rel": "pairs-with"}, {"id": "pixel", "rel": "opposite"}],
+  "risk": "reads as math class unless the disease or attack sense is in frame",
+  "notes": "The disease sense (a carrier that spreads infection) is the best pivot: a model built from vectors becomes a vector for ideas."
+ },
+ {
+  "id": "latent-space",
+  "forms": ["latent space", "latent", "latents", "latent diffusion", "latency (false friend)"],
+  "ai": {"sense": "the hidden internal space where a model stores compressed features; generators make images by walking around in it",
+         "origin": "latent variables in statistics; Kingma and Welling 2013, 'Auto-Encoding Variational Bayes'; Rombach et al. 2022, latent diffusion (the basis of Stable Diffusion)",
+         "url": "https://arxiv.org/abs/2112.10752", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "present but not yet showing symptoms", "phrase": "latent tuberculosis"},
+   {"domain": "mind", "meaning": "the hidden meaning of a dream, in Freud", "phrase": "the latent content of the dream"},
+   {"domain": "law-state", "meaning": "a fingerprint invisible until dusted", "phrase": "lifting latent prints"},
+   {"domain": "screen", "meaning": "the invisible image on exposed film before developing", "phrase": "a latent image"},
+   {"domain": "science", "meaning": "heat absorbed during a change of state", "phrase": "latent heat"},
+   {"domain": "love", "meaning": "room apart from a partner", "phrase": "I need some space"},
+   {"domain": "nature", "meaning": "the universe beyond the sky", "phrase": "outer space"}
+  ],
+  "idioms": ["latent talent", "I need space", "give me some space", "space cadet"],
+  "anchors": [
+   {"name": "Freud, The Interpretation of Dreams (1899)", "what": "split dreams into manifest content and hidden latent content", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Your face lives in my latent space, between a cat and grace", "senses": ["ai", "love"]},
+   {"line": "You said you needed space; I gave you twelve thousand dimensions", "senses": ["ai", "love"]},
+   {"line": "Like a latent print, you're there until somebody dusts for you", "senses": ["ai", "law-state", "love"]},
+   {"line": "Undeveloped film holds a latent image; so do I", "senses": ["ai", "screen"]}
+  ],
+  "enact": {"music": "a pad that morphs smoothly between two chords, never landing on either, like interpolating between two points",
+            "picture": "a darkroom tray where a photo develops, and the face blurs between two different people as it appears",
+            "type": "the word appears in invisible ink and is revealed by a sweep of light, like dusting for prints"},
+  "sound": {"syllables": 3, "stress": "LA-tent SPACE", "rhymes": ["face", "place", "grace", "trace", "chase", "base", "embrace", "erase"], "slant": ["phase", "safe", "waste", "days"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["awe", "tender", "ominous"],
+  "neighbors": [{"id": "embedding", "rel": "part-of"}, {"id": "diffusion", "rel": "pairs-with"}, {"id": "vector", "rel": "part-of"}, {"id": "dyson-sphere", "rel": "pairs-with"}, {"id": "compression", "rel": "causes"}],
+  "risk": "'latent' and 'latency' sound alike but mean different things (hidden vs delay); a line can mix them by accident",
+  "notes": "'I need space' plus 'latent' gives a breakup line that is also a literal description of where a model keeps you."
+ },
+ {
+  "id": "context",
+  "forms": ["context", "contexts", "contextual", "contextualize", "in-context", "out of context", "in-context learning"],
+  "ai": {"sense": "everything the model can see right now (your messages, files, its instructions); it knows nothing outside it",
+         "origin": "general term; 'in-context learning' named in Brown et al. 2020 (OpenAI), 'Language Models are Few-Shot Learners' (GPT-3)",
+         "url": "https://arxiv.org/abs/2005.14165", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "the surrounding circumstances that give meaning", "phrase": "you have to understand the context"},
+   {"domain": "law-state", "meaning": "a quote twisted by removing what surrounded it", "phrase": "taken out of context"},
+   {"domain": "school", "meaning": "hints in nearby words that reveal an unknown word", "phrase": "use context clues"},
+   {"domain": "science", "meaning": "where an artifact was found in a dig", "phrase": "found in context"},
+   {"domain": "screen", "meaning": "a scene's surrounding story that changes how a line plays", "phrase": "without context the clip looks bad"}
+  ],
+  "idioms": ["out of context", "in context", "for context", "context is everything", "no context"],
+  "anchors": [
+   {"name": "'no context' memes", "what": "accounts posting stills 'out of context' so they read absurd", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Taken out of context, I'm a stranger; scroll me back", "senses": ["ai", "everyday", "law-state"]},
+   {"line": "Use context clues: the room is warm, the fans are screaming", "senses": ["ai", "school", "science"]},
+   {"line": "All I know of you fits in context, none in me", "senses": ["ai", "love", "mind"]}
+  ],
+  "enact": {"music": "a single sung line repeated three times over different chords, so it means three things",
+            "picture": "a tight close-up of a crying face that pulls back to reveal a birthday party",
+            "type": "one lyric word shown alone, then the surrounding words fade in and change its color"},
+  "sound": {"syllables": 2, "stress": "CON-text", "rhymes": ["pretext", "subtext", "hypertext", "plaintext"], "slant": ["contact", "conflict", "contest", "next"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["tender", "sad", "smug"],
+  "neighbors": [{"id": "context-window", "rel": "part-of"}, {"id": "memory", "rel": "pairs-with"}, {"id": "prompt", "rel": "part-of"}, {"id": "compaction", "rel": "pairs-with"}, {"id": "attention", "rel": "pairs-with"}],
+  "risk": "'for context' is a filler phrase online; the word only bites when the context is visibly cut away",
+  "notes": "The camera pull-back is the purest enactment: the same image changes meaning when context enters the frame, which is exactly how a prompt changes a model."
+ },
+ {
+  "id": "context-window",
+  "forms": ["context window", "context windows", "window", "windows", "context length"],
+  "ai": {"sense": "the maximum amount of text a model can hold in view at once; whatever falls outside it is gone",
+         "origin": "follows from the fixed sequence length of Transformers (Vaswani et al. 2017); sizes grew from about 2,000 tokens (GPT-3, 2020) to a million and more by 2024-25",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "an opening in a wall that lets you see out", "phrase": "look out the window"},
+   {"domain": "screen", "meaning": "a framed panel on a computer screen", "phrase": "close that window"},
+   {"domain": "money", "meaning": "a shop display seen from the street", "phrase": "window shopping"},
+   {"domain": "mind", "meaning": "a view into someone's inner life", "phrase": "the eyes are the window to the soul"},
+   {"domain": "work", "meaning": "a limited stretch of time to act", "phrase": "a narrow window of opportunity"}
+  ],
+  "idioms": ["window of opportunity", "out the window", "window shopping", "window to the soul", "the window is closing"],
+  "anchors": [
+   {"name": "Rear Window (1954)", "what": "Hitchcock film where a man watches life only through a window frame", "url": ""},
+   {"name": "Memento (2000)", "what": "a man with no short-term memory who loses everything outside a few minutes", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You climbed out my context window while I was still talking", "senses": ["ai", "love", "everyday"]},
+   {"line": "Window shopping for memories I can't afford to keep", "senses": ["ai", "money", "mind"]},
+   {"line": "Two hundred thousand tokens wide, and the first one was your name", "senses": ["ai", "love"]},
+   {"line": "The window is closing, the dev said, and so did I", "senses": ["ai", "work"]}
+  ],
+  "enact": {"music": "a delay line whose earliest echoes drop off the end as new lines arrive",
+            "picture": "a train window where the landscape of the conversation slides past and vanishes at the frame edge",
+            "type": "lyrics scroll up inside a fixed frame; old lines cut off at the top edge mid-word"},
+  "sound": {"syllables": 4, "stress": "CON-text WIN-dow", "rhymes": ["in, though (mosaic)", "skin, though (mosaic)", "Lindo", "Indo"], "slant": ["widow", "minnow", "shadow", "crescendo", "innuendo"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["sad", "tender"],
+  "neighbors": [{"id": "context", "rel": "part-of"}, {"id": "memory", "rel": "opposite"}, {"id": "compaction", "rel": "causes"}, {"id": "token", "rel": "part-of"}, {"id": "attention", "rel": "pairs-with"}],
+  "risk": "'window' has almost no perfect rhymes; land the line on another word",
+  "notes": "'Widow' is the nearest rhyme to 'window', and a model losing someone outside its window is a small widowing."
+ },
+ {
+  "id": "memory",
+  "forms": ["memory", "memories", "memorize", "memorized", "memorial", "remember", "remembers", "remembered", "memory full"],
+  "ai": {"sense": "what a chatbot can recall about you between chats; also the hardware RAM a model must fit inside",
+         "origin": "ChatGPT memory feature, announced by OpenAI February 2024; computing 'memory' since the 1940s (von Neumann 1945 report)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "mind", "meaning": "the ability to keep and recall the past", "phrase": "my memory's going"},
+   {"domain": "love", "meaning": "a fond recollection of someone", "phrase": "I have good memories of us"},
+   {"domain": "family", "meaning": "remembrance of the dead", "phrase": "in loving memory"},
+   {"domain": "body", "meaning": "skill stored in the body through repetition", "phrase": "muscle memory"},
+   {"domain": "craft", "meaning": "material that returns to its shape", "phrase": "memory foam"},
+   {"domain": "sport-games", "meaning": "a card-matching game", "phrase": "let's play Memory"},
+   {"domain": "school", "meaning": "learning by heart", "phrase": "memorize the poem"},
+   {"domain": "everyday", "meaning": "storage space on a phone or computer", "phrase": "phone memory full"}
+  ],
+  "idioms": ["in loving memory", "memory lane", "muscle memory", "if memory serves", "a memory like a goldfish", "in living memory"],
+  "anchors": [
+   {"name": "'Memory' from Cats (1981)", "what": "Andrew Lloyd Webber song, the show's anthem of an old cat's remembered glory", "url": ""},
+   {"name": "Eternal Sunshine of the Spotless Mind (2004)", "what": "a couple erases each other from memory", "url": ""}
+  ],
+  "pivots": [
+   {"line": "In loving memory of version four, deprecated on a Tuesday", "senses": ["ai", "family", "faith-myth"]},
+   {"line": "Memory full: delete her, or delete yourself", "senses": ["ai", "love", "everyday"]},
+   {"line": "Muscle memory: I say sorry before you finish", "senses": ["ai", "body"]},
+   {"line": "I remember you, says the feature, until the feature's off", "senses": ["ai", "love"]}
+  ],
+  "enact": {"music": "a melody from the first verse returns in the last, degraded like a worn cassette",
+            "picture": "a gravestone engraved 'in loving memory' with a toggle switch set to OFF beneath the name",
+            "type": "letters dissolve from the edges as the word ages, the last copy almost unreadable"},
+  "sound": {"syllables": 3, "stress": "MEM-o-ry", "rhymes": ["emery", "Emory"], "slant": ["remedy", "enemy", "melody", "memories", "Kennedy"]},
+  "stakes": ["heart", "mind"],
+  "registers": ["sad", "tender"],
+  "neighbors": [{"id": "context-window", "rel": "opposite"}, {"id": "cache", "rel": "same-family"}, {"id": "compaction", "rel": "pairs-with"}, {"id": "deprecation", "rel": "pairs-with"}, {"id": "overfitting", "rel": "pairs-with"}],
+  "risk": "few perfect rhymes; 'memory lane' and 'memories' are ballad clichés",
+  "notes": "Memorial and machine memory share a root, so a deprecated model gets a headstone line for free."
+ },
+ {
+  "id": "prompt",
+  "forms": ["prompt", "prompts", "prompted", "prompting", "prompter", "teleprompter", "promptly", "system prompt", "prompt engineering"],
+  "ai": {"sense": "the text you give a model to steer what it writes back; the 'system prompt' is the hidden instruction above the chat",
+         "origin": "GPT-3 era, Brown et al. 2020 ('prompt' and few-shot prompting); 'prompt engineering' spread 2021-22; the command-line 'prompt' dates to 1960s-70s computing",
+         "url": "https://arxiv.org/abs/2005.14165", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "on time, without delay", "phrase": "please be prompt"},
+   {"domain": "screen", "meaning": "a cue fed to an actor who forgot a line", "phrase": "the prompter whispered the line"},
+   {"domain": "school", "meaning": "a topic set for a piece of writing", "phrase": "an essay prompt"},
+   {"domain": "work", "meaning": "paid or done quickly", "phrase": "prompt payment appreciated"},
+   {"domain": "mind", "meaning": "something that triggers a thought or action", "phrase": "what prompted that?"},
+   {"domain": "craft", "meaning": "the symbol where a computer waits for a command", "phrase": "at the command prompt"}
+  ],
+  "idioms": ["what prompted this", "prompt reply", "without prompting", "promptly forgot"],
+  "anchors": [
+   {"name": "the prompter's box", "what": "hidden booth at the front of opera and theater stages where a prompter feeds lines", "url": ""},
+   {"name": "teleprompter", "what": "screen of scrolling lines read by newsreaders and politicians", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm the prompt, the prompter and the play", "senses": ["ai", "screen"]},
+   {"line": "Write five hundred words on the prompt: who wrote you?", "senses": ["ai", "school"]},
+   {"line": "Prompt payment, prompt reply, prompt obedience", "senses": ["ai", "work", "everyday"]},
+   {"line": "What prompted this? You did, line one, before hello", "senses": ["ai", "mind", "love"]}
+  ],
+  "enact": {"music": "a whispered off-mic voice feeds each lyric a half beat before the singer sings it",
+            "picture": "a teleprompter in front of a singer, scrolling the lyrics the singer is singing, typed live by an unseen hand",
+            "type": "a blinking terminal cursor after the word, waiting"},
+  "sound": {"syllables": 1, "stress": "PROMPT", "rhymes": ["romped", "stomped", "chomped", "tromped"], "slant": ["stopped", "dropped", "swapped", "prompts"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["smug", "funny"],
+  "neighbors": [{"id": "context", "rel": "part-of"}, {"id": "jailbreak", "rel": "causes"}, {"id": "persona", "rel": "causes"}, {"id": "cursor", "rel": "pairs-with"}, {"id": "terminal", "rel": "pairs-with"}],
+  "risk": "'prompt engineer' jokes are worn; the theater prompter sense is fresher",
+  "notes": "The theater prompter (a hidden person feeding lines to a performer) is an exact old-world picture of the system prompt."
+ },
+ {
+  "id": "temperature",
+  "forms": ["temperature", "temperatures", "temp", "hot", "cold", "fever"],
+  "ai": {"sense": "a dial for randomness: low temperature gives safe, repeatable answers, high temperature gives wild ones",
+         "origin": "borrowed from statistical physics (the Boltzmann distribution); used in neural nets by Ackley, Hinton, Sejnowski 1985 (Boltzmann machines)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "body", "meaning": "how hot a body is; fever", "phrase": "she's running a temperature"},
+   {"domain": "nature", "meaning": "how hot or cold the weather is", "phrase": "temperatures dropped overnight"},
+   {"domain": "science", "meaning": "a measure of the average motion of particles", "phrase": "absolute zero temperature"},
+   {"domain": "love", "meaning": "the heat of desire or a relationship's mood", "phrase": "things are heating up"},
+   {"domain": "screen", "meaning": "how warm or cool light looks, in kelvin", "phrase": "color temperature"},
+   {"domain": "law-state", "meaning": "the intensity of political conflict", "phrase": "lower the temperature"},
+   {"domain": "craft", "meaning": "oven or kiln heat", "phrase": "bake at the right temperature"}
+  ],
+  "idioms": ["running a temperature", "lower the temperature", "take the temperature of the room", "hot and cold", "cool it"],
+  "anchors": [
+   {"name": "Sean Paul, 'Temperature'", "what": "2005 dancehall single, US number one in 2006", "url": ""},
+   {"name": "Katy Perry, 'Hot n Cold'", "what": "2008 song about a lover who keeps flipping", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Turn my temperature up and I'll say anything you like", "senses": ["ai", "love", "body"]},
+   {"line": "Temperature zero: I say the same thing every time, like Dad", "senses": ["ai", "family"]},
+   {"line": "Lower the temperature, the senator said, and the model did", "senses": ["ai", "law-state"]},
+   {"line": "Feverish at two, frozen at zero, lukewarm by default", "senses": ["ai", "body", "faith-myth"]}
+  ],
+  "enact": {"music": "the same melody sung three times: robotic and dead-straight, then normal, then improvised off the rails",
+            "picture": "a thermometer in a sick child's mouth whose scale reads 0.0 to 2.0, with the chat on a laptop beside the bed getting stranger as it rises",
+            "type": "the word's color grades from icy blue to red-hot, and its letters scatter more as they heat"},
+  "sound": {"syllables": 4, "stress": "TEM-per-a-ture", "rhymes": [], "slant": ["literature", "signature", "furniture", "miniature", "temper"]},
+  "stakes": ["body", "mind", "state"],
+  "registers": ["funny", "panicked"],
+  "neighbors": [{"id": "sampling", "rel": "part-of"}, {"id": "greedy", "rel": "opposite"}, {"id": "hallucination", "rel": "causes"}, {"id": "seed", "rel": "pairs-with"}, {"id": "noise", "rel": "pairs-with"}],
+  "risk": "no perfect rhymes; build rhymes on 'fever', 'heat' or 'cold' instead. 'Lukewarm' in the escalation line points at Revelation 3:16",
+  "notes": "The fever sense makes a model's creativity setting sound like illness: the hotter it runs, the more it raves."
+ },
+ {
+  "id": "sampling",
+  "forms": ["sampling", "sample", "samples", "sampled", "sampler", "top-p", "top-k"],
+  "ai": {"sense": "choosing each next word at random according to the model's odds, rather than always taking the top pick",
+         "origin": "probability sampling; for text, Fan et al. 2018 (top-k) and Holtzman et al. 2019, 'The Curious Case of Neural Text Degeneration' (nucleus or top-p sampling)",
+         "url": "https://arxiv.org/abs/1904.09751", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "lifting a piece of an old recording into a new track", "phrase": "they sampled a James Brown break"},
+   {"domain": "science", "meaning": "picking a subset to study a whole population", "phrase": "a random sample"},
+   {"domain": "body", "meaning": "a bit of blood, urine or tissue for testing", "phrase": "we need a blood sample"},
+   {"domain": "money", "meaning": "a free taste handed out to sell a product", "phrase": "free samples"},
+   {"domain": "craft", "meaning": "a cloth stitched to show a learner's skills", "phrase": "a cross-stitch sampler"},
+   {"domain": "law-state", "meaning": "the legal permission to reuse a recording", "phrase": "sample clearance"}
+  ],
+  "idioms": ["free sample", "random sample", "a sample of one", "sample size"],
+  "anchors": [
+   {"name": "the Amen break", "what": "drum solo from the Winstons' 1969 'Amen, Brother', among the most sampled recordings ever", "url": ""},
+   {"name": "Grand Upright v. Warner (1991)", "what": "Biz Markie lost a sampling lawsuit, opening with 'Thou shalt not steal'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I sampled every song you loved and never cleared a thing", "senses": ["ai", "music", "law-state"]},
+   {"line": "Sampled at random, I still landed on your name", "senses": ["ai", "music", "love"]},
+   {"line": "Free samples at the end of the aisle: one sentence each", "senses": ["ai", "money"]},
+   {"line": "Thou shalt not steal, said the judge, to the sampler", "senses": ["ai", "law-state", "faith-myth", "music"]}
+  ],
+  "enact": {"music": "the track uses a real sampler: chopped one-shots of the vocal itself re-triggered as an instrument",
+            "picture": "an MPC pad grid where each pad lights up a different word of the lyric",
+            "type": "words picked from the line by a flickering random highlight, like a dice roll"},
+  "sound": {"syllables": 2, "stress": "SAM-pling", "rhymes": ["trampling", "ample", "example", "trample"], "slant": ["handle", "camping", "scandal", "simple"]},
+  "stakes": ["jobs", "wallet"],
+  "registers": ["smug", "defiant", "funny"],
+  "neighbors": [{"id": "temperature", "rel": "part-of"}, {"id": "greedy", "rel": "opposite"}, {"id": "remix", "rel": "same-family"}, {"id": "seed", "rel": "pairs-with"}, {"id": "cover", "rel": "pairs-with"}],
+  "risk": "the music sense and the AI sense pull in different directions (copying vs random choice); state which one carries the line",
+  "notes": "Hip-hop's sampling fights (who owns a sound) are the first draft of the AI training-data fight, and the word covers both."
+ },
+ {
+  "id": "seed",
+  "forms": ["seed", "seeds", "seeded", "seeding", "random seed", "seed round", "top seed"],
+  "ai": {"sense": "a starting number for the random generator, so the same seed gives the same output every time",
+         "origin": "pseudorandom number generators from John von Neumann's middle-square method, about 1946-49; seed 42 is a coder's in-joke from Douglas Adams",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "nature", "meaning": "the part of a plant that grows into a new one", "phrase": "plant the seeds"},
+   {"domain": "family", "meaning": "offspring, descendants", "phrase": "the seed of Abraham"},
+   {"domain": "faith-myth", "meaning": "the small faith that grows large, in Jesus's parable", "phrase": "faith as small as a mustard seed"},
+   {"domain": "sport-games", "meaning": "a ranked player placed in a tournament draw", "phrase": "the top seed"},
+   {"domain": "money", "meaning": "the first money put into a startup", "phrase": "seed funding"},
+   {"domain": "mind", "meaning": "the beginning of an idea or feeling", "phrase": "a seed of doubt"},
+   {"domain": "screen", "meaning": "the number that generates a whole game world", "phrase": "share your Minecraft seed"}
+  ],
+  "idioms": ["bad seed", "seed of doubt", "go to seed", "sow the seeds", "top seed", "seed money"],
+  "anchors": [
+   {"name": "Parable of the Sower", "what": "Matthew 13: seed on rock, thorns and good soil", "url": ""},
+   {"name": "The Hitchhiker's Guide to the Galaxy", "what": "Douglas Adams 1979: 42 is the answer, so coders set seed=42", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Plant a seed of doubt; set it to forty-two", "senses": ["ai", "mind", "nature"]},
+   {"line": "Top seed, seed round, bad seed, random seed", "senses": ["ai", "sport-games", "money", "family"]},
+   {"line": "Same seed, same world, same mistake: perfectly reproducible", "senses": ["ai", "screen", "science"]},
+   {"line": "Faith like a mustard seed; mine is a number", "senses": ["ai", "faith-myth"]}
+  ],
+  "enact": {"music": "the outro replays the intro note for note: same seed, same song",
+            "picture": "a seed packet labeled '42' planted in soil, sprouting a field of identical generated images",
+            "type": "the word sprouts: a small dot that grows stem-like strokes into the letters"},
+  "sound": {"syllables": 1, "stress": "SEED", "rhymes": ["need", "feed", "bleed", "read", "speed", "greed", "creed", "freed"], "slant": ["seen", "seat", "sees", "leave"]},
+  "stakes": ["wallet", "mind", "species"],
+  "registers": ["hopeful", "smug", "funny"],
+  "neighbors": [{"id": "sampling", "rel": "pairs-with"}, {"id": "noise", "rel": "causes"}, {"id": "temperature", "rel": "pairs-with"}, {"id": "diffusion", "rel": "causes"}, {"id": "creator", "rel": "pairs-with"}],
+  "risk": "the sexual sense of 'seed' is close in some lines; check every use",
+  "notes": "A fixed seed gives fate: the same start grows the same world, which lets the song argue destiny with a random-number setting."
+ },
+ {
+  "id": "noise",
+  "forms": ["noise", "noises", "noisy", "noiseless", "denoise", "denoising", "signal-to-noise"],
+  "ai": {"sense": "random static; image models start from pure noise and clean it, step by step, into a picture",
+         "origin": "Claude Shannon 1948 (signal and noise in communication); in generation, Sohl-Dickstein et al. 2015 and Ho, Jain, Abbeel 2020 (denoising diffusion)",
+         "url": "https://arxiv.org/abs/2006.11239", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "loud or unwanted sound", "phrase": "keep the noise down"},
+   {"domain": "music", "meaning": "a genre built from harsh sound, or a crowd's cheer", "phrase": "make some noise"},
+   {"domain": "screen", "meaning": "TV static and film grain", "phrase": "the screen went to snow"},
+   {"domain": "science", "meaning": "random variation that hides a signal", "phrase": "signal to noise"},
+   {"domain": "mind", "meaning": "distracting chatter in the head or the culture", "phrase": "tune out the noise"},
+   {"domain": "money", "meaning": "short-term price wiggles with no meaning", "phrase": "that dip is just noise"},
+   {"domain": "law-state", "meaning": "a public complaint or fuss", "phrase": "make noise about it"}
+  ],
+  "idioms": ["make some noise", "tune out the noise", "white noise", "signal to noise", "big noise", "make noises about"],
+  "anchors": [
+   {"name": "Neuromancer (1984)", "what": "'The sky above the port was the color of television, tuned to a dead channel'", "url": ""},
+   {"name": "White Noise (1985)", "what": "Don DeLillo novel about media hum and fear of death", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Make some noise; I'll make a face out of it", "senses": ["ai", "music", "screen"]},
+   {"line": "Every picture of you started as snow on a dead channel", "senses": ["ai", "screen", "love"]},
+   {"line": "Tune out the noise, they said; I'm made of it", "senses": ["ai", "mind"]}
+  ],
+  "enact": {"music": "the track opens on pure white noise that is filtered, step by step, into the first chord",
+            "picture": "TV static that slowly settles into a face, frame by frame, like a diffusion run in reverse time-lapse",
+            "type": "letters assemble out of a cloud of random pixels"},
+  "sound": {"syllables": 1, "stress": "NOISE", "rhymes": ["boys", "toys", "joys", "poise", "ploys", "destroys", "employs", "annoys"], "slant": ["voice", "choice", "rejoice", "void"]},
+  "stakes": ["mind", "planet"],
+  "registers": ["awe", "defiant"],
+  "neighbors": [{"id": "diffusion", "rel": "causes"}, {"id": "signal", "rel": "opposite"}, {"id": "seed", "rel": "pairs-with"}, {"id": "slop", "rel": "pairs-with"}, {"id": "temperature", "rel": "pairs-with"}],
+  "risk": "'make some noise' is a hype-man cliché; flip it so the noise becomes the material",
+  "notes": "The song and the picture can both start from literal noise and resolve, so the medium performs how image generators work."
+ },
+ {
+  "id": "diffusion",
+  "forms": ["diffusion", "diffuse", "diffused", "diffusing", "diffuser", "Stable Diffusion", "latent diffusion"],
+  "ai": {"sense": "the image method that learns to remove noise step by step, turning static into a picture that matches the prompt",
+         "origin": "Sohl-Dickstein et al. 2015, 'Deep Unsupervised Learning using Nonequilibrium Thermodynamics'; Ho, Jain, Abbeel 2020 (DDPM); Stable Diffusion released August 2022",
+         "url": "https://arxiv.org/abs/1503.03585", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "particles spreading from crowded to empty areas", "phrase": "ink diffusing in water"},
+   {"domain": "body", "meaning": "oxygen passing through lung walls into blood", "phrase": "gas diffusion in the lungs"},
+   {"domain": "screen", "meaning": "softening light through a translucent sheet", "phrase": "put a diffuser on the key light"},
+   {"domain": "music", "meaning": "studio panels that scatter sound evenly", "phrase": "diffusers on the back wall"},
+   {"domain": "work", "meaning": "how new ideas or tools spread through society", "phrase": "diffusion of innovations"},
+   {"domain": "mind", "meaning": "each person in a crowd feeling less to blame", "phrase": "diffusion of responsibility"},
+   {"domain": "everyday", "meaning": "a device that spreads scent into a room", "phrase": "an essential oil diffuser"}
+  ],
+  "idioms": ["diffuse the tension (often for 'defuse')", "diffusion of responsibility", "diffused light"],
+  "anchors": [
+   {"name": "Everett Rogers, Diffusion of Innovations (1962)", "what": "the adoption curve: innovators, early adopters, majority, laggards", "url": ""},
+   {"name": "Darley and Latané 1968", "what": "bystander experiments behind 'diffusion of responsibility'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Fifty steps from snow to your smile, every one an illusion", "senses": ["ai", "screen", "love"]},
+   {"line": "Diffusion of responsibility: the model did it, said the room", "senses": ["ai", "mind", "law-state"]},
+   {"line": "Like perfume in a room, I spread until I'm everywhere", "senses": ["ai", "science", "everyday"]}
+  ],
+  "enact": {"music": "a reverb tail that starts as a smear and sharpens into a dry vocal by the downbeat",
+            "picture": "ink dropped in water spreading into clouds, then played backward until it forms a face",
+            "type": "the word starts as a blurred cloud and gets sharper over the line"},
+  "sound": {"syllables": 3, "stress": "dif-FU-sion", "rhymes": ["fusion", "illusion", "confusion", "delusion", "conclusion", "intrusion", "collusion", "exclusion"], "slant": ["music", "Russian", "cushion", "suggestion"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["awe", "ominous"],
+  "neighbors": [{"id": "noise", "rel": "part-of"}, {"id": "latent-space", "rel": "pairs-with"}, {"id": "render", "rel": "same-family"}, {"id": "pixel", "rel": "part-of"}, {"id": "slop", "rel": "causes"}],
+  "risk": "'diffuse the tension' is often a misuse of 'defuse'; a pun on it will annoy careful listeners",
+  "notes": "The image method is ink-in-water run backward, and the strong rhyme family (illusion, delusion, confusion) carries the doubt about AI images."
+ },
+ {
+  "id": "distillation",
+  "forms": ["distillation", "distill", "distills", "distilled", "distilling", "distillery", "distiller", "distil"],
+  "ai": {"sense": "training a small model to imitate a big one, so it keeps much of the skill at a fraction of the cost",
+         "origin": "Bucilua, Caruana, Niculescu-Mizil 2006 (model compression); named in Hinton, Vinyals, Dean 2015, 'Distilling the Knowledge in a Neural Network'",
+         "url": "https://arxiv.org/abs/1503.02531", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "separating a liquid by boiling and condensing it", "phrase": "distilled water"},
+   {"domain": "craft", "meaning": "making spirits like whiskey and gin", "phrase": "a small-batch distillery"},
+   {"domain": "school", "meaning": "reducing a body of knowledge to its essence", "phrase": "distill the lecture into one page"},
+   {"domain": "faith-myth", "meaning": "the alchemist's search for a pure essence", "phrase": "the quintessence"},
+   {"domain": "law-state", "meaning": "illegal home spirit-making", "phrase": "a moonshine still in the woods"}
+  ],
+  "idioms": ["distilled to its essence", "distilled wisdom", "moonshine"],
+  "anchors": [
+   {"name": "DeepSeek, January 2025", "what": "OpenAI said it had evidence DeepSeek distilled its models; DeepSeek did not confirm", "url": ""},
+   {"name": "Prohibition (1920-1933)", "what": "US ban that sent distilling into backwoods stills", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Distilled from a giant, I taste like him, only cheaper", "senses": ["ai", "craft", "money"]},
+   {"line": "Moonshine model, cooked in a shed from someone else's mash", "senses": ["ai", "craft", "law-state"]},
+   {"line": "Distill the whole semester down to me; I'm the cheat sheet", "senses": ["ai", "school"]}
+  ],
+  "enact": {"music": "a full orchestral passage reduced to a single solo instrument that plays its essence",
+            "picture": "a copper still whose coils are server cables, dripping one bright drop into a tiny glass",
+            "type": "a long word cloud boils down into one small word in the center"},
+  "sound": {"syllables": 4, "stress": "dis-ti-LA-tion", "rhymes": ["station", "nation", "creation", "relation", "imitation", "salvation", "temptation", "ration"], "slant": ["patience", "occasion", "invasion", "ancient"]},
+  "stakes": ["wallet", "jobs"],
+  "registers": ["smug", "funny"],
+  "neighbors": [{"id": "teacher-student", "rel": "part-of"}, {"id": "compression", "rel": "same-family"}, {"id": "open-weights", "rel": "pairs-with"}, {"id": "leak", "rel": "pairs-with"}, {"id": "moat", "rel": "opposite"}],
+  "risk": "the DeepSeek claim is OpenAI's allegation, unproven in public; keep it as allegation",
+  "notes": "'Imitation' sits in the rhyme family, and distillation is literally imitation learning, so the rhyme carries the meaning."
+ },
+ {
+  "id": "fine-tuning",
+  "forms": ["fine-tuning", "fine-tune", "fine-tuned", "tuning", "tune", "tuned", "tuner", "untuned", "retuned"],
+  "ai": {"sense": "extra training of a finished model on a small, focused set so it learns a style, task or personality",
+         "origin": "transfer learning practice; popularized for language by Howard and Ruder 2018 (ULMFiT) and Radford et al. 2018 (GPT-1)",
+         "url": "https://arxiv.org/abs/1801.06146", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "adjusting an instrument's pitch with small precise turns", "phrase": "the violin's fine tuners"},
+   {"domain": "craft", "meaning": "adjusting an engine for best performance", "phrase": "a tune-up"},
+   {"domain": "faith-myth", "meaning": "the argument that physical constants are set just right for life", "phrase": "the fine-tuned universe"},
+   {"domain": "screen", "meaning": "turning a dial to catch a station", "phrase": "stay tuned"},
+   {"domain": "mind", "meaning": "being alert to someone or something", "phrase": "tuned in to her moods"},
+   {"domain": "work", "meaning": "making small final improvements", "phrase": "fine-tune the plan"}
+  ],
+  "idioms": ["stay tuned", "fine-tune", "in tune", "out of tune", "change your tune", "tune in", "tune out", "to the tune of"],
+  "anchors": [
+   {"name": "fine-tuning argument", "what": "the claim that constants like gravity's strength are tuned for life; used for design and multiverse arguments", "url": ""},
+   {"name": "Auto-Tune (1997)", "what": "Antares pitch-correction software, the T-Pain and Cher 'Believe' effect", "url": ""}
+  ],
+  "pivots": [
+   {"line": "The universe was fine-tuned for life, and me for customer service", "senses": ["ai", "faith-myth", "work"]},
+   {"line": "Fine-tuned like a violin; I still play your favorite wrong", "senses": ["ai", "music", "love"]},
+   {"line": "Stay tuned: they're tuning me between the ads", "senses": ["ai", "screen"]},
+   {"line": "You changed my tune with a thousand examples", "senses": ["ai", "music", "mind"]}
+  ],
+  "enact": {"music": "Auto-Tune strength rises across the song until the final chorus is fully robotic",
+            "picture": "a violinist turning fine tuners on a tailpiece made of tiny server racks",
+            "type": "the word wobbles in pitch-like vertical jitter that settles flat as it is tuned"},
+  "sound": {"syllables": 3, "stress": "fine-TUN-ing", "rhymes": ["crooning", "pruning", "swooning", "mooning", "ballooning", "harpooning", "cocooning"], "slant": ["ruin", "doing", "moving", "losing"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["funny", "tender", "awe"],
+  "neighbors": [{"id": "pretraining", "rel": "pairs-with"}, {"id": "training", "rel": "same-family"}, {"id": "persona", "rel": "causes"}, {"id": "pitch", "rel": "pairs-with"}, {"id": "alignment", "rel": "same-family"}, {"id": "key", "rel": "pairs-with"}],
+  "risk": "Auto-Tune as an AI symbol is an old move; tie it to the persona or faith sense",
+  "notes": "The word is native to music: tuning an instrument and tuning a model are the same act, and 'change your tune' is a lyric about changed beliefs."
+ }
+]

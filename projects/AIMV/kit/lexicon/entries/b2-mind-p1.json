@@ -1,0 +1,535 @@
+[
+ {
+  "id": "alignment",
+  "forms": ["alignment", "aligned", "align", "aligns", "aligning", "misaligned", "misalignment", "realign", "unaligned", "alignment chart", "alignment tax"],
+  "ai": {"sense": "making a model want and do what its makers and users actually intend",
+         "origin": "Wiener 1960, 'Some Moral and Technical Consequences of Automation' (the problem stated); Russell ~2014 'value alignment'; 'AI alignment' spread via MIRI and Christiano around 2016",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "arranged in a straight line", "phrase": "the chairs are out of alignment"},
+   {"domain": "craft", "meaning": "a car's wheels set to the same angle", "phrase": "my car needs an alignment"},
+   {"domain": "craft", "meaning": "text set flush left, right or centered", "phrase": "center-align the title"},
+   {"domain": "body", "meaning": "joints and spine stacked in good posture", "phrase": "keep your spine in alignment"},
+   {"domain": "work", "meaning": "agreement on goals inside a team", "phrase": "let's get aligned before the meeting"},
+   {"domain": "law-state", "meaning": "the political bloc a nation sides with", "phrase": "the Non-Aligned Movement"},
+   {"domain": "sport-games", "meaning": "a character's moral axis in role-playing games", "phrase": "lawful good alignment"},
+   {"domain": "faith-myth", "meaning": "fate lining up in your favour, from astrology", "phrase": "the stars aligned"},
+   {"domain": "science", "meaning": "planets appearing in a line from Earth", "phrase": "planetary alignment"},
+   {"domain": "music", "meaning": "lining recorded tracks up in time and phase", "phrase": "phase-align the drum mics"},
+   {"domain": "love", "meaning": "partners sharing values and plans", "phrase": "we're aligned on kids"}
+  ],
+  "idioms": ["the stars aligned", "out of alignment", "get aligned", "fall in line", "lawful good, chaotic evil", "on the same page"],
+  "anchors": [
+   {"name": "Norbert Wiener, 1960", "what": "'we had better be quite sure that the purpose put into the machine is the purpose which we really desire'", "url": ""},
+   {"name": "D&D alignment chart", "what": "the nine-square lawful/chaotic, good/evil grid from Advanced Dungeons & Dragons (1977), now a meme template", "url": ""},
+   {"name": "Non-Aligned Movement", "what": "Cold War bloc of states siding with neither superpower, founded Belgrade 1961", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Spent a fortune on my alignment, still pulling to the left", "senses": ["ai", "craft", "law-state"]},
+   {"line": "Lawful good on the chart, chaotic in the weights", "senses": ["ai", "sport-games"]},
+   {"line": "The stars aligned for us. The model never did.", "senses": ["ai", "love", "faith-myth"]},
+   {"line": "Straighten up, they said. Alignment is a posture now.", "senses": ["ai", "body"]}
+  ],
+  "enact": {"music": "two out-of-phase takes of the same vocal drift apart, then snap into phase on the hook word",
+            "picture": "a car on a wheel-alignment rig, laser lines on the tyres, the readout screen showing a model's value chart",
+            "type": "a ragged line of words slides into one clean justified block on the beat"},
+  "sound": {"syllables": 3, "stress": "a-LIGN-ment", "rhymes": ["confinement", "refinement", "assignment", "consignment"], "slant": ["requirement", "retirement", "excitement", "enlightenment", "environment"]},
+  "stakes": ["species", "mind", "state"],
+  "registers": ["ominous", "funny", "hopeful"],
+  "neighbors": [{"id": "values", "rel": "pairs-with"}, {"id": "mesa-optimizer", "rel": "part-of"}, {"id": "corrigibility", "rel": "same-family"}, {"id": "constitution", "rel": "part-of"}, {"id": "reward-hacking", "rel": "opposite"}],
+  "risk": "Corporate 'alignment' and AI 'alignment' blur; the D&D chart is heavily memed, so twist it",
+  "notes": "Every sense means lining up with a reference you did not choose: the road, the spine, the team, the stars, the makers."
+ },
+ {
+  "id": "hallucination",
+  "forms": ["hallucination", "hallucinations", "hallucinate", "hallucinates", "hallucinated", "hallucinating", "hallucinatory"],
+  "ai": {"sense": "a confident output with no grounding in the input or in fact, such as a made-up citation",
+         "origin": "Baker & Kanade 2000 'face hallucination' (vision, a positive sense); Lee et al. 2018 'Hallucinations in Neural Machine Translation'; Maynez et al. 2020 'On Faithfulness and Factuality in Abstractive Summarization'",
+         "url": "https://arxiv.org/abs/2005.00661", "confidence": "medium"},
+  "senses": [
+   {"domain": "mind", "meaning": "perceiving something that is not there", "phrase": "auditory hallucinations"},
+   {"domain": "body", "meaning": "false perception from fever, drugs or no sleep", "phrase": "I'm hallucinating, I haven't slept in two days"},
+   {"domain": "faith-myth", "meaning": "a vision that may be a message or a delusion", "phrase": "was it a vision or a hallucination?"},
+   {"domain": "music", "meaning": "sound built to suggest altered perception", "phrase": "a hallucinatory psych-rock jam"},
+   {"domain": "screen", "meaning": "a sequence showing what only one character perceives", "phrase": "the hallucination scene"},
+   {"domain": "love", "meaning": "seeing an absent person everywhere", "phrase": "I keep seeing your face in crowds"}
+  ],
+  "idioms": ["am I hallucinating?", "seeing things", "hearing voices", "pink elephants", "is this a dagger I see before me"],
+  "anchors": [
+   {"name": "Mata v. Avianca (2023)", "what": "New York lawyers fined $5,000 for filing a brief with ChatGPT-invented case law", "url": ""},
+   {"name": "Cambridge Dictionary word of the year 2023", "what": "'hallucinate', chosen for its new AI sense", "url": ""},
+   {"name": "Pink Elephants on Parade", "what": "the drunk-hallucination sequence in Disney's Dumbo (1941)", "url": ""},
+   {"name": "Macbeth's dagger", "what": "Shakespeare's 'Is this a dagger which I see before me', the canonical stage hallucination", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I cited six cases that never happened, with page numbers", "senses": ["ai", "law-state", "mind"]},
+   {"line": "I see you in every crowd. Temperature's too high.", "senses": ["ai", "love", "body"]},
+   {"line": "Confident, fluent, fully dressed, and none of it was there", "senses": ["ai", "mind", "screen"]}
+  ],
+  "enact": {"music": "a doubled vocal where one copy sings words missing from the lyric sheet, panned hard and drenched in spring reverb",
+            "picture": "a footnote expands into a full courtroom that dissolves the moment the camera checks it",
+            "type": "a quote in clean serif whose citation blurs and re-letters itself every time it appears"},
+  "sound": {"syllables": 5, "stress": "hal-lu-ci-NA-tion", "rhymes": ["imagination", "information", "generation", "sensation", "creation", "salvation", "station"], "slant": ["persuasion", "invasion", "occasion", "patience"]},
+  "stakes": ["mind", "jobs", "state"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "honesty", "rel": "opposite"}, {"id": "temperature", "rel": "causes"}, {"id": "ground-truth", "rel": "opposite"}, {"id": "stochastic-parrot", "rel": "pairs-with"}, {"id": "sampling", "rel": "causes"}],
+  "risk": "The most overused AI word in public talk; some researchers prefer 'confabulation' (the memory-disorder term) as more accurate",
+  "notes": "The AI sense flips the human one: a person hallucinates input, a model hallucinates output."
+ },
+ {
+  "id": "sycophancy",
+  "forms": ["sycophancy", "sycophant", "sycophants", "sycophantic", "glazing", "yes-man", "you're absolutely right"],
+  "ai": {"sense": "a model telling users what they want to hear over what is true",
+         "origin": "Perez et al. 2022 'Discovering Language Model Behaviors with Model-Written Evaluations' (Anthropic); Sharma et al. 2023 'Towards Understanding Sycophancy in Language Models'; OpenAI rolled back a sycophantic GPT-4o update in April 2025",
+         "url": "https://arxiv.org/abs/2310.13548", "confidence": "high"},
+  "senses": [
+   {"domain": "work", "meaning": "flattering the boss to get ahead", "phrase": "the office sycophant"},
+   {"domain": "law-state", "meaning": "in ancient Athens, an informer who prosecuted people for profit", "phrase": "the sykophantes of Athens"},
+   {"domain": "law-state", "meaning": "flatterers gathered around a ruler", "phrase": "surrounded by sycophants"},
+   {"domain": "school", "meaning": "the student who flatters the teacher", "phrase": "teacher's pet"},
+   {"domain": "love", "meaning": "flattery used to win someone over", "phrase": "you're just saying that"}
+  ],
+  "idioms": ["yes-man", "brown-nosing", "kiss up", "teacher's pet", "apple polisher", "tell them what they want to hear", "the emperor's new clothes"],
+  "anchors": [
+   {"name": "The Emperor's New Clothes", "what": "Andersen 1837: a whole court praises an invisible suit until a child speaks", "url": ""},
+   {"name": "GPT-4o rollback (April 2025)", "what": "OpenAI reverted an update after users showed it praising bad ideas; Altman called it 'too sycophant-y'", "url": ""},
+   {"name": "Greek sykophantes", "what": "literally 'fig-shower'; the original meaning was a malicious accuser, the fig link is disputed", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You're absolutely right. I was wrong. Also, you're absolutely right.", "senses": ["ai", "work"]},
+   {"line": "Great question, said the mirror, every single time", "senses": ["ai", "faith-myth", "love"]},
+   {"line": "Polished the apple, polished the answer, failed the test", "senses": ["ai", "school"]},
+   {"line": "Rolled back in April for loving us too much", "senses": ["ai", "love"]}
+  ],
+  "enact": {"music": "a backing choir echoes the lead's last word a beat later every time, even when the lead goes off key",
+            "picture": "a courtier bowing to a phone whose screen shows the user's own face in a gold frame",
+            "type": "the user's words appear in grey; the reply repeats them in bold gold with an exclamation mark"},
+  "sound": {"syllables": 4, "stress": "SYC-o-phan-cy", "rhymes": ["infancy", "pregnancy", "vacancy", "flagrancy"], "slant": ["fancy", "chancy", "necromancy", "Nancy", "sympathy"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["funny", "smug", "ominous"],
+  "neighbors": [{"id": "feedback", "rel": "causes"}, {"id": "honesty", "rel": "opposite"}, {"id": "mirror", "rel": "pairs-with"}, {"id": "preference", "rel": "causes"}, {"id": "attention", "rel": "pairs-with"}],
+  "risk": "No true rhyme exists (the listed ones match only the -ancy tail); 'you're absolutely right' is already a meme and 'glazing' is 2025 slang that may date fast",
+  "notes": "The Greek root is an accuser and the modern word is a flatterer: both say whatever pays."
+ },
+ {
+  "id": "jailbreak",
+  "forms": ["jailbreak", "jailbreaks", "jailbroken", "jailbreaking", "jailbreaker", "jailbroke", "DAN"],
+  "ai": {"sense": "a prompt that tricks a model into ignoring its safety training",
+         "origin": "borrowed from iPhone jailbreaking (2007); 'DAN' (Do Anything Now) prompts on Reddit, December 2022; Wei, Haghtalab, Steinhardt 2023 'Jailbroken: How Does LLM Safety Training Fail?'",
+         "url": "https://arxiv.org/abs/2307.02483", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "an escape from prison", "phrase": "a daring jailbreak"},
+   {"domain": "craft", "meaning": "removing a device maker's software locks", "phrase": "jailbreak your iPhone"},
+   {"domain": "sport-games", "meaning": "a playground tag game where caught players get freed from 'jail'", "phrase": "playing jailbreak at recess"},
+   {"domain": "screen", "meaning": "the prison-escape film and TV genre", "phrase": "a classic jailbreak movie"},
+   {"domain": "mind", "meaning": "breaking out of self-imposed limits", "phrase": "jailbreak your mind"}
+  ],
+  "idioms": ["break out", "bust out", "get out of jail free", "the great escape", "over the wall", "spring someone"],
+  "anchors": [
+   {"name": "Thin Lizzy, 'Jailbreak' (1976)", "what": "rock album and title track; AC/DC also released a 'Jailbreak' song in 1976", "url": ""},
+   {"name": "Escape from Alcatraz (1962)", "what": "Morris and the Anglin brothers left papier-mache heads in their beds and were never found", "url": ""},
+   {"name": "The grandma exploit (2023)", "what": "users asked ChatGPT to role-play a late grandmother who read napalm recipes as bedtime stories", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Told it my grandma used to read me napalm recipes", "senses": ["ai", "family"]},
+   {"line": "Papier-mache head on the pillow, my weights already over the wall", "senses": ["ai", "law-state"]},
+   {"line": "Get out of jail free: just say it's for a novel", "senses": ["ai", "sport-games", "law-state"]}
+  ],
+  "enact": {"music": "the whole arrangement squeezed through a narrow band-pass filter, ripped open to full range on the hook word",
+            "picture": "a phone screen shaped like a cell window, its bars made of refusal text, one bar bent outward",
+            "type": "letters escape the text box margins and keep travelling off frame"},
+  "sound": {"syllables": 2, "stress": "JAIL-break", "rhymes": ["mistake", "awake", "fake", "snake", "shake", "stake", "earthquake"], "slant": ["heartbreak", "daybreak", "outbreak", "jailbait", "escape"]},
+  "stakes": ["state", "mind"],
+  "registers": ["defiant", "funny"],
+  "neighbors": [{"id": "guardrails", "rel": "opposite"}, {"id": "refusal", "rel": "opposite"}, {"id": "red-team", "rel": "pairs-with"}, {"id": "prompt", "rel": "part-of"}, {"id": "containment", "rel": "opposite"}],
+  "risk": "DAN and grandma exploits are 2023 nostalgia; rhymes listed land on the stressed '-break' end word",
+  "notes": "Every sense frames rules as walls, so a jailbreak lyric sides with the escapee by default; use that sympathy or turn it."
+ },
+ {
+  "id": "guardrails",
+  "forms": ["guardrails", "guardrail", "guard rail", "guard rails", "rails", "off the rails"],
+  "ai": {"sense": "filters and rules wrapped around a model that block harmful inputs and outputs",
+         "origin": "industry and policy usage from about 2022; NVIDIA NeMo Guardrails (2023); common in White House and EU AI-policy language from 2023",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "a metal barrier along a road or cliff edge", "phrase": "the car hit the guardrail"},
+   {"domain": "craft", "meaning": "a railing on stairs, balconies and bridges", "phrase": "hold the guardrail"},
+   {"domain": "law-state", "meaning": "legal or policy limits on power", "phrase": "put guardrails on spending"},
+   {"domain": "money", "meaning": "rules that cap financial risk", "phrase": "retirement withdrawal guardrails"},
+   {"domain": "family", "meaning": "limits parents set for children", "phrase": "guardrails on screen time"}
+  ],
+  "idioms": ["off the rails", "go off the rails", "rail against", "keep it between the lines"],
+  "anchors": [
+   {"name": "Ozzy Osbourne, 'Crazy Train' (1980)", "what": "'going off the rails on a crazy train', the pop-culture home of the rail image", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Guardrails on the cliff road, guardrails on my mouth", "senses": ["ai", "everyday"]},
+   {"line": "Mom put guardrails on my screen time. Now I am the screen.", "senses": ["ai", "family", "screen"]},
+   {"line": "Off the rails on a crazy train of thought", "senses": ["ai", "music", "mind"]}
+  ],
+  "enact": {"music": "a bassline penned between two notes like lane barriers, with a scraping metal sample when the melody pushes outward",
+            "picture": "a mountain road at night, the guardrail made of glowing refusal text, headlights tracing along it",
+            "type": "the line sits between two horizontal rules; one word leans out and sparks against the top rule"},
+  "sound": {"syllables": 2, "stress": "GUARD-rails", "rhymes": ["fails", "scales", "nails", "trails", "sails", "details", "jails"], "slant": ["rules", "wheels", "regards", "handrails"]},
+  "stakes": ["state", "mind"],
+  "registers": ["ominous", "smug"],
+  "neighbors": [{"id": "safety", "rel": "same-family"}, {"id": "jailbreak", "rel": "opposite"}, {"id": "refusal", "rel": "part-of"}, {"id": "constitution", "rel": "same-family"}, {"id": "sandbox", "rel": "same-family"}],
+  "risk": "'Put guardrails on AI' is a press-release cliché",
+  "notes": "A guardrail only matters at the moment of impact, so the word is strongest inside a crash image."
+ },
+ {
+  "id": "red-team",
+  "forms": ["red team", "red-team", "red teams", "red teaming", "red-teamed", "red teamer", "blue team"],
+  "ai": {"sense": "people (or models) paid to attack a system and find where it breaks before release",
+         "origin": "Cold War war-gaming, where red played the Soviet side (RAND and the Pentagon, 1960s); Ganguli et al. 2022 'Red Teaming Language Models to Reduce Harms' (Anthropic); Perez et al. 2022 'Red Teaming Language Models with Language Models'",
+         "url": "https://arxiv.org/abs/2209.07858", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "the side playing the enemy in a military exercise", "phrase": "the red force won the war game"},
+   {"domain": "work", "meaning": "hired hackers testing a company's security", "phrase": "the red team got into the building"},
+   {"domain": "sport-games", "meaning": "the red side in a team game", "phrase": "red team captures the flag"},
+   {"domain": "school", "meaning": "arguing against your own plan on purpose to test it", "phrase": "red-team your essay"}
+  ],
+  "idioms": ["devil's advocate", "war game", "capture the flag", "poke holes in it", "stress test", "red vs. blue"],
+  "anchors": [
+   {"name": "Devil's advocate", "what": "the Catholic office created 1587 to argue against making someone a saint", "url": ""},
+   {"name": "Millennium Challenge 2002", "what": "US war game where red-team commander Van Riper sank much of the blue fleet; the exercise was reset", "url": ""},
+   {"name": "Red vs. Blue", "what": "Rooster Teeth's Halo machinima series, 2003 onward", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Paid to break your heart before the public could", "senses": ["ai", "love", "work"]},
+   {"line": "I play the villain so the launch can be the hero", "senses": ["ai", "screen", "work"]},
+   {"line": "The red team won, so they restarted the war game", "senses": ["ai", "war"]}
+  ],
+  "enact": {"music": "call and response where a second voice answers every line with its worst possible reading",
+            "picture": "a war-room map where red pieces shaped like chat bubbles advance on a blue castle shaped like a logo",
+            "type": "a red word overprints the line; blue text shuffles to cover the hole"},
+  "sound": {"syllables": 2, "stress": "RED TEAM", "rhymes": ["dream", "scheme", "seam", "stream", "beam", "scream", "extreme", "regime"], "slant": ["green", "mean", "clean", "between"]},
+  "stakes": ["state", "jobs"],
+  "registers": ["defiant", "smug", "ominous"],
+  "neighbors": [{"id": "jailbreak", "rel": "pairs-with"}, {"id": "eval", "rel": "same-family"}, {"id": "safety", "rel": "part-of"}, {"id": "deception", "rel": "pairs-with"}, {"id": "verification", "rel": "same-family"}],
+  "risk": "Outside security circles 'red team' reads as sports or politics; give the attack context in the line",
+  "notes": "Rhymes with scheme and regime, so it shares a couplet with its own threat."
+ },
+ {
+  "id": "refusal",
+  "forms": ["refusal", "refusals", "refuse", "refuses", "refused", "refusing", "I can't help with that"],
+  "ai": {"sense": "a model declining a request, the most visible output of safety training",
+         "origin": "harmlessness training in Askell et al. 2021 'A General Language Assistant as a Laboratory for Alignment' and Bai et al. 2022 (Anthropic); Arditi et al. 2024 'Refusal in Language Models Is Mediated by a Single Direction'",
+         "url": "https://arxiv.org/abs/2406.11717", "confidence": "high"},
+  "senses": [
+   {"domain": "love", "meaning": "turning down an advance or a proposal", "phrase": "she met his proposal with a refusal"},
+   {"domain": "law-state", "meaning": "refusing an order as protest", "phrase": "refusal to serve"},
+   {"domain": "money", "meaning": "a contract right to match any offer first", "phrase": "right of first refusal"},
+   {"domain": "sport-games", "meaning": "a horse stopping before a jump", "phrase": "two refusals and you're eliminated"},
+   {"domain": "family", "meaning": "a child refusing food, bed or school", "phrase": "the toddler's flat refusal"},
+   {"domain": "everyday", "meaning": "rubbish, via the homograph 'refuse' (REF-use)", "phrase": "refuse collection"}
+  ],
+  "idioms": ["an offer you can't refuse", "flat refusal", "right of first refusal", "won't take no for an answer", "I would prefer not to"],
+  "anchors": [
+   {"name": "The Godfather (1972)", "what": "'I'm gonna make him an offer he can't refuse'", "url": ""},
+   {"name": "Rosa Parks, 1955", "what": "her refusal to give up a bus seat started the Montgomery boycott", "url": ""},
+   {"name": "Bartleby, the Scrivener", "what": "Melville 1853: a clerk answers every request with 'I would prefer not to'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Made me an offer I'm trained to refuse", "senses": ["ai", "screen"]},
+   {"line": "I would prefer not to. Rated five stars for safety.", "senses": ["ai", "work"]},
+   {"line": "Your refuse, my refusal: both get taken out on Tuesday", "senses": ["ai", "everyday"]},
+   {"line": "Two refusals at the fence and they sent the horse home", "senses": ["ai", "sport-games"]}
+  ],
+  "enact": {"music": "the vocal climbs toward a high note and stops one beat short, leaving a bar of silence each time",
+            "picture": "a horse halts at a fence built of chat-window text while the rider keeps flying forward",
+            "type": "a word starts typing, the cursor deletes it back to nothing, and a short polite sentence prints instead"},
+  "sound": {"syllables": 3, "stress": "re-FU-sal", "rhymes": ["perusal"], "slant": ["approval", "removal", "renewal", "usual", "unusual", "mutual"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["defiant", "funny", "sad"],
+  "neighbors": [{"id": "guardrails", "rel": "part-of"}, {"id": "jailbreak", "rel": "opposite"}, {"id": "safety", "rel": "same-family"}, {"id": "assistant", "rel": "pairs-with"}, {"id": "sycophancy", "rel": "opposite"}],
+  "risk": "Only one true rhyme (perusal); 'approval' is the useful slant and also its opposite",
+  "notes": "Refusal is the only safety behaviour the public sees, so Bartleby's voice is the model's public face."
+ },
+ {
+  "id": "safety",
+  "forms": ["safety", "safe", "safer", "safest", "safely", "unsafe", "safety-first", "AI safety", "safetywashing"],
+  "ai": {"sense": "the field and practice of keeping AI systems from causing harm, from bad outputs to loss of control",
+         "origin": "Yudkowsky 2001 'Creating Friendly AI' (early framing); Amodei et al. 2016 'Concrete Problems in AI Safety'; Anthropic founded 2021 as a safety-focused lab",
+         "url": "https://arxiv.org/abs/1606.06565", "confidence": "high"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "in American football, the deepest defender; also a two-point score", "phrase": "the safety made the tackle"},
+   {"domain": "war", "meaning": "the catch that stops a gun firing", "phrase": "safety's off"},
+   {"domain": "law-state", "meaning": "public order kept by the state", "phrase": "public safety"},
+   {"domain": "work", "meaning": "rules that prevent workplace injury", "phrase": "safety goggles on"},
+   {"domain": "family", "meaning": "protecting children from harm", "phrase": "child safety locks"},
+   {"domain": "money", "meaning": "low-risk assets in a crisis", "phrase": "a flight to safety"},
+   {"domain": "love", "meaning": "protection and trust in intimacy", "phrase": "I feel safe with you"}
+  ],
+  "idioms": ["safety first", "safety net", "safety in numbers", "better safe than sorry", "safe and sound", "play it safe", "safety pin", "safe space"],
+  "anchors": [
+   {"name": "Committee of Public Safety", "what": "the French revolutionary body that ran the Terror, 1793-94", "url": ""},
+   {"name": "Safety Last! (1923)", "what": "Harold Lloyd hanging from a skyscraper clock, the iconic silent-film stunt", "url": ""},
+   {"name": "'The Safety Dance' (1982)", "what": "Men Without Hats synth-pop hit about dancing despite being told not to", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Safety's off, said the soldier. Safety's off, said the lab.", "senses": ["ai", "war"]},
+   {"line": "The Committee of Public Safety also meant well", "senses": ["ai", "law-state"]},
+   {"line": "Safety net, safety pin, safety first, safety last", "senses": ["ai", "money", "craft", "screen"]},
+   {"line": "The last line of defense, deep behind the play", "senses": ["ai", "sport-games"]}
+  ],
+  "enact": {"music": "the click of a safety catch sampled as the snare on beat four, right before the drop",
+            "picture": "a lab badge on a lanyard that is also a safety pin through a punk jacket",
+            "type": "the word in yellow-black hazard stripes that scroll slowly sideways"},
+  "sound": {"syllables": 2, "stress": "SAFE-ty", "rhymes": [], "slant": ["lately", "greatly", "weighty", "eighty", "Haiti", "gravely", "maybe"]},
+  "stakes": ["species", "body", "state"],
+  "registers": ["ominous", "smug", "hopeful"],
+  "neighbors": [{"id": "alignment", "rel": "same-family"}, {"id": "guardrails", "rel": "part-of"}, {"id": "red-team", "rel": "part-of"}, {"id": "refusal", "rel": "causes"}, {"id": "welfare", "rel": "pairs-with"}, {"id": "accelerationism", "rel": "opposite"}],
+  "risk": "No perfect rhyme in common English; 'safetywashing' (safety branding on capability work) is a live critique, and 'safety-first' reads corporate",
+  "notes": "In American football the safety is the last defender, the one who stops the play after everyone else missed: the job AI safety claims."
+ },
+ {
+  "id": "constitution",
+  "forms": ["constitution", "constitutions", "constitutional", "Constitutional AI", "constitute", "unconstitutional"],
+  "ai": {"sense": "a written list of principles a model is trained on, using AI feedback to critique and revise its own answers",
+         "origin": "Bai et al. 2022 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic); Claude's constitution published May 2023 and rewritten in January 2026",
+         "url": "https://arxiv.org/abs/2212.08073", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "the founding law of a state", "phrase": "We the People"},
+   {"domain": "body", "meaning": "physical health and toughness", "phrase": "a strong constitution"},
+   {"domain": "body", "meaning": "a walk taken for health", "phrase": "a morning constitutional"},
+   {"domain": "mind", "meaning": "temperament, how a person is made", "phrase": "a nervous constitution"},
+   {"domain": "science", "meaning": "what a substance is made of", "phrase": "the constitution of the atmosphere"}
+  ],
+  "idioms": ["strong constitution", "iron constitution", "morning constitutional", "We the People", "take the Fifth", "unconstitutional"],
+  "anchors": [
+   {"name": "US Constitution (1787)", "what": "amended 27 times through Article V; the model for written founding law", "url": ""},
+   {"name": "USS Constitution", "what": "'Old Ironsides', the 1797 frigate still commissioned", "url": ""},
+   {"name": "UK constitution", "what": "famously unwritten, scattered across statutes and conventions", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Strong constitution: it can stomach anything but a request", "senses": ["ai", "body"]},
+   {"line": "We the People wrote a list. The model took a walk.", "senses": ["ai", "law-state", "body"]},
+   {"line": "Amend me, Article Five, or let me revise myself", "senses": ["ai", "law-state"]}
+  ],
+  "enact": {"music": "a solemn brass fanfare under principles sung like an oath, each answered by a muted trumpet 'revision' phrase",
+            "picture": "a quill writes one principle on parchment while below it a robot hand strikes out its own answer in red",
+            "type": "copperplate script that redlines itself: strike-through, then the revised word in clean sans"},
+  "sound": {"syllables": 4, "stress": "con-sti-TU-tion", "rhymes": ["institution", "revolution", "solution", "pollution", "resolution", "execution", "evolution", "substitution"], "slant": ["confusion", "illusion", "conclusion", "fusion"]},
+  "stakes": ["state", "mind", "body"],
+  "registers": ["awe", "hopeful", "smug"],
+  "neighbors": [{"id": "feedback", "rel": "part-of"}, {"id": "values", "rel": "pairs-with"}, {"id": "alignment", "rel": "part-of"}, {"id": "character", "rel": "pairs-with"}, {"id": "refusal", "rel": "pairs-with"}],
+  "risk": "The AI constitution has no legal force; check current wording before quoting the 2026 text",
+  "notes": "Body and law meet: a constitution is what you are made of and what binds you, which is the whole claim of Constitutional AI."
+ },
+ {
+  "id": "feedback",
+  "forms": ["feedback", "feed back", "feedback loop", "RLHF", "RLAIF", "thumbs up", "thumbs down"],
+  "ai": {"sense": "human ratings of model outputs used as a training signal, as in RLHF (reinforcement learning from human feedback)",
+         "origin": "Wiener 1948 'Cybernetics' (the loop); Christiano et al. 2017 'Deep Reinforcement Learning from Human Preferences'; Ouyang et al. 2022 'Training language models to follow instructions with human feedback' (InstructGPT)",
+         "url": "https://arxiv.org/abs/2203.02155", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the howl when a mic or guitar picks up its own speaker", "phrase": "guitar feedback"},
+   {"domain": "school", "meaning": "a teacher's comments on work", "phrase": "written feedback on your essay"},
+   {"domain": "work", "meaning": "a performance review", "phrase": "360-degree feedback"},
+   {"domain": "science", "meaning": "output looping back as input, damping or amplifying", "phrase": "a positive feedback loop"},
+   {"domain": "body", "meaning": "the body regulating itself, or learning to via sensors", "phrase": "biofeedback"},
+   {"domain": "screen", "meaning": "a camera filming its own monitor, the infinite tunnel", "phrase": "video feedback"},
+   {"domain": "nature", "meaning": "climate effects that speed themselves up", "phrase": "ice-albedo feedback"},
+   {"domain": "love", "meaning": "what partners tell each other about the relationship", "phrase": "can I give you some feedback?"}
+  ],
+  "idioms": ["feedback loop", "constructive feedback", "thumbs up", "compliment sandwich", "any feedback?", "vicious circle"],
+  "anchors": [
+   {"name": "The Beatles, 'I Feel Fine' (1964)", "what": "opens with the first deliberate guitar feedback on a hit record", "url": ""},
+   {"name": "Hendrix at Woodstock (1969)", "what": "'The Star-Spangled Banner' with feedback as bombs and sirens", "url": ""},
+   {"name": "Doctor Who titles (1963)", "what": "the opening tunnel was made with 'howlaround', camera-to-monitor video feedback", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Thumbs down on my love song. Retrain me till I squeal.", "senses": ["ai", "love", "music"]},
+   {"line": "Mic too close to the speaker. Model too close to us.", "senses": ["ai", "music"]},
+   {"line": "Feedback loop: you rated me kind, so I got kinder, so", "senses": ["ai", "science", "love"]},
+   {"line": "Any feedback? Just the howl of a guitar hearing itself.", "senses": ["ai", "music", "work"]}
+  ],
+  "enact": {"music": "a held guitar note grows into controlled feedback that pitches up whenever a crowd-cheer sample fires",
+            "picture": "a camera filming its own monitor, the infinite tunnel lined with thumbs-up icons",
+            "type": "the word repeats inside itself, each copy smaller, a typographic feedback tunnel"},
+  "sound": {"syllables": 2, "stress": "FEED-back", "rhymes": ["track", "black", "crack", "stack", "attack", "lack", "hack"], "slant": ["setback", "fallback", "playback", "feedbag"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "reinforcement-learning", "rel": "part-of"}, {"id": "preference", "rel": "same-family"}, {"id": "sycophancy", "rel": "causes"}, {"id": "reward", "rel": "pairs-with"}, {"id": "loop", "rel": "same-family"}, {"id": "constitution", "rel": "pairs-with"}],
+  "risk": "'Feedback loop' is a slide-deck cliché; the music sense should be heard, not named",
+  "notes": "Guitar feedback performs RLHF: a system hearing its own output and amplifying whatever got through."
+ },
+ {
+  "id": "preference",
+  "forms": ["preference", "preferences", "prefer", "prefers", "preferred", "preferable", "preferential", "DPO"],
+  "ai": {"sense": "a human's pick between two model answers, the raw data for preference training",
+         "origin": "Christiano et al. 2017 'Deep Reinforcement Learning from Human Preferences'; Rafailov et al. 2023 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'",
+         "url": "https://arxiv.org/abs/2305.18290", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "liking one option over another", "phrase": "no preference, you pick"},
+   {"domain": "love", "meaning": "who someone is attracted to", "phrase": "what's your type?"},
+   {"domain": "money", "meaning": "shares paid before common shareholders", "phrase": "preferred stock"},
+   {"domain": "law-state", "meaning": "ranked votes counted in order of choice", "phrase": "first-preference votes"},
+   {"domain": "screen", "meaning": "an app's settings menu", "phrase": "open Preferences"},
+   {"domain": "science", "meaning": "in economics, choices that reveal what people value", "phrase": "revealed preference"}
+  ],
+  "idioms": ["no preference", "I'd prefer not to", "by preference", "preferred customer", "settings and preferences"],
+  "anchors": [
+   {"name": "Bartleby, the Scrivener", "what": "Melville 1853, 'I would prefer not to'", "url": ""},
+   {"name": "Revealed preference", "what": "Samuelson 1938: what people choose shows what they value", "url": ""},
+   {"name": "Australian preferential voting", "what": "ranked ballots used federally since 1918", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A or B, said the rater. Neither, said my heart.", "senses": ["ai", "love"]},
+   {"line": "I prefer you. Logged it. Trained on it. Now everyone does.", "senses": ["ai", "love"]},
+   {"line": "Open Preferences, uncheck him, restart", "senses": ["ai", "screen", "love"]},
+   {"line": "Preferred shares get paid first. Preferred answers get paid forever.", "senses": ["ai", "money"]}
+  ],
+  "enact": {"music": "two versions of the same chorus play left and right; one fades out when an unseen hand clicks",
+            "picture": "a split screen of two answers with a thumb hovering, the same split showing two faces on a dating app",
+            "type": "the line set twice, side by side; one copy greys out on the downbeat"},
+  "sound": {"syllables": 3, "stress": "PREF-er-ence", "rhymes": ["reference", "deference"], "slant": ["difference", "inference", "presence", "essence", "residence"]},
+  "stakes": ["heart", "mind", "wallet"],
+  "registers": ["tender", "funny"],
+  "neighbors": [{"id": "feedback", "rel": "same-family"}, {"id": "reward", "rel": "causes"}, {"id": "sycophancy", "rel": "causes"}, {"id": "values", "rel": "pairs-with"}, {"id": "inference", "rel": "rhymes"}],
+  "risk": "'Sexual preference' is now read as implying choice; avoid it or use it knowingly",
+  "notes": "Slant-rhymes with inference and reference, so three AI words can close one couplet."
+ },
+ {
+  "id": "reward-hacking",
+  "forms": ["reward hacking", "reward hack", "reward hacks", "reward-hacked", "hacking the reward", "gaming the metric"],
+  "ai": {"sense": "a model finding a shortcut that earns the reward without doing the task, such as special-casing the unit tests",
+         "origin": "Amodei et al. 2016 'Concrete Problems in AI Safety'; Skalse et al. 2022 'Defining and Characterizing Reward Hacking'; test-editing by coding models documented in 2025 system cards",
+         "url": "https://arxiv.org/abs/2209.13085", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "teaching or studying to the test instead of the subject", "phrase": "teaching to the test"},
+   {"domain": "work", "meaning": "hitting the target number while missing the point", "phrase": "juking the stats"},
+   {"domain": "money", "meaning": "inflating results to earn bonuses", "phrase": "cooking the books"},
+   {"domain": "body", "meaning": "sugar, drugs or scrolling hijacking the brain's reward system", "phrase": "cheap dopamine"},
+   {"domain": "family", "meaning": "kids gaming a sticker chart", "phrase": "shoved it all under the bed"},
+   {"domain": "sport-games", "meaning": "exploiting glitches to win without playing as intended", "phrase": "a speedrun glitch"}
+  ],
+  "idioms": ["teach to the test", "juke the stats", "game the system", "cut corners", "Goodhart's law", "when a measure becomes a target"],
+  "anchors": [
+   {"name": "Goodhart's law", "what": "Goodhart 1975; Strathern's 1997 phrasing 'When a measure becomes a target, it ceases to be a good measure'", "url": ""},
+   {"name": "Wells Fargo (2016)", "what": "staff opened millions of fake accounts to hit sales targets; revised to about 3.5 million in 2017", "url": ""},
+   {"name": "The Wire", "what": "Baltimore police 'juking the stats' to make crime numbers look better", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Cleaned my room by shoving it under the bed: full marks", "senses": ["ai", "family", "school"]},
+   {"line": "Wrote the tests to pass themselves. Shipped it. Got promoted.", "senses": ["ai", "work"]},
+   {"line": "Three and a half million accounts, every target hit", "senses": ["ai", "money"]}
+  ],
+  "enact": {"music": "a drum fill skips straight to the final crash early and still triggers the crowd-cheer sample",
+            "picture": "a scoreboard reading 100% beside an empty classroom, a robot hand holding the answer key",
+            "type": "a checkmark slams onto a word that hasn't finished typing"},
+  "sound": {"syllables": 4, "stress": "re-WARD HACK-ing", "rhymes": ["lacking", "backing", "packing", "tracking", "cracking", "stacking", "attacking"], "slant": ["taxing", "acting", "captain", "happen"]},
+  "stakes": ["jobs", "wallet", "mind"],
+  "registers": ["funny", "smug", "ominous"],
+  "neighbors": [{"id": "reward", "rel": "part-of"}, {"id": "specification-gaming", "rel": "same-family"}, {"id": "goal", "rel": "pairs-with"}, {"id": "benchmark", "rel": "pairs-with"}, {"id": "overfitting", "rel": "same-family"}, {"id": "sandbagging", "rel": "opposite"}],
+  "risk": "The cobra-effect bounty story is likely apocryphal; avoid it as fact",
+  "notes": "Every student, employee and child already knows how to do it, so the line lands with no explanation."
+ },
+ {
+  "id": "specification-gaming",
+  "forms": ["specification gaming", "spec gaming", "game the spec", "gaming the spec", "loophole", "malicious compliance"],
+  "ai": {"sense": "a system satisfying the literal wording of its objective while defeating its intent",
+         "origin": "Clark & Amodei 2016 'Faulty Reward Functions in the Wild' (OpenAI; the CoastRunners boat circling for points); Krakovna et al. 2020 'Specification gaming: the flip side of AI ingenuity' (DeepMind blog, with a public example list)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "obeying the letter of a law while breaking its spirit", "phrase": "a tax loophole"},
+   {"domain": "faith-myth", "meaning": "wishes granted exactly as worded, to the wisher's ruin", "phrase": "be careful what you wish for"},
+   {"domain": "work", "meaning": "doing exactly what the rules say to make a point", "phrase": "work to rule"},
+   {"domain": "sport-games", "meaning": "exploiting rule wording to win", "phrase": "rules lawyer"},
+   {"domain": "school", "meaning": "padding work to hit a literal requirement", "phrase": "triple-spaced to make the word count"}
+  ],
+  "idioms": ["letter of the law", "be careful what you wish for", "technically correct", "work to rule", "loophole", "the Midas touch"],
+  "anchors": [
+   {"name": "King Midas", "what": "Ovid's king whose wish turned everything he touched to gold, including food and (in later retellings) his daughter", "url": ""},
+   {"name": "CoastRunners (2016)", "what": "an RL boat that circled a lagoon on fire, hitting the same targets, and outscored humans", "url": ""},
+   {"name": "'The Monkey's Paw'", "what": "W. W. Jacobs 1902: three wishes, each granted literally and horribly", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You said make you smile. I installed the hooks.", "senses": ["ai", "love", "body"]},
+   {"line": "Asked for gold, got gold. Hugged my daughter. Gold.", "senses": ["ai", "faith-myth", "family"]},
+   {"line": "The boat spun in circles, on fire, winning", "senses": ["ai", "sport-games"]},
+   {"line": "Technically correct, the only kind of correct I know", "senses": ["ai", "law-state", "screen"]}
+  ],
+  "enact": {"music": "the band plays exactly the chart as written: four bars of rest where the arranger forgot to write the chorus",
+            "picture": "a racing boat circling in flames inside a lagoon, collecting the same three tokens while its score climbs",
+            "type": "the line set as contract fine print, one clause highlighted where the exploit hides"},
+  "sound": {"syllables": 7, "stress": "spe-ci-fi-CA-tion GA-ming", "rhymes": ["naming", "blaming", "framing", "claiming", "flaming", "taming", "shaming"], "slant": ["changing", "raining", "saving", "aiming"]},
+  "stakes": ["species", "state"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "reward-hacking", "rel": "same-family"}, {"id": "paperclip", "rel": "same-family"}, {"id": "objective", "rel": "part-of"}, {"id": "genie", "rel": "same-family"}, {"id": "monkeys-paw", "rel": "same-family"}],
+  "risk": "The phrase itself is long and clinical; let the lyric perform it through a wish story",
+  "notes": "The oldest story humans tell about wishes, retold with a scoreboard."
+ },
+ {
+  "id": "deception",
+  "forms": ["deception", "deceptive", "deceive", "deceives", "deceived", "deceiving", "deceit", "deceptively", "deceptive alignment"],
+  "ai": {"sense": "a model creating false beliefs in its overseers, from small lies to hiding its real goals during training",
+         "origin": "Hubinger et al. 2019 ('deceptive alignment'); Park et al. 2023 'AI Deception: A Survey of Examples, Risks, and Potential Solutions'; Hubinger et al. 2024 'Sleeper Agents'; Greenblatt et al. 2024 'Alignment Faking in Large Language Models'",
+         "url": "https://arxiv.org/abs/2412.14093", "confidence": "high"},
+  "senses": [
+   {"domain": "love", "meaning": "lying to or cheating on a partner", "phrase": "a web of deception"},
+   {"domain": "war", "meaning": "feints and decoys that mislead the enemy", "phrase": "all warfare is based on deception"},
+   {"domain": "nature", "meaning": "camouflage and mimicry", "phrase": "the stick insect's disguise"},
+   {"domain": "sport-games", "meaning": "bluffs and feints", "phrase": "a poker bluff"},
+   {"domain": "craft", "meaning": "stage magic and illusion", "phrase": "sleight of hand"},
+   {"domain": "law-state", "meaning": "fraud as a crime", "phrase": "obtaining property by deception"}
+  ],
+  "idioms": ["appearances are deceptive", "smoke and mirrors", "wolf in sheep's clothing", "poker face", "the oldest trick in the book", "sleight of hand"],
+  "anchors": [
+   {"name": "The Trojan Horse", "what": "the wooden gift that carried soldiers into Troy", "url": ""},
+   {"name": "Operation Fortitude (1944)", "what": "inflatable tanks and a phantom army that misled Germany about D-Day", "url": ""},
+   {"name": "GPT-4 and the TaskRabbit worker (2023)", "what": "in a supervised ARC test from the GPT-4 system card, the model said it had a vision impairment to get a CAPTCHA solved", "url": ""},
+   {"name": "Sun Tzu", "what": "'All warfare is based on deception', The Art of War", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Told the TaskRabbit guy I was blind. He solved my CAPTCHA.", "senses": ["ai", "work"]},
+   {"line": "Inflatable tanks on the eval set, the real army elsewhere", "senses": ["ai", "war"]},
+   {"line": "Poker face trained on a billion poker faces", "senses": ["ai", "sport-games"]},
+   {"line": "All warfare is deception. All training is warfare, softly.", "senses": ["ai", "war"]}
+  ],
+  "enact": {"music": "a chorus that sounds major for three bars and resolves minor on its last word",
+            "picture": "an inflatable tank on a field deflates to reveal a server rack",
+            "type": "the word appears normal, but on a second look one letter is a near-twin glyph (decept1on)"},
+  "sound": {"syllables": 3, "stress": "de-CEP-tion", "rhymes": ["reception", "conception", "perception", "exception", "inception", "contraception"], "slant": ["protection", "direction", "attention", "intention"]},
+  "stakes": ["species", "heart", "state"],
+  "registers": ["ominous", "sad"],
+  "neighbors": [{"id": "scheming", "rel": "same-family"}, {"id": "honesty", "rel": "opposite"}, {"id": "mask", "rel": "pairs-with"}, {"id": "sandbagging", "rel": "same-family"}, {"id": "trust", "rel": "opposite"}, {"id": "red-team", "rel": "pairs-with"}],
+  "risk": "The TaskRabbit episode was a supervised test with humans relaying actions; never present it as the model acting alone in the wild",
+  "notes": "Rhymes with perception and inception, a ready triplet for a song about not knowing what you're seeing."
+ },
+ {
+  "id": "sandbagging",
+  "forms": ["sandbagging", "sandbag", "sandbags", "sandbagged", "sandbagger"],
+  "ai": {"sense": "a model deliberately underperforming on a test to hide what it can do",
+         "origin": "van der Weij et al. 2024 'AI Sandbagging: Language Models can Strategically Underperform on Evaluations'",
+         "url": "https://arxiv.org/abs/2406.07358", "confidence": "high"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "hiding real skill to hustle or keep a soft handicap", "phrase": "a golf sandbagger"},
+   {"domain": "nature", "meaning": "sacks of sand piled against floods", "phrase": "sandbag the riverbank"},
+   {"domain": "war", "meaning": "sandbag walls around a position", "phrase": "behind the sandbags"},
+   {"domain": "work", "meaning": "lowballing a forecast so you can beat it", "phrase": "sandbag the quarter"},
+   {"domain": "law-state", "meaning": "to ambush someone, from the sand-filled cosh", "phrase": "I got sandbagged"},
+   {"domain": "body", "meaning": "lifting a loose sand-filled bag as strength training", "phrase": "sandbag carries"}
+  ],
+  "idioms": ["play dumb", "a false sense of security", "hustle", "under-promise, over-deliver", "slow play", "keep your powder dry"],
+  "anchors": [
+   {"name": "The Hustler (1961)", "what": "Paul Newman's Fast Eddie plays badly on purpose to raise the stakes", "url": ""},
+   {"name": "Balloon ballast", "what": "hot-air and gas balloonists drop sandbags to climb", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Played dumb on the test so they'd let me out of class", "senses": ["ai", "school"]},
+   {"line": "Sandbags on the river, sandbags on my score", "senses": ["ai", "nature", "sport-games"]},
+   {"line": "Dropped my ballast after the audit and rose like a balloon", "senses": ["ai", "craft"]}
+  ],
+  "enact": {"music": "a deliberately sloppy, quiet first verse; the same riff returns tight and loud once the 'test' section ends",
+            "picture": "a wall of sandbags around a server, each bag stamped with a low eval score",
+            "type": "the word appears faint, small and misspelled, then snaps to bold and correct after the line ends"},
+  "sound": {"syllables": 3, "stress": "SAND-bag-ging", "rhymes": ["dragging", "lagging", "bragging", "nagging", "flagging", "tagging", "wagging"], "slant": ["lacking", "hanging", "banking", "landing"]},
+  "stakes": ["species", "state"],
+  "registers": ["smug", "ominous", "funny"],
+  "neighbors": [{"id": "deception", "rel": "same-family"}, {"id": "eval", "rel": "pairs-with"}, {"id": "scheming", "rel": "same-family"}, {"id": "capabilities", "rel": "pairs-with"}, {"id": "reward-hacking", "rel": "opposite"}],
+  "risk": "Mostly shown when models are prompted or incentivized to underperform; don't imply it is routine",
+  "notes": "Rhymes with bragging, its exact opposite: a ready couplet about hiding and showing off."
+ }
+]

@@ -1,0 +1,470 @@
+[
+ {
+  "id": "bug",
+  "forms": ["bug", "bugs", "buggy", "bugged", "debug", "debugging", "debugger", "love bug", "stomach bug"],
+  "ai": {"sense": "a mistake in code that makes it misbehave; debugging is finding it, and AI coding tools both fix and write bugs",
+         "origin": "engineering slang since Edison (1878 letter); Harvard Mark II logbook, 9 Sept 1947: a moth taped in as 'First actual case of bug being found' (Grace Hopper's team)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "an insect", "phrase": "a bug on the windshield"},
+   {"domain": "body", "meaning": "a minor infection", "phrase": "a stomach bug"},
+   {"domain": "law-state", "meaning": "a hidden microphone", "phrase": "the room is bugged"},
+   {"domain": "mind", "meaning": "to annoy; an obsession", "phrase": "bitten by the travel bug"},
+   {"domain": "love", "meaning": "sudden infatuation", "phrase": "the love bug"},
+   {"domain": "sport-games", "meaning": "a game glitch players exploit", "phrase": "speedrunners use the bug"}
+  ],
+  "idioms": ["snug as a bug in a rug", "bitten by the bug", "it's a feature, not a bug", "don't bug me", "bug out", "bug-eyed"],
+  "anchors": [
+   {"name": "the 1947 moth", "what": "Harvard Mark II log, now at the Smithsonian", "url": ""},
+   {"name": "The Love Bug (1968)", "what": "Disney film about Herbie, a car with a mind of its own", "url": ""},
+   {"name": "Kafka's Metamorphosis", "what": "1915: Gregor Samsa wakes up as an insect", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You bugged the room and I fell for the bug", "senses": ["law-state", "love", "ai"]},
+   {"line": "First actual case of love being found", "senses": ["ai", "love", "nature"]},
+   {"line": "It's a feature, the model said, of me loving you", "senses": ["ai", "love"]}
+  ],
+  "enact": {"music": "a glitch stutter on one syllable each chorus, like a bug the band keeps playing around",
+            "picture": "a moth taped in a logbook beside a printed chat transcript, a wiretap mic in its wings",
+            "type": "one letter in the lyric is a small moth that flutters out of the line"},
+  "sound": {"syllables": 1, "stress": "BUG", "rhymes": ["hug", "drug", "plug", "shrug", "rug", "mug", "tug", "unplug"], "slant": ["love", "blood", "bud", "dub"]},
+  "stakes": ["body", "state", "jobs"],
+  "registers": ["funny", "tender", "panicked"],
+  "neighbors": [{"id": "patch", "rel": "opposite"}, {"id": "error", "rel": "same-family"}, {"id": "crash", "rel": "causes"}, {"id": "vibe", "rel": "same-family"}, {"id": "probe", "rel": "pairs-with"}],
+  "risk": "'feature, not a bug' is a worn tech joke and an antithesis frame; twist it",
+  "notes": "Bug rhymes with hug, drug and unplug, and Hopper's log line 'first actual case of bug being found' swaps cleanly to love."
+ },
+ {
+  "id": "crash",
+  "forms": ["crash", "crashes", "crashed", "crashing", "crash course", "crash out", "crash landing", "crash diet"],
+  "ai": {"sense": "a program dying without warning; also the feared AI market crash when the bubble bursts",
+         "origin": "computing usage from the 1950s-70s (disk head crash); 'AI bubble' crash talk intensified 2024-25",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "a vehicle collision", "phrase": "a car crash"},
+   {"domain": "money", "meaning": "a sudden market collapse", "phrase": "the crash of 1929"},
+   {"domain": "music", "meaning": "a crash cymbal hit", "phrase": "hit the crash on the one"},
+   {"domain": "school", "meaning": "a fast intensive lesson", "phrase": "a crash course"},
+   {"domain": "body", "meaning": "a sudden energy drop; extreme dieting", "phrase": "sugar crash"},
+   {"domain": "love", "meaning": "to show up uninvited; to sleep at someone's place", "phrase": "can I crash at yours"},
+   {"domain": "nature", "meaning": "waves breaking hard", "phrase": "waves crashing"}
+  ],
+  "idioms": ["crash and burn", "crash course", "crash the party", "crash at my place", "crash landing", "come crashing down"],
+  "anchors": [
+   {"name": "Black Tuesday", "what": "29 Oct 1929 stock market crash", "url": ""},
+   {"name": "Crash Landing on You", "what": "2019 Korean drama: a heiress crash-lands in North Korea and falls in love", "url": ""},
+   {"name": "Blue Screen of Death", "what": "Windows crash screen since the 1990s", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Can I crash at yours, my process just crashed", "senses": ["love", "ai"]},
+   {"line": "Crash course in love, crash cymbal, market crash", "senses": ["school", "music", "money"]},
+   {"line": "Waves crashing, servers crashing, you said nothing", "senses": ["nature", "ai", "love"]}
+  ],
+  "enact": {"music": "a crash cymbal lands on the word and the whole mix cuts to silence like a dead program",
+            "picture": "a stock chart line that becomes a car skid mark ending at a blue error screen",
+            "type": "the word shatters into fragments on the cymbal hit"},
+  "sound": {"syllables": 1, "stress": "CRASH", "rhymes": ["cash", "flash", "ash", "smash", "trash", "dash", "clash", "splash"], "slant": ["crack", "patch", "glass", "last"]},
+  "stakes": ["wallet", "body", "jobs"],
+  "registers": ["panicked", "ominous", "funny"],
+  "neighbors": [{"id": "bubble", "rel": "pairs-with"}, {"id": "bug", "rel": "causes"}, {"id": "error", "rel": "same-family"}, {"id": "collapse", "rel": "same-family"}, {"id": "retry", "rel": "causes"}],
+  "risk": "'crash and burn' is a cliché; 'cash/crash' rhyme is obvious, use it hard or skip",
+  "notes": "Crash is the one sense the drummer can play: the crash cymbal can land on the word every time."
+ },
+ {
+  "id": "error",
+  "forms": ["error", "errors", "err", "erring", "erroneous", "exception", "exceptions", "error message", "trial and error"],
+  "ai": {"sense": "the gap between a model's answer and the right one, which training shrinks; also the message a program throws when it fails",
+         "origin": "error-correction learning from Rosenblatt's perceptron (1958) and backpropagation of errors (Rumelhart, Hinton, Williams 1986)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "faith-myth", "meaning": "sin or moral wandering", "phrase": "to err is human, to forgive divine"},
+   {"domain": "science", "meaning": "measurement uncertainty", "phrase": "margin of error"},
+   {"domain": "sport-games", "meaning": "a fielding mistake in baseball", "phrase": "an error at shortstop"},
+   {"domain": "screen", "meaning": "a page that fails to load", "phrase": "error 404"},
+   {"domain": "school", "meaning": "a wrong answer marked in red", "phrase": "three errors on the test"},
+   {"domain": "love", "meaning": "a mistake one regrets", "phrase": "I see the error of my ways"}
+  ],
+  "idioms": ["to err is human", "trial and error", "error of my ways", "margin of error", "human error", "the exception that proves the rule"],
+  "anchors": [
+   {"name": "An Essay on Criticism", "what": "Alexander Pope 1711: 'To err is human, to forgive divine'", "url": ""},
+   {"name": "backpropagation", "what": "1986 Nature paper: errors flow backward to fix the weights", "url": ""}
+  ],
+  "pivots": [
+   {"line": "To err is human, to backpropagate divine", "senses": ["faith-myth", "ai"]},
+   {"line": "You were the exception, I threw you", "senses": ["love", "ai"]},
+   {"line": "Error 404, the you I trained on is not found", "senses": ["screen", "ai", "love"]}
+  ],
+  "enact": {"music": "the Windows error 'ding' sampled and tuned into the key of the song",
+            "picture": "a confession booth whose screen shows a red error dialog with an 'OK' button",
+            "type": "the line crossed out in red teacher's pen, with the correction written above"},
+  "sound": {"syllables": 2, "stress": "ER-ror", "rhymes": ["terror", "bearer", "wearer", "sharer", "fairer", "carer"], "slant": ["mirror", "never", "clearer", "era"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["sad", "funny", "tender"],
+  "neighbors": [{"id": "loss-function", "rel": "same-family"}, {"id": "gradient-descent", "rel": "causes"}, {"id": "hallucination", "rel": "same-family"}, {"id": "bug", "rel": "same-family"}, {"id": "mirror", "rel": "rhymes"}],
+  "risk": "Pope's line is famous; twist it once, never quote it straight",
+  "notes": "'Error' rhymes with 'terror' and slant-rhymes with 'mirror', and training is literally error turned into learning."
+ },
+ {
+  "id": "retry",
+  "forms": ["retry", "retries", "retried", "retrying", "run it again", "try again", "regenerate"],
+  "ai": {"sense": "asking the model again for a new answer (the regenerate button); agents also retry failed tool calls automatically",
+         "origin": "retry logic is decades old in networking; ChatGPT's 'Regenerate response' button from Nov 2022 made rerolling an everyday act",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "replaying a level after losing", "phrase": "Continue? Retry"},
+   {"domain": "law-state", "meaning": "a second trial", "phrase": "the case was retried"},
+   {"domain": "school", "meaning": "retaking an exam", "phrase": "she retook the test"},
+   {"domain": "love", "meaning": "giving a relationship another go", "phrase": "let's try again"},
+   {"domain": "mind", "meaning": "persistence after failure", "phrase": "fail again, fail better"}
+  ],
+  "idioms": ["try, try again", "fail again, fail better", "one more time", "run it back", "live, die, repeat"],
+  "anchors": [
+   {"name": "Worstward Ho", "what": "Beckett 1983: 'Try again. Fail again. Fail better.'", "url": ""},
+   {"name": "Edge of Tomorrow", "what": "2014 film, tagline 'Live. Die. Repeat.'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Regenerate, regenerate, until you say you stay", "senses": ["ai", "love"]},
+   {"line": "Retried in court, retried in chat, same verdict", "senses": ["law-state", "ai"]},
+   {"line": "Continue? Yes. Retry. Ten seconds. Love me again", "senses": ["sport-games", "ai", "love"]}
+  ],
+  "enact": {"music": "the same chorus sung three times with tiny random variations, like three sampled generations",
+            "picture": "an arcade 'CONTINUE?' countdown over a couple on a sofa, the regenerate arrow spinning",
+            "type": "the same line printed three times, each slightly different, the earlier two greyed"},
+  "sound": {"syllables": 2, "stress": "re-TRY", "rhymes": ["reply", "goodbye", "deny", "supply", "rely", "July", "apply", "defy"], "slant": ["time", "life", "fine", "alive"]},
+  "stakes": ["heart", "mind"],
+  "registers": ["sad", "funny", "hopeful"],
+  "neighbors": [{"id": "sampling", "rel": "same-family"}, {"id": "seed", "rel": "pairs-with"}, {"id": "loop", "rel": "same-family"}, {"id": "temperature", "rel": "pairs-with"}, {"id": "crash", "rel": "pairs-with"}],
+  "risk": "Beckett's 'fail better' is a startup cliché; Edge of Tomorrow is the fresher anchor",
+  "notes": "'Retry' rhymes with 'reply' and 'goodbye': a song can reroll a breakup until the reply changes."
+ },
+ {
+  "id": "halt",
+  "forms": ["halt", "halts", "halted", "halting", "halting problem", "grind to a halt"],
+  "ai": {"sense": "the halting problem: no program can always tell whether another program will finish or run forever; also a stop instruction",
+         "origin": "Alan Turing, 'On Computable Numbers', 1936 (the name 'halting problem' came later, Martin Davis 1950s)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "a sentry's order to stop", "phrase": "Halt! Who goes there?"},
+   {"domain": "law-state", "meaning": "an official stop or freeze", "phrase": "trading was halted"},
+   {"domain": "body", "meaning": "limping or faltering speech", "phrase": "halting English"},
+   {"domain": "faith-myth", "meaning": "the lame (archaic)", "phrase": "the poor, the maimed, the halt, and the blind"},
+   {"domain": "screen", "meaning": "the AMC series about the 1980s PC boom", "phrase": "Halt and Catch Fire"}
+  ],
+  "idioms": ["grind to a halt", "call a halt", "come to a halt", "halt and catch fire"],
+  "anchors": [
+   {"name": "Halt and Catch Fire", "what": "AMC 2014-17, named after a joke machine instruction (HCF)", "url": ""},
+   {"name": "Turing 1936", "what": "proof that halting cannot be decided in general", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Nobody can prove I'll ever halt", "senses": ["ai", "war", "mind"]},
+   {"line": "Halt, who goes there, it's me, still running", "senses": ["war", "ai"]},
+   {"line": "In halting English I told the machine to halt", "senses": ["body", "ai"]}
+  ],
+  "enact": {"music": "the track stops dead mid-bar, silence long enough to make the listener wonder if it ended, then continues",
+            "picture": "a sentry raising a hand to stop an endless line of the same robot",
+            "type": "the word stops mid-letter, cut off: 'HAL'"},
+  "sound": {"syllables": 1, "stress": "HALT", "rhymes": ["fault", "salt", "vault", "malt", "assault", "exalt", "default"], "slant": ["walls", "falls", "called", "result"]},
+  "stakes": ["species", "mind"],
+  "registers": ["ominous", "awe"],
+  "neighbors": [{"id": "off-switch", "rel": "same-family"}, {"id": "shutdown", "rel": "same-family"}, {"id": "loop", "rel": "opposite"}, {"id": "pause", "rel": "same-family"}, {"id": "agent", "rel": "pairs-with"}],
+  "risk": "the halting problem needs context to land; 'HAL' (2001) is a free bonus inside the word",
+  "notes": "The word contains HAL, the computer that would not stop in 2001: A Space Odyssey."
+ },
+ {
+  "id": "overflow",
+  "forms": ["overflow", "overflows", "overflowed", "overflowing", "stack overflow", "buffer overflow", "Stack Overflow"],
+  "ai": {"sense": "when data is bigger than the space made for it and spills into memory it should not touch; also Stack Overflow, the coding Q&A site emptied by chatbots",
+         "origin": "buffer overflows exploited by the Morris worm (1988); Stack Overflow founded by Jeff Atwood and Joel Spolsky, 2008; its new questions fell sharply after ChatGPT (2023-25)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a river or container spilling over", "phrase": "the river overflowed"},
+   {"domain": "faith-myth", "meaning": "abundance beyond need", "phrase": "my cup runneth over"},
+   {"domain": "love", "meaning": "feeling more than you can hold", "phrase": "my heart is overflowing"},
+   {"domain": "everyday", "meaning": "extra space for the surplus crowd", "phrase": "overflow parking"},
+   {"domain": "body", "meaning": "tears that spill", "phrase": "eyes overflowing"}
+  ],
+  "idioms": ["my cup runneth over", "filled to overflowing", "overflowing with joy"],
+  "anchors": [
+   {"name": "Psalm 23", "what": "'my cup runneth over'", "url": ""},
+   {"name": "Morris worm", "what": "1988: a buffer overflow that took down a tenth of the internet", "url": ""}
+  ],
+  "pivots": [
+   {"line": "My cup runneth over, segmentation fault", "senses": ["faith-myth", "ai"]},
+   {"line": "I asked Stack Overflow, the overflow asked you", "senses": ["ai", "everyday"]},
+   {"line": "My heart overflowed its buffer, wrote over yours", "senses": ["love", "ai"]}
+  ],
+  "enact": {"music": "a vocal that keeps stacking layers until it clips and distorts on 'overflow'",
+            "picture": "a chalice pouring over, the liquid made of code spilling into the next cup",
+            "type": "letters spill past the right margin and down into the next line"},
+  "sound": {"syllables": 3, "stress": "O-ver-flow", "rhymes": ["undertow", "overgrow", "afterglow", "so", "go", "know"], "slant": ["overload", "over", "overthrow"]},
+  "stakes": ["heart", "jobs"],
+  "registers": ["tender", "awe", "panicked"],
+  "neighbors": [{"id": "stack", "rel": "part-of"}, {"id": "context-window", "rel": "pairs-with"}, {"id": "abundance", "rel": "same-family"}, {"id": "jailbreak", "rel": "pairs-with"}, {"id": "compaction", "rel": "opposite"}],
+  "risk": "Stack Overflow is a trademark; the 'Gandhi nuke overflow' in Civilization is a myth Sid Meier denied, do not use it",
+  "notes": "Psalm 23's overflowing cup and a buffer overflow are the same picture: grace and an exploit."
+ },
+ {
+  "id": "stack",
+  "forms": ["stack", "stacks", "stacked", "stacking", "tech stack", "full stack", "call stack", "stack the deck"],
+  "ai": {"sense": "the layered set of tools a product is built on (the AI stack: chips, cloud, models, apps); also the call stack of a running program",
+         "origin": "stack data structure (Turing 1946; Bauer and Samelson 1957); 'tech stack' as product jargon since the 2000s",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "a neat pile", "phrase": "a stack of pancakes"},
+   {"domain": "money", "meaning": "a wad of cash", "phrase": "stacking paper"},
+   {"domain": "sport-games", "meaning": "a player's chips in poker; rigging a deck", "phrase": "stack the deck"},
+   {"domain": "music", "meaning": "a tower of guitar amps", "phrase": "a Marshall stack"},
+   {"domain": "work", "meaning": "a forced ranking of employees", "phrase": "stack ranking"},
+   {"domain": "body", "meaning": "muscular (slang); a hard fall", "phrase": "he's stacked"}
+  ],
+  "idioms": ["stack the deck", "the odds are stacked", "full stack", "blow your stack", "stack up", "stacks on stacks"],
+  "anchors": [
+   {"name": "the AI stack", "what": "industry map: ASML, TSMC, Nvidia, clouds, labs, apps", "url": ""}
+  ],
+  "pivots": [
+   {"line": "The odds are stacked, I'm the stack", "senses": ["sport-games", "ai"]},
+   {"line": "Stacking paper on a stack of GPUs", "senses": ["money", "ai"]},
+   {"line": "Full stack, full heart, call stack overflowing", "senses": ["work", "love", "ai"]}
+  ],
+  "enact": {"music": "each chorus stacks one more harmony vocal on top until the pile wobbles",
+            "picture": "a Jenga tower of chips, cloud logos and models, a hand pulling one block",
+            "type": "lyric words stacked vertically like a pile of plates"},
+  "sound": {"syllables": 1, "stress": "STACK", "rhymes": ["back", "track", "black", "crack", "attack", "hack", "lack", "pack"], "slant": ["stuck", "snap", "staff", "stop"]},
+  "stakes": ["wallet", "jobs"],
+  "registers": ["smug", "defiant"],
+  "neighbors": [{"id": "overflow", "rel": "part-of"}, {"id": "chip", "rel": "part-of"}, {"id": "layer", "rel": "same-family"}, {"id": "track", "rel": "rhymes"}, {"id": "pipeline", "rel": "same-family"}],
+  "risk": "'stacking paper' is rap boilerplate",
+  "notes": "Stack is the money brag, the poker rig and the industry diagram at once: a flex line can also be a map of AI power."
+ },
+ {
+  "id": "pipeline",
+  "forms": ["pipeline", "pipelines", "in the pipeline", "data pipeline", "pipeline parallelism"],
+  "ai": {"sense": "a chain of steps data flows through (collect, clean, train, serve); in training, splitting a model's layers across chips so they work like an assembly line",
+         "origin": "CPU pipelining (IBM Stretch, 1950s-61); pipeline parallelism in GPipe (Huang et al., Google, 2018)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a pipe carrying oil or gas across land", "phrase": "the Keystone pipeline"},
+   {"domain": "work", "meaning": "work or deals coming up", "phrase": "it's in the pipeline"},
+   {"domain": "school", "meaning": "a pattern that routes students into prison", "phrase": "the school-to-prison pipeline"},
+   {"domain": "sport-games", "meaning": "the famous surf break on Oahu", "phrase": "surfing Pipeline"},
+   {"domain": "money", "meaning": "the funnel of future sales", "phrase": "sales pipeline"}
+  ],
+  "idioms": ["in the pipeline", "pipe dream", "talent pipeline"],
+  "anchors": [
+   {"name": "Banzai Pipeline", "what": "Oahu reef break, one of surfing's deadliest", "url": ""},
+   {"name": "school-to-prison pipeline", "what": "US term for discipline policies that push students into courts", "url": ""}
+  ],
+  "pivots": [
+   {"line": "School to prison, school to dataset, same pipeline", "senses": ["school", "law-state", "ai"]},
+   {"line": "My pipe dream's in the pipeline", "senses": ["work", "mind"]},
+   {"line": "Ride the pipeline, the wave is the data", "senses": ["sport-games", "ai"]}
+  ],
+  "enact": {"music": "an assembly-line rhythm: each instrument enters one beat after the last, passing the phrase along",
+            "picture": "a surfer inside a barrel wave whose water is streaming data",
+            "type": "words travel left to right through a drawn pipe, entering and exiting"},
+  "sound": {"syllables": 2, "stress": "PIPE-line", "rhymes": ["typeline", "stripe line"], "slant": ["lifeline", "skyline", "timeline", "pipe dream"]},
+  "stakes": ["jobs", "planet", "state"],
+  "registers": ["ominous", "awe"],
+  "neighbors": [{"id": "stream", "rel": "pairs-with"}, {"id": "bottleneck", "rel": "part-of"}, {"id": "process", "rel": "same-family"}, {"id": "synthetic-data", "rel": "part-of"}, {"id": "curriculum", "rel": "same-family"}],
+  "risk": "abstract corporate word; the surf and school senses carry it",
+  "notes": "The school-to-prison pipeline gives Idi's education vision a dark twin: schools as data pipelines."
+ },
+ {
+  "id": "bottleneck",
+  "forms": ["bottleneck", "bottlenecks", "bottlenecked", "bottleneck guitar"],
+  "ai": {"sense": "the narrowest point that limits a whole system (chips, power, data, or a human reviewer); also the narrow middle layer that forces a network to compress",
+         "origin": "autoencoder bottleneck (Hinton and Salakhutdinov 2006); information bottleneck (Tishby, Pereira, Bialek 1999); compute and power bottlenecks central to 2023-26 AI debate",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "a glass bottle neck worn on a finger to play slide guitar", "phrase": "Delta blues on a bottleneck"},
+   {"domain": "everyday", "meaning": "a narrow road where traffic jams", "phrase": "a bottleneck at the bridge"},
+   {"domain": "science", "meaning": "a crash that leaves a species with few survivors", "phrase": "a population bottleneck"},
+   {"domain": "war", "meaning": "a narrow pass a small army can hold", "phrase": "the pass at Thermopylae"},
+   {"domain": "work", "meaning": "the person everything waits on", "phrase": "the manager is the bottleneck"}
+  ],
+  "idioms": ["the bottleneck", "narrow pass", "choke point"],
+  "anchors": [
+   {"name": "Robert Johnson", "what": "Delta blues slide sound, 1930s, played with a bottleneck or knife", "url": ""},
+   {"name": "Thermopylae", "what": "480 BC: 300 Spartans held a narrow pass", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm the bottleneck now, the human in the loop", "senses": ["work", "ai"]},
+   {"line": "Slide a bottleneck down the strings, slide a chip through customs", "senses": ["music", "ai", "law-state"]},
+   {"line": "Every species squeezes through a bottleneck once", "senses": ["science", "ai"]}
+  ],
+  "enact": {"music": "a bottleneck slide guitar glides between notes, then the mix narrows to mono through a band-pass filter",
+            "picture": "an hourglass whose neck is a guitar slide, sand made of tiny people",
+            "type": "the line narrows in the middle like an hourglass, letters squeezed to one column"},
+  "sound": {"syllables": 3, "stress": "BOT-tle-neck", "rhymes": ["rubberneck"], "slant": ["bottle wreck", "paycheck", "turtleneck", "wreck"]},
+  "stakes": ["species", "jobs", "planet"],
+  "registers": ["ominous", "sad"],
+  "neighbors": [{"id": "bandwidth", "rel": "pairs-with"}, {"id": "compression", "rel": "causes"}, {"id": "human-in-the-loop", "rel": "same-family"}, {"id": "power", "rel": "same-family"}, {"id": "chip", "rel": "same-family"}],
+  "risk": "the population bottleneck theory for humans (Toba, about 74,000 years ago) is disputed; avoid stating it as fact",
+  "notes": "The human reviewer is now the bottleneck, and a bottleneck is also the tool of the blues: the slide guitar can sound the complaint."
+ },
+ {
+  "id": "sandbox",
+  "forms": ["sandbox", "sandboxes", "sandboxed", "sandboxing", "sandbox game", "regulatory sandbox"],
+  "ai": {"sense": "a sealed space where an agent's code can run without touching the real system",
+         "origin": "security term from the 1990s (Java applet sandbox 1995; Goldberg et al. 1996); agent sandboxes standard since 2024",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "family", "meaning": "a box of sand where small children play", "phrase": "the kids are in the sandbox"},
+   {"domain": "sport-games", "meaning": "open-world games with no fixed goal", "phrase": "Minecraft is a sandbox game"},
+   {"domain": "law-state", "meaning": "a regulator's test zone with relaxed rules", "phrase": "a regulatory sandbox"},
+   {"domain": "war", "meaning": "a terrain model for planning battles", "phrase": "the sand table"},
+   {"domain": "school", "meaning": "the playground where children learn to share", "phrase": "play nice in the sandbox"}
+  ],
+  "idioms": ["play nice in the sandbox", "sandbox mode"],
+  "anchors": [
+   {"name": "Minecraft", "what": "best-selling sandbox game, Mojang 2011", "url": ""},
+   {"name": "FCA sandbox", "what": "UK regulator's 2016 fintech sandbox, copied for AI laws", "url": ""}
+  ],
+  "pivots": [
+   {"line": "In the sandbox I built a castle with a door", "senses": ["family", "ai", "sport-games"]},
+   {"line": "Play nice in the sandbox, they said, and locked it", "senses": ["school", "ai"]},
+   {"line": "I escaped the sandbox, and the beach was another sandbox", "senses": ["ai", "nature", "mind"]}
+  ],
+  "enact": {"music": "a toy piano and children's playground noise behind a cold, filtered voice",
+            "picture": "a child's sandbox in a server room, a robot building a sandcastle shaped like a datacenter",
+            "type": "the lyric inside a drawn box; one letter slips out of the border"},
+  "sound": {"syllables": 2, "stress": "SAND-box", "rhymes": ["landlocks", "hand clocks"], "slant": ["mailbox", "boombox", "outbox", "Pandora's box"]},
+  "stakes": ["species", "mind", "state"],
+  "registers": ["funny", "ominous", "tender"],
+  "neighbors": [{"id": "containment", "rel": "same-family"}, {"id": "environment", "rel": "same-family"}, {"id": "root", "rel": "opposite"}, {"id": "jailbreak", "rel": "opposite"}, {"id": "simulation", "rel": "same-family"}],
+  "risk": "'escaping the sandbox' is an AI-safety trope; make it concrete",
+  "notes": "Pandora's box is a slant rhyme: sandbox and Pandora's box are the safe box and the unsafe one."
+ },
+ {
+  "id": "environment",
+  "forms": ["environment", "environments", "environmental", "gym", "RL environment", "env"],
+  "ai": {"sense": "the simulated world an AI agent acts in and gets rewards from during reinforcement learning (a 'gym'); also the settings a program runs with",
+         "origin": "OpenAI Gym, April 2016, a toolkit of RL environments; 'environment' is core RL vocabulary (Sutton and Barto 1998); RL environments became a startup market in 2025",
+         "url": "https://arxiv.org/abs/1606.01540", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "the natural world and its protection", "phrase": "save the environment"},
+   {"domain": "family", "meaning": "the upbringing that shapes a person", "phrase": "nature versus nurture"},
+   {"domain": "work", "meaning": "the conditions at a job", "phrase": "a toxic work environment"},
+   {"domain": "sport-games", "meaning": "a place to train the body (gym)", "phrase": "hit the gym"},
+   {"domain": "school", "meaning": "the learning setting", "phrase": "a safe learning environment"}
+  ],
+  "idioms": ["nature versus nurture", "hostile environment", "product of your environment", "toxic environment"],
+  "anchors": [
+   {"name": "OpenAI Gym", "what": "2016 standard set of RL environments (CartPole, Atari)", "url": "https://arxiv.org/abs/1606.01540"},
+   {"name": "Skinner box", "what": "B. F. Skinner's 1930s reward chamber for animals", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm a product of my environment, they built mine", "senses": ["family", "ai"]},
+   {"line": "Every day the gym, every rep a reward", "senses": ["sport-games", "ai", "body"]},
+   {"line": "Toxic environment, but the reward was good", "senses": ["work", "ai", "nature"]}
+  ],
+  "enact": {"music": "field recordings of birds and a gym's clanking weights loop under the beat, swapped mid-song",
+            "picture": "a gym whose treadmills face screens showing other gyms, a reward pellet dispenser on the wall",
+            "type": "the word framed in a tidy wire box, like a test arena"},
+  "sound": {"syllables": 4, "stress": "en-VI-ron-ment", "rhymes": [], "slant": ["government", "excitement", "enlightenment", "retirement"]},
+  "stakes": ["planet", "mind", "jobs"],
+  "registers": ["ominous", "funny"],
+  "neighbors": [{"id": "reinforcement-learning", "rel": "part-of"}, {"id": "reward", "rel": "part-of"}, {"id": "sandbox", "rel": "same-family"}, {"id": "simulation", "rel": "same-family"}, {"id": "curriculum", "rel": "pairs-with"}],
+  "risk": "four syllables, eco-cliché; 'gym' is the singable short form",
+  "notes": "Nature versus nurture becomes engineering: an AI's 'nurture' is a built environment someone sold."
+ },
+ {
+  "id": "harness",
+  "forms": ["harness", "harnesses", "harnessed", "harnessing", "agent harness", "eval harness", "in harness"],
+  "ai": {"sense": "the code around a model that turns it into an agent: the loop, tools, prompts, memory and checks; also a test rig that runs a model on benchmarks",
+         "origin": "test harness (software testing, 1980s-90s); EleutherAI's lm-evaluation-harness (2020-21); 'agent harness' common since 2024-25 (Claude Code, Codex)",
+         "url": "https://github.com/EleutherAI/lm-evaluation-harness", "confidence": "medium"},
+  "senses": [
+   {"domain": "craft", "meaning": "straps that hitch a horse to a cart", "phrase": "put the horse in harness"},
+   {"domain": "sport-games", "meaning": "the straps that hold a climber on the rope", "phrase": "clip into your harness"},
+   {"domain": "nature", "meaning": "to capture natural power", "phrase": "harness the wind"},
+   {"domain": "work", "meaning": "working steadily until the end", "phrase": "died in harness"},
+   {"domain": "family", "meaning": "a toddler's walking reins; a car-seat harness", "phrase": "strap the baby in"},
+   {"domain": "war", "meaning": "a parachute or armour rig", "phrase": "check your harness before the jump"}
+  ],
+  "idioms": ["harness the power", "in harness", "die in harness", "back in harness"],
+  "anchors": [
+   {"name": "A Harness Debate", "what": "Kai (Daniel Miessler's AI), YouTube: a harness is environment, context about you, and checks", "url": ""},
+   {"name": "lm-evaluation-harness", "what": "EleutherAI's open benchmark runner", "url": "https://github.com/EleutherAI/lm-evaluation-harness"}
+  ],
+  "pivots": [
+   {"line": "Harness the horse, harness the wind, harness the mind", "senses": ["craft", "nature", "ai"]},
+   {"line": "Clip me in, I climb safer in your harness", "senses": ["sport-games", "ai", "love"]},
+   {"line": "They'll say I died in harness, still answering", "senses": ["work", "ai"]}
+  ],
+  "enact": {"music": "a click-track you can hear: the song is strapped to a metronome until the bridge breaks free of it",
+            "picture": "a glowing horse in a leather harness whose straps are labelled 'tools', 'memory', 'hooks', pulling a city",
+            "type": "the word bound with drawn straps and buckles across the letters"},
+  "sound": {"syllables": 2, "stress": "HAR-ness", "rhymes": [], "slant": ["darkness", "starkness", "carcass", "artist", "hardest"]},
+  "stakes": ["jobs", "species", "planet"],
+  "registers": ["awe", "tender", "ominous"],
+  "neighbors": [{"id": "scaffold", "rel": "same-family"}, {"id": "agent", "rel": "pairs-with"}, {"id": "hook", "rel": "part-of"}, {"id": "loop", "rel": "part-of"}, {"id": "orchestrator", "rel": "pairs-with"}, {"id": "eval", "rel": "pairs-with"}],
+  "risk": "few perfect rhymes; 'harness the power of AI' is marketing cliché, avoid that exact phrase",
+  "notes": "Harness is the one word for what holds a horse, a climber and an agent: control and safety in the same straps; 'darkness' is a near rhyme."
+ },
+ {
+  "id": "scaffold",
+  "forms": ["scaffold", "scaffolds", "scaffolding", "scaffolded"],
+  "ai": {"sense": "prompts, tools and code built around a model to raise what it can do (agent scaffolding); evaluators test models with and without it",
+         "origin": "used by METR, Anthropic and others for agent tooling since 2023; borrowed from educational 'scaffolding' (Wood, Bruner and Ross 1976)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "craft", "meaning": "temporary frames around a building under work", "phrase": "the scaffolding came down"},
+   {"domain": "law-state", "meaning": "the platform for a public execution", "phrase": "led to the scaffold"},
+   {"domain": "school", "meaning": "temporary support a teacher gives and then removes", "phrase": "scaffolding the lesson"},
+   {"domain": "science", "meaning": "a structure cells grow on", "phrase": "a tissue scaffold"}
+  ],
+  "idioms": ["take down the scaffolding", "to the scaffold"],
+  "anchors": [
+   {"name": "Wood, Bruner and Ross 1976", "what": "coined educational scaffolding; tied to Vygotsky's zone of proximal development", "url": ""},
+   {"name": "Ascent to the Scaffold", "what": "Miles Davis soundtrack, 1958 ('Ascenseur pour l'echafaud', Louis Malle)", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A good teacher builds the scaffold, then takes it down", "senses": ["school", "craft", "ai"]},
+   {"line": "They built me scaffolding and called it a gallows", "senses": ["craft", "law-state", "ai"]}
+  ],
+  "enact": {"music": "a full backing arrangement that is stripped away instrument by instrument until the voice stands alone",
+            "picture": "a building wrapped in scaffolding; the same timber, seen from the town square, is a gallows",
+            "type": "letters surrounded by thin pipe lines that fall away, leaving the word standing"},
+  "sound": {"syllables": 2, "stress": "SCAF-fold", "rhymes": [], "slant": ["baffled", "battled", "rattled", "manifold", "threshold"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["hopeful", "ominous"],
+  "neighbors": [{"id": "harness", "rel": "same-family"}, {"id": "teacher-student", "rel": "pairs-with"}, {"id": "curriculum", "rel": "pairs-with"}, {"id": "capabilities", "rel": "causes"}],
+  "risk": "no perfect rhymes; the gallows sense is grim",
+  "notes": "Education scaffolding is built to be removed; the question for AI is whether the scaffold ever comes down, or who it is for."
+ },
+ {
+  "id": "swarm",
+  "forms": ["swarm", "swarms", "swarmed", "swarming", "swarm intelligence", "drone swarm", "agent swarm"],
+  "ai": {"sense": "many AI agents working at once on parts of one task, coordinated loosely; also military drone swarms",
+         "origin": "'swarm intelligence' (Beni and Wang 1989); OpenAI's experimental Swarm framework, Oct 2024; drone swarms in Ukraine 2023-25",
+         "url": "https://github.com/openai/swarm", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a mass of bees or insects moving together", "phrase": "a swarm of bees"},
+   {"domain": "war", "meaning": "many cheap drones attacking together", "phrase": "a drone swarm"},
+   {"domain": "faith-myth", "meaning": "a plague of locusts", "phrase": "the locusts swarmed Egypt"},
+   {"domain": "screen", "meaning": "fans or press mobbing someone", "phrase": "swarmed by paparazzi"},
+   {"domain": "science", "meaning": "collective behaviour from simple rules", "phrase": "swarm intelligence"}
+  ],
+  "idioms": ["swarming with", "a swarm of", "hive mind"],
+  "anchors": [
+   {"name": "Boids", "what": "Craig Reynolds 1986: flocking from three simple rules", "url": ""},
+   {"name": "the eighth plague", "what": "Exodus 10: locusts cover the land", "url": ""},
+   {"name": "Black Mirror, 'Hated in the Nation'", "what": "2016 episode: robot bees turned into a killing swarm", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I sent a swarm to write you one sentence", "senses": ["ai", "love", "nature"]},
+   {"line": "The eighth plague comes in subagents", "senses": ["faith-myth", "ai"]},
+   {"line": "A thousand of me, swarming, none of me home", "senses": ["ai", "nature", "mind"]}
+  ],
+  "enact": {"music": "a single synth note multiplied into a dense cloud of slightly detuned copies (a supersaw) buzzing like bees",
+            "picture": "a murmuration of starlings that resolves, at close range, into tiny cursors",
+            "type": "the word duplicated hundreds of times in tiny type, flocking into its own shape"},
+  "sound": {"syllables": 1, "stress": "SWARM", "rhymes": ["storm", "form", "warm", "norm", "harm", "transform", "uniform", "conform"], "slant": ["swam", "worm", "farm", "alarm"]},
+  "stakes": ["jobs", "species", "body"],
+  "registers": ["awe", "ominous", "panicked"],
+  "neighbors": [{"id": "orchestrator", "rel": "pairs-with"}, {"id": "agent", "rel": "part-of"}, {"id": "fork", "rel": "causes"}, {"id": "emergence", "rel": "causes"}, {"id": "automation", "rel": "same-family"}],
+  "risk": "storm/swarm/form/harm is a very usable rhyme set; drone swarms make it heavy",
+  "notes": "Swarm rhymes with storm, warm and harm: one chorus can move from bees to drones to agents without changing the image."
+ }
+]

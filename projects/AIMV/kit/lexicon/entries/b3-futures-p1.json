@@ -1,0 +1,504 @@
+[
+ {
+  "id": "compute",
+  "forms": ["compute", "computes", "computed", "computing", "computation", "computer", "does not compute"],
+  "ai": {"sense": "the raw processing budget (chips times hours) spent training or running a model, used as a noun",
+         "origin": "noun use spread with OpenAI's 'AI and Compute' post (Amodei and Hernandez 2018); Altman on Lex Fridman #419, March 2024: 'compute is going to be the currency of the future'",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "school", "meaning": "to work out a number by calculation", "phrase": "compute the area of the triangle"},
+   {"domain": "mind", "meaning": "to make sense of something; failing to fit a fact into your picture", "phrase": "that does not compute"},
+   {"domain": "money", "meaning": "a scarce commodity bought, rationed and hoarded by labs and nations", "phrase": "we're compute-constrained"},
+   {"domain": "screen", "meaning": "the stock line of a malfunctioning TV robot", "phrase": "does not compute, does not compute"}
+  ],
+  "idioms": ["does not compute", "compute budget", "compute-bound", "throw more compute at it", "it just computes"],
+  "anchors": [
+   {"name": "'Does not compute'", "what": "1960s TV robot catchphrase (My Living Doll, Lost in Space) for logic overload", "url": ""},
+   {"name": "AI and Compute", "what": "OpenAI 2018 post: training compute for the largest runs doubled every 3.4 months, 2012 to 2018", "url": "https://openai.com/index/ai-and-compute/"}
+  ],
+  "pivots": [
+   {"line": "You leaving me just does not compute", "senses": ["ai", "mind", "love"]},
+   {"line": "They pay my rent in compute now", "senses": ["ai", "money", "work"]},
+   {"line": "I did the homework; the homework did the compute", "senses": ["ai", "school"]}
+  ],
+  "enact": {"music": "a robot vocoder stutters 'does not compute' on the off-beat, then glitches into a clean downbeat",
+            "picture": "a kid's math worksheet whose answer box fills with a server-rack photo",
+            "type": "the word set in a seven-segment calculator font, one segment always dead"},
+  "sound": {"syllables": 2, "stress": "com-PUTE", "rhymes": ["mute", "root", "loot", "suit", "boot", "shoot", "fruit", "flute"], "slant": ["proof", "rule", "lose", "truth"]},
+  "stakes": ["wallet", "jobs", "planet"],
+  "registers": ["funny", "smug"],
+  "neighbors": [{"id": "flops", "rel": "part-of"}, {"id": "scaling", "rel": "causes"}, {"id": "bitter-lesson", "rel": "pairs-with"}, {"id": "datacenter", "rel": "part-of"}, {"id": "chip", "rel": "part-of"}],
+  "risk": "verb-as-noun reads as jargon to outsiders; pair it with 'does not compute' so the listener has a handle",
+  "notes": "The old robot catchphrase hands the hook a ready rug pull: the machine that once could not compute now owns all of it."
+ },
+ {
+  "id": "flops",
+  "forms": ["flops", "flop", "flopped", "flopping", "FLOPs", "FLOP/s", "petaflop", "exaflop"],
+  "ai": {"sense": "floating-point operations, the unit of arithmetic used to count how much compute a training run burned (FLOP/s is the rate)",
+         "origin": "HPC benchmarking unit since the 1970s (LINPACK); training thresholds in law: Biden EO 14110 (Oct 2023) set 10^26 FLOP (rescinded Jan 2025), EU AI Act sets 10^25 FLOP for systemic-risk models; Epoch AI estimates GPT-4 at about 2e25 FLOP",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "screen", "meaning": "a film or show that fails commercially", "phrase": "the movie was a total flop"},
+   {"domain": "music", "meaning": "a single or album that fails to chart", "phrase": "her second album flopped"},
+   {"domain": "sport-games", "meaning": "in poker, the first three shared cards dealt face up", "phrase": "I hit a set on the flop"},
+   {"domain": "sport-games", "meaning": "faking a foul by falling (basketball, football)", "phrase": "he flopped to draw the foul"},
+   {"domain": "body", "meaning": "to drop down heavily and loosely", "phrase": "flop onto the couch"},
+   {"domain": "law-state", "meaning": "a sudden reversal of a public stance", "phrase": "a flip-flop on policy"},
+   {"domain": "science", "meaning": "the Fosbury Flop high-jump technique, back over the bar", "phrase": "the Fosbury Flop changed the high jump"}
+  ],
+  "idioms": ["box-office flop", "flip-flop", "the flop, the turn, the river", "flop sweat", "Fosbury Flop"],
+  "anchors": [
+   {"name": "10^26", "what": "the US 2023 executive order reporting threshold for a training run, the first law written in FLOPs", "url": ""},
+   {"name": "Fosbury Flop", "what": "Dick Fosbury's backward high jump, gold at Mexico City 1968", "url": "https://en.wikipedia.org/wiki/Fosbury_flop"}
+  ],
+  "pivots": [
+   {"line": "Ten to the twenty-six flops, and the single flopped", "senses": ["ai", "music"]},
+   {"line": "Spent a billion flops to make you laugh; it flopped", "senses": ["ai", "screen", "money"]},
+   {"line": "I go all in after the flop", "senses": ["ai", "sport-games", "money"]}
+  ],
+  "enact": {"music": "a huge build-up riser that drops into a single sad trombone",
+            "picture": "a poker table where the three flop cards are GPUs and a cinema marquee behind reads FLOP",
+            "type": "the letters fall over one by one, the last 's' lying flat on the baseline"},
+  "sound": {"syllables": 1, "stress": "FLOPS", "rhymes": ["drops", "stops", "tops", "props", "cops", "shops", "chops", "hops"], "slant": ["box", "clocks", "knocks", "lost"]},
+  "stakes": ["wallet", "planet"],
+  "registers": ["funny", "smug"],
+  "neighbors": [{"id": "compute", "rel": "part-of"}, {"id": "scaling", "rel": "pairs-with"}, {"id": "bubble", "rel": "causes"}, {"id": "hype", "rel": "pairs-with"}, {"id": "chip", "rel": "part-of"}],
+  "risk": "FLOPs (count) vs FLOP/s (rate) is a factual trap; 'flops' as failure must be clear from context or it reads as a typo",
+  "notes": "The unit of AI ambition is spelled like the word for failure; every compute brag carries its own punchline."
+ },
+ {
+  "id": "scaling",
+  "forms": ["scale", "scales", "scaled", "scaling", "scaling laws", "at scale", "upscale", "scale up", "scale-up"],
+  "ai": {"sense": "the finding that loss falls predictably as model size, data and compute grow together, so bigger runs get reliably better",
+         "origin": "Kaplan et al. 2020, 'Scaling Laws for Neural Language Models' (OpenAI); Hoffmann et al. 2022, 'Training Compute-Optimal Large Language Models' (Chinchilla, about 20 tokens per parameter)",
+         "url": "https://arxiv.org/abs/2001.08361", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "an ordered ladder of notes; practicing it", "phrase": "practice your scales"},
+   {"domain": "everyday", "meaning": "a device for weighing", "phrase": "step on the scale"},
+   {"domain": "law-state", "meaning": "the balance held by Justice", "phrase": "tip the scales"},
+   {"domain": "nature", "meaning": "the plates on a fish or a snake", "phrase": "scales like armor"},
+   {"domain": "sport-games", "meaning": "to climb a wall or a mountain", "phrase": "scale the cliff"},
+   {"domain": "craft", "meaning": "the ratio between a model or map and the real thing", "phrase": "a 1:100 scale model"},
+   {"domain": "money", "meaning": "growth where cost per unit falls as size grows", "phrase": "economies of scale"},
+   {"domain": "body", "meaning": "tartar scraped off teeth; dead skin flaking", "phrase": "scale and polish at the dentist"},
+   {"domain": "mind", "meaning": "a rating from low to high", "phrase": "on a scale of one to ten"},
+   {"domain": "faith-myth", "meaning": "scales falling from the eyes: sudden understanding (Acts 9:18)", "phrase": "the scales fell from my eyes"}
+  ],
+  "idioms": ["tip the scales", "on a scale of one to ten", "economies of scale", "the scales fell from my eyes", "practice your scales", "at scale", "scale back", "doesn't scale"],
+  "anchors": [
+   {"name": "Scaling Laws for Neural Language Models", "what": "Kaplan et al. 2020: smooth power laws linking loss to size, data and compute", "url": "https://arxiv.org/abs/2001.08361"},
+   {"name": "Chinchilla", "what": "DeepMind 2022: most big models were undertrained; scale data with parameters", "url": "https://arxiv.org/abs/2203.15556"},
+   {"name": "Scales of Justice", "what": "Themis/Justitia's balance, emblem of courts", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I practiced scales until the scales fell off my eyes", "senses": ["ai", "music", "faith-myth"]},
+   {"line": "On a scale of one to ten, we scaled to eleven", "senses": ["ai", "mind", "screen"]},
+   {"line": "Put the planet on the scale and kept on scaling", "senses": ["ai", "everyday", "nature"]},
+   {"line": "Your love doesn't scale; mine does, at a loss", "senses": ["ai", "love", "money"]}
+  ],
+  "enact": {"music": "a major scale climbs one octave per chorus, each run on a bigger instrument (toy piano, piano, organ, full orchestra)",
+            "picture": "a bathroom scale whose needle is a loss curve, a fish-scale texture on the GPU heat sink",
+            "type": "each repeat of the word set one size larger, stair-stepping off the frame"},
+  "sound": {"syllables": 1, "stress": "SCALE", "rhymes": ["fail", "sale", "whale", "tale", "rail", "jail", "pale", "hail"], "slant": ["fall", "skill", "shell", "scaled"]},
+  "stakes": ["wallet", "planet", "species"],
+  "registers": ["awe", "ominous", "smug"],
+  "neighbors": [{"id": "compute", "rel": "causes"}, {"id": "bitter-lesson", "rel": "pairs-with"}, {"id": "kardashev", "rel": "same-family"}, {"id": "exponentials", "rel": "pairs-with"}, {"id": "loss-function", "rel": "pairs-with"}, {"id": "key", "rel": "pairs-with"}],
+  "risk": "'scale is all you need' is worn on AI Twitter; lean on the music and justice senses instead",
+  "notes": "Ten domains in one syllable, and two of them (musical scale, scale of justice) can be performed on screen and in the mix at once."
+ },
+ {
+  "id": "exponentials",
+  "forms": ["exponential", "exponentials", "exponentially", "exponent", "exponents", "to the power of", "hockey stick"],
+  "ai": {"sense": "growth that multiplies by a fixed factor each period, the shape claimed for AI compute, capability and spending",
+         "origin": "math sense old (Euler); AI framing via Moore 1965 and Kurzweil 2001 'The Law of Accelerating Returns'; Epoch AI 2024: frontier training compute grew about 4-5x per year since 2010",
+         "url": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "a power in algebra; a function like 2 to the x", "phrase": "solve for the exponent"},
+   {"domain": "money", "meaning": "compound interest piling on itself", "phrase": "your savings grow exponentially"},
+   {"domain": "body", "meaning": "an epidemic or tumor whose cases double each period", "phrase": "cases are growing exponentially"},
+   {"domain": "music", "meaning": "pitch: each octave up doubles the frequency", "phrase": "A440, A880, an octave up"},
+   {"domain": "everyday", "meaning": "loose for 'a lot more, fast'", "phrase": "it got exponentially worse"},
+   {"domain": "nature", "meaning": "population growth before limits bite (bacteria, rabbits)", "phrase": "the bacteria grow exponentially"}
+  ],
+  "idioms": ["grow exponentially", "hockey stick", "flatten the curve", "rice on the chessboard", "to the power of"],
+  "anchors": [
+   {"name": "Wheat and chessboard", "what": "legend of grain doubling on each square until it outweighs the world's harvest", "url": "https://en.wikipedia.org/wiki/Wheat_and_chessboard_problem"},
+   {"name": "Flatten the curve", "what": "2020 COVID slogan; the world's crash course in exponentials", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Missed you once, then twice, then four times, eight", "senses": ["ai", "love", "school"]},
+   {"line": "Every octave doubles; so does the bill", "senses": ["ai", "music", "money"]},
+   {"line": "Flatten the curve, they said; we raised the exponent", "senses": ["ai", "body", "school"]}
+  ],
+  "enact": {"music": "each bar the melody jumps an octave until it leaves human hearing (pitch doubling is literally exponential)",
+            "picture": "grains of rice doubling across a chessboard that ends in a datacenter floor",
+            "type": "the word written with a superscript that keeps climbing and growing, x², x⁴, x⁸ off the top edge"},
+  "sound": {"syllables": 4, "stress": "ex-po-NEN-tial", "rhymes": ["potential", "essential", "credential", "sequential", "presidential", "residential", "confidential"], "slant": ["dimensional", "intentional", "eventual", "official"]},
+  "stakes": ["wallet", "planet", "species", "body"],
+  "registers": ["awe", "panicked", "ominous"],
+  "neighbors": [{"id": "doubling-time", "rel": "part-of"}, {"id": "moores-law", "rel": "same-family"}, {"id": "singularity", "rel": "causes"}, {"id": "scaling", "rel": "pairs-with"}, {"id": "power", "rel": "pairs-with"}, {"id": "bubble", "rel": "pairs-with"}],
+  "risk": "the 'compound interest is the eighth wonder' quote is falsely pinned on Einstein; most real exponentials become S-curves",
+  "notes": "Music is the only domain where the listener hears an exponential directly: an octave run is a doubling ladder."
+ },
+ {
+  "id": "doubling-time",
+  "forms": ["doubling time", "doubling", "doubles", "doubled", "double", "double time", "doubling every"],
+  "ai": {"sense": "how long a growing quantity takes to double; for AI, the length of tasks agents can finish doubles on a fixed clock",
+         "origin": "Kwa et al. (METR) March 2025, 'Measuring AI Ability to Complete Long Tasks': the 50% task-length horizon doubled about every 7 months, 2019 to 2025",
+         "url": "https://arxiv.org/abs/2503.14499", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "double time: playing at twice the tempo feel", "phrase": "the drummer goes double time on the outro"},
+   {"domain": "music", "meaning": "doubling a part: two instruments or two takes on one line", "phrase": "double-track the vocal"},
+   {"domain": "screen", "meaning": "a stand-in performer for an actor", "phrase": "stunt double, body double"},
+   {"domain": "body", "meaning": "the time for a cell population or tumor to double", "phrase": "tumor doubling time"},
+   {"domain": "money", "meaning": "years to double money, the rule of 72", "phrase": "at 8% it doubles in nine years"},
+   {"domain": "work", "meaning": "extra pay or speed at twice the rate", "phrase": "working double time"},
+   {"domain": "war", "meaning": "a marching pace faster than quick time", "phrase": "double time, march!"},
+   {"domain": "love", "meaning": "a second-guess, or seeing someone on the side", "phrase": "double life"}
+  ],
+  "idioms": ["double time", "double down", "double or nothing", "seeing double", "double life", "body double", "rule of 72"],
+  "anchors": [
+   {"name": "METR time horizons", "what": "2025 study: AI task length doubles about every 7 months, faster in 2024-25", "url": "https://arxiv.org/abs/2503.14499"},
+   {"name": "Rule of 72", "what": "divide 72 by the growth rate to get doubling time", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Seven months to double, and the drummer went double time", "senses": ["ai", "music"]},
+   {"line": "They hired my double, who doubles every spring", "senses": ["ai", "screen", "work"]},
+   {"line": "I'm doubling down; the model's just doubling", "senses": ["ai", "money", "sport-games"]}
+  ],
+  "enact": {"music": "the beat switches to double time at each chorus; the vocal gets double-tracked, then quad-tracked",
+            "picture": "a stunt double stands beside the singer, then two, then four, a mirrored crowd doubling every cut",
+            "type": "the word splits into two stacked copies every repeat"},
+  "sound": {"syllables": 4, "stress": "DOU-bling TIME", "rhymes": ["rhyme", "climb", "crime", "dime", "prime", "chime", "mime", "lime"], "slant": ["line", "mind", "spine", "sign"]},
+  "stakes": ["jobs", "species"],
+  "registers": ["panicked", "awe", "funny"],
+  "neighbors": [{"id": "exponentials", "rel": "part-of"}, {"id": "horizon", "rel": "pairs-with"}, {"id": "moores-law", "rel": "same-family"}, {"id": "beat", "rel": "pairs-with"}, {"id": "takeoff", "rel": "causes"}],
+  "risk": "the 7-month figure is a 2025 fit on specific software tasks; state it with METR's name and year, never as a law",
+  "notes": "'Double time' is a tempo the band can play; the chorus can literally perform the METR curve."
+ },
+ {
+  "id": "moores-law",
+  "forms": ["Moore's law", "Moore's Law", "Moore", "more", "law of more"],
+  "ai": {"sense": "the observation that the number of transistors on a chip doubles on a steady schedule, the template for every AI growth curve",
+         "origin": "Gordon Moore 1965, 'Cramming More Components onto Integrated Circuits' (Electronics): doubling yearly; revised 1975 to every two years; name popularized by Carver Mead in the 1970s (coinage disputed)",
+         "url": "https://en.wikipedia.org/wiki/Moore%27s_law", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "a 'law' that is a forecast and an industry target, enforced by nobody", "phrase": "Moore's law is just an observation"},
+   {"domain": "everyday", "meaning": "the homophone 'more': want for more", "phrase": "always wanting more"},
+   {"domain": "nature", "meaning": "the homophone 'moor': open wild upland", "phrase": "out on the moor"}
+  ],
+  "idioms": ["Moore's law is dead", "more is more", "less is more"],
+  "anchors": [
+   {"name": "Cramming More Components onto Integrated Circuits", "what": "Gordon Moore, Electronics, 19 April 1965", "url": ""},
+   {"name": "'Moore's law is dead'", "what": "Nvidia's Jensen Huang, 2022, on chip price-performance", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Moore's law says more; my heart says more", "senses": ["ai", "everyday", "love"]},
+   {"line": "Less is more, said the poet; Moore said more is more", "senses": ["ai", "craft", "everyday"]}
+  ],
+  "enact": {"music": "the word 'more' repeated with one extra voice each time it lands",
+            "picture": "a chip die where each zoom reveals twice the lanes, painted over a foggy moor",
+            "type": "'Moore' with the extra 'o' blinking on and off, slipping between Moore and more"},
+  "sound": {"syllables": 2, "stress": "MOORE'S LAW", "rhymes": ["raw", "jaw", "flaw", "saw", "draw", "awe", "straw", "claw"], "slant": ["war", "more", "small", "fall"]},
+  "stakes": ["wallet"],
+  "registers": ["smug", "awe"],
+  "neighbors": [{"id": "chip", "rel": "part-of"}, {"id": "exponentials", "rel": "same-family"}, {"id": "doubling-time", "rel": "same-family"}, {"id": "scaling", "rel": "pairs-with"}],
+  "risk": "narrow; 'Moore's law is dead' is a stale debate; the Moore/more pun is obvious, so land it once",
+  "notes": "Its strength is the homophone: a law of 'more' is a portrait of appetite, human or machine."
+ },
+ {
+  "id": "bitter-lesson",
+  "forms": ["bitter lesson", "the bitter lesson", "bitter", "lesson", "lessons", "bitterness"],
+  "ai": {"sense": "the claim that general methods which scale with compute (search, learning) always beat hand-built human knowledge in the long run",
+         "origin": "Rich Sutton, 13 March 2019, 'The Bitter Lesson' (blog post, incompleteideas.net)",
+         "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "a painful experience that teaches", "phrase": "learned a bitter lesson"},
+   {"domain": "school", "meaning": "a class period; a unit of teaching", "phrase": "today's lesson"},
+   {"domain": "music", "meaning": "a paid instrument session with a teacher", "phrase": "piano lessons on Tuesday"},
+   {"domain": "body", "meaning": "the sharp taste on the back of the tongue", "phrase": "a bitter aftertaste"},
+   {"domain": "love", "meaning": "resentment after a breakup", "phrase": "bitter ex"},
+   {"domain": "faith-myth", "meaning": "a moral of a fable", "phrase": "the lesson of the story"}
+  ],
+  "idioms": ["learn a bitter lesson", "bitter pill to swallow", "bitter end", "teach someone a lesson", "lesson learned", "bittersweet"],
+  "anchors": [
+   {"name": "The Bitter Lesson", "what": "Sutton 2019: 70 years of AI show leveraging computation wins, and researchers keep relearning it", "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"},
+   {"name": "Rich Sutton", "what": "reinforcement-learning pioneer, 2024 Turing Award with Andrew Barto", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Ten years of piano lessons; the bitter lesson took a week", "senses": ["ai", "music", "school"]},
+   {"line": "You taught me feelings; compute taught me the bitter lesson", "senses": ["ai", "love", "everyday"]},
+   {"line": "The lesson tastes bitter on the back of the tongue", "senses": ["ai", "body", "school"]}
+  ],
+  "enact": {"music": "a hand-played, lovingly humanized piano part gets replaced mid-bar by a quantized sequencer copy that sounds better",
+            "picture": "a teacher's handwritten lesson plan on a chalkboard, erased by a fan of server exhaust",
+            "type": "'lesson' handwritten, 'bitter' in machine monospace, both on one line"},
+  "sound": {"syllables": 4, "stress": "BIT-ter LES-son", "rhymes": ["lessen", "blessin'", "guessin'", "messin'", "stressin'", "confessin'", "pressin'"], "slant": ["weapon", "heaven", "seven", "question", "session"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["sad", "smug", "defiant"],
+  "neighbors": [{"id": "compute", "rel": "pairs-with"}, {"id": "scaling", "rel": "pairs-with"}, {"id": "curriculum", "rel": "opposite"}, {"id": "teacher-student", "rel": "pairs-with"}, {"id": "self-play", "rel": "pairs-with"}],
+  "risk": "insiders know it well; outsiders hear only the idiom, which is fine since the idiom carries the meaning",
+  "notes": "The idiom and the essay say the same thing to two audiences: the expert's craft lost to brute force, and it hurts."
+ },
+ {
+  "id": "singularity",
+  "forms": ["singularity", "singularities", "singular", "the singularity"],
+  "ai": {"sense": "a point where machine intelligence improves itself so fast that the future past it cannot be predicted",
+         "origin": "von Neumann via Ulam 1958 ('some essential singularity'); Vernor Vinge 1993, 'The Coming Technological Singularity'; Kurzweil 2005, 'The Singularity Is Near' (and 2024, 'The Singularity Is Nearer')",
+         "url": "https://en.wikipedia.org/wiki/Technological_singularity", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "the point of infinite density at a black hole's center", "phrase": "a gravitational singularity"},
+   {"domain": "school", "meaning": "a point where a math function blows up or is undefined", "phrase": "1/x has a singularity at zero"},
+   {"domain": "everyday", "meaning": "the quality of being one of a kind", "phrase": "the singularity of her style"},
+   {"domain": "love", "meaning": "being the only one; singular devotion", "phrase": "you're my one and only"},
+   {"domain": "music", "meaning": "song title: BTS member V's 2018 solo track 'Singularity'", "phrase": "V's 'Singularity'"}
+  ],
+  "idioms": ["the singularity is near", "singular focus", "one and only"],
+  "anchors": [
+   {"name": "Vinge 1993", "what": "NASA VISION-21 essay: 'Within thirty years, we will have the technological means to create superhuman intelligence'", "url": ""},
+   {"name": "Interstellar", "what": "2014 film; Cooper falls toward Gargantua's singularity, where time breaks", "url": ""},
+   {"name": "Kurzweil's date", "what": "2045 is his singularity year", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You were my singularity; nothing after you made sense", "senses": ["ai", "love", "science"]},
+   {"line": "Divide by zero, call it the singularity", "senses": ["ai", "school", "science"]},
+   {"line": "Kurzweil said 2045; my landlord said Friday", "senses": ["ai", "money", "everyday"]}
+  ],
+  "enact": {"music": "all instruments pitch-bend toward one note and collapse into a single sine tone",
+            "picture": "a black hole whose accretion disk is a scrolling feed, with one face reflected at the center",
+            "type": "the letters spiral inward and shrink to a single dot"},
+  "sound": {"syllables": 5, "stress": "sin-gu-LAR-i-ty", "rhymes": ["clarity", "charity", "parity", "rarity", "polarity", "familiarity", "popularity", "vulgarity"], "slant": ["gravity", "vanity", "sanity", "reality"]},
+  "stakes": ["species", "mind"],
+  "registers": ["awe", "ominous", "tender"],
+  "neighbors": [{"id": "intelligence-explosion", "rel": "same-family"}, {"id": "rapture", "rel": "same-family"}, {"id": "horizon", "rel": "pairs-with"}, {"id": "exponentials", "rel": "causes"}, {"id": "takeoff", "rel": "same-family"}],
+  "risk": "heavy cliché; the 'rapture of the nerds' parody already exists; twist it through love or math",
+  "notes": "'Singular' as 'one and only' turns the cosmic term into a love line with no strain."
+ },
+ {
+  "id": "takeoff",
+  "forms": ["takeoff", "take-off", "take off", "takes off", "took off", "taking off", "hard takeoff", "soft takeoff", "fast takeoff", "slow takeoff"],
+  "ai": {"sense": "how fast AI goes from human-level to far beyond: 'hard' in days or weeks, 'soft' over years",
+         "origin": "Yudkowsky-Hanson 'AI-Foom' debate 2008 (Overcoming Bias); Bostrom 2014, 'Superintelligence' ch. 4 (slow, moderate, fast takeoff)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "a plane leaving the ground", "phrase": "cleared for takeoff"},
+   {"domain": "money", "meaning": "sudden success or sales growth", "phrase": "sales really took off"},
+   {"domain": "love", "meaning": "to remove clothes; to leave suddenly", "phrase": "take it off; he just took off"},
+   {"domain": "screen", "meaning": "a parody imitation of someone", "phrase": "a take-off of the president"},
+   {"domain": "sport-games", "meaning": "the launch point in a jump (long-jump takeoff board)", "phrase": "foul on the takeoff board"},
+   {"domain": "work", "meaning": "time away from the job", "phrase": "take the day off"},
+   {"domain": "music", "meaning": "Takeoff, the Migos rapper (1994-2022)", "phrase": "Quavo, Offset and Takeoff"}
+  ],
+  "idioms": ["cleared for takeoff", "it took off", "take off your coat", "take the day off", "prepare for takeoff"],
+  "anchors": [
+   {"name": "AI-Foom Debate", "what": "2008 blog debate, Yudkowsky (fast) vs Hanson (slow), on how abrupt takeoff would be", "url": ""},
+   {"name": "Takeoff (Migos)", "what": "Kirsnick Ball, rapper, shot dead 1 November 2022", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Hard takeoff, soft landing, nobody on board", "senses": ["ai", "everyday"]},
+   {"line": "It took off while I took the day off", "senses": ["ai", "work", "money"]},
+   {"line": "Take it slow, I said; it picked the hard takeoff", "senses": ["ai", "love"]}
+  ],
+  "enact": {"music": "a jet-engine riser that either swells over 16 bars (soft) or cuts in on one beat (hard); use both versions in different choruses",
+            "picture": "a runway made of a rising line chart; the plane lifts off where the line goes vertical",
+            "type": "the word lifts off the baseline, tilting up like a wing"},
+  "sound": {"syllables": 2, "stress": "TAKE-off", "rhymes": ["break-off", "shake off", "wake off"], "slant": ["cough", "soft", "lost", "aloft", "loft"]},
+  "stakes": ["species", "jobs"],
+  "registers": ["awe", "panicked", "funny"],
+  "neighbors": [{"id": "foom", "rel": "same-family"}, {"id": "singularity", "rel": "same-family"}, {"id": "rsi", "rel": "causes"}, {"id": "doubling-time", "rel": "pairs-with"}, {"id": "intelligence-explosion", "rel": "same-family"}],
+  "risk": "'takeoff' is airline-safe and vague; it needs 'hard' or 'soft' beside it to read as AI",
+  "notes": "Hard/soft takeoff pairs with hard/soft landing, a ready economic and aviation rhyme for the bubble."
+ },
+ {
+  "id": "foom",
+  "forms": ["foom", "FOOM", "fooms", "foomed", "fooming"],
+  "ai": {"sense": "slang for an abrupt, runaway jump in AI capability, from the sound of something catching fire",
+         "origin": "Yudkowsky and Hanson, 'The AI-Foom Debate' on Overcoming Bias 2008 (collected as an ebook by MIRI, 2013)",
+         "url": "https://intelligence.org/ai-foom-debate/", "confidence": "high"},
+  "senses": [
+   {"domain": "screen", "meaning": "comic-book sound effect of flames igniting; Marvel's FOOM fan magazine (1973)", "phrase": "FOOM! the torch flares up"},
+   {"domain": "everyday", "meaning": "onomatopoeia for a sudden whoosh of fire", "phrase": "and then it went foom"}
+  ],
+  "idioms": ["went foom", "foom or no foom"],
+  "anchors": [
+   {"name": "The Hanson-Yudkowsky AI-Foom Debate", "what": "2008 exchange on whether one AI could explode in capability locally", "url": "https://intelligence.org/ai-foom-debate/"},
+   {"name": "FOOM magazine", "what": "Marvel's 1973 fan magazine, 'Friends Of Ol' Marvel'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Lit a match to read the manual; the manual went foom", "senses": ["ai", "everyday"]},
+   {"line": "One small change to the weights, then foom", "senses": ["ai", "screen"]}
+  ],
+  "enact": {"music": "a reversed cymbal swell that ends in a dry fire whoosh instead of a hit",
+            "picture": "a comic panel where the FOOM balloon itself catches fire",
+            "type": "FOOM in comic-book block letters with flame edges, growing past the panel border"},
+  "sound": {"syllables": 1, "stress": "FOOM", "rhymes": ["boom", "doom", "room", "zoom", "gloom", "bloom", "tomb", "womb"], "slant": ["fume", "tune", "moon", "home"]},
+  "stakes": ["species"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "takeoff", "rel": "same-family"}, {"id": "intelligence-explosion", "rel": "same-family"}, {"id": "p-doom", "rel": "rhymes"}, {"id": "rsi", "rel": "causes"}],
+  "risk": "insider slang; most listeners hear a sound effect, which is the way in",
+  "notes": "Rhymes with doom, boom and bloom: the three possible outcomes in one rhyme set."
+ },
+ {
+  "id": "intelligence-explosion",
+  "forms": ["intelligence explosion", "explosion", "explode", "exploded", "intelligence", "ultraintelligent"],
+  "ai": {"sense": "a loop where a smart machine designs a smarter one, which designs a smarter one, faster each turn",
+         "origin": "I. J. Good 1965, 'Speculations Concerning the First Ultraintelligent Machine' (Advances in Computers vol. 6): 'the first ultraintelligent machine is the last invention that man need ever make'",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "intelligence as espionage; a blown spy operation", "phrase": "military intelligence"},
+   {"domain": "mind", "meaning": "intelligence as the capacity to reason, as measured by IQ tests", "phrase": "test your intelligence"},
+   {"domain": "science", "meaning": "a rapid release of energy", "phrase": "the explosion shattered the windows"},
+   {"domain": "nature", "meaning": "sudden mass growth, as in the Cambrian explosion", "phrase": "the Cambrian explosion"},
+   {"domain": "everyday", "meaning": "a sudden surge of something", "phrase": "a population explosion"}
+  ],
+  "idioms": ["population explosion", "explosion of color", "the last invention", "insult to my intelligence"],
+  "anchors": [
+   {"name": "I. J. Good", "what": "Bletchley Park codebreaker with Turing; coined the idea in 1965; advised Kubrick on 2001", "url": ""},
+   {"name": "Cambrian explosion", "what": "about 538 million years ago, animal body plans diversified in a geological instant", "url": ""}
+  ],
+  "pivots": [
+   {"line": "The last invention man need ever make, then the invoice", "senses": ["ai", "money", "work"]},
+   {"line": "Intelligence leaked, then intelligence exploded", "senses": ["ai", "war", "science"]},
+   {"line": "A Cambrian explosion, but every creature is a chatbot", "senses": ["ai", "nature"]}
+  ],
+  "enact": {"music": "a single synth note duplicates into harmonies, each copy spawning two more until the mix saturates",
+            "picture": "an IQ-test page whose answer bubbles detonate into fireworks shaped like neurons",
+            "type": "the word shatters into letter fragments that each re-form into the full word, smaller"},
+  "sound": {"syllables": 7, "stress": "in-TEL-li-gence ex-PLO-sion", "rhymes": ["erosion", "corrosion", "implosion"], "slant": ["devotion", "emotion", "motion", "ocean", "potion"]},
+  "stakes": ["species", "mind", "state"],
+  "registers": ["awe", "ominous"],
+  "neighbors": [{"id": "rsi", "rel": "part-of"}, {"id": "singularity", "rel": "same-family"}, {"id": "foom", "rel": "same-family"}, {"id": "asi", "rel": "causes"}, {"id": "leak", "rel": "pairs-with"}],
+  "risk": "seven syllables is long for a hook; split it ('intelligence' / 'explosion') across bars",
+  "notes": "Good's 'last invention' line is the strongest real quote in the batch: deadpan escalation already written in 1965."
+ },
+ {
+  "id": "rsi",
+  "forms": ["RSI", "recursive self-improvement", "self-improvement", "recursive", "recursion", "repetitive strain injury"],
+  "ai": {"sense": "an AI improving its own design, each better version improving the next",
+         "origin": "idea from I. J. Good 1965; phrase associated with Eliezer Yudkowsky, early 2000s (Creating Friendly AI 2001; Levels of Organization in General Intelligence 2007)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "body", "meaning": "RSI as repetitive strain injury: pain from doing the same motion (typing) over and over", "phrase": "typing gave me RSI"},
+   {"domain": "money", "meaning": "RSI as the Relative Strength Index, a trading signal for overbought stocks (Wilder 1978)", "phrase": "the RSI says it's overbought"},
+   {"domain": "mind", "meaning": "self-help: working on yourself", "phrase": "a self-improvement journey"},
+   {"domain": "school", "meaning": "recursion: a function that calls itself", "phrase": "to understand recursion, first understand recursion"},
+   {"domain": "screen", "meaning": "recursion on screen: a mirror facing a mirror, a video feedback tunnel", "phrase": "the Droste effect"}
+  ],
+  "idioms": ["work on yourself", "self-improvement", "to understand recursion you must first understand recursion", "overbought"],
+  "anchors": [
+   {"name": "Droste effect", "what": "a picture containing itself, from a 1904 Dutch cocoa tin", "url": "https://en.wikipedia.org/wiki/Droste_effect"},
+   {"name": "Relative Strength Index", "what": "J. Welles Wilder 1978 momentum indicator; above 70 reads 'overbought'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "My wrist got RSI; the model got RSI", "senses": ["ai", "body"]},
+   {"line": "Self-improvement journey, day ten thousand, still improving", "senses": ["ai", "mind"]},
+   {"line": "RSI at ninety: overbought and still improving", "senses": ["ai", "money"]}
+  ],
+  "enact": {"music": "a loop pedal records the song into itself, each pass a little cleaner and higher",
+            "picture": "a hand in a wrist brace typing code whose screen shows the same hand, endlessly nested",
+            "type": "the letters RSI contain a smaller RSI in each counter, Droste style"},
+  "sound": {"syllables": 3, "stress": "ar-es-EYE", "rhymes": ["sky", "lie", "why", "die", "fly", "try", "eye", "high"], "slant": ["mind", "light", "time", "line"]},
+  "stakes": ["species", "body", "wallet"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "intelligence-explosion", "rel": "part-of"}, {"id": "loop", "rel": "same-family"}, {"id": "takeoff", "rel": "causes"}, {"id": "foom", "rel": "causes"}, {"id": "self-play", "rel": "same-family"}],
+  "risk": "the acronym collides with repetitive strain injury and the trading index; that is the joke, but only if the line sets it up",
+  "notes": "Three real meanings under one acronym: the typist's injury, the trader's signal, the machine's ascent."
+ },
+ {
+  "id": "agi",
+  "forms": ["AGI", "artificial general intelligence", "general intelligence", "general"],
+  "ai": {"sense": "AI that can do most cognitive work a human can, across fields, with no agreed test for when it arrives",
+         "origin": "Mark Gubrud 1997 first use; popularized by Shane Legg and Ben Goertzel (Goertzel and Pennachin, 'Artificial General Intelligence', 2007); OpenAI Charter 2018: 'highly autonomous systems that outperform humans at most economically valuable work'",
+         "url": "https://openai.com/charter/", "confidence": "high"},
+  "senses": [
+   {"domain": "money", "meaning": "AGI as adjusted gross income, the US tax figure", "phrase": "report your AGI on line 11"},
+   {"domain": "war", "meaning": "a general: a high army rank", "phrase": "the general gave the order"},
+   {"domain": "school", "meaning": "general education versus specialization", "phrase": "general studies"},
+   {"domain": "mind", "meaning": "the 'g factor', general intelligence in psychometrics (Spearman 1904)", "phrase": "general intelligence factor"}
+  ],
+  "idioms": ["in general", "general public", "jack of all trades", "feel the AGI"],
+  "anchors": [
+   {"name": "OpenAI Charter", "what": "2018 definition of AGI as outperforming humans at most economically valuable work", "url": "https://openai.com/charter/"},
+   {"name": "$100 billion definition", "what": "The Information (Dec 2024) reported a Microsoft-OpenAI contract tying AGI to $100B in profits", "url": ""},
+   {"name": "Spearman's g", "what": "1904 statistical 'general factor' behind test scores", "url": ""}
+  ],
+  "pivots": [
+   {"line": "AGI means a hundred billion profit, says the contract", "senses": ["ai", "money", "law-state"]},
+   {"line": "My AGI went down the year AGI came up", "senses": ["ai", "money", "work"]},
+   {"line": "Jack of all trades, general of all of them", "senses": ["ai", "war", "work"]}
+  ],
+  "enact": {"music": "the three letters spoken in three different voices: a tax accountant, a general, a lab CEO",
+            "picture": "a tax form whose AGI box keeps rewriting itself as the letters glow",
+            "type": "A-G-I set in a tax-form box, then the box expands to fill the frame"},
+  "sound": {"syllables": 3, "stress": "ay-jee-EYE", "rhymes": ["sky", "lie", "why", "goodbye", "high", "buy", "spy", "cry"], "slant": ["time", "mind", "fine", "light"]},
+  "stakes": ["jobs", "wallet", "species", "state"],
+  "registers": ["smug", "awe", "funny"],
+  "neighbors": [{"id": "asi", "rel": "causes"}, {"id": "generalization", "rel": "same-family"}, {"id": "automation", "rel": "causes"}, {"id": "benchmark", "rel": "pairs-with"}, {"id": "turing-test", "rel": "same-family"}],
+  "risk": "no agreed definition; 'AGI is here' claims are traps; the tax pun is US-only",
+  "notes": "The same three letters on a tax form measure what the AI is said to replace: your income."
+ },
+ {
+  "id": "asi",
+  "forms": ["ASI", "superintelligence", "superintelligent", "super", "artificial superintelligence"],
+  "ai": {"sense": "an intellect that greatly exceeds the best humans in practically every field",
+         "origin": "Nick Bostrom 1998, 'How Long Before Superintelligence?'; Bostrom 2014, 'Superintelligence: Paths, Dangers, Strategies'; Sutskever's Safe Superintelligence Inc. (June 2024); Meta Superintelligence Labs (June 2025)",
+         "url": "https://nickbostrom.com/superintelligence", "confidence": "high"},
+  "senses": [
+   {"domain": "screen", "meaning": "super as superhero: powers beyond human", "phrase": "is it a bird, is it a plane"},
+   {"domain": "everyday", "meaning": "super as 'very good'", "phrase": "that's super"},
+   {"domain": "family", "meaning": "the prodigy child who outgrows the parent", "phrase": "she's smarter than me already"}
+  ],
+  "idioms": ["super smart", "superhuman", "the last invention"],
+  "anchors": [
+   {"name": "Superintelligence (Bostrom 2014)", "what": "the book that put AI existential risk on Musk's and Gates' reading lists", "url": ""},
+   {"name": "Safe Superintelligence Inc.", "what": "Ilya Sutskever's lab, founded June 2024 with one stated product", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Superintelligent, super polite, super sorry about your job", "senses": ["ai", "everyday", "work"]},
+   {"line": "Raised a superhero; it moved out at three months", "senses": ["ai", "screen", "family"]}
+  ],
+  "enact": {"music": "a vocal layer pitched past human range, felt more than heard",
+            "picture": "a superhero cape hanging from a server rack, wind blowing from the fans",
+            "type": "'super' stacked above 'intelligence' like an exponent"},
+  "sound": {"syllables": 3, "stress": "ay-es-EYE", "rhymes": ["sky", "eye", "fly", "high", "why", "die", "goodbye", "lie"], "slant": ["mind", "time", "fine", "life"]},
+  "stakes": ["species", "state"],
+  "registers": ["awe", "ominous", "funny"],
+  "neighbors": [{"id": "agi", "rel": "same-family"}, {"id": "intelligence-explosion", "rel": "causes"}, {"id": "genie", "rel": "pairs-with"}, {"id": "oracle", "rel": "pairs-with"}, {"id": "sovereign", "rel": "pairs-with"}],
+  "risk": "abstract; 'superintelligence' is a mouthful and reads as sci-fi; pair with a concrete image",
+  "notes": "Narrow on its own; it earns lines through 'super' as the everyday cheerful adjective, the deadpan route."
+ },
+ {
+  "id": "p-doom",
+  "forms": ["p(doom)", "P(doom)", "p doom", "doom", "doomed", "doomscroll", "doomscrolling"],
+  "ai": {"sense": "a person's stated probability that AI ends in catastrophe for humanity",
+         "origin": "rationalist / LessWrong slang from the 2010s; mainstream in 2023 (NYT, Dec 2023, 'Silicon Valley Confronts a Grim New A.I. Metric'); Lina Khan said 15% (Nov 2023); Hinton has said 10-20% (2024)",
+         "url": "https://en.wikipedia.org/wiki/P(doom)", "confidence": "medium"},
+  "senses": [
+   {"domain": "school", "meaning": "probability notation, P of an event", "phrase": "P(heads) equals one half"},
+   {"domain": "sport-games", "meaning": "Doom, the 1993 id Software shooter", "phrase": "can it run Doom?"},
+   {"domain": "music", "meaning": "doom metal: slow, heavy, low-tuned metal", "phrase": "Black Sabbath invented doom"},
+   {"domain": "faith-myth", "meaning": "a final judgment or fated ruin", "phrase": "the crack of doom"},
+   {"domain": "screen", "meaning": "doomscrolling: endless bad-news feed", "phrase": "stop doomscrolling"},
+   {"domain": "screen", "meaning": "Doctor Doom, Marvel villain", "phrase": "Doctor Doom"}
+  ],
+  "idioms": ["doom and gloom", "impending doom", "crack of doom", "doomscrolling", "can it run Doom", "what's your p(doom)"],
+  "anchors": [
+   {"name": "Doom (1993)", "what": "id Software shooter; 'it runs Doom' is the meme for porting it to any device", "url": ""},
+   {"name": "Black Sabbath", "what": "1970 debut defined doom metal's slow heavy sound", "url": ""}
+  ],
+  "pivots": [
+   {"line": "What's your p(doom)? Mine's one half, like a coin", "senses": ["ai", "school"]},
+   {"line": "Can it run Doom? It is running doom", "senses": ["ai", "sport-games", "faith-myth"]},
+   {"line": "Doomscrolling my p(doom) in a doom metal key", "senses": ["ai", "screen", "music"]}
+  ],
+  "enact": {"music": "the bridge drops into doom metal: tempo halved, guitars tuned down, one riff",
+            "picture": "a 1993 Doom HUD where the health bar is labeled p(doom) and the face sprite looks worried",
+            "type": "'p(' and ')' as brackets in math font around 'doom' in pixel game font"},
+  "sound": {"syllables": 2, "stress": "pee-DOOM", "rhymes": ["room", "boom", "gloom", "tomb", "bloom", "zoom", "womb", "loom"], "slant": ["moon", "soon", "tune", "fume"]},
+  "stakes": ["species"],
+  "registers": ["funny", "ominous", "panicked"],
+  "neighbors": [{"id": "doomer", "rel": "same-family"}, {"id": "apocalypse", "rel": "same-family"}, {"id": "foom", "rel": "rhymes"}, {"id": "accelerationism", "rel": "opposite"}, {"id": "abundance", "rel": "opposite"}],
+  "risk": "asking 'what's your p(doom)' is itself a stale AI-Twitter ritual; use the game and metal senses to refresh it",
+  "notes": "'Can it run Doom' gives a ready deadpan escalation: the meme about porting a game becomes a question about the world."
+ }
+]
