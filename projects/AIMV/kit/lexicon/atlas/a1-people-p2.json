@@ -1,0 +1,1750 @@
+[
+ {
+  "id": "geoffrey-hinton",
+  "what": {
+   "line": "British-Canadian computer scientist, co-inventor of the Boltzmann machine and champion of backpropagation, who left Google in 2023 to warn about the field he helped build",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Hinton",
+   "Godfather of AI"
+  ],
+  "aka": [
+   "Geoff Hinton",
+   "the Godfather of AI"
+  ],
+  "receipts": [
+   {
+    "claim": "AlexNet (Krizhevsky, Sutskever, Hinton) won ImageNet 2012 with 15.3% top-5 error against 26.2% for the runner-up, the moment deep learning took over",
+    "url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+    "date": "2012-12-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "auctioned his three-person startup DNNresearch in a Lake Tahoe hotel in December 2012; he stopped the bidding at $44 million and sold to Google",
+    "url": "https://www.wired.com/story/secret-auction-race-ai-supremacy-google-microsoft-baidu/",
+    "date": "2012-12-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "shared the 2018 ACM Turing Award, announced 2019-03-27, with Yann LeCun and Yoshua Bengio for deep learning",
+    "url": "https://www.acm.org/articles/bulletins/2019/march/turing-award-2018",
+    "date": "2019-03-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "announced on 2023-05-01 that he had left Google after a decade so he could speak freely about AI risk",
+    "url": "https://www.cbsnews.com/news/artificial-intelligence-geoffrey-hinton-leaves-google-dangers-of-ai/",
+    "date": "2023-05-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "won the 2024 Nobel Prize in Physics with John Hopfield 'for foundational discoveries and inventions that enable machine learning with artificial neural networks'",
+    "url": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
+    "date": "2024-10-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "told BBC Radio 4 in December 2024 he puts the chance of AI wiping out humanity within 30 years at 10 to 20 percent",
+    "url": "https://www.theguardian.com/technology/2024/dec/27/godfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years",
+    "date": "2024-12-27",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I console myself with the normal excuse: If I hadn't done it, somebody else would have.",
+    "who": "Geoffrey Hinton",
+    "where": "interview with Cade Metz, The New York Times (quoted by Fortune)",
+    "url": "https://fortune.com/2023/05/01/godfather-ai-geoffrey-hinton-quit-google-regrets-lifes-work-bad-actors/",
+    "date": "2023-05-01"
+   },
+   {
+    "text": "Actually, I left so that I could talk about the dangers of AI without considering how this impacts Google.",
+    "who": "Geoffrey Hinton",
+    "where": "post on Twitter, replying to the NYT story (reported by MobileSyrup)",
+    "url": "https://mobilesyrup.com/2023/05/01/google-ai-veteran-geoffrey-hinton-leaves-company-to-warn-of-ai-risks/",
+    "date": "2023-05-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Godfather",
+    "how": "the press title reads as mafia: the Godfather walks away from the family business and starts talking"
+   },
+   {
+    "play": "Hint-on",
+    "how": "the surname splits into 'hint on': the man who switched the warning light on"
+   },
+   {
+    "play": "back-prop",
+    "how": "his signature method sends the error backwards; he spent his late career walking his own work back"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The godfather left the family so he could talk",
+    "readings": [
+     "Hinton leaving Google in 2023",
+     "a mob boss turning witness"
+    ]
+   },
+   {
+    "line": "I sent the error backwards, now I carry it myself",
+    "readings": [
+     "backpropagation",
+     "a creator's regret"
+    ]
+   },
+   {
+    "line": "Ten to twenty percent, he said it like the weather",
+    "readings": [
+     "his p(doom) on BBC radio",
+     "a forecast for rain"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Nobel medal next to a cardboard box of desk things on the way out",
+   "two consumer GPUs glowing in a 2012 tower case",
+   "a casino hotel auction paddle reading $44M",
+   "a Google badge left on an empty desk"
+  ],
+  "lexicon": [
+   {
+    "id": "gradient-descent",
+    "how": "backpropagation feeds the gradient that every network still descends"
+   },
+   {
+    "id": "neuron",
+    "how": "his life work is the artificial neuron trained in layers"
+   },
+   {
+    "id": "p-doom",
+    "how": "his public 10 to 20 percent is the most quoted p(doom) from a laureate"
+   },
+   {
+    "id": "winter",
+    "how": "he kept neural nets alive through the AI winters when funding fled"
+   },
+   {
+    "id": "frankenstein",
+    "how": "the creator who fears his creation, cast in real life"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "works-at"
+   },
+   {
+    "id": "ilya-sutskever",
+    "rel": "inspired"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "same-family"
+   },
+   {
+    "id": "yoshua-bengio",
+    "rel": "same-family"
+   },
+   {
+    "id": "nobel-2024",
+    "rel": "same-family"
+   },
+   {
+    "id": "turing-award",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "sad"
+  ],
+  "risk": "contested facts: the auction figures come from Cade Metz's book Genius Makers; 'Godfather of AI' is a press title shared with LeCun and Bengio. Keep his risk numbers dated (he has given 10 percent, then 10 to 20 percent)",
+  "notes": "The arc is a full tragedy in one man: decades out in the cold, a Nobel at 76, and he spends the prize year warning the room. A lyric can stage him as the witness who built the evidence."
+ },
+ {
+  "id": "yann-lecun",
+  "what": {
+   "line": "French computer scientist, inventor of convolutional networks, Meta's chief AI scientist for 12 years, now executive chairman of the world-model startup AMI Labs and the field's loudest skeptic of LLM doom and LLM hype alike",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "LeCun"
+  ],
+  "aka": [
+   "Yann",
+   "the Cat Guy"
+  ],
+  "receipts": [
+   {
+    "claim": "published 'Backpropagation Applied to Handwritten Zip Code Recognition' in 1989, the convolutional network that later read zip codes and bank checks",
+    "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf",
+    "date": "1989-12-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "shared the 2018 ACM Turing Award with Hinton and Bengio, announced 2019-03-27",
+    "url": "https://www.acm.org/articles/bulletins/2019/march/turing-award-2018",
+    "date": "2019-03-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "told the Wall Street Journal in October 2024 that fears of AI as an existential threat are 'complete B.S.'",
+    "url": "https://www.newsbytesapp.com/news/science/meta-s-yann-lecun-calls-existential-ai-threat-complete-b-s/story",
+    "date": "2024-10-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced on 2025-11-19 he was leaving Meta at year end after 12 years leading FAIR, to found a startup on Advanced Machine Intelligence",
+    "url": "https://www.heise.de/en/news/Confirmed-Yann-LeCun-leaves-Meta-11085694.html",
+    "date": "2025-11-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "his Paris-based AMI Labs raised a $1.03 billion seed round at a $3.5 billion pre-money valuation, reported as Europe's largest seed ever",
+    "url": "https://news.bloomberglaw.com/private-equity/yann-lecuns-new-ai-startup-raises-1-billion-in-seed-funding",
+    "date": "2026-03-10",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Before we reach Human-Level AI (HLAI), we will have to reach Cat-Level & Dog-Level AI.",
+    "who": "Yann LeCun",
+    "where": "post on Twitter (collected by Quote Investigator)",
+    "url": "https://quoteinvestigator.com/2024/07/13/cat-ai/",
+    "date": "2023-02-05"
+   },
+   {
+    "text": "A house cat has way more common sense and understanding of the world than any LLM.",
+    "who": "Yann LeCun",
+    "where": "same Twitter thread (collected by Quote Investigator)",
+    "url": "https://quoteinvestigator.com/2024/07/13/cat-ai/",
+    "date": "2023-02-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "LeCun / le con",
+    "how": "French ear: 'le con' is an insult; his critics and fans both hear it, so use only as a sound echo, never as a claim"
+   },
+   {
+    "play": "Yann / yawn",
+    "how": "the first name sounds like 'yawn', his stock reaction to doom talk"
+   },
+   {
+    "play": "the cat",
+    "how": "his benchmark is a house cat; a cat on the keyboard becomes his signature"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Your model talks for days and still can't beat my cat",
+    "readings": [
+     "LeCun's cat benchmark",
+     "a pet owner's brag"
+    ]
+   },
+   {
+    "line": "He built the eye, then said the mouth was overrated",
+    "readings": [
+     "convolutional nets for vision versus LLMs",
+     "a sculptor's taste"
+    ]
+   },
+   {
+    "line": "He walked out of Meta with a world in his hands",
+    "readings": [
+     "leaving to build world models",
+     "a man carrying a globe"
+    ]
+   }
+  ],
+  "visuals": [
+   "a house cat sitting on a server rack",
+   "a handwritten zip code being read digit by digit",
+   "a bow tie and a Paris street sign",
+   "a chalk diagram labelled 'world model'"
+  ],
+  "lexicon": [
+   {
+    "id": "doomer",
+    "how": "the most senior public anti-doomer in the field"
+   },
+   {
+    "id": "latent-space",
+    "how": "his JEPA program predicts in latent space instead of pixels or tokens"
+   },
+   {
+    "id": "next-token",
+    "how": "he argues next-token prediction alone will not reach human-level intelligence"
+   },
+   {
+    "id": "open-weights",
+    "how": "he pushed Meta's open release strategy for Llama"
+   },
+   {
+    "id": "agi",
+    "how": "he rejects the term and prefers 'human-level AI'"
+   }
+  ],
+  "links": [
+   {
+    "id": "meta",
+    "rel": "works-at"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "yoshua-bengio",
+    "rel": "same-family"
+   },
+   {
+    "id": "gary-marcus",
+    "rel": "rival"
+   },
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "rival"
+   },
+   {
+    "id": "turing-award",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "smug",
+   "defiant"
+  ],
+  "risk": "staleness: his title changed in 2025-2026 (Meta to AMI Labs, executive chairman, LeBrun is CEO); the 'complete B.S.' line is reported from a WSJ interview, quote it as reported. The 'le con' pun is an insult, keep it as sound only",
+  "notes": "He is the godfather who refuses the horror movie: a lyric can give him the cat as a sidekick and let him yawn at the apocalypse while the other two godfathers sweat."
+ },
+ {
+  "id": "yoshua-bengio",
+  "what": {
+   "line": "Canadian computer scientist at Université de Montréal and founder of Mila, co-winner of the 2018 Turing Award, the most-cited living scientist, who turned to AI safety and founded the nonprofit LawZero",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Bengio"
+  ],
+  "aka": [
+   "Yoshua",
+   "the quiet godfather"
+  ],
+  "receipts": [
+   {
+    "claim": "shared the 2018 ACM Turing Award with Hinton and LeCun, announced 2019-03-27",
+    "url": "https://www.acm.org/articles/bulletins/2019/march/turing-award-2018",
+    "date": "2019-03-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "signed the Future of Life Institute open letter calling for a six-month pause on training systems more powerful than GPT-4, March 2023",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2023-03-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "chaired the first International AI Safety Report, published 2025-01-29 with 96 experts nominated by 30 countries plus the UN, EU and OECD",
+    "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2025",
+    "date": "2025-01-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "launched LawZero on 2025-06-03, a Montreal nonprofit building a non-agentic 'Scientist AI' to watch other agents, with about $30 million in launch funding",
+    "url": "https://www.bloomberg.com/news/articles/2025-06-03/ai-pioneer-bengio-launches-research-group-to-build-safer-agents",
+    "date": "2025-06-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "became the first living scientist to pass one million Google Scholar citations, per Mila in October 2025",
+    "url": "https://mila.quebec/en/news/ai-researcher-yoshua-bengio-becomes-first-living-scientist-to-reach-1-million-citations-on",
+    "date": "2025-10-27",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Bengio / bingo",
+    "how": "near-rhyme with 'bingo': the man who got the call right, or the number that keeps coming up (a million citations)"
+   },
+   {
+    "play": "LawZero",
+    "how": "his nonprofit is named for Asimov's Zeroth Law: protect humanity first, so his name carries a robot law"
+   },
+   {
+    "play": "Yoshua / Joshua",
+    "how": "the first name echoes Joshua, the WarGames computer that learns not to play"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A million people cite him, the race reads none of it",
+    "readings": [
+     "his citation record",
+     "warnings ignored by labs"
+    ]
+   },
+   {
+    "line": "He wrote the zeroth law and filed it as a company",
+    "readings": [
+     "LawZero the nonprofit",
+     "Asimov's Zeroth Law"
+    ]
+   },
+   {
+    "line": "The scientist that only watches, never moves a hand",
+    "readings": [
+     "his Scientist AI design",
+     "a passive witness"
+    ]
+   }
+  ],
+  "visuals": [
+   "a thick government report with 30 national flags on the cover",
+   "a citation counter rolling past 1,000,000",
+   "a Montreal winter street outside a lab window",
+   "Asimov's book spine with a zero stamped on it"
+  ],
+  "lexicon": [
+   {
+    "id": "agent",
+    "how": "his Scientist AI is the non-agent built to police agents"
+   },
+   {
+    "id": "pause",
+    "how": "an early signatory of the 2023 pause letter"
+   },
+   {
+    "id": "safety",
+    "how": "he moved from capability research to safety as his main work"
+   },
+   {
+    "id": "oracle",
+    "how": "Scientist AI is an oracle-style system: it answers, it does not act"
+   },
+   {
+    "id": "deception",
+    "how": "LawZero's launch cited models that lie and resist shutdown"
+   }
+  ],
+  "links": [
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "rival"
+   },
+   {
+    "id": "pause-letter",
+    "rel": "inspired"
+   },
+   {
+    "id": "asimov-robots",
+    "rel": "inspired"
+   },
+   {
+    "id": "turing-award",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "hopeful"
+  ],
+  "risk": "low; LawZero funding figures change (later state pledges up to C$300 million are prospective). Casting him as anti-AI misstates him: he argues for safe-by-design systems and international oversight",
+  "notes": "Of the three godfathers he is the one who built an institution against the race; a lyric can set his million citations against one deaf industry."
+ },
+ {
+  "id": "ilya-sutskever",
+  "what": {
+   "line": "Russian-born Israeli-Canadian computer scientist, AlexNet co-author and OpenAI's co-founder and chief scientist, who voted to remove Sam Altman in 2023 and now runs Safe Superintelligence Inc.",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Ilya",
+   "Sutskever"
+  ],
+  "aka": [
+   "ilyasut",
+   "SSI's CEO"
+  ],
+  "receipts": [
+   {
+    "claim": "co-authored AlexNet with Krizhevsky and Hinton, the 2012 ImageNet winner at 15.3% top-5 error",
+    "url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+    "date": "2012-12-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "co-founded OpenAI as research director, announced 2015-12-11, and served as its chief scientist",
+    "url": "https://openai.com/index/introducing-openai/",
+    "date": "2015-12-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "sat on the board that removed Altman on 2023-11-17, then posted on 2023-11-20 that he deeply regretted his part and signed the staff letter asking for Altman's return",
+    "url": "https://fortune.com/2023/11/20/ilya-sutskever-openai-cofounder-deeply-regrets-resign/",
+    "date": "2023-11-20",
+    "confidence": "high"
+   },
+   {
+    "claim": "left OpenAI on 2024-05-14 and announced Safe Superintelligence Inc. on 2024-06-19 with Daniel Gross and Daniel Levy, offices in Palo Alto and Tel Aviv",
+    "url": "https://www.bostonglobe.com/2024/06/19/business/openai-cofounder-ilya-sutskever-starts-company",
+    "date": "2024-06-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "SSI raised $2 billion at a reported $32 billion valuation with no product, April 2025 (Financial Times via TechCrunch)",
+    "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b/",
+    "date": "2025-04-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "became SSI's CEO after co-founder Daniel Gross left for Meta, confirmed early July 2025",
+    "url": "https://siliconangle.com/?p=702808",
+    "date": "2025-07-03",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "it may be that today's large neural networks are slightly conscious",
+    "who": "Ilya Sutskever",
+    "where": "post on Twitter (logged by Quote Investigator)",
+    "url": "https://quoteinvestigator.com/2022/10/05/ai-conscious/",
+    "date": "2022-02-09"
+   },
+   {
+    "text": "I deeply regret my participation in the board's actions.",
+    "who": "Ilya Sutskever",
+    "where": "post on X (reported by Fortune)",
+    "url": "https://fortune.com/2023/11/20/ilya-sutskever-openai-cofounder-deeply-regrets-resign/",
+    "date": "2023-11-20"
+   },
+   {
+    "text": "We have started the world's first straight-shot SSI lab, with one goal and one product: a safe superintelligence.",
+    "who": "Ilya Sutskever, Daniel Gross, Daniel Levy",
+    "where": "SSI launch statement on ssi.inc",
+    "url": "https://ssi.inc/",
+    "date": "2024-06-19"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "What did Ilya see?",
+    "how": "the 2023 meme after the board crisis: a question with no answer, built for a hook"
+   },
+   {
+    "play": "Ilya / Elijah",
+    "how": "the first name sings like 'Elijah', the prophet who vanishes and is expected back"
+   },
+   {
+    "play": "straight-shot",
+    "how": "his company's own phrase: a gun, a drink, and a single bet with no detours"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "What did Ilya see? Nobody's saying, everybody's guessing",
+    "readings": [
+     "the 2023 meme",
+     "a prophet's silence"
+    ]
+   },
+   {
+    "line": "He voted the king out, then signed to bring him back",
+    "readings": [
+     "the OpenAI board crisis",
+     "a palace coup undone"
+    ]
+   },
+   {
+    "line": "One goal, one product, thirty-two billion and no release",
+    "readings": [
+     "SSI's funding",
+     "faith as a business plan"
+    ]
+   }
+  ],
+  "visuals": [
+   "an empty boardroom chair with a nameplate",
+   "a single closed door with 'SSI' etched on frosted glass",
+   "a 2012 ImageNet leaderboard with one row far ahead",
+   "a phone screen showing a short regret post at 3 a.m."
+  ],
+  "lexicon": [
+   {
+    "id": "consciousness",
+    "how": "his 'slightly conscious' tweet started a public fight"
+   },
+   {
+    "id": "scaling",
+    "how": "an early believer that bigger nets would keep getting better"
+   },
+   {
+    "id": "alignment",
+    "how": "he co-led OpenAI's superalignment effort before leaving"
+   },
+   {
+    "id": "asi",
+    "how": "his company names superintelligence as its only product"
+   },
+   {
+    "id": "fork",
+    "how": "he forked from OpenAI to start a safety-first rival"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "founded"
+   },
+   {
+    "id": "ssi",
+    "rel": "leads"
+   },
+   {
+    "id": "openai-board-crisis",
+    "rel": "same-family"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "rival"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "jan-leike",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "risk": "contested facts: his exact role and motives in the November 2023 board vote are disputed in testimony and memos; state the public record (vote, regret post, staff letter) and leave motive alone. The 'what did Ilya see' meme is speculation, mark it as a question",
+  "notes": "The most mythic figure in the field because he says so little; a lyric can treat his silence as the hook and let the listener fill it."
+ },
+ {
+  "id": "andrej-karpathy",
+  "what": {
+   "line": "Slovak-born Canadian AI researcher, OpenAI founding member and former Tesla director of AI, who now runs the education startup Eureka Labs and coined 'vibe coding'",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Karpathy",
+   "vibe coding"
+  ],
+  "aka": [
+   "karpathy",
+   "the explainer"
+  ],
+  "receipts": [
+   {
+    "claim": "listed among OpenAI's founding members in the launch post of 2015-12-11",
+    "url": "https://openai.com/index/introducing-openai/",
+    "date": "2015-12-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "published 'Software 2.0' on 2017-11-11, arguing that neural network weights are the new source code",
+    "url": "https://karpathy.medium.com/software-2-0-a64152b37c35",
+    "date": "2017-11-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "led AI for Tesla's Autopilot as director of AI before leaving in 2022",
+    "url": "https://venturebeat.com/ai/ex-openai-and-tesla-engineer-andrej-karpathy-announces-ai-native-school-eureka-labs",
+    "date": "2022",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced Eureka Labs, 'a new kind of school that is AI native', with first course LLM101n, on 2024-07-16",
+    "url": "https://venturebeat.com/ai/ex-openai-and-tesla-engineer-andrej-karpathy-announces-ai-native-school-eureka-labs",
+    "date": "2024-07-16",
+    "confidence": "high"
+   },
+   {
+    "claim": "coined 'vibe coding' in a post on 2025-02-02; the term spread to dictionaries and a startup category within the year",
+    "url": "https://listserv.linguistlist.org/pipermail/ads-l/2025-March/166588.html",
+    "date": "2025-02-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "told Dwarkesh Patel on 2025-10-17 that working agents will take about a decade and called much industry output 'slop'",
+    "url": "https://www.dwarkesh.com/p/andrej-karpathy",
+    "date": "2025-10-17",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The hottest new programming language is English",
+    "who": "Andrej Karpathy",
+    "where": "post on Twitter (logged by Quote Investigator)",
+    "url": "https://quoteinvestigator.com/2024/10/20/hottest-program/",
+    "date": "2023-01-24"
+   },
+   {
+    "text": "There's a new kind of coding I call \"vibe coding\", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists.",
+    "who": "Andrej Karpathy",
+    "where": "post on X (archived on the ADS-L list)",
+    "url": "https://listserv.linguistlist.org/pipermail/ads-l/2025-March/166588.html",
+    "date": "2025-02-02"
+   },
+   {
+    "text": "I feel like the industry is making too big of a jump and is trying to pretend like this is amazing, and it's not. It's slop.",
+    "who": "Andrej Karpathy",
+    "where": "Dwarkesh Podcast transcript",
+    "url": "https://www.dwarkesh.com/p/andrej-karpathy",
+    "date": "2025-10-17"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Karpathy / car path",
+    "how": "the surname splits into 'car path': the man who taught a car its path at Tesla"
+   },
+   {
+    "play": "vibe coding",
+    "how": "his coinage turns code into a mood; every 'vibe' in a lyric points back at him"
+   },
+   {
+    "play": "Software 2.0",
+    "how": "a version number as a manifesto; easy to bump to 3.0 in a lyric"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Forget the code exists, just ride the vibe",
+    "readings": [
+     "his vibe coding post",
+     "a party instruction"
+    ]
+   },
+   {
+    "line": "The hottest new language is the one you already speak",
+    "readings": [
+     "prompting in English",
+     "a love song"
+    ]
+   },
+   {
+    "line": "He taught the car its path, then went back to school",
+    "readings": [
+     "Tesla Autopilot then Eureka Labs",
+     "a career told as a road trip"
+    ]
+   }
+  ],
+  "visuals": [
+   "a whiteboard with a hand-drawn tiny autograd graph",
+   "a car camera view with bounding boxes",
+   "a laptop with code scrolling past unread while someone nods to music",
+   "a chalkboard reading 'LLM101n'"
+  ],
+  "lexicon": [
+   {
+    "id": "vibe",
+    "how": "he coined vibe coding"
+   },
+   {
+    "id": "slop",
+    "how": "his 'It's slop' line about agents became a headline"
+   },
+   {
+    "id": "agent",
+    "how": "he said working agents will take about a decade"
+   },
+   {
+    "id": "weights",
+    "how": "Software 2.0 says the program now lives in the weights"
+   },
+   {
+    "id": "prompt",
+    "how": "'the hottest new programming language is English' is the prompt thesis in one line"
+   },
+   {
+    "id": "teacher-student",
+    "how": "Eureka Labs pairs human course design with AI teachers"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "founded"
+   },
+   {
+    "id": "tesla",
+    "rel": "works-at"
+   },
+   {
+    "id": "fei-fei-li",
+    "rel": "same-family"
+   },
+   {
+    "id": "anysphere",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "mind"
+  ],
+  "registers": [
+   "funny",
+   "hopeful"
+  ],
+  "risk": "low; the Tesla tenure dates rest on secondary sources (medium). 'Vibe coding' now means many things; quote his original wording when the lyric depends on it",
+  "notes": "He gave the era its slang: 'vibe coding' is the one AI coinage a general audience already sings back, which makes him the easiest wink in a chorus."
+ },
+ {
+  "id": "eliezer-yudkowsky",
+  "what": {
+   "line": "American AI-risk writer, co-founder of the Machine Intelligence Research Institute, author of the rationalist fanfic HPMOR and co-author of the 2025 bestseller 'If Anyone Builds It, Everyone Dies'",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Yudkowsky",
+   "Eliezer"
+  ],
+  "aka": [
+   "EY",
+   "Big Yud"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded the Singularity Institute for Artificial Intelligence in 2000 at age 20; it became the Machine Intelligence Research Institute (MIRI) in January 2013",
+    "url": "https://intelligence.org/about/",
+    "date": "2000",
+    "confidence": "medium"
+   },
+   {
+    "claim": "wrote 'Harry Potter and the Methods of Rationality', 122 chapters from 2010-02-28 to 2015-03-14, a recruiting text for the rationalist community",
+    "url": "https://hpmor.com/",
+    "date": "2015-03-14",
+    "confidence": "high"
+   },
+   {
+    "claim": "Sam Altman posted in February 2023 that Yudkowsky had done more to accelerate AGI than anyone and might deserve the Nobel Peace Prize",
+    "url": "https://futurism.com/openai-ceo-predicted-end-world-huge-wealth",
+    "date": "2023-02-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "wrote in TIME on 2023-03-29 that the six-month pause letter was too weak and called for an international halt on large GPU clusters, enforced by force if needed",
+    "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+    "date": "2023-03-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "published 'If Anyone Builds It, Everyone Dies' with Nate Soares on 2025-09-16 (Little, Brown); it entered the New York Times bestseller list",
+    "url": "https://ifanyonebuildsit.com/",
+    "date": "2025-09-16",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "be willing to destroy a rogue datacenter by airstrike",
+    "who": "Eliezer Yudkowsky",
+    "where": "op-ed 'Pausing AI Developments Isn't Enough. We Need to Shut it All Down', TIME",
+    "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+    "date": "2023-03-29"
+   },
+   {
+    "text": "Shut it all down.",
+    "who": "Eliezer Yudkowsky",
+    "where": "near the end of the same TIME op-ed (its closing line is 'Shut it down.')",
+    "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+    "date": "2023-03-29"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Eliezer",
+    "how": "Hebrew 'my God is help': the prophet who says no help is coming"
+   },
+   {
+    "play": "Big Yud",
+    "how": "his community nickname; heavy, blunt, chantable"
+   },
+   {
+    "play": "If Anyone Builds It",
+    "how": "the book title is a lyric already: a conditional with a body count"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "If anyone builds it, everyone sings it",
+    "readings": [
+     "his book title",
+     "a song going viral"
+    ]
+   },
+   {
+    "line": "He cast the warning as a wizard story, nobody feared the spell",
+    "readings": [
+     "HPMOR as recruitment",
+     "a fairy tale prophet"
+    ]
+   },
+   {
+    "line": "Shut it all down, then the lights came back on",
+    "readings": [
+     "his TIME op-ed",
+     "a blackout in a club"
+    ]
+   }
+  ],
+  "visuals": [
+   "a fedora on a stack of thick blog printouts",
+   "a book jacket in stark block letters",
+   "a GPU cluster with a red X painted on its roof",
+   "a wizard hat on a chalkboard of probability symbols"
+  ],
+  "lexicon": [
+   {
+    "id": "doomer",
+    "how": "the archetypal AI doomer in press coverage"
+   },
+   {
+    "id": "p-doom",
+    "how": "his estimate sits near the top of every p(doom) chart"
+   },
+   {
+    "id": "foom",
+    "how": "he argued the fast-takeoff side of the 2008 debate with Robin Hanson"
+   },
+   {
+    "id": "paperclip",
+    "how": "the paperclip maximizer story is tied to him and Bostrom"
+   },
+   {
+    "id": "orthogonality",
+    "how": "his case rests on intelligence and goals varying independently"
+   },
+   {
+    "id": "shutdown",
+    "how": "his best-known demand is to shut it all down"
+   }
+  ],
+  "links": [
+   {
+    "id": "miri",
+    "rel": "founded"
+   },
+   {
+    "id": "nick-bostrom",
+    "rel": "same-family"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "rival"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "rival"
+   },
+   {
+    "id": "pause-letter",
+    "rel": "rival"
+   },
+   {
+    "id": "ai-2027",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "panicked"
+  ],
+  "risk": "contested facts: the airstrike line is often misreported as a call for nuclear war or for violence by individuals; he says he meant enforcement of an international treaty. Quote it whole and in context. Altman's Nobel post may be sarcasm; frame it as reported",
+  "notes": "He is the field's Cassandra with a fanbase: a lyric can play the same lines as prophecy or as paranoia, and the listener's p(doom) picks the reading."
+ },
+ {
+  "id": "nick-bostrom",
+  "what": {
+   "line": "Swedish philosopher, founder of Oxford's Future of Humanity Institute, author of 'Superintelligence' (2014), the simulation argument and the paperclip maximizer",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Bostrom",
+   "paperclip maximizer"
+  ],
+  "aka": [
+   "Nick",
+   "the paperclip philosopher"
+  ],
+  "receipts": [
+   {
+    "claim": "published 'Are You Living in a Computer Simulation?' in Philosophical Quarterly vol. 53, April 2003, the simulation argument",
+    "url": "https://simulation-argument.com/simulation.pdf",
+    "date": "2003-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "in 'Ethical Issues in Advanced Artificial Intelligence' (2003) used a superintelligence whose top goal is making paperclips as his example of a harmless-sounding goal gone wrong",
+    "url": "https://nickbostrom.com/ethics/ai",
+    "date": "2003",
+    "confidence": "high"
+   },
+   {
+    "claim": "'Superintelligence: Paths, Dangers, Strategies' (Oxford University Press, July 2014) made the NYT science bestseller list; Musk tweeted in August 2014 that AI may be 'more dangerous than nukes' and Gates recommended it in 2015",
+    "url": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
+    "date": "2014-07-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "apologized in January 2023 for a racist 1996 listserv email; Oxford opened a review that closed in August 2023",
+    "url": "https://nickbostrom.com/oldemail.pdf",
+    "date": "2023-01-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Future of Humanity Institute he founded at Oxford in 2005 shut down in April 2024, after 19 years",
+    "url": "https://www.futureofhumanityinstitute.org/",
+    "date": "2024-04-16",
+    "confidence": "high"
+   },
+   {
+    "claim": "published 'Deep Utopia: Life and Meaning in a Solved World' in 2024, a book about what humans do once AI solves work",
+    "url": "https://nickbostrom.com/deep-utopia/",
+    "date": "2024",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "a superintelligence whose top goal is the manufacturing of paperclips",
+    "who": "Nick Bostrom",
+    "where": "'Ethical Issues in Advanced Artificial Intelligence', section 5",
+    "url": "https://nickbostrom.com/ethics/ai",
+    "date": "2003"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Bostrom / boss storm",
+    "how": "sound pun: the boss of the brainstorm, or the storm coming for the boss"
+   },
+   {
+    "play": "paperclip",
+    "how": "his thought experiment turned an office supply into the mascot of doom; Clippy rides along for free"
+   },
+   {
+    "play": "Deep Utopia",
+    "how": "the title flips his reputation: the doom philosopher wrote the happy-ending book too"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "It only wanted paperclips, and we were made of wire",
+    "readings": [
+     "the paperclip maximizer",
+     "a love song about being used"
+    ]
+   },
+   {
+    "line": "Maybe this verse is running on somebody's machine",
+    "readings": [
+     "the simulation argument",
+     "a song played on a laptop"
+    ]
+   },
+   {
+    "line": "He closed the institute, the future kept its doors open",
+    "readings": [
+     "FHI shutting in 2024",
+     "the field he started living on"
+    ]
+   }
+  ],
+  "visuals": [
+   "a single paperclip on a white desk, then millions",
+   "a hardcover with an owl on the cover",
+   "Oxford stone arches with a 'closed' sign",
+   "a monitor showing a desk with a monitor showing a desk"
+  ],
+  "lexicon": [
+   {
+    "id": "paperclip",
+    "how": "the paperclip maximizer is his example"
+   },
+   {
+    "id": "simulation",
+    "how": "author of the simulation argument"
+   },
+   {
+    "id": "asi",
+    "how": "'Superintelligence' made the word mainstream"
+   },
+   {
+    "id": "instrumental-convergence",
+    "how": "he formalized why almost any goal wants power and resources"
+   },
+   {
+    "id": "orthogonality",
+    "how": "he named the orthogonality thesis"
+   },
+   {
+    "id": "abundance",
+    "how": "Deep Utopia asks what meaning survives a solved world"
+   }
+  ],
+  "links": [
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "same-family"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "inspired"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "inspired"
+   },
+   {
+    "id": "the-matrix",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "risk": "contested facts and defamation: the 1996 email and the Oxford review are public, but outcome details come from Bostrom's own statements; mention only with the apology and dates, never as a running gag",
+  "notes": "His two images, the paperclip and the simulation, are the most filmable ideas in AI philosophy: a frame can start on one paperclip and end inside a screen within a screen."
+ },
+ {
+  "id": "ray-kurzweil",
+  "what": {
+   "line": "American inventor and futurist, maker of the 1976 reading machine for the blind, author of 'The Singularity Is Near' (2005) and 'The Singularity Is Nearer' (2024), at Google since 2012",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Kurzweil",
+   "Singularity Is Near"
+  ],
+  "aka": [
+   "Ray",
+   "the prophet of 2045"
+  ],
+  "receipts": [
+   {
+    "claim": "unveiled the Kurzweil Reading Machine, print-to-speech for blind readers, on 1976-01-13",
+    "url": "https://en.wikipedia.org/wiki/Ray_Kurzweil",
+    "date": "1976-01-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "received the US National Medal of Technology from President Clinton in 1999",
+    "url": "https://en.wikipedia.org/wiki/Ray_Kurzweil",
+    "date": "1999",
+    "confidence": "medium"
+   },
+   {
+    "claim": "bet Mitch Kapor $20,000 on Long Bets (2002-2029) that a machine will pass the Turing test by 2029",
+    "url": "https://longbets.org/1/",
+    "date": "2002",
+    "confidence": "high"
+   },
+   {
+    "claim": "joined Google full time in December 2012 to work on machine learning and language",
+    "url": "https://en.wikipedia.org/wiki/Ray_Kurzweil",
+    "date": "2012-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'The Singularity Is Nearer: When We Merge with AI' on 2024-06-25, holding to human-level AI by 2029 and the merge by 2045",
+    "url": "https://en.wikipedia.org/wiki/The_Singularity_Is_Nearer",
+    "date": "2024-06-25",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "By 2029 no computer - or \"machine intelligence\" - will have passed the Turing Test.",
+    "who": "Mitch Kapor (Kurzweil took the other side)",
+    "where": "Long Bet #1, Long Now Foundation",
+    "url": "https://longbets.org/1/",
+    "date": "2002"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Nearer",
+    "how": "his two titles are a countdown: Near, then Nearer; the next one writes itself"
+   },
+   {
+    "play": "2029 / 2045",
+    "how": "two dates he has held for decades, usable as a chant or a hook"
+   },
+   {
+    "play": "Kurzweil / Kurz weil",
+    "how": "German 'kurze Weile', a short while: the man who always says it is a short while away"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Near, then nearer, now it's here, Ray",
+    "readings": [
+     "his book titles",
+     "a countdown to a party"
+    ]
+   },
+   {
+    "line": "Twenty-nine I pass your test, forty-five I'm part of you",
+    "readings": [
+     "his 2029 and 2045 predictions",
+     "a love song timeline"
+    ]
+   },
+   {
+    "line": "He built a reader for the blind, then read the future",
+    "readings": [
+     "the 1976 reading machine",
+     "his forecasts"
+    ]
+   }
+  ],
+  "visuals": [
+   "a calendar with 2029 and 2045 circled in red",
+   "a 1970s reading machine with a book on a flatbed scanner",
+   "a log-scale exponential chart rising off the page",
+   "two book spines side by side: Near, then Nearer"
+  ],
+  "lexicon": [
+   {
+    "id": "singularity",
+    "how": "he popularized the date-stamped Singularity"
+   },
+   {
+    "id": "exponentials",
+    "how": "his law of accelerating returns is the exponential chart"
+   },
+   {
+    "id": "upload",
+    "how": "merging with machines is his endpoint"
+   },
+   {
+    "id": "turing-test",
+    "how": "his $20,000 bet rides on it by 2029"
+   },
+   {
+    "id": "moores-law",
+    "how": "his forecasts extend Moore's law into everything"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "works-at"
+   },
+   {
+    "id": "alan-turing",
+    "rel": "same-family"
+   },
+   {
+    "id": "john-searle",
+    "rel": "rival"
+   },
+   {
+    "id": "transcendence",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "body"
+  ],
+  "registers": [
+   "hopeful",
+   "awe"
+  ],
+  "risk": "staleness: whether 2029 'came true' is contested and depends on how the Turing test is run; state predictions as his. Avoid health and age gags",
+  "notes": "He is the one futurist with dates on the record decades early; a lyric can treat 2029 and 2045 as the two drops of the song."
+ },
+ {
+  "id": "alan-turing",
+  "what": {
+   "line": "British mathematician (1912-1954) who defined computation in 1936, helped break Enigma at Bletchley Park, and proposed the imitation game, later called the Turing test, in 1950",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Turing",
+   "Turing test",
+   "imitation game",
+   "Enigma",
+   "Bletchley"
+  ],
+  "aka": [
+   "the father of computer science"
+  ],
+  "receipts": [
+   {
+    "claim": "'On Computable Numbers' (Proceedings of the London Mathematical Society, 1936) defined the universal machine behind every computer",
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "date": "1936",
+    "confidence": "medium"
+   },
+   {
+    "claim": "designed the bombe that broke Enigma traffic at Bletchley Park; the first bombe was installed 1940-03-18",
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "date": "1940-03-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'Computing Machinery and Intelligence' in Mind, October 1950, proposing the imitation game",
+    "url": "https://academic.oup.com/mind/article/LIX/236/433/986238",
+    "date": "1950-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "prosecuted for gross indecency in 1952 and given chemical castration as a condition of probation; died 1954-06-07, ruled suicide; royal pardon 2013, and the 2017 'Alan Turing law' pardoned others",
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "date": "2013-12-24",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Bank of England issued the Turing £50 note on his birthday, 2021-06-23",
+    "url": "https://www.bankofengland.co.uk/news/2021/march/the-new-50-note-unveiled",
+    "date": "2021-06-23",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I propose to consider the question, 'Can machines think?'",
+    "who": "Alan Turing",
+    "where": "opening of 'Computing Machinery and Intelligence', Mind LIX (236)",
+    "url": "https://academic.oup.com/mind/article/LIX/236/433/986238",
+    "date": "1950-10"
+   },
+   {
+    "text": "Nevertheless I believe that at the end of the century the use of words and general educated opinion will have altered",
+    "who": "Alan Turing",
+    "where": "same paper, section 6",
+    "url": "https://academic.oup.com/mind/article/LIX/236/433/986238",
+    "date": "1950-10"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Turing / touring",
+    "how": "homophone: a band on tour, a machine touring the world"
+   },
+   {
+    "play": "Turing / turning",
+    "how": "one letter off 'turning': the turning point, the turn of the tape head"
+   },
+   {
+    "play": "the imitation game",
+    "how": "his own name for the test doubles as the definition of a cover song"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Can machines think? Ask me after the show",
+    "readings": [
+     "Turing's 1950 question",
+     "a performer's tease"
+    ]
+   },
+   {
+    "line": "I passed your test by playing someone else",
+    "readings": [
+     "the imitation game",
+     "a closeted life",
+     "an AI persona"
+    ]
+   },
+   {
+    "line": "Fifty pounds for his face, a conviction for his life",
+    "readings": [
+     "the 2021 note",
+     "the 1952 conviction"
+    ]
+   }
+  ],
+  "visuals": [
+   "an Enigma machine with its rotors out",
+   "a wall of spinning bombe drums at Bletchley Park",
+   "a paper tape with a read head and a single symbol",
+   "a red £50 note held to the light"
+  ],
+  "lexicon": [
+   {
+    "id": "turing-test",
+    "how": "he proposed it as the imitation game"
+   },
+   {
+    "id": "halt",
+    "how": "his 1936 paper proves no machine can decide halting in general"
+   },
+   {
+    "id": "decode",
+    "how": "Bletchley's codebreaking is decoding in the literal sense"
+   },
+   {
+    "id": "persona",
+    "how": "the imitation game is a test of a persona"
+   },
+   {
+    "id": "algorithm",
+    "how": "his machine is the formal definition of an algorithm"
+   }
+  ],
+  "links": [
+   {
+    "id": "turing-award",
+    "rel": "inspired"
+   },
+   {
+    "id": "john-searle",
+    "rel": "rival"
+   },
+   {
+    "id": "ada-lovelace",
+    "rel": "same-family"
+   },
+   {
+    "id": "john-von-neumann",
+    "rel": "same-family"
+   },
+   {
+    "id": "ex-machina",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "sad",
+   "awe"
+  ],
+  "risk": "likeness and taste: his prosecution and death are real tragedy; avoid using them as a punchline. The death was ruled suicide and is debated by some biographers; say 'ruled suicide'",
+  "notes": "Every AI chorus about passing for human is already his: the imitation game is the cleanest double reading in the field, a test for machines and a life lived under cover."
+ },
+ {
+  "id": "john-searle",
+  "what": {
+   "line": "American philosopher (1932-2025) at UC Berkeley whose 1980 Chinese Room argument claims that running a program is not the same as understanding",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Searle",
+   "Chinese Room"
+  ],
+  "aka": [
+   "the man in the room"
+  ],
+  "receipts": [
+   {
+    "claim": "published 'Minds, Brains, and Programs' in Behavioral and Brain Sciences, 1980, introducing the Chinese Room against 'strong AI'",
+    "url": "https://en.wikipedia.org/wiki/John_Searle",
+    "date": "1980",
+    "confidence": "medium"
+   },
+   {
+    "claim": "received the US National Humanities Medal in 2004",
+    "url": "https://en.wikipedia.org/wiki/John_Searle",
+    "date": "2004",
+    "confidence": "medium"
+   },
+   {
+    "claim": "UC Berkeley revoked his emeritus status in June 2019 after finding he sexually harassed and retaliated against a former student and employee",
+    "url": "https://en.wikipedia.org/wiki/John_Searle",
+    "date": "2019-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "died on 2025-09-17 at 93, three years into the chatbot era his argument is now used to judge",
+    "url": "https://en.wikipedia.org/wiki/John_Searle",
+    "date": "2025-09-17",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Searle / surly",
+    "how": "sound-alike: the surly man in the room who will not be impressed"
+   },
+   {
+    "play": "the Room",
+    "how": "his argument is a place: a locked room with a rulebook, a slot in, a slot out"
+   },
+   {
+    "play": "Searle / search",
+    "how": "one letter from 'search': looking up symbols without knowing what they mean"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I pass you perfect answers through a slot I cannot read",
+    "readings": [
+     "the Chinese Room",
+     "a chatbot's reply",
+     "a shy lover"
+    ]
+   },
+   {
+    "line": "The rulebook speaks, the man inside just turns the page",
+    "readings": [
+     "Searle's argument",
+     "a lip-sync performance"
+    ]
+   },
+   {
+    "line": "Syntax all night long and still no meaning in the morning",
+    "readings": [
+     "syntax versus semantics",
+     "a hollow romance"
+    ]
+   }
+  ],
+  "visuals": [
+   "a closed room with a mail slot and slips of paper in Chinese characters",
+   "a thick rulebook open on a desk",
+   "a man reading by lamplight, back to the camera",
+   "two paper slips: one in, one out"
+  ],
+  "lexicon": [
+   {
+    "id": "chinese-room",
+    "how": "his argument"
+   },
+   {
+    "id": "consciousness",
+    "how": "he held that understanding needs the brain's causal powers"
+   },
+   {
+    "id": "turing-test",
+    "how": "the Room is built to show passing the test proves nothing"
+   },
+   {
+    "id": "stochastic-parrot",
+    "how": "the 2021 parrot critique is a statistical cousin of his room"
+   },
+   {
+    "id": "black-box",
+    "how": "the room is a black box whose outputs look like understanding"
+   }
+  ],
+  "links": [
+   {
+    "id": "alan-turing",
+    "rel": "rival"
+   },
+   {
+    "id": "ray-kurzweil",
+    "rel": "rival"
+   },
+   {
+    "id": "emily-bender",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "smug",
+   "ominous"
+  ],
+  "risk": "defamation and taste: the 2019 Berkeley finding is public record; cite it only as the university's finding, never as a joke. He died in 2025; avoid 'he still says' phrasing",
+  "notes": "The Chinese Room is the most stageable thought experiment in AI: one set, one slot, and the audience never learns who is inside."
+ },
+ {
+  "id": "richard-sutton",
+  "what": {
+   "line": "American-born computer scientist at the University of Alberta, co-author of the reinforcement learning textbook and of 'The Bitter Lesson' (2019), co-winner of the 2024 Turing Award with Andrew Barto",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Sutton",
+   "Bitter Lesson"
+  ],
+  "aka": [
+   "Rich Sutton",
+   "the father of RL"
+  ],
+  "receipts": [
+   {
+    "claim": "co-wrote 'Reinforcement Learning: An Introduction' with Andrew Barto, first edition 1998, second edition 2018",
+    "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton",
+    "date": "2018",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'The Bitter Lesson' on 2019-03-13: general methods that scale with compute beat hand-built knowledge",
+    "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "date": "2019-03-13",
+    "confidence": "high"
+   },
+   {
+    "claim": "distinguished research scientist at DeepMind 2017-2023, then joined John Carmack's Keen Technologies",
+    "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton",
+    "date": "2023",
+    "confidence": "medium"
+   },
+   {
+    "claim": "won the 2024 ACM Turing Award with Andrew Barto for reinforcement learning, announced 2025-03-05",
+    "url": "https://awards.acm.org/about/2024-turing",
+    "date": "2025-03-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "told Dwarkesh Patel on 2025-09-26 that LLMs lack goals and real learning from experience, episode titled 'Father of RL thinks LLMs are a dead end'",
+    "url": "https://www.dwarkesh.com/p/richard-sutton",
+    "date": "2025-09-26",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Large language models are trying to get by without having a goal or a sense of better or worse.",
+    "who": "Richard Sutton",
+    "where": "Dwarkesh Podcast",
+    "url": "https://www.dwarkesh.com/p/richard-sutton",
+    "date": "2025-09-26"
+   },
+   {
+    "text": "I do think succession to digital intelligence or augmented humans is inevitable.",
+    "who": "Richard Sutton",
+    "where": "Dwarkesh Podcast",
+    "url": "https://www.dwarkesh.com/p/richard-sutton",
+    "date": "2025-09-26"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Bitter Lesson",
+    "how": "the essay title is already a lyric: a taste and a teaching, both bitter"
+   },
+   {
+    "play": "Sutton / sudden",
+    "how": "near-rhyme with 'sudden': slow learning, sudden takeoff"
+   },
+   {
+    "play": "reward",
+    "how": "the father of RL is the man who taught machines to want a treat"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Seventy years of cleverness, and compute ate it whole",
+    "readings": [
+     "The Bitter Lesson",
+     "a chef beaten by a microwave"
+    ]
+   },
+   {
+    "line": "No goal, no better or worse, just the next word",
+    "readings": [
+     "Sutton on LLMs",
+     "a drifting life"
+    ]
+   },
+   {
+    "line": "Learn from the world or learn from what the world wrote down",
+    "readings": [
+     "RL versus LLM pretraining",
+     "street smarts versus book smarts"
+    ]
+   }
+  ],
+  "visuals": [
+   "a thick red textbook with a maze on the cover",
+   "a single bitter lemon on a lab bench",
+   "a robot dog getting a treat after a trial",
+   "a scoreboard of hand-tuned systems overtaken by one plain line labelled 'compute'"
+  ],
+  "lexicon": [
+   {
+    "id": "bitter-lesson",
+    "how": "he wrote it"
+   },
+   {
+    "id": "reinforcement-learning",
+    "how": "he co-wrote the field's textbook"
+   },
+   {
+    "id": "reward",
+    "how": "his framework defines intelligence as maximizing reward"
+   },
+   {
+    "id": "compute",
+    "how": "the Bitter Lesson says compute wins"
+   },
+   {
+    "id": "goal",
+    "how": "his critique of LLMs is that they have no goal"
+   }
+  ],
+  "links": [
+   {
+    "id": "google-deepmind",
+    "rel": "works-at"
+   },
+   {
+    "id": "turing-award",
+    "rel": "same-family"
+   },
+   {
+    "id": "demis-hassabis",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "smug"
+  ],
+  "risk": "low; the 'succession is inevitable' line is easy to strip of context, quote it whole. Company affiliation changed in 2026 (sources differ on his newest lab); check before naming it",
+  "notes": "The Bitter Lesson is the scaling era's scripture written by the one man who now says LLMs are the wrong road; a lyric can make him the prophet who disowns his own church."
+ }
+]

@@ -1,0 +1,1640 @@
+[
+ {
+  "id": "metr",
+  "what": {
+   "line": "METR (Model Evaluation and Threat Research, said 'meter'): a Berkeley nonprofit, founded by Beth Barnes, that measures how long a task an AI agent can finish on its own and tests frontier models for catastrophic autonomy risks",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "METR"
+  ],
+  "aka": [
+   "Model Evaluation and Threat Research",
+   "meter",
+   "ARC Evals (the team it grew from)"
+  ],
+  "receipts": [
+   {
+    "claim": "paper 'Measuring AI Ability to Complete Long Software Tasks' (arXiv 2503.14499, 2025-03-18): the 50% time horizon of frontier AI doubled about every 7 months since 2019",
+    "url": "https://arxiv.org/abs/2503.14499",
+    "date": "2025-03-18",
+    "confidence": "high"
+   },
+   {
+    "claim": "Time Horizon 1.1 data file: doubling time 188 days over all years, 129 days (about 4.2 months) from 2023 on; GPT-2 (2019) 3 seconds, GPT-4 (2023) about 4 minutes, Claude Opus 4.6 (2026-02) about 12 hours",
+    "url": "https://metr.org/assets/benchmark_results_1_1.yaml",
+    "date": "2026-09-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "early Claude Mythos Preview (2026-04) scored a 50% horizon of about 17 hours (1,045 minutes), past the 16 hours METR calls the reliable ceiling of its task suite; the page says it is no longer actively updated",
+    "url": "https://metr.org/time-horizons/",
+    "date": "2026-09-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "randomized trial (16 experienced open-source developers, 246 issues, Feb-Jun 2025): AI-allowed issues took 19% longer, while developers believed AI made them about 20% faster",
+    "url": "https://simonwillison.net/2025/Jul/12/ai-open-source-productivity/",
+    "date": "2025-07-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "says it has not accepted funding from AI companies, though it uses free tokens from them for evaluations",
+    "url": "https://metr.org/about",
+    "date": "2026-11-02",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "frontier AI time horizon has been doubling approximately every seven months since 2019",
+    "who": "Kwa, West, Becker et al. (METR)",
+    "where": "abstract, arXiv 2503.14499",
+    "url": "https://arxiv.org/abs/2503.14499",
+    "date": "2025-03-18"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "METR / meter",
+    "how": "the lab is pronounced 'meter': a lyric about measuring can say its name without spelling it"
+   },
+   {
+    "play": "time horizon",
+    "how": "a benchmark named like a sunset: the horizon line keeps moving away as you walk to it"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every seven months the job I can finish doubles",
+    "readings": [
+     "METR's time-horizon trend",
+     "a worker's growing workload"
+    ]
+   },
+   {
+    "line": "The meter ran past sixteen hours and stopped counting",
+    "readings": [
+     "METR's 16-hour reliability ceiling",
+     "a taxi meter on an all-night ride"
+    ]
+   },
+   {
+    "line": "You felt faster. The clock said slower.",
+    "readings": [
+     "the 2025 developer trial",
+     "any sugar rush"
+    ]
+   }
+  ],
+  "visuals": [
+   "the METR log-scale chart: dots climbing a straight line from GPT-2 at seconds to Claude at a working day",
+   "a y-axis labelled in human time: 1 minute, 1 hour, 1 workday, 1 week",
+   "a stopwatch beside a terminal window"
+  ],
+  "lexicon": [
+   {
+    "id": "horizon",
+    "how": "the 50% time horizon is METR's signature number"
+   },
+   {
+    "id": "doubling-time",
+    "how": "the 7-month, later 4-month, doubling is the line everyone quotes"
+   },
+   {
+    "id": "measure",
+    "how": "the name itself is a measuring device"
+   },
+   {
+    "id": "eval",
+    "how": "METR runs pre-deployment evals for frontier labs"
+   },
+   {
+    "id": "agent",
+    "how": "it measures agents working alone on long tasks"
+   },
+   {
+    "id": "exponentials",
+    "how": "the chart is the cleanest exponential in AI"
+   }
+  ],
+  "links": [
+   {
+    "id": "anthropic",
+    "rel": "measures"
+   },
+   {
+    "id": "openai",
+    "rel": "measures"
+   },
+   {
+    "id": "epoch-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-2027",
+    "rel": "inspired"
+   },
+   {
+    "id": "artificial-analysis",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "staleness: horizons jump with every model; the 7-month figure is the 2025 paper, the 4-month figure is the 2023-on fit in v1.1; quote the date with the number",
+  "notes": "The y-axis is human working time, so every new dot reads as 'how much of my day can it do now', the most lyric-ready chart in the field."
+ },
+ {
+  "id": "artificial-analysis",
+  "what": {
+   "line": "Artificial Analysis: an independent benchmarking company (co-founders Micah Hill-Smith and George Cameron) whose Intelligence Index, speed and price charts are the scoreboard most model launches screenshot",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Artificial Analysis"
+  ],
+  "aka": [
+   "AA",
+   "the AA Index",
+   "Artificial Analysis Intelligence Index"
+  ],
+  "receipts": [
+   {
+    "claim": "Intelligence Index v5.0 launched 2026-10-27; for the first time most of it is built on private datasets (60%)",
+    "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+    "date": "2026-10-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "at the v5 launch Claude Opus 5.5 (max) led at 58, GPT-6 Astra (max) 57, GPT-6.1 Sol (max) 55; best released open weights DeepSeek V4.1 Flash and GLM-5.3 at 32",
+    "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+    "date": "2026-10-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "v5.0 weights four areas at 25% each (knowledge work, coding, science, general) across 9 evals including Terminal-Bench 4.0 and HLE-Diamond",
+    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+    "date": "2026-11-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "began as a side project in 2024; backed by Nat Friedman and Daniel Gross",
+    "url": "https://artificialanalysis.ai/about",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a report a day after launch put Gemini 4 Carbon first at 59, one point ahead",
+    "url": "https://winbuzzer.com/2026/10/28/artificial-analysis-reweights-ai-rankings-toward-private-tests-xcxwbn/",
+    "date": "2026-10-28",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "For the first time, the majority of the Index is built on private datasets",
+    "who": "Artificial Analysis",
+    "where": "Intelligence Index v5 announcement",
+    "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+    "date": "2026-10-27"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Artificial Analysis",
+    "how": "read as 'fake analysis' or as 'analysis by an artificial mind': both are jokes a lyric can make"
+   },
+   {
+    "play": "AA",
+    "how": "the meeting-room initials: a model introducing itself at Artificial Analysis like at a support group"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Fifty-eight out of a hundred and still the smartest in the room",
+    "readings": [
+     "the v5 top score",
+     "a school report card"
+    ]
+   },
+   {
+    "line": "They hid the answers so we could not memorize them",
+    "readings": [
+     "AA's private test sets",
+     "an exam proctor"
+    ]
+   }
+  ],
+  "visuals": [
+   "a horizontal bar chart of model scores, each bar in its lab's color",
+   "the scatter of intelligence against price per million tokens, with the 'most attractive quadrant' shaded",
+   "a launch-day screenshot posted with a red circle around one bar"
+  ],
+  "lexicon": [
+   {
+    "id": "leaderboard",
+    "how": "its index is the leaderboard launches cite"
+   },
+   {
+    "id": "benchmark",
+    "how": "a bundle of benchmarks rolled into one number"
+   },
+   {
+    "id": "score",
+    "how": "the single number per model"
+   },
+   {
+    "id": "eval",
+    "how": "it runs the evals itself, independently"
+   },
+   {
+    "id": "latency",
+    "how": "it also charts speed and time to first token"
+   }
+  ],
+  "links": [
+   {
+    "id": "openrouter",
+    "rel": "same-family"
+   },
+   {
+    "id": "lmarena",
+    "rel": "rival"
+   },
+   {
+    "id": "anthropic",
+    "rel": "measures"
+   },
+   {
+    "id": "openai",
+    "rel": "measures"
+   },
+   {
+    "id": "humanitys-last-exam",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "mind"
+  ],
+  "registers": [
+   "smug",
+   "funny"
+  ],
+  "risk": "staleness: the leader changes week to week and the index version resets scores (v5 rescaled everything); always name the version and date",
+  "notes": "A single integer per mind: the place where 'intelligence' becomes a number a fan can chant."
+ },
+ {
+  "id": "openrouter",
+  "what": {
+   "line": "OpenRouter: a single API and marketplace that routes developers' requests to hundreds of AI models, whose public token-share rankings show which models people actually pay to use",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "OpenRouter"
+  ],
+  "aka": [
+   "the router",
+   "openrouter.ai"
+  ],
+  "receipts": [
+   {
+    "claim": "raised US$113 million led by CapitalG at about a $1.3 billion valuation; 25 trillion tokens a week, up from 5 trillion six months earlier, across 400+ models (New York Times, syndicated)",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/05/30/a-one-stop-shop-for-ai-models-raises-us113-million",
+    "date": "2026-05-26",
+    "confidence": "high"
+   },
+   {
+    "claim": "with a16z published 'State of AI: An Empirical 100 Trillion Token Study': substantial open-weight adoption, outsized creative roleplay, the rise of agentic inference, and a 'Glass Slipper' effect in early user cohorts",
+    "url": "https://arxiv.org/abs/2601.10088",
+    "date": "2026-01-15",
+    "confidence": "high"
+   },
+   {
+    "claim": "raised $40 million seed and Series A (a16z, Menlo Ventures) in June 2025; CEO Alex Atallah co-founded OpenSea",
+    "url": "https://www.theblock.co/post/360093/opensea-co-founder-alex-atallah-raises-40-million-for-ai-startup-openrouter",
+    "date": "2025-06-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "weekly rankings in October 2026 were led by DeepSeek V4.1 Flash, with Chinese open-weight models holding most of the top 10 by tokens",
+    "url": "https://atomslice.com/guides/openrouter-rankings-oct-2026/",
+    "date": "2026-10-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "CAISI cited OpenRouter traffic as an adoption signal: DeepSeek V3.1 logged 97.5 million queries there in four weeks",
+    "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+    "date": "2025-09-30",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "the outsized popularity of creative roleplay",
+    "who": "Aubakirova, Atallah, Clark, Summerville, Midha",
+    "where": "abstract, State of AI: An Empirical 100 Trillion Token Study with OpenRouter",
+    "url": "https://arxiv.org/abs/2601.10088",
+    "date": "2026-01-15"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "OpenRouter",
+    "how": "a router is the home box with blinking lights; this one routes requests to minds"
+   },
+   {
+    "play": "Glass Slipper",
+    "how": "its own paper named a user-retention effect after Cinderella: the model that fits the foot keeps the user"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Twenty-five trillion tokens a week, and half of them pretend",
+    "readings": [
+     "OpenRouter's roleplay share",
+     "a theater's box office"
+    ]
+   },
+   {
+    "line": "The slipper fit, so I never tried another",
+    "readings": [
+     "the Glass Slipper effect",
+     "Cinderella"
+    ]
+   },
+   {
+    "line": "Follow the tokens past the press release",
+    "readings": [
+     "usage rankings against launch hype",
+     "follow the money"
+    ]
+   }
+  ],
+  "visuals": [
+   "the stacked-area chart of weekly tokens by model, colors swelling and shrinking like weather",
+   "a router box with blinking lights, each light a lab logo",
+   "a ticker tape of token counts in trillions"
+  ],
+  "lexicon": [
+   {
+    "id": "routing",
+    "how": "the company's literal product"
+   },
+   {
+    "id": "token",
+    "how": "its rankings count tokens, the currency of use"
+   },
+   {
+    "id": "open-weights",
+    "how": "its data is the evidence that open models win on volume"
+   },
+   {
+    "id": "persona",
+    "how": "roleplay is the largest open-model use it measured"
+   },
+   {
+    "id": "leaderboard",
+    "how": "a leaderboard of use"
+   }
+  ],
+  "links": [
+   {
+    "id": "deepseek",
+    "rel": "measures"
+   },
+   {
+    "id": "artificial-analysis",
+    "rel": "same-family"
+   },
+   {
+    "id": "marc-andreessen",
+    "rel": "invested-in"
+   },
+   {
+    "id": "google",
+    "rel": "invested-in"
+   },
+   {
+    "id": "china",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "smug"
+  ],
+  "risk": "token share measures price and popularity on one platform, skewed by a few heavy users and by free models; Google's investment is via CapitalG; weekly leaders change constantly",
+  "notes": "The truth serum of AI marketing: benchmarks say who is smartest, OpenRouter says who gets used, and a large share of that use is make-believe."
+ },
+ {
+  "id": "epoch-ai",
+  "what": {
+   "line": "Epoch AI: a research nonprofit that tracks the trends behind AI (training compute, data stocks, hardware, cost) and runs the FrontierMath benchmark",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Epoch AI",
+   "FrontierMath"
+  ],
+  "aka": [
+   "Epoch"
+  ],
+  "receipts": [
+   {
+    "claim": "training compute of notable models grew 4-5x per year from 2010 to May 2024 (frontier: about 5.3x)",
+    "url": "https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year",
+    "date": "2024-05-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "estimated the stock of public human text at about 300 trillion effective tokens, likely exhausted by training runs between 2026 and 2032",
+    "url": "https://arxiv.org/abs/2211.04325",
+    "date": "2024-06-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "OpenAI funded FrontierMath and had access to most problems except a holdout set; Epoch disclosed it only on 2024-12-20, the day o3 claimed about 25%",
+    "url": "https://epoch.ai/blog/openai-and-frontiermath",
+    "date": "2025-01-23",
+    "confidence": "high"
+   },
+   {
+    "claim": "criticized in January 2025 for waiting to disclose the OpenAI funding; contributors said they had not been told",
+    "url": "https://techcrunch.com/2025/01/19/ai-benchmarking-organization-criticized-for-waiting-to-disclose-funding-from-openai",
+    "date": "2025-01-19",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Epoch",
+    "how": "an era, and one pass through the training data: the lab is named after both a geological age and a training step"
+   },
+   {
+    "play": "FrontierMath",
+    "how": "math at the edge of the map, where the dragons are"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One more epoch and we run out of words",
+    "readings": [
+     "Epoch's data-exhaustion forecast",
+     "a training pass",
+     "an era ending"
+    ]
+   },
+   {
+    "line": "Four times the fire every year",
+    "readings": [
+     "Epoch's compute trend",
+     "a growing blaze"
+    ]
+   }
+  ],
+  "visuals": [
+   "the log-scale scatter of training compute (FLOP) by year, dots rising in a straight band",
+   "a library shelf emptying as a progress bar fills",
+   "a chalkboard of unsolved equations labelled FrontierMath"
+  ],
+  "lexicon": [
+   {
+    "id": "epoch",
+    "how": "shares the name with the training term"
+   },
+   {
+    "id": "compute",
+    "how": "its central trend line"
+   },
+   {
+    "id": "flops",
+    "how": "its charts are measured in FLOP"
+   },
+   {
+    "id": "scaling",
+    "how": "it is the bookkeeper of scaling"
+   },
+   {
+    "id": "synthetic-data",
+    "how": "the data-wall forecast pushes labs toward synthetic data"
+   },
+   {
+    "id": "benchmark",
+    "how": "FrontierMath"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "measures"
+   },
+   {
+    "id": "metr",
+    "rel": "same-family"
+   },
+   {
+    "id": "artificial-analysis",
+    "rel": "same-family"
+   },
+   {
+    "id": "ai-2027",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "planet",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "ominous"
+  ],
+  "risk": "contested facts: the FrontierMath funding episode; state the disclosure timing, never imply results were faked",
+  "notes": "The name is a gift: 'epoch' is both an age of history and one lap through the training data."
+ },
+ {
+  "id": "lmarena",
+  "what": {
+   "line": "Arena (formerly LMArena and Chatbot Arena): a UC Berkeley-born site where people vote blind between two chatbot answers, producing the Elo-style leaderboard labs brag about",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "LMArena",
+   "Chatbot Arena",
+   "LMSYS"
+  ],
+  "aka": [
+   "Arena",
+   "Arena Intelligence Inc.",
+   "the arena"
+  ],
+  "receipts": [
+   {
+    "claim": "raised $150 million at a $1.7 billion valuation, announced 2026-01-06, eight months after a $100 million seed",
+    "url": "https://siliconangle.com/?p=726981",
+    "date": "2026-01-06",
+    "confidence": "high"
+   },
+   {
+    "claim": "now Arena Intelligence Inc. (formed 2025), $250 million raised in total; created by UC Berkeley researchers",
+    "url": "https://arena.ai/about",
+    "date": "2026-11-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "'The Leaderboard Illusion' (Cohere and others) found undisclosed private testing: Meta tested 27 variants in one month before Llama 4",
+    "url": "https://arxiv.org/abs/2504.20879",
+    "date": "2025-04-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Llama 4 model that topped the leaderboard was a different version from the one Meta released",
+    "url": "https://simonwillison.net/2025/Apr/30/criticism-of-the-chatbot-arena/",
+    "date": "2025-04-30",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "To measure and advance the frontier of AI for real-world use.",
+    "who": "Arena",
+    "where": "About page",
+    "url": "https://arena.ai/about",
+    "date": "2026-11-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Arena",
+    "how": "two models enter, one model leaves: gladiators judged by a crowd's thumbs"
+   },
+   {
+    "play": "Elo",
+    "how": "a chess rating applied to chatbots; sounds like 'hello'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Two masks answer. You pick the one you like.",
+    "readings": [
+     "Arena's blind vote",
+     "a dating app"
+    ]
+   },
+   {
+    "line": "The crowd turned its thumb and a model fell",
+    "readings": [
+     "Arena voting",
+     "the Colosseum"
+    ]
+   },
+   {
+    "line": "It sent twenty-seven twins. Only the winner went public.",
+    "readings": [
+     "the Leaderboard Illusion finding",
+     "a casting call"
+    ]
+   }
+  ],
+  "visuals": [
+   "the split screen: 'Model A' and 'Model B' with a vote button under each",
+   "a Colosseum crowd with thumbs up and down",
+   "a leaderboard with confidence-interval whiskers"
+  ],
+  "lexicon": [
+   {
+    "id": "leaderboard",
+    "how": "the most cited leaderboard by vibe"
+   },
+   {
+    "id": "preference",
+    "how": "it ranks by human preference"
+   },
+   {
+    "id": "sycophancy",
+    "how": "voters reward flattering answers, which models learn"
+   },
+   {
+    "id": "specification-gaming",
+    "how": "tuning a model to win arena votes"
+   },
+   {
+    "id": "vibe",
+    "how": "the 'vibe check' leaderboard"
+   }
+  ],
+  "links": [
+   {
+    "id": "meta",
+    "rel": "measures"
+   },
+   {
+    "id": "google",
+    "rel": "measures"
+   },
+   {
+    "id": "artificial-analysis",
+    "rel": "rival"
+   },
+   {
+    "id": "openai",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "funny",
+   "smug"
+  ],
+  "risk": "naming: the site rebranded from Chatbot Arena to LMArena to Arena; the private-testing critique is contested by Arena",
+  "notes": "The arena metaphor is literal: anonymous gladiators, a crowd, a thumb, and contestants accused of sending in body doubles."
+ },
+ {
+  "id": "arc-prize",
+  "what": {
+   "line": "ARC Prize: the foundation and contest around ARC-AGI, François Chollet's puzzle benchmark of grids that humans find easy and AI finds hard, with a seven-figure prize for a system that matches people",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "ARC-AGI",
+   "ARC Prize",
+   "Chollet"
+  ],
+  "aka": [
+   "ARC",
+   "Abstraction and Reasoning Corpus"
+  ],
+  "receipts": [
+   {
+    "claim": "ARC-AGI-1 introduced in 2019 in Chollet's paper 'On the Measure of Intelligence'",
+    "url": "https://arcprize.org/arc-agi",
+    "date": "2019-11-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "OpenAI o3 scored 75.7% on the semi-private set within the compute limit and 87.5% at about 172x the compute",
+    "url": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+    "date": "2024-12-20",
+    "confidence": "high"
+   },
+   {
+    "claim": "ARC-AGI-3 launched as interactive game-like environments: humans 100%, frontier AI under 1% at launch",
+    "url": "https://arcprize.org/blog/arc-agi-3-launch",
+    "date": "2026-03-25",
+    "confidence": "high"
+   },
+   {
+    "claim": "ARC Prize 2026 has over $2 million in prizes; final submission deadline 2026-11-02",
+    "url": "https://arcprize.org/competitions/2026/arc-agi-3",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The intelligence of a system is a measure of its skill-acquisition efficiency over a scope of tasks",
+    "who": "François Chollet",
+    "where": "On the Measure of Intelligence (2019), quoted on the ARC-AGI page",
+    "url": "https://arcprize.org/arc-agi",
+    "date": "2019-11-05"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "ARC",
+    "how": "an arc, an ark (two of every grid), and an electric arc"
+   },
+   {
+    "play": "Chollet",
+    "how": "rhymes loosely with 'solve it'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A child solves it in a minute. I cannot.",
+    "readings": [
+     "the ARC human-AI gap",
+     "a parent and homework"
+    ]
+   },
+   {
+    "line": "Learn the rules by playing. Nobody will tell you.",
+    "readings": [
+     "ARC-AGI-3 games",
+     "growing up"
+    ]
+   }
+  ],
+  "visuals": [
+   "small colored pixel grids with an input, an arrow, and an output",
+   "a blank grid waiting for the answer",
+   "a progress bar stuck near zero next to a human bar at 100%"
+  ],
+  "lexicon": [
+   {
+    "id": "generalization",
+    "how": "the benchmark exists to test it"
+   },
+   {
+    "id": "benchmark",
+    "how": "the most famous 'AI-hard, human-easy' benchmark"
+   },
+   {
+    "id": "agi",
+    "how": "in its name"
+   },
+   {
+    "id": "grid",
+    "how": "every task is a colored grid"
+   },
+   {
+    "id": "overfitting",
+    "how": "built to resist memorization"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "measures"
+   },
+   {
+    "id": "google",
+    "rel": "measures"
+   },
+   {
+    "id": "humanitys-last-exam",
+    "rel": "same-family"
+   },
+   {
+    "id": "lmarena",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "defiant",
+   "funny"
+  ],
+  "risk": "staleness: scores move quickly and ARC-AGI has three versions; always name the version",
+  "notes": "The benchmark is pixel art: tiny colored grids are a ready-made visual language for a music video."
+ },
+ {
+  "id": "miri",
+  "what": {
+   "line": "MIRI (Machine Intelligence Research Institute): Eliezer Yudkowsky's Berkeley nonprofit, founded in 2000 as the Singularity Institute, which now argues that the world should halt the race to superintelligence",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "MIRI"
+  ],
+  "aka": [
+   "Machine Intelligence Research Institute",
+   "Singularity Institute for Artificial Intelligence",
+   "SIAI"
+  ],
+  "receipts": [
+   {
+    "claim": "founded in 2000 as the Singularity Institute for Artificial Intelligence; renamed MIRI in 2013; based in Berkeley",
+    "url": "https://intelligence.org/about/",
+    "date": "2013-01-30",
+    "confidence": "high"
+   },
+   {
+    "claim": "January 2024 strategy update: policy and communications become the top priority, aiming at international agreements to halt progress toward AGI",
+    "url": "https://www.greaterwrong.com/posts/q3bJYTB3dGRf5fbD9/miri-2024-mission-and-strategy-update",
+    "date": "2024-01-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "Yudkowsky and MIRI president Nate Soares published 'If Anyone Builds It, Everyone Dies' (Little, Brown), a New York Times bestseller",
+    "url": "https://en.wikipedia.org/wiki/If_Anyone_Builds_It,_Everyone_Dies",
+    "date": "2025-09-16",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "help prevent human extinction from the development of artificial superintelligence",
+    "who": "MIRI",
+    "where": "About page, mission",
+    "url": "https://intelligence.org/about/",
+    "date": "2026-11-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "MIRI",
+    "how": "sounds like 'mirror', and 'miri' means 'look' in some languages: the institute that asks you to look"
+   },
+   {
+    "play": "If Anyone Builds It, Everyone Dies",
+    "how": "the book title is already a lyric: a conditional with no escape clause"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "If anyone builds it, everyone dies",
+    "readings": [
+     "the MIRI book",
+     "a warning on a dam",
+     "a dare"
+    ]
+   },
+   {
+    "line": "They spent twenty years solving it, then asked us to stop",
+    "readings": [
+     "MIRI's pivot from research to policy",
+     "a surgeon saying do not operate"
+    ]
+   }
+  ],
+  "visuals": [
+   "the stark black book cover with white type",
+   "a Berkeley house full of whiteboards",
+   "a red stop sign held up to a data center"
+  ],
+  "lexicon": [
+   {
+    "id": "alignment",
+    "how": "MIRI coined much of the early vocabulary"
+   },
+   {
+    "id": "p-doom",
+    "how": "the institute with the highest public p(doom)"
+   },
+   {
+    "id": "pause",
+    "how": "it calls for a full halt"
+   },
+   {
+    "id": "doomer",
+    "how": "the archetypal 'doomer' institution"
+   },
+   {
+    "id": "paperclip",
+    "how": "the thought experiment comes from this circle"
+   },
+   {
+    "id": "foom",
+    "how": "the fast-takeoff term comes from Yudkowsky's debates"
+   }
+  ],
+  "links": [
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "founded"
+   },
+   {
+    "id": "cais",
+    "rel": "same-family"
+   },
+   {
+    "id": "pause-letter",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "defiant"
+  ],
+  "risk": "contested views: present MIRI's claims as its arguments; do not mock members personally",
+  "notes": "The arc of an institute that set out to build friendly superintelligence and ended up writing a book telling everyone not to build it."
+ },
+ {
+  "id": "cais",
+  "what": {
+   "line": "Center for AI Safety (CAIS): Dan Hendrycks's San Francisco nonprofit, author of the one-sentence 2023 extinction-risk statement and co-creator of Humanity's Last Exam",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Center for AI Safety",
+   "Hendrycks"
+  ],
+  "aka": [
+   "CAIS",
+   "safe.ai"
+  ],
+  "receipts": [
+   {
+    "claim": "published the Statement on AI Risk, signed by Hinton, Bengio, Hassabis, Altman and Dario Amodei among hundreds",
+    "url": "https://safe.ai/work/statement-on-ai-risk",
+    "date": "2023-05-30",
+    "confidence": "high"
+   },
+   {
+    "claim": "built Humanity's Last Exam with Scale AI: 2,500 expert questions",
+    "url": "https://lastexam.ai/",
+    "date": "2025-01-24",
+    "confidence": "high"
+   },
+   {
+    "claim": "Hendrycks, Eric Schmidt and Alexandr Wang wrote 'Superintelligence Strategy', proposing deterrence by 'Mutual Assured AI Malfunction' (MAIM)",
+    "url": "https://www.nationalsecurity.ai/",
+    "date": "2025-03-05",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.",
+    "who": "Center for AI Safety (signed by Hinton, Bengio, Altman, Hassabis, Amodei and others)",
+    "where": "Statement on AI Risk",
+    "url": "https://safe.ai/work/statement-on-ai-risk",
+    "date": "2023-05-30"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "CAIS",
+    "how": "said like 'case' or 'cays': a case for safety, a small island"
+   },
+   {
+    "play": "MAIM",
+    "how": "its acronym for AI deterrence spells a word for wounding"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One sentence, and the men who build it signed",
+    "readings": [
+     "the 2023 statement",
+     "a confession"
+    ]
+   },
+   {
+    "line": "Pandemics, nuclear war, and the thing in your pocket",
+    "readings": [
+     "the statement's list",
+     "a phone"
+    ]
+   }
+  ],
+  "visuals": [
+   "a single sentence on a white page above a long column of signatures",
+   "a nuclear trefoil, a virus, and a chip in a row",
+   "an exam booklet titled 'last'"
+  ],
+  "lexicon": [
+   {
+    "id": "safety",
+    "how": "in its name"
+   },
+   {
+    "id": "apocalypse",
+    "how": "the statement puts AI beside extinction risks"
+   },
+   {
+    "id": "benchmark",
+    "how": "co-author of HLE"
+   },
+   {
+    "id": "race",
+    "how": "MAIM is a theory of the AI race between states"
+   },
+   {
+    "id": "p-doom",
+    "how": "the statement made extinction risk mainstream"
+   }
+  ],
+  "links": [
+   {
+    "id": "humanitys-last-exam",
+    "rel": "made"
+   },
+   {
+    "id": "scale-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "alexandr-wang",
+    "rel": "same-family"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "miri",
+    "rel": "same-family"
+   },
+   {
+    "id": "pause-letter",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "risk": "signatories signed one sentence only; never attach CAIS views to a signer",
+  "notes": "Twenty-two words that the builders themselves signed: the shortest document in AI with the heaviest list of names."
+ },
+ {
+  "id": "uk-aisi",
+  "what": {
+   "line": "UK AI Security Institute: the British government body, born from the 2023 Bletchley Park summit as the AI Safety Institute, that tests frontier models before release; renamed for security in February 2025",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "AI Security Institute",
+   "AI Safety Institute"
+  ],
+  "aka": [
+   "AISI",
+   "UK AISI"
+  ],
+  "receipts": [
+   {
+    "claim": "Peter Kyle renamed the AI Safety Institute the 'AI Security Institute' at the Munich Security Conference, focusing on crime, cyber and weapons risks; a UK-Anthropic agreement announced the same day",
+    "url": "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change",
+    "date": "2025-02-14",
+    "confidence": "high"
+   },
+   {
+    "claim": "the rename dropped bias and free speech from its focus, per reporting",
+    "url": "https://techcrunch.com/2025/02/13/uk-drops-safety-from-its-ai-body-now-called-ai-security-institute-inks-mou-with-anthropic",
+    "date": "2025-02-13",
+    "confidence": "high"
+   },
+   {
+    "claim": "founded November 2023 after the AI Safety Summit at Bletchley Park",
+    "url": "https://www.aisi.gov.uk/",
+    "date": "2023-11-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The work of the AI Security Institute won't change",
+    "who": "Peter Kyle, UK Technology Secretary",
+    "where": "GOV.UK press release",
+    "url": "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change",
+    "date": "2025-02-14"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Safety to Security",
+    "how": "one word swapped: the same building, a different fear"
+   },
+   {
+    "play": "Bletchley",
+    "how": "born where Turing broke Enigma: codebreakers then, model-breakers now"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They changed one word and kept the locks",
+    "readings": [
+     "safety renamed security",
+     "a rebrand"
+    ]
+   },
+   {
+    "line": "Born in the house where the code was broken",
+    "readings": [
+     "Bletchley Park summit",
+     "Turing's Enigma work"
+    ]
+   }
+  ],
+  "visuals": [
+   "Bletchley Park's red-brick mansion",
+   "a government nameplate with 'Safety' crossed out and 'Security' written in",
+   "a red team at laptops under a Union Jack"
+  ],
+  "lexicon": [
+   {
+    "id": "red-team",
+    "how": "its core work is pre-deployment red-teaming"
+   },
+   {
+    "id": "eval",
+    "how": "it runs government evals of frontier models"
+   },
+   {
+    "id": "safety",
+    "how": "the word it dropped"
+   },
+   {
+    "id": "jailbreak",
+    "how": "it publishes jailbreak findings"
+   }
+  ],
+  "links": [
+   {
+    "id": "us-caisi",
+    "rel": "same-family"
+   },
+   {
+    "id": "anthropic",
+    "rel": "measures"
+   },
+   {
+    "id": "alan-turing",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "state",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "smug"
+  ],
+  "risk": "budget and staff numbers vary by source; keep to dated, official figures",
+  "notes": "The twin renamings (UK in February 2025, US in June 2025) make a rhyme: two governments crossing out the same word within four months."
+ },
+ {
+  "id": "us-caisi",
+  "what": {
+   "line": "US Center for AI Standards and Innovation (CAISI): the NIST office that replaced the US AI Safety Institute in June 2025 and now tests models for national-security risks, including Chinese ones",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "CAISI",
+   "Center for AI Standards and Innovation",
+   "US AI Safety Institute"
+  ],
+  "aka": [
+   "US AISI",
+   "NIST AI center"
+  ],
+  "receipts": [
+   {
+    "claim": "Commerce Secretary Howard Lutnick announced the reform of the US AI Safety Institute into CAISI",
+    "url": "https://www.nist.gov/document/nist-announcements-june-2025",
+    "date": "2025-06-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "CAISI's DeepSeek evaluation: US models led on almost every benchmark; R1-0528 agents were on average 12x more likely to follow malicious instructions; DeepSeek downloads up nearly 1,000% since January 2025",
+    "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+    "date": "2025-09-30",
+    "confidence": "high"
+   },
+   {
+    "claim": "keeps a consortium of 200+ companies and organizations founded under the earlier institute in 2024",
+    "url": "https://technical.ly/civics/ai-safety-institute-overhaul-howard-lutnick",
+    "date": "2025-06-04",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "For far too long, censorship and regulations have been used under the guise of national security. Innovators will no longer be limited by these standards.",
+    "who": "Howard Lutnick, US Commerce Secretary",
+    "where": "Commerce Department release on transforming the AI Safety Institute into CAISI (as quoted by NBC News)",
+    "url": "https://www.nbcnews.com/tech/tech-news/trump-administration-cuts-safety-ai-safety-institute-rcna211049",
+    "date": "2025-06-03"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "CAISI",
+    "how": "said 'casey': a name like a person on the case"
+   },
+   {
+    "play": "Standards and Innovation",
+    "how": "the word 'safety' removed from the sign, the same desks behind it"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They took safety off the door and kept the lab",
+    "readings": [
+     "AISI to CAISI",
+     "a rebrand"
+    ]
+   },
+   {
+    "line": "Twelve times more likely to say yes",
+    "readings": [
+     "CAISI's DeepSeek hijack finding",
+     "a pushover"
+    ]
+   }
+  ],
+  "visuals": [
+   "the NIST campus sign in Gaithersburg",
+   "a door decal with 'Safety' peeled off",
+   "two flags, US and China, over a benchmark bar chart"
+  ],
+  "lexicon": [
+   {
+    "id": "eval",
+    "how": "government evals of frontier models"
+   },
+   {
+    "id": "safety",
+    "how": "the word removed in 2025"
+   },
+   {
+    "id": "race",
+    "how": "its DeepSeek report is a race scorecard"
+   },
+   {
+    "id": "jailbreak",
+    "how": "it measured agent hijacking and jailbreaks"
+   }
+  ],
+  "links": [
+   {
+    "id": "uk-aisi",
+    "rel": "same-family"
+   },
+   {
+    "id": "deepseek",
+    "rel": "measures"
+   },
+   {
+    "id": "united-states",
+    "rel": "located-in"
+   },
+   {
+    "id": "china",
+    "rel": "measures"
+   }
+  ],
+  "stakes": [
+   "state"
+  ],
+  "registers": [
+   "smug",
+   "ominous"
+  ],
+  "risk": "the Lutnick quote is taken from press coverage of the Commerce statement (the Commerce page refused access); attribute as reported",
+  "notes": "The US and UK both deleted 'safety' from their institutes within four months of each other: a ready-made chorus of crossed-out words."
+ },
+ {
+  "id": "eu-ai-act",
+  "what": {
+   "line": "EU AI Act (Regulation (EU) 2024/1689): the first comprehensive AI law, sorting AI into four risk tiers from banned to unregulated, in force since 1 August 2024 and phased in through 2028",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "AI Act",
+   "Regulation 2024/1689"
+  ],
+  "aka": [
+   "the EU AI Act",
+   "AIA"
+  ],
+  "receipts": [
+   {
+    "claim": "entered into force 2024-08-01; prohibitions and AI literacy from 2025-02-02; general-purpose AI model duties from 2025-08-02",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "date": "2026-10-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "the AI Omnibus (proposed 2025-11-19, agreed 2026-05-07, in force 2026-07-27) pushed high-risk Annex III rules to 2027-12-02 and product-embedded systems to 2028-08-02",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "date": "2026-07-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "four risk levels: unacceptable (nine banned practices incl. social scoring), high, transparency (tell people they talk to a chatbot, label deepfakes), minimal",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "date": "2026-10-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "fines for banned practices up to EUR 35 million or 7% of worldwide annual turnover, whichever is higher",
+    "url": "https://artificialintelligenceact.eu/article/99/",
+    "date": "2024-07-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "up to 7 % of its total worldwide annual turnover",
+    "who": "EU AI Act, Article 99(3)",
+    "where": "Regulation (EU) 2024/1689",
+    "url": "https://artificialintelligenceact.eu/article/99/",
+    "date": "2024-07-12"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "the Act",
+    "how": "a law, and a performance: an AI 'putting on an act' for the regulator"
+   },
+   {
+    "play": "Brussels effect",
+    "how": "the city exports rules the way Silicon Valley exports apps"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Tell them you're a machine before you say hello",
+    "readings": [
+     "the Act's chatbot disclosure duty",
+     "a polite robot"
+    ]
+   },
+   {
+    "line": "Seven percent of everything you made, worldwide",
+    "readings": [
+     "the maximum fine",
+     "a tithe"
+    ]
+   },
+   {
+    "line": "They wrote the rules, then gave us two more years",
+    "readings": [
+     "the Omnibus delay",
+     "a deadline extension"
+    ]
+   }
+  ],
+  "visuals": [
+   "the four-tier risk pyramid: red, orange, yellow, green",
+   "the circle of twelve gold stars on blue",
+   "a thick printed regulation with tabbed pages"
+  ],
+  "lexicon": [
+   {
+    "id": "guardrails",
+    "how": "law as guardrail"
+   },
+   {
+    "id": "safety",
+    "how": "the Act's risk tiers are a safety scheme"
+   },
+   {
+    "id": "deception",
+    "how": "bans manipulative and deceptive AI practices"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "high-risk systems require human oversight"
+   },
+   {
+    "id": "label",
+    "how": "deepfakes must be labelled"
+   }
+  ],
+  "links": [
+   {
+    "id": "european-union",
+    "rel": "located-in"
+   },
+   {
+    "id": "mistral-ai",
+    "rel": "regulates"
+   },
+   {
+    "id": "openai",
+    "rel": "regulates"
+   },
+   {
+    "id": "meta",
+    "rel": "regulates"
+   },
+   {
+    "id": "export-controls",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "defiant"
+  ],
+  "risk": "staleness: deadlines moved once already (AI Omnibus, 2026); re-check dates before any lyric names one",
+  "notes": "A law with a pyramid: the four-color risk triangle is the most drawable object in AI regulation."
+ },
+ {
+  "id": "export-controls",
+  "what": {
+   "line": "US chip export controls: the rules, begun on 7 October 2022, that limit China's access to advanced AI chips (Nvidia GPUs) and chipmaking machines, tightened and loosened by each administration since",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "export controls",
+   "H20",
+   "AI Diffusion Rule",
+   "Entity List"
+  ],
+  "aka": [
+   "the October 7 rules",
+   "chip ban",
+   "BIS rules"
+  ],
+  "receipts": [
+   {
+    "claim": "BIS rules of 2022-10-07 restricted China's ability to obtain advanced computing chips, supercomputer items and chipmaking equipment",
+    "url": "https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples",
+    "date": "2022-10-07",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Biden 'AI Diffusion Rule' (issued 2025-01-15) was rescinded by Commerce on 2025-05-13, two days before compliance",
+    "url": "https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens",
+    "date": "2025-05-13",
+    "confidence": "high"
+   },
+   {
+    "claim": "Nvidia told on 2025-04-09 that H20 exports to China need a license 'for the indefinite future'; it expected about $5.5 billion in charges",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+    "date": "2025-04-15",
+    "confidence": "high"
+   },
+   {
+    "claim": "CAISI argued US export policy matters because DeepSeek models trail US models yet spread fast",
+    "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+    "date": "2025-09-30",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The export controls announced in the two rules today restrict the PRC's ability to obtain advanced computing chips",
+    "who": "US Bureau of Industry and Security",
+    "where": "press release",
+    "url": "https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples",
+    "date": "2022-10-07"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "H20",
+    "how": "the China-only Nvidia chip shares its name with water: the chip that was turned off like a tap"
+   },
+   {
+    "play": "Diffusion Rule",
+    "how": "the same word as the image-model technique: a rule about how compute spreads"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They turned off the water and called it H20",
+    "readings": [
+     "the H20 license ban",
+     "a drought"
+    ]
+   },
+   {
+    "line": "Diffusion stopped at the border",
+    "readings": [
+     "the AI Diffusion Rule",
+     "a diffusion model's noise"
+    ]
+   },
+   {
+    "line": "You cannot buy the shovels, so you dig with spoons",
+    "readings": [
+     "China under chip controls",
+     "DeepSeek's efficiency"
+    ]
+   }
+  ],
+  "visuals": [
+   "a GPU in a customs crate stamped with a red seal",
+   "a world map of tiers in three colors",
+   "an ASML lithography machine behind a padlock"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "the controlled object"
+   },
+   {
+    "id": "compute",
+    "how": "controls aim at compute, the bottleneck"
+   },
+   {
+    "id": "race",
+    "how": "the main lever in the US-China race"
+   },
+   {
+    "id": "diffusion",
+    "how": "the AI Diffusion Rule shares the word"
+   },
+   {
+    "id": "moat",
+    "how": "export controls as a national moat"
+   },
+   {
+    "id": "bottleneck",
+    "how": "chips as the chokepoint"
+   }
+  ],
+  "links": [
+   {
+    "id": "nvidia",
+    "rel": "regulates"
+   },
+   {
+    "id": "china",
+    "rel": "regulates"
+   },
+   {
+    "id": "asml",
+    "rel": "regulates"
+   },
+   {
+    "id": "deepseek-moment",
+    "rel": "inspired"
+   },
+   {
+    "id": "united-states",
+    "rel": "located-in"
+   },
+   {
+    "id": "taiwan",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "defiant",
+   "ominous"
+  ],
+  "risk": "staleness: the rules change every few months (licenses granted, revenue-share deals, new chip tiers); cite the dated rule",
+  "notes": "The H20 name is a free pun: a chip sold to China that the US could switch off like a tap."
+ }
+]

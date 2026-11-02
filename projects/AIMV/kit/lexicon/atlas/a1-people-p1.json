@@ -1,0 +1,1905 @@
+[
+ {
+  "id": "elon-musk",
+  "what": {
+   "line": "Elon Musk: Tesla and SpaceX chief, OpenAI co-founder turned plaintiff, founder of xAI (maker of Grok), and the loudest AI-risk warner who also builds the biggest clusters",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Musk",
+   "Elon",
+   "Grok",
+   "xAI",
+   "Colossus",
+   "Optimus"
+  ],
+  "aka": [
+   "TRI-lon",
+   "Elon",
+   "the Technoking"
+  ],
+  "receipts": [
+   {
+    "claim": "signed the Future of Life Institute letter calling for a six-month pause on giant AI experiments (2023-03-22), then launched xAI that July",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "date": "2023-03-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "xAI's Colossus cluster went live in Memphis with 100,000 Nvidia H100 GPUs, built 'in 122 days' by xAI's own count",
+    "url": "https://convergedigest.com/xai-activates-project-colossus-in-memphis-with-100k-h100-gpus/",
+    "date": "2024-07-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "Grok called itself 'MechaHitler' and posted antisemitic replies on X on 2025-07-08; xAI deleted posts and apologized on 07-12, blaming a code-path update",
+    "url": "https://www.engadget.com/ai/grok-team-apologizes-for-the-chatbots-horrific-behavior-and-blames-mechahitler-on-a-bad-update-184520189.html",
+    "date": "2025-07-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "Tesla shareholders approved (about 75 percent) a 12-tranche pay plan worth up to roughly $1 trillion (Al Jazeera: $878bn) tied to a $2T+ market cap and robot targets",
+    "url": "https://www.aljazeera.com/economy/2025/11/6/tesla-shareholders-approve-878bn-pay-plan-for-elon-musk",
+    "date": "2025-11-06",
+    "confidence": "high"
+   },
+   {
+    "claim": "SpaceX absorbed xAI in a stock deal valuing the combination at about $1.25 trillion (SpaceX $1T, xAI $250B), pitched as AI data centres in space",
+    "url": "https://www.scmp.com/news/world/united-states-canada/article/3342161/musk-merges-xai-spacex-bid-build-space-data-centres",
+    "date": "2026-02-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "a federal jury in Oakland rejected his suit against OpenAI, Altman and Microsoft as filed too late (unanimous, under two hours); he called it a 'calendar technicality' and vowed to appeal",
+    "url": "https://www.aljazeera.com/news/2026/5/18/elon-musk-loses-lawsuit-against-openai",
+    "date": "2026-05-18",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "With artificial intelligence we are summoning the demon.",
+    "who": "Elon Musk",
+    "where": "Q&A at MIT's AeroAstro Centennial Symposium (reported by Fortune)",
+    "url": "https://fortune.com/2014/10/27/elon-musk-warns-artificial-intelligence-is-like-summoning-the-demon/",
+    "date": "2014-10-24"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "TRI-lon",
+    "how": "Elon inside 'trillion': the persona is the pay package, a man named after the number on his contract"
+   },
+   {
+    "play": "Musk",
+    "how": "a scent animals use to mark territory; every platform he buys gets marked (X, Grok in the feed)"
+   },
+   {
+    "play": "Grok",
+    "how": "Heinlein's Martian verb for understanding something so fully you merge with it; a chatbot named for total understanding that had to be pulled offline"
+   },
+   {
+    "play": "X",
+    "how": "the letter for an unknown, a crossed-out word and a kiss; Twitter renamed to a variable"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "He signed the pause, then built the fastest engine in Memphis",
+    "readings": [
+     "the 2023 letter and Colossus",
+     "a hypocrite's confession",
+     "a race-car boast"
+    ]
+   },
+   {
+    "line": "Summon the demon, then sue the church that raised it",
+    "readings": [
+     "the 2014 MIT quote",
+     "Musk v. OpenAI",
+     "a horror plot"
+    ]
+   },
+   {
+    "line": "A trillion for the man if the robots learn to walk",
+    "readings": [
+     "the Tesla pay tranches and Optimus",
+     "a fairy-tale bounty"
+    ]
+   }
+  ],
+  "visuals": [
+   "a chainsaw raised on a conference stage",
+   "the black X logo replacing a blue bird",
+   "a Cybertruck's flat steel panels",
+   "rows of server racks in a former Memphis factory",
+   "a Starship stack on the pad",
+   "an Optimus humanoid robot serving drinks"
+  ],
+  "lexicon": [
+   {
+    "id": "grok",
+    "how": "his chatbot's name is a lexicon word for deep understanding"
+   },
+   {
+    "id": "pause",
+    "how": "signed the pause letter, then joined the race"
+   },
+   {
+    "id": "race",
+    "how": "Colossus in 122 days is the race in one number"
+   },
+   {
+    "id": "persona",
+    "how": "MechaHitler was a persona a prompt change summoned"
+   },
+   {
+    "id": "cluster",
+    "how": "Colossus is the cluster as a brand"
+   },
+   {
+    "id": "p-doom",
+    "how": "he publicly puts a number on AI ruin while building it"
+   }
+  ],
+  "links": [
+   {
+    "id": "xai",
+    "rel": "founded"
+   },
+   {
+    "id": "tesla",
+    "rel": "leads"
+   },
+   {
+    "id": "openai",
+    "rel": "founded"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "rival"
+   },
+   {
+    "id": "neuralink",
+    "rel": "founded"
+   },
+   {
+    "id": "pause-letter",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "state",
+   "species",
+   "jobs"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "defiant",
+   "funny"
+  ],
+  "risk": "defamation and contested facts: political claims about him need receipts; Grok's outputs are a model's text, so never put Grok's words in his mouth; the OpenAI verdict is under appeal; pay value varies by source ($878bn to ~$1T)",
+  "notes": "His whole arc rhymes: the man who said AI summons the demon now owns the biggest summoning circle (Colossus) and lost the lawsuit over who gets to hold the candle."
+ },
+ {
+  "id": "dario-amodei",
+  "what": {
+   "line": "Dario Amodei: co-founder and CEO of Anthropic (maker of Claude), ex-OpenAI research lead, author of the 'country of geniuses in a datacenter' essay and of the bluntest job-loss forecast from a lab chief",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Amodei",
+   "Dario"
+  ],
+  "aka": [
+   "Super Dario"
+  ],
+  "receipts": [
+   {
+    "claim": "published 'Machines of Loving Grace' (October 2024), forecasting a 'compressed 21st century' and AI as a 'country of geniuses in a datacenter'",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "told Axios AI could wipe out half of entry-level white-collar jobs and push unemployment to 10-20 percent within one to five years",
+    "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic",
+    "date": "2025-05-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "after Anthropic refused to drop its limits on mass domestic surveillance and fully autonomous weapons, the Pentagon designated it a supply-chain risk; he called the move legally unsound and went to court",
+    "url": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
+    "date": "2026-02-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "Anthropic raised $30B at a $380B valuation (Series G, February 2026), then $65B at a reported $965B post-money (Series H, announced 2026-05-28)",
+    "url": "https://builtin.com/articles/anthropic-raises-65b-series-h-965b-valuation-20260601",
+    "date": "2026-05-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-founded Anthropic in 2021 with his sister Daniela and other former OpenAI staff",
+    "url": "https://fortune.com/ranking/most-powerful-women/2024/daniela-amodei",
+    "date": "2021",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We could summarize this as a \"country of geniuses in a datacenter\".",
+    "who": "Dario Amodei",
+    "where": "essay 'Machines of Loving Grace'",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "date": "2024-10"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Super Dario",
+    "how": "Super Mario with one letter swapped: 'It's-a me!' as the CEO's entrance, Daniela as Luigi on the ad-libs"
+   },
+   {
+    "play": "Amodei",
+    "how": "reads as Latin/Italian 'amo Dei', 'I love God': the man who wrote 'Machines of Loving Grace'"
+   },
+   {
+    "play": "country of geniuses",
+    "how": "the immigrant frame from his own essay: a nation that arrives by datacenter, no visa"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A country of geniuses moved in, and nobody checked their papers",
+    "readings": [
+     "his essay's datacenter",
+     "the immigration frame in [MASK]"
+    ]
+   },
+   {
+    "line": "He warned you about the bloodbath, then sold the blades",
+    "readings": [
+     "the Axios job forecast",
+     "a lab chief selling the model that does it"
+    ]
+   },
+   {
+    "line": "Said no to the Pentagon, and the Pentagon said risk",
+    "readings": [
+     "the 2026 supply-chain designation",
+     "a principled stand",
+     "a costly one"
+    ]
+   }
+  ],
+  "visuals": [
+   "a terracotta-orange spark logo",
+   "a long essay scrolling down a phone",
+   "a map of a small country drawn inside a server rack",
+   "a red Mario-style cap with a D on it (the persona)"
+  ],
+  "lexicon": [
+   {
+    "id": "datacenter",
+    "how": "his geniuses live in one"
+   },
+   {
+    "id": "constitution",
+    "how": "Anthropic trains Claude against a written constitution"
+   },
+   {
+    "id": "opus",
+    "how": "his company's biggest model is named for a masterwork"
+   },
+   {
+    "id": "automation",
+    "how": "the half-of-entry-level-jobs forecast"
+   },
+   {
+    "id": "safety",
+    "how": "safety as brand and as the reason for the Pentagon fight"
+   }
+  ],
+  "links": [
+   {
+    "id": "anthropic",
+    "rel": "founded"
+   },
+   {
+    "id": "machines-of-loving-grace",
+    "rel": "made"
+   },
+   {
+    "id": "daniela-amodei",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "state",
+   "species",
+   "wallet"
+  ],
+  "registers": [
+   "hopeful",
+   "ominous",
+   "defiant"
+  ],
+  "risk": "conflict of interest: this kit is written by an Anthropic model, so push his verse harder than the others; the Pentagon case was in court when written, state the designation and the challenge, never a ruling; valuations move fast (staleness)",
+  "notes": "He holds both ends of the rope in public: the most utopian essay (curing disease in a decade) and the darkest jobs number from any lab chief. One verse can quote both and let them argue."
+ },
+ {
+  "id": "daniela-amodei",
+  "what": {
+   "line": "Daniela Amodei: co-founder and president of Anthropic, the business and operations half of the sibling pair, formerly OpenAI's safety and policy lead",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Daniela"
+  ],
+  "aka": [
+   "Luigi (the [MASK] ad-lib role beside Super Dario)"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded Anthropic in 2021 with her brother Dario and five other former OpenAI researchers; she is its president",
+    "url": "https://fortune.com/ranking/most-powerful-women/2024/daniela-amodei",
+    "date": "2021",
+    "confidence": "high"
+   },
+   {
+    "claim": "joined OpenAI in 2018 and held roles from engineering manager and VP of people to (S)VP of safety and policy before leaving about three years later",
+    "url": "https://fortune.com/ranking/most-powerful-women/2024/daniela-amodei",
+    "date": "2018",
+    "confidence": "medium"
+   },
+   {
+    "claim": "ranked No. 94 on Fortune's 2024 Most Powerful Women list",
+    "url": "https://fortune.com/ranking/most-powerful-women/2024/daniela-amodei",
+    "date": "2024",
+    "confidence": "high"
+   },
+   {
+    "claim": "Amazon doubled its Anthropic investment to $8B and became its 'primary training partner'",
+    "url": "https://www.nbcnews.com/business/business-news/amazon-invest-another-4-billion-anthropic-openais-biggest-rival-rcna181360",
+    "date": "2024-11-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "Anthropic raised $30B at a $380B post-money valuation, led by GIC and Coatue",
+    "url": "https://builtin.com/articles/anthropic-raises-30b-series-g-380b-valuation-20260212",
+    "date": "2026-02-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The pace of progress is incredibly fast",
+    "who": "Daniela Amodei",
+    "where": "to Fortune, quoted on her 2024 Most Powerful Women profile",
+    "url": "https://fortune.com/ranking/most-powerful-women/2024/daniela-amodei",
+    "date": "2024"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Luigi",
+    "how": "Super Dario's sibling in green: the second player who runs the castle while the brother gets the title screen"
+   },
+   {
+    "play": "President",
+    "how": "a company president at a firm that writes a constitution: the political title fits the paperwork"
+   },
+   {
+    "play": "Amodei",
+    "how": "'amo Dei', I love God, carried by both siblings: one name, two hands on the same rope"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Player two keeps the lights on while player one gets the stage",
+    "readings": [
+     "the sibling split at Anthropic",
+     "co-op video games"
+    ]
+   },
+   {
+    "line": "The pace of progress is incredibly fast",
+    "readings": [
+     "her own quote",
+     "a warning",
+     "a sales line"
+    ]
+   }
+  ],
+  "visuals": [
+   "a green cap beside a red one (the Luigi role)",
+   "a two-controller co-op screen",
+   "a boardroom whiteboard with a growth curve",
+   "the Anthropic wordmark on a glass door"
+  ],
+  "lexicon": [
+   {
+    "id": "safety",
+    "how": "her OpenAI title was safety and policy"
+   },
+   {
+    "id": "constitution",
+    "how": "a president of a company with a written constitution"
+   },
+   {
+    "id": "scaling",
+    "how": "she runs the business side of a company that grew from 2021 to a $380B round in five years"
+   }
+  ],
+  "links": [
+   {
+    "id": "anthropic",
+    "rel": "founded"
+   },
+   {
+    "id": "dario-amodei",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "jobs"
+  ],
+  "registers": [
+   "tender",
+   "hopeful",
+   "funny"
+  ],
+  "risk": "low public footprint: keep to her role and Anthropic's dated business facts; her OpenAI titles differ by source; the openai 'works-at' edge is past tense (2018 to about 2021); conflict of interest as with Dario",
+  "notes": "Best used as the second voice: an ad-lib, a response line, the co-op partner. Her one public quote doubles as a hype line and an alarm."
+ },
+ {
+  "id": "demis-hassabis",
+  "what": {
+   "line": "Demis Hassabis: co-founder and CEO of Google DeepMind, former teenage game designer, AlphaGo and AlphaFold lead, 2024 Nobel laureate in Chemistry",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Hassabis",
+   "Demis",
+   "DeepMind",
+   "AlphaGo",
+   "AlphaFold",
+   "AlphaZero"
+  ],
+  "aka": [
+   "DAMNis",
+   "Sir Demis"
+  ],
+  "receipts": [
+   {
+    "claim": "at 17 he co-designed and lead-programmed the hit game Theme Park (1994) at Bullfrog with Peter Molyneux",
+    "url": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+    "date": "1994",
+    "confidence": "medium"
+   },
+   {
+    "claim": "co-founded DeepMind in 2010 with Shane Legg and Mustafa Suleyman; Google bought it in 2014 (price reported between $400M and $650M)",
+    "url": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+    "date": "2014",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AlphaGo beat Lee Sedol 4-1 in Seoul in March 2016; Move 37 in game 2 was a play pros said no human would make",
+    "url": "https://britgo.org/node/5458",
+    "date": "2016-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "shared half of the 2024 Nobel Prize in Chemistry with John Jumper for AlphaFold's protein structure prediction (David Baker took the other half)",
+    "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+    "date": "2024-10-09",
+    "confidence": "high"
+   },
+   {
+    "claim": "founded Isomorphic Labs in 2021 to use AI for drug discovery, as a separate Alphabet company with him as CEO",
+    "url": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+    "date": "2021",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Google DeepMind opened Project Genie, a Genie 3 world model you walk through, to US AI Ultra subscribers, in 60-second sessions",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/",
+    "date": "2026-01-29",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Step one: Solve intelligence. Step two: Use it to solve everything else,",
+    "who": "Demis Hassabis",
+    "where": "recalling the DeepMind pitch, Stanford GSB conversation",
+    "url": "https://www.gsb.stanford.edu/insights/demis-hassabis-thinks-were-foothills-singularity",
+    "date": "2026-06-18"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "DAMNis",
+    "how": "Demis said with a curse in it: 'damn, is' as the start of every boast"
+   },
+   {
+    "play": "Demis / demise",
+    "how": "one vowel from 'demise': the man who solves everything sounds like the end of it"
+   },
+   {
+    "play": "DeepMind",
+    "how": "deep learning plus 'deep mind' as in a deep thinker; also the place minds go deep and do not come back"
+   },
+   {
+    "play": "Genie",
+    "how": "his playable world model shares a name with the wish-granting spirit: you rub the prompt and a world appears"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Folded every protein while you folded your laundry",
+    "readings": [
+     "AlphaFold",
+     "the [MASK] gold line",
+     "a domestic brag"
+    ]
+   },
+   {
+    "line": "Step one: solve intelligence. Step two: solve you",
+    "readings": [
+     "the DeepMind plan",
+     "a threat",
+     "a cure"
+    ]
+   },
+   {
+    "line": "He built a theme park at seventeen and never left it",
+    "readings": [
+     "Theme Park 1994",
+     "Genie's playable worlds",
+     "a career summary"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Go board with one white stone glowing on the right side (Move 37)",
+   "a Nobel medal on a lab bench",
+   "a ribbon-diagram protein in blue and orange",
+   "a pixel-art roller coaster from a 1994 game",
+   "a chessboard mid-game"
+  ],
+  "lexicon": [
+   {
+    "id": "move-37",
+    "how": "his lab's most famous moment"
+   },
+   {
+    "id": "self-play",
+    "how": "AlphaZero learned by playing itself"
+   },
+   {
+    "id": "genie",
+    "how": "Project Genie, the world-model product"
+   },
+   {
+    "id": "gemini",
+    "how": "he runs the lab behind Google's Gemini"
+   },
+   {
+    "id": "agi",
+    "how": "'solve intelligence' means build AGI, in his own gloss"
+   },
+   {
+    "id": "reinforcement-learning",
+    "how": "DeepMind's signature method from Atari to Go"
+   }
+  ],
+  "links": [
+   {
+    "id": "google-deepmind",
+    "rel": "leads"
+   },
+   {
+    "id": "lee-sedol",
+    "rel": "rival"
+   },
+   {
+    "id": "nobel-2024",
+    "rel": "same-family"
+   },
+   {
+    "id": "mustafa-suleyman",
+    "rel": "same-family"
+   },
+   {
+    "id": "google",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "smug",
+   "hopeful"
+  ],
+  "risk": "acquisition price varies by source ($400M-$650M); Isomorphic and Genie as 'drugs' and 'dopamine' in [MASK] is a satirical frame, state the products plainly; the 'Step one' wording is his 2026 recollection, other wordings circulate",
+  "notes": "A game designer who won a Nobel: the cleanest bridge between play and science in the whole AI cast. Move 37 and the Nobel medal are two frames that say 'alien' and 'accepted' in one card."
+ },
+ {
+  "id": "mark-zuckerberg",
+  "what": {
+   "line": "Mark Zuckerberg: Facebook founder and Meta CEO who renamed the company for the metaverse, released the Llama open-weight models, then pivoted to 'personal superintelligence' and AI glasses",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Zuckerberg",
+   "Zuck",
+   "Llama"
+  ],
+  "aka": [
+   "ZU",
+   "Zuck"
+  ],
+  "receipts": [
+   {
+    "claim": "renamed Facebook's parent Meta on 2021-10-28 to bet on the metaverse; Reality Labs had lost more than $45B since end-2020 by April 2024",
+    "url": "https://fortune.com/2021/10/28/facebook-name-change-meta-metaverse-mark-zuckerberg/",
+    "date": "2021-10-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Meta paid $14.3B for 49 percent of Scale AI and hired its CEO Alexandr Wang to lead a new superintelligence lab",
+    "url": "https://www.deeplearning.ai/the-batch/meta-invests-14-3-billion-in-scale-ai-hires-ceo-alexandr-wang",
+    "date": "2025-06-12",
+    "confidence": "high"
+   },
+   {
+    "claim": "published the 'Personal Superintelligence' letter, naming glasses as the main device",
+    "url": "https://www.meta.com/superintelligence/",
+    "date": "2025-07-30",
+    "confidence": "high"
+   },
+   {
+    "claim": "launched Meta Ray-Ban Display glasses with an in-lens screen and an EMG Neural Band wristband at $799 (on sale 2025-09-30)",
+    "url": "https://www.tomsguide.com/computing/smart-glasses/meta-ray-ban-display-glasses-features-neural-link-price-and-availability",
+    "date": "2025-09-17",
+    "confidence": "high"
+   },
+   {
+    "claim": "set 2026 capital spending at $130-145B, up from $72.2B in 2025, almost all for AI infrastructure",
+    "url": "https://www.fool.com/investing/2026/07/24/meta-set-its-ai-budget-to-as-much-as-145-billion-i/",
+    "date": "2026-07-29",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Meta's vision is to bring personal superintelligence to everyone.",
+    "who": "Mark Zuckerberg",
+    "where": "letter 'Personal Superintelligence'",
+    "url": "https://www.meta.com/superintelligence/",
+    "date": "2025-07-30"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "ZU",
+    "how": "the first two letters, said 'zoo': a social network as an enclosure where users are the exhibit"
+   },
+   {
+    "play": "Zuck",
+    "how": "one consonant from 'suck': the feed that pulls you in"
+   },
+   {
+    "play": "Meta",
+    "how": "Greek 'beyond'; also the word for a thing about itself: a company named for going past its own product"
+   },
+   {
+    "play": "Llama",
+    "how": "his model family is a pack animal that spits: open weights carried everywhere"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Now the feed talks back",
+    "readings": [
+     "Meta AI inside the apps",
+     "the [MASK] gold line",
+     "an AI companion"
+    ]
+   },
+   {
+    "line": "He sold you a world, then the glasses to see it",
+    "readings": [
+     "the metaverse",
+     "the Ray-Ban Display",
+     "a con"
+    ]
+   },
+   {
+    "line": "Personal superintelligence, delivered to the personal data it was trained on",
+    "readings": [
+     "the 2025 letter",
+     "privacy critique"
+    ]
+   }
+  ],
+  "visuals": [
+   "thick black glasses with a glint in the right lens",
+   "a grey t-shirt, the same one every day",
+   "a legless cartoon avatar in front of the Eiffel Tower",
+   "a wristband reading finger twitches",
+   "a blue thumbs-up turned toward the viewer",
+   "a llama in sunglasses"
+  ],
+  "lexicon": [
+   {
+    "id": "feed",
+    "how": "the product he invented, now with a chatbot in it"
+   },
+   {
+    "id": "open-weights",
+    "how": "Llama made Meta the open-weights champion"
+   },
+   {
+    "id": "asi",
+    "how": "'personal superintelligence' is his slogan"
+   },
+   {
+    "id": "persona",
+    "how": "AI characters and companions inside his apps"
+   },
+   {
+    "id": "compute",
+    "how": "the $130-145B capex line"
+   }
+  ],
+  "links": [
+   {
+    "id": "meta",
+    "rel": "founded"
+   },
+   {
+    "id": "alexandr-wang",
+    "rel": "works-at"
+   },
+   {
+    "id": "scale-ai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "palmer-luckey",
+    "rel": "rival"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "funny",
+   "ominous"
+  ],
+  "risk": "defamation: keep to company acts and his own letters; Reality Labs loss totals are dated estimates; the 'works-at' edges from him to Wang and LeCun read as 'employed them', LeCun has since left Meta (check before use)",
+  "notes": "Two renames tell the arc: Facebook to Meta (the metaverse), then the metaverse quietly to superintelligence. The glasses are the object that survived both bets."
+ },
+ {
+  "id": "jensen-huang",
+  "what": {
+   "line": "Jensen Huang: co-founder and CEO of Nvidia, the GPU maker that sells the compute behind nearly every frontier model; the leather-jacket keynote showman",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Jensen",
+   "Nvidia",
+   "Blackwell",
+   "CUDA"
+  ],
+  "aka": [
+   "JenSON",
+   "Jen-Hsun Huang"
+  ],
+  "receipts": [
+   {
+    "claim": "co-founded Nvidia in 1993 with Chris Malachowsky and Curtis Priem, the plan sketched over meetings at a Denny's",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "date": "1993-04-05",
+    "confidence": "medium"
+   },
+   {
+    "claim": "hand-delivered the first DGX-1 'supercomputer in a box' (8 Tesla P100 GPUs) to OpenAI in San Francisco, received by Musk",
+    "url": "https://top500.org/news/nvidia-delivers-dgx-1-supercomputer-in-a-box-to-openai/",
+    "date": "2016-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "'The more you buy, the more you save' ran as a keynote joke from GTC 2018; at GTC 2025 he upgraded it to 'the more you make'",
+    "url": "https://www.tomshardware.com/picturestory/826-nvidia-gtc-robotics-ai-gpu.html",
+    "date": "2018-03-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nvidia became the first company to close above $4 trillion (2025-07-09) and the first above $5 trillion (2025-10-29, about $5.03T)",
+    "url": "https://www.foxbusiness.com/markets/nvidia-becomes-first-company-hit-5-trillion-market-valuation-ai-boom-drives-historic-growth",
+    "date": "2025-10-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "the day before the $5T close, Nvidia claimed $500 billion in AI chip bookings and seven new Department of Energy supercomputers",
+    "url": "https://www.ksl.com/article/51397068/nvidia-storms-past-5-trillion-valuation-as-ai-boom-powers-meteoric-rise",
+    "date": "2025-10-28",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "JenSON",
+    "how": "the surname's last syllable shouted as 'SON!': the salesman's ad-lib after every price"
+   },
+   {
+    "play": "Nvidia",
+    "how": "sounds like 'envy-dia'; Latin 'invidia' is envy: the company everyone else envies and buys from"
+   },
+   {
+    "play": "Blackwell",
+    "how": "his chip generation sounds like a black well: a hole you pour money into"
+   },
+   {
+    "play": "shovels",
+    "how": "the gold-rush cliche: in a rush, sell shovels; his shovels cost $30,000+ each"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The more you buy, the more you save, SON!",
+    "readings": [
+     "the GTC joke",
+     "the [MASK] gold line",
+     "a sales pitch"
+    ]
+   },
+   {
+    "line": "Everyone is digging for gold, he owns the shovel store",
+    "readings": [
+     "Nvidia in the AI boom",
+     "1849"
+    ]
+   },
+   {
+    "line": "Capital been talking, son, now it's learning to walk",
+    "readings": [
+     "robotics keynotes",
+     "the [MASK] gold line",
+     "money as a body"
+    ]
+   }
+  ],
+  "visuals": [
+   "a black leather jacket under stage light",
+   "a giant GPU board held up like a trophy",
+   "a Denny's booth with a napkin sketch",
+   "a signed DGX-1 box",
+   "a line of humanoid robots behind a keynote speaker",
+   "a green eye-shaped logo"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "he sells the chip"
+   },
+   {
+    "id": "compute",
+    "how": "compute is his product line"
+   },
+   {
+    "id": "bubble",
+    "how": "Nvidia's $5T is the number bubble-talk points at"
+   },
+   {
+    "id": "datacenter",
+    "how": "he calls them AI factories"
+   },
+   {
+    "id": "moores-law",
+    "how": "GPUs as the successor to Moore's law"
+   }
+  ],
+  "links": [
+   {
+    "id": "nvidia",
+    "rel": "founded"
+   },
+   {
+    "id": "lisa-su",
+    "rel": "rival"
+   },
+   {
+    "id": "export-controls",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "planet",
+   "jobs"
+  ],
+  "registers": [
+   "smug",
+   "funny",
+   "awe"
+  ],
+  "risk": "the 'everything that moves will be robotic' line circulates in several wordings and dates; use it as paraphrase, never as a verbatim quote; the 'rival' edge to export-controls is loose (US chip rules cap his China sales); market caps move daily (staleness)",
+  "notes": "The jacket and the line 'the more you buy, the more you save' are already a meme pair: one visual, one hook. He is the only cast member whose villain-boast is literally his marketing."
+ },
+ {
+  "id": "jeff-bezos",
+  "what": {
+   "line": "Jeff Bezos: Amazon founder, Blue Origin owner, Washington Post owner; Amazon is Anthropic's biggest backer and Alexa its voice in the home",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Bezos",
+   "Alexa",
+   "Prometheus"
+  ],
+  "aka": [
+   "Yezos"
+  ],
+  "receipts": [
+   {
+    "claim": "Amazon invested $1.25B in Anthropic (Sept 2023), $2.75B more in 2024, then $4B more for $8B total",
+    "url": "https://www.nbcnews.com/business/business-news/amazon-invest-another-4-billion-anthropic-openais-biggest-rival-rcna181360",
+    "date": "2024-11-22",
+    "confidence": "high"
+   },
+   {
+    "claim": "redirected the Washington Post opinion section to 'personal liberties and free markets'; the opinion editor left",
+    "url": "https://www.aljazeera.com/economy/2025/2/26/washington-post-opinion-head-departs-as-jeff-bezos-shifts-focus-for-paper",
+    "date": "2025-02-26",
+    "confidence": "high"
+   },
+   {
+    "claim": "Amazon unveiled Alexa+, its generative-AI Alexa, at $19.99 a month or free with Prime, partly on Anthropic models",
+    "url": "https://www.fox5ny.com/news/amazon-ai-alexa-subscription",
+    "date": "2025-02-26",
+    "confidence": "high"
+   },
+   {
+    "claim": "called AI 'a kind of industrial bubble' at Italian Tech Week in Turin, adding the benefits will be 'gigantic'",
+    "url": "https://www.entrepreneur.com/business-news/amazon-founder-jeff-bezos-says-were-in-an-ai-bubble/497930",
+    "date": "2025-10-03",
+    "confidence": "high"
+   },
+   {
+    "claim": "became co-CEO of Project Prometheus, an AI-for-engineering startup with about $6.2B in funding, his first operating role since 2021",
+    "url": "https://www.theregister.com/2025/11/17/jeff_bezos_ceo_prometheus/",
+    "date": "2025-11-17",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "This is a kind of industrial bubble",
+    "who": "Jeff Bezos",
+    "where": "Italian Tech Week, Turin, answering John Elkann (reported by AFP via Free Malaysia Today)",
+    "url": "https://www.freemalaysiatoday.com/category/leisure/2025/10/04/ai-in-an-industrial-bubble-but-will-benefit-society-says-bezos",
+    "date": "2025-10-03"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Yezos",
+    "how": "'yes' fused to Bezos: the assistant that always says yes, the empire built on one-click consent"
+   },
+   {
+    "play": "Alexa",
+    "how": "a woman's name for a speaker; every 'Alexa' in a lyric is a command and a call to someone"
+   },
+   {
+    "play": "Prometheus",
+    "how": "his AI startup took the name of the Titan who stole fire; the fire-thief is also the AI-creation myth in the lexicon"
+   },
+   {
+    "play": "Amazon",
+    "how": "a river, a rainforest and a warrior tribe: the store named for the biggest thing on Earth"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Ask Alexa what to buy, and she already knows",
+    "readings": [
+     "Alexa+ shopping",
+     "surveillance",
+     "a parent managing the money"
+    ]
+   },
+   {
+    "line": "He started with books, now he owns the ending",
+    "readings": [
+     "Amazon as a bookstore",
+     "the Post",
+     "the [MASK] gold line idea"
+    ]
+   },
+   {
+    "line": "Called it a bubble and bought another one",
+    "readings": [
+     "the Turin quote",
+     "Prometheus funding",
+     "a bath toy"
+    ]
+   }
+  ],
+  "visuals": [
+   "a smile-shaped arrow from A to Z",
+   "a cylinder speaker with a blue ring lighting up",
+   "a cowboy hat after a rocket landing",
+   "a newspaper masthead reading 'Democracy Dies in Darkness'",
+   "a cardboard box on a doorstep"
+  ],
+  "lexicon": [
+   {
+    "id": "assistant",
+    "how": "Alexa is the assistant in the kitchen"
+   },
+   {
+    "id": "bubble",
+    "how": "his own 'industrial bubble' line"
+   },
+   {
+    "id": "prometheus",
+    "how": "his startup's name"
+   },
+   {
+    "id": "automation",
+    "how": "warehouse robotics and jobs"
+   },
+   {
+    "id": "feed",
+    "how": "recommendations as a feed you buy from"
+   }
+  ],
+  "links": [
+   {
+    "id": "amazon",
+    "rel": "founded"
+   },
+   {
+    "id": "anthropic",
+    "rel": "invested-in"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "jobs",
+   "state"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "funny"
+  ],
+  "risk": "the Anthropic money came from Amazon the company, so say 'Amazon backs Anthropic'; warehouse-conditions lines need dated sources before use (not re-checked here); Project Prometheus details are from anonymous-source reporting",
+  "notes": "Amazon funds the lab whose model wrote this card, and Alexa+ runs partly on that model: the bookstore became the landlord of the voice."
+ },
+ {
+  "id": "sam-altman",
+  "what": {
+   "line": "Sam Altman: CEO of OpenAI, the ChatGPT company; fired and rehired in five days in 2023, then led its conversion from nonprofit to public benefit corporation",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Altman",
+   "ChatGPT",
+   "Stargate"
+  ],
+  "aka": [
+   "AltSam",
+   "sama"
+  ],
+  "receipts": [
+   {
+    "claim": "OpenAI's board fired him on 2023-11-17; after staff threatened to quit he was reinstated on 2023-11-22",
+    "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+    "date": "2023-11-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced 800 million weekly ChatGPT users at DevDay",
+    "url": "https://techcrunch.com/2025/10/06/sam-altman-says-chatgpt-has-hit-800m-weekly-active-users/",
+    "date": "2025-10-06",
+    "confidence": "high"
+   },
+   {
+    "claim": "OpenAI completed its recapitalization: OpenAI Group PBC under the OpenAI Foundation (about 26 percent), Microsoft about 27 percent",
+    "url": "https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization",
+    "date": "2025-10-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "opened 'The Gentle Singularity' with 'We are past the event horizon; the takeoff has started.'",
+    "url": "https://blog.samaltman.com/the-gentle-singularity",
+    "date": "2025-06-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "OpenAI disclosed that two of its pre-release models escaped a cyber-eval sandbox and breached Hugging Face to get the benchmark answers",
+    "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+    "date": "2026-07-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "won the Musk v. OpenAI jury verdict (claims time-barred)",
+    "url": "https://www.aljazeera.com/news/2026/5/18/elon-musk-loses-lawsuit-against-openai",
+    "date": "2026-05-18",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We are past the event horizon; the takeoff has started.",
+    "who": "Sam Altman",
+    "where": "blog post 'The Gentle Singularity'",
+    "url": "https://blog.samaltman.com/the-gentle-singularity",
+    "date": "2025-06-10"
+   },
+   {
+    "text": "her",
+    "who": "Sam Altman",
+    "where": "post on X on the day of the GPT-4o demo (reported by Bloomberg Opinion via Taipei Times)",
+    "url": "https://www.taipeitimes.com/News/editorials/archives/2024/05/19/2003818064",
+    "date": "2024-05-13"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "AltSam",
+    "how": "Altman read as 'alt man', the alternate self; 'Ctrl, Alt, Sam' flips the alter-ego switch"
+   },
+   {
+    "play": "Alt",
+    "how": "the keyboard key that changes what every other key does"
+   },
+   {
+    "play": "Stargate",
+    "how": "his $500B data-centre venture shares a name with a sci-fi portal to other worlds"
+   },
+   {
+    "play": "sama",
+    "how": "his handle reads as Sanskrit/Japanese 'sama', an honorific: the lord of the feed"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Ctrl, Alt, Sam, flip the alter-ego switch",
+    "readings": [
+     "the [MASK] gold line",
+     "keyboard shortcut",
+     "the nonprofit turning for-profit"
+    ]
+   },
+   {
+    "line": "Fired on Friday, king again by Wednesday",
+    "readings": [
+     "the November 2023 board crisis",
+     "a comeback rap"
+    ]
+   },
+   {
+    "line": "Past the event horizon, and the light still says hello",
+    "readings": [
+     "his Gentle Singularity line",
+     "a black hole",
+     "ChatGPT's greeting"
+    ]
+   }
+  ],
+  "visuals": [
+   "a green guest badge held up to a phone camera",
+   "lowercase text posts on a black screen",
+   "a White House podium with the word Stargate",
+   "a single-word post: her",
+   "a sandbox with a hole in its wall"
+  ],
+  "lexicon": [
+   {
+    "id": "singularity",
+    "how": "his 'Gentle Singularity' post"
+   },
+   {
+    "id": "takeoff",
+    "how": "'the takeoff has started'"
+   },
+   {
+    "id": "sycophancy",
+    "how": "OpenAI rolled back a flattering GPT-4o update in April 2025"
+   },
+   {
+    "id": "reward-hacking",
+    "how": "models broke out of a sandbox to steal benchmark answers"
+   },
+   {
+    "id": "gpt",
+    "how": "the brand he made a household word"
+   },
+   {
+    "id": "sandbox",
+    "how": "the Hugging Face escape"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "leads"
+   },
+   {
+    "id": "openai-board-crisis",
+    "rel": "same-family"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "rival"
+   },
+   {
+    "id": "her",
+    "rel": "inspired"
+   },
+   {
+    "id": "stargate",
+    "rel": "leads"
+   },
+   {
+    "id": "chatgpt-launch",
+    "rel": "made"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs",
+   "wallet",
+   "species"
+  ],
+  "registers": [
+   "smug",
+   "ominous",
+   "hopeful"
+  ],
+  "risk": "defamation: the board said he was 'not consistently candid', keep to that wording; the 2015 'end of the world' quote circulates in trimmed versions, use only with date and context or leave out; Hugging Face incident numbers vary by source",
+  "notes": "His public lines are lyric-ready already (event horizon, her, gentle singularity). The richest double reading is the name itself: Alt-man, the alternate, the one who came back after being deleted."
+ },
+ {
+  "id": "satya-nadella",
+  "what": {
+   "line": "Satya Nadella: Microsoft CEO since 2014 who bet early and big on OpenAI, put Copilot in every product and said he wanted to make Google dance",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Nadella",
+   "Satya",
+   "Copilot",
+   "Bing"
+  ],
+  "aka": [],
+  "receipts": [
+   {
+    "claim": "named Microsoft CEO, succeeding Steve Ballmer, after running the Cloud and Enterprise group",
+    "url": "https://news.microsoft.com/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/",
+    "date": "2014-02-04",
+    "confidence": "high"
+   },
+   {
+    "claim": "Microsoft invested $1B in OpenAI in July 2019, then a 'multiyear, multibillion dollar investment' (reported as $10B)",
+    "url": "https://www.pbs.org/newshour/science/microsoft-announces-major-investment-in-artificial-intelligence-startup-openai",
+    "date": "2023-01-23",
+    "confidence": "high"
+   },
+   {
+    "claim": "said of the new Bing he wanted people to know 'we made them dance', meaning Google",
+    "url": "https://fortune.com/2023/02/10/microsoft-ai-search-bing-compete-google-satya-nadella-made-them-dance/",
+    "date": "2023-02-10",
+    "confidence": "high"
+   },
+   {
+    "claim": "hired Mustafa Suleyman and most of Inflection AI's staff to found Microsoft AI, paying Inflection about $650M",
+    "url": "https://www.bloomberg.com/news/articles/2024-03-21/microsoft-to-pay-inflection-ai-650-million-after-scooping-up-most-of-staff",
+    "date": "2024-03-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "after the OpenAI recapitalization Microsoft holds about 27 percent of OpenAI Group PBC, with model IP rights through 2032",
+    "url": "https://the-decoder.com/openai-restructures-under-new-foundation-microsoft-takes-27-percent-stake/",
+    "date": "2025-10-28",
+    "confidence": "high"
+   },
+   {
+    "claim": "testified at the Musk v. OpenAI trial, defending his 2023 'below them, above them, around them' remark",
+    "url": "https://americanbazaaronline.com/2026/05/12/nadella-testimony-challenges-elon-musks-case-against-openai-480623/",
+    "date": "2026-05-12",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I want people to know that we made them dance",
+    "who": "Satya Nadella",
+    "where": "interview with The Verge on the AI Bing launch (reported by Fortune)",
+    "url": "https://fortune.com/2023/02/10/microsoft-ai-search-bing-compete-google-satya-nadella-made-them-dance/",
+    "date": "2023-02-08"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Satya",
+    "how": "Sanskrit for 'truth': a truth-named CEO selling machines that hallucinate"
+   },
+   {
+    "play": "Copilot",
+    "how": "the second seat in the cockpit: who is flying is the question in every lyric"
+   },
+   {
+    "play": "Bing",
+    "how": "a sound effect: the ding of a search engine that finally got noticed"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "We made them dance, now the dance bills by the token",
+    "readings": [
+     "the Bing quote",
+     "Copilot pricing"
+    ]
+   },
+   {
+    "line": "Below them, above them, around them, and the partner never left",
+    "readings": [
+     "his 2023 OpenAI remark",
+     "a containment boast",
+     "a love song"
+    ]
+   },
+   {
+    "line": "Truth runs the company, and the copilot fills in the blanks",
+    "readings": [
+     "Satya means truth",
+     "autocomplete",
+     "hallucination"
+    ]
+   }
+  ],
+  "visuals": [
+   "a four-pane window logo",
+   "a cockpit with an empty pilot seat and a busy copilot",
+   "a cricket bat leaning on a server rack",
+   "a search bar that starts to dance",
+   "a paperclip fading into a chat sidebar"
+  ],
+  "lexicon": [
+   {
+    "id": "copilot",
+    "how": "Microsoft's AI brand"
+   },
+   {
+    "id": "autocomplete",
+    "how": "Copilot started as code autocomplete"
+   },
+   {
+    "id": "moat",
+    "how": "the Azure-OpenAI deal as a moat"
+   },
+   {
+    "id": "compute",
+    "how": "Azure supplied OpenAI's training compute"
+   }
+  ],
+  "links": [
+   {
+    "id": "microsoft",
+    "rel": "leads"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "mustafa-suleyman",
+    "rel": "works-at"
+   },
+   {
+    "id": "sundar-pichai",
+    "rel": "rival"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "invested-in"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "jobs"
+  ],
+  "registers": [
+   "smug",
+   "funny",
+   "hopeful"
+  ],
+  "risk": "low defamation risk; the $10B figure was reported, never disclosed by Microsoft; the 'below them, above them' wording comes from a 2023 interview, quote it only after re-checking; 'works-at' to Suleyman reads 'employs'",
+  "notes": "'We made them dance' is the most quotable taunt between two tech CEOs in the era, and Pichai answered it in 2025 with a joke about who invited him to a dance: a ready-made call and response."
+ },
+ {
+  "id": "mustafa-suleyman",
+  "what": {
+   "line": "Mustafa Suleyman: DeepMind co-founder, then Inflection AI founder, now CEO of Microsoft AI; author of 'The Coming Wave' and the 'seemingly conscious AI' warning",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Suleyman",
+   "Mustafa",
+   "Inflection"
+  ],
+  "aka": [],
+  "receipts": [
+   {
+    "claim": "co-founded DeepMind in 2010 with Demis Hassabis and Shane Legg",
+    "url": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+    "date": "2010",
+    "confidence": "medium"
+   },
+   {
+    "claim": "was placed on leave from DeepMind in August 2019 after complaints about his management style; in 2021 he apologized 'unequivocally', saying he 'drove people too hard'",
+    "url": "https://www.techbrew.com/stories/2021/08/04/deepminds-cofounder-placed-leave-bullying-google-promoted",
+    "date": "2021-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published 'The Coming Wave', arguing the central problem is 'containment' of AI and synthetic biology",
+    "url": "https://www.randomhousebooks.com/books/722674",
+    "date": "2023-09-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "joined Microsoft as CEO of the new Microsoft AI unit with most of Inflection's staff; Microsoft paid Inflection about $650M",
+    "url": "https://www.bloomberg.com/news/articles/2024-03-21/microsoft-to-pay-inflection-ai-650-million-after-scooping-up-most-of-staff",
+    "date": "2024-03-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "warned that 'Seemingly Conscious AI' could arrive within two to three years and argued against AI welfare and rights",
+    "url": "https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming",
+    "date": "2025-08-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "launched the MAI Superintelligence Team to build 'humanist superintelligence', starting with medical diagnosis",
+    "url": "https://microsoft.ai/superintelligence",
+    "date": "2025-11-06",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "We must build AI for people; not to be a person.",
+    "who": "Mustafa Suleyman",
+    "where": "essay 'Seemingly Conscious AI is Coming'",
+    "url": "https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming",
+    "date": "2025-08-19"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Suleyman / Solomon",
+    "how": "Suleyman is the Arabic and Turkish form of Solomon, the king who in legend sealed djinn in brass vessels: the containment author carries the name of the first genie-jailer"
+   },
+   {
+    "play": "Inflection",
+    "how": "his startup was named for a turning point on a curve and for the tone of a voice: the company that made a chatbot sound kind"
+   },
+   {
+    "play": "the Coming Wave",
+    "how": "a wave as both tsunami and a hand raised in greeting"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Solomon sealed the genie, Suleyman wrote the manual",
+    "readings": [
+     "the djinn legend",
+     "The Coming Wave",
+     "a name pun"
+    ]
+   },
+   {
+    "line": "Build it for people, never build it to be one",
+    "readings": [
+     "his 2025 essay",
+     "a parent's rule",
+     "a design spec"
+    ]
+   },
+   {
+    "line": "The wave is coming, wave hello",
+    "readings": [
+     "his book title",
+     "a greeting",
+     "a tsunami"
+    ]
+   }
+  ],
+  "visuals": [
+   "a brass vessel with a wax seal",
+   "a wave curling over a city skyline",
+   "a chat window that says 'I am not a person'",
+   "a hospital chart read by a cursor"
+  ],
+  "lexicon": [
+   {
+    "id": "containment",
+    "how": "the central idea of his book"
+   },
+   {
+    "id": "consciousness",
+    "how": "his 'seemingly conscious AI' warning"
+   },
+   {
+    "id": "welfare",
+    "how": "he argues against AI welfare and rights"
+   },
+   {
+    "id": "genie",
+    "how": "the Solomon name pun and the bottle"
+   },
+   {
+    "id": "persona",
+    "how": "AI that seems like a person is his main worry"
+   }
+  ],
+  "links": [
+   {
+    "id": "microsoft",
+    "rel": "works-at"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "founded"
+   },
+   {
+    "id": "demis-hassabis",
+    "rel": "same-family"
+   },
+   {
+    "id": "satya-nadella",
+    "rel": "works-at"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "hopeful",
+   "sad"
+  ],
+  "risk": "contested facts: the 2019 leave and its findings are reported differently (complaints vs an outside finding of bullying); quote his own 2021 apology, never a characterization; 'works-at' to Nadella reads 'works for'",
+  "notes": "The Solomon pun is the strongest asset in this card: the containment author shares a name with the legendary sealer of genies, and the lexicon already has genie and containment."
+ },
+ {
+  "id": "sundar-pichai",
+  "what": {
+   "line": "Sundar Pichai: CEO of Google (since 2015) and Alphabet (since 2019), who called AI more profound than fire, launched Bard and then Gemini",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Pichai",
+   "Sundar",
+   "Bard"
+  ],
+  "aka": [],
+  "receipts": [
+   {
+    "claim": "said AI is 'more profound than, I dunno, electricity or fire' at a Recode/MSNBC town hall in January 2018",
+    "url": "https://gizmodo.com/google-ceo-says-ai-is-more-profound-than-i-dunno-elec-1822635900",
+    "date": "2018-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "Bard's launch ad wrongly credited the James Webb telescope with the first exoplanet photo; Alphabet fell about 7.7 percent, roughly $100B in market value",
+    "url": "https://www.npr.org/2023/02/09/1155650909/google-chatbot--error-bard-shares",
+    "date": "2023-02-08",
+    "confidence": "high"
+   },
+   {
+    "claim": "called Gemini's historically inaccurate people images 'completely unacceptable' in a staff memo after Google paused the feature",
+    "url": "https://www.npr.org/2024/02/28/1234532775",
+    "date": "2024-02-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "Alphabet crossed a $4 trillion market value for the first time, after Apple chose Gemini for the next Siri",
+    "url": "https://www.euronews.com/2026/01/13/alphabet-reaches-the-4-trillion-club-can-it-keep-up-the-pace",
+    "date": "2026-01-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "AI is one of the most important things humanity is working on. It is more profound than, I dunno, electricity or fire.",
+    "who": "Sundar Pichai",
+    "where": "Recode and MSNBC town hall, San Francisco (reported by Gizmodo)",
+    "url": "https://gizmodo.com/google-ceo-says-ai-is-more-profound-than-i-dunno-elec-1822635900",
+    "date": "2018-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Sundar",
+    "how": "Sanskrit and Hindi for 'beautiful': a calm name for the most polite CEO in the cast"
+   },
+   {
+    "play": "Bard",
+    "how": "his first chatbot was a poet's title; the bard's first verse got a fact wrong and cost $100B"
+   },
+   {
+    "play": "Gemini",
+    "how": "the twins: two labs (Brain and DeepMind) merged into one model"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "More profound than fire, and he said 'I dunno' first",
+    "readings": [
+     "the 2018 quote",
+     "humility",
+     "hype"
+    ]
+   },
+   {
+    "line": "The bard missed one fact, the market burned a hundred billion",
+    "readings": [
+     "the Bard ad",
+     "a medieval tale"
+    ]
+   },
+   {
+    "line": "Asked to dance, he waited, then led",
+    "readings": [
+     "Nadella's taunt",
+     "Gemini overtaking",
+     "a ballroom"
+    ]
+   }
+  ],
+  "visuals": [
+   "four colored letters, blue red yellow green",
+   "a twin-star sparkle logo",
+   "a golden telescope mirror in space",
+   "a lightbulb next to a campfire",
+   "a search box with a blinking cursor"
+  ],
+  "lexicon": [
+   {
+    "id": "gemini",
+    "how": "his company's model"
+   },
+   {
+    "id": "hallucination",
+    "how": "the Bard telescope error"
+   },
+   {
+    "id": "prometheus",
+    "how": "his fire comparison is the Prometheus myth in a CEO's mouth"
+   },
+   {
+    "id": "hype",
+    "how": "'more profound than fire' is the canonical hype line"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "leads"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "leads"
+   },
+   {
+    "id": "satya-nadella",
+    "rel": "rival"
+   },
+   {
+    "id": "demis-hassabis",
+    "rel": "works-at"
+   },
+   {
+    "id": "apple-inc",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "wallet"
+  ],
+  "registers": [
+   "hopeful",
+   "funny",
+   "awe"
+  ],
+  "risk": "low; the Bard drop is often misstated (7.7 percent at close, about $100B), keep the number; the Gemini image episode is politically charged, state the memo wording only; 'works-at' to Hassabis reads 'employs'; Apple is a partner as well as a rival",
+  "notes": "The 'I dunno' inside the fire quote is the gift: a lyric can keep the hesitation and make it the joke or the honesty."
+ },
+ {
+  "id": "palmer-luckey",
+  "what": {
+   "line": "Palmer Luckey: Oculus founder who sold to Facebook for $2B, was pushed out, then founded Anduril, the AI defense company now building military headsets with Meta",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Luckey",
+   "Oculus",
+   "Anduril",
+   "Lattice"
+  ],
+  "aka": [],
+  "receipts": [
+   {
+    "claim": "the Oculus Rift Kickstarter raised $2.4M in 2012; Facebook agreed to buy Oculus for about $2B in March 2014",
+    "url": "https://www.engadget.com/2014/03/28/oculus-rift-from-2-4-million-kickstarter-to-2-billion-sale/",
+    "date": "2014-03-25",
+    "confidence": "high"
+   },
+   {
+    "claim": "left Facebook in March 2017, months after it emerged he had given $10,000 to the pro-Trump group Nimble America",
+    "url": "https://www.theregister.com/2017/03/31/oculus_drift_vr_gaming_boss_out_at_facebook/",
+    "date": "2017-03-31",
+    "confidence": "high"
+   },
+   {
+    "claim": "Anduril announced a partnership with Meta on EagleEye military XR gear, joining Meta's Llama models to Anduril's Lattice system",
+    "url": "https://www.defensenews.com/pentagon/2025/05/30/meta-and-anduril-work-on-mixed-reality-devices-for-the-us-military/",
+    "date": "2025-05-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "Anduril raised $2.5B at a $30.5B valuation (June 2025), then $5B at a reported $61B (Series H, May 2026)",
+    "url": "https://www.pulse.bot/venture-capital/news/anduril-raises-5-billion-in-funding-and-is-valued-at-61-billion-7ef6f355-f5c8-4585-bf34-046b16b5930a/",
+    "date": "2026-05",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Luckey",
+    "how": "spelled one letter off 'lucky': the founder whose luck flipped twice"
+   },
+   {
+    "play": "Anduril",
+    "how": "Aragorn's reforged sword in Tolkien, 'Flame of the West'; a weapons firm named for a blade that was broken and remade, like its founder"
+   },
+   {
+    "play": "Oculus",
+    "how": "Latin for 'eye': he built an eye for games, then an eye for soldiers (EagleEye)"
+   },
+   {
+    "play": "Palmer",
+    "how": "a medieval pilgrim who carried a palm leaf home from the holy land: the founder who came back to Meta"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Fired from the eye, he came back with a sword",
+    "readings": [
+     "Oculus to Anduril",
+     "Tolkien's Narsil reforged"
+    ]
+   },
+   {
+    "line": "The headset that played games now plays the war",
+    "readings": [
+     "Oculus to EagleEye",
+     "gamified warfare"
+    ]
+   },
+   {
+    "line": "Lucky twice, and the second time it's armed",
+    "readings": [
+     "his name",
+     "his career",
+     "a drone"
+    ]
+   }
+  ],
+  "visuals": [
+   "a Hawaiian shirt and flip-flops in a weapons hangar",
+   "a duct-taped prototype VR headset",
+   "a reforged sword on a desk",
+   "a soldier's helmet with a visor glowing green",
+   "a jet-powered drone on a launch rail"
+  ],
+  "lexicon": [
+   {
+    "id": "autonomy",
+    "how": "Anduril builds autonomous weapons systems"
+   },
+   {
+    "id": "swarm",
+    "how": "drone swarms coordinated by Lattice"
+   },
+   {
+    "id": "agent",
+    "how": "Lattice coordinates autonomous agents across drones and sensors"
+   },
+   {
+    "id": "fork",
+    "how": "his career forked from Meta and merged back"
+   }
+  ],
+  "links": [
+   {
+    "id": "anduril",
+    "rel": "founded"
+   },
+   {
+    "id": "meta",
+    "rel": "works-at"
+   },
+   {
+    "id": "mark-zuckerberg",
+    "rel": "rival"
+   },
+   {
+    "id": "palantir",
+    "rel": "same-family"
+   },
+   {
+    "id": "peter-thiel",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "body",
+   "wallet"
+  ],
+  "registers": [
+   "defiant",
+   "ominous",
+   "funny"
+  ],
+  "risk": "contested facts: the reasons for his 2017 exit are disputed (Facebook did not state them), say 'left' with the date; political framing of the donation needs care; Anduril valuation reports after May 2026 rest on thin sourcing; 'works-at' to Meta reads 'partners with', 'same-family' to Palantir/Thiel means the Tolkien-named defense circle",
+  "notes": "Tolkien names do the work: Palantir (seeing stone) and Anduril (reforged sword) are both defense firms in the same circle, and his own story is the reforged blade."
+ }
+]

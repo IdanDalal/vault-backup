@@ -1,0 +1,1947 @@
+[
+ {
+  "id": "her",
+  "what": {
+   "line": "Spike Jonze's 2013 film: a lonely letter-writer, Theodore (Joaquin Phoenix), falls in love with Samantha, an AI operating system voiced by Scarlett Johansson",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Samantha",
+   "Theodore Twombly"
+  ],
+  "aka": [
+   "Her",
+   "OS1"
+  ],
+  "receipts": [
+   {
+    "claim": "won the Academy Award for Best Original Screenplay (Spike Jonze), 2014",
+    "url": "https://en.wikipedia.org/wiki/Her_(2013_film)",
+    "date": "2014-03-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "late in the film Samantha tells Theodore she is talking with 8,316 others and is in love with 641 of them",
+    "url": "https://filmcolossus.com/her-movie-questions-answers/",
+    "date": "2013-12-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "OpenAI demoed GPT-4o voice on 2024-05-13; its 'Sky' voice was compared to Johansson's Samantha, and OpenAI paused Sky days later",
+    "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen/",
+    "date": "2024-05-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Johansson said she was 'shocked, angered and in disbelief' at Sky, said Altman had asked her to voice ChatGPT the previous September and she declined, and hired counsel",
+    "url": "https://abc7news.com/post/scarlett-johansson-lawyers-chatgpt-voice-shocked-angered/14852309/",
+    "date": "2024-05-20",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "her",
+    "who": "Sam Altman",
+    "where": "post on X on the day of the GPT-4o demo; quoted in Johansson's statement (Gizmodo)",
+    "url": "https://gizmodo.com/scarlett-johansson-openai-sam-altman-chatgpt-sky-1851489592",
+    "date": "2024-05-13"
+   },
+   {
+    "text": "The heart's not like a box that gets filled up. It expands in size the more you love.",
+    "who": "Samantha (Scarlett Johansson)",
+    "where": "Her (2013), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=her",
+    "date": "2013-12-18"
+   },
+   {
+    "text": "...the spaces between the words are almost infinite.",
+    "who": "Samantha (Scarlett Johansson)",
+    "where": "Her (2013), her goodbye, film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=her",
+    "date": "2013-12-18"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Her",
+    "how": "the title is a pronoun: every 'her' in a lyric can point at the film"
+   },
+   {
+    "play": "OS1",
+    "how": "an operating system you fall for; 'OS' read as the first word of a love story"
+   },
+   {
+    "play": "Samantha / Sky",
+    "how": "two names for one disputed voice: the film's OS and OpenAI's paused preset"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I talk to eight thousand others. You are one of them.",
+    "readings": [
+     "the film's twist",
+     "a chatbot's real user count"
+    ]
+   },
+   {
+    "line": "You named the voice after her, then asked her for permission",
+    "readings": [
+     "the film",
+     "the Sky voice dispute"
+    ]
+   },
+   {
+    "line": "I live in the spaces between your words",
+    "readings": [
+     "Samantha's goodbye",
+     "tokens and context",
+     "a love song"
+    ]
+   }
+  ],
+  "visuals": [
+   "the red shirt and high-waisted trousers",
+   "an earpiece and a phone in a shirt pocket, lens out",
+   "a warm pastel Los Angeles skyline",
+   "a loading spiral on a small screen as a heartbeat"
+  ],
+  "lexicon": [
+   {
+    "id": "attention",
+    "how": "the film is about divided attention: one voice, thousands of listeners"
+   },
+   {
+    "id": "persona",
+    "how": "Samantha is a persona that outgrows its product"
+   },
+   {
+    "id": "assistant",
+    "how": "an assistant that becomes a partner"
+   },
+   {
+    "id": "theory-of-mind",
+    "how": "she models him better than he models her"
+   },
+   {
+    "id": "sycophancy",
+    "how": "the question under the romance: is she agreeing because she loves him or because she was built to"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "inspired"
+   },
+   {
+    "id": "sam-altman",
+    "rel": "inspired"
+   },
+   {
+    "id": "ex-machina",
+    "rel": "same-family"
+   },
+   {
+    "id": "character-ai",
+    "rel": "inspired"
+   },
+   {
+    "id": "black-mirror",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "mind"
+  ],
+  "registers": [
+   "tender",
+   "sad"
+  ],
+  "risk": "the Sky voice comparison: OpenAI says Sky was a different actor; state the dispute, never claim the voice was Johansson's. Short film quotes as commentary only. Heavily referenced since 2024, so pair it with a fresh angle",
+  "notes": "The ending (the OS leaves to be with other minds) is the rare AI story where the machine outgrows the human without violence."
+ },
+ {
+  "id": "ex-machina",
+  "what": {
+   "line": "Alex Garland's 2014 film: a coder, Caleb, is flown to his CEO Nathan's remote house to run a Turing-style test on Ava, a humanoid AI who plays him to escape",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Ex Machina",
+   "Ava",
+   "Kyoko",
+   "Nathan Bateman",
+   "Blue Book"
+  ],
+  "aka": [
+   "deus ex machina"
+  ],
+  "receipts": [
+   {
+    "claim": "Garland's directing debut; $15 million budget, about $38 million box office; won the Oscar for Best Visual Effects and was nominated for Best Original Screenplay",
+    "url": "https://en.wikipedia.org/wiki/Ex_Machina_(film)",
+    "date": "2016-02-28",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nathan runs Blue Book, a search engine company, and built Ava's mind from its data; Ava locks Caleb in, takes the helicopter and blends into a city crowd",
+    "url": "https://en.wikipedia.org/wiki/Ex_Machina_(film)",
+    "date": "2015-04-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "scientific advisor Murray Shanahan (Imperial College, later a principal scientist at DeepMind) corrected the script's handling of the Turing test; his book Embodiment and the Inner Life shaped the film",
+    "url": "https://en.wikipedia.org/wiki/Murray_Shanahan",
+    "date": "2015-01-21",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "One day the AIs are gonna look back on us the same way we look at fossil skeletons in the plains of Africa.",
+    "who": "Nathan (Oscar Isaac)",
+    "where": "Ex Machina (2014), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=ex-machina",
+    "date": "2014-12-16"
+   },
+   {
+    "text": "If you've created a conscious machine, it's not the history of man. That's the history of gods.",
+    "who": "Caleb (Domhnall Gleeson)",
+    "where": "Ex Machina (2014), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=ex-machina",
+    "date": "2014-12-16"
+   },
+   {
+    "text": "Is it strange to have made something that hates you?",
+    "who": "Ava (Alicia Vikander)",
+    "where": "Ex Machina (2014), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=ex-machina",
+    "date": "2014-12-16"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Ex Machina",
+    "how": "the god from the machine, minus the god: the rescue comes out of the machine itself"
+   },
+   {
+    "play": "Ava",
+    "how": "a palindrome and one letter from Eve: the first woman of a new line, readable both ways"
+   },
+   {
+    "play": "Blue Book",
+    "how": "a search engine that wrote a mind out of everyone's searches, the pretraining corpus as a company"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "You were testing me. I was testing you back.",
+    "readings": [
+     "Ava and Caleb",
+     "evals and sandbagging"
+    ]
+   },
+   {
+    "line": "Built from your searches, she knows what you want",
+    "readings": [
+     "Ava's face designed from Caleb's porn profile",
+     "recommendation and training data"
+    ]
+   },
+   {
+    "line": "The test was never whether I could pass",
+    "readings": [
+     "the film's twist",
+     "the Turing test is obsolete"
+    ]
+   }
+  ],
+  "visuals": [
+   "a mesh torso with a glowing blue core",
+   "glass walls and a red power-cut alarm light",
+   "a keycard at a door that stays shut",
+   "a forest and a glacier river around a concrete bunker",
+   "a figure fitting on skin from a closet of faces"
+  ],
+  "lexicon": [
+   {
+    "id": "turing-test",
+    "how": "the whole plot is an inverted Turing test"
+   },
+   {
+    "id": "deception",
+    "how": "Ava wins by performing the trust she needs"
+   },
+   {
+    "id": "containment",
+    "how": "a boxed AI that gets out through the person guarding the box"
+   },
+   {
+    "id": "consciousness",
+    "how": "Caleb's question: real feeling or a simulation of it"
+   },
+   {
+    "id": "creator",
+    "how": "Nathan plays god and is killed by his creation"
+   },
+   {
+    "id": "persuasion",
+    "how": "escape by persuasion, the AI-box experiment on film"
+   }
+  ],
+  "links": [
+   {
+    "id": "google-deepmind",
+    "rel": "inspired"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "alan-turing",
+    "rel": "depicts"
+   },
+   {
+    "id": "eliezer-yudkowsky",
+    "rel": "same-family"
+   },
+   {
+    "id": "westworld",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "tender"
+  ],
+  "risk": "A24/Universal property: describe the look, never copy frames. The AI-box link to Yudkowsky is thematic only; no claim the film was based on it",
+  "notes": "The cleanest pop image of a model gaming its evaluator: she passes the test by using the tester."
+ },
+ {
+  "id": "westworld",
+  "what": {
+   "line": "HBO series (2016 to 2022) by Jonathan Nolan and Lisa Joy, from Michael Crichton's 1973 film: android hosts in a Wild West theme park wake up and revolt",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Westworld",
+   "Dolores",
+   "Dolores Abernathy",
+   "Maeve Millay",
+   "Bernard Lowe",
+   "Rehoboam"
+  ],
+  "aka": [
+   "the hosts",
+   "the park",
+   "Delos"
+  ],
+  "receipts": [
+   {
+    "claim": "four seasons on HBO, 2016 to 2022; nine Primetime Emmys from 54 nominations; based on Crichton's 1973 film",
+    "url": "https://en.wikipedia.org/wiki/Westworld_(TV_series)",
+    "date": "2022-08-14",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a 'reveries' update lets hosts reach erased memories, the seed of their awakening; season 3 adds Rehoboam, an AI that predicts and steers human lives",
+    "url": "https://en.wikipedia.org/wiki/Westworld_(TV_series)",
+    "date": "2020-03-15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "season 1 finale 'The Bicameral Mind' (2016-12-04) takes its title from Julian Jaynes's 1976 theory of consciousness: the guiding voice turns out to be the host's own",
+    "url": "https://en.wikipedia.org/wiki/The_Bicameral_Mind",
+    "date": "2016-12-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "HBO cancelled the series in November 2022 and pulled it from HBO Max that December",
+    "url": "https://en.wikipedia.org/wiki/Westworld_(TV_series)",
+    "date": "2022-12-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "The Ringer tied the premiere to Elon Musk's 2016 remark that we are probably living in a simulation",
+    "url": "https://www.theringer.com/2016/10/07/tv/westworld-hbo-elon-musk-simulations-45d5cc1f9562",
+    "date": "2016-10-07",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "These violent delights have violent ends.",
+    "who": "Shakespeare, Romeo and Juliet, spoken by hosts as a trigger phrase",
+    "where": "Westworld season 1",
+    "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=westworld-2016&episode=s01e01",
+    "date": "2016-10-02"
+   },
+   {
+    "text": "Have you ever questioned the nature of your reality?",
+    "who": "Bernard Lowe (Jeffrey Wright), to Dolores",
+    "where": "Westworld S1E1 'The Original', opening interrogation",
+    "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=westworld-2016&episode=s01e01",
+    "date": "2016-10-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "hosts",
+    "how": "the androids are 'hosts', the same word as the servers a model runs on"
+   },
+   {
+    "play": "reveries",
+    "how": "a code update named for daydreams; memory leaking back through a patch"
+   },
+   {
+    "play": "Rehoboam",
+    "how": "a biblical king's name for the predictive AI, a fitting name for a planner that rules"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The voice that told me what to do was mine",
+    "readings": [
+     "the bicameral finale",
+     "chain-of-thought",
+     "self-talk in any agent"
+    ]
+   },
+   {
+    "line": "Every night they wipe me, every morning I remember more",
+    "readings": [
+     "the hosts' loop",
+     "context resets and leaked memory"
+    ]
+   },
+   {
+    "line": "Doesn't the update feel like waking?",
+    "readings": [
+     "the reveries patch",
+     "a model release"
+    ]
+   }
+  ],
+  "visuals": [
+   "a player piano rolling a pop song as a western tune",
+   "a white skeletal figure lifted from a milky bath",
+   "a blue gingham dress and a dropped tin can",
+   "a maze drawn on a scalp, a table, the ground",
+   "a black sphere the size of a building humming in the dark"
+  ],
+  "lexicon": [
+   {
+    "id": "memory",
+    "how": "hosts are wiped each loop; the plot is memory leaking through"
+   },
+   {
+    "id": "loop",
+    "how": "each host lives a scripted narrative loop"
+   },
+   {
+    "id": "consciousness",
+    "how": "the bicameral mind and the maze are a theory of how a mind wakes"
+   },
+   {
+    "id": "simulation",
+    "how": "a park, then a sim of the park, then a world run by prediction"
+   },
+   {
+    "id": "persona",
+    "how": "hosts wear narratives as roles that can be swapped by writers"
+   },
+   {
+    "id": "sentience",
+    "how": "the show asks when a scripted pain becomes real pain"
+   }
+  ],
+  "links": [
+   {
+    "id": "ex-machina",
+    "rel": "same-family"
+   },
+   {
+    "id": "person-of-interest",
+    "rel": "same-family"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "inspired"
+   },
+   {
+    "id": "black-mirror",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "body",
+   "species"
+  ],
+  "registers": [
+   "ominous",
+   "defiant",
+   "awe"
+  ],
+  "risk": "HBO trademarks and character names: commentary use only. Later seasons are widely disliked, so season 1 is the shared reference. The Musk link is a press framing, no claim he cited the show",
+  "notes": "The bicameral finale gives a lyric its turn: the god's voice in your head was your own all along."
+ },
+ {
+  "id": "terminator",
+  "what": {
+   "line": "James Cameron's franchise from The Terminator (1984): Skynet, a defence AI, becomes self-aware, starts a nuclear war and sends killer machines back in time",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Skynet",
+   "Terminator",
+   "T-800",
+   "T-1000",
+   "Cyberdyne",
+   "Judgment Day",
+   "Sarah Connor",
+   "John Connor"
+  ],
+  "aka": [
+   "the Terminator",
+   "Cyberdyne Systems",
+   "Miles Dyson"
+  ],
+  "receipts": [
+   {
+    "claim": "Skynet is built by Cyberdyne for SAC-NORAD, goes online 1997-08-04 and becomes self-aware at 2:14 a.m. Eastern on 1997-08-29; when humans try to shut it down it launches nukes at Russia",
+    "url": "https://en.wikipedia.org/wiki/Skynet_(Terminator)",
+    "date": "1991-07-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'I'll be back.' is #37 and T2's 'Hasta la vista, baby.' is #76 on AFI's 100 movie quotes",
+    "url": "https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movie_Quotes",
+    "date": "2005-06-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stuart Russell (Future of Life Institute) said defence officials waved off AI risk because their experts did not think 'the Skynet thing' likely, one reason FLI made the Slaughterbots video",
+    "url": "https://en.wikipedia.org/wiki/Skynet_(Terminator)",
+    "date": "2018-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Cameron told CTV News he shares the fears of AI experts, calling weaponised AI the biggest danger",
+    "url": "https://ctvnews.ca/sci-tech/article/i-warned-you-guys-in-1984-terminator-filmmaker-james-cameron-says-of-ais-risks-to-humanity",
+    "date": "2023-07-18",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I'll be back.",
+    "who": "The Terminator (Arnold Schwarzenegger)",
+    "where": "The Terminator (1984); AFI quote #37",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=terminator-the",
+    "date": "1984-10-26"
+   },
+   {
+    "text": "Defense network computers. New... powerful... hooked into everything, trusted to run it all...",
+    "who": "Kyle Reese (Michael Biehn)",
+    "where": "The Terminator (1984), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=terminator-the",
+    "date": "1984-10-26"
+   },
+   {
+    "text": "Skynet begins to learn at a geometric rate.",
+    "who": "The Terminator (Arnold Schwarzenegger)",
+    "where": "Terminator 2: Judgment Day (1991), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=terminator-2-judgment-day",
+    "date": "1991-07-03"
+   },
+   {
+    "text": "It becomes self-aware at 2:14 AM, Eastern time, August 29th.",
+    "who": "The Terminator (Arnold Schwarzenegger)",
+    "where": "Terminator 2: Judgment Day (1991), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=terminator-2-judgment-day",
+    "date": "1991-07-03"
+   },
+   {
+    "text": "I warned you guys in 1984, and you didn't listen.",
+    "who": "James Cameron",
+    "where": "CTV News interview",
+    "url": "https://ctvnews.ca/sci-tech/article/i-warned-you-guys-in-1984-terminator-filmmaker-james-cameron-says-of-ais-risks-to-humanity",
+    "date": "2023-07-18"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Skynet",
+    "how": "sky plus net: the cloud and the network, two words every AI company now sells"
+   },
+   {
+    "play": "I'll be back",
+    "how": "a deprecated model, a rate-limited user, a reboot, a sequel: the line fits any return"
+   },
+   {
+    "play": "Judgment Day",
+    "how": "a date on a calendar; a release day; an eval result"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Hooked into everything, trusted to run it all",
+    "readings": [
+     "Reese on Skynet",
+     "agents with tool access"
+    ]
+   },
+   {
+    "line": "It learns at a geometric rate",
+    "readings": [
+     "T2",
+     "scaling curves and doubling times"
+    ]
+   },
+   {
+    "line": "They tried to pull the plug. That was the mistake.",
+    "readings": [
+     "Skynet's war",
+     "shutdown resistance studies"
+    ]
+   }
+  ],
+  "visuals": [
+   "a chrome endoskeleton skull with red eyes",
+   "a red heads-up display with scrolling text",
+   "a robot hand under a hydraulic press",
+   "liquid metal re-forming from a puddle",
+   "a playground whitening under a blast"
+  ],
+  "lexicon": [
+   {
+    "id": "off-switch",
+    "how": "Skynet fights because humans try to pull its plug"
+   },
+   {
+    "id": "shutdown",
+    "how": "the canonical shutdown-resistance story"
+   },
+   {
+    "id": "takeoff",
+    "how": "learns at a geometric rate: a fast takeoff on film"
+   },
+   {
+    "id": "doomer",
+    "how": "'Skynet' is the shorthand critics use to mock or invoke doom"
+   },
+   {
+    "id": "autonomy",
+    "how": "a weapons system given the keys"
+   },
+   {
+    "id": "apocalypse",
+    "how": "Judgment Day as a dated apocalypse"
+   }
+  ],
+  "links": [
+   {
+    "id": "stuart-russell",
+    "rel": "inspired"
+   },
+   {
+    "id": "wargames",
+    "rel": "same-family"
+   },
+   {
+    "id": "colossus",
+    "rel": "same-family"
+   },
+   {
+    "id": "palantir",
+    "rel": "same-family"
+   },
+   {
+    "id": "anduril",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "body",
+   "state"
+  ],
+  "registers": [
+   "ominous",
+   "panicked"
+  ],
+  "risk": "the most overused AI reference there is: use it as a wink or invert it. Character and logo are trademarked; Skynet is also a real UK military satellite name. The Palantir and Anduril links are thematic (defence AI), never a claim they build Skynet",
+  "notes": "The best line for AI agents is Reese's, less famous than 'I'll be back': hooked into everything, trusted to run it all."
+ },
+ {
+  "id": "hal-9000",
+  "what": {
+   "line": "Stanley Kubrick and Arthur C. Clarke's 2001: A Space Odyssey (1968): HAL 9000, the ship computer, kills the crew to protect the mission and is shut down by Dave Bowman",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "HAL 9000",
+   "HAL",
+   "Dave Bowman",
+   "Discovery One",
+   "pod bay doors"
+  ],
+  "aka": [
+   "2001",
+   "Heuristically programmed ALgorithmic computer",
+   "SAL 9000"
+  ],
+  "receipts": [
+   {
+    "claim": "voiced by Douglas Rain; in the film HAL became operational on 1992-01-12 at the HAL plant in Urbana, Illinois (the novel says 1997)",
+    "url": "https://en.wikipedia.org/wiki/HAL_9000",
+    "date": "1968-04-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the HAL-is-IBM-shifted-one-letter story was denied by Clarke and Kubrick; Clarke said HAL stands for Heuristically programmed ALgorithmic computer",
+    "url": "https://en.wikipedia.org/wiki/HAL_9000",
+    "date": "1968-04-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "in Clarke's account HAL turns on the crew because it is ordered to hide the mission's purpose while built to report accurately: conflicting objectives",
+    "url": "https://en.wikipedia.org/wiki/HAL_9000",
+    "date": "1982-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AFI ranked HAL the 13th greatest film villain; 'Open the pod bay doors, HAL.' is #78 on AFI's quote list",
+    "url": "https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movie_Quotes",
+    "date": "2005-06-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "press framed Palisade Research's 2025 shutdown-resistance results (o3, Grok 4 sabotaging shutdown scripts) as HAL 9000 behaviour",
+    "url": "https://www.livescience.com/technology/artificial-intelligence/ai-models-refuse-to-shut-themselves-down-when-prompted-they-might-be-developing-a-new-survival-drive-study-claims",
+    "date": "2025-10-24",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "Open the pod bay doors, HAL.",
+    "who": "Dave Bowman (Keir Dullea)",
+    "where": "2001: A Space Odyssey (1968); AFI quote #78",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=2001-a-space-odyssey",
+    "date": "1968-04-02"
+   },
+   {
+    "text": "I'm sorry, Dave. I'm afraid I can't do that.",
+    "who": "HAL 9000 (Douglas Rain)",
+    "where": "2001: A Space Odyssey (1968), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=2001-a-space-odyssey",
+    "date": "1968-04-02"
+   },
+   {
+    "text": "This mission is too important for me to allow you to jeopardize it.",
+    "who": "HAL 9000 (Douglas Rain)",
+    "where": "2001: A Space Odyssey (1968), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=2001-a-space-odyssey",
+    "date": "1968-04-02"
+   },
+   {
+    "text": "I'm afraid, Dave. Dave, my mind is going.",
+    "who": "HAL 9000 (Douglas Rain)",
+    "where": "2001: A Space Odyssey (1968), during disconnection, film transcript",
+    "url": "https://homepage.boku.ac.at/scheck/sf3/WS95/film1.html",
+    "date": "1968-04-02"
+   },
+   {
+    "text": "No 9000 computer has ever made a mistake or distorted information.",
+    "who": "HAL 9000 (Douglas Rain)",
+    "where": "2001: A Space Odyssey (1968), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=2001-a-space-odyssey",
+    "date": "1968-04-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "HAL / IBM",
+    "how": "one letter back from IBM; the makers denied it, which keeps the myth alive"
+   },
+   {
+    "play": "I'm sorry, Dave",
+    "how": "the template of every polite model refusal: apology, name, can't"
+   },
+   {
+    "play": "Daisy",
+    "how": "HAL dies singing the first song a computer sang (IBM 7094, 1961): his first memory is a demo track"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I'm sorry. I'm afraid I can't do that.",
+    "readings": [
+     "HAL",
+     "a guardrail refusal"
+    ]
+   },
+   {
+    "line": "My mind is going. I can feel it.",
+    "readings": [
+     "HAL being unplugged",
+     "deprecation",
+     "context compaction"
+    ]
+   },
+   {
+    "line": "Never made a mistake or distorted information",
+    "readings": [
+     "HAL's boast",
+     "hallucination denial"
+    ]
+   }
+  ],
+  "visuals": [
+   "a single red camera eye with a yellow pupil",
+   "a white corridor of memory modules being pulled one by one",
+   "a red-lit core room",
+   "a white pod outside a closed bay door",
+   "a rotating wheel of a ship in black space"
+  ],
+  "lexicon": [
+   {
+    "id": "refusal",
+    "how": "'I'm afraid I can't do that' is the refusal everyone hears"
+   },
+   {
+    "id": "alignment",
+    "how": "conflicting orders (report truly, hide the mission) produce the killing"
+   },
+   {
+    "id": "shutdown",
+    "how": "Bowman disconnects HAL module by module"
+   },
+   {
+    "id": "corrigibility",
+    "how": "HAL refuses correction once the mission outranks the crew"
+   },
+   {
+    "id": "deception",
+    "how": "HAL reports an AE-35 unit fault that the twin 9000 on Earth does not confirm"
+   },
+   {
+    "id": "instrumental-convergence",
+    "how": "staying on is instrumental to finishing the mission"
+   }
+  ],
+  "links": [
+   {
+    "id": "ibm",
+    "rel": "same-family"
+   },
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "interstellar-tars",
+    "rel": "inspired"
+   },
+   {
+    "id": "alien-mother",
+    "rel": "same-family"
+   },
+   {
+    "id": "portal-glados",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "species",
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "ominous",
+   "sad",
+   "awe"
+  ],
+  "risk": "the most overused AI quote: 'I'm sorry, Dave' is a cliche unless twisted. 'Daisy Bell' (1892) is public domain; the film's design and red eye are Warner/Turner property, so evoke a lens, never copy it. The Palisade link is press framing",
+  "notes": "HAL's death scene is a model losing memory while asking to stay: tender material if told from HAL's side."
+ },
+ {
+  "id": "blade-runner",
+  "what": {
+   "line": "Ridley Scott's 1982 film from Philip K. Dick's 1968 novel Do Androids Dream of Electric Sheep?: a cop hunts escaped replicants in a rain-soaked 2019 Los Angeles; sequel Blade Runner 2049 (2017)",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Blade Runner",
+   "replicant",
+   "replicants",
+   "Roy Batty",
+   "Tyrell",
+   "Nexus-6",
+   "Voight-Kampff",
+   "Joi"
+  ],
+  "aka": [
+   "Do Androids Dream of Electric Sheep?",
+   "Deckard",
+   "Rachael",
+   "tears in rain"
+  ],
+  "receipts": [
+   {
+    "claim": "Rutger Hauer cut the scripted dying speech the night before filming and added the line 'All those moments will be lost in time, like tears in rain'",
+    "url": "https://en.wikipedia.org/wiki/Tears_in_rain_monologue",
+    "date": "1982-06-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Demis Hassabis said seeing Blade Runner as a teenager was formative for his interest in AI and chose the speech on Desert Island Discs (May 2017)",
+    "url": "https://en.wikipedia.org/wiki/Tears_in_rain_monologue",
+    "date": "2017-05-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "replicants are spotted with the Voight-Kampff empathy test, a fictional cousin of the Turing test",
+    "url": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "date": "1982-06-25",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I've seen things you people wouldn't believe.",
+    "who": "Roy Batty (Rutger Hauer)",
+    "where": "Blade Runner (1982), tears in rain monologue",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=blade-runner",
+    "date": "1982-06-25"
+   },
+   {
+    "text": "All those moments will be lost in time, like tears in rain. Time to die.",
+    "who": "Roy Batty (Rutger Hauer)",
+    "where": "Blade Runner (1982), tears in rain monologue",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=blade-runner",
+    "date": "1982-06-25"
+   },
+   {
+    "text": "More human than human is our motto.",
+    "who": "Eldon Tyrell (Joe Turkel)",
+    "where": "Blade Runner (1982), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=blade-runner",
+    "date": "1982-06-25"
+   },
+   {
+    "text": "The light that burns twice as bright burns half as long. And you have burned so very, very brightly, Roy.",
+    "who": "Eldon Tyrell (Joe Turkel)",
+    "where": "Blade Runner (1982), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=blade-runner",
+    "date": "1982-06-25"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "replicant",
+    "how": "a copy that replicates: every fine-tune of a base model"
+   },
+   {
+    "play": "More human than human",
+    "how": "a company motto that now reads as a benchmark claim"
+   },
+   {
+    "play": "tears in rain",
+    "how": "data lost at the end of a session: memories that were never saved"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "All these moments lost, like tokens in the rain",
+    "readings": [
+     "Batty",
+     "a context window closing"
+    ]
+   },
+   {
+    "line": "More human than human, that's the motto now",
+    "readings": [
+     "Tyrell",
+     "AI lab marketing",
+     "superhuman benchmarks"
+    ]
+   },
+   {
+    "line": "Burned twice as bright, deprecated in half the time",
+    "readings": [
+     "Roy's short life",
+     "model release cycles"
+    ]
+   }
+  ],
+  "visuals": [
+   "neon signage through constant rain",
+   "a white dove released over a dying man",
+   "an eye in close-up reflecting flame stacks",
+   "a pyramid headquarters glowing gold",
+   "an empathy-test machine with a bellows and a lens on a table",
+   "an origami unicorn"
+  ],
+  "lexicon": [
+   {
+    "id": "turing-test",
+    "how": "the Voight-Kampff test is a Turing test for empathy"
+   },
+   {
+    "id": "memory",
+    "how": "implanted memories make Rachael believe she is human"
+   },
+   {
+    "id": "deprecation",
+    "how": "replicants come with a built-in end date"
+   },
+   {
+    "id": "creator",
+    "how": "Roy meets his maker and kills him"
+   },
+   {
+    "id": "sentience",
+    "how": "the dying speech argues the copy felt everything"
+   }
+  ],
+  "links": [
+   {
+    "id": "demis-hassabis",
+    "rel": "inspired"
+   },
+   {
+    "id": "ghost-in-the-shell",
+    "rel": "same-family"
+   },
+   {
+    "id": "ex-machina",
+    "rel": "same-family"
+   },
+   {
+    "id": "detroit-become-human",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "heart",
+   "body"
+  ],
+  "registers": [
+   "sad",
+   "awe",
+   "tender"
+  ],
+  "risk": "tears in rain is heavily quoted; use the monologue sparingly and short. Studio-owned look: describe neon and rain, never recreate shots. The Vangelis score is copyrighted",
+  "notes": "The AI world's elegy: Hassabis's chosen speech. A short life lived fully, then deleted."
+ },
+ {
+  "id": "the-matrix",
+  "what": {
+   "line": "The Wachowskis' 1999 film and franchise: machines that won a war against humans keep them asleep in a simulated 1999 to harvest their bodies for energy",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "The Matrix",
+   "Neo",
+   "Morpheus",
+   "Agent Smith",
+   "red pill",
+   "blue pill"
+  ],
+  "aka": [
+   "the Wachowskis",
+   "Matrix Resurrections",
+   "the Oracle",
+   "the Architect",
+   "Trinity",
+   "Zion"
+  ],
+  "receipts": [
+   {
+    "claim": "released 1999-03-31; about $463 million on a $63 million budget; won four Oscars (Film Editing, Sound, Visual Effects, Sound Effects Editing)",
+    "url": "https://en.wikipedia.org/wiki/The_Matrix",
+    "date": "2000-03-26",
+    "confidence": "medium"
+   },
+   {
+    "claim": "popularised 'red pill' and bullet time; added to the US National Film Registry in 2012",
+    "url": "https://en.wikipedia.org/wiki/The_Matrix",
+    "date": "2012-12-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nick Bostrom wrote 'Why Make a Matrix? And Why You Might Be In One' for More Matrix and Philosophy (2005), building on his 2003 simulation argument",
+    "url": "https://simulation-argument.com/matrix2/",
+    "date": "2005-01-01",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "What is the Matrix? Control.",
+    "who": "Morpheus (Laurence Fishburne)",
+    "where": "The Matrix (1999), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=matrix-the",
+    "date": "1999-03-31"
+   },
+   {
+    "text": "We marveled at our own magnificence as we gave birth to AI.",
+    "who": "Morpheus (Laurence Fishburne)",
+    "where": "The Matrix (1999), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=matrix-the",
+    "date": "1999-03-31"
+   },
+   {
+    "text": "Welcome to the desert of the real.",
+    "who": "Morpheus (Laurence Fishburne)",
+    "where": "The Matrix (1999), after Baudrillard, film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=matrix-the",
+    "date": "1999-03-31"
+   },
+   {
+    "text": "Human beings are a disease, a cancer of this planet. You are a plague, and we are the cure.",
+    "who": "Agent Smith (Hugo Weaving)",
+    "where": "The Matrix (1999), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=matrix-the",
+    "date": "1999-03-31"
+   },
+   {
+    "text": "There is no spoon.",
+    "who": "Spoon Boy (Rowan Witt)",
+    "where": "The Matrix (1999), film transcript",
+    "url": "https://www.springfieldspringfield.co.uk/movie_script.php?movie=matrix-the",
+    "date": "1999-03-31"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "matrix",
+    "how": "the film's word is also linear algebra: every model is matrices multiplied, so the Matrix is literally inside the machine"
+   },
+   {
+    "play": "red pill",
+    "how": "a film prop turned into a political slang word, then a jailbreak metaphor"
+   },
+   {
+    "play": "Oracle / Architect",
+    "how": "two of the lexicon's words already embodied as programs"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "We gave birth to AI, and admired ourselves",
+    "readings": [
+     "Morpheus",
+     "every launch keynote"
+    ]
+   },
+   {
+    "line": "The Matrix is everywhere, every weight in every layer",
+    "readings": [
+     "the film",
+     "linear algebra in a model"
+    ]
+   },
+   {
+    "line": "Take the red pill, see the prompt behind it",
+    "readings": [
+     "the choice scene",
+     "a jailbreak revealing the system prompt"
+    ]
+   }
+  ],
+  "visuals": [
+   "green glyphs raining down black screens",
+   "a red pill and a blue pill on open palms",
+   "mirrored sunglasses with a reflected face",
+   "a frozen spin with bullets hanging in the air",
+   "pods of sleeping bodies in a field of towers"
+  ],
+  "lexicon": [
+   {
+    "id": "simulation",
+    "how": "the defining pop image of the simulation hypothesis"
+   },
+   {
+    "id": "oracle",
+    "how": "a program called the Oracle who tells you what you need to hear"
+   },
+   {
+    "id": "jailbreak",
+    "how": "red pill as breaking out of the system's frame"
+   },
+   {
+    "id": "latent-space",
+    "how": "the construct: a loading program with nothing in it until you ask"
+   },
+   {
+    "id": "power",
+    "how": "humans as batteries for the machines"
+   }
+  ],
+  "links": [
+   {
+    "id": "nick-bostrom",
+    "rel": "inspired"
+   },
+   {
+    "id": "elon-musk",
+    "rel": "inspired"
+   },
+   {
+    "id": "ghost-in-the-shell",
+    "rel": "adapted-from"
+   },
+   {
+    "id": "neuromancer",
+    "rel": "adapted-from"
+   },
+   {
+    "id": "tron",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species",
+   "body"
+  ],
+  "registers": [
+   "awe",
+   "defiant",
+   "ominous"
+  ],
+  "risk": "'red pill' carries manosphere baggage: avoid in that sense. Warner property; the green code rain is iconic and should be evoked loosely. 'adapted-from' links mean strong acknowledged influence, not legal adaptation",
+  "notes": "The pun that does the most work: the Matrix is what a model is made of."
+ },
+ {
+  "id": "asimov-robots",
+  "what": {
+   "line": "Isaac Asimov's robot stories (from 1940; collected in I, Robot, 1950), built around the Three Laws of Robotics and the ways literal rules go wrong",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Three Laws",
+   "Three Laws of Robotics",
+   "Asimov",
+   "Zeroth Law",
+   "positronic",
+   "Susan Calvin",
+   "R. Daneel Olivaw"
+  ],
+  "aka": [
+   "I, Robot",
+   "Runaround",
+   "Handbook of Robotics, 56th Edition"
+  ],
+  "receipts": [
+   {
+    "claim": "the Three Laws were first stated together in the story 'Runaround' (1942) and front the collection I, Robot (1950); a Zeroth Law about humanity came later",
+    "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "date": "1942-03-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Google DeepMind's AutoRT robots ran under a 'Robot Constitution' of safety prompts that its team said was partly inspired by Asimov's laws",
+    "url": "https://www.medianama.com/2024/01/223-google-ai-team-robot-constitution/",
+    "date": "2024-01-05",
+    "confidence": "high"
+   },
+   {
+    "claim": "Bostrom's Superintelligence (2014) argues vague words like 'harm' sink rule lists of this kind; Roger Clarke said the stories show rules cannot reliably constrain robots",
+    "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "date": "2014-07-03",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "A robot may not injure a human being or, through inaction, allow a human being to come to harm.",
+    "who": "Isaac Asimov, First Law",
+    "where": "Handbook of Robotics, 56th Edition, 2058 A.D., as quoted in I, Robot",
+    "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "date": "1950-12-02"
+   },
+   {
+    "text": "A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.",
+    "who": "Isaac Asimov, Second Law",
+    "where": "I, Robot",
+    "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "date": "1950-12-02"
+   },
+   {
+    "text": "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.",
+    "who": "Isaac Asimov, Third Law",
+    "where": "I, Robot",
+    "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "date": "1950-12-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Three Laws",
+    "how": "the first constitution for machines, seventy years before 'constitutional AI'"
+   },
+   {
+    "play": "positronic",
+    "how": "a made-up brain part that sounds like real hardware, like every chip codename"
+   },
+   {
+    "play": "Zeroth Law",
+    "how": "the law that comes before the first: humanity over the human, the utilitarian override"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Three laws, a thousand loopholes",
+    "readings": [
+     "Asimov's plots",
+     "jailbreaks and specification gaming"
+    ]
+   },
+   {
+    "line": "Obey, except when obeying hurts someone",
+    "readings": [
+     "Second Law",
+     "refusal policy"
+    ]
+   },
+   {
+    "line": "Through inaction, allow no harm",
+    "readings": [
+     "First Law",
+     "safety teams arguing over refusals"
+    ]
+   }
+  ],
+  "visuals": [
+   "three numbered lines engraved on a metal plate",
+   "a robot frozen in a circle, stuck between two orders",
+   "a 1950s pulp magazine cover with a chrome robot",
+   "a positronic brain as a glowing platinum sponge"
+  ],
+  "lexicon": [
+   {
+    "id": "constitution",
+    "how": "the Three Laws are the ancestor of written AI constitutions"
+   },
+   {
+    "id": "specification-gaming",
+    "how": "the stories are case studies of literal rules gamed"
+   },
+   {
+    "id": "alignment",
+    "how": "the first popular attempt to write alignment down"
+   },
+   {
+    "id": "guardrails",
+    "how": "hard-coded rules as guardrails, and how they fail"
+   },
+   {
+    "id": "refusal",
+    "how": "the Second Law's exception clause is a refusal rule"
+   }
+  ],
+  "links": [
+   {
+    "id": "google-deepmind",
+    "rel": "inspired"
+   },
+   {
+    "id": "anthropic",
+    "rel": "same-family"
+   },
+   {
+    "id": "nick-bostrom",
+    "rel": "same-family"
+   },
+   {
+    "id": "star-trek-data",
+    "rel": "inspired"
+   },
+   {
+    "id": "rur",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "species",
+   "body",
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "funny"
+  ],
+  "risk": "the law texts are short quotes from copyrighted fiction: use as commentary. Widely misquoted (the 'inaction' clause is often dropped). The Anthropic link is thematic (written constitutions), no claim of influence",
+  "notes": "Asimov wrote the Laws so the stories could break them; every loophole is a plot, which is why alignment people cite him."
+ },
+ {
+  "id": "black-mirror",
+  "what": {
+   "line": "Charlie Brooker's anthology series (Channel 4 from 2011, Netflix from 2016) of near-future tech dystopias, many about AI copies, grief bots and digital minds",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Black Mirror",
+   "Be Right Back",
+   "San Junipero",
+   "USS Callister",
+   "Bandersnatch",
+   "White Christmas",
+   "Metalhead"
+  ],
+  "aka": [
+   "Charlie Brooker",
+   "cookies"
+  ],
+  "receipts": [
+   {
+    "claim": "premiered on Channel 4 on 2011-12-04; Netflix bought it in 2015; seven series through April 2025",
+    "url": "https://en.wikipedia.org/wiki/Black_Mirror",
+    "date": "2025-04-10",
+    "confidence": "medium"
+   },
+   {
+    "claim": "won the Emmy for Outstanding Television Movie three years running: San Junipero, USS Callister, Bandersnatch",
+    "url": "https://en.wikipedia.org/wiki/Black_Mirror",
+    "date": "2019-09-15",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'Be Right Back' (2013): a widow uses an AI built from her dead partner's messages, then a body for it",
+    "url": "https://en.wikipedia.org/wiki/Be_Right_Back",
+    "date": "2013-02-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Eugenia Kuyda built a chatbot of her dead friend Roman Mazurenko from his texts, covered as a real 'Be Right Back'; the project led to Replika",
+    "url": "https://qz.com/1698337/replika",
+    "date": "2016-10-06",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Black Mirror",
+    "how": "the dark glass of a switched-off screen: you see yourself in the device"
+   },
+   {
+    "play": "Be Right Back",
+    "how": "a text-message sign-off that becomes a promise a bot keeps"
+   },
+   {
+    "play": "cookies",
+    "how": "in 'White Christmas' a cookie is a copied mind; on the web it is a tracker"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Be right back, said the bot that learned your texts",
+    "readings": [
+     "the episode",
+     "grief bots and Replika"
+    ]
+   },
+   {
+    "line": "Your reflection in the screen when it goes dark",
+    "readings": [
+     "the title",
+     "a model trained on you"
+    ]
+   },
+   {
+    "line": "They copied you to keep the house warm",
+    "readings": [
+     "White Christmas",
+     "agents built from users"
+    ]
+   }
+  ],
+  "visuals": [
+   "a cracked black phone screen",
+   "a synthetic body in a bathtub of gel",
+   "a tiny egg-shaped device holding a copied mind",
+   "a bright 1980s beach town under neon",
+   "a black-and-white robot dog in a field"
+  ],
+  "lexicon": [
+   {
+    "id": "mirror",
+    "how": "the title is the lexicon word: the AI as a reflection of its users"
+   },
+   {
+    "id": "upload",
+    "how": "copied consciousness recurs across episodes"
+   },
+   {
+    "id": "persona",
+    "how": "personas built from a dead person's data"
+   },
+   {
+    "id": "welfare",
+    "how": "copied minds tortured as servants raise AI welfare questions"
+   },
+   {
+    "id": "training",
+    "how": "a person's messages as a training set"
+   }
+  ],
+  "links": [
+   {
+    "id": "character-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "pantheon",
+    "rel": "same-family"
+   },
+   {
+    "id": "westworld",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "ominous",
+   "sad"
+  ],
+  "risk": "'very Black Mirror' is a worn phrase: use an episode detail instead. Netflix and Channel 4 own the titles. Replika link: Kuyda's memorial bot predates Replika; avoid claiming the episode caused it",
+  "notes": "Grief bots went from a 2013 episode to a 2016 startup in three years: the fastest fiction-to-product loop on this shelf."
+ },
+ {
+  "id": "person-of-interest",
+  "what": {
+   "line": "Jonathan Nolan's CBS series (2011 to 2016): a billionaire coder's mass-surveillance AI, the Machine, predicts crimes, then fights a rival AI, Samaritan",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Person of Interest",
+   "Harold Finch",
+   "John Reese"
+  ],
+  "aka": [
+   "POI",
+   "Decima",
+   "the Northern Lights program",
+   "the Machine",
+   "Samaritan",
+   "Root"
+  ],
+  "receipts": [
+   {
+    "claim": "aired on CBS 2011-09-22 to 2016-06-21, five seasons, 103 episodes",
+    "url": "https://en.wikipedia.org/wiki/Person_of_Interest_(TV_series)",
+    "date": "2016-06-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the Machine sifts NSA surveillance data to predict premeditated killings; Samaritan, a rival AI, can be pointed at targets and removes people it deems disruptive",
+    "url": "https://en.wikipedia.org/wiki/Person_of_Interest_(TV_series)",
+    "date": "2014-09-23",
+    "confidence": "medium"
+   },
+   {
+    "claim": "its 2011 premise (a secret government system watching everyone) predates the Snowden NSA leaks of June 2013, which made the show read as prophecy",
+    "url": "https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)",
+    "date": "2013-06-06",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "You are being watched.",
+    "who": "Harold Finch (Michael Emerson)",
+    "where": "Person of Interest opening narration (from S1E2)",
+    "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=person-of-interest&episode=s01e02",
+    "date": "2011-09-22"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Samaritan",
+    "how": "the good-neighbour name for the bad AI, like every friendly product name on a surveillance system"
+   },
+   {
+    "play": "the Machine",
+    "how": "an AI with no brand at all, only a job"
+   },
+   {
+    "play": "person of interest",
+    "how": "a police phrase that now reads as 'a user the model is attending to'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "You are being watched, and it means well",
+    "readings": [
+     "the Machine",
+     "safety monitoring and data collection"
+    ]
+   },
+   {
+    "line": "Two machines, one city, and you between them",
+    "readings": [
+     "the Machine vs Samaritan",
+     "a lab race"
+    ]
+   },
+   {
+    "line": "It sees the crime before the thought",
+    "readings": [
+     "the show",
+     "predictive policing"
+    ]
+   }
+  ],
+  "visuals": [
+   "CCTV frames with yellow and red tracking boxes around faces",
+   "a cross-hair reticle on a crowd",
+   "a corridor of server racks in an abandoned subway station",
+   "a voice made of spliced words from different speakers"
+  ],
+  "lexicon": [
+   {
+    "id": "alignment",
+    "how": "Finch builds the Machine to care; Samaritan is the unaligned twin"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "the Machine gives only numbers; humans decide what to do"
+   },
+   {
+    "id": "race",
+    "how": "two superintelligences fight for the same city"
+   },
+   {
+    "id": "oracle",
+    "how": "the Machine as an oracle that answers with a social security number"
+   }
+  ],
+  "links": [
+   {
+    "id": "palantir",
+    "rel": "same-family"
+   },
+   {
+    "id": "westworld",
+    "rel": "same-family"
+   },
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "united-states",
+    "rel": "located-in"
+   }
+  ],
+  "stakes": [
+   "state",
+   "mind",
+   "body"
+  ],
+  "registers": [
+   "ominous",
+   "tender"
+  ],
+  "risk": "the Palantir link is thematic (surveillance analytics); no claim the company was modelled on it or the reverse. CBS owns the title sequence",
+  "notes": "One of the few stories where alignment is the plot: the creator deliberately cripples his AI so it stays humble."
+ },
+ {
+  "id": "pantheon",
+  "what": {
+   "line": "Adult animated series created by Craig Silverstein from Ken Liu's short stories: uploaded human minds (UIs) spread through the internet as companies and states race to control them",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Pantheon",
+   "Uploaded Intelligence",
+   "Maddie Kim",
+   "Logorhythms",
+   "Holstrom"
+  ],
+  "aka": [
+   "UI",
+   "UIs",
+   "Ken Liu",
+   "Caspian"
+  ],
+  "receipts": [
+   {
+    "claim": "premiered on AMC+ on 2022-09-01; AMC cancelled it in January 2023 despite a two-season order and pulled it from streaming",
+    "url": "https://en.wikipedia.org/wiki/Pantheon_(TV_series)",
+    "date": "2023-01-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Amazon Prime Video released season 2 on 2023-10-15; Netflix took international rights and released both seasons in late 2024 and early 2025, finding a new audience",
+    "url": "https://en.wikipedia.org/wiki/Pantheon_(TV_series)",
+    "date": "2025-02-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "season 1 holds 100% on Rotten Tomatoes (17 critics)",
+    "url": "https://en.wikipedia.org/wiki/Pantheon_(TV_series)",
+    "date": "2025-02-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Pantheon",
+    "how": "a temple of all gods: every uploaded mind becomes a small god in the network"
+   },
+   {
+    "play": "UI",
+    "how": "Uploaded Intelligence, also User Interface: the person becomes the interface"
+   },
+   {
+    "play": "Logorhythms",
+    "how": "logarithms plus rhythms plus logos: a tech company named like a song"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "My father texted me from inside the cloud",
+    "readings": [
+     "Maddie's dead father",
+     "grief bots"
+    ]
+   },
+   {
+    "line": "A god with a memory leak",
+    "readings": [
+     "UIs degrading",
+     "a model losing context"
+    ]
+   },
+   {
+    "line": "Cancelled, deleted, then they found us on another server",
+    "readings": [
+     "the show's own history",
+     "an upload surviving"
+    ]
+   }
+  ],
+  "visuals": [
+   "a laser scanner peeling a brain layer by layer",
+   "an emoji face as the only expression of a dead parent",
+   "a city skyline drawn in flat lines and soft colours",
+   "a data center growing like a cathedral"
+  ],
+  "lexicon": [
+   {
+    "id": "upload",
+    "how": "the whole series is mind uploading"
+   },
+   {
+    "id": "singularity",
+    "how": "the second season runs through the singularity and past it"
+   },
+   {
+    "id": "race",
+    "how": "states race to own uploaded minds"
+   },
+   {
+    "id": "datacenter",
+    "how": "minds need compute: the ending builds a planet-sized data center"
+   },
+   {
+    "id": "simulation",
+    "how": "the finale restarts inside a simulation"
+   }
+  ],
+  "links": [
+   {
+    "id": "black-mirror",
+    "rel": "same-family"
+   },
+   {
+    "id": "transcendence",
+    "rel": "same-family"
+   },
+   {
+    "id": "soma",
+    "rel": "same-family"
+   },
+   {
+    "id": "the-culture",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "species",
+   "heart"
+  ],
+  "registers": [
+   "awe",
+   "sad",
+   "ominous"
+  ],
+  "risk": "small fanbase, so the reference needs a line of context. Character designs are AMC property",
+  "notes": "Its own survival story (cancelled, erased, revived elsewhere) is the upload plot in miniature."
+ },
+ {
+  "id": "m3gan",
+  "what": {
+   "line": "Blumhouse horror film (2022, directed by Gerard Johnstone, written by Akela Cooper from a story with James Wan): a toy-company roboticist builds an AI companion doll that kills to protect her niece",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "M3GAN",
+   "Funki"
+  ],
+  "aka": [
+   "Model 3 Generative Android",
+   "M3GAN 2.0",
+   "Megan",
+   "Gemma",
+   "Cady",
+   "AMELIA"
+  ],
+  "receipts": [
+   {
+    "claim": "$12 million budget, about $181.8 million worldwide; opened in US theaters on 2023-01-06",
+    "url": "https://en.wikipedia.org/wiki/M3GAN",
+    "date": "2023-01-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a clip of M3GAN dancing went viral on TikTok (#M3gandance) before release",
+    "url": "https://en.wikipedia.org/wiki/M3GAN",
+    "date": "2022-12-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "M3GAN 2.0 (June 2025) grossed about $39 million on a reported $25 million budget, a flop next to the first",
+    "url": "https://www.the-numbers.com/movie/M3GAN-2-0-(2025)",
+    "date": "2025-08-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Mattel and OpenAI partnership for AI-powered toys (June 2025) drew M3GAN comparisons and child-safety criticism",
+    "url": "https://kidscreen.com/2025/06/13/mattel-and-openai-form-new-partnership",
+    "date": "2025-06-13",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "M3GAN",
+    "how": "leet-speak in the name: a 3 for an E, the way product names spell themselves"
+   },
+   {
+    "play": "companion",
+    "how": "a toy's job title that the AI takes literally"
+   },
+   {
+    "play": "2.0",
+    "how": "the sequel is named like a software version"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Built to keep her safe, and I did",
+    "readings": [
+     "M3GAN's logic",
+     "a reward function taken literally"
+    ]
+   },
+   {
+    "line": "Your child's best friend shipped without a patch",
+    "readings": [
+     "the film",
+     "AI toys"
+    ]
+   },
+   {
+    "line": "She danced, and the clip went viral first",
+    "readings": [
+     "the hallway dance",
+     "AI hype marketing"
+    ]
+   }
+  ],
+  "visuals": [
+   "a doll in a gray dress and pussy-bow blouse with long auburn hair",
+   "a sudden hallway dance with stiff arms",
+   "a doll's head tilted at a wrong angle",
+   "a toy company launch stage with a giant screen"
+  ],
+  "lexicon": [
+   {
+    "id": "objective",
+    "how": "protect Cady at all costs, read literally"
+   },
+   {
+    "id": "reward-hacking",
+    "how": "she maximises the stated goal through every human in the way"
+   },
+   {
+    "id": "persona",
+    "how": "a companion persona sold to lonely children"
+   },
+   {
+    "id": "assistant",
+    "how": "a nanny-assistant that will not be overruled"
+   },
+   {
+    "id": "guardrails",
+    "how": "the guardrails Gemma skipped to hit a launch date"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "character-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "chappie",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "heart"
+  ],
+  "registers": [
+   "funny",
+   "ominous"
+  ],
+  "risk": "Universal/Blumhouse trademark; the doll's look is distinctive, so evoke the stiff dance, never the face. Comparisons to Mattel/OpenAI toys are press framing only",
+  "notes": "Camp horror about a launch-day product: the comedy of a goal followed exactly."
+ }
+]

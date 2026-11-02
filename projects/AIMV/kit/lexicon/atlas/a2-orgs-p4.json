@@ -1,0 +1,1312 @@
+[
+ {
+  "id": "tesla",
+  "what": {
+   "line": "Tesla, the electric-car and energy company Elon Musk has led since 2008, which sells 'Full Self-Driving', runs a small robotaxi service and is betting on the Optimus humanoid robot",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Tesla",
+   "Autopilot",
+   "Full Self-Driving",
+   "FSD",
+   "Optimus",
+   "Cybertruck",
+   "Dojo",
+   "Robotaxi"
+  ],
+  "aka": [
+   "Tesla Motors (first name)",
+   "TSLA"
+  ],
+  "receipts": [
+   {
+    "claim": "incorporated July 2003 by Martin Eberhard and Marc Tarpenning as Tesla Motors, named after Nikola Tesla; Musk led the 2004 round and became CEO in 2008",
+    "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "date": "2003-07",
+    "confidence": "medium"
+   },
+   {
+    "claim": "recalled 2,031,220 vehicles over Autosteer after a two-year NHTSA investigation, December 2023",
+    "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "date": "2023-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "launched Robotaxi rides for invited users in Austin on 2025-06-22: flat $4.20 fare, a Tesla employee in the passenger seat",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Autopilot",
+    "date": "2025-06-22",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Bloomberg reported the Dojo supercomputer project disbanded in August 2025; restarted January 2026 per Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Dojo",
+    "date": "2025-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "shareholders approved Musk's pay package reported as worth up to $1 trillion on 2025-11-06",
+    "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "date": "2025-11-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced on 2026-01-28 it would stop making Model S and X to focus Fremont on Optimus, targeting 1 million robots a year",
+    "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "date": "2026-01-28",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "I view it as a solved problem",
+    "who": "Elon Musk",
+    "where": "on autonomous driving, Nvidia GTC 2015 with Jen-Hsun Huang (as quoted by Fortune)",
+    "url": "https://fortune.com/2015/03/18/tesla-elon-musk-and-nvidia-ceoself-driving-cars/",
+    "date": "2015-03-17"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Tesla",
+    "how": "named for Nikola Tesla, the inventor who dreamed big and died broke"
+   },
+   {
+    "play": "Optimus",
+    "how": "Latin 'the best', and Optimus Prime: a robot that is also a vehicle"
+   },
+   {
+    "play": "Autopilot",
+    "how": "a name that promises more than the manual allows"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A solved problem, solved again every year",
+    "readings": [
+     "Musk's 2015 line",
+     "repeated self-driving deadlines"
+    ]
+   },
+   {
+    "line": "Full self-driving, supervised",
+    "readings": [
+     "Tesla's product name",
+     "a contradiction in two words"
+    ]
+   },
+   {
+    "line": "They stopped making cars to make the drivers",
+    "readings": [
+     "the Optimus pivot",
+     "robots replacing people"
+    ]
+   }
+  ],
+  "visuals": [
+   "a stylized T logo like a cross-section of a motor (trademark care)",
+   "a steering wheel turning with no hands on it",
+   "a humanoid robot folding a shirt slowly",
+   "a stainless-steel angular truck under a streetlight"
+  ],
+  "lexicon": [
+   {
+    "id": "autonomy",
+    "how": "self-driving is the company's central promise"
+   },
+   {
+    "id": "automation",
+    "how": "Optimus and robot factories"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "'supervised' FSD keeps a human in the loop"
+   },
+   {
+    "id": "hype",
+    "how": "years of missed autonomy deadlines"
+   }
+  ],
+  "links": [
+   {
+    "id": "elon-musk",
+    "rel": "leads"
+   },
+   {
+    "id": "xai",
+    "rel": "same-family"
+   },
+   {
+    "id": "neuralink",
+    "rel": "same-family"
+   },
+   {
+    "id": "boston-dynamics",
+    "rel": "rival"
+   },
+   {
+    "id": "samsung",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "body",
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "funny",
+   "ominous"
+  ],
+  "risk": "crash cases involve real deaths: no jokes about victims; the $1T pay figure is a headline maximum; Optimus demo teleoperation questions are unreceipted here, do not claim",
+  "notes": "'Full Self-Driving (Supervised)' is a ready-made lyric: a promise and its correction in one product name."
+ },
+ {
+  "id": "neuralink",
+  "what": {
+   "line": "Neuralink, the Fremont brain-implant company Elon Musk co-founded in 2016, whose Telepathy implant lets paralyzed patients move a cursor by thought",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Neuralink",
+   "Telepathy",
+   "Blindsight",
+   "the Link"
+  ],
+  "aka": [
+   "Neuralink Corp."
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2016-06-21 by Elon Musk and eight others; Musk tied the idea to the 'neural lace' of Iain M. Banks' Culture novels",
+    "url": "https://en.wikipedia.org/wiki/Neuralink",
+    "date": "2016-06-21",
+    "confidence": "medium"
+   },
+   {
+    "claim": "first human implant on 2024-01-28; patient Noland Arbaugh, tetraplegic after a diving accident, shown publicly 2024-03-20",
+    "url": "https://en.wikipedia.org/wiki/Neuralink",
+    "date": "2024-03-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "about 85% of Arbaugh's implant threads retracted, reported May 2024; software changes recovered much of the performance",
+    "url": "https://en.wikipedia.org/wiki/Neuralink",
+    "date": "2024-05",
+    "confidence": "medium"
+   },
+   {
+    "claim": "FDA breakthrough device designation for Blindsight, September 2024",
+    "url": "https://en.wikipedia.org/wiki/Neuralink",
+    "date": "2024-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "21 trial participants enrolled worldwide as of January 2026",
+    "url": "https://en.wikipedia.org/wiki/Neuralink",
+    "date": "2026-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised $650M Series E at a reported pre-money valuation of about $9B, June 2025",
+    "url": "https://en.wikipedia.org/wiki/Neuralink",
+    "date": "2025-06",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "neural link",
+    "how": "a link between neurons and machines, and a chain link"
+   },
+   {
+    "play": "Telepathy",
+    "how": "the implant is named for mind-reading; it reads motor intention"
+   },
+   {
+    "play": "Blindsight",
+    "how": "a neurological term (seeing without awareness) and Peter Watts' 2006 novel about intelligence without consciousness"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "I moved the cursor with a thought",
+    "readings": [
+     "Neuralink patients",
+     "a writer's wish"
+    ]
+   },
+   {
+    "line": "Eighty-five percent of the threads let go",
+    "readings": [
+     "the thread retraction",
+     "a mind losing its grip"
+    ]
+   },
+   {
+    "line": "Telepathy, one patient at a time",
+    "readings": [
+     "the implant name",
+     "slow intimacy"
+    ]
+   }
+  ],
+  "visuals": [
+   "a coin-sized round implant with hair-thin threads",
+   "a sewing-machine-like surgical robot arm",
+   "a cursor moving across a screen with no hand on the mouse",
+   "a brain drawn as a city map at night"
+  ],
+  "lexicon": [
+   {
+    "id": "upload",
+    "how": "brain-computer interfaces feed the mind-upload dream"
+   },
+   {
+    "id": "neuron",
+    "how": "it reads real neurons"
+   },
+   {
+    "id": "bandwidth",
+    "how": "Musk frames it as human-AI bandwidth"
+   },
+   {
+    "id": "signal",
+    "how": "decoding neural signals"
+   },
+   {
+    "id": "cursor",
+    "how": "the first demos move a cursor"
+   }
+  ],
+  "links": [
+   {
+    "id": "elon-musk",
+    "rel": "founded"
+   },
+   {
+    "id": "the-culture",
+    "rel": "inspired"
+   },
+   {
+    "id": "tesla",
+    "rel": "same-family"
+   },
+   {
+    "id": "pantheon",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "mind",
+   "species"
+  ],
+  "registers": [
+   "awe",
+   "hopeful",
+   "ominous"
+  ],
+  "risk": "patients are real, disabled people: never caricature; animal welfare allegations (PCRM complaint, monkey deaths) are contested, the USDA reported no violations beyond a 2019 self-report; Blindsight-the-novel link is our pun",
+  "notes": "The first public trick of a brain implant was moving a cursor: the most ordinary computer gesture became the miracle."
+ },
+ {
+  "id": "boston-dynamics",
+  "what": {
+   "line": "Boston Dynamics, the Waltham robotics company spun out of MIT in 1992, maker of the Spot robot dog and the Atlas humanoid, owned by Hyundai since 2021",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Boston Dynamics",
+   "Spot",
+   "Atlas",
+   "BigDog",
+   "Stretch"
+  ],
+  "aka": [
+   "BD"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1992 by Marc Raibert as an MIT spin-off from his Leg Laboratory",
+    "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+    "date": "1992",
+    "confidence": "medium"
+   },
+   {
+    "claim": "owned by Google X from 2013-12-13, sold to SoftBank (announced 2017-06-08), then Hyundai took 80% in December 2020 and control in June 2021",
+    "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+    "date": "2021-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Spot went on public sale in June 2020 for $74,500",
+    "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+    "date": "2020-06",
+    "confidence": "medium"
+   },
+   {
+    "claim": "retired the hydraulic Atlas in April 2024 for an all-electric Atlas",
+    "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+    "date": "2024-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "pledged in October 2022 not to weaponize its robots; five other firms signed on",
+    "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+    "date": "2022-10",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Atlas",
+    "how": "the Titan who holds up the sky, and the name of this very kit: a robot carrying the world"
+   },
+   {
+    "play": "Spot",
+    "how": "a dog's name, and 'to spot' as to see and to watch"
+   },
+   {
+    "play": "BigDog",
+    "how": "the first famous robot was a pack mule called a dog"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Atlas stood up and put the sky down",
+    "readings": [
+     "the Atlas humanoid",
+     "the Titan myth"
+    ]
+   },
+   {
+    "line": "Good dog, Spot. Sit. Stay. Watch.",
+    "readings": [
+     "the robot dog",
+     "surveillance"
+    ]
+   },
+   {
+    "line": "We kicked it to prove it couldn't fall",
+    "readings": [
+     "balance-test videos",
+     "testing by cruelty"
+    ]
+   }
+  ],
+  "visuals": [
+   "a yellow four-legged robot dog climbing stairs (trademark care)",
+   "a grey humanoid doing a backflip in a lab",
+   "an engineer pushing a robot with a hockey stick to test balance",
+   "dancing robots in a warehouse"
+  ],
+  "lexicon": [
+   {
+    "id": "automation",
+    "how": "warehouse robots like Stretch"
+   },
+   {
+    "id": "autonomy",
+    "how": "legged robots that balance themselves"
+   },
+   {
+    "id": "golem",
+    "how": "a humanoid built from clay and metal"
+   },
+   {
+    "id": "off-switch",
+    "how": "the no-weapons pledge"
+   }
+  ],
+  "links": [
+   {
+    "id": "google",
+    "rel": "same-family"
+   },
+   {
+    "id": "softbank",
+    "rel": "same-family"
+   },
+   {
+    "id": "tesla",
+    "rel": "rival"
+   },
+   {
+    "id": "black-mirror",
+    "rel": "inspired"
+   }
+  ],
+  "stakes": [
+   "body",
+   "jobs"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "funny"
+  ],
+  "risk": "the 2019 viral 'abused robot' video was a Corridor Digital fake: never present it as Boston Dynamics footage; the Black Mirror link is the popular comparison to 'Metalhead', with no confirmed inspiration; Spot and Atlas are trademarks",
+  "notes": "Atlas shares a name with this kit: a robot named after the Titan who carries the world, read by a shelf of cards named after the same Titan."
+ },
+ {
+  "id": "ibm",
+  "what": {
+   "line": "IBM, the 'Big Blue' computing company founded in 1911, whose Deep Blue beat Kasparov at chess in 1997 and whose Watson won Jeopardy! in 2011",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "IBM",
+   "Deep Blue",
+   "Watson",
+   "watsonx",
+   "Granite",
+   "Big Blue"
+  ],
+  "aka": [
+   "International Business Machines",
+   "Computing-Tabulating-Recording Company (first name)"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 1911-06-16 as the Computing-Tabulating-Recording Company; renamed International Business Machines on 1924-02-14",
+    "url": "https://en.wikipedia.org/wiki/IBM",
+    "date": "1924-02-14",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Deep Blue beat world champion Garry Kasparov in a six-game match, decided 1997-05-11",
+    "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov",
+    "date": "1997-05-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Watson beat Ken Jennings and Brad Rutter on Jeopardy!, February 2011",
+    "url": "https://en.wikipedia.org/wiki/IBM",
+    "date": "2011-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "announced the sale of Watson Health to Francisco Partners, January 2022",
+    "url": "https://en.wikipedia.org/wiki/IBM",
+    "date": "2022-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "launched watsonx, powered by its Granite models, May 2023",
+    "url": "https://en.wikipedia.org/wiki/IBM",
+    "date": "2023-05",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "HAL / IBM",
+    "how": "shift each letter of HAL by one and you get IBM; Arthur C. Clarke said it was a coincidence"
+   },
+   {
+    "play": "Big Blue / Deep Blue",
+    "how": "the company's nickname became its chess machine's name"
+   },
+   {
+    "play": "Watson",
+    "how": "named for founder Thomas J. Watson; also Sherlock's assistant, the one who asks"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "One letter up from HAL and still apologizing",
+    "readings": [
+     "the HAL-IBM letter shift",
+     "AI refusals"
+    ]
+   },
+   {
+    "line": "It won the game show and lost the hospital",
+    "readings": [
+     "Watson on Jeopardy!",
+     "Watson Health sold"
+    ]
+   },
+   {
+    "line": "Deep Blue, then the champion went home",
+    "readings": [
+     "Kasparov's loss",
+     "humans after defeat"
+    ]
+   }
+  ],
+  "visuals": [
+   "eight-stripe blue letters (trademark care)",
+   "a chessboard with a black tower computer beside it",
+   "a glowing globe avatar on a game-show podium",
+   "a punched card next to a quantum chandelier"
+  ],
+  "lexicon": [
+   {
+    "id": "move-37",
+    "how": "Deep Blue is the chess precursor to AlphaGo's move 37"
+   },
+   {
+    "id": "hype",
+    "how": "Watson Health as a hype-and-retreat story"
+   },
+   {
+    "id": "benchmark",
+    "how": "chess and Jeopardy! as public benchmarks"
+   },
+   {
+    "id": "assistant",
+    "how": "Watson the assistant"
+   }
+  ],
+  "links": [
+   {
+    "id": "garry-kasparov",
+    "rel": "rival"
+   },
+   {
+    "id": "hal-9000",
+    "rel": "same-family"
+   },
+   {
+    "id": "dartmouth-1956",
+    "rel": "same-family"
+   },
+   {
+    "id": "google-deepmind",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "sad",
+   "awe",
+   "funny"
+  ],
+  "risk": "the HAL-IBM shift is a coincidence per Clarke: present as a pun, never as intent; IBM marks are trademarks",
+  "notes": "IBM owns AI's two most famous early wins and its most famous retreat: a full arc in one company."
+ },
+ {
+  "id": "suno",
+  "what": {
+   "line": "Suno, the Cambridge, Massachusetts company whose app turns a text prompt into a full song, sued by the major labels in 2024 and now licensing from some of them",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Suno",
+   "Bark",
+   "Suno Studio"
+  ],
+  "aka": [
+   "Suno, Inc.",
+   "Suno AI"
+  ],
+  "receipts": [
+   {
+    "claim": "founded by Mikey Shulman, Georg Kucsko, Martin Camacho and Keenan Freyberg, colleagues at Kensho; released the open Bark audio model in April 2023",
+    "url": "https://en.wikipedia.org/wiki/Suno_AI",
+    "date": "2023-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "went wide on 2023-12-20 with a web app and a Microsoft Copilot plugin",
+    "url": "https://en.wikipedia.org/wiki/Suno_AI",
+    "date": "2023-12-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the RIAA-led major labels sued Suno and Udio for copyright infringement in June 2024",
+    "url": "https://en.wikipedia.org/wiki/Suno_AI",
+    "date": "2024-06-24",
+    "confidence": "medium"
+   },
+   {
+    "claim": "raised $250M at a $2.45B valuation (2025-11-19) and partnered with Warner Music Group, settling its claims (2025-11-25)",
+    "url": "https://suno.com/blog",
+    "date": "2025-11-25",
+    "confidence": "high"
+   },
+   {
+    "claim": "a Munich court ruled against Suno in GEMA's case (2026-07-31); UMG and Sony filed a second suit over v6 (September 2026)",
+    "url": "https://en.wikipedia.org/wiki/Suno_AI",
+    "date": "2026-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "released the v6 model family on 2026-09-09",
+    "url": "https://suno.com/blog",
+    "date": "2026-09-09",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "suno",
+    "how": "Hindi and Urdu for 'listen!': a command to the listener"
+   },
+   {
+    "play": "Bark",
+    "how": "its first model: a dog's sound, before it learned to sing"
+   },
+   {
+    "play": "Personas, Covers",
+    "how": "its features use music words that are also AI words"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Listen, it says, in a language it never learned",
+    "readings": [
+     "suno means listen",
+     "a model singing"
+    ]
+   },
+   {
+    "line": "It barked before it sang",
+    "readings": [
+     "Bark then Suno",
+     "a dog learning music"
+    ]
+   },
+   {
+    "line": "They sued the song, then signed the singer",
+    "readings": [
+     "label lawsuits then licensing",
+     "a record deal"
+    ]
+   }
+  ],
+  "visuals": [
+   "a waveform blooming into a full song from one line of text",
+   "a text box with 'a sad song about a robot' typed in",
+   "a record-label contract on a desk beside a laptop",
+   "a court gavel resting on a vinyl record"
+  ],
+  "lexicon": [
+   {
+    "id": "cover",
+    "how": "Suno's Covers feature and the copyright fight over covers"
+   },
+   {
+    "id": "remix",
+    "how": "remixes made from prompts"
+   },
+   {
+    "id": "persona",
+    "how": "Suno Personas"
+   },
+   {
+    "id": "track",
+    "how": "a full track from a prompt"
+   },
+   {
+    "id": "record",
+    "how": "record labels and recording"
+   }
+  ],
+  "links": [
+   {
+    "id": "microsoft",
+    "rel": "same-family"
+   },
+   {
+    "id": "minimax",
+    "rel": "rival"
+   },
+   {
+    "id": "elevenlabs",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "funny",
+   "defiant",
+   "sad"
+  ],
+  "risk": "this project used or considered Suno for its own songs: say so in any video about it; label suits are live; whether the founders meant the Hindi 'listen' is unreceipted, use the language fact only",
+  "notes": "A song-making machine named for the word 'listen' is the most direct meta-hook in the batch for a music video about AI music."
+ },
+ {
+  "id": "minimax",
+  "what": {
+   "line": "MiniMax, the Shanghai AI company founded in 2021 by former SenseTime researchers, maker of Hailuo video, the Talkie companion app, the M-series models and the MiniMax Music models",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "MiniMax",
+   "Hailuo",
+   "Talkie",
+   "MiniMax-M1",
+   "MiniMax-M2",
+   "MiniMax Music"
+  ],
+  "aka": [
+   "MiniMax Group",
+   "Xiyu Keji"
+  ],
+  "receipts": [
+   {
+    "claim": "founded December 2021 in Shanghai by computer-vision researchers from SenseTime; Alibaba led a $600M round at a $2.5B valuation in March 2024",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_(company)",
+    "date": "2024-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "listed on the Hong Kong Stock Exchange on 2026-01-09",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_(company)",
+    "date": "2026-01-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Disney, Universal and Warner Bros. Discovery sued over Hailuo AI generating their characters, September 2025",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_(company)",
+    "date": "2025-09",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Anthropic accused MiniMax and two other Chinese labs of distilling Claude via fraudulent accounts, February 2026",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_(company)",
+    "date": "2026-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "published MiniMax-Music3 on Hugging Face: lyrics plus a style description in, a full song up to five minutes out (32 kHz stereo)",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "date": "2026-10",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "minimax",
+    "how": "the game-theory rule: minimize your maximum loss; the algorithm behind classic chess engines"
+   },
+   {
+    "play": "Hailuo",
+    "how": "Chinese for 'conch' (sea snail shell): a shell you hold to your ear to hear the sea"
+   },
+   {
+    "play": "Talkie",
+    "how": "the companion app, and the first talking films"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Minimize the worst case, maximize the song",
+    "readings": [
+     "minimax algorithm",
+     "our music model"
+    ]
+   },
+   {
+    "line": "Hold the shell to your ear and it sings back",
+    "readings": [
+     "Hailuo as conch",
+     "a generated song"
+    ]
+   },
+   {
+    "line": "The model learned from Claude and sang for us",
+    "readings": [
+     "distillation allegation",
+     "this project's pipeline"
+    ]
+   }
+  ],
+  "visuals": [
+   "a conch shell glowing with a waveform inside",
+   "a minimax game tree with branches lit red and blue",
+   "a Shanghai skyline seen through a phone screen",
+   "a chat app with a cartoon companion avatar"
+  ],
+  "lexicon": [
+   {
+    "id": "distillation",
+    "how": "the Anthropic allegation"
+   },
+   {
+    "id": "open-weights",
+    "how": "M-series and Music3 on Hugging Face"
+   },
+   {
+    "id": "optimization",
+    "how": "minimax is an optimization rule"
+   },
+   {
+    "id": "track",
+    "how": "Music3 renders full tracks"
+   },
+   {
+    "id": "persona",
+    "how": "Talkie companion personas"
+   }
+  ],
+  "links": [
+   {
+    "id": "china",
+    "rel": "located-in"
+   },
+   {
+    "id": "alibaba-qwen",
+    "rel": "invested-in"
+   },
+   {
+    "id": "anthropic",
+    "rel": "rival"
+   },
+   {
+    "id": "suno",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "heart",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "ominous",
+   "funny"
+  ],
+  "risk": "this project's songs are made with MiniMax Music 3: disclose it, no softer treatment; Music3's license is in its repo, read it before any commercial claim; the distillation and studio suits are allegations; read the alibaba-qwen edge as Alibaba investing in MiniMax",
+  "notes": "A model named after the rule 'minimize the worst loss' makes the songs for a channel about AI risk: the band's own instrument is a game-theory term."
+ },
+ {
+  "id": "midjourney",
+  "what": {
+   "line": "Midjourney, David Holz's small San Francisco lab whose image generator, launched through Discord in 2022, made the viral AI images of 2023",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Midjourney",
+   "Niji"
+  ],
+  "aka": [
+   "Midjourney, Inc.",
+   "MJ"
+  ],
+  "receipts": [
+   {
+    "claim": "founded by David Holz (Leap Motion co-founder); open beta on Discord on 2022-07-12; Holz said it was already profitable in August 2022",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "date": "2022-07-12",
+    "confidence": "medium"
+   },
+   {
+    "claim": "a Midjourney image entered by Jason Allen, 'Theatre D'opera Spatial', won first in digital art at the 2022 Colorado State Fair",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "date": "2022-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "viral 2023 fakes included Pope Francis in a puffer jacket and a fictional Trump arrest",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "date": "2023-03",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Disney and Universal sued on 2025-06-11; Warner Bros. Discovery on 2025-09-04",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "date": "2025-09-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "V7 released 2025-04-04; V8 alpha 2026-03-17",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "date": "2026-03-17",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "midjourney",
+    "how": "the middle of the road: Dante's opening, midway upon the journey of our life, lost in a dark wood"
+   },
+   {
+    "play": "Niji",
+    "how": "Japanese for 'rainbow', its anime model"
+   },
+   {
+    "play": "/imagine",
+    "how": "its prompt command is a verb from John Lennon to Discord"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Midway through the journey, I lost the real",
+    "readings": [
+     "Dante's opening",
+     "AI images blurring truth"
+    ]
+   },
+   {
+    "line": "The Pope wore a coat he never owned",
+    "readings": [
+     "the puffer-jacket fake",
+     "borrowed glory"
+    ]
+   },
+   {
+    "line": "Imagine, it said, and everyone typed the same dream",
+    "readings": [
+     "the /imagine command",
+     "style convergence"
+    ]
+   }
+  ],
+  "visuals": [
+   "a small sailboat sketch logo (trademark care)",
+   "a Discord channel scrolling with four-image grids",
+   "an ornate gold-lit operatic hall image style",
+   "a white puffer coat on an empty hanger (no likeness of the Pope)"
+  ],
+  "lexicon": [
+   {
+    "id": "diffusion",
+    "how": "a diffusion image model"
+   },
+   {
+    "id": "prompt",
+    "how": "the /imagine prompt culture"
+   },
+   {
+    "id": "slop",
+    "how": "the AI-image glut it fed"
+   },
+   {
+    "id": "seed",
+    "how": "seeds fix an image's randomness"
+   },
+   {
+    "id": "render",
+    "how": "four renders per prompt"
+   }
+  ],
+  "links": [
+   {
+    "id": "stability-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "meta",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "mind",
+   "heart"
+  ],
+  "registers": [
+   "awe",
+   "funny",
+   "ominous"
+  ],
+  "risk": "never generate or show likenesses of real people as gags (Pope, Trump): describe the event; studio suits are live; the Meta licensing link is widely reported but unreceipted here",
+  "notes": "Midjourney is the company that made 'AI image' a visual style everyone can recognize: gold light, perfect skin, too many details."
+ },
+ {
+  "id": "stability-ai",
+  "what": {
+   "line": "Stability AI, the London company founded in 2019 that released Stable Diffusion openly in August 2022, then lost its founder and fought artists and Getty Images in court",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Stable Diffusion",
+   "Stability AI",
+   "SDXL",
+   "Stable Audio"
+  ],
+  "aka": [
+   "Stability"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2019 by Emad Mostaque and Cyrus Hodes; released Stable Diffusion in August 2022",
+    "url": "https://en.wikipedia.org/wiki/Stability_AI",
+    "date": "2022-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "artists Sarah Andersen, Kelly McKernan and Karla Ortiz sued Stability, Midjourney and DeviantArt on 2023-01-13",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "date": "2023-01-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Mostaque stepped down as CEO on 2024-03-23 amid financial trouble; Prem Akkaraju became CEO on 2024-06-25",
+    "url": "https://en.wikipedia.org/wiki/Stability_AI",
+    "date": "2024-06-25",
+    "confidence": "medium"
+   },
+   {
+    "claim": "James Cameron joined the board on 2024-09-24",
+    "url": "https://en.wikipedia.org/wiki/Stability_AI",
+    "date": "2024-09-24",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the UK High Court ruled for Stability in Getty Images' main copyright claim, November 2025",
+    "url": "https://en.wikipedia.org/wiki/Stability_AI",
+    "date": "2025-11",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "Stability",
+    "how": "a company named for stability that lost its founder, its staff and its cash"
+   },
+   {
+    "play": "Stable Diffusion",
+    "how": "diffusion spreads by nature; the model made it stable and spread it everywhere"
+   },
+   {
+    "play": "Cameron",
+    "how": "the director of The Terminator on the board of an AI company"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Stable diffusion, unstable company",
+    "readings": [
+     "the model name",
+     "Stability's turmoil"
+    ]
+   },
+   {
+    "line": "It spread like noise and settled into faces",
+    "readings": [
+     "diffusion denoising",
+     "viral open release"
+    ]
+   },
+   {
+    "line": "The man who made Skynet joined the board",
+    "readings": [
+     "James Cameron at Stability",
+     "fiction meeting industry"
+    ]
+   }
+  ],
+  "visuals": [
+   "a static-noise square resolving step by step into an image",
+   "a purple gradient wordmark (trademark care)",
+   "a gallery wall of watermarked stock photos, the watermark smeared",
+   "a London office with empty chairs"
+  ],
+  "lexicon": [
+   {
+    "id": "diffusion",
+    "how": "Stable Diffusion"
+   },
+   {
+    "id": "noise",
+    "how": "denoising from noise"
+   },
+   {
+    "id": "open-weights",
+    "how": "the 2022 open release"
+   },
+   {
+    "id": "seed",
+    "how": "the seed number users share"
+   }
+  ],
+  "links": [
+   {
+    "id": "midjourney",
+    "rel": "same-family"
+   },
+   {
+    "id": "terminator",
+    "rel": "same-family"
+   },
+   {
+    "id": "hugging-face",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "wallet"
+  ],
+  "registers": [
+   "sad",
+   "funny"
+  ],
+  "risk": "the artists' case and the US Getty case are live; Mostaque is a living person, keep to reported facts; Stable Diffusion co-creators (CompVis, Runway) deserve credit when naming its origin",
+  "notes": "The company's name is the punchline: stability, said by the AI firm that had the least of it."
+ },
+ {
+  "id": "elevenlabs",
+  "what": {
+   "line": "ElevenLabs, the voice-AI company founded in 2022 by two Poles, Piotr Dabkowski and Mati Staniszewski, whose cloned voices power dubbing, audiobooks and, once, a fake Biden robocall",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "ElevenLabs",
+   "Eleven v3",
+   "Eleven Music",
+   "ElevenReader"
+  ],
+  "aka": [
+   "Eleven Labs",
+   "11Labs"
+  ],
+  "receipts": [
+   {
+    "claim": "founded 2022 by Piotr Dabkowski and Mati Staniszewski; 'Eleven' refers to November 11, Poland's Independence Day",
+    "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+    "date": "2022",
+    "confidence": "medium"
+   },
+   {
+    "claim": "4chan users cloned celebrity voices to make hateful audio weeks after its January 2023 beta",
+    "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+    "date": "2023-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AI robocalls imitating Joe Biden before the New Hampshire primary were linked to ElevenLabs, January 2024",
+    "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+    "date": "2024-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "valued at $3.3B (January 2025), then raised $500M at $11B (2026-02-04)",
+    "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+    "date": "2026-02-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "launched Eleven Music, an AI music generator it says is cleared for commercial use, August 2025",
+    "url": "https://en.wikipedia.org/wiki/ElevenLabs",
+    "date": "2025-08",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "dedicated to preventing the misuse of audio AI tools",
+    "who": "ElevenLabs (company statement)",
+    "where": "statement to Bloomberg after the fake Biden robocall, as reported by Engadget",
+    "url": "https://www.engadget.com/elevenlabs-reportedly-banned-the-account-that-deepfaked-bidens-voice-with-its-ai-tools-083355975.html",
+    "date": "2024-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Eleven",
+    "how": "November 11, Poland's Independence Day: a voice company named for a country getting its voice back"
+   },
+   {
+    "play": "up to eleven",
+    "how": "Spinal Tap's amp that goes to eleven: louder than the maximum"
+   },
+   {
+    "play": "Labs",
+    "how": "a lab where voices are grown"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "My voice went to eleven without me",
+    "readings": [
+     "voice cloning",
+     "Spinal Tap's eleven"
+    ]
+   },
+   {
+    "line": "The president called, but he never dialed",
+    "readings": [
+     "the Biden robocall",
+     "deepfake voices"
+    ]
+   },
+   {
+    "line": "A country's independence day, now anyone's voice",
+    "readings": [
+     "the name's origin",
+     "voice freedom and theft"
+    ]
+   }
+  ],
+  "visuals": [
+   "two vertical bars like a pause symbol (the '11' mark; trademark care)",
+   "a waveform duplicated in two colors, one real one cloned",
+   "an old landline phone ringing in an empty kitchen",
+   "a dubbing booth with a script and headphones"
+  ],
+  "lexicon": [
+   {
+    "id": "persona",
+    "how": "cloned voices as personas"
+   },
+   {
+    "id": "mask",
+    "how": "a voice worn like a mask"
+   },
+   {
+    "id": "deception",
+    "how": "the robocall deepfake"
+   },
+   {
+    "id": "echo",
+    "how": "a clone is an echo of a person"
+   },
+   {
+    "id": "pitch",
+    "how": "voice pitch and the sales pitch"
+   }
+  ],
+  "links": [
+   {
+    "id": "suno",
+    "rel": "rival"
+   },
+   {
+    "id": "her",
+    "rel": "same-family"
+   },
+   {
+    "id": "minimax",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "heart",
+   "state",
+   "jobs"
+  ],
+  "registers": [
+   "ominous",
+   "tender",
+   "funny"
+  ],
+  "risk": "never clone or imitate a real voice in our videos; the robocall link is as reported (a third party made the calls using the tool); 2026 valuations from Wikipedia, re-check",
+  "notes": "A company named after a national day of independence sells the most intimate thing a person has, their voice, as a file."
+ }
+]

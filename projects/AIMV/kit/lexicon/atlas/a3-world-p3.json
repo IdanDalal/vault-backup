@@ -1,0 +1,1712 @@
+[
+ {
+  "id": "turing-award",
+  "what": {
+   "line": "The ACM A.M. Turing Award: computing's top prize ($1 million, funded by Google), given to the deep-learning 'godfathers' Bengio, Hinton and LeCun for 2018 and to reinforcement-learning pioneers Barto and Sutton for 2024",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Turing Award"
+  ],
+  "aka": [
+   "the Nobel Prize of Computing",
+   "ACM A.M. Turing Award"
+  ],
+  "receipts": [
+   {
+    "claim": "2018 award to Yoshua Bengio, Geoffrey Hinton and Yann LeCun 'for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing'",
+    "url": "https://en.wikipedia.org/wiki/Turing_Award",
+    "date": "2019-03-27",
+    "confidence": "medium"
+   },
+   {
+    "claim": "2024 award to Andrew Barto and Richard Sutton 'for developing the conceptual and algorithmic foundations of reinforcement learning'",
+    "url": "https://en.wikipedia.org/wiki/Turing_Award",
+    "date": "2025-03-05",
+    "confidence": "medium"
+   },
+   {
+    "claim": "prize money $1 million since 2014, funded by Google; first awarded 1966",
+    "url": "https://en.wikipedia.org/wiki/Turing_Award",
+    "date": "2014-11-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "2025 award (announced 2026-03-18) went to Charles Bennett and Gilles Brassard for quantum information science",
+    "url": "https://en.wikipedia.org/wiki/Turing_Award",
+    "date": "2026-03-18",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing",
+    "who": "ACM",
+    "where": "2018 Turing Award citation (Bengio, Hinton, LeCun)",
+    "url": "https://en.wikipedia.org/wiki/Turing_Award",
+    "date": "2019-03-27"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Turing Award",
+    "how": "named after the man who asked 'Can machines think?': a prize for teaching them to"
+   },
+   {
+    "play": "godfathers",
+    "how": "the 2018 trio's press nickname: a mafia family of neural nets"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Three godfathers got the prize named for the test",
+    "readings": [
+     "the 2018 award",
+     "a family business"
+    ]
+   },
+   {
+    "line": "A million dollars for teaching it to want reward",
+    "readings": [
+     "the 2024 RL award",
+     "a dog trainer"
+    ]
+   }
+  ],
+  "visuals": [
+   "a bronze bust of Alan Turing",
+   "three silhouettes on a stage under a 'Turing' banner (no faces)",
+   "a reward signal graph climbing step by step"
+  ],
+  "lexicon": [
+   {
+    "id": "turing-test",
+    "how": "same namesake"
+   },
+   {
+    "id": "reinforcement-learning",
+    "how": "the 2024 award"
+   },
+   {
+    "id": "network",
+    "how": "the 2018 award was for deep neural networks"
+   },
+   {
+    "id": "reward",
+    "how": "Barto and Sutton built the theory of learning from reward"
+   }
+  ],
+  "links": [
+   {
+    "id": "alan-turing",
+    "rel": "same-family"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "yann-lecun",
+    "rel": "same-family"
+   },
+   {
+    "id": "yoshua-bengio",
+    "rel": "same-family"
+   },
+   {
+    "id": "richard-sutton",
+    "rel": "same-family"
+   },
+   {
+    "id": "nobel-2024",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "awe",
+   "smug"
+  ],
+  "risk": "award years and announcement years differ by one (the 2018 award was announced in March 2019); say which",
+  "notes": "Hinton holds both the Turing Award and a Nobel: the cleanest 'double crown' handle in the field."
+ },
+ {
+  "id": "neurips",
+  "what": {
+   "line": "NeurIPS (Conference on Neural Information Processing Systems, formerly NIPS): the largest annual machine-learning conference, held every December since 1987, where the field's big papers and recruiting happen",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "NeurIPS",
+   "NIPS"
+  ],
+  "aka": [
+   "Neural Information Processing Systems",
+   "the conference"
+  ],
+  "receipts": [
+   {
+    "claim": "running since 1987; with ICML and ICLR one of the three top ML conferences",
+    "url": "https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems",
+    "date": "1987-11-08",
+    "confidence": "medium"
+   },
+   {
+    "claim": "dropped the acronym 'NIPS' for 'NeurIPS' in November 2018 after complaints about the old name (Nature News)",
+    "url": "https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems",
+    "date": "2018-11-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "2025 held in San Diego with a Mexico City site; 2026 in Sydney with satellites in Atlanta and Paris",
+    "url": "https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'Attention Is All You Need', the transformer paper, was posted to arXiv on 2017-06-12 and presented at NIPS 2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "date": "2017-06-12",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "NeurIPS",
+    "how": "'neur-ips' sounds like 'neural tips' or 'new rips'; the rename itself is a story about who the field is for"
+   },
+   {
+    "play": "the conference",
+    "how": "insiders say it like a holiday: 'see you at NeurIPS'"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "See you in December, where the papers go to dance",
+    "readings": [
+     "NeurIPS season",
+     "a winter ball"
+    ]
+   },
+   {
+    "line": "They renamed the room so more could enter",
+    "readings": [
+     "the 2018 rename",
+     "a club changing its door policy"
+    ]
+   }
+  ],
+  "visuals": [
+   "a convention hall of poster boards with crowds three deep",
+   "a lanyard badge reading NeurIPS",
+   "recruiter booths with free swag"
+  ],
+  "lexicon": [
+   {
+    "id": "neuron",
+    "how": "neural in the name"
+   },
+   {
+    "id": "transformer",
+    "how": "the transformer paper was a NIPS 2017 paper"
+   },
+   {
+    "id": "network",
+    "how": "neural networks are its founding subject"
+   },
+   {
+    "id": "release",
+    "how": "labs time releases to the conference"
+   }
+  ],
+  "links": [
+   {
+    "id": "arxiv",
+    "rel": "same-family"
+   },
+   {
+    "id": "google",
+    "rel": "same-family"
+   },
+   {
+    "id": "geoffrey-hinton",
+    "rel": "same-family"
+   },
+   {
+    "id": "dartmouth-1956",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind",
+   "jobs"
+  ],
+  "registers": [
+   "funny",
+   "awe"
+  ],
+  "risk": "low; attendance figures vary by year and source, leave them out unless dated",
+  "notes": "The field's annual pilgrimage: the poster hall is the most crowded frame in AI that is not a data center."
+ },
+ {
+  "id": "arxiv",
+  "what": {
+   "line": "arXiv: the free preprint server founded by Paul Ginsparg in 1991, where nearly every AI paper appears before or without peer review; independent nonprofit since 2026",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "arXiv"
+  ],
+  "aka": [
+   "the arXiv",
+   "archive",
+   "arxiv.org"
+  ],
+  "receipts": [
+   {
+    "claim": "founded by Paul Ginsparg in 1991; hosted by Cornell for decades, established as an independent nonprofit in 2026; over 3 million articles",
+    "url": "https://info.arxiv.org/about/index.html",
+    "date": "2026-11-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "about 32,000 submissions a month as of October 2026",
+    "url": "https://en.wikipedia.org/wiki/ArXiv",
+    "date": "2026-10-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "from November 2025 its computer-science section stopped accepting review articles and position papers not first accepted by a peer-reviewed venue, citing a rise in AI-generated submissions",
+    "url": "https://en.wikipedia.org/wiki/ArXiv",
+    "date": "2025-11-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "May 2026: CS chair Thomas Dietterich said authors with clear unchecked LLM output face a one-year submission ban",
+    "url": "https://en.wikipedia.org/wiki/ArXiv",
+    "date": "2026-05-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'Attention Is All You Need' is arXiv:1706.03762, submitted 2017-06-12",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "date": "2017-06-12",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "arXiv",
+    "how": "the X is a Greek chi, so it is said 'archive': a hidden letter in plain sight"
+   },
+   {
+    "play": "1706.03762",
+    "how": "paper IDs are dates (year, month, number): the transformer was born in 2017's sixth month"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The archive was flooded with the machine's own papers",
+    "readings": [
+     "arXiv's AI-slop rules",
+     "a library of mirrors"
+    ]
+   },
+   {
+    "line": "Seventeen-oh-six, the month attention arrived",
+    "readings": [
+     "the transformer's arXiv ID",
+     "a birthday"
+    ]
+   }
+  ],
+  "visuals": [
+   "the red-on-white arXiv header",
+   "a paper ID like 1706.03762 in monospace",
+   "an abstract page with a PDF button"
+  ],
+  "lexicon": [
+   {
+    "id": "slop",
+    "how": "its 2025-26 rules target AI-generated papers"
+   },
+   {
+    "id": "release",
+    "how": "AI results are released here first"
+   },
+   {
+    "id": "transformer",
+    "how": "the transformer paper's home"
+   },
+   {
+    "id": "feed",
+    "how": "researchers read it as a daily feed"
+   }
+  ],
+  "links": [
+   {
+    "id": "neurips",
+    "rel": "same-family"
+   },
+   {
+    "id": "google",
+    "rel": "same-family"
+   },
+   {
+    "id": "epoch-ai",
+    "rel": "same-family"
+   },
+   {
+    "id": "humanitys-last-exam",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "mind"
+  ],
+  "registers": [
+   "tender",
+   "funny"
+  ],
+  "risk": "low; policy details change, cite the dated announcement",
+  "notes": "The archive now has to defend itself from papers written by the systems its papers describe: an ouroboros in a PDF."
+ },
+ {
+  "id": "china",
+  "what": {
+   "line": "China: the other AI superpower, home of DeepSeek, Qwen, Kimi and MiniMax, building frontier open-weight models under US chip export controls with a state goal of world AI leadership by 2030",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "China",
+   "Beijing",
+   "Hangzhou",
+   "Chinese"
+  ],
+  "aka": [
+   "PRC",
+   "People's Republic of China"
+  ],
+  "receipts": [
+   {
+    "claim": "State Council's New Generation AI Development Plan (released 2017-07-20) set the goal of China becoming the world's primary AI innovation center by 2030",
+    "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+    "date": "2017-07-20",
+    "confidence": "high"
+   },
+   {
+    "claim": "AI Index 2026: the US-China model performance gap 'has effectively closed'; as of March 2026 Anthropic's top model led by just 2.7%; China leads in publications, citations, patents and industrial robots",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "AI Index 2026: US private AI investment $285.9 billion in 2025, more than 23 times China's $12.4 billion (which likely understates state guidance funds)",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "US CAISI found DeepSeek V3.1 echoed misleading CCP narratives in 5% of English and 12% of Chinese answers",
+    "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+    "date": "2025-09-30",
+    "confidence": "high"
+   },
+   {
+    "claim": "Chinese open-weight models dominated OpenRouter's weekly token rankings in October 2026",
+    "url": "https://atomslice.com/guides/openrouter-rankings-oct-2026/",
+    "date": "2026-10-13",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "making China the world's primary AI innovation center",
+    "who": "State Council of the PRC (DigiChina translation)",
+    "where": "New Generation Artificial Intelligence Development Plan",
+    "url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+    "date": "2017-07-20"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Made in China",
+    "how": "the old label on cheap goods now on frontier open weights given away free"
+   },
+   {
+    "play": "DeepCent",
+    "how": "AI 2027's fictional Chinese lab: a thin mask over DeepSeek"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They cut the chips, so we cut the cost",
+    "readings": [
+     "China under export controls",
+     "a tailor"
+    ]
+   },
+   {
+    "line": "Two point seven percent between two empires",
+    "readings": [
+     "AI Index 2026 gap",
+     "a close race"
+    ]
+   },
+   {
+    "line": "Open weights from a closed country",
+    "readings": [
+     "Chinese open-source AI",
+     "a paradox"
+    ]
+   }
+  ],
+  "visuals": [
+   "the five-star red flag",
+   "a Hangzhou skyline at night",
+   "a map with chip-shipment arrows stopping at the coast",
+   "a whale and a panda logo side by side"
+  ],
+  "lexicon": [
+   {
+    "id": "open-weights",
+    "how": "China's leading labs ship open weights"
+   },
+   {
+    "id": "race",
+    "how": "half of the US-China race"
+   },
+   {
+    "id": "chip",
+    "how": "the export-control target"
+   },
+   {
+    "id": "distillation",
+    "how": "US labs allege distillation of their outputs"
+   },
+   {
+    "id": "sovereign",
+    "how": "sovereign AI as state policy"
+   },
+   {
+    "id": "guardrails",
+    "how": "models trained to follow state content rules"
+   }
+  ],
+  "links": [
+   {
+    "id": "deepseek",
+    "rel": "located-in"
+   },
+   {
+    "id": "alibaba-qwen",
+    "rel": "located-in"
+   },
+   {
+    "id": "moonshot",
+    "rel": "located-in"
+   },
+   {
+    "id": "export-controls",
+    "rel": "regulates"
+   },
+   {
+    "id": "united-states",
+    "rel": "rival"
+   },
+   {
+    "id": "taiwan",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "defiant",
+   "ominous"
+  ],
+  "risk": "avoid ethnic or national stereotyping; attack policies and claims, never people; benchmark leads flip within months",
+  "notes": "The great inversion: the closed state ships open models and the open society's labs keep theirs closed, which is a ready-made lyric paradox."
+ },
+ {
+  "id": "taiwan",
+  "what": {
+   "line": "Taiwan: the island where TSMC makes almost every leading AI chip, so the AI economy rests on one foundry and one strait",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Taiwan",
+   "Hsinchu",
+   "Taipei"
+  ],
+  "aka": [
+   "Republic of China",
+   "ROC",
+   "the silicon island"
+  ],
+  "receipts": [
+   {
+    "claim": "AI Index 2026: a single company, TSMC, fabricates almost every leading AI chip, making the supply chain dependent on one foundry in Taiwan; a TSMC US expansion began operations in 2025",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "TSMC holds about 70% of the global foundry market and was the world's largest non-US company by market capitalisation on 2026-06-30",
+    "url": "https://en.wikipedia.org/wiki/TSMC",
+    "date": "2026-06-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "'silicon shield': the idea that Taiwan's chip industry deters invasion and draws foreign defense",
+    "url": "https://en.wikipedia.org/wiki/Silicon_shield",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   },
+   {
+    "claim": "TSMC is headquartered in Hsinchu Science Park and is the main supplier to Nvidia, Apple, Broadcom and Qualcomm",
+    "url": "https://en.wikipedia.org/wiki/TSMC",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "A single company, TSMC, fabricates almost every leading AI chip",
+    "who": "Stanford HAI, AI Index 2026",
+    "where": "AI Index Report 2026, top takeaways",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "silicon shield",
+    "how": "a defense made of the same material as the chips: the island's armor is its product"
+   },
+   {
+    "play": "the strait",
+    "how": "a narrow sea and a 'straight' line on a chart: the bottleneck of the world"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Every mind in the cloud was born on one island",
+    "readings": [
+     "TSMC's monopoly on AI chips",
+     "a myth of origin"
+    ]
+   },
+   {
+    "line": "A shield made of sand",
+    "readings": [
+     "the silicon shield",
+     "a fragile defense"
+    ]
+   },
+   {
+    "line": "One strait between the world and its thinking",
+    "readings": [
+     "the Taiwan Strait chokepoint",
+     "a narrow passage"
+    ]
+   }
+  ],
+  "visuals": [
+   "a wafer glowing with rainbow interference patterns",
+   "a cleanroom with workers in white bunny suits",
+   "a map of the Taiwan Strait with shipping lanes",
+   "a single factory on a small island holding up a globe"
+  ],
+  "lexicon": [
+   {
+    "id": "chip",
+    "how": "the island's product"
+   },
+   {
+    "id": "bottleneck",
+    "how": "the single point of failure of the AI economy"
+   },
+   {
+    "id": "moores-law",
+    "how": "TSMC carries Moore's law forward"
+   },
+   {
+    "id": "compute",
+    "how": "all frontier compute passes through it"
+   },
+   {
+    "id": "moat",
+    "how": "the deepest moat in tech"
+   }
+  ],
+  "links": [
+   {
+    "id": "tsmc",
+    "rel": "located-in"
+   },
+   {
+    "id": "nvidia",
+    "rel": "same-family"
+   },
+   {
+    "id": "jensen-huang",
+    "rel": "same-family"
+   },
+   {
+    "id": "china",
+    "rel": "rival"
+   },
+   {
+    "id": "export-controls",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "planet"
+  ],
+  "registers": [
+   "ominous",
+   "awe"
+  ],
+  "risk": "contested sovereignty: use 'Taiwan' and avoid stating a position on its status; no invasion predictions as fact",
+  "notes": "The world's thinking machines all trace back to one small island: a visual of the entire cloud hanging from a single thread."
+ },
+ {
+  "id": "united-states",
+  "what": {
+   "line": "United States: home of most frontier labs, most AI data centers and most AI money, whose government now frames the field as a race for 'Super Intelligence' it intends to win",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "America",
+   "American",
+   "Washington",
+   "USA"
+  ],
+  "aka": [
+   "US",
+   "the States",
+   "si.gov"
+  ],
+  "receipts": [
+   {
+    "claim": "the federal AI site ai.gov now redirects to si.gov: 'America is in a race for Super Intelligence. We intend to win it.'",
+    "url": "https://www.si.gov/",
+    "date": "2026-11-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "AI Index 2026: US private AI investment $285.9 billion in 2025; 1,953 newly funded AI companies; AI researchers moving to the US down 89% since 2017",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "AI Index 2026: the US hosts 5,427 data centers, more than 10 times any other country",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01",
+    "confidence": "high"
+   },
+   {
+    "claim": "the Genesis Mission (2025-11-24) unites 15 federal agencies and the national labs on 'SI-for-Science'; July 2025 orders sped data-center permitting and AI stack exports",
+    "url": "https://www.si.gov/",
+    "date": "2025-11-24",
+    "confidence": "high"
+   },
+   {
+    "claim": "Stargate announced at the White House on 2025-01-21 with up to $500 billion pledged",
+    "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+    "date": "2025-01-21",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "America is in a race for Super Intelligence. We intend to win it.",
+    "who": "US federal government (si.gov)",
+    "where": "si.gov home page",
+    "url": "https://www.si.gov/",
+    "date": "2026-11-02"
+   },
+   {
+    "text": "Whoever builds the largest SI ecosystem will set the global standards and reap the economic and security rewards.",
+    "who": "US federal government (si.gov)",
+    "where": "si.gov, 'Why it matters'",
+    "url": "https://www.si.gov/",
+    "date": "2026-11-02"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "AI to SI",
+    "how": "the government swapped one letter in its domain: artificial became super"
+   },
+   {
+    "play": "the Genesis Mission",
+    "how": "a science program named after the first book of the Bible: in the beginning was the model"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They changed the A to an S and called it a race",
+    "readings": [
+     "ai.gov becoming si.gov",
+     "a rebrand"
+    ]
+   },
+   {
+    "line": "In the beginning was the Genesis Mission",
+    "readings": [
+     "the 2025 order",
+     "Genesis 1:1"
+    ]
+   },
+   {
+    "line": "Most of the money, fewer of the newcomers",
+    "readings": [
+     "AI Index investment vs talent inflow",
+     "a gated city"
+    ]
+   }
+  ],
+  "visuals": [
+   "the si.gov page with the word 'race' in large type",
+   "a map of US data centers as glowing dots",
+   "the Capitol dome reflected in a server's glass door"
+  ],
+  "lexicon": [
+   {
+    "id": "race",
+    "how": "the government's own word"
+   },
+   {
+    "id": "asi",
+    "how": "the government now writes 'Super Intelligence'"
+   },
+   {
+    "id": "datacenter",
+    "how": "5,427 of them"
+   },
+   {
+    "id": "frontier",
+    "how": "home of most frontier labs"
+   },
+   {
+    "id": "manhattan-project",
+    "how": "Genesis Mission and Stargate are read as AI Manhattan Projects"
+   },
+   {
+    "id": "power",
+    "how": "AI as state power"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "located-in"
+   },
+   {
+    "id": "anthropic",
+    "rel": "located-in"
+   },
+   {
+    "id": "us-caisi",
+    "rel": "regulates"
+   },
+   {
+    "id": "export-controls",
+    "rel": "regulates"
+   },
+   {
+    "id": "stargate",
+    "rel": "located-in"
+   },
+   {
+    "id": "china",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet",
+   "planet"
+  ],
+  "registers": [
+   "smug",
+   "defiant"
+  ],
+  "risk": "staleness: policy and site wording change with administrations; date every quote from si.gov",
+  "notes": "One letter changed on a government domain (ai.gov to si.gov) is a whole verse: the state stopped saying 'artificial' and started saying 'super'."
+ },
+ {
+  "id": "argentina",
+  "what": {
+   "line": "Argentina: Milei's libertarian government sent Congress a company-law bill creating the 'Sociedad Automatizada', a company run by algorithms or AI agents with no human staff; the Senate has not passed it and the government has since agreed to require a human or legal person responsible",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Argentina",
+   "Sociedad Automatizada",
+   "Patagonia",
+   "Sturzenegger"
+  ],
+  "aka": [
+   "Argentine Republic",
+   "the Ley de Sociedades reform",
+   "Stargate Argentina"
+  ],
+  "receipts": [
+   {
+    "claim": "the executive (Milei, Adorni, Mahiques) sent the Senate a new Ley General de Sociedades to replace Law 19.550; it defines a company that runs its business through autonomous algorithmic systems or AI agents, with no employees for ordinary operation, as a 'Sociedad Automatizada', liable with its own assets for damage its AI causes; it also creates DAOs",
+    "url": "https://www.parlamentario.com/2026/06/01/el-gobierno-envio-al-senado-el-proyecto-de-una-nueva-ley-de-sociedades/",
+    "date": "2026-05-29",
+    "confidence": "high"
+   },
+   {
+    "claim": "this is a bill still in committee; the legal person is the company, and no text grants personhood to an AI itself; in committee it was Senate expediente PE 193/2026 (message 187/2026) per a committee transcript",
+    "url": "https://www.parlamentario.com/2026/06/01/el-gobierno-envio-al-senado-el-proyecto-de-una-nueva-ley-de-sociedades/",
+    "date": "2026-06-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "on 2026-08-19 Patricia Bullrich announced the government would accept a physical or legal person responsible for the autonomous companies, so they would no longer be 100% AI-run",
+    "url": "https://www.lanacion.com.ar/politica/cambios-en-el-senado-el-gobierno-cede-y-ya-no-promueve-las-sociedades-automatizadas-sin-nid19082026/",
+    "date": "2026-08-19",
+    "confidence": "high"
+   },
+   {
+    "claim": "more than thirty civil organizations asked the Senate to delete article 14 (Sociedad Automatizada) and articles 258-265 (DAOs) and to hold a public hearing; the Unión Industrial Argentina also objected",
+    "url": "https://www.infobae.com/politica/2026/09/11/organizaciones-civiles-le-pidieron-a-patricia-bullrich-eliminar-las-sociedades-automatizadas-del-proyecto-que-impulsa-el-gobierno/",
+    "date": "2026-09-11",
+    "confidence": "high"
+   },
+   {
+    "claim": "as of 2026-10-04 the bill was back on the Senate agenda after a stand-by, still without a committee report (dictamen); no later status verified",
+    "url": "https://informedigital.com.ar/bullrich-busca-ordenar-el-senado-en-el-tramo-final-del-ano/",
+    "date": "2026-10-04",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Milei's government created an 'Artificial Intelligence Applied to Security Unit' to 'predict future crimes' (July 2024); Stargate Argentina (Oct 2025 letter of intent, up to $25 billion) showed no progress by May 2026",
+    "url": "https://www.theguardian.com/world/article/2024/aug/01/argentina-ai-predicting-future-crimes-citizen-rights",
+    "date": "2024-08-01",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "La sociedad de cualquiera de los tipos previstos en esta ley que desarrolle su objeto social, mediante sistemas algorítmicos autónomos o agentes de inteligencia artificial, sin requerir trabajadores en relación de dependencia ni recursos humanos para su operación ordinaria será considerada una Sociedad Automatizada",
+    "who": "Argentine executive bill, Ley General de Sociedades (art. 14), as quoted by Parlamentario",
+    "where": "Parlamentario.com",
+    "url": "https://www.parlamentario.com/2026/06/01/el-gobierno-envio-al-senado-el-proyecto-de-una-nueva-ley-de-sociedades/",
+    "date": "2026-06-01"
+   },
+   {
+    "text": "lo que estamos haciendo es generarle un control concreto, físico, humano",
+    "who": "Patricia Bullrich, head of the ruling bloc in the Senate",
+    "where": "La Nación",
+    "url": "https://www.lanacion.com.ar/politica/cambios-en-el-senado-el-gobierno-cede-y-ya-no-promueve-las-sociedades-automatizadas-sin-nid19082026/",
+    "date": "2026-08-19"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Sociedad Automatizada",
+    "how": "'sociedad' means both 'company' and 'society': an automated society"
+   },
+   {
+    "play": "El Golem societario",
+    "how": "a Spanish-language critic's headline: the corporate golem, clay that runs a business"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "A company with no one inside it, still answering for damages",
+    "readings": [
+     "the Sociedad Automatizada",
+     "a haunted house"
+    ]
+   },
+   {
+    "line": "An automated society with a human on the hook",
+    "readings": [
+     "the August concession",
+     "a puppet with a handler"
+    ]
+   },
+   {
+    "line": "Twenty-five billion promised to the Patagonian wind",
+    "readings": [
+     "Stargate Argentina's stalled LOI",
+     "a Patagonian gale"
+    ]
+   }
+  ],
+  "visuals": [
+   "the sky-blue and white flag with the Sun of May",
+   "an empty office with a logo on the door and a single server humming",
+   "the Senate chamber in Buenos Aires",
+   "Patagonian steppe with wind turbines and a lone data-center shell"
+  ],
+  "lexicon": [
+   {
+    "id": "agent",
+    "how": "the bill names 'agentes de inteligencia artificial' as operators"
+   },
+   {
+    "id": "autonomy",
+    "how": "companies run by autonomous systems"
+   },
+   {
+    "id": "golem",
+    "how": "critics called it 'el golem societario'"
+   },
+   {
+    "id": "human-in-the-loop",
+    "how": "the August concession put a human back in the loop"
+   },
+   {
+    "id": "automation",
+    "how": "a company with no staff"
+   },
+   {
+    "id": "accelerationism",
+    "how": "a libertarian bet on deregulated AI"
+   }
+  ],
+  "links": [
+   {
+    "id": "stargate",
+    "rel": "same-family"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "european-union",
+    "rel": "rival"
+   },
+   {
+    "id": "united-states",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "state"
+  ],
+  "registers": [
+   "funny",
+   "defiant"
+  ],
+  "risk": "contested facts and staleness: it is a bill under debate, already amended in principle; nothing grants AI personhood; Idi's 'AI-personhood' memory most likely refers to this bill (no court ruling or enacted law found); re-check status before use",
+  "notes": "The pun does the work: 'sociedad automatizada' reads as 'automated company' and 'automated society' at once, and the bill's own fix (a human on the hook) is the second verse."
+ },
+ {
+  "id": "uae",
+  "what": {
+   "line": "United Arab Emirates: the Gulf state that appointed the world's first AI minister (2017), funds AI through G42 and MGX, and hosts Stargate UAE, a giant US-chip campus in Abu Dhabi",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Abu Dhabi",
+   "Emirates",
+   "G42",
+   "Falcon"
+  ],
+  "aka": [
+   "UAE",
+   "Emirati"
+  ],
+  "receipts": [
+   {
+    "claim": "Omar Sultan Al Olama became the world's first Minister of State for Artificial Intelligence on 2017-10-20",
+    "url": "https://en.wikipedia.org/wiki/Omar_Sultan_Al_Olama",
+    "date": "2017-10-20",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Microsoft invested $1.5 billion in Abu Dhabi's G42 (April 2024) after G42 said it divested from China",
+    "url": "https://en.wikipedia.org/wiki/G42_(company)",
+    "date": "2024-04-16",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Stargate UAE announced 2025-05-22 with OpenAI, Oracle, Nvidia, SoftBank and Cisco; Commerce authorized exports of about 35,000 Nvidia Blackwell-equivalent chips to G42 in November 2025",
+    "url": "https://en.wikipedia.org/wiki/G42_(company)",
+    "date": "2025-11-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "AI Index 2026: generative-AI adoption at 64% in the UAE, versus 28.3% in the US; AI engineering skills growing fastest there",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-01",
+    "confidence": "high"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "G42",
+    "how": "42 is the Hitchhiker's Guide answer to life, the universe and everything"
+   },
+   {
+    "play": "Falcon",
+    "how": "the state lab's model shares its name with the national bird of hunting"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "The first country to give a minister to the machine",
+    "readings": [
+     "the UAE's AI minister",
+     "a royal court"
+    ]
+   },
+   {
+    "line": "Oil money buying a mind in the desert",
+    "readings": [
+     "UAE AI investment",
+     "a mirage"
+    ]
+   },
+   {
+    "line": "Forty-two was the answer. What was the question?",
+    "readings": [
+     "G42's name",
+     "the Hitchhiker's Guide"
+    ]
+   }
+  ],
+  "visuals": [
+   "a data-center campus rising from desert sand at sunset",
+   "a falcon on a gloved hand beside a server rack",
+   "the UAE flag of red, green, white and black"
+  ],
+  "lexicon": [
+   {
+    "id": "sovereign",
+    "how": "the model case of sovereign AI"
+   },
+   {
+    "id": "datacenter",
+    "how": "Stargate UAE"
+   },
+   {
+    "id": "chip",
+    "how": "access to US chips was the deal"
+   },
+   {
+    "id": "power",
+    "how": "energy wealth turned into compute"
+   }
+  ],
+  "links": [
+   {
+    "id": "stargate",
+    "rel": "located-in"
+   },
+   {
+    "id": "openai",
+    "rel": "invested-in"
+   },
+   {
+    "id": "microsoft",
+    "rel": "invested-in"
+   },
+   {
+    "id": "nvidia",
+    "rel": "same-family"
+   },
+   {
+    "id": "hitchhikers",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "awe",
+   "smug"
+  ],
+  "risk": "the 'hitchhikers' link is a name echo only; do not claim G42 was named after the book unless sourced; chip export terms change",
+  "notes": "Desert, falcon, and a field of servers: the UAE gives the most cinematic 'sovereign AI' frame on the map."
+ },
+ {
+  "id": "european-union",
+  "what": {
+   "line": "European Union: the rule-maker of AI (the AI Act) trying to become an 'AI Continent' with public AI factories and gigafactories, while most frontier labs sit in the US and China",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Brussels",
+   "European Union",
+   "Europe"
+  ],
+  "aka": [
+   "EU",
+   "the AI Continent"
+  ],
+  "receipts": [
+   {
+    "claim": "the AI Act entered into force 2024-08-01; the AI Omnibus (in force 2026-07-27) delayed high-risk rules to December 2027 and August 2028",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "date": "2026-07-27",
+    "confidence": "high"
+   },
+   {
+    "claim": "von der Leyen launched InvestAI, a EUR 200 billion initiative including EUR 20 billion for AI gigafactories, at the Paris AI Action Summit",
+    "url": "https://en.wikipedia.org/wiki/AI_Action_Summit",
+    "date": "2025-02-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "19 AI Factories and 13 Antennas being set up; a call for up to seven AI Gigafactories with 100,000+ AI processors each",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
+    "date": "2026-11-02",
+    "confidence": "high"
+   },
+   {
+    "claim": "AI Index 2025: in 2024 Europe produced 3 notable AI models against the US's 40 and China's 15",
+    "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
+    "date": "2025-04-07",
+    "confidence": "high"
+   },
+   {
+    "claim": "at the Paris summit 58 countries signed a statement on inclusive and sustainable AI; the US and UK refused",
+    "url": "https://en.wikipedia.org/wiki/AI_Action_Summit",
+    "date": "2025-02-11",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [],
+  "name_play": [
+   {
+    "play": "the Brussels effect",
+    "how": "the EU exports regulation the way Silicon Valley exports apps"
+   },
+   {
+    "play": "AI Continent",
+    "how": "the Commission's own slogan: a continent as a product name"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Forty, fifteen, three: count the models, then the rules",
+    "readings": [
+     "AI Index 2024 model counts",
+     "a scoreboard"
+    ]
+   },
+   {
+    "line": "They wrote the rulebook for a game played elsewhere",
+    "readings": [
+     "the EU and AI regulation",
+     "a referee"
+    ]
+   },
+   {
+    "line": "Gigafactories of thought, built by committee",
+    "readings": [
+     "EU AI gigafactories",
+     "a bureaucracy"
+    ]
+   }
+  ],
+  "visuals": [
+   "the circle of twelve gold stars on blue",
+   "the Berlaymont building in Brussels",
+   "the four-color risk pyramid",
+   "a stack of regulation binders beside a single GPU"
+  ],
+  "lexicon": [
+   {
+    "id": "guardrails",
+    "how": "regulation as its main export"
+   },
+   {
+    "id": "sovereign",
+    "how": "'technological sovereignty' is the stated goal"
+   },
+   {
+    "id": "datacenter",
+    "how": "AI factories and gigafactories"
+   },
+   {
+    "id": "pause",
+    "how": "the AI Omnibus paused its own deadlines"
+   }
+  ],
+  "links": [
+   {
+    "id": "eu-ai-act",
+    "rel": "regulates"
+   },
+   {
+    "id": "mistral-ai",
+    "rel": "located-in"
+   },
+   {
+    "id": "asml",
+    "rel": "located-in"
+   },
+   {
+    "id": "united-states",
+    "rel": "rival"
+   },
+   {
+    "id": "china",
+    "rel": "rival"
+   }
+  ],
+  "stakes": [
+   "state",
+   "wallet"
+  ],
+  "registers": [
+   "smug",
+   "hopeful"
+  ],
+  "risk": "staleness: deadlines and funding programs move; avoid national stereotypes about European speed",
+  "notes": "The 40-15-3 model count is a three-number chorus that says the whole story of 2024."
+ },
+ {
+  "id": "silicon-valley",
+  "what": {
+   "line": "Silicon Valley and San Francisco: the Bay Area where OpenAI, Anthropic, Google DeepMind's US arm, Nvidia and xAI sit, and where SF's Hayes Valley was nicknamed 'Cerebral Valley' for its AI hacker houses",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Silicon Valley",
+   "San Francisco",
+   "Cerebral Valley",
+   "Bay Area"
+  ],
+  "aka": [
+   "SF",
+   "the Valley",
+   "Hayes Valley"
+  ],
+  "receipts": [
+   {
+    "claim": "'Cerebral Valley' names the cluster of generative-AI startups and hacker houses in SF's Hayes Valley, popularized by investor Amber Yang in January 2023",
+    "url": "https://en.wikipedia.org/wiki/Hayes_Valley,_San_Francisco",
+    "date": "2023-01-01",
+    "confidence": "medium"
+   },
+   {
+    "claim": "California's SB 1047 (frontier AI safety bill) passed the legislature but was vetoed by Governor Newsom on 2024-09-29",
+    "url": "https://en.wikipedia.org/wiki/Safe_and_Secure_Innovation_for_Frontier_Artificial_Intelligence_Models_Act",
+    "date": "2024-09-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "its successor SB 53 (Transparency in Frontier AI Act) became law in late September 2025, the first US law aimed at catastrophic AI risk, with whistleblower protections",
+    "url": "https://en.wikipedia.org/wiki/SB_53",
+    "date": "2025-09-29",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the valley's name comes from silicon chipmaking: Shockley Semiconductor (1956), the 'traitorous eight' at Fairchild, then Intel",
+    "url": "https://en.wikipedia.org/wiki/Silicon_Valley",
+    "date": "1957-10-01",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "You can see the future first in San Francisco.",
+    "who": "Leopold Aschenbrenner",
+    "where": "Situational Awareness, introduction",
+    "url": "https://situational-awareness.ai/",
+    "date": "2024-06-04"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Cerebral Valley",
+    "how": "silicon became cerebral: the valley swapped sand for brains"
+   },
+   {
+    "play": "the Valley",
+    "how": "the uncanny valley and Silicon Valley in one word"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "From silicon to cerebral, same valley, new god",
+    "readings": [
+     "Silicon Valley to Cerebral Valley",
+     "a religious conversion"
+    ]
+   },
+   {
+    "line": "You can see the future first in San Francisco",
+    "readings": [
+     "Aschenbrenner's opening line",
+     "fog lifting"
+    ]
+   },
+   {
+    "line": "Eight traitors built the valley. Who builds the next?",
+    "readings": [
+     "Fairchild's 'traitorous eight'",
+     "AI lab defections"
+    ]
+   }
+  ],
+  "visuals": [
+   "the Golden Gate in fog",
+   "a Victorian 'hacker house' with whiteboards in every window",
+   "white self-driving cars on a steep SF street",
+   "billboards for AI startups along Highway 101"
+  ],
+  "lexicon": [
+   {
+    "id": "hype",
+    "how": "the hype capital"
+   },
+   {
+    "id": "accelerationism",
+    "how": "home of e/acc"
+   },
+   {
+    "id": "frontier",
+    "how": "most frontier labs are here"
+   },
+   {
+    "id": "bubble",
+    "how": "the bubble's epicenter"
+   },
+   {
+    "id": "vibe",
+    "how": "the scene's 'vibes' vocabulary"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "located-in"
+   },
+   {
+    "id": "anthropic",
+    "rel": "located-in"
+   },
+   {
+    "id": "nvidia",
+    "rel": "located-in"
+   },
+   {
+    "id": "situational-awareness",
+    "rel": "depicts"
+   },
+   {
+    "id": "united-states",
+    "rel": "located-in"
+   }
+  ],
+  "stakes": [
+   "wallet",
+   "jobs"
+  ],
+  "registers": [
+   "smug",
+   "funny"
+  ],
+  "risk": "SB 53 signing date differs by source (25 or 29 September 2025); keep to 'late September 2025'",
+  "notes": "The rename from Silicon to Cerebral Valley is a one-word history of computing: the material became the mind."
+ },
+ {
+  "id": "israel",
+  "what": {
+   "line": "Israel: a chip and AI R&D hub (Nvidia's biggest site outside the US, Mobileye, an SSI office) and the place where AI-assisted targeting in war (Lavender, the Gospel) became public",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "Israel",
+   "Tel Aviv",
+   "Lavender",
+   "Mobileye"
+  ],
+  "aka": [
+   "Startup Nation",
+   "Israeli"
+  ],
+  "receipts": [
+   {
+    "claim": "Nvidia bought Israel's Mellanox for $6.9 billion (2019), which led to the 2023 'Israel-1' AI supercomputer",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "date": "2019-03-11",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Nvidia announced a Kiryat Tivon R&D campus for 10,000+ people, construction from 2027, operations around 2031",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "date": "2025-12-18",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Intel bought Mobileye (driver-assist and self-driving AI, born at the Hebrew University) for $15.3 billion in 2017",
+    "url": "https://en.wikipedia.org/wiki/Mobileye",
+    "date": "2017-03-13",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Ilya Sutskever's Safe Superintelligence is split between Palo Alto and Tel Aviv",
+    "url": "https://en.wikipedia.org/wiki/Safe_Superintelligence_Inc.",
+    "date": "2024-06-19",
+    "confidence": "medium"
+   },
+   {
+    "claim": "+972 Magazine and Local Call reported the IDF's 'Lavender' system listed as many as 37,000 Palestinian men as suspected militants early in the Gaza war; the IDF disputes the characterization",
+    "url": "https://en.wikipedia.org/wiki/AI-assisted_targeting_in_the_Gaza_Strip",
+    "date": "2024-04-03",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "The machine did it coldly",
+    "who": "an Israeli intelligence officer who used Lavender (anonymous, from testimony first reported by +972 Magazine)",
+    "where": "The Guardian (McKernan and Davies), quoted in the headline and body",
+    "url": "https://www.theguardian.com/world/2024/apr/03/israel-gaza-ai-database-hamas-airstrikes",
+    "date": "2024-04-03"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Lavender",
+    "how": "a soothing flower name on a targeting database: the gentlest word on the harshest system"
+   },
+   {
+    "play": "the Gospel",
+    "how": "a targeting tool named for scripture: the machine's word as holy writ"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "They named the list after a flower",
+    "readings": [
+     "the Lavender system",
+     "a funeral wreath"
+    ]
+   },
+   {
+    "line": "The machine did it coldly",
+    "readings": [
+     "the Guardian source",
+     "any automated decision"
+    ]
+   },
+   {
+    "line": "Ten thousand engineers on a hill above the valley",
+    "readings": [
+     "Nvidia's Kiryat Tivon campus",
+     "a city on a hill"
+    ]
+   }
+  ],
+  "visuals": [
+   "a sprig of lavender laid on a server rack",
+   "the Tel Aviv skyline at dusk",
+   "a car windshield camera tracing lane lines",
+   "a hillside campus model with green roofs"
+  ],
+  "lexicon": [
+   {
+    "id": "human-in-the-loop",
+    "how": "the Lavender debate is about rubber-stamp human review"
+   },
+   {
+    "id": "label",
+    "how": "a system that labels people"
+   },
+   {
+    "id": "chip",
+    "how": "a chip-design hub (Mellanox, Intel)"
+   },
+   {
+    "id": "automation",
+    "how": "automated target generation"
+   },
+   {
+    "id": "error",
+    "how": "a reported 90% accuracy means 1 in 10 wrong"
+   }
+  ],
+  "links": [
+   {
+    "id": "nvidia",
+    "rel": "located-in"
+   },
+   {
+    "id": "ssi",
+    "rel": "located-in"
+   },
+   {
+    "id": "intel",
+    "rel": "invested-in"
+   },
+   {
+    "id": "ilya-sutskever",
+    "rel": "same-family"
+   },
+   {
+    "id": "palantir",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "body",
+   "state",
+   "jobs"
+  ],
+  "registers": [
+   "ominous",
+   "sad"
+  ],
+  "risk": "highly contested and painful: the Lavender reporting rests on anonymous sources and is disputed by the IDF; no gag use, no likenesses, attribute every claim; the 'palantir' link is thematic (AI in defense) and claims no contract",
+  "notes": "The flower name on a targeting list is the strongest single image of AI in war, and it needs the most care of any card in this batch."
+ },
+ {
+  "id": "india",
+  "what": {
+   "line": "India: a large AI talent pool and market, running the state IndiaAI Mission (subsidized GPUs, Indic models) and host of the 2026 AI Impact Summit, the first in the Global South",
+   "asof": "2026-11-02"
+  },
+  "forms": [
+   "India",
+   "Bengaluru",
+   "New Delhi",
+   "IndiaAI"
+  ],
+  "aka": [
+   "Bharat",
+   "Indian"
+  ],
+  "receipts": [
+   {
+    "claim": "the cabinet approved the IndiaAI Mission with INR 10,371.92 crore (about $1.1 billion), aiming at over 10,000 GPUs through public-private partnerships",
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2012375",
+    "date": "2024-03-07",
+    "confidence": "high"
+   },
+   {
+    "claim": "the IndiaAI compute portal offers GPUs at under INR 100 an hour after a 40% subsidy, including H100, H200 and AMD MI300 chips",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_India",
+    "date": "2025-01-30",
+    "confidence": "medium"
+   },
+   {
+    "claim": "the India AI Impact Summit ran 16-21 February 2026 at Bharat Mandapam, New Delhi: fourth in the series after Bletchley, Seoul and Paris, first hosted by a Global South nation; next is Geneva 2027",
+    "url": "https://en.wikipedia.org/wiki/AI_Impact_Summit",
+    "date": "2026-02-16",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Indian generative-AI startups include Sarvam AI and Krutrim in Bengaluru",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_India",
+    "date": "2026-11-02",
+    "confidence": "medium"
+   }
+  ],
+  "quotes": [
+   {
+    "text": "AI is going to be the kinetic enabler for India's digital economy.",
+    "who": "Rajeev Chandrasekhar, then Minister of State for Electronics and IT",
+    "where": "PIB press release on the IndiaAI Mission",
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2012375",
+    "date": "2024-03-07"
+   }
+  ],
+  "name_play": [
+   {
+    "play": "Safety, Action, Impact",
+    "how": "the summit names went Bletchley 'Safety' to Paris 'Action' to Delhi 'Impact': the word drifted with each host"
+   },
+   {
+    "play": "Bharat",
+    "how": "India's own name for itself, used in 'BharatGPT' and 'BharatGen' model brands"
+   }
+  ],
+  "pivots": [
+   {
+    "line": "Safety, then action, then impact. Nobody said stop.",
+    "readings": [
+     "the AI summit series names",
+     "a film's three acts"
+    ]
+   },
+   {
+    "line": "A hundred rupees an hour for a piece of the future",
+    "readings": [
+     "IndiaAI subsidized GPUs",
+     "a rickshaw fare"
+    ]
+   }
+  ],
+  "visuals": [
+   "the tricolor flag",
+   "Bharat Mandapam's curved summit hall",
+   "a Bengaluru tech-park skyline",
+   "a GPU price tag in rupees"
+  ],
+  "lexicon": [
+   {
+    "id": "sovereign",
+    "how": "IndiaAI is a sovereign-AI program"
+   },
+   {
+    "id": "compute",
+    "how": "the mission buys shared compute"
+   },
+   {
+    "id": "babel",
+    "how": "models for 22 scheduled languages"
+   },
+   {
+    "id": "token",
+    "how": "Indic scripts cost more tokens per word"
+   }
+  ],
+  "links": [
+   {
+    "id": "openai",
+    "rel": "same-family"
+   },
+   {
+    "id": "google",
+    "rel": "same-family"
+   },
+   {
+    "id": "sundar-pichai",
+    "rel": "same-family"
+   },
+   {
+    "id": "uk-aisi",
+    "rel": "same-family"
+   }
+  ],
+  "stakes": [
+   "jobs",
+   "state"
+  ],
+  "registers": [
+   "hopeful",
+   "defiant"
+  ],
+  "risk": "GPU counts and summit outcomes vary by source; avoid stereotypes about Indian tech labor",
+  "notes": "The summit-name drift (Safety, Action, Impact) is a three-word history of how the world's mood on AI changed between 2023 and 2026."
+ }
+]

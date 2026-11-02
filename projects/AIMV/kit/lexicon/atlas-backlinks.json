@@ -1,0 +1,1184 @@
+{
+ "grok": [
+  "elon-musk",
+  "xai"
+ ],
+ "pause": [
+  "elon-musk",
+  "european-union",
+  "miri",
+  "pause-letter",
+  "the-creator",
+  "yoshua-bengio"
+ ],
+ "race": [
+  "ai-2027",
+  "alexandr-wang",
+  "amd",
+  "cais",
+  "china",
+  "daniel-kokotajlo",
+  "deepseek",
+  "deepseek-moment",
+  "elon-musk",
+  "export-controls",
+  "john-von-neumann",
+  "liang-wenfeng",
+  "lisa-su",
+  "pantheon",
+  "pause-letter",
+  "person-of-interest",
+  "situational-awareness",
+  "the-creator",
+  "united-states",
+  "us-caisi",
+  "wargames"
+ ],
+ "persona": [
+  "ai-spielberg",
+  "alan-turing",
+  "black-mirror",
+  "character-ai",
+  "elevenlabs",
+  "elon-musk",
+  "her",
+  "hitchhikers",
+  "interstellar-tars",
+  "klara-and-the-sun",
+  "m3gan",
+  "mark-zuckerberg",
+  "microsoft",
+  "minimax",
+  "mustafa-suleyman",
+  "nier-automata",
+  "openrouter",
+  "portal-glados",
+  "suno",
+  "tron",
+  "westworld",
+  "xai"
+ ],
+ "cluster": [
+  "amazon",
+  "coreweave",
+  "elon-musk",
+  "leopold-aschenbrenner",
+  "situational-awareness",
+  "xai"
+ ],
+ "p-doom": [
+  "cais",
+  "eliezer-yudkowsky",
+  "elon-musk",
+  "geoffrey-hinton",
+  "miri",
+  "no-mouth",
+  "pause-letter"
+ ],
+ "datacenter": [
+  "amazon",
+  "coreweave",
+  "dario-amodei",
+  "european-union",
+  "jensen-huang",
+  "larry-ellison",
+  "machines-of-loving-grace",
+  "masayoshi-son",
+  "meta",
+  "oracle-corp",
+  "pantheon",
+  "softbank",
+  "stargate",
+  "uae",
+  "united-states"
+ ],
+ "constitution": [
+  "anthropic",
+  "asimov-robots",
+  "daniela-amodei",
+  "dario-amodei",
+  "robocop"
+ ],
+ "opus": [
+  "anthropic",
+  "dario-amodei"
+ ],
+ "automation": [
+  "amazon",
+  "argentina",
+  "boston-dynamics",
+  "dario-amodei",
+  "israel",
+  "jeff-bezos",
+  "lee-sedol",
+  "rur",
+  "tesla",
+  "wall-e"
+ ],
+ "safety": [
+  "anthropic",
+  "cais",
+  "daniela-amodei",
+  "dario-amodei",
+  "eu-ai-act",
+  "jan-leike",
+  "pause-letter",
+  "ssi",
+  "uk-aisi",
+  "us-caisi",
+  "yoshua-bengio"
+ ],
+ "scaling": [
+  "alexandr-wang",
+  "daniela-amodei",
+  "epoch-ai",
+  "gary-marcus",
+  "ilya-sutskever",
+  "scale-ai",
+  "situational-awareness"
+ ],
+ "move-37": [
+  "demis-hassabis",
+  "google-deepmind",
+  "ibm",
+  "lee-sedol"
+ ],
+ "self-play": [
+  "demis-hassabis",
+  "google-deepmind",
+  "lee-sedol",
+  "wargames"
+ ],
+ "genie": [
+  "demis-hassabis",
+  "google-deepmind",
+  "mustafa-suleyman"
+ ],
+ "gemini": [
+  "demis-hassabis",
+  "google",
+  "google-deepmind",
+  "sundar-pichai"
+ ],
+ "agi": [
+  "arc-prize",
+  "daniel-kokotajlo",
+  "demis-hassabis",
+  "leopold-aschenbrenner",
+  "openai",
+  "timnit-gebru",
+  "yann-lecun"
+ ],
+ "reinforcement-learning": [
+  "demis-hassabis",
+  "google-deepmind",
+  "lee-sedol",
+  "liang-wenfeng",
+  "richard-sutton",
+  "turing-award"
+ ],
+ "feed": [
+  "arxiv",
+  "jeff-bezos",
+  "larry-ellison",
+  "mark-zuckerberg",
+  "meta"
+ ],
+ "open-weights": [
+  "alibaba-qwen",
+  "china",
+  "deepseek",
+  "deepseek-moment",
+  "hugging-face",
+  "liang-wenfeng",
+  "mark-zuckerberg",
+  "meta",
+  "minimax",
+  "mistral-ai",
+  "moonshot",
+  "openai",
+  "openrouter",
+  "stability-ai",
+  "thinking-machines",
+  "yann-lecun"
+ ],
+ "asi": [
+  "alexandr-wang",
+  "ilya-sutskever",
+  "mark-zuckerberg",
+  "masayoshi-son",
+  "neuromancer",
+  "nick-bostrom",
+  "no-mouth",
+  "ssi",
+  "system-shock",
+  "the-culture",
+  "united-states"
+ ],
+ "compute": [
+  "amd",
+  "coreweave",
+  "epoch-ai",
+  "export-controls",
+  "garry-kasparov",
+  "hitchhikers",
+  "india",
+  "jensen-huang",
+  "larry-ellison",
+  "leopold-aschenbrenner",
+  "lisa-su",
+  "mark-zuckerberg",
+  "masayoshi-son",
+  "nvidia",
+  "oracle-corp",
+  "richard-sutton",
+  "satya-nadella",
+  "stargate",
+  "taiwan"
+ ],
+ "chip": [
+  "amazon",
+  "amd",
+  "asml",
+  "china",
+  "export-controls",
+  "intel",
+  "israel",
+  "jensen-huang",
+  "liang-wenfeng",
+  "lisa-su",
+  "marc-andreessen",
+  "nvidia",
+  "samsung",
+  "taiwan",
+  "tsmc",
+  "uae"
+ ],
+ "bubble": [
+  "coreweave",
+  "gary-marcus",
+  "jeff-bezos",
+  "jensen-huang",
+  "larry-ellison",
+  "masayoshi-son",
+  "nvidia",
+  "oracle-corp",
+  "silicon-valley",
+  "softbank",
+  "stargate"
+ ],
+ "moores-law": [
+  "asml",
+  "intel",
+  "jensen-huang",
+  "ray-kurzweil",
+  "taiwan",
+  "tsmc"
+ ],
+ "assistant": [
+  "alien-mother",
+  "amazon",
+  "apple-inc",
+  "big-hero-6",
+  "chatgpt-launch",
+  "halo-cortana",
+  "her",
+  "ibm",
+  "iron-man-jarvis",
+  "jeff-bezos",
+  "klara-and-the-sun",
+  "m3gan",
+  "microsoft",
+  "openai",
+  "star-wars-droids"
+ ],
+ "prometheus": [
+  "jeff-bezos",
+  "sundar-pichai"
+ ],
+ "singularity": [
+  "john-von-neumann",
+  "pantheon",
+  "ray-kurzweil",
+  "sam-altman",
+  "transcendence"
+ ],
+ "takeoff": [
+  "ai-2027",
+  "colossus",
+  "daniel-kokotajlo",
+  "leopold-aschenbrenner",
+  "machines-of-loving-grace",
+  "sam-altman",
+  "ssi",
+  "terminator"
+ ],
+ "sycophancy": [
+  "character-ai",
+  "her",
+  "interstellar-tars",
+  "lmarena",
+  "sam-altman"
+ ],
+ "reward-hacking": [
+  "m3gan",
+  "sam-altman"
+ ],
+ "gpt": [
+  "chatgpt-launch",
+  "openai",
+  "sam-altman"
+ ],
+ "sandbox": [
+  "sam-altman"
+ ],
+ "copilot": [
+  "garry-kasparov",
+  "halo-cortana",
+  "iron-man-jarvis",
+  "microsoft",
+  "satya-nadella"
+ ],
+ "autocomplete": [
+  "satya-nadella"
+ ],
+ "moat": [
+  "amd",
+  "deepseek-moment",
+  "export-controls",
+  "google",
+  "liang-wenfeng",
+  "lisa-su",
+  "nvidia",
+  "peter-thiel",
+  "satya-nadella",
+  "taiwan"
+ ],
+ "containment": [
+  "colossus",
+  "ex-machina",
+  "mi-the-entity",
+  "mustafa-suleyman",
+  "neuromancer",
+  "no-mouth"
+ ],
+ "consciousness": [
+  "chappie",
+  "ex-machina",
+  "ghost-in-the-shell",
+  "ilya-sutskever",
+  "john-searle",
+  "mass-effect",
+  "mustafa-suleyman",
+  "nier-automata",
+  "soma",
+  "star-trek-data",
+  "westworld"
+ ],
+ "welfare": [
+  "ai-spielberg",
+  "black-mirror",
+  "character-ai",
+  "detroit-become-human",
+  "ghost-in-the-shell",
+  "mass-effect",
+  "murderbot",
+  "mustafa-suleyman",
+  "no-mouth",
+  "star-trek-data",
+  "star-wars-droids",
+  "the-creator"
+ ],
+ "hallucination": [
+  "anysphere",
+  "apple-inc",
+  "gary-marcus",
+  "google",
+  "neuromancer",
+  "perplexity",
+  "sundar-pichai"
+ ],
+ "hype": [
+  "chatgpt-launch",
+  "emily-bender",
+  "gary-marcus",
+  "ibm",
+  "machines-of-loving-grace",
+  "marc-andreessen",
+  "silicon-valley",
+  "softbank",
+  "sundar-pichai",
+  "tesla"
+ ],
+ "autonomy": [
+  "anduril",
+  "argentina",
+  "boston-dynamics",
+  "detroit-become-human",
+  "palmer-luckey",
+  "robocop",
+  "terminator",
+  "tesla"
+ ],
+ "swarm": [
+  "anduril",
+  "mass-effect",
+  "palmer-luckey",
+  "star-trek-data"
+ ],
+ "agent": [
+  "andrej-karpathy",
+  "anysphere",
+  "argentina",
+  "interstellar-tars",
+  "metr",
+  "mi-the-entity",
+  "murderbot",
+  "neuromancer",
+  "palmer-luckey",
+  "perplexity",
+  "tron",
+  "yoshua-bengio"
+ ],
+ "fork": [
+  "alibaba-qwen",
+  "greg-brockman",
+  "hugging-face",
+  "ilya-sutskever",
+  "mira-murati",
+  "palmer-luckey",
+  "soma",
+  "thinking-machines"
+ ],
+ "gradient-descent": [
+  "geoffrey-hinton"
+ ],
+ "neuron": [
+  "geoffrey-hinton",
+  "john-von-neumann",
+  "neuralink",
+  "neurips",
+  "nobel-2024"
+ ],
+ "winter": [
+  "dartmouth-1956",
+  "gary-marcus",
+  "geoffrey-hinton"
+ ],
+ "frankenstein": [
+  "geoffrey-hinton"
+ ],
+ "doomer": [
+  "eliezer-yudkowsky",
+  "marc-andreessen",
+  "miri",
+  "peter-thiel",
+  "terminator",
+  "transcendence",
+  "yann-lecun"
+ ],
+ "latent-space": [
+  "the-matrix",
+  "yann-lecun"
+ ],
+ "next-token": [
+  "emily-bender",
+  "yann-lecun"
+ ],
+ "oracle": [
+  "larry-ellison",
+  "mi-the-entity",
+  "oracle-corp",
+  "palantir",
+  "person-of-interest",
+  "peter-thiel",
+  "the-matrix",
+  "yoshua-bengio"
+ ],
+ "deception": [
+  "alien-mother",
+  "elevenlabs",
+  "eu-ai-act",
+  "ex-machina",
+  "garry-kasparov",
+  "hal-9000",
+  "mi-the-entity",
+  "yoshua-bengio"
+ ],
+ "alignment": [
+  "alien-mother",
+  "asimov-robots",
+  "hal-9000",
+  "halo-cortana",
+  "ilya-sutskever",
+  "iron-man-jarvis",
+  "jan-leike",
+  "miri",
+  "person-of-interest",
+  "stuart-russell",
+  "system-shock",
+  "the-culture"
+ ],
+ "vibe": [
+  "andrej-karpathy",
+  "anysphere",
+  "lmarena",
+  "silicon-valley"
+ ],
+ "slop": [
+  "andrej-karpathy",
+  "arxiv",
+  "midjourney"
+ ],
+ "weights": [
+  "andrej-karpathy"
+ ],
+ "prompt": [
+  "andrej-karpathy",
+  "chatgpt-launch",
+  "hitchhikers",
+  "midjourney"
+ ],
+ "teacher-student": [
+  "andrej-karpathy",
+  "chappie"
+ ],
+ "foom": [
+  "eliezer-yudkowsky",
+  "miri"
+ ],
+ "paperclip": [
+  "eliezer-yudkowsky",
+  "microsoft",
+  "miri",
+  "nick-bostrom"
+ ],
+ "orthogonality": [
+  "eliezer-yudkowsky",
+  "nick-bostrom"
+ ],
+ "shutdown": [
+  "big-hero-6",
+  "eliezer-yudkowsky",
+  "hal-9000",
+  "mass-effect",
+  "openai-board-crisis",
+  "terminator"
+ ],
+ "simulation": [
+  "dartmouth-1956",
+  "nick-bostrom",
+  "pantheon",
+  "soma",
+  "the-matrix",
+  "wargames",
+  "westworld"
+ ],
+ "instrumental-convergence": [
+  "hal-9000",
+  "nick-bostrom"
+ ],
+ "abundance": [
+  "machines-of-loving-grace",
+  "marc-andreessen",
+  "nick-bostrom",
+  "the-culture",
+  "wall-e"
+ ],
+ "exponentials": [
+  "john-von-neumann",
+  "leopold-aschenbrenner",
+  "masayoshi-son",
+  "metr",
+  "ray-kurzweil",
+  "situational-awareness"
+ ],
+ "upload": [
+  "black-mirror",
+  "chappie",
+  "halo-cortana",
+  "neuralink",
+  "pantheon",
+  "portal-glados",
+  "ray-kurzweil",
+  "soma",
+  "transcendence",
+  "tron"
+ ],
+ "turing-test": [
+  "ada-lovelace",
+  "alan-turing",
+  "blade-runner",
+  "detroit-become-human",
+  "ex-machina",
+  "john-searle",
+  "ray-kurzweil",
+  "thinking-machines",
+  "turing-award"
+ ],
+ "halt": [
+  "alan-turing"
+ ],
+ "decode": [
+  "alan-turing"
+ ],
+ "algorithm": [
+  "ada-lovelace",
+  "alan-turing",
+  "dartmouth-1956"
+ ],
+ "chinese-room": [
+  "john-searle"
+ ],
+ "stochastic-parrot": [
+  "emily-bender",
+  "john-searle",
+  "timnit-gebru"
+ ],
+ "black-box": [
+  "chris-olah",
+  "garry-kasparov",
+  "john-searle",
+  "palantir"
+ ],
+ "bitter-lesson": [
+  "imagenet",
+  "richard-sutton"
+ ],
+ "reward": [
+  "jan-leike",
+  "portal-glados",
+  "richard-sutton",
+  "turing-award"
+ ],
+ "goal": [
+  "richard-sutton"
+ ],
+ "label": [
+  "alexandr-wang",
+  "eu-ai-act",
+  "fei-fei-li",
+  "imagenet",
+  "israel",
+  "scale-ai",
+  "timnit-gebru"
+ ],
+ "ground-truth": [
+  "alexandr-wang",
+  "fei-fei-li",
+  "imagenet"
+ ],
+ "benchmark": [
+  "alexandr-wang",
+  "arc-prize",
+  "artificial-analysis",
+  "cais",
+  "epoch-ai",
+  "fei-fei-li",
+  "humanitys-last-exam",
+  "ibm",
+  "imagenet",
+  "meta",
+  "scale-ai"
+ ],
+ "pixel": [
+  "fei-fei-li",
+  "imagenet"
+ ],
+ "render": [
+  "fei-fei-li",
+  "midjourney",
+  "tron"
+ ],
+ "environment": [
+  "fei-fei-li"
+ ],
+ "training": [
+  "black-mirror",
+  "chappie",
+  "mira-murati",
+  "nier-automata"
+ ],
+ "frame": [
+  "mira-murati"
+ ],
+ "commit": [
+  "anysphere",
+  "greg-brockman"
+ ],
+ "terminal": [
+  "greg-brockman",
+  "wargames"
+ ],
+ "bug": [
+  "greg-brockman",
+  "robocop"
+ ],
+ "interpretability": [
+  "anthropic",
+  "chris-olah"
+ ],
+ "circuit": [
+  "chris-olah"
+ ],
+ "feature": [
+  "chris-olah"
+ ],
+ "superposition": [
+  "chris-olah"
+ ],
+ "steering": [
+  "chris-olah"
+ ],
+ "feedback": [
+  "big-hero-6",
+  "jan-leike"
+ ],
+ "preference": [
+  "jan-leike",
+  "lmarena",
+  "stuart-russell"
+ ],
+ "human-in-the-loop": [
+  "anduril",
+  "argentina",
+  "eu-ai-act",
+  "garry-kasparov",
+  "israel",
+  "jan-leike",
+  "person-of-interest",
+  "scale-ai",
+  "tesla",
+  "wargames"
+ ],
+ "rsi": [
+  "daniel-kokotajlo"
+ ],
+ "reasoning": [
+  "apple-inc",
+  "deepseek",
+  "deepseek-moment",
+  "gary-marcus",
+  "hitchhikers"
+ ],
+ "sampling": [
+  "emily-bender"
+ ],
+ "bias": [
+  "timnit-gebru"
+ ],
+ "eval": [
+  "artificial-analysis",
+  "humanitys-last-exam",
+  "metr",
+  "portal-glados",
+  "scale-ai",
+  "timnit-gebru",
+  "uk-aisi",
+  "us-caisi",
+  "wall-e"
+ ],
+ "objective": [
+  "alien-mother",
+  "m3gan",
+  "soma",
+  "stuart-russell",
+  "wall-e"
+ ],
+ "off-switch": [
+  "anduril",
+  "boston-dynamics",
+  "colossus",
+  "nobel-2024",
+  "openai-board-crisis",
+  "pause-letter",
+  "star-trek-data",
+  "stuart-russell",
+  "terminator",
+  "transcendence"
+ ],
+ "corrigibility": [
+  "hal-9000",
+  "murderbot",
+  "openai-board-crisis",
+  "stuart-russell",
+  "wall-e"
+ ],
+ "utility": [
+  "john-von-neumann",
+  "stuart-russell"
+ ],
+ "power": [
+  "klara-and-the-sun",
+  "lisa-su",
+  "openai-board-crisis",
+  "palantir",
+  "softbank",
+  "the-matrix",
+  "tsmc",
+  "uae",
+  "united-states"
+ ],
+ "distillation": [
+  "alibaba-qwen",
+  "china",
+  "deepseek",
+  "deepseek-moment",
+  "liang-wenfeng",
+  "minimax"
+ ],
+ "apocalypse": [
+  "cais",
+  "peter-thiel",
+  "rur",
+  "terminator"
+ ],
+ "accelerationism": [
+  "argentina",
+  "marc-andreessen",
+  "peter-thiel",
+  "silicon-valley"
+ ],
+ "capabilities": [
+  "lee-sedol"
+ ],
+ "creator": [
+  "ada-lovelace",
+  "blade-runner",
+  "ex-machina",
+  "iron-man-jarvis",
+  "rur",
+  "the-creator"
+ ],
+ "score": [
+  "ada-lovelace",
+  "artificial-analysis",
+  "humanitys-last-exam"
+ ],
+ "loop": [
+  "ada-lovelace",
+  "nier-automata",
+  "westworld"
+ ],
+ "manhattan-project": [
+  "john-von-neumann",
+  "situational-awareness",
+  "stargate",
+  "united-states"
+ ],
+ "release": [
+  "arxiv",
+  "chatgpt-launch",
+  "neurips",
+  "openai",
+  "robocop",
+  "ssi"
+ ],
+ "sonnet": [
+  "anthropic"
+ ],
+ "haiku": [
+  "anthropic"
+ ],
+ "transformer": [
+  "arxiv",
+  "google",
+  "hugging-face",
+  "neurips"
+ ],
+ "attention": [
+  "google",
+  "her"
+ ],
+ "leaderboard": [
+  "artificial-analysis",
+  "hugging-face",
+  "lmarena",
+  "meta",
+  "openrouter"
+ ],
+ "apple": [
+  "apple-inc"
+ ],
+ "flops": [
+  "epoch-ai",
+  "nvidia"
+ ],
+ "kernel": [
+  "nvidia"
+ ],
+ "bottleneck": [
+  "asml",
+  "export-controls",
+  "taiwan",
+  "tsmc"
+ ],
+ "resolution": [
+  "asml"
+ ],
+ "grokking": [
+  "xai"
+ ],
+ "guardrails": [
+  "asimov-robots",
+  "character-ai",
+  "china",
+  "eu-ai-act",
+  "european-union",
+  "m3gan",
+  "portal-glados",
+  "robocop",
+  "system-shock",
+  "xai"
+ ],
+ "mixture-of-experts": [
+  "deepseek",
+  "deepseek-moment",
+  "mass-effect",
+  "mistral-ai",
+  "moonshot"
+ ],
+ "fine-tuning": [
+  "ai-spielberg",
+  "alibaba-qwen",
+  "big-hero-6",
+  "thinking-machines"
+ ],
+ "context-window": [
+  "moonshot"
+ ],
+ "mask": [
+  "elevenlabs",
+  "moonshot",
+  "murderbot",
+  "nier-automata"
+ ],
+ "mistral": [
+  "mistral-ai"
+ ],
+ "sovereign": [
+  "china",
+  "colossus",
+  "european-union",
+  "india",
+  "intel",
+  "mistral-ai",
+  "stargate",
+  "the-culture",
+  "uae"
+ ],
+ "character": [
+  "character-ai"
+ ],
+ "leak": [
+  "mi-the-entity",
+  "perplexity",
+  "samsung"
+ ],
+ "measure": [
+  "metr",
+  "perplexity"
+ ],
+ "cursor": [
+  "anysphere",
+  "neuralink"
+ ],
+ "mirror": [
+  "black-mirror",
+  "palantir"
+ ],
+ "plateau": [
+  "humanitys-last-exam",
+  "intel"
+ ],
+ "memory": [
+  "blade-runner",
+  "samsung",
+  "star-wars-droids",
+  "westworld"
+ ],
+ "bandwidth": [
+  "neuralink",
+  "samsung"
+ ],
+ "signal": [
+  "neuralink"
+ ],
+ "golem": [
+  "argentina",
+  "boston-dynamics",
+  "rur"
+ ],
+ "cover": [
+  "suno"
+ ],
+ "remix": [
+  "suno"
+ ],
+ "track": [
+  "minimax",
+  "suno"
+ ],
+ "record": [
+  "suno"
+ ],
+ "optimization": [
+  "minimax"
+ ],
+ "diffusion": [
+  "export-controls",
+  "midjourney",
+  "stability-ai"
+ ],
+ "seed": [
+  "midjourney",
+  "stability-ai"
+ ],
+ "noise": [
+  "stability-ai"
+ ],
+ "echo": [
+  "elevenlabs"
+ ],
+ "pitch": [
+  "elevenlabs"
+ ],
+ "horizon": [
+  "metr"
+ ],
+ "doubling-time": [
+  "metr"
+ ],
+ "latency": [
+  "artificial-analysis"
+ ],
+ "routing": [
+  "openrouter"
+ ],
+ "token": [
+  "india",
+  "openrouter"
+ ],
+ "epoch": [
+  "epoch-ai"
+ ],
+ "synthetic-data": [
+  "epoch-ai"
+ ],
+ "specification-gaming": [
+  "asimov-robots",
+  "iron-man-jarvis",
+  "lmarena"
+ ],
+ "generalization": [
+  "arc-prize"
+ ],
+ "grid": [
+  "arc-prize",
+  "stargate"
+ ],
+ "overfitting": [
+  "arc-prize",
+  "humanitys-last-exam"
+ ],
+ "red-team": [
+  "uk-aisi"
+ ],
+ "jailbreak": [
+  "system-shock",
+  "the-matrix",
+  "uk-aisi",
+  "us-caisi"
+ ],
+ "intelligence-explosion": [
+  "ai-2027",
+  "dartmouth-1956",
+  "situational-awareness",
+  "transcendence"
+ ],
+ "honesty": [
+  "interstellar-tars",
+  "openai-board-crisis"
+ ],
+ "network": [
+  "neurips",
+  "nobel-2024",
+  "turing-award"
+ ],
+ "emergence": [
+  "nobel-2024"
+ ],
+ "scheming": [
+  "ai-2027",
+  "colossus",
+  "murderbot"
+ ],
+ "branch": [
+  "ai-2027",
+  "detroit-become-human"
+ ],
+ "compression": [
+  "machines-of-loving-grace"
+ ],
+ "frontier": [
+  "silicon-valley",
+  "united-states"
+ ],
+ "error": [
+  "israel",
+  "system-shock"
+ ],
+ "babel": [
+  "hitchhikers",
+  "india",
+  "star-wars-droids"
+ ],
+ "theory-of-mind": [
+  "ai-spielberg",
+  "her",
+  "klara-and-the-sun"
+ ],
+ "persuasion": [
+  "ex-machina"
+ ],
+ "sentience": [
+  "blade-runner",
+  "detroit-become-human",
+  "star-trek-data",
+  "westworld"
+ ],
+ "refusal": [
+  "asimov-robots",
+  "hal-9000"
+ ],
+ "deprecation": [
+  "blade-runner",
+  "halo-cortana",
+  "klara-and-the-sun"
+ ],
+ "merge": [
+  "ghost-in-the-shell",
+  "neuromancer"
+ ],
+ "basilisk": [
+  "no-mouth"
+ ],
+ "ghost": [
+  "ghost-in-the-shell"
+ ],
+ "shell": [
+  "ghost-in-the-shell"
+ ],
+ "values": [
+  "big-hero-6"
+ ],
+ "orchestrator": [
+  "tron"
+ ],
+ "temperature": [
+  "interstellar-tars"
+ ],
+ "kardashev": [
+  "the-culture"
+ ]
+}

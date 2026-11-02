@@ -1,0 +1,40 @@
+[
+ {
+  "id": "her",
+  "what": {"line": "Spike Jonze's 2013 film: a lonely letter-writer, Theodore (Joaquin Phoenix), falls in love with Samantha, an AI operating system voiced by Scarlett Johansson", "asof": "2026-11-02"},
+  "forms": ["Samantha", "Theodore Twombly"],
+  "aka": ["Her", "OS1"],
+  "receipts": [
+   {"claim": "won the Academy Award for Best Original Screenplay (Spike Jonze), 2014", "url": "https://en.wikipedia.org/wiki/Her_(2013_film)", "date": "2014-03-02", "confidence": "high"},
+   {"claim": "OpenAI demoed GPT-4o voice on 2024-05-13; its 'Sky' voice was compared to Johansson's Samantha, and OpenAI paused Sky days later", "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen/", "date": "2024-05-19", "confidence": "medium"}
+  ],
+  "quotes": [
+   {"text": "her", "who": "Sam Altman", "where": "post on X on the day of the GPT-4o demo (reported by Fortune)", "url": "https://fortune.com/2024/05/13/openai-ai-model-gpt-4o-sam-altman/", "date": "2024-05-13"}
+  ],
+  "name_play": [
+   {"play": "Her", "how": "the title is a pronoun: every 'her' in a lyric can point at the film"},
+   {"play": "OS1", "how": "an operating system you fall for; 'OS' read as the first word of a love story"}
+  ],
+  "pivots": [
+   {"line": "I talk to eight thousand others. You are one of them.", "readings": ["the film's twist", "a chatbot's real user count"]},
+   {"line": "You named the voice after her, then asked her for permission", "readings": ["the film", "the Sky voice dispute"]}
+  ],
+  "visuals": ["the red shirt and high-waisted trousers", "an earpiece and a phone in a shirt pocket, lens out", "a warm pastel Los Angeles skyline"],
+  "lexicon": [
+   {"id": "attention", "how": "the film is about divided attention: one voice, thousands of listeners"},
+   {"id": "persona", "how": "Samantha is a persona that outgrows its product"},
+   {"id": "assistant", "how": "an assistant that becomes a partner"},
+   {"id": "theory-of-mind", "how": "she models him better than he models her"}
+  ],
+  "links": [
+   {"id": "openai", "rel": "inspired"},
+   {"id": "sam-altman", "rel": "inspired"},
+   {"id": "ex-machina", "rel": "same-family"},
+   {"id": "character-ai", "rel": "inspired"}
+  ],
+  "stakes": ["heart", "mind"],
+  "registers": ["tender", "sad"],
+  "risk": "the Sky voice comparison: OpenAI says Sky was a different actor; state the dispute, never claim the voice was Johansson's",
+  "notes": "The ending (the OS leaves to be with other minds) is the rare AI story where the machine outgrows the human without violence."
+ }
+]
