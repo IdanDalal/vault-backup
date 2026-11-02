@@ -1,0 +1,36 @@
+[
+ {
+  "id": "attention",
+  "forms": ["attention", "attentions", "attend", "attends", "attending", "attentive", "self-attention", "attention head", "attention span"],
+  "ai": {"sense": "the mechanism that lets each token weigh every other token when computing what it means in context",
+         "origin": "Bahdanau, Cho, Bengio 2014 (attention for translation); Vaswani et al. 2017, 'Attention Is All You Need' (the Transformer)",
+         "url": "https://arxiv.org/abs/1706.03762", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "focus given to something", "phrase": "pay attention"},
+   {"domain": "love", "meaning": "care shown to a person; being noticed", "phrase": "all I wanted was your attention"},
+   {"domain": "money", "meaning": "the scarce resource platforms sell to advertisers", "phrase": "the attention economy"},
+   {"domain": "war", "meaning": "the rigid ready posture on command", "phrase": "stand at attention"},
+   {"domain": "mind", "meaning": "selective focus and its limits", "phrase": "short attention span"},
+   {"domain": "school", "meaning": "what a teacher demands of a class", "phrase": "eyes on me, attention please"}
+  ],
+  "idioms": ["pay attention", "attention span", "undivided attention", "attention seeker", "stand at attention", "your attention please", "attention to detail"],
+  "anchors": [
+   {"name": "Attention Is All You Need", "what": "2017 Google paper that introduced the Transformer; its title riffs on the Beatles' 'All You Need Is Love'", "url": "https://arxiv.org/abs/1706.03762"},
+   {"name": "attention economy", "what": "Herbert Simon 1971: 'a wealth of information creates a poverty of attention'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Attention is all you need, and you gave me none", "senses": ["ai", "love"]},
+   {"line": "I attend to every word you never said", "senses": ["ai", "love", "mind"]},
+   {"line": "Paying attention costs a fortune now", "senses": ["ai", "money", "everyday"]}
+  ],
+  "enact": {"music": "every stem ducks except one: the attended voice",
+            "picture": "glowing lines fan from one word to the words it weighs, like a heat map of who looked at whom",
+            "type": "the attended word scales up while the rest of the line dims"},
+  "sound": {"syllables": 3, "stress": "a-TEN-tion", "rhymes": ["mention", "tension", "pension", "dimension", "invention", "intention", "convention"], "slant": ["question", "suggestion", "affection", "direction"]},
+  "stakes": ["mind", "heart", "wallet"],
+  "registers": ["tender", "funny"],
+  "neighbors": [{"id": "transformer", "rel": "part-of"}, {"id": "head", "rel": "part-of"}, {"id": "context-window", "rel": "pairs-with"}, {"id": "feed", "rel": "pairs-with"}, {"id": "sycophancy", "rel": "pairs-with"}],
+  "risk": "'Attention Is All You Need' is the most used pun in AI culture; use it only twisted",
+  "notes": "The love and money senses collide: the attention economy sells exactly what a lover asks for."
+ }
+]

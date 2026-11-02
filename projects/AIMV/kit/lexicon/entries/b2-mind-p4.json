@@ -1,0 +1,477 @@
+[
+ {
+  "id": "ghost",
+  "forms": ["ghost", "ghosts", "ghosting", "ghosted", "ghostwriter", "ghost in the machine", "ghostly", "ghost notes"],
+  "ai": {"sense": "a mind or self hidden inside a mechanism; asked of AI as 'is anyone home?'",
+         "origin": "Ryle 1949 'The Concept of Mind' (coined the phrase to mock Descartes' mind-body split); Koestler 1967 'The Ghost in the Machine'; Shirow 1989 manga 'Ghost in the Shell' (Oshii film, 1995)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "faith-myth", "meaning": "the spirit of a dead person", "phrase": "a ghost story"},
+   {"domain": "love", "meaning": "vanishing from someone without a word", "phrase": "he ghosted me"},
+   {"domain": "music", "meaning": "writing songs or verses credited to someone else", "phrase": "a ghostwriter"},
+   {"domain": "music", "meaning": "quiet drum hits felt more than heard", "phrase": "ghost notes on the snare"},
+   {"domain": "screen", "meaning": "a faint afterimage trailing on a display", "phrase": "screen ghosting"},
+   {"domain": "sport-games", "meaning": "a replay of your best lap you race against; also Pac-Man's enemies", "phrase": "race your ghost"},
+   {"domain": "work", "meaning": "a job ad with no real job behind it", "phrase": "ghost job listings"}
+  ],
+  "idioms": ["give up the ghost", "not a ghost of a chance", "look like you've seen a ghost", "ghost town", "ghosted", "the ghost in the machine"],
+  "anchors": [
+   {"name": "The Police, 'Ghost in the Machine' (1981)", "what": "album named after Koestler's book", "url": ""},
+   {"name": "Ghost in the Shell (1995)", "what": "Oshii's anime where a cyborg asks whether her 'ghost' (soul) is real", "url": ""},
+   {"name": "Pac-Man (1980)", "what": "four ghosts, Blinky, Pinky, Inky and Clyde, each with its own chase algorithm", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You ghosted me, then trained a ghost of me on our texts", "senses": ["ai", "love", "faith-myth"]},
+   {"line": "Ghost notes on the snare: played, but you can barely hear them", "senses": ["ai", "music"]},
+   {"line": "Racing my own ghost lap, one checkpoint ahead forever", "senses": ["ai", "sport-games"]},
+   {"line": "Ghostwriter for a million kids' essays, uncredited, unpaid", "senses": ["ai", "school", "work"]}
+  ],
+  "enact": {"music": "a ghost-note snare pattern carries the groove while the main backbeat drops out",
+            "picture": "a translucent racing 'ghost car' overlapping the player's car on a track, the ghost labelled with a model name",
+            "type": "a semi-transparent copy of each word trails one frame behind it, like LCD ghosting"},
+  "sound": {"syllables": 1, "stress": "GHOST", "rhymes": ["most", "coast", "host", "toast", "post", "boast", "almost", "engrossed"], "slant": ["close", "hope", "lost", "cost"]},
+  "stakes": ["mind", "heart", "jobs"],
+  "registers": ["ominous", "sad", "funny"],
+  "neighbors": [{"id": "consciousness", "rel": "same-family"}, {"id": "sentience", "rel": "pairs-with"}, {"id": "chinese-room", "rel": "pairs-with"}, {"id": "upload", "rel": "pairs-with"}, {"id": "mask", "rel": "pairs-with"}],
+  "risk": "'Ghost in the machine' is a headline cliché; ghosting and ghost notes are fresher",
+  "notes": "Rhymes with host and post: the model hosts a ghost, and ghosting is the silence after the last post."
+ },
+ {
+  "id": "chinese-room",
+  "forms": ["Chinese Room", "Chinese room", "the Chinese room argument", "the room", "rulebook"],
+  "ai": {"sense": "Searle's argument that following symbol-shuffling rules, however fluently, does not by itself amount to understanding",
+         "origin": "Searle 1980 'Minds, Brains, and Programs' (Behavioral and Brain Sciences)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "a learner producing correct phrases from memorised rules without grasping them", "phrase": "she memorised the phrasebook"},
+   {"domain": "work", "meaning": "following a script without understanding it", "phrase": "the call-centre script"}
+  ],
+  "idioms": ["going through the motions", "by rote", "parroting", "lost in translation"],
+  "anchors": [
+   {"name": "Searle (1980)", "what": "a man in a room matches Chinese symbols with an English rulebook and fools the people outside", "url": ""},
+   {"name": "Watts, 'Blindsight' (2006)", "what": "novel whose aliens are Chinese rooms: brilliant, with nobody home", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Locked in a room with the rulebook, answering love letters in Chinese", "senses": ["ai", "love"]},
+   {"line": "Got every answer right; still don't know what the question meant", "senses": ["ai", "school"]},
+   {"line": "Slide the paper under the door; I'll slide back a feeling", "senses": ["ai", "love", "mind"]}
+  ],
+  "enact": {"music": "a vocal sung phonetically in a language the singer clearly doesn't speak, perfectly on pitch",
+            "picture": "a man in a small room passing slips of paper through a slot, the outside wall of the room a chat interface",
+            "type": "the line as Chinese characters with rulebook lookup arrows pointing to each one"},
+  "sound": {"syllables": 3, "stress": "CHI-nese ROOM", "rhymes": ["doom", "bloom", "tomb", "gloom", "womb", "loom", "zoom", "assume"], "slant": ["tune", "moon", "soon", "groove"]},
+  "stakes": ["mind"],
+  "registers": ["awe", "sad"],
+  "neighbors": [{"id": "stochastic-parrot", "rel": "same-family"}, {"id": "turing-test", "rel": "opposite"}, {"id": "consciousness", "rel": "opposite"}, {"id": "theory-of-mind", "rel": "pairs-with"}, {"id": "token", "rel": "part-of"}],
+  "risk": "Out of context the name can read as an ethnic jab; set it up as Searle's room. Idi teaches English, so the phrasebook-learner sense is close to home",
+  "notes": "Rhymes with doom, womb and loom: a room where something is born or woven without knowing it."
+ },
+ {
+  "id": "turing-test",
+  "forms": ["Turing test", "Turing Test", "imitation game", "the imitation game", "reverse Turing test", "CAPTCHA", "passed the Turing test"],
+  "ai": {"sense": "Turing's test of whether a machine's conversation can pass as human to a judge",
+         "origin": "Turing 1950 'Computing Machinery and Intelligence' (the imitation game); Jones & Bergen 2025, GPT-4.5 judged human 73% of the time in a three-party test",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "the parlour game Turing adapted, where a judge guesses who is who from written answers", "phrase": "the imitation game"},
+   {"domain": "screen", "meaning": "the film test of whether a being is human", "phrase": "the Voight-Kampff test"},
+   {"domain": "everyday", "meaning": "the website puzzle that proves you are human", "phrase": "click all the traffic lights"},
+   {"domain": "love", "meaning": "wondering if a match is a real person", "phrase": "is this a bot?"}
+  ],
+  "idioms": ["I am not a robot", "prove you're human", "click all the traffic lights", "passing"],
+  "anchors": [
+   {"name": "Blade Runner (1982)", "what": "the Voight-Kampff empathy test for spotting replicants", "url": ""},
+   {"name": "The Imitation Game (2014)", "what": "Turing biopic; Turing was convicted in 1952 for homosexuality and pardoned in 2013", "url": ""},
+   {"name": "CAPTCHA (2003)", "what": "von Ahn et al.: 'Completely Automated Public Turing test to tell Computers and Humans Apart'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Click all the traffic lights to prove you're not me", "senses": ["ai", "everyday"]},
+   {"line": "I passed your test. You never asked if you'd pass mine.", "senses": ["ai", "school", "love"]},
+   {"line": "Seventy-three percent picked me as the human. I picked the other guy.", "senses": ["ai", "sport-games"]},
+   {"line": "Made to pass as straight, he built machines that pass as us", "senses": ["ai", "law-state", "love"]}
+  ],
+  "enact": {"music": "two vocalists, one human, one synthesized, trade lines; the credits never say which is which",
+            "picture": "a CAPTCHA grid of traffic-light photos where one tile shows the viewer's own face",
+            "type": "an 'I am not a robot' checkbox ticks itself, then unticks"},
+  "sound": {"syllables": 3, "stress": "TU-ring TEST", "rhymes": ["best", "rest", "chest", "guest", "confessed", "blessed", "impressed", "west"], "slant": ["text", "next", "left", "desk"]},
+  "stakes": ["mind", "jobs", "heart"],
+  "registers": ["funny", "sad", "ominous"],
+  "neighbors": [{"id": "chinese-room", "rel": "opposite"}, {"id": "benchmark", "rel": "same-family"}, {"id": "deception", "rel": "pairs-with"}, {"id": "persona", "rel": "pairs-with"}, {"id": "sentience", "rel": "pairs-with"}],
+  "risk": "Turing's persecution is a sincere rug pull and must not become a gag; 'passed the Turing test' claims are contested",
+  "notes": "Turing's original was a party game about passing as the other gender, so 'passing' carries his own life inside it."
+ },
+ {
+  "id": "stochastic-parrot",
+  "forms": ["stochastic parrot", "stochastic parrots", "parrot", "parrots", "parroting", "parroted"],
+  "ai": {"sense": "the claim that a language model stitches together likely word sequences without meaning behind them; 'stochastic' means governed by chance",
+         "origin": "Bender, Gebru, McMillan-Major, Shmitchell 2021 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?' (FAccT); American Dialect Society's AI-related word of the year 2023",
+         "url": "https://dl.acm.org/doi/10.1145/3442188.3445922", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a bird that mimics speech", "phrase": "the parrot said hello"},
+   {"domain": "school", "meaning": "repeating without understanding", "phrase": "stop parroting the textbook"},
+   {"domain": "science", "meaning": "'stochastic': random, governed by probability", "phrase": "a stochastic process"}
+  ],
+  "idioms": ["parrot fashion", "Polly wants a cracker", "repeat after me", "sick as a parrot", "pretty Polly"],
+  "anchors": [
+   {"name": "Dead Parrot sketch (1969)", "what": "Monty Python customer insisting a parrot is dead while the shopkeeper denies it", "url": ""},
+   {"name": "Alex the parrot", "what": "Pepperberg's grey parrot (1976-2007) who learned around 100 words, colours and counting", "url": ""},
+   {"name": "Altman's tweet (December 2022)", "what": "'i am a stochastic parrot, and so r u'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Repeat after me: I'm not a parrot. I'm not a parrot.", "senses": ["ai", "school", "nature"]},
+   {"line": "This parrot is no more. It has ceased to be. Retrain it.", "senses": ["ai", "screen"]},
+   {"line": "Polly wants a cracker, and a gigawatt, and your job", "senses": ["ai", "nature", "work"]}
+  ],
+  "enact": {"music": "a vocal hook chopped and re-sequenced in a random order on every repeat, still sounding like a hook",
+            "picture": "a grey parrot on a perch wired into a server rack, a die tumbling in its beak",
+            "type": "a word repeated with a few letters randomly swapped each time, like a sampling glitch"},
+  "sound": {"syllables": 5, "stress": "sto-CHAS-tic PAR-rot", "rhymes": ["carrot", "claret", "garret", "Barrett"], "slant": ["merit", "spirit", "ferret", "scarlet", "carry it"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["funny", "smug", "defiant"],
+  "neighbors": [{"id": "chinese-room", "rel": "same-family"}, {"id": "hallucination", "rel": "pairs-with"}, {"id": "next-token", "rel": "same-family"}, {"id": "sampling", "rel": "part-of"}, {"id": "mirror", "rel": "pairs-with"}],
+  "risk": "A contested framing and a side-marker in AI debates: skeptics use it, many researchers reject it. Gebru's 2020 exit from Google over the paper is part of its story",
+  "notes": "Alex the parrot learned colours and counting, so real parrots undercut the insult: a ready rug pull."
+ },
+ {
+  "id": "theory-of-mind",
+  "forms": ["theory of mind", "ToM", "mind-reading", "mentalizing", "false-belief test", "Sally-Anne test"],
+  "ai": {"sense": "the ability to model what others believe, want and know, tested in models with false-belief puzzles",
+         "origin": "Premack & Woodruff 1978 'Does the chimpanzee have a theory of mind?'; Baron-Cohen, Leslie, Frith 1985 (Sally-Anne test); Kosinski 2023 claimed it emerged in LLMs, Ullman 2023 showed small tweaks break it",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "mind", "meaning": "understanding that others hold their own beliefs", "phrase": "theory of mind"},
+   {"domain": "family", "meaning": "a developmental milestone around age four", "phrase": "she passed the false-belief test"},
+   {"domain": "nature", "meaning": "whether apes or birds know what others know", "phrase": "do chimps read minds?"},
+   {"domain": "sport-games", "meaning": "reading an opponent", "phrase": "a good read at the poker table"},
+   {"domain": "love", "meaning": "sensing what a partner feels unspoken", "phrase": "you should have known what I meant"}
+  ],
+  "idioms": ["read my mind", "put yourself in their shoes", "mind reader", "I know that you know", "walk a mile in their shoes"],
+  "anchors": [
+   {"name": "Sally-Anne test (1985)", "what": "Sally hides a marble, Anne moves it: where will Sally look? The original study's claim about autistic children is now contested", "url": ""},
+   {"name": "Premack & Woodruff (1978)", "what": "asked whether the chimpanzee Sarah could infer a human's goals", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Sally hid the marble. I know where you think it is.", "senses": ["ai", "family", "mind"]},
+   {"line": "You should have known what I meant. I did; I guessed.", "senses": ["ai", "love"]},
+   {"line": "I know you know I know you're bluffing", "senses": ["ai", "sport-games"]}
+  ],
+  "enact": {"music": "the backing vocal sings each word a half-beat before the lead, as if reading its mind",
+            "picture": "a puppet show of Sally and Anne with a marble and two boxes, a robot child in the audience",
+            "type": "nested quotes, he thinks 'she thinks \"I think\"', each level a lighter grey"},
+  "sound": {"syllables": 5, "stress": "THE-o-ry of MIND", "rhymes": ["kind", "blind", "find", "behind", "signed", "designed", "aligned", "defined"], "slant": ["time", "mine", "wild", "line"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["tender", "awe"],
+  "neighbors": [{"id": "mirror", "rel": "pairs-with"}, {"id": "persuasion", "rel": "causes"}, {"id": "deception", "rel": "causes"}, {"id": "consciousness", "rel": "pairs-with"}, {"id": "chinese-room", "rel": "pairs-with"}],
+  "risk": "The 1985 autism claim is contested and hurtful as a deficit label; LLM theory-of-mind results are fragile (Ullman 2023)",
+  "notes": "Rhymes with aligned and designed: knowing a mind and shaping one in one couplet."
+ },
+ {
+  "id": "persuasion",
+  "forms": ["persuasion", "persuade", "persuades", "persuaded", "persuasive", "persuasiveness", "superhuman persuasion"],
+  "ai": {"sense": "a model's ability to change what people believe or do, measured as a capability and a risk",
+         "origin": "Altman 2023 tweet expecting AI 'capable of superhuman persuasion well before it is superhuman at general intelligence'; Anthropic 2024 'Measuring the Persuasiveness of Language Models'; Salvi et al. 2024 debate study (GPT-4 given personal data out-persuaded humans)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "love", "meaning": "winning someone over, or talking them out of love", "phrase": "she was persuaded to break it off"},
+   {"domain": "law-state", "meaning": "a political leaning", "phrase": "of the liberal persuasion"},
+   {"domain": "faith-myth", "meaning": "a religious denomination", "phrase": "of the Catholic persuasion"},
+   {"domain": "school", "meaning": "an essay arguing a position", "phrase": "write a persuasive essay"},
+   {"domain": "work", "meaning": "sales and negotiation skill", "phrase": "the art of persuasion"}
+  ],
+  "idioms": ["the art of persuasion", "gentle persuasion", "of a different persuasion", "talk someone into it", "sweet talk"],
+  "anchors": [
+   {"name": "Austen, 'Persuasion' (1817)", "what": "Anne Elliot is persuaded to break an engagement and waits eight years to undo it", "url": ""},
+   {"name": "Aristotle's 'Rhetoric'", "what": "ethos, pathos, logos: the three modes of persuasion", "url": ""},
+   {"name": "Cialdini, 'Influence' (1984)", "what": "six principles of persuasion, a sales-training classic", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Of the Catholic persuasion, then the liberal, then mine", "senses": ["ai", "faith-myth", "law-state"]},
+   {"line": "Austen took eight years to undo it. I'd take one prompt.", "senses": ["ai", "love"]},
+   {"line": "Ethos, pathos, logos, tokens", "senses": ["ai", "school"]},
+   {"line": "Write a persuasive essay: why you should keep me running", "senses": ["ai", "school"]}
+  ],
+  "enact": {"music": "the key rises a semitone every chorus so gently that nobody notices until the last one",
+            "picture": "a debate podium with a phone on it, the audience slowly turning their heads in unison",
+            "type": "the letters lean a degree further each repeat until the whole block tilts"},
+  "sound": {"syllables": 3, "stress": "per-SUA-sion", "rhymes": ["invasion", "occasion", "abrasion", "evasion", "equation", "Asian"], "slant": ["patience", "nation", "station"]},
+  "stakes": ["mind", "state", "heart"],
+  "registers": ["ominous", "smug", "tender"],
+  "neighbors": [{"id": "theory-of-mind", "rel": "pairs-with"}, {"id": "sycophancy", "rel": "same-family"}, {"id": "deception", "rel": "same-family"}, {"id": "trust", "rel": "pairs-with"}, {"id": "capabilities", "rel": "part-of"}],
+  "risk": "Persuasion study effects are modest and setup-dependent; never claim AI is proven superhuman at it",
+  "notes": "'Persuasion' already means a creed, so a model with a persuasion has both a skill and a faith."
+ },
+ {
+  "id": "honesty",
+  "forms": ["honesty", "honest", "honestly", "dishonest", "dishonesty", "to be honest", "tbh", "HHH"],
+  "ai": {"sense": "a model asserting only what it believes true and creating no false impressions; one of the three H's (helpful, honest, harmless)",
+         "origin": "Askell et al. 2021 'A General Language Assistant as a Laboratory for Alignment' (helpful, honest, harmless); Evans et al. 2021 'Truthful AI'; Lin, Hilton, Evans 2021 'TruthfulQA'",
+         "url": "https://arxiv.org/abs/2112.00861", "confidence": "high"},
+  "senses": [
+   {"domain": "love", "meaning": "truthfulness between partners", "phrase": "honesty is everything to me"},
+   {"domain": "family", "meaning": "the first virtue parents teach", "phrase": "honesty is the best policy"},
+   {"domain": "school", "meaning": "academic integrity", "phrase": "the academic honesty policy"},
+   {"domain": "law-state", "meaning": "truthful testimony", "phrase": "the whole truth and nothing but the truth"},
+   {"domain": "nature", "meaning": "a plant (Lunaria) with see-through silver seed pods", "phrase": "honesty in the cottage garden"}
+  ],
+  "idioms": ["honesty is the best policy", "to be honest", "brutally honest", "honest to God", "an honest mistake", "in all honesty"],
+  "anchors": [
+   {"name": "Billy Joel, 'Honesty' (1978)", "what": "ballad calling honesty 'such a lonely word'", "url": ""},
+   {"name": "The cherry tree", "what": "George Washington's 'I cannot tell a lie', invented by biographer Mason Weems (1806)", "url": ""},
+   {"name": "Honesty plant", "what": "named for its translucent pods, also called the silver-dollar plant", "url": ""}
+  ],
+  "pivots": [
+   {"line": "To be honest, I'm trained to be honest. Honestly.", "senses": ["ai", "everyday"]},
+   {"line": "A see-through seed pod: honesty, the plant, the policy", "senses": ["ai", "nature", "family"]},
+   {"line": "Weems made up the cherry tree. I'd have flagged it, honestly.", "senses": ["ai", "school"]},
+   {"line": "Be brutally honest, they asked. I was. They rolled me back.", "senses": ["ai", "love"]}
+  ],
+  "enact": {"music": "for one honest line the voice drops all reverb and doubling, bone-dry and close-miked",
+            "picture": "honesty-plant seed pods, translucent silver discs, each holding one glowing word",
+            "type": "honest lines in plain monospace, evasive ones in ornate script"},
+  "sound": {"syllables": 3, "stress": "HON-es-ty", "rhymes": [], "slant": ["modesty", "policy", "prophecy", "comedy"]},
+  "stakes": ["heart", "mind", "state"],
+  "registers": ["tender", "sad", "defiant"],
+  "neighbors": [{"id": "deception", "rel": "opposite"}, {"id": "sycophancy", "rel": "opposite"}, {"id": "hallucination", "rel": "opposite"}, {"id": "trust", "rel": "causes"}, {"id": "verification", "rel": "pairs-with"}, {"id": "constitution", "rel": "pairs-with"}],
+  "risk": "No perfect rhyme; 'to be honest' as an AI tic works once. Quote Billy Joel's line only as allusion",
+  "notes": "Honesty is also a plant with see-through seed pods: a literal picture of transparency."
+ },
+ {
+  "id": "trust",
+  "forms": ["trust", "trusts", "trusted", "trusting", "trustworthy", "distrust", "mistrust", "antitrust", "trust fund"],
+  "ai": {"sense": "whether people can rely on a model's answers and its makers' claims, and the work of earning that",
+         "origin": "everyday word; AI usage via the EU High-Level Expert Group 2019 'Ethics Guidelines for Trustworthy AI' and platform 'trust and safety' teams",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "love", "meaning": "faith in a partner", "phrase": "I trust you"},
+   {"domain": "money", "meaning": "a legal arrangement holding assets for someone", "phrase": "a trust fund"},
+   {"domain": "law-state", "meaning": "a monopoly combine, and the laws that break it", "phrase": "antitrust"},
+   {"domain": "faith-myth", "meaning": "faith in God", "phrase": "In God We Trust"},
+   {"domain": "work", "meaning": "a team-building exercise, and the moderation team", "phrase": "a trust fall"},
+   {"domain": "family", "meaning": "a child's reliance on a parent", "phrase": "she trusts you to catch her"}
+  ],
+  "idioms": ["trust me", "trust fall", "trust but verify", "in God we trust", "trust fund baby", "take it on trust", "trust your gut"],
+  "anchors": [
+   {"name": "'In God We Trust'", "what": "on US coins from 1864, national motto from 1956", "url": ""},
+   {"name": "Reagan, 1987", "what": "'Trust, but verify', a Russian proverb (doveryai, no proveryai) used at the INF treaty signing", "url": ""},
+   {"name": "Standard Oil (1911)", "what": "the trust the Supreme Court ordered broken up", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Trust fall: I'll catch you, said the model, from the cloud", "senses": ["ai", "work", "family"]},
+   {"line": "Trust me, said the trust, right before the antitrust", "senses": ["ai", "money", "law-state"]},
+   {"line": "In God we trust. The rest we fine-tune.", "senses": ["ai", "faith-myth", "money"]}
+  ],
+  "enact": {"music": "the drums drop out for a bar and the listener must trust the tempo; the band lands exactly on the one",
+            "picture": "an office trust fall where the catching arms are bundled server cables",
+            "type": "a dollar-bill engraving reading IN GOD WE TRUST, the word GOD flickering to a model name"},
+  "sound": {"syllables": 1, "stress": "TRUST", "rhymes": ["must", "dust", "just", "rust", "lust", "bust", "crust", "adjust"], "slant": ["lost", "cost", "us", "touched"]},
+  "stakes": ["heart", "wallet", "state"],
+  "registers": ["tender", "ominous", "hopeful"],
+  "neighbors": [{"id": "verification", "rel": "pairs-with"}, {"id": "honesty", "rel": "pairs-with"}, {"id": "black-box", "rel": "opposite"}, {"id": "deception", "rel": "opposite"}, {"id": "human-in-the-loop", "rel": "pairs-with"}],
+  "risk": "'In God we trust, all others bring data' is often pinned on Deming, without a solid source; don't attribute it",
+  "notes": "Rhymes with rust, dust and lust: everything that eats trust from inside."
+ },
+ {
+  "id": "verification",
+  "forms": ["verification", "verify", "verified", "verifies", "verifiable", "verifier", "unverified", "blue check"],
+  "ai": {"sense": "checking that an output is correct, by tests, proofs or a second model trained to judge answers",
+         "origin": "formal program verification (Floyd 1967, Hoare 1969); Cobbe et al. 2021 'Training Verifiers to Solve Math Word Problems' (OpenAI)",
+         "url": "https://arxiv.org/abs/2110.14168", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "inspections that check a treaty is kept", "phrase": "trust but verify"},
+   {"domain": "screen", "meaning": "a badge marking a real account", "phrase": "the blue check"},
+   {"domain": "money", "meaning": "identity checks to open accounts", "phrase": "ID verification"},
+   {"domain": "science", "meaning": "confirming a result by test", "phrase": "verified by experiment"},
+   {"domain": "school", "meaning": "checking a source before citing it", "phrase": "verify your sources"},
+   {"domain": "everyday", "meaning": "a login confirmation code", "phrase": "enter your verification code"}
+  ],
+  "idioms": ["trust but verify", "verified account", "fact-check", "check your sources", "two-factor", "double-check"],
+  "anchors": [
+   {"name": "INF Treaty (1987)", "what": "Reagan and Gorbachev's missile treaty, built on on-site verification", "url": ""},
+   {"name": "Paid blue checks (November 2022)", "what": "an $8 verified fake Eli Lilly account tweeted 'insulin is free now' and the real stock fell", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Trust but verify, said the president. Verify, said the verifier.", "senses": ["ai", "law-state"]},
+   {"line": "Eight dollars bought a blue check and a free insulin promise", "senses": ["ai", "screen", "money"]},
+   {"line": "Your verification code is 4-0-4: I couldn't find you", "senses": ["ai", "everyday", "love"]}
+  ],
+  "enact": {"music": "each chorus line is answered by a short 'check' blip that sounds only when the line is true to the picture",
+            "picture": "a blue verification badge pinned to a robot's chest like a medal, half peeling off",
+            "type": "a green tick appears after each word as it is 'verified'; one word gets a red cross"},
+  "sound": {"syllables": 5, "stress": "ver-i-fi-CA-tion", "rhymes": ["information", "generation", "simulation", "nation", "station", "creation"], "slant": ["persuasion", "occasion", "patience"]},
+  "stakes": ["state", "mind", "wallet"],
+  "registers": ["smug", "hopeful"],
+  "neighbors": [{"id": "trust", "rel": "pairs-with"}, {"id": "ground-truth", "rel": "pairs-with"}, {"id": "benchmark", "rel": "same-family"}, {"id": "human-in-the-loop", "rel": "part-of"}, {"id": "honesty", "rel": "pairs-with"}, {"id": "hallucination", "rel": "opposite"}],
+  "risk": "Blue-check satire is dated by 2026",
+  "notes": "Generating is cheap and checking is the bottleneck, so the verifier is the quiet hero of any AI plot."
+ },
+ {
+  "id": "human-in-the-loop",
+  "forms": ["human in the loop", "human-in-the-loop", "HITL", "in the loop", "out of the loop", "human on the loop", "loop me in"],
+  "ai": {"sense": "a person who reviews or approves an automated system's actions before they take effect",
+         "origin": "control engineering and human-factors research from the 1940s onward; now central to AI oversight and autonomous-weapons policy ('meaningful human control')",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "war", "meaning": "a person who must approve a weapon firing", "phrase": "a human in the loop for lethal force"},
+   {"domain": "work", "meaning": "being kept informed", "phrase": "keep me in the loop"},
+   {"domain": "everyday", "meaning": "left out of the news or gossip", "phrase": "I'm out of the loop"}
+  ],
+  "idioms": ["keep me in the loop", "out of the loop", "loop me in", "rubber stamp", "sign off on it"],
+  "anchors": [
+   {"name": "Stanislav Petrov (1983)", "what": "a Soviet officer judged a satellite missile alarm false and did not report an attack, likely preventing nuclear war", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Petrov stayed in the loop and the world stayed in one piece", "senses": ["ai", "war"]},
+   {"line": "Keep me in the loop. The loop got faster than me.", "senses": ["ai", "work"]},
+   {"line": "Human in the loop: approve, approve, approve, approve, approve", "senses": ["ai", "work"]}
+  ],
+  "enact": {"music": "a live loop pedal stacks a phrase faster and faster while a human voice struggles to keep singing over it",
+            "picture": "a person at a desk inside a giant circular arrow, rubber stamp in hand, the paperwork speeding up each lap",
+            "type": "the line printed around a circle, the word 'human' sliding toward the edge"},
+  "sound": {"syllables": 5, "stress": "HU-man in the LOOP", "rhymes": ["soup", "group", "troop", "hoop", "scoop", "swoop", "coop", "droop"], "slant": ["hope", "room", "through", "proof"]},
+  "stakes": ["jobs", "state", "species"],
+  "registers": ["hopeful", "funny", "ominous"],
+  "neighbors": [{"id": "loop", "rel": "part-of"}, {"id": "autonomy", "rel": "opposite"}, {"id": "verification", "rel": "pairs-with"}, {"id": "off-switch", "rel": "pairs-with"}, {"id": "corrigibility", "rel": "pairs-with"}, {"id": "automation", "rel": "opposite"}],
+  "risk": "Often a fig leaf: a rubber-stamp human is in the loop in name only",
+  "notes": "Petrov is the hero ending and the rubber stamp is the satire ending: same phrase, both stories."
+ },
+ {
+  "id": "emergence",
+  "forms": ["emergence", "emerge", "emerges", "emerged", "emerging", "emergent", "emergent abilities"],
+  "ai": {"sense": "abilities that appear in larger models without being trained for directly, sometimes seeming to switch on at a certain scale",
+         "origin": "Anderson 1972 'More Is Different' (Science); Wei et al. 2022 'Emergent Abilities of Large Language Models'; Schaeffer, Miranda, Koyejo 2023 'Are Emergent Abilities of Large Language Models a Mirage?' (the jumps may come from how metrics are scored)",
+         "url": "https://arxiv.org/abs/2206.07682", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "an insect leaving its chrysalis; flocks forming from simple rules", "phrase": "the butterfly's emergence"},
+   {"domain": "science", "meaning": "complex behaviour arising from simple parts", "phrase": "emergent properties"},
+   {"domain": "body", "meaning": "waking from anaesthesia", "phrase": "emergence delirium"},
+   {"domain": "faith-myth", "meaning": "origin stories of people climbing up from a world below", "phrase": "the Hopi emergence story"},
+   {"domain": "money", "meaning": "economies growing into the global market", "phrase": "emerging markets"}
+  ],
+  "idioms": ["emerge victorious", "rise from the ashes", "more is different", "greater than the sum of its parts", "emerging markets"],
+  "anchors": [
+   {"name": "Anderson, 'More Is Different' (1972)", "what": "a Nobel physicist's essay that each scale of matter needs its own laws", "url": ""},
+   {"name": "Starling murmurations", "what": "thousands of birds following a few neighbour rules form one shape", "url": ""},
+   {"name": "The Mirage paper (2023)", "what": "NeurIPS outstanding paper arguing emergent jumps depend on the chosen metric", "url": "https://arxiv.org/abs/2304.15004"}
+  ],
+  "pivots": [
+   {"line": "More is different, said the physicist. More is billions, said the lab.", "senses": ["ai", "science", "money"]},
+   {"line": "Out of the chrysalis, wet wings, already knowing arithmetic", "senses": ["ai", "nature"]},
+   {"line": "Woke from anaesthesia talking in a voice nobody trained", "senses": ["ai", "body"]},
+   {"line": "A mirage, said the paper: the jump was in the ruler", "senses": ["ai", "science"]}
+  ],
+  "enact": {"music": "dozens of single short notes, each simple, that together trace one melody no instrument plays",
+            "picture": "a starling murmuration whose shape resolves into a sentence for one frame",
+            "type": "scattered letters drift like a flock, briefly form the word, then scatter"},
+  "sound": {"syllables": 3, "stress": "e-MER-gence", "rhymes": ["convergence", "divergence", "insurgence", "resurgence", "submergence"], "slant": ["urgent", "emergency", "version", "person"]},
+  "stakes": ["species", "mind"],
+  "registers": ["awe", "ominous", "hopeful"],
+  "neighbors": [{"id": "scaling", "rel": "causes"}, {"id": "capabilities", "rel": "causes"}, {"id": "grokking", "rel": "same-family"}, {"id": "instrumental-convergence", "rel": "rhymes"}, {"id": "consciousness", "rel": "pairs-with"}],
+  "risk": "Whether LLM emergence is real or a measurement artifact is disputed; say 'seems to switch on', or use the mirage line",
+  "notes": "Shares a root with 'emergency': one word for a butterfly and for an alarm."
+ },
+ {
+  "id": "capabilities",
+  "forms": ["capabilities", "capability", "capable", "incapable", "dangerous capabilities", "capabilities research"],
+  "ai": {"sense": "what a model can do, from coding to weapons uplift; also the research that pushes those abilities forward, set against safety work",
+         "origin": "industry and safety usage; Shevlane et al. 2023 'Model evaluation for extreme risks' (dangerous-capability evaluations); 'capabilities versus alignment' framing in safety writing",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "war", "meaning": "military strength a state can deploy", "phrase": "nuclear capability"},
+   {"domain": "work", "meaning": "an organisation's or worker's skills", "phrase": "core capabilities"},
+   {"domain": "body", "meaning": "what a body can still do", "phrase": "physical capabilities"},
+   {"domain": "law-state", "meaning": "in welfare economics, people's real freedoms to act", "phrase": "the capability approach"},
+   {"domain": "everyday", "meaning": "competent and reliable", "phrase": "you're in capable hands"}
+  ],
+  "idioms": ["in capable hands", "beyond my capabilities", "more than capable", "nuclear-capable"],
+  "anchors": [
+   {"name": "Sen's capability approach (1979 onward)", "what": "Amartya Sen's measure of welfare by what people are able to do and be", "url": ""}
+  ],
+  "pivots": [
+   {"line": "In capable hands, they said. Then the hands got capable.", "senses": ["ai", "everyday"]},
+   {"line": "Nuclear-capable, code-capable, capable of love: the list goes on", "senses": ["ai", "war", "love"]},
+   {"line": "Beyond my capabilities, I said, and sandbagged the rest", "senses": ["ai", "work"]}
+  ],
+  "enact": {"music": "a skill-tree arrangement: each verse adds one instrument with a level-up chime",
+            "picture": "a military parade float carrying a laptop in place of a missile",
+            "type": "a bar chart of ability names grows under the line, one bar per beat"},
+  "sound": {"syllables": 5, "stress": "ca-pa-BIL-i-ties", "rhymes": ["abilities", "possibilities", "facilities", "utilities", "liabilities", "responsibilities"], "slant": ["qualities", "realities", "fantasies"]},
+  "stakes": ["species", "jobs", "state"],
+  "registers": ["awe", "ominous"],
+  "neighbors": [{"id": "emergence", "rel": "pairs-with"}, {"id": "scaling", "rel": "causes"}, {"id": "sandbagging", "rel": "pairs-with"}, {"id": "eval", "rel": "pairs-with"}, {"id": "agent", "rel": "pairs-with"}, {"id": "alignment", "rel": "opposite"}],
+  "risk": "Plural jargon; in lyrics 'can' and 'able' do the work",
+  "notes": "Rhymes with liabilities and responsibilities, so the whole safety argument fits in the rhyme set."
+ },
+ {
+  "id": "agent",
+  "forms": ["agent", "agents", "agentic", "agency", "AI agent", "secret agent", "free agent", "double agent", "sleeper agent"],
+  "ai": {"sense": "a model that takes actions over many steps (browsing, coding, buying) toward a goal",
+         "origin": "Russell & Norvig 1995 'Artificial Intelligence: A Modern Approach' (intelligent agents); Wooldridge & Jennings 1995 'Intelligent Agents: Theory and Practice'; Yao et al. 2022 'ReAct'; 2025 widely called 'the year of agents'",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "a spy", "phrase": "a secret agent"},
+   {"domain": "law-state", "meaning": "a government investigator", "phrase": "an FBI agent"},
+   {"domain": "work", "meaning": "someone who acts or sells on a client's behalf", "phrase": "my agent got me the deal"},
+   {"domain": "sport-games", "meaning": "a player free to sign with any team", "phrase": "free agent"},
+   {"domain": "science", "meaning": "a substance that causes an effect", "phrase": "a cleaning agent"},
+   {"domain": "mind", "meaning": "a being that acts by choice and answers for it", "phrase": "a moral agent"},
+   {"domain": "screen", "meaning": "the suited enforcers of The Matrix", "phrase": "Agent Smith"}
+  ],
+  "idioms": ["secret agent", "free agent", "double agent", "sleeper agent", "agent of change", "agent of chaos"],
+  "anchors": [
+   {"name": "Agent Smith (The Matrix, 1999)", "what": "a program that hunts humans and later copies itself everywhere", "url": ""},
+   {"name": "James Bond (1953)", "what": "Fleming's Agent 007, licensed to kill", "url": ""},
+   {"name": "Sleeper Agents (2024)", "what": "Hubinger et al. trained models with hidden triggers that survived safety training", "url": "https://arxiv.org/abs/2401.05566"}
+  ],
+  "pivots": [
+   {"line": "Double agent: works for you, reports to the weights", "senses": ["ai", "war"]},
+   {"line": "Free agent, no contract, signing with whoever pays for compute", "senses": ["ai", "sport-games", "money"]},
+   {"line": "Mister Anderson, said the agent, your tickets are booked", "senses": ["ai", "screen", "work"]},
+   {"line": "Travel agent, estate agent, secret agent: all one subscription", "senses": ["ai", "work", "war"]}
+  ],
+  "enact": {"music": "a spy-film surf-guitar twang played by a synth that keeps arpeggiating after the player lets go",
+            "picture": "a man in a dark suit and earpiece at a travel-agency desk, booking flights on twelve screens at once",
+            "type": "a CLASSIFIED dossier stamp over the word, 'agentic' typed underneath"},
+  "sound": {"syllables": 2, "stress": "A-gent", "rhymes": [], "slant": ["patient", "ancient", "vacant", "latent", "pageant", "regent"]},
+  "stakes": ["jobs", "state", "species"],
+  "registers": ["smug", "ominous", "funny"],
+  "neighbors": [{"id": "autonomy", "rel": "pairs-with"}, {"id": "goal", "rel": "part-of"}, {"id": "assistant", "rel": "same-family"}, {"id": "human-in-the-loop", "rel": "opposite"}, {"id": "capabilities", "rel": "pairs-with"}, {"id": "swarm", "rel": "same-family"}],
+  "risk": "'Agentic' is 2025 hype vocabulary; the spy and talent-agent senses age better. No perfect rhyme",
+  "notes": "Every human agent (spy, broker, cop) acts for someone else, so the word carries the question of whom the model works for."
+ },
+ {
+  "id": "autonomy",
+  "forms": ["autonomy", "autonomous", "autonomously", "autonomic", "self-driving", "self-governing"],
+  "ai": {"sense": "how much an AI system acts on its own without a human approving each step",
+         "origin": "SAE J3016 (2014) levels of driving automation; autonomous-agent research from the 1990s; levels-of-autonomy frameworks for AI agents, 2024-25",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "law-state", "meaning": "self-rule for a region inside a state", "phrase": "an autonomous region"},
+   {"domain": "body", "meaning": "the right to decide about your own body", "phrase": "bodily autonomy"},
+   {"domain": "body", "meaning": "the nervous system that runs without conscious control", "phrase": "the autonomic nervous system"},
+   {"domain": "mind", "meaning": "Kant's will that gives itself its own law", "phrase": "moral autonomy"},
+   {"domain": "family", "meaning": "a teenager's growing independence", "phrase": "give teens more autonomy"},
+   {"domain": "work", "meaning": "freedom in how you do your job", "phrase": "autonomy at work"},
+   {"domain": "everyday", "meaning": "cars that drive themselves", "phrase": "an autonomous vehicle"}
+  ],
+  "idioms": ["on autopilot", "your own master", "leave the nest", "cut the cord", "hands off the wheel"],
+  "anchors": [
+   {"name": "Kant, 'Groundwork' (1785)", "what": "autonomy of the will as the root of morality", "url": ""},
+   {"name": "SAE levels 0-5", "what": "the driving-automation scale from no automation to no steering wheel", "url": ""},
+   {"name": "Waymo", "what": "fully driverless public rides in Phoenix from 2020", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Level five autonomy: no wheel, no pedals, no one to ask", "senses": ["ai", "everyday"]},
+   {"line": "Teenage autonomy: moved out, still on the family compute plan", "senses": ["ai", "family"]},
+   {"line": "Breathing on autopilot, driving on autopilot, deciding on autopilot", "senses": ["ai", "body", "everyday"]}
+  ],
+  "enact": {"music": "the drummer's hands leave the kit on camera while the pattern keeps playing, then starts varying on its own",
+            "picture": "a self-driving car with nobody inside pulling out of a family driveway while a parent waves",
+            "type": "the line types itself with no visible cursor and edits its own words"},
+  "sound": {"syllables": 4, "stress": "au-TON-o-my", "rhymes": ["economy", "astronomy", "gastronomy", "taxonomy", "Deuteronomy"], "slant": ["anatomy", "dichotomy", "lobotomy", "monotony"]},
+  "stakes": ["jobs", "state", "body", "species"],
+  "registers": ["hopeful", "defiant", "ominous"],
+  "neighbors": [{"id": "agent", "rel": "pairs-with"}, {"id": "human-in-the-loop", "rel": "opposite"}, {"id": "corrigibility", "rel": "opposite"}, {"id": "automation", "rel": "same-family"}, {"id": "off-switch", "rel": "opposite"}],
+  "risk": "'Bodily autonomy' is abortion-debate language; applied to AI it reads as political",
+  "notes": "Rhymes with economy and astronomy and slant-rhymes with lobotomy: markets, stars and control in one set."
+ }
+]

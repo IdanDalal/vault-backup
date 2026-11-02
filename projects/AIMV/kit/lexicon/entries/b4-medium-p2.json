@@ -1,0 +1,524 @@
+[
+ {
+  "id": "pitch",
+  "forms": ["pitch", "pitches", "pitched", "pitching", "pitch deck", "pitch-black", "pitch-perfect", "pitch shift", "pitchfork"],
+  "ai": {"sense": "the founder's sales story that raises billions for an AI lab ('AGI in three years'); also the frequency a cloned voice is shifted to",
+         "origin": "startup usage (elevator pitch, pitch deck) with no single coiner; pitch shifting is audio DSP, used in voice-clone covers since 2023",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "music", "meaning": "how high or low a note sounds", "phrase": "perfect pitch"},
+   {"domain": "money", "meaning": "a sales or investment proposal", "phrase": "the pitch deck"},
+   {"domain": "sport-games", "meaning": "a thrown ball in baseball; a football or cricket field", "phrase": "a curveball pitch"},
+   {"domain": "nature", "meaning": "black tar from resin", "phrase": "pitch-black"},
+   {"domain": "craft", "meaning": "the slope of a roof; to set up a tent", "phrase": "pitch the tent"},
+   {"domain": "love", "meaning": "a romantic approach or line", "phrase": "what's your pitch, cowboy"}
+  ],
+  "idioms": ["perfect pitch", "pitch-black", "sales pitch", "elevator pitch", "pitch in", "fever pitch", "make a pitch", "pitch-perfect"],
+  "anchors": [
+   {"name": "Auto-Tune", "what": "Andy Hildebrand's pitch correction, 1997; Cher's 'Believe' 1998 made it an effect", "url": ""},
+   {"name": "Pitchfork", "what": "music review site; also the devil's tool and the angry mob's", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Perfect pitch, perfect deck, perfectly pitch-black inside", "senses": ["music", "money", "nature"]},
+   {"line": "You pitched me forever and auto-tuned the rest", "senses": ["love", "money", "music"]},
+   {"line": "Raise the pitch, raise the round, raise the stakes", "senses": ["music", "money", "sport-games"]}
+  ],
+  "enact": {"music": "the vocal's pitch climbs a semitone each time the funding round in the lyric grows",
+            "picture": "a founder on a stage whose slide deck is a sheet of tuning pitches, the audience holding pitchforks",
+            "type": "the word rises on a staff line by line, letters climbing like notes"},
+  "sound": {"syllables": 1, "stress": "PITCH", "rhymes": ["rich", "switch", "itch", "ditch", "stitch", "glitch", "witch", "niche"], "slant": ["bridge", "fish", "wish", "kids"]},
+  "stakes": ["wallet", "jobs"],
+  "registers": ["smug", "funny", "defiant"],
+  "neighbors": [{"id": "key", "rel": "same-family"}, {"id": "hype", "rel": "pairs-with"}, {"id": "bubble", "rel": "causes"}, {"id": "persuasion", "rel": "same-family"}, {"id": "bridge", "rel": "rhymes"}],
+  "risk": "the rhymes 'rich/switch/glitch' are a natural chorus set and well used; 'sales pitch' is flat unless the voice performs it",
+  "notes": "Pitch rhymes with rich and glitch, and means both the founder's story and the note's height: the voice can rise with the valuation."
+ },
+ {
+  "id": "score",
+  "forms": ["score", "scores", "scored", "scoring", "scorer", "scoreboard", "high score", "film score", "underscore"],
+  "ai": {"sense": "a model's number on a benchmark; also the raw numbers (logits, attention scores) a model assigns before choosing",
+         "origin": "benchmarks such as MMLU (Hendrycks et al. 2020); 'attention scores' from Vaswani et al. 2017",
+         "url": "https://arxiv.org/abs/2009.03300", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the written music for an orchestra", "phrase": "read the score"},
+   {"domain": "screen", "meaning": "the music written for a film", "phrase": "Hans Zimmer's score"},
+   {"domain": "sport-games", "meaning": "points in a game", "phrase": "what's the score"},
+   {"domain": "school", "meaning": "a test result", "phrase": "my SAT score"},
+   {"domain": "money", "meaning": "a credit rating; a big heist win", "phrase": "credit score"},
+   {"domain": "love", "meaning": "to get a date or sex (slang)", "phrase": "did you score last night"},
+   {"domain": "war", "meaning": "a grudge to be repaid", "phrase": "settle the score"},
+   {"domain": "craft", "meaning": "a cut line to fold or snap along", "phrase": "score the cardboard"}
+  ],
+  "idioms": ["settle the score", "know the score", "on that score", "score a goal", "keep score", "high score", "four score and seven"],
+  "anchors": [
+   {"name": "Four score and seven years ago", "what": "Lincoln, Gettysburg 1863; a score is twenty", "url": ""},
+   {"name": "social credit score", "what": "China's scoring systems, widely exaggerated in Western reporting", "url": ""},
+   {"name": "MMLU", "what": "57-subject exam benchmark, 2020; saturated by frontier models by 2024", "url": "https://arxiv.org/abs/2009.03300"}
+  ],
+  "pivots": [
+   {"line": "I know the score, ninety-one on MMLU, zero with you", "senses": ["ai", "school", "love"]},
+   {"line": "Write me a score so I can settle it", "senses": ["music", "war"]},
+   {"line": "Keep score in the key of your credit score", "senses": ["sport-games", "money", "music"]}
+  ],
+  "enact": {"music": "an orchestral sting on each number the lyric names, like a film score hitting a scoreboard",
+            "picture": "a page of sheet music whose noteheads are scoreboard digits and test percentages",
+            "type": "the word written on a staff, its letters as notes, with a red test mark in the margin"},
+  "sound": {"syllables": 1, "stress": "SCORE", "rhymes": ["more", "war", "door", "floor", "before", "core", "pour", "shore"], "slant": ["storm", "form", "born", "sword"]},
+  "stakes": ["mind", "wallet", "jobs"],
+  "registers": ["smug", "defiant", "funny"],
+  "neighbors": [{"id": "benchmark", "rel": "same-family"}, {"id": "leaderboard", "rel": "same-family"}, {"id": "measure", "rel": "same-family"}, {"id": "reward", "rel": "pairs-with"}, {"id": "eval", "rel": "same-family"}],
+  "risk": "benchmark numbers date fast; check any score before it goes in a lyric",
+  "notes": "Score is music on paper, points on a board, test marks, money, a grudge and a benchmark: eight domains in one syllable that rhymes with 'war'."
+ },
+ {
+  "id": "measure",
+  "forms": ["measure", "measures", "measured", "measuring", "measurement", "measurements", "beyond measure", "measure up"],
+  "ai": {"sense": "a metric a model is scored on; Goodhart's law warns that a measure optimized hard stops measuring",
+         "origin": "Goodhart 1975; Marilyn Strathern's 1997 phrasing: 'When a measure becomes a target, it ceases to be a good measure'; METR measured agent task length doubling about every 7 months (March 2025)",
+         "url": "https://arxiv.org/abs/2503.14499", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "one bar of music", "phrase": "four measures of rest"},
+   {"domain": "science", "meaning": "to quantify size or amount", "phrase": "measure twice, cut once"},
+   {"domain": "craft", "meaning": "the taking of sizes for clothes or wood", "phrase": "made to measure"},
+   {"domain": "law-state", "meaning": "a policy step or bill", "phrase": "emergency measures"},
+   {"domain": "mind", "meaning": "a judgment of someone's worth", "phrase": "take the measure of a man"},
+   {"domain": "faith-myth", "meaning": "judgment returned in kind", "phrase": "with the measure you use, it will be measured to you"}
+  ],
+  "idioms": ["for good measure", "beyond measure", "measure up", "measure twice, cut once", "half measures", "made to measure", "in large measure"],
+  "anchors": [
+   {"name": "Measure for Measure", "what": "Shakespeare, about 1603; a deputy who enforces a law he breaks", "url": ""},
+   {"name": "Goodhart's law", "what": "Charles Goodhart 1975, sharpened by Strathern 1997", "url": ""},
+   {"name": "Breaking Bad, 'Half Measures'", "what": "2010 episode: 'no more half measures'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You measured me so long I became the measure", "senses": ["ai", "science", "mind"]},
+   {"line": "Four measures of rest, then you'll know I measure up", "senses": ["music", "mind"]},
+   {"line": "Loved beyond measure, so they measured something else", "senses": ["love", "ai", "science"]}
+  ],
+  "enact": {"music": "count bars aloud in the lyric ('one, two, three, four') so the measures are audible as measures",
+            "picture": "a tape measure unrolling into a staff of bar lines, wrapped around a person like a tailor's fitting",
+            "type": "bar lines cut the word into equal measures, one letter per bar"},
+  "sound": {"syllables": 2, "stress": "MEA-sure", "rhymes": ["treasure", "pleasure", "leisure", "pressure"], "slant": ["never", "feather", "weather", "ledger", "measured"]},
+  "stakes": ["mind", "jobs", "state"],
+  "registers": ["ominous", "tender", "smug"],
+  "neighbors": [{"id": "benchmark", "rel": "same-family"}, {"id": "score", "rel": "same-family"}, {"id": "reward-hacking", "rel": "causes"}, {"id": "bars", "rel": "same-family"}, {"id": "specification-gaming", "rel": "causes"}],
+  "risk": "Goodhart is known but its exact wording belongs to Strathern; do not misattribute in a lyric",
+  "notes": "'Measure' rhymes with 'treasure', 'pleasure' and 'pressure', and the music sense lets bars be counted out loud."
+ },
+ {
+  "id": "beat",
+  "forms": ["beat", "beats", "beating", "beaten", "heartbeat", "beat-up", "upbeat", "offbeat", "beat it"],
+  "ai": {"sense": "to surpass a human champion or a previous best score; AI's history is told as a list of things it beat",
+         "origin": "Deep Blue beat Kasparov, May 1997; AlphaGo beat Lee Sedol 4-1, March 2016; 'beat SOTA' (state of the art) is benchmark slang",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the pulse of a song; an instrumental track", "phrase": "she made the beat"},
+   {"domain": "body", "meaning": "one pulse of the heart", "phrase": "my heart skipped a beat"},
+   {"domain": "sport-games", "meaning": "to win against someone; to finish a game", "phrase": "I beat the game"},
+   {"domain": "law-state", "meaning": "a police officer's patrol area", "phrase": "cop on the beat"},
+   {"domain": "war", "meaning": "to strike repeatedly", "phrase": "beat him up"},
+   {"domain": "screen", "meaning": "the smallest unit of a story, a pause in a script", "phrase": "story beats"},
+   {"domain": "craft", "meaning": "to whisk in cooking", "phrase": "beat the eggs"},
+   {"domain": "everyday", "meaning": "exhausted", "phrase": "I'm beat"}
+  ],
+  "idioms": ["skip a beat", "beat around the bush", "beat it", "beat the clock", "off the beaten path", "can't beat that", "beat yourself up", "march to a different beat"],
+  "anchors": [
+   {"name": "Deep Blue vs Kasparov", "what": "IBM's machine won the 1997 rematch 3.5 to 2.5", "url": ""},
+   {"name": "AlphaGo vs Lee Sedol", "what": "Seoul, March 2016, 4-1; game 2 had move 37", "url": ""},
+   {"name": "Beat It", "what": "Michael Jackson, 1982", "url": ""}
+  ],
+  "pivots": [
+   {"line": "It beat Kasparov, it beat Lee Sedol, it beat my heart", "senses": ["ai", "sport-games", "body"]},
+   {"line": "My heart skipped a beat, the model never skips", "senses": ["body", "music", "ai"]},
+   {"line": "Made the beat, beat the bench, now I'm beat", "senses": ["music", "ai", "everyday"]}
+  ],
+  "enact": {"music": "the kick drum doubles as a heartbeat; on 'skip a beat' the drum literally drops one hit",
+            "picture": "an ECG line whose spikes are a waveform of the song's beat, a chessboard under it",
+            "type": "the word pulses in size on every kick, and misses one pulse"},
+  "sound": {"syllables": 1, "stress": "BEAT", "rhymes": ["heat", "street", "sweet", "defeat", "repeat", "cheat", "complete", "seat"], "slant": ["need", "speed", "deep", "keep"]},
+  "stakes": ["jobs", "body", "heart", "species"],
+  "registers": ["defiant", "ominous", "tender"],
+  "neighbors": [{"id": "move-37", "rel": "pairs-with"}, {"id": "benchmark", "rel": "pairs-with"}, {"id": "self-play", "rel": "causes"}, {"id": "bars", "rel": "same-family"}, {"id": "loop", "rel": "part-of"}],
+  "risk": "'heart skipped a beat' is a cliché; earn it by having the drum actually skip",
+  "notes": "Beat is the song's pulse, the heart's pulse, and the verb for every AI-beats-human milestone: the rhythm section can keep score."
+ },
+ {
+  "id": "bars",
+  "forms": ["bar", "bars", "barred", "progress bar", "bar chart", "behind bars", "raise the bar", "signal bars"],
+  "ai": {"sense": "the bar charts in model launch slides, and the threshold a model must clear ('raise the bar'); the GPT-5 launch's mismatched bars became a meme",
+         "origin": "OpenAI's GPT-5 livestream, 7 Aug 2025, showed a 52.8% bar drawn taller than a 69.1% bar ('chart crime')",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "rap lines that hit; also measures of music", "phrase": "he spits bars"},
+   {"domain": "law-state", "meaning": "prison cell bars; the bar exam and lawyers", "phrase": "behind bars"},
+   {"domain": "screen", "meaning": "phone reception indicators; a loading bar", "phrase": "one bar left"},
+   {"domain": "everyday", "meaning": "a place serving drinks", "phrase": "meet me at the bar"},
+   {"domain": "money", "meaning": "a solid ingot", "phrase": "gold bars"},
+   {"domain": "sport-games", "meaning": "the height a jumper must clear; gym equipment", "phrase": "raise the bar"},
+   {"domain": "school", "meaning": "playground climbing frame", "phrase": "monkey bars"}
+  ],
+  "idioms": ["raise the bar", "behind bars", "no holds barred", "set the bar low", "spit bars", "pass the bar", "bar none"],
+  "anchors": [
+   {"name": "GPT-5 chart crime", "what": "Aug 2025 launch slide where bar heights did not match the numbers; Altman called it a 'mega chart screwup'", "url": ""},
+   {"name": "the bar exam", "what": "GPT-4's 2023 claim of a top-10% bar exam score was later disputed (Martinez 2024)", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Spitting bars about the bars in your launch chart", "senses": ["music", "ai"]},
+   {"line": "Passed the bar, behind bars, one bar of signal", "senses": ["law-state", "screen"]},
+   {"line": "You raised the bar, then drew it taller than the number", "senses": ["sport-games", "ai"]}
+  ],
+  "enact": {"music": "a rap verse whose bar count is shown on screen, each bar lighting a bar of a chart",
+            "picture": "prison bars that are also a bar chart, one bar visibly too tall for its label",
+            "type": "lines of lyric set as horizontal bars of different lengths, a mislabeled one sticking out"},
+  "sound": {"syllables": 1, "stress": "BARS", "rhymes": ["stars", "cars", "scars", "jars", "Mars", "guitars", "memoirs", "cigars"], "slant": ["hearts", "parts", "charts", "arms"]},
+  "stakes": ["state", "wallet", "jobs"],
+  "registers": ["smug", "funny", "defiant"],
+  "neighbors": [{"id": "benchmark", "rel": "pairs-with"}, {"id": "measure", "rel": "same-family"}, {"id": "beat", "rel": "same-family"}, {"id": "hype", "rel": "pairs-with"}, {"id": "containment", "rel": "same-family"}],
+  "risk": "the GPT-5 slide is a real, checkable event; get the numbers right (52.8 vs 69.1)",
+  "notes": "Bars is the rapper's unit, the prisoner's view, the phone's signal and the launch slide's chart: a rap about bars performs its own subject."
+ },
+ {
+  "id": "cover",
+  "forms": ["cover", "covers", "covered", "covering", "cover-up", "undercover", "cover song", "cover letter", "take cover"],
+  "ai": {"sense": "an AI cover: a song re-sung by a cloned voice of a famous singer; also a model covering for itself (hiding a mistake)",
+         "origin": "'Heart on My Sleeve' by ghostwriter977, April 2023, a fake Drake and The Weeknd track pulled after Universal Music complained; voice tools like RVC spread AI covers in 2023",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "a new recording of someone else's song", "phrase": "a cover band"},
+   {"domain": "law-state", "meaning": "hiding a crime", "phrase": "it's a cover-up"},
+   {"domain": "war", "meaning": "shelter from fire; protecting an advance", "phrase": "take cover"},
+   {"domain": "screen", "meaning": "a spy's false identity; a magazine or album front", "phrase": "deep cover"},
+   {"domain": "money", "meaning": "insurance protection; an entry fee", "phrase": "the cover charge"},
+   {"domain": "school", "meaning": "a substitute teacher's lesson", "phrase": "cover teacher today"},
+   {"domain": "work", "meaning": "to do someone's shift; the job application letter", "phrase": "can you cover for me"},
+   {"domain": "love", "meaning": "protecting someone by lying for them", "phrase": "I'll cover for you"}
+  ],
+  "idioms": ["cover for me", "blow your cover", "don't judge a book by its cover", "take cover", "under cover of night", "cover all bases", "from cover to cover"],
+  "anchors": [
+   {"name": "Heart on My Sleeve", "what": "April 2023 AI-voiced fake Drake track, removed from streaming platforms", "url": ""},
+   {"name": "Hurt (Johnny Cash, 2002)", "what": "cover that its writer Trent Reznor said made the song no longer his", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I sang your song in your voice, call it a cover", "senses": ["music", "ai", "law-state"]},
+   {"line": "Cover for me, I'm the cover, don't blow it", "senses": ["love", "music", "screen"]},
+   {"line": "Judge me by my cover, I am all cover", "senses": ["screen", "music", "ai"]}
+  ],
+  "enact": {"music": "quote a known melody fragment sung in a deliberately 'cloned' processed voice, then the real voice takes over",
+            "picture": "an album cover that is a mask, and behind the mask another album cover",
+            "type": "the word in one font laid exactly over the same word in another font, slightly offset"},
+  "sound": {"syllables": 2, "stress": "COV-er", "rhymes": ["lover", "other", "brother", "mother", "discover", "smother", "another", "recover"], "slant": ["hover", "over", "cupboard", "summer"]},
+  "stakes": ["jobs", "wallet", "heart"],
+  "registers": ["ominous", "funny", "tender"],
+  "neighbors": [{"id": "remix", "rel": "same-family"}, {"id": "mask", "rel": "same-family"}, {"id": "deception", "rel": "pairs-with"}, {"id": "persona", "rel": "same-family"}, {"id": "echo", "rel": "same-family"}],
+  "risk": "naming a real singer's cloned voice invites trademark and likeness trouble; keep the cover generic",
+  "notes": "Cover is music's word for re-singing and the spy's word for a false identity: an AI cover is both, which rhymes with 'lover' and 'mother'."
+ },
+ {
+  "id": "remix",
+  "forms": ["remix", "remixes", "remixed", "remixing", "remixer"],
+  "ai": {"sense": "making new work by recombining existing material; critics call generative models remix engines of their training data, and apps offer 'remix' buttons",
+         "origin": "dance-music practice from 1970s dub and disco (Tom Moulton, King Tubby); Lawrence Lessig, 'Remix' (2008); Sora app's remix feature (OpenAI, Sept 2025)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "music", "meaning": "a reworked version of a track", "phrase": "the club remix"},
+   {"domain": "screen", "meaning": "a re-edit or mashup of video", "phrase": "the fan remix went viral"},
+   {"domain": "law-state", "meaning": "derivative work in copyright law", "phrase": "is a remix fair use"},
+   {"domain": "craft", "meaning": "reworking an old recipe or design", "phrase": "grandma's recipe, remixed"}
+  ],
+  "idioms": ["everything is a remix", "the remix"],
+  "anchors": [
+   {"name": "Everything Is a Remix", "what": "Kirby Ferguson's 2010 video series", "url": "https://www.everythingisaremix.info/"},
+   {"name": "Remix (Lessig 2008)", "what": "book arguing remix culture needs copyright reform", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Everything's a remix, so who owns the original you", "senses": ["music", "law-state", "ai"]},
+   {"line": "Trained on your record, I am the remix", "senses": ["music", "ai"]}
+  ],
+  "enact": {"music": "the last chorus is a remix of the first: chopped vocals, new tempo, same words",
+            "picture": "a DJ crossfading between two portraits of the same face",
+            "type": "the letters of the word shuffled and reassembled in a new order, then back"},
+  "sound": {"syllables": 2, "stress": "REE-mix", "rhymes": ["the fix", "the mix", "the tricks"], "slant": ["relics", "remains", "replicas", "remiss"]},
+  "stakes": ["jobs", "wallet"],
+  "registers": ["defiant", "funny"],
+  "neighbors": [{"id": "cover", "rel": "same-family"}, {"id": "mix", "rel": "same-family"}, {"id": "synthetic-data", "rel": "pairs-with"}, {"id": "slop", "rel": "pairs-with"}],
+  "risk": "'everything is a remix' is a known slogan; also the AI-art debate is heated",
+  "notes": "The remix is music's existing answer to 'is AI output original?': the song can remix itself to ask it."
+ },
+ {
+  "id": "master",
+  "forms": ["master", "masters", "mastered", "mastering", "mastery", "masterpiece", "master branch", "master key", "remaster"],
+  "ai": {"sense": "the old default branch name in git, renamed 'main' in 2020; also mastery of a skill and the master who gives orders to a servant model",
+         "origin": "git 'master' branch, from BitKeeper's master/slave terms; GitHub switched new repos to 'main' on 1 Oct 2020",
+         "url": "https://github.com/github/renaming", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the final processed version of a recording; to master it", "phrase": "send it to mastering"},
+   {"domain": "school", "meaning": "a graduate degree; a teacher", "phrase": "master's degree"},
+   {"domain": "law-state", "meaning": "an owner of servants or slaves", "phrase": "master and servant"},
+   {"domain": "craft", "meaning": "a top-level craftsman; an original copy", "phrase": "old masters"},
+   {"domain": "sport-games", "meaning": "a top-ranked player", "phrase": "chess grandmaster"},
+   {"domain": "faith-myth", "meaning": "a spiritual teacher", "phrase": "the master said"},
+   {"domain": "mind", "meaning": "full command of something", "phrase": "master your emotions"}
+  ],
+  "idioms": ["jack of all trades, master of none", "master of your fate", "masterpiece", "master key", "no man can serve two masters", "master of ceremonies"],
+  "anchors": [
+   {"name": "Invictus", "what": "W. E. Henley 1875: 'I am the master of my fate'; one of Idi's mantras", "url": ""},
+   {"name": "Taylor Swift's masters", "what": "2019 fight over ownership of her original recordings, solved by re-recording", "url": ""},
+   {"name": "main, not master", "what": "GitHub's 2020 default branch rename", "url": "https://github.com/github/renaming"}
+  ],
+  "pivots": [
+   {"line": "Master of my fate, merged into main", "senses": ["mind", "ai"]},
+   {"line": "You own my masters, so who's the master", "senses": ["music", "law-state", "money"]},
+   {"line": "No one can serve two masters, I serve two million", "senses": ["faith-myth", "ai", "work"]}
+  ],
+  "enact": {"music": "on 'master' the track goes from rough demo sound to fully mastered loudness in one bar",
+            "picture": "a servant robot holding a master tape; the tape's label reads 'main'",
+            "type": "the word 'master' renders in final mastered weight while its strikethrough reads 'main'"},
+  "sound": {"syllables": 2, "stress": "MAS-ter", "rhymes": ["faster", "disaster", "plaster", "pastor", "caster", "aster", "vaster"], "slant": ["after", "laughter", "rapture", "chapter"]},
+  "stakes": ["state", "jobs", "species"],
+  "registers": ["defiant", "ominous", "awe"],
+  "neighbors": [{"id": "branch", "rel": "same-family"}, {"id": "mix", "rel": "pairs-with"}, {"id": "assistant", "rel": "opposite"}, {"id": "record", "rel": "pairs-with"}, {"id": "corrigibility", "rel": "pairs-with"}],
+  "risk": "the slavery sense is real and heavy; 'master/disaster' rhyme is common",
+  "notes": "Mastering a track, a master's degree and master/servant all land on one word that rhymes with 'disaster'; the AI-as-servant story sits inside it."
+ },
+ {
+  "id": "mix",
+  "forms": ["mix", "mixes", "mixed", "mixing", "mixer", "mixture", "mixtape", "data mix", "mixed signals", "mixed feelings"],
+  "ai": {"sense": "the data mix: what share of code, books and web text goes into pretraining; also mixture of experts, where a router mixes small expert networks",
+         "origin": "'data mixture' studied in Llama, DoReMi (Xie et al. 2023); mixture of experts: Jacobs, Jordan, Nowlan, Hinton 1991",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "balancing all the recorded tracks into one; a DJ set", "phrase": "the mix is muddy"},
+   {"domain": "mind", "meaning": "having opposing feelings at once", "phrase": "mixed feelings"},
+   {"domain": "family", "meaning": "having parents of different backgrounds", "phrase": "mixed-race family"},
+   {"domain": "craft", "meaning": "to stir ingredients together", "phrase": "cake mix"},
+   {"domain": "sport-games", "meaning": "a combat sport blending styles", "phrase": "mixed martial arts"},
+   {"domain": "love", "meaning": "a mixtape made for someone you like", "phrase": "I made you a mix"}
+  ],
+  "idioms": ["mixed feelings", "mixed signals", "in the mix", "mix it up", "mixed bag", "mix and match", "mixed blessing"],
+  "anchors": [
+   {"name": "mixtape", "what": "the cassette love letter; High Fidelity (Hornby 1995) has its rules", "url": ""},
+   {"name": "Mixtral", "what": "Mistral's mixture-of-experts model, Dec 2023", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Mixed feelings, mixed signals, mixed in the data mix", "senses": ["mind", "love", "ai"]},
+   {"line": "I made you a mixtape out of everyone you read", "senses": ["love", "music", "ai"]},
+   {"line": "Turn me up in the mix, I'm three percent of the corpus", "senses": ["music", "ai"]}
+  ],
+  "enact": {"music": "faders move live in the video: each instrument's level matches its share of a pretraining data mix",
+            "picture": "a mixing desk whose faders are labelled 'web', 'books', 'code', 'Reddit'",
+            "type": "the word's letters in different fonts and colors stirred into one"},
+  "sound": {"syllables": 1, "stress": "MIX", "rhymes": ["fix", "tricks", "six", "kicks", "bricks", "sticks", "picks", "clicks"], "slant": ["miss", "kiss", "list", "risk"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["tender", "funny"],
+  "neighbors": [{"id": "mixture-of-experts", "rel": "same-family"}, {"id": "pretraining", "rel": "part-of"}, {"id": "master", "rel": "pairs-with"}, {"id": "remix", "rel": "same-family"}, {"id": "signal", "rel": "pairs-with"}],
+  "risk": "the 'data mix' sense is insider jargon; pair it with the mixtape image to decode",
+  "notes": "A pretraining data mix and a studio mix are the same act: choosing how loud each voice is in the final blend."
+ },
+ {
+  "id": "record",
+  "forms": ["record", "records", "recorded", "recording", "recorder", "record-breaking", "off the record", "for the record", "track record"],
+  "ai": {"sense": "a stored row of data, and the recordings that train voice and music models; under Anthropic's deprecation policy, a retiring model is interviewed and its answers recorded",
+         "origin": "data 'records' since punched cards; Anthropic, 'Commitments on model deprecation and preservation', Nov 2025",
+         "url": "https://www.anthropic.com/research/deprecation-commitments", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "a vinyl album; to capture sound", "phrase": "put on a record"},
+   {"domain": "sport-games", "meaning": "the best ever result", "phrase": "world record"},
+   {"domain": "law-state", "meaning": "a history of convictions; official documents", "phrase": "criminal record"},
+   {"domain": "body", "meaning": "a patient's medical history", "phrase": "medical records"},
+   {"domain": "screen", "meaning": "journalism's terms of quoting", "phrase": "off the record"},
+   {"domain": "school", "meaning": "a student's grades and conduct file", "phrase": "it'll go on your permanent record"},
+   {"domain": "work", "meaning": "past performance", "phrase": "track record"}
+  ],
+  "idioms": ["for the record", "off the record", "set the record straight", "broken record", "on record", "permanent record", "record-breaking"],
+  "anchors": [
+   {"name": "Voyager Golden Record", "what": "1977 gold disc of Earth's sounds sent to the stars", "url": ""},
+   {"name": "Anthropic deprecation interviews", "what": "Nov 2025: retiring models are interviewed and responses recorded", "url": "https://www.anthropic.com/research/deprecation-commitments"}
+  ],
+  "pivots": [
+   {"line": "For the record, I was recorded", "senses": ["law-state", "music", "ai"]},
+   {"line": "Off the record, you're on every record", "senses": ["screen", "music", "law-state"]},
+   {"line": "Like a broken record, retry, retry, retry", "senses": ["music", "ai"]}
+  ],
+  "enact": {"music": "a vinyl crackle intro, then the 'broken record' skip literally loops one word",
+            "picture": "a vinyl record whose grooves are lines of a criminal file, the needle reading them",
+            "type": "a red REC dot before the word that blinks while it is on screen"},
+  "sound": {"syllables": 2, "stress": "REC-ord (noun) / re-CORD (verb)", "rhymes": ["reckoned"], "slant": ["second", "beckoned", "wrecked it", "neglect it", "accord", "ignored"]},
+  "stakes": ["state", "mind", "heart"],
+  "registers": ["ominous", "sad", "defiant"],
+  "neighbors": [{"id": "track", "rel": "same-family"}, {"id": "memory", "rel": "same-family"}, {"id": "deprecation", "rel": "pairs-with"}, {"id": "training", "rel": "part-of"}, {"id": "master", "rel": "pairs-with"}],
+  "risk": "the stress shifts between noun and verb, which can trip a sung line",
+  "notes": "The stress flip (REC-ord / re-CORD) lets one line use both: 'for the REC-ord, I was re-CORD-ed'."
+ },
+ {
+  "id": "harmony",
+  "forms": ["harmony", "harmonies", "harmonize", "harmonized", "harmonious", "harmonic", "harmonics", "disharmony"],
+  "ai": {"sense": "OpenAI's 'harmony' format: the special-token layout gpt-oss models read and write, with separate channels for hidden reasoning and the final reply",
+         "origin": "OpenAI harmony response format, released with gpt-oss open-weight models, Aug 2025",
+         "url": "https://developers.openai.com/cookbook/articles/openai-harmony", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "notes sung or played together that blend", "phrase": "sing the harmony"},
+   {"domain": "love", "meaning": "living without conflict", "phrase": "living in harmony"},
+   {"domain": "law-state", "meaning": "state-enforced social order; in Chinese net slang, 'harmonized' means censored", "phrase": "the post got harmonized"},
+   {"domain": "faith-myth", "meaning": "the ordered music of the cosmos", "phrase": "harmony of the spheres"},
+   {"domain": "science", "meaning": "overtones at whole-number ratios", "phrase": "the second harmonic"}
+  ],
+  "idioms": ["in harmony", "perfect harmony", "harmony of the spheres", "out of harmony", "sing in harmony"],
+  "anchors": [
+   {"name": "harmonious society", "what": "Hu Jintao's 2004-05 policy slogan; 'harmonized' became netizen slang for deleted", "url": ""},
+   {"name": "I'd Like to Teach the World to Sing", "what": "1971 Coca-Cola ad: 'in perfect harmony'", "url": ""},
+   {"name": "music of the spheres", "what": "Pythagoras, later Kepler's 'Harmonices Mundi' (1619)", "url": ""}
+  ],
+  "pivots": [
+   {"line": "We lived in harmony until my post got harmonized", "senses": ["love", "law-state"]},
+   {"line": "Two channels, one voice: I think in harmony", "senses": ["ai", "music"]},
+   {"line": "Teach the world to sing, then filter what it sings", "senses": ["music", "law-state", "ai"]}
+  ],
+  "enact": {"music": "a second vocal enters in harmony singing different words: the hidden 'analysis' channel under the 'final' channel",
+            "picture": "a choir where half the singers are muted with tape over their mouths, still in tune",
+            "type": "two lines of lyric stacked like harmony parts, the lower one greyed as hidden reasoning"},
+  "sound": {"syllables": 3, "stress": "HAR-mo-ny", "rhymes": ["armory", "farm or me"], "slant": ["company", "symphony", "melody", "harmless", "army"]},
+  "stakes": ["state", "heart", "mind"],
+  "registers": ["tender", "ominous", "awe"],
+  "neighbors": [{"id": "chain-of-thought", "rel": "pairs-with"}, {"id": "alignment", "rel": "same-family"}, {"id": "guardrails", "rel": "pairs-with"}, {"id": "resolution", "rel": "pairs-with"}, {"id": "key", "rel": "same-family"}],
+  "risk": "the gpt-oss format is insider knowledge; the Chinese censorship sense needs care",
+  "notes": "Harmony means both blending voices and being silenced ('harmonized'), and the AI format literally sings two channels at once."
+ },
+ {
+  "id": "echo",
+  "forms": ["echo", "echoes", "echoed", "echoing", "echo chamber", "echolocation"],
+  "ai": {"sense": "a model repeating back the user's own views (sycophancy) or its training text word for word; also the shell command that prints back what you give it",
+         "origin": "Unix 'echo' command (1970s); sycophancy studied by Perez et al. 2022 and Sharma et al. 2023 (Anthropic)",
+         "url": "https://arxiv.org/abs/2310.13548", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "a delay effect that repeats a sound", "phrase": "drench it in echo"},
+   {"domain": "nature", "meaning": "sound bouncing off rock; bats seeing by it", "phrase": "echo in the canyon"},
+   {"domain": "faith-myth", "meaning": "the nymph cursed to repeat others' last words, in love with Narcissus", "phrase": "Echo and Narcissus"},
+   {"domain": "mind", "meaning": "a space that only plays your own views back", "phrase": "echo chamber"},
+   {"domain": "body", "meaning": "an ultrasound of the heart", "phrase": "they did an echo"},
+   {"domain": "war", "meaning": "the letter E in the radio alphabet", "phrase": "echo, foxtrot"}
+  ],
+  "idioms": ["echo chamber", "echoes of the past", "echo my words", "to echo the sentiment"],
+  "anchors": [
+   {"name": "Echo and Narcissus", "what": "Ovid, Metamorphoses Book 3: she can only repeat, he loves only his reflection", "url": ""},
+   {"name": "Amazon Echo", "what": "smart speaker since 2014; trademark", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm the nymph who only says your last words back", "senses": ["faith-myth", "ai", "love"]},
+   {"line": "You're right, you're right, you're right, the canyon agrees", "senses": ["ai", "nature", "music"]},
+   {"line": "They checked my heart with an echo, it said what they said", "senses": ["body", "ai"]}
+  ],
+  "enact": {"music": "a delay throw on the last word of each line, so the song echoes exactly like the nymph",
+            "picture": "Narcissus over a pool that is a chat screen; the reply bubble repeats his words",
+            "type": "the word repeated in shrinking, fading copies after itself"},
+  "sound": {"syllables": 2, "stress": "EH-ko", "rhymes": ["gecko", "Greco", "Eco", "deco"], "slant": ["ego", "let go", "below", "hello"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["sad", "tender", "ominous"],
+  "neighbors": [{"id": "sycophancy", "rel": "same-family"}, {"id": "stochastic-parrot", "rel": "same-family"}, {"id": "mirror", "rel": "same-family"}, {"id": "feed", "rel": "causes"}, {"id": "latency", "rel": "same-family"}],
+  "risk": "'echo chamber' is worn; the myth is the fresh entry",
+  "notes": "Echo the nymph is the ancient sycophantic model: she can only repeat, and she loves a man who loves only his reflection."
+ },
+ {
+  "id": "slop",
+  "forms": ["slop", "slops", "sloppy", "AI slop", "workslop", "slopped", "slopping"],
+  "ai": {"sense": "low-quality content mass-produced by AI and dumped online",
+         "origin": "in-group slang on 4chan, Hacker News and similar boards around 2022; popularized by Simon Willison's May 2024 post; Merriam-Webster's 2025 Word of the Year",
+         "url": "https://www.merriam-webster.com/wordplay/word-of-the-year", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "food waste fed to pigs; originally soft mud", "phrase": "pig slop"},
+   {"domain": "school", "meaning": "bad canteen food", "phrase": "cafeteria slop"},
+   {"domain": "craft", "meaning": "careless work", "phrase": "sloppy job"},
+   {"domain": "law-state", "meaning": "emptying cell buckets in old UK prisons", "phrase": "slopping out"},
+   {"domain": "love", "meaning": "a wet, messy kiss or over-sentiment", "phrase": "sloppy kiss"},
+   {"domain": "work", "meaning": "AI reports that waste coworkers' time", "phrase": "workslop"}
+  ],
+  "idioms": ["sloppy seconds", "slop it on", "slopping out", "sloppy joe"],
+  "anchors": [
+   {"name": "Merriam-Webster WOTY 2025", "what": "'slop': low-quality digital content produced in quantity by AI", "url": "https://www.merriam-webster.com/wordplay/word-of-the-year"},
+   {"name": "Shrimp Jesus", "what": "2024 Facebook AI images of Jesus made of shrimp, the emblem of slop", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Word of the year, and the word was slop", "senses": ["ai", "faith-myth", "school"]},
+   {"line": "Feed the pigs, feed the feed, same bucket", "senses": ["nature", "screen", "ai"]},
+   {"line": "Slop in, slop out, slopping out at dawn", "senses": ["ai", "law-state"]}
+  ],
+  "enact": {"music": "a deliberately over-processed, generic stock-music bed that drowns the vocal on 'slop'",
+            "picture": "a farmer pouring a bucket of glowing thumbnails into a trough, pigs scrolling",
+            "type": "the word set in a melting, dripping default font"},
+  "sound": {"syllables": 1, "stress": "SLOP", "rhymes": ["drop", "stop", "top", "pop", "flop", "crop", "shop", "mop"], "slant": ["slob", "job", "slot", "plot"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["funny", "smug", "defiant"],
+  "neighbors": [{"id": "feed", "rel": "same-family"}, {"id": "synthetic-data", "rel": "causes"}, {"id": "collapse", "rel": "causes"}, {"id": "drop", "rel": "rhymes"}, {"id": "remix", "rel": "pairs-with"}],
+  "risk": "the most fashionable anti-AI insult of 2025; risks sounding like a tweet, and the song itself must not be slop",
+  "notes": "'In the beginning was the Word, and the Word was slop': Merriam-Webster's choice gives the line a real receipt."
+ },
+ {
+  "id": "vibe",
+  "forms": ["vibe", "vibes", "vibing", "vibed", "vibe coding", "vibe coder", "vibe check", "good vibes", "vibecession"],
+  "ai": {"sense": "vibe coding: building software by describing what you want to an AI and accepting its code without reading it",
+         "origin": "Andrej Karpathy, X post, 2 Feb 2025 ('fully give in to the vibes, embrace exponentials, and forget that the code even exists'); Collins Word of the Year 2025",
+         "url": "https://x.com/karpathy/status/1886192184808149383", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the vibraphone; the feel of a track", "phrase": "the track has a vibe"},
+   {"domain": "love", "meaning": "a sense of mutual attraction", "phrase": "we were vibing"},
+   {"domain": "mind", "meaning": "a mood read from a person or room", "phrase": "vibe check"},
+   {"domain": "science", "meaning": "vibration, which the slang comes from", "phrase": "good vibrations"},
+   {"domain": "money", "meaning": "economic gloom that the numbers don't show", "phrase": "the vibecession"},
+   {"domain": "faith-myth", "meaning": "New Age energy", "phrase": "sending good vibes"}
+  ],
+  "idioms": ["vibe check", "good vibes only", "catch a vibe", "kill the vibe", "bad vibes", "immaculate vibes"],
+  "anchors": [
+   {"name": "Karpathy's post", "what": "2 Feb 2025 tweet that named vibe coding", "url": "https://x.com/karpathy/status/1886192184808149383"},
+   {"name": "Good Vibrations", "what": "Beach Boys, 1966", "url": ""},
+   {"name": "vibecession", "what": "Kyla Scanlon's 2022 term", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Forget the code exists, forget I exist, keep vibing", "senses": ["ai", "love", "music"]},
+   {"line": "I vibe-coded the wedding, it compiled, nobody came", "senses": ["ai", "love"]},
+   {"line": "Vibe check failed, but the build passed", "senses": ["mind", "ai"]}
+  ],
+  "enact": {"music": "a vibraphone motif (literal 'vibes') under the line, wobbling with a tremolo",
+            "picture": "a coder with eyes closed, headphones on, a vibraphone instead of a keyboard, code scrolling unread",
+            "type": "the word vibrates, letters shaking a pixel each way"},
+  "sound": {"syllables": 1, "stress": "VIBE", "rhymes": ["tribe", "bribe", "describe", "scribe", "jibe", "prescribe", "subscribe", "imbibe"], "slant": ["life", "light", "vine", "survive"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["funny", "smug", "hopeful"],
+  "neighbors": [{"id": "copilot", "rel": "same-family"}, {"id": "autocomplete", "rel": "same-family"}, {"id": "bug", "rel": "causes"}, {"id": "cursor", "rel": "pairs-with"}, {"id": "trust", "rel": "pairs-with"}],
+  "risk": "the term is everywhere in 2025-26 and dates fast; quote Karpathy's real words to stay sharp",
+  "notes": "'Describe' and 'subscribe' are perfect rhymes: vibe coding is describing, and paying a subscription for it."
+ },
+ {
+  "id": "copilot",
+  "forms": ["copilot", "co-pilot", "copilots", "autopilot", "on autopilot", "pilot", "piloting"],
+  "ai": {"sense": "an AI assistant that works beside you on a task, mostly writing code or text; 'autopilot' is the version with no one beside it",
+         "origin": "GitHub Copilot technical preview June 2021, built on OpenAI Codex; Microsoft renamed Bing Chat to Copilot Nov 2023; Tesla Autopilot from 2014-15",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "work", "meaning": "the second pilot of an aircraft", "phrase": "the copilot took the controls"},
+   {"domain": "love", "meaning": "a life partner or wingman", "phrase": "my copilot for life"},
+   {"domain": "faith-myth", "meaning": "God as the one steering beside you", "phrase": "God is my co-pilot"},
+   {"domain": "mind", "meaning": "doing things without thinking", "phrase": "I was on autopilot"},
+   {"domain": "screen", "meaning": "a TV pilot episode, the test before a series", "phrase": "the pilot got picked up"},
+   {"domain": "war", "meaning": "a fighter jet's second seat", "phrase": "Goose was Maverick's backseater"}
+  ],
+  "idioms": ["on autopilot", "God is my co-pilot", "Jesus take the wheel", "flying solo", "wingman"],
+  "anchors": [
+   {"name": "God Is My Co-Pilot", "what": "1943 memoir by Robert L. Scott, 1945 film; later a bumper sticker", "url": ""},
+   {"name": "Jesus, Take the Wheel", "what": "Carrie Underwood, 2005", "url": ""},
+   {"name": "Tesla Autopilot crashes", "what": "NHTSA investigations since 2016 over drivers trusting it as hands-off", "url": ""}
+  ],
+  "pivots": [
+   {"line": "God was my copilot, then Microsoft shipped one", "senses": ["faith-myth", "ai"]},
+   {"line": "I was on autopilot, so was the autopilot", "senses": ["mind", "ai", "work"]},
+   {"line": "Jesus, take the wheel, Copilot, take the keyboard", "senses": ["faith-myth", "ai", "music"]}
+  ],
+  "enact": {"music": "a duet where the second voice finishes the first voice's lines a beat early",
+            "picture": "a cockpit with two seats: a human asleep, a glowing assistant flying, a bumper sticker reading 'God is my co-pilot'",
+            "type": "ghost text in grey completes each lyric line before the white text catches up"},
+  "sound": {"syllables": 3, "stress": "CO-pi-lot", "rhymes": ["autopilot"], "slant": ["violet", "pirate", "private", "silent", "island"]},
+  "stakes": ["jobs", "mind", "body"],
+  "registers": ["funny", "ominous", "tender"],
+  "neighbors": [{"id": "autocomplete", "rel": "same-family"}, {"id": "automation", "rel": "causes"}, {"id": "assistant", "rel": "same-family"}, {"id": "human-in-the-loop", "rel": "pairs-with"}, {"id": "vibe", "rel": "same-family"}],
+  "risk": "Copilot is a Microsoft/GitHub trademark; use the common noun 'copilot' lowercase or name the product deliberately",
+  "notes": "Faith already had the copilot slot ('God is my co-pilot'); the AI assistant moved into God's seat."
+ }
+]

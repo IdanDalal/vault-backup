@@ -23,6 +23,11 @@ Harvested 2026-11-02 from Knowledge Cutoff (KC, live https://youtu.be/-g6hYVec1U
 | [[kit-engine-components]] | 230 | engine core, helper modules, 67 scenes with their technique, gates/tools, scripts, known limits (file:line pointers) | line cards; build |
 | [[kit-open-source-audit]] | 130 | what blocks a public repo of kc-engine and the clean-export steps | before the first public repo |
 | [[kit-release-playbook]] | 76 | final render, thumbnail, channel, accounts, upload, posting, close-out | release week |
+| [[kit-lexicon]] | ~4,150 | the word kit (Idi R7, 11-02): 252 AI terms, 68 wide; per term senses across 17 life domains, origin, idioms, anchors, pivot lines, music/picture/type enactments, rhymes, ref-song usage; domain clusters (premise seeds); collisions (combination pairs). Source JSON + `lexicon.py` + `SCHEMA.md` in `lexicon/` | before the premise; writing every line |
+| [[kit-line-cards]] | ~60 | line card v2 (Idi R8): v1's 10 fields + word layer, thread, public note, roles count | Phase 1 |
+| [[kit-repo-per-video]] | ~40 | repo lineage and 8 steps (Idi R9), self-reproducing `new-video.sh` | before the first public repo |
+| [[research-mp3-rights-2026-11-02]] | ~170 | mp3 ships (Idi R6): MiniMax texts, other providers, precedent repos, US/Israel law, CC BY 4.0 notice draft | writing the audio licence |
+| [[research-brightmirror-2026-11-02]] | ~160 | Bright Mirror's site: 7 songs, 354 sourced line notes in 8 kinds, lyrics page, validator | line cards; release page |
 
 Physical tools: `D:\work\aimv-lab\kit-tools\` (mp4-repair with its README, thumbnail measuring and phone-size previews), `D:\work\aimv-lab\kc-engine\` (engine, gates, render scripts), `D:\work\AIMVs\ours\release\` (thumbnail, banner and header builders).
 
@@ -38,9 +43,14 @@ Physical tools: `D:\work\aimv-lab\kit-tools\` (mp4-repair with its README, thumb
 - Public-repo blockers: the song mp3 (licence silent on output ownership), a 166-commit history holding it and the internal notes (publish a fresh export), 83 files with private Windows paths; no secrets found [[kit-open-source-audit]].
 - One 8.5 h single-file 4K render died 66 frames from the end; render in chunks [[kit-release-playbook]].
 
-## Open rulings for Idi (asked in the next conversation)
+## Rulings, 2026-11-02 second conversation (detail in [[kit-next-video]] R6-R11)
 
-1. Ship the song mp3 in the public repo, or code only with the audio linked to YouTube.
-2. The next song's premise.
-3. Line-card fields: keep, cut or add.
-4. Repo layout: one engine repo + a folder per video, or one repo per video.
+1. mp3 ships in the public repo (R6); research confirms no MiniMax text restricts it; notice = CC BY 4.0 + disclosure + credit.
+2. Premise waits for the lexicon (R7); lexicon built 11-02, premise seeds in its domain-clusters section.
+3. Line cards: keep all 10 fields, build on them with the lexicon (R8) → [[kit-line-cards]].
+4. One repo per video (R9) → [[kit-repo-per-video]].
+
+## Open WHATs for Idi
+
+1. Licence-holder name (recommend "Chorus of Minds") and GitHub home (recommend a `chorusofminds` organization).
+2. The premise, after his timestamped notes on the new refs.

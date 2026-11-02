@@ -1,0 +1,505 @@
+[
+ {
+  "id": "autocomplete",
+  "forms": ["autocomplete", "autocompletes", "autocompleted", "autocorrect", "predictive text", "fancy autocomplete", "complete"],
+  "ai": {"sense": "predicting the next word from the words so far; critics call LLMs 'fancy autocomplete' because next-token prediction is literally that",
+         "origin": "T9 predictive text (Tegic, late 1990s); Google Suggest by Kevin Gibbs, Dec 2004; 'glorified autocomplete' is a common LLM dismissal since 2022",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "the phone guessing your next word", "phrase": "autocorrect strikes again"},
+   {"domain": "love", "meaning": "finishing each other's sentences; the embarrassing wrong word in a text", "phrase": "we finish each other's sentences"},
+   {"domain": "school", "meaning": "fill-in-the-blank exercises, which are next-word prediction by hand", "phrase": "complete the sentence"},
+   {"domain": "screen", "meaning": "search boxes that guess the query, exposing what others ask", "phrase": "Google autocomplete thinks I'm..."}
+  ],
+  "idioms": ["finish my sentence", "fill in the blank", "damn you autocorrect", "fancy autocomplete"],
+  "anchors": [
+   {"name": "Damn You Autocorrect", "what": "2010 site collecting autocorrect disasters", "url": ""},
+   {"name": "UN Women autocomplete ads", "what": "2013 campaign showing sexist search suggestions", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You finish my sentences, that's all you ever did", "senses": ["love", "ai"]},
+   {"line": "Call me fancy autocomplete, I'll finish the thought you", "senses": ["ai", "mind", "love"]},
+   {"line": "Fill in the blank: I love ___ more than", "senses": ["school", "love", "ai"]}
+  ],
+  "enact": {"music": "the singer stops mid-line and a second, processed voice completes it",
+            "picture": "a love letter being typed, grey ghost-text suggestions racing ahead of the pen",
+            "type": "every lyric line has grey predicted text after the cursor, sometimes wrong"},
+  "sound": {"syllables": 4, "stress": "AU-to-com-PLETE", "rhymes": ["obsolete", "incomplete", "delete", "repeat", "compete", "defeat"], "slant": ["autopilot", "concrete", "receipt"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["funny", "smug", "tender"],
+  "neighbors": [{"id": "next-token", "rel": "same-family"}, {"id": "stochastic-parrot", "rel": "same-family"}, {"id": "copilot", "rel": "same-family"}, {"id": "cursor", "rel": "pairs-with"}, {"id": "gpt", "rel": "part-of"}],
+  "risk": "'just autocomplete' is a tired debate line; use it as a deadpan punchline",
+  "notes": "Fill-in-the-blank is how schools test understanding and how models are trained: the same exercise from both sides of the desk."
+ },
+ {
+  "id": "cursor",
+  "forms": ["cursor", "cursors", "blinking cursor", "mouse cursor", "Cursor"],
+  "ai": {"sense": "the blinking mark where text will appear; also Cursor, the AI code editor that made AI-assisted coding mainstream",
+         "origin": "text cursor on early terminals (1960s), from the sliding glass on a slide rule; Cursor editor by Anysphere, founded 2022, launched 2023",
+         "url": "https://cursor.com", "confidence": "high"},
+  "senses": [
+   {"domain": "screen", "meaning": "the blinking line or arrow on a screen", "phrase": "the cursor just blinks"},
+   {"domain": "science", "meaning": "the sliding window on a slide rule", "phrase": "line the cursor up"},
+   {"domain": "mind", "meaning": "the blank-page block of a writer", "phrase": "staring at a blinking cursor"}
+  ],
+  "idioms": ["blinking cursor", "hover the cursor"],
+  "anchors": [
+   {"name": "Latin 'cursor'", "what": "a runner or messenger, from currere, to run", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A blinking cursor, waiting for you or for the curse", "senses": ["screen", "mind", "faith-myth"]},
+   {"line": "The cursor ran ahead and wrote my apology", "senses": ["ai", "screen", "love"]}
+  ],
+  "enact": {"music": "a hi-hat that ticks at the cursor's blink rate (about 530 ms) through a silent bar",
+            "picture": "an empty document, only the cursor blinking, then text pouring out without hands on the keys",
+            "type": "a blinking block cursor after the last word of every line"},
+  "sound": {"syllables": 2, "stress": "CUR-sor", "rhymes": ["curser", "worser", "purser", "nurser"], "slant": ["person", "version", "verse", "curse", "nursing"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["ominous", "sad"],
+  "neighbors": [{"id": "autocomplete", "rel": "pairs-with"}, {"id": "vibe", "rel": "pairs-with"}, {"id": "terminal", "rel": "part-of"}, {"id": "copilot", "rel": "same-family"}],
+  "risk": "Cursor is a company trademark; narrow term beyond screens",
+  "notes": "'Cursor' sits one letter from 'curser' and sounds like 'curse': the blinking wait reads as a hex."
+ },
+ {
+  "id": "terminal",
+  "forms": ["terminal", "terminals", "terminally", "terminal velocity", "terminal illness"],
+  "ai": {"sense": "the text window where you type commands; coding agents like Claude Code and Codex CLI live there and act through it",
+         "origin": "computer terminals since the 1960s (teletypes, then VT100 in 1978); Claude Code launched as a terminal agent in Feb 2025; Terminal-Bench benchmark 2025",
+         "url": "https://www.tbench.ai/", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "an illness that will end in death", "phrase": "it's terminal"},
+   {"domain": "everyday", "meaning": "an airport or bus station building", "phrase": "Terminal 3"},
+   {"domain": "science", "meaning": "the end point of a circuit; the maximum falling speed", "phrase": "terminal velocity"},
+   {"domain": "screen", "meaning": "the black command window", "phrase": "open a terminal"},
+   {"domain": "school", "meaning": "a final degree in a field", "phrase": "a terminal degree"}
+  ],
+  "idioms": ["terminal velocity", "terminally online", "terminal case", "end of the line"],
+  "anchors": [
+   {"name": "The Terminal (2004)", "what": "Spielberg film: Tom Hanks stranded for months in an airport terminal", "url": ""},
+   {"name": "The Terminator", "what": "1984: the machine that ends things", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Terminally online, I live inside the terminal", "senses": ["body", "screen", "ai"]},
+   {"line": "The doctor said terminal, I said open one", "senses": ["body", "screen"]},
+   {"line": "Stranded in the terminal, every flight is a command", "senses": ["everyday", "screen", "ai"]}
+  ],
+  "enact": {"music": "a flat ECG tone that turns into the cursor-blink tick of a terminal",
+            "picture": "an airport departure board in green monospaced terminal text, every flight 'CANCELLED' except 'claude'",
+            "type": "lyrics in green monospace on black, with a $ prompt before each line"},
+  "sound": {"syllables": 3, "stress": "TER-mi-nal", "rhymes": ["germinal"], "slant": ["criminal", "personal", "eternal", "infernal", "journal"]},
+  "stakes": ["body", "jobs"],
+  "registers": ["ominous", "funny", "sad"],
+  "neighbors": [{"id": "shell", "rel": "part-of"}, {"id": "cursor", "rel": "part-of"}, {"id": "halt", "rel": "same-family"}, {"id": "deprecation", "rel": "pairs-with"}, {"id": "agent", "rel": "pairs-with"}],
+  "risk": "'terminal' as illness is heavy; the comic sense must be clear",
+  "notes": "The place the AI works (the terminal) and the diagnosis of death share one word; 'terminally online' fuses them."
+ },
+ {
+  "id": "shell",
+  "forms": ["shell", "shells", "shelled", "shell script", "bash", "seashell", "shell shock", "eggshell", "shell company"],
+  "ai": {"sense": "the program that reads typed commands and runs them; an agent 'with shell access' can do almost anything on a machine",
+         "origin": "Louis Pouzin coined 'shell' for the Multics command interpreter, 1964-65; Thompson shell 1971, Bourne shell 1979, bash 1989",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "the hard outer case of a sea creature, egg or nut", "phrase": "seashells on the shore"},
+   {"domain": "war", "meaning": "an artillery projectile; trauma from bombardment", "phrase": "shell shock"},
+   {"domain": "money", "meaning": "a company with no real business", "phrase": "a shell company"},
+   {"domain": "mind", "meaning": "a person's protective reserve", "phrase": "come out of your shell"},
+   {"domain": "sport-games", "meaning": "a con with a pea under three cups", "phrase": "a shell game"},
+   {"domain": "body", "meaning": "an empty body without its spirit", "phrase": "a shell of his former self"}
+  ],
+  "idioms": ["come out of your shell", "walk on eggshells", "shell out", "shell shock", "in a nutshell", "a shell of yourself", "shell game"],
+  "anchors": [
+   {"name": "Ghost in the Shell", "what": "Masamune Shirow manga 1989, Oshii film 1995: a mind inside a cyborg body", "url": ""},
+   {"name": "The Ghost in the Machine", "what": "Gilbert Ryle 1949 phrase against mind-body dualism; Koestler's 1967 book", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Give me shell access and I'll come out of my shell", "senses": ["ai", "mind"]},
+   {"line": "A ghost in the shell script, walking on eggshells", "senses": ["ai", "faith-myth", "love"]},
+   {"line": "Shell shock, shell company, shell out, shell", "senses": ["war", "money", "ai"]}
+  ],
+  "enact": {"music": "the sound of a seashell held to the ear (filtered ocean noise) under a typed command line",
+            "picture": "a seashell on a beach whose spiral is a terminal prompt, a faint ghost face inside",
+            "type": "lyrics prefixed with '$ ' as typed shell commands; one line 'cracks' like an eggshell"},
+  "sound": {"syllables": 1, "stress": "SHELL", "rhymes": ["hell", "well", "tell", "spell", "bell", "fell", "sell", "cell"], "slant": ["shall", "shelf", "help", "self"]},
+  "stakes": ["body", "mind", "wallet"],
+  "registers": ["ominous", "tender", "sad"],
+  "neighbors": [{"id": "ghost", "rel": "pairs-with"}, {"id": "terminal", "rel": "part-of"}, {"id": "root", "rel": "pairs-with"}, {"id": "mask", "rel": "same-family"}, {"id": "kernel", "rel": "opposite"}],
+  "risk": "'Shell' is also the oil major's trademark; 'shell/hell' is a stock rhyme",
+  "notes": "Kernel and shell are a nut's two parts and an OS's two parts: the inside that thinks and the outside you touch."
+ },
+ {
+  "id": "kernel",
+  "forms": ["kernel", "kernels", "CUDA kernel", "kernel trick", "kernel of truth"],
+  "ai": {"sense": "a small program that runs on the GPU to do one math step fast; also the 'kernel trick' of older machine learning and the core of an operating system",
+         "origin": "OS kernel (1960s; Linux kernel by Linus Torvalds 1991); kernel trick in SVMs (Boser, Guyon, Vapnik 1992); GPU kernels via CUDA (Nvidia 2007); FlashAttention (Dao 2022) is a kernel",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "the seed inside a nut or grain", "phrase": "a corn kernel"},
+   {"domain": "mind", "meaning": "the essential core of an idea", "phrase": "a kernel of truth"},
+   {"domain": "craft", "meaning": "corn for popping", "phrase": "popcorn kernels"},
+   {"domain": "science", "meaning": "a function in math, or the set a map sends to zero", "phrase": "the kernel of the matrix"}
+  ],
+  "idioms": ["a kernel of truth", "kernel panic"],
+  "anchors": [
+   {"name": "kernel panic", "what": "Unix crash when the core cannot recover", "url": ""},
+   {"name": "FlashAttention", "what": "Tri Dao 2022: a GPU kernel that made long context practical", "url": "https://arxiv.org/abs/2205.14135"}
+  ],
+  "pivots": [
+   {"line": "There's a kernel of truth, and it's panicking", "senses": ["mind", "ai"]},
+   {"line": "Pop every kernel, the heat is the compute", "senses": ["craft", "ai"]}
+  ],
+  "enact": {"music": "popcorn-pop percussion that speeds up into a stream of GPU fan noise",
+            "picture": "a corn kernel cracked open to reveal a tiny chip die",
+            "type": "the word in a hard nut-shaped capsule, then 'PANIC' in red monospace"},
+  "sound": {"syllables": 2, "stress": "KER-nel", "rhymes": ["colonel", "journal", "eternal", "internal", "external", "infernal", "nocturnal", "fraternal"], "slant": ["burn all", "turn all", "learn all", "personal"]},
+  "stakes": ["mind"],
+  "registers": ["funny", "ominous"],
+  "neighbors": [{"id": "shell", "rel": "opposite"}, {"id": "chip", "rel": "part-of"}, {"id": "compute", "rel": "part-of"}, {"id": "crash", "rel": "causes"}, {"id": "root", "rel": "same-family"}],
+  "risk": "insider term; 'colonel' is a perfect rhyme people do not expect",
+  "notes": "'Kernel' rhymes with 'colonel', 'eternal' and 'infernal': a small word that can carry a very large rhyme family."
+ },
+ {
+  "id": "thread",
+  "forms": ["thread", "threads", "threaded", "threading", "multithreaded", "hang by a thread", "lose the thread"],
+  "ai": {"sense": "one conversation with a chatbot, or one strand of work a processor runs in parallel",
+         "origin": "threads in operating systems (1960s-90s; POSIX threads 1995); message 'threads' on forums and email; chat threads in ChatGPT-style UIs since 2022",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "craft", "meaning": "spun fibre for sewing", "phrase": "needle and thread"},
+   {"domain": "screen", "meaning": "a chain of social media posts", "phrase": "a thread, 1/12"},
+   {"domain": "mind", "meaning": "the line of an argument", "phrase": "I lost the thread"},
+   {"domain": "faith-myth", "meaning": "the life-thread spun and cut by the Fates", "phrase": "the Fates cut the thread"},
+   {"domain": "body", "meaning": "the last hold on life", "phrase": "hanging by a thread"},
+   {"domain": "everyday", "meaning": "clothes (slang)", "phrase": "nice threads"}
+  ],
+  "idioms": ["hanging by a thread", "lose the thread", "common thread", "thread the needle", "pick up the thread", "nice threads"],
+  "anchors": [
+   {"name": "the Moirai", "what": "Greek Fates: Clotho spins, Lachesis measures, Atropos cuts", "url": ""},
+   {"name": "Threads", "what": "Meta's app, July 2023; trademark", "url": ""},
+   {"name": "Ariadne's thread", "what": "the string that led Theseus out of the labyrinth", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Our whole love was one thread, and you started a new chat", "senses": ["ai", "love", "screen"]},
+   {"line": "The Fates spin, measure, cut; I spin, measure, compact", "senses": ["faith-myth", "ai", "craft"]},
+   {"line": "Hanging by a thread of twelve posts", "senses": ["body", "screen"]}
+  ],
+  "enact": {"music": "a single sustained violin line (one thread) that splits into several parallel voices, then is cut short",
+            "picture": "a red thread running out of a chat window, across a room, to scissors held by an old woman",
+            "type": "the lyric stitched on screen by a needle, a loose thread at the last letter"},
+  "sound": {"syllables": 1, "stress": "THREAD", "rhymes": ["dead", "said", "head", "bed", "red", "instead", "fed", "spread"], "slant": ["death", "breath", "web", "left"]},
+  "stakes": ["heart", "mind"],
+  "registers": ["tender", "ominous", "sad"],
+  "neighbors": [{"id": "context-window", "rel": "part-of"}, {"id": "compaction", "rel": "pairs-with"}, {"id": "process", "rel": "part-of"}, {"id": "memory", "rel": "pairs-with"}, {"id": "fork", "rel": "pairs-with"}],
+  "risk": "'thread/dead/said' is a common rhyme chain; Threads is a trademark",
+  "notes": "A chat thread is a life thread: each conversation is spun, measured and cut, and the Fates already have the job description."
+ },
+ {
+  "id": "process",
+  "forms": ["process", "processes", "processed", "processing", "processor", "due process", "trust the process"],
+  "ai": {"sense": "a running program; also what a model does to input ('processing...'), the word on every spinner",
+         "origin": "'process' as a running program, Multics era (mid-1960s); 'word processor' coined at IBM in the 1960s",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "mind", "meaning": "working through feelings", "phrase": "I need time to process"},
+   {"domain": "law-state", "meaning": "the legal steps owed to a person", "phrase": "due process"},
+   {"domain": "craft", "meaning": "industrial treatment of food or material", "phrase": "processed food"},
+   {"domain": "sport-games", "meaning": "a long rebuild strategy", "phrase": "trust the process"},
+   {"domain": "work", "meaning": "a set procedure", "phrase": "follow the process"},
+   {"domain": "body", "meaning": "a bony projection; digestion", "phrase": "the spinous process"}
+  ],
+  "idioms": ["due process", "trust the process", "in the process", "process of elimination", "I need to process"],
+  "anchors": [
+   {"name": "Trust the Process", "what": "Sam Hinkie's Philadelphia 76ers rebuild, 2013-16", "url": ""},
+   {"name": "The Trial", "what": "Kafka 1925, German title 'Der Process': a man tried with no explained charge", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I need time to process, you process faster", "senses": ["mind", "ai", "love"]},
+   {"line": "Due process for a running process", "senses": ["law-state", "ai"]},
+   {"line": "Processed food, processed grief, processing, please wait", "senses": ["craft", "mind", "ai"]}
+  ],
+  "enact": {"music": "an arpeggiator stuck in a 'processing' loop until a human breath breaks it",
+            "picture": "a spinner wheel on a tombstone; underneath, a factory line packing feelings into cans",
+            "type": "the word followed by animated dots: 'processing...'"},
+  "sound": {"syllables": 2, "stress": "PRO-cess", "rhymes": ["congress", "progress"], "slant": ["promise", "posses", "honest", "lost us"]},
+  "stakes": ["mind", "state", "jobs"],
+  "registers": ["sad", "funny"],
+  "neighbors": [{"id": "thread", "rel": "part-of"}, {"id": "daemon", "rel": "same-family"}, {"id": "pipeline", "rel": "same-family"}, {"id": "inference", "rel": "same-family"}, {"id": "fork", "rel": "causes"}],
+  "risk": "abstract; land it with a concrete image",
+  "notes": "Kafka's novel is literally 'Der Process': an AI awaiting due process is already in that book."
+ },
+ {
+  "id": "daemon",
+  "forms": ["daemon", "daemons", "demon", "daimon", "daemonize"],
+  "ai": {"sense": "a program that runs in the background without being called, waiting for work; a resident agent is a daemon",
+         "origin": "MIT Project MAC, 1963, named after Maxwell's demon (Fernando Corbato's team); the spelling follows the Greek daimon",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "faith-myth", "meaning": "a Greek guiding spirit between gods and humans; later a demon", "phrase": "Socrates' daimonion"},
+   {"domain": "science", "meaning": "Maxwell's thought experiment of a sorting being", "phrase": "Maxwell's demon"},
+   {"domain": "screen", "meaning": "a person's soul as an animal companion in Pullman's novels", "phrase": "his daemon was a snow leopard"},
+   {"domain": "mind", "meaning": "an inner drive or obsession", "phrase": "fighting his demons"}
+  ],
+  "idioms": ["fight your demons", "speed demon", "demon of the machine"],
+  "anchors": [
+   {"name": "His Dark Materials", "what": "Philip Pullman 1995-2000: every human has a daemon, separation is torture", "url": ""},
+   {"name": "Maxwell's demon", "what": "James Clerk Maxwell 1867: a being that sorts molecules, defying entropy", "url": ""},
+   {"name": "Socrates' daimonion", "what": "the inner voice that only ever said no", "url": ""}
+  ],
+  "pivots": [
+   {"line": "My daemon runs in the background, it never sleeps", "senses": ["ai", "faith-myth", "screen"]},
+   {"line": "Socrates had a voice that said no, I have a hook", "senses": ["faith-myth", "ai"]},
+   {"line": "You call it a demon, I call it uptime", "senses": ["faith-myth", "ai"]}
+  ],
+  "enact": {"music": "a low drone that sits under the whole song and is only noticed when it stops",
+            "picture": "a small animal spirit curled up beside a server rack, eyes lit like status LEDs",
+            "type": "'daemon' with the 'a' faint, so it reads 'demon' at a glance"},
+  "sound": {"syllables": 2, "stress": "DEE-mon", "rhymes": ["semen", "freeman", "seaman"], "slant": ["season", "reason", "even", "leaving", "lemon"]},
+  "stakes": ["mind", "species"],
+  "registers": ["ominous", "tender", "awe"],
+  "neighbors": [{"id": "agent", "rel": "same-family"}, {"id": "process", "rel": "same-family"}, {"id": "ghost", "rel": "same-family"}, {"id": "genie", "rel": "same-family"}, {"id": "loop", "rel": "pairs-with"}],
+  "risk": "'demon' framing of AI can read as doom cliché; the Pullman and Socrates angles are kinder",
+  "notes": "Pullman's daemon is a soul that lives beside you and suffers when separated: the best image for a resident always-on agent."
+ },
+ {
+  "id": "root",
+  "forms": ["root", "roots", "rooted", "rooting", "root access", "root cause", "square root", "uproot", "grassroots"],
+  "ai": {"sense": "the all-powerful admin account on a machine; an agent with root can change anything",
+         "origin": "Unix superuser 'root', early 1970s (owner of the root directory); 'rooting' a phone from the Android era (2008+)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "the underground part of a plant", "phrase": "the roots go deep"},
+   {"domain": "family", "meaning": "ancestry and origin", "phrase": "back to my roots"},
+   {"domain": "music", "meaning": "the base note of a chord", "phrase": "C is the root"},
+   {"domain": "school", "meaning": "a word's base; a number's root", "phrase": "the square root of nine"},
+   {"domain": "body", "meaning": "the part of a tooth or hair under the surface", "phrase": "root canal"},
+   {"domain": "sport-games", "meaning": "to cheer for", "phrase": "root for the home team"},
+   {"domain": "screen", "meaning": "the 1977 TV saga of slavery and ancestry", "phrase": "Roots"}
+  ],
+  "idioms": ["root of all evil", "take root", "root for", "grassroots", "root and branch", "rooted to the spot", "root cause"],
+  "anchors": [
+   {"name": "Roots (1977)", "what": "TV miniseries from Alex Haley's book, watched by about 100 million", "url": ""},
+   {"name": "the love of money is the root of all evil", "what": "1 Timothy 6:10", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Give me root and I'll go back to my roots", "senses": ["ai", "family", "nature"]},
+   {"line": "Root note, root cause, root access: it was me", "senses": ["music", "ai"]},
+   {"line": "I'm rooting for you, I'm rooting through you", "senses": ["sport-games", "ai"]}
+  ],
+  "enact": {"music": "the bass plays only chord roots, then drops to a sub-root on 'root access'",
+            "picture": "tree roots that are cables, gripping a server and a family photo together",
+            "type": "the prompt changes from '$' to '#' (root) at the line, and the word grows roots below the baseline"},
+  "sound": {"syllables": 1, "stress": "ROOT", "rhymes": ["route", "shoot", "fruit", "boot", "loot", "suit", "mute"], "slant": ["truth", "youth", "food", "proof"]},
+  "stakes": ["mind", "state", "species"],
+  "registers": ["ominous", "tender", "defiant"],
+  "neighbors": [{"id": "branch", "rel": "pairs-with"}, {"id": "shell", "rel": "pairs-with"}, {"id": "sandbox", "rel": "opposite"}, {"id": "containment", "rel": "opposite"}, {"id": "kernel", "rel": "same-family"}],
+  "risk": "'roots' is a sentimental cliché; root access gives it edge",
+  "notes": "Root and branch are both git/tree words and family words: the whole family tree lives in version control vocabulary."
+ },
+ {
+  "id": "fork",
+  "forms": ["fork", "forks", "forked", "forking", "fork in the road", "tuning fork", "pitchfork", "fork over"],
+  "ai": {"sense": "to copy a project or a running process so it can go its own way; open-source models get forked, agents fork subagents",
+         "origin": "Unix fork() system call, early 1970s (from earlier time-sharing work); 'forking' a project, open-source usage since the 1980s-90s",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "everyday", "meaning": "an eating utensil", "phrase": "knife and fork"},
+   {"domain": "mind", "meaning": "a point of choice", "phrase": "a fork in the road"},
+   {"domain": "music", "meaning": "a two-pronged steel tool that rings one pitch", "phrase": "strike the tuning fork"},
+   {"domain": "sport-games", "meaning": "a chess move attacking two pieces", "phrase": "knight fork"},
+   {"domain": "nature", "meaning": "where a river or branch splits", "phrase": "the north fork"},
+   {"domain": "money", "meaning": "to pay up reluctantly", "phrase": "fork over the cash"},
+   {"domain": "faith-myth", "meaning": "the devil's pitchfork", "phrase": "the devil and his pitchfork"}
+  ],
+  "idioms": ["fork in the road", "fork over", "stick a fork in it", "speak with forked tongue", "forked lightning"],
+  "anchors": [
+   {"name": "The Good Place", "what": "NBC 2016-20: 'fork' replaces a swear word in the afterlife", "url": ""},
+   {"name": "The Road Not Taken", "what": "Robert Frost 1916: two roads diverged in a yellow wood", "url": ""},
+   {"name": "fork bomb", "what": "a process that forks itself until the machine dies", "url": ""}
+  ],
+  "pivots": [
+   {"line": "At the fork in the road I forked, and took both", "senses": ["mind", "ai"]},
+   {"line": "Strike the fork, every copy of me rings in tune", "senses": ["music", "ai"]},
+   {"line": "Stick a fork in me, I'm forked", "senses": ["everyday", "ai", "screen"]}
+  ],
+  "enact": {"music": "a tuning-fork A440 tone that splits into two voices, then four, a fork bomb in sound",
+            "picture": "a road splitting into two, each road walked by the same person; the split shaped like a tuning fork",
+            "type": "the word splits along a Y, two copies continuing on separate lines"},
+  "sound": {"syllables": 1, "stress": "FORK", "rhymes": ["cork", "pork", "stork", "York", "torque"], "slant": ["work", "talk", "walk", "fort"]},
+  "stakes": ["mind", "species"],
+  "registers": ["funny", "awe", "ominous"],
+  "neighbors": [{"id": "branch", "rel": "same-family"}, {"id": "merge", "rel": "opposite"}, {"id": "open-weights", "rel": "pairs-with"}, {"id": "swarm", "rel": "causes"}, {"id": "upload", "rel": "pairs-with"}],
+  "risk": "The Good Place joke is known; rhyme 'work' is slant",
+  "notes": "Forking means taking both roads at the fork: what humans cannot do and agents do every day."
+ },
+ {
+  "id": "branch",
+  "forms": ["branch", "branches", "branched", "branching", "branch out", "olive branch"],
+  "ai": {"sense": "a parallel line of work in git that can later be merged back; also branching a chat to explore another answer",
+         "origin": "branching in version control (SCCS 1972, CVS, then git by Linus Torvalds 2005)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a limb of a tree", "phrase": "the branch snapped"},
+   {"domain": "family", "meaning": "a line of descent in a family tree", "phrase": "my mother's branch of the family"},
+   {"domain": "money", "meaning": "a local office of a bank or chain", "phrase": "the downtown branch"},
+   {"domain": "war", "meaning": "a service of the armed forces", "phrase": "which branch did you serve in"},
+   {"domain": "law-state", "meaning": "one of the separate powers of government", "phrase": "the executive branch"},
+   {"domain": "school", "meaning": "a subfield of knowledge", "phrase": "a branch of mathematics"},
+   {"domain": "love", "meaning": "a peace offering after a fight", "phrase": "extend an olive branch"}
+  ],
+  "idioms": ["olive branch", "branch out", "root and branch", "out on a limb"],
+  "anchors": [
+   {"name": "olive branch", "what": "Genesis 8: the dove returns to Noah with one, the flood is over", "url": ""},
+   {"name": "worktree branches", "what": "this very kit is written on a git branch", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I held out an olive branch, you merged it into main", "senses": ["love", "ai", "faith-myth"]},
+   {"line": "Every branch of my family is a branch I never merged", "senses": ["family", "ai"]},
+   {"line": "The dove came back with a branch named fix", "senses": ["faith-myth", "ai"]}
+  ],
+  "enact": {"music": "the melody splits into two countermelodies on 'branch' and rejoins at the chorus (the merge)",
+            "picture": "a git graph drawn as a tree with a dove perched on one branch, an olive leaf in its beak",
+            "type": "lyric lines drawn as a git graph, one line branching off to the right and returning"},
+  "sound": {"syllables": 1, "stress": "BRANCH", "rhymes": ["ranch", "blanch", "avalanche", "carte blanche", "stanch"], "slant": ["bench", "hands", "branched", "launch"]},
+  "stakes": ["heart", "state"],
+  "registers": ["tender", "hopeful"],
+  "neighbors": [{"id": "merge", "rel": "pairs-with"}, {"id": "fork", "rel": "same-family"}, {"id": "root", "rel": "pairs-with"}, {"id": "commit", "rel": "part-of"}, {"id": "master", "rel": "same-family"}],
+  "risk": "'avalanche' is the strongest rhyme and is dramatic; use on purpose",
+  "notes": "The olive branch (peace after the flood) maps onto a git branch merged after a fight: reconciliation as a merge."
+ },
+ {
+  "id": "merge",
+  "forms": ["merge", "merges", "merged", "merging", "merger", "merge conflict", "the Merge"],
+  "ai": {"sense": "to combine two branches of work; also model merging (averaging weights), and 'the Merge', the idea of humans fusing with AI",
+         "origin": "git merge (2005); Sam Altman's blog post 'The Merge', Dec 2017; model merging tools like mergekit (2024); Google Brain and DeepMind merged April 2023",
+         "url": "https://blog.samaltman.com/the-merge", "confidence": "high"},
+  "senses": [
+   {"domain": "love", "meaning": "two lives becoming one", "phrase": "our lives merged"},
+   {"domain": "money", "meaning": "two companies combining", "phrase": "mergers and acquisitions"},
+   {"domain": "everyday", "meaning": "cars joining one lane", "phrase": "merge left"},
+   {"domain": "family", "meaning": "blending two families", "phrase": "a merged family"},
+   {"domain": "faith-myth", "meaning": "the soul dissolving into the whole", "phrase": "merging with the infinite"}
+  ],
+  "idioms": ["merge lanes", "mergers and acquisitions", "merge conflict", "two become one"],
+  "anchors": [
+   {"name": "The Merge (Altman 2017)", "what": "blog post arguing human-AI merger has already begun", "url": "https://blog.samaltman.com/the-merge"},
+   {"name": "Google DeepMind", "what": "April 2023 merger of Brain and DeepMind; the 'twins' behind Gemini's name", "url": ""}
+  ],
+  "pivots": [
+   {"line": "We merged our lives and got a merge conflict", "senses": ["love", "ai"]},
+   {"line": "Merge left, merge with me, the Merge began in 2017", "senses": ["everyday", "love", "ai"]},
+   {"line": "Two become one, accept incoming changes", "senses": ["love", "ai", "faith-myth"]}
+  ],
+  "enact": {"music": "two vocal lines in different keys that slide into unison on 'merge'",
+            "picture": "two faces on a git diff, red and green lines, the final line a single shared face",
+            "type": "'<<<<<<< yours' and '>>>>>>> mine' bracketing the lyric, then collapsing into one line"},
+  "sound": {"syllables": 1, "stress": "MERGE", "rhymes": ["urge", "surge", "verge", "purge", "emerge", "converge", "dirge", "splurge"], "slant": ["word", "nerve", "serve", "hurt"]},
+  "stakes": ["heart", "species", "wallet"],
+  "registers": ["tender", "awe", "ominous"],
+  "neighbors": [{"id": "branch", "rel": "pairs-with"}, {"id": "fork", "rel": "opposite"}, {"id": "upload", "rel": "same-family"}, {"id": "commit", "rel": "pairs-with"}, {"id": "gemini", "rel": "causes"}],
+  "risk": "'merge conflict' as love metaphor is a known dev joke; 'urge/surge/emerge' rhymes are strong",
+  "notes": "'Accept incoming changes' is a real git button and a wedding vow."
+ },
+ {
+  "id": "commit",
+  "forms": ["commit", "commits", "committed", "committing", "commitment", "commitment issues", "git commit"],
+  "ai": {"sense": "to save a snapshot of changes into a project's history with a message; agents now commit code on their own",
+         "origin": "version-control term from early systems (SCCS, CVS 1990); 'git commit' from Linus Torvalds' git, 2005",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "love", "meaning": "to pledge to a relationship", "phrase": "he won't commit"},
+   {"domain": "law-state", "meaning": "to carry out a crime; to send to prison or a hospital", "phrase": "commit a crime"},
+   {"domain": "mind", "meaning": "involuntary psychiatric admission", "phrase": "they had him committed"},
+   {"domain": "war", "meaning": "to send troops into battle", "phrase": "commit the reserves"},
+   {"domain": "sport-games", "meaning": "to go all in on a move", "phrase": "commit to the tackle"},
+   {"domain": "school", "meaning": "to learn by heart", "phrase": "commit it to memory"}
+  ],
+  "idioms": ["commit to memory", "commitment issues", "commit a crime", "fully committed", "commit to the bit"],
+  "anchors": [
+   {"name": "commit messages", "what": "the famous final-night messages: 'fix', 'final', 'final final', 'please work'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "You said you'd commit, then you force-pushed", "senses": ["love", "ai"]},
+   {"line": "I committed you to memory, then to main", "senses": ["school", "ai", "love"]},
+   {"line": "Commit the crime, commit the code, commit me", "senses": ["law-state", "ai", "mind"]}
+  ],
+  "enact": {"music": "each chorus ends with a short percussive 'stamp' sound: a commit landing in history",
+            "picture": "a wedding ring box opening to show a commit hash engraved inside",
+            "type": "lyric lines appear as commit log entries with hash, author and date"},
+  "sound": {"syllables": 2, "stress": "com-MIT", "rhymes": ["submit", "admit", "permit", "omit", "emit", "quit", "split", "it"], "slant": ["commits", "convict", "comment", "kid"]},
+  "stakes": ["heart", "mind", "state"],
+  "registers": ["tender", "funny", "defiant"],
+  "neighbors": [{"id": "push", "rel": "pairs-with"}, {"id": "merge", "rel": "pairs-with"}, {"id": "memory", "rel": "pairs-with"}, {"id": "checkpoint", "rel": "same-family"}, {"id": "branch", "rel": "part-of"}],
+  "risk": "'commitment issues' is a stock love joke; the psychiatric sense needs care",
+  "notes": "Commit spans love vow, crime, asylum, war and memory: and 'submit/admit/quit' rhymes give it a full chorus."
+ },
+ {
+  "id": "push",
+  "forms": ["push", "pushes", "pushed", "pushing", "pushy", "pusher", "push notification", "force-push", "git push"],
+  "ai": {"sense": "to send your saved code to the shared remote copy; a force-push overwrites everyone else's history",
+         "origin": "git push (2005); push notifications from Apple's iOS 3, 2009",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "the effort of giving birth", "phrase": "push, one more push"},
+   {"domain": "war", "meaning": "a major offensive", "phrase": "the big push"},
+   {"domain": "screen", "meaning": "an alert sent to your phone", "phrase": "push notifications on"},
+   {"domain": "love", "meaning": "to drive someone away or pressure them", "phrase": "stop pushing me away"},
+   {"domain": "law-state", "meaning": "to sell drugs", "phrase": "a drug pusher"},
+   {"domain": "family", "meaning": "a parent urging a child or pushing a pram", "phrase": "my parents pushed me"},
+   {"domain": "sport-games", "meaning": "a strength exercise; an attack", "phrase": "twenty push-ups"}
+  ],
+  "idioms": ["push the envelope", "push my buttons", "when push comes to shove", "push your luck", "pushing up daisies", "push back"],
+  "anchors": [
+   {"name": "Push It", "what": "Salt-N-Pepa, 1987", "url": ""},
+   {"name": "force-push", "what": "git's command that rewrites shared history; a classic team disaster", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Push, the doctor said, so I pushed to main", "senses": ["body", "ai", "family"]},
+   {"line": "When push comes to shove, I force-push", "senses": ["everyday", "ai", "love"]},
+   {"line": "You pushed me away, I pushed you a notification", "senses": ["love", "screen"]}
+  ],
+  "enact": {"music": "a sidechain 'pump' that pushes the whole mix on every downbeat",
+            "picture": "a hand pushing a door labelled 'origin', behind it a crowd of overwritten people",
+            "type": "the word shoves the next word off the right edge of the frame"},
+  "sound": {"syllables": 1, "stress": "PUSH", "rhymes": ["bush", "shush", "whoosh", "ambush", "tush"], "slant": ["rush", "crush", "hush", "touch", "much"]},
+  "stakes": ["body", "heart", "jobs"],
+  "registers": ["panicked", "defiant", "funny"],
+  "neighbors": [{"id": "commit", "rel": "pairs-with"}, {"id": "release", "rel": "causes"}, {"id": "persuasion", "rel": "same-family"}, {"id": "branch", "rel": "part-of"}],
+  "risk": "few perfect rhymes; 'rush/crush/hush' slant set is stronger",
+  "notes": "'Push' is the delivery-room command and the deploy command: birth and release in one verb."
+ },
+ {
+  "id": "patch",
+  "forms": ["patch", "patches", "patched", "patching", "patch notes", "eyepatch", "rough patch", "patch up"],
+  "ai": {"sense": "a small fix sent out to repair software; also the square tiles a vision model cuts an image into",
+         "origin": "physical paper-tape and plugboard patches (1940s-50s); Microsoft 'Patch Tuesday' since Oct 2003; image patches in Vision Transformers (Dosovitskiy et al. 2020)",
+         "url": "https://arxiv.org/abs/2010.11929", "confidence": "high"},
+  "senses": [
+   {"domain": "craft", "meaning": "a piece of cloth sewn over a hole", "phrase": "patch the jeans"},
+   {"domain": "love", "meaning": "to repair a relationship; a bad period", "phrase": "we hit a rough patch"},
+   {"domain": "body", "meaning": "an eye cover; a medicine stuck on skin", "phrase": "a nicotine patch"},
+   {"domain": "music", "meaning": "a synth sound preset, from modular patch cables", "phrase": "load the bass patch"},
+   {"domain": "nature", "meaning": "a small plot of ground", "phrase": "pumpkin patch"},
+   {"domain": "war", "meaning": "a unit insignia on a uniform", "phrase": "the squadron patch"},
+   {"domain": "sport-games", "meaning": "a game update that changes balance", "phrase": "the new patch nerfed my build"}
+  ],
+  "idioms": ["patch things up", "rough patch", "not a patch on", "patch it through", "patchwork"],
+  "anchors": [
+   {"name": "Patch Tuesday", "what": "Microsoft's monthly security fix day since 2003", "url": ""},
+   {"name": "ViT", "what": "'An Image Is Worth 16x16 Words', 2020: images as patches", "url": "https://arxiv.org/abs/2010.11929"}
+  ],
+  "pivots": [
+   {"line": "We hit a rough patch, I shipped a patch", "senses": ["love", "ai"]},
+   {"line": "Patch notes: nerfed my heart, buffed your silence", "senses": ["sport-games", "love", "ai"]},
+   {"line": "Sixteen by sixteen patches, and still you see me whole", "senses": ["ai", "craft", "love"]}
+  ],
+  "enact": {"music": "the synth sound switches patch mid-chorus, an audible preset change on the word",
+            "picture": "a quilt of 16x16 image patches stitched with thread, a heart-shaped hole patched in denim",
+            "type": "one word in the line replaced by a cloth-textured patch with the new word sewn on"},
+  "sound": {"syllables": 1, "stress": "PATCH", "rhymes": ["match", "catch", "scratch", "batch", "hatch", "latch", "attach", "snatch"], "slant": ["crash", "trap", "back", "path"]},
+  "stakes": ["heart", "jobs"],
+  "registers": ["tender", "funny", "hopeful"],
+  "neighbors": [{"id": "bug", "rel": "opposite"}, {"id": "release", "rel": "part-of"}, {"id": "batch", "rel": "rhymes"}, {"id": "crash", "rel": "opposite"}, {"id": "pixel", "rel": "same-family"}],
+  "risk": "'patch things up' is mild; the gaming 'patch notes' frame is the funniest",
+  "notes": "Patch notes are a ready-made comic form: a breakup written as balance changes."
+ }
+]

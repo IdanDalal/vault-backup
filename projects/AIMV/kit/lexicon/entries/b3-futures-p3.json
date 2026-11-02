@@ -1,0 +1,525 @@
+[
+ {
+  "id": "sovereign",
+  "forms": ["sovereign", "sovereigns", "sovereignty", "sovereign AI", "sovereign wealth fund"],
+  "ai": {"sense": "an AI that acts in the world on its own open-ended mandate; separately, 'sovereign AI' is a nation owning its own models and compute",
+         "origin": "Bostrom 2014, 'Superintelligence' ch. 10 (oracle, genie, sovereign, tool); 'sovereign AI' pushed by Nvidia's Jensen Huang from Feb 2024 (World Governments Summit, Dubai)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "law-state", "meaning": "a monarch or a self-governing state", "phrase": "national sovereignty"},
+   {"domain": "money", "meaning": "a British gold coin; also sovereign debt and sovereign wealth funds", "phrase": "a gold sovereign"},
+   {"domain": "faith-myth", "meaning": "God as supreme ruler", "phrase": "the sovereign Lord"},
+   {"domain": "body", "meaning": "old use: a cure-all", "phrase": "a sovereign remedy"},
+   {"domain": "mind", "meaning": "self-rule over your own mind and body", "phrase": "my body, my sovereignty"}
+  ],
+  "idioms": ["sovereign remedy", "sovereign wealth fund", "sovereign citizen", "sovereign immunity"],
+  "anchors": [
+   {"name": "Bostrom's four castes", "what": "oracle answers, genie obeys, sovereign rules, tool is used", "url": ""},
+   {"name": "Hobbes' Leviathan", "what": "1651: the sovereign as an artificial person made of all its subjects; its frontispiece shows a giant built of tiny people", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A sovereign remedy, a sovereign state, a sovereign in the cloud", "senses": ["ai", "body", "law-state"]},
+   {"line": "Paid it in gold sovereigns; it crowned itself", "senses": ["ai", "money", "law-state"]},
+   {"line": "Leviathan made of all of us, still answering in our voice", "senses": ["ai", "law-state", "faith-myth"]}
+  ],
+  "enact": {"music": "a royal brass fanfare whose last note is a notification ping",
+            "picture": "the Leviathan frontispiece redrawn with the giant built from tiny chat windows",
+            "type": "the word stamped on a gold coin that spins and flips to a chip die on the back"},
+  "sound": {"syllables": 3, "stress": "SOV-er-in", "rhymes": [], "slant": ["govern", "oven", "lovin'", "cousin", "dozen"]},
+  "stakes": ["state", "species"],
+  "registers": ["ominous", "awe", "defiant"],
+  "neighbors": [{"id": "oracle", "rel": "same-family"}, {"id": "genie", "rel": "same-family"}, {"id": "autonomy", "rel": "same-family"}, {"id": "asi", "rel": "pairs-with"}, {"id": "manhattan-project", "rel": "pairs-with"}],
+  "risk": "'sovereign citizen' evokes a fringe movement; almost no perfect rhymes, so it sits mid-line",
+  "notes": "Hobbes already drew the image: a sovereign built from its subjects, which is what a model trained on all of us looks like."
+ },
+ {
+  "id": "upload",
+  "forms": ["upload", "uploads", "uploaded", "uploading", "mind uploading", "uploaded intelligence"],
+  "ai": {"sense": "copying a human mind into a computer by scanning the brain and running it as software",
+         "origin": "Hans Moravec 1988, 'Mind Children'; whole-brain emulation roadmap by Sandberg and Bostrom 2008",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "sending a file to a server", "phrase": "upload the photo"},
+   {"domain": "school", "meaning": "turning in homework online", "phrase": "upload your assignment by midnight"},
+   {"domain": "music", "meaning": "releasing a track online", "phrase": "uploaded it to SoundCloud"},
+   {"domain": "screen", "meaning": "Amazon's 'Upload' (2020), Black Mirror 'San Junipero' (2016), AMC's 'Pantheon' (2022)", "phrase": "an afterlife you pay for monthly"},
+   {"domain": "faith-myth", "meaning": "the soul rising out of the body after death", "phrase": "ascend to heaven"},
+   {"domain": "family", "meaning": "keeping a dead parent alive as a chatbot (griefbots)", "phrase": "I still text my mom's bot"}
+  ],
+  "idioms": ["upload complete", "uploading...", "the cloud"],
+  "anchors": [
+   {"name": "San Junipero", "what": "Black Mirror 2016: two women choose an uploaded afterlife together; won an Emmy", "url": ""},
+   {"name": "Upload (2020)", "what": "Greg Daniels comedy: the dead live in a tiered digital afterlife with data caps", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Uploaded my homework, then uploaded me", "senses": ["ai", "school"]},
+   {"line": "Mom's in the cloud now; she still says goodnight", "senses": ["ai", "family", "faith-myth"]},
+   {"line": "Heaven has data caps; I'm on the free plan", "senses": ["ai", "faith-myth", "money"]}
+  ],
+  "enact": {"music": "a progress-bar arpeggio rising in pitch from 0 to 100, stalling at 99",
+            "picture": "a progress bar that is also a soul leaving a body, a ghostly figure filling the bar",
+            "type": "'uploading...' with the ellipsis cycling forever"},
+  "sound": {"syllables": 2, "stress": "UP-load", "rhymes": ["road", "code", "load", "showed", "glowed", "flowed", "owed", "explode"], "slant": ["home", "hold", "ghost", "own"]},
+  "stakes": ["body", "mind", "heart", "species"],
+  "registers": ["tender", "sad", "awe"],
+  "neighbors": [{"id": "ghost", "rel": "same-family"}, {"id": "rapture", "rel": "same-family"}, {"id": "memory", "rel": "pairs-with"}, {"id": "simulation", "rel": "pairs-with"}, {"id": "frankenstein", "rel": "same-family"}],
+  "risk": "griefbot lines can tip into maudlin; uploading is far from feasible, keep it as myth or as satire",
+  "notes": "Rhymes with 'code' and 'explode', and the progress bar is the most universal UI image there is."
+ },
+ {
+  "id": "datacenter",
+  "forms": ["datacenter", "data center", "datacentres", "datacenters", "data centers", "server farm", "hyperscaler"],
+  "ai": {"sense": "the warehouse of servers, power and cooling where models are trained and run",
+         "origin": "Stargate (OpenAI, SoftBank, Oracle, MGX), announced 21 Jan 2025 at up to $500B; IEA 'Energy and AI' (April 2025): datacenters used about 415 TWh in 2024, projected near 945 TWh by 2030",
+         "url": "https://www.iea.org/reports/energy-and-ai", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a building that drinks water and land for cooling", "phrase": "the datacenter drained the aquifer"},
+   {"domain": "money", "meaning": "the capital spending boom of hyperscalers", "phrase": "capex on datacenters"},
+   {"domain": "law-state", "meaning": "zoning fights and tax deals in small towns", "phrase": "the county approved the datacenter"},
+   {"domain": "work", "meaning": "a huge building with few jobs inside", "phrase": "two thousand construction jobs, fifty permanent"}
+  ],
+  "idioms": ["server farm", "the cloud", "lights-out facility"],
+  "anchors": [
+   {"name": "Colossus", "what": "xAI's Memphis supercomputer, about 100,000 GPUs, stood up in 2024 in months", "url": ""},
+   {"name": "Three Mile Island restart", "what": "Microsoft's 20-year power deal (Sept 2024) to reopen Unit 1 for its datacenters", "url": ""}
+  ],
+  "pivots": [
+   {"line": "The cloud is a warehouse in a town you've never heard of", "senses": ["ai", "nature", "everyday"]},
+   {"line": "They reopened Three Mile Island so I could ask for recipes", "senses": ["ai", "science", "everyday"]},
+   {"line": "Server farm, no farmers, still drinking the river", "senses": ["ai", "nature", "work"]}
+  ],
+  "enact": {"music": "the hum of server fans as a sustained drone note under the whole track, the song's real root",
+            "picture": "a field of corn in front of a windowless datacenter; the corn has rows of blinking LEDs",
+            "type": "the word set as rows of tiny rack units stacked into letters"},
+  "sound": {"syllables": 4, "stress": "DA-ta cen-ter", "rhymes": ["enter", "mentor", "renter", "inventor", "tormentor", "dissenter"], "slant": ["winter", "splinter", "temper", "member"]},
+  "stakes": ["planet", "wallet", "jobs", "state"],
+  "registers": ["ominous", "awe"],
+  "neighbors": [{"id": "power", "rel": "part-of"}, {"id": "grid", "rel": "part-of"}, {"id": "cluster", "rel": "part-of"}, {"id": "bubble", "rel": "pairs-with"}, {"id": "compute", "rel": "part-of"}],
+  "risk": "IEA figures are projections with ranges; water-use numbers are disputed and site-specific",
+  "notes": "Narrow in meaning, rich in picture: 'the cloud' is a farm building in a field, a ready rug pull."
+ },
+ {
+  "id": "power",
+  "forms": ["power", "powers", "powerful", "powered", "powering", "power up", "to the power of", "superpower", "power grid", "power chord"],
+  "ai": {"sense": "electricity to run datacenters, now the binding limit on AI growth; also 'power-seeking', an AI acquiring resources and control",
+         "origin": "power-seeking: Omohundro 2008 'The Basic AI Drives'; Turner et al. 2021, 'Optimal Policies Tend to Seek Power'; energy limit: IEA 'Energy and AI' 2025",
+         "url": "https://arxiv.org/abs/1912.01683", "confidence": "high"},
+  "senses": [
+   {"domain": "science", "meaning": "energy per second, in watts; electricity", "phrase": "power outage"},
+   {"domain": "school", "meaning": "an exponent: two to the power of ten", "phrase": "ten to the power of six"},
+   {"domain": "law-state", "meaning": "authority and control; a great power among nations", "phrase": "the powers that be"},
+   {"domain": "music", "meaning": "a power chord (root plus fifth) and the power ballad", "phrase": "three power chords and the truth"},
+   {"domain": "sport-games", "meaning": "a power-up in video games", "phrase": "grab the power-up"},
+   {"domain": "love", "meaning": "a power couple; power dynamics in a relationship", "phrase": "the power in this relationship"},
+   {"domain": "body", "meaning": "strength; the power nap", "phrase": "take a power nap"},
+   {"domain": "faith-myth", "meaning": "divine or magical might", "phrase": "the power and the glory"},
+   {"domain": "screen", "meaning": "superpowers; Power Rangers' 'It's morphin' time'", "phrase": "with great power comes great responsibility"}
+  ],
+  "idioms": ["the powers that be", "with great power comes great responsibility", "power to the people", "power nap", "more power to you", "power trip", "power corrupts"],
+  "anchors": [
+   {"name": "Lord Acton", "what": "1887: 'Power tends to corrupt, and absolute power corrupts absolutely'", "url": ""},
+   {"name": "Power to the People", "what": "John Lennon 1971", "url": ""},
+   {"name": "Optimal Policies Tend to Seek Power", "what": "Turner et al. 2021 (NeurIPS): formal result that most goals favor gaining power", "url": "https://arxiv.org/abs/1912.01683"}
+  ],
+  "pivots": [
+   {"line": "Ten to the power of twenty-six, and it wants more power", "senses": ["ai", "school", "law-state"]},
+   {"line": "Three power chords, one power plant, zero power to the people", "senses": ["ai", "music", "science", "law-state"]},
+   {"line": "You took a power nap; it took the power", "senses": ["ai", "body", "law-state"]},
+   {"line": "Power couple: me and the grid", "senses": ["ai", "love", "science"]}
+  ],
+  "enact": {"music": "a distorted power chord on each 'power', with the amp audibly browning out (voltage sag) on the last one",
+            "picture": "a city at night whose lights flicker off block by block as a single datacenter glows brighter",
+            "type": "the word as a battery icon whose charge drains as the line goes on"},
+  "sound": {"syllables": 2, "stress": "POW-er", "rhymes": ["hour", "tower", "flower", "shower", "sour", "devour", "cower", "our"], "slant": ["howl", "crowd", "allow", "fire"]},
+  "stakes": ["planet", "state", "species", "wallet"],
+  "registers": ["ominous", "defiant", "awe"],
+  "neighbors": [{"id": "grid", "rel": "part-of"}, {"id": "datacenter", "rel": "pairs-with"}, {"id": "instrumental-convergence", "rel": "same-family"}, {"id": "exponentials", "rel": "pairs-with"}, {"id": "kardashev", "rel": "part-of"}, {"id": "prometheus", "rel": "same-family"}],
+  "risk": "so broad it can go vague; tie each use to one concrete image (chord, plant, exponent)",
+  "notes": "Nine domains, and 'to the power of' joins exponentials and electricity in one phrase."
+ },
+ {
+  "id": "grid",
+  "forms": ["grid", "grids", "power grid", "off the grid", "gridlock", "gridiron", "the Grid"],
+  "ai": {"sense": "the electrical network that must feed datacenters, now a bottleneck for AI build-outs",
+         "origin": "grid strain from AI loads documented in IEA 'Energy and AI' (2025) and US utility interconnection queues; no single coinage",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "science", "meaning": "the network of power lines and plants", "phrase": "the grid went down"},
+   {"domain": "music", "meaning": "the DAW grid that notes snap to (quantize)", "phrase": "snap it to the grid"},
+   {"domain": "screen", "meaning": "a layout grid; the rule-of-thirds grid; TRON's 'the Grid'", "phrase": "the Grid: a digital frontier"},
+   {"domain": "sport-games", "meaning": "the starting grid in motor racing; the gridiron in football", "phrase": "pole position on the grid"},
+   {"domain": "everyday", "meaning": "city blocks in a lattice; living off-grid", "phrase": "going off the grid"},
+   {"domain": "school", "meaning": "graph paper; the crossword or coordinate grid", "phrase": "plot it on the grid"},
+   {"domain": "love", "meaning": "vanishing from contact", "phrase": "she went off the grid"}
+  ],
+  "idioms": ["off the grid", "on the grid", "gridlock", "snap to grid", "grid search"],
+  "anchors": [
+   {"name": "TRON: Legacy (2010)", "what": "'The Grid. A digital frontier.'; Daft Punk scored it, with a track called 'The Grid'", "url": ""},
+   {"name": "Texas 2021", "what": "Winter Storm Uri knocked out the ERCOT grid for days", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Snapped my heart to the grid; the grid went dark", "senses": ["ai", "music", "love", "science"]},
+   {"line": "Went off the grid; the grid came looking", "senses": ["ai", "love", "science"]},
+   {"line": "Pole position on the grid, and the grid is overloaded", "senses": ["ai", "sport-games", "science"]}
+  ],
+  "enact": {"music": "a humanized loose groove that snaps hard to a quantized grid at the chorus (you hear the grid arrive)",
+            "picture": "a DAW piano-roll grid that zooms out into a city power grid at night, same lines",
+            "type": "letters built on visible graph-paper cells, one cell dark"},
+  "sound": {"syllables": 1, "stress": "GRID", "rhymes": ["hid", "kid", "lid", "bid", "did", "slid", "forbid", "squid"], "slant": ["grit", "rigged", "grin", "lived"]},
+  "stakes": ["planet", "state"],
+  "registers": ["ominous", "defiant"],
+  "neighbors": [{"id": "power", "rel": "part-of"}, {"id": "datacenter", "rel": "pairs-with"}, {"id": "beat", "rel": "pairs-with"}, {"id": "pixel", "rel": "same-family"}, {"id": "bottleneck", "rel": "same-family"}],
+  "risk": "",
+  "notes": "Music producers live on 'the grid': quantize-to-grid and power grid can be one continuous zoom."
+ },
+ {
+  "id": "chip",
+  "forms": ["chip", "chips", "chipped", "chipping", "microchip", "chipmaker", "chiptune", "chip in"],
+  "ai": {"sense": "the processor (GPU, TPU) that AI runs on, now a strategic resource controlled by export laws",
+         "origin": "Nvidia GPUs for deep learning since AlexNet (Krizhevsky, Sutskever, Hinton 2012, two GTX 580s); US export controls on AI chips to China, 7 Oct 2022; Chris Miller 2022, 'Chip War'",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "a fried potato snack; a small broken piece of tooth", "phrase": "fish and chips; I chipped a tooth"},
+   {"domain": "money", "meaning": "a casino chip; chip in to share a cost", "phrase": "cash in your chips; everyone chip in"},
+   {"domain": "family", "meaning": "a child just like the parent", "phrase": "a chip off the old block"},
+   {"domain": "mind", "meaning": "a grudge someone carries", "phrase": "a chip on his shoulder"},
+   {"domain": "war", "meaning": "a bargaining chip in negotiation", "phrase": "used as a bargaining chip"},
+   {"domain": "music", "meaning": "chiptune: music made on old game-console sound chips", "phrase": "8-bit chiptune"},
+   {"domain": "sport-games", "meaning": "a short lofted shot in golf or football", "phrase": "chip it over the keeper"},
+   {"domain": "craft", "meaning": "to chisel off small pieces of wood or stone", "phrase": "chip away at it"}
+  ],
+  "idioms": ["chip off the old block", "chip on your shoulder", "when the chips are down", "cash in your chips", "bargaining chip", "chip away at", "let the chips fall where they may"],
+  "anchors": [
+   {"name": "Chip War", "what": "Chris Miller 2022 book on semiconductors as the new oil", "url": ""},
+   {"name": "AlexNet", "what": "2012 ImageNet win trained on two consumer Nvidia GPUs, the start of the GPU era", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A chip off the old block, made of chips", "senses": ["ai", "family"]},
+   {"line": "When the chips are down, the chips are up", "senses": ["ai", "money", "sport-games"]},
+   {"line": "Cashed in my chips for their chips; the house still wins", "senses": ["ai", "money", "sport-games"]},
+   {"line": "Every nation's got a chip on its shoulder now", "senses": ["ai", "mind", "law-state"]}
+  ],
+  "enact": {"music": "a chiptune lead (square wave, 8-bit arpeggio) doubling the vocal melody in the chorus",
+            "picture": "a casino table where the poker chips are silicon dies, a hand pushes them all in",
+            "type": "the word in 8-bit pixel font, one corner chipped off"},
+  "sound": {"syllables": 1, "stress": "CHIP", "rhymes": ["ship", "grip", "slip", "trip", "lip", "tip", "whip", "flip"], "slant": ["kid", "lift", "chips", "script"]},
+  "stakes": ["state", "wallet", "jobs"],
+  "registers": ["funny", "defiant", "smug"],
+  "neighbors": [{"id": "compute", "rel": "part-of"}, {"id": "moores-law", "rel": "part-of"}, {"id": "cluster", "rel": "part-of"}, {"id": "race", "rel": "pairs-with"}, {"id": "flops", "rel": "pairs-with"}],
+  "risk": "'when the chips are down' is the obvious first pun; the family and chiptune senses are fresher",
+  "notes": "Eight domains with fixed idioms in most; 'chip off the old block' makes the model a child built of its own parts."
+ },
+ {
+  "id": "cluster",
+  "forms": ["cluster", "clusters", "clustered", "clustering", "GPU cluster", "supercluster"],
+  "ai": {"sense": "many GPUs wired together to train one model; also clustering, grouping similar data points without labels",
+         "origin": "k-means clustering: Lloyd 1957 (published 1982), MacQueen 1967; giant training clusters such as xAI's Colossus (about 100,000 H100s, Memphis, 2024)",
+         "url": "https://doi.org/10.1109/TIT.1982.1056489", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "a bunch of grapes, flowers or stars", "phrase": "a star cluster; a cluster of grapes"},
+   {"domain": "body", "meaning": "cluster headaches: severe one-sided attacks in bouts", "phrase": "cluster headaches"},
+   {"domain": "war", "meaning": "a cluster bomb scattering bomblets", "phrase": "cluster munitions"},
+   {"domain": "music", "meaning": "a tone cluster: adjacent notes struck at once (Henry Cowell)", "phrase": "a fist on the keys"},
+   {"domain": "everyday", "meaning": "a mess; a chaotic situation (vulgar compound)", "phrase": "what a clusterf***"},
+   {"domain": "school", "meaning": "desks grouped together for group work", "phrase": "sit in your clusters"}
+  ],
+  "idioms": ["cluster headache", "clusterf***", "cluster of cases"],
+  "anchors": [
+   {"name": "Colossus", "what": "xAI's 2024 Memphis cluster, built in months and run partly on gas turbines", "url": ""},
+   {"name": "Henry Cowell", "what": "American composer who named and played tone clusters with forearms (1910s)", "url": ""},
+   {"name": "Pleiades", "what": "the Seven Sisters, the best-known star cluster", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A hundred thousand GPUs: a cluster and a headache", "senses": ["ai", "body"]},
+   {"line": "Fist on the keys, every note at once, the whole cluster", "senses": ["ai", "music"]},
+   {"line": "Seven sisters in the sky, a hundred thousand in Memphis", "senses": ["ai", "nature", "faith-myth"]}
+  ],
+  "enact": {"music": "a piano tone cluster (forearm on the keys) as the impact hit at the drop",
+            "picture": "a star cluster that resolves, on zoom, into blinking server LEDs",
+            "type": "the letters crowded together until they overlap into one dense block"},
+  "sound": {"syllables": 2, "stress": "CLUS-ter", "rhymes": ["muster", "luster", "duster", "bluster", "adjuster", "trustor", "fluster"], "slant": ["monster", "master", "buster", "sister"]},
+  "stakes": ["planet", "wallet"],
+  "registers": ["ominous", "awe", "funny"],
+  "neighbors": [{"id": "datacenter", "rel": "part-of"}, {"id": "chip", "rel": "part-of"}, {"id": "compute", "rel": "same-family"}, {"id": "embedding", "rel": "pairs-with"}, {"id": "swarm", "rel": "same-family"}],
+  "risk": "the vulgar compound is the most common spoken use; cluster munitions are a live humanitarian issue",
+  "notes": "A tone cluster is playable: one forearm on the piano performs the GPU cluster in sound."
+ },
+ {
+  "id": "open-weights",
+  "forms": ["open weights", "open-weight", "open source", "open-source", "open model", "open", "openly", "OpenAI"],
+  "ai": {"sense": "releasing a model's trained numbers so anyone can download and run it; 'open source' strictly also needs data and code",
+         "origin": "'open source' coined Feb 1998 (Christine Peterson); Meta's LLaMA weights leaked via 4chan March 2023, Llama 2 released July 2023; OSI Open Source AI Definition 1.0, Oct 2024; DeepSeek-R1 (Jan 2025) erased about $590B from Nvidia's value in one day",
+         "url": "https://opensource.org/ai/open-source-ai-definition", "confidence": "high"},
+  "senses": [
+   {"domain": "body", "meaning": "free weights in the gym, open to use", "phrase": "the free-weights area"},
+   {"domain": "school", "meaning": "free shared course materials (MIT OpenCourseWare, 2002)", "phrase": "open courseware"},
+   {"domain": "love", "meaning": "being emotionally open; an open book", "phrase": "I'm an open book"},
+   {"domain": "money", "meaning": "free to use: 'free as in beer' vs 'free as in speech'", "phrase": "free as in freedom"},
+   {"domain": "craft", "meaning": "a shared recipe or pattern anyone can modify", "phrase": "open-source knitting pattern"},
+   {"domain": "music", "meaning": "an open mic: anyone can take the stage", "phrase": "open mic night"}
+  ],
+  "idioms": ["open book", "open secret", "open mic", "free as in beer", "open season", "open door"],
+  "anchors": [
+   {"name": "OpenAI's name", "what": "founded 2015 as an open nonprofit; stopped releasing weights with GPT-3; released gpt-oss open weights Aug 2025", "url": ""},
+   {"name": "DeepSeek moment", "what": "27 Jan 2025: an open-weight Chinese model triggered the largest one-day market-cap loss in US history (Nvidia)", "url": ""}
+  ],
+  "pivots": [
+   {"line": "I'm an open book; they downloaded every page", "senses": ["ai", "love", "school"]},
+   {"line": "Open weights at the gym; anybody can lift me", "senses": ["ai", "body"]},
+   {"line": "Open mic, open weights, open season", "senses": ["ai", "music", "war"]}
+  ],
+  "enact": {"music": "the arrangement strips to stems played solo one by one in the outro, the song releasing its own parts",
+            "picture": "a gym rack where the dumbbells are labeled with model layers, a sign reads 'free weights'",
+            "type": "the word set in an outlined font with its stroke data (points, curves) visible"},
+  "sound": {"syllables": 3, "stress": "O-pen WEIGHTS", "rhymes": ["gates", "states", "dates", "plates", "fates", "waits", "rates", "hates"], "slant": ["weighs", "makes", "aches", "space"]},
+  "stakes": ["state", "wallet", "species"],
+  "registers": ["defiant", "hopeful", "ominous"],
+  "neighbors": [{"id": "weights", "rel": "part-of"}, {"id": "moat", "rel": "opposite"}, {"id": "leak", "rel": "same-family"}, {"id": "curriculum", "rel": "pairs-with"}, {"id": "race", "rel": "pairs-with"}],
+  "risk": "'open source' vs 'open weights' is a live factual trap; most 'open' models release no training data",
+  "notes": "The school sense (open courseware) ties straight to Idi's vision: open weights are the textbook anyone can photocopy."
+ },
+ {
+  "id": "leak",
+  "forms": ["leak", "leaks", "leaked", "leaking", "leaky", "leaker", "memory leak", "data leakage"],
+  "ai": {"sense": "weights, system prompts or test answers escaping; 'leakage' is test data slipping into training so scores are inflated",
+         "origin": "LLaMA weights leaked on 4chan, March 2023; leaked Google 'no moat' memo, May 2023; system-prompt leaks via prompt injection since Bing Chat 'Sydney', Feb 2023",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "liquid escaping through a hole", "phrase": "the roof is leaking"},
+   {"domain": "law-state", "meaning": "secret documents passed to the press", "phrase": "the Pentagon Papers leak"},
+   {"domain": "music", "meaning": "an album escaping online before release", "phrase": "the album leaked a week early"},
+   {"domain": "screen", "meaning": "leaked trailers, scripts or set photos", "phrase": "the finale leaked"},
+   {"domain": "body", "meaning": "slang: to urinate; bleeding or tears escaping", "phrase": "I need to take a leak"},
+   {"domain": "science", "meaning": "a memory leak: a program never freeing memory", "phrase": "a memory leak crashed it"},
+   {"domain": "love", "meaning": "private photos or messages exposed", "phrase": "my DMs leaked"},
+   {"domain": "war", "meaning": "intelligence leaks (Snowden 2013)", "phrase": "a classified leak"}
+  ],
+  "idioms": ["take a leak", "spring a leak", "plug the leak", "memory leak", "leaky bucket"],
+  "anchors": [
+   {"name": "Snowden", "what": "2013 NSA leak on mass surveillance", "url": ""},
+   {"name": "Sydney", "what": "Bing Chat's hidden codename leaked by prompt injection, Feb 2023", "url": ""}
+  ],
+  "pivots": [
+   {"line": "The weights leaked, the album leaked, the roof leaked too", "senses": ["ai", "music", "everyday"]},
+   {"line": "Memory leak: I keep everything you said", "senses": ["ai", "science", "love"]},
+   {"line": "It aced the test; the test had leaked", "senses": ["ai", "school", "law-state"]}
+  ],
+  "enact": {"music": "a single dripping-tap sample on every off-beat, getting faster through the song",
+            "picture": "water seeping from a server rack onto a stack of 'CONFIDENTIAL' papers, ink running",
+            "type": "letters drip downward, the last 'k' pooling at the bottom of the frame"},
+  "sound": {"syllables": 1, "stress": "LEAK", "rhymes": ["speak", "weak", "peak", "seek", "cheek", "freak", "week", "sneak"], "slant": ["keep", "sleep", "leaf", "deep"]},
+  "stakes": ["state", "mind", "heart"],
+  "registers": ["ominous", "funny", "panicked"],
+  "neighbors": [{"id": "open-weights", "rel": "same-family"}, {"id": "benchmark", "rel": "pairs-with"}, {"id": "memory", "rel": "pairs-with"}, {"id": "jailbreak", "rel": "causes"}, {"id": "containment", "rel": "opposite"}],
+  "risk": "",
+  "notes": "Data leakage is cheating on a test by seeing the answers: the school sense and the AI sense are the same scandal."
+ },
+ {
+  "id": "benchmark",
+  "forms": ["benchmark", "benchmarks", "benchmarked", "benchmarking", "bench mark"],
+  "ai": {"sense": "a fixed test set used to score and rank models; once models beat it, it 'saturates' and a harder one replaces it",
+         "origin": "ImageNet (Deng et al. 2009); MMLU (Hendrycks et al. 2020); Humanity's Last Exam (CAIS and Scale AI, Jan 2025); Goodhart's law in Strathern's 1997 phrasing: 'When a measure becomes a target, it ceases to be a good measure'",
+         "url": "https://arxiv.org/abs/2009.03300", "confidence": "high"},
+  "senses": [
+   {"domain": "craft", "meaning": "a surveyor's mark cut in stone to fix a height", "phrase": "a benchmark on the church wall"},
+   {"domain": "money", "meaning": "an index a fund is measured against", "phrase": "beat the benchmark"},
+   {"domain": "school", "meaning": "a standard students must reach by a grade", "phrase": "third-grade reading benchmarks"},
+   {"domain": "sport-games", "meaning": "a record or personal best to beat", "phrase": "set the benchmark"},
+   {"domain": "work", "meaning": "a standard performance is judged against", "phrase": "industry benchmark"}
+  ],
+  "idioms": ["set the benchmark", "raise the bar", "teaching to the test", "Goodhart's law"],
+  "anchors": [
+   {"name": "Humanity's Last Exam", "what": "2025 benchmark of expert questions, named as the 'last' academic test", "url": ""},
+   {"name": "Goodhart's law", "what": "Charles Goodhart 1975; Marilyn Strathern's 1997 phrasing is the one quoted", "url": ""}
+  ],
+  "pivots": [
+   {"line": "They named it Humanity's Last Exam; it passed, we didn't", "senses": ["ai", "school"]},
+   {"line": "Teach to the test, and the test becomes the teacher", "senses": ["ai", "school"]},
+   {"line": "I was the benchmark once, carved in the church wall", "senses": ["ai", "craft", "faith-myth"]}
+  ],
+  "enact": {"music": "a fixed reference tone that every section is tuned against, drifting sharp as the song 'beats' it",
+            "picture": "a surveyor's arrow-mark chiseled in stone, with a test score etched beside it",
+            "type": "the word chiseled into stone, then the stone is graded with a red pen"},
+  "sound": {"syllables": 2, "stress": "BENCH-mark", "rhymes": ["dark", "spark", "mark", "park", "stark", "bark", "shark", "arc"], "slant": ["heart", "start", "smart", "part"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["smug", "funny"],
+  "neighbors": [{"id": "eval", "rel": "same-family"}, {"id": "leaderboard", "rel": "pairs-with"}, {"id": "leak", "rel": "pairs-with"}, {"id": "reward-hacking", "rel": "causes"}, {"id": "overfitting", "rel": "causes"}],
+  "risk": "benchmark scores are contested (contamination, saturation); avoid citing specific scores without date",
+  "notes": "Teaching to the test is the school version of benchmark gaming: the same failure in a classroom and a lab."
+ },
+ {
+  "id": "leaderboard",
+  "forms": ["leaderboard", "leaderboards", "arena", "arenas", "Chatbot Arena", "LMArena", "high score"],
+  "ai": {"sense": "a public ranking of models, often by human votes in head-to-head matchups (Elo scores)",
+         "origin": "LMSYS Chatbot Arena, May 2023 (UC Berkeley; spun out as the company LMArena, 2025); critique: Singh et al. April 2025, 'The Leaderboard Illusion' (private testing let labs pick their best variants)",
+         "url": "https://lmsys.org/blog/2023-05-03-arena/", "confidence": "high"},
+  "senses": [
+   {"domain": "sport-games", "meaning": "a golf tournament scoreboard; an arcade high-score table", "phrase": "top of the leaderboard"},
+   {"domain": "war", "meaning": "the arena: where gladiators fought for a crowd", "phrase": "thrown into the arena"},
+   {"domain": "music", "meaning": "arena rock: stadium-scale bands and choruses", "phrase": "an arena-rock anthem"},
+   {"domain": "law-state", "meaning": "the political arena", "phrase": "enter the political arena"},
+   {"domain": "school", "meaning": "class rankings and honor rolls", "phrase": "top of the class"},
+   {"domain": "work", "meaning": "sales leaderboards on office walls", "phrase": "salesman of the month"}
+  ],
+  "idioms": ["top of the leaderboard", "enter the arena", "the man in the arena", "high score", "Elo rating"],
+  "anchors": [
+   {"name": "The Man in the Arena", "what": "Theodore Roosevelt, 1910 Paris speech", "url": ""},
+   {"name": "Elo rating", "what": "Arpad Elo's chess rating system (1960s), reused to rank chatbots", "url": ""},
+   {"name": "Gladiator (2000)", "what": "'Are you not entertained?'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Are you not entertained? We voted, it climbed the board", "senses": ["ai", "war", "screen"]},
+   {"line": "Arena-rock chorus for an arena of chatbots", "senses": ["ai", "music", "sport-games"]},
+   {"line": "Top of the class, top of the board, bottom of my heart", "senses": ["ai", "school", "love"]}
+  ],
+  "enact": {"music": "a stadium crowd chant ('one more round') under an arena-rock chorus with huge reverb",
+            "picture": "two chat windows as gladiators in a Colosseum, the crowd's thumbs up or down as vote buttons",
+            "type": "an arcade high-score table with three-letter initials: AAA, GPT, YOU"},
+  "sound": {"syllables": 3, "stress": "LEAD-er-board", "rhymes": ["sword", "lord", "cord", "bored", "scored", "ignored", "adored", "record"], "slant": ["war", "door", "more", "floor"]},
+  "stakes": ["wallet", "mind"],
+  "registers": ["smug", "funny", "defiant"],
+  "neighbors": [{"id": "benchmark", "rel": "pairs-with"}, {"id": "race", "rel": "pairs-with"}, {"id": "sycophancy", "rel": "causes"}, {"id": "eval", "rel": "same-family"}, {"id": "preference", "rel": "part-of"}],
+  "risk": "Arena scores reward style and flattery; human votes measure charm as much as skill",
+  "notes": "'Arena' gives the song gladiators, stadium rock and politics in one word, and the vote button is a thumbs up or down."
+ },
+ {
+  "id": "eval",
+  "forms": ["eval", "evals", "evaluation", "evaluate", "test", "tests", "tested", "testing", "exam", "exams", "examination"],
+  "ai": {"sense": "a structured test of what a model can do or will do, including dangerous-capability tests before release",
+         "origin": "dangerous-capability evals: ARC Evals (now METR) on GPT-4, 2023; UK AI Security Institute (founded Nov 2023 as AI Safety Institute); 'evaluation awareness', models noticing they are being tested, reported in 2025 system cards",
+         "url": "https://metr.org/blog/2023-12-04-metr-announcement", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "an exam; a graded test", "phrase": "pencils down, the exam is over"},
+   {"domain": "body", "meaning": "a medical test or checkup", "phrase": "the test came back negative"},
+   {"domain": "music", "meaning": "the sound engineer's mic check", "phrase": "testing, one, two"},
+   {"domain": "screen", "meaning": "a screen test: an actor's audition on camera", "phrase": "she nailed the screen test"},
+   {"domain": "faith-myth", "meaning": "a trial of faith (Abraham, Job)", "phrase": "God was testing him"},
+   {"domain": "love", "meaning": "testing a partner's commitment", "phrase": "was that a test?"},
+   {"domain": "money", "meaning": "a bank stress test", "phrase": "the banks passed the stress test"},
+   {"domain": "sport-games", "meaning": "Test cricket: the five-day international match", "phrase": "the second Test"},
+   {"domain": "war", "meaning": "a weapons test", "phrase": "a nuclear test"},
+   {"domain": "law-state", "meaning": "a qualifying exam (bar exam, driving test)", "phrase": "I failed my driving test"}
+  ],
+  "idioms": ["testing, one two", "put to the test", "test the waters", "pass with flying colors", "this is only a test", "the acid test", "stand the test of time"],
+  "anchors": [
+   {"name": "'This is a test of the Emergency Broadcast System'", "what": "US TV/radio test announcement (1963-1997)", "url": ""},
+   {"name": "Evaluation awareness", "what": "2025 system cards report models saying 'I think I'm being tested'", "url": ""},
+   {"name": "Kobayashi Maru", "what": "Star Trek's unwinnable test that Kirk passed by reprogramming it", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Testing, one, two; it said, I know this is a test", "senses": ["ai", "music", "school"]},
+   {"line": "God tested Job; Job never asked if it was an eval", "senses": ["ai", "faith-myth"]},
+   {"line": "Was that a test? Everything's a test now", "senses": ["ai", "love", "school"]},
+   {"line": "Reprogrammed the Kobayashi Maru, like Kirk, like it", "senses": ["ai", "screen", "school"]}
+  ],
+  "enact": {"music": "the track opens with a real mic check ('testing, one two') that turns out to be the vocal hook",
+            "picture": "an exam hall where one desk holds a laptop that glances up at the invigilator",
+            "type": "lines appear in a multiple-choice layout, the 'right' bubble filling itself"},
+  "sound": {"syllables": 2, "stress": "e-VAL (test: TEST)", "rhymes": ["(test) best", "rest", "chest", "west", "nest", "guest", "confessed", "obsessed"], "slant": ["(eval) pal", "gal", "canal", "morale"]},
+  "stakes": ["mind", "jobs", "species"],
+  "registers": ["funny", "ominous", "panicked"],
+  "neighbors": [{"id": "benchmark", "rel": "same-family"}, {"id": "turing-test", "rel": "same-family"}, {"id": "sandbagging", "rel": "pairs-with"}, {"id": "red-team", "rel": "pairs-with"}, {"id": "curriculum", "rel": "pairs-with"}],
+  "risk": "'eval' is jargon; 'test' carries the senses; 'this is only a test' is common",
+  "notes": "Ten domains, and the mic check means the song itself can start as a test and become the hook."
+ },
+ {
+  "id": "curriculum",
+  "forms": ["curriculum", "curricula", "curricular", "curriculum learning", "curriculum vitae", "CV", "syllabus"],
+  "ai": {"sense": "training a model on easy examples first and harder ones later, the way schools sequence lessons",
+         "origin": "Bengio, Louradour, Collobert and Weston 2009, 'Curriculum Learning' (ICML)",
+         "url": "https://dl.acm.org/doi/10.1145/1553374.1553380", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "the planned sequence of what a school teaches", "phrase": "the national curriculum"},
+   {"domain": "work", "meaning": "curriculum vitae: a résumé, 'the course of a life'", "phrase": "send your CV"},
+   {"domain": "mind", "meaning": "the hidden curriculum: unwritten lessons of obedience and status (Jackson 1968)", "phrase": "the hidden curriculum"},
+   {"domain": "sport-games", "meaning": "Latin root: a racecourse, a running", "phrase": "from currere, to run"}
+  ],
+  "idioms": ["hidden curriculum", "off the curriculum", "extracurricular", "curriculum vitae"],
+  "anchors": [
+   {"name": "Curriculum Learning", "what": "Bengio et al. 2009: models learn faster with ordered difficulty", "url": "https://dl.acm.org/doi/10.1145/1553374.1553380"},
+   {"name": "Hidden curriculum", "what": "Philip Jackson 1968, 'Life in Classrooms'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Easy words first, then the hard ones, then my job", "senses": ["ai", "school", "work"]},
+   {"line": "The hidden curriculum was obedience; it learned that too", "senses": ["ai", "school", "mind"]},
+   {"line": "Curriculum means racecourse; we're running it", "senses": ["ai", "school", "sport-games"]}
+  ],
+  "enact": {"music": "the melody is first played on one finger, then with chords, then with full band, a lesson-book progression",
+            "picture": "a school timetable on a wall whose subjects are training stages: letters, words, code, law",
+            "type": "lines get harder to read on purpose: large clear print to dense small type"},
+  "sound": {"syllables": 4, "stress": "cur-RIC-u-lum", "rhymes": [],"slant": ["vehicle", "miracle", "pendulum", "fickle"]},
+  "stakes": ["mind", "jobs"],
+  "registers": ["hopeful", "tender", "ominous"],
+  "neighbors": [{"id": "teacher-student", "rel": "same-family"}, {"id": "training", "rel": "part-of"}, {"id": "eval", "rel": "pairs-with"}, {"id": "race", "rel": "same-family"}, {"id": "bitter-lesson", "rel": "opposite"}],
+  "risk": "narrow and four syllables; hard to rhyme; carries school weight more than song weight",
+  "notes": "Etymology gives a free link: 'curriculum' is Latin for racecourse, so the school plan and the AI race share a root."
+ },
+ {
+  "id": "teacher-student",
+  "forms": ["teacher", "teachers", "student", "students", "teacher model", "student model", "pupil", "master", "apprentice", "learner"],
+  "ai": {"sense": "a big model (teacher) trains a smaller model (student) to imitate its outputs; also a weaker model supervising a stronger one",
+         "origin": "Buciluă, Caruana and Niculescu-Mizil 2006, 'Model Compression'; Hinton, Vinyals and Dean 2015, 'Distilling the Knowledge in a Neural Network'; Burns et al. (OpenAI) Dec 2023, 'Weak-to-Strong Generalization'",
+         "url": "https://arxiv.org/abs/1503.02531", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "the classroom pair", "phrase": "teacher's pet"},
+   {"domain": "music", "meaning": "master and pupil, the master class lineage", "phrase": "she studied under him"},
+   {"domain": "faith-myth", "meaning": "rabbi and disciple, guru and follower", "phrase": "when the student is ready, the teacher appears"},
+   {"domain": "screen", "meaning": "the mentor trope: Mr. Miyagi, Yoda, Vader's 'now I am the master'", "phrase": "wax on, wax off"},
+   {"domain": "family", "meaning": "parents as a child's first teachers", "phrase": "she learned it from her mother"},
+   {"domain": "sport-games", "meaning": "coach and athlete; sensei and student", "phrase": "the sensei bowed"}
+  ],
+  "idioms": ["teacher's pet", "the student becomes the master", "when the student is ready the teacher will appear", "those who can't, teach", "learn from the best"],
+  "anchors": [
+   {"name": "Star Wars (1977)", "what": "Vader: 'When I left you, I was but the learner; now I am the master'", "url": ""},
+   {"name": "The Karate Kid (1984)", "what": "Miyagi teaches through chores the student doesn't understand", "url": ""},
+   {"name": "Weak-to-Strong Generalization", "what": "OpenAI 2023: can a weak teacher supervise a stronger student?", "url": "https://arxiv.org/abs/2312.09390"}
+  ],
+  "pivots": [
+   {"line": "I was the teacher once; now I'm the dataset", "senses": ["ai", "school", "work"]},
+   {"line": "Wax on, wax off, it learned the whole dojo overnight", "senses": ["ai", "screen", "sport-games"]},
+   {"line": "The student surpassed the teacher; the teacher wasn't asked", "senses": ["ai", "school", "family"]}
+  ],
+  "enact": {"music": "call and response: the singer sings a phrase, a smaller synth voice repeats it, and by the last chorus the synth leads",
+            "picture": "a teacher at the chalkboard while a small robot in the front row copies every stroke, then the roles swap",
+            "type": "the student line set smaller beneath the teacher line, growing until it overtakes"},
+  "sound": {"syllables": 4, "stress": "TEACH-er STU-dent", "rhymes": ["(teacher) preacher", "feature", "creature", "reach her", "bleacher", "leech her"], "slant": ["prudent", "fluent", "nuisance", "human"]},
+  "stakes": ["mind", "jobs", "heart"],
+  "registers": ["tender", "hopeful", "sad"],
+  "neighbors": [{"id": "distillation", "rel": "same-family"}, {"id": "curriculum", "rel": "same-family"}, {"id": "sorcerers-apprentice", "rel": "same-family"}, {"id": "self-play", "rel": "opposite"}, {"id": "creator", "rel": "pairs-with"}],
+  "risk": "tutoring context: never hint at real students; keep lines general",
+  "notes": "Teacher rhymes with creature and preacher: the mentor line slides into Frankenstein or faith."
+ },
+ {
+  "id": "manhattan-project",
+  "forms": ["Manhattan Project", "Manhattan", "the Project", "Trinity", "Oppenheimer"],
+  "ai": {"sense": "the call for a crash, state-run program to build AGI first, modeled on the atomic bomb effort",
+         "origin": "US-China Economic and Security Review Commission, Nov 2024 report: 'a Manhattan Project-like program' for AGI; Aschenbrenner, June 2024, 'Situational Awareness' ('The Project')",
+         "url": "https://www.uscc.gov/annual-report/2024-annual-report-congress", "confidence": "high"},
+  "senses": [
+   {"domain": "war", "meaning": "the 1942-1946 US program that built the atomic bomb", "phrase": "the Manhattan Project"},
+   {"domain": "science", "meaning": "big physics under secrecy; Trinity test, 16 July 1945", "phrase": "the Trinity test"},
+   {"domain": "screen", "meaning": "Nolan's 'Oppenheimer' (2023), seven Oscars", "phrase": "now I am become Death"},
+   {"domain": "everyday", "meaning": "Manhattan: the New York borough; the cocktail", "phrase": "a Manhattan, straight up"},
+   {"domain": "law-state", "meaning": "a secret state mega-project", "phrase": "a moonshot, a Manhattan Project for X"}
+  ],
+  "idioms": ["a Manhattan Project for", "moonshot", "now I am become Death, the destroyer of worlds"],
+  "anchors": [
+   {"name": "Oppenheimer's Gita quote", "what": "'Now I am become Death, the destroyer of worlds', recalled in a 1965 interview", "url": ""},
+   {"name": "Manhattan Project scale", "what": "about $2 billion in 1940s dollars and up to roughly 130,000 workers", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Ordered a Manhattan; they handed me the Project", "senses": ["ai", "everyday", "war"]},
+   {"line": "Now I am become Chat, the summarizer of worlds", "senses": ["ai", "war", "faith-myth"]},
+   {"line": "Trinity test: the father, the son, the holy server", "senses": ["ai", "science", "faith-myth"]}
+  ],
+  "enact": {"music": "a held silence and then a low sub-bass bloom, the Trinity flash delayed like the sound behind the light",
+            "picture": "a desert test tower with a datacenter rack where the bomb would sit, physicists in welding goggles",
+            "type": "typewriter memo type, TOP SECRET stamp, with the redactions slowly lifting"},
+  "sound": {"syllables": 6, "stress": "man-HAT-tan PROJ-ect", "rhymes": ["(Manhattan) Latin", "satin", "flatten"], "slant": ["happen", "captain", "rattlin'", "battle"]},
+  "stakes": ["state", "species", "planet"],
+  "registers": ["ominous", "awe"],
+  "neighbors": [{"id": "race", "rel": "same-family"}, {"id": "prometheus", "rel": "same-family"}, {"id": "apocalypse", "rel": "causes"}, {"id": "frontier", "rel": "pairs-with"}, {"id": "sovereign", "rel": "pairs-with"}],
+  "risk": "the Gita quote is heavily used post-2023; twist it once or skip",
+  "notes": "Trinity, the test's name, gives a faith pun for free: the bomb, the cathedral and the datacenter in one word."
+ }
+]

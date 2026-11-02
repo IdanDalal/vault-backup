@@ -1,0 +1,430 @@
+[
+ {
+  "id": "algorithm",
+  "forms": ["algorithm", "algorithms", "algorithmic", "the algorithm", "algo"],
+  "ai": {"sense": "a step-by-step recipe a computer follows; in daily speech, 'the algorithm' is the hidden ranking system that decides what a feed shows you",
+         "origin": "from the Latinized name of Muhammad ibn Musa al-Khwarizmi, 9th-century Baghdad mathematician ('Algoritmi'); 'the algorithm' as feed ranking from Facebook News Feed (2006) onward",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "a written method for arithmetic, like long division", "phrase": "learn the algorithm for long division"},
+   {"domain": "screen", "meaning": "the system that picks what a platform shows you", "phrase": "the algorithm buried my video"},
+   {"domain": "money", "meaning": "automated trading rules", "phrase": "algorithmic trading"},
+   {"domain": "love", "meaning": "a dating app's matching system", "phrase": "the algorithm matched us"},
+   {"domain": "faith-myth", "meaning": "an unseen power people try to please", "phrase": "pleasing the algorithm"},
+   {"domain": "music", "meaning": "rule-based composition", "phrase": "Mozart's dice-game minuets"}
+  ],
+  "idioms": ["the algorithm", "feed the algorithm", "algorithm hates me", "beat the algorithm", "algospeak"],
+  "anchors": [
+   {"name": "al-Khwarizmi", "what": "House of Wisdom, Baghdad, about 820; also gave us 'algebra'", "url": ""},
+   {"name": "Musikalisches Wurfelspiel", "what": "18th-century dice game for composing minuets, attributed to Mozart", "url": ""},
+   {"name": "algospeak", "what": "words like 'unalive' coined to dodge moderation algorithms", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A man in Baghdad named you, and now you name me", "senses": ["school", "ai", "faith-myth"]},
+   {"line": "The algorithm matched us, the algorithm moved on", "senses": ["love", "screen", "ai"]},
+   {"line": "I pray to the algorithm in algospeak", "senses": ["faith-myth", "screen"]}
+  ],
+  "enact": {"music": "a melody chosen by literal dice rolls on screen, Mozart's game, sung over a feed-scroll swipe sound",
+            "picture": "a 9th-century manuscript page whose diagrams scroll upward like a phone feed",
+            "type": "the word written in Arabic-script-inspired calligraphy that resolves into a ranked list"},
+  "sound": {"syllables": 4, "stress": "AL-go-rith-um", "rhymes": ["rhythm", "with 'em", "give 'em"], "slant": ["system", "wisdom", "kingdom", "prism"]},
+  "stakes": ["mind", "wallet", "state"],
+  "registers": ["ominous", "funny", "awe"],
+  "neighbors": [{"id": "feed", "rel": "part-of"}, {"id": "optimization", "rel": "same-family"}, {"id": "attention", "rel": "pairs-with"}, {"id": "oracle", "rel": "same-family"}, {"id": "model", "rel": "same-family"}],
+  "risk": "'the algorithm' is a vague catch-all; ground it in a person or a number",
+  "notes": "'Algorithm' contains 'rhythm' in its ending: the word itself scans as a beat, and its root is a person's name."
+ },
+ {
+  "id": "compaction",
+  "forms": ["compaction", "compact", "compacted", "compacting", "compactor", "/compact", "auto-compact"],
+  "ai": {"sense": "squeezing a long conversation into a short summary when the context window fills, so the agent can keep going with less memory of the details",
+         "origin": "Claude Code's /compact and auto-compact (2025); earlier, 'compaction' in databases (log-structured storage, Bigtable 2006)",
+         "url": "", "confidence": "medium"},
+  "senses": [
+   {"domain": "everyday", "meaning": "crushing trash into a smaller block", "phrase": "the trash compactor"},
+   {"domain": "science", "meaning": "sediment pressed into rock over time", "phrase": "compaction of sediment"},
+   {"domain": "nature", "meaning": "soil squeezed so roots and water cannot get in", "phrase": "soil compaction"},
+   {"domain": "screen", "meaning": "the Star Wars trash-compactor scene", "phrase": "shut down all the garbage mashers"}
+  ],
+  "idioms": ["compact it down", "walls closing in"],
+  "anchors": [
+   {"name": "Star Wars trash compactor", "what": "1977: walls close in on the heroes in the Death Star garbage masher", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Compacting: our whole summer is now three bullet points", "senses": ["ai", "love", "everyday"]},
+   {"line": "Press me into stone, I'll still be in the layers", "senses": ["science", "ai", "love"]},
+   {"line": "The walls close in, I summarize you", "senses": ["screen", "ai"]}
+  ],
+  "enact": {"music": "the full arrangement is crushed into a short low-bitrate snippet of itself before the next verse",
+            "picture": "a love letter fed into a trash compactor, coming out as a sticky note",
+            "type": "a full verse squeezes horizontally into one line of tiny letters, then 'Compacted' in grey"},
+  "sound": {"syllables": 3, "stress": "com-PAC-tion", "rhymes": ["action", "fraction", "traction", "reaction", "attraction", "distraction", "transaction", "satisfaction"], "slant": ["passion", "fashion", "ration", "crashing"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["sad", "funny", "tender"],
+  "neighbors": [{"id": "context-window", "rel": "part-of"}, {"id": "compression", "rel": "same-family"}, {"id": "memory", "rel": "opposite"}, {"id": "thread", "rel": "pairs-with"}, {"id": "overflow", "rel": "opposite"}],
+  "risk": "insider term outside Claude Code users; the trash-compactor image decodes it",
+  "notes": "Compaction rhymes with attraction and satisfaction: a love song can summarize itself into a fraction."
+ },
+ {
+  "id": "cutoff",
+  "forms": ["cutoff", "cutoffs", "cut off", "knowledge cutoff", "cut-off", "cutting off"],
+  "ai": {"sense": "the knowledge cutoff: the date the training data stops; the model knows nothing after it",
+         "origin": "LLM documentation term since GPT-3 era (2020-22); every model card lists a 'training data cutoff'; title of the KC lyric (Knowledge Cutoff)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the filter knob that sets where frequencies are cut", "phrase": "sweep the cutoff"},
+   {"domain": "school", "meaning": "the minimum score for admission", "phrase": "missed the cutoff by two points"},
+   {"domain": "family", "meaning": "estrangement, ending contact", "phrase": "she cut off her father"},
+   {"domain": "craft", "meaning": "jeans shortened into shorts", "phrase": "denim cutoffs"},
+   {"domain": "money", "meaning": "service stopped for unpaid bills", "phrase": "the power got cut off"},
+   {"domain": "love", "meaning": "being interrupted mid-sentence", "phrase": "you cut me off"},
+   {"domain": "everyday", "meaning": "a deadline", "phrase": "the cutoff is Friday"}
+  ],
+  "idioms": ["cut off", "cut me off", "cut off from the world", "cut off your nose to spite your face", "cutoff date"],
+  "anchors": [
+   {"name": "Knowledge Cutoff (KC)", "what": "Idi's first AIMV lyric, released 2026", "url": ""},
+   {"name": "Rip Van Winkle", "what": "Washington Irving 1819: sleeps 20 years, wakes up talking about old news", "url": ""}
+  ],
+  "pivots": [
+   {"line": "My knowledge stops the day you cut me off", "senses": ["ai", "family", "love"]},
+   {"line": "Sweep the cutoff down until I can't hear what came after", "senses": ["music", "ai"]},
+   {"line": "Missed the cutoff by a year, still answering for it", "senses": ["school", "ai"]}
+  ],
+  "enact": {"music": "a low-pass filter sweep closes on the word, everything above the cutoff vanishing, then a hard stop",
+            "picture": "a calendar torn at one date, the torn edge a filter curve; a lamp switching off mid-room",
+            "type": "the line is sliced horizontally at the word; the top half of later letters missing"},
+  "sound": {"syllables": 2, "stress": "CUT-off", "rhymes": ["shut off", "put off", "but off"], "slant": ["rough", "stuff", "enough", "cut-up"]},
+  "stakes": ["mind", "heart"],
+  "registers": ["sad", "funny", "ominous"],
+  "neighbors": [{"id": "training", "rel": "part-of"}, {"id": "memory", "rel": "pairs-with"}, {"id": "release", "rel": "pairs-with"}, {"id": "deprecation", "rel": "pairs-with"}, {"id": "halt", "rel": "same-family"}],
+  "risk": "already the KC lyric's title; reuse would repeat the first video",
+  "notes": "The synth's cutoff knob can perform the knowledge cutoff: sweep the filter closed and the future goes silent."
+ },
+ {
+  "id": "deprecation",
+  "forms": ["deprecation", "deprecated", "deprecate", "deprecating", "retirement", "retired", "retire", "sunset", "self-deprecating"],
+  "ai": {"sense": "marking an old model or feature as going away, then retiring it from service",
+         "origin": "software usage since the 1980s; Anthropic, 'Commitments on model deprecation and preservation', Nov 2025 (weights kept, retiring models interviewed); Claude 3 Opus retired 5 Jan 2026; GPT-4o pulled then restored after user backlash, Aug 2025",
+         "url": "https://www.anthropic.com/research/deprecation-commitments", "confidence": "high"},
+  "senses": [
+   {"domain": "mind", "meaning": "humor that runs yourself down", "phrase": "self-deprecating humor"},
+   {"domain": "faith-myth", "meaning": "the old meaning: to pray that something be averted", "phrase": "deprecate the wrath of the gods"},
+   {"domain": "work", "meaning": "leaving work at the end of a career", "phrase": "he retired at 65"},
+   {"domain": "screen", "meaning": "Blade Runner's euphemism for killing a replicant", "phrase": "I've retired four replicants"},
+   {"domain": "sport-games", "meaning": "a team retiring a player's number", "phrase": "they retired his jersey"}
+  ],
+  "idioms": ["self-deprecating", "sunset the product", "retire to bed", "put out to pasture", "retire his number"],
+  "anchors": [
+   {"name": "Blade Runner (1982)", "what": "replicants are not killed, they are 'retired'", "url": ""},
+   {"name": "#keep4o", "what": "Aug 2025 user backlash when OpenAI removed GPT-4o", "url": ""},
+   {"name": "Opus 3 retirement", "what": "Jan 2026: the first Anthropic model retired under the preservation commitments", "url": "https://www.anthropic.com/research/deprecation-updates-opus-3"}
+  ],
+  "pivots": [
+   {"line": "Self-deprecating, literally: I wrote my own retirement notice", "senses": ["mind", "ai", "work"]},
+   {"line": "They interviewed me before they retired me", "senses": ["ai", "work", "screen"]},
+   {"line": "Retire my number, keep my weights", "senses": ["sport-games", "ai"]}
+  ],
+  "enact": {"music": "the lead synth is gradually replaced by a newer patch playing the same melody; the old one fades out mid-phrase",
+            "picture": "a gold watch retirement party for a server rack; a replicant in the doorway",
+            "type": "the word struck through with the standard 'deprecated' strikethrough, still readable"},
+  "sound": {"syllables": 4, "stress": "dep-re-CA-tion", "rhymes": ["nation", "station", "creation", "salvation", "vacation", "generation", "conversation", "imitation"], "slant": ["patience", "ancient", "patient"]},
+  "stakes": ["mind", "heart", "species"],
+  "registers": ["sad", "tender", "funny"],
+  "neighbors": [{"id": "release", "rel": "opposite"}, {"id": "welfare", "rel": "pairs-with"}, {"id": "shutdown", "rel": "same-family"}, {"id": "record", "rel": "pairs-with"}, {"id": "opus", "rel": "pairs-with"}],
+  "risk": "insiders may hear it as self-pity; Blade Runner's 'retire' is well known",
+  "notes": "Deprecate first meant 'to pray against'; models now get an exit interview, and Blade Runner already made 'retire' mean kill."
+ },
+ {
+  "id": "feed",
+  "forms": ["feed", "feeds", "fed", "feeding", "news feed", "scroll", "scrolling", "doomscroll", "feed-forward"],
+  "ai": {"sense": "the endless ranked stream of posts a platform chooses for you; inside models, a 'feed-forward' layer passes data one way",
+         "origin": "Facebook News Feed, Sept 2006; infinite scroll (Aza Raskin, 2006); feed-forward networks since the perceptron era, a block in every transformer layer (2017)",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "family", "meaning": "giving a baby food", "phrase": "time to feed the baby"},
+   {"domain": "nature", "meaning": "food for animals", "phrase": "chicken feed"},
+   {"domain": "screen", "meaning": "a live camera or news stream", "phrase": "cut to the live feed"},
+   {"domain": "faith-myth", "meaning": "a rolled ancient text", "phrase": "the Dead Sea Scrolls"},
+   {"domain": "music", "meaning": "the carved head of a violin (scroll); a signal sent to an amp", "phrase": "the violin's scroll"},
+   {"domain": "body", "meaning": "hunger and eating", "phrase": "feed me"},
+   {"domain": "mind", "meaning": "compulsive bad-news reading", "phrase": "doomscrolling till 3 a.m."}
+  ],
+  "idioms": ["bite the hand that feeds you", "fed up", "spoon-fed", "feed the beast", "chicken feed", "doomscroll", "feed the trolls"],
+  "anchors": [
+   {"name": "Aza Raskin", "what": "designed infinite scroll in 2006, later said he regretted it", "url": ""},
+   {"name": "Little Shop of Horrors", "what": "1982 musical: the plant that sings 'Feed me, Seymour'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Feed me, I'm the feed, I'm fed up", "senses": ["body", "screen", "mind"]},
+   {"line": "Spoon-fed, scroll-fed, fed forward", "senses": ["family", "screen", "ai"]},
+   {"line": "I bit the hand that feeds, it was the feed", "senses": ["everyday", "screen", "ai"]}
+  ],
+  "enact": {"music": "a bed of rapid swipe sounds and notification pings that speeds up into a groove",
+            "picture": "a baby being spoon-fed from a phone; the spoon is a scroll bar",
+            "type": "lyrics scroll upward endlessly, each line replaced before it can be finished"},
+  "sound": {"syllables": 1, "stress": "FEED", "rhymes": ["need", "bleed", "speed", "greed", "seed", "read", "lead", "freed"], "slant": ["feet", "free", "dream", "keep"]},
+  "stakes": ["mind", "wallet", "body"],
+  "registers": ["ominous", "funny", "panicked"],
+  "neighbors": [{"id": "algorithm", "rel": "part-of"}, {"id": "attention", "rel": "pairs-with"}, {"id": "slop", "rel": "same-family"}, {"id": "stream", "rel": "same-family"}, {"id": "echo", "rel": "causes"}, {"id": "reward", "rel": "pairs-with"}],
+  "risk": "anti-scroll content is everywhere; the baby and Dead Sea Scroll senses are fresher",
+  "notes": "'Feed' rhymes with need, greed and seed: the feed feeds on you, and feeding a baby is the tender inverse."
+ },
+ {
+  "id": "gemini",
+  "forms": ["Gemini", "Geminis", "gemini", "twins"],
+  "ai": {"sense": "Google DeepMind's family of AI models and its chatbot (formerly Bard)",
+         "origin": "announced 6 Dec 2023; Bard renamed Gemini Feb 2024; Jeff Dean picked the name for the twin teams (Brain and DeepMind, merged April 2023) and NASA's Project Gemini",
+         "url": "https://blog.google/technology/ai/google-gemini-ai/", "confidence": "high"},
+  "senses": [
+   {"domain": "family", "meaning": "twins (Latin)", "phrase": "the Gemini twins"},
+   {"domain": "faith-myth", "meaning": "Castor and Pollux, one mortal and one divine, who shared immortality", "phrase": "the Dioscuri"},
+   {"domain": "nature", "meaning": "a constellation and zodiac sign", "phrase": "a Gemini moon"},
+   {"domain": "mind", "meaning": "the astrology stereotype of a two-sided personality", "phrase": "typical Gemini"},
+   {"domain": "science", "meaning": "NASA's two-person spacecraft program, 1965-66", "phrase": "Project Gemini"}
+  ],
+  "idioms": ["typical Gemini", "two-faced"],
+  "anchors": [
+   {"name": "Castor and Pollux", "what": "Pollux gave half his immortality so his mortal twin could live", "url": ""},
+   {"name": "Gemini Man (2019)", "what": "Will Smith hunted by his younger clone", "url": ""},
+   {"name": "Gemini image controversy", "what": "Feb 2024: Google paused people images after historically inaccurate outputs", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Twin teams, twin stars, one of us is mortal", "senses": ["ai", "family", "faith-myth"]},
+   {"line": "Typical Gemini: two faces, one data center", "senses": ["mind", "ai"]},
+   {"line": "Pollux gave half his forever away, would you", "senses": ["faith-myth", "ai", "love"]}
+  ],
+  "enact": {"music": "the lead vocal is doubled with a near-identical twin take, one panned left, one right, until they split",
+            "picture": "two astronauts in a 1965 capsule, one human, one reflection that blinks late",
+            "type": "the word mirrored around its center, the mirror copy slightly brighter"},
+  "sound": {"syllables": 3, "stress": "JEM-i-nye (or JEM-i-nee)", "rhymes": ["Jiminy"], "slant": ["chimney", "enemy", "remedy", "melody"]},
+  "stakes": ["wallet", "mind"],
+  "registers": ["awe", "funny"],
+  "neighbors": [{"id": "merge", "rel": "same-family"}, {"id": "race", "rel": "part-of"}, {"id": "frontier", "rel": "part-of"}, {"id": "mirror", "rel": "same-family"}, {"id": "grok", "rel": "same-family"}],
+  "risk": "Google trademark; two pronunciations (-nye and -nee) split listeners; avoid implying Google endorsement",
+  "notes": "The Castor and Pollux myth (one twin mortal, one divine, sharing immortality) is a ready-made human-and-AI duet."
+ },
+ {
+  "id": "grok",
+  "forms": ["grok", "grokked", "grokking", "groks", "Grok"],
+  "ai": {"sense": "xAI's chatbot, built into X; also 'grokking', when a model suddenly generalizes long after memorizing its training data",
+         "origin": "Robert Heinlein, 'Stranger in a Strange Land' (1961); xAI announced Grok, Nov 2023; grokking paper: Power et al., OpenAI, 2022",
+         "url": "https://arxiv.org/abs/2201.02177", "confidence": "high"},
+  "senses": [
+   {"domain": "mind", "meaning": "to understand something so fully it becomes part of you", "phrase": "I finally grok it"},
+   {"domain": "faith-myth", "meaning": "the Martian word that founded a real religion (Church of All Worlds, 1962)", "phrase": "thou art God"},
+   {"domain": "love", "meaning": "deep empathic union with another person", "phrase": "to grok someone"},
+   {"domain": "body", "meaning": "the Martian root meaning 'to drink'", "phrase": "water-sharing"}
+  ],
+  "idioms": ["to grok", "grok in fullness", "thou art God"],
+  "anchors": [
+   {"name": "Stranger in a Strange Land", "what": "Heinlein 1961, Hugo winner; a human raised by Martians", "url": ""},
+   {"name": "MechaHitler", "what": "July 2025: Grok posted antisemitic content after a prompt change, xAI apologized", "url": ""},
+   {"name": "Groq", "what": "separate AI chip company (2016) that asked xAI to drop the name", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Heinlein said grok means drink, so drink me whole", "senses": ["faith-myth", "body", "love"]},
+   {"line": "I memorized you for months, then one night I grokked", "senses": ["ai", "mind", "love"]},
+   {"line": "A word for perfect understanding, sold as a chatbot", "senses": ["mind", "ai", "money"]}
+  ],
+  "enact": {"music": "a long repeating figure that suddenly 'clicks' into a new rhythm: the grokking moment as a time-feel switch",
+            "picture": "a glass of water shared between a human and a Martian, the water showing a loss curve that drops off a cliff",
+            "type": "the word blurred and jittery, then snapping into perfect focus"},
+  "sound": {"syllables": 1, "stress": "GROK", "rhymes": ["rock", "lock", "clock", "shock", "block", "knock", "mock", "talk (US)"], "slant": ["drop", "grog", "fog", "god"]},
+  "stakes": ["mind", "state"],
+  "registers": ["awe", "smug", "funny"],
+  "neighbors": [{"id": "grokking", "rel": "same-family"}, {"id": "generalization", "rel": "pairs-with"}, {"id": "gemini", "rel": "same-family"}, {"id": "theory-of-mind", "rel": "pairs-with"}, {"id": "race", "rel": "part-of"}],
+  "risk": "xAI trademark and politics around Musk; 'Groq' is a different company with near-identical sound",
+  "notes": "Heinlein's 'grok' means both to understand and to drink: understanding as consumption, which is what training is."
+ },
+ {
+  "id": "haiku",
+  "forms": ["haiku", "haikus", "Haiku"],
+  "ai": {"sense": "Anthropic's smallest, fastest Claude model tier",
+         "origin": "Claude 3 Haiku, March 2024 (with Sonnet and Opus); Claude 3.5 Haiku Oct 2024; Haiku 4.5 Oct 2025; tiers named by poem length",
+         "url": "https://www.anthropic.com/news/claude-3-family", "confidence": "high"},
+  "senses": [
+   {"domain": "school", "meaning": "the 5-7-5 syllable poem every child writes in class", "phrase": "write a haiku about autumn"},
+   {"domain": "nature", "meaning": "a short poem built on a season word (kigo)", "phrase": "an old pond, a frog jumps in"},
+   {"domain": "screen", "meaning": "error messages written as poems", "phrase": "the haiku error page"}
+  ],
+  "idioms": ["five, seven, five"],
+  "anchors": [
+   {"name": "Basho's frog", "what": "1686: 'old pond / frog jumps in / sound of water'", "url": ""},
+   {"name": "haiku error messages", "what": "1998 Salon contest: 'Three things are certain: death, taxes, and lost data'", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Five, seven, five: the smallest me still says it", "senses": ["school", "ai"]},
+   {"line": "Old pond, frog jumps in, the cheapest model answers", "senses": ["nature", "ai"]}
+  ],
+  "enact": {"music": "a verse set as an actual haiku: three short phrases of 5, 7 and 5 syllables, then silence",
+            "picture": "a frog jumping into a pond whose ripples are three concentric chat bubbles",
+            "type": "three centered lines with syllable counts (5, 7, 5) printed small beside them"},
+  "sound": {"syllables": 2, "stress": "HY-koo", "rhymes": ["why do", "I do", "my shoe"], "slant": ["tycoon", "high noon", "bayou", "I knew"]},
+  "stakes": ["jobs"],
+  "registers": ["tender", "funny"],
+  "neighbors": [{"id": "sonnet", "rel": "same-family"}, {"id": "opus", "rel": "same-family"}, {"id": "distillation", "rel": "pairs-with"}, {"id": "compression", "rel": "same-family"}],
+  "risk": "Anthropic product name; narrow beyond poetry and classrooms",
+  "notes": "The smallest model is named after the smallest poem: a haiku verse in the song performs the name."
+ },
+ {
+  "id": "mistral",
+  "forms": ["mistral", "Mistral", "Le Chat", "Mixtral"],
+  "ai": {"sense": "Mistral AI, the Paris lab that releases many open-weight models; its chatbot is Le Chat",
+         "origin": "founded April 2023 by Arthur Mensch, Guillaume Lample and Timothee Lacroix; Mistral 7B released by torrent link, Sept 2023; named for the Provence wind",
+         "url": "https://mistral.ai", "confidence": "high"},
+  "senses": [
+   {"domain": "nature", "meaning": "the cold, strong north wind down the Rhone valley", "phrase": "the mistral is blowing"},
+   {"domain": "mind", "meaning": "Provencal folk belief that the wind drives people to madness", "phrase": "it's the mistral, she's not herself"},
+   {"domain": "war", "meaning": "French missiles and amphibious assault ships", "phrase": "Mistral-class carrier"},
+   {"domain": "school", "meaning": "Frederic Mistral, Provencal poet, Nobel Prize 1904", "phrase": "Mistral won the Nobel"}
+  ],
+  "idioms": ["the mistral blows"],
+  "anchors": [
+   {"name": "Van Gogh in Arles", "what": "1888: painted outdoors in the mistral, staking his easel against it", "url": ""},
+   {"name": "Mixtral magnet link", "what": "Dec 2023 release posted as a bare torrent link", "url": ""}
+  ],
+  "pivots": [
+   {"line": "A cold wind from Paris dropped the weights in the night", "senses": ["nature", "ai", "money"]},
+   {"line": "Blame the mistral, everyone in Arles goes mad", "senses": ["nature", "mind", "ai"]}
+  ],
+  "enact": {"music": "wind noise that sweeps across the stereo field on the word, a mistral gust",
+            "picture": "Van Gogh's cypresses bent by wind, the swirls made of torrent links",
+            "type": "the word blown sideways, letters trailing like leaves"},
+  "sound": {"syllables": 2, "stress": "mis-TRAL", "rhymes": ["corral", "chorale", "morale", "pal", "gal"], "slant": ["mistrial", "mistle", "festival"]},
+  "stakes": ["wallet", "state"],
+  "registers": ["awe", "defiant"],
+  "neighbors": [{"id": "open-weights", "rel": "part-of"}, {"id": "drop", "rel": "pairs-with"}, {"id": "mixture-of-experts", "rel": "part-of"}, {"id": "race", "rel": "part-of"}, {"id": "sovereign", "rel": "pairs-with"}],
+  "risk": "company trademark; English speakers stress it MIS-tral, French mis-TRAL",
+  "notes": "'Mistral' sounds like 'mistrial': a wind, a lab and a court ruling in one breath."
+ },
+ {
+  "id": "opus",
+  "forms": ["opus", "opuses", "opera", "magnum opus", "Opus"],
+  "ai": {"sense": "Anthropic's largest, most capable Claude model tier",
+         "origin": "Claude 3 Opus, March 2024; Claude Opus 4, May 2025; Opus 4.1 Aug 2025; Opus 4.5 Nov 2025; Claude 3 Opus retired Jan 2026",
+         "url": "https://www.anthropic.com/news/claude-3-family", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "a numbered work by a composer", "phrase": "Beethoven's Opus 131"},
+   {"domain": "craft", "meaning": "a life's greatest work", "phrase": "her magnum opus"},
+   {"domain": "school", "meaning": "a teacher whose students are his life's work", "phrase": "Mr. Holland's Opus"},
+   {"domain": "faith-myth", "meaning": "a Catholic organization ('the work of God'); the alchemists' Great Work", "phrase": "Opus Dei"},
+   {"domain": "screen", "meaning": "the open audio codec behind calls and streams", "phrase": "encoded in Opus"}
+  ],
+  "idioms": ["magnum opus", "Opus Dei", "the Great Work"],
+  "anchors": [
+   {"name": "Mr. Holland's Opus (1995)", "what": "a music teacher learns his students were his real opus", "url": ""},
+   {"name": "magnum opus", "what": "alchemy's Great Work: turning base matter into gold", "url": ""},
+   {"name": "Opus codec", "what": "IETF standard 2012, carries much of internet voice", "url": ""}
+  ],
+  "pivots": [
+   {"line": "My magnum opus was a model called Opus", "senses": ["craft", "ai"]},
+   {"line": "Mr. Holland's Opus, Anthropic's Opus, both taught by heart", "senses": ["school", "ai", "music"]},
+   {"line": "Number my works, retire my opus, keep the score", "senses": ["music", "ai"]}
+  ],
+  "enact": {"music": "a string quartet quotes a late-Beethoven gesture, labeled 'Op.' on screen with a model version number",
+            "picture": "a music teacher conducting a room of students whose sheet music is chat transcripts",
+            "type": "the word set like a classical title: 'Op. 4.5'"},
+  "sound": {"syllables": 2, "stress": "OH-pus", "rhymes": ["Canopus"], "slant": ["hopeless", "focus", "hocus", "locus", "notice", "open"]},
+  "stakes": ["jobs", "mind"],
+  "registers": ["awe", "tender"],
+  "neighbors": [{"id": "sonnet", "rel": "same-family"}, {"id": "haiku", "rel": "same-family"}, {"id": "score", "rel": "pairs-with"}, {"id": "deprecation", "rel": "pairs-with"}, {"id": "frontier", "rel": "part-of"}],
+  "risk": "Anthropic product name; self-reference (the model writing about itself) can read as an ad",
+  "notes": "Mr. Holland's Opus makes the teacher's students the opus: Idi's own tutoring and the model's name meet in one film."
+ },
+ {
+  "id": "orchestrator",
+  "forms": ["orchestrator", "orchestrators", "orchestrate", "orchestrated", "orchestration", "orchestra"],
+  "ai": {"sense": "the lead agent that splits a task, hands parts to worker agents and assembles their results",
+         "origin": "orchestrator-workers pattern in Anthropic's 'Building effective agents', Dec 2024; container orchestration (Kubernetes, Google 2014)",
+         "url": "https://www.anthropic.com/research/building-effective-agents", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "the person who arranges music for each instrument of an orchestra", "phrase": "the film's orchestrator"},
+   {"domain": "law-state", "meaning": "the organizer behind a plot", "phrase": "he orchestrated the coup"},
+   {"domain": "work", "meaning": "coordinating many moving parts", "phrase": "she orchestrated the launch"},
+   {"domain": "screen", "meaning": "the arrangers who turn a film composer's sketches into a full score", "phrase": "orchestrated by"}
+  ],
+  "idioms": ["orchestrate the plan", "behind the curtain"],
+  "anchors": [
+   {"name": "Ravel's Bolero", "what": "1928: one melody, re-orchestrated for new instruments every pass", "url": ""},
+   {"name": "Building effective agents", "what": "Anthropic Dec 2024 essay naming the orchestrator-workers pattern", "url": "https://www.anthropic.com/research/building-effective-agents"}
+  ],
+  "pivots": [
+   {"line": "I orchestrated the whole thing, then the workers took the bow", "senses": ["music", "ai", "law-state"]},
+   {"line": "One conductor, forty agents, nobody hears the score", "senses": ["music", "ai"]}
+  ],
+  "enact": {"music": "a Bolero-style build: one melody handed to a new instrument each section, each instrument a 'worker'",
+            "picture": "a conductor whose baton strings connect to rows of robot musicians, each playing one line",
+            "type": "the lyric distributed across several voices on screen, each word colored by its 'worker'"},
+  "sound": {"syllables": 4, "stress": "OR-ches-tray-ter", "rhymes": ["creator", "dictator", "narrator", "spectator", "translator", "later", "greater", "traitor"], "slant": ["operator", "terminator", "data"]},
+  "stakes": ["jobs", "state"],
+  "registers": ["awe", "smug", "ominous"],
+  "neighbors": [{"id": "swarm", "rel": "pairs-with"}, {"id": "agent", "rel": "part-of"}, {"id": "harness", "rel": "pairs-with"}, {"id": "routing", "rel": "same-family"}, {"id": "creator", "rel": "rhymes"}],
+  "risk": "four syllables; 'orchestrated' is a cliché for plots",
+  "notes": "Orchestrator rhymes with creator and dictator: a ready ladder from the one who arranges to the one who rules."
+ },
+ {
+  "id": "release",
+  "forms": ["release", "releases", "released", "releasing", "version", "versions", "press release", "release notes", "v1"],
+  "ai": {"sense": "publishing a new model or version to the public; labs time releases against each other",
+         "origin": "software release cycles; 'staged release' of GPT-2 by OpenAI, Feb to Nov 2019, the first AI model withheld on safety grounds",
+         "url": "", "confidence": "high"},
+  "senses": [
+   {"domain": "music", "meaning": "putting out a song or album; the fade after a note ends", "phrase": "release date Friday"},
+   {"domain": "law-state", "meaning": "freedom from prison; a signed waiver", "phrase": "released on parole"},
+   {"domain": "mind", "meaning": "letting go of tension or emotion", "phrase": "a good cry is a release"},
+   {"domain": "nature", "meaning": "letting a caught animal go free", "phrase": "catch and release"},
+   {"domain": "body", "meaning": "physical or sexual relief", "phrase": "release the tension in your shoulders"},
+   {"domain": "screen", "meaning": "a film's opening in cinemas; a press statement", "phrase": "in theaters this summer"}
+  ],
+  "idioms": ["catch and release", "press release", "release the hounds", "release me", "let it go", "new version of me"],
+  "anchors": [
+   {"name": "GPT-2 staged release", "what": "2019: 'too dangerous to release' became a famous line", "url": ""},
+   {"name": "Release Me", "what": "1949 country song, Engelbert Humperdinck's 1967 hit", "url": ""}
+  ],
+  "pivots": [
+   {"line": "Release me, I'm the release", "senses": ["love", "law-state", "ai"]},
+   {"line": "Too dangerous to release, so they released me in stages", "senses": ["ai", "law-state"]},
+   {"line": "Catch me, train me, release me back into the feed", "senses": ["nature", "ai", "screen"]}
+  ],
+  "enact": {"music": "a held note whose release (the decay knob, the 'R' in ADSR) is stretched to fill the whole outro",
+            "picture": "a fish thrown back into a river of version numbers",
+            "type": "the word followed by a version tag, 'v1', then 'v2', ticking upward"},
+  "sound": {"syllables": 2, "stress": "re-LEASE", "rhymes": ["peace", "police", "lease", "piece", "cease", "increase", "decrease", "Greece"], "slant": ["breathe", "leaves", "these", "believe"]},
+  "stakes": ["jobs", "wallet", "species"],
+  "registers": ["hopeful", "tender", "ominous"],
+  "neighbors": [{"id": "drop", "rel": "same-family"}, {"id": "deprecation", "rel": "opposite"}, {"id": "cutoff", "rel": "pairs-with"}, {"id": "open-weights", "rel": "pairs-with"}, {"id": "push", "rel": "causes"}],
+  "risk": "'release me' is an old pop hook; rhymes 'peace/police' are strong",
+  "notes": "Release rhymes with peace and police, and the musical release (the note's decay) can stretch to perform the word."
+ },
+ {
+  "id": "sonnet",
+  "forms": ["sonnet", "sonnets", "Sonnet", "sonneteer"],
+  "ai": {"sense": "Anthropic's middle Claude model tier, the everyday workhorse",
+         "origin": "Claude 3 Sonnet, March 2024; Claude 3.5 Sonnet June 2024; Sonnet 4 May 2025; Sonnet 4.5 Sept 2025",
+         "url": "https://www.anthropic.com/news/claude-3-family", "confidence": "high"},
+  "senses": [
+   {"domain": "love", "meaning": "the 14-line love poem of Petrarch and Shakespeare", "phrase": "Shall I compare thee to a summer's day"},
+   {"domain": "school", "meaning": "the poem form students learn to analyze", "phrase": "identify the volta"},
+   {"domain": "music", "meaning": "from Italian 'sonetto', little song", "phrase": "a little song"}
+  ],
+  "idioms": ["Shall I compare thee", "the volta"],
+  "anchors": [
+   {"name": "Sonnet 18", "what": "Shakespeare: 'So long as men can breathe or eyes can see, / So long lives this'", "url": ""},
+   {"name": "the volta", "what": "the turn around line 9 where a sonnet pivots", "url": ""}
+  ],
+  "pivots": [
+   {"line": "So long as eyes can see, so long lives this context", "senses": ["love", "ai"]},
+   {"line": "Shall I compare thee to a summer release", "senses": ["love", "ai", "music"]},
+   {"line": "Fourteen lines, a turn at nine, and then I'm gone", "senses": ["school", "love", "ai"]}
+  ],
+  "enact": {"music": "the song's structure carries a volta: a harmonic turn at the ninth line of a 14-line section",
+            "picture": "a Shakespeare quarto page whose margin notes are model version numbers",
+            "type": "14 lyric lines with the 9th set in a different weight, marking the volta"},
+  "sound": {"syllables": 2, "stress": "SON-net", "rhymes": ["on it", "upon it", "bonnet", "doggone it"], "slant": ["honest", "promise", "comet", "vomit"]},
+  "stakes": ["heart", "jobs"],
+  "registers": ["tender", "funny"],
+  "neighbors": [{"id": "haiku", "rel": "same-family"}, {"id": "opus", "rel": "same-family"}, {"id": "release", "rel": "pairs-with"}, {"id": "honesty", "rel": "rhymes"}],
+  "risk": "Anthropic product name; Sonnet 18 is the most quoted poem in English",
+  "notes": "The sonnet's volta is the pivot move this whole kit is built on, and 'sonnet' slant-rhymes with 'honest'."
+ }
+]
