@@ -44,3 +44,4 @@ Idi: "One repo per video. I expect rapid iteration/evolution/progress of the eng
 - Org `chorusofminds` created by Idi 2026-11-02.
 - Step 7 waits on: an empty private repo `knowledge-cutoff` in the org; then jep pushes over SSH, Idi reviews the file list, Idi flips it public.
 - Step 5 (lyrics page) not started.
+- 2026-11-02 later: `gh` 2.103.3 installed at `C:\Users\jep\tools\gh\bin\gh.exe` (sha256 matched the release checksums); Idi logged in with a fine-grained token scoped to `chorusofminds`. jep created https://github.com/chorusofminds/knowledge-cutoff (private) and pushed `c2dcb6f` over HTTPS (per-command credential helper; global git config untouched). Verified by API: private, main, 204 files, author Chorus of Minds. Next: Idi reviews the file list, says "go" → jep flips it public.
