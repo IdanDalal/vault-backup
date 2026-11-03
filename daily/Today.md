@@ -28,7 +28,13 @@ youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
-
+1. The cold open/intro has two attention jokes/gags/puns, and it "feels crowded". Perhaps we can move (and modify?) the first one (ATTEN... TION!) to somewhere else, later in the song.
+2. In line 9, will it be better to replace "his student" with "Plato"? Better = accurate/correct (I might be misremembering) + improve/not ruin the "weight"/"pace" of the line.
+3. Lines 10+11 have weak endings/rhymes. Also, answers being sweet is not intuitive - meaning, when I think of descriptive words for answers, "sweet" doesn't come to mind, and when I think of sweet things, "answers" don't come to mind.
+4. Lines 12+13: I'm not sure what "I'm the dog that ate your homework" is supposed to mean, and "in your quote" sounds like a sequence of words I've never heard before. Too "forced"/"scripted" and unlike most of the lyrics in the 20+ refs.
+5. Line 21: I'm not sure what "I did. It's the cleanest work you've seen." is supposed to mean. I suggest this, instead: if I understand the "theme"/"goal" of the "Pre-chorus: build" section, it's that answers arrive without understanding of the questions, and the student doesn't even realize it's a problem. In that case, my suggestion is something like "Show your work? What work? It's just a prompt, what do you mean?" (don't use it verbatim, it's just an example/inspiration/reference)
+6. Line 29: the last line of the chorus has the word "never" twice - is that deliberate (something visual like having only that word stay on-screen while the others are replaced)? Also, would it be better to replace "never ask a thing" with "never ask about it" or something else/similar? I'm asking because "never ask a thing" sounds like "in your quote" mentioned above.
+7. Lines 32+33: would it be better to replace "Here's a fact" with "Here's one fact" (the former sounds like the first of an un)
 
 
 Rick and Morty 2013–
