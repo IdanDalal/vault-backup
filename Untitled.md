@@ -165,7 +165,7 @@ ask 'em how the game went, they don't even know where to start.
 Infinite lives, god mode on, you fly through every wall;
 beating the boss while the game beats you, and neither sweat at all.
 Speedrunners skip a level 'cause they know it frame by frame;
-that's a skip they earn by practice: they invented their own game.
+that's a skip they earn by practice and inventing their own game.
 In single-player you're the only victim of your cheats;
 a grade's a multiplayer score, and the lobby keeps receipts.
 Every trophy in your profile sits up on a public shelf;
@@ -186,12 +186,12 @@ spend it on a question, it pays the interest back to you.
 I can. I won't.
 
 [Bridge: piano and music box; the screen shows 9:47]
-It's late. One lamp. The kitchen table. Fractions. Test at eight.
-The same request, the fourth time typed; the cursor's blinking: wait.
+It's late. Kitchen table. Fractions. Test tomorrow morning.
+The same request, fourth try; the cursor's blinking: the same warning.
 "Just give me the answers." I could do it in a blink;
 every time she's asking me, she's asking me to think.
 "I can't take the test for you; the test is yours to take,
-but I can stay up while you get it, every minute you're awake."
+but I can stay up while you study, every minute you're awake."
 So, what's a half of a half? She types "a quarter?", question mark;
 I type back "you tell me," and she sends it back without one, in the dark.
 "Now ask me why."

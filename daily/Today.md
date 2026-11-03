@@ -30,11 +30,19 @@ youtu.be/Cq8qO-NjYIg
 
 I think that intentionally singing "twenty-twenty-twenty-two" and "twenty-twenty-twenty-three" (an deliberate "extra twenty") sounds better, and could look good if we highlight/acknowledge the intent. 
 
-both "you tell me," and "ATTEN... TION!" sound terrible in all versions. Regarding the former - the emphasis is missing (it's not "YOU tell ME" that means something specific, it's "you tell me..." like a random sentence). Regarding the latter - it's just an incoherent mess all around, I suspected it'll be too much for MiniMax.
+The word "multiplayer", "you tell me," and "ATTEN... TION!" all sound terrible in every version. Regarding "you tell me," - the emphasis is missing (it's not "YOU tell ME" that means something specific, it's "you tell me..." like a random sentence). Regarding the "ATTEN... TION!" - it's just an incoherent mess all around, I suspected it'll be too much for MiniMax.
+
+In the line with "multiplayer score", we could show something like K/D ratio and/or MVP. perhaps we should even incorporate those into the lyrics.
 
 Weak lines we should work on:
-1. the answer's in your pocket on a glowing little device.
-2. everybody gets the story, but the askers get it twice.
+1. The entire pre-chorus.
+2. the answer's in your pocket on a glowing little device.
+3. everybody gets the story, but the askers get it twice.
+4. the answer's one click over, the question's on the other side.
+5. They sell you ways to skip the grind; hiding the double price.
+6. first for time saved not learning, then for what you never learned. You have to pay it twice.
+7. It's late. Kitchen table. Fractions. Test tomorrow morning.
+8. The same request, fourth try; the cursor's blinking: the same warning.
 
 Rick and Morty 2013–
 
