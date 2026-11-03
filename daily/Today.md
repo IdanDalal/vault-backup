@@ -27,7 +27,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-This version `s5-kc-evolved__take_seed5153` sounds the best.
+
 
 
 Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
