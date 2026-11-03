@@ -34,7 +34,7 @@ and the kids just paste my answers; no one asks me for a gui-i-i-ide.
 [Pre-chorus: build] ★
 They said eyes on the board; now the board's in your hand.
 Said show your work; you showed your prompt, and they didn't understand.
-Said learn it by heart; instead you learned it all by weight;
+Said learn it by heart; instead you leaned on all my weight;
 you got the gold star, but the question came too late.
 
 [Chorus 1: every stem ducks except the voice on "attention"]
@@ -130,4 +130,4 @@ Go on. Ask it.
 
 Rhymes of Idi's three edits (`rhymes.py`): hand/understand, weight/late, sight/night, twice/price, all R4.
 
-Open suggestion (jep): pre-chorus line 3 "instead you leaned on all my weight" (the viewer leans on the AI; "weight" = the model's weights) in place of "instead you learned it all by weight" (learning by weight is the AI's trait, so the line hands the viewer the AI's method). Idi's line stands until he rules.
+Pre-chorus line 3: jep's tweak "instead you leaned on all my weight" (the viewer leans on the AI; "weight" = the model's weights) replaced "instead you learned it all by weight"; Idi, 2026-11-03: "excellent little tweak idea! Exactly what I meant."
