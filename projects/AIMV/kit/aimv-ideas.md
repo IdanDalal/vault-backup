@@ -22,6 +22,7 @@ Merged 2026-11-02 on Idi's ask: the 2026-11-02 premise round ([[video2-premises-
 ## Cross-pollination (moves that can travel between ideas)
 
 - The "Super Intelligence" running gag (Idi, 11-02) fits every idea's cold open.
+- "Connie Donnie" (Idi, 11-03: the name Trump would give himself as his own rival; picture: the hair silhouette or a blank red cap): parked by R17 for a video whose subject is politics or power.
 - 5 and 7 share a silence-as-ending trick: one video should own it.
 - 4 is the natural sequel to 1: the tutor that refuses answers versus the assistant that agrees with everything.
 - 2 and 3 each carry an AI-limit line that could close 1's bridge if 1 needs a second peak.
