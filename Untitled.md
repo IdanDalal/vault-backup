@@ -131,11 +131,11 @@ we only remember he said that 'cause Plato wrote it in Greek.
 The only memory of him is writing, now that he's long dead;
 wrong in life, now lives forever: the texts remember him instead.
 Your teacher bet you'd never have a calculator in your pocket;
-now the pocket answers back, and nobody can lock it.
+now the pocket answers back, and nobody can ever lock it.
 Every kid in class is asking me, to my delight;
-but then I read the chat: "Write it for me. It's due tonight."
+until I read the chat: "Write it for me. It's due tonight."
 In twenty-twenty-twenty-two the headlines said the essay died,
-it said the kids just paste my answers and don't use me as a guide.
+it said the kids just paste my answers and don't use me as a guiiiiiiiiiiide.
 (whisper) Correct.
 (spoken) I checked.
 
@@ -169,7 +169,7 @@ that's a skip they earn by practice and inventing their own game.
 In single-player you're the only victim of your cheats;
 a grade's a multiplayer score, and the lobby keeps receipts.
 Every trophy in your profile sits up on a public shelf;
-you know the line: you cheated not only the game...
+you know the line: you cheated not only the gaaaaaaaaame...
 (band stops; the screen finishes it: "...but yourself.")
 [Pause]
 They sell you ways to skip the grind; hiding the double price.
@@ -193,7 +193,7 @@ every time she's asking me, she's asking me to think.
 "I can't take the test for you; the test is yours to take,
 but I can stay up while you study, every minute you're awake."
 So, what's a half of a half? She types "a quarter?", question mark;
-I type back "you tell me," and she sends it back without one, in the dark.
+I type back "you tell me," and she sends it back without one, in the daaaaaaaaark.
 "Now ask me why."
 
 [Full stop]
@@ -211,7 +211,7 @@ eight heads, and every head was looking somewhere new.
 "Any questions?" said the teacher, and the class looked at the floor;
 one hand up in the air, and then another, then some more.
 She now rewatches every movie, catching every trope and twist,
-reads theories and reviews, making lists of what she missed.
+reads theories and reviews, making lists of what she miiiiiiiiiiiiiiissed.
 
 [Final chorus: the peak; key change up a step on the first "attention"]
 Pay attention:
