@@ -28,7 +28,7 @@ youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
-
+Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
 
 Rick and Morty 2013–
 
