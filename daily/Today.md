@@ -27,6 +27,12 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
+I agree with most of your recs, here are my picks/suggestions/edits/ideas for the exceptions:
+1. you carry every answer in your pocket, out of sight; / but a question is a lamp you hold up high throughout the night
+2. They said eyes on the board; now the board's in your hand. / Said show your work; you showed your prompt, and they didn't understand. / Said learn it by heart; Instead you learned it all by weight; / you got the gold star, but the question came too late."
+3. They'll sell you ways to skip the grind, and always bill you twice: / once at the counter, once at the test, and you never know the price.
+
+I feel this format/process/workflow is effective - I don't "overrule" you, and I suggest some ideas that are worse than yours (I didn't even notice I rhymed "you" with "you" in chorus 2) and we build on each other.
 
 
 Rick and Morty 2013–
