@@ -34,6 +34,19 @@ v1 = jep's 10-field proposal in [[kit-next-video]] (2026-11-02). Idi, 2026-11-02
 | build | risk | screen time, decodability, cliché | v1 + lexicon `risk` |
 | score | roles | count = senses lit + music enactment (0/1) + picture showing 2+ senses (0/1) + type move tied to a sense (0/1) + callbacks | computed; a diagnostic, never a target to game |
 
+## Standing rules from Idi's lyric notes (2026-11-03, "Pay Attention" v1-v2)
+
+| rule | source |
+|---|---|
+| Picture shows what the words cause (the result, the inner change), never a literal illustration of the words | Idi v2 note 20 |
+| Roles: each pronoun means one party for the whole song and has one visual identity (role map per song) | Idi v2 note 3 |
+| Colloquial forms preferred: 'em, 'cause, till, poppin' | Idi v2 note 10 |
+| No phrasing nobody says ("in your quote", "billing you in you", "never ask a thing") | Idi v1 notes 6, 8, 15 |
+| No line that explains the previous one; no word repeated within a few lines unless it is the hook | Idi v1 note 22, v2 notes 7, 11, 13 |
+| A reference must add an insight; naming it is not enough (the Konami code) | Idi v1 note 10 |
+| Never reuse one rhyme pair, and never the lowest-effort pairs (you/too) twice | Idi v2 note 14 |
+| Numbers and names can live on screen instead of in the lyric (9:47, 400/day, Khan Academy) | Idi v1 notes 9, 16, 17 |
+
 ## Example (lexicon-era, hypothetical; premise not chosen)
 
 | field | value |
