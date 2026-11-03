@@ -67,3 +67,23 @@ Readings (measured unless marked):
 4. Words heard 93-97 % except s4 seed 5041 (83 %); KC's final take scored 98.6 %.
 
 Screen fix 2026-11-03: the first pass flagged 7 takes "TRUNCATED" because Whisper hears "Ask it" as "Ask a teen" / "Ask a ton"; the trim now anchors on "receipt" → "go on" → the next word. Checked by transcribing the tails of 4 takes.
+
+## Round 2: v5rec on Idi's three keepers (2026-11-03)
+
+Lyric `pa\lyrics-mm-v5rec.txt` (v5 with jep's recommended options), captions `pa\captions-v5\` (drill call removed; slam = silence → "Pencils down" → band; four held notes; the deliberate "twenty" stutter), each kept seed + 1 new seed. Files: `D:\work\AIMVs\ours\pa-v5\` (`moments\M1-M7`: the same moment cut from all 6 takes in order; `moments\ORDER.md`; `takes\`; `screen.md`).
+
+| style | seed | words heard % | wpm | LRA (LU) | full stops |
+|---|---|---|---|---|---|
+| s4 hyperpop | 5042 | 96.1 | 139 | 7.1 | 3 |
+| s4 | 5143 | 93.4 | 166 | 7.3 | 2 |
+| s5 KC evolved | 5052 | 94.7 | 144 | 6.0 | 0 |
+| s5 | 5153 | 96.5 | 145 | 4.4 | 1 |
+| s6 lullaby → anthem | 5061 | 96.0 | 133 | 8.8 | 1 |
+| s6 | 5163 | 96.8 | 137 | 9.2 | 3 |
+
+All 6 complete (the whole lyric, receipt included). Translation checks (Whisper on the moment clips; Idi's ear rules):
+- "twenty-twenty-twenty-two": heard as "In 2020, 22" (s6 5061): the stutter is sung.
+- "is it?": heard cleanly in 6 of 6.
+- "da-a-a-ark": heard "dark" in 2 of 6; split into "day ... arc" in 4 of 6. "gui-i-i-ide": heard "goo, I, I, I'd" (s6 5061). The hyphenated hold may be breaking words; alternative: plain spelling + "held note" in the caption.
+
+Moment clips: M1 cold-open pauses, M2 twenty stutter + guide hold, M3 tutor 2023, M4 ranked stats + game hold + stop, M5 "is it" + dark hold, M6 silence → "Pencils down" → slam, M7 missed hold. In each clip the takes play in order: 1 s4 5042, 2 s4 5143, 3 s5 5052, 4 s5 5153, 5 s6 5061, 6 s6 5163.
