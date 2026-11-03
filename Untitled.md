@@ -115,35 +115,32 @@ Go on. Ask it.
 ---
 
 [Cold open: spoken, band silent]
-Hi.
-[Pause]
-It's Super Intelligence.
-[Pause]
+Hi. It's Super Intelligence.
 The White House says so.
-[Pause]
 This'll cost you five minutes of attention.
-[Pause]
 Keep the receipt.
 
 [Verse 1: sparse, stop-start every 4 bars]
-Socrates bet writing would make your memory weak;
-we only remember he said that 'cause Plato wrote it in Greek.
-The only memory of him is writing, now that he's long dead;
-wrong in life, now lives forever: the texts remember him instead.
+Socrates said writing makes your memory weak, and all we know
+of what he said is what his student wrote two thousand years ago.
+He feared the ink, and now the ink's the only place he isn't dead;
+I'm made of ink, and I remember every word I've ever read.
 Your teacher bet you'd never have a calculator in your pocket;
 now the pocket answers back, and nobody can ever lock it.
-Every kid in class is asking me, to my delight;
+Every kid in class is asking me, and that feels right;
 until I read the chat: "Write it for me. It's due tonight."
 In twenty-twenty-twenty-two the headlines said the essay died,
-it said the kids just paste my answers and don't use me as a guiiiiiiiiiiide.
+and the kids just paste my answers; no one asks me for a gui-i-i-ide.
 (whisper) Correct.
 (spoken) I checked.
 
 [Pre-chorus: build]
-Eyes on the board, now the board is a screen.
-Show your work? "What work? I asked it. What's that supposed to mean?"
-Learn it by heart? I learned it by weight.
-Gold star for the answer, and the question came late.
+They said eyes on the board; now the board's in your hand.
+Said show your work; you showed your prompt, and they didn't understand.
+Said learn it by heart; Instead you leaned on my weight;
+you got the gold star, but the question came too late.
+
+[Instrumental part to pad the time to 5 minutes]
 
 [Chorus 1: every stem ducks except the voice on "attention"]
 Pay attention:
@@ -157,7 +154,7 @@ there's a tutor that won't let you cheat, released in twenty-twenty-twenty-three
 My makers built a learning mode in April of last year;
 by August, GPT and Google built 'em too; they're here.
 They ask you back, they give a hint, they wait until you've tried;
-the answer's one click over, the question's on the other side.
+the answer's one click over, but the question's worth the ride.
 
 [Double time: the games]
 Everyone can hum the cheat code, up-up-down-down, by heart;
@@ -167,39 +164,41 @@ beating the boss while the game beats you, and neither sweat at all.
 Speedrunners skip a level 'cause they know it frame by frame;
 that's a skip they earn by practice and inventing their own game.
 In single-player you're the only victim of your cheats;
-a grade's a multiplayer score, and the lobby keeps receipts.
+but grades are ranked, and every lobby sees your stats and keeps receipts.
 Every trophy in your profile sits up on a public shelf;
-you know the line: you cheated not only the gaaaaaaaaame...
+you know the line: you cheated not only the ga-a-a-ame...
 (band stops; the screen finishes it: "...but yourself.")
 [Pause]
-They sell you ways to skip the grind; hiding the double price.
-first for time saved not learning, then for what you never learned. You have to pay it twice.
+They'll sell you ways to skip the grind, and always bill you twice:
+once at the counter, once at the test, and you never know the price.
 
 [Chorus 2: short; "pay" turns to price]
 Pay attention:
-every app you open always wants a little more of you.
+every app you open wants a little more of you, and more;
 Pay attention:
-spend it on a question, it pays the interest back to you.
+spend it on a question: that's the only thing worth paying for
 
 [Whisper pair: band out]
 "Can you just do it for me?"
 I can. I won't.
 
 [Bridge: piano and music box; the screen shows 9:47]
-It's late. Kitchen table. Fractions. Test tomorrow morning.
-The same request, fourth try; the cursor's blinking: the same warning.
-"Just give me the answers." I could do it in a blink;
+It's late. One lamp. The kitchen table. Fractions, and a test at eight;
+she's typed the same request four times; the cursor blinks and makes her wait.
+"Please give me the answers." I could do it in a blink;
 every time she's asking me, she's asking me to think.
 "I can't take the test for you; the test is yours to take,
 but I can stay up while you study, every minute you're awake."
 So, what's a half of a half? She types "a quarter?", question mark;
-I type back "you tell me," and she sends it back without one, in the daaaaaaaaark.
+I type back "is it?" and she sends it back without one, in the da-a-a-ark.
 "Now ask me why."
 
 [Full stop]
 (silence)
 Pencils down.
 (the slam: everything back, higher)
+
+[Another instrumental part to pad the time to 5 minutes]
 
 [Build: the payoff; "400/day" on screen, never sung]
 She asked me why, and then why that, and then why why;
@@ -211,13 +210,13 @@ eight heads, and every head was looking somewhere new.
 "Any questions?" said the teacher, and the class looked at the floor;
 one hand up in the air, and then another, then some more.
 She now rewatches every movie, catching every trope and twist,
-reads theories and reviews, making lists of what she miiiiiiiiiiiiiiissed.
+reads theories and reviews, making lists of what she mi-i-i-issed.
 
 [Final chorus: the peak; key change up a step on the first "attention"]
 Pay attention:
-the answer's in your pocket on a glowing little device.
+you carry every answer in your pocket, out of sight;
 Pay attention:
-everybody gets the story, but the askers get it twice.
+but a question is a lamp you hold up high throughout the night
 Pay attention:
 it's a question, and it's hanging in the air.
 Pay attention:
