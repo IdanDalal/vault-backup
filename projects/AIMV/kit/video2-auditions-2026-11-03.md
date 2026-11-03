@@ -87,3 +87,28 @@ All 6 complete (the whole lyric, receipt included). Translation checks (Whisper 
 - "da-a-a-ark": heard "dark" in 2 of 6; split into "day ... arc" in 4 of 6. "gui-i-i-ide": heard "goo, I, I, I'd" (s6 5061). The hyphenated hold may be breaking words; alternative: plain spelling + "held note" in the caption.
 
 Moment clips: M1 cold-open pauses, M2 twenty stutter + guide hold, M3 tutor 2023, M4 ranked stats + game hold + stop, M5 "is it" + dark hold, M6 silence → "Pencils down" → slam, M7 missed hold. In each clip the takes play in order: 1 s4 5042, 2 s4 5143, 3 s5 5052, 4 s5 5153, 5 s6 5061, 6 s6 5163.
+
+## Round 3: the final batch (2026-11-03/04)
+
+Winning style s5 KC evolved (R21), Idi's final lyric (`pa\lyrics-mm-final.txt`, holds in plain spelling, two `[Instrumental]` pads), caption `pa\caption-final-s5.txt` (pads described as about 15 s; holds as "one smooth sustained vowel, never broken into separate syllables"), seeds 5153 + 6001-6011. Files: `D:\work\AIMVs\ours\pa-final\` (`00-SHORTLIST\` 4 full takes; `moments\M1-M7` with all 12 takes in seed order; `takes\`; `screen.md`).
+
+| seed | length | words heard % | wpm | LRA (LU) | full stops | shortlist |
+|---|---|---|---|---|---|---|
+| 5153 | 4:41 | 96.1 | 137 | 4.9 | 4 | 1 (Idi's seed) |
+| 6001 | 4:39 (skips "Go on.", trimmed by hand) | 94.6 | 134 | 7.5 | 2 | |
+| 6002 | 4:36 | 97.2 | 137 | 8.6 | 9 | 2 (most dynamic) |
+| 6003 | 5:03 | 95.9 | 137 | 4.3 | 2 | |
+| 6004 | 4:14 | 97.2 | 142 | 5.2 | 3 | |
+| 6005 | 5:06 | 96.8 | 134 | 4.7 | 0 | |
+| 6006 | 4:07 | 96.5 | 149 | 3.1 | 1 | |
+| 6007 | 4:10 | 96.3 | 134 | 5.5 | 2 | |
+| 6008 | 5:01 | 96.6 | 152 | 5.0 | 4 | |
+| 6009 | 5:11 | 97.0 | 132 | 4.1 | 1 | 3 |
+| 6010 | 4:27 | 96.4 | 134 | 5.4 | 2 | |
+| 6011 | 5:21 | 94.4 | 128 | 5.4 | 1 | 4 (longest) |
+
+Readings (measured; Idi's ear rules):
+1. Plain-spelled holds no longer split words: "guide" and "dark" heard whole in every take (round 2: "goo, I, I, I'd", "day ... arc"). Whether each is held smoothly is for the ear.
+2. 5 of 12 reach Idi's 5:00 (6003, 6005, 6008, 6009, 6011); the pads did not always run long.
+3. Dynamics flatter than round 2's s6 (LRA 3.1-8.6 here vs 8.8-9.2); seed 6002 is the outlier at 8.6.
+4. New flag: "without one" (the question mark gone) is heard as "with that one" in 10 of 12 takes: the line's point may be lost.
