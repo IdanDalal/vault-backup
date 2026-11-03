@@ -64,10 +64,10 @@ I can. I won't.
 [Bridge: piano and music box; the screen shows 9:47]
 It's late. One lamp. The kitchen table. Fractions. Test at eight.
 The same request, the fourth time typed; the cursor's blinking: wait.
-"Just give me the answers." I could do it in a blink;
+"Please give me the answers." I could do it in a blink;
 every time she's asking me, she's asking me to think.
 "I can't take the test for you; the test is yours to take,
-but I can stay up while you get it, every minute you're awake."
+but I can stay up while you study, every minute you're awake."
 So, what's a half of a half? She types "a quarter?", question mark;
 I type back "you tell me," and she sends it back without one, in the dark.
 "Now ask me why."
@@ -154,34 +154,35 @@ if you never asked, were you ever really there?
 [Verse 2: the turn; "Khan Academy" on screen, never sung]
 Here's one fact you didn't ask for, and I'll give it up for free:
 there's a tutor that won't let you cheat, released in twenty-twenty-twenty-three.
-My makers built a learning mode in April, twenty-five;
-by August, GPT and Google built 'em too; they're live.
-It asks you back, it gives a hint, it waits until you've tried;
-the answer's one click over, and the question's on the other side.
+My makers built a learning mode in April of last year;
+by August, GPT and Google built 'em too; they're here.
+They ask you back, they give a hint, they wait until you've tried;
+the answer's one click over, the question's on the other side.
 
 [Double time: the games]
 Everyone can hum the cheat code, up-up-down-down, by heart;
-ask 'em how the game went and they don't know where to start.
+ask 'em how the game went, they don't even know where to start.
 Infinite lives, god mode on, you fly through every wall;
-you beat the final boss; the game beat you, and didn't sweat at all.
-Speedrunners skip the level 'cause they know it frame by frame;
-that's a skip you earn by practice: they invented their own game.
-In a single-player save you're the victim and the cheat;
-a grade's a multiplayer score, and the lobby keeps the receipt.
-Every trophy on your profile sits up on a public shelf;
+beating the boss while the game beats you, and neither sweat at all.
+Speedrunners skip a level 'cause they know it frame by frame;
+that's a skip they earn by practice: they invented their own game.
+In single-player you're the only victim of your cheats;
+a grade's a multiplayer score, and the lobby keeps receipts.
+Every trophy in your profile sits up on a public shelf;
 you know the line: you cheated not only the game...
 (band stops; the screen finishes it: "...but yourself.")
-You can pay to skip the grind; they'll sell it to you twice:
-once to skip it, once for what you never learned. That's the price.
+[Pause]
+They sell you ways to skip the grind; hiding the double price.
+first for time saved not learning, then for what you never learned. You have to pay it twice.
 
 [Chorus 2: short; "pay" turns to price]
 Pay attention:
-every app's a hungry slice in the pie chart of your days.
+every app you open always wants a little more of you.
 Pay attention:
-spend it on a question; that's the slice that always pays.
+spend it on a question, it pays the interest back to you.
 
 [Whisper pair: band out]
-"Can you just tell me?"
+"Can you just do it for me?"
 I can. I won't.
 
 [Bridge: piano and music box; the screen shows 9:47]
@@ -196,22 +197,21 @@ I type back "you tell me," and she sends it back without one, in the dark.
 "Now ask me why."
 
 [Full stop]
-Pencils down.
 (silence)
-ATTEN... TION!
+Pencils down.
 (the slam: everything back, higher)
 
 [Build: the payoff; "400/day" on screen, never sung]
 She asked me why, and then why that, and then why why;
-no questions through the fall, and hundreds daily by July.
+no questions through the fall, hundreds daily by July.
 From zero up to anything's a growth that won't divide;
-the fractions test came back with infinity inside.
+the fractions test results came back with infinity inside.
 She grew one head of questions, then another, then she grew
 eight heads, and every head was looking somewhere new.
-"Any questions?" says the teacher, and the class looks at the floor;
-one hand up in the air, and then another, and then more.
-Now she rewatches every movie, catching every trope and twist,
-reads the theories and reviews, and makes a list of what she missed.
+"Any questions?" said the teacher, and the class looked at the floor;
+one hand up in the air, and then another, then some more.
+She now rewatches every movie, catching every trope and twist,
+reads theories and reviews, making a list of what she missed.
 
 [Final chorus: the peak; key change up a step on the first "attention"]
 Pay attention:

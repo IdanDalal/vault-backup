@@ -30,6 +30,7 @@ youtu.be/Cq8qO-NjYIg
 
 I think that intentionally singing "twenty-twenty-twenty-two" and "twenty-twenty-twenty-three" (an deliberate "extra twenty") sounds better, and could look good if we highlight/acknowledge the intent. 
 
+both "you tell me," and "ATTEN... TION!" sound terrible in all versions. Regarding the former - the emphasis is missing (it's not "YOU tell ME" that means something specific, it's "you tell me..." like a random sentence). Regarding the latter - it's just an incoherent mess all around, I suspected it'll be too much for MiniMax.
 
 Rick and Morty 2013–
 
