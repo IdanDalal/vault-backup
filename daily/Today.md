@@ -38,7 +38,15 @@ My v2 notes:
 7. Lines 10-11: another example of #3 - "asking me" is followed by "till you hear", shouldn't that be "till I hear"? Also, "asking" is repeated twice, so should we replace "hear what they are asking" with something better like "hear the questions"? Or, if the word "questions" is also too repetitive, "read the history/logs"?
 8. Line 13: "paste my answers in and hand them in" has two repeating/close "in"s.
 9. Line 33: should we replace "by August, OpenAI and Google built the same. It's live." with "by August, GPT and Google built 'em too, they're live."
-10. Line 39: should we replace "them" with "'em" like line 33? I generally like/prefer lyrics with colloquial/slang/short versions of words like "poppin'", "'"
+10. Line 39: should we replace "them" with "'em" like line 33? I generally like/prefer lyrics with colloquial/slang/short versions of words like "poppin'", "'till", "'cause", etc. and I think they sound better than perfectly-pronounced, "correct" versions.
+11. Line 41: I have two issues with it - the first is the word "saw" is repeated twice, and the second is the "premise" - meaning, seeing is not a verb I associate with games, and games are not something I associate with seeing. A better "premise" would be something like "you beat the final boss by pushing buttons, but the game beat you because the reward/satisfaction for/from cheating/skipping is not the same (arguably worse) than the reward/satisfaction for/from winning".
+12. Line 43: can we communicate the message "and a cheat can't play that game." in a different/better way? Something like "and inventing your own game"?
+13. Line 44: "only one you rob is you," has the word "you" repeating twice in rapid succession. Should we change it to something like "only victim is you,"?
+14. Lines 44-45 and 54-56 have the exact same rhyme, and it's one of the lowest-effort ones I can imagine.
+15. The bridge, lines 63-71, is great. However, lines 68 and 70 rhyme with the exact same 3 words, which I understand is intentional/deliberate, but I still feel like it's "too simple" and we can do better.
+16. Line 87: should we replace the last word ("four") with "more"? If so, should we change some other part of the line, as well?
+17. Picture/visual for "ask them how the game went and they don't know where to start.": you suggested "a blank game cartridge label". I suggest: a "locked" achievement/trophy titled "remember the journey" with a "gamerscore value"/"rank"/"worth" of something funny/clever like "1 smile".
+18. Picture/visual for "every app you ever opened wants a little more of you.": you suggested "app icons leaning toward the viewer". I suggest: a pie chart with popular app colors+icons growing. The pie chart also has things like "study", "work", "socialize" and
 
 
 Rick and Morty 2013–
