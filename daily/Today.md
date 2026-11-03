@@ -28,6 +28,8 @@ youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
+I think that intentionally singing "twenty-twenty-twenty-two" and "twenty-twenty-twenty-three" (an deliberate "extra twenty") sounds better, and could look good if we highlight/acknowledge the intent. 
+
 
 Rick and Morty 2013–
 
