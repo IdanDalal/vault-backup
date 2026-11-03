@@ -28,25 +28,7 @@ youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
-My v2 notes:
-1. I have a WILD idea for the first line (line 2 in D:\work\vault\Untitled.md) to brainstorm with you: instead of "The White House" we say "Connie Donnie" - that's what I imagine Donald Trump would call himself if he was his own rival/opponent/competitor. We can even show a silhouette of his hair or a blank red hat or something as a visual gag.
-2. Line 3 starts with "This song" - I consider the song and music video as two "entangled" parts of the same product/output, so perhaps we simply drop the word "song"? Or should we "push further" and say/sing the word "video" so that the audio and visual layers are "connected"?
-3. We should have consistent references to "roles" - meaning, words like "we"/"you"/"your"/etc. should always refer to the same thing/entity/context, and ideally even presented visually somehow.
-4. Line 6: an example of #3 from above - "makes a memory" can be replaced with "makes your memory", since he was talking about humans and AIs also have memory/ies. Now that I think about it, that gives me a new "idea"/"argument": your/AI's memories ARE writing - that superficially sounds like he wasn't just wrong, he was 180° off in the opposite direction.
-5. Line 7: another example of #3 - the first word "we" communicates that both humans and AIs know this.
-6. Lines 8-9: I love it! One tiny note: should we replace "swore" with "thought" or "bet"? I think "said" would be worse, though.
-7. Lines 10-11: another example of #3 - "asking me" is followed by "till you hear", shouldn't that be "till I hear"? Also, "asking" is repeated twice, so should we replace "hear what they are asking" with something better like "hear the questions"? Or, if the word "questions" is also too repetitive, "read the history/logs"?
-8. Line 13: "paste my answers in and hand them in" has two repeating/close "in"s.
-9. Line 33: should we replace "by August, OpenAI and Google built the same. It's live." with "by August, GPT and Google built 'em too, they're live."
-10. Line 39: should we replace "them" with "'em" like line 33? I generally like/prefer lyrics with colloquial/slang/short versions of words like "poppin'", "'till", "'cause", etc. and I think they sound better than perfectly-pronounced, "correct" versions.
-11. Line 41: I have two issues with it - the first is the word "saw" is repeated twice, and the second is the "premise" - meaning, seeing is not a verb I associate with games, and games are not something I associate with seeing. A better "premise" would be something like "you beat the final boss by pushing buttons, but the game beat you because the reward/satisfaction for/from cheating/skipping is not the same (arguably worse) than the reward/satisfaction for/from winning".
-12. Line 43: can we communicate the message "and a cheat can't play that game." in a different/better way? Something like "and inventing your own game"?
-13. Line 44: "only one you rob is you," has the word "you" repeating twice in rapid succession. Should we change it to something like "only victim is you,"?
-14. Lines 44-45 and 54-56 have the exact same rhyme, and it's one of the lowest-effort ones I can imagine.
-15. The bridge, lines 63-71, is great. However, lines 68 and 70 rhyme with the exact same 3 words, which I understand is intentional/deliberate, but I still feel like it's "too simple" and we can do better.
-16. Line 87: should we replace the last word ("four") with "more"? If so, should we change some other part of the line, as well?
-17. Picture/visual for "ask them how the game went and they don't know where to start.": you suggested "a blank game cartridge label". I suggest: a "locked" achievement/trophy titled "remember the journey" with a "gamerscore value"/"rank"/"worth" of something funny/clever like "1 smile".
-18. Picture/visual for "every app you ever opened wants a little more of you.": you suggested "app icons leaning toward the viewer". I suggest: a pie chart with popular app colors+icons growing. The pie chart also has things like "study", "work", "socialize" and
+
 
 
 Rick and Morty 2013–
