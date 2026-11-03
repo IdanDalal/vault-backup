@@ -32,6 +32,10 @@ I think that intentionally singing "twenty-twenty-twenty-two" and "twenty-twenty
 
 both "you tell me," and "ATTEN... TION!" sound terrible in all versions. Regarding the former - the emphasis is missing (it's not "YOU tell ME" that means something specific, it's "you tell me..." like a random sentence). Regarding the latter - it's just an incoherent mess all around, I suspected it'll be too much for MiniMax.
 
+Weak lines we should work on:
+1. the answer's in your pocket on a glowing little device.
+2. everybody gets the story, but the askers get it twice.
+
 Rick and Morty 2013–
 
 BoJack Horseman 2014–2020

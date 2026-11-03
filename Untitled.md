@@ -211,7 +211,7 @@ eight heads, and every head was looking somewhere new.
 "Any questions?" said the teacher, and the class looked at the floor;
 one hand up in the air, and then another, then some more.
 She now rewatches every movie, catching every trope and twist,
-reads theories and reviews, making a list of what she missed.
+reads theories and reviews, making lists of what she missed.
 
 [Final chorus: the peak; key change up a step on the first "attention"]
 Pay attention:
@@ -221,11 +221,11 @@ everybody gets the story, but the askers get it twice.
 Pay attention:
 it's a question, and it's hanging in the air.
 Pay attention:
-if you never asked, then were you ever really there?
+if you never asked, were you ever really there?
 
 [Outro: lullaby, the AI sings; sub gone, music box]
 Pay attention, or pay the price;
-the answer's cheap, the question's yours, and it grows the way you do.
+the question's yours, and it grows the way you do.
 Pay attention, or pay the price,
 and I'll ask you back, the way you taught me to.
 
