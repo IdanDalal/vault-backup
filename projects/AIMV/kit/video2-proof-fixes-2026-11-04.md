@@ -79,3 +79,22 @@ Verdict: all 4 named R30 defects fixed, plus 9 more from the lead's frame sweep 
 - Engine `D:\work\aimv-lab\pay-attention`: commits `20504d4` (R30 fixes), `afacb19` (critic round); files `app\src\scenes\late.ts`, `chorus1.ts`
 - Render `out\p2-proof.mp4` (1758 frames, 196 s); gates `out\p2-gates\`
 - Proof copy `D:\work\AIMVs\ours\pa-song\proof\p2-proof-fix-0m52-1m21.mp4`
+
+## 8. Round 3 (Idi 11-05, after watching the fix)
+
+Idi's notes: the title overflowing every card; the pupil's class and the class after the turn disagreed (two circles, a bright light in one only, a blank board); a table-y shape materialised in front of the class with its text over the board; ATTENTION stuck to the screen through the swipe (against plan v2 Q2).
+
+| Idi's note | cause (verified) | fix | verified |
+|---|---|---|---|
+| title overflow | 1310 px of title on a 1300 px card | title fitted to the card's inner width (dots too) | full frame 62.5 |
+| two rooms disagree | L21 put the class INSIDE the pupil, L22 found it again OUTSIDE: two separately drawn rooms, differently lit, board text skipped when small | one room: the pupil is a mirror of the room the eye faces (reversed); the catchlight is the room's lamp, placed so its mirrored projection lands on the catchlight; the turn faces that same room directly, full frame; board words always drawn, board lit in both views; lamp drawn at the catchlight's size | stills 75.6 / 77.4; 30 fps turn + landing |
+| chair materialising | a flat screen drawing faded in over the room | a 3D chair at the front desk from the first frame (seen in the mirror); the camera descends onto it; L23's words placed by its projection, clear of the board | 30 fps descent + rest |
+| ATTENTION stuck in the swipe | drawn in screen space while the world panned | L22's words set on the eye's face; the turn waits for ATTENTION's reading time (end + 0.4 s) and they leave with the face | 30 fps turn 76.85-77.48 |
+
+Also from a second blind critic (standards A consistency, B nothing stuck but the meter, C text fits): the corridor's top light was a fixed screen point for 10 s (now ceiling lights over the rings, passed under); the hand washed out in the room (its lights' reach now scales with mark size); labels showed through fading-in cards (bodies opaque first); THERE touched the seat line; REGISTER line unreadable (15 px, full paper); the lamp half-cut at the top edge during the descent (drawn only while in frame).
+
+Kept by design (critic flagged again): the camera following LATE down; the drain to near-black before the lamp; the empty-slot planks before L23's words are sung; THERE between the rows; the GOLD STAR's blue rim (emitted light, look A).
+
+Gates: sync 36/36, 0 edge/overlap/clash/stillness, type-scale 6 (inherited); clarity lyric 0, micro contrast 10 (far ROW labels fading in fog, pan labels); lifecycle 4 boundary rows; flash 0; flips 0; beat 68.8 % at 4.5x chance.
+
+Receipts: engine `d9a1e49`; proof `D:\work\AIMVs\ours\pa-song\proof\p2-proof-fix2-0m52-1m21.mp4`.
