@@ -1,0 +1,25 @@
+---
+type: research
+created: 2026-11-04
+author: jep
+---
+
+Verdict: real, honest alpha tool; medium value; methods beat the install. MIT code; models CLAP laion/larger_clap_general (Apache-2.0) + AST MIT/ast-finetuned-audioset (BSD-3), both gated: false on HF API (checked 2026-11-04), ~1.1 GB, EARSHOT_OFFLINE=1 after first fetch. 3.8k stars, 40 commits, v0.1.0 2026-10-16 -> v0.4.0 2026-10-22, alpha, single author. Deps numpy/scipy/librosa/pyloudnorm/torch CPU/transformers; optional llm extra = Gemini per-token key -> REJECT. Nothing for Whisper mishearing, WebGL context loss, 4K. Source: WebFetch only (clone blocked); function names, no line ranges.
+
+1. Chance baseline on every sync number (timeline.py sync()/_chance, eval/timeline/RESULTS.md): Clawd cues 88.9 % within 1 frame vs chance 15.2 %; dense refs 67-80 % vs chance 46-71 % (near chance, and the output says so). Ours: avsync.py, verify_reel.py, per-word gate print raw rates. Add shuffled-times chance column. Value high, effort low, conf high.
+2. Leave-one-out + pre-registered defect mixes (eval/launch/RESULTS.md, profile.py, critique.py): profile = min-max of N refs + tolerance; each ref vs other N-1: 86 % in range vs ~71 % baseline; 14 damaged mixes, flags written before run, 13/14 caught (over-compression missed). Ours: dynmap thresholds (LRA >= 7, valleys >= 8 %, escalation >= +1.5 dB) untested. Do: LOO over 9 bar songs (baseline 78 %) + ffmpeg damage mixes, KC v8B as flat control. Value high, effort low-med, conf high.
+3. Annotated multi-lane sheet (sheet.py sheet(), _place_labels, _logspec): shared time axis; thumbnails at cuts, section boxes, staggered event labels (pale "?" under 12 dB over background), log spectrogram 30 Hz-16 kHz, waveform, LUFS curve + silence bands, cues coloured by sync (green 1 frame, amber 100 ms, blue swell, violet peak, red miss); header prints key numbers as text. Use: take sheet per MiniMax take for critics. Value med-high, effort low-med.
+4. Public write-up model: README command table, docs/LIMITS.md with numbers, docs/VALIDATION.md, eval/*/RESULTS.md each with "tuning-on-test caveats", CHANGELOG admissions, "derived numbers only, no media". Value high, effort low.
+5. Sync tolerances with sources (motion-sfx-techniques.md s1, critic_sync.md): ITU-R BT.1359 +45 ms early / -125 ms late; EBU R37 +40/-60 ms; critic: sound leads <= 45 ms, impacts <= 75 ms late. Pass band for per-word gate. Verify ITU/EBU figures before citing. Value med.
+6. Onset attack refinement (timeline.py detect_events, onset_curve, _attack, _band_envs): spectral flux on log-mel at 5 ms hop, z >= 3; per event pick band (full, <200 Hz, >2 kHz), walk back on 1 ms envelope to the 20 dB point; placed SFX median err 0.5 ms, p90 11 ms, recall 93 %; soft sung onsets untested. Candidate fallback for line-first words in build_timing_v2 on Demucs vocal stem. Value med, effort med.
+7. Critic prompt shape (skills/real-sound/templates/prompts/critic_*.md, fixer.md): 5 read-only critics in parallel, 1 fixer; each round passes ROUND, CHANGED, FIXED (never re-report); director returns weakest_3s {from,to,why} + <=12 issues; every taste claim needs a measurement; fixes tested on a variant with before -> after; JSON only. Value med, effort low, conf high.
+8. SFX layer from code (forge/bank.py, bank/*.json, kits/launch.json, INTEGRATION.md): 252 sounds rendered by ID, no models, no network; cue schema {fps,bpm,total,acts,events:[{f,kind,weight,pan,pitch?,apexFrac?,dur?,id?}]}; align onset for hit/pop/click, peak for whoosh, end for riser. Against: own doc says synthesized beeps/whooshes sound amateur vs real recordings (p_real 0.33 vs 0.94); no listening test on new sounds; a layer over the "no audio edits" song = separate ruling. Rec: 20 s A/B on one KC chorus, Idi's ear decides. Value med (speculative), conf low-med.
+9. Motion-to-sound rules (only if 8 lands): whoosh starts 0.2-0.6 s before cut and peaks on it; fastest frame = whoosh peak; contact frame = hit; riser -> 0.1-0.5 s near-silence -> impact once or twice per film; 1.2-1.7 salient hits/s.
+10. Tempo octave: prior centred 120 BPM, prints tempo_alt when its pulse is at least half as clear; auto switching rejected. Ours: caption 144 BPM vs grid 161.5; print the alternative with clarity. Value low-med.
+11. Mastering targets (launch-video-sound.md s2): -14 LUFS +-0.5; peak <= -1.5 dBTP master, <= -1 dBTP after AAC; 6 of 7 pro refs clip after AAC. Check KC release file + video 2 master. Value low-med, effort trivial.
+12. CLAP text search (find/match/rank) for take triage: own limits say tags right ~25-50 % in busy mixes. Value low.
+13. measure duplicates dynmap.py/refmeasure.py. Skip.
+14. Goodhart note in README: searches satisfy the tool's own models without improving the sound. Corroborates our lesson 79.
+
+No coverage: Whisper mishearing, WebGL/4K reliability (author's renderer cinetic not in repo), lyric picture design.
+If installed (items 3, 6, 12 only): separate venv, CPU torch, earshot doctor --fetch once then EARSHOT_OFFLINE=1, never set GEMINI_API_KEY, batch calls in one Python script (each CLI call reloads models 20-40 s).

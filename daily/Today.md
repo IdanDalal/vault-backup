@@ -28,7 +28,7 @@ youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
-
+The only good version is `1-seed5153-your-seed-4m41`
 
 Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
 
