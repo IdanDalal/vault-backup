@@ -19,7 +19,9 @@ Source caveat: all 4 read through WebFetch (raw files, GitHub API); the clones w
 | win4r/video-director | Claude skill: 8-phase video workflow, timeline.json, 2 Python QA scripts, critic rubric | 2026-10-28..30, 8 commits, 299 stars; evals n=1, author: "a direction, not a measurement" | MIT | best fit; 4 gates we lack |
 | Leonxlnx/earshot | CPU audio ears for agents: sync, sheets, critics, SFX bank (CLAP + AST models, ungated) | 2026-10-16..22, 40 commits, 3.8k stars, alpha | MIT | borrow methods; SFX bank needs a ruling |
 
-Pattern: all four are under 3 weeks old and agent-built; star counts track the showcase more than tested use (inference, medium).
+| heygen-com/hyperframes (added same day, Idi's 5th link) | HTML-to-MP4 renderer for agents: Puppeteer seek-and-capture, FFmpeg | 2026-03-10, 78,586 stars, v0.9.10, HeyGen-backed, telemetry on by default | Apache-2.0 | borrow 5 render-reliability methods (B below); capture path poor for our 4K on Windows |
+
+Pattern: the first four are under 3 weeks old and agent-built; star counts track the showcase more than tested use (inference, medium).
 
 ## A. Release gates (cheap, gap confirmed)
 
@@ -33,6 +35,8 @@ Pattern: all four are under 3 weeks old and agent-built; star counts track the s
 
 6. Segmented 4K render: ~600-frame segments + manifest, browser restart per segment, or requeue only the failed worker's chunk. Neither repo implements it (kinetograph scout's spark, video-director's one line "retry failed chunks"). Fixes: any failure kills the whole render (`render.ts:173-184`); KC 4K died at frame 11,580/11,646 after 8 h 26 min (`kit-engine-components.md:214`). Effort medium; context-loss cause still unproven.
 7. Frame reuse on declared holds: reuse the last buffer where `_kc-rhythm.ts` declares a hold; key on the declaration, since adaptive sampling is not bit-repeatable (kinetograph `reuse.rs`). Saves render hours; held-frame share in KC unknown.
+6b. hyperframes turns item 6 into working code (`repo-scout-2026-11-04/hyperframes.md`): 3,000-frame segments with a hashed manifest and resume (reuse only when hash, bytes and probed frame count all match); browser restart every 3 segments ("keeps a session under the 10k-frame band", verified verbatim; KC died at 11,580 in one session); failure classes, retry only browser-loss errors; retry only missing frames; release WebGL contexts when a clip ends (our context-loss prior = GPU memory pressure). Their segment mode is still opt-in pending a soak test.
+6c. Cut-continuity gate (hyperframes seam gate): per cut, the carrying object stays within 12 px / 5 % size across the cut, exits still moving, entry speed near exit speed; rects from `window.__kc.boxes`. No other repo covers cuts.
 8. Determinism guard: `Math.random`, `Date.now`, `performance.now` throw in render mode with the scene id; plus `tsc --noEmit` in the pre-render gate (kinetograph: "a misspelled prop draws at full opacity without an error"). Known debt: `check.ts:178` strict-null error (`kc-public-export-2026-11-02.md:79`).
 
 ## C. Motion and picture QA
