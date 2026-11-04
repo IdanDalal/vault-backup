@@ -7,6 +7,8 @@ status: active
 
 # "Pay Attention": the video plan (v2, Idi's R24 applied)
 
+**v3 note (Idi R28/R29, 2026-11-04): lamp-yellow is retired.** The look is A, monochrome light (his "white palette"): greyscale materials, one white key light, letter-shaped shadows, her "?" marks as white-hot lights, screen-blue the only hue (emitted glow only); the saturation ladder became an exposure ladder. Read every "lamp-yellow" below as white light and every "saturation" as exposure / value range; the binding version is [[video2-treatment-2026-11-04]] section 3 and the line cards.
+
 v2 (2026-11-04, Idi R24): Q1 overruled. The art direction is code-rendered, typography-first and particle-heavy, in our own engine (refs: I'm Upping My P(Doom), The Simulation's Ending, LGTM, and Knowledge Cutoff), with no 3D-rendered or low-poly look (The End Of The Show, The Way I Look At You, Accept All). Q2, Q3, Q4 = A. New: every repeated word follows [[video2-repeat-map-2026-11-04]] (system S6); silent title cards at both ends. Still a plan; nothing built. Inputs: song of record A-7003 4:53 (R23); the 2026-11-04 reference wave (9 unanalyzed videos watched, 10 analyzed refs + KC re-read, 402 technique cards in [[kit-techniques]]); Idi's visual taste (102 lines, `D:\work\aimv-lab\pa-video\refs\R-reader.md` section 2); KC's measured bar (same file, section 3). Times below = Whisper word starts in A-7003 (about 0.2 s early); forced alignment becomes the timing of record in phase 0.
 
 ## 1. The idea in one line
