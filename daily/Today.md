@@ -28,14 +28,7 @@ youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
 
-The only good version is `1-seed5153-your-seed-4m41`. It's VERY good. It's the best one so far and the current gold standard, and if it didn't have a few issues, we'd be turning it into a video right now. The issues:
-1. The pause between " all we know" and "of what he said" is WAY too long - ~3 seconds.
-2. It says "twenty-twenty-two" "correctly" instead of "twenty-twenty-twenty-two" as instructed.
-3. It has no/tiny/bad holds on final words.
-4. The first instrumental part is extremely short/non-existent.
-5. It says "twenty-twenty-three" "correctly" instead of "twenty-twenty-twenty-three" as instructed.
-6. It says "but question's worth the ride." instead of "but the question's worth the ride."
-7. The final/last line "Go on. Ask it." has a weird "noise" after it that makes it sound like it says "Go on. Ask it ask."
+
 
 Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
 

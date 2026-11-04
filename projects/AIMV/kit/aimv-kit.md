@@ -57,3 +57,18 @@ Physical tools: `D:\work\aimv-lab\kit-tools\` (mp4-repair with its README, thumb
 
 1. Holder name and GitHub home RULED 11-02: "Chorus of Minds" for both (R12). Idi creates the `chorusofminds` GitHub organization.
 2. The premise, after his timestamped notes on the new refs.
+
+## Video 2: Pay Attention (2026-11-02 to 11-04)
+
+Start at [[handoff-2026-11-04-pay-attention]] (state, the gold take 5153 and its 7 issues, round-4 plan, Plan B edits, the video phase, files, lessons).
+
+| file | holds |
+|---|---|
+| [[handoff-2026-11-04-pay-attention]] | the handoff: read first |
+| [[video2-lyrics-final]] | Idi's final lyric, verbatim |
+| [[video2-auditions-2026-11-03]] | 3 audition rounds: 30 takes, measurements, findings |
+| [[video2-pay-attention]] | premise v3: thesis, arc, the viewer's receipt, receipts for facts |
+| [[video2-lyrics-v1]] ... [[video2-lyrics-v6]] | the lyric rounds with Idi's notes index-matched (v3: role map, picture rule) |
+| [[video2-premises-2026-11-02]], [[aimv-ideas]] | premise candidates; the merged idea list |
+| [[research-lyric-craft-2026-11-02]], [[research-sound-craft-2026-11-02]] | what makes the bar songs clever/emotional/deep; the sound levers |
+| [[kit-atlas]] | 164 cards on people, labs, institutions, places, fiction (sibling of [[kit-lexicon]]) |
