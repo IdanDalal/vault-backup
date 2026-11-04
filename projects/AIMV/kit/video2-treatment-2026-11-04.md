@@ -11,7 +11,7 @@ The one document every plate agent reads. Built on [[knowledge-cutoff-treatment-
 
 ## 1. The idea
 
-Attention is light. One lamp-yellow point of light in a dark field of type is the only warm light in the video. Every question she asks adds light; every pasted answer glows screen-blue. The viewer's five minutes run down on a meter from "Hi." (0:00.37) to 0:00 exactly 5:00.00 later, while the song ends at 4:52 (292.00 s, Idi R27) and "Go on. Ask it." waits in the composer. The receipt printed at 0:05 collects what an attentive viewer could catch and reads it back at 4:40.
+Attention is light. One white lamp in a greyscale field of type is the video's key light, and everything casts its shadow from it (Idi R29: look A, monochrome light, his "white palette"). Every question she asks adds a light, and so more shadows; every pasted answer glows screen-blue, the only hue. The viewer's five minutes run down on a meter from "Hi." (0:00.37) to 0:00 exactly 5:00.00 later, while the song ends at 4:52 (292.00 s, Idi R27) and "Go on. Ask it." waits in the composer. The receipt printed at 0:05 collects what an attentive viewer could catch and reads it back at 4:40.
 
 ## 2. Tone
 
@@ -21,23 +21,23 @@ Attention is light. One lamp-yellow point of light in a dark field of type is th
 4. New bans: app logos and brand marks (generic glyphs only; the pie chart of apps included); mascots or avatar figures (every ref with an avatar lost its lyric to it: W-B, W-C faults); lens flares and chromatic aberration except a 1-3 frame hit.
 5. The AI is the straight man again: calm, a little smug at "I checked.", warm in the bridge.
 
-## 3. Palette
+## 3. The lighting system (Idi R28/R29: look A, monochrome light; replaces the palette)
 
-| token | hex | role |
-|---|---|---|
-| ink | `#0B0B0D` | the dark field (KC) |
-| panel | `#17181B` | bubbles, the receipt's shadow side, UI chrome (KC) |
-| graphite | `#5B5C60` | hairlines, grids, the glass edge (KC) |
-| ash | `#9B9890` | unsung and ghost words, labels (KC) |
-| paper | `#F2EEE5` | sung words on ink; the receipt; **the AI's cursor** |
-| lamp | `#FFD21F` | questions, attention, her handwriting, the lamp (KC's signal, re-cast) |
-| lamp core | `#FFF4B8` | the hot centre of the lamp and of every lit "?" |
-| amber | `#B07A00` | the lamp's shadow side |
-| screen | `#2E6BFF` | answers, pasted text, apps, the phone glow (KC's one-time accent, re-cast as the cold side) |
+Idi R28: lamp-yellow "too similar/close to Knowledge Cutoff"; he asked for white, and deeper, a lighting system "with advanced contrast, complex shadows, intricate greyscale effects". R29 picked look A from the look tests (`D:\work\AIMVs\ours\pa-song\proof\lighting\board.png`).
 
-1. lamp and screen are the two saturated hues; in any frame one leads and the other stays inside the accent band (0.7-1.9 % of the frame, KC 16.8 / parity refs), except where the fight between them is the picture (chorus 2's apps against one question).
-2. Saturation ladder (What Counts w19): lamp area stays at accent size until the bridge; the bridge lamp is the only light; the final chorus (3:58) is the first frame where lamp light fills more than a third of the frame.
-3. Darks keep KC's 0.27 tint (Idi: "looks the best").
+| element | rule |
+|---|---|
+| materials | greyscale only: ink, panel, graphite, ash, paper (KC tokens without their warm tint); value carries everything |
+| the key light | the lamp: one neutral white light (about 5600 K) with visible falloff; a true black point and true white highlights in every lit frame |
+| shadows | every word casts its own letter-shaped shadow (never a box); objects cast shape-true shadows; the penumbra grows with distance from the surface (hard close, soft far); contact shadows where things touch |
+| shading | engraved or hatched shade on the side away from the light (KC `toneHatch` / `engrave`), ambient occlusion where things meet, specular glints on paper and glass edges facing the light; 5+ readable grey steps per frame |
+| her questions | each lit "?" is a small white-hot point light that casts its own shadows: more questions, more lights, more shadows (the eight heads = eight lights fanning eight shadows); her handwriting (Caveat) is white-hot |
+| the only hue | screen `#2E6BFF`: answers, pasted text, apps, the phone glow, and only as light emitted by them, never a fill or a key light; inside the accent band (0.7-1.9 % of the frame) except where answers flood the picture by design (verse 1's pasted class, chorus 2's apps) |
+| the cursor | paper white, 3 px at 1080p, the AI; it casts the thinnest shadow in the video |
+
+1. **Exposure ladder** (replaces the saturation ladder, What Counts w19 in light): crushed blacks and a narrow value range while answers rule (verse 1, chorus 2); the bridge lamp is the only light; the final chorus (3:58) is the first frame with the full value range and lamp light reaching more than a third of the frame.
+2. Darks: KC's 0.27 tint retired with the yellow (greyscale materials); the value structure (true black to true white) is the bar, measured per still (p1 / p50 / p99).
+3. Bloom and halation only on light sources (the lamp, her "?" lights, screens).
 
 ## 4. Typography (KC families, all OFL, on disk)
 
@@ -46,9 +46,9 @@ Attention is light. One lamp-yellow point of light in a dark field of type is th
 | the lyric voice | Anybody (width 50-150, weight 100-900) | sung lines, hooks, anchored repeats |
 | I = the AI | JetBrains Mono, typed by the paper caret | the composer, the AI's asides ("Correct.", "I checked.", "I can.", "I won't."), the meter (tabular figures), the receipt rows |
 | you = the viewer | Anybody on the glass (the laptop screen surface between her and the AI); the meter | lines addressed to "you" sit on the glass plane; mirrored when seen from her side |
-| she = the kid | Caveat in lamp | her handwriting: "¼?", her questions, the eight heads' labels |
+| she = the kid | Caveat, white-hot (a light source) | her handwriting: "¼?", her questions, the eight heads' labels |
 | documents | Newsreader | Socrates' and Plato's text, headlines, the fact sheet |
-| quoted chat | JetBrains Mono inside panel bubbles; hers with a lamp hairline, the AI's with a paper hairline | "write it for me, it's due tonight", "Can you just do it for me?", the four injection attempts |
+| quoted chat | JetBrains Mono inside panel bubbles; hers with a white-hot hairline that lights the bubble, the AI's with a paper hairline | "write it for me, it's due tonight", "Can you just do it for me?", the four injection attempts |
 
 KC 4.1-4.3 stand (scale 10x+ per frame, Swiss grid, kerning, tabular figures, no outlined type). KC 4.3's ban on outlined type is lifted for one move only: unlit words in the final chorus (gap G4: a word's unlit tube lights when sung), pending Idi's eye on the proof.
 
@@ -64,7 +64,7 @@ KC 4.1-4.3 stand (scale 10x+ per frame, Swiss grid, kerning, tabular figures, no
 
 | motif | what it is | ladder (plan v2 section 4) |
 |---|---|---|
-| the lamp | one lamp-yellow point; every "?" is a light source | off, unlit, on (1:08), dim (2:30), only light (2:47), eight beams (3:42), lifted (4:05), settles (4:20) |
+| the lamp | one white key light; every "?" is a light source and casts shadows | off, unlit, on (1:08), dim (2:30), only light (2:47), eight beams (3:42), lifted (4:05), settles (4:20) |
 | the cursor | the AI: a paper caret, 3 px at 1080p, 1 Hz blink when idle | spark at frame 1; types; checks; reads her; keeps blinking through the night; types "?" back; waits in the tail |
 | the meter | the viewer's attention, 5:00 to 0:00, the one screen-stuck element | ticks; drains fast in chorus 2; 0:18 at "paid in full"; 0:00 on the last frame |
 | the receipt | a till slip in mono on paper | header = title cards; row 1 at 0:05; rows at each plant; billed twice (2:18); read out (4:40); footer = reverse titles |
@@ -74,7 +74,7 @@ KC 4.1-4.3 stand (scale 10x+ per frame, Swiss grid, kerning, tabular figures, no
 
 ## 7. Spoilers and order
 
-1. The lamp is never on before 1:08; full lamp saturation never before 3:58.
+1. The lamp is never on before 1:08; the full value range (and lamp light over a third of the frame) never before 3:58.
 2. The eight beams never before "eight heads" (3:42); the PAID stamp never before "paid in full" (4:42).
 3. "...but yourself." only after "not only the game" (2:13); "Go on. Ask it." only in the tail.
 4. One date per frame at most; the year reels are the only years on screen in their verses.
