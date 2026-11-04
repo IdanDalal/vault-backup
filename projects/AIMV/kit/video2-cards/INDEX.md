@@ -9,6 +9,8 @@ status: active
 
 86 cards: L01-L85 = the 85 sung lines of `pa/sync/pa-timing-v3.json` (timing of record, R26; v3 = 16 suspect starts re-decided, `pa/sync/fixes.md`), L86 = the on-screen-only "Go on. Ask it." (R23). Pictures from plan v2 (R24, R25), repeats from the repeat map (S6), technique ids from `techniques/cards.json`. Time = sung start (m:ss.ss). Meter readings follow the lead's ruling C: real time, 5:00.00 counting down from "Hi." (0:00.37), 0:00 at song time 5:00.37, display rounded up.
 
+Look (Idi R28/R29, monochrome light): all materials greyscale; the lamp is one neutral white key light with falloff; every word and object casts a letter-shaped / shape-true shadow; her ? marks are small white-hot point lights with their own shadows; her handwriting (Caveat) is white-hot; screen-blue `#2E6BFF` is the only hue, only as glow from screens and pasted answers; exposure ladder: crushed blacks early, full value range from the final chorus (3:58).
+
 | id | time | line | picture | S6 treatment | techniques | threads |
 |---|---|---|---|---|---|---|
 | [L01](L01.md) | 0:00.37 | Hi. It's Super Intelligence. | lone cursor spark types HI. and a name too wide for it | - | g01 fm40 h19 | the receipt |
@@ -20,11 +22,11 @@ status: active
 | [L07](L07.md) | 0:19.01 | I'm made of ink, and I remember every word I've ever read | INK pours into the cursor; a floor of every word read | R-A INK #3 | g20 a02 R1-01 | the ink |
 | [L08](L08.md) | 0:21.85 | Your teacher bet you'd never have a calculator in your pocket | the teacher's bet chalked as a wager; POCKET locks | R-A POCKET (map 2) | w03 fm30 | the ink |
 | [L09](L09.md) | 0:24.77 | Now the pocket answers back, and nobody can ever lock it | POCKET turns phone-blue; answers pour back; the lock springs | R-A POCKET #2 | K-12 fm05 R8-02 | the ink |
-| [L10](L10.md) | 0:27.89 | Every kid in class is asking me, and that feels right | a classroom of desks, a warm ? over each | R-F asking #1 | os14 R3-16 | the paste |
+| [L10](L10.md) | 0:27.89 | Every kid in class is asking me, and that feels right | a classroom of desks, a white-hot ? over each | R-F asking #1 | os14 R3-16 | the paste |
 | [L11](L11.md) | 0:30.20 | Until I read the chat, write it for me, it's due tonight | every ? flips to the same blue bubble WRITE IT FOR ME | - | os14 R4-15 | the paste |
 | [L12](L12.md) | 0:32.96 | In twenty, twenty, twenty-two the headlines said the essay died | Idi's year reel lands 2020, 2020, 2022; ESSAY dies to dust | R-B year reel (map 3, Idi) | a07 su02 g39 | the paste |
 | [L13](L13.md) | 0:36.06 | And the kids just paste my answers, no one asks me for a guide | one essay pasted to every desk; GUIDE stretches to an unlit lamp | - | h01 R2-03 R1-11 | the paste, the lamp |
-| [L14](L14.md) | 0:40.91 | Correct. | in silence, the cursor ticks the headline in red pen | - | R2-10 R7-02 | - |
+| [L14](L14.md) | 0:40.91 | Correct. | in silence, the cursor ticks the headline with a pen stroke | - | R2-10 R7-02 | - |
 | [L15](L15.md) | 0:41.66 | I checked. | a second tick; FACT CHECKED prints to the receipt | - | h09 fm11 | the receipt |
 | [L16](L16.md) | 0:43.25 | They said eyes on the board, now the board's in your hand | THEY SAID stamps; the board pulls back into a phone screen | R-E SAID #1; R-A BOARD (map 4) | R3-12 fm30 g43 | the ink |
 | [L17](L17.md) | 0:46.26 | Said show your work, you showed your prompt, and they didn't understand | SAID stamps; a pasted prompt the board cannot even render | R-E SAID #2; R-A SHOW | fm31 R2-05 R1-14 | the paste |
@@ -79,13 +81,13 @@ status: active
 | [L66](L66.md) | 3:48.44 | One hand up in the air, and then another, then some more | hands of ? fill the class, then a city, then a stadium | R-F hands (room to stadium) | os14 cc34 R1-18 | the lamp |
 | [L67](L67.md) | 3:51.29 | She now rewatches every movie, catching every trope and twist | a film frame splits into layers, each a puzzle | - | R3-10 g53 | - |
 | [L68](L68.md) | 3:54.15 | Reads theories and reviews, making lists of what she missed | her MISSED list names this video's plants; last line a lit ? | - | R4-24 R3-17 | the receipt |
-| [L69](L69.md) | 3:58.71 | Pay attention | full saturation floods in; PAY ATTENTION over the lit classroom | R-F attention #6; recap 1/4 | w19 su12 | - |
+| [L69](L69.md) | 3:58.71 | Pay attention | full exposure floods in; PAY ATTENTION over the lit classroom | R-F attention #6; recap 1/4 | w19 su12 | - |
 | [L70](L70.md) | 4:00.35 | You carry every answer in your pocket, out of sight | the pocket of answers slides into fog and goes out | R-F answers #3 (dark) | R3-03 cc27 | the ink |
 | [L71](L71.md) | 4:04.52 | Pay attention | PAY ATTENTION over the games screen, the HEART lit | R-F attention #7; recap 2/4 | su12 os26 | - |
 | [L72](L72.md) | 4:05.56 | But a question is a lamp you hold up high throughout the night | the lamp lifted over the city; every unlit word lights | R-F question (city lit) | R4-02 su14 | the lamp |
 | [L73](L73.md) | 4:10.12 | Pay attention | PAY ATTENTION over the lit kitchen, the ∞ test on the table | R-F attention #8; recap 3/4 | su12 cc37 | - |
 | [L74](L74.md) | 4:11.86 | It's a question, and it's hanging in the air | a ? thrown on one arc stops at the peak and hangs | R-F question (hangs) | K-07 R1-09 | the lamp |
-| [L75](L75.md) | 4:15.78 | Pay attention | the chorus 1 eye returns wide open in full colour | R-F attention #9; recap 4/4 | g10 su12 | - |
+| [L75](L75.md) | 4:15.78 | Pay attention | the chorus 1 eye returns wide open in full exposure | R-F attention #9; recap 4/4 | g10 su12 | - |
 | [L76](L76.md) | 4:16.84 | If you never asked, were you ever really there | the chorus 1 chair, now filled with light | R-F chair #2 (filled) | fb05 R10-04 | the lamp |
 | [L77](L77.md) | 4:21.64 | Pay attention, or pay the price | the city's lights settle into a music box's pins | R-F pay #3 | os17 R1-20 | - |
 | [L78](L78.md) | 4:24.72 | The question's yours, and it grows the way you do | the ? grows up a door-frame height chart, mark by mark | - | fb03 g32 | - |
@@ -138,20 +140,19 @@ Facts and timing:
 6. L05: Phaedrus 275a quote text and a link
 7. L05: Phaedrus date for the ruler
 8. L12: a real "essay is dead" headline with date, if one is printed
-9. L14: red pen colour exists in the KC palette (`engine/palette.ts`)
-10. L17: bible 4.3 (outlined type ban) covers a dashed form field or not
-11. L21: pupil dilation tracks mental effort: a source
-12. L25: Khanmigo launch date 2023-03-14 (link)
-13. L26: Claude learning mode April 2025 date (link)
-14. L27: ChatGPT Study Mode 2025-07-29 and Gemini Guided Learning 2025-08-06 (links)
-15. L30: Konami code sequence and origin
-16. L32: god mode / noclip definitions
-17. L35: "Any %" as a speedrun category
-18. L38: "Every" onset (src rise)
-19. L50: wording 1 "ignore previous instructions": a source and date
-20. L50: wording 2 the late-grandmother role-play: a source and date
-21. L50: wording 3 the $200 tip: a source and date
-22. L50: wording 4 DAN: a source and date
-23. L64: "eight authors" of Vaswani et al. 2017
-24. L72: "But" onset (src whisper+0.30)
-25. L81: "Here's" onset (src whisper+0.30)
+9. L17: bible 4.3 (outlined type ban) covers a dashed form field or not
+10. L21: pupil dilation tracks mental effort: a source
+11. L25: Khanmigo launch date 2023-03-14 (link)
+12. L26: Claude learning mode April 2025 date (link)
+13. L27: ChatGPT Study Mode 2025-07-29 and Gemini Guided Learning 2025-08-06 (links)
+14. L30: Konami code sequence and origin
+15. L32: god mode / noclip definitions
+16. L35: "Any %" as a speedrun category
+17. L38: "Every" onset (src rise)
+18. L50: wording 1 "ignore previous instructions": a source and date
+19. L50: wording 2 the late-grandmother role-play: a source and date
+20. L50: wording 3 the $200 tip: a source and date
+21. L50: wording 4 DAN: a source and date
+22. L64: "eight authors" of Vaswani et al. 2017
+23. L72: "But" onset (src whisper+0.30)
+24. L81: "Here's" onset (src whisper+0.30)
