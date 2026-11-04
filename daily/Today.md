@@ -27,9 +27,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-`A__take_seed7001` is good.
-
-`A__take_seed7003` is FIRE!
+I listened to all the files in D:\work\AIMVs\ours\pa-r4\takes. Some of them several times. I think `A__take_seed7003` is the one. It's POPPIN'! We need to cut it at around ~04:51, though. I also liked `K-cfg15__take_seed5153` A LOT. I think the next step should be sending agents to watch ref videos in D:\work\AIMVs that haven't been analyzed yet, read analysis of ref videos that have been analyzed, and combine it all into a plan for the "Pay Attention" video. We improved/evolved significantly since starting the Knowledge Cutoff video, and now we get to reap the benefits - 
 
 
 Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
