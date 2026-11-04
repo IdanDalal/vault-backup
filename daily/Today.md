@@ -27,17 +27,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-I agree with the last/bottom 3 A's, but not the first/top: the world/style/environment/ art direction should be less/not like the 3D-rendered refs (The End Of The Show, The Way I Look At You, Accept All, etc.) and more like the ones built with our engine (I'm Upping My P(Doom), The Simulation's Ending, and LGTM) and Knowledge Cutoff. Also, I already have a fuzzy vision of some lines: I want to "lean into"/"mechanize"/"systemize" our many cases of repeating words, and especially repeating words in close proximity, which give us opportunities to keep them on screen while changing everything around them. I'll start with some examples (line numbers refer to D:\work\vault\Untitled.md):
-1. In lines 10-11 the word "ink" appears twice.
-2. In lines 12-13 the word "pocket" appears twice.
-3. A great example is the intentionally-triple-twenty: we could show the number "20" and the "0" then "flips/rotates/spins" like a slot machine and reverts back to "0", and then again to "2" - thereby displaying all three words with maximum "visual efficiency".
-4. In line 22 the word "board" appears twice.
-5. In lines 39-40 the word "they" appears 4 times.
-6. Lines 73 and 74 are the ones who inspired this idea: "she's asking me" is three words repeating back-to-back in line 73, and line 74 has 4 words appearing twice - "the test", "take", and "you" (part of "yours", still counts). I think they can look AMAZING with some our finest techniques from the kit.
-7. In line 88 the word "why" appears 4 times.
-8. In lines 92-93 "she grew" appears twice, and "head" appears 3 times.
-9. Obviously, the words "pay", "attention", "question", and a few others repeat many times.
-Lastly, regarding the length (3rd ruling): I was thinking we could add a few seconds of silence at the start so we can have a fancy title/logo/intro (something like "Claude Opus 5.5 + MiniMax Music 3" then "Chorus of Minds" the)
+
 
 Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
 
