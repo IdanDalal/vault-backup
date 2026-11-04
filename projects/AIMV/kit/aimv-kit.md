@@ -28,6 +28,8 @@ Harvested 2026-11-02 from Knowledge Cutoff (KC, live https://youtu.be/-g6hYVec1U
 | [[kit-line-cards]] | ~60 | line card v2 (Idi R8): v1's 10 fields + word layer, thread, public note, roles count | Phase 1 |
 | [[kit-repo-per-video]] | ~40 | repo lineage and 8 steps (Idi R9), self-reproducing `new-video.sh` | before the first public repo |
 | [[research-mp3-rights-2026-11-02]] | ~170 | mp3 ships (Idi R6): MiniMax texts, other providers, precedent repos, US/Israel law, CC BY 4.0 notice draft | writing the audio licence |
+| [[research-repo-scout-2026-11-04]] | ~110 | 4 GitHub repos scouted (kinetograph, reanimate, video-director, earshot): 23 ranked borrowable methods, rejected list, gaps; per-repo reports in `repo-scout-2026-11-04/` | planning a pass or a gate |
+| [[kit-gates-2026-11-04]] | ~70 | gates built from the scout (option A): master audio gate, chance baseline, glitch gate, animatic gate; receipts and findings (true peak 0 to +0.8 dBTP on every take; KC on-beat 2.8-5.8x chance) | song of record; every render; before style frames |
 | [[research-brightmirror-2026-11-02]] | ~160 | Bright Mirror's site: 7 songs, 354 sourced line notes in 8 kinds, lyrics page, validator | line cards; release page |
 
 Physical tools: `D:\work\aimv-lab\kit-tools\` (mp4-repair with its README, thumbnail measuring and phone-size previews), `D:\work\aimv-lab\kc-engine\` (engine, gates, render scripts), `D:\work\AIMVs\ours\release\` (thumbnail, banner and header builders).
