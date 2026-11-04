@@ -27,7 +27,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-
+I agree with the last/bottom 3 A's, but not the first/top: the world/style/environment/ art direction should be less/not like the 3D-rendered refs (The End Of The Show, The Way I Look At You, Accept All, etc.)
 
 
 Civilization Ender: a cursed man, living alone forever, every time he's discovered/contacted by a civilization/group - they all die.
