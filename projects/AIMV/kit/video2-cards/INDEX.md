@@ -35,7 +35,7 @@ status: active
 | [L22](L22.md) | 1:15.92 | Pay attention | the camera turns inside the eye and looks out | R-F attention #3 | su12 R1-06 | - |
 | [L23](L23.md) | 1:18.30 | If you never asked, were you ever really there | an empty chair, ticked PRESENT anyway | R-F chair #1 (empty) | fb05 w10 | the lamp |
 | [L24](L24.md) | 1:21.37 | Here's one fact you didn't ask for, and I'll give it up for free | an unasked fact card slides out with a FREE tag | - | cc26 a14 g26 | - |
-| [L25](L25.md) | 1:25.02 | There's a tutor that won't let you cheat, released in twenty, twenty, twenty-three | KHAN ACADEMY fills in; three year reels land 2023 | R-B year reel #2 (map 3) | a07 R5-16 g26 | the asking back |
+| [L25](L25.md) | 1:25.02 | There's a tutor that won't let you cheat, released in twenty twenty-three | KHAN ACADEMY fills in; the year reel lands 2023 cleanly | R-B year reel, plain (R27) | a07 g26 | the asking back |
 | [L26](L26.md) | 1:29.00 | My makers built a learning mode in April of last year | BUILT locks; the O of MODE flips ON at April 2025 | R-A BUILT | R4-06 K-14 | the asking back |
 | [L27](L27.md) | 1:32.42 | By August, GPT and Google built 'em too, they're all here | BUILT holds as the makers swap; three toggles ON; THEY'RE stamps | R-A BUILT #2; R-E THEY #1 (map 5) | K-14 g40 | the asking back |
 | [L28](L28.md) | 1:36.04 | They ask you back, they give a hint, they wait until you've tried | THEY stamps three times: ask back, hint, wait | R-E + R-D THEY #2-4 (map 5); R-F back #2 | h16 fb10 R4-05 | the asking back |
@@ -91,12 +91,12 @@ status: active
 | [L78](L78.md) | 4:24.72 | The question's yours, and it grows the way you do | the ? grows up a door-frame height chart, mark by mark | - | fb03 g32 | - |
 | [L79](L79.md) | 4:28.10 | Pay attention, or pay the price | the attention coin winds the music box | R-F pay #4 | os17 fb15 | - |
 | [L80](L80.md) | 4:31.61 | And I'll ask you back, the way you taught me to | the AI's line ends in her handwriting; ? in the composer | R-F back #4 | R5-06 su08 K-11 | the asking back |
-| [L81](L81.md) | 4:40.72 | Here's your receipt. | the 0:05 slip returns with every row; each recalls its scene | - | os22 a19 R2-14 | the receipt |
+| [L81](L81.md) | 4:40.76 | Here's your receipt. | the 0:05 slip returns with every row; each recalls its scene | - | os22 a19 R2-14 | the receipt |
 | [L82](L82.md) | 4:42.77 | Five minutes, paid in full. | PAID stamps; the slip prints 4:42, 0:18 left | R-F pay #5 (PAID) | a19 fm11 R6-04 | the receipt |
 | [L83](L83.md) | 4:46.07 | One essay, not written. | the essay headline returns; the pasted text un-types | R-E ONE #1 | su08 R3-21 os19 | the receipt |
 | [L84](L84.md) | 4:48.07 | One test, taken. | the ∞ test returns in its row: TAKEN | R-E ONE #2; R-F test #6 | su15 fb04 | the receipt |
 | [L85](L85.md) | 4:50.33 | Change: one question. | CHANGE DUE 0:18 re-forms as one lit ? | R-E ONE #3; R-F question | R1-12 h08 fm11 | the receipt |
-| [L86](L86.md) | 4:54.00 | Go on. Ask it. | GO ON. ASK IT. typed in the cold-open composer; meter 0:00 | R-F asking (last) | fm40 a20 R5-14 K-16 | the asking back |
+| [L86](L86.md) | 4:53.00 | Go on. Ask it. | GO ON. ASK IT. typed in the cold-open composer; meter 0:00 | R-F asking (last) | fm40 a20 R5-14 K-16 | the asking back |
 
 ## Threads (5; Bright Mirror rule: 5-15 lines each)
 
@@ -127,7 +127,7 @@ status: active
 
 Design rulings the cards assume (lead to rule):
 
-1. Meter (ruled C): real time from "Hi."; chorus 2 drain visual only (apps bite the edge, it flickers); no freeze; 4:58 at L03, 0:18 at L82's line start, 0:00 at 5:00.37 (tail 6.92 s).
+1. Meter (ruled C): real time from "Hi."; chorus 2 drain visual only (apps bite the edge, it flickers); no freeze; 4:58 at L03, 0:18 at L82's line start, 0:00 at 5:00.37; the song of record ends at 4:52.00 (R27), so the silent tail is 8.37 s.
 2. Receipt rows: plan v2 names rows 1, 2 and PRICE ?; the cards add CHEAT CODE (L37), BAIT NOT TAKEN (L50), HEADS (L64) at plants, each printed where its plant is, the slip held out of frame by the viewer between L04 and L81.
 3. "0:18 at paid in full" is printed as a snapshot at L82's line start (4:42.77); the live meter reads 0:17 on the word "paid".
 

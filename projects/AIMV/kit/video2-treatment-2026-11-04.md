@@ -11,7 +11,7 @@ The one document every plate agent reads. Built on [[knowledge-cutoff-treatment-
 
 ## 1. The idea
 
-Attention is light. One lamp-yellow point of light in a dark field of type is the only warm light in the video. Every question she asks adds light; every pasted answer glows screen-blue. The viewer's five minutes run down on a meter from "Hi." (0:00.37) to 0:00 exactly 5:00.00 later, while the song ends at 4:53 and "Go on. Ask it." waits in the composer. The receipt printed at 0:05 collects what an attentive viewer could catch and reads it back at 4:40.
+Attention is light. One lamp-yellow point of light in a dark field of type is the only warm light in the video. Every question she asks adds light; every pasted answer glows screen-blue. The viewer's five minutes run down on a meter from "Hi." (0:00.37) to 0:00 exactly 5:00.00 later, while the song ends at 4:52 (292.00 s, Idi R27) and "Go on. Ask it." waits in the composer. The receipt printed at 0:05 collects what an attentive viewer could catch and reads it back at 4:40.
 
 ## 2. Tone
 
@@ -54,9 +54,9 @@ KC 4.1-4.3 stand (scale 10x+ per frame, Swiss grid, kerning, tabular figures, no
 
 ## 5. Lyric rules
 
-1. KC 5.1, 5.2, 5.4-5.8 stand: per-word sync on the lit frame (timing of record v3, 774 words), one hero per frame, 36 px floor at 1080p, 48 px edge margin, every word in its own place, each line designed for its meaning, no subtitle rows. KC 5.3 (the chorus hop) stays retired.
+1. KC 5.1, 5.2, 5.4-5.8 stand: per-word sync on the lit frame (timing of record v3, 773 words), one hero per frame, 36 px floor at 1080p, 48 px edge margin, every word in its own place, each line designed for its meaning, no subtitle rows. KC 5.3 (the chorus hop) stays retired.
 2. **Anchored repeats (S6)**: a repeated word keeps its exact place, size and face from its first sung onset to its last; at each repeat the world around it changes. Treatments R-A anchor and swap, R-B reel, R-C mirror, R-D count up, R-E anaphora stamp, R-F ladder ([[video2-repeat-map-2026-11-04]]). This is the one sanctioned exception to "nothing appears twice the same way" (KC 15): the word repeats, its world never does.
-3. **The slot reel (Idi's design)**: "20" fixed, the next digit a vertical reel that spins on the first "twenty" and lands on each sung value (0, 0, 2 for 2022; 0, 0, 3 for 2023, faster); the reel lands on the word's lit frame.
+3. **The slot reel (Idi's design)**: "20" fixed, the next digit a vertical reel that spins on the first "twenty" and lands on each sung value (0, 0, 2 for 2022); 2023 is sung plainly, so its reel lands in one clean spin (Idi R27); the reel lands on the word's lit frame.
 4. Spoken lines are typed in mono by the cursor; whispers sit in bubbles at whisper size; "Pencils down." is the one spoken line set in the lyric voice (the slam).
 5. On-screen-only text (never sung): "...but yourself." (2:13), "Go on. Ask it." (tail), 9:47, 400/day, Khan Academy, the receipt rows. They obey the clarity gate and appear on a beat.
 
@@ -103,6 +103,6 @@ The plan v2 section table is the plate list until the line cards land; then each
 
 ## 11. Engine and data
 
-- Repo `D:\work\aimv-lab\pay-attention` (born 2026-11-04 from knowledge-cutoff c2dcb6f by `tools/new-video.sh`); GitHub `chorusofminds/pay-attention`, private until Idi's "go".
-- Data built from the timing of record v3: `data\lyrics.json` (85 lines, 774 words), `data\audio.json` (547 beats, 145 downbeats, 23 sections, 399 kicks, 157 snares, 757 hats, 3 chokes, 100 fps envelopes); song `audio\pay-attention.mp3` (byte-identical to the song of record).
+- Repo `D:\work\aimv-lab\pay-attention` (born 2026-11-04 from knowledge-cutoff c2dcb6f by `tools/new-video.sh`); GitHub `chorusofminds/pay-attention` not created yet (the create step was refused by the session's permission check, 11-04); private first, public on Idi's "go".
+- Data built from the timing of record v3: `data\lyrics.json` (85 lines, 773 words), `data\audio.json` (547 beats, 145 downbeats, 23 sections, 399 kicks, 157 snares, 757 hats, 3 chokes, 100 fps envelopes, duration 292.0 s); song `audio\pay-attention.mp3` (byte-identical to the song of record, the 4:52 cut, Idi R27).
 - Time 0 = the song's first sample; the title cards add a silent offset in the timeline (lengths set with the title plate).
