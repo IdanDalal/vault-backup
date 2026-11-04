@@ -31,7 +31,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-
+Here's my attempt to describe/find/understand the meta-issue that caused most (maybe all?) the issues I mentioned earlier: I think we need a new standard. Something to keep us between two extreme ends of a spectrum - right now we're on one end, where objects and words and everything else appears and disappears on a whim with complete disregard for consistency/permanency/logic/rules/laws. On the other hand is a too-rigid system like a AAA video game where every 3D space must obey Newtonian/Euclidian(I might be misusing those terms) physics and imagination is artificially constrained by arbitrary rules borrowed from reality. We should be at a certain point near the center, where everything that appears on-screen follows "reality-based-rules" so as to not seem like a glitch/error/shortcut/path-of-least-resistance-choice, but many "physics-defying"/impossible things happen both on-screen and off-screen. I hope this isn't a contradictory and/or harmful/detrimental idea, and you can now generate the whole video.
 
 
 Civilization Ender: a cursed immortal creature, living alone forever, every time it's discovered/contacted by a civilization/group - they all die.
