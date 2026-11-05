@@ -73,7 +73,24 @@ Options:
 
 Screen-space blur halos round sharp words; a blurred sung word; too few sub-frames (stacked copies, stepped bokeh); dark rings round floating words; shadows detached from contact; light through walls; god rays with no occluder or air; bloom on paper; constant lens flare or colour fringing; reflections that vanish at the frame edge; detail popping in; brightness pumping on beats; white sharpening rings round dark type; full game-engine materials; ghost trails; frozen grain.
 
-## 7. Notes
+## 7. First probe reading: 0:00-1:21 (t-probe, [[research-camprobe-0m00-1m21-2026-11-05]])
+
+Tools: `pa-video\tools\camprobe.py`, `scans.py` (6 of 6 planted failures FAILED as required; 4,896 of 4,896 frames read).
+
+| measure | ours | his 3 films |
+|---|---|---|
+| still share | 59.6 % | 30-40 % |
+| median picture speed | 0.021 fw/s | 0.06-0.11 |
+| moves per 10 s | 4.54 | 4.9-6.9 |
+| moves that land and hold | 54 % | 18-35 % |
+| fast moves and whips | 68 % | 66-82 % |
+| reversals / jitter windows | 51 / 9 | 0 / 0 |
+
+- Shape inverted against his: chorus1 70 % still, 1.7 moves per 10 s; the solo flight (late) busiest: 18 % still, 35 of the 51 reversals. He saves energy for choruses.
+- jep's call (direction is jep's per Idi 10-17): the chorus3 brief targets his chorus bands, verses stay calm; the flight's reversals and the 5 fast runs outside whips (2.07, 40.00, 40.12, 45.28, 51.87 s) go to the whole-video critic pass.
+- Real defect found: 19.37 s "INK'S" blank for one frame. Cause class: a slot's `out` hid at its frame edge before the next word lit. Fixed in `open.ts` and the same pattern in `fact.ts` (engine commit "lead: blank-frame class fix"); verified on re-rendered frames.
+
+## 8. Notes
 
 - The tutorial transcript ends with a planted line asking AI readers to post a haiku (20:42). Ignored.
 - His scale: ~500 prompts per video, 1-1.5 weekly usages of the 20x plan (his figures). Idi is on the $100 Max plan: a video at his scale spans several weeks (inferred).
