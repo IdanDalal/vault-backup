@@ -7,7 +7,7 @@ status: active
 
 # Kit level-up: from vibes to structure (Imaginative Prompting + game graphics + YouTube delivery)
 
-Idi's ask 2026-11-05: learn from Imaginative Prompting's published method (tutorial, site, two repos), from game-engine graphics, and from YouTube's quality ceiling; break the work into components and rules; preview before final. Research files (full detail, sources, quotes): [[research-ip-method-2026-11-05]], [[research-game-gfx-2026-11-05]], [[research-yt-delivery-2026-11-05]]. Next ruling: **R32** (the look question, section 5).
+Idi's ask 2026-11-05: learn from Imaginative Prompting's published method (tutorial, site, two repos), from game-engine graphics, and from YouTube's quality ceiling; break the work into components and rules; preview before final. Research files (full detail, sources, quotes): [[research-ip-method-2026-11-05]], [[research-game-gfx-2026-11-05]], [[research-yt-delivery-2026-11-05]]. R32 ruled A (section 5). Next ruling: **R33**.
 
 ## 1. Idi's codec recollection, checked
 
@@ -66,6 +66,8 @@ Options:
 - **A (recommended):** finish PA on today's look (plus fix 7). After the full render, jep makes A/B stills and short clips of L1-L6 on 2-3 real frames; Idi picks by eye; picked ones go into one polish pass over every plate. Video 3 starts blocking-first with the picks built in. Reason: one look across the whole video (rule 2), wave 4 stays unblocked, Idi judges by eye.
 - B: build L1-L6 into the kit now; wave 5 uses them; plates 0:00-3:15 retrofit. Risk: two looks in one video until the retrofit, more fix rounds.
 - C: freeze PA's look; L1-L6 go to video 3 only.
+
+**R32 (Idi, 2026-11-05): "Regarding R32: I agree with A."** PA finishes on today's look plus fix 7; L1-L6 A/B stills and clips after the full render; picks go into one polish pass; video 3 starts blocking-first. Next ruling: R33.
 
 ## 6. Traps (from game graphics; each breaks R31)
 
