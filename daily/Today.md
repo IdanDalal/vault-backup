@@ -31,7 +31,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-
+I want to "flex" more camera-based effects from video games like dithering/debanding, bloom, lens flare, reflections, vignette, chromatic aberration, and dynamic camera properties like field-of-view/fisheye, focus, exposure, aperture, and more. I want our camera to feel like a character, our entire "screen-space"/"pixel-frame" to be utilized/leveraged as a tool (or maybe even as another character like the camera?) by using techniques/effects/whatever in varied/diverse ways/amounts/areas, and our time to be utilized/leveraged by using techniques/effects/whatever for a limited time - causing the viewer to pay attention to how the video looked before them and how it goes back to looking like that after them.
 
 Civilization Ender: a cursed immortal creature, living alone forever, every time it's discovered/contacted by a civilization/group - they all die.
 
