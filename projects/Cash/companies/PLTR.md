@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 4
-last_price: 175.4
+last_price: 171.7
 conviction: "Elite fundamentals, brutal multiple \u2014 sized so valuation risk can't hurt the whole"
 cut_reason: ""
 reentry_trigger: ""
