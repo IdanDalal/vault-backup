@@ -98,3 +98,17 @@ Kept by design (critic flagged again): the camera following LATE down; the drain
 Gates: sync 36/36, 0 edge/overlap/clash/stillness, type-scale 6 (inherited); clarity lyric 0, micro contrast 10 (far ROW labels fading in fog, pan labels); lifecycle 4 boundary rows; flash 0; flips 0; beat 68.8 % at 4.5x chance.
 
 Receipts: engine `d9a1e49`; proof `D:\work\AIMVs\ours\pa-song\proof\p2-proof-fix2-0m52-1m21.mp4`.
+
+## 9. R31 (Idi 11-05): the zoom replaces the swipe; the standard
+
+Idi named the meta-issue: things appeared and vanished "on a whim"; the target is "reality-based-rules" on screen with "physics-defying"/impossible things still happening. Recorded as R31 in [[kit-next-video]]; the standard as 7 rules in [[video2-standard-r31-2026-11-05]].
+
+| change | how | verified |
+|---|---|---|
+| keep the zoom-in, lose the swipe | after L22's ATTENTION the camera pushes into the pupil until its edge passes the frame's corners (beat 77.57); L22's words scale with the eye's face and fly out (as L20's through the O); from that frame the same projection is drawn directly: mirrored, in the eye's own units (line weights unchanged), on the pupil's ink ground, the lamp at the catchlight's place, size and light | full frames 77.53 vs 77.57 compared side by side: geometry, line weight, light match; 30 fps grids 76.85-78.13 |
+| through the looking glass | reflected things stay reversed (the board); the sung words are born in that world and read forward | stills 78.6-80.9 |
+| empty slots on the frame edge | the chair's slots appear 0.4 s after the handover | check: 0 lyric-safe |
+
+Gates: sync 36/36, 0 edge/overlap/clash/lyric-safe/stillness, type-scale 5 (inherited); clarity lyric 0; lifecycle 4 boundary rows; flash 0; flips 0; beat 75 % at 4.9x chance. Engine `a005760`; proof `D:\work\AIMVs\ours\pa-song\proof\p2-proof-fix3-0m52-1m21.mp4`.
+
+Next: the whole video (R31), plates by wave, state in `D:\work\aimv-lab\pa-video\briefs\plates-plan.md`.
