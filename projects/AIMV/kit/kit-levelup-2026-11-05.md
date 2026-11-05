@@ -49,7 +49,7 @@ Shot card, one sentence per move: "From [start frame], [move] so we [reveal / fo
 4. **Flicker, cut and jitter scans** in `gates-window.sh post`; each gate run once on a planted bad frame to prove it fails.
 5. **Known issues first** on every watchable handed to Idi; new filename per version.
 6. **Light census** before a plate reports: every glow with its source; a glow without a source goes to zero (R31 rule 5).
-7. **Post defaults fix** (found by r-gfx, verified by grep): `engine/post.ts:67` chromatic aberration 0.8 px always on, against the treatment ("except a 1-3 frame hit"); amber halation on every highlight, against "only on light sources". Fix between waves 4 and 5, one still per plate diffed before/after.
+7. **Post defaults fix** (found by r-gfx, verified by grep): `engine/post.ts:67` chromatic aberration 0.8 px always on, against the treatment ("except a 1-3 frame hit"); amber halation on every highlight, against "only on light sources". DONE 2026-11-05: a PA post layer in `timeline.ts` zeroes both and keeps any value a scene sets for a hit. A/B stills (verse1 20.0, chorus1 75.0, exam 200.0): colour spread 1.94 / 2.99 / 18.35 -> 0.00 / 0.89 (screen blue) / 0.00; the meter lost its orange-blue fringe.
 
 ## 5. For Idi (taste: changes the look) - R32
 
@@ -60,7 +60,7 @@ Shot card, one sentence per move: "From [start frame], [move] so we [reveal / fo
 | L3 | tone curve toe + exposure over song time | true blacks; each section gets a brightness dial; eyes "adjust" when the camera enters the lamp | small |
 | L4 | bounce light | faint lift on the dark side from the lit page or desk | medium |
 | L5 | impact grammar on slammed words | contact frame, squash, one damped rebound; the desk/chalk/lamp pool reacts | small per plate |
-| L6 | kick jolt on held framings | camera nudged a few thousandths on each kick, gone in 0.2 s | small |
+| L6 | kick jolt on held framings | camera nudged a few thousandths on each kick, gone in 0.2 s. Correction (jep, same day): a beat pulse already runs in every PA plate (KC rhythm kit `_kc-rhythm.ts` `rhythmPost`: whole-frame zoom ~0.5 % per beat in verses, ~1.8-4 % kicks + 3 px shake in choruses). L6 = move that pulse from screen space into the world camera | small |
 
 Options:
 - **A (recommended):** finish PA on today's look (plus fix 7). After the full render, jep makes A/B stills and short clips of L1-L6 on 2-3 real frames; Idi picks by eye; picked ones go into one polish pass over every plate. Video 3 starts blocking-first with the picks built in. Reason: one look across the whole video (rule 2), wave 4 stays unblocked, Idi judges by eye.
