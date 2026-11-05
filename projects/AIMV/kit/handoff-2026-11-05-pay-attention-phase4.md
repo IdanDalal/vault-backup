@@ -28,7 +28,7 @@ Written 2026-11-05 at the close of the session that fixed the proof (R30), recor
 | 1:21.4-1:44.4 | fact | accepted |
 | 1:44.4-2:18.7 | games | accepted, one open check: its device's HUD may read screen-stuck (border on the frame edge, ~4 px of breathing); fix if the whole-video critic flags it |
 | 2:18.7-2:42.8 | chorus2 | accepted |
-| 2:42.8-3:15.5 | kitchen | built (gates clean); blind critic round 1 being fixed by b-kitchen; findings `D:\work\aimv-lab\pa-video\briefs\findings-kitchen-r1.md` (5 high). If b-kitchen did not finish, a new builder takes that file + `plate-kitchen.md` + `reports\p4-kitchen.md` |
+| 2:42.8-3:15.5 | kitchen | accepted (7b1168b; critic round 1 fixed: `D:\work\aimv-lab\pa-video\briefs\findings-kitchen-r1.md`) |
 | 3:15.5-4:53 + tail | exam, verse4, chorus3, outro | briefs to write (waves 4-5); title cards (R24) are the lead's |
 
 Watchable for Idi: `D:\work\AIMVs\ours\pa-song\proof\pa-wip-0m00-1m21.mp4` (0:00-1:21 joined: 0 flashes, 0 flips, beat 60 % at 3.9x). Engine repo `D:\work\aimv-lab\pay-attention` (local only), commits by builders and lead (`git log`).
@@ -53,7 +53,7 @@ Watchable for Idi: `D:\work\AIMVs\ours\pa-song\proof\pa-wip-0m00-1m21.mp4` (0:00
 
 ## 4. Open items
 
-1. Wave 4 briefs are written (`plate-exam.md`, `plate-verse4.md`): spawn b-exam and b-verse4 once kitchen is accepted. Wave 5: write `plate-chorus3.md`, `plate-outro.md` (pattern: the wave 2-4 briefs; in/out links from the neighbours' reports; chorus3 = the final chorus with callbacks to every earlier plate: read every report's threads).
+1. Wave 4 briefs are written (`plate-exam.md`, `plate-verse4.md`; kitchen is accepted): spawn b-exam and b-verse4 first thing. Wave 5: write `plate-chorus3.md`, `plate-outro.md` (pattern: the wave 2-4 briefs; in/out links from the neighbours' reports; chorus3 = the final chorus with callbacks to every earlier plate: read every report's threads).
 2. R24 title cards: silent receipt header before the song, the reverse after the bill; the meter's 5:00.00 from "Hi." stays outside them; tail 8.37 s. Needs a pre-roll in the timeline (engine time 0 = song 0 today).
 3. Kit merges (optional): `ignite()`, the turning camera (open's camOf/pj).
 4. R25 particle blind panel: not yet run on any phase-4 plate; run once on the full render.
