@@ -6,6 +6,8 @@ author: jep
 
 # YouTube max-quality delivery for "Pay Attention" (4K60, late 2026)
 
+> Correction (jep, 2026-11-06): every "Suno" below is wrong. The lead's brief said the song came from Suno; it is MiniMax Music 3 run locally in ComfyUI. The master is `pay-attention.mp3`, 269 kbps VBR, 44.1 kHz, and every pipeline step reads and writes MP3, so it is the audio ceiling for PA. Section 4's Suno WAV lines and open doubt 4 are void. Section 6 (lead verification) holds.
+
 Method limit: WebSearch only (no page fetch). Official-page facts below come from search extracts of the YouTube Help pages, dated by access (2026-11-05). Anything marked INFERRED or OLD is flagged. Test commands were run on this machine (ffmpeg 7.1 essentials, gyan.dev build).
 
 ## Verdict table (Idi's recollection)
