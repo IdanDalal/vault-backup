@@ -29,6 +29,13 @@ Engine repo `D:\work\aimv-lab\pay-attention` (local only). Assembly moves titles
 3. `TAIL = 8.37` (R23, END of the bill 300.37); title rows `titlesOut` / `titlesIn` (`fixed`, no beat snap; END 311.37).
 4. The slip's header = R24's three lines in print order in open, chorus2, outro and the titles: CLAUDE OPUS 5.5 + MINIMAX MUSIC 3 (MONO 12) / CHORUS OF MINDS (MONO 16) / PAY ATTENTION (MONO7 24).
 
+## 2b. Done after this handoff was first written (2026-11-07)
+
+- Whole render v1 (47 min) -> whole-video gates, probe, scans -> two blind critics (`pa-video\briefs\findings-full-r1.md`: 8 FIX, KNOWN list) -> fixers fix-a (class, fact, games, chorus2) and fix-b (kitchen, chorus3, titles) -> render v2 (engine 29c79a1).
+- v2 receipts: 18,682/18,682 frames; avsync 63.2 % on beat (4.26x chance); flash 0; flips 0; scans: 0 real camera cuts outside the plan (4 flags = BOARD slam 44.35, beams off 225.25, ATTENTION slam 239.05, the rise 251.57, all eyed); lead eye on 8 frames, one per fix: all hold.
+- **Review file for Idi: `D:\work\AIMVs\ours\pa-song\pa-review-v2-1080p.mp4`** (5:11.40, titles first, song from 0:05.00, 48 kHz AAC 384k).
+- Known issues for Idi's watch (no fix yet): pacing 57-67 (same essay cards circling), 99.5-104 (THEY tree held), 294-300 (GO ON. ASK IT. hold, R23 by design); camera calmer than Imaginative Prompting's films (still 63.7 % vs 30-40); verse4 beams switch off in one frame at 225.25, off the beat; kitchen desk lamp vs outro pendant lamp; low text items in findings-full-r1.md.
+
 ## 3. Next steps, in order
 
 1. Whole render: `bash D:/work/aimv-lab/pa-video/tools/full-1080.sh` (resumable; output `out\full-1080\pa-full-1080p.mp4`, log `render.log`).

@@ -15,6 +15,13 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+A.M.F.A.B.
+https://www.youtube.com/watch?v=YvnkIz9h87U
+
+
+Turn Me Down
+https://www.youtube.com/watch?v=2-pb2vzHpwk
+
 https://www.snapyt.app
 
 https://flvto.world
