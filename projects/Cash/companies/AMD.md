@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 2
-last_price: 404.4
+last_price: 449.04
 conviction: "The hedge on NVDA's throne"
 cut_reason: ""
 reentry_trigger: ""
