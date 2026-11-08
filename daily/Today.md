@@ -15,9 +15,11 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
+I watched `pa-review-v2-1080p`. Here are my notes:
+1. 
+
 A.M.F.A.B.
 https://www.youtube.com/watch?v=YvnkIz9h87U
-
 
 Turn Me Down
 https://www.youtube.com/watch?v=2-pb2vzHpwk
