@@ -23,13 +23,23 @@ I watched `pa-review-v2-1080p`. Here are my notes (I'm voice-typing and not manu
 5. At ~00:12-00:14 The cursor/line transition looks ugly and slow
 6. At ~00:15-00:20 The entire text appears twice It's overwhelming and confusing
 7. At ~00:32 The O in the word lock has the cool lock animation concept down but the execution is terrible We should change it instead of an O it's actually a lock and we should repeat that trick in other words in the video
-8. At ~00:34-00:45 There are two different circles that looked weird and do nothing and throughout zoom in and zoom out I think the bigger one on the right is a leftover from the classroom scene maybe like a bell on the wall or something
+8. At ~00:34-00:45 There are two different circles that look weird and do nothing and throughout zoom in and zoom out I think the bigger one on the right is a leftover from the classroom scene maybe like a bell on the wall or something
 9. At ~00:43-00:45 The word guide is being held by the singer and we have pathetic attempt to stretch the word horizontally and it ends before she finishes singing and it zooms into a different part I think we should replace it with a series of the letter "I"s appearing as long as she holds the word like this: "guiiiiiiiiide"
 10. At ~00:49-00:50 We efficiently leverage repetition of the word "board" but we don't do it with the word "the" that appears before it I think we should efficiently leverage the repetition of "the board" And also see if there are other opportunities like this that we missed
 11. At ~00:58 The word "LEAN" gets squashed and disappears in a weird and ugly way
 12. Also at ~00:58 Is an opportunity to apply the vague first/top note above And the words Gold Star literally shaped and colored like a Gold Star
-13. At ~01:02-01:12 The tunnel with the repeating cards It's boring and I had an idea that we could switch it with a different part of the video that appears later the prompt injection attempts we could show how each student tries a different approach to convince the tutor to answer the same question
-14. At ~01:17-01:22 There's an ugly bright light in the top left quadrant of the screen that
+13. At ~01:02-01:12 You mentioned this known issue that may drag: the tunnel with the repeating cards It's boring and I had an idea that we could switch it with a different part of the video that appears later the prompt injection attempts we could show how each student tries a different approach to convince the tutor to answer the same question. We show 4 of them in around three seconds at ~02:56-02:59
+14. At ~01:17-01:22 There's an ugly bright light in the top left quadrant of the screen that and clips through everything
+15. At ~01:43-01:49 
+16. At ~01:55-01:56 That's when the achievement locked with my idea appears and it's way too quick for me to read Even though the 4x4 grid of blue squares appears a few seconds earlier we should Get rid of the grid and replace it with the achievement
+17. At ~02:49-03:19 I figured out what's the second smaller left circle from note number 8 above It's the light from the lamp It starts as a black blank circle when it's off and then the light turns on halfway through the scene there must be some bug that makes it persist way longer than it should
+18. At ~03:13-03:17 The question after the word quarter has an ugly rectangular halo around/behind it
+19. At ~03:22-03:32 We have 10 seconds of high energy high BPM instrumental music and we we show numbers counting down? That's it? There's no way that's comparable to any of the refs We can do much better
+20. At ~03:44 The word "INSIDE" clips through the rectangle below "RESULTS"
+21. At ~03:48 We mention growing 8 heads And I think the text "ATTENTION IS ALL YOU NEED" Should appear on screen and also something that explains the connection of the number 8 and the paper
+22. At ~04:28 I don't know recognize or understand what the cylinder spinning rotating thing is and also it looks bad and it moves slow and we can do much better
+23. At ~04:57-05:05 It really feels anticlimactic and slow and boring and like we're wasting the viewers time
+24. The very last frame which is identical to the first one has the circle around the words "PAY ATTENTION" clipping through the line above it
 
 A.M.F.A.B.
 https://www.youtube.com/watch?v=YvnkIz9h87U
