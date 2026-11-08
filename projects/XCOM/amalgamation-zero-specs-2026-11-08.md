@@ -71,3 +71,10 @@ Mechanism: a small jep script mod (`jepClassWeights`, same build path as jepGTSF
 - Simulation: Choose My Class draw model (one ticket per NumInDeck, a class shown once per offer), 100 offers, 40 seeded runs. Tool: `amalgamation-tools/weights5.py`.
 - Weights take effect at the next launch, mid-campaign included (template values, nothing stored in the save).
 - Risk: NumInDeck also feeds the HQ random-class deck; Choose My Class hides the plain promote button, so no visible effect expected (medium confidence).
+
+## Installed 11-08 evening (Idi: cut what he'd never pick + build X2)
+
+- Cut, rule D4: within each primary+secondary pair keep only the best tertiary tier (A weapon > B utility > C passive/healing); a passive-only pair keeps one card, passive before healer, rarest first. 1,034 `+DisableClass` names in jepFixes `XComAmalgamation.ini` (new section at file end). Deck 1,645 -> 611; every spec keeps >= 1 card (only Commissar at 0). Real file simulates to the D4 set exactly.
+- jepClassWeights script mod: local `Mods\jepClassWeights`, AML active (only that entry added). Weights from `weights5.py` on the 611 deck: 4,292 tickets, cap 50. Simulated: all 141 specs within a median of 5 promotions (worst of 40 runs 7); before today 31 / 73. Source + build/install scripts in vault `projects/XCOM/jepClassWeights/`. Compiled 0 errors (8 SDK base warnings).
+- Pick sheet for alt-tab: `pick-sheet.md`.
+- Probes, first launch (Launch.log): `Amalgamation DLCINFO INFO: Disabled classes 1294`; `jepClassWeights: set 611 classes, skipped disabled 0 , missing 0 of 611`. A mod change means regenerating the cut and the weights (cuts.py, applycut.py, weights5.py, genweights.py).
