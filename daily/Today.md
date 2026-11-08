@@ -42,11 +42,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-I decided on rules based on fuzzy memories and incomplete information, so we need to do some corrections:
-1. I don't want any class/mod to have 0 cards/combos, so when/if they do - I wanna decide what to do on a case-by-case basis. In order to decide, I need to know/understand/remember what each class/mod is "aiming"/"made" for. If some/most of the sword/shield/whatever specs are specifically designed to be used with other weapons than the ones I decided on, I'll choose them if I know/understand/remember, but I won't if I'm just blindly skipping anything that has a "suboptimal combo". One of the calls you made (Ironclad getting an exception because of its intend)
-2. You mentioned there are 0 cards/combos for Androctonus, AlienHunter2, and DronePilot, so we should solve this similarly to #1 above: I want to know/understand/remember why.
-3. I don't know how to combat/counter/mitigate/eliminate the rarity/low probability of certain classes/combos, specifically tertiary ones with a weapon (like Architect and the Bio-amp one), so I think the best way for me to see more of them would be raising the number of combos I get from 50 (current) to 100.
-4. 
+
 
 Civilization Ender: a cursed immortal creature, living alone forever, every time it's discovered/contacted by a civilization/group - they all die.
 
