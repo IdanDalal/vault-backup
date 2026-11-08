@@ -81,3 +81,30 @@ Class: **BUG** = defect, fix in place. **RE** = rebuild a moment. **LOOK** = who
 | C | keep a 1 s silent title and a 3 s silent end card | smallest change; keeps silence Idi named as a glitch risk |
 
 A: the receipt is already the video's own device for "cost you five minutes", so the credits live inside the story, and the first 30 s carry the song.
+
+## 6. R35 (ruled 2026-11-08): the look, notes 1 and 25
+
+**Idi: "options B and C are WAY too blue, and they'll look even worse in scenes where we already have a blue accent. Option A (the current black/blueless look) looks better, but also not good enough - we'll brainstorm the color issue after I watch the v3 that's rendering now. If we separate the effects/techniques from the color/temperature/tone/accent, I like the look of all of them (bokeh, CA, flare, etc)."**
+
+Ruling, split into its two axes:
+
+| axis | ruling | effect |
+|---|---|---|
+| lens (note 25) | yes, all of them: bokeh / focus, chromatic aberration, flare, bloom, exposure, fisheye, kick, vignette breathing, grain | wave 3 builds the lens events on today's tone; `_pa-lens.ts` gets a lens-only mode (no grade) |
+| colour / tone / accent (note 1) | B and C grades rejected (too blue, clash with existing blue accents); today's neutral tone stays for now and is "not good enough" | open: brainstorm with Idi after he watches v3 |
+
+jep's presentation error (owned): the options table mixed both axes into one A/B/C list and reused the sheet's column letters ("A = C as shown"). Lesson: one axis per question; option labels never reuse the labels of the material shown.
+
+Original options as presented (kept for the record):
+
+Files: `D:\work\AIMVs\ours\pa-song\look-ab-2026-11-08\` (`look-ab-sheet.jpg`: 6 moments x A today | B blue grade | C blue + lens; `lookC-strike.mp4`, `lookC-shatter.mp4`, `lookC-heads.mp4`, with the song). Built by fix-k behind an off switch (`_pa-lens.ts`, engine b867ec3; switch off = 0.0000 % change on all six stills). Lead checked: the strike's flare lasts ~0.25 s then the base look returns; the meter stays clean.
+
+What B is and is not: a grade (blacks lifted to blue-black, whole frame). The blue ACCENTS of note 1 (more blue things, the way screens are blue now) need plate work; they come in wave 3 under any pick.
+
+| opt | what it does on screen |
+|---|---|
+| **A (rec)** | C as shown: blue-black grade + lens events, each with its cause and a short window (slam fringe 3 frames, lamp flare streak, kitchen focus pull, crack fringe + fisheye, head flares); wave 3 adds blue accents and builds note 19's camera solo on this kit |
+| B | C's lens events on today's neutral grade (blacks stay black), plus blue accents |
+| C | B's grade only, no lens events, plus blue accents |
+
+Rec A: notes 1 and 25 ask for both, and C answers both on the same frames. Overrule by eye.
