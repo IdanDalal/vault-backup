@@ -52,3 +52,22 @@ All jep recommendations together (Z1 A, Z2 A, Z3 A, Z4 A, Z5 A+B, Z6-7 A, Z9 A, 
 
 - Draw model: one ticket per class, drawn without replacement (`UIChooseClass_WOTC_ChooseMyClass.uc:365-378`); hypergeometric odds over 1,497 tickets. X1 and Z rulings change the card counts.
 - Tools: `amalgamation-tools/zero.py`, `zero2.py`, `zero3.py` (block chains), `opt.py`, `combo.py` (option pricing), `cleanup.py`.
+
+## Ruled 11-08: "all rec" (installed)
+
+Z1 A, Z2 A, Z3 A, Z4 A, Z5 A+B, Z6-Z7 A, Z8, Z9 A, Z10 A, X1. 121 jep pair lines deleted from jepFixes `XComAmalgamation.ini` (comment block dated 11-08 lists them by rule). Real file simulates to the priced deck exactly: 1,645 cards; only Commissar at 0.
+
+## X2 priced 11-08 (not built; awaits the word)
+
+Mechanism: a small jep script mod (`jepClassWeights`, same build path as jepGTSFilter) sets each Amalgamation class's `NumInDeck` (= its Choose My Class tickets) after Amalgamation's own DisableClass pass; classes at 0 stay 0. Template Master cannot do it (no soldier-class editing).
+
+| Scheme | Tickets per class | Weaponless tertiaries' share of offers | Promotions to see all 141 specs (median / worst of 40 runs) | 1-card classes per promotion |
+|---|---|---|---|---|
+| now | 1 | 84 % | 31 / 73 | 6.1 % |
+| T: by tertiary rarity | 299 / cards of its tertiary, cap 50 | 28 % | (all 32 tertiaries: 2 / 6) | Phoenix, HareSwash get rarer; Recon Officer 20 % of offers |
+| T + secondary cap 8 % | same, secondaries above 8 % scaled down | 33 % | (all 32 tertiaries: 3 / 13) | rare primaries/secondaries still starved |
+| **R: by rarest spec (jep rec)** | rarest of its three specs sets the boost, cap 50; secondaries capped at 8 % | 51 % | **6 / 11** | **35.3 %** |
+
+- Simulation: Choose My Class draw model (one ticket per NumInDeck, a class shown once per offer), 100 offers, 40 seeded runs. Tool: `amalgamation-tools/weights5.py`.
+- Weights take effect at the next launch, mid-campaign included (template values, nothing stored in the save).
+- Risk: NumInDeck also feeds the HQ random-class deck; Choose My Class hides the plain promote button, so no visible effect expected (medium confidence).
