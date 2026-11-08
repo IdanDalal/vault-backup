@@ -81,3 +81,17 @@ Class: **BUG** = defect, fix in place. **RE** = rebuild a moment. **LOOK** = who
 | C | keep a 1 s silent title and a 3 s silent end card | smallest change; keeps silence Idi named as a glitch risk |
 
 A: the receipt is already the video's own device for "cost you five minutes", so the credits live inside the story, and the first 30 s carry the song.
+
+## 6. R35 (open): the look, notes 1 and 25
+
+Files: `D:\work\AIMVs\ours\pa-song\look-ab-2026-11-08\` (`look-ab-sheet.jpg`: 6 moments x A today | B blue grade | C blue + lens; `lookC-strike.mp4`, `lookC-shatter.mp4`, `lookC-heads.mp4`, with the song). Built by fix-k behind an off switch (`_pa-lens.ts`, engine b867ec3; switch off = 0.0000 % change on all six stills). Lead checked: the strike's flare lasts ~0.25 s then the base look returns; the meter stays clean.
+
+What B is and is not: a grade (blacks lifted to blue-black, whole frame). The blue ACCENTS of note 1 (more blue things, the way screens are blue now) need plate work; they come in wave 3 under any pick.
+
+| opt | what it does on screen |
+|---|---|
+| **A (rec)** | C as shown: blue-black grade + lens events, each with its cause and a short window (slam fringe 3 frames, lamp flare streak, kitchen focus pull, crack fringe + fisheye, head flares); wave 3 adds blue accents and builds note 19's camera solo on this kit |
+| B | C's lens events on today's neutral grade (blacks stay black), plus blue accents |
+| C | B's grade only, no lens events, plus blue accents |
+
+Rec A: notes 1 and 25 ask for both, and C answers both on the same frames. Overrule by eye.
