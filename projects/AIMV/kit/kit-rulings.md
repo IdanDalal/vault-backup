@@ -61,6 +61,7 @@ Form: **V** = verbatim quote from the notes; **P** = paraphrase (jep's record of
 | 11-04 | 1080p renders while working on the video; one 4K version only after finalization (KC's workflow, restated); build B (segmented render) next | P | [[kit-gates-2026-11-04]] | standing |
 | 11-04 | R22: no true-peak limiter; songs ship untouched with their 0 to +0.8 dBTP overs (5153: 83 overs, 6.7 ms; KC shipped at 0.0); `master_gate.py` warns above -1 dBTP, fails above +1 dBTP or on clipped runs | P | [[kit-gates-2026-11-04]] | standing (extends 10-15) |
 | 10-15 | His ear rules over meters (rap flag, drop meter) | P | [kc-auditions-2026-10-14], [kc-prompt-v4-2026-10-14] | standing |
+| 11-08 | R34: "No silent frames, and let's make it permenant for future songs: we should always start and end with a few seconds of instrumental music to allow for credits." | P | [[v2-notes-rulings-2026-11-08]], [[kit-audio-pipeline]] step 1 | standing (every song from video 3 on; PA grandfathered) |
 
 ## 3. Visuals and style
 

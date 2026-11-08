@@ -7,7 +7,7 @@ status: active
 
 # Pay Attention: Idi's v2 notes, diagnosed and ruled (jep, 2026-11-08)
 
-Source: Idi's 25 notes on `pa-review-v2-1080p.mp4`, handoff [[handoff-2026-11-07-pay-attention-release]] section 5 (his words stay there, verbatim). Every note checked on contact sheets cut from the review file at his timestamp (`ffmpeg` tiles, job tmp `v2n\n<NN>.jpg`). Time map: engine s = release s - 5.00 (titlesIn sits first in v2). Next ruling: **R34**.
+Source: Idi's 25 notes on `pa-review-v2-1080p.mp4`, handoff [[handoff-2026-11-07-pay-attention-release]] section 5 (his words stay there, verbatim). Every note checked on contact sheets cut from the review file at his timestamp (`ffmpeg` tiles, job tmp `v2n\n<NN>.jpg`). Time map: engine s = release s - 5.00 (titlesIn sits first in v2). Next ruling: **R35** (R34 ruled, section 5).
 
 ## 1. Rulings that change earlier ones (Idi's own words reverse them)
 
@@ -70,7 +70,9 @@ Class: **BUG** = defect, fix in place. **RE** = rebuild a moment. **LOOK** = who
 4. **Titles (after R34)**: 2, 3, 4, 23, 24.
 5. Full render v3, gates, whole-video critic, then Idi's watch with this table as the checklist (kit level-up 4.1: his note, the frame that shows it met, the render it was checked on).
 
-## 5. R34 (open): the opening and the ending
+## 5. R34 (ruled 2026-11-08): the opening and the ending
+
+**Idi: "A. No silent frames, and let's make it permenant for future songs: we should always start and end with a few seconds of instrumental music to allow for credits."** PA builds A below. Standing rule for future songs: `[Intro]` and `[Outro]` instrumental bars on every lyric sheet, screened per take ([[kit-audio-pipeline]] step 1). Next ruling: R35.
 
 | opt | what it does on screen | cost |
 |---|---|---|
