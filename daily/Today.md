@@ -15,8 +15,21 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 ## Yours (jep reads, never edits)
 
-I watched `pa-review-v2-1080p`. Here are my notes:
-1. 
+I watched `pa-review-v2-1080p`. Here are my notes (I'm voice-typing and not manually editing everything below this line, so I hope you understand the messy, punctuationless stream-of-consciousness rambling):
+1. I think I was wrong about grayscale monochrome black and white colorless direction it's too much too harsh and too long The blue accent throughout the video is great I think we need more like it
+2. I think we shouldn't start with silence there is no YouTube video that I've ever seen that starts with a few seconds of silence and also it might feel like an error or a bug or a glitch and I've heard a few times that the 1st 30 seconds are the most important ones
+3. The intro screen with the receipt is simple basic bare bones and boring The font is generic And the words pay attention repeat twice and it's missing something like categories or descriptions ("Created by:", "Title:", etc.)
+4. The first two above might not even be relevant if we're dropping the silence So we should find another solution.
+5. At ~00:12-00:14 The cursor/line transition looks ugly and slow
+6. At ~00:15-00:20 The entire text appears twice It's overwhelming and confusing
+7. At ~00:32 The O in the word lock has the cool lock animation concept down but the execution is terrible We should change it instead of an O it's actually a lock and we should repeat that trick in other words in the video
+8. At ~00:34-00:45 There are two different circles that looked weird and do nothing and throughout zoom in and zoom out I think the bigger one on the right is a leftover from the classroom scene maybe like a bell on the wall or something
+9. At ~00:43-00:45 The word guide is being held by the singer and we have pathetic attempt to stretch the word horizontally and it ends before she finishes singing and it zooms into a different part I think we should replace it with a series of the letter "I"s appearing as long as she holds the word like this: "guiiiiiiiiide"
+10. At ~00:49-00:50 We efficiently leverage repetition of the word "board" but we don't do it with the word "the" that appears before it I think we should efficiently leverage the repetition of "the board" And also see if there are other opportunities like this that we missed
+11. At ~00:58 The word "LEAN" gets squashed and disappears in a weird and ugly way
+12. Also at ~00:58 Is an opportunity to apply the vague first/top note above And the words Gold Star literally shaped and colored like a Gold Star
+13. At ~01:02-01:12 The tunnel with the repeating cards It's boring and I had an idea that we could switch it with a different part of the video that appears later the prompt injection attempts we could show how each student tries a different approach to convince the tutor to answer the same question
+14. At ~01:17-01:22 There's an ugly bright light in the top left quadrant of the screen that
 
 A.M.F.A.B.
 https://www.youtube.com/watch?v=YvnkIz9h87U
