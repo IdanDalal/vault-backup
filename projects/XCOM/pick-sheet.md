@@ -13,38 +13,24 @@ Card = Primary - Secondary - Tertiary. 719 cards left in the game. Every one has
 
 These specs exist on 1 or 2 cards only. If one shows up and the spec is new to you, take it.
 
-- **Impaler - Vengeance 2.0 - Aegis Defender**: Impaler primary (1 card). Equip combat knife + shield.
-- **Xeno Zoologist - Gunslinger - Scout**: Xeno Zoologist primary (1 card). Equip super computer + pistol.
-- **Xeno Zoologist MM - Hotshot - Scout**: Xeno Zoologist MM primary (1 card). Equip super computer + pistol.
-- **Samurai - Corsair - Assassin**: Corsair secondary (1 card). Equip sword + sword.
-- **Samurai - Ninja Warrior - Assassin**: Ninja Warrior secondary (1 card). Equip sword + sword.
-- **Infantry - Gripsman - Blaster**: Gripsman secondary (1 card). Equip rifle + claymore.
-- **Predator - Recon Officer - Clayman**: Clayman tertiary (1 card). Equip vektor rifle + claymore.
-- **Scavenger - CPU Expert - Field Surgeon**: Field Surgeon tertiary (1 card). Equip vektor rifle + gremlin.
 - **Androctonus - Corpsman - Medic**: Medic tertiary (1 card). Equip sniper rifle + holotargeter.
-- **Quartermaster - Corpsman - Sootsman**: Sootsman tertiary (1 card). Equip pistol + autopistol.
+- **Impaler - Vengeance 2.0 - Aegis Defender**: Impaler primary (1 card). Equip combat knife + shield.
+- **Infantry - Gripsman - Blaster**: Gripsman secondary (1 card). Equip rifle + claymore.
+- **Ironsights - Demolitioner - Tech Medic**: Tech Medic tertiary (2 cards). Equip sniper rifle + grenade launcher.
 - **Marathonist - Alien Hunter - Assassin**: Marathonist primary (2 cards). Equip shotgun + sword.
 - **Marathonist - Rocketeer - Retaliator**: Marathonist primary (2 cards). Equip shotgun + rocket launcher.
+- **Predator - Recon Officer - Clayman**: Clayman tertiary (1 card). Equip vektor rifle + claymore.
+- **Quartermaster - Corpsman - Sootsman**: Sootsman tertiary (1 card). Equip pistol + autopistol.
+- **Samurai - Corsair - Assassin**: Corsair secondary (1 card). Equip sword + sword.
+- **Samurai - Ninja Warrior - Assassin**: Ninja Warrior secondary (1 card). Equip sword + sword.
+- **Scavenger - CPU Expert - Field Surgeon**: Field Surgeon tertiary (1 card). Equip vektor rifle + gremlin.
+- **Shadow - Grenade Connoisseur - Tech Medic**: Tech Medic tertiary (2 cards). Equip vektor + grenade launcher.
 - **Veil Walker - Techspert - Modern Pirate**: Veil Walker primary (2 cards). Equip vektor rifle + gremlin.
 - **Veil Walker - Water Vein - Frostmancer**: Veil Walker primary (2 cards). Equip vektor rifle + psi amp.
-- **Shadow - Grenade Connoisseur - Tech Medic**: Tech Medic tertiary (2 cards). Equip vektor rifle + grenade launcher.
-- **Ironsights - Demolitioner - Tech Medic**: Tech Medic tertiary (2 cards). Equip sniper rifle + grenade launcher.
+- **Xeno Zoologist - Gunslinger - Scout**: Xeno Zoologist primary (1 card). Equip super computer + pistol.
+- **Xeno Zoologist MM - Hotshot - Scout**: Xeno Zoologist MM primary (1 card). Equip super computer + pistol.
 
-## 2. Read the tertiary
-
-| Tertiary | Verdict |
-|---|---|
-| Aegis Defender, Agent, Architect, Artisan, Assassin, Biotic, Blaster, Clayman, Commando, Engineer, Executioner, Firebug, Frostmancer, Heavy, Liquidator, Maniac, Modern Pirate, Officer, Riot, Scout, Smoker, SwordMaster | **perfect**: its weapon stacks on the secondary or fills an empty slot |
-| Combat Engineer, Daeva, Saboteur, Sootsman | good: utility tree |
-| Keeper, Retaliator, Sentinel | filler: passive; take only for a new primary or secondary |
-| Field Surgeon, Medic, Tech Medic | filler: healing; take only for a new primary or secondary |
-
-## 3. Tie-break
-
-- More specs you have not run yet > perfect > good > filler.
-- At every later promotion: a perk whose yellow weapon list names nothing the soldier carries is deleted in missions. Pick another (201 of the cards have at least one such optional perk; guaranteed perks are all fine).
-
-## 4. Spec tracker (tick when a soldier gets it; fewest cards first)
+## 2. Spec tracker (tick when a soldier gets it; fewest cards first)
 
 **Primary** (58)
 - [ ] Impaler (1)
@@ -192,3 +178,15 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Saboteur (70)
 - [ ] Artisan (79)
 - [ ] Modern Pirate (101)
+## 3. Read the tertiary
+
+| Tertiary | Verdict |
+|---|---|
+| Aegis Defender, Agent, Architect, Artisan, Assassin, Biotic, Blaster, Clayman, Commando, Engineer, Executioner, Firebug, Frostmancer, Heavy, Liquidator, Maniac, Modern Pirate, Officer, Riot, Scout, Smoker, SwordMaster | **perfect**: its weapon stacks on the secondary or fills an empty slot |
+| Combat Engineer, Daeva, Saboteur, Sootsman | good: utility tree |
+| Keeper, Retaliator, Sentinel | filler: passive; take only for a new primary or secondary |
+| Field Surgeon, Medic, Tech Medic | filler: healing; take only for a new primary or secondary |
+
+## 4. Tie-break
+- More specs you have not run yet > perfect > good > filler.
+- At every later promotion: a perk whose yellow weapon list names nothing the soldier carries is deleted in missions. Pick another (201 of the cards have at least one such optional perk; guaranteed perks are all fine).
