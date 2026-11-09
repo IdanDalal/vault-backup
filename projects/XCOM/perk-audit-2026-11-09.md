@@ -44,3 +44,12 @@ Audit = every card x every loadout the class allows (one primary + one secondary
 - No in-game check. Model confidence: medium-high (source read for all three mechanisms; load order rule proved 09-14). The reassignment mod logs only in debug builds, so no log receipt exists for perk removal.
 - Probes, next launch: `Disabled classes 1443`; `jepClassWeights: set 739 classes, skipped disabled 0`. In a mission: a Pathfinder has Slam Fire, a Rook has Nimble Hands, an Agent has Hamstring.
 - Card label stays cosmetic-wrong for Alien Hunter, Phoenix, Riot, SwordMaster (fixing it means rewriting four authors' spec entries; not worth the risk).
+
+## 11-10 round (Idi's screenshots + rulings)
+
+- SwordMaster on Marauder - Vengeance 2.0: works fully with bullpup + shield (0 dead perks); "/ Sword" is SwordMaster's first-listed weapon on the label.
+- Raider: a combat knife keeps every perk (a sword loses Slash and Dash); "/ Combat Knife" on those cards is the tertiary's knife (Commando, Agent).
+- NEW rule (Idi): no two specs sharing a guaranteed starting perk. Cut 26 cards (12 Fire Pistol, 14 Haywire Protocol). Reversible on his word.
+- Floor now adds cards only from NEW primary+secondary pairs: Veil Walker - Water Vein - Keeper and Samurai - Corsair - Keeper gone (Frostmancer / Assassin stay).
+- Rare alternatives, one card each: Impaler - Vengeance 2.0 (Ironclad loses 2 random-roll perks); Salamander - Bombarder (Rocketeer has 7 perfect cards elsewhere, Bombarder 0); Xeno - Gunslinger and Xeno MM - Hotshot (tie: split); Infantry - Gripsman (tie, scarcer); Predator - Clayman (tie, scarcer).
+- Deck 751 -> 709; 0 broken, 0 shared starting perk, only Commissar at 0. DisableClass 1,485. Weights 699 classes, all 141 specs in a median of 4 promotions (worst 7). Probes: `Disabled classes 1485`, `jepClassWeights: set 699`.
