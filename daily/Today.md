@@ -86,3 +86,32 @@ The Fresh Prince of Bel-Air 1990–1996
 The Simpsons 1989–
 Seinfeld 1989–1998
 Married... with Children 1987–1997
+
+Xeno (NOT MM)
+Corsair
+Phoenix
+Swash
+Marathonist
+Veil Walker
+Buckler
+Gripsman
+Ninja Warrior
+Clayman
+Medic
+
+
+## Primary
+Salamander
+Savage
+Xeno Zoologist MM
+Impaler
+## Secondary
+Bombarder
+Butterfly
+Gunslinger
+Vengeance 2.0
+## Tertiary
+Aegis Defender
+Maniac
+Saboteur
+Scout
