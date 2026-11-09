@@ -4,16 +4,17 @@ exec(open('tiers.py').read().split("rows = collections")[0])
 N = json.load(open('names.json'))
 n = lambda x: N.get(x, x)
 card = lambda c: '%s - %s - %s' % (n(c[0]), n(c[1]), n(c[2]))
-AUD = json.load(open('audit_1110.json'))
+AUD = json.load(open('audit_1110b.json'))
 WN = {'combatknife': 'combat knife', 'sniper_rifle': 'sniper rifle', 'vektor_rifle': 'vektor rifle', 'grenade_launcher': 'grenade launcher', 'sidearm': 'autopistol', 'psiamp': 'psi amp', 'sparkbit': 'BIT', 'hunterrifle': 'hunter rifle', 'supercomputer': 'super computer', 'lw_gauntlet': 'gauntlet', 'empty': 'empty slot', 'sawedoffshotgun': 'sawed-off', 'arcthrower': 'arc thrower', 'iri_rocket_launcher': 'rocket launcher'}
 wn = lambda w: WN.get(w, w) if w else 'none'
-equip = lambda c: '%s + %s' % (wn(AUD['_'.join(c)][2]), wn(AUD['_'.join(c)][3]))
+equip = lambda c: '%s + %s' % (wn(AUD['_'.join(c)][2]) + (' (canister in its own slot)' if AUD['_'.join(c)][2] == 'chemthrower' else ''), wn(AUD['_'.join(c)][3]))
 LIE = []
 for v in json.load(open('specs_now.json')).values():
     if v['slot'] != 'Primary' and v['weapons'] and v['weapons'][0][1] == 'PrimaryWeapon' and v['name'] in {x for c in deck for x in c}:
         own = [w for w, sl in v['weapons'] if sl == 'SecondaryWeapon']
         LIE.append('%s (label says %s; it carries %s in the secondary slot)' % (n(v['name']), wn(v['weapons'][0][0]), ' or '.join(wn(w) for w in own) or 'nothing'))
 LIE.append('Raider (label says sword; a combat knife keeps every perk, a sword loses Slash and Dash)')
+LIE = [x for x in LIE if not x.startswith('Phoenix')] + ['Phoenix (label says chemthrower; its canister rides in the chemthrower\'s own canister slot, so the secondary slot takes the tertiary\'s weapon)']
 cnt = collections.Counter()
 for p, s, t in deck: cnt[('Primary', p)] += 1; cnt[('Secondary', s)] += 1; cnt[('Tertiary', t)] += 1
 rare = sorted((k for k in cnt if cnt[k] <= 2), key=lambda k: (cnt[k], k[0], n(k[1])))

@@ -53,3 +53,12 @@ Audit = every card x every loadout the class allows (one primary + one secondary
 - Floor now adds cards only from NEW primary+secondary pairs: Veil Walker - Water Vein - Keeper and Samurai - Corsair - Keeper gone (Frostmancer / Assassin stay).
 - Rare alternatives, one card each: Impaler - Vengeance 2.0 (Ironclad loses 2 random-roll perks); Salamander - Bombarder (Rocketeer has 7 perfect cards elsewhere, Bombarder 0); Xeno - Gunslinger and Xeno MM - Hotshot (tie: split); Infantry - Gripsman (tie, scarcer); Predator - Clayman (tie, scarcer).
 - Deck 751 -> 709; 0 broken, 0 shared starting perk, only Commissar at 0. DisableClass 1,485. Weights 699 classes, all 141 specs in a median of 4 promotions (worst 7). Probes: `Disabled classes 1485`, `jepClassWeights: set 699`.
+
+## 11-10 second round (Idi: canister slot, empty secondaries, Marathonist)
+
+- Canister: a chemthrower opens Mitzruti's aux slot for its canister (`MZ_StrategyElement_MZAuxSlot.uc:84`, Idi's in-game observation for all chemthrower classes). Audit (`audit2.py`) now gives a chemthrower its canister for free and never counts a canister as the secondary weapon.
+- NEW rule (Idi): no card without a real secondary weapon. It removed one card (Desolator - Phoenix - Tech Medic). Phoenix revived by deleting 6 jep 09-16 R2 pairs that treated its canister as a secondary weapon: 11 Phoenix cards now (Desolator/Salamander x Agent, Commando, Engineer, Executioner, Liquidator, Officer), all with a weapon tertiary in the secondary slot.
+- Equip lines: tie-break now prefers each slot's own spec weapon (the 11-09 sheet said pistol + empty slot for Quartermaster - Corpsman - Sootsman because "empty" sorted first; correct: pistol + autopistol).
+- Marathonist: its own config lists shotgun and bullpup; no perk dies with either; the bolt caster came from Alien Hunter's list.
+- Salamander - Rocketeer - Saboteur stays cut as Idi's explicit ruling (Salamander gained Phoenix cards, so the rare-pair rule no longer caught it).
+- Deck 709 -> 719; 0 broken, 0 shared starting perk, 0 empty secondary, only Commissar at 0; no class template lost (1,945 build). DisableClass 1,486; weights 709 classes, all specs in a median of 5 promotions (worst 8). Pick sheet regenerated without ticks (Idi starts fresh).
