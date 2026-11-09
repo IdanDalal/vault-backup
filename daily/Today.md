@@ -88,8 +88,6 @@ Seinfeld 1989–1998
 Married... with Children 1987–1997
 
 
-Veil Walker - Water Vein - Keeper shouldn't exist, since Veil Walker - Water Vein - Frostmancer is superior. Same with Samurai - Corsair - Keeper and Samurai - Corsair - Assassin. Also, we should investigate and decide which one of these to choose: Impaler - Ironclad/Vengeance 2.0 - Aegis Defender. We can do that by comparing Ironclad and Vengeance 2.0 relative to the Impaler + Aegis Defender combo and relative to something like "which one of them can be optimal/perfect/better with a different combo". Same with Salamander - Rocketeer/Bombarder - Saboteur, Xeno Zoologist - Gunslinger/Hotshot - Scout, Xeno Zoologist MM - Gunslinger/Hotshot - Scout, Infantry/Marauder - Gripsman - Blaster, and Bounty Hunter/Predator - Recon Officer - Clayman. Lastly, there are more screenshots with issues:
-1. In `D:\work\screens\XCOM\1_SWORDMASTER.png` the highlighted/third card lists "Bullpup + Shield / Sword" - is that because SwordMaster has shield perks or something? It looks like a mistake.
-2. In `D:\work\screens\XCOM\2_PISTOL.png` the highlighted/second card combines Gunfighter and Hotshot, which both share the same ability - Fire Pistol. If we add a new rule that excludes identical starting abilities, w
+
 
 
