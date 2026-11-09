@@ -14,27 +14,27 @@ Card = Primary - Secondary - Tertiary. 719 cards left in the game. Every one has
 These specs exist on 1 or 2 cards only. If one shows up and the spec is new to you, take it.
 
 - [ ] **Androctonus - Corpsman - Medic**: Medic tertiary (1 card). Equip sniper rifle + holotargeter.
-- [ ] **Impaler - Vengeance 2.0 - Aegis Defender**: Impaler primary (1 card). Equip combat knife + shield.
-- [ ] **Infantry - Gripsman - Blaster**: Gripsman secondary (1 card). Equip rifle + claymore.
+- [x] **Impaler - Vengeance 2.0 - Aegis Defender**: Impaler primary (1 card). Equip combat knife + shield.
+- [x] **Infantry - Gripsman - Blaster**: Gripsman secondary (1 card). Equip rifle + claymore.
 - [x] **Ironsights - Demolitioner - Tech Medic**: Tech Medic tertiary (2 cards). Equip sniper rifle + grenade launcher.
 - [ ] **Marathonist - Alien Hunter - Assassin**: Marathonist primary (2 cards). Equip shotgun + sword.
 - [x] **Marathonist - Rocketeer - Retaliator**: Marathonist primary (2 cards). Equip shotgun + rocket launcher.
 - [x] **Predator - Recon Officer - Clayman**: Clayman tertiary (1 card). Equip vektor rifle + claymore.
-- [ ] **Quartermaster - Corpsman - Sootsman**: Sootsman tertiary (1 card). Equip pistol + autopistol.
+- [x] **Quartermaster - Corpsman - Sootsman**: Sootsman tertiary (1 card). Equip pistol + autopistol.
 - [ ] **Samurai - Corsair - Assassin**: Corsair secondary (1 card). Equip sword + sword.
-- [ ] **Samurai - Ninja Warrior - Assassin**: Ninja Warrior secondary (1 card). Equip sword + sword.
+- [x] **Samurai - Ninja Warrior - Assassin**: Ninja Warrior secondary (1 card). Equip sword + sword.
 - [x] **Scavenger - CPU Expert - Field Surgeon**: Field Surgeon tertiary (1 card). Equip vektor rifle + gremlin.
 - [ ] **Shadow - Grenade Connoisseur - Tech Medic**: Tech Medic tertiary (2 cards). vektor + grenade launcher.
 - [ ] **Veil Walker - Techspert - Modern Pirate**: Veil Walker primary (2 cards). Equip vektor rifle + gremlin.
 - [x] **Veil Walker - Water Vein - Frostmancer**: Veil Walker primary (2 cards). Equip vektor rifle + psi amp.
-- [ ] **Xeno Zoologist - Gunslinger - Scout**: Xeno Zoologist primary (1 card). Equip super computer + pistol.
+- [x] **Xeno Zoologist - Gunslinger - Scout**: Xeno Zoologist primary (1 card). Equip super computer + pistol.
 - [ ] **Xeno Zoologist MM - Hotshot - Scout**: Xeno Zoologist MM primary (1 card). Equip super computer + pistol.
 
 ## 2. Spec tracker (tick when a soldier gets it; fewest cards first)
 
 **Primary** (58)
-- [ ] Impaler (1)
-- [ ] Xeno Zoologist (1)
+- [x] Impaler (1)
+- [x] Xeno Zoologist (1)
 - [ ] Xeno Zoologist MM (1)
 - [x] Marathonist (2)
 - [x] Veil Walker (2)
@@ -63,7 +63,7 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Shootist (9)
 - [x] Ironsights (10)
 - [ ] Observer (10)
-- [ ] Samurai (10)
+- [x] Samurai (10)
 - [ ] Survivalist (10)
 - [ ] Atrax (11)
 - [ ] Ghost Recon (11)
@@ -77,7 +77,7 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Pioneer (16)
 - [ ] Interceptor (17)
 - [ ] Desolator (18)
-- [ ] Quartermaster (18)
+- [x] Quartermaster (18)
 - [ ] Rook (19)
 - [ ] Sentry (19)
 - [ ] Toxicologist (19)
@@ -89,13 +89,13 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Oddsman (28)
 - [ ] Assault (29)
 - [x] Scavenger (31)
-- [ ] Infantry (36)
+- [x] Infantry (36)
 - [ ] Marauder (39)
 
 **Secondary** (51)
 - [ ] Corsair (1)
-- [ ] Gripsman (1)
-- [ ] Ninja Warrior (1)
+- [x] Gripsman (1)
+- [x] Ninja Warrior (1)
 - [ ] LegendaryWarrior (3)
 - [ ] Plunderer (3)
 - [ ] Swash (3)
@@ -104,8 +104,8 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Trickshot (4)
 - [x] Demolitioner (5)
 - [ ] SWAT Soldier (6)
-- [ ] Corpsman (7)
-- [ ] Gunslinger (8)
+- [x] Corpsman (7)
+- [x] Gunslinger (8)
 - [ ] Hotshot (8)
 - [ ] Rogue (8)
 - [ ] Chryssalid Whisperer (9)
@@ -121,7 +121,7 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Psychomancer (11)
 - [ ] Ripper (11)
 - [ ] Stormmancer (11)
-- [ ] Vengeance 2.0 (11)
+- [x] Vengeance 2.0 (11)
 - [x] Water Vein (11)
 - [ ] Buckler (12)
 - [ ] Dragoon (12)
@@ -149,15 +149,15 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Clayman (1)
 - [x] Field Surgeon (1)
 - [ ] Medic (1)
-- [ ] Sootsman (1)
+- [x] Sootsman (1)
 - [x] Tech Medic (2)
 - [ ] Architect (3)
 - [ ] Maniac (3)
 - [ ] Firebug (4)
 - [ ] Biotic (5)
-- [ ] Blaster (6)
+- [x] Blaster (6)
 - [ ] Riot (7)
-- [ ] Aegis Defender (9)
+- [x] Aegis Defender (9)
 - [ ] Sentinel (9)
 - [ ] Executioner (11)
 - [ ] Liquidator (11)
@@ -167,12 +167,12 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Engineer (18)
 - [ ] Agent (19)
 - [ ] Daeva (22)
-- [ ] Assassin (27)
+- [x] Assassin (27)
 - [x] Frostmancer (29)
 - [ ] Commando (31)
 - [ ] Smoker (31)
 - [ ] Keeper (35)
-- [ ] Scout (37)
+- [x] Scout (37)
 - [x] Retaliator (47)
 - [ ] Combat Engineer (59)
 - [ ] Saboteur (70)
