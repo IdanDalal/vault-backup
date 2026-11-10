@@ -45,6 +45,27 @@ superpowers plugin install (injects a mandatory-skill rule into every session; i
 
 Small: superpowers' evals are author-run (n = 2-5, one project); dream-loop has one demo; Degenerative Pixels describes a frame-marking editor but never showed it; Bright Mirror publishes no process. IP's frame-click is his own statement on his public pages (strongest signal: the same habit Idi already has).
 
+## Built (2026-11-10, Idi: "Build the v3 Review Room first")
+
+- **v3 Review Room: https://claude.ai/artifact/DCpwkyizaytH7SDdAvyvzr** (private). 13 per-plate clips (1080p30, 4.4-16.8 MB each) cut from `pa-review-v3-1080p.mp4`, auto-advancing; stamp `v3 · plate · m:ss.cc` on the picture; pause + click = a pin (x, y on the frame) + a note (Speak = dictation, or type; Ctrl+Enter saves); notes list with status (open / fixing / done / wont) and jep's reply with "Hear it" (read-aloud); known issues first.
+- Notes live in the page's database, collection `notes`: `{version, plate, t (song s), x, y, text, status, reply, created, by}`. jep reads them with ArtifactData (query version == v3, order t) and answers by updating `reply` and `status`. Verified 2026-11-10: write, query, delete of a probe note. Not testable from here: playback, dictation, click-pin (needs Idi's browser).
+- Source: `D:\work\aimv-lab\pa-video\scratch\lead\room\` (page, clips script, manifest).
+
+## Round 2: tools we already have (Idi 2026-11-10: "focusing on tools we have and if it's possible and desirable to use them - Obsidian and ComfyUI")
+
+Files: `r-obsidian.md`, `r-comfy.md` in the research folder.
+
+| surface | Obsidian | ComfyUI |
+|---|---|---|
+| Review Room | skip: no installed video plugin; none pins a note to a frame spot or plays versions in sync; Media Extended v4 goes closed source; third-party code | skip: no frame-pinned notes, no dictation, no phone |
+| Decision page | skip: Canvas lays out cards but records no click; PC only | part: generated mood stills only; colour cards are cheaper with ffmpeg (lut3d, curves, colorbalance already in our ffmpeg) |
+| Studio board | part: a Bases view (table/kanban from note properties) jep updates by writing frontmatter, in the vault Idi opens daily; PC only (his phone runs the separate `D:\work\captures` vault); kanban needs Obsidian 1.14 (installed version unconfirmed: the app folder is outside jep's account) | skip |
+| other | dictation: none built in; transcription plugins need paid API keys | judge/audio: skip (Demucs + librosa already cover stems and onsets); GPU: the local LLM fills 23.6 GB, so image batches only between renders with it stopped |
+
+Facts found: jep's ComfyUI = portable 0.39.0 at `C:\Users\jep\comfy\ComfyUI_windows_portable`, no custom nodes, port 8189 (Idi's own ComfyUI Desktop on 8188). Obsidian plugins installed: Templater, Annotator, Third Mind Reader; Canvas and Bases on. Unverified: ComfyUI "App Mode" claims (search snippets only).
+
+jep's call: the Review Room and Decision page stay Artifacts (dictation, click, phone). The Studio board is the open choice: an Artifact board (phone, one place with the Review Room) or a Bases board in the vault (no build, PC only). ComfyUI = back-room engine jep drives over its API for mood stills, never a page Idi opens.
+
 ## Build order (rec)
 
 1. Review Room for v3: Idi's v3 notes go in by voice at the frame (first use, real notes). Cost: about 2-3 hours of jep work (clip encoding, page, notes table, read-back test).
