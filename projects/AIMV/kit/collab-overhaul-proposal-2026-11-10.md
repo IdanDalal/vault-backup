@@ -45,6 +45,12 @@ superpowers plugin install (injects a mandatory-skill rule into every session; i
 
 Small: superpowers' evals are author-run (n = 2-5, one project); dream-loop has one demo; Degenerative Pixels describes a frame-marking editor but never showed it; Bright Mirror publishes no process. IP's frame-click is his own statement on his public pages (strongest signal: the same habit Idi already has).
 
+## Built (2026-11-10, Idi: "Build the v3 Review Room first")
+
+- **v3 Review Room: https://claude.ai/artifact/DCpwkyizaytH7SDdAvyvzr** (private). 13 per-plate clips (1080p30, 4.4-16.8 MB each) cut from `pa-review-v3-1080p.mp4`, auto-advancing; stamp `v3 · plate · m:ss.cc` on the picture; pause + click = a pin (x, y on the frame) + a note (Speak = dictation, or type; Ctrl+Enter saves); notes list with status (open / fixing / done / wont) and jep's reply with "Hear it" (read-aloud); known issues first.
+- Notes live in the page's database, collection `notes`: `{version, plate, t (song s), x, y, text, status, reply, created, by}`. jep reads them with ArtifactData (query version == v3, order t) and answers by updating `reply` and `status`. Verified 2026-11-10: write, query, delete of a probe note. Not testable from here: playback, dictation, click-pin (needs Idi's browser).
+- Source: `D:\work\aimv-lab\pa-video\scratch\lead\room\` (page, clips script, manifest).
+
 ## Build order (rec)
 
 1. Review Room for v3: Idi's v3 notes go in by voice at the frame (first use, real notes). Cost: about 2-3 hours of jep work (clip encoding, page, notes table, read-back test).
