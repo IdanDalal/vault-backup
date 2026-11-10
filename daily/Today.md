@@ -42,7 +42,7 @@ youtu.be/bDP0S9aYReE
 youtu.be/Wjcj_hmVJzo
 youtu.be/Cq8qO-NjYIg
 
-Instead of one more long prompt with a list of notes like I always respond with, I'd rather overhaul our interaction/collaboration/co-operation process entirely. We spent the first half of this conversation working inefficiently through this terminal/chat, as we always do, and I think it's about time we stop and rethink everything from first principles. We need some sort of interface that fits our audio-visual needs. I have some github repos that might be 
+
 
 Civilization Ender: a cursed immortal creature, living alone forever, every time it's discovered/contacted by a civilization/group - they all die.
 
