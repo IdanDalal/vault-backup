@@ -22,4 +22,4 @@ views:
       - file.name
       - processed
     columnSize:
-      file.name: 916
+      file.name: 1293

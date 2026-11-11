@@ -36,5 +36,11 @@ views:
       - next
       - cost_min
       - status
+    sort:
+      - property: next
+        direction: ASC
+      - property: status
+        direction: ASC
     columnSize:
-      note.next: 720
+      note.next: 1116
+      note.cost_min: 100
