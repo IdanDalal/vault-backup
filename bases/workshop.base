@@ -1,10 +1,10 @@
 filters:
   and:
-    - 'type == "hub"'
-    - 'file.ext == "md"'
+    - type == "hub"
+    - file.ext == "md"
 formulas:
-  quiet_days: 'if(last, ((today() - date(last)) / 86400000).round(0), "")'
-  quadrant: 'if(value == "high", if(effort == "low", "1 High value, low effort", "2 High value, high effort"), if(effort == "low", "3 Low value, low effort", "4 Low value, high effort"))'
+  quiet_days: if(last, ((today() - date(last)) / 86400000).round(0), "")
+  quadrant: if(value == "high", if(effort == "low", "1 High value, low effort", "2 High value, high effort"), if(effort == "low", "3 Low value, low effort", "4 Low value, high effort"))
 properties:
   file.name:
     displayName: Project
@@ -35,9 +35,9 @@ views:
     name: Now
     filters:
       and:
-        - 'status == "active"'
+        - status == "active"
     groupBy:
-      property: note.ball
+      property: ball
       direction: ASC
     order:
       - file.name
@@ -48,7 +48,7 @@ views:
   - type: kanban
     name: Board
     groupBy:
-      property: note.status
+      property: status
       direction: ASC
     groupOrder:
       - active
@@ -64,9 +64,9 @@ views:
     name: Matrix
     filters:
       and:
-        - 'ball == "Idi"'
-        - 'status != "done"'
-        - 'status != "archived"'
+        - ball == "Idi"
+        - status != "done"
+        - status != "archived"
     groupBy:
       property: formula.quadrant
       direction: ASC

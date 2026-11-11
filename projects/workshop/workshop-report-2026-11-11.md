@@ -46,17 +46,17 @@ Seven literature notes: `projects/workshop/sources`. None of the seven measured 
 
 ## 5. Built today
 
-| Thing | Where | What it does |
-|---|---|---|
-| Home page | `projects/workshop/Workshop.md` | Now, Board, Matrix, Dated, rules, resources, jar, library on one page |
-| 11 project cards | `projects/workshop/hubs/` | One per project: status, next step, whose move, Idi's minutes, entry file, done-state, outside-vault paths |
-| Board views | `bases/workshop.base` | Now (active, by whose move), Board (Kanban by status, drag to freeze), Matrix (value by effort), All |
-| Library views | `bases/library.base` | Literature and Atomic tables |
-| 7 literature notes | `projects/workshop/sources/` | The six videos and the Reddit thread, timestamped, with what was checked |
-| Checker | `projects/workshop/tools/hub_check.py` | Fields, link targets, the cap of two, each card's date against the session log |
-| Evidence | `projects/workshop/research/` | Autopsy of six attempts; map of where files, lists and 9,454 URLs sit |
-| Session rule | header of `projects/intent-log.md` | The log row and the card get written together |
-| Jar candidate | `projects/wins-jar.md` | C5 staged: "Knowledge Cutoff" live 11-01 |
+| Thing              | Where                                  | What it does                                                                                               |
+| ------------------ | -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Home page          | `projects/workshop/Workshop.md`        | Now, Board, Matrix, Dated, rules, resources, jar, library on one page                                      |
+| 11 project cards   | `projects/workshop/hubs/`              | One per project: status, next step, whose move, Idi's minutes, entry file, done-state, outside-vault paths |
+| Board views        | `bases/workshop.base`                  | Now (active, by whose move), Board (Kanban by status, drag to freeze), Matrix (value by effort), All       |
+| Library views      | `bases/library.base`                   | Literature and Atomic tables                                                                               |
+| 7 literature notes | `projects/workshop/sources/`           | The six videos and the Reddit thread, timestamped, with what was checked                                   |
+| Checker            | `projects/workshop/tools/hub_check.py` | Fields, link targets, the cap of two, each card's date against the session log                             |
+| Evidence           | `projects/workshop/research/`          | Autopsy of six attempts; map of where files, lists and 9,454 URLs sit                                      |
+| Session rule       | header of `projects/intent-log.md`     | The log row and the card get written together                                                              |
+| Jar candidate      | `projects/wins-jar.md`                 | C5 staged: "Knowledge Cutoff" live 11-01                                                                   |
 
 ## 6. Left unbuilt, with the reason
 

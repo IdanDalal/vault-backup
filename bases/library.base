@@ -1,8 +1,8 @@
 filters:
   and:
-    - 'file.ext == "md"'
+    - file.ext == "md"
     - or:
-        - 'type == "literature"'
+        - type == "literature"
         - file.inFolder("atomic-notes")
 properties:
   file.name:
@@ -26,9 +26,9 @@ views:
     name: Literature
     filters:
       and:
-        - 'type == "literature"'
+        - type == "literature"
     groupBy:
-      property: note.by
+      property: by
       direction: ASC
     order:
       - file.name
