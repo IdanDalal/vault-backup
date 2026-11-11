@@ -10,7 +10,7 @@ value: low
 effort: low
 last: 2026-10-01
 entry: "[[projects/kidstudio/README|Kid Studio README]]"
-telos: "Current Focus 3"
+telos: "Current Focus 5 (frozen)"
 ---
 
 # Kid Studio

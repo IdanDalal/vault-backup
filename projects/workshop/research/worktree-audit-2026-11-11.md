@@ -87,3 +87,41 @@ A worktree is a second working copy of the vault on its own branch; every backgr
 ## What removal would be
 
 For the SAFE rows, on Idi's word: `git worktree remove <path>` per row, run by jep from the hq session. Every branch stays; only the folders go. The KEEP rows wait until their files are copied out or ruled disposable.
+
+## Removed, 2026-11-11 afternoon
+
+Idi: "remove all SAFE ones". The audit was re-run first (same 18 SAFE). 17 went with `git worktree remove`; `social-activities-research` needed `--force` for four untracked files and one ignored file, each proven byte-identical to the main vault's copy beforehand. Every branch is kept. Six worktrees remain: `aimv-video2-infra`, `cash-console-v3`, `cash-sale-2026-10-20` (KEEP), `pa-v2-notes`, `cash-mom-exit-2026-11-11`, `workshop-2026-11-11` (live).
+
+What the three KEEP ones hold that exists nowhere else:
+
+| Worktree | Files | What they are | jep's read |
+|---|--:|---|---|
+| `aimv-video2-infra` | 1 | `lexicon.cpython-314.pyc`, a Python cache file | Disposable; Python rebuilds it |
+| `cash-sale-2026-10-20` | 1 | `transition.cpython-314.pyc`, a Python cache file | Disposable; its branch also holds 2 commits found nowhere else, and the branch stays |
+| `cash-console-v3` | 13 | Probe screenshots under `projects/Cash/dashboard/data/probe/` and caches | Probably disposable; Idi's call, since they are Cash files |
+
+## Agent View rows (screenshot `D:\work\screens\CLAUDECODE.png`, 15:14)
+
+From the Claude Code docs (code.claude.com/docs/en/agent-view, read 2026-11-11): Ctrl+X once stops a row, Ctrl+X again within two seconds deletes it. Deleting removes the row, the worktree Claude made for it, and the job's temp folder. The conversation transcript stays on disk and resumes with `claude --resume`, until the 30-day sweep (`cleanupPeriodDays`) removes it. A row counts as "needs input" while its session waits on a question or a permission.
+
+**Needs input, 7 rows**
+
+| Row | Age | Transcript | Worktree | Advice |
+|---|--:|---|---|---|
+| kid studio categories layer | 65 d | swept | none | Delete. It can no longer be opened; Kid Studio is frozen |
+| multi-ai integration research | 64 d | swept | none | Delete. The logins it waited for happened: Codex and Antigravity are installed |
+| cash-console anonymization | 58 d | swept | `cash-console-v3` | Leave until the 13 files above are ruled on. The task it asked for exists (`Cash Console refresh`) |
+| phone captures daily note | 52 d | swept | none | Delete. Capture sync shipped 09-13 |
+| youtube enhancements persistence | 35 d | swept | none | Delete. It can no longer be opened; if the phone modules still matter, that is a new session |
+| aimv light-dark jump cuts | 22 d | on disk | `aimv-notes`, removed today | Delete. A rate-limit stop; the video shipped 11-01 |
+| typography pass vault search | 20 d | on disk | `aimv-typography`, removed today | Delete. Same |
+
+**Completed, 22 rows**
+
+Keep 6: `today.md meta-work rules` (this session), `cash project share sale` (today), `pay attention section 5` (live AIMV thread; its worktree holds the Review Room clips), `amalgamation class combo filtering` (the XCOM thread, while the screenshots get fixed), `aimv-kit next-video infrastructure` and `cash project stock sale` (their worktrees are the two KEEP rows above).
+
+Delete the other 16. Each one's result already sits in the vault as a handoff note or report under `projects/`, and its worktree is already gone, so nothing blocks the delete.
+
+After that the view holds 7 rows instead of 29, and "needs input" reads 1.
+
+**The rule this suggests**: a session's row is finished business once its log row and its card are written. The card is the handoff; the row is a duplicate.

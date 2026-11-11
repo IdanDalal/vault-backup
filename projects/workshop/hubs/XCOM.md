@@ -10,7 +10,7 @@ effort: high
 cost_min: 20
 last: 2026-11-10
 entry: "[[projects/XCOM/pick-sheet|pick sheet]]"
-telos: "Current Focus 5"
+telos: "Current Focus 2"
 ---
 
 # XCOM

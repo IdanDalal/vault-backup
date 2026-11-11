@@ -10,7 +10,7 @@ value: high
 effort: high
 last: 2026-11-11
 entry: "[[projects/workshop/research/asset-map|asset map]]"
-telos: "absent from Current Focus"
+telos: "Current Focus 3"
 ---
 
 # Idiverse

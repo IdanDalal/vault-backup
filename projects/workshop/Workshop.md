@@ -13,13 +13,9 @@ One question: **what gets the next hour?** This page is the reference. The one-s
 
 `Board.canvas` holds six cards: Now, Morning, the clock check, the jar, the Board, the Matrix. Shift+1 zooms the canvas to fit the window.
 
-Saving it as a layout takes Idi's hand, once (Obsidian's config folder is closed to jep by the write guard):
+The saved layout is `Workshop`: the board on the left (76 %), the Whiteboard on the right, both sidebars folded. Left ribbon → "Manage workspace layouts" → Load. Idi's three older layouts sit in the same list: `1417 Notes`, `400 Width 500 Height 1317 Notes`, `500 Width 500 Height 2333 Note`.
 
-1. Settings → Core plugins → Workspaces: on.
-2. Open `Board.canvas`; drag the `Idi's Whiteboard` tab to the right edge so both show.
-3. Left ribbon → "Manage workspace layouts" → type `Workshop` → Save.
-
-Coming back to it: the same icon → Load.
+The look is his own, rebuilt 2026-11-11 without plugin code: the Minimal theme (9.1.4) plus the snippet `idi-black`, generated from his archived values (pure black, accent `#623DB7`, links `#8B5CF6`, underline tabs, 15 px text). Map, method and rollback: [[projects/workshop/research/obsidian-foundation-2026-11-11|obsidian foundation]]. Since 11-11 jep may write Obsidian's config except plugin code (the `plugins` folder and the plugin list stay closed).
 
 ## Now
 

@@ -9,7 +9,7 @@ value: high
 effort: high
 last: 2026-09-25
 entry: "[[projects/tutoring-salvage/tutoring-lessons-learned|lessons learned]]"
-telos: "Current Focus 1 (the K and D chapter closed 09-25)"
+telos: "Current Focus 5 (frozen)"
 ---
 
 # Tutoring

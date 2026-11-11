@@ -9,7 +9,7 @@ value: high
 effort: low
 last: 2026-10-23
 entry: "[[projects/Cash/Cash Hub|Cash Hub]]"
-telos: "Current Focus 2"
+telos: "Current Focus 6 (standing)"
 ---
 
 # Cash

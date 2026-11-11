@@ -1,0 +1,32 @@
+/* properties-layout.css */
+
+/* 1. INCREASE KEY COLUMN WIDTH (Left Side) */
+.metadata-container {
+  /* This variable controls the width of the Key column.
+     - Default is approx 10rem.
+     - My previous error set it to 8rem.
+     - We are setting it to 20rem to give your text plenty of space.
+     
+     *ACTION*: If the text is still cut off, change '20rem' to '25rem' or '30rem'.
+  */
+  --metadata-label-width: 12rem !important; 
+}
+
+/* 2. FORCE TEXT WRAPPING (Safety Net) */
+/* If a key is somehow longer than 20rem, this forces it to wrap to a new line 
+   instead of showing ellipses (...) */
+.metadata-property-key .metadata-label, 
+.metadata-property-key-input {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  height: auto !important;
+}
+
+/* 3. VALUE WRAPPING (Right Side) */
+/* Keeps the values visible and wrapped as well */
+.metadata-property-value .metadata-input, 
+.metadata-property-value .metadata-display-value {
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere !important;
+}

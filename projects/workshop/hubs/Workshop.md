@@ -3,14 +3,14 @@ type: hub
 created: 2026-11-11
 author: jep
 status: active
-next: "Open Board.canvas: say what does not fit on one screen; then save the layout by hand (4 clicks, steps on Workshop)"
+next: "Reload Obsidian, load the Workshop layout, drop a screenshot in D:/work/screens: jep measures the black look against it"
 ball: Idi
-cost_min: 5
+cost_min: 3
 value: high
 effort: low
 last: 2026-11-11
 entry: "[[projects/workshop/workshop-report-2026-11-11|workshop report]]"
-telos: "absent from Current Focus (file dated 09-09)"
+telos: "Current Focus 4"
 ---
 
 # Workshop

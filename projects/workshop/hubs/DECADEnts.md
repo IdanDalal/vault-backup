@@ -10,7 +10,7 @@ value: low
 effort: low
 last: 2026-09-14
 entry: "[[projects/decadents/d1-nine-decades-round2.html|round-2 sheet]]"
-telos: "Current Focus 3 (D1 deadline 09-29 passed)"
+telos: "Current Focus 5 (frozen)"
 ---
 
 # DECADEnts

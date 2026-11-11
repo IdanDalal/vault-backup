@@ -10,7 +10,7 @@ value: high
 effort: high
 last: 2026-11-10
 entry: "[[projects/AIMV/kit/v3-watch-checklist-2026-11-08|v3 watch checklist]]"
-telos: "absent from Current Focus (file dated 09-09)"
+telos: "Current Focus 1"
 ---
 
 # AIMV

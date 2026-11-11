@@ -9,7 +9,7 @@ value: low
 effort: high
 last: 2026-09-21
 entry: "[[projects/Curtains/installed-apps-2026-09-21|installed apps inventory]]"
-telos: "Current Focus 6"
+telos: "Current Focus 5 (frozen)"
 ---
 
 # Curtains

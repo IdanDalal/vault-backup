@@ -34,3 +34,5 @@ views:
       - next
       - cost_min
       - formula.quiet_days
+    columnSize:
+      note.next: 1093

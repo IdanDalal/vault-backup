@@ -21,3 +21,5 @@ views:
     order:
       - file.name
       - processed
+    columnSize:
+      file.name: 916

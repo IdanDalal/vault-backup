@@ -1,0 +1,1180 @@
+{
+  "workspaces": {
+    "400 Width 500 Height 1317 Notes": {
+      "main": {
+        "id": "03767b7719c3ab54",
+        "type": "split",
+        "children": [
+          {
+            "id": "ce76fdbd69ca1b9d",
+            "type": "split",
+            "children": [
+              {
+                "id": "ba57fa312471c9db",
+                "type": "tabs",
+                "dimension": 38.372093023255815,
+                "children": [
+                  {
+                    "id": "438559873ddec220",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Idi's Whiteboard.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "1889f17efaed25d2",
+                "type": "tabs",
+                "dimension": 38.31395348837209,
+                "children": [
+                  {
+                    "id": "0a52ea7c6bd22650",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "projects/workshop/Workshop.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "510c597d4eacbc0e",
+                "type": "split",
+                "dimension": 23.313953488372093,
+                "children": [
+                  {
+                    "id": "9939261f692b0656",
+                    "type": "split",
+                    "dimension": 24,
+                    "children": [
+                      {
+                        "id": "be5308c2ffd098df",
+                        "type": "tabs",
+                        "dimension": 50.12468827930174,
+                        "children": [
+                          {
+                            "id": "7831d0ccb71fd1bd",
+                            "type": "leaf",
+                            "state": {
+                              "type": "localgraph",
+                              "state": {
+                                "file": "Idi's Whiteboard.md",
+                                "options": {
+                                  "collapse-filter": true,
+                                  "search": "",
+                                  "localJumps": 1,
+                                  "localBacklinks": true,
+                                  "localForelinks": true,
+                                  "localInterlinks": false,
+                                  "showTags": false,
+                                  "showAttachments": false,
+                                  "hideUnresolved": false,
+                                  "collapse-color-groups": true,
+                                  "colorGroups": [],
+                                  "collapse-display": true,
+                                  "showArrow": false,
+                                  "textFadeMultiplier": 0,
+                                  "nodeSizeMultiplier": 1,
+                                  "lineSizeMultiplier": 1,
+                                  "collapse-forces": true,
+                                  "centerStrength": 0.518713248970312,
+                                  "repelStrength": 10,
+                                  "linkStrength": 1,
+                                  "linkDistance": 250,
+                                  "scale": 0.508761885579259,
+                                  "close": true
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "b001f03fcac6991b",
+                        "type": "tabs",
+                        "dimension": 49.87531172069826,
+                        "children": [
+                          {
+                            "id": "c381a1d055b2c93d",
+                            "type": "leaf",
+                            "state": {
+                              "type": "graph",
+                              "state": {}
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "direction": "vertical"
+                  },
+                  {
+                    "id": "598cdfd9b7629086",
+                    "type": "split",
+                    "dimension": 48,
+                    "children": [
+                      {
+                        "id": "c1e191792477bd36",
+                        "type": "split",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "159dc8ced52afcfb",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "4da9e4419d73cbc9",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "outgoing-link",
+                                  "state": {
+                                    "file": "Idi's Whiteboard.md",
+                                    "linksCollapsed": false,
+                                    "unlinkedCollapsed": true
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "941dd8544b13ec56",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "c8e15e4fec7b0f16",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "backlink",
+                                  "state": {
+                                    "file": "Idi's Whiteboard.md",
+                                    "collapseAll": false,
+                                    "extraContext": false,
+                                    "sortOrder": "alphabetical",
+                                    "showSearch": false,
+                                    "searchQuery": "",
+                                    "backlinkCollapsed": false,
+                                    "unlinkedCollapsed": true
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "direction": "horizontal"
+                      },
+                      {
+                        "id": "72d0274a75abd7a5",
+                        "type": "split",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "c454cdabeb960bfc",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "7054ba8328be5927",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "all-properties",
+                                  "state": {
+                                    "sortOrder": "frequency",
+                                    "showSearch": false,
+                                    "searchQuery": ""
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "0d9d89c9647f0901",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "9c5c680a93a76064",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "bookmarks",
+                                  "state": {}
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "direction": "horizontal"
+                      }
+                    ],
+                    "direction": "vertical"
+                  },
+                  {
+                    "id": "66cdd5255d393f36",
+                    "type": "split",
+                    "dimension": 28.000000000000004,
+                    "children": [
+                      {
+                        "id": "8e9ae1343d79d17c",
+                        "type": "tabs",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "8ae70c34f1b85594",
+                            "type": "leaf",
+                            "state": {
+                              "type": "outline",
+                              "state": {
+                                "file": "Idi's Whiteboard.md"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "bd7ef5e3f3f896ee",
+                        "type": "tabs",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "8c72357f6d6344d0",
+                            "type": "leaf",
+                            "state": {
+                              "type": "tag",
+                              "state": {
+                                "sortOrder": "frequency",
+                                "useHierarchy": true
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "direction": "vertical"
+                  }
+                ],
+                "direction": "horizontal"
+              }
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8830a64638645d40",
+        "type": "split",
+        "children": [
+          {
+            "id": "e304a1d9844d08d6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a383b42b337c1a81",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "db784230076004b7",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2a3238cf6558d467",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "91d5d717a68a50c7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "6855f61d2d506c07",
+        "type": "split",
+        "children": [],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "janitor:Janitor: scan vault": false,
+          "omnisearch:Omnisearch": false,
+          "templates:Insert template": false,
+          "switcher:Open quick switcher": false,
+          "command-palette:Open command palette": false,
+          "canvas:Create new canvas": false,
+          "graph:Open graph view": false
+        }
+      },
+      "active": "438559873ddec220",
+      "mtime": "2026-11-11T15:46:35+02:00"
+    },
+    "500 Width 500 Height 2333 Note": {
+      "main": {
+        "id": "03767b7719c3ab54",
+        "type": "split",
+        "children": [
+          {
+            "id": "ce76fdbd69ca1b9d",
+            "type": "split",
+            "children": [
+              {
+                "id": "ba57fa312471c9db",
+                "type": "tabs",
+                "dimension": 69.98202516476933,
+                "children": [
+                  {
+                    "id": "438559873ddec220",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Idi's Whiteboard.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "510c597d4eacbc0e",
+                "type": "split",
+                "dimension": 30.017974835230675,
+                "children": [
+                  {
+                    "id": "9939261f692b0656",
+                    "type": "split",
+                    "dimension": 24.045801526717558,
+                    "children": [
+                      {
+                        "id": "be5308c2ffd098df",
+                        "type": "tabs",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "7831d0ccb71fd1bd",
+                            "type": "leaf",
+                            "state": {
+                              "type": "localgraph",
+                              "state": {
+                                "file": "Idi's Whiteboard.md",
+                                "options": {
+                                  "collapse-filter": true,
+                                  "search": "",
+                                  "localJumps": 1,
+                                  "localBacklinks": true,
+                                  "localForelinks": true,
+                                  "localInterlinks": false,
+                                  "showTags": false,
+                                  "showAttachments": false,
+                                  "hideUnresolved": false,
+                                  "collapse-color-groups": true,
+                                  "colorGroups": [],
+                                  "collapse-display": true,
+                                  "showArrow": false,
+                                  "textFadeMultiplier": 0,
+                                  "nodeSizeMultiplier": 1,
+                                  "lineSizeMultiplier": 1,
+                                  "collapse-forces": true,
+                                  "centerStrength": 0.518713248970312,
+                                  "repelStrength": 10,
+                                  "linkStrength": 1,
+                                  "linkDistance": 250,
+                                  "scale": 0.508761885579259,
+                                  "close": true
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "b001f03fcac6991b",
+                        "type": "tabs",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "c381a1d055b2c93d",
+                            "type": "leaf",
+                            "state": {
+                              "type": "graph",
+                              "state": {}
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "direction": "vertical"
+                  },
+                  {
+                    "id": "598cdfd9b7629086",
+                    "type": "split",
+                    "dimension": 48.091603053435115,
+                    "children": [
+                      {
+                        "id": "c1e191792477bd36",
+                        "type": "split",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "159dc8ced52afcfb",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "4da9e4419d73cbc9",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "outgoing-link",
+                                  "state": {
+                                    "file": "Idi's Whiteboard.md",
+                                    "linksCollapsed": false,
+                                    "unlinkedCollapsed": true
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "941dd8544b13ec56",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "c8e15e4fec7b0f16",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "backlink",
+                                  "state": {
+                                    "file": "Idi's Whiteboard.md",
+                                    "collapseAll": false,
+                                    "extraContext": false,
+                                    "sortOrder": "alphabetical",
+                                    "showSearch": false,
+                                    "searchQuery": "",
+                                    "backlinkCollapsed": false,
+                                    "unlinkedCollapsed": true
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "direction": "horizontal"
+                      },
+                      {
+                        "id": "72d0274a75abd7a5",
+                        "type": "split",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "c454cdabeb960bfc",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "7054ba8328be5927",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "all-properties",
+                                  "state": {
+                                    "sortOrder": "frequency",
+                                    "showSearch": false,
+                                    "searchQuery": ""
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "0d9d89c9647f0901",
+                            "type": "tabs",
+                            "dimension": 50,
+                            "children": [
+                              {
+                                "id": "9c5c680a93a76064",
+                                "type": "leaf",
+                                "state": {
+                                  "type": "bookmarks",
+                                  "state": {}
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "direction": "horizontal"
+                      }
+                    ],
+                    "direction": "vertical"
+                  },
+                  {
+                    "id": "66cdd5255d393f36",
+                    "type": "split",
+                    "dimension": 27.86259541984733,
+                    "children": [
+                      {
+                        "id": "8e9ae1343d79d17c",
+                        "type": "tabs",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "8ae70c34f1b85594",
+                            "type": "leaf",
+                            "state": {
+                              "type": "outline",
+                              "state": {
+                                "file": "Idi's Whiteboard.md"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "bd7ef5e3f3f896ee",
+                        "type": "tabs",
+                        "dimension": 50,
+                        "children": [
+                          {
+                            "id": "8c72357f6d6344d0",
+                            "type": "leaf",
+                            "state": {
+                              "type": "tag",
+                              "state": {
+                                "sortOrder": "frequency",
+                                "useHierarchy": true
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "direction": "vertical"
+                  }
+                ],
+                "direction": "horizontal"
+              }
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8830a64638645d40",
+        "type": "split",
+        "children": [
+          {
+            "id": "e304a1d9844d08d6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a383b42b337c1a81",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "db784230076004b7",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2a3238cf6558d467",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "91d5d717a68a50c7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 251.5
+      },
+      "right": {
+        "id": "6855f61d2d506c07",
+        "type": "split",
+        "children": [],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "janitor:Janitor: scan vault": false,
+          "omnisearch:Omnisearch": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "templates:Insert template": false,
+          "canvas:Create new canvas": false,
+          "command-palette:Open command palette": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false
+        }
+      },
+      "active": "438559873ddec220",
+      "mtime": "2026-11-11T15:46:35+02:00"
+    },
+    "1417 Notes": {
+      "main": {
+        "id": "03767b7719c3ab54",
+        "type": "split",
+        "children": [
+          {
+            "id": "ce76fdbd69ca1b9d",
+            "type": "split",
+            "children": [
+              {
+                "id": "ba57fa312471c9db",
+                "type": "tabs",
+                "dimension": 42.48052726183344,
+                "children": [
+                  {
+                    "id": "438559873ddec220",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Idi's Whiteboard.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "a5565bfeda16910f",
+                "type": "tabs",
+                "dimension": 42.54044337926902,
+                "children": [
+                  {
+                    "id": "37afd2789a6bfec7",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "projects/workshop/Workshop.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "510c597d4eacbc0e",
+                "type": "split",
+                "dimension": 14.979029358897545,
+                "children": [
+                  {
+                    "id": "69583b7206836c42",
+                    "type": "tabs",
+                    "dimension": 19.256434699714013,
+                    "children": [
+                      {
+                        "id": "c381a1d055b2c93d",
+                        "type": "leaf",
+                        "state": {
+                          "type": "graph",
+                          "state": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4d1f5d18f0fdc6df",
+                    "type": "tabs",
+                    "dimension": 19.256434699714013,
+                    "children": [
+                      {
+                        "id": "7831d0ccb71fd1bd",
+                        "type": "leaf",
+                        "state": {
+                          "type": "localgraph",
+                          "state": {
+                            "file": "Idi's Whiteboard.md",
+                            "options": {
+                              "collapse-filter": true,
+                              "search": "",
+                              "localJumps": 1,
+                              "localBacklinks": true,
+                              "localForelinks": true,
+                              "localInterlinks": false,
+                              "showTags": false,
+                              "showAttachments": false,
+                              "hideUnresolved": false,
+                              "collapse-color-groups": true,
+                              "colorGroups": [],
+                              "collapse-display": false,
+                              "showArrow": true,
+                              "textFadeMultiplier": -3,
+                              "nodeSizeMultiplier": 0.75078125,
+                              "lineSizeMultiplier": 0.75078125,
+                              "collapse-forces": false,
+                              "centerStrength": 0.518713248970312,
+                              "repelStrength": 10,
+                              "linkStrength": 1,
+                              "linkDistance": 125,
+                              "scale": 1.7404978230765895,
+                              "close": true
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f3746828c607bbc8",
+                    "type": "split",
+                    "dimension": 32.79313632030505,
+                    "children": [
+                      {
+                        "id": "f88a33bb414757bc",
+                        "type": "tabs",
+                        "children": [
+                          {
+                            "id": "9c5c680a93a76064",
+                            "type": "leaf",
+                            "state": {
+                              "type": "bookmarks",
+                              "state": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "8453d4bf05ce4647",
+                        "type": "tabs",
+                        "children": [
+                          {
+                            "id": "7054ba8328be5927",
+                            "type": "leaf",
+                            "state": {
+                              "type": "all-properties",
+                              "state": {
+                                "sortOrder": "frequency",
+                                "showSearch": false,
+                                "searchQuery": ""
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "direction": "vertical"
+                  },
+                  {
+                    "id": "772f6f29f0ed6230",
+                    "type": "tabs",
+                    "dimension": 28.69399428026692,
+                    "children": [
+                      {
+                        "id": "8c72357f6d6344d0",
+                        "type": "leaf",
+                        "state": {
+                          "type": "backlink",
+                          "state": {
+                            "file": "Idi's Whiteboard.md"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "direction": "horizontal"
+              }
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8830a64638645d40",
+        "type": "split",
+        "children": [
+          {
+            "id": "e304a1d9844d08d6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a383b42b337c1a81",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "db784230076004b7",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "2a3238cf6558d467",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "91d5d717a68a50c7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 251.5
+      },
+      "right": {
+        "id": "6855f61d2d506c07",
+        "type": "split",
+        "children": [],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "templates:Insert template": false,
+          "canvas:Create new canvas": false,
+          "command-palette:Open command palette": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "janitor:Janitor: scan vault": false,
+          "omnisearch:Omnisearch": false
+        }
+      },
+      "active": "438559873ddec220",
+      "mtime": "2026-11-11T15:46:35+02:00"
+    },
+    "Workshop": {
+      "main": {
+        "id": "d68b187b79ccfb1f",
+        "type": "split",
+        "direction": "vertical",
+        "children": [
+          {
+            "id": "db883d52de3d24d8",
+            "type": "tabs",
+            "dimension": 76,
+            "children": [
+              {
+                "id": "c261729d2e8a9cdf",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "projects/workshop/Board.canvas",
+                    "viewState": {
+                      "x": 1230,
+                      "y": 735,
+                      "zoom": -0.66
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Board"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ccf3aebb457b74cc",
+            "type": "tabs",
+            "dimension": 24,
+            "children": [
+              {
+                "id": "e4712bc0f0718dc6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Idi's Whiteboard.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Idi's Whiteboard"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "left": {
+        "id": "d46e3a86af0fce46",
+        "type": "split",
+        "children": [
+          {
+            "id": "1e7749754e3adce4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c48399a391e971e6",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "1718c30ceb69ec77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e360af56eb94226f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "d1131767b215f34d",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4ff725cac2923a0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ed72ee114eecfa2e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "projects/Cash/transition.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "b462cf9e1d88b842",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "projects/Cash/transition.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "814f40656c0db6e6",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "9363c76eb1b4024a",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "0bbbe803e8c3c3fb",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "projects/Cash/transition.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "templater-obsidian:Templater": false,
+          "third-mind-reader:Open Library": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "e4712bc0f0718dc6",
+      "mtime": "2026-11-11T15:46:35+02:00"
+    }
+  },
+  "active": "Workshop"
+}

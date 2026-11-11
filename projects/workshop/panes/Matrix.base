@@ -36,3 +36,5 @@ views:
       - next
       - cost_min
       - status
+    columnSize:
+      note.next: 720

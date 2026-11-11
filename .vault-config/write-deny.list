@@ -17,7 +17,8 @@
 /home/jep/vault/.git/**
 
 # Obsidian internals — managed by the app, not by Claude.
-/home/jep/vault/.obsidian/**
+/home/jep/vault/.obsidian/plugins/**
+/home/jep/vault/.obsidian/community-plugins.json
 
 # TELOS identity context — Idi's self-description, jep reads only.
 /home/jep/vault/telos/**

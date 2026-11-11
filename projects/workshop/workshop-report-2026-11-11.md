@@ -150,3 +150,50 @@ jep did not touch `daily/Today.md` today: you were typing in it this morning.
 | I4 next step | jep's move: find the screenplay or a transcript, settle every checkable item on the rewatch list, leave him the interpretation. Starts when the card is dragged to active | `hubs/I4.md` |
 
 Two things this round changed in the risks above: risk 1 is closed by the clock check, and risk 2 by his confirmation. One is new: W1 B and W2 B are the kind of slot that ended five of six earlier attempts. The test is cheap: the Morning table either shrinks or it does not. If its count is unchanged on 2026-11-25, the ruling gets revisited.
+
+## 12. Third round, 2026-11-11: permissions, the black look, worktrees, Agent View
+
+Idi's screenshot `D:\work\screens\Board.png` shows the canvas rendering as built and the "Days quiet" column showing numbers. jep measured three flaws on it and re-laid the canvas (2460 by 1470 units): the paused column cut off its seventh card, the Morning card scrolled after 8 of 14 rows, the check card showed its properties in place of its verdict. **The new layout is unseen.**
+
+### Opening Obsidian's config to jep
+
+Facts, read from Windows on 2026-11-11:
+
+- Obsidian runs under Idi's Windows account, which is an administrator. jep is a standard user in a separate session.
+- Every file in the vault, the deny list and the guard script are owned by `jep` with full control. The guard hook is the only barrier, and it only watches jep's Claude Code tools.
+- A plugin is code that Obsidian runs as Idi. Whoever can write into the config's `plugins` folder can run code as him.
+
+| | What stays closed to jep | What it does |
+|---|---|---|
+| A (jep's pick) | Plugin code only: the `plugins` folder and `community-plugins.json` | jep can build workspaces, themes, snippets, hotkeys, appearance and core-plugin switches. Plugins get installed by Idi, in Obsidian's own browser |
+| B | Nothing | jep can also install and edit plugins. Anything that ever steers jep wrongly can then run as Idi |
+| C | Everything, as today | Idi builds layouts by hand |
+
+To enact A, Idi's hand, in Notepad: open `D:\work\vault\.vault-config\write-deny.list` and replace the line `/home/jep/vault/.obsidian/**` with these two lines:
+
+```
+/home/jep/vault/.obsidian/plugins/**
+/home/jep/vault/.obsidian/community-plugins.json
+```
+
+Dry run, done by loading the real guard's functions against a copy of the list with that change: workspaces, appearance, themes, snippets, hotkeys and core-plugins come out allowed for both the editor and the shell; `plugins/…/main.js`, `plugins/…/data.json` and `community-plugins.json` stay denied; atomic notes, TELOS and the deny list itself stay denied.
+
+A Windows-level lock on the `plugins` folder (an administrator takes ownership and denies jep write) would hold against anything running as jep, where the hook holds only against jep's own tools. It is a second step, on his word.
+
+### The black look
+
+Found: [[projects/workshop/research/obsidian-foundation-2026-11-11|obsidian foundation]]. Three hand-named workspaces and about 90 colour and style values on pure black, identical in three archived configs. The rebuild needs no plugin code and starts the moment A is enacted.
+
+### Worktrees and Agent View
+
+18 SAFE worktree folders removed, every branch kept; 6 remain. Row-by-row advice for the Agent View (delete 22 of 29 rows): [[projects/workshop/research/worktree-audit-2026-11-11|worktree audit]], last two sections.
+
+TELOS Current Focus was pasted by Idi on 11-11; the cards' `telos` column follows it.
+
+## 13. Fourth round, 2026-11-11: the black layout, built
+
+Idi enacted option A (the deny list now closes only `plugins/` and `community-plugins.json`) and ordered "build the black layout". **Unverified: unseen in Obsidian.**
+
+Built and installed into the vault's Obsidian config: Minimal 9.1.4, the generated snippet `idi-black` (his 88 surviving values and 44 switches, no plugin), his own `properties-layout` snippet, his three layouts adapted to this vault, and a new `Workshop` layout (board 76 %, Whiteboard 24 %, sidebars folded). Details, checks, rollback: [[projects/workshop/research/obsidian-foundation-2026-11-11|obsidian foundation]], section 5. Generators kept in `projects/workshop/tools/obsidian-look/`.
+
+To see it: Ctrl+P → "Reload app without saving", then left ribbon → "Manage workspace layouts" → `Workshop` → Load.
