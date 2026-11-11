@@ -17,3 +17,6 @@ Yesterday: 5 days skipped since the 09-14 note. In that span Idi closed D1 2020s
 
 
 D:\work\vault\daily\Today.md
+
+
+We're doing "meta-work" today. I'd rather work on any project, but the meta-work cannot be delayed anymore. We must create a lab/workshop/kitchen to allocate resources (my time/attention/energy, your tokens, my 4090's tokens, and more) and manage all of our projects (current: AIMV #2 - Pay Attention and XCOM campaign. Frozen: We tried this several times before, and failed. Today I believe we can succeed. Atomic notes, Daily notes Literature notes, Habit dashboards, a Kanban board, a Calendar, an Eisenhower matrix, and more.
