@@ -1,0 +1,48 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - or:
+        - 'type == "literature"'
+        - file.inFolder("atomic-notes")
+properties:
+  file.name:
+    displayName: Note
+  note.by:
+    displayName: By
+  note.medium:
+    displayName: Medium
+  note.length_min:
+    displayName: Minutes
+  note.evidence:
+    displayName: Evidence
+  note.source:
+    displayName: Source
+  note.up:
+    displayName: Up
+  note.maturity:
+    displayName: Maturity
+views:
+  - type: table
+    name: Literature
+    filters:
+      and:
+        - 'type == "literature"'
+    groupBy:
+      property: note.by
+      direction: ASC
+    order:
+      - file.name
+      - medium
+      - length_min
+      - evidence
+      - source
+  - type: table
+    name: Atomic
+    filters:
+      and:
+        - file.inFolder("atomic-notes")
+    order:
+      - file.name
+      - up
+      - maturity
+      - file.mtime

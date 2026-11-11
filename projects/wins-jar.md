@@ -45,6 +45,7 @@ Removed 2026-09-05 on Idi's ruling: personal command center ("a crumbling mess",
 ## Candidates and rulings pending
 
 - C4 (staged 2026-09-14): DECADEnts D1 portraits, two done-states reached: 1990s CRT head (his prompt, seed 732135135824266, closed 09-10) and 2020s iPad Toddler (four selection rounds, his picks 6 → 3 → 8 → 4, closed 09-14 "Close it"). Receipts: `projects/decadents/renders/` (two files), `projects/decadents-d1-quest-2026-09-10.md` status done. Creation by his threshold: trying, judging, iterating, changing approaches across four rounds. Proposed: Built +2, Received 0. Idi accepts by index.
+- C5 (staged 2026-11-11): AIMV video 1 "Knowledge Cutoff", done-state reached 2026-11-01 ("production closed by Idi; video live"). Receipts: `projects/intent-log.md` row 2026-11-01; `projects/AIMV/handoff-2026-11-01-upload.md`; the 4K master `D:\work\AIMVs\ours\release\UPLOAD\knowledge-cutoff-2160p.mp4`. Creation by his threshold: lyric, takes, 11 notes on full4, thumbnail pick B2. Proposed: Built +1. Received: unknown to jep (view and comment counts unread). Idi accepts by index.
 
 Received for the 87 memes moves from 1 to the per-post count when `9gag_counts.json` lands.
 
