@@ -1,7 +1,7 @@
 ---
 total_usd: 10285.65
 total_nis: 40000
-portfolio_value: 9619.83
+portfolio_value: 9575.55
 tags:
   - cash
 ---
