@@ -93,15 +93,14 @@ Evidence: 2,500+ films, 100+ TV series, 300+ games, dozens of books. Completioni
 
 ---
 
-## Current Focus (2026-09-09)
+## Current Focus (2026-11-11)
 
-1. Tutoring K & D (S1–S6 ran; S7 cancelled 2026-09-07)
-2. Cash (allocation locked 07-24, execution checklist open, IPO war-room due ~Sep/Oct)
-3. Studio: Kid Studio v6 live, v7 built; DECADEnts D1 portrait before 2026-09-29
-4. HQ: PC is base, intent layer live 09-08
-5. XCOM 2 campaign
-6. Curtains
-7. I4
+1. AIMV: "Pay Attention" in review (v3); "Knowledge Cutoff" live 11-01
+2. XCOM 2 campaign
+3. Idiverse: morning pass
+4. Workshop: the board
+5. Frozen: Tutoring (K and D closed 09-25), I4, Curtains, DECADEnts, Kid Studio
+6. Standing: Cash, HQ
 
 ---
 

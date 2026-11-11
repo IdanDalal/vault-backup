@@ -1,59 +1,11 @@
 {
-	"nodes": [
-		{
-			"id": "00000000b0a2d001",
-			"type": "file",
-			"x": 0,
-			"y": 0,
-			"width": 1180,
-			"height": 380,
-			"file": "projects/workshop/panes/Now.base"
-		},
-		{
-			"id": "00000000b0a2d002",
-			"type": "file",
-			"x": 1200,
-			"y": 0,
-			"width": 640,
-			"height": 380,
-			"file": "projects/workshop/panes/Morning.base"
-		},
-		{
-			"id": "00000000b0a2d003",
-			"type": "file",
-			"x": 1860,
-			"y": 0,
-			"width": 600,
-			"height": 180,
-			"file": "projects/workshop/board-check.md"
-		},
-		{
-			"id": "00000000b0a2d004",
-			"type": "text",
-			"x": 1860,
-			"y": 200,
-			"width": 600,
-			"height": 180,
-			"text": "**Jar** Built 204 / Received 103, still since 2026-09-05.\nWaiting: C4 (two DECADEnts portraits), C5 (\"Knowledge Cutoff\" live). Reply `W C4`, `W C5`.\n\n[[projects/wins-jar|Open the jar]] · [[projects/workshop/Workshop|Rules and fields]]"
-		},
-		{
-			"id": "00000000b0a2d005",
-			"type": "file",
-			"x": 0,
-			"y": 400,
-			"width": 1500,
-			"height": 980,
-			"file": "projects/workshop/panes/Board.base"
-		},
-		{
-			"id": "00000000b0a2d006",
-			"type": "file",
-			"x": 1520,
-			"y": 400,
-			"width": 940,
-			"height": 980,
-			"file": "projects/workshop/panes/Matrix.base"
-		}
+	"nodes":[
+		{"id":"00000000b0a2d001","type":"file","x":0,"y":0,"width":1180,"height":380,"file":"projects/workshop/panes/Now.base"},
+		{"id":"00000000b0a2d002","type":"file","x":1200,"y":0,"width":640,"height":380,"file":"projects/workshop/panes/Morning.base"},
+		{"id":"00000000b0a2d003","type":"file","x":1860,"y":0,"width":600,"height":180,"file":"projects/workshop/board-check.md"},
+		{"id":"00000000b0a2d004","type":"text","x":1860,"y":200,"width":600,"height":180,"text":"**Jar** Built 204 / Received 103, still since 2026-09-05.\nWaiting: C4 (two DECADEnts portraits), C5 (\"Knowledge Cutoff\" live). Reply `W C4`, `W C5`.\n\n[[projects/wins-jar|Open the jar]] · [[projects/workshop/Workshop|Rules and fields]]"},
+		{"id":"00000000b0a2d005","type":"file","x":0,"y":400,"width":1500,"height":980,"file":"projects/workshop/panes/Board.base"},
+		{"id":"00000000b0a2d006","type":"file","x":1520,"y":400,"width":940,"height":980,"file":"projects/workshop/panes/Matrix.base"}
 	],
-	"edges": []
+	"edges":[]
 }
