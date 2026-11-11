@@ -2,6 +2,7 @@
 type: literature
 created: 2026-11-11
 author: jep
+processed: false
 source: https://www.youtube.com/watch?v=i8h4eTcxF9E
 by: Tris Oaten (No Boilerplate)
 medium: video
@@ -14,28 +15,57 @@ tags:
 
 # No Boilerplate - Obsidian for Learning I: Capture
 
-Part 1 of 3 of the "FLAP" system. Parts: [[No Boilerplate - Obsidian for Learning II Process]], [[No Boilerplate - Obsidian for Learning III Projects]].
+Part 1 of 3 of the "FLAP" system. Next: [[No Boilerplate - Obsidian for Learning II Process]], [[No Boilerplate - Obsidian for Learning III Projects]].
 
-## What it says
+jep laid out the highlights. The space under each one is Idi's, and jep leaves it alone. Tick `processed` when the source is spent.
 
-- [1:40] Start with one note. Links first, tags to cut across groups, saved searches and bookmarks, hotkeys. "Search, don't sort."
-- [3:40] "If you ever do something twice, automate it."
-- [7:05] The system has three parts: capture, process, write. Two parents: Zettelkasten (linked notes in your own words) and GTD (David Allen's task system).
-- [9:20] Three input note kinds: lecture notes, literature notes (highlights from a source), fleeting notes (your own passing thoughts).
-- [10:40] A fleeting note is temporary by definition: once it has done its job it gets deleted. Alan Watts: "don't drag the raft with you after you have crossed the river."
-- [12:00] **The temporal contract**, two duties: (1) store every fleeting note in one trusted place, (2) read yesterday's fleeting notes every day. "I say read, not do." An item that does not fit yet stays on the list and gets read again tomorrow.
-- [13:15] Plugins he uses: Readwise (paid highlight sync), QuickAdd (capture command), Spaced Repetition (to resurface snoozed notes), Telegram and REST capture from outside Obsidian.
-- [15:50] His capture template: tag `fleeting`, plus a callout holding the original wording, so the raw thought survives later rewrites.
-- [16:30] "It's easy to mistake note taking with note making."
-- Homework: Bob Doto, *A System for Writing*; the first chapters of David Allen, *Getting Things Done*.
+## Highlights
 
-## What it measured vs what it claims
+### 1. [3:40] Twice
 
-Nothing measured. "Triple your powers" (the temporal contract) is rhetoric. The practice itself is GTD's capture-then-review loop.
+> "If you ever do something twice, automate it."
 
-## Use in the workshop
 
-- Adopt: one capture place. Idi already has it: the Yours zone of `daily/Today.md` (176 commits since 09-26).
-- Adopt: "read, not do." jep reads the Yours zone and its git history at session start; nothing in it becomes a task unless Idi names it.
-- Skip: Readwise. Paid account with signup, against the anonymous-downloads rule. jep pulls transcripts and highlights instead (this file is the proof).
-- Skip: QuickAdd, Telegram capture. The phone capture channel got 2 captures in 2 months.
+
+### 2. [10:40] What makes a note fleeting
+
+> "What makes a fleeting note fleeting is that once it has helped you remember something, you throw it away or delete it."
+
+
+
+### 3. [11:55] Capture, but not do
+
+> "At first, it's critical to capture, but not do."
+
+
+
+### 4. [12:10] The temporal contract
+
+> "One, you must store all fleeting notes safely in a single trusted system. And two, every day you must read yesterday's fleeting notes. I say read, not do."
+
+
+
+### 5. [12:50] The duty to your past self
+
+> "You do not need to do what your past self asks, but you must have at least read it."
+
+
+
+### 6. [15:50] Keep the original wording
+
+> "This duplication ensures that I have a paper trail back to my original unedited thought, even if I later reword this fleeting note into an atomic note."
+
+
+
+### 7. [16:30] Taking and making
+
+> "It's easy to mistake note taking with note making or knowledge gathering with understanding."
+
+
+
+## jep's notes
+
+- Rest of the video: links before folders, tags to cut across groups, "search, don't sort", hotkeys; three input kinds (lecture, literature, fleeting); plugins Readwise (paid highlight sync), QuickAdd, Spaced Repetition, Telegram capture. Homework he sets: Bob Doto, *A System for Writing*; the first chapters of David Allen, *Getting Things Done*.
+- Measured: nothing. "Triple your powers" is rhetoric; the practice is GTD's capture-then-review loop.
+- Captions are automatic; highlight 7 had a stutter removed.
+- In the workshop: the fleeting notes in `inbox/fleeting` follow his template (original wording kept in a callout). Readwise is skipped: paid, signup-walled.

@@ -22,4 +22,4 @@ One character per decade. D1 = one portrait per entry of the Character Visual Di
 - **Read first**: [[projects/decadents/decadents-bible|bible]], [[projects/decadents-d1-quest-2026-09-10|D1 quest]]
 - **Jar**: candidate C4 (two portraits) staged 09-14, unanswered.
 - **4090**: renders.
-- **Value basis** (jep's guess, low confidence): no session since 09-14. If this belongs with the 09-08 list ("make a series"), set `value` to high and it becomes the cheapest high-value move on the board.
+- **Value basis** (confirmed by Idi 11-11): no session since 09-14.

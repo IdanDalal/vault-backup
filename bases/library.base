@@ -3,10 +3,13 @@ filters:
     - file.ext == "md"
     - or:
         - type == "literature"
+        - type == "fleeting"
         - file.inFolder("atomic-notes")
 properties:
   file.name:
     displayName: Note
+  note.type:
+    displayName: Kind
   note.by:
     displayName: By
   note.medium:
@@ -17,11 +20,27 @@ properties:
     displayName: Evidence
   note.source:
     displayName: Source
+  note.processed:
+    displayName: Processed
   note.up:
     displayName: Up
   note.maturity:
     displayName: Maturity
 views:
+  - type: table
+    name: Morning
+    filters:
+      and:
+        - processed != true
+        - or:
+            - type == "literature"
+            - type == "fleeting"
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - processed
   - type: table
     name: Literature
     filters:
@@ -32,6 +51,7 @@ views:
       direction: ASC
     order:
       - file.name
+      - processed
       - medium
       - length_min
       - evidence
@@ -46,3 +66,12 @@ views:
       - up
       - maturity
       - file.mtime
+  - type: table
+    name: Fleeting
+    filters:
+      and:
+        - type == "fleeting"
+    order:
+      - file.name
+      - processed
+      - file.ctime

@@ -1,7 +1,9 @@
 """hub_check.py - prove the Workshop board is true.
 
-Usage:  python -I hub_check.py [VAULT_ROOT]
-Reads only. Exit code 0 = clean, 1 = at least one ERROR.
+Usage:  python -I hub_check.py [VAULT_ROOT] [--write]
+Reads only, unless --write: then it keeps projects/workshop/board-check.md in step with the
+verdict, rewriting that one file only when the verdict changes (the 30-minute autocommit calls it so).
+Exit code 0 = clean, 1 = at least one ERROR.
 
 Checks, per hub in projects/workshop/hubs/:
   1. required properties present, enums respected
@@ -36,11 +38,13 @@ LOG_KEYS = {
     "Kid Studio": ["kid studio", "kidstudio", "studio v"],
     "Tutoring": ["tutoring"],
     "HQ": ["hq", "worktree", "laptop", "name guard", "local agent", "local model", "bsod"],
-    "Idiverse": ["idiverse", "atomic note"],
+    "Idiverse": ["idiverse", "atomic note", "morning pass", "literature note"],
 }
 BANNED = ["—", "load-bearing", "Idan "]
 
-root = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.abspath(
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+WRITE = "--write" in sys.argv[1:]
+root = os.path.abspath(args[0]) if args else os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 ws = os.path.join(root, "projects", "workshop")
 hubs_dir = os.path.join(ws, "hubs")
@@ -145,14 +149,14 @@ for fn in sorted(os.listdir(hubs_dir)):
     rows.append((name, fm.get("status", "?"), fm.get("ball", "?"), fm.get("last", "?"), newest or "-"))
 
 if len(active) > WIP_CAP:
-    warns.append(f"WIP: {len(active)} active ({', '.join(active)}), cap is {WIP_CAP}")
+    warns.append(f"{len(active)} projects active ({', '.join(active)}); rule 1 allows {WIP_CAP}")
 
 for d, dirs, files in os.walk(ws):
     for fn in files:
         p = os.path.join(d, fn)
         rel = os.path.relpath(p, root).replace("\\", "/")
-        if not fn.endswith(".md"):
-            continue
+        if not fn.endswith(".md") or fn == "board-check.md":
+            continue  # board-check.md is this script's own output
         text = read(p)
         fm, _ = frontmatter(text)
         for k in ("type", "created", "author"):
@@ -176,4 +180,28 @@ for w in warns:
     print("WARN  " + w)
 for e in errors:
     print("ERROR " + e)
+
+if WRITE:
+    import datetime
+    check = os.path.join(ws, "board-check.md")
+    lines = ["- " + e for e in errors] + ["- " + w for w in warns]
+    lines = [l.replace("[[", "[").replace("]]", "]") for l in lines]  # no live links in the verdict
+    if errors:
+        verdict = f"**{len(errors)} card problem{'s' if len(errors) != 1 else ''}**"
+    else:
+        verdict = "**Cards true**"
+    NL = chr(10)
+    old = read(check) if os.path.exists(check) else ""
+    marker = "<!-- verdict: " + verdict + " | " + " ; ".join(lines) + " -->"
+    if marker not in old:
+        stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+        parts = ["---", "type: note", "created: 2026-11-11", "author: jep", "---", "",
+                 f"{verdict} since {stamp}. {len(rows)} cards, {len(active)} active (cap {WIP_CAP}). "
+                 "Checked every 30 minutes by the vault autocommit.", ""]
+        if lines:
+            parts += lines + [""]
+        parts += [marker, ""]
+        with open(check, "w", encoding="utf-8", newline="") as f:
+            f.write(NL.join(parts))
+        print("board-check.md rewritten")
 sys.exit(1 if errors else 0)

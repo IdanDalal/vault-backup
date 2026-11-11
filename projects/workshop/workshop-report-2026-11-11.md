@@ -127,3 +127,26 @@ jep did not touch `daily/Today.md` today: you were typing in it this morning.
 2. `value` is a guess on every card.
 3. jep reads one side of the machine: the live Idiverse, bookmarks and eleven `D:\` folders are closed to it. Any index is partial until that changes.
 4. The alternative jep weighed: no board at all, only the cap of two plus the handoff files that already work. The board earns its place only if the Matrix or the Board changes one decision in the next two weeks. If neither does, archive it.
+
+## 11. Idi's rulings, 2026-11-11 afternoon, and what each became
+
+**Unverified:** `Board.canvas`, the four pane bases, the Morning table and the corrected "Days quiet" column have not been seen rendered.
+
+| Ruling, in his words | Done | Where |
+|---|---|---|
+| "all four tables appear" | Receipt for the morning build; Obsidian kept `type: kanban` and `groupOrder` when it rewrote the file | `bases/workshop.base` |
+| "Days quiet" shows `Cannot find function "round" on type Duration` | Subtracting two dates gives a Duration; the formula now subtracts `number(date)`, documented as milliseconds. Same bug fixed in `calendar.base` and `projects.base` | three base files |
+| W1 B, daily processing | Morning pass defined; 7 fleeting notes staged from his own idea stubs in `D:\work\PKMS\Ideas`, wording verbatim; Idiverse card set to active | `Workshop.md`, `inbox/fleeting` |
+| W2 B, his words under jep's highlights | The 7 literature notes rebuilt: 49 verbatim highlights, each with space under it; `processed` flag per source | `projects/workshop/sources` |
+| W3 A | No habit dashboard | none |
+| "Delete Today.md" | Deleted after proof that the file equalled its committed copy (`8feeaeb`) and its Yours zone was empty. The daily-note procedure and `intent.md` now point at the Whiteboard and the board | `daily/Today.md` gone; dated archives kept |
+| "The board should have its own file" | `Board.canvas`: six cards on one canvas, each base card live | `projects/workshop/Board.canvas`, `panes/` |
+| "a workspace/layout using the Obsidian Workspaces core plugin" | **Blocked for jep.** The write guard denies jep Obsidian's config folder ("managed by the app, not by Claude"), where layouts are stored. His hand, three steps, on `Workshop.md` | section One screen |
+| "update TELOS Current Focus" | **Blocked for jep.** The guard denies jep the TELOS folder ("jep reads only"), by his own 09-08 ruling. Paste-ready text was handed over in the terminal | his hand |
+| "chain the check" | One fail-safe line in the 30-minute autocommit script; verdict note rewritten only on change | `C:\Users\jep\hq\vault-autocommit.sh`, `board-check.md` |
+| "audit worktrees" | 23 audited: 18 safe to remove (10,985 files, 1,247 MB), 3 hold files found nowhere else, 2 live. Nothing removed | `research/worktree-audit-2026-11-11.md` |
+| "good guessing on the values" | All eleven `value` cells marked confirmed | cards |
+| XCOM next step | "Describe the issues in your new screenshots, then fix them with jep" | `hubs/XCOM.md` |
+| I4 next step | jep's move: find the screenplay or a transcript, settle every checkable item on the rewatch list, leave him the interpretation. Starts when the card is dragged to active | `hubs/I4.md` |
+
+Two things this round changed in the risks above: risk 1 is closed by the clock check, and risk 2 by his confirmation. One is new: W1 B and W2 B are the kind of slot that ended five of six earlier attempts. The test is cheap: the Morning table either shrinks or it does not. If its count is unchanged on 2026-11-25, the ruling gets revisited.

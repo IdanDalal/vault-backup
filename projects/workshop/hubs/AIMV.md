@@ -23,4 +23,4 @@ AI-made music videos about AI. Video 1 "Knowledge Cutoff" went live 2026-11-01. 
 - **Read first**: [[projects/AIMV/kit/v2-notes-rulings-2026-11-08|v2 notes and rulings]], [[projects/AIMV/kit/collab-overhaul-proposal-2026-11-10|collab overhaul proposal]]
 - **Outside the vault**: `D:\work\aimv-lab` (engine, 163 GB), `D:\work\AIMVs\ours\pa-song` (renders, review mp4)
 - **4090**: renders. Stop the local model before a render.
-- **Value basis** (jep's guess, change the cell to overrule): shipped in public 11-01; "make a movie... a YouTube channel" is on the 09-08 list.
+- **Value basis** (confirmed by Idi 11-11): shipped in public 11-01; "make a movie... a YouTube channel" is on the 09-08 list.

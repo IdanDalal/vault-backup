@@ -3,7 +3,7 @@ filters:
     - file.ext == "md"
     - file.hasProperty("due")
 formulas:
-  days_left: if(due, ((date(due) - today()) / 86400000).round(0), "")
+  days_left: if(due, ((number(date(due)) - number(today())) / 86400000).round(0), "")
   overdue_flag: if(due, if(date(due) < today() && status != "done", "⚠️ OVERDUE", ""), "")
   weekday: if(due, date(due).format("dddd"), "")
 properties:

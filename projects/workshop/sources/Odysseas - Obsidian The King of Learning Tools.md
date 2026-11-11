@@ -2,6 +2,7 @@
 type: literature
 created: 2026-11-11
 author: jep
+processed: false
 source: https://www.youtube.com/watch?v=hSTy_BInQs8
 by: Odysseas
 medium: video
@@ -16,27 +17,67 @@ tags:
 
 Listed in Idi's `PKMS\PKM.txt` next to "Tags: #baby\#child\#adult, #quote". Short companion: [[Odysseas - Literature Notes and Atomic Notes]].
 
-## What it says
+jep laid out the highlights. The space under each one is Idi's, and jep leaves it alone. Tick `processed` when the source is spent.
 
-- [0:30] **The warning, first.** Watching 10 or 20 setup videos and taking a feature from each produced "this Frankenstein's monster of a setup that tries to be everything, but fails." "For months I didn't really do much writing. I was just obsessed with getting the perfect setup." His fix: drop the plugins and gimmicks, keep the bare bones. After 9 months his setup had not changed.
-- [3:20] Source of the method: Sönke Ahrens, *How to Take Smart Notes* (the Zettelkasten, or slip-box).
-- [4:10] Three benefits he claims: it slows reading down; writing gives instant feedback on understanding; notes kept out of subject folders can connect across subjects.
-- [10:50] Two writers. One researches for a single book and throws the research away. The other collects notes on whatever interests him, sees clusters form, and drafts from them; the same notes serve many projects.
-- [15:15] Six folders: 1 Rough notes, 2 Source material, 3 Tags, 4 Indexes, 5 Templates, 6 Main notes (every atomic note in one folder).
-- [16:50] Tags are empty notes that he links to, so a tag has a page. [18:20] When a tag gathers many notes (his "learning" tag had 51) he writes headings on that page and it becomes an index.
-- [22:30] Template: date, time, status, tags, title, body, References.
-- [28:00] Status = `#baby`, `#child`, `#adult`: how developed the note is. `#quote` marks notes that hold a quotation. "This is a less important feature."
-- [29:00] Tag rules: neither vague ("self-improvement") nor single-use; named for your own interests; reuse before creating; keep to 4 or 5 per note.
-- [33:00] Note rules: under 500 words, fits on one screen, one idea per note, formatted for the reader you will be later.
-- [34:40] References: link similar notes and the source note.
-- Plugins after 9 months: two (word count, random note). "The power of the system is in its simplicity."
+## Highlights
 
-## What it measured vs what it claims
+### 1. [1:10] The monster
 
-Nothing measured. The stability claim (unchanged for 9 months) is his own report.
+> "You end up with this mess. This Frankenstein's monster of a setup that tries to be everything, but fails."
 
-## Use in the workshop
 
-- Adopt: the Frankenstein warning as the build rule. Idi's 11-11 wish list names seven tools at once; this source and [[No Boilerplate - Obsidian for Learning III Projects]] both say to add one layer at a time.
-- Already here: `#child` appears as a status on 3 vault notes. In an atomic-note base it would be a `maturity` property, separate from the task `status` enum.
-- Adopt: tag-as-note turning into an index. Bases makes the index automatic.
+
+### 2. [1:40] Gimmicks
+
+> "Every time I added a new feature, I was only adding a pointless gimmick that was a distraction from the true work, the writing."
+
+
+
+### 3. [4:40] Slow down
+
+> "The best thing I ever did for my reading was to slow it right down, and take thorough notes in the process."
+
+
+
+### 4. [5:50] Practice and feedback
+
+> "To get better at any skill, you need two things: You need practice and you need feedback."
+
+
+
+### 5. [12:10] The second writer
+
+> "It was a relatively quick process, because most of the writing was already done in the form of the notes, way before the idea of the book even existed."
+
+
+
+### 6. [20:15] One folder
+
+> "The lack of folders is what keeps this system flexible and open to connection."
+
+
+
+### 7. [28:10] Baby, child, adult
+
+> "I'll either write #baby, #child or #adult. This sounds weird, but all it means is how develop the note is."
+
+
+
+### 8. [29:45] The tag question
+
+> "Will I ever use this tag again?"
+
+
+
+### 9. [33:25] One idea
+
+> "The second tip is so important, and it's to keep each mini essay focused on a single idea."
+
+
+
+## jep's notes
+
+- Setup: six folders (Rough notes, Source material, Tags, Indexes, Templates, Main notes); tags are empty notes he links to, and a tag that gathers many notes (his "learning" tag had 51) becomes an index page; template = date, time, status, tags, title, body, References; a note stays under 500 words and fits one screen. Source of the method: Sönke Ahrens, *How to Take Smart Notes*.
+- Plugins after 9 months: two (word count, random note).
+- Measured: nothing; the stability claim is his own report.
+- In the workshop: `#child` already sits on 3 vault notes; in the Atomic table it is the `maturity` column, separate from the task `status` enum.

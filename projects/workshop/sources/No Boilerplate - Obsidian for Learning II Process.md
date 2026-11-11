@@ -2,6 +2,7 @@
 type: literature
 created: 2026-11-11
 author: jep
+processed: false
 source: https://www.youtube.com/watch?v=Tyw6quANpiY
 by: Tris Oaten (No Boilerplate)
 medium: video
@@ -16,27 +17,62 @@ tags:
 
 Part 2 of 3. Before: [[No Boilerplate - Obsidian for Learning I Capture]]. After: [[No Boilerplate - Obsidian for Learning III Projects]].
 
-## What it says
+jep laid out the highlights. The space under each one is Idi's, and jep leaves it alone. Tick `processed` when the source is spent.
 
-- [0:20] The gap in most note-taking advice: what happens after the note is taken.
-- [1:10] Atomic note = the core unit of Zettelkasten. Two properties everything else follows from: the notes compose well together (high cohesion) and each one reads alone (low coupling). Borrowed from software module design.
-- [2:20] Payoff claimed: a draft is a stack of existing notes plus glue. "You never need to start from scratch."
-- [2:45] The graph view stops being readable at 30 to 40 notes. A tree scales.
-- [3:45] Anatomy of his atomic note: filename = a human-readable claim (no IDs, no dates); an `up` property linking to exactly one parent note; tag `atomic`; a See also list; references to literature notes or the web.
-- [4:55] "No folders and only four tags": `fleeting`, `literature`, `atomic`, `project`.
-- [6:05] **Single trusted system** (Allen's phrase): one place for fleeting notes, processed reliably. Several places means "you can never be certain you have checked everything."
-- [7:10] Processing runs daily, because fleeting notes can hold urgent tasks.
-- [8:00] Backlog control: he reviews fleeting notes through the Spaced Repetition plugin and uses its easy / medium / hard buttons as snooze-long / snooze-short / tomorrow. After a few days only the items he keeps ranking urgent come up.
-- [10:10] The sorting rules per fleeting note: under 2 minutes, do it and delete; belongs to a project, move it there; unclear, snooze; a plain fact (address, code), file it verbatim; an idea, rewrite it as an atomic note and keep the original wording.
-- [14:20] Highlights: write a new atomic note with the full learning as its filename, link the quote, slot it behind one parent via `up`, tick the highlight as processed.
+## Highlights
 
-## What it measured vs what it claims
+### 1. [1:20] The two properties of an atomic note
 
-Nothing measured. Spaced repetition is well replicated for memory; using it as a snooze queue is his own invention with no test behind it.
+> "The notes work well together, they are highly composable and cohesive, and each note doesn't require reading lots of other notes to understand, they are loosely coupled to each other."
 
-## Use in the workshop
 
-- Adopt: filename = claim, `up` = one parent. This is the "links in properties" idea in Idi's `PKMS\Obsidian Plugins & Features.md`, and Bases can read it.
-- Adopt as jep's job: the sorting rules. jep sorts; Idi only sees the survivors.
-- Hold: the atomic-note practice itself. It needs Idi's hand daily, and five of six earlier systems died on a slot that needed his hand (`research/env-history.md`).
-- Unverified: the tree plugin's name (the captions garble it).
+
+### 2. [2:20] Never from scratch
+
+> "The notes are already written in your words, so you can simply stack them up in a reasonable order, write the glue, and you've got a first draft."
+
+
+
+### 3. [4:25] Structure, type, identity
+
+> "I use uplinks for structure. Where do my notes live? Tags for the type of note, atomic or project and so on. File names for identity, not IDs, not date stamps, human-readable summaries."
+
+
+
+### 4. [6:05] One place, processed reliably
+
+> "One, your notes must only be stored in a single place, and two, you must process them reliably, never missing anything."
+
+
+
+### 5. [7:20] Why daily
+
+> "They are urgent because the you of yesterday is counting on the you of today to fulfill the temporal contract."
+
+
+
+### 6. [10:25] The two-minute rule
+
+> "If the fleeting note is a task that will take less than 2 minutes, do it there and then."
+
+
+
+### 7. [11:00] Snooze
+
+> "In this case, don't stress about it. Just snooze it. Future me can figure this one out, I'm sure."
+
+
+
+### 8. [13:40] Behind exactly one
+
+> "We place this new atomic note behind exactly one other note."
+
+
+
+## jep's notes
+
+- His sorting rules per fleeting note: under 2 minutes, do it and delete; belongs to a project, move it there; unclear, snooze; a plain fact, file it verbatim; an idea, rewrite it as an atomic note and keep the original wording.
+- His backlog trick: the Spaced Repetition plugin's easy / medium / hard buttons used as snooze-long / snooze-short / tomorrow. Spaced repetition is well replicated for memory; using it as a snooze queue is his own invention, untested.
+- Measured: nothing.
+- In the workshop: `up` (one parent) and `maturity` are the two columns of the Atomic table. No snooze plugin is installed; a fleeting note waits in the Morning table until `processed` is ticked.
+- Unverified: the name of his tree plugin (the captions garble it).

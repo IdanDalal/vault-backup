@@ -20,4 +20,4 @@ The pooled portfolio (Idi + Mom, one account). Allocation locked 2026-07-24.
 - **Runs without anyone**: the scheduled task `Cash Console refresh` updates the console daily.
 - **State**: last session 10-23 (₪9,000 withdrawal end to end, plus the 10-22 sell-off note). IPO war-room was expected "~Sep/Oct"; no date known to jep.
 - **Read first**: [[projects/Cash/allocation|allocation]], [[projects/Cash/transition|execution sheet]]
-- **Value basis**: the good-week line in `intent.md`, "income>expenses".
+- **Value basis** (confirmed by Idi 11-11): the good-week line in `intent.md`, "income>expenses".

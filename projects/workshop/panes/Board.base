@@ -1,0 +1,37 @@
+filters:
+  and:
+    - type == "hub"
+    - file.ext == "md"
+formulas:
+  quiet_days: if(last, ((number(today()) - number(date(last))) / 86400000).round(0), "")
+  quadrant: if(value == "high", if(effort == "low", "1 High value, low effort", "2 High value, high effort"), if(effort == "low", "3 Low value, low effort", "4 Low value, high effort"))
+properties:
+  file.name:
+    displayName: Project
+  note.next:
+    displayName: Next step
+  note.ball:
+    displayName: Whose move
+  note.cost_min:
+    displayName: Idi minutes
+  note.status:
+    displayName: Status
+  formula.quiet_days:
+    displayName: Days quiet
+  formula.quadrant:
+    displayName: Quadrant
+views:
+  - type: kanban
+    name: Board
+    groupBy:
+      property: status
+      direction: ASC
+    groupOrder:
+      - active
+      - paused
+      - done
+      - archived
+    order:
+      - file.name
+      - next
+      - ball

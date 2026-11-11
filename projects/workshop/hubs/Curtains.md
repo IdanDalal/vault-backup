@@ -19,4 +19,4 @@ Preserving the PC setup: about 100 apps and their configuration, documented so a
 - **Done means**: a reinstall rebuilt from the documents alone.
 - **State**: installed-apps inventory taken 09-21, the day of the BSODs. Nothing since.
 - **Outside the vault**: 171 files in `D:\work\laptop-archive\CORPUS-June-2026\NEXUS BACKUP\projects\Curtains` (its `SYSTEM.md` and `backlog.json` unread by jep)
-- **Value basis** (jep's guess): no session since 09-21; it matters on the day Windows gets reinstalled.
+- **Value basis** (confirmed by Idi 11-11): no session since 09-21; it matters on the day Windows gets reinstalled.

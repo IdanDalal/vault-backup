@@ -3,7 +3,7 @@ filters:
     - type == "hub"
     - file.ext == "md"
 formulas:
-  quiet_days: if(last, ((today() - date(last)) / 86400000).round(0), "")
+  quiet_days: if(last, ((number(today()) - number(date(last))) / 86400000).round(0), "")
   quadrant: if(value == "high", if(effort == "low", "1 High value, low effort", "2 High value, high effort"), if(effort == "low", "3 Low value, low effort", "4 Low value, high effort"))
 properties:
   file.name:
@@ -44,7 +44,6 @@ views:
       - next
       - cost_min
       - formula.quiet_days
-      - entry
   - type: kanban
     name: Board
     groupBy:
@@ -59,7 +58,6 @@ views:
       - file.name
       - next
       - ball
-      - last
   - type: table
     name: Matrix
     filters:
@@ -74,10 +72,7 @@ views:
       - file.name
       - next
       - cost_min
-      - value
-      - effort
       - status
-      - entry
   - type: table
     name: All
     order:
@@ -85,6 +80,9 @@ views:
       - status
       - ball
       - next
+      - cost_min
+      - value
+      - effort
       - last
       - formula.quiet_days
       - telos

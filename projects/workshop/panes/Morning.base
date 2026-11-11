@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.ext == "md"
+    - processed != true
+    - or:
+        - type == "literature"
+        - type == "fleeting"
+properties:
+  file.name:
+    displayName: Waiting
+  note.type:
+    displayName: Kind
+  note.processed:
+    displayName: Processed
+views:
+  - type: table
+    name: Morning
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - processed

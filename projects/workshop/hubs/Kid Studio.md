@@ -21,4 +21,4 @@ Local image and story studio built for K and D.
 - **State**: v6 live; v7 sits built in `index-v6.html` and was never swapped in; allowlist items J1 to J5 never ruled. Its two users left with the tutoring chapter on 09-25.
 - **Outside the vault**: live app `D:\work\studio\kidstudio` (newer than the vault copy)
 - **4090**: image generation.
-- **Value basis** (jep's guess): no user today.
+- **Value basis** (confirmed by Idi 11-11): no user today.
