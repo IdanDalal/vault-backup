@@ -251,7 +251,14 @@ snippet = (HEAD + NL + "/* ---- Part 1: %d switched rules ---- */" % len(rules) 
            + block("body" + ALWAYS + ALWAYS, [("--checklist-done-color", "var(--text-muted)")]) + NL
            + "body" + ALWAYS + ALWAYS + " .vertical-tab-nav-item.is-active," + NL
            + "body" + ALWAYS + ALWAYS + " .horizontal-tab-nav-item.is-active {" + NL
-           + "  background-color: var(--interactive-accent);" + NL + "  color: var(--text-on-accent);" + NL + "}" + NL)
+           + "  background-color: var(--interactive-accent);" + NL + "  color: var(--text-on-accent);" + NL + "}" + NL
+           + NL + "/* ---- Part 4: Workshop board (jep, from Idi's screenshot of 2026-11-11 15:57) ---- */" + NL
+           + "/* Focus mode folds the tab bar, so the canvas runs to the top edge: keep its controls clear of the window buttons. */" + NL
+           + "body .canvas-wrapper .canvas-controls {" + NL + "  top: calc(var(--header-height) + var(--size-4-2));" + NL + "}" + NL
+           + "/* Note cards on a canvas: no properties block, no repeated title. The card label already names the file. */" + NL
+           + "/* Two routes for the properties: Obsidian's own display variables, and a forced rule (its own rules outrank a plain one). */" + NL
+           + "body .canvas-node-content {" + NL + "  --metadata-display-reading: none;" + NL + "  --metadata-display-editing: none;" + NL + "}" + NL
+           + "body .canvas-node-content .metadata-container," + NL + "body .canvas-node-content .inline-title {" + NL + "  display: none !important;" + NL + "}" + NL)
 
 os.makedirs(os.path.join(stage, "themes", "Minimal"), exist_ok=True)
 os.makedirs(os.path.join(stage, "snippets"), exist_ok=True)

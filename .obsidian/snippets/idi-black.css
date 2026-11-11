@@ -874,3 +874,19 @@ body:not(.jep-off):not(.jep-off) .horizontal-tab-nav-item.is-active {
   background-color: var(--interactive-accent);
   color: var(--text-on-accent);
 }
+
+/* ---- Part 4: Workshop board (jep, from Idi's screenshot of 2026-11-11 15:57) ---- */
+/* Focus mode folds the tab bar, so the canvas runs to the top edge: keep its controls clear of the window buttons. */
+body .canvas-wrapper .canvas-controls {
+  top: calc(var(--header-height) + var(--size-4-2));
+}
+/* Note cards on a canvas: no properties block, no repeated title. The card label already names the file. */
+/* Two routes for the properties: Obsidian's own display variables, and a forced rule (its own rules outrank a plain one). */
+body .canvas-node-content {
+  --metadata-display-reading: none;
+  --metadata-display-editing: none;
+}
+body .canvas-node-content .metadata-container,
+body .canvas-node-content .inline-title {
+  display: none !important;
+}

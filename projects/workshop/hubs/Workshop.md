@@ -3,9 +3,9 @@ type: hub
 created: 2026-11-11
 author: jep
 status: active
-next: "Reload Obsidian, load the Workshop layout, drop a screenshot in D:/work/screens: jep measures the black look against it"
+next: "Press Shift+1 on the board, then a screenshot in D:/work/screens"
 ball: Idi
-cost_min: 3
+cost_min: 2
 value: high
 effort: low
 last: 2026-11-11

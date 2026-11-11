@@ -11,7 +11,7 @@ One question: **what gets the next hour?** This page is the reference. The one-s
 
 ## One screen
 
-`Board.canvas` holds six cards: Now, Morning, the clock check, the jar, the Board, the Matrix. Shift+1 zooms the canvas to fit the window.
+`Board.canvas` holds six cards: Now, Matrix and Morning stacked on the left, the clock check and the jar under them, the Board down the right edge. Shift+1 zooms the canvas to fit the pane. The canvas Board shows two columns, active and paused; the full four are in the Board section below.
 
 The saved layout is `Workshop`: the board on the left (76 %), the Whiteboard on the right, both sidebars folded. Left ribbon → "Manage workspace layouts" → Load. Idi's three older layouts sit in the same list: `1417 Notes`, `400 Width 500 Height 1317 Notes`, `500 Width 500 Height 2333 Note`.
 

@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "27537205172a77ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "f30452b9fd398231",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d70456fd44b1980",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "projects/workshop/Board.canvas",
+                "viewState": {
+                  "x": 1230,
+                  "y": 735,
+                  "zoom": -0.5139639909180831
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Board"
+            }
+          },
+          {
+            "id": "ae749cbbfe6e8ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idi's Whiteboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Idi's Whiteboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d46e3a86af0fce46",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e7749754e3adce4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c48399a391e971e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1718c30ceb69ec77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e360af56eb94226f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d1131767b215f34d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4ff725cac2923a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed72ee114eecfa2e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "projects/Cash/transition.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b462cf9e1d88b842",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "projects/Cash/transition.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "814f40656c0db6e6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9363c76eb1b4024a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0bbbe803e8c3c3fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "projects/Cash/transition.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "third-mind-reader:Open Library": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "2d70456fd44b1980",
+  "lastOpenFiles": [
+    "projects/workshop/hubs/Workshop.md",
+    "projects/workshop/Board.canvas",
+    "Idi's Whiteboard.md",
+    "projects/workshop/tools/obsidian-look/show_rules.py",
+    "projects/workshop/tools/obsidian-look/explore_theme.py",
+    "projects/workshop/tools/obsidian-look/build_layouts.py",
+    "projects/workshop/tools/obsidian-look/build_black.py",
+    "projects/workshop/tools/obsidian-look",
+    "projects/workshop/research/obsidian-foundation-2026-11-11.md",
+    "projects/workshop/hubs/HQ.md",
+    "projects/workshop/research/worktree-audit-2026-11-11.md",
+    "telos/TELOS.md",
+    "projects/workshop/workshop-report-2026-11-11.md",
+    "projects/XCOM/perk-audit-2026-11-09.md",
+    "projects/I4/i4-rewatch-list-2026-09-27.md",
+    "projects/workshop/panes/Now.base",
+    "projects/workshop/panes/Morning.base",
+    "projects/workshop/panes/Matrix.base",
+    "projects/workshop/panes/Board.base",
+    "projects/workshop/panes",
+    "projects/workshop/board-check.md",
+    "inbox/fleeting/What Is Intelligence.md",
+    "inbox/fleeting/The opportunity that is concealed within every crisis does not manifest until all the facts of any given situation are acknowledged and fully accepted.md",
+    "inbox/fleeting/The Thoughtless Consciousness Paradox.md",
+    "inbox/fleeting/The 5 Elements.md",
+    "inbox/fleeting/Prompt Engineering Made Me Understand Life.md",
+    "inbox/fleeting/One must imagine Sisyphus happy.md",
+    "inbox/fleeting/Ichigo-Ichi + Sonder.md",
+    "wins-jar.md",
+    "projects/workshop/Workshop.md",
+    "daily/Today.md",
+    "Untitled.md",
+    "projects/workshop/sources/OneTalos - Eisenhower matrix for one person.md",
+    "projects/workshop/sources/Odysseas - Obsidian The King of Learning Tools.md",
+    "projects/workshop/sources/Odysseas - Literature Notes and Atomic Notes.md",
+    "projects/workshop/sources/No Boilerplate - Obsidian for Learning II Process.md",
+    "projects/workshop/sources/No Boilerplate - Obsidian for Learning III Projects.md",
+    "projects/XCOM/screenshots/9.png",
+    "projects/XCOM/screenshots/8.png",
+    "projects/XCOM/screenshots/7.png",
+    "projects/XCOM/screenshots/6.png",
+    "projects/XCOM/screenshots/5.png",
+    "projects/XCOM/screenshots/4.png",
+    "projects/XCOM/screenshots/3.png",
+    "projects/XCOM/screenshots/2.png",
+    "projects/XCOM/screenshots/1.png",
+    "projects/XCOM/screenshots/Screenshot 2026-09-18 123443.png"
+  ]
+}

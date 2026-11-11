@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"00000000b0a2d001","type":"file","x":0,"y":0,"width":1380,"height":300,"file":"projects/workshop/panes/Now.base"},
-		{"id":"00000000b0a2d005","type":"file","x":0,"y":320,"width":1380,"height":1150,"file":"projects/workshop/panes/Board.base"},
-		{"id":"00000000b0a2d006","type":"file","x":1400,"y":0,"width":1060,"height":440,"file":"projects/workshop/panes/Matrix.base"},
-		{"id":"00000000b0a2d002","type":"file","x":1400,"y":460,"width":1060,"height":620,"file":"projects/workshop/panes/Morning.base"},
-		{"id":"00000000b0a2d003","type":"file","x":1400,"y":1100,"width":520,"height":370,"file":"projects/workshop/board-check.md"},
-		{"id":"00000000b0a2d004","type":"text","x":1940,"y":1100,"width":520,"height":370,"text":"**Jar** Built 204 / Received 103, still since 2026-09-05.\nWaiting: C4 (two DECADEnts portraits), C5 (\"Knowledge Cutoff\" live). Reply `W C4`, `W C5`.\n\n[[projects/wins-jar|Open the jar]] · [[projects/workshop/Workshop|Rules and fields]]"}
+		{"id":"00000000b0a2d001","type":"file","x":0,"y":0,"width":1392,"height":270,"file":"projects/workshop/panes/Now.base"},
+		{"id":"00000000b0a2d006","type":"file","x":0,"y":290,"width":1392,"height":410,"file":"projects/workshop/panes/Matrix.base"},
+		{"id":"00000000b0a2d002","type":"file","x":0,"y":720,"width":1392,"height":570,"file":"projects/workshop/panes/Morning.base"},
+		{"id":"00000000b0a2d003","type":"file","x":0,"y":1310,"width":686,"height":160,"file":"projects/workshop/board-check.md"},
+		{"id":"00000000b0a2d004","type":"text","x":706,"y":1310,"width":686,"height":160,"text":"**Jar** Built 204 / Received 103, still since 2026-09-05. Waiting: C4, C5 (reply `W C4`, `W C5`).\n\n[[projects/wins-jar|Open the jar]] · [[projects/workshop/Workshop|Rules and fields]]"},
+		{"id":"00000000b0a2d005","type":"file","x":1412,"y":0,"width":620,"height":1470,"file":"projects/workshop/panes/Board.base"}
 	],
 	"edges":[]
 }

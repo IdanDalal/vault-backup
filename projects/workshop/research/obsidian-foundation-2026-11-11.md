@@ -88,4 +88,22 @@ Checks done: the snippet parses with 0 errors; all four layouts use core panels 
 
 **Roll back:** Settings → Appearance → Themes → Default, and switch the two snippets off. Or jep restores `appearance.json` to `{"theme": "obsidian"}`.
 
-**Known gaps:** fidelity to the old look is unmeasured until a screenshot exists; the canvas zoom in `Workshop` (stored as -0.66) was computed for a 2194 px wide window at 175 % scaling and may need Shift+1 once.
+**Screenshot round 1** (`D:\work\screens\Workshop.png`, 15:57):
+
+- Seen working: pure black background, purple accent and links, underline sidebar tabs, vault name on top, normal status bar, hidden ribbon and folded tab bar (his focus-mode and ribbon settings), the re-laid canvas with all 7 paused cards and all 14 Morning rows.
+- The `Workshop` layout was not loaded: Obsidian was still on the earlier layout, board and Whiteboard as two tabs in one group, file sidebar open. The ribbon icon that loads layouts is hidden by his own ribbon style until hovered. jep tried writing the `Workshop` layout into the live `workspace.json` at 16:01:58; the running app saved its own layout back over it at 16:02:00. That file belongs to the running app and is left alone from here on (the earlier layout is also kept as `projects/workshop/tools/obsidian-look/workspace-before-2026-11-11.json`). The route that works: Ctrl+P → "Load workspace layout" → `Workshop`.
+- The canvas controls sat on the window's close button, because the folded tab bar lets the canvas reach the top edge. Fixed in part 4 of the snippet.
+- The check card showed its properties block. Part 4 hides properties and the repeated title on canvas note cards.
+- Unseen still: the `Workshop` layout itself, the two part 4 rules, his three older layouts.
+
+**Screenshot round 2** (`D:\work\screens\Layout.png`, 16:15), after Idi loaded `Workshop` and stretched the cards by hand to fill the pane:
+
+- Seen working: the `Workshop` layout (board 76 %, Whiteboard 24 %, sidebars folded); the canvas controls clear of the window buttons; the repeated title gone from the check card.
+- Not working: the properties block still showed on the check card. A plain `display: none` loses to Obsidian's own rule. Part 4 now sets Obsidian's two properties-display variables on canvas cards and forces the rule.
+- Measured: the canvas pane shows 2634 by 1905 canvas units at his zoom, aspect 1.382, taller than the shape jep had designed for. His stretched version left the lower third of the Board empty and cut the last Morning row.
+- Canvas layout v3 (`tools/obsidian-look/canvas_v3.py`), built for that shape: the three tables stacked on the left (Now 270, Matrix 410, Morning 570 units tall), check and jar side by side under them, the Board down the right edge at full height. Canvas 2032 by 1470 units; zoom-to-fit comes to about 0.80 against 0.63 before, so text is about 27 % larger.
+- The price: the canvas Board shows two columns, active and paused. The empty done and archived columns took half its width. All four columns remain on `Workshop.md`.
+- The check note's verdict is one line shorter.
+- Unseen: layout v3 and the properties fix.
+
+**Known gaps:** fidelity to the old look is unmeasured against a picture of the old look (none exists here); the canvas zoom in `Workshop` (stored as -0.66) was computed for a 2194 px wide window at 175 % scaling and may need Shift+1 once.

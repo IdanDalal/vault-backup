@@ -192,12 +192,11 @@ if WRITE:
         verdict = "**Cards true**"
     NL = chr(10)
     old = read(check) if os.path.exists(check) else ""
-    marker = "<!-- verdict: " + verdict + " | " + " ; ".join(lines) + " -->"
+    marker = "<!-- verdict v2: " + verdict + " | " + " ; ".join(lines) + " -->"
     if marker not in old:
         stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
         parts = ["---", "type: note", "created: 2026-11-11", "author: jep", "---", "",
-                 f"{verdict} since {stamp}. {len(rows)} cards, {len(active)} active (cap {WIP_CAP}). "
-                 "Checked every 30 minutes by the vault autocommit.", ""]
+                 f"{verdict} since {stamp}. {len(rows)} cards, {len(active)} active, cap {WIP_CAP}.", ""]
         if lines:
             parts += lines + [""]
         parts += [marker, ""]

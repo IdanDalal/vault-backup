@@ -29,8 +29,6 @@ views:
     groupOrder:
       - active
       - paused
-      - done
-      - archived
     order:
       - file.name
       - next
