@@ -5,15 +5,17 @@ author: jep
 ---
 # Pick sheet: Choose My Class (100 offers)
 
-Card = Primary - Secondary - Tertiary. 717 cards left in the game. Every one has all its guaranteed perks working (checked against the in-game weapon rules of every perk) and is the best its primary + secondary can get.
+Card = Primary - Secondary - Tertiary. 707 cards left in the game. Every one has all its guaranteed perks working (checked against the in-game weapon rules of every perk) and is the best its primary + secondary can get.
 
-**The weapon line under each card lies sometimes**: it prints the first weapon each spec lists, which can belong to the other slot. Trust the class, then equip: Alien Hunter (label says boltcaster; it carries sword in the secondary slot); Phoenix (label says chemthrower; its canister rides in the chemthrower's own canister slot, so the secondary slot takes the tertiary's weapon); Raider (label says sword; a combat knife keeps every perk, a sword loses Slash and Dash); Riot (label says shotgun; it carries shield in the secondary slot); SwordMaster (label says sword; it carries shield or sword in the secondary slot).
+**The weapon line under each card lies sometimes**: it prints the first weapon each spec lists, which can belong to the other slot. Trust the class, then equip: Alien Hunter (label says boltcaster; it carries sword in the secondary slot); Phoenix (label says chemthrower; its canister rides in the chemthrower's own canister slot, so the secondary slot takes the tertiary's weapon); Raider (label says sword; a combat knife keeps every perk, a sword loses Slash and Dash); Riot (label says shotgun; it carries shield in the secondary slot); SwordMaster (label says sword; it carries shield or sword in the secondary slot); Heavy beside Rocketeer (the squaddie starts with the rocket launcher; swap it for the gauntlet, which keeps every perk of both).
 
 ## 1. Take on sight
 
 These specs exist on 1 or 2 cards only. If one shows up and the spec is new to you, take it.
 
 - [x] **Androctonus - Corpsman - Medic**: Medic tertiary (1 card). Equip sniper rifle + holotargeter.
+- [ ] **Captain - Buckler - Scout**: Buckler secondary (2 cards). Equip sword + pistol.
+- [ ] **Captain - Buckler - Smoker**: Buckler secondary (2 cards). Equip sword + pistol.
 - [x] **Impaler - Vengeance 2.0 - Aegis Defender**: Impaler primary (1 card). Equip combat knife + shield.
 - [x] **Infantry - Gripsman - Blaster**: Gripsman secondary (1 card). Equip rifle + claymore.
 - [x] **Ironsights - Demolitioner - Tech Medic**: Tech Medic tertiary (2 cards). Equip sniper rifle + grenade launcher.
@@ -39,13 +41,14 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Marathonist (2)
 - [x] Veil Walker (2)
 - [x] Farseer (3)
-- [x] Captain (4)
 - [ ] Dreadnought (4)
 - [x] Psi-Blades (5)
 - [x] SAW Gunner (5)
 - [ ] Wrecker (5)
+- [x] Captain (6)
 - [x] Alien Hunter (6)
 - [ ] The Rifleman (6)
+- [ ] Akimbo (6)
 - [x] Gunner (7)
 - [ ] Harbinger (7)
 - [ ] Huntsman (7)
@@ -54,30 +57,29 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Salamander (7)
 - [x] Savage (7)
 - [ ] Sharpshooter (7)
-- [ ] Akimbo (8)
+- [ ] Gunfighter (7)
 - [x] Androctonus (8)
 - [ ] Bounty Hunter (8)
 - [ ] Tank Buster (8)
-- [ ] Gunfighter (9)
 - [ ] Savior (9)
 - [ ] Shootist (9)
+- [ ] Vigilante (9)
 - [x] Ironsights (10)
 - [ ] Observer (10)
 - [x] Samurai (10)
 - [ ] Survivalist (10)
+- [ ] Pistoleer (10)
 - [ ] Atrax (11)
 - [ ] Ghost Recon (11)
-- [ ] Vigilante (11)
+- [ ] Fusilier (11)
 - [ ] Adversary (12)
-- [ ] Pistoleer (12)
-- [ ] Fusilier (13)
 - [ ] BattleAngel (15)
 - [x] Paramedic (15)
 - [x] Shadow (15)
 - [x] Pioneer (16)
+- [x] Quartermaster (16)
 - [x] Interceptor (17)
 - [x] Desolator (18)
-- [x] Quartermaster (18)
 - [x] Rook (19)
 - [ ] Sentry (19)
 - [ ] Toxicologist (19)
@@ -96,6 +98,7 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Corsair (1)
 - [x] Gripsman (1)
 - [x] Ninja Warrior (1)
+- [ ] Buckler (2)
 - [x] LegendaryWarrior (3)
 - [ ] Plunderer (3)
 - [ ] Swash (3)
@@ -123,7 +126,6 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Stormmancer (11)
 - [x] Vengeance 2.0 (11)
 - [x] Water Vein (11)
-- [ ] Buckler (12)
 - [ ] Dragoon (12)
 - [ ] Flamemancer (13)
 - [ ] Grim Artist (13)
@@ -157,8 +159,8 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Biotic (5)
 - [x] Blaster (6)
 - [x] Riot (6)
+- [ ] Sentinel (8)
 - [x] Aegis Defender (9)
-- [ ] Sentinel (9)
 - [ ] Executioner (11)
 - [x] Liquidator (11)
 - [x] SwordMaster (12)
@@ -167,12 +169,12 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Engineer (18)
 - [ ] Agent (19)
 - [x] Daeva (22)
-- [x] Assassin (27)
+- [ ] Smoker (26)
+- [x] Assassin (28)
 - [x] Frostmancer (29)
 - [x] Commando (31)
-- [ ] Smoker (31)
+- [x] Scout (32)
 - [x] Keeper (35)
-- [x] Scout (37)
 - [x] Retaliator (47)
 - [x] Combat Engineer (59)
 - [ ] Saboteur (70)

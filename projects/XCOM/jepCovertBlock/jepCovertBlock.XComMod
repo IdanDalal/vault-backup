@@ -1,0 +1,5 @@
+[mod]
+publishedFileId=0
+Title=jepCovertBlock
+Description=Removes Idi's nine blocked covert actions from the board whenever the world map opens, and logs each faction's covert action pool. Built by jep, 2026-11-12.
+RequiresXPACK=true
