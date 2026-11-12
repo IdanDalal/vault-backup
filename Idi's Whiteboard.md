@@ -1,1 +1,0 @@
-Look at D:\work\vault\projects\Cash\10.png and confirm I executed all 10 sales. 
