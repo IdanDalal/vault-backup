@@ -1,2 +1,1 @@
-Let's continue working on our AIMV - Pay Attention. Instead of watching v3 and writing notes in the new Review Room, I want to improve the room itself. Here are my ideas:
-1. Similar to the "Known before you watch" card, we should add more cards that communicate/expose as much as possible of the process, decisions, available options, and more. Examples: descriptive text that I can read and e
+Let's continu
