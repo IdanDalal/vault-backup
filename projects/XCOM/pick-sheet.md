@@ -5,7 +5,7 @@ author: jep
 ---
 # Pick sheet: Choose My Class (100 offers)
 
-Card = Primary - Secondary - Tertiary. 719 cards left in the game. Every one has all its guaranteed perks working (checked against the in-game weapon rules of every perk) and is the best its primary + secondary can get.
+Card = Primary - Secondary - Tertiary. 717 cards left in the game. Every one has all its guaranteed perks working (checked against the in-game weapon rules of every perk) and is the best its primary + secondary can get.
 
 **The weapon line under each card lies sometimes**: it prints the first weapon each spec lists, which can belong to the other slot. Trust the class, then equip: Alien Hunter (label says boltcaster; it carries sword in the secondary slot); Phoenix (label says chemthrower; its canister rides in the chemthrower's own canister slot, so the secondary slot takes the tertiary's weapon); Raider (label says sword; a combat knife keeps every perk, a sword loses Slash and Dash); Riot (label says shotgun; it carries shield in the secondary slot); SwordMaster (label says sword; it carries shield or sword in the secondary slot).
 
@@ -86,7 +86,7 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Juggernaut (24)
 - [x] Maverick (24)
 - [ ] Veteran (24)
-- [ ] Oddsman (28)
+- [ ] Oddsman (26)
 - [x] Assault (29)
 - [x] Scavenger (31)
 - [x] Infantry (36)
@@ -105,13 +105,13 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [x] Demolitioner (5)
 - [x] SWAT Soldier (6)
 - [x] Corpsman (7)
+- [x] Ironclad (7)
 - [x] Gunslinger (8)
 - [x] Hotshot (8)
 - [ ] Rogue (8)
 - [x] Chryssalid Whisperer (9)
 - [ ] Electro Wizard (9)
 - [x] Grenade Connoisseur (9)
-- [x] Ironclad (9)
 - [x] Alien Hunter (10)
 - [x] Bloodmancer (10)
 - [x] Burner (11)
@@ -156,13 +156,13 @@ These specs exist on 1 or 2 cards only. If one shows up and the spec is new to y
 - [ ] Firebug (4)
 - [x] Biotic (5)
 - [x] Blaster (6)
-- [x] Riot (7)
+- [x] Riot (6)
 - [x] Aegis Defender (9)
 - [ ] Sentinel (9)
 - [ ] Executioner (11)
 - [x] Liquidator (11)
+- [x] SwordMaster (12)
 - [x] Officer (13)
-- [x] SwordMaster (13)
 - [x] Heavy (14)
 - [x] Engineer (18)
 - [ ] Agent (19)
