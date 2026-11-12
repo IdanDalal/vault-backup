@@ -3,11 +3,26 @@ type: report
 created: 2026-11-12
 author: jep
 ---
-# Six screenshots, 2026-11-12: findings, one fix applied, four rulings wanted
+# Six screenshots, 2026-11-12: findings, rulings K1 to K4 (all applied on Idi's "all rec")
 
 Source: `D:\work\screens\XCOM\1_COVERT.png` to `6_SENTINEL.png` (taken 11-09 to 11-11). Method: read each perk's source code and config, re-ran the card audit, simulated every proposed change before listing it. Nothing below was tested in the game by jep; "source" means read in the mod's code, "log" means read in your `Launch.log` files.
 
-## Rulings wanted (reply "all rec" or name the K you overrule)
+## Applied 2026-11-12 (Idi: "all rec")
+
+| K | Where it lives | Receipt |
+|---|---|---|
+| K1 | new local script mod `Mods\jepCovertBlock` (source mirrored in `projects/XCOM/jepCovertBlock/`), active in the launcher | Compiled 0 errors; launcher entries 1132 -> 1133, no other entry changed. Not yet seen in game. Next launch: log lines tagged `jepCovertBlock` (`state ...` per faction, `removing ...` per swept action) |
+| K2 | new `jepFixes/Config/XComIsmsRogue.ini` | Section and key read from `Isms_Effect_Blindside.uc:1-4`. No log line exists for it; the proof is a flanking pistol shot by a Rogue showing the Blindside bonus |
+| K3 | `jepFixes/Config/XComAmalgamation.ini`: W1 pair deleted, 13 `+DisableClass` | Seen in game: your 11-12 session logged `Disabled classes 1332` (1316 + 2 + 14) |
+| K4 | same file: one byte-copied `-IncompatibleSpecs`, 1 `+DisableClass` | Simulated: exactly Captain - Buckler - Scout, Captain - Buckler - Smoker, Pistoleer - Swash - Assassin added; deck 707 |
+| weights | `Mods\jepClassWeights\Config\XComjepClassWeights.ini` regenerated on 707 cards | Seen in game: `jepClassWeights: ... missing 0 of 699`. Simulated: all 141 specs seen in a median of 4 promotions (worst of 40 runs 8) |
+| pick sheet | `projects/XCOM/pick-sheet.md` | 707 cards, 12 counts changed, two Buckler cards added to "Take on sight", gauntlet tip added, 100 ticks kept |
+
+How K1 works: whenever the world map opens or regains focus, it removes every unstarted covert action on your nine-name list, strips those names from each faction's pool of pending draws, and lets the faction draw a replacement. Started actions are never touched. Once per map load it logs each faction's offers and pool, which answers the open question in section 1: if Covert Infiltration's own blocked names are absent from the pool and mine are present, my names never reached its filter.
+
+Backups: `XComAmalgamation.ini.bak-1112a/b`, `XComjepClassWeights.ini.bak-1112` in the job folder; launcher settings `D:\work\aml-settings-2026-11-12.json`.
+
+## The rulings as proposed
 
 | K | Screenshot | Recommended change | What it does |
 |---|---|---|---|
@@ -16,7 +31,7 @@ Source: `D:\work\screens\XCOM\1_COVERT.png` to `6_SENTINEL.png` (taken 11-09 to 
 | K3 | 3 | Release Captain x Buckler (one line of mine), cut all 12 pistol-primary Buckler cards | Buckler lives on 2 new cards, Captain - Buckler - Scout and Captain - Buckler - Smoker (sword + pistol), where Buckle Your Swash fires on every sword attack |
 | K4 | 6 | Release Pistoleer x Assassin (one author ban), cut Pistoleer - Swash - Sentinel | Replaced by Pistoleer - Swash - Assassin: the tertiary's sword perks stack on Swash's sword. Exactly 1 new class appears, Swash stays at 3 cards |
 
-After the word: one batch (config edits, weights regenerated, pick sheet refreshed), deck 717 -> 707.
+Outcome: one batch (config edits, weights regenerated, pick sheet refreshed), deck 717 -> 707.
 
 ## 1. Covert actions (1_COVERT.png)
 
@@ -68,5 +83,5 @@ After the word: one batch (config edits, weights regenerated, pick sheet refresh
 
 ## Side findings
 
-- 10 live cards carry no weight entry (default 1 ticket): the Drone Protocol x Modern Pirate / Artisan cards for Scavenger, Assault, Infantry, Marauder, Oddsman. Regenerated with the batch.
-- Pick sheet updated today: 717 cards, four counts, your 100 ticks kept.
+- Correction (jep, same day): the first version of this file called 10 unlisted cards a weights gap. Wrong. The weights file lists only classes above 1 ticket by design, and those 10 Drone Protocol cards sit at 1.
+- The covert block kept failing in your 11-12 session: `CovertAction_UtilityItems` finished again (`Launch.log:102434`).
