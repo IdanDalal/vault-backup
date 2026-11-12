@@ -43,11 +43,17 @@ event OnReceiveFocus(UIScreen Screen)
 function RunProbes(UIScreen Screen)
 {
 	local string Cmd, Result;
+	local int Part;
 
 	foreach default.ProbeCommands(Cmd)
 	{
-		Result = Screen.ConsoleCommand(Cmd, true);
-		`log("probe [" $ Cmd $ "] returned" @ Len(Result) @ "chars:" @ Left(Result, 900), , 'jepCovertBlock');
+		Result = Screen.ConsoleCommand(Cmd, false);
+		`log("probe [" $ Cmd $ "] returned" @ Len(Result) @ "chars", , 'jepCovertBlock');
+		// long values are logged in pieces so no log line is cut
+		for (Part = 0; Part * 800 < Len(Result) && Part < 12; Part++)
+		{
+			`log("probe part" @ Part $ ":" @ Mid(Result, Part * 800, 800), , 'jepCovertBlock');
+		}
 	}
 }
 
