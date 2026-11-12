@@ -51,6 +51,28 @@ Small: superpowers' evals are author-run (n = 2-5, one project); dream-loop has 
 - Notes live in the page's database, collection `notes`: `{version, plate, t (song s), x, y, text, status, reply, created, by}`. jep reads them with ArtifactData (query version == v3, order t) and answers by updating `reply` and `status`. Verified 2026-11-10: write, query, delete of a probe note. Not testable from here: playback, dictation, click-pin (needs Idi's browser).
 - Source: `D:\work\aimv-lab\pa-video\scratch\lead\room\` (page, clips script, manifest).
 
+## Review Room, round 2: the plate cards (2026-11-12)
+
+Idi 2026-11-12: "Instead of watching v3 and writing notes in the new Review Room, I want to improve the room itself ... add more cards that communicate/expose as much as possible of the process, decisions, available options, and more." His five examples: a visual transcript he can read and edit, questions that prompt his reactions, suggestions for the next version, comparisons to the refs, sliders and drop-downs.
+
+Built into the same page (same link). A plate panel follows the video; a switch shows the whole film instead.
+
+| tab | what Idi gets | how he answers without typing |
+|---|---|---|
+| On screen | the visual transcript: what is visible in each 2-7 s stretch, with the sung line; the current stretch lights up during playback | Edit (his wording is kept beside jep's), "Not what I see" flag |
+| React | one plate-level block + 5-8 questions per plate, each about one element or moment; the time chip seeks and rings the spot on the frame | 1-5 rating, drop-down keep / alter lightly / modify heavily / overhaul completely, six dials (camera, pace, fill, lyric size, lens, colour), words or dictation optional |
+| Next | jep's proposed changes for v4 with cost (under 1 h, 1-4 h, 4 h+) | Do it / Later / Skip it / My way |
+| Refs | the reference technique each idea came from: a still of the ref, what theirs does, what ours does, the gap; YouTube link where a link is on file | ours against theirs on five steps, drop-down keep / push closer / further our own way / drop |
+| Why | the rulings and calls behind the plate, who made each, the options that existed, source file; then how it was built, checked and criticised | Stands / Reopen |
+
+Whole film: the 13 plates as a map, film-level questions, eight dials (five of them colour inputs for the brainstorm R35 left open), the wave 3 plan as sortable proposals, the bar films, rulings R23-R35.
+
+- Content: 13 plates + the film entry = 116 transcript stretches, 113 questions, 65 proposals, 68 ref connections (64 stills, 59 technique cards), 110 decisions; 370 answerable things, all optional. Written from contact sheets of the v3 file (1 frame per second, closer strips where needed) plus briefs, builder reports, rulings and line cards, by two agents; jep checked two plates' wording against frames (open 0:07.2, chorus2 2:18-2:30) and wrote the film entry.
+- Answers live in the page's database, collection `answers`, document id `v3.<item id>`: `{version, plate, item, kind (plate|question|suggestion|ref|decision|beat), t, rating 1-5, action, verdict, close 1-5, stands, dials {key: -2..2}, text, see (his transcript wording), flag, updated, by}`. jep reads them with ArtifactData (query `answers`, version == v3). Notes stay in `notes`.
+- Source (durable copy): `D:\work\aimv-lab\pa-video\scratch\lead\room\v2\` (page source, `assemble.py`, plate JSON, film JSON, brief, frame tools).
+- Verified 2026-11-12: local render in headless Edge at 2194, 1300, 1000, 600 and 390 px wide (no sideways overflow, 0 script errors); a scripted run of every control type (rating, drop-down, dial, words, verdict, ref scale, stands, transcript edit, flag, tap again to clear) recorded the expected values; published as version 3 with the 64 stills; a probe row written to `answers`, read back by query, deleted; `notes` still empty.
+- Not testable from here: playback, dictation, the ring on the frame (need Idi's browser).
+
 ## Round 2: tools we already have (Idi 2026-11-10: "focusing on tools we have and if it's possible and desirable to use them - Obsidian and ComfyUI")
 
 Files: `r-obsidian.md`, `r-comfy.md` in the research folder.
