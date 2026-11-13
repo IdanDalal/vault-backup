@@ -119,6 +119,27 @@ HunyuanImage, what happened:
 - MOSS-Image, Krea 2, Z-Image base: not installed.
 - No second critic per picture; no full-resolution blind read.
 
+## 8. Idi's answers on the T4 sheet (2026-11-13)
+
+His pasted line, verbatim:
+
+> DECADEnts T4 answers | 1920s-A: zit partly 2/5; h3 no 1/5; hy3 yes 3/5 | 1920s-B: zit partly 1/5; h3 no 1/5; hy3 yes 2/5 | 1930s-A: zit no 2/5; h3 yes 3/5; hy3 yes 2/5 | 1930s-B: zit partly 2/5; h3 yes 3/5; hy3 yes 3/5 | 1940s-A: zit no 1/5; h3 partly 1/5 | 1940s-B: zit no 1/5; h3 no 1/5 | 1950s-A: zit yes 2/5; h3 yes 3/5; hy3 yes 1/5 | 1950s-B: zit yes 2/5; h3 yes 3/5 | 1960s-A: zit no 1/5; h3 partly 2/5 | 1960s-B: zit no 2/5; h3 no 2/5 | 1970s-A: zit partly 3/5; h3 yes 3/5 | 1970s-B: zit yes 4/5; h3 yes 4/5 | 1980s-A: zit no 2/5; h3 no 1/5 | 1980s-B: zit no 1/5; h3 yes 3/5 | 2010s-A: zit partly 3/5; h3 no 2/5 | 2010s-B: zit no 1/5; h3 no 1/5
+
+Key: zit = Z-Image-Turbo, h3 = H3-Image, hy3 = HunyuanImage 3.0. One answer per pair of pictures. 2000s-A and the model ruling were left untapped. With it he said: "Excellent work!", closed his browser so the remaining 26 HunyuanImage pictures could run, and asked for research on `github.com/JustAResearcher/gpu-unlock-ada` and similar developments.
+
+Tally (jep's count of his line):
+
+| Model | Pairs answered | Understood: yes | Partly | No | Look, mean of his scores |
+|---|---|---|---|---|---|
+| Z-Image-Turbo | 16 | 3 | 5 | 8 | 1.9 |
+| H3-Image | 16 | 7 | 2 | 7 | 2.1 |
+| HunyuanImage 3.0 | 5 | 5 | 0 | 0 | 2.2 |
+
+Readings (jep's):
+1. His eye agrees with the blind critics on direction and is stricter: H3-Image 7 of 16 pairs fully understood against 3 for Z-Image-Turbo; both H3-Image 1920s masks are a "no" for him where the critics said "partly".
+2. HunyuanImage 3.0 understood the assignment in every pair he saw (5 of 5). Sample still small; the full set was started on his word the same day.
+3. Look is a separate problem that no model solved: his highest score anywhere is 4 of 5 (1970s-B, both Z-Image-Turbo and H3-Image); the HunyuanImage toaster he marked "yes" got 1 of 5. What drives his look score is unstated.
+
 ## Sources
 
 - Blind critiques: `projects/decadents/research-2026-11-13/critic-1.md`, `critic-2.md`; raw verdicts `critic-1.json`, `critic-2.json`; joined counts `aggregate.json`.
