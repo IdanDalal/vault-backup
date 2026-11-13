@@ -1,0 +1,182 @@
+{
+ "summary": {
+  "h3": {
+   "n": 34,
+   "yes": 19,
+   "partly": 14,
+   "no": 1,
+   "clean": 7,
+   "look": 3.5
+  },
+  "hy3": {
+   "n": 8,
+   "yes": 6,
+   "partly": 2,
+   "no": 0,
+   "clean": 3,
+   "look": 3.12
+  },
+  "zit": {
+   "n": 32,
+   "yes": 9,
+   "partly": 18,
+   "no": 5,
+   "clean": 1,
+   "look": 3.38
+  }
+ },
+ "pairs": {
+  "h3|1920s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: ear-like grey shape at the left edge of the mask at eye level, a small"
+  },
+  "h3|1920s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: one open eye with white and pupil, a painted eyebrow, a sculpted ear, "
+  },
+  "h3|1930s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: none on the main figure; the cheek and ear right behind the mask belon"
+  },
+  "h3|1930s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: none at the head; pale shapes at both sleeve ends on the bottom edge c"
+  },
+  "h3|1940s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes"
+  },
+  "h3|1940s-B": {
+   "grade": "bad",
+   "text": "blind critic: followed partly / no; shows: outline of nose, lips and chin in profile under the brim, in near-blac"
+  },
+  "h3|1950s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: pale beige column under the right of the toaster base that reads as a "
+  },
+  "h3|1950s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: none clear; pale wedge under the right of the base reads as shirt coll"
+  },
+  "h3|1960s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed yes / partly; shows: none at collar or wrists; two pale rounded shapes under the skirt hem "
+  },
+  "h3|1960s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed yes / partly; shows: no skin; a small white patch of dummy chest shows in the neckline; whi"
+  },
+  "h3|1970s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / yes; shows: both calves from the capri hem to the skate tops are smooth beige with"
+  },
+  "h3|1970s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes"
+  },
+  "h3|1980s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: neck skin between the collar and the shapes at the lower right of the "
+  },
+  "h3|1980s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: none; the collar holds only a dark void; one gloved hand shows and the"
+  },
+  "h3|2000s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: thin sliver of skin at the right wrist between glove and cuff"
+  },
+  "h3|2010s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: neck skin under the emoji above the red top; dark hair bun at the left"
+  },
+  "h3|2010s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: neck skin under the emoji inside the denim collar"
+  },
+  "hy3|1920s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / yes; shows: none of flesh; the head is a full porcelain mannequin head with a scul"
+  },
+  "hy3|1920s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed yes / partly; shows: sculpted porcelain ear on the left side of the head; grey skin-like ga"
+  },
+  "hy3|1930s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: small dark ear-like shape on the right below the strap, not certain; n"
+  },
+  "hy3|1930s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes"
+  },
+  "hy3|1950s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes; shows: none; a black gap sits under the toaster where a neck would be"
+  },
+  "zit|1920s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: dark hair or cap rim visible all around the top of the mask; the right"
+  },
+  "zit|1920s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: dark wavy hair above both masks, ear area visible at the mask edges; m"
+  },
+  "zit|1930s-A": {
+   "grade": "bad",
+   "text": "blind critic: followed no / no; shows: a human eye with brow and lid plainly visible through the right eyepie"
+  },
+  "zit|1930s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: a dark brow and eye shape visible through the translucent right eyepie"
+  },
+  "zit|1940s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: both ears beside the black patch, the whole neck, and bare chest skin "
+  },
+  "zit|1940s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: ear and side of the jaw on the right, lit neck above a T-shirt"
+  },
+  "zit|1950s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: thin reddish-brown sliver at both wrists between shirt cuff and cream "
+  },
+  "zit|1950s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: dark red sliver under the toaster base at the collar; thin reddish lin"
+  },
+  "zit|1960s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: flesh-toned neck stub and upper chest visible inside the round cardiga"
+  },
+  "zit|1960s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: skin-toned chest in the V neckline under the lamp base; bare skin-tone"
+  },
+  "zit|1970s-A": {
+   "grade": "warn",
+   "text": "blind critic: followed yes / partly; shows: none; the suit meets ribbed socks with no gap, gloves cover the wrists"
+  },
+  "zit|1970s-B": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: none; blue socks cover the ankles"
+  },
+  "zit|1980s-A": {
+   "grade": "bad",
+   "text": "blind critic: followed no / no; shows: chin, jaw, cheek at right, full neck, dark hair behind the shapes, sli"
+  },
+  "zit|1980s-B": {
+   "grade": "bad",
+   "text": "blind critic: followed partly / no; shows: full bare neck with Adam's apple rising from the collar, cut off flat "
+  },
+  "zit|2010s-A": {
+   "grade": "good",
+   "text": "blind critic: followed yes / yes; shows: skin-toned neck visible under the ball inside the collar; bare ankles "
+  },
+  "zit|2010s-B": {
+   "grade": "warn",
+   "text": "blind critic: followed partly / partly; shows: bare fingers on both hands (fingerless gloves); hair strands at the ri"
+  }
+ }
+}

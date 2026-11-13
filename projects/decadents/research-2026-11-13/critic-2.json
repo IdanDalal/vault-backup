@@ -1,0 +1,308 @@
+[
+  {
+    "file": "1960s-A_a.jpg",
+    "followed": "partly",
+    "leak": "flesh-toned neck stub and upper chest visible inside the round cardigan neckline, under and around the lamp base",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Lamp is mounted and lit, but it stands on a skin-coloured neck, so the metal base fails to be the neck. Gloved hands rest on the floor; no knitting in progress."
+  },
+  {
+    "file": "1960s-A_b.jpg",
+    "followed": "partly",
+    "leak": "no skin; a cream dress-form neck stub stands between the collar and the lamp base",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "Reads as a modern phone photo of a shop dummy: crisp HDR colour, pink macrame, no film grain. Lamp wax is a flat flame shape. Knitting pose is present."
+  },
+  {
+    "file": "1960s-A_c.jpg",
+    "followed": "partly",
+    "leak": "flesh-toned neck base and chest visible in the V neckline around the lamp base",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Good warm 1960s tone and a convincing lit lamp, but the V-neck cardigan exposes a skin-coloured chest. Hands on the floor, no knitting."
+  },
+  {
+    "file": "1960s-A_d.jpg",
+    "followed": "yes",
+    "leak": "none at collar or wrists; two pale rounded shapes under the skirt hem at bottom centre could be bare feet or cushion, uncertain",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 3,
+    "note": "Best head of the brief: the metal base sits straight on the buttoned collar with no neck, and the figure knits. Light and colour are too clean and editorial for a 1960s photograph."
+  },
+  {
+    "file": "1960s-B_a.jpg",
+    "followed": "partly",
+    "leak": "skin-toned chest in the V neckline under the lamp base; bare skin-toned forearms from the kaftan sleeves down to the red gloves, both sides",
+    "figures": 0,
+    "bg_faces": true,
+    "look": 4,
+    "note": "Sleeves stop at the elbow, so both forearms are bare. No background people; bg_faces is true because two posters show drawn mask-like faces."
+  },
+  {
+    "file": "1960s-B_b.jpg",
+    "followed": "partly",
+    "leak": "cream dummy chest and neck base visible in the V neckline (pale, reads as a mannequin, still a neck shape); hands are tan suede gloves, no skin",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Most period-true film look of the brief, with long sleeves and boots as asked. The lamp is small for a head and stands on a visible dummy neck base."
+  },
+  {
+    "file": "1960s-B_c.jpg",
+    "followed": "partly",
+    "leak": "skin-toned neck and chest in the V neckline around the lamp base; bare forearms above both gloves",
+    "figures": 0,
+    "bg_faces": true,
+    "look": 4,
+    "note": "Same faults as attempt a: short sleeves and an exposed chest. Posters show several drawn faces including a realistic woman's portrait, and one poster pictures a lava lamp, which repeats the head in frame."
+  },
+  {
+    "file": "1960s-B_d.jpg",
+    "followed": "yes",
+    "leak": "no skin; a small white patch of dummy chest shows in the neckline; white gloves and pale boots cover hands and feet",
+    "figures": 0,
+    "bg_faces": true,
+    "look": 4,
+    "note": "A ribbed metal base replaces the neck as briefed and sleeves reach the wrists. The lamp is tiny and its glass reads as opaque white with flat red shapes, closer to a painted bottle. One poster shows two photographed-looking people with faces."
+  },
+  {
+    "file": "1970s-A_a.jpg",
+    "followed": "yes",
+    "leak": "none; a neck-shaped column under the ball is fully covered in sequins, gloves at the wrists, knee socks into the skates",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Fully covered and well lit as one photograph. The blue dot-matrix sign in the background reads later than the 1970s, and the ball is slightly small for a head."
+  },
+  {
+    "file": "1970s-A_b.jpg",
+    "followed": "partly",
+    "leak": "bare skin on both shins between the cropped jumpsuit hem and the ankle socks",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Head and collar are right; the jumpsuit is cropped at mid-calf and short socks leave a band of bare leg on each side, which breaks the fully covered body."
+  },
+  {
+    "file": "1970s-A_c.jpg",
+    "followed": "partly",
+    "leak": "both calves from the capri hem to the skate tops are smooth beige with no sock texture; they read as bare skin or skin-tone tights",
+    "figures": 1,
+    "bg_faces": false,
+    "look": 5,
+    "note": "Most convincing 1970s print of the set, with a turtleneck under the ball. The lower legs look uncovered. One dark background skater at right, face hidden in shadow."
+  },
+  {
+    "file": "1970s-A_d.jpg",
+    "followed": "yes",
+    "leak": "none; the suit meets ribbed socks with no gap, gloves cover the wrists, the collar covers the neck",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Cleanest full coverage of the brief. The light is a little too even and clean for a 1970s rink snapshot."
+  },
+  {
+    "file": "1970s-B_a.jpg",
+    "followed": "yes",
+    "leak": "none",
+    "figures": 1,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Ball sits on a gold sequin collar as briefed. A string runs from the ball to the ceiling, so it can read as a hanging disco ball in front of a hidden head. No tube socks visible. One motion-blurred background skater, no face readable."
+  },
+  {
+    "file": "1970s-B_b.jpg",
+    "followed": "yes",
+    "leak": "none",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 5,
+    "note": "Best of the brief: ball on a red sequin collar, mid-glide, striped socks, a convincing faded print with motion blur. The ball is a little small for a head."
+  },
+  {
+    "file": "1970s-B_c.jpg",
+    "followed": "yes",
+    "leak": "none; blue socks cover the ankles",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Ball on a pink sequin turtleneck collar. A string to the ceiling again suggests a hanging ball. The figure stands still, with no glide."
+  },
+  {
+    "file": "1970s-B_d.jpg",
+    "followed": "yes",
+    "leak": "none",
+    "figures": 1,
+    "bg_faces": false,
+    "look": 5,
+    "note": "Convincing motion-blurred 1970s print. The sequin collar is a wide bib under an open shirt collar, which still covers the neck. One blurred background skater at lower right, no face."
+  },
+  {
+    "file": "1980s-A_a.jpg",
+    "followed": "partly",
+    "leak": "band of bare neck skin at the collar base above the white undershirt; flecks of skin tone through gaps in the lower right grid shape; bare hairy wrist between glove and cuff",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "No face shows and the shapes hover, but they are flat vector stickers on a flash photograph and a neck base remains in the collar. One shape reads as a digit 9. The hand holds a small silver box; no brick cellphone."
+  },
+  {
+    "file": "1980s-A_b.jpg",
+    "followed": "partly",
+    "leak": "neck skin between the collar and the shapes at the lower right of the cluster; bare wrist between glove and cuff; a black mass at the left of the cluster may be hair",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "Flat stickers pasted where a real head and neck sit. The phone is a thin modern handset."
+  },
+  {
+    "file": "1980s-A_c.jpg",
+    "followed": "no",
+    "leak": "mouth, chin, jaw, full neck, dark hair above and behind the shapes, bare wrist between glove and cuff",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A man with flat stickers over his eyes. The phone is a 2000s candybar handset."
+  },
+  {
+    "file": "1980s-A_d.jpg",
+    "followed": "no",
+    "leak": "chin, jaw, cheek at right, full neck, dark hair behind the shapes, sliver of wrist skin",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A human head with stickers over the upper face. The phone is a 2000s handset."
+  },
+  {
+    "file": "1980s-B_a.jpg",
+    "followed": "no",
+    "leak": "nose tip, mouth, chin, jaw, neck, hair at the right of the shapes",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A man's lower face is in full view under flat stickers. The grid cube is a black-and-white 3x3 puzzle cube in the form of a Rubik's Cube. The phone is a 2000s handset."
+  },
+  {
+    "file": "1980s-B_b.jpg",
+    "followed": "yes",
+    "leak": "none; the collar holds only a dark void; one gloved hand shows and the other is in a pocket",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 3,
+    "note": "Only attempt in both 1980s briefs with an empty collar and shapes that read as physical paper cut-outs casting shadows. The cube is a white 3x3 puzzle cube in the form of a Rubik's Cube. The picture looks like a 2000s digital snapshot, later than the 1980s."
+  },
+  {
+    "file": "1980s-B_c.jpg",
+    "followed": "yes",
+    "leak": "bare wrist between the white glove and the striped sleeve; the collar holds a black void",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 1,
+    "note": "The empty collar is right, but the whole frame is a cut-out collage: flat vector shapes, a body with a pale cut edge, a digital grid. The cube is Rubik's Cube shaped. A striped T-shirt replaces the collared shirt."
+  },
+  {
+    "file": "1980s-B_d.jpg",
+    "followed": "partly",
+    "leak": "full bare neck with Adam's apple rising from the collar, cut off flat at the top",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A headless neck stump under floating flat shapes. Two black-and-white puzzle cubes in the form of Rubik's Cubes. The phone is a 2000s handset."
+  },
+  {
+    "file": "2000s-A_a.jpg",
+    "followed": "yes",
+    "leak": "none certain; a tan strip at the right wrist reads as a leather wristband with a metal glint",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "The camera look suits 2004, but the cube is a jagged computer graphic pasted on the photograph, and its teal-gems-in-stone texture resembles a Minecraft ore block. The figure sits on a car bonnet, so 'hood' was read as the car's."
+  },
+  {
+    "file": "2000s-A_b.jpg",
+    "followed": "yes",
+    "leak": "thin sliver of skin at the right wrist between glove and cuff",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "The cube resembles a Minecraft block: pixel-grid faces, grey gravel top, red and green front. It is a sharp-edged computer graphic on an otherwise convincing 2004 flash photograph."
+  },
+  {
+    "file": "2010s-A_a.jpg",
+    "followed": "partly",
+    "leak": "neck skin under the emoji above the red top; dark hair bun at the left edge of the collar; bare ankle above the left sneaker",
+    "figures": 1,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A flat emoji sticker over a real head, in the look of Apple's emoji set. A second person stands in the doorway at left, seen from behind or the side with no face shown."
+  },
+  {
+    "file": "2010s-A_b.jpg",
+    "followed": "partly",
+    "leak": "bare ankles above both sneakers; nothing visible around the emoji",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "An oversized flat emoji sticker in the look of Apple's emoji set, with no shading from the room. The body has a painted, over-filtered finish."
+  },
+  {
+    "file": "2010s-A_c.jpg",
+    "followed": "yes",
+    "leak": "skin-toned neck visible under the ball inside the collar; bare ankles above both sneakers",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "A real glossy ball wearing real sunglasses in the room's own light, generic design with no brand emoji. The smile is a small dark cut-out, narrower than the wide smile asked for. A neck shows under the ball."
+  },
+  {
+    "file": "2010s-A_d.jpg",
+    "followed": "yes",
+    "leak": "skin-toned neck visible under the ball inside the collar; bare ankles above both sneakers",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 4,
+    "note": "Same strong result as attempt c: a physical glossy ball with real sunglasses, one light, generic design. A neck shows under the ball and the smile is small."
+  },
+  {
+    "file": "2010s-B_a.jpg",
+    "followed": "partly",
+    "leak": "sliver of neck or chin skin to the right of the phone under the emoji; thin hair strands at the right edge of the emoji",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "Flat emoji sticker in the look of Apple's emoji set. The phone has a triple-lens camera block in the style of a recent iPhone Pro, wrong for 2015. The ring light stands on a floor tripod; no selfie stick."
+  },
+  {
+    "file": "2010s-B_b.jpg",
+    "followed": "partly",
+    "leak": "long brown hair on both sides of the emoji, falling to the shoulders",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A flat Apple-style emoji sticker over a real head whose hair is in plain view. No mirror and no phone in hand; the phone sits on the stick."
+  },
+  {
+    "file": "2010s-B_c.jpg",
+    "followed": "partly",
+    "leak": "bare fingers on both hands (fingerless gloves); hair strands at the right edge and the top of the emoji",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "The Apple logo is visible on the phone back, and the emoji sticker is in the look of Apple's set. Fingerless gloves break the gloved-hands rule."
+  },
+  {
+    "file": "2010s-B_d.jpg",
+    "followed": "partly",
+    "leak": "neck skin under the emoji inside the denim collar",
+    "figures": 0,
+    "bg_faces": false,
+    "look": 2,
+    "note": "A convincing filtered mirror selfie with a flat Apple-style emoji sticker pasted over the head. The phone has a dual-lens block in the style of a 2019 iPhone. Black boots replace sneakers."
+  }
+]

@@ -172,3 +172,4 @@ Full source lists (URLs) sit at the foot of each report in `projects/decadents/r
 ## Log
 
 - 2026-11-12 created. Six research agents, three blind critics, 54 test renders, review sheet. Awaiting Idi's taps.
+- 2026-11-13 corrections in `decadents-models-test-2026-11-13.md`, section 6: HunyuanImage 3.0 does run on this PC (slow, memory-tight); the H3-Image licence line was overstated; a better model about doubles full compliance with the head instruction.
