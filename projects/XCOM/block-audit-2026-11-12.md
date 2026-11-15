@@ -11,7 +11,33 @@ Method: three audit agents, one per layer, each block checked four ways: lever a
 
 Nothing here was tested by launching the game.
 
-## Verdicts
+## Update 2026-11-15 (after Idi's 11-14 session and his rulings)
+
+Read from the 11-14 `Launch.log` (probe lines tagged `jepCovertBlock`) and applied on his words "all rec", "remove those five ARFM dark events", "restore Opportune Moment if it only appears as an over-infiltration bonus".
+
+| Row below | New state | Receipt |
+|---|---|---|
+| 1 covert list | **HOLDING since the first month end**; it failed only for the first month's offers | Probe: the game's list holds all 19 names, mine included (`Launch.log:57983`). Month end at `:58076`: new offers on all three factions, none of the nine, and the sweep mod removed nothing |
+| 2 PCS side routes | Three routes closed (V1); unseen in game | Replay on live files: Black Market tables one per name with 0 of the six types; `EpicPCS` deck 19 -> 13; salvage lists 0 of the six. Next launch: no `BlackMarketPCS` duplicate lines, `EpicPCS contains 13`. MOCX's two projects stay open |
+| 15 sitrep exclude list | **HOLDING** | Probe prints 53 names (`:57985`) |
+| 16 risk and bonus removals | **HOLDING** | Probe prints 5 rows left, none of the removed ones (`:57988`) |
+| 18 loot expiry | normal loot logged at 3 turns (`:115963`); psi loot not seen yet | Logging stays on until a psi drop |
+| 19 boss lists | **HOLDING** | "Lists after" dump: Frost Abomination in the Psionic Storm boss list, `AdvGeneralM2_LW` in the field commander list (`:18820`, `:18828`) |
+| orders removed (row 4) | confirmed again | Probe prints the removed-order list (`:57990`) |
+
+Covert cause, best reading now (medium-high): the starting faction's first offer list is built during campaign creation, before Covert Infiltration's filter is listening. Every later list passes through the filter. `jepCovertBlock` stays as the net for month one of any future campaign and logs whatever it removes.
+
+Applied 11-15:
+- **Stygian Slayer** (Idi's `SNAPSHOT.png`): Snapshot is a penalised primary-weapon shot that hides whenever a standard shot exists (`X2Ability_SharedPerksRSAbilitySet.uc:1679-1688`), so it only acts on a sniper rifle. 12 pistol-primary cards cut; the spec stays on Androctonus - Stygian Slayer - Scout. Deck 707 -> 695 (simulated), weights regenerated, pick sheet refreshed with 112 ticks kept. An eye pass over the starting perks of all 141 specs found no other case. Own regression: a 09-17 rule already said this and was lost in a later cleanup.
+- **V1** (agent `fix-items`, checked by jep): `jepFixes/Config/XComGameCore.ini` (Black Market), `XComGame.ini` (reward deck), new `XComCorpseLooting.ini` (salvage). Choice made: where the two source Black Market tables disagreed, each roll group keeps the larger total, so stock chances never drop.
+- **V2**: 95 dead names out of the weapon hide list (513 -> 418 merged), six Mandalorian helmet lines out, `XComTemplateEditor.ini` and `XComEndgameWeapons.ini` moved out (kept in the job folder and in git history). Four more Resistance Firearms names look dead by the same test and were left in.
+- **Four ARFM dark events switched off** with ARFM's own switches in new `jepFixes/Config/XComARFM_DE_Config.ini` (class and config name checked: `ARFM_DE_DarkEvents.uc:1,25-34`): Medical Embargo, Extra Ammo, Fortress, Immortal Pursuit. Hair Trigger's event (Extra Ammo II) has no switch and can only follow Extra Ammo I, so it goes with it. No switch separates the sitrep from its dark event, so removal was the only way. Safe mid-campaign: templates stay; the switch is read each time the monthly deck is built. Newest save: none of the five active or pending. Next launch: four probe lines print `False`.
+- **Opportune Moment 1 and 2: no change needed.** They are ordinary strategy sitreps, so three random rollers could draw them; the block list entry is what stops that. The over-infiltration bonus path reads neither block list (source reading, medium-high; your current infiltration offers both bonuses in the save). Today's state is already "only as over-infiltration bonuses".
+- Second Wave "Perilous Yearning" is off in this campaign, which closes the Ambush and Fortress path listed below.
+
+Appendices added: `block-audit-2026-11-12/items-fix.md`, `sitreps-fix.md`.
+
+## Verdicts (as of 2026-11-12)
 
 | # | Block | Verdict | Evidence | Next proof |
 |---|---|---|---|---|
