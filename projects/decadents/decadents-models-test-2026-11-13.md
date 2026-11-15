@@ -142,6 +142,29 @@ Readings (jep's):
 2. HunyuanImage 3.0 understood the assignment in every pair he saw (5 of 5). Sample still small; the full set was started on his word the same day.
 3. Look is a separate problem that no model solved: his highest score anywhere is 4 of 5 (1970s-B, both Z-Image-Turbo and H3-Image); the HunyuanImage toaster he marked "yes" got 1 of 5. What drives his look score is unstated.
 
+## 9. Idi's complete answers and concept rulings (2026-11-15)
+
+His complete pasted line, verbatim (it now includes the HunyuanImage column for every prompt):
+
+> DECADEnts T4 answers | 1920s-A: zit partly 2/5; h3 no 1/5; hy3 yes 3/5 | 1920s-B: zit partly 1/5; h3 no 1/5; hy3 yes 2/5 | 1930s-A: zit no 2/5; h3 yes 3/5; hy3 yes 2/5 | 1930s-B: zit partly 2/5; h3 yes 3/5; hy3 yes 3/5 | 1940s-A: zit no 1/5; h3 partly 1/5; hy3 yes 2/5 | 1940s-B: zit no 1/5; h3 no 1/5; hy3 yes 1/5 | 1950s-A: zit yes 2/5; h3 yes 3/5; hy3 yes 1/5 | 1950s-B: zit yes 2/5; h3 yes 3/5; hy3 partly 2/5 | 1960s-A: zit no 1/5; h3 partly 2/5; hy3 yes 2/5 | 1960s-B: zit no 2/5; h3 no 2/5; hy3 partly 2/5 | 1970s-A: zit partly 3/5; h3 yes 3/5; hy3 partly 3/5 | 1970s-B: zit yes 4/5; h3 yes 4/5; hy3 yes 3/5 | 1980s-A: zit no 2/5; h3 no 1/5; hy3 no 1/5 | 1980s-B: zit no 1/5; h3 yes 3/5; hy3 yes 2/5 | 2010s-A: zit partly 3/5; h3 no 2/5; hy3 yes 4/5 | 2010s-B: zit no 1/5; h3 no 1/5; hy3 yes 2/5
+
+Tally (jep's count, by script): 2000s-A and the model ruling were left untapped.
+
+| Model | Pairs | Understood: yes | Partly | No | Look, mean of his scores | Best |
+|---|---|---|---|---|---|---|
+| HunyuanImage 3.0 | 16 | 12 | 3 | 1 | 2.19 | 4 |
+| H3-Image | 16 | 7 | 2 | 7 | 2.12 | 4 |
+| Z-Image-Turbo | 16 | 3 | 5 | 8 | 1.88 | 4 |
+
+His rulings with it, verbatim:
+
+> We need to rethink some of the character concepts - I don't believe they'll ever look good. The 1940s, 1960s, 1980s, and 2000s. The 1920s sparked/inspired a new version of the idea: a porcelain statue wearing a porcelain mask - it's ridiculous and fits our nothing-human standard. The 1930s' two round eye-holes should always be black/reflective so that it'll fit our nothing-human standard. The 1950s toaster with the hat is funny. The 1970s all-sequins + white accent looks good. The 2010s is too feminine and the sunglasses are "real"/"3D" - it should be a blank yellow ball and everything is "drawn on it".
+
+Readings (jep's):
+1. On understanding, his eye and the blind critics agree: HunyuanImage 3.0 first (12 of 16 pairs for him, 26 of 32 pictures for the critics).
+2. On look, no model passes: 4 of 5 is the ceiling for all three. His rulings place the cause in the concepts for four decades and in specifics for the rest.
+3. Next step and everything a new session needs: `projects/decadents/handoff-2026-11-15.md`.
+
 ## Sources
 
 - Blind critiques: `projects/decadents/research-2026-11-13/critic-1.md`, `critic-2.md`, `critic-3.md`; raw verdicts `critic-1.json`, `critic-2.json`, `critic-3.json`; joined counts `aggregate.json`.
@@ -155,4 +178,5 @@ Readings (jep's):
 
 - 2026-11-13 created. Installs, 42 renders, blind scoring, sheet.
 - 2026-11-13 Idi's answers pasted (section 8); remaining 26 HunyuanImage pictures rendered on his word.
-- 2026-11-14 third blind critic; tables, verdict and sheet updated with the full HunyuanImage set. Waiting on Idi: taps on the HunyuanImage columns and the model ruling.
+- 2026-11-14 third blind critic; tables, verdict and sheet updated with the full HunyuanImage set.
+- 2026-11-15 Idi's complete answers and concept rulings recorded (section 9); handoff written.
