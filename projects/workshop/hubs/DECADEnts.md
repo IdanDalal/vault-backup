@@ -3,13 +3,13 @@ type: hub
 created: 2026-11-11
 author: jep
 status: paused
-next: "Idi: tap the T7 sheet; rule on the execution lever (A film finish in code, B second-model repaint, C one head art-directed; jep recommends A)"
+next: "Idi: tap the T9 sheet (Yuppie framing, 2000s head, 1920s picture, a yes per decade to pick its D1 portrait)"
 ball: Idi
 cost_min: 10
 value: low
 effort: low
 last: 2026-11-15
-entry: "[[projects/decadents/decadents-concepts-2026-11-15|T6 and T7 concepts 11-15]]"
+entry: "[[projects/decadents/decadents-cast-2026-11-15|T9 cast 11-15]]"
 telos: "Current Focus 5 (frozen)"
 ---
 
@@ -18,8 +18,8 @@ telos: "Current Focus 5 (frozen)"
 One character per decade. D1 = one portrait per entry of the Character Visual Dictionary.
 
 - **Done means** (D1): nine portraits picked.
-- **State**: 11-15, Idi picked three new heads on the T6 sheet: 1940s radio in a helmet, 1960s yarn ball with needles, 1980s giant mobile phone ("All concepts are great, all executions/versions are average at best"). T7 rendered on his word and blind-checked, 32 pictures: three more 2000s heads (jep's pick: case-modded PC tower), 1920s porcelain statue in two readings, 1930s black mirror lenses, 2010s drawn face in two outfits, the two keeps, and a second pass of his three picks. Second pass: leaks closed 12 of 12, the critic's look score barely moved, so wording is spent as a lever. Waiting on his T7 taps and one ruling: the lever for execution. Sheets: `projects/decadents/t6-concepts-2026-11-15.html` (answered), `t7-concepts-2026-11-15.html`.
-- **Read first**: [[projects/decadents/decadents-concepts-2026-11-15|T6 and T7 concepts 11-15]], [[projects/decadents/handoff-2026-11-15|handoff 11-15]], [[projects/decadents/decadents-models-test-2026-11-13|model test 11-13]], [[projects/decadents/decadents-performance-2026-11-14|performance 11-14]], [[projects/decadents/decadents-bible|bible]]
+- **State**: 11-15, Idi answered the film-finish sheet (better on 1920s, 1930s, 1940s, 1950s, 1980s, 2010s; same on 1960s; worse on 1970s and 2000s); his slider positions are the defaults in `projects/decadents/film_finish.py`. On his word the 14 staged pictures were rendered and blind-checked: the Yuppie in shirt and suspenders (two hands for two things in 4 of 4), four more 2000s heads (jep's pick: PC tower in a gaming headset), the 1920s mask with black glass eyes (picture 71). The T9 sheet `projects/decadents/t9-cast-2026-11-15.html` shows the whole cast and asks a yes per decade to pick its D1 portrait. D1 = nine portraits picked; picked by tap so far: none. Open heads: 2000s.
+- **Read first**: [[projects/decadents/decadents-cast-2026-11-15|T9 cast 11-15]], [[projects/decadents/decadents-film-finish-2026-11-15|T8 film finish 11-15]], [[projects/decadents/decadents-concepts-2026-11-15|T6 and T7 concepts 11-15]], [[projects/decadents/handoff-2026-11-15|handoff 11-15]], [[projects/decadents/decadents-bible|bible]]
 - **Jar**: candidate C4 (two portraits) staged 09-14, unanswered.
 - **4090**: renders.
 - **Value basis** (confirmed by Idi 11-11): no session since 09-14.

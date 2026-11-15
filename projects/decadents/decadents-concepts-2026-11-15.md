@@ -8,6 +8,8 @@ project: DECADEnts
 
 # DECADEnts T6 and T7: new head concepts, Idi's picks, second pass (2026-11-15)
 
+State after Idi's T7 answers and the film finish: `decadents-film-finish-2026-11-15.md`.
+
 Continues `handoff-2026-11-15.md`. Scan doc. Sheets in this folder: `t6-concepts-2026-11-15.html` (pictures 1 to 26, answered), `t7-concepts-2026-11-15.html` (pictures 27 to 58, waiting on taps).
 
 ## State
