@@ -18,7 +18,11 @@ Scene file `app/src/scenes/fact.ts` + `_pa-fact.ts`. Shared kits (`_pa.ts`, `_pa
 
 ## 3. Film-level items that land here
 
-- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. The event list for this plate is written in phase 1 (R35: each event has a cause on screen and a short window).
+- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. This plate's events are listed under it.
+  - 1:21.3-1:23.3, focus: the slip travels ahead of the camera; the front-desk screen comes into focus as it lands
+  - 1:25.5, ca: the padlock snaps shut on ANSWER
+  - 1:38.5-1:40.1, flare + kick: the ANSWER button lights; the hook bites its edge
+  - 1:40.1-1:42.0, focus: the low tilted view across the glass: near words sharp, the far edge soft
 - `film-s05` A camera that rests less: More travel between holds across the film: longer pushes, more rides like the hook ride at 1:38. This plate in v3: camera still 43 % of the time, 5.3 moves per 10 s, 20 reversals (film 60.8 %, 4.4; reference films 30-40 %, 4.9-6.9).
 - `film-s04` colour and `film-s07` blue beyond screens: ruled on the phase 1 decision page, then applied here.
 

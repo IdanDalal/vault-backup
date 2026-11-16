@@ -24,7 +24,10 @@ Scene file `app/src/scenes/late.ts`. Shared kits (`_pa.ts`, `_pa-lens.ts`, the p
 
 ## 3. Film-level items that land here
 
-- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. The event list for this plate is written in phase 1 (R35: each event has a cause on screen and a short window).
+- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. This plate's events are listed under it.
+  - 0:54.0, kick: the gold star slaps into the pan
+  - 0:56.0-0:58.2, focus: LATE and the ? fall away into the dark classroom: focus racks from the scale to the room
+  - 1:09.05-1:09.65, flare + bloom + exposure: the ember strikes into the lamp (already coded in `_pa-lens.ts`, mode L)
 - `film-s05` A camera that rests less: More travel between holds across the film: longer pushes, more rides like the hook ride at 1:38. This plate in v3: camera still 25 % of the time, 4.2 moves per 10 s, 9 reversals (film 60.8 %, 4.4; reference films 30-40 %, 4.9-6.9).
 - `film-s04` colour and `film-s07` blue beyond screens: ruled on the phase 1 decision page, then applied here.
 

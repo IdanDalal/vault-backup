@@ -20,7 +20,10 @@ Scene file `app/src/scenes/exam.ts`. Shared kits (`_pa.ts`, `_pa-lens.ts`, the p
 
 ## 3. Film-level items that land here
 
-- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. The event list for this plate is written in phase 1 (R35: each event has a cause on screen and a short window).
+- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. This plate's events are listed under it.
+  - 3:17.5-3:21.0, ca + kick on the kicks, fov breathing: the camera's solo (film-s02): each clock step lands as a lens hit while the camera circles
+  - 3:23.4-3:25.9, breathe + exposure: the light drains from 0:04
+  - 3:27.6, ca + fov: the dot cracks the glass on the hit after 'down.' (already coded in `_pa-lens.ts`, mode L)
 - `film-s02` The exam instrumental becomes the camera's solo: 3:17-3:27: the countdown digits become a physical flip clock, the camera dives through it and tours the earlier motifs fast, lens events land on the kicks, and it lands on PENCILS DOWN.
 - `film-s05` A camera that rests less: More travel between holds across the film: longer pushes, more rides like the hook ride at 1:38. This plate in v3: camera still 82 % of the time, 3.2 moves per 10 s, 3 reversals (film 60.8 %, 4.4; reference films 30-40 %, 4.9-6.9).
 - `film-s04` colour and `film-s07` blue beyond screens: ruled on the phase 1 decision page, then applied here.

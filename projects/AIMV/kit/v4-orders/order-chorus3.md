@@ -20,7 +20,11 @@ Scene file `app/src/scenes/chorus3.ts`. Shared kits (`_pa.ts`, `_pa-lens.ts`, th
 
 ## 3. Film-level items that land here
 
-- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. The event list for this plate is written in phase 1 (R35: each event has a cause on screen and a short window).
+- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. This plate's events are listed under it.
+  - 3:58.9, ca + exposure: ATTENTION slams and the room lights up: the first frame with the full value range
+  - 4:05.5-4:07.5, flare: a point of light lifts off the screen on A QUESTION IS A LAMP
+  - 4:15.7-4:18.0, fov: the flight into the pupil, rhyming with chorus 1
+  - 4:18.0-4:21.1, focus: the words lift toward the camera and pass through focus
 - `film-s05` A camera that rests less: More travel between holds across the film: longer pushes, more rides like the hook ride at 1:38. This plate in v3: camera still 48 % of the time, 4.4 moves per 10 s, 6 reversals (film 60.8 %, 4.4; reference films 30-40 %, 4.9-6.9).
 - `film-s04` colour and `film-s07` blue beyond screens: ruled on the phase 1 decision page, then applied here.
 

@@ -25,7 +25,12 @@ Scene file `app/src/scenes/verse4.ts`. Shared kits (`_pa.ts`, `_pa-lens.ts`, the
 
 ## 3. Film-level items that land here
 
-- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. The event list for this plate is written in phase 1 (R35: each event has a cause on screen and a short window).
+- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. This plate's events are listed under it.
+  - 3:28.0-3:29.5, exposure: the flight into the white light: overexposed, then adapting
+  - 3:36.9-3:39.6, bloom: the 0 widens into a glowing infinity sign
+  - 3:43.0-3:45.3, flare + breathe: the eight heads: a streak from every beam (already coded in `_pa-lens.ts`, mode L)
+  - 3:51.0, fov: the dive back in over the crowd of hands
+  - 3:28-3:58, kick: small camera kicks on the visual hits that land on kicks (film-s06: 40 % on the beat today)
 - `film-s05` A camera that rests less: More travel between holds across the film: longer pushes, more rides like the hook ride at 1:38. This plate in v3: camera still 34 % of the time, 4.6 moves per 10 s, 41 reversals (film 60.8 %, 4.4; reference films 30-40 %, 4.9-6.9).
 - `film-s06` Verse 4 hits the beat more often: Add visual hits on the kicks in 3:28-3:58.
 - `film-s04` colour and `film-s07` blue beyond screens: ruled on the phase 1 decision page, then applied here.

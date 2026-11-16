@@ -20,7 +20,11 @@ Scene file `app/src/scenes/kitchen.ts`. Shared kits (`_pa.ts`, `_pa-lens.ts`, th
 
 ## 3. Film-level items that land here
 
-- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. The event list for this plate is written in phase 1 (R35: each event has a cause on screen and a short window).
+- `film-s01` Lens effects, plate by plate: Each plate gets a short list of lens events: focus pulls, flare, glow, colour fringing, a wide-angle bulge, a kick on the beat. Each one has a cause on screen and a short window, and the base look returns after it. The clock in the corner stays clean. This plate's events are listed under it.
+  - 2:44.6-2:46.3, focus: the AI's slot while I CAN. is written (already coded in `_pa-lens.ts`, mode L)
+  - 2:46.9, ca + kick: I WON'T. slams
+  - 2:57.1-2:59.9, focus: the camera swings round the screen's edge: the glass passes through focus
+  - 3:12.0-3:15.4, bloom, then breathe: the ? streams into the lamp, which swells; on 'dark' the light closes round her answer
 - `film-s05` A camera that rests less: More travel between holds across the film: longer pushes, more rides like the hook ride at 1:38. This plate in v3: camera still 75 % of the time, 3.1 moves per 10 s, 23 reversals (film 60.8 %, 4.4; reference films 30-40 %, 4.9-6.9).
 - `film-s04` colour and `film-s07` blue beyond screens: ruled on the phase 1 decision page, then applied here.
 

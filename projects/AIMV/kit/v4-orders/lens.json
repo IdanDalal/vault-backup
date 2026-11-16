@@ -1,0 +1,79 @@
+{
+ "_note": "v4 phase 1, lead, 2026-11-16. Lens events per plate (film-s01; Idi R35: all lens effects yes, on today's tone, no grade). Each has a cause on screen and a short window; the base look returns after it; the meter corner stays clean. Times are song seconds from the room's visual transcript: the builder snaps each to its exact frame. `exists` = already coded in _pa-lens.ts (mode L). Kinds: ca (colour fringing, 2-3 frames), kick (camera jolt), flare (streak from a bright source), bloom, exposure (the eye adapting), focus (depth of field pull), fov (wide-angle bulge or punch), breathe (vignette closing or opening). Traps (each breaks R31): a blurred sung word, constant flare or fringing, bloom on paper, brightness pumping on every beat.",
+ "open": [
+  {"t": "0:00.0-0:00.5", "kind": "exposure + bloom", "cause": "the cursor strikes alight in black: the film's first light, the eye adapts"},
+  {"t": "0:03.0", "kind": "ca", "cause": "the SO. seal stamps on"},
+  {"t": "0:07.7-0:09.1", "kind": "fov", "cause": "the slip flies at the viewer and the camera dives past the box"}
+ ],
+ "verse1": [
+  {"t": "0:16.0", "kind": "kick", "cause": "THE INK lands huge"},
+  {"t": "0:20.1-0:21.0", "kind": "flare + exposure", "cause": "the ceiling light strikes on as the camera cranes down"},
+  {"t": "0:24.2", "kind": "ca", "cause": "POCKET slams onto the board"}
+ ],
+ "class": [
+  {"t": "0:27.9-0:28.6", "kind": "exposure", "cause": "the hanging lamp flickers out; the eye opens to the dark classroom"},
+  {"t": "0:30.2-0:32.0", "kind": "bloom", "cause": "the bubbles light blue over every desk (bloom on the screens only)"},
+  {"t": "0:44.3", "kind": "ca + kick", "cause": "BOARD slams", "exists": true},
+  {"t": "0:49.8-0:51.0", "kind": "fov", "cause": "the camera drops to the slate and pushes in"}
+ ],
+ "late": [
+  {"t": "0:54.0", "kind": "kick", "cause": "the gold star slaps into the pan"},
+  {"t": "0:56.0-0:58.2", "kind": "focus", "cause": "LATE and the ? fall away into the dark classroom: focus racks from the scale to the room"},
+  {"t": "1:09.05-1:09.65", "kind": "flare + bloom + exposure", "cause": "the ember strikes into the lamp", "exists": true}
+ ],
+ "chorus1": [
+  {"t": "1:09.9", "kind": "ca", "cause": "ATTENTION slams in"},
+  {"t": "1:10.9-1:12.8", "kind": "fov", "cause": "the camera passes through the O: the letter's edge bulges past the lens"},
+  {"t": "1:12.8-1:15.9", "kind": "focus", "cause": "the classroom inside the pupil is sharp, the lids soft (builds with chorus1-s04, the hand)"},
+  {"t": "1:15.9-1:17.6", "kind": "fov + breathe", "cause": "the push into the pupil"}
+ ],
+ "fact": [
+  {"t": "1:21.3-1:23.3", "kind": "focus", "cause": "the slip travels ahead of the camera; the front-desk screen comes into focus as it lands"},
+  {"t": "1:25.5", "kind": "ca", "cause": "the padlock snaps shut on ANSWER"},
+  {"t": "1:38.5-1:40.1", "kind": "flare + kick", "cause": "the ANSWER button lights; the hook bites its edge"},
+  {"t": "1:40.1-1:42.0", "kind": "focus", "cause": "the low tilted view across the glass: near words sharp, the far edge soft"}
+ ],
+ "games": [
+  {"t": "1:48.0", "kind": "kick", "cause": "HEART lands with a jolt of the whole game screen"},
+  {"t": "1:51.1-1:53.7", "kind": "fov", "cause": "the dive into the padlock and down the corridor of words"},
+  {"t": "2:08.1-2:12.1", "kind": "bloom", "cause": "three trophies light, one per beat (three small blooms)"},
+  {"t": "level changes", "kind": "fov", "cause": "the game screen is a tube: a slight barrel bulge that eases in at each level change and out again. Never constant"}
+ ],
+ "chorus2": [
+  {"t": "2:21.9", "kind": "ca", "cause": "the tag passes edge-on as it flips to TWICE"},
+  {"t": "2:23.4", "kind": "bloom", "cause": "the ONCE stamp flashes white"},
+  {"t": "2:30.4-2:32.6", "kind": "bloom + flare", "cause": "the glass letters of ATTENTION fill with light"},
+  {"t": "2:37.9-2:40.0", "kind": "exposure", "cause": "the ? turns white-hot and lights the counter"},
+  {"t": "2:40.0-2:42.7", "kind": "fov", "cause": "the dive onto the coin's dot"}
+ ],
+ "kitchen": [
+  {"t": "2:44.6-2:46.3", "kind": "focus", "cause": "the AI's slot while I CAN. is written", "exists": true},
+  {"t": "2:46.9", "kind": "ca + kick", "cause": "I WON'T. slams"},
+  {"t": "2:57.1-2:59.9", "kind": "focus", "cause": "the camera swings round the screen's edge: the glass passes through focus"},
+  {"t": "3:12.0-3:15.4", "kind": "bloom, then breathe", "cause": "the ? streams into the lamp, which swells; on 'dark' the light closes round her answer"}
+ ],
+ "exam": [
+  {"t": "3:17.5-3:21.0", "kind": "ca + kick on the kicks, fov breathing", "cause": "the camera's solo (film-s02): each clock step lands as a lens hit while the camera circles"},
+  {"t": "3:23.4-3:25.9", "kind": "breathe + exposure", "cause": "the light drains from 0:04"},
+  {"t": "3:27.6", "kind": "ca + fov", "cause": "the dot cracks the glass on the hit after 'down.'", "exists": true}
+ ],
+ "verse4": [
+  {"t": "3:28.0-3:29.5", "kind": "exposure", "cause": "the flight into the white light: overexposed, then adapting"},
+  {"t": "3:36.9-3:39.6", "kind": "bloom", "cause": "the 0 widens into a glowing infinity sign"},
+  {"t": "3:43.0-3:45.3", "kind": "flare + breathe", "cause": "the eight heads: a streak from every beam", "exists": true},
+  {"t": "3:51.0", "kind": "fov", "cause": "the dive back in over the crowd of hands"},
+  {"t": "3:28-3:58", "kind": "kick", "cause": "small camera kicks on the visual hits that land on kicks (film-s06: 40 % on the beat today)"}
+ ],
+ "chorus3": [
+  {"t": "3:58.9", "kind": "ca + exposure", "cause": "ATTENTION slams and the room lights up: the first frame with the full value range"},
+  {"t": "4:05.5-4:07.5", "kind": "flare", "cause": "a point of light lifts off the screen on A QUESTION IS A LAMP"},
+  {"t": "4:15.7-4:18.0", "kind": "fov", "cause": "the flight into the pupil, rhyming with chorus 1"},
+  {"t": "4:18.0-4:21.1", "kind": "focus", "cause": "the words lift toward the camera and pass through focus"}
+ ],
+ "outro": [
+  {"t": "4:21.1-4:21.8", "kind": "exposure", "cause": "the cut to the grey room: the eye adapts"},
+  {"t": "4:31.5-4:34.5", "kind": "focus", "cause": "from the box to the chat bar where the cursor types one glowing ?"},
+  {"t": "4:43.9", "kind": "ca", "cause": "the PAID stamp lands"},
+  {"t": "4:50.0-4:52.0", "kind": "flare + breathe", "cause": "the end (film-s03): the receipt tears on the last note; the lamp flares once and the view closes on ONE QUESTION."}
+ ]
+}
