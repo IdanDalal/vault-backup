@@ -103,11 +103,20 @@ Reading checked once against blind eyes: v3 frames the critics called RIGID read
 - blind critic, RIGID 3:10.0-3:13.5 (high): five rows of boxed monospace text inside a rectangle
 - levers (plan section 7): lyric on curved paths, rounded and hand-drawn containers, more of her handwriting, entrances from every side and from depth, curves for cords, trails and smoke, camera arcs, eased drift. Which ones this plate takes is set after the phase 1 look tests.
 
-## 6. Text effects (Idi's note 2): first-pass placements
+## 6. Text effects (Idi's note 2): placements and his rulings
 
-- reflection at the kitchen laptop. Reason in the line: attention looking back.
-- geometry at the kitchen's fractions. Reason in the line: her homework.
-- Each is proven on a still in phase 1 before it is built (rule of 10-27: an effect needs a reason in the line).
+- reflection at the kitchen laptop. Reason in the line: attention looking back. **Not look-tested in phase 1 and not ruled: the plate builder may propose it on a still.**
+- geometry at the kitchen's fractions. Reason in the line: her homework. **Not look-tested in phase 1 and not ruled: the plate builder may propose it on a still.**
+- Rulings are Idi's taps on the decision page of 2026-11-16 (R36; record `D:\work\vault\projects\AIMV\kit\v4-phase1-2026-11-16.md` section 7). The look tests ran on a bare stage: fit each effect to the plate, keep the sung word readable on its beat.
+
+## 6b. Film rules from R36 (Idi, 2026-11-16)
+
+- Colour, every real object in its real colour: materials take their hue from `_pa-colour.ts` (gold, brass, wood, steel, cream paper, warm tungsten ...), as the object's own grey times the hue. Screens, pasted text and app edges stay screen blue.
+- Colour, her handwriting is warm amber. Her question-mark lights stay white-hot (jep's assumption, stated to Idi).
+- Colour, the AI: the cursor is screen blue and the word being sung glows blue for its beat.
+- Colour, blacks: unchanged from v3. No lifted black point.
+- Organic level: balanced (R36). First sketch: `v4org.ts` moment kitchen at level 1.
+- Film rules from the phase 0 audit: exits land on cues; one copy of a word per frame unless a hold is the design; a sung line leaves within its bars; type stays inside the frame on every hold; one focus at a time.
 
 ## 7. Done means
 

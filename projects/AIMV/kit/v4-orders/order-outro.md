@@ -106,9 +106,18 @@ Reading checked once against blind eyes: v3 frames the critics called RIGID read
 - blind critic, RIGID 4:45.5-4:51.5 (high): white rectangle, monospace rows with dot leaders, upright and centred for 6 s
 - levers (plan section 7): lyric on curved paths, rounded and hand-drawn containers, more of her handwriting, entrances from every side and from depth, curves for cords, trails and smoke, camera arcs, eased drift. Which ones this plate takes is set after the phase 1 look tests.
 
-## 6. Text effects (Idi's note 2): first-pass placements
+## 6. Text effects (Idi's note 2): placements and his rulings
 
 - none placed here in the plan. No effect is added for looking cool.
+
+## 6b. Film rules from R36 (Idi, 2026-11-16)
+
+- Colour, every real object in its real colour: materials take their hue from `_pa-colour.ts` (gold, brass, wood, steel, cream paper, warm tungsten ...), as the object's own grey times the hue. Screens, pasted text and app edges stay screen blue.
+- Colour, her handwriting is warm amber. Her question-mark lights stay white-hot (jep's assumption, stated to Idi).
+- Colour, the AI: the cursor is screen blue and the word being sung glows blue for its beat.
+- Colour, blacks: unchanged from v3. No lifted black point.
+- Organic level: far (R36): the receipt is paper with curl and weight. First sketch: `v4org.ts` moment outro at level 2.
+- Film rules from the phase 0 audit: exits land on cues; one copy of a word per frame unless a hold is the design; a sung line leaves within its bars; type stays inside the frame on every hold; one focus at a time.
 
 ## 7. Done means
 

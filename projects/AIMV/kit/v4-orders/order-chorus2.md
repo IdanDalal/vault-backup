@@ -82,11 +82,20 @@ Reading checked once against blind eyes: v3 frames the critics called RIGID read
 - blind critic, ORGANIC 2:32.5-2:39.5 (high): round wheel with text bent around its rim, wedges filling, token spinning inside rings, a brush-drawn question mark
 - levers (plan section 7): lyric on curved paths, rounded and hand-drawn containers, more of her handwriting, entrances from every side and from depth, curves for cords, trails and smoke, camera arcs, eased drift. Which ones this plate takes is set after the phase 1 look tests.
 
-## 6. Text effects (Idi's note 2): first-pass placements
+## 6. Text effects (Idi's note 2): placements and his rulings
 
-- neon at 2:18 the shop that bills twice (or games, one of the two). Reason in the line: a sign that sells.
-- geometry at 2:32 the pie chart (exists). Reason in the line: her homework.
-- Each is proven on a still in phase 1 before it is built (rule of 10-27: an effect needs a reason in the line).
+- neon at 2:18 the shop that bills twice (or games, one of the two). Reason in the line: a sign that sells. **BUILD (R36). The film's one neon sign. Kit `neonText`; worked example window neon-shop.**
+- geometry at 2:32 the pie chart (exists). Reason in the line: her homework. **Exists in v3; keep.**
+- Rulings are Idi's taps on the decision page of 2026-11-16 (R36; record `D:\work\vault\projects\AIMV\kit\v4-phase1-2026-11-16.md` section 7). The look tests ran on a bare stage: fit each effect to the plate, keep the sung word readable on its beat.
+
+## 6b. Film rules from R36 (Idi, 2026-11-16)
+
+- Colour, every real object in its real colour: materials take their hue from `_pa-colour.ts` (gold, brass, wood, steel, cream paper, warm tungsten ...), as the object's own grey times the hue. Screens, pasted text and app edges stay screen blue.
+- Colour, her handwriting is warm amber. Her question-mark lights stay white-hot (jep's assumption, stated to Idi).
+- Colour, the AI: the cursor is screen blue and the word being sung glows blue for its beat.
+- Colour, blacks: unchanged from v3. No lifted black point.
+- Organic level: balanced (the default: hand-drawn rounded containers, curves where the line gives a reason, entrances from varied sides and depth, long lines on straight baselines). Far only for a single paper object, as ruled for the receipt.
+- Film rules from the phase 0 audit: exits land on cues; one copy of a word per frame unless a hold is the design; a sung line leaves within its bars; type stays inside the frame on every hold; one focus at a time.
 
 ## 7. Done means
 
