@@ -1,0 +1,7 @@
+# Plate chorus1 (~69.74 to the cut before "Here's one fact", ~81.36). Builder v5-t1 (you built the attention test).
+
+FIRST, before the plate: build the film kit `app\src\scenes\_v5-film.ts` (common brief, "shared systems"): the billing meter (5:00 → 0:00 over the song, the AI's meter: mono label, draining bar; one object), `context N tokens` (true count of words sung so far from data\lyrics.json), HUD label style and leader lines, the film voice helpers, slam/settle easing, and your attention diagram as exports (token row, weighted arcs, multi-head stack) for chorus 2, chorus 3 and verse 4. Commit it, write its exports at the top of your report, and tell the lead in one line when it is ready (others import it).
+
+Then the plate: your approved T1c, renamed `v5-chorus1.ts`, extended to the cut at ~81.36 ("If you never asked, were you ever really there" ends 81.02), with Idi's note: "can/should we try to be more efficient by going back to the same PAY ATTENTION on the left and adding the duplicate-in-depth effect there instead of adding another PAY ATTENTION to the right?" Yes: the second "Pay attention" (75.90) returns the camera to the SAME first PAY ATTENTION token and the eight heads grow in depth out of it (REUSE).
+Also: audit every word for its arrival cause (common rule 2); the callback whips stay.
+Seam in ← the late plate's burning ember is your first glowing token. Seam out → fact: the empty row of "were you ever really there" becomes the fact plate's timeline rail.
