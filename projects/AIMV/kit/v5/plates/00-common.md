@@ -33,12 +33,13 @@ Every on-screen fact is true and sourced. Your brief lists candidates; verify ea
 - You own `app\src\scenes\v5-<plate>.ts` (+ optional `_v5-<plate>.ts`), your report `reports\v5-<plate>.md`, scratch `D:\work\aimv-lab\pa-video\scratch\v5-<plate>\`. Kit requests to `_v5-film.ts` go to v5-t1 through the lead.
 - Render inside the film: `VITE_PA_V5=1` plays your `v5-<plate>.ts` in your plate's timeline row (rows and cut times in `app\src\timeline.ts`; ask the lead for row changes). Render your window with a 0.5 s margin each side.
 - Seams: your first and last frames hand over to your neighbours by the carried object your brief names. Until a neighbour is built in v5 it is v3; compare both seams and state them.
-- Other builders work in parallel in the same repo: commit only by explicit path; never stash, revert or edit their files; wait when `out\.render-lock` is held. Foreground only, no agents, no backgrounded commands. Commit after each working step, message naming the plate, ending `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+- Other builders work in parallel in the same repo: commit only by explicit path; never stash, revert or edit their files; wait when `out\.render-lock` is held. Foreground only, no agents, no backgrounded commands. To wait for the lock, run ONE foreground tool call that polls `out\.render-lock` every few seconds and then starts your job (timeout up to 10 min, repeat if needed). Never go idle waiting for a lock or a background job: nothing wakes you, and four builders share one GPU. Commit after each working step, message naming the plate, ending `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 
 ## Gates and deliverables
 
 1. Check sync over your window (every sung word lit on its frame; negative control 0).
 2. `deadarea.py` on your stills (under 0.40).
+2b. SIZE (look guide R1), measured: a table in your report of every sung line's cap height as % of frame height (sung lines 9-11 %, heroes 13-40 %, nothing sung under 5 %). Lines in a corner or at 3 % of frame height are the v3/v4 fault that got the film rejected.
 3. Motion: your own 8 fps sweep of the whole plate and a 30 fps strip around every transition; list every stretch over 2 s where nothing meaningful changes (target: none, except a placed rest the brief names).
 4. Clip with the song `D:\work\AIMVs\ours\pa-song\v5\plates\<plate>.mp4`; 4 stills `<plate>-1..4.png` at its strongest moments.
 5. Report: what each line does and by which arrival cause; facts with sources; gate numbers; seams; kit requests; the 3 things you are least sure of.
