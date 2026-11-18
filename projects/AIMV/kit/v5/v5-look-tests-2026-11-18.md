@@ -46,6 +46,13 @@ Dead end, recorded: extruded beige 3D type with lightning and blue halo reads as
 - T3 letterform pass on voxel type; T1b raised arm reads as stacked brackets.
 - The engine's countdown clock (bottom right) sits in every test; panel 1 named it a mark of our weaker frames. Keep or drop is open.
 
+## Idi's taps and notes (11-18 night) and the fixes
+
+- All three: "This direction". Chorus: "the boring/flat pause after the word ATTENTION" → T1c: the camera whips back along the token row to WEIGHT (0:50), INK (0:19), the first "attention" (0:04), counters tick per subdivision; the raised arm is now a fan of curved arcs. Cheat code: heart between BY and HEART → done; voxel letterforms on a finer grid. Ink: "too close to What Counts... closer to P(Doom), Sim, Run It Again" → T2b: the chain of copies as a moving timeline (papyrus, Codex Clarkianus 895, Stephanus 1578 p. 275 A, the web, training data), year counter 399 BC → 2026, token counter to 750 billion, per-word camera snaps, carried whips.
+- His LGTM notes became [[film-plan]] (story, easter eggs, motion, variety) and a measured [[motion-guide]] (PD, SIM, RIA; rules M1-M14).
+- Facts checked against sources: Codex Clarkianus = Bodleian MS. E. D. Clarke 39, dated 895, contains the Phaedrus; Stephanus edition Geneva 1578 is the source of the 275a numbering.
+- Decision page version 7 carries all three updated clips.
+
 ## Next
 
 Idi taps the three questions. On "this direction": write the section map into 13 plate briefs in the v5 grammar, attention diagram as the chorus family, then build in waves with the panel as the gate.
