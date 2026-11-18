@@ -19,6 +19,8 @@ Trigger, Idi 11-18: proof tab untapped, "both options are terrible, and look VAS
 | props | few, abstract, one idea per line | many literal props (desks, laptops, chairs, bubbles, cards), several ideas per frame |
 | palette | one colour world per section | navy plus beige plus amber plus blue at once |
 
+**Correction (jep, same day, from the measured look guide):** props, bubbles and UI windows are allowed: LGTM, Run It Again and Ignore Previous Instructions use them. The measured separators are lyric size (sung lines 9-11 % of frame height, heroes 13-40 %), one drawing system (props in the type's line weight and palette; no shaded furnished room in any reference), one accent hue (max 2 saturated hues per frame), and a field or plane behind every lyric. v4 broke all four. Guide: [[v5/look-guide]], section map [[v5/section-map]].
+
 Evidence: the one picture Idi kept (the fractal INFINITY) is the only one built in the reference grammar. The 8, the heads, the classroom, the hand: all literal illustration, all rejected.
 
 ## 2. Process faults (jep's, named plainly)
