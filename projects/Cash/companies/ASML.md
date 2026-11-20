@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 1
-last_price: 1383.11
+last_price: 1356.2
 conviction: "EUV lithography monopoly; sells the machines TSM can't do without"
 cut_reason: ""
 reentry_trigger: ""
