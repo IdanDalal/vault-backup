@@ -17,6 +17,8 @@ I have ideas to improve the review room and facilitate faster, wider, and deeper
 3. Sliders: you can generate many kinds of sliders, but not the "number-only" kind like the ones in the React section of the review room. Either text-only or text-and-number - meaning, instead of me deciding which number to choose based on an internal monologue you're unaware of and might misinterpret, I'd rather tap options that I can read, agree with/choose between, and feel certain that it steered you towards my vision and not away from it.
 4. 
 
+
+
 **Primary** (58)
 - [ ] Dreadnought (4)
 - [ ] The Rifleman (6)
@@ -42,6 +44,8 @@ I have ideas to improve the review room and facilitate faster, wider, and deeper
 - [ ] Stormmancer (11)
 - [ ] Dragoon (12)
 - [ ] Bombarder (28)
+
+
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1737633689
 https://steamcommunity.com/sharedfiles/filedetails/?id=3830131708
