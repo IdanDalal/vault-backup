@@ -17,6 +17,14 @@ Idi ruled a type-first restart (v3 and v4 were "VASTLY inferior to any of the re
 2. NO MAGIC SPAWNS: "most of the words are spawned within line-of-sight of the camera, and we're sleeping on opportunities to reveal words instead, or pan the camera to where they already appear, or hand-written as one continuous line... or other alternatives to magically create letters out of thin air." Every word arrives by a cause. Causes: the camera finds it (it was already there); light, a wipe, a peel or a mask reveals it; something writes, types, prints, stamps, carves, burns or projects it; it is assembled from parts that were on screen; it grows out of the previous word; it falls, flies or is thrown in from a visible source. A plain fade-in or pop-in counts as magic.
 3. VARIATION: "uniformly... boring, basic, uninspired, and wasteful of things we can control... latent space for creativity." Parallel items (lists, repeated words, the four arrows) each get a different treatment: direction, cause, timing, scale, camera.
 
+4. CAUSE MIX: no single arrival cause on more than half of a plate's lines (typing is the easy default; vary it).
+
+## Known engine trap (found by v5-t3, 2026-11-18)
+
+A shader time uniform or sampler at default/medium precision rounds song times near 120 s+ to 1/16 s, making appearances up to ~60 ms late. Use highp for every time value passed to a shader; check yours with a 60 fps strip around a word onset late in your window.
+
+Second trap (found by v5-bookends, commit 18149d7): content drawn on the half-res glow layer, and 2D layer canvases not reset each render, outlive their frames in long multi-worker renders (stale glows, ghost bubbles). FIXED in the engine 2026-11-21 (72b57a4): Chrome uploaded a stale texture when a 2D layer was cleared with nothing drawn; Layer2D.clear now leaves a 2 px near-transparent mark. Half-res layers are safe again. Rule kept: stills never show layer bugs; check any layer change with a VIDEO render that starts at least 5 s before the stretch.
+
 ## The film's shared systems (kit `app\src\scenes\_v5-film.ts`, built first by v5-t1; import it, never copy it)
 
 - The billing meter: the film's "five minutes of attention", counting down 5:00 → 0:00 over the song, designed as the AI's meter (mono label, draining bar). One object, one place, every plate (the outro owns its end).
