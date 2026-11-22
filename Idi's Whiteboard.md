@@ -24,7 +24,6 @@ I have ideas to improve the review room and facilitate faster, wider, and deeper
 
 **Primary** (58)
 - [ ] Dreadnought (4)
-- [ ] The Rifleman (6)
 - [ ] Huntsman (7)
 - [ ] Ravager (7)
 - [ ] Sharpshooter (7)
@@ -44,7 +43,6 @@ I have ideas to improve the review room and facilitate faster, wider, and deeper
 - [ ] Blademaster (4)
 - [ ] Electro Wizard (9)
 - [ ] Kinetomancer (11)
-- [ ] Stormmancer (11)
 - [ ] Dragoon (12)
 - [ ] Bombarder (28)
 
