@@ -4,15 +4,16 @@ Visual typography/text art ideas:
 3. Gaussian splat look
 4. Hologram look
 5. Matrix-style code look
-6. Sculpting a cube-shaped block
-7. Laser carving/cutting
-8. Explosions?
-9. Smoking/burning embers
-10. Many small rocks placed like an SOS on a deserted island
-11. Plane trails in the sky
-12. waves on the beach receding and revealing text in some form. One simple, basic, and somewhat "silly" way is seashells arranged/placed in shapes of letters. One advanced, complex, and possibly impossible way is some sort of 3D-parllax-mapping technique that makes certain areas of sand/mud to form shapes of letters.
-13. Redacted documents
-14. 
+6. Tilt-shift miniature look
+7. Sculpting a cube-shaped block
+8. Laser carving/cutting
+9. Explosions?
+10. Smoking/burning embers
+11. Many small rocks placed like an SOS on a deserted island
+12. Plane trails in the sky
+13. waves on the beach receding and revealing text in some form. One simple, basic, and somewhat "silly" way is seashells arranged/placed in shapes of letters. One advanced, complex, and possibly impossible way is some sort of 3D-parllax-mapping technique that makes certain areas of sand/mud to form shapes of letters.
+14. Redacted documents
+15. 
 
 I have ideas to improve the review room and facilitate faster, wider, and deeper communication of information between us:
 1. Multiple choice questions: you can generate many kinds of questions with long, detailed answers as A/B/C/etc. and I tap one of them. 
