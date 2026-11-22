@@ -1,3 +1,4 @@
+Visual typography/text art ideas:
 1. Sand on a speaker
 2. Molten metal flowing like lava in a carved casting plate
 3. Gaussian splat look
