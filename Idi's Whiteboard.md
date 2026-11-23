@@ -11,9 +11,9 @@ Visual typography/text art ideas:
 10. Smoking/burning embers
 11. Many small rocks placed like an SOS on a deserted island
 12. Plane trails in the sky
-13. waves on the beach receding and revealing text in some form. One simple, basic, and somewhat "silly" way is seashells arranged/placed in shapes of letters. One advanced, complex, and possibly impossible way is some sort of 3D-parllax-mapping technique that makes certain areas of sand/mud to form shapes of letters.
+13. Waves on the beach receding and revealing text in some form. One simple, basic, and somewhat "silly" way is seashells arranged/placed in shapes of letters. One advanced, complex, and possibly impossible way is some sort of 3D-parllax-mapping technique that makes certain areas of sand/mud to form shapes of letters.
 14. Redacted documents
-15. words printed/etched/whatever on objects like a ball, a cube, etc.
+15. Words printed/etched/whatever on objects like a ball, a cube, etc.
 
 I have ideas to improve the review room and facilitate faster, wider, and deeper communication of information between us:
 1. Multiple choice questions: you can generate many kinds of questions with long, detailed answers as A/B/C/etc. and I tap one of them. 
