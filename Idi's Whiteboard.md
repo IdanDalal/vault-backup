@@ -1,27 +1,7 @@
-Visual typography/text art ideas:
-1. Sand on a speaker
-2. Molten metal flowing like lava in a carved casting plate
-3. Gaussian splat look
-4. Hologram look
-5. Matrix-style code look
-6. Tilt-shift miniature look
-7. Sculpting a cube-shaped block
-8. Laser carving/cutting
-9. Explosions?
-10. Smoking/burning embers
-11. Many small rocks placed like an SOS on a deserted island
-12. Plane trails in the sky
-13. Waves on the beach receding and revealing text in some form. One simple, basic, and somewhat "silly" way is seashells arranged/placed in shapes of letters. One advanced, complex, and possibly impossible way is some sort of 3D-parllax-mapping technique that makes certain areas of sand/mud to form shapes of letters.
-14. Redacted documents
-15. Words printed/etched/whatever on objects like a ball, a cube, etc.
 
-I wrote A LOT of feedback for you on each of the 14 questions, andI have ideas to improve the review room and facilitate faster, wider, and deeper communication of information between us:
-1. Multiple choice questions: you can generate many kinds of questions with long, detailed answers as A/B/C/etc. and I tap one of them. 
-2. Open ended questions/prompts: you can generate many kinds of questions for me to make it easier for me to write my next prompt.
-3. Sliders: you can generate many kinds of sliders, but not the "number-only" kind like the ones in the React section of the review room. Either text-only or text-and-number - meaning, instead of me deciding which number to choose based on an internal monologue you're unaware of and might misinterpret, I'd rather tap options that I can read, agree with/choose between, and feel certain that it steered you towards my vision and not away from it.
-4. More granular/modular/precise segmentation - meaning, no more 9-35 second videos with one textbox. Instead, make structural changes according to all the feedback I provided in the 14 textboxes to make the next round easier and quicker for me to review.
 
-HH
+
+
 
 **Primary** (58)
 - [ ] Dreadnought (4)
