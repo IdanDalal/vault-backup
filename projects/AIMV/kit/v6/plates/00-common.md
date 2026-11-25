@@ -47,3 +47,11 @@ Matrix code (open), tilt-shift miniature (class, verse 4), sculpted cube (kitche
 5. The lead reads your sweep and runs a blind critic; a fix round follows; then Idi sees v6 beside v5 per beat.
 
 Final reply to the lead: at most 100 words, once, after the report is committed.
+
+## Lessons from Games and Fact (three blind-critic rounds, 2026-11-25). Build these in from the start.
+
+1. **Line bands never overlap**: an incoming lyric line never builds inside a band the outgoing line or its debris still occupies; alternate bands or separate them in depth. Measure per line change (glyph boxes of both lines) and drive overlap frames to 0. This produced most critic findings in every round.
+2. **Nothing appears or vanishes in 1-2 frames**: words, debris, toasts, HUD readouts and signs travel visibly for 8+ frames (check fast moments at 30 or 60 fps).
+3. **The meter is sacred**: nothing covers the billing meter or its label; the HUD and lyric lines keep 3 % margin from each other.
+4. **Every sung word whole, inside the frame with 5 % margin at rest, readable on its beat** (no dark-on-dark, no word garbled by its own exit while still sung).
+5. **Colour: soft, never grey**: warm whites and teal saturation in every stretch; critics flag teal-on-grey stretches as dull.
