@@ -8,7 +8,7 @@ earmark_pct: 0
 earmark_for: ""
 status: active
 shares: 5
-last_price: 313.55
+last_price: 301.08
 conviction: "Custom AI silicon + networking chips \u2014 everyone else's Nvidia"
 cut_reason: ""
 reentry_trigger: ""
