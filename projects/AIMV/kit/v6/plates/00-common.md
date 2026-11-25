@@ -55,3 +55,4 @@ Final reply to the lead: at most 100 words, once, after the report is committed.
 3. **The meter is sacred**: nothing covers the billing meter or its label; the HUD and lyric lines keep 3 % margin from each other.
 4. **Every sung word whole, inside the frame with 5 % margin at rest, readable on its beat** (no dark-on-dark, no word garbled by its own exit while still sung).
 5. **Colour: soft, never grey**: warm whites and teal saturation in every stretch; critics flag teal-on-grey stretches as dull.
+6. **The overlap check covers every pair of lit glyph boxes on screen**, rows of the same sung line included (chorus 2 passed a between-lines check and still stamped two rows of one line over each other).
