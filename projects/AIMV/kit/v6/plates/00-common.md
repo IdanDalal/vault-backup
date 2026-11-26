@@ -56,3 +56,4 @@ Final reply to the lead: at most 100 words, once, after the report is committed.
 4. **Every sung word whole, inside the frame with 5 % margin at rest, readable on its beat** (no dark-on-dark, no word garbled by its own exit while still sung).
 5. **Colour: soft, never grey**: warm whites and teal saturation in every stretch; critics flag teal-on-grey stretches as dull.
 6. **The overlap check covers every pair of lit glyph boxes on screen**, rows of the same sung line included (chorus 2 passed a between-lines check and still stamped two rows of one line over each other).
+7. **Words ignite, never wipe**: a word lights whole (brightness ramp over 4-6 frames) or by a sweep that is visibly a light; a hard-edged mask sliding across letters reads as a wipe ("TION" then "ESTION"). Fast moves between stations last 0.35 s+ and the outgoing words leave by their own exit; critics call shorter moves swipes or cuts. Placeholder shapes (a hard dark box behind a word) never ship.
