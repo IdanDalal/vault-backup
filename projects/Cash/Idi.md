@@ -1,6 +1,6 @@
 ---
 total_usd: 18026.23
-portfolio_value: 15525.3
+portfolio_value: 15321.3
 tags:
   - cash
 ---
