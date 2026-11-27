@@ -25,7 +25,6 @@
 - [ ] Electro Wizard (9)
 - [ ] Kinetomancer (11)
 - [ ] Dragoon (12)
-- [ ] Bombarder (28)
 
 
 
